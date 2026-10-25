@@ -230,9 +230,9 @@ def notify(channel):
         elif channel=='github_issue':
             repo=os.environ.get('GITHUB_REPOSITORY');token=os.environ.get('GH_TOKEN')
             if not repo or not token:raise RuntimeError('GitHub repository/token is missing.')
-            recipient=os.environ.get('GITHUB_NOTIFY_USER','').strip()
+            recipient=os.environ.get('COIN_NOTIFY_USER','').strip()
             if recipient and not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?',recipient):
-                raise ValueError('GITHUB_NOTIFY_USER must be a GitHub username without @.')
+                raise ValueError('COIN_NOTIFY_USER must be a GitHub username without @.')
             if recipient:body=f'@{recipient}\n\n'+body
             headers={'Authorization':f'Bearer {token}','Accept':'application/vnd.github+json'}
             url=f'https://api.github.com/repos/{repo}/issues'

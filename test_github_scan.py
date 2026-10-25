@@ -65,7 +65,7 @@ class CloudChecks(unittest.TestCase):
             with self.subTest(recipient=recipient,already_sent=already_sent),TemporaryDirectory() as tmp,\
                  patch.object(cloud,'STATE',Path(tmp)/'state.json'),\
                  patch.dict('os.environ',{'GITHUB_REPOSITORY':'owner/repo','GH_TOKEN':'synthetic-token',
-                                          'GITHUB_NOTIFY_USER':recipient}):
+                                          'COIN_NOTIFY_USER':recipient}):
                 state=cloud.new_state();cloud.update_state(state,{'MEXC':{'candidates':[candidate()]}},0)
                 marker=f"<!-- coin-scanner:{state['pending'][0]['id']} -->"
                 cloud.save(cloud.STATE,state)
@@ -83,7 +83,7 @@ class CloudChecks(unittest.TestCase):
     def test_invalid_issue_recipient_keeps_pending_without_sending(self):
         with TemporaryDirectory() as tmp,patch.object(cloud,'STATE',Path(tmp)/'state.json'),\
              patch.dict('os.environ',{'GITHUB_REPOSITORY':'owner/repo','GH_TOKEN':'synthetic-token',
-                                      'GITHUB_NOTIFY_USER':'bad-user\n@another-user'}):
+                                      'COIN_NOTIFY_USER':'bad-user\n@another-user'}):
             state=cloud.new_state();cloud.update_state(state,{'MEXC':{'candidates':[candidate()]}},0)
             cloud.save(cloud.STATE,state)
             with patch.object(cloud,'http_json') as request:

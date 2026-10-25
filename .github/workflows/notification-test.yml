@@ -18,15 +18,15 @@ jobs:
       - name: Send clearly marked test mention from the scanner bot
         env:
           GH_TOKEN: ${{ github.token }}
-          GITHUB_NOTIFY_USER: ${{ vars.GITHUB_NOTIFY_USER }}
+          COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
         run: |
           python3 - <<'PY'
           import json, os, re
           from urllib.request import Request, urlopen
 
-          recipient = os.environ['GITHUB_NOTIFY_USER'].strip()
+          recipient = os.environ['COIN_NOTIFY_USER'].strip()
           if not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?', recipient):
-              raise ValueError('Set GITHUB_NOTIFY_USER to a GitHub username without @.')
+              raise ValueError('Set COIN_NOTIFY_USER to a GitHub username without @.')
           url = 'https://api.github.com/repos/' + os.environ['GITHUB_REPOSITORY'] + '/issues'
           headers = {'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
                      'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'}
