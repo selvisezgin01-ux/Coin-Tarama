@@ -1,0 +1,63 @@
+name: Coin Tarama Meme — 15 dakika birikim
+
+on:
+  schedule:
+    - cron: '2-57/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: coin-tarama-meme-state
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PYTHONUTF8: '1'
+      SCANNER_STATE_BRANCH: scanner-state-meme
+      BUBBLEMAPS_API_KEY: ${{ secrets.BUBBLEMAPS_API_KEY }}
+      MEME_RPC_SOLANA: ${{ secrets.MEME_RPC_SOLANA }}
+      MEME_RPC_ETHEREUM: ${{ secrets.MEME_RPC_ETHEREUM }}
+      MEME_RPC_BNB: ${{ secrets.MEME_RPC_BNB }}
+      MEME_RPC_ROBINHOOD: ${{ secrets.MEME_RPC_ROBINHOOD }}
+      MEME_RPC_HYPEREVM: ${{ secrets.MEME_RPC_HYPEREVM }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Restore independent meme state
+        run: python meme_scan.py pull-state
+      - name: Read public data and evaluate closed 15-minute setups
+        run: python meme_scan.py scan
+      - name: Save before notification
+        run: python meme_scan.py push-state
+      - name: Notify only candidates with required evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
+        run: python meme_scan.py notify
+      - name: Save notification state
+        if: ${{ always() && hashFiles('cloud_output_meme/parent.txt') != '' && hashFiles('cloud_output_meme/state.json') != '' }}
+        run: python meme_scan.py push-state
+      - name: Preserve report and data coverage
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: coin-tarama-meme-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            cloud_output_meme/report.md
+            cloud_output_meme/summary.json
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Mark source failures
+        if: ${{ always() && hashFiles('cloud_output_meme/summary.json') != '' }}
+        run: python meme_scan.py check-status

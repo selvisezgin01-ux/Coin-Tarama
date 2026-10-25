@@ -1,0 +1,71 @@
+{
+  "version": "coin-tarama-meme-v1",
+  "status": "experimental discovery and paper observation, no orders",
+  "networks": {
+    "solana": {"name": "Solana", "gecko": "solana", "dex": "solana", "security": "rugcheck", "chain_id": null},
+    "ethereum": {"name": "Ethereum", "gecko": "eth", "dex": "ethereum", "security": "goplus", "chain_id": "1", "rpc": "https://ethereum-rpc.publicnode.com"},
+    "bnb": {"name": "BNB Chain", "gecko": "bsc", "dex": "bsc", "security": "goplus", "chain_id": "56", "rpc": "https://bsc-rpc.publicnode.com"},
+    "robinhood": {"name": "Robinhood", "gecko": "robinhood", "dex": "robinhood", "security": "goplus", "chain_id": "4663", "rpc": "https://rpc.mainnet.chain.robinhood.com"},
+    "hyperevm": {"name": "HyperEVM (HYPE)", "gecko": "hyperevm", "dex": "hyperevm", "security": "goplus", "chain_id": "999", "rpc": "https://rpc.hyperliquid.xyz/evm"}
+  },
+  "discovery": {
+    "new_pool_pages_per_network": 1,
+    "trending_pools_per_network": true,
+    "max_watch_per_network": 120,
+    "max_ohlcv_per_network_per_run": 1,
+    "max_security_checks_per_network_per_run": 1,
+    "gecko_minimum_request_interval_seconds": 12.5,
+    "api_timeout_seconds": 15,
+    "note": "Bounded discovery, not the whole market. Profile/boost feeds are supplementary and never a positive scoring signal."
+  },
+  "market": {
+    "min_pool_age_minutes": 60,
+    "max_pool_age_hours": 24,
+    "liquidity_min_usd": 10000,
+    "valuation_min_usd": 25000,
+    "valuation_max_usd": 5000000,
+    "liquidity_valuation_min_ratio": 0.03,
+    "volume15_min_usd": 1000,
+    "trades15_min": 12,
+    "buy_count_fraction_min": 0.6,
+    "liquidity_loss_max_pct": 20,
+    "ohlcv_staleness_max_minutes": 20,
+    "setup_bars": 3,
+    "accumulation_range_max_pct": 20,
+    "accumulation_net_change_max_pct": 10,
+    "accumulation_last_first_volume_max_ratio": 0.8,
+    "accumulation_close_position_min": 0.55,
+    "breakout_volume_ratio_min": 1.5,
+    "breakout_close_position_min": 0.65,
+    "breakout_extension_max_pct": 12,
+    "live_price_drift_max_pct": 15,
+    "max_previous_one_bar_gain_pct": 60,
+    "max_pool_peak_drawdown_pct": 25
+  },
+  "risk": {
+    "holder_count_min": 75,
+    "single_unexcluded_owner_max_pct_total_supply": 10,
+    "top10_unexcluded_owner_max_pct_total_supply": 35,
+    "largest_connected_cluster_max_pct": 20,
+    "developer_holdings_max_pct": 8,
+    "evm_tax_max_fraction": 0.05,
+    "developer_transfer_window_minutes": 45,
+    "max_developer_rpc_checks_per_network_per_run": 1,
+    "rpc_log_page_blocks": 1000,
+    "rpc_log_max_pages": 32,
+    "solana_signature_limit": 40,
+    "map_max_age_minutes": 15,
+    "security_cache_max_minutes": 15,
+    "note": "No outgoing transfers in a fully scanned 45-minute window is not lifetime no-sale proof. Unknown creator, incomplete history, missing maps or safety fields never becomes a verified candidate."
+  },
+  "alerts": {
+    "tiers": ["qualified"],
+    "single_alert_per_chain_token": true,
+    "notify_first_breakout_after_accumulation": true
+  },
+  "measurement": {
+    "horizons_minutes": [15, 30, 60, 180, 360, 1440],
+    "max_endpoint_observation_delay_minutes": 20,
+    "note": "Actual observed provider price and time; not a bid/ask execution price. Missing/late endpoints stay unknown. Highest observed price is not a complete intrabar maximum."
+  }
+}
