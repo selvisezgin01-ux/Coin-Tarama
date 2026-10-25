@@ -6,6 +6,8 @@ Solana, Ethereum, BNB Chain, Robinhood/Pons ve HyperEVM için 15 dakikalık biri
 
 GoPlus/RugCheck ile otomatik risk ön elemesi yapılır; **Bubblemaps haritasını kullanıcı manuel kontrol eder**. Bildirimler harita onayı bekleyen ön eleme adaylarıdır. Kritik kontrat/dağılım/geliştirici verisi eksikse aday bildirilmez. GMGN/Bubblemaps API anahtarı gerekmez; GMGN'nin tüm özel cüzdan etiketleri sağlanmaz. Likidite kilidi yardımcı bilgidir. İlk Meme deneyi `scanner-state-meme` dalında korunur; bu güncelleme Coin Tarama 2/3'ü değiştirmez.
 
+Ek sosyal gözlem modülü, ilk gözlemden sonraki X bağlantı değişikliklerini ve DexScreener topluluk devri/CTO kayıtlarını raporlar. Geçmiş tüm kullanıcı adı değişiklikleri ve geliştiricinin sattığı bu verilerle kanıtlanmaz. Önceden bildirilen adayda yeni bir sosyal değişiklik görülürse ek uyarı Issue'su açılır; veri eksikliği temiz geçmiş sayılmaz.
+
 ## İki ayrı çalışan sürüm
 
 **Coin Tarama 2** önceki V3 formülüyle, **Coin Tarama 3** yeni kırılım/tutunma gruplarıyla ayrı çalışır. İkisi de MEXC ve OKX'i dört saatte bir tarar. Bildirim başlıklarında sürüm adı görünür. Kalıcı kayıtlar ayrı dallardadır; ilk gerçek gözlemden sonraki 12/24/48 saat ölçümleri raporlara eklenir. Aynı coin grup değiştirdiğinde bağımsız ikinci performans örneği olmaz.

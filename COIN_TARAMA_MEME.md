@@ -52,6 +52,14 @@ Genel RPC'ler sınırlı olabilir. İhtiyaç halinde aynı bölüme `MEME_RPC_SO
 
 ## Ölçüm ve veri kapsamı
 
+### X bağlantısı ve CTO uyarıları
+
+Ek `meme_social_watch.py` modülü DexScreener'ın ağ + tam kontrat + seçili havuz eşleşen metadatasını okur. Ağ başına en çok 20 token sırayla yenilenir; yeni adaylar önceliklidir. İlk ve güncel X bağlantıları ile yalnız gözlem başladıktan sonraki değişiklik sayısı tutulur. Aynı hesabın kalıcı X kullanıcı kimliği veya sahibinin değişmesi doğrulanmaz; geçmiş kullanıcı adı değişikliği sayısı **bilinmiyor** kalır. Profil bağlantısı ile X topluluğu bağlantısı ayrılır. Eksik/malformed yanıt hesap silinmiş gibi yorumlanmaz; X/Twitter alanı dışındaki bağlantılar izlenmez ve tokenin verdiği adrese ağ isteği gönderilmez.
+
+DexScreener'ın sınırlı son topluluk devri akışında eşleşme görülürse **CTO/topluluk devri kaydı** uyarısı eklenir. Kayıt geliştiricinin sattığını, on-chain sahipliğin değiştiğini veya dump geleceğini kanıtlamaz. Akışta görünmemesi CTO olmadığı anlamına gelmez. Geliştirici token çıkışı, likidite kaybı ve teknik güvenlik kontrolleri kendi ayrı kanıtlarıyla değerlendirilir.
+
+İlk aday Issue'sunda sosyal verinin kapsamı/bilinmeyen geçmiş açıkça yer alır. Önceden bildirilen adayda sonradan X bağlantısı değişikliği veya yeni görülen CTO kaydı varsa ayrı, tekrar önleyici işaretli bir uyarı Issue'su açılır. Sadece ilk X gözlemi için uyarı gönderilmez. Bu ek modül seçim puanını, mum kurallarını veya geçmiş giriş fiyatlarını değiştirmez; kendi tasarım karmasıyla sosyal gözlem geçmişini korur. Sosyal veri eksikliği raporda gösterilir, teknik risk eksikliğini geçersiz kılmaz.
+
 İlk inceleme fiyatı ile daha sonra bildirim yapılırsa o an yeniden okunan teyitli fiyat ayrı referanslardır. 15/30/60 dakika, 3/6/24 saat hedefleri sonraki gerçek gözlemle ölçülür. Tabloda hedefe gecikme ayrıca gösterilir; tam o dakikanın mum getirisiymiş gibi sunulmaz. Pencere kaçarsa veya fiyat kaybolursa getiri bilinmiyor kalır. Likiditesi kaybolan/ölçülemeyen tokenler veri kümesinden sessizce çıkarılmaz. Aynı ağ/kontrat, yeni havuz veya birikimden kırılıma geçişle yeni bağımsız coin sayılmaz.
 
 V2 geçişi açıkça yeni dalda başlar. Eski kayıtların havuz yaşı, ilk görülme zamanı ve likidite/fiyat gözlemleri korunur; eski setup/risk sonuçları yeni sürümün sonucu gibi taşınmaz. Önceki sürümde ölçüm/bildirim kaydı varsa geçiş sessizce sıfırlamak yerine durur; ayrı ölçüm taşıma tasarımı gerekir. Kaynak dal/commit/tasarım karması yeni durum dosyasında yazılır.

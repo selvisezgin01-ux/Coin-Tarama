@@ -38,13 +38,15 @@ jobs:
         run: python meme_scan.py pull-state
       - name: Read public data and evaluate closed 15-minute setups
         run: python meme_scan.py scan
+      - name: Observe public X links and community takeover notices
+        run: python meme_social_watch.py observe
       - name: Save before notification
         run: python meme_scan.py push-state
       - name: Notify preliminary candidates for manual map review
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
-        run: python meme_scan.py notify
+        run: python meme_social_watch.py notify
       - name: Save notification state
         if: ${{ always() && hashFiles('cloud_output_meme/parent.txt') != '' && hashFiles('cloud_output_meme/state.json') != '' }}
         run: python meme_scan.py push-state
