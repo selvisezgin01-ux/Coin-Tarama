@@ -1,0 +1,836 @@
+{
+  "version": 1,
+  "rules_fingerprint": "dec8ec5333c785f60a104f211aafb2d0b3a6343581c89e2ee198890de649be78",
+  "venues": {
+    "OKX": {
+      "active": [],
+      "last_alert": {},
+      "ever_seen": [],
+      "latest": {
+        "exchange": "OKX",
+        "archive": false,
+        "feature_cutoff_ms": 1792958400000,
+        "observed_ms": 1792963168009,
+        "universe_count": 446,
+        "prefilter_count": 312,
+        "analyzed_count": 308,
+        "candidates": [],
+        "limitation": "V4 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume."
+      }
+    },
+    "MEXC": {
+      "active": [
+        "CAPUSDT",
+        "STONKSUSDT",
+        "TAUSDT",
+        "GBCKUSDT"
+      ],
+      "last_alert": {
+        "CAPUSDT": 1792963424958,
+        "STONKSUSDT": 1792963424958,
+        "TAUSDT": 1792963424958,
+        "GBCKUSDT": 1792963424958
+      },
+      "ever_seen": [
+        "CAPUSDT",
+        "GBCKUSDT",
+        "STONKSUSDT",
+        "TAUSDT"
+      ],
+      "latest": {
+        "exchange": "MEXC",
+        "archive": false,
+        "feature_cutoff_ms": 1792958400000,
+        "observed_ms": 1792963395327,
+        "universe_count": 1251,
+        "prefilter_count": 1066,
+        "analyzed_count": 1033,
+        "candidates": [
+          {
+            "open": 0.10708,
+            "high": 0.10997,
+            "low": 0.09469,
+            "close": 0.10709,
+            "volume": 2150135.96,
+            "close_ms": 1792958400000,
+            "quote_volume": 228358.16159,
+            "atr": 0.006416266138997318,
+            "ema20": 0.08224563726451127,
+            "ema50": 0.07670646119360686,
+            "return24_pct": 36.368266904367765,
+            "return72_pct": 55.04560590705081,
+            "relative24_pct_points": 36.28365821922599,
+            "ema20_extension_atr": 3.8720904334824255,
+            "close_position": 0.8115183246073303,
+            "quote_volume24": 436610.017,
+            "nonzero24": 6.0,
+            "higher_lows": true,
+            "breakout_now": false,
+            "breakout_age_bars": 7.0,
+            "breakout_level": 0.07378,
+            "breakout_volume_ratio": 2.281380811199252,
+            "breakout_low": 0.06981,
+            "anchor_atr": 0.002846713040377643,
+            "breakout_open_ms": 1792843200000.0,
+            "hold_low": 0.0738,
+            "peak_since_breakout": 0.11321,
+            "peak_drawdown_pct": 5.4058828725377595,
+            "peak_drawdown_atr": 0.9538257714721889,
+            "invalidation_level": 0.06909832173990559,
+            "invalidation_distance_pct": 35.47640140077918,
+            "gate_history": true,
+            "gate_anchor": true,
+            "gate_trend": true,
+            "gate_holds_breakout": true,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": false,
+            "continuation": true,
+            "qualified": true,
+            "stage": "continuation",
+            "sar_below": true,
+            "strength_score": 100,
+            "decision_ms": 1792958400000,
+            "rsi14": 89.51609730975389,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "CAPUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1792963395327,
+            "liquidity_band": "main",
+            "mid_price": 0.10956,
+            "spread_pct": 0.12778386272362288,
+            "warnings": [
+              "24 saatlik yükseliş yüksek",
+              "72 saatlik yükseliş yüksek",
+              "ortalamadan uzak",
+              "yapı bozulma mesafesi geniş"
+            ],
+            "failed_common_gates": [],
+            "paper_controls": [
+              {
+                "symbol": "CNPYUSDT",
+                "entry_price": 0.24305
+              },
+              {
+                "symbol": "BKNUSDT",
+                "entry_price": 0.090445
+              },
+              {
+                "symbol": "USELESSUSDT",
+                "entry_price": 0.1700445
+              }
+            ],
+            "paper_btc_price": 80467.435
+          },
+          {
+            "open": 0.0011715,
+            "high": 0.0022234,
+            "low": 0.0011263,
+            "close": 0.0022116,
+            "volume": 19763173.35,
+            "close_ms": 1792958400000,
+            "quote_volume": 31072.9538651,
+            "atr": 0.00023013017652708588,
+            "ema20": 0.0010212206999198764,
+            "ema50": 0.0007842952747595974,
+            "return24_pct": 107.17564402810305,
+            "return72_pct": 341.3490321293156,
+            "relative24_pct_points": 107.09103534296128,
+            "ema20_extension_atr": 5.172634541215929,
+            "close_position": 0.9892443715249296,
+            "quote_volume24": 97573.1399547,
+            "nonzero24": 6.0,
+            "higher_lows": true,
+            "breakout_now": true,
+            "breakout_age_bars": 0.0,
+            "breakout_level": 0.0014508,
+            "breakout_volume_ratio": 2.523876035288734,
+            "breakout_low": 0.0011263,
+            "anchor_atr": 0.00023013017652708588,
+            "breakout_open_ms": 1792944000000.0,
+            "hold_low": 0.0022116,
+            "peak_since_breakout": 0.0022234,
+            "peak_drawdown_pct": 0.530718719078882,
+            "peak_drawdown_atr": 0.05127532676537493,
+            "invalidation_level": 0.0009795674558682286,
+            "invalidation_distance_pct": 55.707747519070885,
+            "gate_history": true,
+            "gate_anchor": true,
+            "gate_trend": true,
+            "gate_holds_breakout": true,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": true,
+            "continuation": false,
+            "qualified": true,
+            "stage": "new_breakout",
+            "sar_below": true,
+            "strength_score": 100,
+            "decision_ms": 1792958400000,
+            "rsi14": 83.6879221170429,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "STONKSUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1792963395327,
+            "liquidity_band": "thin",
+            "mid_price": 0.0020883,
+            "spread_pct": 1.407843700617715,
+            "warnings": [
+              "24 saatlik yükseliş yüksek",
+              "72 saatlik yükseliş yüksek",
+              "ortalamadan uzak",
+              "yapı bozulma mesafesi geniş",
+              "düşük hacim",
+              "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
+              "makas geniş"
+            ],
+            "failed_common_gates": [],
+            "paper_controls": [
+              {
+                "symbol": "TMXUSDT",
+                "entry_price": 0.006313
+              },
+              {
+                "symbol": "XCXUSDT",
+                "entry_price": 0.00221355
+              },
+              {
+                "symbol": "SOPHUSDT",
+                "entry_price": 0.0014375
+              }
+            ],
+            "paper_btc_price": 80467.435
+          },
+          {
+            "open": 0.0581,
+            "high": 0.06166,
+            "low": 0.05798,
+            "close": 0.06158,
+            "volume": 317762.19,
+            "close_ms": 1792958400000,
+            "quote_volume": 19115.1728,
+            "atr": 0.002199986167773117,
+            "ema20": 0.052631503019491405,
+            "ema50": 0.04947630046004914,
+            "return24_pct": 22.59605813259009,
+            "return72_pct": 23.307969563476185,
+            "relative24_pct_points": 22.511449447448317,
+            "ema20_extension_atr": 4.067524201557366,
+            "close_position": 0.9782608695652183,
+            "quote_volume24": 84119.85482000001,
+            "nonzero24": 6.0,
+            "higher_lows": true,
+            "breakout_now": true,
+            "breakout_age_bars": 0.0,
+            "breakout_level": 0.05877,
+            "breakout_volume_ratio": 1.8578161637323383,
+            "breakout_low": 0.05798,
+            "anchor_atr": 0.002199986167773117,
+            "breakout_open_ms": 1792944000000.0,
+            "hold_low": 0.06158,
+            "peak_since_breakout": 0.06166,
+            "peak_drawdown_pct": 0.12974375608173494,
+            "peak_drawdown_atr": 0.03636386499692169,
+            "invalidation_level": 0.05252000345805672,
+            "invalidation_distance_pct": 14.712563400362589,
+            "gate_history": true,
+            "gate_anchor": true,
+            "gate_trend": true,
+            "gate_holds_breakout": true,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": true,
+            "continuation": false,
+            "qualified": true,
+            "stage": "new_breakout",
+            "sar_below": true,
+            "strength_score": 80,
+            "decision_ms": 1792958400000,
+            "rsi14": 91.05306233194808,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "TAUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1792963395327,
+            "liquidity_band": "thin",
+            "mid_price": 0.06203,
+            "spread_pct": 0.1934547799451911,
+            "warnings": [
+              "ortalamadan uzak",
+              "yapı bozulma mesafesi geniş",
+              "düşük hacim",
+              "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi"
+            ],
+            "failed_common_gates": [],
+            "paper_controls": [
+              {
+                "symbol": "VINEUSDT",
+                "entry_price": 0.007280999999999999
+              },
+              {
+                "symbol": "ATHUSDT",
+                "entry_price": 0.0056365
+              },
+              {
+                "symbol": "TOSHIUSDT",
+                "entry_price": 0.000106055
+              }
+            ],
+            "paper_btc_price": 80467.435
+          },
+          {
+            "open": 0.004839,
+            "high": 0.004879,
+            "low": 0.004825,
+            "close": 0.004866,
+            "volume": 2131225.78,
+            "close_ms": 1792958400000,
+            "quote_volume": 10355.263353,
+            "atr": 7.271395257283832e-05,
+            "ema20": 0.004694141753525286,
+            "ema50": 0.004561251083733886,
+            "return24_pct": 2.5068464293237724,
+            "return72_pct": 7.9174983366600005,
+            "relative24_pct_points": 2.4222377441819987,
+            "ema20_extension_atr": 2.363483766097865,
+            "close_position": 0.7592592592592566,
+            "quote_volume24": 77451.313831,
+            "nonzero24": 6.0,
+            "higher_lows": false,
+            "breakout_now": false,
+            "breakout_age_bars": 1.0,
+            "breakout_level": 0.004829,
+            "breakout_volume_ratio": 1.9199203232434738,
+            "breakout_low": 0.004737,
+            "anchor_atr": 7.415348738613363e-05,
+            "breakout_open_ms": 1792929600000.0,
+            "hold_low": 0.004825,
+            "peak_since_breakout": 0.004879,
+            "peak_drawdown_pct": 0.266448042631684,
+            "peak_drawdown_atr": 0.17878274443928427,
+            "invalidation_level": 0.004705461628153466,
+            "invalidation_distance_pct": 3.2991856113138818,
+            "gate_history": true,
+            "gate_anchor": true,
+            "gate_trend": true,
+            "gate_holds_breakout": true,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": true,
+            "continuation": false,
+            "qualified": true,
+            "stage": "new_breakout",
+            "sar_below": true,
+            "strength_score": 55,
+            "decision_ms": 1792958400000,
+            "rsi14": 68.33951057048483,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "GBCKUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1792963395327,
+            "liquidity_band": "thin",
+            "mid_price": 0.0048565,
+            "spread_pct": 0.5559559353443863,
+            "warnings": [
+              "düşük hacim",
+              "makas geniş"
+            ],
+            "failed_common_gates": [],
+            "paper_controls": [
+              {
+                "symbol": "VOWUSDT",
+                "entry_price": 0.03313
+              },
+              {
+                "symbol": "PXPUSDT",
+                "entry_price": 0.018904999999999998
+              },
+              {
+                "symbol": "ETCUSDT",
+                "entry_price": 7.515
+              }
+            ],
+            "paper_btc_price": 80467.435
+          }
+        ],
+        "limitation": "V4 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume."
+      }
+    }
+  },
+  "pending": [
+    {
+      "id": "cba2fe09dee3d07e07449cc7",
+      "created_ms": 1792963424958,
+      "candidates": [
+        {
+          "open": 0.10708,
+          "high": 0.10997,
+          "low": 0.09469,
+          "close": 0.10709,
+          "volume": 2150135.96,
+          "close_ms": 1792958400000,
+          "quote_volume": 228358.16159,
+          "atr": 0.006416266138997318,
+          "ema20": 0.08224563726451127,
+          "ema50": 0.07670646119360686,
+          "return24_pct": 36.368266904367765,
+          "return72_pct": 55.04560590705081,
+          "relative24_pct_points": 36.28365821922599,
+          "ema20_extension_atr": 3.8720904334824255,
+          "close_position": 0.8115183246073303,
+          "quote_volume24": 436610.017,
+          "nonzero24": 6.0,
+          "higher_lows": true,
+          "breakout_now": false,
+          "breakout_age_bars": 7.0,
+          "breakout_level": 0.07378,
+          "breakout_volume_ratio": 2.281380811199252,
+          "breakout_low": 0.06981,
+          "anchor_atr": 0.002846713040377643,
+          "breakout_open_ms": 1792843200000.0,
+          "hold_low": 0.0738,
+          "peak_since_breakout": 0.11321,
+          "peak_drawdown_pct": 5.4058828725377595,
+          "peak_drawdown_atr": 0.9538257714721889,
+          "invalidation_level": 0.06909832173990559,
+          "invalidation_distance_pct": 35.47640140077918,
+          "gate_history": true,
+          "gate_anchor": true,
+          "gate_trend": true,
+          "gate_holds_breakout": true,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": false,
+          "continuation": true,
+          "qualified": true,
+          "stage": "continuation",
+          "sar_below": true,
+          "strength_score": 100,
+          "decision_ms": 1792958400000,
+          "rsi14": 89.51609730975389,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "CAPUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1792963395327,
+          "liquidity_band": "main",
+          "mid_price": 0.10956,
+          "spread_pct": 0.12778386272362288,
+          "warnings": [
+            "24 saatlik yükseliş yüksek",
+            "72 saatlik yükseliş yüksek",
+            "ortalamadan uzak",
+            "yapı bozulma mesafesi geniş"
+          ],
+          "failed_common_gates": [],
+          "paper_controls": [
+            {
+              "symbol": "CNPYUSDT",
+              "entry_price": 0.24305
+            },
+            {
+              "symbol": "BKNUSDT",
+              "entry_price": 0.090445
+            },
+            {
+              "symbol": "USELESSUSDT",
+              "entry_price": 0.1700445
+            }
+          ],
+          "paper_btc_price": 80467.435,
+          "arrival": "new"
+        },
+        {
+          "open": 0.0011715,
+          "high": 0.0022234,
+          "low": 0.0011263,
+          "close": 0.0022116,
+          "volume": 19763173.35,
+          "close_ms": 1792958400000,
+          "quote_volume": 31072.9538651,
+          "atr": 0.00023013017652708588,
+          "ema20": 0.0010212206999198764,
+          "ema50": 0.0007842952747595974,
+          "return24_pct": 107.17564402810305,
+          "return72_pct": 341.3490321293156,
+          "relative24_pct_points": 107.09103534296128,
+          "ema20_extension_atr": 5.172634541215929,
+          "close_position": 0.9892443715249296,
+          "quote_volume24": 97573.1399547,
+          "nonzero24": 6.0,
+          "higher_lows": true,
+          "breakout_now": true,
+          "breakout_age_bars": 0.0,
+          "breakout_level": 0.0014508,
+          "breakout_volume_ratio": 2.523876035288734,
+          "breakout_low": 0.0011263,
+          "anchor_atr": 0.00023013017652708588,
+          "breakout_open_ms": 1792944000000.0,
+          "hold_low": 0.0022116,
+          "peak_since_breakout": 0.0022234,
+          "peak_drawdown_pct": 0.530718719078882,
+          "peak_drawdown_atr": 0.05127532676537493,
+          "invalidation_level": 0.0009795674558682286,
+          "invalidation_distance_pct": 55.707747519070885,
+          "gate_history": true,
+          "gate_anchor": true,
+          "gate_trend": true,
+          "gate_holds_breakout": true,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": true,
+          "continuation": false,
+          "qualified": true,
+          "stage": "new_breakout",
+          "sar_below": true,
+          "strength_score": 100,
+          "decision_ms": 1792958400000,
+          "rsi14": 83.6879221170429,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "STONKSUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1792963395327,
+          "liquidity_band": "thin",
+          "mid_price": 0.0020883,
+          "spread_pct": 1.407843700617715,
+          "warnings": [
+            "24 saatlik yükseliş yüksek",
+            "72 saatlik yükseliş yüksek",
+            "ortalamadan uzak",
+            "yapı bozulma mesafesi geniş",
+            "düşük hacim",
+            "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
+            "makas geniş"
+          ],
+          "failed_common_gates": [],
+          "paper_controls": [
+            {
+              "symbol": "TMXUSDT",
+              "entry_price": 0.006313
+            },
+            {
+              "symbol": "XCXUSDT",
+              "entry_price": 0.00221355
+            },
+            {
+              "symbol": "SOPHUSDT",
+              "entry_price": 0.0014375
+            }
+          ],
+          "paper_btc_price": 80467.435,
+          "arrival": "new"
+        },
+        {
+          "open": 0.0581,
+          "high": 0.06166,
+          "low": 0.05798,
+          "close": 0.06158,
+          "volume": 317762.19,
+          "close_ms": 1792958400000,
+          "quote_volume": 19115.1728,
+          "atr": 0.002199986167773117,
+          "ema20": 0.052631503019491405,
+          "ema50": 0.04947630046004914,
+          "return24_pct": 22.59605813259009,
+          "return72_pct": 23.307969563476185,
+          "relative24_pct_points": 22.511449447448317,
+          "ema20_extension_atr": 4.067524201557366,
+          "close_position": 0.9782608695652183,
+          "quote_volume24": 84119.85482000001,
+          "nonzero24": 6.0,
+          "higher_lows": true,
+          "breakout_now": true,
+          "breakout_age_bars": 0.0,
+          "breakout_level": 0.05877,
+          "breakout_volume_ratio": 1.8578161637323383,
+          "breakout_low": 0.05798,
+          "anchor_atr": 0.002199986167773117,
+          "breakout_open_ms": 1792944000000.0,
+          "hold_low": 0.06158,
+          "peak_since_breakout": 0.06166,
+          "peak_drawdown_pct": 0.12974375608173494,
+          "peak_drawdown_atr": 0.03636386499692169,
+          "invalidation_level": 0.05252000345805672,
+          "invalidation_distance_pct": 14.712563400362589,
+          "gate_history": true,
+          "gate_anchor": true,
+          "gate_trend": true,
+          "gate_holds_breakout": true,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": true,
+          "continuation": false,
+          "qualified": true,
+          "stage": "new_breakout",
+          "sar_below": true,
+          "strength_score": 80,
+          "decision_ms": 1792958400000,
+          "rsi14": 91.05306233194808,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "TAUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1792963395327,
+          "liquidity_band": "thin",
+          "mid_price": 0.06203,
+          "spread_pct": 0.1934547799451911,
+          "warnings": [
+            "ortalamadan uzak",
+            "yapı bozulma mesafesi geniş",
+            "düşük hacim",
+            "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi"
+          ],
+          "failed_common_gates": [],
+          "paper_controls": [
+            {
+              "symbol": "VINEUSDT",
+              "entry_price": 0.007280999999999999
+            },
+            {
+              "symbol": "ATHUSDT",
+              "entry_price": 0.0056365
+            },
+            {
+              "symbol": "TOSHIUSDT",
+              "entry_price": 0.000106055
+            }
+          ],
+          "paper_btc_price": 80467.435,
+          "arrival": "new"
+        },
+        {
+          "open": 0.004839,
+          "high": 0.004879,
+          "low": 0.004825,
+          "close": 0.004866,
+          "volume": 2131225.78,
+          "close_ms": 1792958400000,
+          "quote_volume": 10355.263353,
+          "atr": 7.271395257283832e-05,
+          "ema20": 0.004694141753525286,
+          "ema50": 0.004561251083733886,
+          "return24_pct": 2.5068464293237724,
+          "return72_pct": 7.9174983366600005,
+          "relative24_pct_points": 2.4222377441819987,
+          "ema20_extension_atr": 2.363483766097865,
+          "close_position": 0.7592592592592566,
+          "quote_volume24": 77451.313831,
+          "nonzero24": 6.0,
+          "higher_lows": false,
+          "breakout_now": false,
+          "breakout_age_bars": 1.0,
+          "breakout_level": 0.004829,
+          "breakout_volume_ratio": 1.9199203232434738,
+          "breakout_low": 0.004737,
+          "anchor_atr": 7.415348738613363e-05,
+          "breakout_open_ms": 1792929600000.0,
+          "hold_low": 0.004825,
+          "peak_since_breakout": 0.004879,
+          "peak_drawdown_pct": 0.266448042631684,
+          "peak_drawdown_atr": 0.17878274443928427,
+          "invalidation_level": 0.004705461628153466,
+          "invalidation_distance_pct": 3.2991856113138818,
+          "gate_history": true,
+          "gate_anchor": true,
+          "gate_trend": true,
+          "gate_holds_breakout": true,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": true,
+          "continuation": false,
+          "qualified": true,
+          "stage": "new_breakout",
+          "sar_below": true,
+          "strength_score": 55,
+          "decision_ms": 1792958400000,
+          "rsi14": 68.33951057048483,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "GBCKUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1792963395327,
+          "liquidity_band": "thin",
+          "mid_price": 0.0048565,
+          "spread_pct": 0.5559559353443863,
+          "warnings": [
+            "düşük hacim",
+            "makas geniş"
+          ],
+          "failed_common_gates": [],
+          "paper_controls": [
+            {
+              "symbol": "VOWUSDT",
+              "entry_price": 0.03313
+            },
+            {
+              "symbol": "PXPUSDT",
+              "entry_price": 0.018904999999999998
+            },
+            {
+              "symbol": "ETCUSDT",
+              "entry_price": 7.515
+            }
+          ],
+          "paper_btc_price": 80467.435,
+          "arrival": "new"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1792963424958,
+  "paper": {
+    "version": "github-paper-v1",
+    "entries": {
+      "MEXC:CAPUSDT": {
+        "symbol": "CAPUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1792963395327,
+        "entry_price": 0.10956,
+        "btc_entry_price": 80467.435,
+        "controls": [
+          {
+            "symbol": "CNPYUSDT",
+            "entry_price": 0.24305
+          },
+          {
+            "symbol": "BKNUSDT",
+            "entry_price": 0.090445
+          },
+          {
+            "symbol": "USELESSUSDT",
+            "entry_price": 0.1700445
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": 89.51609730975389,
+        "initial_stage": "continuation",
+        "stages": [
+          {
+            "stage": "continuation",
+            "observed_ms": 1792963395327,
+            "price": 0.10956
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:STONKSUSDT": {
+        "symbol": "STONKSUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1792963395327,
+        "entry_price": 0.0020883,
+        "btc_entry_price": 80467.435,
+        "controls": [
+          {
+            "symbol": "TMXUSDT",
+            "entry_price": 0.006313
+          },
+          {
+            "symbol": "XCXUSDT",
+            "entry_price": 0.00221355
+          },
+          {
+            "symbol": "SOPHUSDT",
+            "entry_price": 0.0014375
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": 83.6879221170429,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1792963395327,
+            "price": 0.0020883
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:TAUSDT": {
+        "symbol": "TAUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1792963395327,
+        "entry_price": 0.06203,
+        "btc_entry_price": 80467.435,
+        "controls": [
+          {
+            "symbol": "VINEUSDT",
+            "entry_price": 0.007280999999999999
+          },
+          {
+            "symbol": "ATHUSDT",
+            "entry_price": 0.0056365
+          },
+          {
+            "symbol": "TOSHIUSDT",
+            "entry_price": 0.000106055
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": 91.05306233194808,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1792963395327,
+            "price": 0.06203
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:GBCKUSDT": {
+        "symbol": "GBCKUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1792963395327,
+        "entry_price": 0.0048565,
+        "btc_entry_price": 80467.435,
+        "controls": [
+          {
+            "symbol": "VOWUSDT",
+            "entry_price": 0.03313
+          },
+          {
+            "symbol": "PXPUSDT",
+            "entry_price": 0.018904999999999998
+          },
+          {
+            "symbol": "ETCUSDT",
+            "entry_price": 7.515
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": 68.33951057048483,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1792963395327,
+            "price": 0.0048565
+          }
+        ],
+        "outcomes": {}
+      }
+    },
+    "measurement_errors": [],
+    "asof_ms": 1792963424958
+  }
+}
