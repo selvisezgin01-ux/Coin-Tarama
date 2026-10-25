@@ -59,7 +59,9 @@ Telegram'a yalnız yeni aday paketleri gönderilir. Sunucuyu sürekli açık tut
 
 GitHub her çalışmada yeni bir makine açabilir. Tekrar bildirimlerini önleyen kayıt, geçici önbellek yerine deponun **scanner-state** dalında `state.json` olarak saklanır. Bu dalı silmek geçmiş görülenler kaydını sıfırlar. Ana kod dalına otomatik veri eklenmez. Bildirimden önce aday kaydı saklanır; teslimat hatasında bekleyen mesaj sonraki çalışmada yeniden denenir. Teslimattan hemen sonra kayıt yazılamazsa nadiren tekrar mesaj gelebilir; kusursuz tek teslim garantisi yoktur.
 
-Bir borsa hata verirse diğerinin taraması sürer; hata veren borsanın eski aktif listesi korunur. İş akışı sonunda bu durum başarısız olarak işaretlenir. GitHub sunucularından borsa API'lerine erişim ilk hosted çalışmada doğrulanmalıdır; yerel erişim bunun garantisi değildir. Bu paketin yerel testleri ve arşivden denemesi yapılmıştır; henüz kullanıcının GitHub deposunda çalıştırılmamıştır.
+Bir borsa hata verirse diğerinin taraması sürer; hata veren borsanın eski aktif listesi korunur. İş akışı sonunda bu durum başarısız olarak işaretlenir. Yeni bir depoda GitHub sunucularından borsa API'lerine erişim ilk çalışmada doğrulanmalıdır.
+
+Bu deponun ilk GitHub çalışması 25 Ekim 2026'da başarıyla tamamlandı: [çalıştırma kaydı](https://github.com/selvisezgin01-ux/Coin-Tarama/actions/runs/40229975805). Her iki borsa okundu; rapor ve kalıcı durum dalı kaydedildi. Bu depoda `NOTIFICATION_CHANNEL=github_issue` etkinleştirilmiştir. İlk deneme rapor modunda başlatıldığı için sonraki yeni adaylar Issue olarak bildirilecektir. Güncel rapor `scanner-state` dalındaki `report.md` dosyasıdır. E-posta teslimi hesabın bildirim tercihlerine bağlıdır.
 
 Formül veya veri dönüştürme kodu değişirse eski kayıtla sessizce karıştırılmaz; tasarım karması kontrolü durdurur. Yeni bir sürüm için `SCANNER_STATE_BRANCH` değişkenini örneğin `scanner-state-v2` yaparak ayrı kayıt başlatabilirsiniz. Eski dalı karşılaştırma için koruyun.
 
