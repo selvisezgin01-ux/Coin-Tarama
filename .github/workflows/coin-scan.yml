@@ -41,6 +41,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GH_TOKEN: ${{ github.token }}
+          GITHUB_NOTIFY_USER: ${{ vars.GITHUB_NOTIFY_USER }}
         run: python github_scan.py notify --channel "$NOTIFICATION_CHANNEL"
       - name: Save notification state
         if: ${{ always() && hashFiles('cloud_output/parent.txt') != '' && hashFiles('cloud_output/state.json') != '' }}

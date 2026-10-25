@@ -34,6 +34,8 @@ Repo bağlantısını paylaşırsanız sonraki adımları o ekrana göre birlikt
 
 Yeni aday gelirse otomasyon başlığı ve coin listesini içeren bir Issue oluşturur. E-posta/GitHub bildiriminin ulaşması izleme ve hesap bildirim ayarlarına bağlıdır. Yeni aday yoksa Issue oluşturulmaz. İlk çalışmada o anda koşulları sağlayan adaylar ilk kez görülmüş kabul edilir.
 
+Telefonda anlık bildirim için aynı Variables bölümüne `GITHUB_NOTIFY_USER` adlı değişkeni ekleyin; değerine GitHub kullanıcı adınızı `@` olmadan yazın. Yeni aday Issue'larının başında bu kullanıcı etiketlenir. Bu depoda alıcı `selvisezgin01-ux` olarak ayarlanmıştır. GitHub Mobile uygulamasında doğrudan etiketlenme bildirimlerini ve telefon ayarlarından GitHub için bildirim/ses izinlerini açın. Ses ve teslim zamanı telefonun sessiz/odak modu ve uygulama ayarlarına bağlıdır; kod telefonun ses ayarlarını değiştiremez. [GitHub Mobile bildirimleri](https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications#managing-your-notification-settings-with-github-mobile)
+
 Her dört saatte çalışma-durumu e-postası almak istemiyorsanız GitHub Actions bildirimlerini yalnız başarısız çalışmalara ayarlayabilirsiniz; coin sonuçları Issue üzerinden gelir. Hata durumunda Actions sayfasının kırmızı/başarısız durumu ayrıca kontrol edilir.
 
 ## Telegram seçeneği — isteğe bağlı

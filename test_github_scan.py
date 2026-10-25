@@ -60,6 +60,37 @@ class CloudChecks(unittest.TestCase):
                 with self.assertRaises(RuntimeError):cloud.notify('telegram')
             self.assertEqual(len(json.loads(cloud.STATE.read_text(encoding='utf-8'))['pending']),1)
 
+    def test_issue_mentions_configured_recipient_and_deduplicates_delivery(self):
+        for recipient,already_sent in [('test-user',False),('',False),('test-user',True)]:
+            with self.subTest(recipient=recipient,already_sent=already_sent),TemporaryDirectory() as tmp,\
+                 patch.object(cloud,'STATE',Path(tmp)/'state.json'),\
+                 patch.dict('os.environ',{'GITHUB_REPOSITORY':'owner/repo','GH_TOKEN':'synthetic-token',
+                                          'GITHUB_NOTIFY_USER':recipient}):
+                state=cloud.new_state();cloud.update_state(state,{'MEXC':{'candidates':[candidate()]}},0)
+                marker=f"<!-- coin-scanner:{state['pending'][0]['id']} -->"
+                cloud.save(cloud.STATE,state)
+                existing=[{'body':marker}] if already_sent else []
+                with patch.object(cloud,'http_json',side_effect=[existing,{'number':1}]) as request:
+                    cloud.notify('github_issue')
+                self.assertEqual(request.call_count,1 if already_sent else 2)
+                if not already_sent:
+                    payload=request.call_args_list[1].args[1]
+                    self.assertEqual(payload['body'].startswith('@test-user\n\n'),bool(recipient))
+                    self.assertIn('TESTUSDT',payload['body'])
+                    self.assertIn(marker,payload['body'])
+                self.assertEqual(json.loads(cloud.STATE.read_text(encoding='utf-8'))['pending'],[])
+
+    def test_invalid_issue_recipient_keeps_pending_without_sending(self):
+        with TemporaryDirectory() as tmp,patch.object(cloud,'STATE',Path(tmp)/'state.json'),\
+             patch.dict('os.environ',{'GITHUB_REPOSITORY':'owner/repo','GH_TOKEN':'synthetic-token',
+                                      'GITHUB_NOTIFY_USER':'bad-user\n@another-user'}):
+            state=cloud.new_state();cloud.update_state(state,{'MEXC':{'candidates':[candidate()]}},0)
+            cloud.save(cloud.STATE,state)
+            with patch.object(cloud,'http_json') as request:
+                with self.assertRaises(ValueError):cloud.notify('github_issue')
+            request.assert_not_called()
+            self.assertEqual(len(json.loads(cloud.STATE.read_text(encoding='utf-8'))['pending']),1)
+
     def test_state_branch_roundtrip_without_touching_code_or_network(self):
         with TemporaryDirectory() as tmp:
             base=Path(tmp);remote=base/'remote.git';work=base/'work'
