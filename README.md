@@ -2,9 +2,9 @@
 
 ## Coin Tarama Meme — ayrı DEX deneyi
 
-Solana, Ethereum, BNB Chain, Robinhood/Pons ve HyperEVM için 15 dakikalık birikim/ilk kırılım deneyi ayrı çalışır. [Meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme/report.md) · [Kurallar ve veri erişimi](COIN_TARAMA_MEME.md).
+Solana, Ethereum, BNB Chain, Robinhood/Pons ve HyperEVM için 15 dakikalık birikim/ilk kırılım deneyi ayrı çalışır. [Meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme-v2/report.md) · [Kurallar ve veri erişimi](COIN_TARAMA_MEME.md).
 
-Önemli: Bubblemaps API erişimi şu an yapılandırılmamıştır. Harita/geliştirici/güvenlik teyidi eksik tokenler inceleme raporunda kalır ve telefona teyitli aday diye gönderilmez. Likidite kilidi yardımcı bilgidir; tek başına güvenlik onayı değildir. Bu ayrı deney Coin Tarama 2/3'ü değiştirmez.
+GoPlus/RugCheck ile otomatik risk ön elemesi yapılır; **Bubblemaps haritasını kullanıcı manuel kontrol eder**. Bildirimler harita onayı bekleyen ön eleme adaylarıdır. Kritik kontrat/dağılım/geliştirici verisi eksikse aday bildirilmez. GMGN/Bubblemaps API anahtarı gerekmez; GMGN'nin tüm özel cüzdan etiketleri sağlanmaz. Likidite kilidi yardımcı bilgidir. İlk Meme deneyi `scanner-state-meme` dalında korunur; bu güncelleme Coin Tarama 2/3'ü değiştirmez.
 
 ## İki ayrı çalışan sürüm
 

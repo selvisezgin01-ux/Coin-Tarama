@@ -112,10 +112,11 @@ def market_gates(asset,config,asof_ms,observations):
             'pool_age_minutes':age,'valuation_usd':valuation,'valuation_kind':'market_cap_provider_reported' if cap is not None and cap>0 else 'fdv_proxy'}
 
 
-def tier(market,setup,security,developer,maps):
+def tier(market,setup,security,developer,maps,map_mode='automatic'):
+    if map_mode not in ('automatic','manual'):raise ValueError('Unknown wallet-map policy')
     if market['failed'] or security.get('blocked') or maps.get('blocked') or developer.get('status')=='outgoing_transfer_detected':return 'rejected'
     if not market['passed'] or setup['stage'] is None:return 'watch'
     risk_complete=security.get('complete') or (not security.get('blocked') and set(security.get('unknown',[]))<={'complete_top10_non_pool_owners'} and maps.get('complete'))
-    if risk_complete and developer.get('status')=='no_outgoing_transfers_in_complete_window' and maps.get('complete') and market.get('valuation_kind')=='market_cap_provider_reported':
+    if risk_complete and developer.get('status')=='no_outgoing_transfers_in_complete_window' and (maps.get('complete') or map_mode=='manual') and market.get('valuation_kind')=='market_cap_provider_reported':
         return 'qualified'
     return 'review'

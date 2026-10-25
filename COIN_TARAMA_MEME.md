@@ -7,9 +7,10 @@ Coin Tarama 2 ve Coin Tarama 3'ten ayrı bir deneydir. Yalnız genel DEX, risk r
 - Solana, Ethereum, BNB Chain, Robinhood, HyperEVM (HYPE).
 - Pons, Robinhood içindeki bir platformdur; Robinhood verisindeki `pons-v2` havuzları ayrıca bir ağ icat edilmeden kapsama girer.
 - GitHub iş akışı: **Coin Tarama Meme — 15 dakika birikim**. Yaklaşık beş dakikada bir, dakikanın 02/07/12/.../57 anlarında planlanır. GitHub gecikebilir; bu gerçek zamanlı bir işlem sistemi değildir.
-- [Canlı meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme/report.md)
+- [Canlı meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme-v2/report.md)
 - [Bildirimler](https://github.com/selvisezgin01-ux/Coin-Tarama/issues), başlık **Coin Tarama Meme**.
-- Veri ve tekrar bildirim kayıtları yalnız `scanner-state-meme` dalında tutulur. Önceki iki sürümün kuralları/kayıtları değiştirilmez.
+- Güncel veri ve tekrar bildirim kayıtları `scanner-state-meme-v2` dalında tutulur. İlk denemenin `scanner-state-meme` dalı korunur. Önceki iki CEX sürümünün kuralları/kayıtları değiştirilmez.
+- Kullanıcı Bubblemaps kontrolünü manuel yapmayı seçmiştir. GMGN veya Bubblemaps API anahtarı gerekmez; bu sürüm ikisine otomatik sorgu göndermez. Bildirimler **otomatik risk ön elemesi geçti; manuel harita kontrolü bekliyor** anlamındadır.
 
 ## Başlangıç kuralları
 
@@ -27,7 +28,9 @@ Açık mumlar kullanılmaz; işlem olmayan aralıklar uydurulmaz. Kesinti varsa 
 
 **Dağılım:** Sağlayıcıda açıkça tanınan AMM/vault/yakım adresleri ayrılır; her kontrat körlemesine dışarı atılmaz. Solana'da aynı sahibin farklı token hesapları toplanır. Açıklanamayan tek sahip en çok toplam arzın %10'u, ilk on sahip toplamı en çok %35 olmalıdır. Eksik ilk on veri tam ölçüm gibi sunulmaz.
 
-**Bağlantılar:** Bubblemaps haritasındaki en büyük gözlenen bağlantılı küme en çok %20 olmalı. Pay birimi, token miktarı ve arzla çapraz kontrol edilmeden kullanılmaz. Harita 15 dakikadan eskiyse veya düğümler eksikse teyit verilmez. Transfer bağlantısı tek bir kişinin sahipliği veya kötü niyetinin kanıtı değildir; haritanın incelenen ilk 80 sahip kapsamı tüm zincir değildir.
+**Bağlantılar — manuel:** Bildirimde ağ, tam kontrat ve Bubblemaps bağlantısı verilir. Solana/Ethereum/BNB için adres içeren harita bağlantısı; Robinhood/HyperEVM için uygulama ana sayfası verilir, bu iki ağda harita desteği doğrulanmış sayılmaz. Harita/ağ bulunamaması temiz sonuç değildir. Kullanıcı haritada LP/CEX adreslerini ayırarak bağlantılı sahipleri, toplam küme payını ve harita zamanını inceler. %20 küme eşiği inceleme için başlangıç referansıdır; otomatik ölçülmüş veya onaylanmış sayılmaz. Transfer bağlantısı tek bir kişinin sahipliği veya kötü niyetinin kanıtı değildir. Kullanıcının manuel onayı sisteme kaydedilmediği için her kayıt harita kontrolü bekliyor olarak kalır.
+
+**Otomatik kaynaklar:** Solana'da RugCheck ile GoPlus Solana çapraz kontrol edilir. Mint/freeze, transfer edilemezlik, hesap dondurma varsayılanı, bakiye değiştirme ve kapanış/yetki alanları incelenir; eksik alan olumlu sayılmaz. Bilinen salt metadata uzantısı tek başına tehlikeli transfer uzantısı sayılmaz; etkin veya çözümlenmemiş özel uzantılar incelemede kalır. Metadata değiştirilebilmesi uyarı olarak gösterilir, orijinallik kanıtı verilmez. Desteklenen EVM ağlarında GoPlus; honeypot, vergi, mint, proxy, gizli sahip, kara/beyaz liste, bakiye değiştirme, duraklatma ve satış kısıtlarını inceler. Sağlayıcı sahte token işareti döndürürse elenir; alanın bulunmaması orijinal olduğunu kanıtlamaz. GMGN'nin tüm sniper/bundler etiketleri ve tam geliştirici geçmişi sağlanmaz.
 
 **Geliştirici:** Risk sağlayıcısının bildirdiği oluşturucu adresi esas alınır. Bu kişinin tüm bağlı cüzdanları kesin tespit edilmiş sayılmaz. Oluşturucu payı %8'den yüksekse elenir. Bakiyesinin sıfır olması satış yapmadığı, yaktığı veya kilitlediği şeklinde yorumlanmaz.
 
@@ -39,17 +42,19 @@ Bu, **son 45 dakikalık gözlenen adres kapsamıdır**; token oluşturulduğunda
 
 ## Eksik veri ve bildirim davranışı
 
-**Filtreleri sağlayan izleme:** Piyasa yapısı, gerekli güvenlik alanları, geliştirici penceresi ve harita teyidi sağlanmışsa bildirilir. Bu bir alım emri veya güvenli token onayı değildir.
+**Otomatik ön eleme / manuel harita bekliyor:** Piyasa yapısı, gerekli kontrat/dağılım alanları ve geliştiricinin son 45 dakikalık penceresi şartları sağlanmışsa bildirilir. Harita şartı kullanıcıya bırakılmıştır; bu açıkça bildirimde yazılır. Bu bir alım emri, harita onayı veya güvenli token onayı değildir.
 
-**İnceleme:** Piyasa yapısı uygun, fakat kritik teyitler eksikse rapora girer. Varsayılan olarak telefona aday bildirimi gönderilmez. Eksik harita/geliştirici verisi sıfır risk gibi yorumlanmaz. Belirgin kötü risk veya geliştirici çıkışı varsa token reddedilir.
+**İnceleme:** Piyasa yapısı uygun, fakat kritik otomatik kontrat, dağılım veya geliştirici teyitleri eksikse rapora girer; telefona aday bildirimi gönderilmez. Manuel harita seçimi bu eksikleri geçersiz kılmaz. Belirgin kötü risk veya geliştirici çıkışı varsa token reddedilir.
 
-Bağlantı haritasını otomatik okumak için kendi **BUBBLEMAPS_API_KEY** anahtarınızı GitHub **Settings → Secrets and variables → Actions → Secrets** bölümüne eklemek gerekir. Bu anahtar mevcut değildir; erişim açılmadan otomatik harita teyidi tamamlanamaz. Anahtarı sohbet mesajına yazmayın. Cüzdan seed/private key gerekmez.
+Bu sürümde **GMGN_API_KEY** ve **BUBBLEMAPS_API_KEY** gerekmez. Cüzdan seed/private key gerekmez. GoPlus'ın belgelenen ücretsiz sınırı 30 istek/dakikadır; rapor önbelleği, alan eksikliği ve erişim kısıtları ayrıca gözetilir. RugCheck ücretsiz okuma sorgusu dönebilir; raporu zorla yeniden üretme seçeneği ücretli anahtar ister. Şimdi indirmek bütün alanların yeni hesaplandığı anlamına gelmez.
 
 Genel RPC'ler sınırlı olabilir. İhtiyaç halinde aynı bölüme `MEME_RPC_SOLANA`, `MEME_RPC_ETHEREUM`, `MEME_RPC_BNB`, `MEME_RPC_ROBINHOOD`, `MEME_RPC_HYPEREVM` adlı özel okuma uçları eklenebilir. Boş secret değerleri genel okuma adresine döner. Desteklenmeyen GoPlus ağlarında (ilk kontrolde HyperEVM) güvenlik alanları bilinmiyor kalır; ağın fiyat/havuz takibi devam eder. Sağlayıcı API erişimi veya limitleri değişebilir.
 
 ## Ölçüm ve veri kapsamı
 
 İlk inceleme fiyatı ile daha sonra bildirim yapılırsa o an yeniden okunan teyitli fiyat ayrı referanslardır. 15/30/60 dakika, 3/6/24 saat hedefleri sonraki gerçek gözlemle ölçülür. Tabloda hedefe gecikme ayrıca gösterilir; tam o dakikanın mum getirisiymiş gibi sunulmaz. Pencere kaçarsa veya fiyat kaybolursa getiri bilinmiyor kalır. Likiditesi kaybolan/ölçülemeyen tokenler veri kümesinden sessizce çıkarılmaz. Aynı ağ/kontrat, yeni havuz veya birikimden kırılıma geçişle yeni bağımsız coin sayılmaz.
+
+V2 geçişi açıkça yeni dalda başlar. Eski kayıtların havuz yaşı, ilk görülme zamanı ve likidite/fiyat gözlemleri korunur; eski setup/risk sonuçları yeni sürümün sonucu gibi taşınmaz. Önceki sürümde ölçüm/bildirim kaydı varsa geçiş sessizce sıfırlamak yerine durur; ayrı ölçüm taşıma tasarımı gerekir. Kaynak dal/commit/tasarım karması yeni durum dosyasında yazılır.
 
 Ücretsiz GeckoTerminal veri bütçesi dar olduğundan istekler global aralıkla sınırlıdır; her ağda bir döngüde en çok bir uygun havuzun mumları ayrıntılı incelenir. Daha önce az incelenen uygun havuzlara sıra verilir. Rapor güncellenen token sayısını, erişim hatalarını ve mum bütçesini gösterir. Bu sürüm tüm meme piyasasını veya her yeni çıkarılan tokeni taradığı iddiasında değildir. Sadece bu kaynaklarda indekslenen Pons havuzları görülebilir; indekslenmeden önceki tüm curve işlemleri kapsanmış sayılmaz.
 

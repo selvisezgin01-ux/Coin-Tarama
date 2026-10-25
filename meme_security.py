@@ -39,7 +39,15 @@ def parse_rug(report,asset,config):
     for risk in report.get('risks') or []:
         if str(risk.get('level','')).lower()=='danger':risks.append(str(risk.get('name','danger'))[:100])
     extensions=report.get('token_extensions')
-    if extensions:unknown.append('token_extensions_need_review')
+    warnings=[]
+    if extensions:
+        if not isinstance(extensions,dict):unknown.append('token_extensions_need_review')
+        else:
+            metadata={'metadataPointer','tokenMetadata','groupPointer','groupMemberPointer','tokenGroup','tokenGroupMember'}
+            if extensions.get('nonTransferable') is True:risks.append('non_transferable')
+            for field,value in extensions.items():
+                if field not in metadata|{'nonTransferable'} and value not in (None,False):unknown.append('extension_'+field)
+            if (extensions.get('tokenMetadata') or {}).get('authority'):warnings.append('metadata_can_change_not_originality_proof')
     excluded=set(BURN)
     for market in report.get('markets') or []:
         for field in ['pubkey','liquidityA','liquidityB']:
@@ -71,6 +79,7 @@ def parse_rug(report,asset,config):
             lock={'status':'provider_reported','locked_pct':pct,'scope':'exact_selected_pool','market_type':kind,
                   'note':'Bonding curve/launch inventory is not automatically equivalent to a classic withdrawable LP token lock.'}
     return {'source':'RugCheck','creator':owner,'creator_pct':creator_pct,'supply_normalized':supply,'liquidity_lock':lock,
+            'warnings':warnings,'reported_insider_networks':len(report.get('insiderNetworks') or []),
             'blocked':bool(risks),'risks':risks,'unknown':unknown,'complete':not risks and not unknown,
             'report_fetch_age_is_not_report_cache_age':True,**holder_info}
 
@@ -79,7 +88,8 @@ def parse_goplus(report,asset,config):
     risks=[];unknown=[]
     required={'is_honeypot':'0','cannot_buy':'0','is_mintable':'0','hidden_owner':'0',
               'can_take_back_ownership':'0','transfer_pausable':'0','selfdestruct':'0',
-              'slippage_modifiable':'0','is_open_source':'1','is_proxy':'0'}
+              'slippage_modifiable':'0','is_open_source':'1','is_proxy':'0','owner_change_balance':'0',
+              'is_blacklisted':'0','is_whitelisted':'0','cannot_sell_all':'0'}
     for key,safe in required.items():
         if key not in report or str(report[key]) not in ('0','1'):unknown.append(key)
         elif str(report[key])!=safe:risks.append(key)
@@ -87,6 +97,8 @@ def parse_goplus(report,asset,config):
         value=number(report.get(key))
         if value is None:unknown.append(key)
         elif value<0 or value>config['risk']['evm_tax_max_fraction']:risks.append(key)
+    counterfeit=report.get('fake_token')
+    if isinstance(counterfeit,dict) and str(counterfeit.get('value'))=='1':risks.append('provider_reports_counterfeit')
     excluded=set(BURN)
     for pool in report.get('dex') or []:
         for key in ['pair','pool_manager']:
@@ -112,10 +124,53 @@ def parse_goplus(report,asset,config):
             'report_fetch_age_is_not_report_cache_age':True,**holder_info}
 
 
+def solana_crosscheck(report,rug_report,parsed,asset,config):
+    """Require independently returned authority/transfer fields; missing is unknown."""
+    risks=list(parsed['risks']);unknown=list(parsed['unknown']);warnings=list(parsed.get('warnings',[]))
+    for field in ['mintable','freezable','closable','balance_mutable_authority','transfer_fee_upgradable',
+                  'default_account_state_upgradable','transfer_hook_upgradable']:
+        value=(report.get(field) or {}).get('status')
+        if str(value) not in ('0','1'):unknown.append('goplus_'+field)
+        elif str(value)=='1':risks.append('goplus_'+field)
+    if str(report.get('non_transferable')) not in ('0','1'):unknown.append('goplus_non_transferable')
+    elif str(report['non_transferable'])=='1':risks.append('goplus_non_transferable')
+    if str(report.get('default_account_state'))!='1':
+        (risks if str(report.get('default_account_state'))=='2' else unknown).append('goplus_default_account_state')
+    hooks=report.get('transfer_hook')
+    if hooks is None:unknown.append('goplus_transfer_hook')
+    elif hooks:unknown.append('goplus_transfer_hook_requires_review')
+    fee=report.get('transfer_fee')
+    if fee is None:unknown.append('goplus_transfer_fee')
+    elif fee:unknown.append('goplus_transfer_fee_requires_review')
+    else:
+        # An empty GoPlus fee object is not itself proof of zero fees.
+        ext=rug_report.get('token_extensions') or {}
+        if ext.get('transferFeeConfig') is not None:unknown.append('transfer_fee_not_resolved')
+    creators=report.get('creators') or report.get('creator') or []
+    if isinstance(creators,dict):creators=[creators]
+    reported={address_key('solana',r['address']) for r in creators if isinstance(r,dict) and r.get('address')}
+    if any(str(r.get('malicious_address'))=='1' for r in creators if isinstance(r,dict)):risks.append('goplus_malicious_creator')
+    if reported and parsed.get('creator') not in reported:unknown.append('creator_identity_conflict')
+    if not reported:warnings.append('goplus_creator_identity_not_available')
+    supplied=number(report.get('total_supply'));rug_supply=parsed.get('supply_normalized')
+    if supplied and rug_supply and abs(supplied/rug_supply-1)>.01:unknown.append('provider_supply_conflict')
+    return {**parsed,'source':'RugCheck + GoPlus Solana','risks':sorted(set(risks)),'unknown':sorted(set(unknown)),
+            'warnings':sorted(set(warnings)),'blocked':bool(risks),'complete':not risks and not unknown,
+            'goplus_solana_crosscheck':True}
+
+
 def fetch_security(client,network,asset):
     if network['security']=='rugcheck':
         report=client.request('https://api.rugcheck.xyz/v1/tokens/'+asset['mint']+'/report')
-        return parse_rug(report,asset,client.config)
+        if report.get('mint')!=asset['mint']:raise ValueError('RugCheck returned another mint')
+        parsed=parse_rug(report,asset,client.config)
+        try:cross=client.request('https://api.gopluslabs.io/api/v1/solana/token_security?contract_addresses='+asset['mint'])
+        except Exception:
+            return {**parsed,'complete':False,'unknown':parsed['unknown']+['goplus_solana_unavailable']}
+        data=(cross.get('result') or {}).get(asset['mint']) if cross.get('code')==1 else None
+        if not data:
+            return {**parsed,'complete':False,'unknown':parsed['unknown']+['goplus_solana_report_missing']}
+        return solana_crosscheck(data,report,parsed,asset,client.config)
     # Supported chains are checked at runtime; unsupported is unknown, never safe.
     if not hasattr(client,'goplus_chains'):
         response=client.request('https://api.gopluslabs.io/api/v1/supported_chains')
@@ -167,6 +222,9 @@ def parse_map(payload,security,asof_ms,config):
 
 
 def fetch_map(client,asset,security,asof_ms,network):
+    if client.config['risk'].get('wallet_map_mode')=='manual':
+        return {'complete':False,'blocked':False,'status':'manual_review_required',
+                'reason':'User performs wallet-map review; no automatic approval inferred.'}
     key=os.environ.get('BUBBLEMAPS_API_KEY')
     if not key:return {'complete':False,'blocked':False,'status':'unknown','reason':'BUBBLEMAPS_API_KEY_not_configured'}
     chain='eth' if asset['chain']=='ethereum' else ('bsc' if asset['chain']=='bnb' else asset['chain'])

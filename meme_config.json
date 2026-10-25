@@ -1,5 +1,5 @@
 {
-  "version": "coin-tarama-meme-v1",
+  "version": "coin-tarama-meme-v2-manual-map",
   "status": "experimental discovery and paper observation, no orders",
   "networks": {
     "solana": {"name": "Solana", "gecko": "solana", "dex": "solana", "security": "rugcheck", "chain_id": null},
@@ -43,6 +43,7 @@
     "max_pool_peak_drawdown_pct": 25
   },
   "risk": {
+    "wallet_map_mode": "manual",
     "holder_count_min": 75,
     "single_unexcluded_owner_max_pct_total_supply": 10,
     "top10_unexcluded_owner_max_pct_total_supply": 35,

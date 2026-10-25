@@ -1,5 +1,6 @@
 from copy import deepcopy
 from pathlib import Path
+from tempfile import TemporaryDirectory
 import unittest
 from unittest.mock import patch
 import os
@@ -98,6 +99,7 @@ class MemeChecks(unittest.TestCase):
     def test_absent_api_key_does_not_call_map_provider(self):
         with patch.dict(os.environ,{},clear=True):
             client=unittest.mock.Mock()
+            client.config=deepcopy(CONFIG);client.config['risk']['wallet_map_mode']='automatic'
             result=security.fetch_map(client,{'chain':'solana','mint':'test'}, {},0,{})
             self.assertFalse(result['complete']);client.request.assert_not_called()
 
@@ -208,6 +210,92 @@ class MemeChecks(unittest.TestCase):
         self.assertEqual(len(state['entries']),1)
         self.assertFalse(scan.pending_measurements(state['entries'][scan.key_of(asset)],CONFIG))
         self.assertTrue(all(v['return_pct'] is None for v in state['entries'][scan.key_of(asset)]['references']['review']['outcomes'].values()))
+
+    def test_manual_map_policy_does_not_waive_critical_security_or_developer_evidence(self):
+        market={'failed':[],'passed':True,'valuation_kind':'market_cap_provider_reported'}
+        setup={'stage':'accumulation'};dev={'status':'no_outgoing_transfers_in_complete_window'}
+        maps={'complete':False,'status':'manual_review_required'}
+        self.assertEqual(rules.tier(market,setup,{'complete':True},dev,maps,'manual'),'qualified')
+        self.assertEqual(rules.tier(market,setup,{'complete':False,'unknown':['is_honeypot']},dev,maps,'manual'),'review')
+        self.assertEqual(rules.tier(market,setup,{'complete':True},{'status':'unknown'},maps,'manual'),'review')
+        self.assertEqual(rules.tier(market,setup,{'complete':True},dev,{'blocked':True},'manual'),'rejected')
+        self.assertEqual(rules.tier(market,setup,{'complete':False,'unknown':['complete_top10_non_pool_owners']},dev,maps,'manual'),'review')
+
+    def test_manual_map_mode_never_uses_an_api_key_or_approves_a_map(self):
+        client=unittest.mock.Mock();client.config=CONFIG
+        with patch.dict(os.environ,{'BUBBLEMAPS_API_KEY':'unused-test-key'}):
+            result=security.fetch_map(client,{'chain':'solana','mint':'mint'},{},0,{})
+        self.assertEqual(result['status'],'manual_review_required');self.assertFalse(result['complete'])
+        client.request.assert_not_called()
+
+    def test_solana_crosscheck_rejects_active_authority_and_does_not_hide_missing_fields(self):
+        report={k:{'status':'0'} for k in ['mintable','freezable','closable','balance_mutable_authority',
+                    'transfer_fee_upgradable','default_account_state_upgradable','transfer_hook_upgradable']}
+        report.update({'non_transferable':'0','default_account_state':'1','transfer_hook':[],
+                       'transfer_fee':{},'creators':[],'total_supply':'1000'})
+        parsed={'risks':[],'unknown':[],'complete':True,'blocked':False,'creator':'creator','supply_normalized':1000.}
+        asset={'chain':'solana','mint':'mint'};rug={'token_extensions':{'transferFeeConfig':None}}
+        result=security.solana_crosscheck(report,rug,parsed,asset,CONFIG)
+        self.assertTrue(result['complete']);self.assertIn('goplus_creator_identity_not_available',result['warnings'])
+        report['freezable']['status']='1'
+        self.assertTrue(security.solana_crosscheck(report,rug,parsed,asset,CONFIG)['blocked'])
+        report.pop('freezable')
+        self.assertIn('goplus_freezable',security.solana_crosscheck(report,rug,parsed,asset,CONFIG)['unknown'])
+        report['creators']=[{'address':'different_creator','malicious_address':0}]
+        self.assertIn('creator_identity_conflict',security.solana_crosscheck(report,rug,parsed,asset,CONFIG)['unknown'])
+
+    def test_benign_metadata_does_not_mask_dangerous_token_extensions(self):
+        report={'token':{'mintAuthority':None,'freezeAuthority':None,'supply':1000000000,'decimals':6},
+                'creator':'owner0','totalHolders':100,'markets':[{'pubkey':'pool'}],
+                'topHolders':[{'owner':'owner'+str(i),'pct':2.,'amount':20000000} for i in range(10)],
+                'token_extensions':{'metadataPointer':{'authority':None},'tokenMetadata':{'authority':'mutable'},
+                                    'nonTransferable':False,'transferFeeConfig':None,'permanentDelegate':None}}
+        asset={'chain':'solana','pool':'pool'}
+        parsed=security.parse_rug(report,asset,CONFIG)
+        self.assertTrue(parsed['complete']);self.assertIn('metadata_can_change_not_originality_proof',parsed['warnings'])
+        report['token_extensions']['permanentDelegate']='delegate'
+        self.assertFalse(security.parse_rug(report,asset,CONFIG)['complete'])
+        report['token_extensions']['nonTransferable']=True
+        self.assertTrue(security.parse_rug(report,asset,CONFIG)['blocked'])
+
+    def test_evm_blacklist_balance_changes_and_counterfeit_are_not_ignored(self):
+        for field in ['is_blacklisted','is_whitelisted','owner_change_balance','cannot_sell_all']:
+            parsed=security.parse_goplus({field:'1'},{'chain':'ethereum','pool':'0x'+'1'*40},CONFIG)
+            self.assertIn(field,parsed['risks'])
+        parsed=security.parse_goplus({'fake_token':{'value':1}},{'chain':'ethereum','pool':'0x'+'1'*40},CONFIG)
+        self.assertIn('provider_reports_counterfeit',parsed['risks'])
+
+    def test_versioned_migration_preserves_pool_age_and_never_backdates_entries(self):
+        old={'version':'meme-v1','rules_fingerprint':'old','entries':{},'pending':[],
+             'assets':{'solana:mint':{'latest':{'mint':'mint'},'first_seen_ms':100,'earliest_pool_created_ms':50,
+                          'observations':[{'ms':100,'price':1.}],'tier':'review','setup':{'stage':'accumulation'}}}}
+        result=scan.seed_from_v1(old,'scanner-state-meme','old-commit')
+        self.assertEqual(result['assets']['solana:mint']['earliest_pool_created_ms'],50)
+        self.assertNotIn('setup',result['assets']['solana:mint']);self.assertEqual(result['entries'],{})
+        self.assertEqual(result['migration']['from_fingerprint'],'old')
+        old['entries']={'must_keep':{}}
+        with self.assertRaises(ValueError):scan.seed_from_v1(old,'scanner-state-meme','old-commit')
+
+    def test_notification_requires_manual_map_review_and_carries_exact_contract(self):
+        import json
+        mint='0x'+'1'*40
+        row={'chain':'ethereum','mint':mint,'pool':'0x'+'2'*40,'symbol':'TEST','stage':'accumulation',
+             'observed_ms':1000,'price_usd':1.}
+        payload={'pending':[{'id':'test-batch','created_ms':1000,'candidates':[row]}]}
+        sent=[]
+        def http(url,body=None,headers=None,label=None):
+            if body is None:return []
+            sent.append(body);return {'number':123}
+        with TemporaryDirectory() as directory:
+            statefile=Path(directory)/'state.json';statefile.write_text(json.dumps(payload),encoding='utf-8')
+            with patch.object(scan,'STATE',statefile),patch.object(scan.cloud,'http_json',side_effect=http),patch.dict(os.environ,
+                    {'GITHUB_REPOSITORY':'example/test','GH_TOKEN':'unit-test-only','COIN_NOTIFY_USER':'test-user'}):
+                scan.notify()
+            self.assertEqual(json.loads(statefile.read_text(encoding='utf-8'))['pending'],[])
+        self.assertEqual(len(sent),1)
+        self.assertIn('MANUEL KONTROL EDİLMELİ',sent[0]['body']);self.assertIn('harita onayı verilmedi',sent[0]['body'])
+        self.assertIn(mint,sent[0]['body']);self.assertIn('chain=eth',sent[0]['body'])
+        self.assertIn('manuel harita',sent[0]['title'])
 
 
 if __name__=='__main__':unittest.main()

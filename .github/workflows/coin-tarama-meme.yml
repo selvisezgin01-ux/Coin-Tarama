@@ -19,8 +19,8 @@ jobs:
     timeout-minutes: 12
     env:
       PYTHONUTF8: '1'
-      SCANNER_STATE_BRANCH: scanner-state-meme
-      BUBBLEMAPS_API_KEY: ${{ secrets.BUBBLEMAPS_API_KEY }}
+      SCANNER_STATE_BRANCH: scanner-state-meme-v2
+      MEME_MIGRATE_FROM_BRANCH: scanner-state-meme
       MEME_RPC_SOLANA: ${{ secrets.MEME_RPC_SOLANA }}
       MEME_RPC_ETHEREUM: ${{ secrets.MEME_RPC_ETHEREUM }}
       MEME_RPC_BNB: ${{ secrets.MEME_RPC_BNB }}
@@ -40,7 +40,7 @@ jobs:
         run: python meme_scan.py scan
       - name: Save before notification
         run: python meme_scan.py push-state
-      - name: Notify only candidates with required evidence
+      - name: Notify preliminary candidates for manual map review
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}

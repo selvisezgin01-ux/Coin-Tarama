@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import re
 import time
+from urllib.parse import urlencode
 
 import github_scan as cloud
 import meme_rules as rules
@@ -29,11 +30,11 @@ def fingerprint():
 
 
 def new_state():
-    return {'version':'meme-v1','rules_fingerprint':fingerprint(),'assets':{},'entries':{},'pending':[],'runs':[]}
+    return {'version':'meme-v2','rules_fingerprint':fingerprint(),'assets':{},'entries':{},'pending':[],'runs':[]}
 
 
 def configure():
-    branch=os.environ.setdefault('SCANNER_STATE_BRANCH','scanner-state-meme')
+    branch=os.environ.setdefault('SCANNER_STATE_BRANCH','scanner-state-meme-v2')
     if not branch.startswith('scanner-state-meme'):raise ValueError('Meme scanner must use its own state branch')
     cloud.OUT=OUT;cloud.STATE=STATE;cloud.fingerprint=fingerprint;cloud.new_state=new_state
 
@@ -42,6 +43,37 @@ def now_ms():return int(time.time()*1000)
 def key_of(asset):return asset['chain']+':'+rules.address_key(asset['chain'],asset['mint'])
 def time_label(ms):return datetime.fromtimestamp(ms/1000,LOCAL).strftime('%d.%m.%Y %H:%M')
 def safe_symbol(value):return re.sub(r'[^A-Za-z0-9_-]','',str(value))[:24] or 'TOKEN'
+
+
+def bubble_link(asset):
+    chain={'solana':'solana','ethereum':'eth','bnb':'bsc'}.get(asset['chain'])
+    if chain:return 'https://v2.bubblemaps.io/map?'+urlencode({'chain':chain,'address':asset['mint']})
+    return 'https://v2.bubblemaps.io/' # Do not invent a working map route for unverified networks.
+
+
+def seed_from_v1(previous,branch,commit):
+    if previous.get('version')!='meme-v1':raise ValueError('Migration only accepts the archived meme-v1 state')
+    if previous.get('entries') or previous.get('pending'):
+        raise ValueError('Existing observations/alerts require a separate measurement migration; refusing to reset them')
+    state=new_state()
+    for key,record in previous.get('assets',{}).items():
+        state['assets'][key]={k:record[k] for k in ['latest','first_seen_ms','earliest_pool_created_ms','observations'] if k in record}
+    state['migration']={'from_branch':branch,'from_commit':commit,'from_fingerprint':previous['rules_fingerprint'],
+                        'source_updated_ms':previous.get('updated_ms'),'migrated_ms':now_ms(),
+                        'reason':'User performs wallet-map review; strengthened public security checks. Historical setups are re-evaluated prospectively.'}
+    return state
+
+
+def pull_state():
+    cloud.pull_state()
+    if (OUT/'parent.txt').read_text(encoding='ascii').strip():return
+    branch=os.environ.get('MEME_MIGRATE_FROM_BRANCH')
+    if not branch:return
+    if branch!='scanner-state-meme':raise ValueError('Only the archived original meme branch may seed this experiment')
+    cloud.git('fetch','--no-tags','origin','refs/heads/'+branch)
+    commit=cloud.git('rev-parse','FETCH_HEAD').stdout.strip()
+    previous=json.loads(cloud.git('show',commit+':state.json').stdout)
+    cloud.save(STATE,seed_from_v1(previous,branch,commit))
 
 
 def pending_measurements(entry,config):
@@ -83,7 +115,7 @@ def observe_entry(state,record,tier,setup,config):
     # A later actual alert has its own price; the earlier unverified observation cannot be used as its entry.
     if label not in entry['references']:
         entry['references'][label]={'observed_ms':asset['observed_ms'],'price':price,'stage':setup['stage'],
-                                  'tier':tier,'outcomes':{}}
+                                  'tier':tier,'outcomes':{},'wallet_map':'manual_review_pending' if config['risk'].get('wallet_map_mode')=='manual' else 'automatic'}
     if tier=='qualified' and setup['stage']=='first_breakout' and 'first_breakout' not in entry['references']:
         entry['references']['first_breakout']={'observed_ms':asset['observed_ms'],'price':price,'stage':'first_breakout','tier':tier,'outcomes':{}}
     entry['highest_observed_price']=max(price,entry['highest_observed_price'])
@@ -159,7 +191,7 @@ def scan_network(chain,network,state,config,client):
                 try:dev=security_api.developer_check(client,network,asset,sec,now_ms())
                 except Exception as exc:dev={'status':'unknown','reason':str(exc)}
             record.update({'security':sec,'developer':dev,'maps':maps})
-            classified=rules.tier(record['market'],setup,sec,dev,maps)
+            classified=rules.tier(record['market'],setup,sec,dev,maps,config['risk']['wallet_map_mode'])
             if classified in ('qualified','review'):
                 # Alert/review references use an actual new read after the checks,
                 # never the older candle close or a fabricated execution quote.
@@ -171,6 +203,7 @@ def scan_network(chain,network,state,config,client):
             item={'chain':chain,'mint':asset['mint'],'symbol':safe_symbol(asset['symbol']),'stage':setup['stage'],'tier':classified,
                   'price_usd':asset['price_usd'],'observed_ms':asset['observed_ms'],'pool':asset['pool'],
                   'market':record['market'],'security':sec,'developer':dev,'maps':maps}
+            item['manual_checks_required']=['wallet_map','official_contract_identity']
             result['evaluated'].append(item)
             if classified in ('qualified','review'):
                 observe_entry(state,record,classified,setup,config)
@@ -201,14 +234,15 @@ def report(state,scans,client,config):
     lines=['# Coin Tarama Meme','',f"Son çalışma: {time_label(now_ms())} Türkiye saati.",'',
         '**Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**','',
         'Kapsam: Solana, Ethereum, BNB Chain, Robinhood (Pons dahil), HyperEVM. Pons ayrı bir ağ değildir.','',
-        '15 dakikalık kapalı mumlarda birikim ve ilk kırılım incelenir. Harita/geliştirici/güvenlik verisi eksik tokenler **İNCELEME** olarak kalır; bunlar teyitli aday diye bildirilmez.','',
+        '15 dakikalık kapalı mumlarda birikim ve ilk kırılım incelenir. **Cüzdan haritası kullanıcı tarafından manuel kontrol edilir; harita onayı bekleyen ön eleme adayları bildirilebilir.** Kritik kontrat/geliştirici verisi eksik tokenler incelemede kalır ve bildirilmez.','',
+        'GMGN kullanılmaz. Solana: RugCheck + GoPlus Solana; desteklenen EVM ağları: GoPlus. GMGN’nin tüm sniper/bundler etiketleri ve eksiksiz geliştirici geçmişi sağlanmaz. Teknik risk ön elemesi tokenin resmî/orijinal proje kontratı olduğunu kanıtlamaz.','',
         'Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı bildirimi olarak, FDV ise açıkça ayrı değer türü olarak gösterilir. Geliştirici teyidi yalnız belirtilen 45 dakikalık işlem penceresindeki raporlanan adrese aittir; ömür boyu hiç satış yapmadığı veya başka cüzdan kullanmadığı anlamına gelmez.','',
-        '| Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Filtreleri sağlayan | İnceleme | Erişim/veri hatası |',
+        '| Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |',
         '|---|---:|---:|---:|---:|---:|---:|']
     for chain,r in scans.items():
         lines.append(f"| {r['network']} | {r.get('refreshed',0)} | {r.get('eligible_market_count',0)} | {len(r.get('evaluated',[]))} | {len(r.get('qualified',[]))} | {len(r.get('review',[]))} | {len(r.get('errors',[]))} |")
-    for label,tier in [('Filtreleri sağlayan izleme','qualified'),('İnceleme — eksik teyitler','review')]:
-        lines+=['','## '+label,'','| Token / adres | Ağ | Grup | Piyasa değeri / FDV USD | Geliştirici | Harita | Likidite kilidi |','|---|---|---|---:|---|---|---|']
+    for label,tier in [('Otomatik ön eleme geçti — manuel harita kontrolü bekliyor','qualified'),('İnceleme — eksik otomatik teyitler','review')]:
+        lines+=['','## '+label,'','| Token / adres | Ağ | Grup | Piyasa değeri / FDV USD | Geliştirici | Harita | Likidite kilidi | Eksik otomatik kontroller |','|---|---|---|---:|---|---|---|---|']
         for chain,r in scans.items():
             for row in r.get(tier,[]):
                 label_stage='Birikim' if row['stage']=='accumulation' else 'İlk kırılım'
@@ -216,7 +250,9 @@ def report(state,scans,client,config):
                 url='https://dexscreener.com/'+config['networks'][chain]['dex']+'/'+row['pool']
                 lock=row['security'].get('liquidity_lock') or {};locked=lock.get('locked_pct')
                 locked_text='Bilinmiyor' if locked is None else f'%{locked:.1f} (sağlayıcı bildirimi)'
-                lines.append(f"| [{row['symbol']}]({url}) `{row['mint']}` | {r['network']} | {label_stage} | {kind} {cap:.0f} | {row['developer']['status']} | {row['maps'].get('status','unknown')} | {locked_text} |")
+                missing=list(row['security'].get('unknown',[]))
+                if row['developer']['status']=='unknown':missing.append('developer: '+row['developer'].get('reason','unknown'))
+                lines.append(f"| [{row['symbol']}]({url}) `{row['mint']}` | {r['network']} | {label_stage} | {kind} {cap:.0f} | {row['developer']['status']} | [Manuel kontrol]({bubble_link(row)}) | {locked_text} | {', '.join(missing) or '—'} |")
     lines+=['','## Gerçek gözlem kayıtları','',
             'Fiyatlar sağlayıcının gözlenen fiyatıdır; emir, alış/satış kotasyonu veya gerçekleşebilir net getiri değildir. İnceleme ve daha sonraki teyitli bildirim fiyatları ayrı tutulur. Aynı token havuz/grup değiştirse de yeni bağımsız coin sayılmaz.','',
             '| Token | Ağ | Referans türü | Gerçek gözlem TR | Fiyat | 15dk % | 30dk % | 1s % | 3s % | 6s % | 24s % |',
@@ -229,11 +265,12 @@ def report(state,scans,client,config):
                 outcome=reference['outcomes'].get(str(m),{})
                 value=outcome.get('return_pct')
                 returns.append('—' if value is None else pct(value)+f" (+{outcome['delay_ms']/60000:.1f}dk)")
-            lines.append(f"| {entry['symbol']} | {entry['chain']} | {kind} | {time_label(reference['observed_ms'])} | {reference['price']:.8g} | {' | '.join(returns)} |")
+            kind_label={'qualified':'Ön eleme / manuel harita bekliyor','review':'Eksik otomatik teyit','first_breakout':'İlk kırılım / manuel harita bekliyor'}.get(kind,kind)
+            lines.append(f"| {entry['symbol']} | {entry['chain']} | {kind_label} | {time_label(reference['observed_ms'])} | {reference['price']:.8g} | {' | '.join(returns)} |")
     lines+=['','## Veri kapsamı ve eksikler','',
             'Getiri sütunları hedef sürelerdir. Parantezdeki +dakika gerçek fiyat gözleminin hedefe gecikmesidir; tam 15/30/60 dakikalık mum getirisi olduğu iddia edilmez. Geçerli gözlem penceresi kaçırılırsa sonuç boş kalır.','',
             'Her ağda yeni ve trend havuz akışları sınırlı sayfalarla okunur. Önceki izlenen havuzlar kalıcı kayıttan yenilenir. Ücretli profil/boost satın alınması olumlu sinyal sayılmaz. Aynı simge farklı kontratlarda birleştirilmez.','',
-            'Bubblemaps otomatik bağlantı haritası için BUBBLEMAPS_API_KEY gerekir. Anahtar yoksa harita bilinmiyor kalır. RPC veya güvenlik kaynağının ağ desteği yoksa o ağ kapatılmaz; eksik teyit raporlanır. Anahtarlar ve özel RPC adresleri rapora yazılmaz.','',
+            'Bubblemaps haritasını kullanıcı manuel inceler; API anahtarı gerekmez. Hiçbir kayıt otomatik veya manuel harita onayı almış sayılmaz. Robinhood/HyperEVM harita desteği bu sürümde doğrulanmadığından genel uygulama bağlantısı verilir; uygun ağ/harita bulunamazsa bu kontrol eksik kalır. RPC veya güvenlik kaynağının ağ desteği yoksa o ağda fiyat/havuz takibi sürer; eksik otomatik teyitle aday bildirilmez.','',
             'GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.','']
     for chain,r in scans.items():
         if r.get('errors'):lines+=['- '+r['network']+': '+'; '.join(r['errors'][:6])]
@@ -241,6 +278,8 @@ def report(state,scans,client,config):
     (OUT/'report.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     cloud.save(OUT/'summary.json',{'version':config['version'],'updated_ms':now_ms(),'networks':scans,
              'unique_chain_tokens_observed':len(state['entries']),'api_requests':dict(client.stats),
+             'wallet_map_mode':config['risk']['wallet_map_mode'],
+             'qualification_scope':'automated_risk_prefilter_manual_map_pending',
              'bubblemaps_configured':bool(os.environ.get('BUBBLEMAPS_API_KEY'))})
 
 
@@ -288,18 +327,18 @@ def notify():
         marker='<!-- coin-tarama-meme:'+batch['id']+' -->'
         existing=cloud.http_json(url+'?state=all&per_page=100',headers=headers,label='GitHub Issues')
         if not any(marker in (i.get('body') or '') for i in existing):
-            body=('@'+user+'\n\n' if user else '')+'Coin Tarama Meme — deneysel izleme\n\n'
+            body=('@'+user+'\n\n' if user else '')+'Coin Tarama Meme — otomatik ön eleme\n\n**Bubblemaps cüzdan haritası MANUEL KONTROL EDİLMELİ; harita onayı verilmedi.**\nGMGN kullanılmaz; tüm sniper/bundler etiketleri ve tam geliştirici geçmişi kapsanmaz. Resmî/orijinal kontrat eşleşmesi ayrıca doğrulanmalıdır.\n\n'
             for row in batch['candidates']:
-                body+=f"{row['symbol']} · {row['chain']} · {row['stage']}\nKontrat: `{row['mint']}`\nGözlem: {time_label(row['observed_ms'])} TR; fiyat ${row['price_usd']:.8g}\nGeliştirici: yalnız son 45 dakikalık taranan işlem penceresi; bağlantılı tüm cüzdanlar veya geçmişin tamamı için satış yapmadı iddiası değildir.\nhttps://dexscreener.com/{json.loads((ROOT/'meme_config.json').read_text(encoding='utf-8'))['networks'][row['chain']]['dex']}/{row['pool']}\n\n"
+                body+=f"{row['symbol']} · {row['chain']} · {row['stage']}\nKontrat: `{row['mint']}`\nGözlem: {time_label(row['observed_ms'])} TR; fiyat ${row['price_usd']:.8g}\nGeliştirici: yalnız son 45 dakikalık taranan işlem penceresi; bağlantılı tüm cüzdanlar veya geçmişin tamamı için satış yapmadı iddiası değildir.\nBubblemaps: {bubble_link(row)}\nhttps://dexscreener.com/{json.loads((ROOT/'meme_config.json').read_text(encoding='utf-8'))['networks'][row['chain']]['dex']}/{row['pool']}\n\n"
             body+='Filtreleri sağlayan izleme kaydıdır; güvenli token veya getiri garantisi değildir.\n\n'+marker
-            cloud.http_json(url,{'title':'Coin Tarama Meme · '+time_label(batch['created_ms']),'body':body},headers,label='GitHub Issues')
+            cloud.http_json(url,{'title':'Coin Tarama Meme · Ön eleme / manuel harita · '+time_label(batch['created_ms']),'body':body},headers,label='GitHub Issues')
         state['pending']=[b for b in state['pending'] if b['id']!=batch['id']];cloud.save(STATE,state)
 
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('phase',choices=['pull-state','scan','push-state','notify','check-status'])
     args=parser.parse_args();configure()
-    if args.phase=='pull-state':cloud.pull_state()
+    if args.phase=='pull-state':pull_state()
     elif args.phase=='scan':scan()
     elif args.phase=='push-state':cloud.push_state()
     elif args.phase=='notify':notify()
