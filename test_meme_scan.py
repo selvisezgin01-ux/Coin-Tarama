@@ -158,6 +158,49 @@ class MemeChecks(unittest.TestCase):
         self.assertFalse(rules.current_price_holds(1.04,setup,1.07,CONFIG))
         self.assertFalse(rules.current_price_holds(1.6,setup,1.07,CONFIG))
 
+    def test_evm_developer_window_distinguishes_outflow_and_incomplete_history(self):
+        client=unittest.mock.Mock();client.config=deepcopy(CONFIG)
+        asset={'chain':'ethereum','mint':'0x'+'1'*40};creator='0x'+'2'*40
+        end=10000;tip=5000;logs=[]
+        def rpc(url,method,params):
+            if method=='eth_chainId':return '0x1'
+            if method=='eth_getCode':return '0x'
+            if method=='eth_blockNumber':return hex(tip)
+            if method=='eth_getBlockByNumber':
+                return {'timestamp':hex(end-(tip-int(params[0],16))*12)}
+            if method=='eth_getLogs':return logs
+            raise AssertionError(method)
+        client.rpc.side_effect=rpc
+        network={'rpc':'https://example.test','chain_id':'1'}
+        with patch.dict(os.environ,{},clear=True):
+            result=security.developer_evm(client,network,asset,creator,end*1000)
+            self.assertEqual(result['status'],'no_outgoing_transfers_in_complete_window')
+            self.assertEqual(result['window_end_ms']-result['window_start_ms'],45*60000)
+            logs.append({'address':asset['mint'],'topics':[security.TRANSFER,'0x'+creator[2:].zfill(64),'0x'+'0'*64],
+                         'data':'0x1','blockNumber':hex(tip),'transactionHash':'transfer'})
+            self.assertEqual(security.developer_evm(client,network,asset,creator,end*1000)['status'],'outgoing_transfer_detected')
+            client.config['risk'].update({'rpc_log_page_blocks':1,'rpc_log_max_pages':1})
+            self.assertEqual(security.developer_evm(client,network,asset,creator,end*1000)['status'],'unknown')
+
+    def test_solana_developer_missing_transactions_cannot_prove_no_outflow(self):
+        client=unittest.mock.Mock();client.config=CONFIG
+        asset={'chain':'solana','mint':'mint'};creator='creator';body=None
+        rows=[{'signature':'tx','blockTime':10000,'err':None}]
+        def rpc(url,method,params):
+            if method=='getTokenAccountsByOwner':return {'value':[]}
+            if method=='getSignaturesForAddress':return rows
+            if method=='getTransaction':return body
+            raise AssertionError(method)
+        client.rpc.side_effect=rpc
+        with patch.dict(os.environ,{},clear=True):
+            self.assertEqual(security.developer_solana(client,asset,creator,10000000)['status'],'unknown')
+            body={'meta':{'err':None,'preTokenBalances':[{'accountIndex':0,'mint':'mint','owner':creator,
+                          'uiTokenAmount':{'amount':'10'}}],'postTokenBalances':[]}}
+            self.assertEqual(security.developer_solana(client,asset,creator,10000000)['status'],'outgoing_transfer_detected')
+            rows[:]=[{'signature':str(i),'blockTime':10000,'err':None} for i in range(CONFIG['risk']['solana_signature_limit'])]
+            result=security.developer_solana(client,asset,creator,10000000)
+            self.assertEqual(result['status'],'unknown');self.assertEqual(result['reason'],'developer_history_truncated')
+
     def test_missing_measurements_remain_in_cohort_when_window_expires(self):
         asset={'chain':'solana','mint':'A','symbol':'A','pool':'P','price_usd':1.,'observed_ms':1000}
         state={'entries':{}};scan.observe_entry(state,{'latest':asset},'review',{'stage':'accumulation'},CONFIG)
