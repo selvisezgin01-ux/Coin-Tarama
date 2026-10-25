@@ -1,6 +1,6 @@
 # Coin Tarama Meme
 
-Son çalışma: 26.10.2026 01:45 Türkiye saati.
+Son çalışma: 26.10.2026 01:58 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -14,11 +14,11 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
-| Ethereum | 44 | 0 | 0 | 0 | 0 | 0 |
+| Ethereum | 51 | 0 | 0 | 0 | 0 | 0 |
 | BNB Chain | 55 | 0 | 0 | 0 | 0 | 0 |
-| Robinhood | 51 | 0 | 0 | 0 | 0 | 0 |
+| Robinhood | 54 | 0 | 0 | 0 | 0 | 0 |
 | HyperEVM (HYPE) | 27 | 0 | 0 | 0 | 0 | 0 |
-| Solana | 54 | 2 | 1 | 0 | 0 | 0 |
+| Solana | 53 | 1 | 1 | 0 | 0 | 0 |
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
 
@@ -53,6 +53,7 @@ Kaynak: DexScreener token metadata ve sınırlı son topluluk devri akışı. Ge
 
 | Token / ağ | İlk X gözlemi TR | İlk bağlantı | Güncel bağlantı | Gözlenen değişiklik | CTO kaydı |
 |---|---|---|---|---:|---|
+| PERMANENT / ethereum `0x6105b45eea0ca03b5705233443ee5f479f0c8d8c` | 26.10.2026 01:58 | https://x.com/permanentcards | https://x.com/permanentcards | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
 | Marvin / solana `FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump` | 26.10.2026 01:45 | https://x.com/gettindevvy | https://x.com/gettindevvy | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
 | CHERRMU / solana `7Erm3vex4VQRTRVj2NCiCChjMUGRbSHx3WeQvvZVpump` | — | Bilinmiyor | Bilinmiyor | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
 | LAUNCH / solana `AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C` | — | Bilinmiyor | Bilinmiyor | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
@@ -92,6 +93,5 @@ Kaynak: DexScreener token metadata ve sınırlı son topluluk devri akışı. Ge
 | MAGICAL / ethereum `0xe88a366ccd5b6079a768be26b77f40eb621576ea` | — | Bilinmiyor | Bilinmiyor | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
 | FROGE / ethereum `0x09a01614c7d7b3b65b9ddc58ecd405514ff076ea` | — | Bilinmiyor | Bilinmiyor | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
 | 1NU / ethereum `0xfd35035dc72f2610b14151d54e66fa41a9af36ea` | — | Bilinmiyor | Bilinmiyor | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
-| PRESIDENT / ethereum `0x55c629845156517d64ba767788f2e0829b8f66ea` | — | Bilinmiyor | Bilinmiyor | 0 | Gözlenmedi; yokluğu kanıtlanmadı |
 
 Her döngüde ağ başına en çok 20 tokenin metadatası okunur; bütün tokenler aynı anda kapsanmaz. X bağlantıları yalnız metin olarak doğrulanır; hesap varlığı veya resmî proje hesabı olduğu onaylanmaz. Daha önce bildirilen adayda sonradan bağlantı değişimi/CTO kaydı gözlenirse ayrı uyarı Issue’su oluşur.
