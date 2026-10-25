@@ -1,5 +1,5 @@
 {
-  "version": "coin-tarama-meme-v2-manual-map",
+  "version": "coin-tarama-meme-v3-first-formation",
   "status": "experimental discovery and paper observation, no orders",
   "networks": {
     "solana": {"name": "Solana", "gecko": "solana", "dex": "solana", "security": "rugcheck", "chain_id": null},
@@ -10,7 +10,7 @@
   },
   "discovery": {
     "new_pool_pages_per_network": 1,
-    "trending_pools_per_network": true,
+    "trending_pools_per_network": false,
     "max_watch_per_network": 120,
     "max_ohlcv_per_network_per_run": 1,
     "max_security_checks_per_network_per_run": 1,
@@ -19,7 +19,7 @@
     "note": "Bounded discovery, not the whole market. Profile/boost feeds are supplementary and never a positive scoring signal."
   },
   "market": {
-    "min_pool_age_minutes": 60,
+    "min_pool_age_minutes": 45,
     "max_pool_age_hours": 24,
     "liquidity_min_usd": 10000,
     "valuation_min_usd": 25000,
@@ -41,6 +41,14 @@
     "live_price_drift_max_pct": 15,
     "max_previous_one_bar_gain_pct": 60,
     "max_pool_peak_drawdown_pct": 25
+  },
+  "first_formation": {
+    "max_observed_runup_pct": 25,
+    "max_current_gain_from_initial_pct": 10,
+    "max_drawdown_from_peak_pct": 15,
+    "require_full_selected_pool_history": true,
+    "new_candidate_stage": "accumulation",
+    "note": "Experimental exclusion thresholds, not fitted profit predictors. Includes all available wicks and the open bar for exclusion only. Missing start/gaps remain unknown; pool history is not token lifetime history."
   },
   "risk": {
     "wallet_map_mode": "manual",

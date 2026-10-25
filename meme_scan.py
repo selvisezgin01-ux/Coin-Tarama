@@ -30,11 +30,11 @@ def fingerprint():
 
 
 def new_state():
-    return {'version':'meme-v2','rules_fingerprint':fingerprint(),'assets':{},'entries':{},'pending':[],'runs':[]}
+    return {'version':'meme-v3','rules_fingerprint':fingerprint(),'assets':{},'entries':{},'pending':[],'runs':[]}
 
 
 def configure():
-    branch=os.environ.setdefault('SCANNER_STATE_BRANCH','scanner-state-meme-v2')
+    branch=os.environ.setdefault('SCANNER_STATE_BRANCH','scanner-state-meme-v3')
     if not branch.startswith('scanner-state-meme'):raise ValueError('Meme scanner must use its own state branch')
     cloud.OUT=OUT;cloud.STATE=STATE;cloud.fingerprint=fingerprint;cloud.new_state=new_state
 
@@ -69,11 +69,26 @@ def pull_state():
     if (OUT/'parent.txt').read_text(encoding='ascii').strip():return
     branch=os.environ.get('MEME_MIGRATE_FROM_BRANCH')
     if not branch:return
-    if branch!='scanner-state-meme':raise ValueError('Only the archived original meme branch may seed this experiment')
+    if branch!='scanner-state-meme-v2':raise ValueError('Only the archived meme-v2 branch may seed this experiment')
     cloud.git('fetch','--no-tags','origin','refs/heads/'+branch)
     commit=cloud.git('rev-parse','FETCH_HEAD').stdout.strip()
     previous=json.loads(cloud.git('show',commit+':state.json').stdout)
-    cloud.save(STATE,seed_from_v1(previous,branch,commit))
+    cloud.save(STATE,seed_first_formation(previous,branch,commit))
+
+
+def seed_first_formation(previous,branch,commit):
+    if previous.get('version')!='meme-v2' or previous.get('rules_fingerprint')!='7cd0a36fdb87a00b75afb7ef6d96d24f11ccde772445318eee9380ecb6e0d80e':
+        raise ValueError('Unexpected source experiment for first-formation migration')
+    if previous.get('entries') or previous.get('pending'):
+        raise ValueError('Source has observations/alerts; refusing to reset or mix its measured cohort')
+    state=new_state()
+    for key,record in previous.get('assets',{}).items():
+        state['assets'][key]={k:record[k] for k in ['latest','first_seen_ms','earliest_pool_created_ms','observations'] if k in record}
+    if 'social_watch' in previous:state['social_watch']=previous['social_watch']
+    state['migration']={'from_branch':branch,'from_commit':commit,'from_fingerprint':previous['rules_fingerprint'],
+                        'source_updated_ms':previous.get('updated_ms'),'migrated_ms':now_ms(),
+                        'reason':'First formation only; full available launch history and wick/runup exclusions. Previous branch archived; no historical signals backfilled.'}
+    return state
 
 
 def pending_measurements(entry,config):
@@ -137,6 +152,13 @@ def measure_entries(state,record,config):
                  'liquidity_usd':asset.get('liquidity_usd'),'status':'missed_target_window' if late else 'actual_observed_price'}
 
 
+def previously_alerted_accumulation(state,key):
+    entry=state['entries'].get(key,{})
+    if entry.get('references',{}).get('qualified',{}).get('stage')!='accumulation':return False
+    if 'accumulation' not in entry.get('alerted_stages',[]):return False
+    return not any(key_of(row)==key and row['stage']=='accumulation' for batch in state['pending'] for row in batch['candidates'])
+
+
 def scan_network(chain,network,state,config,client):
     result={'network':network['name'],'errors':[],'discovery':[],'evaluated':[],'qualified':[],'review':[],'refreshed':0}
     rows,errors,coverage=source.discover(client,chain,network)
@@ -176,6 +198,16 @@ def scan_network(chain,network,state,config,client):
                 raise ValueError('Closed 15m candles missing or stale')
             setup=rules.pattern(candles,config)
             record['setup']=setup
+            formation=rules.first_formation(raw,asset,record['earliest_pool_created_ms'],stamp,config)
+            record['first_formation']=formation
+            if formation['status']=='rejected':
+                record.setdefault('first_formation_disqualified',{'observed_ms':stamp,'pool':asset['pool'],**formation})
+            if formation['status']!='passed' or record.get('first_formation_disqualified'):
+                record['tier']='watch';result['evaluated'].append({'mint':asset['mint'],'stage':None,
+                    'reason':(record.get('first_formation_disqualified') or formation)['reason']});continue
+            # A first encounter during a breakout is already late for this experiment.
+            if setup['stage']=='first_breakout' and not previously_alerted_accumulation(state,key_of(asset)):
+                setup={**setup,'stage':None,'reason':'first_encounter_after_breakout_excluded'};record['setup']=setup
             if setup['stage'] is None:
                 record['tier']='watch';result['evaluated'].append({'mint':asset['mint'],'stage':None,'reason':setup['reason']});continue
             # Re-fetch price after OHLCV/risk work before publishing an observation.
@@ -198,11 +230,14 @@ def scan_network(chain,network,state,config,client):
                 asset.update(source.quote(client,network,asset));asset['observed_ms']=asset['price_observed_ms']
                 if not rules.current_price_holds(asset['price_usd'],setup,candles[-1]['close'],config):
                     classified='rejected';record['quote_rejection']='current_price_lost_setup_or_moved_too_far'
+                if (asset['price_usd']/formation['metrics']['initial_open']-1)*100>config['first_formation']['max_current_gain_from_initial_pct']:
+                    classified='rejected';record['quote_rejection']='live_price_already_extended_from_initial'
                 if sec.get('liquidity_lock') is None:sec['liquidity_lock']={'status':'unknown','locked_pct':None}
             record['tier']=classified
             item={'chain':chain,'mint':asset['mint'],'symbol':safe_symbol(asset['symbol']),'stage':setup['stage'],'tier':classified,
                   'price_usd':asset['price_usd'],'observed_ms':asset['observed_ms'],'pool':asset['pool'],
                   'market':record['market'],'security':sec,'developer':dev,'maps':maps}
+            item['first_formation']=formation
             item['manual_checks_required']=['wallet_map','official_contract_identity']
             result['evaluated'].append(item)
             if classified in ('qualified','review'):
@@ -234,15 +269,35 @@ def report(state,scans,client,config):
     lines=['# Coin Tarama Meme','',f"Son çalışma: {time_label(now_ms())} Türkiye saati.",'',
         '**Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**','',
         'Kapsam: Solana, Ethereum, BNB Chain, Robinhood (Pons dahil), HyperEVM. Pons ayrı bir ağ değildir.','',
-        '15 dakikalık kapalı mumlarda birikim ve ilk kırılım incelenir. **Cüzdan haritası kullanıcı tarafından manuel kontrol edilir; harita onayı bekleyen ön eleme adayları bildirilebilir.** Kritik kontrat/geliştirici verisi eksik tokenler incelemede kalır ve bildirilmez.','',
+        '**Hedef: ilk yükseliş öncesi oluşum/birikim.** Yeni aday yalnız birikim evresinde alınır; ilk kırılım ancak daha önce bildirilen birikimin devamı olarak izlenir. Trend listesi aday kaynağı olarak kullanılmaz. **Cüzdan haritası manuel kontrol bekler.** Kritik kontrat/geliştirici verisi eksik tokenler bildirilmez.','',
+        'Geçmişin tamamındaki fitiller ve açık mum dahil gözlenen dipten tepeye yükseliş %25 üzerindeyse, ilk fiyatın %10 üzerine uzamışsa veya tepeden %15 üzeri düşmüşse elenir. Bu eşikler deneysel tercihlerdir. Havuz başlangıcı, ara mumlar veya güncel mum yoksa ilk oluşum teyitsizdir. Eski pump sonrası yataylaşma yeni aday sayılmaz.','',
         'GMGN kullanılmaz. Solana: RugCheck + GoPlus Solana; desteklenen EVM ağları: GoPlus. GMGN’nin tüm sniper/bundler etiketleri ve eksiksiz geliştirici geçmişi sağlanmaz. Teknik risk ön elemesi tokenin resmî/orijinal proje kontratı olduğunu kanıtlamaz.','',
         'Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı bildirimi olarak, FDV ise açıkça ayrı değer türü olarak gösterilir. Geliştirici teyidi yalnız belirtilen 45 dakikalık işlem penceresindeki raporlanan adrese aittir; ömür boyu hiç satış yapmadığı veya başka cüzdan kullanmadığı anlamına gelmez.','',
         '| Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |',
         '|---|---:|---:|---:|---:|---:|---:|']
     for chain,r in scans.items():
         lines.append(f"| {r['network']} | {r.get('refreshed',0)} | {r.get('eligible_market_count',0)} | {len(r.get('evaluated',[]))} | {len(r.get('qualified',[]))} | {len(r.get('review',[]))} | {len(r.get('errors',[]))} |")
+    reasons={}
+    for r in scans.values():
+        for item in r.get('evaluated',[]):
+            if item.get('reason'):reasons[item['reason']]=reasons.get(item['reason'],0)+1
+    if reasons:
+        lines+=['','Bu çalışmada aday olmayan mum incelemeleri (token listesi değildir):']
+        descriptions={'initial_pool_history_missing':'Havuz başlangıç mumları eksik',
+            'initial_history_has_gaps':'Başlangıç geçmişinde veri boşluğu var',
+            'current_interval_history_missing':'Güncel mumun yüksek/düşük verisi eksik',
+            'earlier_pool_history_not_covered':'Daha eski havuz geçmişi kapsam dışı',
+            'first_rise_already_observed':'Önceden yükseliş / uzun fitil görülmüş',
+            'already_extended_from_initial_price':'Başlangıç fiyatından fazla uzaklaşmış',
+            'post_peak_rebound_excluded':'Tepeden düşüş sonrası yapı elenmiş',
+            'first_encounter_after_breakout_excluded':'İlk karşılaşmada kırılım zaten başlamış',
+            'no_qualifying_setup':'Birikim yapısı yok'}
+        for reason,count in sorted(reasons.items()):
+            lines.append('- '+str(count)+': '+'; '.join(descriptions.get(x,x) for x in reason.split(',')))
     for label,tier in [('Otomatik ön eleme geçti — manuel harita kontrolü bekliyor','qualified'),('İnceleme — eksik otomatik teyitler','review')]:
         lines+=['','## '+label,'','| Token / adres | Ağ | Grup | Piyasa değeri / FDV USD | Geliştirici | Harita | Likidite kilidi | Eksik otomatik kontroller |','|---|---|---|---:|---|---|---|---|']
+        if not any(r.get(tier) for r in scans.values()):
+            lines+=['','**Henüz koşulları sağlayan aday yok.**' if tier=='qualified' else 'Bu çalışmada inceleme kaydı yok.','']
         for chain,r in scans.items():
             for row in r.get(tier,[]):
                 label_stage='Birikim' if row['stage']=='accumulation' else 'İlk kırılım'
@@ -269,7 +324,8 @@ def report(state,scans,client,config):
             lines.append(f"| {entry['symbol']} | {entry['chain']} | {kind_label} | {time_label(reference['observed_ms'])} | {reference['price']:.8g} | {' | '.join(returns)} |")
     lines+=['','## Veri kapsamı ve eksikler','',
             'Getiri sütunları hedef sürelerdir. Parantezdeki +dakika gerçek fiyat gözleminin hedefe gecikmesidir; tam 15/30/60 dakikalık mum getirisi olduğu iddia edilmez. Geçerli gözlem penceresi kaçırılırsa sonuç boş kalır.','',
-            'Her ağda yeni ve trend havuz akışları sınırlı sayfalarla okunur. Önceki izlenen havuzlar kalıcı kayıttan yenilenir. Ücretli profil/boost satın alınması olumlu sinyal sayılmaz. Aynı simge farklı kontratlarda birleştirilmez.','',
+            'Her ağda yalnız yeni havuz akışı sınırlı sayfalarla okunur. Önceki izlenen havuzlar kalıcı kayıttan yenilenir. Ham keşif ve sosyal gözlem tokenleri aday listesinde gösterilmez. Ücretli profil/boost olumlu sinyal sayılmaz. Aynı simge farklı kontratlarda birleştirilmez.','',
+            'Üç kapalı 15 dakikalık birikim mumu ve en az 45 dakikalık havuz yaşı gerekir. Bu süreden önce pump yapan tokenleri bu yöntem önceden yakalayamaz. Başlangıç havuz verisi tokenin tüm zincir geçmişi veya eski havuzları kapsadığı anlamına gelmez.','',
             'Bubblemaps haritasını kullanıcı manuel inceler; API anahtarı gerekmez. Hiçbir kayıt otomatik veya manuel harita onayı almış sayılmaz. Robinhood/HyperEVM harita desteği bu sürümde doğrulanmadığından genel uygulama bağlantısı verilir; uygun ağ/harita bulunamazsa bu kontrol eksik kalır. RPC veya güvenlik kaynağının ağ desteği yoksa o ağda fiyat/havuz takibi sürer; eksik otomatik teyitle aday bildirilmez.','',
             'GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.','']
     for chain,r in scans.items():
@@ -327,7 +383,7 @@ def notify():
         marker='<!-- coin-tarama-meme:'+batch['id']+' -->'
         existing=cloud.http_json(url+'?state=all&per_page=100',headers=headers,label='GitHub Issues')
         if not any(marker in (i.get('body') or '') for i in existing):
-            body=('@'+user+'\n\n' if user else '')+'Coin Tarama Meme — otomatik ön eleme\n\n**Bubblemaps cüzdan haritası MANUEL KONTROL EDİLMELİ; harita onayı verilmedi.**\nGMGN kullanılmaz; tüm sniper/bundler etiketleri ve tam geliştirici geçmişi kapsanmaz. Resmî/orijinal kontrat eşleşmesi ayrıca doğrulanmalıdır.\n\n'
+            body=('@'+user+'\n\n' if user else '')+'Coin Tarama Meme — ilk oluşum ön elemesi\n\nİlk aday birikim evresinde aranır; başlangıç dahil erişilen havuz geçmişinde eşikleri aşan yükseliş/düşüş görülmemiştir. Tokenin tüm yaşamı doğrulanmış veya yükseliş garanti edilmiş değildir.\n\n**Bubblemaps cüzdan haritası MANUEL KONTROL EDİLMELİ; harita onayı verilmedi.**\nGMGN kullanılmaz; tüm sniper/bundler etiketleri ve tam geliştirici geçmişi kapsanmaz. Resmî/orijinal kontrat eşleşmesi ayrıca doğrulanmalıdır.\n\n'
             for row in batch['candidates']:
                 body+=f"{row['symbol']} · {row['chain']} · {row['stage']}\nKontrat: `{row['mint']}`\nGözlem: {time_label(row['observed_ms'])} TR; fiyat ${row['price_usd']:.8g}\nGeliştirici: yalnız son 45 dakikalık taranan işlem penceresi; bağlantılı tüm cüzdanlar veya geçmişin tamamı için satış yapmadı iddiası değildir.\nBubblemaps: {bubble_link(row)}\nhttps://dexscreener.com/{json.loads((ROOT/'meme_config.json').read_text(encoding='utf-8'))['networks'][row['chain']]['dex']}/{row['pool']}\n\n"
             body+='Filtreleri sağlayan izleme kaydıdır; güvenli token veya getiri garantisi değildir.\n\n'+marker

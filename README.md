@@ -2,9 +2,11 @@
 
 ## Coin Tarama Meme — ayrı DEX deneyi
 
-Solana, Ethereum, BNB Chain, Robinhood/Pons ve HyperEVM için 15 dakikalık birikim/ilk kırılım deneyi ayrı çalışır. [Meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme-v2/report.md) · [Kurallar ve veri erişimi](COIN_TARAMA_MEME.md).
+Solana, Ethereum, BNB Chain, Robinhood/Pons ve HyperEVM için **ilk yükseliş öncesi oluşum/birikim** taranır. Yalnız güncel Meme sürümü çalışır. [Güncel Meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme-v3/report.md) · [Kurallar ve veri erişimi](COIN_TARAMA_MEME.md).
 
-GoPlus/RugCheck ile otomatik risk ön elemesi yapılır; **Bubblemaps haritasını kullanıcı manuel kontrol eder**. Bildirimler harita onayı bekleyen ön eleme adaylarıdır. Kritik kontrat/dağılım/geliştirici verisi eksikse aday bildirilmez. GMGN/Bubblemaps API anahtarı gerekmez; GMGN'nin tüm özel cüzdan etiketleri sağlanmaz. Likidite kilidi yardımcı bilgidir. İlk Meme deneyi `scanner-state-meme` dalında korunur; bu güncelleme Coin Tarama 2/3'ü değiştirmez.
+GoPlus/RugCheck ile otomatik risk ön elemesi yapılır; **Bubblemaps haritasını kullanıcı manuel kontrol eder**. Bildirimler harita onayı bekleyen ön eleme adaylarıdır. Kritik kontrat/dağılım/geliştirici verisi eksikse aday bildirilmez. GMGN/Bubblemaps API anahtarı gerekmez; GMGN'nin tüm özel cüzdan etiketleri sağlanmaz. Likidite kilidi yardımcı bilgidir. Pump sonrası yataylaşma, eksik başlangıç geçmişi ve ilk kez kırılımda karşılaşılan tokenler yeni aday sayılmaz; ham sosyal gözlemler aday tablosuna konmaz. Bu güncelleme Coin Tarama 2/3'ü değiştirmez.
+
+Ön eleme adaylarına $100/$500 örnek satış rotası, 24 saatlik bozulma uyarıları ve işlem/holder katılım ölçümleri eklenir. Döngü başına en çok iki token kontrol edilir; eksik erişim ve eksik veri açıkça gösterilir. Kotasyon gerçekleşme veya net kazanç garantisi değildir.
 
 Ek sosyal gözlem modülü, ilk gözlemden sonraki X bağlantı değişikliklerini ve DexScreener topluluk devri/CTO kayıtlarını raporlar. Geçmiş tüm kullanıcı adı değişiklikleri ve geliştiricinin sattığı bu verilerle kanıtlanmaz. Önceden bildirilen adayda yeni bir sosyal değişiklik görülürse ek uyarı Issue'su açılır; veri eksikliği temiz geçmiş sayılmaz.
 

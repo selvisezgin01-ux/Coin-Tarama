@@ -79,6 +79,7 @@ def parse_rug(report,asset,config):
             lock={'status':'provider_reported','locked_pct':pct,'scope':'exact_selected_pool','market_type':kind,
                   'note':'Bonding curve/launch inventory is not automatically equivalent to a classic withdrawable LP token lock.'}
     return {'source':'RugCheck','creator':owner,'creator_pct':creator_pct,'supply_normalized':supply,'liquidity_lock':lock,
+            'holder_count':count,'token_decimals':decimals,'buy_tax_fraction':None,'sell_tax_fraction':None,
             'warnings':warnings,'reported_insider_networks':len(report.get('insiderNetworks') or []),
             'blocked':bool(risks),'risks':risks,'unknown':unknown,'complete':not risks and not unknown,
             'report_fetch_age_is_not_report_cache_age':True,**holder_info}
@@ -119,6 +120,7 @@ def parse_goplus(report,asset,config):
     lock={'status':'unknown','locked_pct':None,'scope':'exact_selected_pool',
           'note':'Aggregated LP-holder data does not prove this selected pool or position is locked.'}
     return {'source':'GoPlus','creator':report.get('creator_address'),'creator_pct':creator_pct,'liquidity_lock':lock,
+            'holder_count':count,'token_decimals':None,'buy_tax_fraction':number(report.get('buy_tax')),'sell_tax_fraction':number(report.get('sell_tax')),
             'supply_normalized':number(report.get('total_supply')),'blocked':bool(risks),'risks':risks,
             'unknown':unknown,'complete':not risks and not unknown,
             'report_fetch_age_is_not_report_cache_age':True,**holder_info}

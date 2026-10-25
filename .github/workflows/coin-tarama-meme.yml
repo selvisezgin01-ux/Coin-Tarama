@@ -1,4 +1,4 @@
-name: Coin Tarama Meme — 15 dakika birikim
+name: Coin Tarama Meme — ilk oluşum
 
 on:
   schedule:
@@ -19,8 +19,8 @@ jobs:
     timeout-minutes: 12
     env:
       PYTHONUTF8: '1'
-      SCANNER_STATE_BRANCH: scanner-state-meme-v2
-      MEME_MIGRATE_FROM_BRANCH: scanner-state-meme
+      SCANNER_STATE_BRANCH: scanner-state-meme-v3
+      MEME_MIGRATE_FROM_BRANCH: scanner-state-meme-v2
       MEME_RPC_SOLANA: ${{ secrets.MEME_RPC_SOLANA }}
       MEME_RPC_ETHEREUM: ${{ secrets.MEME_RPC_ETHEREUM }}
       MEME_RPC_BNB: ${{ secrets.MEME_RPC_BNB }}
@@ -38,6 +38,8 @@ jobs:
         run: python meme_scan.py pull-state
       - name: Read public data and evaluate closed 15-minute setups
         run: python meme_scan.py scan
+      - name: Measure indicative exits, participation and post-alert risks
+        run: python meme_followup_watch.py observe
       - name: Observe public X links and community takeover notices
         run: python meme_social_watch.py observe
       - name: Save before notification
@@ -46,7 +48,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
-        run: python meme_social_watch.py notify
+        run: python meme_followup_watch.py notify
       - name: Save notification state
         if: ${{ always() && hashFiles('cloud_output_meme/parent.txt') != '' && hashFiles('cloud_output_meme/state.json') != '' }}
         run: python meme_scan.py push-state

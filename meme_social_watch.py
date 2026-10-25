@@ -14,6 +14,7 @@ from meme_sources import Client,valid_address
 
 SECTION='## X bağlantıları ve topluluk devri — ek gözlem'
 LIMIT_PER_NETWORK=20
+LEGACY_FINGERPRINT='5dc9665062f18d0f3f623620c84cfc5481fb85d30ceb062d89420ff4e9eed303'
 
 
 def fingerprint():
@@ -22,7 +23,12 @@ def fingerprint():
 
 def social_state(state):
     value=state.setdefault('social_watch',{'version':1,'fingerprint':fingerprint(),'tokens':{},'pending':[]})
-    if value.get('fingerprint')!=fingerprint():raise ValueError('Social observation rules changed; explicit migration required')
+    if value.get('fingerprint')!=fingerprint():
+        if value.get('version')==1 and value.get('fingerprint')==LEGACY_FINGERPRINT:
+            value['migration']={'from_fingerprint':value['fingerprint'],'observed_ms':meme.now_ms(),
+                                'reason':'Presentation only: hide raw discovery records; preserve all X/CTO baselines and events.'}
+            value['version']=2;value['fingerprint']=fingerprint()
+        else:raise ValueError('Social observation rules changed; explicit migration required')
     return value
 
 
@@ -164,7 +170,8 @@ def append_report(state):
     lines=['',SECTION,'','Kaynak: DexScreener token metadata ve sınırlı son topluluk devri akışı. Geçmiş tüm X isim değişiklikleri, aynı hesabın kimliği ve hesabın sahibinin değişmesi doğrulanmaz. İlk gözlemden önceki geçmiş bilinmiyor; sayaç yalnız takip sırasında görülen bağlantı değişimlerini sayar. CTO kaydı satış veya dump kanıtı değildir.','',
            '| Token / ağ | İlk X gözlemi TR | İlk bağlantı | Güncel bağlantı | Gözlenen değişiklik | CTO kaydı |',
            '|---|---|---|---|---:|---|']
-    records=sorted(watch['tokens'].values(),key=lambda r:(0 if meme.key_of(r) in state['entries'] else 1,-bool(r.get('cto') or r['observed_link_changes']),-r.get('last_observed_ms',0)))
+    records=sorted([r for k,r in watch['tokens'].items() if k in state['entries']],key=lambda r:(-bool(r.get('cto') or r['observed_link_changes']),-r.get('last_observed_ms',0)))
+    if not records:lines+=['','Henüz aday yok; ham sosyal gözlem tokenleri aday olarak gösterilmez.','']
     for record in records[:40]:
         def links(value):return '<br>'.join(value) if value else ('Listede yok' if value==[] else 'Bilinmiyor')
         date=meme.time_label(record['first_observed_ms']) if record.get('first_observed_ms') else '—'

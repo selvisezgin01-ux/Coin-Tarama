@@ -6,21 +6,23 @@ Coin Tarama 2 ve Coin Tarama 3'ten ayrı bir deneydir. Yalnız genel DEX, risk r
 
 - Solana, Ethereum, BNB Chain, Robinhood, HyperEVM (HYPE).
 - Pons, Robinhood içindeki bir platformdur; Robinhood verisindeki `pons-v2` havuzları ayrıca bir ağ icat edilmeden kapsama girer.
-- GitHub iş akışı: **Coin Tarama Meme — 15 dakika birikim**. Yaklaşık beş dakikada bir, dakikanın 02/07/12/.../57 anlarında planlanır. GitHub gecikebilir; bu gerçek zamanlı bir işlem sistemi değildir.
-- [Canlı meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme-v2/report.md)
+- GitHub iş akışı: **Coin Tarama Meme — ilk oluşum**. Yaklaşık beş dakikada bir, dakikanın 02/07/12/.../57 anlarında planlanır. GitHub gecikebilir; bu gerçek zamanlı bir işlem sistemi değildir.
+- [Canlı meme raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-meme-v3/report.md)
 - [Bildirimler](https://github.com/selvisezgin01-ux/Coin-Tarama/issues), başlık **Coin Tarama Meme**.
-- Güncel veri ve tekrar bildirim kayıtları `scanner-state-meme-v2` dalında tutulur. İlk denemenin `scanner-state-meme` dalı korunur. Önceki iki CEX sürümünün kuralları/kayıtları değiştirilmez.
+- Yalnız güncel Meme taraması çalışır; veri ve tekrar bildirim kayıtları `scanner-state-meme-v3` dalındadır. Eski Meme dalları çalıştırılmaz. Önceki iki CEX sürümünün kuralları/kayıtları değiştirilmez.
 - Kullanıcı Bubblemaps kontrolünü manuel yapmayı seçmiştir. GMGN veya Bubblemaps API anahtarı gerekmez; bu sürüm ikisine otomatik sorgu göndermez. Bildirimler **otomatik risk ön elemesi geçti; manuel harita kontrolü bekliyor** anlamındadır.
 
 ## Başlangıç kuralları
 
-Havuz yaşı **1–24 saat**; en az **10.000 USD likidite**; sağlayıcının piyasa değeri veya açıkça etiketlenen FDV değeri **25.000–5.000.000 USD** arasında olmalıdır. Likidite/değer oranı en az %3'tür. Son 15 dakikada en az 1.000 USD hacim ve 12 işlem; alışların toplam alış+satış işlem sayısına oranı en az %60 (alış/satış en az 1,5) aranır. Bunlar işlem sayılarıdır; benzersiz alıcı, gerçek para girişi veya wash-trading bulunmadığı iddiası değildir.
+Havuz yaşı **45 dakika–24 saat**; en az **10.000 USD likidite**; sağlayıcının piyasa değeri veya açıkça etiketlenen FDV değeri **25.000–5.000.000 USD** arasında olmalıdır. Likidite/değer oranı en az %3'tür. Son 15 dakikada en az 1.000 USD hacim ve 12 işlem; alışların toplam alış+satış işlem sayısına oranı en az %60 (alış/satış en az 1,5) aranır. Bunlar işlem sayılarıdır; benzersiz alıcı, gerçek para girişi veya wash-trading bulunmadığı iddiası değildir. Trend havuz akışı kapatılmıştır; keşif yalnız yeni havuz akışı ve kalıcı izleme kayıtları üzerindendir.
 
 **Birikim:** Üç kapalı 15 dakikalık mumda toplam fiyat aralığı en çok %20, mutlak net değişim en çok %10 olmalı. Son mum hacmi ilkin en çok %80'i olmalı; son dip ilk dipten %2'den fazla aşağıda olmamalı. Son kapanış mum aralığının en az %55 seviyesinde olmalı.
 
-**İlk kırılım:** Önceki üç mum yukarıdaki birikim yapısını sağlamalı. Yeni kapalı mum bu alanın tepesini aşmalı; hacim önceki üç mum ortalamasının en az 1,5 katı, kapanış konumu en az %65 olmalı. Kırılan seviyeden uzaklık en çok %12'dir. Eldeki havuz geçmişinde tek mumda %60 üstü yükseliş veya mevcut kapanışta tepeden %25 üstü geri çekilme varsa setup reddedilir. Veriler tüm geçmişi içermiyorsa tokenin hayatında hiç pump olmadığı iddia edilmez.
+**Yeni aday yalnız birikimdir.** İlk karşılaşma kırılım sırasında ise yeni aday alınmaz. İlk kırılım ancak daha önce birikim bildirimi gönderilen aynı tokenin devamı olarak izlenebilir; yeni bağımsız coin sayılmaz. Önceki üç mum birikim yapısını sağlamalı, kapalı kırılım mumunda hacim en az 1,5 kat, kapanış konumu en az %65 ve dirençten uzaklık en çok %12 olmalıdır.
 
-Açık mumlar kullanılmaz; işlem olmayan aralıklar uydurulmaz. Kesinti varsa özellikler son kesintisiz bölümde yeniden başlar. Güncel likidite önceki gözlemlere göre bir saatte %20'den fazla düşmüşse aday reddedilir.
+**İlk oluşum filtresi:** Seçili havuzun ilk oluşturulduğu 15dk aralıktan güncel aralığa kadar erişilen mumların tamamı kontrol edilir. Birkaç muma yayılan hareket ve fitiller dahil, gözlenen dipten sonraki tepeye yükseliş %25 üzerindeyse elenir. Mum içi dip/tepe sırası bilinmediğinden aynı mumun dip/tepe aralığı da ihtiyatlı şekilde değerlendirilir. Başlangıç fiyatına göre güncel yükseliş %10 üzerindeyse veya erişilen tepeden düşüş %15 üzerindeyse elenir. Elenme aynı ağ/kontrat için kalıcı kaydedilir; daha sonra yataya dönmesi temiz başlangıç sayılmaz. Canlı fiyat ayrıca ilk fiyattan %10 uzamayı aşamaz. Bu sayılar kullanıcı amacına uygun deneysel eleme tercihleridir; kârlılık testi sonucu değildir.
+
+Olumlu sinyalde yalnız kapalı mumlar kullanılır; açık mumun yüksek/düşüğü yalnız **eleme** için incelenir. Başlangıç, güncel aralık veya herhangi bir ara mum eksikse ilk oluşum bilinmiyor kalır; son kesintisiz yatay bölüm yeterli sayılmaz. Daha eski havuz görüldüyse yeni havuz geçmişi onun yerine geçmez. İşlem olmayan aralıklar uydurulmaz. Seçili havuz geçmişi tokenin tüm ömrünün veya bilinmeyen eski havuzların kanıtı değildir. Güncel likidite önceki gözlemlere göre bir saatte %20'den fazla düşmüşse aday reddedilir. Üç kapalı mum ve 45dk yaş gereksinimi nedeniyle daha erken pump yapan tokenler önceden yakalanamaz.
 
 ## Piyasa değeri, cüzdan haritası ve geliştirici
 
@@ -62,7 +64,19 @@ DexScreener'ın sınırlı son topluluk devri akışında eşleşme görülürse
 
 İlk inceleme fiyatı ile daha sonra bildirim yapılırsa o an yeniden okunan teyitli fiyat ayrı referanslardır. 15/30/60 dakika, 3/6/24 saat hedefleri sonraki gerçek gözlemle ölçülür. Tabloda hedefe gecikme ayrıca gösterilir; tam o dakikanın mum getirisiymiş gibi sunulmaz. Pencere kaçarsa veya fiyat kaybolursa getiri bilinmiyor kalır. Likiditesi kaybolan/ölçülemeyen tokenler veri kümesinden sessizce çıkarılmaz. Aynı ağ/kontrat, yeni havuz veya birikimden kırılıma geçişle yeni bağımsız coin sayılmaz.
 
-V2 geçişi açıkça yeni dalda başlar. Eski kayıtların havuz yaşı, ilk görülme zamanı ve likidite/fiyat gözlemleri korunur; eski setup/risk sonuçları yeni sürümün sonucu gibi taşınmaz. Önceki sürümde ölçüm/bildirim kaydı varsa geçiş sessizce sıfırlamak yerine durur; ayrı ölçüm taşıma tasarımı gerekir. Kaynak dal/commit/tasarım karması yeni durum dosyasında yazılır.
+İlk oluşum revizyonu V3 olarak açıkça yeni dalda başlar. Eski kayıtların havuz yaşı, ilk görülme zamanı, likidite/fiyat ve X/CTO gözlemleri korunur; eski setup/risk sonuçları yeni sürümün sonucu gibi taşınmaz. Önceki sürümde ölçüm/bildirim kaydı varsa geçiş sessizce sıfırlamak yerine durur. Kaynak dal/commit/tasarım karması yeni durum dosyasında yazılır. Ham keşif/sosyal takip tokenleri raporda aday tablosunda gösterilmez; koşulları sağlayan yoksa açıkça **aday yok** yazılır.
+
+## Bildirim sonrası üç ek ölçüm
+
+`meme_followup_watch.py` ayrı tasarım karmasıyla yalnız ön elemeden geçen tokenleri izler. Döngü başına en çok **2 token**, ilk nitelikli gözlemden sonra **24 saat** sırayla incelenir; her tokenin sürekli izlendiği iddia edilmez. Bu modül mevcut ilk oluşum/seçim eşiklerini ve gerçek referans fiyatını değiştirmez. Sonradan bilinen olumsuzluk ilk bildirimde ek uyarı, önceden bildirilmiş tokende ise tekilleştirilmiş yeni risk Issue’su olur.
+
+- **$100/$500 örnek çıkış kotasyonu:** Güncel fiyatın gösterdiği bu tutarlara denk token miktarı kesin ondalık birimlerle hesaplanır. Solana’da Raydium GET compute ile USDC çıkışı; dört EVM ağında dokümante edilmiş KyberSwap GET routes ile yerel para çıkışı sorgulanır. API erişimi/rota/ondalık veri eksikse sonuç bilinmiyor kalır. USDC otomatik $1 sayılmaz; gaz, raporlanan vergi ve çıkış tutarı ayrı tutulur. Vergilerin kotasyona dahil olduğu veya gerçekleşebilir net kazanç doğrulanmaz. Raydium fiyat etkisi ham alanı saklanır, birimi ayrıca doğrulanmadığından kesin yüzde olarak gösterilmez. Kyber’ın referansa farkı saf fiyat etkisi diye adlandırılmaz. İşlem oluşturma, imza, cüzdan bağlantısı veya işlem yayını yoktur.
+- **Bozulma takibi:** Aynı havuzdaki son saat gözlem tepesine göre %20 üstü likidite kaybı, yeni kontrat risk işareti, bilinen oluşturucunun 45dk penceresinde çıkışı ve örneklemde en az 12 satışla satış hacmi payının %75 olması incelenir. Geliştirici çıkışı satış kanıtı değildir. Eksik gözlem uyarıyı temizlemez; aynı olay tekrarlanarak bildirilmez. Kontrol araları nedeniyle kaçan hareketler olabilir. Havuz değişimi likidite çekilişi sayılmaz.
+- **Katılım kalitesi:** Son en çok 300 işlemin 15/30dk örneğinde gözlenen farklı işlem başlatıcıları, iki yönde işlem yapanlar, alım/satım hacmi, net alım ve en büyük alıcının örnek hacim payı saklanır. Bunlar bağımsız insan sayısı veya tam zincir kapsamı değildir. Eksik dolar hacmi net akımda sıfır sayılmaz. Holder sayısı yalnız aynı sağlayıcının gerçek 15/30dk civarı gözlemleri arasında karşılaştırılır; gerçek zaman aralığı yazılır, önbellek yaşı bilinmez.
+
+Kaynak uçlarının likit tokenlerde erişim testi yapılması bütün yeni meme tokenlerde rota bulunacağı veya satılabileceği anlamına gelmez. Eksik veri temiz/güvenli sonucu değildir.
+
+Kotasyon belgeleri: [KyberSwap GET routes ve herkese açık eski uç](https://docs.kyberswap.com/developer-guide/aggregator-api/aggregator-api-specification/evm-swaps), [Raydium resmî compute sorgusu örneği](https://github.com/raydium-io/raydium-sdk-V2-demo/blob/master/src/api/swap.ts). Bu örneklerin işlem oluşturma/gönderme bölümleri kullanılmaz.
 
 Ücretsiz GeckoTerminal veri bütçesi dar olduğundan istekler global aralıkla sınırlıdır; her ağda bir döngüde en çok bir uygun havuzun mumları ayrıntılı incelenir. Daha önce az incelenen uygun havuzlara sıra verilir. Rapor güncellenen token sayısını, erişim hatalarını ve mum bütçesini gösterir. Bu sürüm tüm meme piyasasını veya her yeni çıkarılan tokeni taradığı iddiasında değildir. Sadece bu kaynaklarda indekslenen Pons havuzları görülebilir; indekslenmeden önceki tüm curve işlemleri kapsanmış sayılmaz.
 
