@@ -10,6 +10,7 @@ on:
         options:
           - Coin Tarama 2
           - Coin Tarama 3
+          - Coin Tarama Meme
 
 permissions:
   issues: write
@@ -35,7 +36,7 @@ jobs:
 
           recipient = os.environ['COIN_NOTIFY_USER'].strip()
           label = os.environ['COIN_SCAN_LABEL']
-          if label not in ('Coin Tarama 2', 'Coin Tarama 3'):
+          if label not in ('Coin Tarama 2', 'Coin Tarama 3', 'Coin Tarama Meme'):
               raise ValueError('Unknown scanner label.')
           if not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?', recipient):
               raise ValueError('Set COIN_NOTIFY_USER to a GitHub username without @.')
