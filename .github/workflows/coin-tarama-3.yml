@@ -1,0 +1,62 @@
+name: Coin Tarama 3 — yeni kırılım ve tutunma
+
+on:
+  schedule:
+    - cron: '5 0,4,8,12,16,20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: coin-tarama-3-state
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      PYTHONUTF8: '1'
+      SCANNER_STATE_BRANCH: scanner-state-v4
+      COIN_SCAN_LABEL: Coin Tarama 3
+      NOTIFICATION_CHANNEL: ${{ vars.NOTIFICATION_CHANNEL || 'report' }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Restore separate Coin Tarama 3 state
+        run: python strength_v4_watch.py pull-state
+      - name: Scan both exchanges and measure real observations
+        run: python strength_v4_watch.py scan
+      - name: Checkpoint before notifications
+        run: python strength_v4_watch.py push-state
+      - name: Notify new Coin Tarama 3 candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python strength_v4_watch.py notify --channel "$NOTIFICATION_CHANNEL"
+      - name: Save notification state
+        if: ${{ always() && hashFiles('cloud_output_v4/parent.txt') != '' && hashFiles('cloud_output_v4/state.json') != '' }}
+        run: python strength_v4_watch.py push-state
+      - name: Preserve versioned reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: coin-tarama-3-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            cloud_output_v4/report.md
+            cloud_output_v4/scan.json
+            cloud_output_v4/paper_summary.json
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Mark partial exchange failures
+        if: ${{ always() && hashFiles('cloud_output_v4/scan.json') != '' }}
+        run: python strength_v4_watch.py check-status

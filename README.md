@@ -1,5 +1,15 @@
 # MEXC + OKX coin taraması — GitHub kurulumu
 
+## İki ayrı çalışan sürüm
+
+**Coin Tarama 2** önceki V3 formülüyle, **Coin Tarama 3** yeni kırılım/tutunma gruplarıyla ayrı çalışır. İkisi de MEXC ve OKX'i dört saatte bir tarar. Bildirim başlıklarında sürüm adı görünür. Kalıcı kayıtlar ayrı dallardadır; ilk gerçek gözlemden sonraki 12/24/48 saat ölçümleri raporlara eklenir. Aynı coin grup değiştirdiğinde bağımsız ikinci performans örneği olmaz.
+
+- [Coin Tarama 2 raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state/report.md)
+- [Coin Tarama 3 raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-v4/report.md)
+- [Coin Tarama 3 kuralları, deney ve karşılaştırma planı](COIN_TARAMA_3.md)
+
+Yeni sürüm deneysel olup arşiv kontrolünde toplu üstünlük göstermedi. 26 Ekim başlangıcından 1–2 hafta sonra, yaklaşık 2–9 Kasım 2026 arasında gerçek gözlem sonuçlarını karşılaştıracağız. Önceki yerel araştırma pilotlarının kayıtları korunur.
+
 Bu paket, bilgisayarınız kapalıyken GitHub Actions üzerinde iki borsayı taramak içindir. ChatGPT/Codex uygulamasındaki takipten bağımsızdır; herhangi bir yapay zekâ servisi veya borsa hesabı anahtarı gerekmez.
 
 Yükselişi yeni başlamış, BTC'ye göre güçlü ve kapalı 4 saatlik mum koşullarını sağlayan spot/USDT coinlerini arar. Araştırmadaki seçim formülü aynıdır. Yeni sürümün gelecekte kazandıracağı doğrulanmış değildir. Bu canlı izleyicide 50 coin sınırı yoktur; yerel araştırmanın 12/24/48 saatlik deney raporunu bu paket oluşturmaz.

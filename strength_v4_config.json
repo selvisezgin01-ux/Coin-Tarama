@@ -1,0 +1,44 @@
+{
+  "version": "started-strength-v4-experiment-1",
+  "status": "experimental; retrospective checks are not prospective validation",
+  "interval": "4h",
+  "history_bars": 240,
+  "minimum_history_bars": 180,
+  "prefilter": {
+    "ticker_return24_min_pct": -10,
+    "ticker_quote_volume24_min_usdt": 10000
+  },
+  "rules": {
+    "resistance_lookback_bars": 20,
+    "breakout_volume_median_ratio_min": 1.5,
+    "fresh_max_age_bars": 2,
+    "continuation_max_age_bars": 18,
+    "hold_tolerance_anchor_atr": 0.5,
+    "fresh_close_position_min": 0.65,
+    "continuation_close_position_min": 0.5,
+    "fresh_return24_min_pct": 2,
+    "continuation_return24_min_pct": -5,
+    "fresh_peak_drawdown_max_pct": 15,
+    "continuation_peak_drawdown_max_pct": 20,
+    "fresh_peak_drawdown_max_atr": 1.5,
+    "continuation_peak_drawdown_max_atr": 2.5,
+    "quote_volume24_min_usdt": 10000,
+    "main_liquidity_band_usdt24": 100000,
+    "invalidation_buffer_anchor_atr": 0.25
+  },
+  "warnings": {
+    "return24_above_pct": 30,
+    "return72_above_pct": 45,
+    "ema20_extension_above_atr": 2.5,
+    "invalidation_distance_above_pct": 12,
+    "spread_above_pct": 0.5,
+    "quote_drift_above_atr": 1
+  },
+  "comparison": {
+    "known_design_symbols": ["TUSDT", "DOSUSDT", "IRYSUSDT", "BMTUSDT", "BATUSDT", "MAGICUSDT", "RAREUSDT", "RLCUSDT", "GRASSUSDT", "REALTOKENUSDT", "GBCKUSDT"],
+    "cooldown_hours_per_symbol": 48,
+    "return_horizons_hours": [12, 24, 48],
+    "controls_per_event": 3,
+    "note": "Same archived cohort for both rules. Current listing and archive selection bias remain. Closed-price replay, no executable entry or net profit claim. No threshold search or tuning after comparison."
+  }
+}

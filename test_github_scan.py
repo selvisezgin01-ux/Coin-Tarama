@@ -91,6 +91,21 @@ class CloudChecks(unittest.TestCase):
             request.assert_not_called()
             self.assertEqual(len(json.loads(cloud.STATE.read_text(encoding='utf-8'))['pending']),1)
 
+    def test_versioned_issue_has_separate_marker_and_visible_group(self):
+        with TemporaryDirectory() as tmp,patch.object(cloud,'STATE',Path(tmp)/'state.json'),\
+             patch.dict('os.environ',{'GITHUB_REPOSITORY':'owner/repo','GH_TOKEN':'synthetic-token',
+                 'COIN_NOTIFY_USER':'test-user','SCANNER_STATE_BRANCH':'scanner-state-v4','COIN_SCAN_LABEL':'Coin Tarama 3'}):
+            row=candidate();row.update({'stage':'continuation','breakout_age_bars':4,'warnings':['ortalamadan uzak']})
+            state=cloud.new_state();cloud.update_state(state,{'MEXC':{'candidates':[row]}},0)
+            batch_id=state['pending'][0]['id'];cloud.save(cloud.STATE,state)
+            with patch.object(cloud,'http_json',side_effect=[[{'body':f'<!-- coin-scanner:{batch_id} -->'}],{'number':2}]) as request:
+                cloud.notify('github_issue')
+            payload=request.call_args_list[1].args[1]
+            self.assertTrue(payload['title'].startswith('Coin Tarama 3'))
+            self.assertIn('grup: tutunma',payload['body'])
+            self.assertIn('ortalamadan uzak',payload['body'])
+            self.assertIn(f'<!-- coin-scanner:scanner-state-v4:{batch_id} -->',payload['body'])
+
     def test_state_branch_roundtrip_without_touching_code_or_network(self):
         with TemporaryDirectory() as tmp:
             base=Path(tmp);remote=base/'remote.git';work=base/'work'

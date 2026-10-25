@@ -20,6 +20,7 @@ jobs:
     timeout-minutes: 35
     env:
       PYTHONUTF8: '1'
+      COIN_SCAN_LABEL: Coin Tarama 2
       SCANNER_STATE_BRANCH: ${{ vars.SCANNER_STATE_BRANCH || 'scanner-state' }}
       NOTIFICATION_CHANNEL: ${{ vars.NOTIFICATION_CHANNEL || 'report' }}
     steps:
@@ -54,6 +55,7 @@ jobs:
           path: |
             cloud_output/report.md
             cloud_output/scan.json
+            cloud_output/paper_summary.json
           if-no-files-found: ignore
           retention-days: 14
       - name: Mark partial exchange failures

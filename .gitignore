@@ -2,6 +2,7 @@ __pycache__/
 .research_deps/
 .mplconfig/
 cloud_output/
+cloud_output_v4/
 .env
 .env.*
 coin-scanner-github.zip

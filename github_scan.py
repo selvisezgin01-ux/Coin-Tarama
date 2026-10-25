@@ -18,6 +18,7 @@ from urllib.request import Request,urlopen
 
 import momentum_scan
 import okx_scan
+import paper_watch
 from research import LOCAL
 from study_dataset import read_json
 
@@ -71,7 +72,9 @@ def collect(exchange,replay=False):
              'quote_volume24':c['quote_volume24'],'liquidity_band':c['liquidity_band'],
              'breakout_level':c['breakout_level'],'breakout_open_ms':c['breakout_open_ms'],
              'breakout_volume_ratio':c['breakout_volume_ratio'],'strength_score':c['strength_score'],
-             'breakout_age_bars':c['breakout_age_bars'],'invalidation_level':c['invalidation_level']})
+             'breakout_age_bars':c['breakout_age_bars'],'invalidation_level':c['invalidation_level'],
+             'atr':c['atr'],'close':c['close']})
+    paper_watch.attach_context(rows,read_json(result_root/'all_snapshots.json'),quotes)
     return {'exchange':exchange,'observed_ms':book['fetched_server_time_ms'],
             'feature_cutoff_ms':selection['closed_decision_ms'],
             'universe_count':selection['crypto_usdt_universe'],'prefilter_count':selection['prefilter_passed'],
@@ -107,6 +110,10 @@ def row_text(row):
     price='doğrulanamadı' if row['mid_price'] is None else f"{row['mid_price']:.8g}"
     spread='—' if row['spread_pct'] is None else f"%{row['spread_pct']:.2f}"
     flags=[]
+    if row.get('stage'):
+        flags.append('grup: '+('tutunma' if row['stage']=='continuation' else 'yeni kırılım'))
+        flags.extend(row.get('warnings',[]))
+        if row.get('pu_active'):flags.append('destek: teyitli RSI pozitif uyumsuzluk')
     if row['liquidity_band']=='thin':flags.append('düşük hacim')
     if row['spread_pct'] is None or row['spread_pct']>.5:flags.append('makas teyidi gerekli')
     if row['mid_price'] is not None and row['mid_price']<row['breakout_level']:flags.append('güncel fiyat kırılan seviyenin altında')
@@ -115,7 +122,8 @@ def row_text(row):
 
 
 def report(scans,fresh,replay):
-    lines=['# MEXC + OKX — GitHub taraması','',
+    label=os.environ.get('COIN_SCAN_LABEL','').strip()
+    lines=['# '+(label+' — ' if label else '')+'MEXC + OKX — GitHub taraması','',
            'Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.', '']
     if replay:lines+=['**Çevrimdışı deneme: arşiv verisi kullanıldı; bu güncel canlı tarama değildir.**','']
     for exchange,result in scans.items():
@@ -149,8 +157,14 @@ def scan(replay=False):
             except Exception as exc:scans[jobs[job]]={'error':str(exc)}
     now=int(datetime.now(timezone.utc).timestamp()*1000)
     fresh=update_state(state,scans,now)
+    if not replay:
+        paper_watch.register(state,scans)
+        paper_watch.refresh(state,now)
     save(STATE,state);save(OUT/'scan.json',{'scans':scans,'new_candidates':fresh,'replay':replay})
     report(scans,fresh,replay)
+    if not replay:
+        with open(OUT/'report.md','a',encoding='utf-8') as stream:stream.write(paper_watch.render(state))
+        save(OUT/'paper_summary.json',paper_watch.summary(state))
     print(f'New exchange candidates: {len(fresh)}; failed exchanges: {sum("error" in v for v in scans.values())}')
 
 
@@ -214,6 +228,8 @@ def notify(channel):
     pending=list(state['pending'])
     for batch in pending:
         body='Yeni tarama adayları · '+time_label(batch['created_ms'])+' TR\n\n'+'\n\n'.join(row_text(r) for r in batch['candidates'])
+        label=os.environ.get('COIN_SCAN_LABEL','').strip()
+        if label:body=label+'\n\n'+body
         body+='\n\nTeknik izleme listesidir; doğrulanmış getiri vaadi içermez.'
         if channel=='telegram':
             token=os.environ.get('TELEGRAM_BOT_TOKEN');chat=os.environ.get('TELEGRAM_CHAT_ID')
@@ -236,10 +252,12 @@ def notify(channel):
             if recipient:body=f'@{recipient}\n\n'+body
             headers={'Authorization':f'Bearer {token}','Accept':'application/vnd.github+json'}
             url=f'https://api.github.com/repos/{repo}/issues'
-            marker=f"<!-- coin-scanner:{batch['id']} -->"
+            branch=os.environ.get('SCANNER_STATE_BRANCH','scanner-state')
+            namespace='coin-scanner' if branch=='scanner-state' else 'coin-scanner:'+branch
+            marker=f"<!-- {namespace}:{batch['id']} -->"
             existing=http_json(url+'?state=all&per_page=100',headers=headers,label='GitHub Issues')
             if not any(marker in (issue.get('body') or '') for issue in existing):
-                http_json(url,{'title':f"Yeni coin adayları · {time_label(batch['created_ms'])}",
+                http_json(url,{'title':(label+' · ' if label else '')+f"Yeni coin adayları · {time_label(batch['created_ms'])}",
                               'body':body+'\n\n'+marker},headers,label='GitHub Issues')
         elif channel!='report':raise ValueError('Unknown notification channel')
         state['pending']=[x for x in state['pending'] if x['id']!=batch['id']]
