@@ -8,7 +8,7 @@
       "ever_seen": [],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1792959442895,
+        "observed_ms": 1792963116401,
         "feature_cutoff_ms": 1792958400000,
         "universe_count": 446,
         "prefilter_count": 131,
@@ -31,19 +31,19 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1792959544464,
+        "observed_ms": 1792963218752,
         "feature_cutoff_ms": 1792958400000,
         "universe_count": 1251,
-        "prefilter_count": 450,
-        "analyzed_count": 437,
+        "prefilter_count": 445,
+        "analyzed_count": 432,
         "candidates": [
           {
             "exchange": "MEXC",
             "symbol": "GRASSUSDT",
-            "observed_ms": 1792959544464,
+            "observed_ms": 1792963218752,
             "feature_cutoff_ms": 1792958400000,
-            "mid_price": 0.7158,
-            "spread_pct": 0.1676445934618734,
+            "mid_price": 0.7101999999999999,
+            "spread_pct": 0.14080540692762616,
             "return24_pct": 12.764278952350905,
             "relative24_pct_points": 12.679670267209131,
             "quote_volume24": 209109.52190000002,
@@ -53,12 +53,29 @@
             "breakout_volume_ratio": 2.145318414619152,
             "strength_score": 100,
             "breakout_age_bars": 1.0,
-            "invalidation_level": 0.6513079897751147
+            "invalidation_level": 0.6513079897751147,
+            "atr": 0.029968040899541415,
+            "close": 0.7147,
+            "paper_controls": [
+              {
+                "symbol": "CASHCATUSDT",
+                "entry_price": 0.0953
+              },
+              {
+                "symbol": "ULTIMAUSDT",
+                "entry_price": 1222.415
+              },
+              {
+                "symbol": "PONSUSDT",
+                "entry_price": 0.240563
+              }
+            ],
+            "paper_btc_price": 80502.405
           },
           {
             "exchange": "MEXC",
             "symbol": "GBCKUSDT",
-            "observed_ms": 1792959544464,
+            "observed_ms": 1792963218752,
             "feature_cutoff_ms": 1792958400000,
             "mid_price": 0.0048565,
             "spread_pct": 0.5559559353443863,
@@ -71,12 +88,100 @@
             "breakout_volume_ratio": 1.9199203232434738,
             "strength_score": 55,
             "breakout_age_bars": 1.0,
-            "invalidation_level": 0.00470582151185679
+            "invalidation_level": 0.00470582151185679,
+            "atr": 7.271395257283832e-05,
+            "close": 0.004866,
+            "paper_controls": [
+              {
+                "symbol": "VOWUSDT",
+                "entry_price": 0.03313
+              },
+              {
+                "symbol": "MNTUSDT",
+                "entry_price": 0.52135
+              },
+              {
+                "symbol": "POLUSDT",
+                "entry_price": 0.089915
+              }
+            ],
+            "paper_btc_price": 80502.405
           }
         ]
       }
     }
   },
   "pending": [],
-  "updated_ms": 1792959544552
+  "updated_ms": 1792963218853,
+  "paper": {
+    "version": "github-paper-v1",
+    "entries": {
+      "MEXC:GRASSUSDT": {
+        "symbol": "GRASSUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1792963218752,
+        "entry_price": 0.7101999999999999,
+        "btc_entry_price": 80502.405,
+        "controls": [
+          {
+            "symbol": "CASHCATUSDT",
+            "entry_price": 0.0953
+          },
+          {
+            "symbol": "ULTIMAUSDT",
+            "entry_price": 1222.415
+          },
+          {
+            "symbol": "PONSUSDT",
+            "entry_price": 0.240563
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1792963218752,
+            "price": 0.7101999999999999
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:GBCKUSDT": {
+        "symbol": "GBCKUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1792963218752,
+        "entry_price": 0.0048565,
+        "btc_entry_price": 80502.405,
+        "controls": [
+          {
+            "symbol": "VOWUSDT",
+            "entry_price": 0.03313
+          },
+          {
+            "symbol": "MNTUSDT",
+            "entry_price": 0.52135
+          },
+          {
+            "symbol": "POLUSDT",
+            "entry_price": 0.089915
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1792963218752,
+            "price": 0.0048565
+          }
+        ],
+        "outcomes": {}
+      }
+    },
+    "measurement_errors": [],
+    "asof_ms": 1792963218853
+  }
 }
