@@ -77,51 +77,6 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "c9454494d724014a3c231129",
-      "created_ms": 1792959544552,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "GRASSUSDT",
-          "observed_ms": 1792959544464,
-          "feature_cutoff_ms": 1792958400000,
-          "mid_price": 0.7158,
-          "spread_pct": 0.1676445934618734,
-          "return24_pct": 12.764278952350905,
-          "relative24_pct_points": 12.679670267209131,
-          "quote_volume24": 209109.52190000002,
-          "liquidity_band": "main",
-          "breakout_level": 0.705,
-          "breakout_open_ms": 1792929600000.0,
-          "breakout_volume_ratio": 2.145318414619152,
-          "strength_score": 100,
-          "breakout_age_bars": 1.0,
-          "invalidation_level": 0.6513079897751147,
-          "arrival": "new"
-        },
-        {
-          "exchange": "MEXC",
-          "symbol": "GBCKUSDT",
-          "observed_ms": 1792959544464,
-          "feature_cutoff_ms": 1792958400000,
-          "mid_price": 0.0048565,
-          "spread_pct": 0.5559559353443863,
-          "return24_pct": 2.5068464293237724,
-          "relative24_pct_points": 2.4222377441819987,
-          "quote_volume24": 77451.313831,
-          "liquidity_band": "thin",
-          "breakout_level": 0.004829,
-          "breakout_open_ms": 1792929600000.0,
-          "breakout_volume_ratio": 1.9199203232434738,
-          "strength_score": 55,
-          "breakout_age_bars": 1.0,
-          "invalidation_level": 0.00470582151185679,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1792959544552
 }
