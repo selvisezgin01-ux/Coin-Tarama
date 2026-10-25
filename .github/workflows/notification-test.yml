@@ -30,7 +30,7 @@ jobs:
           url = 'https://api.github.com/repos/' + os.environ['GITHUB_REPOSITORY'] + '/issues'
           headers = {'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
                      'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'}
-          marker = '<!-- coin-scanner:mobile-notification-test-v1 -->'
+          marker = f"<!-- coin-scanner:mobile-notification-test:{os.environ['GITHUB_RUN_ID']} -->"
           with urlopen(Request(url + '?state=all&per_page=100', headers=headers), timeout=25) as response:
               issues = json.load(response)
           existing = next((i for i in issues if marker in (i.get('body') or '')), None)
