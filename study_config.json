@@ -1,0 +1,58 @@
+{
+  "version": "mexc-preparation-v1",
+  "frozen_before_expanded_download": true,
+  "client_date": "2026-10-25",
+  "interval": "4h",
+  "download_start_utc": "2026-07-01T00:00:00+00:00",
+  "evaluation_start_utc": "2026-08-01T00:00:00+00:00",
+  "holdout_start_utc": "2026-10-01T00:00:00+00:00",
+  "sampling": {
+    "seed": "mexc-preparation-20261025-v1",
+    "random_symbols": 220,
+    "excluded_concept_plates": ["Tokenized Stocks", "Stablecoins", "Precious Metals", "Metals", "Crude Oil", "Pre-IPO"],
+    "sampling_note": "Non-crypto metadata exclusions added before expanded history analysis; no return-based selection.",
+    "method": "SHA256(seed + symbol), active USDT spot universe as observed today; no current return or volume ranking",
+    "always_include": ["BTCUSDT", "TUSDT", "IRYSUSDT", "BMTUSDT", "BATUSDT", "MAGICUSDT", "RLCUSDT", "RAREUSDT"],
+    "exclude_from_model_and_primary_metrics": ["BTCUSDT", "TUSDT", "IRYSUSDT", "BMTUSDT", "BATUSDT", "MAGICUSDT", "RLCUSDT", "RAREUSDT"],
+    "stable_bases": ["USDT", "USDC", "DAI", "FDUSD", "TUSD", "USDD", "USDE", "USD1", "USDS", "PYUSD", "EUR", "EURC", "EURI", "AEUR", "USDG", "RLUSD", "USDP", "GUSD", "LUSD", "FRAX", "SUSD", "BUSD", "USTC", "UST"]
+  },
+  "event": {
+    "primary_closed_bar_body_gain_pct": 20.0,
+    "no_equal_or_larger_body_in_previous_bars": 12,
+    "definition": "A 4h candle closes at least 20% above its own open, with no such candle in the preceding 48h. This is an operational first strong candle, not necessarily the start of every gradual rally.",
+    "alert_minimum_lead_hours": 4,
+    "alert_maximum_lead_hours": 24,
+    "secondary_horizons_hours": [24, 48],
+    "secondary_high_multiples": [3, 4],
+    "secondary_close_multiples": [3, 4]
+  },
+  "features": ["body_atr", "low_lift_atr", "sar_distance_atr", "sar_recent_up", "log_volume_change", "relative_log_return24", "log_quote_volume24"],
+  "model": {
+    "type": "L2 regularized logistic ranking; scores are not calibrated probabilities",
+    "l2": 0.1,
+    "iterations": 500,
+    "learning_rate": 0.08,
+    "rank_top_k": 5,
+    "minimum_cross_section_symbols": 30,
+    "embargo_hours": 72,
+    "alert_cooldown_hours": 48,
+    "preprocessing": "Training-only median/IQR, clip standardized inputs to [-5,5]; balanced positive and negative training loss",
+    "liquidity_floor_usdt24": 10000,
+    "minimum_nonzero_volume_bars24": 6,
+    "minimum_contiguous_history_bars": 180
+  },
+  "matched_controls": {
+    "per_event": 5,
+    "method": "Same decision timestamp, non-event next 24h, closest historical log 24h quote volume and ATR/close. No future current market cap or current supply is inserted.",
+    "fundamentals_limitation": "Historical then-published market cap/supply are unavailable across the expanded sample; exclude them from predictive model and matching, keep original seven descriptive estimates separate."
+  },
+  "constraints": [
+    "Features end at candle close; positive event opens 4 to 24 hours AFTER that close.",
+    "Target and secondary outcomes use future data only as labels, never as inputs.",
+    "All evaluation signals require full 48h future observations; current rankings require no outcome labels.",
+    "A 72h training boundary embargo separates training labels from the October holdout.",
+    "User-selected seven examples are excluded from model fitting and primary holdout performance.",
+    "Universe contains currently active pairs; delisted-pair survivorship is an explicit limitation.",
+    "Do not optimize parameters on October holdout, and do not claim profitability from high-price excursions."
+  ]
+}
