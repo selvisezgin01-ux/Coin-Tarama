@@ -1,0 +1,48 @@
+name: Telefon bildirimi denemesi
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+concurrency:
+  group: coin-notification-test
+  cancel-in-progress: false
+
+jobs:
+  notification-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send clearly marked test mention from the scanner bot
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_NOTIFY_USER: ${{ vars.GITHUB_NOTIFY_USER }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re
+          from urllib.request import Request, urlopen
+
+          recipient = os.environ['GITHUB_NOTIFY_USER'].strip()
+          if not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?', recipient):
+              raise ValueError('Set GITHUB_NOTIFY_USER to a GitHub username without @.')
+          url = 'https://api.github.com/repos/' + os.environ['GITHUB_REPOSITORY'] + '/issues'
+          headers = {'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+                     'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'}
+          marker = '<!-- coin-scanner:mobile-notification-test-v1 -->'
+          with urlopen(Request(url + '?state=all&per_page=100', headers=headers), timeout=25) as response:
+              issues = json.load(response)
+          existing = next((i for i in issues if marker in (i.get('body') or '')), None)
+          if existing:
+              issue = existing
+          else:
+              payload = {'title': 'Bildirim denemesi — coin sinyali değildir',
+                         'body': f'@{recipient}\n\nBu, GitHub Mobile bildirimini kontrol etmek için gönderilen tek seferlik deneme kaydıdır. Coin adayı veya alım sinyali değildir. Yeni aday bildirimleri de seni bu şekilde etiketleyecek.\n\nTelefonunda GitHub için etiketlenme, bildirim ve ses izinlerini açık tut. Ses, telefonun sessiz/odak modu ve uygulama ayarlarına bağlıdır.\n\n' + marker}
+              request = Request(url, data=json.dumps(payload, ensure_ascii=False).encode(), headers=headers)
+              with urlopen(request, timeout=25) as response:
+                  issue = json.load(response)
+          print('Notification test issue: ' + issue['html_url'])
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+              summary.write('[Bildirim denemesi](' + issue['html_url'] + ')\n')
+          PY
