@@ -35,6 +35,8 @@ jobs:
         run: python strength_v5_watch.py pull-state
       - name: Scan both exchanges and measure real observations
         run: python strength_v5_watch.py scan
+      - name: Select at most five unique priority coins
+        run: python strength_v5_priority.py observe
       - name: Checkpoint before notifications
         run: python strength_v5_watch.py push-state
       - name: Notify new Coin Tarama 3 candidates
@@ -43,7 +45,7 @@ jobs:
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python strength_v5_watch.py notify --channel "$NOTIFICATION_CHANNEL"
+        run: python strength_v5_priority.py notify --channel "$NOTIFICATION_CHANNEL"
       - name: Save notification state
         if: ${{ always() && hashFiles('cloud_output_v5/parent.txt') != '' && hashFiles('cloud_output_v5/state.json') != '' }}
         run: python strength_v5_watch.py push-state
@@ -56,8 +58,13 @@ jobs:
             cloud_output_v5/report.md
             cloud_output_v5/scan.json
             cloud_output_v5/paper_summary.json
+            cloud_output_v5/priority_summary.json
           if-no-files-found: ignore
           retention-days: 30
       - name: Mark partial exchange failures
         if: ${{ always() && hashFiles('cloud_output_v5/scan.json') != '' }}
         run: python strength_v5_watch.py check-status
+
+      - name: Mark priority source failures
+        if: ${{ always() && hashFiles('cloud_output_v5/state.json') != '' }}
+        run: python strength_v5_priority.py check-status

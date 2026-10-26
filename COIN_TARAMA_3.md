@@ -7,6 +7,26 @@ Coin Tarama 2 önceki formülüyle aynen çalışır. Coin Tarama 3'ün bu günc
 - [Yeni aday bildirimleri](https://github.com/selvisezgin01-ux/Coin-Tarama/issues)
 - [Önceki V4 kuralları ve ilk karşılaştırma](COIN_TARAMA_3_V4.md)
 
+
+## Kisa oncelik listesi ve bildirim elemesi
+
+Genis V5 stratejisi degismez; tum adaylar ve 12/24/48s olcumleri saklanir. Ek sunum katmani bildirimde ve raporun ustunde **en fazla 5 farkli sembol** gosterir. Ayni sembol iki borsada tek satirdir; fiyatlar veya hacimler toplanmaz. Yalniz uygun bulunan borsalar yazilir. Sembol birlestirmesi kontrat kimligi teyidi degildir.
+
+- En az 100.000 USDT kapali 24s hacim, en cok %0,5 makas.
+- Guncel fiyat izlenen seviyeyi korur; kapanistan uzaklik en cok 1 ATR, EMA20 uzerine uzama en cok 2,5 ATR.
+- Gercek gozlem fiyatindan yapi bozulma referansina mesafe pozitif ve en cok %12. Bu gerceklesebilir zarar/stop garantisi degildir.
+- Yalniz yatay hacim grubu hazirlik olarak raporda kalir, tek basina bildirilmez.
+- 20x uzeri hacim katsayisi ayrica incelemeye ayrilir; bu, sahte islem veya dolandiricilik kaniti sayilmaz.
+- [OKX resmi listesindeki](https://www.okx.com/help/okx-to-list-tokenized-stocks-for-trading) taninan hisse tokenleri exact isim + borsa eslesmesiyle ayiklanir. XRP/XLM gibi X ile baslayan butun tokenler elenmez. Liste 26 Ekim 2026'da kontrol edildi; gelecekte genisletilmesi gerekebilir.
+
+Uygunlar once en cok 4x sayilan goreli hacimle, sonra kapanis konumu, dar makas ve ayni borsanin hacmiyle siralanir. Bu sira basari olasiligi veya beklenen getiri tahmini degildir. Bes aday yoksa liste doldurulmaz. Temel amac okunabilirlik ve piyasa kosulu elemesidir; daha karli oldugu henuz dogrulanmadi.
+
+Fiyatlar ek katmanda kamuya acik alis/satis fiyatindan yeniden okunur. Yeni kisa-liste olcumlerinin BTC ve kontrol baslangic fiyatlari da ayni yeni fiyat okumasindandir; genis listedeki eski/ucuz fiyatlar kullanilmaz. Gozlemi 15dk'dan eski veya kapali karari guncel 4s araligina ait olmayan veriyle yeni oncelik bildirimi uretilmez. Erisim hatasi temiz eleme sonucu sayilmaz.
+
+Genis listenin eski bildirim bekleme kaydi ile oncelik listesi teslim kaydi ayridir. Daha once genel havuzda gorunen bir coin sonradan oncelige girebilir. Oncelikte kalan ayni sembol tekrar bildirilmez; cikip yeniden gelirse 48 saat bekleme vardir. Bekleyen eski mesajlar, guncel fiyatla yeni mesajdan once teslim kimligiyle uzlastirilir. GitHub bildirimi `Oncelik listesi` basligiyla kullaniciyi etiketler. Genis aday listesi raporda acilir bolumde kalir.
+
+Ek dosyalar: `strength_v5_priority.py`, `strength_v5_priority_config.json`, `test_strength_v5_priority.py`. Ek katmanin tasarim karmasi ve gercek fiyat olcumleri ana V5 kurallarindan ayri saklanir; ana kurallar veya onceki fiyatlar yeniden yazilmaz.
+
 ## Üç ek grup
 
 Bu gruplar **VEYA** mantığıyla çalışır. Erken dönüş adayından önce eski 80 saatlik tepe kırılımı, sonra da geri test beklenmez. Bir token birden fazla gruba uyabilir; bildirimde hepsi yazılır.

@@ -1,0 +1,21 @@
+{
+  "version": "priority-presentation-v1",
+  "max_unique_symbols": 5,
+  "minimum_quote_volume24_usdt": 100000,
+  "maximum_spread_pct": 0.5,
+  "maximum_current_ema20_extension_atr": 2.5,
+  "maximum_quote_drift_atr": 1,
+  "maximum_current_structure_distance_pct": 12,
+  "extreme_volume_ratio_review_above": 20,
+  "volume_ratio_rank_cap": 4,
+  "maximum_quote_age_minutes": 15,
+  "notification_cooldown_hours": 48,
+  "preparation_only_groups": ["sideways_volume"],
+  "ranking": "Capped relative volume descending; close position descending; spread ascending; same-venue quote volume descending; symbol and venue for stable ties. Ranking is not a success probability.",
+  "equity_source": "https://www.okx.com/help/okx-to-list-tokenized-stocks-for-trading",
+  "equity_source_checked_date": "2026-10-26",
+  "excluded_equity_bases": {
+    "OKX": ["XSNDK","XMU","XSPCX","XSOXL","XSKHY","XCRCL","XMSTR","XMRVL","XINTC","XTSLA","XQQQ","XSPY","XLITE","XNVDA","XAMD","XEWY","XCBRS","XCOIN","XNBIS","XCRWV","XPLTR","XAAOI","XBMNR","XBE","XTQQQ","XUSAR","XIREN","XSMCI","XGOOGL","XMETA","XAAPL","XTSM","XORCL","XAMZN","XHOOD","XAVGO","XHIMS","XDELL","XMSFT","XRKLB","XONDS","XCOHR","XARM","XAMAT","XASML","XCSCO","XIBM","XASTS","XGEV","XBSP","XIWM","XGME","XAPP","XLLY","XNFLX","XCRWD","XTER","XADBE","XVRT","XRDDT","XXLE","XSHAZ","XSTRC","XZM","XWDC","XGLW","XKO","XALAB","XBOT","XRIVN","XSMH","XISRG","XTWLO","XQCOM","XLRCX","XON","XBX","XHPE","XCRM","XSNOW","XCIEN","XTTWO","XNOW","XAPLD","XOKTA","XDKNG","XKLAC","XJNJ","XROK","XUNH"]
+  },
+  "note": "A stricter display/notification layer; underlying V5 candidates and measurements remain unchanged. Most thresholds reuse existing main-liquidity/risk-warning values. No validated profitability improvement is claimed. Known equity names are an exact venue-specific list, never a blanket X-prefix exclusion."
+}
