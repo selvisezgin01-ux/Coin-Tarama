@@ -1,60 +1,58 @@
-# Coin Tarama 3 — ayrı ileri dönem deneyi
+# Coin Tarama 3 — erken dönüş, hacim ve geri test
 
-Coin Tarama 2 önceki V3 seçim formülüyle sürer. Coin Tarama 3, V4 deneysel formülünü kullanır. İki sürüm de MEXC ve OKX spot/USDT piyasalarını Türkiye saatiyle 03:05, 07:05, 11:05, 15:05, 19:05 ve 23:05'te tarar. GitHub başlangıçları gecikebilir. Bilgisayarın açık kalması gerekmez.
+Coin Tarama 2 önceki formülüyle aynen çalışır. Coin Tarama 3'ün bu güncellemesi üç deneysel alternatif grup ekler; önceki yeni kırılım ve tutunma grupları da korunur. Ana zaman dilimi kapalı **4 saatlik mumdur**. MEXC ve OKX kendi verileriyle ayrı incelenir. Plan Türkiye saatiyle 03:05, 07:05, 11:05, 15:05, 19:05, 23:05; GitHub başlangıcı gecikebilir.
 
-## Telefonda takip
+- [Güncel Coin Tarama 3 raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-v5/report.md)
+- [Coin Tarama 2 raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state/report.md)
+- [Yeni aday bildirimleri](https://github.com/selvisezgin01-ux/Coin-Tarama/issues)
+- [Önceki V4 kuralları ve ilk karşılaştırma](COIN_TARAMA_3_V4.md)
 
-- [Coin Tarama 2 güncel raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state/report.md)
-- [Coin Tarama 3 güncel raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-v4/report.md)
-- [İki sürümün bildirim kayıtları](https://github.com/selvisezgin01-ux/Coin-Tarama/issues)
+## Üç ek grup
 
-Yeni aday Issue başlıkları **Coin Tarama 2** veya **Coin Tarama 3** ile başlar. İkisi de aynı kullanıcıyı etiketler. Yeni aday yoksa mesaj oluşmaz. Aynı sürümde sürekli listede kalan coin her dört saatte tekrar bildirilmez; yeniden girişlerde 48 saat bekleme uygulanır. Aynı coin iki sürüme birden girerse iki farklı sürüm başlığıyla bildirim alabilirsiniz.
+Bu gruplar **VEYA** mantığıyla çalışır. Erken dönüş adayından önce eski 80 saatlik tepe kırılımı, sonra da geri test beklenmez. Bir token birden fazla gruba uyabilir; bildirimde hepsi yazılır.
 
-## İki aday grubu
+**Erken dönüş:** Önceki kapanış EMA20 altındayken mevcut kapalı mum önceki üç mumun en yüksek fiyatını ve EMA5'i geri alır. Önceki kapanıştan yüksektir, hacmi önceki 20 mum medyanının en az 1,5 katıdır, kapanış konumu en az %50'dir. Dip önceki dibin 0,25 önceki ATR'sinden fazla altına sarkmaz. EMA20'nin yükselmesi, EMA50 üstünde olmak ve 20 mum tepesini aşmak zorunlu değildir. Bu, ilk dönüş işaretidir; uzun trend onayı değildir. SAR bu grupta destekleyici puandır.
 
-**Yeni kırılım:** Önceki 20 mumun tepesinin üstünde ilk kapanış ve önceki 20 mumun medyanına göre en az 1,5 kat hacim aranır. Kırılım yaşı 0–2 mumdur. Fiyat EMA20/50 üstünde, EMA20 yükseliyor ve 24 saat getirisi BTC'den güçlü olmalıdır. Son mum kapanışı aralığın üst %35'inde olmalı; kırılımdan sonraki tepeye göre geri çekilme hem %15'i hem 1,5 ATR'yi aşmamalıdır. 24 saat getirisi en az %2'dir.
+**Yatay fiyat / hacim artışı:** Önceki üç kapalı mumun toplam aralığı en çok 2 önceki ATR, net fiyat değişimi en çok 0,75 ATR'dir. Yeni kapanış değişimi en çok 0,75 ATR ve eski alanın yakınındadır; dipler 0,25 ATR toleransla korunur. Hacim önceki 20 mum medyanının en az 1,5 katı, kapanış konumu en az %55'tir. Yüksek hacim tek başına alım baskısı veya toplama kanıtı değildir; yatay alandaki satış da yüksek hacim üretebilir.
 
-**Tutunma:** Kırılım yaşı 3–18 mumdur. Eski kırılım seviyesi ve sonrasındaki tutunma korunmalı, son üç mumun medyan dibi önceki üç mumdan yüksek olmalıdır. Son kapanış aralığın üst yarısında olmalı; tepeden geri çekilme hem %20'yi hem 2,5 ATR'yi aşmamalıdır. 24 saat getirisi en az -%5, 72 saat getirisi pozitif ve 24 saat BTC göreli getirisi pozitif olmalıdır.
+**Geri testte tutunma / SAR:** Önceden mevcut V4 yeni kırılım koşullarını sağlayan kapalı bir kırılım bulunmalıdır. Kırılım seviyesi ve o andaki ATR sabittir. Kırılım mumunun kendi fitili geri test sayılmaz. Sonraki fiyat önce seviyeden en az 1 başlangıç ATR'si uzaklaşır; sonra son iki mum seviyeye 0,5 ATR yakınlığa döner ve üzerinde kapanır. Bu iki mumun alanı en çok 1,5 ATR, kapanışın seviyeden uzaklığı en çok 1 ATR ve ortalama hacmi kırılım hacminin en çok %80'idir. Kırılım sonrası dipler desteğin 0,5 ATR altını bozmamış olmalı; **SAR fiyat altında olmalıdır**. Eski kırılım bozulduysa sadece fiyatın tekrar üstüne çıkması aynı referansı temizlemez; yeni kırılım gerekir.
 
-Her iki grupta kapanış kırılım seviyesinin üzerinde olmalı. Kırılım mumundan sonraki diplerin, kırılım seviyesinin 0,5 başlangıç ATR'sinden fazla altına sarkması bu referansı bozar. Kırılım mumunun kendi geniş alt fitili bu tutunma kontrolüne katılmaz. Yeniden geçerli referans için yeni hacimli kırılım gerekir. En az 180 kesintisiz kapalı mum, 24 saatte en az 10.000 USDT hacim ve altı mumda sıfır olmayan hacim gerekir.
+Her ek grupta en az 180 kesintisiz kapalı mum, son 24 saatte en az 10.000 USDT hacim ve altı mumda pozitif hacim gerekir. BTC'ye karşı 8 veya 24 saatlik göreli güç pozitiftir. Canlı ön eleme -%10 ve üzeri 24 saat getirisi / en az 10.000 USDT hacim kullanır; üst getiri sınırı yoktur. Dolayısıyla daha derin negatif 24 saatli dönüşler hâlâ kapsam dışındadır.
 
-V4 canlı ön elemesi 24 saatte en az -%10 değişim ve 10.000 USDT hacim kullanır; üst getiri sınırı yoktur. V3 kendi eski ön elemesini kullanır. Dolayısıyla iki sürümün ayrıntılı incelediği evren farklı olabilir.
+Başlangıç eşikleri, geniş arşiv sonucuna göre yeniden optimize edilmedi. Fiyat ölçeğine duyarlı sabit para tutarı yerine ATR ile yapı yakınlığı ölçülür. Bunlar kanıtlanmış kazanç eşikleri değildir.
 
-## Uyarı olarak gösterilenler
+## Korunan iki grup ve uyarılar
 
-Destekleyici alan olarak RSI(14) pozitif uyumsuzluğu da kaydedilir: ardışık iki teyitli fiyat dibinde fiyat daha düşük, RSI daha yüksek dip yaparsa PU işaretlenir. Her dip için iki sol ve iki sağ kapalı mum gerekir; sinyal ikinci sağ mum kapanınca oluşur, dip mumuna geriye yazılmaz. Dipler arası uzaklık 3–30 mum, teyitten sonraki etiket ömrü altı mumdur. Daha düşük yeni dip etiketi geçersiz kılar. PU aday seçimini veya puanı değiştirmez; giriş anındaki PU/RSI, sonuçları daha sonra karşılaştırmak için saklanır. [RSI ve uyumsuzluk tanımı — TradingView](https://www.tradingview.com/support/solutions/43000502338-relative-strength-index-rsi/)
+Yeni kırılım: önceki 20 mum tepesini en az 1,5 kat hacimle aşma, yükselen EMA20, fiyatın EMA20/50 üstünde olması, BTC göreli güç, güçlü kapanış ve sınırlı geri çekilme. Tutunma: aynı kırılımı 3–18 mum arasında koruma ve yükselen dipler. Eski kod/config değişmedi; V5 bu iki grubun çıktısını aynen alır.
 
-24 saat getirisi %30'u, 72 saat getirisi %45'i, EMA20 uzaklığı 2,5 ATR'yi veya yapı bozulma mesafesi %12'yi aştığında aday otomatik silinmez; durum mesajda uyarı olarak gösterilir. Düşük hacim, %0,5 üstü makas, kapanıştan uzaklaşmış gözlem fiyatı ve henüz sonraki mum teyidi olmayan ilk kırılım ayrıca belirtilir. Bu riskleri kabul edilmiş bir işlem veya otomatik alım olarak yorumlamayın.
+SAR puan desteğidir; yalnız geri test ek grubunda zorunludur. RSI(14) pozitif uyumsuzluğu yardımcı etikettir, filtre veya puan değildir. İki sol/sağ kapalı mumla teyit edilir; dip tarihine geri yazılmaz.
 
-## 1–2 haftada nasıl karşılaştıracağız?
+Yüksek 24/72 saat getirisi, EMA uzaklığı, yapı bozulma mesafesi, düşük hacim, geniş makas ve gözlenen fiyatın izlenen seviyeyi kaybetmesi uyarı olarak yazılır. Bunlar otomatik alım veya güvenli fiyat garantisi değildir. Tam derinlik, kayma ve net işlem kârı hesaplanmaz.
 
-- Her sürüm kendi ilk **gerçek gözlem zamanı ve alış/satış orta fiyatından** kayıt başlatır. Geçmişe yeni giriş yazılmaz. Eski yerel MEXC/OKX pilot kayıtları korunur.
-- 12/24/48 saat getirileri, tam hedef saatten sonraki ilk dakika kapanışından hesaplanır; zaman yuvarlama farkı 60 saniyeden küçüktür. Eksik veriler uydurulmaz, sonraki çalışmada yeniden denenir.
-- Aynı anda gözlenen BTC ve mümkünse hacim/ATR bakımından benzer üç aday olmayan kontrol coinine göre farklar ölçülür. Üç geçerli kontrol yoksa kontrol sonucu boş kalır.
-- Aynı coin bir sürümde grup değiştirdiğinde yeni bağımsız örnek sayılmaz. İki borsada görülen aynı sembol küresel coin sayısına bir kez girer; getiri tabloları borsa bazında ayrı tutulur.
-- Listeden düşen coinlerin sonuçları ölçülmeye devam eder. İlk kez kaydedilen coin tekrar bildirilse bile bağımsız ikinci performans örneği oluşturulmaz.
-- 26 Ekim 2026 başlangıcından yaklaşık bir hafta sonra **2 Kasım**, iki hafta sonra **9 Kasım** karşılaştırma için uygun tarihlerdir. Bunlar değerlendirme tarihleridir; otomatik durdurma veya garanti edilmiş hatırlatma değildir. Son 48 saatteki kayıtların 48 saat sonuçları henüz olgunlaşmamış olabilir.
-- Medyan getiri, BTC ve kontrollere göre fark, ölçülen farklı coin sayısı, iki sürümün ortak/ayrı adayları ve yüksek risk uyarıları birlikte değerlendirilir. Bu süre tek başına istatistiksel üstünlük kanıtı değildir.
+## Geçmiş kontrolünün gerçek sonucu
 
-## İlk arşiv kontrolü
+246 coinlik arşiv kullanıldı; 21 dosyada yetersiz/eksik kesintisiz geçmiş vardı. DOOD/KAT/CTC ve önceki bilinen tasarım örnekleri ana sayılardan çıkarıldı. Her coin/model için 48 saat aralıklı olaylar sayıldı; farklı coinler ve gruplar yine aynı piyasa hareketini paylaşabilir. Canlı ticker ön elemesi geçmişe tam kurulamadı. Referans kapalı mum fiyatıdır; gerçekte gönderilmiş geçmiş sinyal değildir. İşlem maliyetleri dahil değildir. Bu dönemler daha önceki araştırmada erişilebilir olduğundan bağımsız test dönemi sayılmaz.
 
-246 coinlik ortak arşivde bilinen tasarım örnekleri dışarıda bırakıldı. Gerçek geçmiş bildirim yerine kapalı mum fiyatlarıyla yeniden hesaplama yapıldı. Bu hesap, güncel borsa listeleri ve arşiv seçimi yanlılığı taşır.
-
-| Sürüm | Ölçülebilen 48 saat olayı | Medyan 48 saat % | Kontrol coinleri üstü medyan puan |
+| Grup / birleşim | Ölçülen 12s olay | Medyan 12s % | Kontrol üstü medyan puan |
 |---|---:|---:|---:|
-| Önceki V3 | 319 | -0,96 | -0,34 |
-| Deneysel V4 | 717 | -0,88 | -0,59 |
+| Önceki V4 | 722 | -0,50 | -0,56 |
+| Güncel V5 birleşimi | 1419 | -0,33 | -0,29 |
+| Erken dönüş | 509 | -0,36 | -0,32 |
+| Yatay hacim | 469 | -0,21 | -0,18 |
+| Geri test / SAR | 60 | -0,72 | -0,48 |
 
-V4'ün 48 saatte ölçülebilen yeni kırılım grubunda 547 olayın medyanı -%1,26; tutunma grubunda 170 olayın medyanı -%0,08'dir. Tutunma grubu kontrol medyanının yaklaşık 0,09 yüzde puan üstünde kaldı. Gruplar sonradan ayrı betimlenmiştir; bu sayılar bağımsız bir doğrulama değildir. T/DOS ve önceki bilinen örnekler bu toplamlarda yoktur. V4 daha fazla olay buldu, fakat toplu sonuçlarda kontrollere üstünlük göstermedi. Kurallar bu sonuçlara bakılarak tekrar optimize edilmedi.
+**Daha fazla aday tutarlı bir üstünlük sağlamadı.** Geri test grubunda 24s kontrol farkı pozitif olsa da diğer süreler bunu tutarlı biçimde desteklemedi. Yeni gruplar bu nedenle deneysel izleme olarak açıkça etiketlenir. Başarısız örnekler silinmedi. Tek bir kazanan grafikten genel başarı sonucu çıkarılmaz.
 
-T ve DOS'un 25 Ekim 23:00 kapanışları V4'te de otomatik aday değildir: T'de tepeden geri çekilme ve son mum kapanışı zayıf; DOS'ta son kırılım sonrası dipler eski referansı bozmuştur. Yalnız bu isimleri listeye sokmak için kural değişikliği yapılmadı.
+DOOD'un 26 Ekim 11:00 kapanışı yeniden hesaplamada iki borsada erken dönüşe uyar; KAT ve CTC o kapanışta uymaz. Bu örnekler tasarım örnekleridir, ana test sayılarında yer almaz. Bugünden önce yeni V5 sinyali gönderilmiş veya o fiyattan işlem yapılabilmiş sayılmaz.
 
-## Kod ve kayıtların ayrılığı
+## Kayıt ve bildirim
 
-V3: `github_scan.py`, `momentum_config.json`, `scanner-state`, `coin-scan.yml`.
+Aktif durum dalı `scanner-state-v5`; iş akışı hâlâ tek **Coin Tarama 3** iş akışıdır. Coin Tarama 2, Meme ve yerel ortak pilot değişmez. Önceki `scanner-state-v4` kaynak commit'i arşivlenir. Eski V4 gerçek referansları yeni state içindeki `previous_v4` bölümünde korunur ve 12/24/48s ölçümleri ayrı sürer. Bunlar yeni V5'in geçmiş başarısı gibi sunulmaz.
 
-Coin Tarama 3: `strength_v4.py`, `strength_v4_config.json`, `strength_v4_scan.py`, `strength_v4_watch.py`, `scanner-state-v4`, `coin-tarama-3.yml`.
+Önceki bildirimlerin 48 saatlik bekleme kayıtları korunur. Yeni sürümde aynı coin yeni bir bağımsız başarı gibi tekrar tekrar kaydedilmez. V5 ana kayıt her borsa/token için ilk gerçek gözlemden başlar. Bir gruba sonradan girerse o grubun ölçümü o andaki gerçek fiyatla ayrıca başlar; eski daha ucuz fiyat kullanılmaz. Gruplar örtüşür, sayıları bağımsız coin toplamı değildir.
 
-Ortak ileri ölçüm: `paper_watch.py`. Yeni GitHub ölçümleri bu kurulumdan sonraki ilk gerçek taramada başlar; eski yerel 50 coin pilotları ayrı sürer. Hangi sürüm daha iyi diye karar verirken gerçek gözlemlerden aynı tarihlerde başlayan kayıtları esas alacağız.
+Yeni adaylar aynı kullanıcıyı etiketleyen **Coin Tarama 3** Issue'larıyla bildirilir. Gruplar mesajda açıkça yazılır. Yeni aday yoksa bildirim yoktur. İlk gerçek fiyatlar ve hedefi izleyen ilk kapalı dakika kullanılır; 12/24/48s sonuçları borsaya göre ayrı, BTC ve mümkünse üç benzer hacim/ATR kontrolüyle karşılaştırılır. Eksik fiyatlar boş kalır, sonraki döngüde denenir.
 
-Elle çevrimdışı inceleme: `python strength_v4_scan.py --archive`. Bu seçenek yalnız mevcut V3 arşivini kullanır ve genişletilmiş V4 canlı ön elemesini temsil etmez. Elle güncel okuma: `python strength_v4_scan.py --live`. Bu iki komut kendi başına bildirim göndermez. GitHub otomasyonu `strength_v4_watch.py` üzerinden kalıcı kayıt ve bildirimleri yönetir.
+Kod: `strength_v5.py`, `strength_v5_config.json`, `strength_v5_scan.py`, `strength_v5_watch.py`; temel V3/V4 modülleri değişmeyen bağımlılıklardır. Karşılaştırma kodu `compare_strength_v5.py`, testler `test_strength_v5.py`. Yazılım testleri gelecekteki başarı veya kârlılık kanıtı değildir.
+
+SAR kaynağı: [TradingView](https://www.tradingview.com/support/solutions/43000502597-parabolic-sar-sar/). Hacim ve mum kuralları bu projenin deneysel tanımlarıdır.

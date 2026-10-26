@@ -1,0 +1,55 @@
+{
+  "version": "coin-tarama-3-v5-three-additional-groups-1",
+  "status": "experimental, fixed starting thresholds; no profitability or predictive validation",
+  "interval": "4h",
+  "history_bars": 240,
+  "minimum_history_bars": 180,
+  "prefilter": {"ticker_return24_min_pct": -10, "ticker_quote_volume24_min_usdt": 10000},
+  "rules": {
+    "resistance_lookback_bars": 20, "breakout_volume_median_ratio_min": 1.5,
+    "fresh_max_age_bars": 2, "continuation_max_age_bars": 18,
+    "hold_tolerance_anchor_atr": 0.5,
+    "fresh_close_position_min": 0.65, "continuation_close_position_min": 0.5,
+    "fresh_return24_min_pct": 2, "continuation_return24_min_pct": -5,
+    "fresh_peak_drawdown_max_pct": 15, "continuation_peak_drawdown_max_pct": 20,
+    "fresh_peak_drawdown_max_atr": 1.5, "continuation_peak_drawdown_max_atr": 2.5,
+    "quote_volume24_min_usdt": 10000, "main_liquidity_band_usdt24": 100000,
+    "invalidation_buffer_anchor_atr": 0.25
+  },
+  "groups": {
+    "early_reversal": {
+      "short_resistance_bars": 3, "volume_ratio_min": 1.5,
+      "close_position_min": 0.5, "low_tolerance_atr": 0.25,
+      "short_ema_length": 5,
+      "note": "Previous close below previous EMA20; reclaim prior 3-bar high on volume. Does not require rising EMA20, EMA50 reclaim or old 20-bar breakout."
+    },
+    "sideways_volume": {
+      "box_bars": 3, "box_range_max_atr": 2,
+      "box_net_change_max_atr": 0.75, "current_move_max_atr": 0.75,
+      "box_tolerance_atr": 0.25, "volume_ratio_min": 1.5,
+      "close_position_min": 0.55,
+      "note": "Prior closed box and increasing current volume while price remains near the box. Volume alone does not establish accumulation or buy pressure."
+    },
+    "retest": {
+      "minimum_age_bars": 2, "maximum_age_bars": 18,
+      "base_bars": 2, "touch_tolerance_anchor_atr": 0.5,
+      "minimum_excursion_anchor_atr": 1,
+      "base_range_max_anchor_atr": 1.5,
+      "close_extension_max_anchor_atr": 1,
+      "base_breakout_volume_max_ratio": 0.8,
+      "sar_below_required": true,
+      "note": "Only bars strictly after a closed breakout count. Same frozen anchor, real return to support, small base, lower volume than breakout and SAR below price. Broken support cannot be resurrected without a new anchor."
+    }
+  },
+  "warnings": {
+    "return24_above_pct": 30, "return72_above_pct": 45,
+    "ema20_extension_above_atr": 2.5, "invalidation_distance_above_pct": 12,
+    "spread_above_pct": 0.5, "quote_drift_above_atr": 1
+  },
+  "measurement": {
+    "hours": [12,24,48], "cooldown_hours": 48,
+    "note": "Separate experiment. One first actual quote per exchange/token, all matching groups stored; group transitions do not create independent samples. Previous V4 cohort continues separately."
+  },
+  "design_examples": ["DOODUSDT","KATUSDT","CTCUSDT","TUSDT","DOSUSDT","IRYSUSDT","BMTUSDT","BATUSDT","MAGICUSDT","RAREUSDT","RLCUSDT","GRASSUSDT","REALTOKENUSDT","GBCKUSDT"],
+  "threshold_policy": "These choices are frozen before the broad retrospective check. No parameter search or tuning based on the three motivating winners."
+}

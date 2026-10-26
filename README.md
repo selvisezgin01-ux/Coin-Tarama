@@ -12,10 +12,10 @@ Ek sosyal gözlem modülü, ilk gözlemden sonraki X bağlantı değişiklikleri
 
 ## İki ayrı çalışan sürüm
 
-**Coin Tarama 2** önceki V3 formülüyle, **Coin Tarama 3** yeni kırılım/tutunma gruplarıyla ayrı çalışır. İkisi de MEXC ve OKX'i dört saatte bir tarar. Bildirim başlıklarında sürüm adı görünür. Kalıcı kayıtlar ayrı dallardadır; ilk gerçek gözlemden sonraki 12/24/48 saat ölçümleri raporlara eklenir. Aynı coin grup değiştirdiğinde bağımsız ikinci performans örneği olmaz.
+**Coin Tarama 2** önceki V3 formülüyle, **Coin Tarama 3** erken dönüş, yatay fiyat/hacim artışı ve geri test/SAR gruplarını da içeren güncellemesiyle ayrı çalışır. Yeni gruplar deneysel izleme kayıtlarıdır; eski V4 gerçek fiyatları ve ölçümleri ayrı korunur. İkisi de MEXC ve OKX'i dört saatte bir tarar. Bildirim başlıklarında sürüm adı görünür. Kalıcı kayıtlar ayrı dallardadır; ilk gerçek gözlemden sonraki 12/24/48 saat ölçümleri raporlara eklenir. Aynı coin grup değiştirdiğinde bağımsız ikinci performans örneği olmaz.
 
 - [Coin Tarama 2 raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state/report.md)
-- [Coin Tarama 3 raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-v4/report.md)
+- [Coin Tarama 3 raporu](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-v5/report.md)
 - [Coin Tarama 3 kuralları, deney ve karşılaştırma planı](COIN_TARAMA_3.md)
 
 Yeni sürüm deneysel olup arşiv kontrolünde toplu üstünlük göstermedi. 26 Ekim başlangıcından 1–2 hafta sonra, yaklaşık 2–9 Kasım 2026 arasında gerçek gözlem sonuçlarını karşılaştıracağız. Önceki yerel araştırma pilotlarının kayıtları korunur.
