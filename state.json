@@ -74,10 +74,10 @@
         "exchange": "OKX",
         "archive": false,
         "feature_cutoff_ms": 1793016000000,
-        "observed_ms": 1793018384801,
+        "observed_ms": 1793022722323,
         "universe_count": 454,
-        "prefilter_count": 335,
-        "analyzed_count": 326,
+        "prefilter_count": 342,
+        "analyzed_count": 331,
         "candidates": [
           {
             "open": 0.7969,
@@ -154,10 +154,10 @@
             "pu_age_bars": 1.0,
             "symbol": "GALFTUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 0.8066,
-            "spread_pct": 0.570295065707902,
+            "mid_price": 0.8082,
+            "spread_pct": 0.544419698094526,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -172,18 +172,18 @@
             "paper_controls": [
               {
                 "symbol": "XORCLUSDT",
-                "entry_price": 127.70500000000001
+                "entry_price": 125.295
               },
               {
                 "symbol": "FLRUSDT",
-                "entry_price": 0.0060895
+                "entry_price": 0.006062
               },
               {
                 "symbol": "PROVEUSDT",
-                "entry_price": 0.18355
+                "entry_price": 0.18275000000000002
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 174.75,
@@ -260,31 +260,32 @@
             "pu_age_bars": null,
             "symbol": "XQCOMUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 177.525,
-            "spread_pct": 0.107027179270524,
+            "mid_price": 176.615,
+            "spread_pct": 0.15287489737565338,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [],
             "paper_controls": [
               {
                 "symbol": "XCRWDUSDT",
-                "entry_price": 259.27
+                "entry_price": 256.305
               },
               {
                 "symbol": "XSMHUSDT",
-                "entry_price": 535.225
+                "entry_price": 536.5450000000001
               },
               {
                 "symbol": "XPLTRUSDT",
-                "entry_price": 197.905
+                "entry_price": 194.935
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 321.43,
@@ -361,14 +362,15 @@
             "pu_age_bars": null,
             "symbol": "XGOOGLUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 322.39,
-            "spread_pct": 0.03722199820093817,
+            "mid_price": 319.74,
+            "spread_pct": 0.03127541127166533,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
-              "gözlem fiyatı grubun izlediği seviyenin altında"
+              "gözlem fiyatı grubun izlediği seviyenin altında",
+              "gözlem fiyatı kapanıştan uzaklaştı"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -378,18 +380,18 @@
             "paper_controls": [
               {
                 "symbol": "XGMEUSDT",
-                "entry_price": 24.674999999999997
+                "entry_price": 24.68
               },
               {
                 "symbol": "XAAPLUSDT",
-                "entry_price": 343.54499999999996
+                "entry_price": 342.895
               },
               {
                 "symbol": "XNVDAUSDT",
-                "entry_price": 213.365
+                "entry_price": 215.82
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.16937,
@@ -467,10 +469,10 @@
             "pu_age_bars": 4.0,
             "symbol": "ARBUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.170775,
-            "spread_pct": 0.02927829014785214,
+            "mid_price": 0.16973,
+            "spread_pct": 0.01178342072703249,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
@@ -484,7 +486,7 @@
             "paper_controls": [
               {
                 "symbol": "FILUSDT",
-                "entry_price": 0.91235
+                "entry_price": 0.91185
               },
               {
                 "symbol": "ONDOUSDT",
@@ -492,10 +494,10 @@
               },
               {
                 "symbol": "TRUMPUSDT",
-                "entry_price": 1.6665
+                "entry_price": 1.6655
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.00606,
@@ -573,10 +575,10 @@
             "pu_age_bars": null,
             "symbol": "ASTRUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 0.0064895000000000005,
-            "spread_pct": 0.04622852299869632,
+            "mid_price": 0.0063549999999999995,
+            "spread_pct": 0.1573564122738074,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -586,18 +588,18 @@
             "paper_controls": [
               {
                 "symbol": "RVNUSDT",
-                "entry_price": 0.0013280000000000002
+                "entry_price": 0.0013305
               },
               {
                 "symbol": "ONEUSDT",
-                "entry_price": 0.0013
+                "entry_price": 0.0012950000000000001
               },
               {
                 "symbol": "ACTUSDT",
-                "entry_price": 0.008492
+                "entry_price": 0.008449499999999999
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.04106,
@@ -674,10 +676,10 @@
             "pu_age_bars": 1.0,
             "symbol": "LUNAUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.041805,
-            "spread_pct": 0.16744408563569096,
+            "mid_price": 0.041655,
+            "spread_pct": 0.16804705317489047,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -690,18 +692,18 @@
             "paper_controls": [
               {
                 "symbol": "PNUTUSDT",
-                "entry_price": 0.041139999999999996
+                "entry_price": 0.04102
               },
               {
                 "symbol": "ALGOUSDT",
-                "entry_price": 0.104655
+                "entry_price": 0.104185
               },
               {
                 "symbol": "ENSUSDT",
-                "entry_price": 5.2170000000000005
+                "entry_price": 5.182499999999999
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.3078,
@@ -778,10 +780,10 @@
             "pu_age_bars": null,
             "symbol": "METUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.31295,
-            "spread_pct": 0.09586195877934717,
+            "mid_price": 0.31215000000000004,
+            "spread_pct": 0.09610764055743151,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -794,18 +796,18 @@
             "paper_controls": [
               {
                 "symbol": "BOMEUSDT",
-                "entry_price": 0.0006209
+                "entry_price": 0.00062505
               },
               {
                 "symbol": "EIGENUSDT",
-                "entry_price": 0.1991
+                "entry_price": 0.1982
               },
               {
                 "symbol": "XNBISUSDT",
-                "entry_price": 159.845
+                "entry_price": 152.87
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 751.62,
@@ -882,13 +884,14 @@
             "pu_age_bars": null,
             "symbol": "XLITEUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 780.53,
-            "spread_pct": 0.08455792858698169,
+            "mid_price": 794.0150000000001,
+            "spread_pct": 0.08186243332934229,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı kapanıştan uzaklaştı"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -898,18 +901,18 @@
             "paper_controls": [
               {
                 "symbol": "LINEAUSDT",
-                "entry_price": 0.0025199999999999997
+                "entry_price": 0.002511
               },
               {
                 "symbol": "GALAUSDT",
-                "entry_price": 0.0017430000000000002
+                "entry_price": 0.0017455
               },
               {
                 "symbol": "KAITOUSDT",
-                "entry_price": 0.24969999999999998
+                "entry_price": 0.24945
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.01788,
@@ -986,10 +989,10 @@
             "pu_age_bars": 4.0,
             "symbol": "SPKUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 0.01838,
-            "spread_pct": 0.10881392818280296,
+            "mid_price": 0.01851,
+            "spread_pct": 0.10804970286331272,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -1003,18 +1006,18 @@
             "paper_controls": [
               {
                 "symbol": "SNXUSDT",
-                "entry_price": 0.19724999999999998
+                "entry_price": 0.19640000000000002
               },
               {
                 "symbol": "TNSRUSDT",
-                "entry_price": 0.029495
+                "entry_price": 0.02938
               },
               {
                 "symbol": "XIRENUSDT",
-                "entry_price": 24.36
+                "entry_price": 24.5
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 229.18,
@@ -1091,14 +1094,15 @@
             "pu_age_bars": null,
             "symbol": "XLRCXUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 234.725,
-            "spread_pct": 0.004260304611775868,
+            "mid_price": 237.995,
+            "spread_pct": 0.06302653417088833,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı kapanıştan uzaklaştı"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -1108,18 +1112,18 @@
             "paper_controls": [
               {
                 "symbol": "XRKLBUSDT",
-                "entry_price": 52.769999999999996
+                "entry_price": 52.825
               },
               {
                 "symbol": "FLRUSDT",
-                "entry_price": 0.0060895
+                "entry_price": 0.006062
               },
               {
                 "symbol": "NESUSDT",
-                "entry_price": 0.1147
+                "entry_price": 0.1144
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.3419,
@@ -1196,10 +1200,10 @@
             "pu_age_bars": null,
             "symbol": "CRVUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.35035,
-            "spread_pct": 0.08562865705721906,
+            "mid_price": 0.3504,
+            "spread_pct": 0.05707762557076997,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -1212,18 +1216,18 @@
             "paper_controls": [
               {
                 "symbol": "RAYUSDT",
-                "entry_price": 1.8568
+                "entry_price": 1.8319
               },
               {
                 "symbol": "APTUSDT",
-                "entry_price": 0.69745
+                "entry_price": 0.6969
               },
               {
                 "symbol": "WIFUSDT",
-                "entry_price": 0.17945
+                "entry_price": 0.17965
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 1566.9,
@@ -1300,10 +1304,10 @@
             "pu_age_bars": null,
             "symbol": "XASMLUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 1596.95,
-            "spread_pct": 0.1189767995240985,
+            "mid_price": 1599.45,
+            "spread_pct": 0.15630372940698364,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -1317,18 +1321,18 @@
             "paper_controls": [
               {
                 "symbol": "XAMATUSDT",
-                "entry_price": 384.47
+                "entry_price": 384.565
               },
               {
                 "symbol": "XPLTRUSDT",
-                "entry_price": 197.905
+                "entry_price": 194.935
               },
               {
                 "symbol": "ZENTUSDT",
-                "entry_price": 0.0016765
+                "entry_price": 0.0016415
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.1371,
@@ -1405,14 +1409,15 @@
             "pu_age_bars": null,
             "symbol": "IMXUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 0.1405,
-            "spread_pct": 0.2846975088967855,
+            "mid_price": 0.13945000000000002,
+            "spread_pct": 0.21513087128002487,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -1422,18 +1427,18 @@
             "paper_controls": [
               {
                 "symbol": "KSMUSDT",
-                "entry_price": 3.7925
+                "entry_price": 3.7785
               },
               {
                 "symbol": "EGLDUSDT",
-                "entry_price": 3.2545
+                "entry_price": 3.234
               },
               {
                 "symbol": "HMSTRUSDT",
-                "entry_price": 0.0001407
+                "entry_price": 0.0001401
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.04613,
@@ -1510,10 +1515,10 @@
             "pu_age_bars": null,
             "symbol": "CHIPUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.049284999999999995,
-            "spread_pct": 0.18261134219336475,
+            "mid_price": 0.0484,
+            "spread_pct": 0.0826446280991702,
             "warnings": [
               "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi"
             ],
@@ -1521,18 +1526,18 @@
             "paper_controls": [
               {
                 "symbol": "GRASSUSDT",
-                "entry_price": 0.7202999999999999
+                "entry_price": 0.70565
               },
               {
                 "symbol": "TIAUSDT",
-                "entry_price": 0.538
+                "entry_price": 0.53565
               },
               {
                 "symbol": "MEWUSDT",
-                "entry_price": 0.000444
+                "entry_price": 0.0004379
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.07294,
@@ -1609,10 +1614,10 @@
             "pu_age_bars": null,
             "symbol": "PYTHUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.075005,
-            "spread_pct": 0.039997333511102254,
+            "mid_price": 0.074975,
+            "spread_pct": 0.040013337779262755,
             "warnings": [
               "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
               "gözlem fiyatı grubun izlediği seviyenin altında"
@@ -1621,18 +1626,18 @@
             "paper_controls": [
               {
                 "symbol": "TIAUSDT",
-                "entry_price": 0.538
+                "entry_price": 0.53565
               },
               {
                 "symbol": "NIGHTUSDT",
-                "entry_price": 0.0380165
+                "entry_price": 0.0379025
               },
               {
                 "symbol": "REUSDT",
-                "entry_price": 0.3651
+                "entry_price": 0.36043000000000003
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.001782,
@@ -1709,10 +1714,10 @@
             "pu_age_bars": null,
             "symbol": "DOODUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.0023005,
-            "spread_pct": 0.21734405564006937,
+            "mid_price": 0.0023035,
+            "spread_pct": 0.21706099413934432,
             "warnings": [
               "24 saatlik yükseliş yüksek",
               "ortalamadan uzak",
@@ -1723,18 +1728,18 @@
             "paper_controls": [
               {
                 "symbol": "DOSUSDT",
-                "entry_price": 0.2595
+                "entry_price": 0.2581
               },
               {
                 "symbol": "GRVTUSDT",
-                "entry_price": 0.20348500000000003
+                "entry_price": 0.20078000000000001
               },
               {
                 "symbol": "ENAUSDT",
-                "entry_price": 0.20521499999999998
+                "entry_price": 0.20379999999999998
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.10658,
@@ -1811,10 +1816,10 @@
             "pu_age_bars": 4.0,
             "symbol": "DYDXUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.108095,
-            "spread_pct": 0.04625560849252463,
+            "mid_price": 0.10766,
+            "spread_pct": 0.11146201003157635,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -1827,18 +1832,18 @@
             "paper_controls": [
               {
                 "symbol": "CCUSDT",
-                "entry_price": 0.100645
+                "entry_price": 0.10059499999999999
               },
               {
                 "symbol": "RENDERUSDT",
-                "entry_price": 1.7229999999999999
+                "entry_price": 1.7145000000000001
               },
               {
                 "symbol": "CHZUSDT",
-                "entry_price": 0.012920000000000001
+                "entry_price": 0.012835
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.3637,
@@ -1915,10 +1920,10 @@
             "pu_age_bars": 4.0,
             "symbol": "LDOUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.36995,
-            "spread_pct": 0.08109203946478362,
+            "mid_price": 0.36850000000000005,
+            "spread_pct": 0.10854816824966387,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -1931,18 +1936,18 @@
             "paper_controls": [
               {
                 "symbol": "JUPUSDT",
-                "entry_price": 0.28115
+                "entry_price": 0.27895000000000003
               },
               {
                 "symbol": "VIRTUALUSDT",
-                "entry_price": 0.6184000000000001
+                "entry_price": 0.6144499999999999
               },
               {
                 "symbol": "XNBISUSDT",
-                "entry_price": 159.845
+                "entry_price": 152.87
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 0.0147,
@@ -2019,10 +2024,10 @@
             "pu_age_bars": null,
             "symbol": "BICOUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "main",
-            "mid_price": 0.014945,
-            "spread_pct": 0.20073603211775695,
+            "mid_price": 0.014855,
+            "spread_pct": 0.20195220464489247,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -2036,18 +2041,18 @@
             "paper_controls": [
               {
                 "symbol": "LINEAUSDT",
-                "entry_price": 0.0025199999999999997
+                "entry_price": 0.002511
               },
               {
                 "symbol": "XCRWVUSDT",
-                "entry_price": 53.065
+                "entry_price": 53.394999999999996
               },
               {
                 "symbol": "SUSDT",
-                "entry_price": 0.04667
+                "entry_price": 0.046384999999999996
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           },
           {
             "open": 3.083,
@@ -2124,10 +2129,10 @@
             "pu_age_bars": null,
             "symbol": "ILVUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793018384801,
+            "observed_ms": 1793022722323,
             "liquidity_band": "thin",
-            "mid_price": 3.099,
-            "spread_pct": 0.3872216844143275,
+            "mid_price": 3.097,
+            "spread_pct": 0.25831449790119493,
             "warnings": [
               "düşük hacim",
               "yatay hacim; toplama veya yükseliş teyidi değildir",
@@ -2141,18 +2146,18 @@
             "paper_controls": [
               {
                 "symbol": "XWDCUSDT",
-                "entry_price": 350.74
+                "entry_price": 348.555
               },
               {
                 "symbol": "TURBOUSDT",
-                "entry_price": 0.00081835
+                "entry_price": 0.0008155
               },
               {
                 "symbol": "ACHUSDT",
-                "entry_price": 0.0050245
+                "entry_price": 0.0050125
               }
             ],
-            "paper_btc_price": 80369.45
+            "paper_btc_price": 79725.75
           }
         ],
         "limitation": "V5 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume."
@@ -2282,10 +2287,10 @@
         "exchange": "MEXC",
         "archive": false,
         "feature_cutoff_ms": 1793016000000,
-        "observed_ms": 1793018607532,
+        "observed_ms": 1793022945326,
         "universe_count": 1253,
-        "prefilter_count": 1072,
-        "analyzed_count": 1042,
+        "prefilter_count": 1065,
+        "analyzed_count": 1037,
         "candidates": [
           {
             "open": 0.0008245,
@@ -2362,27 +2367,27 @@
             "pu_age_bars": null,
             "symbol": "SPCMUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.0008465,
-            "spread_pct": 0.23626698168930185,
+            "mid_price": 0.00084465,
+            "spread_pct": 0.31965903036760923,
             "warnings": [],
             "failed_legacy_gates": [],
             "paper_controls": [
               {
                 "symbol": "FETUSDT",
-                "entry_price": 0.1755
+                "entry_price": 0.17435
               },
               {
                 "symbol": "WIFUSDT",
-                "entry_price": 0.17965
+                "entry_price": 0.17935
               },
               {
                 "symbol": "XDCUSDT",
                 "entry_price": 0.033165
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.05976,
@@ -2459,30 +2464,29 @@
             "pu_age_bars": null,
             "symbol": "TAUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 0.05873,
-            "spread_pct": 0.23837902264600927,
+            "mid_price": 0.058935,
+            "spread_pct": 0.2205819971154631,
             "warnings": [
-              "düşük hacim",
-              "gözlem fiyatı grubun izlediği seviyenin altında"
+              "düşük hacim"
             ],
             "failed_legacy_gates": [],
             "paper_controls": [
               {
                 "symbol": "CAWUSDT",
-                "entry_price": 2.2063499999999998e-08
+                "entry_price": 2.18105e-08
               },
               {
                 "symbol": "ZORAUSDT",
-                "entry_price": 0.0060085
+                "entry_price": 0.006051
               },
               {
                 "symbol": "KGENUSDT",
-                "entry_price": 0.1003
+                "entry_price": 0.099605
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.03873,
@@ -2559,14 +2563,15 @@
             "pu_age_bars": null,
             "symbol": "UMXUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.049465,
-            "spread_pct": 0.42454260588295123,
+            "mid_price": 0.04985,
+            "spread_pct": 0.5215646940822394,
             "warnings": [
               "yapı bozulma mesafesi geniş",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "makas geniş"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -2574,19 +2579,19 @@
             ],
             "paper_controls": [
               {
+                "symbol": "CAPUSDT",
+                "entry_price": 0.09892
+              },
+              {
                 "symbol": "RLSUSDT",
-                "entry_price": 0.0025755
+                "entry_price": 0.002495
               },
               {
                 "symbol": "UMXMUSDT",
-                "entry_price": 0.029249999999999998
-              },
-              {
-                "symbol": "DOODUSDT",
-                "entry_price": 0.0022554999999999997
+                "entry_price": 0.0345
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 2.089,
@@ -2663,13 +2668,14 @@
             "pu_age_bars": null,
             "symbol": "CAKEUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 2.1035000000000004,
-            "spread_pct": 0.04753981459471784,
+            "mid_price": 2.0955000000000004,
+            "spread_pct": 0.04772130756382199,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -2679,18 +2685,18 @@
             "paper_controls": [
               {
                 "symbol": "GRAMUSDT",
-                "entry_price": 1.2205
+                "entry_price": 1.2175
               },
               {
                 "symbol": "ZANOUSDT",
-                "entry_price": 4.041499999999999
+                "entry_price": 4.12
               },
               {
                 "symbol": "SHIBUSDT",
-                "entry_price": 4.853e-06
+                "entry_price": 4.8345e-06
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.16933,
@@ -2767,13 +2773,14 @@
             "pu_age_bars": 4.0,
             "symbol": "ARBUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.170855,
-            "spread_pct": 0.06438207837054753,
+            "mid_price": 0.169535,
+            "spread_pct": 0.07668033149496638,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -2783,18 +2790,18 @@
             "paper_controls": [
               {
                 "symbol": "SEDAUSDT",
-                "entry_price": 0.017035
+                "entry_price": 0.01705
               },
               {
                 "symbol": "PENDLEUSDT",
-                "entry_price": 1.9515
+                "entry_price": 1.9369999999999998
               },
               {
                 "symbol": "APEUSDT",
-                "entry_price": 0.12345
+                "entry_price": 0.12265000000000001
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.02342,
@@ -2871,14 +2878,14 @@
             "pu_age_bars": null,
             "symbol": "BANKUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.02771,
-            "spread_pct": 0.4330566582461154,
+            "mid_price": 0.026340000000000002,
+            "spread_pct": 0.5315110098709103,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
-              "gözlem fiyatı kapanıştan uzaklaştı"
+              "makas geniş"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -2888,18 +2895,18 @@
             "paper_controls": [
               {
                 "symbol": "UNIUSDT",
-                "entry_price": 7.018
+                "entry_price": 6.967499999999999
               },
               {
                 "symbol": "BONKUSDT",
-                "entry_price": 2.9965e-06
+                "entry_price": 2.9905e-06
               },
               {
                 "symbol": "CRVUSDT",
-                "entry_price": 0.34995
+                "entry_price": 0.35005
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.03659,
@@ -2976,10 +2983,10 @@
             "pu_age_bars": null,
             "symbol": "NIGHTUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.038025,
-            "spread_pct": 0.07889546351083579,
+            "mid_price": 0.03795,
+            "spread_pct": 0.10540184453227504,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -2992,18 +2999,18 @@
             "paper_controls": [
               {
                 "symbol": "MUBARAKUSDT",
-                "entry_price": 0.0518145
+                "entry_price": 0.0519665
               },
               {
                 "symbol": "GEODUSDT",
-                "entry_price": 0.24995
+                "entry_price": 0.24955
               },
               {
                 "symbol": "ARUSDT",
-                "entry_price": 3.399
+                "entry_price": 3.364
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.001546,
@@ -3081,10 +3088,10 @@
             "pu_age_bars": null,
             "symbol": "NOMUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 0.001673,
-            "spread_pct": 0.11954572624027686,
+            "mid_price": 0.001668,
+            "spread_pct": 0.35971223021582305,
             "warnings": [
               "yapı bozulma mesafesi geniş",
               "düşük hacim",
@@ -3096,18 +3103,18 @@
             "paper_controls": [
               {
                 "symbol": "MARSCOINUSDT",
-                "entry_price": 0.065055
+                "entry_price": 0.064325
               },
               {
                 "symbol": "STORJUSDT",
-                "entry_price": 0.021555
+                "entry_price": 0.021455000000000002
               },
               {
                 "symbol": "FHEUSDT",
-                "entry_price": 0.01758
+                "entry_price": 0.0175
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.2633,
@@ -3184,10 +3191,10 @@
             "pu_age_bars": null,
             "symbol": "SOONUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.31489999999999996,
-            "spread_pct": 0.19053667831057144,
+            "mid_price": 0.3062,
+            "spread_pct": 0.19595035924232182,
             "warnings": [
               "yapı bozulma mesafesi geniş",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -3201,18 +3208,18 @@
             "paper_controls": [
               {
                 "symbol": "BILLUSDT",
-                "entry_price": 0.005836
+                "entry_price": 0.005773
               },
               {
                 "symbol": "SWCHUSDT",
-                "entry_price": 0.020145000000000003
+                "entry_price": 0.01949
               },
               {
                 "symbol": "PROMPTUSDT",
-                "entry_price": 0.016890000000000002
+                "entry_price": 0.016975
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.1206,
@@ -3289,7 +3296,7 @@
             "pu_age_bars": null,
             "symbol": "UPCUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
             "mid_price": 0.12304999999999999,
             "spread_pct": 0.24380333197887735,
@@ -3306,18 +3313,18 @@
             "paper_controls": [
               {
                 "symbol": "LTCUSDT",
-                "entry_price": 56.635
+                "entry_price": 56.39
               },
               {
                 "symbol": "DOGEUSDT",
-                "entry_price": 0.07724500000000001
+                "entry_price": 0.076845
               },
               {
                 "symbol": "DGAIUSDT",
-                "entry_price": 0.8533999999999999
+                "entry_price": 0.8536999999999999
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.009451,
@@ -3394,14 +3401,16 @@
             "pu_age_bars": null,
             "symbol": "GHXUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 0.009755,
-            "spread_pct": 0.20502306509481483,
+            "mid_price": 0.009729999999999999,
+            "spread_pct": 0.513874614594036,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "makas geniş",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -3411,18 +3420,18 @@
             "paper_controls": [
               {
                 "symbol": "CYSUSDT",
-                "entry_price": 0.1134
+                "entry_price": 0.11335
               },
               {
                 "symbol": "VELVETUSDT",
-                "entry_price": 0.05727
+                "entry_price": 0.05699
               },
               {
                 "symbol": "AOUSDT",
-                "entry_price": 3.363
+                "entry_price": 3.391
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.0004823,
@@ -3499,10 +3508,10 @@
             "pu_age_bars": null,
             "symbol": "TAGUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.0005201,
-            "spread_pct": 0.8844452989809659,
+            "mid_price": 0.0005389,
+            "spread_pct": 0.7051401002041164,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
@@ -3515,18 +3524,18 @@
             "paper_controls": [
               {
                 "symbol": "PROMPTUSDT",
-                "entry_price": 0.016890000000000002
+                "entry_price": 0.016975
               },
               {
                 "symbol": "MITOUSDT",
-                "entry_price": 0.008855
+                "entry_price": 0.008595
               },
               {
                 "symbol": "BILLUSDT",
-                "entry_price": 0.005836
+                "entry_price": 0.005773
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 76.61,
@@ -3603,13 +3612,14 @@
             "pu_age_bars": null,
             "symbol": "HYPEUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 77.435,
-            "spread_pct": 0.038742170852974926,
+            "mid_price": 77.1,
+            "spread_pct": 0.05188067444877594,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -3619,18 +3629,18 @@
             "paper_controls": [
               {
                 "symbol": "GRAMUSDT",
-                "entry_price": 1.2205
+                "entry_price": 1.2175
               },
               {
                 "symbol": "ZANOUSDT",
-                "entry_price": 4.041499999999999
+                "entry_price": 4.12
               },
               {
                 "symbol": "SHIBUSDT",
-                "entry_price": 4.853e-06
+                "entry_price": 4.8345e-06
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.3077,
@@ -3707,10 +3717,10 @@
             "pu_age_bars": 4.0,
             "symbol": "METUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 0.31225,
-            "spread_pct": 0.03202562049641137,
+            "mid_price": 0.31185,
+            "spread_pct": 0.03206669873336187,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -3724,18 +3734,18 @@
             "paper_controls": [
               {
                 "symbol": "NAKAUSDT",
-                "entry_price": 0.080805
+                "entry_price": 0.08049500000000001
               },
               {
                 "symbol": "AVNTUSDT",
-                "entry_price": 0.109845
+                "entry_price": 0.109305
               },
               {
                 "symbol": "ASSETUSDT",
-                "entry_price": 0.19114
+                "entry_price": 0.206065
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.40133,
@@ -3812,10 +3822,10 @@
             "pu_age_bars": null,
             "symbol": "ONDOUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.413185,
-            "spread_pct": 0.07018647821192854,
+            "mid_price": 0.41328,
+            "spread_pct": 0.053232675183894206,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -3828,18 +3838,18 @@
             "paper_controls": [
               {
                 "symbol": "KASUSDT",
-                "entry_price": 0.035669
+                "entry_price": 0.035433
               },
               {
                 "symbol": "PENDLEUSDT",
-                "entry_price": 1.9515
+                "entry_price": 1.9369999999999998
               },
               {
                 "symbol": "ICPUSDT",
-                "entry_price": 2.612
+                "entry_price": 2.5995
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.01741,
@@ -3916,13 +3926,14 @@
             "pu_age_bars": null,
             "symbol": "SAGAUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.01787,
-            "spread_pct": 0.11191941801902174,
+            "mid_price": 0.017755,
+            "spread_pct": 0.16896648831316388,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -3932,18 +3943,18 @@
             "paper_controls": [
               {
                 "symbol": "RENDERUSDT",
-                "entry_price": 1.72
+                "entry_price": 1.714
               },
               {
                 "symbol": "BEATUSDT",
-                "entry_price": 0.070075
+                "entry_price": 0.07114999999999999
               },
               {
                 "symbol": "LDOUSDT",
-                "entry_price": 0.36975
+                "entry_price": 0.36825
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.01123,
@@ -4020,13 +4031,14 @@
             "pu_age_bars": null,
             "symbol": "4USDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.011689999999999999,
-            "spread_pct": 0.34217279726261857,
+            "mid_price": 0.01157,
+            "spread_pct": 0.34572169403630165,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -4036,18 +4048,18 @@
             "paper_controls": [
               {
                 "symbol": "INXUSDT",
-                "entry_price": 0.0044335
+                "entry_price": 0.0044624999999999995
               },
               {
                 "symbol": "QUBICUSDT",
-                "entry_price": 3.918e-07
+                "entry_price": 3.8845e-07
               },
               {
                 "symbol": "TAKEUSDT",
-                "entry_price": 0.066215
+                "entry_price": 0.06781999999999999
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.00015597,
@@ -4124,10 +4136,10 @@
             "pu_age_bars": null,
             "symbol": "NATIXUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 0.000163895,
-            "spread_pct": 3.7768083224015334,
+            "mid_price": 0.00016664000000000002,
+            "spread_pct": 2.4843975036005745,
             "warnings": [
               "düşük hacim",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -4143,18 +4155,18 @@
             "paper_controls": [
               {
                 "symbol": "RIOUSDT",
-                "entry_price": 0.045689999999999995
+                "entry_price": 0.045899999999999996
               },
               {
                 "symbol": "DNXUSDT",
-                "entry_price": 0.0010297499999999998
+                "entry_price": 0.0010135
               },
               {
                 "symbol": "HPUSDT",
-                "entry_price": 0.007721
+                "entry_price": 0.0077020000000000005
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.6225,
@@ -4232,13 +4244,14 @@
             "pu_age_bars": null,
             "symbol": "RUNEUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.6315999999999999,
-            "spread_pct": 0.4749841671944273,
+            "mid_price": 0.6285000000000001,
+            "spread_pct": 0.3818615751790085,
             "warnings": [
               "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "gözlem fiyatı grubun izlediği seviyenin altında"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -4248,18 +4261,18 @@
             "paper_controls": [
               {
                 "symbol": "GALAUSDT",
-                "entry_price": 0.0017415
+                "entry_price": 0.0017435
               },
               {
                 "symbol": "WIFUSDT",
-                "entry_price": 0.17965
+                "entry_price": 0.17935
               },
               {
                 "symbol": "KAITOUSDT",
-                "entry_price": 0.24980000000000002
+                "entry_price": 0.24919999999999998
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 9.4e-10,
@@ -4336,7 +4349,7 @@
             "pu_age_bars": null,
             "symbol": "MIUUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
             "mid_price": 9.35e-10,
             "spread_pct": 1.0695187165775475,
@@ -4352,18 +4365,18 @@
             "paper_controls": [
               {
                 "symbol": "ASEUSDT",
-                "entry_price": 0.0015035
+                "entry_price": 0.0014845000000000001
               },
               {
                 "symbol": "MHAUSDT",
-                "entry_price": 0.0041425
+                "entry_price": 0.0041925
               },
               {
                 "symbol": "CPUSDT",
-                "entry_price": 0.008545
+                "entry_price": 0.00843
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.105999,
@@ -4440,10 +4453,10 @@
             "pu_age_bars": null,
             "symbol": "BULLAUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.139074,
-            "spread_pct": 1.0267914922990529,
+            "mid_price": 0.141427,
+            "spread_pct": 1.1454672728686957,
             "warnings": [
               "24 saatlik yükseliş yüksek",
               "72 saatlik yükseliş yüksek",
@@ -4455,18 +4468,18 @@
             "paper_controls": [
               {
                 "symbol": "GRVTUSDT",
-                "entry_price": 0.20384999999999998
+                "entry_price": 0.20075
               },
               {
                 "symbol": "DOSUSDT",
-                "entry_price": 0.25756999999999997
+                "entry_price": 0.25586
               },
               {
                 "symbol": "ETHFIUSDT",
-                "entry_price": 0.6366499999999999
+                "entry_price": 0.6318
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 7.935e-07,
@@ -4543,10 +4556,10 @@
             "pu_age_bars": null,
             "symbol": "NEXUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 8.0765e-07,
-            "spread_pct": 0.18572401411502593,
+            "mid_price": 7.556e-07,
+            "spread_pct": 0.21175224986765673,
             "warnings": [
               "24 saatlik yükseliş yüksek",
               "ortalamadan uzak",
@@ -4557,18 +4570,18 @@
             "paper_controls": [
               {
                 "symbol": "FOLKSUSDT",
-                "entry_price": 2.37735
+                "entry_price": 2.38195
               },
               {
                 "symbol": "CASHCATUSDT",
-                "entry_price": 0.09223
+                "entry_price": 0.09014
               },
               {
                 "symbol": "XECUSDT",
-                "entry_price": 7.029e-06
+                "entry_price": 7.0955e-06
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.01694,
@@ -4645,10 +4658,10 @@
             "pu_age_bars": 4.0,
             "symbol": "PLAYUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.017415,
-            "spread_pct": 0.40195233993683954,
+            "mid_price": 0.01703,
+            "spread_pct": 0.3523194362888876,
             "warnings": [
               "yapı bozulma mesafesi geniş",
               "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
@@ -4658,18 +4671,18 @@
             "paper_controls": [
               {
                 "symbol": "TOSHIUSDT",
-                "entry_price": 0.00011226
+                "entry_price": 0.00011492
               },
               {
                 "symbol": "BEAMXUSDT",
-                "entry_price": 0.0033420000000000004
+                "entry_price": 0.003333
               },
               {
                 "symbol": "BLUAIUSDT",
-                "entry_price": 0.008869499999999999
+                "entry_price": 0.008737000000000002
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 194.76,
@@ -4746,10 +4759,10 @@
             "pu_age_bars": null,
             "symbol": "QNTUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 220.56,
-            "spread_pct": 0.11788175553137056,
+            "mid_price": 211.065,
+            "spread_pct": 0.12792267784804767,
             "warnings": [
               "ortalamadan uzak",
               "yapı bozulma mesafesi geniş",
@@ -4759,18 +4772,18 @@
             "paper_controls": [
               {
                 "symbol": "ZROUSDT",
-                "entry_price": 1.6855
+                "entry_price": 1.68935
               },
               {
                 "symbol": "ZIGUSDT",
-                "entry_price": 0.0411685
+                "entry_price": 0.0412355
               },
               {
                 "symbol": "BDXUSDT",
-                "entry_price": 0.07424
+                "entry_price": 0.073685
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.04618,
@@ -4847,10 +4860,10 @@
             "pu_age_bars": null,
             "symbol": "CHIPUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.048875,
-            "spread_pct": 0.3069053708439844,
+            "mid_price": 0.04828,
+            "spread_pct": 0.20712510356254332,
             "warnings": [
               "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi"
             ],
@@ -4858,18 +4871,18 @@
             "paper_controls": [
               {
                 "symbol": "BLUAIUSDT",
-                "entry_price": 0.008869499999999999
+                "entry_price": 0.008737000000000002
               },
               {
                 "symbol": "ZORAUSDT",
-                "entry_price": 0.0060085
+                "entry_price": 0.006051
               },
               {
                 "symbol": "CAWUSDT",
-                "entry_price": 2.2063499999999998e-08
+                "entry_price": 2.18105e-08
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.07287,
@@ -4946,10 +4959,10 @@
             "pu_age_bars": null,
             "symbol": "PYTHUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.075095,
-            "spread_pct": 0.06658232904988132,
+            "mid_price": 0.07509,
+            "spread_pct": 0.07990411506193167,
             "warnings": [
               "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
               "gözlem fiyatı grubun izlediği seviyenin altında"
@@ -4962,14 +4975,14 @@
               },
               {
                 "symbol": "TIAUSDT",
-                "entry_price": 0.5360499999999999
+                "entry_price": 0.5346500000000001
               },
               {
                 "symbol": "BSBUSDT",
-                "entry_price": 0.099155
+                "entry_price": 0.09836500000000001
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.01042,
@@ -5046,10 +5059,10 @@
             "pu_age_bars": 4.0,
             "symbol": "DGMAUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 0.010409999999999999,
-            "spread_pct": 0.1921229586935727,
+            "mid_price": 0.010405000000000001,
+            "spread_pct": 0.09610764055743706,
             "warnings": [
               "düşük hacim",
               "yatay hacim; toplama veya yükseliş teyidi değildir",
@@ -5064,18 +5077,18 @@
             "paper_controls": [
               {
                 "symbol": "SNEKUSDT",
-                "entry_price": 0.0006352
+                "entry_price": 0.0006373500000000001
               },
               {
                 "symbol": "KMNOUSDT",
-                "entry_price": 0.042859999999999995
+                "entry_price": 0.042025
               },
               {
                 "symbol": "PONDUSDT",
-                "entry_price": 0.0014496
+                "entry_price": 0.0014661000000000001
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.007452,
@@ -5152,10 +5165,10 @@
             "pu_age_bars": null,
             "symbol": "PENGUUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.0075250000000000004,
-            "spread_pct": 0.10631229235880657,
+            "mid_price": 0.007493,
+            "spread_pct": 0.08007473642065834,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -5168,18 +5181,18 @@
             "paper_controls": [
               {
                 "symbol": "ACNUSDT",
-                "entry_price": 0.0041455
+                "entry_price": 0.0041055
               },
               {
                 "symbol": "SNSYUSDT",
-                "entry_price": 5.968e-05
+                "entry_price": 5.8905e-05
               },
               {
                 "symbol": "GHUBUSDT",
-                "entry_price": 0.0025915
+                "entry_price": 0.002567
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 3.84e-05,
@@ -5256,14 +5269,15 @@
             "pu_age_bars": null,
             "symbol": "SHMUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 3.845e-05,
-            "spread_pct": 0.26007802340702846,
+            "mid_price": 3.82e-05,
+            "spread_pct": 0.5235602094240964,
             "warnings": [
               "düşük hacim",
               "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
+              "makas geniş"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -5275,15 +5289,15 @@
                 "entry_price": 0.0045765
               },
               {
-                "symbol": "CLONEUSDT",
-                "entry_price": 0.006713500000000001
+                "symbol": "CRYPGPTUSDT",
+                "entry_price": 0.09048
               },
               {
                 "symbol": "LUNAMUSDT",
-                "entry_price": 0.000348035
+                "entry_price": 0.000345005
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.002681,
@@ -5360,15 +5374,14 @@
             "pu_age_bars": null,
             "symbol": "HMNDUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 0.0026355,
-            "spread_pct": 0.7968127490039747,
+            "mid_price": 0.0026525,
+            "spread_pct": 0.49010367577756797,
             "warnings": [
               "düşük hacim",
               "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
-              "makas geniş"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -5378,19 +5391,19 @@
             ],
             "paper_controls": [
               {
+                "symbol": "CHIRPUSDT",
+                "entry_price": 0.0066225
+              },
+              {
                 "symbol": "TRIAUSDT",
-                "entry_price": 0.0026950000000000003
+                "entry_price": 0.002745
               },
               {
                 "symbol": "VISTAUSDT",
-                "entry_price": 0.33594999999999997
-              },
-              {
-                "symbol": "GOATEDUSDT",
-                "entry_price": 0.0093115
+                "entry_price": 0.36135
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.01327,
@@ -5467,10 +5480,10 @@
             "pu_age_bars": null,
             "symbol": "LYNUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.01345,
-            "spread_pct": 0.2973977695167294,
+            "mid_price": 0.013340000000000001,
+            "spread_pct": 0.29985007496251953,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -5483,18 +5496,18 @@
             "paper_controls": [
               {
                 "symbol": "BEAMXUSDT",
-                "entry_price": 0.0033420000000000004
+                "entry_price": 0.003333
               },
               {
                 "symbol": "RHEAUSDT",
-                "entry_price": 0.057470999999999994
+                "entry_price": 0.05715
               },
               {
                 "symbol": "HANDLUSDT",
-                "entry_price": 0.0025104999999999997
+                "entry_price": 0.00247765
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.1681,
@@ -5571,10 +5584,10 @@
             "pu_age_bars": null,
             "symbol": "XLMUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.16945,
-            "spread_pct": 0.05901445854235276,
+            "mid_price": 0.16835,
+            "spread_pct": 0.05940005940005286,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -5588,18 +5601,18 @@
             "paper_controls": [
               {
                 "symbol": "JGGLUSDT",
-                "entry_price": 2.09575
+                "entry_price": 2.0736499999999998
               },
               {
                 "symbol": "KDXUSDT",
-                "entry_price": 0.008915
+                "entry_price": 0.00892
               },
               {
                 "symbol": "SHAREUSDT",
-                "entry_price": 2.7112
+                "entry_price": 2.7168
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.3303,
@@ -5676,10 +5689,10 @@
             "pu_age_bars": 5.0,
             "symbol": "TRXUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.3313,
-            "spread_pct": 0.06036824630243826,
+            "mid_price": 0.33095,
+            "spread_pct": 0.030216044719742857,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -5691,18 +5704,18 @@
             "paper_controls": [
               {
                 "symbol": "ADIUSDT",
-                "entry_price": 8.057649999999999
+                "entry_price": 8.06005
               },
               {
                 "symbol": "MBGUSDT",
-                "entry_price": 0.1028
+                "entry_price": 0.10289999999999999
               },
               {
                 "symbol": "DOGEUSDT",
-                "entry_price": 0.07724500000000001
+                "entry_price": 0.076845
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 0.02138,
@@ -5779,10 +5792,10 @@
             "pu_age_bars": null,
             "symbol": "MONUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "main",
-            "mid_price": 0.021545,
-            "spread_pct": 0.13924344395450813,
+            "mid_price": 0.021374999999999998,
+            "spread_pct": 0.14035087719297673,
             "warnings": [
               "yatay hacim; toplama veya yükseliş teyidi değildir",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
@@ -5795,18 +5808,18 @@
             "paper_controls": [
               {
                 "symbol": "BRISEUSDT",
-                "entry_price": 1.2585e-08
+                "entry_price": 1.2525e-08
               },
               {
                 "symbol": "SLXUSDT",
-                "entry_price": 0.050245
+                "entry_price": 0.050195000000000004
               },
               {
                 "symbol": "APTUSDT",
-                "entry_price": 0.6971
+                "entry_price": 0.69585
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           },
           {
             "open": 3.555e-05,
@@ -5883,10 +5896,10 @@
             "pu_age_bars": null,
             "symbol": "DOGSUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793018607532,
+            "observed_ms": 1793022945326,
             "liquidity_band": "thin",
-            "mid_price": 3.596e-05,
-            "spread_pct": 0.055617352614024465,
+            "mid_price": 3.5629999999999996e-05,
+            "spread_pct": 0.05613247263540955,
             "warnings": [
               "düşük hacim",
               "yatay hacim; toplama veya yükseliş teyidi değildir",
@@ -5900,18 +5913,18 @@
             "paper_controls": [
               {
                 "symbol": "JASMYUSDT",
-                "entry_price": 0.0042865
+                "entry_price": 0.004255500000000001
               },
               {
                 "symbol": "NUMUSDT",
-                "entry_price": 0.003077
+                "entry_price": 0.003092
               },
               {
                 "symbol": "ASTRUSDT",
-                "entry_price": 0.0065085
+                "entry_price": 0.006337000000000001
               }
             ],
-            "paper_btc_price": 80311.16500000001
+            "paper_btc_price": 79683.54000000001
           }
         ],
         "limitation": "V5 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume."
@@ -5925,7 +5938,7 @@
         "version": "github-paper-v1",
         "entries": {},
         "measurement_errors": [],
-        "asof_ms": 1793018681508
+        "asof_ms": 1793022979049
       }
     },
     "early_reversal": {
@@ -6894,7 +6907,7 @@
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793018681508
+        "asof_ms": 1793022979049
       }
     },
     "sideways_volume": {
@@ -7383,7 +7396,7 @@
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793018681508
+        "asof_ms": 1793022979049
       }
     },
     "new_breakout": {
@@ -7776,7 +7789,7 @@
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793018681508
+        "asof_ms": 1793022979049
       }
     },
     "continuation": {
@@ -7849,7 +7862,7 @@
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793018681508
+        "asof_ms": 1793022979049
       }
     }
   },
@@ -8069,7 +8082,19 @@
               "price": 8.849999999999999e-10
             }
           ],
-          "outcomes": {}
+          "outcomes": {
+            "12": {
+              "target_ms": 1793019139409,
+              "endpoint_ms": 1793019180000,
+              "endpoint_delay_ms": 40591,
+              "endpoint_price": 9.3e-10,
+              "return_pct": 5.084745762711873,
+              "btc_excess_pct_points": 4.613502042164619,
+              "control_excess_pct_points": 3.6284350831002454,
+              "complete": true,
+              "controls_count": 3
+            }
+          }
         },
         "MEXC:CPHUSDT": {
           "symbol": "CPHUSDT",
@@ -8169,7 +8194,7 @@
         }
       },
       "measurement_errors": [],
-      "asof_ms": 1793018681508
+      "asof_ms": 1793022979049
     }
   },
   "migration": {
@@ -8179,7 +8204,7 @@
     "migrated_ms": 1793018282527,
     "reason": "Three added alternative groups; previous real reference prices retained in separate cohort and continue measuring. Notification cooldowns retained; no backdated new-version entries."
   },
-  "updated_ms": 1793018681508,
+  "updated_ms": 1793022979049,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -9945,6 +9970,1734 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793018681508
+    "asof_ms": 1793022979049
+  },
+  "priority_watch": {
+    "version": 1,
+    "fingerprint": "32cbafff6a7c1a726212a50c8161e68309404a20649be5f89f27cb363183050c",
+    "active": [
+      "CRVUSDT",
+      "LUNAUSDT",
+      "METUSDT",
+      "NIGHTUSDT",
+      "ONDOUSDT"
+    ],
+    "active_venues": {
+      "LUNAUSDT": "OKX",
+      "METUSDT": "OKX",
+      "NIGHTUSDT": "MEXC",
+      "ONDOUSDT": "MEXC",
+      "CRVUSDT": "OKX"
+    },
+    "last_sent": {},
+    "pending": [
+      {
+        "id": "c774ffba0873b92655d3bd1b",
+        "created_ms": 1793022981517,
+        "candidates": [
+          {
+            "open": 0.04106,
+            "high": 0.04228,
+            "low": 0.04106,
+            "close": 0.04216,
+            "volume": 1900908.9093,
+            "close_ms": 1793016000000,
+            "quote_volume": 78184.057446874,
+            "atr": 0.0009018395484018508,
+            "ema20": 0.04214131959570759,
+            "ema50": 0.04299834671145177,
+            "return24_pct": 1.9835510401548184,
+            "return72_pct": -3.9854247324071834,
+            "relative24_pct_points": 2.1862090494897513,
+            "ema20_extension_atr": 0.020713667221087903,
+            "close_position": 0.901639344262299,
+            "quote_volume24": 149412.677416672,
+            "nonzero24": 6.0,
+            "higher_lows": false,
+            "breakout_now": false,
+            "breakout_age_bars": null,
+            "breakout_level": null,
+            "breakout_volume_ratio": null,
+            "breakout_low": null,
+            "anchor_atr": null,
+            "breakout_open_ms": null,
+            "hold_low": null,
+            "peak_since_breakout": null,
+            "peak_drawdown_pct": null,
+            "peak_drawdown_atr": null,
+            "invalidation_level": null,
+            "invalidation_distance_pct": null,
+            "gate_history": true,
+            "gate_anchor": false,
+            "gate_trend": false,
+            "gate_holds_breakout": false,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": false,
+            "continuation": false,
+            "qualified": true,
+            "stage": "early_reversal",
+            "sar_below": true,
+            "strength_score": 50,
+            "decision_ms": 1793016000000,
+            "volume_ratio_now": 11.503828416120397,
+            "relative8_pct_points": 2.359391229321317,
+            "early_level": 0.04151,
+            "early_ema": 0.04153342120328278,
+            "early_prior_below_ema20": true,
+            "group_early_reversal": true,
+            "box_high": 0.04151,
+            "box_low": 0.04067,
+            "box_range_atr": 0.9574115230474611,
+            "box_net_change_atr": 0.31913717434915634,
+            "group_sideways_volume": false,
+            "retest_touched_support": false,
+            "retest_base_range_anchor_atr": null,
+            "group_retest": false,
+            "group_new_breakout": false,
+            "group_continuation": false,
+            "matched_groups": [
+              "early_reversal"
+            ],
+            "signal_reference_level": 0.04151,
+            "signal_invalidation_level": 0.04083454011289954,
+            "signal_invalidation_distance_pct": 3.1438801876196965,
+            "signal_volume_ratio": 11.503828416120397,
+            "rsi14": 48.193110709234254,
+            "pu_confirmed_now": false,
+            "pu_active": true,
+            "pu_confirmation_ms": 1793001600000.0,
+            "pu_age_bars": 1.0,
+            "symbol": "LUNAUSDT",
+            "exchange": "OKX",
+            "observed_ms": 1793022981449,
+            "liquidity_band": "main",
+            "mid_price": 0.04159,
+            "spread_pct": 0.19235393123347844,
+            "warnings": [
+              "erken dönüş; uzun trend teyidi henüz aranmadı",
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+            ],
+            "failed_legacy_gates": [
+              "anchor",
+              "trend",
+              "holds_breakout"
+            ],
+            "paper_controls": [
+              {
+                "symbol": "PNUTUSDT",
+                "entry_price": 0.040945
+              },
+              {
+                "symbol": "ALGOUSDT",
+                "entry_price": 0.10409
+              },
+              {
+                "symbol": "ENSUSDT",
+                "entry_price": 5.1805
+              }
+            ],
+            "paper_btc_price": 79609.05,
+            "source_feature_observed_ms": 1793022722323,
+            "feature_cutoff_ms": 1793016000000,
+            "priority_metrics": {
+              "current_structure_distance_pct": 1.8164459896620855,
+              "current_ema20_extension_atr": -0.6113278095694317,
+              "current_quote_drift_atr": 0.6320414767905196
+            },
+            "passing_venues": [
+              "OKX"
+            ]
+          },
+          {
+            "open": 0.3078,
+            "high": 0.3201,
+            "low": 0.3051,
+            "close": 0.3141,
+            "volume": 414807.948,
+            "close_ms": 1793016000000,
+            "quote_volume": 130718.0422867,
+            "atr": 0.009089740727830808,
+            "ema20": 0.3123877233428756,
+            "ema50": 0.3282936116119308,
+            "return24_pct": 4.248257550613999,
+            "return72_pct": -5.048367593712211,
+            "relative24_pct_points": 4.450915559948932,
+            "ema20_extension_atr": 0.18837464218112943,
+            "close_position": 0.6,
+            "quote_volume24": 337219.64462590014,
+            "nonzero24": 6.0,
+            "higher_lows": false,
+            "breakout_now": false,
+            "breakout_age_bars": null,
+            "breakout_level": null,
+            "breakout_volume_ratio": null,
+            "breakout_low": null,
+            "anchor_atr": null,
+            "breakout_open_ms": null,
+            "hold_low": null,
+            "peak_since_breakout": null,
+            "peak_drawdown_pct": null,
+            "peak_drawdown_atr": null,
+            "invalidation_level": null,
+            "invalidation_distance_pct": null,
+            "gate_history": true,
+            "gate_anchor": false,
+            "gate_trend": false,
+            "gate_holds_breakout": false,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": false,
+            "continuation": false,
+            "qualified": true,
+            "stage": "early_reversal",
+            "sar_below": true,
+            "strength_score": 50,
+            "decision_ms": 1793016000000,
+            "volume_ratio_now": 3.620815049583527,
+            "relative8_pct_points": 4.697358590451106,
+            "early_level": 0.3098,
+            "early_ema": 0.30639975019687765,
+            "early_prior_below_ema20": true,
+            "group_early_reversal": true,
+            "box_high": 0.3098,
+            "box_low": 0.2952,
+            "box_range_atr": 1.6907726455022247,
+            "box_net_change_atr": 0.8569669573093487,
+            "group_sideways_volume": false,
+            "retest_touched_support": false,
+            "retest_base_range_anchor_atr": null,
+            "group_retest": false,
+            "group_new_breakout": false,
+            "group_continuation": false,
+            "matched_groups": [
+              "early_reversal"
+            ],
+            "signal_reference_level": 0.3098,
+            "signal_invalidation_level": 0.3028275648180423,
+            "signal_invalidation_distance_pct": 3.588804578783089,
+            "signal_volume_ratio": 3.620815049583527,
+            "rsi14": 47.872089071572965,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "METUSDT",
+            "exchange": "OKX",
+            "observed_ms": 1793022981449,
+            "liquidity_band": "main",
+            "mid_price": 0.31084999999999996,
+            "spread_pct": 0.09650957053241838,
+            "warnings": [
+              "erken dönüş; uzun trend teyidi henüz aranmadı",
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+            ],
+            "failed_legacy_gates": [
+              "anchor",
+              "trend",
+              "holds_breakout"
+            ],
+            "paper_controls": [
+              {
+                "symbol": "BOMEUSDT",
+                "entry_price": 0.00062315
+              },
+              {
+                "symbol": "EIGENUSDT",
+                "entry_price": 0.1976
+              },
+              {
+                "symbol": "XNBISUSDT",
+                "entry_price": 151.8
+              }
+            ],
+            "paper_btc_price": 79609.05,
+            "source_feature_observed_ms": 1793022722323,
+            "feature_cutoff_ms": 1793016000000,
+            "priority_metrics": {
+              "current_structure_distance_pct": 2.5808059134494687,
+              "current_ema20_extension_atr": -0.16917130960264784,
+              "current_quote_drift_atr": 0.35754595178377724
+            },
+            "passing_venues": [
+              "OKX"
+            ]
+          },
+          {
+            "open": 0.03659,
+            "high": 0.03792,
+            "low": 0.03641,
+            "close": 0.03787,
+            "volume": 1128607.05,
+            "close_ms": 1793016000000,
+            "quote_volume": 42067.11505,
+            "atr": 0.001096448355657056,
+            "ema20": 0.03783676252900407,
+            "ema50": 0.0392057951133099,
+            "return24_pct": 2.5731310942578522,
+            "return72_pct": -2.2709677419354812,
+            "relative24_pct_points": 2.791548790149101,
+            "ema20_extension_atr": 0.03031375880536606,
+            "close_position": 0.9668874172185422,
+            "quote_volume24": 120421.94872,
+            "nonzero24": 6.0,
+            "higher_lows": false,
+            "breakout_now": false,
+            "breakout_age_bars": null,
+            "breakout_level": null,
+            "breakout_volume_ratio": null,
+            "breakout_low": null,
+            "anchor_atr": null,
+            "breakout_open_ms": null,
+            "hold_low": null,
+            "peak_since_breakout": null,
+            "peak_drawdown_pct": null,
+            "peak_drawdown_atr": null,
+            "invalidation_level": null,
+            "invalidation_distance_pct": null,
+            "gate_history": true,
+            "gate_anchor": false,
+            "gate_trend": false,
+            "gate_holds_breakout": false,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": false,
+            "continuation": false,
+            "qualified": true,
+            "stage": "early_reversal",
+            "sar_below": true,
+            "strength_score": 50,
+            "decision_ms": 1793016000000,
+            "volume_ratio_now": 2.884891792606073,
+            "relative8_pct_points": 3.3917674486142246,
+            "early_level": 0.03748,
+            "early_ema": 0.0371770177857548,
+            "early_prior_below_ema20": true,
+            "group_early_reversal": true,
+            "box_high": 0.03748,
+            "box_low": 0.03608,
+            "box_range_atr": 1.3150025846559024,
+            "box_net_change_atr": 0.7514300483748042,
+            "group_sideways_volume": false,
+            "retest_touched_support": false,
+            "retest_base_range_anchor_atr": null,
+            "group_retest": false,
+            "group_new_breakout": false,
+            "group_continuation": false,
+            "matched_groups": [
+              "early_reversal"
+            ],
+            "signal_reference_level": 0.03748,
+            "signal_invalidation_level": 0.03613588791108573,
+            "signal_invalidation_distance_pct": 4.579118270172344,
+            "signal_volume_ratio": 2.884891792606073,
+            "rsi14": 47.99794413700146,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "NIGHTUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1793022981440,
+            "liquidity_band": "main",
+            "mid_price": 0.03791,
+            "spread_pct": 0.10551305724082925,
+            "warnings": [
+              "erken dönüş; uzun trend teyidi henüz aranmadı",
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+            ],
+            "failed_legacy_gates": [
+              "anchor",
+              "trend",
+              "holds_breakout"
+            ],
+            "paper_controls": [
+              {
+                "symbol": "MUBARAKUSDT",
+                "entry_price": 0.0518985
+              },
+              {
+                "symbol": "GEODUSDT",
+                "entry_price": 0.24955
+              },
+              {
+                "symbol": "ARUSDT",
+                "entry_price": 3.356
+              }
+            ],
+            "paper_btc_price": 79625.485,
+            "source_feature_observed_ms": 1793022945326,
+            "feature_cutoff_ms": 1793016000000,
+            "priority_metrics": {
+              "current_structure_distance_pct": 4.67979975973164,
+              "current_ema20_extension_atr": 0.06679518521603182,
+              "current_quote_drift_atr": 0.03648142641066576
+            },
+            "passing_venues": [
+              "MEXC"
+            ]
+          },
+          {
+            "open": 0.40133,
+            "high": 0.416,
+            "low": 0.39931,
+            "close": 0.41355,
+            "volume": 192306.79,
+            "close_ms": 1793016000000,
+            "quote_volume": 78992.36333,
+            "atr": 0.009460185050335997,
+            "ema20": 0.41371719425009035,
+            "ema50": 0.42819641957286625,
+            "return24_pct": 2.1842801018012725,
+            "return72_pct": -4.635074368730541,
+            "relative24_pct_points": 2.4026977976925212,
+            "ema20_extension_atr": -0.01767346507502369,
+            "close_position": 0.8532055122828035,
+            "quote_volume24": 359876.7908299998,
+            "nonzero24": 6.0,
+            "higher_lows": false,
+            "breakout_now": false,
+            "breakout_age_bars": null,
+            "breakout_level": null,
+            "breakout_volume_ratio": null,
+            "breakout_low": null,
+            "anchor_atr": null,
+            "breakout_open_ms": null,
+            "hold_low": null,
+            "peak_since_breakout": null,
+            "peak_drawdown_pct": null,
+            "peak_drawdown_atr": null,
+            "invalidation_level": null,
+            "invalidation_distance_pct": null,
+            "gate_history": true,
+            "gate_anchor": false,
+            "gate_trend": false,
+            "gate_holds_breakout": false,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": false,
+            "continuation": false,
+            "qualified": true,
+            "stage": "early_reversal",
+            "sar_below": true,
+            "strength_score": 30,
+            "decision_ms": 1793016000000,
+            "volume_ratio_now": 1.8141538292958126,
+            "relative8_pct_points": 1.7180923463106623,
+            "early_level": 0.41079,
+            "early_ema": 0.40738847604460826,
+            "early_prior_below_ema20": true,
+            "group_early_reversal": true,
+            "box_high": 0.41079,
+            "box_low": 0.40017,
+            "box_range_atr": 1.1927162853072022,
+            "box_net_change_atr": 0.7928980201759721,
+            "group_sideways_volume": false,
+            "retest_touched_support": false,
+            "retest_base_range_anchor_atr": null,
+            "group_retest": false,
+            "group_new_breakout": false,
+            "group_continuation": false,
+            "matched_groups": [
+              "early_reversal"
+            ],
+            "signal_reference_level": 0.41079,
+            "signal_invalidation_level": 0.396944953737416,
+            "signal_invalidation_distance_pct": 4.015245136642232,
+            "signal_volume_ratio": 1.8141538292958126,
+            "rsi14": 46.2199313570445,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "ONDOUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1793022981440,
+            "liquidity_band": "main",
+            "mid_price": 0.41274,
+            "spread_pct": 0.09206764549111959,
+            "warnings": [
+              "erken dönüş; uzun trend teyidi henüz aranmadı",
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+            ],
+            "failed_legacy_gates": [
+              "anchor",
+              "trend",
+              "holds_breakout"
+            ],
+            "paper_controls": [
+              {
+                "symbol": "KASUSDT",
+                "entry_price": 0.0354245
+              },
+              {
+                "symbol": "PENDLEUSDT",
+                "entry_price": 1.935
+              },
+              {
+                "symbol": "ICPUSDT",
+                "entry_price": 2.5965
+              }
+            ],
+            "paper_btc_price": 79625.485,
+            "source_feature_observed_ms": 1793022945326,
+            "feature_cutoff_ms": 1793016000000,
+            "priority_metrics": {
+              "current_structure_distance_pct": 3.826875578471678,
+              "current_ema20_extension_atr": -0.10329546884028921,
+              "current_quote_drift_atr": 0.08562200376526553
+            },
+            "passing_venues": [
+              "MEXC"
+            ]
+          },
+          {
+            "open": 0.3419,
+            "high": 0.3548,
+            "low": 0.3407,
+            "close": 0.3537,
+            "volume": 580046.714749,
+            "close_ms": 1793016000000,
+            "quote_volume": 202717.8809170651,
+            "atr": 0.009166381987501773,
+            "ema20": 0.35232377852952684,
+            "ema50": 0.3574441370623816,
+            "return24_pct": 2.284557547715438,
+            "return72_pct": -1.995012468827928,
+            "relative24_pct_points": 2.4872155570503707,
+            "ema20_extension_atr": 0.150137913993725,
+            "close_position": 0.9219858156028377,
+            "quote_volume24": 808219.0964198151,
+            "nonzero24": 6.0,
+            "higher_lows": false,
+            "breakout_now": false,
+            "breakout_age_bars": null,
+            "breakout_level": null,
+            "breakout_volume_ratio": null,
+            "breakout_low": null,
+            "anchor_atr": null,
+            "breakout_open_ms": null,
+            "hold_low": null,
+            "peak_since_breakout": null,
+            "peak_drawdown_pct": null,
+            "peak_drawdown_atr": null,
+            "invalidation_level": null,
+            "invalidation_distance_pct": null,
+            "gate_history": true,
+            "gate_anchor": false,
+            "gate_trend": false,
+            "gate_holds_breakout": false,
+            "gate_relative_strength": true,
+            "gate_liquidity": true,
+            "new_breakout": false,
+            "continuation": false,
+            "qualified": true,
+            "stage": "early_reversal",
+            "sar_below": true,
+            "strength_score": 30,
+            "decision_ms": 1793016000000,
+            "volume_ratio_now": 1.7272518310573048,
+            "relative8_pct_points": 2.8825474964484066,
+            "early_level": 0.3479,
+            "early_ema": 0.34687528749591784,
+            "early_prior_below_ema20": true,
+            "group_early_reversal": true,
+            "box_high": 0.3479,
+            "box_low": 0.337,
+            "box_range_atr": 1.2404868161994056,
+            "box_net_change_atr": 0.11380612992655144,
+            "group_sideways_volume": false,
+            "retest_touched_support": false,
+            "retest_base_range_anchor_atr": null,
+            "group_retest": false,
+            "group_new_breakout": false,
+            "group_continuation": false,
+            "matched_groups": [
+              "early_reversal"
+            ],
+            "signal_reference_level": 0.3479,
+            "signal_invalidation_level": 0.33840840450312454,
+            "signal_invalidation_distance_pct": 4.323323578421112,
+            "signal_volume_ratio": 1.7272518310573048,
+            "rsi14": 49.15203548523352,
+            "pu_confirmed_now": false,
+            "pu_active": false,
+            "pu_confirmation_ms": null,
+            "pu_age_bars": null,
+            "symbol": "CRVUSDT",
+            "exchange": "OKX",
+            "observed_ms": 1793022981449,
+            "liquidity_band": "main",
+            "mid_price": 0.34950000000000003,
+            "spread_pct": 0.05722460658083933,
+            "warnings": [
+              "erken dönüş; uzun trend teyidi henüz aranmadı",
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+            ],
+            "failed_legacy_gates": [
+              "anchor",
+              "trend",
+              "holds_breakout"
+            ],
+            "paper_controls": [
+              {
+                "symbol": "RAYUSDT",
+                "entry_price": 1.82675
+              },
+              {
+                "symbol": "APTUSDT",
+                "entry_price": 0.69475
+              },
+              {
+                "symbol": "WIFUSDT",
+                "entry_price": 0.17915
+              }
+            ],
+            "paper_btc_price": 79609.05,
+            "source_feature_observed_ms": 1793022722323,
+            "feature_cutoff_ms": 1793016000000,
+            "priority_metrics": {
+              "current_structure_distance_pct": 3.173560943312015,
+              "current_ema20_extension_atr": -0.3080581338828112,
+              "current_quote_drift_atr": 0.4581960478765362
+            },
+            "passing_venues": [
+              "OKX"
+            ]
+          }
+        ],
+        "obsolete": false
+      }
+    ],
+    "suppressed_raw_batches": [],
+    "latest": {
+      "selected": [
+        {
+          "open": 0.04106,
+          "high": 0.04228,
+          "low": 0.04106,
+          "close": 0.04216,
+          "volume": 1900908.9093,
+          "close_ms": 1793016000000,
+          "quote_volume": 78184.057446874,
+          "atr": 0.0009018395484018508,
+          "ema20": 0.04214131959570759,
+          "ema50": 0.04299834671145177,
+          "return24_pct": 1.9835510401548184,
+          "return72_pct": -3.9854247324071834,
+          "relative24_pct_points": 2.1862090494897513,
+          "ema20_extension_atr": 0.020713667221087903,
+          "close_position": 0.901639344262299,
+          "quote_volume24": 149412.677416672,
+          "nonzero24": 6.0,
+          "higher_lows": false,
+          "breakout_now": false,
+          "breakout_age_bars": null,
+          "breakout_level": null,
+          "breakout_volume_ratio": null,
+          "breakout_low": null,
+          "anchor_atr": null,
+          "breakout_open_ms": null,
+          "hold_low": null,
+          "peak_since_breakout": null,
+          "peak_drawdown_pct": null,
+          "peak_drawdown_atr": null,
+          "invalidation_level": null,
+          "invalidation_distance_pct": null,
+          "gate_history": true,
+          "gate_anchor": false,
+          "gate_trend": false,
+          "gate_holds_breakout": false,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": false,
+          "continuation": false,
+          "qualified": true,
+          "stage": "early_reversal",
+          "sar_below": true,
+          "strength_score": 50,
+          "decision_ms": 1793016000000,
+          "volume_ratio_now": 11.503828416120397,
+          "relative8_pct_points": 2.359391229321317,
+          "early_level": 0.04151,
+          "early_ema": 0.04153342120328278,
+          "early_prior_below_ema20": true,
+          "group_early_reversal": true,
+          "box_high": 0.04151,
+          "box_low": 0.04067,
+          "box_range_atr": 0.9574115230474611,
+          "box_net_change_atr": 0.31913717434915634,
+          "group_sideways_volume": false,
+          "retest_touched_support": false,
+          "retest_base_range_anchor_atr": null,
+          "group_retest": false,
+          "group_new_breakout": false,
+          "group_continuation": false,
+          "matched_groups": [
+            "early_reversal"
+          ],
+          "signal_reference_level": 0.04151,
+          "signal_invalidation_level": 0.04083454011289954,
+          "signal_invalidation_distance_pct": 3.1438801876196965,
+          "signal_volume_ratio": 11.503828416120397,
+          "rsi14": 48.193110709234254,
+          "pu_confirmed_now": false,
+          "pu_active": true,
+          "pu_confirmation_ms": 1793001600000.0,
+          "pu_age_bars": 1.0,
+          "symbol": "LUNAUSDT",
+          "exchange": "OKX",
+          "observed_ms": 1793022981449,
+          "liquidity_band": "main",
+          "mid_price": 0.04159,
+          "spread_pct": 0.19235393123347844,
+          "warnings": [
+            "erken dönüş; uzun trend teyidi henüz aranmadı",
+            "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+          ],
+          "failed_legacy_gates": [
+            "anchor",
+            "trend",
+            "holds_breakout"
+          ],
+          "paper_controls": [
+            {
+              "symbol": "PNUTUSDT",
+              "entry_price": 0.040945
+            },
+            {
+              "symbol": "ALGOUSDT",
+              "entry_price": 0.10409
+            },
+            {
+              "symbol": "ENSUSDT",
+              "entry_price": 5.1805
+            }
+          ],
+          "paper_btc_price": 79609.05,
+          "source_feature_observed_ms": 1793022722323,
+          "feature_cutoff_ms": 1793016000000,
+          "priority_metrics": {
+            "current_structure_distance_pct": 1.8164459896620855,
+            "current_ema20_extension_atr": -0.6113278095694317,
+            "current_quote_drift_atr": 0.6320414767905196
+          },
+          "passing_venues": [
+            "OKX"
+          ]
+        },
+        {
+          "open": 0.3078,
+          "high": 0.3201,
+          "low": 0.3051,
+          "close": 0.3141,
+          "volume": 414807.948,
+          "close_ms": 1793016000000,
+          "quote_volume": 130718.0422867,
+          "atr": 0.009089740727830808,
+          "ema20": 0.3123877233428756,
+          "ema50": 0.3282936116119308,
+          "return24_pct": 4.248257550613999,
+          "return72_pct": -5.048367593712211,
+          "relative24_pct_points": 4.450915559948932,
+          "ema20_extension_atr": 0.18837464218112943,
+          "close_position": 0.6,
+          "quote_volume24": 337219.64462590014,
+          "nonzero24": 6.0,
+          "higher_lows": false,
+          "breakout_now": false,
+          "breakout_age_bars": null,
+          "breakout_level": null,
+          "breakout_volume_ratio": null,
+          "breakout_low": null,
+          "anchor_atr": null,
+          "breakout_open_ms": null,
+          "hold_low": null,
+          "peak_since_breakout": null,
+          "peak_drawdown_pct": null,
+          "peak_drawdown_atr": null,
+          "invalidation_level": null,
+          "invalidation_distance_pct": null,
+          "gate_history": true,
+          "gate_anchor": false,
+          "gate_trend": false,
+          "gate_holds_breakout": false,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": false,
+          "continuation": false,
+          "qualified": true,
+          "stage": "early_reversal",
+          "sar_below": true,
+          "strength_score": 50,
+          "decision_ms": 1793016000000,
+          "volume_ratio_now": 3.620815049583527,
+          "relative8_pct_points": 4.697358590451106,
+          "early_level": 0.3098,
+          "early_ema": 0.30639975019687765,
+          "early_prior_below_ema20": true,
+          "group_early_reversal": true,
+          "box_high": 0.3098,
+          "box_low": 0.2952,
+          "box_range_atr": 1.6907726455022247,
+          "box_net_change_atr": 0.8569669573093487,
+          "group_sideways_volume": false,
+          "retest_touched_support": false,
+          "retest_base_range_anchor_atr": null,
+          "group_retest": false,
+          "group_new_breakout": false,
+          "group_continuation": false,
+          "matched_groups": [
+            "early_reversal"
+          ],
+          "signal_reference_level": 0.3098,
+          "signal_invalidation_level": 0.3028275648180423,
+          "signal_invalidation_distance_pct": 3.588804578783089,
+          "signal_volume_ratio": 3.620815049583527,
+          "rsi14": 47.872089071572965,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "METUSDT",
+          "exchange": "OKX",
+          "observed_ms": 1793022981449,
+          "liquidity_band": "main",
+          "mid_price": 0.31084999999999996,
+          "spread_pct": 0.09650957053241838,
+          "warnings": [
+            "erken dönüş; uzun trend teyidi henüz aranmadı",
+            "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+          ],
+          "failed_legacy_gates": [
+            "anchor",
+            "trend",
+            "holds_breakout"
+          ],
+          "paper_controls": [
+            {
+              "symbol": "BOMEUSDT",
+              "entry_price": 0.00062315
+            },
+            {
+              "symbol": "EIGENUSDT",
+              "entry_price": 0.1976
+            },
+            {
+              "symbol": "XNBISUSDT",
+              "entry_price": 151.8
+            }
+          ],
+          "paper_btc_price": 79609.05,
+          "source_feature_observed_ms": 1793022722323,
+          "feature_cutoff_ms": 1793016000000,
+          "priority_metrics": {
+            "current_structure_distance_pct": 2.5808059134494687,
+            "current_ema20_extension_atr": -0.16917130960264784,
+            "current_quote_drift_atr": 0.35754595178377724
+          },
+          "passing_venues": [
+            "OKX"
+          ]
+        },
+        {
+          "open": 0.03659,
+          "high": 0.03792,
+          "low": 0.03641,
+          "close": 0.03787,
+          "volume": 1128607.05,
+          "close_ms": 1793016000000,
+          "quote_volume": 42067.11505,
+          "atr": 0.001096448355657056,
+          "ema20": 0.03783676252900407,
+          "ema50": 0.0392057951133099,
+          "return24_pct": 2.5731310942578522,
+          "return72_pct": -2.2709677419354812,
+          "relative24_pct_points": 2.791548790149101,
+          "ema20_extension_atr": 0.03031375880536606,
+          "close_position": 0.9668874172185422,
+          "quote_volume24": 120421.94872,
+          "nonzero24": 6.0,
+          "higher_lows": false,
+          "breakout_now": false,
+          "breakout_age_bars": null,
+          "breakout_level": null,
+          "breakout_volume_ratio": null,
+          "breakout_low": null,
+          "anchor_atr": null,
+          "breakout_open_ms": null,
+          "hold_low": null,
+          "peak_since_breakout": null,
+          "peak_drawdown_pct": null,
+          "peak_drawdown_atr": null,
+          "invalidation_level": null,
+          "invalidation_distance_pct": null,
+          "gate_history": true,
+          "gate_anchor": false,
+          "gate_trend": false,
+          "gate_holds_breakout": false,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": false,
+          "continuation": false,
+          "qualified": true,
+          "stage": "early_reversal",
+          "sar_below": true,
+          "strength_score": 50,
+          "decision_ms": 1793016000000,
+          "volume_ratio_now": 2.884891792606073,
+          "relative8_pct_points": 3.3917674486142246,
+          "early_level": 0.03748,
+          "early_ema": 0.0371770177857548,
+          "early_prior_below_ema20": true,
+          "group_early_reversal": true,
+          "box_high": 0.03748,
+          "box_low": 0.03608,
+          "box_range_atr": 1.3150025846559024,
+          "box_net_change_atr": 0.7514300483748042,
+          "group_sideways_volume": false,
+          "retest_touched_support": false,
+          "retest_base_range_anchor_atr": null,
+          "group_retest": false,
+          "group_new_breakout": false,
+          "group_continuation": false,
+          "matched_groups": [
+            "early_reversal"
+          ],
+          "signal_reference_level": 0.03748,
+          "signal_invalidation_level": 0.03613588791108573,
+          "signal_invalidation_distance_pct": 4.579118270172344,
+          "signal_volume_ratio": 2.884891792606073,
+          "rsi14": 47.99794413700146,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "NIGHTUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1793022981440,
+          "liquidity_band": "main",
+          "mid_price": 0.03791,
+          "spread_pct": 0.10551305724082925,
+          "warnings": [
+            "erken dönüş; uzun trend teyidi henüz aranmadı",
+            "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+          ],
+          "failed_legacy_gates": [
+            "anchor",
+            "trend",
+            "holds_breakout"
+          ],
+          "paper_controls": [
+            {
+              "symbol": "MUBARAKUSDT",
+              "entry_price": 0.0518985
+            },
+            {
+              "symbol": "GEODUSDT",
+              "entry_price": 0.24955
+            },
+            {
+              "symbol": "ARUSDT",
+              "entry_price": 3.356
+            }
+          ],
+          "paper_btc_price": 79625.485,
+          "source_feature_observed_ms": 1793022945326,
+          "feature_cutoff_ms": 1793016000000,
+          "priority_metrics": {
+            "current_structure_distance_pct": 4.67979975973164,
+            "current_ema20_extension_atr": 0.06679518521603182,
+            "current_quote_drift_atr": 0.03648142641066576
+          },
+          "passing_venues": [
+            "MEXC"
+          ]
+        },
+        {
+          "open": 0.40133,
+          "high": 0.416,
+          "low": 0.39931,
+          "close": 0.41355,
+          "volume": 192306.79,
+          "close_ms": 1793016000000,
+          "quote_volume": 78992.36333,
+          "atr": 0.009460185050335997,
+          "ema20": 0.41371719425009035,
+          "ema50": 0.42819641957286625,
+          "return24_pct": 2.1842801018012725,
+          "return72_pct": -4.635074368730541,
+          "relative24_pct_points": 2.4026977976925212,
+          "ema20_extension_atr": -0.01767346507502369,
+          "close_position": 0.8532055122828035,
+          "quote_volume24": 359876.7908299998,
+          "nonzero24": 6.0,
+          "higher_lows": false,
+          "breakout_now": false,
+          "breakout_age_bars": null,
+          "breakout_level": null,
+          "breakout_volume_ratio": null,
+          "breakout_low": null,
+          "anchor_atr": null,
+          "breakout_open_ms": null,
+          "hold_low": null,
+          "peak_since_breakout": null,
+          "peak_drawdown_pct": null,
+          "peak_drawdown_atr": null,
+          "invalidation_level": null,
+          "invalidation_distance_pct": null,
+          "gate_history": true,
+          "gate_anchor": false,
+          "gate_trend": false,
+          "gate_holds_breakout": false,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": false,
+          "continuation": false,
+          "qualified": true,
+          "stage": "early_reversal",
+          "sar_below": true,
+          "strength_score": 30,
+          "decision_ms": 1793016000000,
+          "volume_ratio_now": 1.8141538292958126,
+          "relative8_pct_points": 1.7180923463106623,
+          "early_level": 0.41079,
+          "early_ema": 0.40738847604460826,
+          "early_prior_below_ema20": true,
+          "group_early_reversal": true,
+          "box_high": 0.41079,
+          "box_low": 0.40017,
+          "box_range_atr": 1.1927162853072022,
+          "box_net_change_atr": 0.7928980201759721,
+          "group_sideways_volume": false,
+          "retest_touched_support": false,
+          "retest_base_range_anchor_atr": null,
+          "group_retest": false,
+          "group_new_breakout": false,
+          "group_continuation": false,
+          "matched_groups": [
+            "early_reversal"
+          ],
+          "signal_reference_level": 0.41079,
+          "signal_invalidation_level": 0.396944953737416,
+          "signal_invalidation_distance_pct": 4.015245136642232,
+          "signal_volume_ratio": 1.8141538292958126,
+          "rsi14": 46.2199313570445,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "ONDOUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1793022981440,
+          "liquidity_band": "main",
+          "mid_price": 0.41274,
+          "spread_pct": 0.09206764549111959,
+          "warnings": [
+            "erken dönüş; uzun trend teyidi henüz aranmadı",
+            "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+          ],
+          "failed_legacy_gates": [
+            "anchor",
+            "trend",
+            "holds_breakout"
+          ],
+          "paper_controls": [
+            {
+              "symbol": "KASUSDT",
+              "entry_price": 0.0354245
+            },
+            {
+              "symbol": "PENDLEUSDT",
+              "entry_price": 1.935
+            },
+            {
+              "symbol": "ICPUSDT",
+              "entry_price": 2.5965
+            }
+          ],
+          "paper_btc_price": 79625.485,
+          "source_feature_observed_ms": 1793022945326,
+          "feature_cutoff_ms": 1793016000000,
+          "priority_metrics": {
+            "current_structure_distance_pct": 3.826875578471678,
+            "current_ema20_extension_atr": -0.10329546884028921,
+            "current_quote_drift_atr": 0.08562200376526553
+          },
+          "passing_venues": [
+            "MEXC"
+          ]
+        },
+        {
+          "open": 0.3419,
+          "high": 0.3548,
+          "low": 0.3407,
+          "close": 0.3537,
+          "volume": 580046.714749,
+          "close_ms": 1793016000000,
+          "quote_volume": 202717.8809170651,
+          "atr": 0.009166381987501773,
+          "ema20": 0.35232377852952684,
+          "ema50": 0.3574441370623816,
+          "return24_pct": 2.284557547715438,
+          "return72_pct": -1.995012468827928,
+          "relative24_pct_points": 2.4872155570503707,
+          "ema20_extension_atr": 0.150137913993725,
+          "close_position": 0.9219858156028377,
+          "quote_volume24": 808219.0964198151,
+          "nonzero24": 6.0,
+          "higher_lows": false,
+          "breakout_now": false,
+          "breakout_age_bars": null,
+          "breakout_level": null,
+          "breakout_volume_ratio": null,
+          "breakout_low": null,
+          "anchor_atr": null,
+          "breakout_open_ms": null,
+          "hold_low": null,
+          "peak_since_breakout": null,
+          "peak_drawdown_pct": null,
+          "peak_drawdown_atr": null,
+          "invalidation_level": null,
+          "invalidation_distance_pct": null,
+          "gate_history": true,
+          "gate_anchor": false,
+          "gate_trend": false,
+          "gate_holds_breakout": false,
+          "gate_relative_strength": true,
+          "gate_liquidity": true,
+          "new_breakout": false,
+          "continuation": false,
+          "qualified": true,
+          "stage": "early_reversal",
+          "sar_below": true,
+          "strength_score": 30,
+          "decision_ms": 1793016000000,
+          "volume_ratio_now": 1.7272518310573048,
+          "relative8_pct_points": 2.8825474964484066,
+          "early_level": 0.3479,
+          "early_ema": 0.34687528749591784,
+          "early_prior_below_ema20": true,
+          "group_early_reversal": true,
+          "box_high": 0.3479,
+          "box_low": 0.337,
+          "box_range_atr": 1.2404868161994056,
+          "box_net_change_atr": 0.11380612992655144,
+          "group_sideways_volume": false,
+          "retest_touched_support": false,
+          "retest_base_range_anchor_atr": null,
+          "group_retest": false,
+          "group_new_breakout": false,
+          "group_continuation": false,
+          "matched_groups": [
+            "early_reversal"
+          ],
+          "signal_reference_level": 0.3479,
+          "signal_invalidation_level": 0.33840840450312454,
+          "signal_invalidation_distance_pct": 4.323323578421112,
+          "signal_volume_ratio": 1.7272518310573048,
+          "rsi14": 49.15203548523352,
+          "pu_confirmed_now": false,
+          "pu_active": false,
+          "pu_confirmation_ms": null,
+          "pu_age_bars": null,
+          "symbol": "CRVUSDT",
+          "exchange": "OKX",
+          "observed_ms": 1793022981449,
+          "liquidity_band": "main",
+          "mid_price": 0.34950000000000003,
+          "spread_pct": 0.05722460658083933,
+          "warnings": [
+            "erken dönüş; uzun trend teyidi henüz aranmadı",
+            "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
+          ],
+          "failed_legacy_gates": [
+            "anchor",
+            "trend",
+            "holds_breakout"
+          ],
+          "paper_controls": [
+            {
+              "symbol": "RAYUSDT",
+              "entry_price": 1.82675
+            },
+            {
+              "symbol": "APTUSDT",
+              "entry_price": 0.69475
+            },
+            {
+              "symbol": "WIFUSDT",
+              "entry_price": 0.17915
+            }
+          ],
+          "paper_btc_price": 79609.05,
+          "source_feature_observed_ms": 1793022722323,
+          "feature_cutoff_ms": 1793016000000,
+          "priority_metrics": {
+            "current_structure_distance_pct": 3.173560943312015,
+            "current_ema20_extension_atr": -0.3080581338828112,
+            "current_quote_drift_atr": 0.4581960478765362
+          },
+          "passing_venues": [
+            "OKX"
+          ]
+        }
+      ],
+      "eligible_rows": 6,
+      "eligible_unique": 6,
+      "raw_rows": 55,
+      "raw_unique": 51,
+      "excluded": [
+        {
+          "symbol": "GALFTUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume",
+            "spread"
+          ]
+        },
+        {
+          "symbol": "XQCOMUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume",
+            "known_equity"
+          ]
+        },
+        {
+          "symbol": "XGOOGLUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "structure_lost",
+            "quote_drift",
+            "risk_distance",
+            "known_equity"
+          ]
+        },
+        {
+          "symbol": "ARBUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "ASTRUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume"
+          ]
+        },
+        {
+          "symbol": "XLITEUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "quote_drift",
+            "known_equity"
+          ]
+        },
+        {
+          "symbol": "SPKUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume"
+          ]
+        },
+        {
+          "symbol": "XLRCXUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume",
+            "quote_drift",
+            "known_equity"
+          ]
+        },
+        {
+          "symbol": "XASMLUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume",
+            "known_equity"
+          ]
+        },
+        {
+          "symbol": "IMXUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume",
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "CHIPUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "PYTHUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "DOODUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "risk_distance",
+            "extreme_volume"
+          ]
+        },
+        {
+          "symbol": "DYDXUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "LDOUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "BICOUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "ILVUSDT",
+          "exchange": "OKX",
+          "reasons": [
+            "volume",
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "TAUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume"
+          ]
+        },
+        {
+          "symbol": "UMXUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "spread",
+            "risk_distance",
+            "extreme_volume"
+          ]
+        },
+        {
+          "symbol": "CAKEUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "ARBUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "BANKUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "spread",
+            "extension",
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "NOMUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "quote_drift"
+          ]
+        },
+        {
+          "symbol": "SOONUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "UPCUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "extreme_volume"
+          ]
+        },
+        {
+          "symbol": "GHXUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "spread",
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "TAGUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "spread",
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "HYPEUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "METUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume"
+          ]
+        },
+        {
+          "symbol": "SAGAUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "4USDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "NATIXUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "spread"
+          ]
+        },
+        {
+          "symbol": "RUNEUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "MIUUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "spread",
+            "extension",
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "BULLAUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "spread",
+            "extension",
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "NEXUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "quote_drift",
+            "extension",
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "PLAYUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost",
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "QNTUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "extension"
+          ]
+        },
+        {
+          "symbol": "CHIPUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "PYTHUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "structure_lost"
+          ]
+        },
+        {
+          "symbol": "DGMAUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "PENGUUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "SHMUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "spread",
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "HMNDUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "LYNUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "XLMUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "TRXUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "MONUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "preparation_only"
+          ]
+        },
+        {
+          "symbol": "DOGSUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "volume",
+            "preparation_only"
+          ]
+        }
+      ],
+      "source_errors": {},
+      "ranked_but_not_selected": [
+        "SPCMUSDT"
+      ],
+      "observed_ms": 1793022981517
+    },
+    "paper": {
+      "version": "github-paper-v1",
+      "entries": {
+        "OKX:LUNAUSDT": {
+          "symbol": "LUNAUSDT",
+          "exchange": "OKX",
+          "observed_ms": 1793022981449,
+          "entry_price": 0.04159,
+          "btc_entry_price": 79609.05,
+          "controls": [
+            {
+              "symbol": "PNUTUSDT",
+              "entry_price": 0.040945
+            },
+            {
+              "symbol": "ALGOUSDT",
+              "entry_price": 0.10409
+            },
+            {
+              "symbol": "ENSUSDT",
+              "entry_price": 5.1805
+            }
+          ],
+          "pu_at_entry": true,
+          "rsi14_at_entry": 48.193110709234254,
+          "initial_stage": "early_reversal",
+          "stages": [
+            {
+              "stage": "early_reversal",
+              "observed_ms": 1793022981449,
+              "price": 0.04159
+            }
+          ],
+          "outcomes": {}
+        },
+        "OKX:METUSDT": {
+          "symbol": "METUSDT",
+          "exchange": "OKX",
+          "observed_ms": 1793022981449,
+          "entry_price": 0.31084999999999996,
+          "btc_entry_price": 79609.05,
+          "controls": [
+            {
+              "symbol": "BOMEUSDT",
+              "entry_price": 0.00062315
+            },
+            {
+              "symbol": "EIGENUSDT",
+              "entry_price": 0.1976
+            },
+            {
+              "symbol": "XNBISUSDT",
+              "entry_price": 151.8
+            }
+          ],
+          "pu_at_entry": false,
+          "rsi14_at_entry": 47.872089071572965,
+          "initial_stage": "early_reversal",
+          "stages": [
+            {
+              "stage": "early_reversal",
+              "observed_ms": 1793022981449,
+              "price": 0.31084999999999996
+            }
+          ],
+          "outcomes": {}
+        },
+        "OKX:CRVUSDT": {
+          "symbol": "CRVUSDT",
+          "exchange": "OKX",
+          "observed_ms": 1793022981449,
+          "entry_price": 0.34950000000000003,
+          "btc_entry_price": 79609.05,
+          "controls": [
+            {
+              "symbol": "RAYUSDT",
+              "entry_price": 1.82675
+            },
+            {
+              "symbol": "APTUSDT",
+              "entry_price": 0.69475
+            },
+            {
+              "symbol": "WIFUSDT",
+              "entry_price": 0.17915
+            }
+          ],
+          "pu_at_entry": false,
+          "rsi14_at_entry": 49.15203548523352,
+          "initial_stage": "early_reversal",
+          "stages": [
+            {
+              "stage": "early_reversal",
+              "observed_ms": 1793022981449,
+              "price": 0.34950000000000003
+            }
+          ],
+          "outcomes": {}
+        },
+        "MEXC:NIGHTUSDT": {
+          "symbol": "NIGHTUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1793022981440,
+          "entry_price": 0.03791,
+          "btc_entry_price": 79625.485,
+          "controls": [
+            {
+              "symbol": "MUBARAKUSDT",
+              "entry_price": 0.0518985
+            },
+            {
+              "symbol": "GEODUSDT",
+              "entry_price": 0.24955
+            },
+            {
+              "symbol": "ARUSDT",
+              "entry_price": 3.356
+            }
+          ],
+          "pu_at_entry": false,
+          "rsi14_at_entry": 47.99794413700146,
+          "initial_stage": "early_reversal",
+          "stages": [
+            {
+              "stage": "early_reversal",
+              "observed_ms": 1793022981440,
+              "price": 0.03791
+            }
+          ],
+          "outcomes": {}
+        },
+        "MEXC:ONDOUSDT": {
+          "symbol": "ONDOUSDT",
+          "exchange": "MEXC",
+          "observed_ms": 1793022981440,
+          "entry_price": 0.41274,
+          "btc_entry_price": 79625.485,
+          "controls": [
+            {
+              "symbol": "KASUSDT",
+              "entry_price": 0.0354245
+            },
+            {
+              "symbol": "PENDLEUSDT",
+              "entry_price": 1.935
+            },
+            {
+              "symbol": "ICPUSDT",
+              "entry_price": 2.5965
+            }
+          ],
+          "pu_at_entry": false,
+          "rsi14_at_entry": 46.2199313570445,
+          "initial_stage": "early_reversal",
+          "stages": [
+            {
+              "stage": "early_reversal",
+              "observed_ms": 1793022981440,
+              "price": 0.41274
+            }
+          ],
+          "outcomes": {}
+        }
+      },
+      "measurement_errors": [],
+      "asof_ms": 1793022981517
+    }
   }
 }
