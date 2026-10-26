@@ -1,6 +1,6 @@
 # Coin Tarama Meme
 
-Son çalışma: 26.10.2026 14:11 Türkiye saati.
+Son çalışma: 26.10.2026 16:14 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -16,10 +16,10 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
-| Solana | 34 | 0 | 0 | 0 | 0 | 0 |
+| Solana | 20 | 0 | 0 | 0 | 0 | 1 |
 | Ethereum | 33 | 0 | 0 | 0 | 0 | 0 |
-| BNB Chain | 34 | 0 | 0 | 0 | 0 | 0 |
-| Robinhood | 33 | 0 | 0 | 0 | 0 | 0 |
+| BNB Chain | 35 | 0 | 0 | 0 | 0 | 0 |
+| Robinhood | 35 | 0 | 0 | 0 | 0 | 0 |
 | HyperEVM (HYPE) | 19 | 0 | 0 | 0 | 0 | 0 |
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
@@ -56,6 +56,8 @@ Her ağda yalnız yeni havuz akışı sınırlı sayfalarla okunur. Önceki izle
 Bubblemaps haritasını kullanıcı manuel inceler; API anahtarı gerekmez. Hiçbir kayıt otomatik veya manuel harita onayı almış sayılmaz. Robinhood/HyperEVM harita desteği bu sürümde doğrulanmadığından genel uygulama bağlantısı verilir; uygun ağ/harita bulunamazsa bu kontrol eksik kalır. RPC veya güvenlik kaynağının ağ desteği yoksa o ağda fiyat/havuz takibi sürer; eksik otomatik teyitle aday bildirilmez.
 
 GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.
+
+- Solana: api.geckoterminal.com: data connection or response error
 
 ## Bildirim sonrası ek ölçümler
 
