@@ -117,50 +117,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "7938b3caa7554e30dfe7e820",
-      "created_ms": 1793047118535,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "SYMMUSDT",
-          "observed_ms": 1793047118450,
-          "feature_cutoff_ms": 1793044800000,
-          "mid_price": 0.030699999999999998,
-          "spread_pct": 0.65146579804561,
-          "return24_pct": 8.56164383561644,
-          "relative24_pct_points": 9.245226870692846,
-          "quote_volume24": 13405.087899999999,
-          "liquidity_band": "thin",
-          "breakout_level": 0.0316,
-          "breakout_open_ms": 1793030400000.0,
-          "breakout_volume_ratio": 41.05635531681607,
-          "strength_score": 100,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.02866668480238707,
-          "atr": 0.0009332607904517098,
-          "close": 0.0317,
-          "paper_controls": [
-            {
-              "symbol": "POKTUSDT",
-              "entry_price": 0.007904999999999999
-            },
-            {
-              "symbol": "SHIDOUSDT",
-              "entry_price": 7.615000000000001e-05
-            },
-            {
-              "symbol": "SINGULARRYUSDT",
-              "entry_price": 0.0075250000000000004
-            }
-          ],
-          "paper_btc_price": 79894.695,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793047118535,
   "paper": {
     "version": "github-paper-v1",
