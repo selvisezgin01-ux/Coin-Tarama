@@ -79,50 +79,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "2bba157eea1d71e115cf8da0",
-      "created_ms": 1793004550129,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "NILUSDT",
-          "observed_ms": 1793004550039,
-          "feature_cutoff_ms": 1793001600000,
-          "mid_price": 0.09221,
-          "spread_pct": 0.5639301594187103,
-          "return24_pct": 6.630149492183035,
-          "relative24_pct_points": 7.414429872728956,
-          "quote_volume24": 190960.80819999997,
-          "liquidity_band": "main",
-          "breakout_level": 0.09289,
-          "breakout_open_ms": 1792987200000.0,
-          "breakout_volume_ratio": 2.1603420122171024,
-          "strength_score": 100,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.08685426149861271,
-          "atr": 0.004222954005549193,
-          "close": 0.09344,
-          "paper_controls": [
-            {
-              "symbol": "REZUSDT",
-              "entry_price": 0.004678
-            },
-            {
-              "symbol": "GRASSUSDT",
-              "entry_price": 0.7017500000000001
-            },
-            {
-              "symbol": "PONSUSDT",
-              "entry_price": 0.2394455
-            }
-          ],
-          "paper_btc_price": 80360.39499999999,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793004550129,
   "paper": {
     "version": "github-paper-v1",
