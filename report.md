@@ -1,3 +1,5 @@
+> Bu onceki V4 raporudur. [Guncel Coin Tarama 3 raporunu ac](https://github.com/selvisezgin01-ux/Coin-Tarama/blob/scanner-state-v5/report.md). Eski gercek gozlem sonuclari guncel raporda ayri izlenmeye devam eder.
+
 # Coin Tarama 3 — yeni kırılım ve tutunma
 
 **Deneysel canlı tarama; başarı üstünlüğü doğrulanmadı.**
