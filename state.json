@@ -77,50 +77,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "1c6d0f270fdb0cbc828f083c",
-      "created_ms": 1792976180838,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "REZUSDT",
-          "observed_ms": 1792976180721,
-          "feature_cutoff_ms": 1792972800000,
-          "mid_price": 0.0047665,
-          "spread_pct": 0.06293926361060591,
-          "return24_pct": 12.231404958677693,
-          "relative24_pct_points": 13.11949935277038,
-          "quote_volume24": 166107.566096,
-          "liquidity_band": "main",
-          "breakout_level": 0.004653,
-          "breakout_open_ms": 1792929600000.0,
-          "breakout_volume_ratio": 1.794035697970675,
-          "strength_score": 80,
-          "breakout_age_bars": 2.0,
-          "invalidation_level": 0.004211800790016842,
-          "atr": 0.00022479683993263213,
-          "close": 0.004753,
-          "paper_controls": [
-            {
-              "symbol": "NILUSDT",
-              "entry_price": 0.08925
-            },
-            {
-              "symbol": "NAORISUSDT",
-              "entry_price": 0.03053
-            },
-            {
-              "symbol": "OSMOUSDT",
-              "entry_price": 0.04994
-            }
-          ],
-          "paper_btc_price": 80006.38,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1792976180838,
   "paper": {
     "version": "github-paper-v1",
