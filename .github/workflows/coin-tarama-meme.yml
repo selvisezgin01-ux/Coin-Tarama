@@ -16,11 +16,11 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     env:
       PYTHONUTF8: '1'
-      SCANNER_STATE_BRANCH: scanner-state-meme-v3
-      MEME_MIGRATE_FROM_BRANCH: scanner-state-meme-v2
+      SCANNER_STATE_BRANCH: scanner-state-meme-v4
+      MEME_MIGRATE_FROM_BRANCH: scanner-state-meme-v3
       MEME_RPC_SOLANA: ${{ secrets.MEME_RPC_SOLANA }}
       MEME_RPC_ETHEREUM: ${{ secrets.MEME_RPC_ETHEREUM }}
       MEME_RPC_BNB: ${{ secrets.MEME_RPC_BNB }}
@@ -34,9 +34,11 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
+      - name: Validate hybrid timing and risk gates
+        run: python -m unittest test_meme_scan test_meme_formation test_meme_social_watch test_meme_followup_watch test_meme_hybrid -q
       - name: Restore independent meme state
         run: python meme_scan.py pull-state
-      - name: Read public data and evaluate closed 15-minute setups
+      - name: Evaluate closed 5m early setups and separate 15m confirmations
         run: python meme_scan.py scan
       - name: Measure indicative exits, participation and post-alert risks
         run: python meme_followup_watch.py observe

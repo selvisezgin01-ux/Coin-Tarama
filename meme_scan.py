@@ -13,6 +13,8 @@ from urllib.parse import urlencode
 
 import github_scan as cloud
 import meme_rules as rules
+import meme_hybrid as hybrid
+import meme_large_buyers as large_buyers
 import meme_security as security_api
 import meme_sources as source
 from research import LOCAL
@@ -24,17 +26,17 @@ STATE=OUT/'state.json'
 
 def fingerprint():
     digest=hashlib.sha256()
-    for name in ['meme_config.json','meme_scan.py','meme_rules.py','meme_sources.py','meme_security.py']:
+    for name in ['meme_config.json','meme_scan.py','meme_rules.py','meme_sources.py','meme_security.py','meme_hybrid.py','meme_large_buyers.py']:
         digest.update(name.encode());digest.update((ROOT/name).read_text(encoding='utf-8-sig').replace('\r\n','\n').encode())
     return digest.hexdigest()
 
 
 def new_state():
-    return {'version':'meme-v3','rules_fingerprint':fingerprint(),'assets':{},'entries':{},'pending':[],'runs':[]}
+    return {'version':'meme-v4-hybrid','rules_fingerprint':fingerprint(),'assets':{},'entries':{},'pending':[],'runs':[]}
 
 
 def configure():
-    branch=os.environ.setdefault('SCANNER_STATE_BRANCH','scanner-state-meme-v3')
+    branch=os.environ.setdefault('SCANNER_STATE_BRANCH','scanner-state-meme-v4')
     if not branch.startswith('scanner-state-meme'):raise ValueError('Meme scanner must use its own state branch')
     cloud.OUT=OUT;cloud.STATE=STATE;cloud.fingerprint=fingerprint;cloud.new_state=new_state
 
@@ -69,11 +71,11 @@ def pull_state():
     if (OUT/'parent.txt').read_text(encoding='ascii').strip():return
     branch=os.environ.get('MEME_MIGRATE_FROM_BRANCH')
     if not branch:return
-    if branch!='scanner-state-meme-v2':raise ValueError('Only the archived meme-v2 branch may seed this experiment')
+    if branch!='scanner-state-meme-v3':raise ValueError('Only the archived meme-v3 branch may seed this experiment')
     cloud.git('fetch','--no-tags','origin','refs/heads/'+branch)
     commit=cloud.git('rev-parse','FETCH_HEAD').stdout.strip()
     previous=json.loads(cloud.git('show',commit+':state.json').stdout)
-    cloud.save(STATE,seed_first_formation(previous,branch,commit))
+    cloud.save(STATE,hybrid.seed(previous,branch,commit,fingerprint(),now_ms()))
 
 
 def seed_first_formation(previous,branch,commit):
@@ -126,11 +128,15 @@ def observe_entry(state,record,tier,setup,config):
     entry=state['entries'].setdefault(key,{'chain':asset['chain'],'mint':asset['mint'],'symbol':safe_symbol(asset['symbol']),
                   'first_pool':asset['pool'],'references':{},'highest_observed_price':price,'latest_tier':tier})
     entry['latest_tier']=tier
+    phase=record.get('signal_phase')
+    if phase and tier=='qualified' and phase not in entry['references']:
+        entry['references'][phase]={'observed_ms':asset['observed_ms'],'price':price,'stage':setup['stage'],'tier':tier,'outcomes':{},'experiment':'meme-v4-hybrid'}
     label='qualified' if tier=='qualified' else 'review'
     # A later actual alert has its own price; the earlier unverified observation cannot be used as its entry.
     if label not in entry['references']:
         entry['references'][label]={'observed_ms':asset['observed_ms'],'price':price,'stage':setup['stage'],
                                   'tier':tier,'outcomes':{},'wallet_map':'manual_review_pending' if config['risk'].get('wallet_map_mode')=='manual' else 'automatic'}
+        if label=='qualified' and phase:entry['references'][label]['alias_of']=phase
     if tier=='qualified' and setup['stage']=='first_breakout' and 'first_breakout' not in entry['references']:
         entry['references']['first_breakout']={'observed_ms':asset['observed_ms'],'price':price,'stage':'first_breakout','tier':tier,'outcomes':{}}
     entry['highest_observed_price']=max(price,entry['highest_observed_price'])
@@ -193,12 +199,12 @@ def scan_network(chain,network,state,config,client):
         asset=record['latest'];stamp=now_ms();record['last_evaluated_ms']=stamp
         try:
             raw=source.candles(client,network,asset,stamp)
-            candles=rules.closed_candles(raw,stamp)
-            if not candles or stamp-(candles[-1]['open_ms']+rules.STEP_MS)>config['market']['ohlcv_staleness_max_minutes']*60000:
-                raise ValueError('Closed 15m candles missing or stale')
-            setup=rules.pattern(candles,config)
+            assessment=hybrid.evaluate(raw,asset,record['earliest_pool_created_ms'],stamp,config)
+            record['timeframe_assessment']=assessment
+            setup=assessment['setup'];phase=assessment['phase']
+            record['signal_phase']=phase
             record['setup']=setup
-            formation=rules.first_formation(raw,asset,record['earliest_pool_created_ms'],stamp,config)
+            formation=assessment['formation']
             record['first_formation']=formation
             if formation['status']=='rejected':
                 record.setdefault('first_formation_disqualified',{'observed_ms':stamp,'pool':asset['pool'],**formation})
@@ -224,11 +230,14 @@ def scan_network(chain,network,state,config,client):
                 except Exception as exc:dev={'status':'unknown','reason':str(exc)}
             record.update({'security':sec,'developer':dev,'maps':maps})
             classified=rules.tier(record['market'],setup,sec,dev,maps,config['risk']['wallet_map_mode'])
+            # Optional supporting evidence cannot waive any security, history or setup gate.
+            participation=large_buyers.observe(client,network,asset,sec,now_ms,config) if classified in ('qualified','review') else {'status':'unknown','windows':{}}
+            record['large_buyers']=participation
             if classified in ('qualified','review'):
                 # Alert/review references use an actual new read after the checks,
                 # never the older candle close or a fabricated execution quote.
                 asset.update(source.quote(client,network,asset));asset['observed_ms']=asset['price_observed_ms']
-                if not rules.current_price_holds(asset['price_usd'],setup,candles[-1]['close'],config):
+                if not rules.current_price_holds(asset['price_usd'],setup,assessment['last_close'],config):
                     classified='rejected';record['quote_rejection']='current_price_lost_setup_or_moved_too_far'
                 if (asset['price_usd']/formation['metrics']['initial_open']-1)*100>config['first_formation']['max_current_gain_from_initial_pct']:
                     classified='rejected';record['quote_rejection']='live_price_already_extended_from_initial'
@@ -238,6 +247,8 @@ def scan_network(chain,network,state,config,client):
                   'price_usd':asset['price_usd'],'observed_ms':asset['observed_ms'],'pool':asset['pool'],
                   'market':record['market'],'security':sec,'developer':dev,'maps':maps}
             item['first_formation']=formation
+            item['signal_phase']=phase;item['large_buyers']=participation
+            item['feature_cutoff_ms']=assessment['cutoff_ms']
             item['manual_checks_required']=['wallet_map','official_contract_identity']
             result['evaluated'].append(item)
             if classified in ('qualified','review'):
@@ -256,11 +267,15 @@ def enqueue(state,scans,config):
         for row in result.get('qualified',[]):
             entry=state['entries'][key_of(row)]
             stage=row['stage'];sent=entry.setdefault('alerted_stages',[])
-            should=not sent or (stage=='first_breakout' and stage not in sent and config['alerts']['notify_first_breakout_after_accumulation'])
+            phases=entry.setdefault('alerted_phases',[])
+            phase=row.get('signal_phase','early_5m')
+            should=(phase not in phases and not (phase=='early_5m' and 'confirmed_15m' in phases)) or (stage=='first_breakout' and stage not in sent and config['alerts']['notify_first_breakout_after_accumulation'])
             if should:
-                fresh.append(row);sent.append(stage)
+                fresh.append(row)
+                if stage not in sent:sent.append(stage)
+                if phase not in phases:phases.append(phase)
     if fresh:
-        identifier=hashlib.sha256(json.dumps([[r['chain'],r['mint'],r['stage'],r['observed_ms']] for r in fresh],sort_keys=True).encode()).hexdigest()[:24]
+        identifier=hashlib.sha256(json.dumps([[r['chain'],r['mint'],r['stage'],r.get('signal_phase'),r['observed_ms']] for r in fresh],sort_keys=True).encode()).hexdigest()[:24]
         state['pending'].append({'id':identifier,'created_ms':now_ms(),'candidates':fresh})
     return fresh
 
@@ -295,19 +310,19 @@ def report(state,scans,client,config):
         for reason,count in sorted(reasons.items()):
             lines.append('- '+str(count)+': '+'; '.join(descriptions.get(x,x) for x in reason.split(',')))
     for label,tier in [('Otomatik ön eleme geçti — manuel harita kontrolü bekliyor','qualified'),('İnceleme — eksik otomatik teyitler','review')]:
-        lines+=['','## '+label,'','| Token / adres | Ağ | Grup | Piyasa değeri / FDV USD | Geliştirici | Harita | Likidite kilidi | Eksik otomatik kontroller |','|---|---|---|---:|---|---|---|---|']
+        lines+=['','## '+label,'','| Token / adres | Ağ | Grup | Piyasa değeri / FDV USD | Geliştirici | Harita | Likidite kilidi | Büyük alıcı desteği | Eksik otomatik kontroller |','|---|---|---|---:|---|---|---|---|---|']
         if not any(r.get(tier) for r in scans.values()):
             lines+=['','**Henüz koşulları sağlayan aday yok.**' if tier=='qualified' else 'Bu çalışmada inceleme kaydı yok.','']
         for chain,r in scans.items():
             for row in r.get(tier,[]):
-                label_stage='Birikim' if row['stage']=='accumulation' else 'İlk kırılım'
+                label_stage=hybrid.LABELS.get(row.get('signal_phase'),'Birikim')+(' / ilk kırılım' if row['stage']=='first_breakout' else '')
                 cap=row['market'].get('valuation_usd');kind='MC' if row['market']['valuation_kind']=='market_cap_provider_reported' else 'FDV (MC değil)'
                 url='https://dexscreener.com/'+config['networks'][chain]['dex']+'/'+row['pool']
                 lock=row['security'].get('liquidity_lock') or {};locked=lock.get('locked_pct')
                 locked_text='Bilinmiyor' if locked is None else f'%{locked:.1f} (sağlayıcı bildirimi)'
                 missing=list(row['security'].get('unknown',[]))
                 if row['developer']['status']=='unknown':missing.append('developer: '+row['developer'].get('reason','unknown'))
-                lines.append(f"| [{row['symbol']}]({url}) `{row['mint']}` | {r['network']} | {label_stage} | {kind} {cap:.0f} | {row['developer']['status']} | [Manuel kontrol]({bubble_link(row)}) | {locked_text} | {', '.join(missing) or '—'} |")
+                lines.append(f"| [{row['symbol']}]({url}) `{row['mint']}` | {r['network']} | {label_stage} | {kind} {cap:.0f} | {row['developer']['status']} | [Manuel kontrol]({bubble_link(row)}) | {locked_text} | {large_buyers.text(row.get('large_buyers'))} | {', '.join(missing) or '—'} |")
     lines+=['','## Gerçek gözlem kayıtları','',
             'Fiyatlar sağlayıcının gözlenen fiyatıdır; emir, alış/satış kotasyonu veya gerçekleşebilir net getiri değildir. İnceleme ve daha sonraki teyitli bildirim fiyatları ayrı tutulur. Aynı token havuz/grup değiştirse de yeni bağımsız coin sayılmaz.','',
             '| Token | Ağ | Referans türü | Gerçek gözlem TR | Fiyat | 15dk % | 30dk % | 1s % | 3s % | 6s % | 24s % |',
@@ -315,18 +330,21 @@ def report(state,scans,client,config):
     def pct(value):return '—' if value is None else f'{value:.2f}'
     for entry in state['entries'].values():
         for kind,reference in entry['references'].items():
+            if reference.get('alias_of'):continue
             returns=[]
             for m in config['measurement']['horizons_minutes']:
                 outcome=reference['outcomes'].get(str(m),{})
                 value=outcome.get('return_pct')
                 returns.append('—' if value is None else pct(value)+f" (+{outcome['delay_ms']/60000:.1f}dk)")
-            kind_label={'qualified':'Ön eleme / manuel harita bekliyor','review':'Eksik otomatik teyit','first_breakout':'İlk kırılım / manuel harita bekliyor'}.get(kind,kind)
+            kind_label={'early_5m':'5 dk erken aday','confirmed_15m':'15 dk teknik teyit','qualified':'Ön eleme / manuel harita bekliyor','review':'Eksik otomatik teyit','first_breakout':'İlk kırılım / manuel harita bekliyor'}.get(kind,kind)
+            if entry.get('origin_experiment')=='meme-v3' and kind not in hybrid.LABELS:kind_label+=' (arşiv V3)'
             lines.append(f"| {entry['symbol']} | {entry['chain']} | {kind_label} | {time_label(reference['observed_ms'])} | {reference['price']:.8g} | {' | '.join(returns)} |")
     lines+=['','## Veri kapsamı ve eksikler','',
             'Getiri sütunları hedef sürelerdir. Parantezdeki +dakika gerçek fiyat gözleminin hedefe gecikmesidir; tam 15/30/60 dakikalık mum getirisi olduğu iddia edilmez. Geçerli gözlem penceresi kaçırılırsa sonuç boş kalır.','',
             'Her ağda yalnız yeni havuz akışı sınırlı sayfalarla okunur. Önceki izlenen havuzlar kalıcı kayıttan yenilenir. Ham keşif ve sosyal gözlem tokenleri aday listesinde gösterilmez. Ücretli profil/boost olumlu sinyal sayılmaz. Aynı simge farklı kontratlarda birleştirilmez.','',
-            'Üç kapalı 15 dakikalık birikim mumu ve en az 45 dakikalık havuz yaşı gerekir. Bu süreden önce pump yapan tokenleri bu yöntem önceden yakalayamaz. Başlangıç havuz verisi tokenin tüm zincir geçmişi veya eski havuzları kapsadığı anlamına gelmez.','',
+            '5 dk erken aday: havuz açıldıktan sonraki üç tam kapalı 5 dk mum gerekir (yaklaşık 15–20 dk + veri/çalışma gecikmesi). 15 dk teknik teyit: üç tam kapalı 15 dk mum gerekir (yaklaşık 45–60 dk + gecikme); erken bildirim için beklenmez. İki aşama kendi gerçek gözlem fiyatıyla ayrı ölçülür, aynı token iki bağımsız başarı sayılmaz. 15 dk teyit daha yüksek başarı veya kontrat güvenliği kanıtı değildir. Başlangıç havuz verisi tokenin tüm geçmişini kapsamaz.','',
             'Bubblemaps haritasını kullanıcı manuel inceler; API anahtarı gerekmez. Hiçbir kayıt otomatik veya manuel harita onayı almış sayılmaz. Robinhood/HyperEVM harita desteği bu sürümde doğrulanmadığından genel uygulama bağlantısı verilir; uygun ağ/harita bulunamazsa bu kontrol eksik kalır. RPC veya güvenlik kaynağının ağ desteği yoksa o ağda fiyat/havuz takibi sürer; eksik otomatik teyitle aday bildirilmez.','',
+            'Büyük alıcı desteği zorunlu filtre değildir: 15/30 dk işlem örneğinde adres başına net alım en az max(500 USD, havuz likiditesi × 0.005). Deneysel 0–10 puan olasılık/servet/akıllı para kanıtı değildir. Tek adres >%50 alım hacmi veya büyük alıcıda >=%50 geri satış puanı sıfırlar; eksik/kesilmiş veri bilinmiyor. Bilinen dev/havuz/vault/yakım adresleri çıkarılır; diğer adreslerin bağlantısı doğrulanmaz.','',
             'GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.','']
     for chain,r in scans.items():
         if r.get('errors'):lines+=['- '+r['network']+': '+'; '.join(r['errors'][:6])]
@@ -368,6 +386,10 @@ def scan():
         state['assets'].update(keep);state['entries'].update(substate['entries'])
     fresh=enqueue(state,scans,config)
     state['updated_ms']=now_ms();state['runs']=(state['runs']+[{'ms':state['updated_ms'],'networks':{c:len(r.get('qualified',[])) for c,r in scans.items()}}])[-1000:]
+    state['last_scan_summary']={c:{'refreshed':r.get('refreshed',0),'eligible':r.get('eligible_market_count',0),
+        'evaluated':len(r.get('evaluated',[])),'qualified':len(r.get('qualified',[])),'review':len(r.get('review',[])),
+        'errors':r.get('errors',[]),'reasons':[x.get('reason') for x in r.get('evaluated',[]) if x.get('reason')]} for c,r in scans.items()}
+    state['last_api_requests']=dict(client.stats)
     cloud.save(STATE,state);report(state,scans,client,config)
     print(json.dumps({'new_alerts':len(fresh),'networks':{c:{'refreshed':r.get('refreshed',0),'review':len(r.get('review',[])),'qualified':len(r.get('qualified',[])),'errors':len(r.get('errors',[]))} for c,r in scans.items()}}))
 
@@ -385,7 +407,7 @@ def notify():
         if not any(marker in (i.get('body') or '') for i in existing):
             body=('@'+user+'\n\n' if user else '')+'Coin Tarama Meme — ilk oluşum ön elemesi\n\nİlk aday birikim evresinde aranır; başlangıç dahil erişilen havuz geçmişinde eşikleri aşan yükseliş/düşüş görülmemiştir. Tokenin tüm yaşamı doğrulanmış veya yükseliş garanti edilmiş değildir.\n\n**Bubblemaps cüzdan haritası MANUEL KONTROL EDİLMELİ; harita onayı verilmedi.**\nGMGN kullanılmaz; tüm sniper/bundler etiketleri ve tam geliştirici geçmişi kapsanmaz. Resmî/orijinal kontrat eşleşmesi ayrıca doğrulanmalıdır.\n\n'
             for row in batch['candidates']:
-                body+=f"{row['symbol']} · {row['chain']} · {row['stage']}\nKontrat: `{row['mint']}`\nGözlem: {time_label(row['observed_ms'])} TR; fiyat ${row['price_usd']:.8g}\nGeliştirici: yalnız son 45 dakikalık taranan işlem penceresi; bağlantılı tüm cüzdanlar veya geçmişin tamamı için satış yapmadı iddiası değildir.\nBubblemaps: {bubble_link(row)}\nhttps://dexscreener.com/{json.loads((ROOT/'meme_config.json').read_text(encoding='utf-8'))['networks'][row['chain']]['dex']}/{row['pool']}\n\n"
+                body+=f"{row['symbol']} · {row['chain']} · {hybrid.LABELS.get(row.get('signal_phase'),row['stage'])} · {row['stage']}\n{large_buyers.text(row.get('large_buyers'))}\nKontrat: `{row['mint']}`\nGözlem: {time_label(row['observed_ms'])} TR; fiyat ${row['price_usd']:.8g}\nGeliştirici: yalnız son 45 dakikalık taranan işlem penceresi; bağlantılı tüm cüzdanlar veya geçmişin tamamı için satış yapmadı iddiası değildir.\nBubblemaps: {bubble_link(row)}\nhttps://dexscreener.com/{json.loads((ROOT/'meme_config.json').read_text(encoding='utf-8'))['networks'][row['chain']]['dex']}/{row['pool']}\n\n"
             body+='Filtreleri sağlayan izleme kaydıdır; güvenli token veya getiri garantisi değildir.\n\n'+marker
             cloud.http_json(url,{'title':'Coin Tarama Meme · Ön eleme / manuel harita · '+time_label(batch['created_ms']),'body':body},headers,label='GitHub Issues')
         state['pending']=[b for b in state['pending'] if b['id']!=batch['id']];cloud.save(STATE,state)

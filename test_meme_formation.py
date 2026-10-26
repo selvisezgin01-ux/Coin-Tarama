@@ -85,6 +85,9 @@ class FormationChecks(unittest.TestCase):
         self.assertFalse(meme.previously_alerted_accumulation(state,key))
 
     def network_scan(self,rows,state,stamp):
+        # Legacy 15m fixtures are represented by three real 5m provider rows
+        # for the hybrid orchestration. Production never manufactures missing bars.
+        rows=[[r[0]+i*300,*r[1:5],r[5]/3] for r in rows for i in range(3)]
         asset={**self.asset,'symbol':'TEST','price_usd':1.02,'price_observed_ms':stamp,'liquidity_usd':20000,
                'market_cap_usd':200000,'volume15_usd':2000,'buys15':18,'sells15':10}
         with ExitStack() as stack:

@@ -146,7 +146,7 @@ def dex_enrich(client,chain,network,rows):
 
 
 def candles(client,network,asset,asof_ms):
-    query=urlencode({'aggregate':15,'limit':100,'currency':'usd','token':asset['mint'],
+    query=urlencode({'aggregate':client.config.get('timeframes',{}).get('early_minutes',15),'limit':client.config.get('timeframes',{}).get('ohlcv_limit',100),'currency':'usd','token':asset['mint'],
                      'before_timestamp':asof_ms//1000,'include_empty_intervals':'false'})
     payload=client.gecko(f"networks/{network['gecko']}/pools/{asset['pool']}/ohlcv/minute?"+query)
     return payload['data']['attributes']['ohlcv_list']

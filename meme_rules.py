@@ -16,7 +16,7 @@ def address_key(chain,address):
     return address if chain=='solana' else address.lower()
 
 
-def available_candles(rows,asof_ms,include_open=False):
+def available_candles(rows,asof_ms,include_open=False,step_ms=STEP_MS):
     output={}
     for raw in rows:
         if not isinstance(raw,list) or len(raw)!=6:raise ValueError('Unexpected OHLCV schema')
@@ -24,32 +24,32 @@ def available_candles(rows,asof_ms,include_open=False):
         values=[number(v) for v in raw[1:]]
         if any(v is None for v in values):raise ValueError('Invalid OHLCV numbers')
         opening,high,low,close,volume=values
-        if stamp%STEP_MS or min(opening,high,low,close)<=0 or volume<0 or high<max(opening,low,close) or low>min(opening,high,close):
+        if stamp%step_ms or min(opening,high,low,close)<=0 or volume<0 or high<max(opening,low,close) or low>min(opening,high,close):
             raise ValueError('Invalid or misaligned OHLCV')
-        if stamp>asof_ms or (not include_open and stamp+STEP_MS>asof_ms):continue
+        if stamp>asof_ms or (not include_open and stamp+step_ms>asof_ms):continue
         row={'open_ms':stamp,'open':opening,'high':high,'low':low,'close':close,'volume':volume}
         if stamp in output and output[stamp]!=row:raise ValueError('Conflicting duplicate candle')
         output[stamp]=row
     return [output[k] for k in sorted(output)]
 
 
-def closed_candles(rows,asof_ms):
-    ordered=available_candles(rows,asof_ms)
+def closed_candles(rows,asof_ms,step_ms=STEP_MS):
+    ordered=available_candles(rows,asof_ms,step_ms=step_ms)
     # Indicators restart after a gap; missing intervals are not manufactured.
     for i in range(len(ordered)-1,0,-1):
-        if ordered[i]['open_ms']-ordered[i-1]['open_ms']!=STEP_MS:return ordered[i:]
+        if ordered[i]['open_ms']-ordered[i-1]['open_ms']!=step_ms:return ordered[i:]
     return ordered
 
 
-def first_formation(rows,asset,earliest_pool_ms,asof_ms,config):
+def first_formation(rows,asset,earliest_pool_ms,asof_ms,config,step_ms=STEP_MS):
     """Negative history checks include wicks/open bars; never create a positive candle signal."""
-    bars=available_candles(rows,asof_ms,include_open=True)
+    bars=available_candles(rows,asof_ms,include_open=True,step_ms=step_ms)
     result={'status':'unknown','reason':'initial_pool_history_missing','metrics':{}}
     created=number(asset.get('pool_created_ms'));earliest=number(earliest_pool_ms)
     if not bars or created is None or earliest is None:return result
     if earliest<created:
         result['reason']='earlier_pool_history_not_covered';return result
-    start=int(created)//STEP_MS*STEP_MS
+    start=int(created)//step_ms*step_ms
     initial=bars[0]['open'];floor=initial;runup=0.;peak=initial
     for bar in bars:
         # Include possible within-bar low-to-high rises conservatively: ordering is unknown.
@@ -68,9 +68,9 @@ def first_formation(rows,asset,earliest_pool_ms,asof_ms,config):
     if failures:return {**result,'status':'rejected','reason':','.join(failures)}
     # A quiet tail after a missing launch/gap is not evidence of no previous pump.
     if bars[0]['open_ms']!=start:return result
-    if any(b['open_ms']-a['open_ms']!=STEP_MS for a,b in zip(bars,bars[1:])):
+    if any(b['open_ms']-a['open_ms']!=step_ms for a,b in zip(bars,bars[1:])):
         return {**result,'reason':'initial_history_has_gaps'}
-    if bars[-1]['open_ms']!=asof_ms//STEP_MS*STEP_MS:
+    if bars[-1]['open_ms']!=asof_ms//step_ms*step_ms:
         return {**result,'reason':'current_interval_history_missing'}
     return {**result,'status':'passed','reason':'no_threshold_crossing_in_available_pool_history'}
 
