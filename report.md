@@ -1,6 +1,6 @@
 # Coin Tarama Meme
 
-Son çalışma: 26.10.2026 20:45 Türkiye saati.
+Son çalışma: 26.10.2026 21:23 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
