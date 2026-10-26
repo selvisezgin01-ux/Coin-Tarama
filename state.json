@@ -8,111 +8,120 @@
       "ever_seen": [],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1792963116401,
-        "feature_cutoff_ms": 1792958400000,
+        "observed_ms": 1792976105926,
+        "feature_cutoff_ms": 1792972800000,
         "universe_count": 446,
-        "prefilter_count": 131,
-        "analyzed_count": 128,
+        "prefilter_count": 43,
+        "analyzed_count": 42,
         "candidates": []
       }
     },
     "MEXC": {
       "active": [
-        "GRASSUSDT",
-        "GBCKUSDT"
+        "REZUSDT"
       ],
       "last_alert": {
         "GRASSUSDT": 1792959544552,
-        "GBCKUSDT": 1792959544552
+        "GBCKUSDT": 1792959544552,
+        "REZUSDT": 1792976180838
       },
       "ever_seen": [
         "GBCKUSDT",
-        "GRASSUSDT"
+        "GRASSUSDT",
+        "REZUSDT"
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1792963218752,
-        "feature_cutoff_ms": 1792958400000,
+        "observed_ms": 1792976180721,
+        "feature_cutoff_ms": 1792972800000,
         "universe_count": 1251,
-        "prefilter_count": 445,
-        "analyzed_count": 432,
+        "prefilter_count": 279,
+        "analyzed_count": 267,
         "candidates": [
           {
             "exchange": "MEXC",
-            "symbol": "GRASSUSDT",
-            "observed_ms": 1792963218752,
-            "feature_cutoff_ms": 1792958400000,
-            "mid_price": 0.7101999999999999,
-            "spread_pct": 0.14080540692762616,
-            "return24_pct": 12.764278952350905,
-            "relative24_pct_points": 12.679670267209131,
-            "quote_volume24": 209109.52190000002,
+            "symbol": "REZUSDT",
+            "observed_ms": 1792976180721,
+            "feature_cutoff_ms": 1792972800000,
+            "mid_price": 0.0047665,
+            "spread_pct": 0.06293926361060591,
+            "return24_pct": 12.231404958677693,
+            "relative24_pct_points": 13.11949935277038,
+            "quote_volume24": 166107.566096,
             "liquidity_band": "main",
-            "breakout_level": 0.705,
+            "breakout_level": 0.004653,
             "breakout_open_ms": 1792929600000.0,
-            "breakout_volume_ratio": 2.145318414619152,
-            "strength_score": 100,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.6513079897751147,
-            "atr": 0.029968040899541415,
-            "close": 0.7147,
+            "breakout_volume_ratio": 1.794035697970675,
+            "strength_score": 80,
+            "breakout_age_bars": 2.0,
+            "invalidation_level": 0.004211800790016842,
+            "atr": 0.00022479683993263213,
+            "close": 0.004753,
             "paper_controls": [
               {
-                "symbol": "CASHCATUSDT",
-                "entry_price": 0.0953
+                "symbol": "NILUSDT",
+                "entry_price": 0.08925
               },
               {
-                "symbol": "ULTIMAUSDT",
-                "entry_price": 1222.415
+                "symbol": "NAORISUSDT",
+                "entry_price": 0.03053
               },
               {
-                "symbol": "PONSUSDT",
-                "entry_price": 0.240563
+                "symbol": "OSMOUSDT",
+                "entry_price": 0.04994
               }
             ],
-            "paper_btc_price": 80502.405
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "GBCKUSDT",
-            "observed_ms": 1792963218752,
-            "feature_cutoff_ms": 1792958400000,
-            "mid_price": 0.0048565,
-            "spread_pct": 0.5559559353443863,
-            "return24_pct": 2.5068464293237724,
-            "relative24_pct_points": 2.4222377441819987,
-            "quote_volume24": 77451.313831,
-            "liquidity_band": "thin",
-            "breakout_level": 0.004829,
-            "breakout_open_ms": 1792929600000.0,
-            "breakout_volume_ratio": 1.9199203232434738,
-            "strength_score": 55,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.00470582151185679,
-            "atr": 7.271395257283832e-05,
-            "close": 0.004866,
-            "paper_controls": [
-              {
-                "symbol": "VOWUSDT",
-                "entry_price": 0.03313
-              },
-              {
-                "symbol": "MNTUSDT",
-                "entry_price": 0.52135
-              },
-              {
-                "symbol": "POLUSDT",
-                "entry_price": 0.089915
-              }
-            ],
-            "paper_btc_price": 80502.405
+            "paper_btc_price": 80006.38
           }
         ]
       }
     }
   },
-  "pending": [],
-  "updated_ms": 1792963218853,
+  "pending": [
+    {
+      "id": "1c6d0f270fdb0cbc828f083c",
+      "created_ms": 1792976180838,
+      "candidates": [
+        {
+          "exchange": "MEXC",
+          "symbol": "REZUSDT",
+          "observed_ms": 1792976180721,
+          "feature_cutoff_ms": 1792972800000,
+          "mid_price": 0.0047665,
+          "spread_pct": 0.06293926361060591,
+          "return24_pct": 12.231404958677693,
+          "relative24_pct_points": 13.11949935277038,
+          "quote_volume24": 166107.566096,
+          "liquidity_band": "main",
+          "breakout_level": 0.004653,
+          "breakout_open_ms": 1792929600000.0,
+          "breakout_volume_ratio": 1.794035697970675,
+          "strength_score": 80,
+          "breakout_age_bars": 2.0,
+          "invalidation_level": 0.004211800790016842,
+          "atr": 0.00022479683993263213,
+          "close": 0.004753,
+          "paper_controls": [
+            {
+              "symbol": "NILUSDT",
+              "entry_price": 0.08925
+            },
+            {
+              "symbol": "NAORISUSDT",
+              "entry_price": 0.03053
+            },
+            {
+              "symbol": "OSMOUSDT",
+              "entry_price": 0.04994
+            }
+          ],
+          "paper_btc_price": 80006.38,
+          "arrival": "new"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1792976180838,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -179,9 +188,41 @@
           }
         ],
         "outcomes": {}
+      },
+      "MEXC:REZUSDT": {
+        "symbol": "REZUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1792976180721,
+        "entry_price": 0.0047665,
+        "btc_entry_price": 80006.38,
+        "controls": [
+          {
+            "symbol": "NILUSDT",
+            "entry_price": 0.08925
+          },
+          {
+            "symbol": "NAORISUSDT",
+            "entry_price": 0.03053
+          },
+          {
+            "symbol": "OSMOUSDT",
+            "entry_price": 0.04994
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1792976180721,
+            "price": 0.0047665
+          }
+        ],
+        "outcomes": {}
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1792963218853
+    "asof_ms": 1792976180838
   }
 }
