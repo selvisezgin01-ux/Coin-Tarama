@@ -4,29 +4,26 @@
 
 V3 otomasyonu ve bildirimleri ayrı çalışır. Yeni adaylar bu sürümün kendi bildirim başlığıyla gönderilir; yerel pilot kayıtları ayrıdır. Puan başarı olasılığı değildir.
 
-MEXC: incelenen 1031, aday 2; kapanış 26.10.2026 03:00 TR; fiyat gözlemi 26.10.2026 03:52 TR.
+MEXC: incelenen 1022, aday 1; kapanış 26.10.2026 07:00 TR; fiyat gözlemi 26.10.2026 07:38 TR.
 V4 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume.
 
 | Coin | Grup | 24s % | Kırılım yaşı (mum) | PU | Uyarılar |
 |---|---|---:|---:|---|---|
-| CAPUSDT | Tutunma | 40.11 | 8 | Yok | 24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş |
-| MIUUSDT | Yeni kırılım | 63.27 | 2 | Yok | 24 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; düşük hacim; makas geniş; gözlem fiyatı kapanıştan uzaklaştı |
+| MIUUSDT | Yeni kırılım | 78.00 | 0 | Yok | 24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; düşük hacim; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş |
 
-OKX: incelenen 315, aday 0; kapanış 26.10.2026 03:00 TR; fiyat gözlemi 26.10.2026 03:48 TR.
+OKX: incelenen 318, aday 0; kapanış 26.10.2026 07:00 TR; fiyat gözlemi 26.10.2026 07:35 TR.
 V4 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume.
 
 | Coin | Grup | 24s % | Kırılım yaşı (mum) | PU | Uyarılar |
 |---|---|---:|---:|---|---|
 
-İki borsada toplam 2 farklı sembol. Ortak semboller bağımsız iki başarı sayılmaz.
+İki borsada toplam 1 farklı sembol. Ortak semboller bağımsız iki başarı sayılmaz.
 
 Arşiv karşılaştırmasında yeni sürüm kontrol coinlerine karşı üstünlük göstermedi. Coin Tarama 3 ayrı bir ileri dönem deneyidir; önceki sürüm de çalışır.
 
 ## Bu döngüde yeni gelenler
 
-MIUUSDT · MEXC
-Fiyat 8.85e-10 | 24s %63.27 | hacim 3.42x | makas %1.13
-grup: yeni kırılım; 24 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; düşük hacim; makas geniş; gözlem fiyatı kapanıştan uzaklaştı; düşük hacim; makas teyidi gerekli
+Yeni aday yok.
 
 ## Gerçek gözlemden sonraki ölçümler
 
