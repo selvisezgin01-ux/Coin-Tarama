@@ -8,39 +8,122 @@
       "ever_seen": [],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1792989459289,
-        "feature_cutoff_ms": 1792987200000,
-        "universe_count": 446,
-        "prefilter_count": 61,
-        "analyzed_count": 59,
+        "observed_ms": 1793004459616,
+        "feature_cutoff_ms": 1793001600000,
+        "universe_count": 452,
+        "prefilter_count": 167,
+        "analyzed_count": 164,
         "candidates": []
       }
     },
     "MEXC": {
-      "active": [],
+      "active": [
+        "NILUSDT"
+      ],
       "last_alert": {
         "GRASSUSDT": 1792959544552,
         "GBCKUSDT": 1792959544552,
-        "REZUSDT": 1792976180838
+        "REZUSDT": 1792976180838,
+        "NILUSDT": 1793004550129
       },
       "ever_seen": [
         "GBCKUSDT",
         "GRASSUSDT",
+        "NILUSDT",
         "REZUSDT"
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1792989517607,
-        "feature_cutoff_ms": 1792987200000,
-        "universe_count": 1250,
-        "prefilter_count": 245,
-        "analyzed_count": 234,
-        "candidates": []
+        "observed_ms": 1793004550039,
+        "feature_cutoff_ms": 1793001600000,
+        "universe_count": 1251,
+        "prefilter_count": 445,
+        "analyzed_count": 432,
+        "candidates": [
+          {
+            "exchange": "MEXC",
+            "symbol": "NILUSDT",
+            "observed_ms": 1793004550039,
+            "feature_cutoff_ms": 1793001600000,
+            "mid_price": 0.09221,
+            "spread_pct": 0.5639301594187103,
+            "return24_pct": 6.630149492183035,
+            "relative24_pct_points": 7.414429872728956,
+            "quote_volume24": 190960.80819999997,
+            "liquidity_band": "main",
+            "breakout_level": 0.09289,
+            "breakout_open_ms": 1792987200000.0,
+            "breakout_volume_ratio": 2.1603420122171024,
+            "strength_score": 100,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 0.08685426149861271,
+            "atr": 0.004222954005549193,
+            "close": 0.09344,
+            "paper_controls": [
+              {
+                "symbol": "REZUSDT",
+                "entry_price": 0.004678
+              },
+              {
+                "symbol": "GRASSUSDT",
+                "entry_price": 0.7017500000000001
+              },
+              {
+                "symbol": "PONSUSDT",
+                "entry_price": 0.2394455
+              }
+            ],
+            "paper_btc_price": 80360.39499999999
+          }
+        ]
       }
     }
   },
-  "pending": [],
-  "updated_ms": 1792989517694,
+  "pending": [
+    {
+      "id": "2bba157eea1d71e115cf8da0",
+      "created_ms": 1793004550129,
+      "candidates": [
+        {
+          "exchange": "MEXC",
+          "symbol": "NILUSDT",
+          "observed_ms": 1793004550039,
+          "feature_cutoff_ms": 1793001600000,
+          "mid_price": 0.09221,
+          "spread_pct": 0.5639301594187103,
+          "return24_pct": 6.630149492183035,
+          "relative24_pct_points": 7.414429872728956,
+          "quote_volume24": 190960.80819999997,
+          "liquidity_band": "main",
+          "breakout_level": 0.09289,
+          "breakout_open_ms": 1792987200000.0,
+          "breakout_volume_ratio": 2.1603420122171024,
+          "strength_score": 100,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 0.08685426149861271,
+          "atr": 0.004222954005549193,
+          "close": 0.09344,
+          "paper_controls": [
+            {
+              "symbol": "REZUSDT",
+              "entry_price": 0.004678
+            },
+            {
+              "symbol": "GRASSUSDT",
+              "entry_price": 0.7017500000000001
+            },
+            {
+              "symbol": "PONSUSDT",
+              "entry_price": 0.2394455
+            }
+          ],
+          "paper_btc_price": 80360.39499999999,
+          "arrival": "new"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1793004550129,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -139,9 +222,41 @@
           }
         ],
         "outcomes": {}
+      },
+      "MEXC:NILUSDT": {
+        "symbol": "NILUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1793004550039,
+        "entry_price": 0.09221,
+        "btc_entry_price": 80360.39499999999,
+        "controls": [
+          {
+            "symbol": "REZUSDT",
+            "entry_price": 0.004678
+          },
+          {
+            "symbol": "GRASSUSDT",
+            "entry_price": 0.7017500000000001
+          },
+          {
+            "symbol": "PONSUSDT",
+            "entry_price": 0.2394455
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793004550039,
+            "price": 0.09221
+          }
+        ],
+        "outcomes": {}
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1792989517694
+    "asof_ms": 1793004550129
   }
 }
