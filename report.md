@@ -2,21 +2,18 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 446, ön eleme 43, incelenen 42, aday 0. Gözlem 26.10.2026 03:55 TR; mum kesimi 26.10.2026 03:00 TR.
+OKX: evren 446, ön eleme 61, incelenen 59, aday 0. Gözlem 26.10.2026 07:37 TR; mum kesimi 26.10.2026 07:00 TR.
 
-MEXC: evren 1251, ön eleme 279, incelenen 267, aday 1. Gözlem 26.10.2026 03:56 TR; mum kesimi 26.10.2026 03:00 TR.
+MEXC: evren 1250, ön eleme 245, incelenen 234, aday 0. Gözlem 26.10.2026 07:38 TR; mum kesimi 26.10.2026 07:00 TR.
 
 ## Bu döngüde yeni gelenler
 
-REZUSDT · MEXC  
-Fiyat 0.0047665 | 24s %12.23 | hacim 1.79x | makas %0.06  
-Kapalı mum tarama koşulları sağlandı
+Yeni aday yok.
 
 ## Güncel aday listesi
 
 | Coin | Borsa | 24s % | Hacim USDT | Hacim katı | Makas % |
 |---|---|---:|---:|---:|---:|
-| REZUSDT | MEXC | 12.23 | 166108 | 1.79 | 0.063 |
 
 Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada görünürse borsa etiketi korunur. Bildirimler önceki başarılı taramaya göre yeni girişlerde oluşur; tekrar girişler için 48 saat bildirim beklemesi vardır. Sürekli listede kalan coin her dört saatte tekrar bildirilmez. Bu döngüdeki yokluk yalnız başarılı bir taramadan sonra değerlendirilir.
 

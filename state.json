@@ -8,18 +8,16 @@
       "ever_seen": [],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1792976105926,
-        "feature_cutoff_ms": 1792972800000,
+        "observed_ms": 1792989459289,
+        "feature_cutoff_ms": 1792987200000,
         "universe_count": 446,
-        "prefilter_count": 43,
-        "analyzed_count": 42,
+        "prefilter_count": 61,
+        "analyzed_count": 59,
         "candidates": []
       }
     },
     "MEXC": {
-      "active": [
-        "REZUSDT"
-      ],
+      "active": [],
       "last_alert": {
         "GRASSUSDT": 1792959544552,
         "GBCKUSDT": 1792959544552,
@@ -32,53 +30,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1792976180721,
-        "feature_cutoff_ms": 1792972800000,
-        "universe_count": 1251,
-        "prefilter_count": 279,
-        "analyzed_count": 267,
-        "candidates": [
-          {
-            "exchange": "MEXC",
-            "symbol": "REZUSDT",
-            "observed_ms": 1792976180721,
-            "feature_cutoff_ms": 1792972800000,
-            "mid_price": 0.0047665,
-            "spread_pct": 0.06293926361060591,
-            "return24_pct": 12.231404958677693,
-            "relative24_pct_points": 13.11949935277038,
-            "quote_volume24": 166107.566096,
-            "liquidity_band": "main",
-            "breakout_level": 0.004653,
-            "breakout_open_ms": 1792929600000.0,
-            "breakout_volume_ratio": 1.794035697970675,
-            "strength_score": 80,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 0.004211800790016842,
-            "atr": 0.00022479683993263213,
-            "close": 0.004753,
-            "paper_controls": [
-              {
-                "symbol": "NILUSDT",
-                "entry_price": 0.08925
-              },
-              {
-                "symbol": "NAORISUSDT",
-                "entry_price": 0.03053
-              },
-              {
-                "symbol": "OSMOUSDT",
-                "entry_price": 0.04994
-              }
-            ],
-            "paper_btc_price": 80006.38
-          }
-        ]
+        "observed_ms": 1792989517607,
+        "feature_cutoff_ms": 1792987200000,
+        "universe_count": 1250,
+        "prefilter_count": 245,
+        "analyzed_count": 234,
+        "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1792976180838,
+  "updated_ms": 1792989517694,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -180,6 +142,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1792976180838
+    "asof_ms": 1792989517694
   }
 }
