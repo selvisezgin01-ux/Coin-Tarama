@@ -1,0 +1,21 @@
+{
+  "version": "shortcu-kistir-v1",
+  "source_branch": "scanner-state-v5",
+  "state_branch": "scanner-state-shortcu-kistir",
+  "max_unique_symbols": 5,
+  "max_funding_checks_per_venue": 20,
+  "funding_scaled_8h_max": -0.0001,
+  "oi_change_min_pct": 5,
+  "baseline_hours": 4,
+  "baseline_tolerance_minutes": 60,
+  "futures_price_change_min_pct": 0,
+  "futures_price_change_max_pct": 12,
+  "minimum_oi_notional": 1000000,
+  "maximum_futures_spread_pct": 0.5,
+  "maximum_spot_futures_basis_pct": 2,
+  "max_data_age_minutes": 5,
+  "max_notification_age_minutes": 15,
+  "cooldown_hours": 48,
+  "history_days": 7,
+  "note": "Experimental initial thresholds; not optimized or validated profit predictors. Funding scaled to 8h is a comparison measure, not a forecast. OI growth is total positions, not short-only. Reuse frozen V5 technical/priority eligibility before the five-symbol cap. Separate observations, reports and notifications; no trades."
+}

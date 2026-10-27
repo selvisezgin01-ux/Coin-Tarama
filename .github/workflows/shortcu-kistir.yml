@@ -1,0 +1,67 @@
+name: Shortçu Kıstır — bağımsız short squeeze radarı
+
+on:
+  workflow_run:
+    workflows: ['Coin Tarama 3 — erken dönüş, hacim ve geri test']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: shortcu-kistir-state
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONUTF8: '1'
+      SCANNER_STATE_BRANCH: scanner-state-shortcu-kistir
+      NOTIFICATION_CHANNEL: ${{ vars.NOTIFICATION_CHANNEL || 'report' }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate independent squeeze rules and preservation
+        run: python -m unittest test_short_squeeze -q
+      - name: Restore separate state and read Coin Tarama 3 source
+        run: python short_squeeze_scan.py pull-state
+      - name: Observe public futures data and evaluate possible squeeze
+        run: python short_squeeze_scan.py scan
+      - name: Checkpoint independent observations
+        run: python short_squeeze_scan.py push-state
+      - name: Notify new Shortçu Kıstır candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python short_squeeze_scan.py notify --channel "$NOTIFICATION_CHANNEL"
+      - name: Preserve notification state
+        if: ${{ always() && hashFiles('cloud_output_shortcu/ready.txt') != '' }}
+        run: python short_squeeze_scan.py push-state
+      - name: Preserve diagnostics
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: shortcu-kistir-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            cloud_output_shortcu/report.md
+            cloud_output_shortcu/summary.json
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Mark partial source failures
+        if: ${{ always() && hashFiles('cloud_output_shortcu/ready.txt') != '' }}
+        run: python short_squeeze_scan.py check-status
