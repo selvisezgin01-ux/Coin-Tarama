@@ -32437,5 +32437,426 @@
         "errors": []
       }
     }
+  },
+  "comparison_lab": {
+    "version": "shortcu-comparison-v1",
+    "fingerprint": "5605b3da3927bdadf89228e9995529365ba030a82c487cd59b864e7fbba9ce37",
+    "cases": {},
+    "errors": [],
+    "registration": {
+      "observed_ms": 1793134361205,
+      "added": [],
+      "skipped": {
+        "factor_unknown_or_common_failure": 15
+      },
+      "quote_errors": {}
+    },
+    "measurement": {
+      "observed_ms": 1793134361205,
+      "pending": 0,
+      "attempted": 0,
+      "unique_reads": 0
+    },
+    "updated_ms": 1793134361205,
+    "summaries": {
+      "6": {
+        "A": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "B": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "C": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "D": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        }
+      },
+      "12": {
+        "A": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "B": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "C": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "D": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        }
+      },
+      "24": {
+        "A": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "B": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "C": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "D": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        }
+      },
+      "48": {
+        "A": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "B": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "C": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "D": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        }
+      }
+    },
+    "split_summaries": {
+      "first25": {
+        "A": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "B": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "C": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "D": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        }
+      },
+      "next25": {
+        "A": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "B": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "C": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        },
+        "D": {
+          "cases": 0,
+          "measured": 0,
+          "median_return_pct": null,
+          "median_btc_excess_pct_points": null,
+          "median_controls_excess_pct_points": null,
+          "control_comparisons": 0,
+          "median_mae_pct": null,
+          "median_mfe_pct": null,
+          "positive_after_cost_fraction": {
+            "0.2": null,
+            "0.5": null,
+            "1.0": null
+          },
+          "enough_for_initial_review": false
+        }
+      }
+    }
   }
 }

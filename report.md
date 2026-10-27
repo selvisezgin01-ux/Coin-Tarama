@@ -48,3 +48,46 @@ Aynı sembol küresel listede bir kez seçilir; farklı borsaların OI/hacimleri
 [MEXC kontrat verileri](https://www.mexc.com/api-docs/futures/market-endpoints/get-ticker-contract-market-data) · [MEXC fonlama](https://www.mexc.com/api-docs/futures/market-endpoints/get-funding-rate) · [OKX kamu verileri](https://www.okx.com/docs-v5/en/#public-data-rest-api-get-open-interest)
 
 <!-- shortcu-kistir:v1 -->
+
+<!-- shortcu-comparison:start -->
+
+## Ücretsiz karşılaştırmalı deney — sessiz ölçüm
+
+Aynı ilk uygun gözlemde en çok 50 farklı sembol. Şu an 0 kayıt. Bildirim eklenmez; mevcut Shortçu Kıstır kuralları ve eski fiyatlar korunur.
+
+Aynı anda tüm faktörler biliniyorsa kayda alınır. Eksik OI geçmişi, fonlama veya fiyat bilinmiyor kalır; olumsuz koşula veya 0 puana dönüştürülmez. Aynı sembol iki borsada iki bağımsız örnek sayılmaz.
+
+| Grup | Koşul | Kayıt | Ölçülen 12s | Medyan % | BTC üstü puan | Kontrol üstü puan | Girişe göre dip % | Girişe göre tepe % |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| A | Teknik temel + ortak vadeli işlem koşulları | 0 | 0 | — | — | — | — | — |
+| B | A + negatif fonlama | 0 | 0 | — | — | — | — | — |
+| C | A + OI artışı ve fiyat tutunması | 0 | 0 | — | — | — | — | — |
+| D | A + fonlama + OI/fiyat birlikte | 0 | 0 | — | — | — | — | — |
+
+**Henüz üstünlük/başarı iddiası yok.** Ana karşılaştırma 12 saat; 6/24/48 saat ikincildir. Gruplar örtüşür, grup sayıları toplanarak bağımsız başarı hesaplanmaz. A da aynı borsada geçerli perpetual/likidite/makas/fiyat farkı şartlarına tabidir; bütün spot piyasanın kontrol grubu değildir.
+
+Aynı başlangıç fiyatındaki koşullu karşılaştırmadır; bir coin saatler sonra yeni bir şartı sağladığında geriye dönük grup değiştirilmez. Bu nedenle D, mevcut üretim sinyallerinin tümünün birebir kopyası değildir; ilk ortak uygun gözlemde birlikte sağlanan koşulları ölçer. Üretimin kendi gerçek sinyal ölçümleri yukarıda ayrıca sürer.
+
+Her grupta en az 20 tamamlanmış gözlem olmadan ilk değerlendirme yapılmaz. İlk 25 / sonraki 25 kayıt ayrı tutulur; dönem arasında sonuçlara bakıp eşik değiştirilmez. Bunlar istatistiksel kesinlik veya bağımsız piyasa rejimleri anlamına gelmez.
+
+Maliyet duyarlılığı (gerçek gerçekleşme/net kâr değildir): gidiş-dönüş %0.2 / %0.5 / %1 toplam maliyet varsayımı getiriden ayrı düşülür. Sabit maliyet senaryosu gerçek hesap komisyonu, kayma, vergi veya vadeli fonlamanın ölçüldüğü anlamına gelmez.
+
+| Grup | Ölçülen | %0.2 maliyet sonrası pozitif | %0.5 sonrası | %1 sonrası |
+|---|---:|---:|---:|---:|
+| A | 0 | — | — | — |
+| B | 0 | — | — | — |
+| C | 0 | — | — | — |
+| D | 0 | — | — | — |
+
+Ölçüm: girişten sonraki ilk TAM 1dk mumdan hedefin ilk dakika kapanışına kadar. Giriş mumunun kalan <1 dakikası dip/tepe hesabına dahil edilmez; tam işlem aralığının mutlak tepe/dibi olduğu iddia edilmez. Eksik ara mum varsa dip/tepe bilinmiyor; eksik sonuçlar sıfır getiri sayılmaz.
+
+## Deneyin gerçek gözlem kayıtları
+
+| No | Coin | Borsa | Grup üyelikleri | Gerçek gözlem TR | Spot referans | Kaynak kapanışından gecikme dk |
+|---:|---|---|---|---|---:|---:|
+
+Dış likidasyon haritası / büyük yatırımcı pozisyon oranı API bağlantısı yok; bu alanlar hesaplanmış veya doğrulanmış kabul edilmez. Ücretsiz deney mevcut kamu verisinin katkısını sınar. Dört saatlik teknik kaynak ve GitHub gecikmesi hızlı squeeze hareketlerini kaçırabilir; gecikme yukarıda kayıtlıdır.
+
+Son kayıt elemesi: {"factor_unknown_or_common_failure": 15}
+Fiyat kaynağı hataları: {}
+Ölçüm erişim/veri hatası: 0.
