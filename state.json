@@ -141,50 +141,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "18d4607577d6499d93bc9216",
-      "created_ms": 1793075891547,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "APTMUSDT",
-          "observed_ms": 1793075891455,
-          "feature_cutoff_ms": 1793073600000,
-          "mid_price": 0.05214,
-          "spread_pct": 0.9589566551591877,
-          "return24_pct": 2.0483808037456086,
-          "relative24_pct_points": 1.7643358651201257,
-          "quote_volume24": 122584.39695,
-          "liquidity_band": "main",
-          "breakout_level": 0.05219,
-          "breakout_open_ms": 1793059200000.0,
-          "breakout_volume_ratio": 1.5945167394285336,
-          "strength_score": 80,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.050604273159664294,
-          "atr": 0.0008629073613428147,
-          "close": 0.05231,
-          "paper_controls": [
-            {
-              "symbol": "POLUSDT",
-              "entry_price": 0.08982499999999999
-            },
-            {
-              "symbol": "CFXUSDT",
-              "entry_price": 0.047765
-            },
-            {
-              "symbol": "GOMININGUSDT",
-              "entry_price": 0.3752
-            }
-          ],
-          "paper_btc_price": 79690.125,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793075891547,
   "paper": {
     "version": "github-paper-v1",
