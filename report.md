@@ -1,6 +1,6 @@
 # Coin Tarama Meme
 
-Son çalışma: 27.10.2026 23:16 Türkiye saati.
+Son çalışma: 27.10.2026 23:56 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -17,13 +17,10 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
 | Solana | 35 | 0 | 0 | 0 | 0 | 0 |
+| Ethereum | 33 | 0 | 0 | 0 | 0 | 0 |
 | BNB Chain | 35 | 0 | 0 | 0 | 0 | 0 |
-| Robinhood | 34 | 0 | 0 | 0 | 0 | 0 |
 | HyperEVM (HYPE) | 19 | 0 | 0 | 0 | 0 | 0 |
-| Ethereum | 28 | 1 | 1 | 0 | 0 | 0 |
-
-Bu çalışmada aday olmayan mum incelemeleri (token listesi değildir):
-- 1: Önceden yükseliş / uzun fitil görülmüş; Başlangıç fiyatından fazla uzaklaşmış; Tepeden düşüş sonrası yapı elenmiş
+| Robinhood | 20 | 0 | 0 | 0 | 0 | 1 |
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
 
@@ -61,6 +58,8 @@ Bubblemaps haritasını kullanıcı manuel inceler; API anahtarı gerekmez. Hiç
 Büyük alıcı desteği zorunlu filtre değildir: 15/30 dk işlem örneğinde adres başına net alım en az max(500 USD, havuz likiditesi × 0.005). Deneysel 0–10 puan olasılık/servet/akıllı para kanıtı değildir. Tek adres >%50 alım hacmi veya büyük alıcıda >=%50 geri satış puanı sıfırlar; eksik/kesilmiş veri bilinmiyor. Bilinen dev/havuz/vault/yakım adresleri çıkarılır; diğer adreslerin bağlantısı doğrulanmaz.
 
 GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.
+
+- Robinhood: api.geckoterminal.com: data connection or response error
 
 ## Bildirim sonrası ek ölçümler
 
