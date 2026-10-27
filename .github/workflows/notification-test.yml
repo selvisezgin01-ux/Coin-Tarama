@@ -12,6 +12,7 @@ on:
           - Coin Tarama 3
           - Coin Tarama Meme
           - Shortçu Kıstır
+          - Shortçu Kıstır — oran değişimi
 
 permissions:
   issues: write
@@ -37,7 +38,7 @@ jobs:
 
           recipient = os.environ['COIN_NOTIFY_USER'].strip()
           label = os.environ['COIN_SCAN_LABEL']
-          if label not in ('Coin Tarama 2', 'Coin Tarama 3', 'Coin Tarama Meme', 'Shortçu Kıstır'):
+          if label not in ('Coin Tarama 2', 'Coin Tarama 3', 'Coin Tarama Meme', 'Shortçu Kıstır', 'Shortçu Kıstır — oran değişimi'):
               raise ValueError('Unknown scanner label.')
           if not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?', recipient):
               raise ValueError('Set COIN_NOTIFY_USER to a GitHub username without @.')
@@ -53,6 +54,25 @@ jobs:
           else:
               payload = {'title': label + ' · Bildirim denemesi — coin sinyali değildir',
                          'body': f'@{recipient}\n\n{label}\n\nBu, GitHub Mobile bildirimini kontrol etmek için gönderilen tek seferlik deneme kaydıdır. Coin adayı veya alım sinyali değildir. Yeni aday bildirimleri de seni bu şekilde etiketleyecek.\n\nTelefonunda GitHub için etiketlenme, bildirim ve ses izinlerini açık tut. Ses, telefonun sessiz/odak modu ve uygulama ayarlarına bağlıdır.\n\n' + marker}
+              if label == 'Shortçu Kıstır — oran değişimi':
+                  from datetime import datetime, timedelta
+                  from zoneinfo import ZoneInfo
+                  current = datetime.now(ZoneInfo('Europe/Istanbul')).replace(second=0, microsecond=0)
+                  previous = current - timedelta(minutes=5)
+                  payload['title'] = 'TEST · Shortçu Kıstır · Short payı yükseliyor · %60 → %65'
+                  payload['body'] = (
+                      f'@{recipient}\n\n'
+                      '**TEST — aşağıdaki coin ve oranlar örnektir; gerçek piyasa verisi veya sinyal değildir.**\n\n'
+                      'ORNEKUSDT · aday fiyat borsası MEXC\n\n'
+                      'Kaynak: OKX, açık pozisyon değeri en büyük %5 yatırımcı grubunun pozisyon dağılımı\n\n'
+                      '**Short payı yükseliyor: %60.00 → %65.00**\n\n'
+                      'Değişim: **+5.00 yüzde puan**; göreli değişim **+%8.33**\n\n'
+                      'Son long payı: **%35.00**\n\n'
+                      f'Örnek veri saatleri: {previous:%d.%m.%Y %H:%M} → {current:%d.%m.%Y %H:%M} TR (5 dk)\n\n'
+                      f'Test gönderim saati: {current:%d.%m.%Y %H:%M} TR\n\n'
+                      'Bu grubun pozisyon dağılımıdır; tüm piyasanın veya MEXC toplamının oranı değildir. '
+                      'Oran artışı tek başına yeni short açıldığını kanıtlamaz. Yeni alım/satım sinyali değildir.\n\n'
+                      + marker)
               request = Request(url, data=json.dumps(payload, ensure_ascii=False).encode(), headers=headers)
               with urlopen(request, timeout=25) as response:
                   issue = json.load(response)
