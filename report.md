@@ -1,6 +1,6 @@
 # Coin Tarama Meme
 
-Son çalışma: 28.10.2026 00:30 Türkiye saati.
+Son çalışma: 28.10.2026 01:10 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -16,14 +16,11 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
-| Solana | 35 | 0 | 0 | 0 | 0 | 0 |
-| BNB Chain | 35 | 0 | 0 | 0 | 0 | 0 |
-| Robinhood | 34 | 0 | 0 | 0 | 0 | 0 |
-| HyperEVM (HYPE) | 19 | 0 | 0 | 0 | 0 | 0 |
-| Ethereum | 34 | 2 | 2 | 0 | 0 | 0 |
-
-Bu çalışmada aday olmayan mum incelemeleri (token listesi değildir):
-- 2: Önceden yükseliş / uzun fitil görülmüş; Başlangıç fiyatından fazla uzaklaşmış; Tepeden düşüş sonrası yapı elenmiş
+| Solana | 34 | 0 | 0 | 0 | 0 | 0 |
+| Ethereum | 33 | 0 | 0 | 0 | 0 | 0 |
+| BNB Chain | 34 | 0 | 0 | 0 | 0 | 0 |
+| Robinhood | 35 | 0 | 0 | 0 | 0 | 0 |
+| HyperEVM (HYPE) | 18 | 0 | 0 | 0 | 0 | 0 |
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
 
