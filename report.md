@@ -1,10 +1,10 @@
 # Shortçu Kıstır
 
-Son çalışma: 27.10.2026 23:42 TR.
+Son çalışma: 27.10.2026 23:52 TR.
 
 **Coin Tarama 3 teknik temelinden beslenen bağımsız deney. Short pozisyon açılmaz; yükseliş yönlü olası short sıkışması aranır. Başarı garantisi yoktur.**
 
-Teknik işlem koşullarından geçen 14 borsa kaydı; squeeze koşullarını sağlayan en çok 5 farklı sembol; güncel liste 0.
+Teknik işlem koşullarından geçen 15 borsa kaydı; squeeze koşullarını sağlayan en çok 5 farklı sembol; güncel liste 0.
 
 Kaynak: Coin Tarama 3 tamamlandığında scanner-state-v5 dalından okunur. Kaynak adaylar, eski ölçümler ve beşli öncelik listesi değiştirilmez. Eski fiyatlar yeni sinyalin referansı değildir.
 
@@ -16,9 +16,10 @@ Kaynak: Coin Tarama 3 tamamlandığında scanner-state-v5 dalından okunur. Kayn
 ## Veri birikimi ve eleme nedenleri
 
 - 13 borsa kaydı: yeterince negatif fonlama yok
+- 1 borsa kaydı: fonlama verisi eksik/eski
 - 1 borsa kaydı: aynı borsada eşleşen aktif USDT sürekli vadeli kontrat yok
 - 5 borsa kaydı: açık pozisyon büyüklüğü yetersiz
-- 13 borsa kaydı: uygun aralıkta önceki gerçek OI gözlemi birikiyor
+- 14 borsa kaydı: uygun aralıkta önceki gerçek OI gözlemi birikiyor
 
 Bir kayıtta birden çok neden olabilir. Şu anki fonlama ve OI, başarısız teknik filtreleri geçersiz kılmaz.
 
