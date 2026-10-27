@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
       - name: Validate independent squeeze rules and preservation
-        run: python -m unittest test_short_squeeze -q
+        run: python -m unittest test_short_squeeze test_short_squeeze_lab -q
       - name: Restore separate state and read Coin Tarama 3 source
         run: python short_squeeze_scan.py pull-state
       - name: Observe public futures data and evaluate possible squeeze
@@ -52,6 +52,10 @@ jobs:
       - name: Preserve notification state
         if: ${{ always() && hashFiles('cloud_output_shortcu/ready.txt') != '' }}
         run: python short_squeeze_scan.py push-state
+      - name: Record silent comparison after production notifications
+        run: python short_squeeze_lab.py observe
+      - name: Save silent comparison without changing production references
+        run: python short_squeeze_scan.py push-state
       - name: Preserve diagnostics
         if: always()
         uses: actions/upload-artifact@v7
@@ -60,8 +64,12 @@ jobs:
           path: |
             cloud_output_shortcu/report.md
             cloud_output_shortcu/summary.json
+            cloud_output_shortcu/comparison_summary.json
           if-no-files-found: ignore
           retention-days: 30
       - name: Mark partial source failures
         if: ${{ always() && hashFiles('cloud_output_shortcu/ready.txt') != '' }}
         run: python short_squeeze_scan.py check-status
+      - name: Mark comparison data failures
+        if: ${{ always() && hashFiles('cloud_output_shortcu/comparison_summary.json') != '' }}
+        run: python short_squeeze_lab.py check-status

@@ -1,0 +1,13 @@
+{
+  "version": "shortcu-comparison-v1",
+  "max_unique_cases": 50,
+  "max_new_cases_per_run": 5,
+  "max_cases_measured_per_run": 4,
+  "horizons_hours": [6, 12, 24, 48],
+  "primary_horizon_hours": 12,
+  "discovery_first_cases": 25,
+  "minimum_arm_complete_for_review": 20,
+  "maximum_derivative_age_minutes": 5,
+  "round_trip_cost_scenarios_pct": [0.2, 0.5, 1.0],
+  "note": "Silent prospective conditional comparison at the same first eligible observation. A=technical + common futures eligibility; B=A+negative funding; C=A+OI growth and price hold; D=A+both. Unknown factors never become false/zero. No parameter search, no profit claim, no added signal notifications. The original production scanner remains frozen."
+}
