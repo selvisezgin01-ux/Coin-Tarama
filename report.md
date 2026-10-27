@@ -1,6 +1,6 @@
 # Coin Tarama Meme
 
-Son çalışma: 27.10.2026 17:09 Türkiye saati.
+Son çalışma: 27.10.2026 17:58 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -16,11 +16,11 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
-| Solana | 20 | 0 | 0 | 0 | 0 | 1 |
-| Ethereum | 34 | 0 | 0 | 0 | 0 | 0 |
-| BNB Chain | 33 | 0 | 0 | 0 | 0 | 0 |
-| HyperEVM (HYPE) | 19 | 0 | 0 | 0 | 0 | 0 |
-| Robinhood | 19 | 0 | 0 | 0 | 0 | 1 |
+| Solana | 35 | 0 | 0 | 0 | 0 | 0 |
+| Ethereum | 33 | 0 | 0 | 0 | 0 | 0 |
+| Robinhood | 35 | 0 | 0 | 0 | 0 | 0 |
+| BNB Chain | 15 | 0 | 0 | 0 | 0 | 1 |
+| HyperEVM (HYPE) | 7 | 0 | 0 | 0 | 0 | 1 |
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
 
@@ -59,8 +59,8 @@ Büyük alıcı desteği zorunlu filtre değildir: 15/30 dk işlem örneğinde a
 
 GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.
 
-- Solana: api.geckoterminal.com: HTTP 504
-- Robinhood: api.geckoterminal.com: data connection or response error
+- BNB Chain: api.geckoterminal.com: data connection or response error
+- HyperEVM (HYPE): api.geckoterminal.com: data connection or response error
 
 ## Bildirim sonrası ek ölçümler
 
