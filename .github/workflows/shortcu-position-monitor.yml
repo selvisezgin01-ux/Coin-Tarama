@@ -1,0 +1,67 @@
+name: Shortçu Kıstır — 5 dk pozisyon oranı takibi
+
+on:
+  schedule:
+    - cron: '3-58/5 * * * *'
+  workflow_run:
+    workflows: ['Shortçu Kıstır — bağımsız short squeeze radarı']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: shortcu-position-monitor-state
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONUTF8: '1'
+      SCANNER_STATE_BRANCH: scanner-state-shortcu-positions
+      NOTIFICATION_CHANNEL: ${{ vars.NOTIFICATION_CHANNEL == 'github_issue' && 'github_issue' || 'report' }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check position ratios and notification integrity
+        run: python -m unittest test_short_squeeze_positions -q
+      - name: Restore independent monitor and read confirmed candidate references
+        run: python short_squeeze_monitor.py pull-state
+      - name: Observe new provider periods and reconcile delivered updates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python short_squeeze_monitor.py observe --channel "$NOTIFICATION_CHANNEL"
+      - name: Checkpoint before update messages
+        run: python short_squeeze_monitor.py push-state
+      - name: Notify meaningful position-share changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
+        run: python short_squeeze_monitor.py notify --channel "$NOTIFICATION_CHANNEL"
+      - name: Preserve delivery state
+        if: ${{ always() && hashFiles('cloud_output_shortcu_positions/ready.txt') != '' }}
+        run: python short_squeeze_monitor.py push-state
+      - name: Preserve status report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: shortcu-position-monitor-${{ github.run_id }}-${{ github.run_attempt }}
+          path: cloud_output_shortcu_positions/report.md
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Mark unavailable monitoring data
+        if: ${{ always() && hashFiles('cloud_output_shortcu_positions/ready.txt') != '' }}
+        run: python short_squeeze_monitor.py check-status

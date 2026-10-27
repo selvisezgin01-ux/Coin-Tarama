@@ -1,0 +1,14 @@
+{
+  "version": "shortcu-position-monitor-v1",
+  "source_branch": "scanner-state-shortcu-kistir",
+  "state_branch": "scanner-state-shortcu-positions",
+  "period": "5m",
+  "minimum_short_change_percentage_points": 2,
+  "notify_crossing_50_percent": true,
+  "max_provider_age_minutes": 15,
+  "max_notification_age_minutes": 15,
+  "watch_hours_after_alert": 24,
+  "max_symbols_per_run": 10,
+  "source_reference_tolerance_minutes": 15,
+  "note": "Only actually delivered Shortcu Kistir candidates. Establish live baseline without backfilled alerts. Positions of OKX top5% by open value and Binance top20% by margin are separate populations, never market-wide percentages or averaged together. No signal/threshold changes in production."
+}
