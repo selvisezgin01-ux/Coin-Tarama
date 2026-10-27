@@ -1,0 +1,26 @@
+{
+  "version": "shortcu-position-monitor-v1",
+  "rules_fingerprint": "d36a40e6c70f3818386228a9793d5e8fabdbf3fe759a1bfcd78e3191a56ba3b1",
+  "assets": {},
+  "active": [],
+  "pending": [],
+  "audit": [],
+  "latest": {
+    "observed_ms": 1793135864182,
+    "source_commit": "d71a69e4e664b026f1874e13152833587804fb4f",
+    "coverage": {
+      "delivered_candidates_in_window": 0,
+      "unresolved_references": 0,
+      "outside_request_budget": 0
+    },
+    "active_symbols": 0,
+    "queued_changes": 0,
+    "api_calls": {
+      "OKX": 0,
+      "BINANCE": 0
+    },
+    "errors": [],
+    "observed_profiles": 0,
+    "critical_data_failure": false
+  }
+}
