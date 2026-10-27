@@ -1,17 +1,16 @@
 # Coin Tarama 3 — kısa öncelik listesi
 
-Son kontrol: 27.10.2026 03:44 TR.
+Son kontrol: 27.10.2026 07:38 TR.
 
-Geniş havuz: 50 borsa kaydı / 49 sembol. İşlem koşulu elemesini geçen: 4 farklı sembol. Bildirim ve üst liste: en fazla 5 farklı coin.
+Geniş havuz: 18 borsa kaydı / 17 sembol. İşlem koşulu elemesini geçen: 3 farklı sembol. Bildirim ve üst liste: en fazla 5 farklı coin.
 
 **Öncelik, kârlılık veya güvenli işlem garantisi değildir.** Hacim/makas, güncel fiyat, yapı ve uzama kontrollerinden geçenler sıralanır. Yalnız yatay hacim hazırlığı bildirilmez. Aday yoksa liste doldurulmaz.
 
 | Coin | Fiyat borsası | Geçen borsalar | Grup | Gerçek gözlem TR | Fiyat | Makas % | Yapı mesafesi % |
 |---|---|---|---|---|---:|---:|---:|
-| QNTUSDT | MEXC | MEXC | Geri testte tutunma / SAR, Tutunma | 27.10.2026 03:44 | 203.095 | 0.04 | 5.83 |
-| CLANKERUSDT | MEXC | MEXC | Yeni kırılım | 27.10.2026 03:44 | 13.645 | 0.22 | 6.14 |
-| TELUSDT | MEXC | MEXC | Erken dönüş | 27.10.2026 03:44 | 0.0015175 | 0.20 | 8.55 |
-| XKORUUSDT | OKX | OKX | Yeni kırılım | 27.10.2026 03:44 | 11.475 | 0.26 | 10.33 |
+| QNTUSDT | MEXC | MEXC | Geri testte tutunma / SAR | 27.10.2026 07:38 | 201.985 | 0.01 | 5.31 |
+| IOSTUSDT | OKX | OKX | Erken dönüş | 27.10.2026 07:38 | 0.0008208 | 0.19 | 9.43 |
+| ZBCNUSDT | OKX | OKX | Erken dönüş | 27.10.2026 07:38 | 0.00222315 | 0.23 | 7.04 |
 
 Sıralama: en çok 4x sayılan göreli hacim, kapanış konumu, dar makas ve aynı borsanın hacmi. Farklı borsaların hacimleri toplanmaz. Bu sıra başarı olasılığı değildir.
 
@@ -21,15 +20,15 @@ Aynı sembol tek satırda gösterilir; yalnız elemeden geçen borsalar listelen
 
 ## Eleme özeti
 
-- 13 borsa kaydı: EMA20 uzaklığı fazla veya bilinmiyor
-- 5 borsa kaydı: olağandışı hacim katsayısı; ayrıca inceleme
-- 18 borsa kaydı: tanınan tokenleştirilmiş hisse
-- 8 borsa kaydı: yalnız hazırlık; ek teknik teyit yok
-- 2 borsa kaydı: güncel fiyat kapanıştan uzak veya veri eksik
-- 10 borsa kaydı: yapı bozulma mesafesi geniş veya bilinmiyor
-- 9 borsa kaydı: makas geniş veya bilinmiyor
-- 3 borsa kaydı: izlenen seviye kaybedilmiş veya bilinmiyor
-- 16 borsa kaydı: hacim 100.000 USDT altında
+- 4 borsa kaydı: EMA20 uzaklığı fazla veya bilinmiyor
+- 2 borsa kaydı: olağandışı hacim katsayısı; ayrıca inceleme
+- 2 borsa kaydı: tanınan tokenleştirilmiş hisse
+- 4 borsa kaydı: yalnız hazırlık; ek teknik teyit yok
+- 1 borsa kaydı: güncel fiyat kapanıştan uzak veya veri eksik
+- 6 borsa kaydı: yapı bozulma mesafesi geniş veya bilinmiyor
+- 4 borsa kaydı: makas geniş veya bilinmiyor
+- 2 borsa kaydı: izlenen seviye kaybedilmiş veya bilinmiyor
+- 6 borsa kaydı: hacim 100.000 USDT altında
 
 Bir kayıtta birden fazla neden olabilir; sayılar bağımsız coinler gibi toplanmaz.
 Sıralama sınırı dışında kalan uygun sembol: 0.
@@ -44,12 +43,12 @@ Referans, bu kısa listeye ilk girişte gerçekten okunan fiyat ve saattir; eski
 
 | Coin | Borsa | İlk gerçek gözlem TR | Referans | 12s % | 24s % | 48s % |
 |---|---|---|---:|---:|---:|---:|
-| LUNAUSDT | OKX | 26.10.2026 16:56 | 0.04159 | — | — | — |
-| METUSDT | OKX | 26.10.2026 16:56 | 0.31085 | — | — | — |
-| CRVUSDT | OKX | 26.10.2026 16:56 | 0.3495 | — | — | — |
-| NIGHTUSDT | MEXC | 26.10.2026 16:56 | 0.03791 | — | — | — |
-| ONDOUSDT | MEXC | 26.10.2026 16:56 | 0.41274 | — | — | — |
-| ARBUSDT | MEXC | 26.10.2026 17:50 | 0.171355 | — | — | — |
+| LUNAUSDT | OKX | 26.10.2026 16:56 | 0.04159 | 1.37 | — | — |
+| METUSDT | OKX | 26.10.2026 16:56 | 0.31085 | 1.59 | — | — |
+| CRVUSDT | OKX | 26.10.2026 16:56 | 0.3495 | -3.52 | — | — |
+| NIGHTUSDT | MEXC | 26.10.2026 16:56 | 0.03791 | 4.91 | — | — |
+| ONDOUSDT | MEXC | 26.10.2026 16:56 | 0.41274 | -0.50 | — | — |
+| ARBUSDT | MEXC | 26.10.2026 17:50 | 0.171355 | -2.17 | — | — |
 | CELOUSDT | OKX | 26.10.2026 19:50 | 0.079105 | — | — | — |
 | POLUSDT | OKX | 26.10.2026 19:50 | 0.091045 | — | — | — |
 | ONDOUSDT | OKX | 26.10.2026 19:50 | 0.41515 | — | — | — |
@@ -61,6 +60,8 @@ Referans, bu kısa listeye ilk girişte gerçekten okunan fiyat ve saattir; eski
 | QNTUSDT | MEXC | 27.10.2026 03:44 | 203.095 | — | — | — |
 | CLANKERUSDT | MEXC | 27.10.2026 03:44 | 13.645 | — | — | — |
 | TELUSDT | MEXC | 27.10.2026 03:44 | 0.0015175 | — | — | — |
+| IOSTUSDT | OKX | 27.10.2026 07:38 | 0.0008208 | — | — | — |
+| ZBCNUSDT | OKX | 27.10.2026 07:38 | 0.00222315 | — | — | — |
 
 </details>
 
@@ -80,253 +81,89 @@ V3 otomasyonu ve bildirimleri ayrı çalışır. Yeni adaylar Coin Tarama 3 baş
 
 Erken dönüşte önceki mum EMA20 altındayken üç mumluk yakın tepenin hacimle geri alınması aranır; yükselen EMA20 veya eski 20 mum tepesini aşması zorunlu değildir. Yatay hacim yükseliş onayı veya kesin toplama değildir. Geri testte sabit kırılım seviyesi, gerçek dönüş, dar taban, azalan hacim ve SAR alt konumu aranır.
 
-MEXC: incelenen 1035, aday 21; kapanış 27.10.2026 03:00 TR; fiyat gözlemi 27.10.2026 03:42 TR.
+MEXC: incelenen 1039, aday 12; kapanış 27.10.2026 07:00 TR; fiyat gözlemi 27.10.2026 07:37 TR.
 V5 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume.
 
 | Coin | Uyan gruplar | 24s % | İlgili hacim katı | PU | Uyarılar |
 |---|---|---:|---:|---|---|
-| BULLAUSDT | Tutunma | 65.36 | 6.15 | Yok | 24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; makas geniş |
-| MIUUSDT | Tutunma | 15.00 | 10.54 | Yok | 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; düşük hacim; makas geniş |
-| NEXUSDT | Tutunma | 27.54 | 4.42 | Yok | yapı bozulma mesafesi geniş |
-| PVTUSDT | Tutunma | 1.31 | 2.22 | RSI PU teyitli | düşük hacim; makas geniş |
-| MASKUSDT | Erken dönüş | 1.77 | 2.54 | Yok | düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| TUTUSDT | Erken dönüş | 1.76 | 2.31 | Yok | düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; makas geniş |
-| USUSDT | Erken dönüş | 29.10 | 21.17 | Yok | ortalamadan uzak; yapı bozulma mesafesi geniş; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; gözlem fiyatı kapanıştan uzaklaştı |
-| AIAUSDT | Erken dönüş | 2.57 | 2.69 | Yok | düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| BASECATUSDT | Erken dönüş | 19.04 | 4.39 | Yok | yapı bozulma mesafesi geniş; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| TELUSDT | Erken dönüş | 8.36 | 2.34 | RSI PU teyitli | erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| AINUSDT | Yeni kırılım | 85.60 | 14.54 | RSI PU teyitli | 24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş |
-| TAGUSDT | Yeni kırılım | 45.52 | 2.18 | Yok | 24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş; gözlem fiyatı grubun izlediği seviyenin altında |
-| CLANKERUSDT | Yeni kırılım | 5.07 | 2.46 | Yok | Ek eşik uyarısı yok |
-| PARTIUSDT | Yeni kırılım | 16.12 | 1.58 | Yok | ortalamadan uzak; yapı bozulma mesafesi geniş |
-| QUSDT | Yeni kırılım | 249.24 | 19.70 | RSI PU teyitli | 24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş |
-| SYNUSDT | Yeni kırılım | 16.30 | 2.55 | Yok | ortalamadan uzak; yapı bozulma mesafesi geniş; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi |
-| QNTUSDT | Geri testte tutunma / SAR, Tutunma | 7.24 | 8.08 | Yok | geri testte SAR desteği; devam garantisi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| FUELUSDT | Yatay fiyat / hacim artışı | 0.38 | 5.48 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| DVOUSDT | Yatay fiyat / hacim artışı | -0.18 | 2.23 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| IMXUSDT | Yatay fiyat / hacim artışı | 0.38 | 1.52 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| TOWERUSDT | Yatay fiyat / hacim artışı | -0.30 | 1.66 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; makas geniş |
+| SOILUSDT | Tutunma | 7.91 | 1.70 | Yok | ortalamadan uzak; düşük hacim; makas geniş |
+| CHIPUSDT | Tutunma | 16.12 | 1.66 | Yok | yapı bozulma mesafesi geniş |
+| NEXAUSDT | Erken dönüş | 13.29 | 2.12 | Yok | yapı bozulma mesafesi geniş; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; makas geniş |
+| ANIMEUSDT | Erken dönüş | 2.08 | 1.61 | Yok | düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; gözlem fiyatı grubun izlediği seviyenin altında |
+| AINUSDT | Yeni kırılım | 101.10 | 14.54 | RSI PU teyitli | 24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; makas geniş; gözlem fiyatı kapanıştan uzaklaştı |
+| POKTUSDT | Yeni kırılım | 45.03 | 7.22 | RSI PU teyitli | 24 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; düşük hacim; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş |
+| APTMUSDT | Yeni kırılım | 2.05 | 1.59 | Yok | ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş; gözlem fiyatı grubun izlediği seviyenin altında |
+| SYNUSDT | Yeni kırılım | 23.78 | 2.55 | Yok | ortalamadan uzak; yapı bozulma mesafesi geniş |
+| QNTUSDT | Geri testte tutunma / SAR | 6.66 | 8.08 | Yok | geri testte SAR desteği; devam garantisi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
+| FUELUSDT | Yatay fiyat / hacim artışı | 0.45 | 3.02 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
+| AGRSUSDT | Yatay fiyat / hacim artışı | 8.34 | 5.85 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
+| TAKEUSDT | Yatay fiyat / hacim artışı | 0.74 | 2.55 | Yok | yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
 
-OKX: incelenen 343, aday 29; kapanış 27.10.2026 03:00 TR; fiyat gözlemi 27.10.2026 03:39 TR.
+OKX: incelenen 335, aday 6; kapanış 27.10.2026 07:00 TR; fiyat gözlemi 27.10.2026 07:33 TR.
 V5 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume.
 
 | Coin | Uyan gruplar | 24s % | İlgili hacim katı | PU | Uyarılar |
 |---|---|---:|---:|---|---|
-| GRVTUSDT | Erken dönüş | 7.07 | 2.33 | Yok | erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| FLUIDUSDT | Erken dönüş | 2.08 | 1.75 | Yok | düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| BATUSDT | Erken dönüş | 0.28 | 2.02 | Yok | erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; gözlem fiyatı grubun izlediği seviyenin altında |
-| PARTIUSDT | Yeni kırılım | 16.07 | 17.55 | Yok | ortalamadan uzak; yapı bozulma mesafesi geniş |
-| XTSLAUSDT | Yeni kırılım | 5.96 | 21.02 | Yok | ortalamadan uzak |
-| XAAOIUSDT | Yeni kırılım | 8.37 | 2.92 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XAMDUSDT | Yeni kırılım | 3.53 | 3.99 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XAVGOUSDT | Yeni kırılım | 2.96 | 3.43 | Yok | ilk kapanış; sonraki mumda tutunma henüz gözlenmedi |
-| XCOHRUSDT | Yeni kırılım | 8.59 | 4.46 | RSI PU teyitli | ortalamadan uzak; düşük hacim |
-| XDRAMUSDT | Yeni kırılım | 3.36 | 50.69 | Yok | Ek eşik uyarısı yok |
-| XGEVUSDT | Yeni kırılım | 5.81 | 12.67 | Yok | ortalamadan uzak; düşük hacim |
-| XINTCUSDT | Yeni kırılım | 5.28 | 11.19 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XINTWUSDT | Yeni kırılım | 9.98 | 7.21 | Yok | düşük hacim |
-| XLITEUSDT | Yeni kırılım | 10.08 | 16.23 | RSI PU teyitli | ortalamadan uzak |
-| XMRVLUSDT | Yeni kırılım | 3.07 | 8.36 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XMUUSDT | Yeni kırılım | 2.57 | 4.84 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XNVDAUSDT | Yeni kırılım | 2.03 | 4.54 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XSMHUSDT | Yeni kırılım | 2.80 | 35.11 | RSI PU teyitli | düşük hacim |
-| XSOXLUSDT | Yeni kırılım | 8.84 | 12.65 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XTQQQUSDT | Yeni kırılım | 4.02 | 12.10 | Yok | Ek eşik uyarısı yok |
-| XARMUSDT | Yeni kırılım | 7.49 | 1.89 | Yok | ortalamadan uzak; düşük hacim; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi |
-| XDELLUSDT | Yeni kırılım | 2.56 | 76.97 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XKORUUSDT | Yeni kırılım | 6.40 | 1.69 | RSI PU teyitli | ilk kapanış; sonraki mumda tutunma henüz gözlenmedi |
-| XRKLBUSDT | Yeni kırılım | 3.33 | 11.29 | RSI PU teyitli | Ek eşik uyarısı yok |
-| XSKHYUSDT | Yeni kırılım | 4.06 | 1.56 | Yok | ilk kapanış; sonraki mumda tutunma henüz gözlenmedi |
-| XLMUSDT | Yatay fiyat / hacim artışı | 0.75 | 2.46 | Yok | yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| OPUSDT | Yatay fiyat / hacim artışı | 0.72 | 1.90 | RSI PU teyitli | yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| ZKUSDT | Yatay fiyat / hacim artışı | 1.05 | 2.23 | Yok | yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
-| VELODROMEUSDT | Yatay fiyat / hacim artışı | 0.68 | 1.69 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
+| CHIPUSDT | Tutunma | 15.80 | 4.09 | Yok | yapı bozulma mesafesi geniş |
+| XSPYUSDT | Tutunma | 0.76 | 22.25 | RSI PU teyitli | Ek eşik uyarısı yok |
+| ZBCNUSDT | Erken dönüş | 1.58 | 2.03 | Yok | erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
+| IOSTUSDT | Erken dönüş | 10.48 | 3.62 | RSI PU teyitli | erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
+| XDELLUSDT | Geri testte tutunma / SAR | 3.52 | 76.97 | RSI PU teyitli | geri testte SAR desteği; devam garantisi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
+| LAYERUSDT | Yatay fiyat / hacim artışı | 1.12 | 1.55 | Yok | düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi |
 
-İki borsada toplam 49 farklı sembol. Ortak semboller bağımsız iki başarı sayılmaz.
+İki borsada toplam 17 farklı sembol. Ortak semboller bağımsız iki başarı sayılmaz.
 
 Eşikler başlangıç deneyidir; daha çok aday daha yüksek başarı demek değildir. Yazılım testleri kârlılık kanıtı değildir. Dört saatlik mum ve zamanlayıcı gecikmesi ilk hareketin kaçmasına yol açabilir. SAR yön desteğidir; getiri garantisi değildir.
 
 ## Bu döngüde yeni gelenler
 
-GRVTUSDT · OKX
+XSPYUSDT · OKX
+Gruplar: Tutunma
+Gözlem 27.10.2026 07:33 TR; fiyat 767.35
+24s %0.76; ilgili hacim 22.249x; makas %0.01
+Ek eşik uyarısı yok; teyitli RSI pozitif uyumsuzluk desteği
+
+ZBCNUSDT · OKX
 Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:39 TR; fiyat 0.21321
-24s %7.07; ilgili hacim 2.3314x; makas %0.15
+Gözlem 27.10.2026 07:33 TR; fiyat 0.0022456
+24s %1.58; ilgili hacim 2.0346x; makas %0.28
 erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
 
-BATUSDT · OKX
+IOSTUSDT · OKX
 Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:39 TR; fiyat 0.14842
-24s %0.28; ilgili hacim 2.0213x; makas %0.13
-erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; gözlem fiyatı grubun izlediği seviyenin altında
-
-XAAOIUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 73.69
-24s %8.37; ilgili hacim 2.9219x; makas %0.22
-Ek eşik uyarısı yok; teyitli RSI pozitif uyumsuzluk desteği
-
-XAMDUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 537.75
-24s %3.53; ilgili hacim 3.9946x; makas %0.02
-Ek eşik uyarısı yok; teyitli RSI pozitif uyumsuzluk desteği
-
-XCOHRUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 225.63
-24s %8.59; ilgili hacim 4.4618x; makas %0.06
-ortalamadan uzak; düşük hacim; teyitli RSI pozitif uyumsuzluk desteği
-
-XDRAMUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 49.47
-24s %3.36; ilgili hacim 50.69x; makas %0.20
-Ek eşik uyarısı yok
-
-XGEVUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 861.89
-24s %5.81; ilgili hacim 12.67x; makas %0.28
-ortalamadan uzak; düşük hacim
-
-XINTWUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 17.675
-24s %9.98; ilgili hacim 7.2061x; makas %0.28
-düşük hacim
-
-XMRVLUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 236.49
-24s %3.07; ilgili hacim 8.3626x; makas %0.04
-Ek eşik uyarısı yok; teyitli RSI pozitif uyumsuzluk desteği
-
-XMUUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 917.22
-24s %2.57; ilgili hacim 4.8447x; makas %0.03
-Ek eşik uyarısı yok; teyitli RSI pozitif uyumsuzluk desteği
-
-XNVDAUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 217.16
-24s %2.03; ilgili hacim 4.5448x; makas %0.02
-Ek eşik uyarısı yok; teyitli RSI pozitif uyumsuzluk desteği
-
-XSMHUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 546.98
-24s %2.80; ilgili hacim 35.112x; makas %0.30
-düşük hacim; teyitli RSI pozitif uyumsuzluk desteği
-
-XSOXLUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 93.21
-24s %8.84; ilgili hacim 12.647x; makas %0.09
-Ek eşik uyarısı yok; teyitli RSI pozitif uyumsuzluk desteği
-
-XTQQQUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 69.35
-24s %4.02; ilgili hacim 12.095x; makas %0.12
-Ek eşik uyarısı yok
-
-XARMUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 226.95
-24s %7.49; ilgili hacim 1.8919x; makas %0.03
-ortalamadan uzak; düşük hacim; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi
-
-XKORUUSDT · OKX
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:39 TR; fiyat 11.52
-24s %6.40; ilgili hacim 1.694x; makas %0.17
-ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; teyitli RSI pozitif uyumsuzluk desteği
-
-OPUSDT · OKX
-Gruplar: Yatay fiyat / hacim artışı
-Gözlem 27.10.2026 03:39 TR; fiyat 0.11242
-24s %0.72; ilgili hacim 1.8962x; makas %0.01
-yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; teyitli RSI pozitif uyumsuzluk desteği
-
-ZKUSDT · OKX
-Gruplar: Yatay fiyat / hacim artışı
-Gözlem 27.10.2026 03:39 TR; fiyat 0.012207
-24s %1.05; ilgili hacim 2.2253x; makas %0.07
-yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
-
-PVTUSDT · MEXC
-Gruplar: Tutunma
-Gözlem 27.10.2026 03:42 TR; fiyat 0.0001008
-24s %1.31; ilgili hacim 2.2182x; makas %0.60
-düşük hacim; makas geniş; teyitli RSI pozitif uyumsuzluk desteği
-
-MASKUSDT · MEXC
-Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:42 TR; fiyat 0.40145
-24s %1.77; ilgili hacim 2.5371x; makas %0.32
-düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
-
-TUTUSDT · MEXC
-Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:42 TR; fiyat 0.017523
-24s %1.76; ilgili hacim 2.3085x; makas %1.04
-düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; makas geniş
-
-USUSDT · MEXC
-Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:42 TR; fiyat 0.00528
-24s %29.10; ilgili hacim 21.173x; makas %0.38
-ortalamadan uzak; yapı bozulma mesafesi geniş; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; gözlem fiyatı kapanıştan uzaklaştı
-
-AIAUSDT · MEXC
-Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:42 TR; fiyat 0.074555
-24s %2.57; ilgili hacim 2.6908x; makas %0.47
-düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
-
-BASECATUSDT · MEXC
-Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:42 TR; fiyat 0.010385
-24s %19.04; ilgili hacim 4.3933x; makas %0.48
-yapı bozulma mesafesi geniş; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
-
-TELUSDT · MEXC
-Gruplar: Erken dönüş
-Gözlem 27.10.2026 03:42 TR; fiyat 0.0015175
-24s %8.36; ilgili hacim 2.336x; makas %0.20
+Gözlem 27.10.2026 07:33 TR; fiyat 0.000815
+24s %10.48; ilgili hacim 3.6188x; makas %0.22
 erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; teyitli RSI pozitif uyumsuzluk desteği
 
-AINUSDT · MEXC
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:42 TR; fiyat 0.07002
-24s %85.60; ilgili hacim 14.537x; makas %0.86
-24 saatlik yükseliş yüksek; 72 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş; teyitli RSI pozitif uyumsuzluk desteği
-
-SYNUSDT · MEXC
-Gruplar: Yeni kırılım
-Gözlem 27.10.2026 03:42 TR; fiyat 0.18663
-24s %16.30; ilgili hacim 2.5464x; makas %0.14
-ortalamadan uzak; yapı bozulma mesafesi geniş; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi
-
-DVOUSDT · MEXC
+LAYERUSDT · OKX
 Gruplar: Yatay fiyat / hacim artışı
-Gözlem 27.10.2026 03:42 TR; fiyat 0.0048509
-24s %-0.18; ilgili hacim 2.2331x; makas %0.02
+Gözlem 27.10.2026 07:33 TR; fiyat 0.06465
+24s %1.12; ilgili hacim 1.554x; makas %0.06
 düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
 
-IMXUSDT · MEXC
-Gruplar: Yatay fiyat / hacim artışı
-Gözlem 27.10.2026 03:42 TR; fiyat 0.13905
-24s %0.38; ilgili hacim 1.523x; makas %0.12
-düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
+NEXAUSDT · MEXC
+Gruplar: Erken dönüş
+Gözlem 27.10.2026 07:37 TR; fiyat 8.605e-07
+24s %13.29; ilgili hacim 2.1202x; makas %0.56
+yapı bozulma mesafesi geniş; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; makas geniş
 
-TOWERUSDT · MEXC
+ANIMEUSDT · MEXC
+Gruplar: Erken dönüş
+Gözlem 27.10.2026 07:37 TR; fiyat 0.002841
+24s %2.08; ilgili hacim 1.6089x; makas %0.07
+düşük hacim; erken dönüş; uzun trend teyidi henüz aranmadı; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; gözlem fiyatı grubun izlediği seviyenin altında
+
+POKTUSDT · MEXC
+Gruplar: Yeni kırılım
+Gözlem 27.10.2026 07:37 TR; fiyat 0.01067
+24s %45.03; ilgili hacim 7.2185x; makas %0.82
+24 saatlik yükseliş yüksek; ortalamadan uzak; yapı bozulma mesafesi geniş; düşük hacim; ilk kapanış; sonraki mumda tutunma henüz gözlenmedi; makas geniş; teyitli RSI pozitif uyumsuzluk desteği
+
+TAKEUSDT · MEXC
 Gruplar: Yatay fiyat / hacim artışı
-Gözlem 27.10.2026 03:42 TR; fiyat 0.0001345
-24s %-0.30; ilgili hacim 1.6568x; makas %1.19
-düşük hacim; yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi; makas geniş
+Gözlem 27.10.2026 07:37 TR; fiyat 0.068745
+24s %0.74; ilgili hacim 2.5526x; makas %0.16
+yatay hacim; toplama veya yükseliş teyidi değildir; deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi
 
 ## V5 gerçek gözlemden sonraki sonuçlar
 
@@ -584,6 +421,14 @@ Her borsa/token için ilk gerçek fiyat bir ana kayıttır. Gruplar örtüşebil
 | DVOUSDT | MEXC | Yatay fiyat / hacim artışı | 27.10.2026 03:42 | 0.00485085 | — | — | — |
 | IMXUSDT | MEXC | Yatay fiyat / hacim artışı | 27.10.2026 03:42 | 0.13905 | — | — | — |
 | TOWERUSDT | MEXC | Yatay fiyat / hacim artışı | 27.10.2026 03:42 | 0.0001345 | — | — | — |
+| XSPYUSDT | OKX | Tutunma | 27.10.2026 07:33 | 767.345 | — | — | — |
+| ZBCNUSDT | OKX | Erken dönüş | 27.10.2026 07:33 | 0.0022456 | — | — | — |
+| IOSTUSDT | OKX | Erken dönüş | 27.10.2026 07:33 | 0.000815 | — | — | — |
+| LAYERUSDT | OKX | Yatay fiyat / hacim artışı | 27.10.2026 07:33 | 0.06465 | — | — | — |
+| NEXAUSDT | MEXC | Erken dönüş | 27.10.2026 07:37 | 8.605e-07 | — | — | — |
+| ANIMEUSDT | MEXC | Erken dönüş | 27.10.2026 07:37 | 0.002841 | — | — | — |
+| POKTUSDT | MEXC | Yeni kırılım | 27.10.2026 07:37 | 0.01067 | — | — | — |
+| TAKEUSDT | MEXC | Yatay fiyat / hacim artışı | 27.10.2026 07:37 | 0.068745 | — | — | — |
 
 ### Grupların ayrı ölçümleri
 
@@ -592,27 +437,33 @@ Her borsa/token için ilk gerçek fiyat bir ana kayıttır. Gruplar örtüşebil
 | Geri testte tutunma / SAR | MEXC | 12s | 0/1 | — | — | — |
 | Geri testte tutunma / SAR | MEXC | 24s | 0/1 | — | — | — |
 | Geri testte tutunma / SAR | MEXC | 48s | 0/1 | — | — | — |
-| Erken dönüş | MEXC | 12s | 17/59 | 0.04 | 0.10 | -0.19 |
-| Erken dönüş | MEXC | 24s | 0/59 | — | — | — |
-| Erken dönüş | MEXC | 48s | 0/59 | — | — | — |
-| Erken dönüş | OKX | 12s | 13/68 | 0.26 | 0.32 | -0.53 |
-| Erken dönüş | OKX | 24s | 0/68 | — | — | — |
-| Erken dönüş | OKX | 48s | 0/68 | — | — | — |
-| Yatay fiyat / hacim artışı | MEXC | 12s | 10/51 | -0.23 | -0.17 | -0.27 |
-| Yatay fiyat / hacim artışı | MEXC | 24s | 0/51 | — | — | — |
-| Yatay fiyat / hacim artışı | MEXC | 48s | 0/51 | — | — | — |
-| Yatay fiyat / hacim artışı | OKX | 12s | 5/56 | -0.80 | -0.74 | -1.17 |
-| Yatay fiyat / hacim artışı | OKX | 24s | 0/56 | — | — | — |
-| Yatay fiyat / hacim artışı | OKX | 48s | 0/56 | — | — | — |
-| Yeni kırılım | MEXC | 12s | 8/23 | -0.76 | -0.71 | -1.29 |
-| Yeni kırılım | MEXC | 24s | 0/23 | — | — | — |
-| Yeni kırılım | MEXC | 48s | 0/23 | — | — | — |
+| Geri testte tutunma / SAR | OKX | 12s | 0/1 | — | — | — |
+| Geri testte tutunma / SAR | OKX | 24s | 0/1 | — | — | — |
+| Geri testte tutunma / SAR | OKX | 48s | 0/1 | — | — | — |
+| Erken dönüş | MEXC | 12s | 17/61 | 0.04 | 0.10 | -0.19 |
+| Erken dönüş | MEXC | 24s | 0/61 | — | — | — |
+| Erken dönüş | MEXC | 48s | 0/61 | — | — | — |
+| Erken dönüş | OKX | 12s | 13/70 | 0.26 | 0.32 | -0.53 |
+| Erken dönüş | OKX | 24s | 0/70 | — | — | — |
+| Erken dönüş | OKX | 48s | 0/70 | — | — | — |
+| Yatay fiyat / hacim artışı | MEXC | 12s | 10/52 | -0.23 | -0.17 | -0.27 |
+| Yatay fiyat / hacim artışı | MEXC | 24s | 0/52 | — | — | — |
+| Yatay fiyat / hacim artışı | MEXC | 48s | 0/52 | — | — | — |
+| Yatay fiyat / hacim artışı | OKX | 12s | 5/57 | -0.80 | -0.74 | -1.17 |
+| Yatay fiyat / hacim artışı | OKX | 24s | 0/57 | — | — | — |
+| Yatay fiyat / hacim artışı | OKX | 48s | 0/57 | — | — | — |
+| Yeni kırılım | MEXC | 12s | 8/25 | -0.76 | -0.71 | -1.29 |
+| Yeni kırılım | MEXC | 24s | 0/25 | — | — | — |
+| Yeni kırılım | MEXC | 48s | 0/25 | — | — | — |
 | Yeni kırılım | OKX | 12s | 4/27 | -0.34 | -0.28 | -1.98 |
 | Yeni kırılım | OKX | 24s | 0/27 | — | — | — |
 | Yeni kırılım | OKX | 48s | 0/27 | — | — | — |
-| Tutunma | MEXC | 12s | 2/8 | 1.07 | 1.12 | 0.08 |
-| Tutunma | MEXC | 24s | 0/8 | — | — | — |
-| Tutunma | MEXC | 48s | 0/8 | — | — | — |
+| Tutunma | MEXC | 12s | 2/10 | 1.07 | 1.12 | 0.08 |
+| Tutunma | MEXC | 24s | 0/10 | — | — | — |
+| Tutunma | MEXC | 48s | 0/10 | — | — | — |
+| Tutunma | OKX | 12s | 0/2 | — | — | — |
+| Tutunma | OKX | 24s | 0/2 | — | — | — |
+| Tutunma | OKX | 48s | 0/2 | — | — | — |
 
 ## Önceki V4 kayıtları — yeni kayıt alınmıyor
 
@@ -627,7 +478,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | Borsa | Süre | Ölçülen | Medyan % | BTC üstü puan | Kontrol üstü puan | Kontrol ölçülen |
 |---|---:|---:|---:|---:|---:|---:|
 | MEXC | 12s | 8/8 | -2.13 | -1.79 | -2.12 | 8 |
-| MEXC | 24s | 4/8 | -5.25 | -4.69 | -2.80 | 4 |
+| MEXC | 24s | 5/8 | -1.27 | -0.70 | -1.73 | 5 |
 | MEXC | 48s | 0/8 | — | — | — | 0 |
 
 | Coin | Borsa | İlk grup | Gerçek gözlem TR | Referans fiyat | 12s % | 24s % | 48s % |
@@ -636,7 +487,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | CAPUSDT | MEXC | Tutunma | 26.10.2026 00:23 | 0.10956 | -21.28 | -9.24 | — |
 | CPHUSDT | MEXC | Tutunma | 26.10.2026 11:48 | 0.0035595 | -3.05 | — | — |
 | GBCKUSDT | MEXC | Yeni kırılım | 26.10.2026 00:23 | 0.0048565 | -0.59 | -1.27 | — |
-| MIUUSDT | MEXC | Yeni kırılım | 26.10.2026 03:52 | 8.85e-10 | 5.08 | — | — |
+| MIUUSDT | MEXC | Yeni kırılım | 26.10.2026 03:52 | 8.85e-10 | 5.08 | 3.95 | — |
 | NEXUSDT | MEXC | Yeni kırılım | 26.10.2026 11:48 | 7.95e-07 | -10.87 | — | — |
 | STONKSUSDT | MEXC | Yeni kırılım | 26.10.2026 00:23 | 0.0020883 | -19.28 | -24.35 | — |
 | TAUSDT | MEXC | Yeni kırılım | 26.10.2026 00:23 | 0.06203 | -1.21 | -0.18 | — |
