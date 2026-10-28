@@ -22,7 +22,7 @@ jobs:
       SCANNER_STATE_BRANCH: scanner-state-v5
       STRENGTH_MIGRATE_FROM_BRANCH: scanner-state-v4
       COIN_SCAN_LABEL: Coin Tarama 3
-      NOTIFICATION_CHANNEL: ${{ vars.NOTIFICATION_CHANNEL || 'report' }}
+      NOTIFICATION_CHANNEL: report # Candidate messages muted; scans and measurements continue.
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
