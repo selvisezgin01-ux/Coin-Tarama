@@ -4,13 +4,12 @@
   "venues": {
     "OKX": {
       "active": [
-        "BNBUSDT",
-        "XCRWVUSDT",
-        "XAAOIUSDT",
+        "OFCUSDT",
+        "XARMUSDT",
+        "XMRVLUSDT",
+        "OLUSDT",
         "XPLUSDT",
-        "XNBISUSDT",
-        "NOTUSDT",
-        "SHIBUSDT"
+        "BICOUSDT"
       ],
       "last_alert": {
         "CHIPUSDT": 1793026195761,
@@ -71,12 +70,17 @@
         "BNBUSDT": 1793192266004,
         "XPLUSDT": 1793192266004,
         "NOTUSDT": 1793192266004,
-        "SHIBUSDT": 1793192266004
+        "SHIBUSDT": 1793192266004,
+        "OFCUSDT": 1793206469125,
+        "XARMUSDT": 1793206469125,
+        "OLUSDT": 1793206469125,
+        "BICOUSDT": 1793206469125
       },
       "ever_seen": [
         "API3USDT",
         "ASTRUSDT",
         "BCHUSDT",
+        "BICOUSDT",
         "BNBUSDT",
         "BOMEUSDT",
         "CELOUSDT",
@@ -90,6 +94,8 @@
         "LINKUSDT",
         "NIGHTUSDT",
         "NOTUSDT",
+        "OFCUSDT",
+        "OLUSDT",
         "PONSUSDT",
         "PYTHUSDT",
         "SCRUSDT",
@@ -100,6 +106,7 @@
         "XAMDUSDT",
         "XAMZNUSDT",
         "XAPLDUSDT",
+        "XARMUSDT",
         "XAVGOUSDT",
         "XBEUSDT",
         "XBOTUSDT",
@@ -136,268 +143,232 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793192139689,
-        "feature_cutoff_ms": 1793188800000,
+        "observed_ms": 1793206379252,
+        "feature_cutoff_ms": 1793203200000,
         "universe_count": 462,
-        "prefilter_count": 230,
-        "analyzed_count": 214,
+        "prefilter_count": 162,
+        "analyzed_count": 155,
         "candidates": [
           {
             "exchange": "OKX",
-            "symbol": "BNBUSDT",
-            "observed_ms": 1793192139689,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 755.86,
-            "spread_pct": 0.007937977932414129,
-            "return24_pct": 2.77834055945001,
-            "relative24_pct_points": 0.998771810779675,
-            "quote_volume24": 6048971.447858781,
+            "symbol": "OFCUSDT",
+            "observed_ms": 1793206379252,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.006808,
+            "spread_pct": 0.3525264394829571,
+            "return24_pct": 3.203592814371259,
+            "relative24_pct_points": 3.2064479462224904,
+            "quote_volume24": 296731.7877779999,
             "liquidity_band": "main",
-            "breakout_level": 754.4,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 1.9905806256963139,
-            "strength_score": 80,
+            "breakout_level": 0.006778,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 2.554960625704208,
+            "strength_score": 100,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 739.9082218353564,
-            "atr": 8.167112658574789,
-            "close": 760.94,
+            "invalidation_level": 0.006200135503152905,
+            "atr": 0.00029945798738838296,
+            "close": 0.006894,
             "paper_controls": [
               {
-                "symbol": "OKBUSDT",
-                "entry_price": 110.215
+                "symbol": "CARDSUSDT",
+                "entry_price": 0.2965
               },
               {
-                "symbol": "XSNDKUSDT",
-                "entry_price": 1353.35
+                "symbol": "AEONUSDT",
+                "entry_price": 0.028165
               },
               {
-                "symbol": "LTCUSDT",
-                "entry_price": 57.315
+                "symbol": "PROSUSDT",
+                "entry_price": 0.62895
               }
             ],
-            "paper_btc_price": 80789.15
+            "paper_btc_price": 80444.95
           },
           {
             "exchange": "OKX",
-            "symbol": "XCRWVUSDT",
-            "observed_ms": 1793192139689,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 60.96,
-            "spread_pct": 0.09842519685039743,
-            "return24_pct": 7.8620206618805755,
-            "relative24_pct_points": 6.082451913210241,
-            "quote_volume24": 101747.88511359994,
-            "liquidity_band": "main",
-            "breakout_level": 60.32,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 6.559779125090591,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 58.85936233897414,
-            "atr": 1.64255064410346,
-            "close": 61.6,
-            "paper_controls": [
-              {
-                "symbol": "ARKMUSDT",
-                "entry_price": 0.119675
-              },
-              {
-                "symbol": "XBEUSDT",
-                "entry_price": 224.745
-              },
-              {
-                "symbol": "SAFEUSDT",
-                "entry_price": 0.10292
-              }
-            ],
-            "paper_btc_price": 80789.15
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XAAOIUSDT",
-            "observed_ms": 1793192139689,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 78.095,
-            "spread_pct": 0.08963441961712425,
-            "return24_pct": 7.168021680216818,
-            "relative24_pct_points": 5.3884529315464835,
-            "quote_volume24": 85129.02201109997,
+            "symbol": "XARMUSDT",
+            "observed_ms": 1793206379252,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 232.88,
+            "spread_pct": 0.1116454826520057,
+            "return24_pct": 2.7898981885495333,
+            "relative24_pct_points": 2.792753320400765,
+            "quote_volume24": 24028.196863699974,
             "liquidity_band": "thin",
-            "breakout_level": 78.83,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 6.955297181283933,
-            "strength_score": 75,
+            "breakout_level": 233.17,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 2.5185252930259714,
+            "strength_score": 100,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 75.8415997366157,
-            "atr": 2.193601053537169,
-            "close": 79.09,
+            "invalidation_level": 227.77653116880748,
+            "atr": 3.693875324770063,
+            "close": 233.22,
             "paper_controls": [
               {
-                "symbol": "ARKMUSDT",
-                "entry_price": 0.119675
+                "symbol": "GOATUSDT",
+                "entry_price": 0.013999999999999999
               },
               {
-                "symbol": "TOSHIUSDT",
-                "entry_price": 0.00011053
+                "symbol": "MEMEUSDT",
+                "entry_price": 0.0004695
               },
               {
-                "symbol": "ACEUSDT",
-                "entry_price": 0.14448
+                "symbol": "GMTUSDT",
+                "entry_price": 0.0068605
               }
             ],
-            "paper_btc_price": 80789.15
+            "paper_btc_price": 80444.95
+          },
+          {
+            "exchange": "OKX",
+            "symbol": "XMRVLUSDT",
+            "observed_ms": 1793206379252,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 249.12,
+            "spread_pct": 0.04014129736672861,
+            "return24_pct": 2.632227332457293,
+            "relative24_pct_points": 2.6350824643085247,
+            "quote_volume24": 465185.7191183998,
+            "liquidity_band": "main",
+            "breakout_level": 249.65,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 2.3635310263733307,
+            "strength_score": 100,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 245.359744676368,
+            "atr": 4.6810212945280005,
+            "close": 249.93,
+            "paper_controls": [
+              {
+                "symbol": "ORDIUSDT",
+                "entry_price": 3.617
+              },
+              {
+                "symbol": "CROUSDT",
+                "entry_price": 0.05312
+              },
+              {
+                "symbol": "ENSUSDT",
+                "entry_price": 5.2475000000000005
+              }
+            ],
+            "paper_btc_price": 80444.95
+          },
+          {
+            "exchange": "OKX",
+            "symbol": "OLUSDT",
+            "observed_ms": 1793206379252,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.0072724999999999995,
+            "spread_pct": 0.31625988312134184,
+            "return24_pct": 12.007317478795931,
+            "relative24_pct_points": 12.010172610647164,
+            "quote_volume24": 388941.4496774,
+            "liquidity_band": "main",
+            "breakout_level": 0.006608,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 5.2818552063862825,
+            "strength_score": 75,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 0.0059447005654338315,
+            "atr": 0.0002491977382646743,
+            "close": 0.006735,
+            "paper_controls": [
+              {
+                "symbol": "MEWUSDT",
+                "entry_price": 0.0004421
+              },
+              {
+                "symbol": "AIUSDT",
+                "entry_price": 0.017759999999999998
+              },
+              {
+                "symbol": "XNBISUSDT",
+                "entry_price": 171.325
+              }
+            ],
+            "paper_btc_price": 80444.95
           },
           {
             "exchange": "OKX",
             "symbol": "XPLUSDT",
-            "observed_ms": 1793192139689,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 0.075495,
-            "spread_pct": 0.039737730975545886,
-            "return24_pct": 6.749407335099722,
-            "relative24_pct_points": 4.969838586429387,
-            "quote_volume24": 2337792.347625299,
+            "observed_ms": 1793206379252,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.076065,
+            "spread_pct": 0.013146650890680503,
+            "return24_pct": 5.237515225334954,
+            "relative24_pct_points": 5.240370357186186,
+            "quote_volume24": 2636804.8681796994,
             "liquidity_band": "main",
             "breakout_level": 0.0754,
             "breakout_open_ms": 1793160000000.0,
             "breakout_volume_ratio": 2.5241866601031093,
             "strength_score": 75,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.0730880783207844,
-            "atr": 0.0018876867168624125,
-            "close": 0.07655,
+            "breakout_age_bars": 2.0,
+            "invalidation_level": 0.07371071558559163,
+            "atr": 0.0019571376576334914,
+            "close": 0.07776,
             "paper_controls": [
               {
                 "symbol": "DOTUSDT",
-                "entry_price": 1.00095
+                "entry_price": 0.99005
               },
               {
                 "symbol": "XSKHYUSDT",
-                "entry_price": 155.765
+                "entry_price": 163.575
               },
               {
-                "symbol": "ONDOUSDT",
-                "entry_price": 0.41645
+                "symbol": "NIGHTUSDT",
+                "entry_price": 0.0399255
               }
             ],
-            "paper_btc_price": 80789.15
+            "paper_btc_price": 80444.95
           },
           {
             "exchange": "OKX",
-            "symbol": "XNBISUSDT",
-            "observed_ms": 1793192139689,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 175.285,
-            "spread_pct": 0.07416493139743587,
-            "return24_pct": 10.977149349829585,
-            "relative24_pct_points": 9.197580601159249,
-            "quote_volume24": 314359.3278107998,
+            "symbol": "BICOUSDT",
+            "observed_ms": 1793206379252,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.01578,
+            "spread_pct": 0.12674271229403794,
+            "return24_pct": 2.720207253885998,
+            "relative24_pct_points": 2.7230623857372294,
+            "quote_volume24": 290923.75631474477,
             "liquidity_band": "main",
-            "breakout_level": 174.78,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 1.7758272963516448,
-            "strength_score": 55,
+            "breakout_level": 0.0158,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 4.851749838777771,
+            "strength_score": 75,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 169.51716437154835,
-            "atr": 4.971342513806548,
-            "close": 175.81,
+            "invalidation_level": 0.0154007658669902,
+            "atr": 0.00035693653203919723,
+            "close": 0.01586,
             "paper_controls": [
               {
-                "symbol": "PROSUSDT",
-                "entry_price": 0.63115
+                "symbol": "ARUSDT",
+                "entry_price": 3.4585
               },
               {
-                "symbol": "2ZUSDT",
-                "entry_price": 0.02851
+                "symbol": "APEUSDT",
+                "entry_price": 0.122045
               },
               {
-                "symbol": "MEWUSDT",
-                "entry_price": 0.00044865
+                "symbol": "XVRTUSDT",
+                "entry_price": 236.385
               }
             ],
-            "paper_btc_price": 80789.15
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "NOTUSDT",
-            "observed_ms": 1793192139689,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 0.00038385000000000003,
-            "spread_pct": 0.13025921583952382,
-            "return24_pct": 4.9215792320173035,
-            "relative24_pct_points": 3.1420104833469686,
-            "quote_volume24": 30786.76102787997,
-            "liquidity_band": "thin",
-            "breakout_level": 0.0003857,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 1.4973050271192214,
-            "strength_score": 55,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.00037716721737999815,
-            "atr": 6.931130480007312e-06,
-            "close": 0.000388,
-            "paper_controls": [
-              {
-                "symbol": "XALABUSDT",
-                "entry_price": 292.955
-              },
-              {
-                "symbol": "SPACEUSDT",
-                "entry_price": 0.0036945
-              },
-              {
-                "symbol": "LUNAUSDT",
-                "entry_price": 0.04256
-              }
-            ],
-            "paper_btc_price": 80789.15
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "SHIBUSDT",
-            "observed_ms": 1793192139689,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 4.96e-06,
-            "spread_pct": 0.040322580645147245,
-            "return24_pct": 3.7927461139896312,
-            "relative24_pct_points": 2.0131773653192964,
-            "quote_volume24": 1815327.8019092702,
-            "liquidity_band": "main",
-            "breakout_level": 4.994e-06,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 1.5654733711138429,
-            "strength_score": 55,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 4.87578206766372e-06,
-            "atr": 6.88717293451206e-08,
-            "close": 5.008e-06,
-            "paper_controls": [
-              {
-                "symbol": "GRAMUSDT",
-                "entry_price": 1.2280000000000002
-              },
-              {
-                "symbol": "AVAXUSDT",
-                "entry_price": 8.882
-              },
-              {
-                "symbol": "XLMUSDT",
-                "entry_price": 0.16965999999999998
-              }
-            ],
-            "paper_btc_price": 80789.15
+            "paper_btc_price": 80444.95
           }
         ]
       }
     },
     "MEXC": {
       "active": [
-        "BNBUSDT",
-        "RECALLUSDT",
-        "IOUSDT",
-        "FHEUSDT",
+        "LYNUSDT",
+        "POWERUSDT",
         "XPLUSDT",
-        "SHIBUSDT",
+        "IDOLUSDT",
+        "FLUXUSDT",
         "XPRUSDT"
       ],
       "last_alert": {
@@ -450,7 +421,9 @@
         "IOUSDT": 1793192266004,
         "FHEUSDT": 1793192266004,
         "XPLUSDT": 1793192266004,
-        "SHIBUSDT": 1793192266004
+        "SHIBUSDT": 1793192266004,
+        "POWERUSDT": 1793206469125,
+        "FLUXUSDT": 1793206469125
       },
       "ever_seen": [
         "4USDT",
@@ -468,6 +441,7 @@
         "CLANKERUSDT",
         "FHEUSDT",
         "FIGHTUSDT",
+        "FLUXUSDT",
         "GBCKUSDT",
         "GIGGLEUSDT",
         "GRASSUSDT",
@@ -483,6 +457,7 @@
         "NILUSDT",
         "PEPEUSDT",
         "PONSUSDT",
+        "POWERUSDT",
         "PYTHUSDT",
         "RECALLUSDT",
         "REZUSDT",
@@ -506,263 +481,451 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793192265900,
-        "feature_cutoff_ms": 1793188800000,
-        "universe_count": 1249,
-        "prefilter_count": 632,
-        "analyzed_count": 624,
+        "observed_ms": 1793206469035,
+        "feature_cutoff_ms": 1793203200000,
+        "universe_count": 1246,
+        "prefilter_count": 448,
+        "analyzed_count": 440,
         "candidates": [
           {
             "exchange": "MEXC",
-            "symbol": "BNBUSDT",
-            "observed_ms": 1793192265900,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 755.295,
-            "spread_pct": 0.001323985992226998,
-            "return24_pct": 2.7561713390590326,
-            "relative24_pct_points": 0.9638777285646105,
-            "quote_volume24": 19239539.340000004,
+            "symbol": "LYNUSDT",
+            "observed_ms": 1793206469035,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.01595,
+            "spread_pct": 0.2507836990595727,
+            "return24_pct": 12.695035460992909,
+            "relative24_pct_points": 12.716606219285719,
+            "quote_volume24": 346043.0221699998,
             "liquidity_band": "main",
-            "breakout_level": 754.06,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 2.3907563609162668,
+            "breakout_level": 0.0158,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 3.5810425374456063,
             "strength_score": 100,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 739.8939992121659,
-            "atr": 7.98400315133627,
-            "close": 760.93,
+            "invalidation_level": 0.014027393232674311,
+            "atr": 0.0006104270693027544,
+            "close": 0.01589,
             "paper_controls": [
               {
-                "symbol": "SOLUSDT",
-                "entry_price": 101.555
+                "symbol": "NAORISUSDT",
+                "entry_price": 0.035265000000000005
               },
               {
-                "symbol": "DOGEUSDT",
-                "entry_price": 0.079275
+                "symbol": "BSBUSDT",
+                "entry_price": 0.102865
               },
               {
-                "symbol": "LTCUSDT",
-                "entry_price": 57.305
+                "symbol": "LABUSDT",
+                "entry_price": 0.045985
               }
             ],
-            "paper_btc_price": 80743.525
+            "paper_btc_price": 80594.875
           },
           {
             "exchange": "MEXC",
-            "symbol": "RECALLUSDT",
-            "observed_ms": 1793192265900,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 0.039720000000000005,
-            "spread_pct": 0.604229607250748,
-            "return24_pct": 8.548168249660781,
-            "relative24_pct_points": 6.755874639166359,
-            "quote_volume24": 61082.56613000001,
-            "liquidity_band": "thin",
-            "breakout_level": 0.03853,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 1.3439025071606638,
+            "symbol": "POWERUSDT",
+            "observed_ms": 1793206469035,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.084515,
+            "spread_pct": 0.10648997219427658,
+            "return24_pct": 6.938312097893284,
+            "relative24_pct_points": 6.959882856186095,
+            "quote_volume24": 215377.38292,
+            "liquidity_band": "main",
+            "breakout_level": 0.08444,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 1.640655499084214,
             "strength_score": 80,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 0.03710200431722511,
-            "atr": 0.001031982731099563,
-            "close": 0.04,
+            "invalidation_level": 0.07990760867144371,
+            "atr": 0.0026495653142251424,
+            "close": 0.08477,
             "paper_controls": [
               {
-                "symbol": "GUNUSDT",
-                "entry_price": 0.0021655
+                "symbol": "NIGHTUSDT",
+                "entry_price": 0.040035
               },
               {
-                "symbol": "XPINUSDT",
-                "entry_price": 0.00073045
+                "symbol": "DEODUSDT",
+                "entry_price": 0.0175625
               },
               {
-                "symbol": "MAGICUSDT",
-                "entry_price": 0.08258
+                "symbol": "RIVERUSDT",
+                "entry_price": 1.0452
               }
             ],
-            "paper_btc_price": 80743.525
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "IOUSDT",
-            "observed_ms": 1793192265900,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 0.15134999999999998,
-            "spread_pct": 0.09250082590023208,
-            "return24_pct": 8.200965642712177,
-            "relative24_pct_points": 6.408672032217755,
-            "quote_volume24": 461458.55654,
-            "liquidity_band": "main",
-            "breakout_level": 0.15235,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 4.761465734811616,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.1469492384291568,
-            "atr": 0.003723046283372842,
-            "close": 0.15463,
-            "paper_controls": [
-              {
-                "symbol": "BONKUSDT",
-                "entry_price": 3.059e-06
-              },
-              {
-                "symbol": "NESUSDT",
-                "entry_price": 0.113115
-              },
-              {
-                "symbol": "KASUSDT",
-                "entry_price": 0.035823
-              }
-            ],
-            "paper_btc_price": 80743.525
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "FHEUSDT",
-            "observed_ms": 1793192265900,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 0.018725,
-            "spread_pct": 0.26702269692922814,
-            "return24_pct": 6.7080045095828655,
-            "relative24_pct_points": 4.9157108990884435,
-            "quote_volume24": 81806.5303,
-            "liquidity_band": "thin",
-            "breakout_level": 0.01876,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 1.4131425013707706,
-            "strength_score": 70,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.01820078237318313,
-            "atr": 0.000516870507267479,
-            "close": 0.01893,
-            "paper_controls": [
-              {
-                "symbol": "OMIUSDT",
-                "entry_price": 0.0002685
-              },
-              {
-                "symbol": "VINEUSDT",
-                "entry_price": 0.007267
-              },
-              {
-                "symbol": "DTECUSDT",
-                "entry_price": 0.0032695
-              }
-            ],
-            "paper_btc_price": 80743.525
+            "paper_btc_price": 80594.875
           },
           {
             "exchange": "MEXC",
             "symbol": "XPLUSDT",
-            "observed_ms": 1793192265900,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 0.0754,
-            "spread_pct": 0.026525198939000166,
-            "return24_pct": 6.792189679218974,
-            "relative24_pct_points": 4.999896068724552,
-            "quote_volume24": 356187.71409,
+            "observed_ms": 1793206469035,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.076225,
+            "spread_pct": 0.013119055428022303,
+            "return24_pct": 5.264582487481406,
+            "relative24_pct_points": 5.286153245774217,
+            "quote_volume24": 380405.02522,
             "liquidity_band": "main",
             "breakout_level": 0.07536,
             "breakout_open_ms": 1793160000000.0,
             "breakout_volume_ratio": 1.4979853573154298,
             "strength_score": 55,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.07306314362840041,
-            "atr": 0.0018674254863983507,
-            "close": 0.07657,
+            "breakout_age_bars": 2.0,
+            "invalidation_level": 0.07370595479983028,
+            "atr": 0.0019361808006789292,
+            "close": 0.07778,
             "paper_controls": [
               {
-                "symbol": "SEDAUSDT",
-                "entry_price": 0.01719
-              },
-              {
                 "symbol": "NESUSDT",
-                "entry_price": 0.113115
+                "entry_price": 0.11344000000000001
               },
               {
-                "symbol": "FETUSDT",
-                "entry_price": 0.18095
+                "symbol": "BSBUSDT",
+                "entry_price": 0.102865
+              },
+              {
+                "symbol": "COCAUSDT",
+                "entry_price": 0.9983150000000001
               }
             ],
-            "paper_btc_price": 80743.525
+            "paper_btc_price": 80594.875
           },
           {
             "exchange": "MEXC",
-            "symbol": "SHIBUSDT",
-            "observed_ms": 1793192265900,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 4.9589999999999994e-06,
-            "spread_pct": 0.04033071183706696,
-            "return24_pct": 3.814262023217263,
-            "relative24_pct_points": 2.021968412722841,
-            "quote_volume24": 661912.3851354619,
-            "liquidity_band": "main",
-            "breakout_level": 4.991e-06,
-            "breakout_open_ms": 1793174400000.0,
-            "breakout_volume_ratio": 1.7322290005042211,
+            "symbol": "IDOLUSDT",
+            "observed_ms": 1793206469035,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.008537,
+            "spread_pct": 0.28112920229588517,
+            "return24_pct": 4.957369062119366,
+            "relative24_pct_points": 4.978939820412176,
+            "quote_volume24": 73483.769775,
+            "liquidity_band": "thin",
+            "breakout_level": 0.008602,
+            "breakout_open_ms": 1793188800000.0,
+            "breakout_volume_ratio": 1.786166083371939,
             "strength_score": 55,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 4.872580915926848e-06,
-            "atr": 6.967633629260677e-08,
-            "close": 5.008e-06,
+            "invalidation_level": 0.008196009300517273,
+            "atr": 0.0002199627979309077,
+            "close": 0.008617,
             "paper_controls": [
               {
-                "symbol": "AVAXUSDT",
-                "entry_price": 8.8775
+                "symbol": "VANAUSDT",
+                "entry_price": 0.8511500000000001
               },
               {
-                "symbol": "GRAMUSDT",
-                "entry_price": 1.2285
+                "symbol": "AIAUSDT",
+                "entry_price": 0.071945
               },
               {
-                "symbol": "CAKEUSDT",
-                "entry_price": 2.0945
+                "symbol": "COAIUSDT",
+                "entry_price": 0.25305
               }
             ],
-            "paper_btc_price": 80743.525
+            "paper_btc_price": 80594.875
+          },
+          {
+            "exchange": "MEXC",
+            "symbol": "FLUXUSDT",
+            "observed_ms": 1793206469035,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.06795000000000001,
+            "spread_pct": 0.1471670345842573,
+            "return24_pct": 4.515536506964635,
+            "relative24_pct_points": 4.537107265257445,
+            "quote_volume24": 68282.67863,
+            "liquidity_band": "thin",
+            "breakout_level": 0.06719,
+            "breakout_open_ms": 1793174400000.0,
+            "breakout_volume_ratio": 1.7785072619996094,
+            "strength_score": 55,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 0.06508849941894602,
+            "atr": 0.00172600232421589,
+            "close": 0.06828,
+            "paper_controls": [
+              {
+                "symbol": "CATIUSDT",
+                "entry_price": 0.042905
+              },
+              {
+                "symbol": "ONEUSDT",
+                "entry_price": 0.0012896000000000001
+              },
+              {
+                "symbol": "TRACUSDT",
+                "entry_price": 0.36695
+              }
+            ],
+            "paper_btc_price": 80594.875
           },
           {
             "exchange": "MEXC",
             "symbol": "XPRUSDT",
-            "observed_ms": 1793192265900,
-            "feature_cutoff_ms": 1793188800000,
-            "mid_price": 0.0019142,
-            "spread_pct": 0.6373419705359926,
-            "return24_pct": 3.7000814995925113,
-            "relative24_pct_points": 1.9077878890980893,
-            "quote_volume24": 62448.403299,
+            "observed_ms": 1793206469035,
+            "feature_cutoff_ms": 1793203200000,
+            "mid_price": 0.0019150999999999999,
+            "spread_pct": 0.64748577097801,
+            "return24_pct": 4.084278768233385,
+            "relative24_pct_points": 4.105849526526195,
+            "quote_volume24": 66089.0003834,
             "liquidity_band": "thin",
             "breakout_level": 0.0018798,
             "breakout_open_ms": 1793160000000.0,
             "breakout_volume_ratio": 1.4233990563321708,
             "strength_score": 55,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.0018359622104609599,
-            "atr": 3.37511581561602e-05,
-            "close": 0.0019086,
+            "breakout_age_bars": 2.0,
+            "invalidation_level": 0.0018471863383154998,
+            "atr": 3.405464673800108e-05,
+            "close": 0.0019266,
             "paper_controls": [
               {
-                "symbol": "COOKIEUSDT",
-                "entry_price": 0.00894
+                "symbol": "WAXPUSDT",
+                "entry_price": 0.004688
               },
               {
-                "symbol": "NEIROCTOUSDT",
-                "entry_price": 6.748e-05
+                "symbol": "NOTUSDT",
+                "entry_price": 0.00038334999999999997
               },
               {
-                "symbol": "LOTUSDT",
-                "entry_price": 0.0056545
+                "symbol": "RIFUSDT",
+                "entry_price": 0.07145499999999999
               }
             ],
-            "paper_btc_price": 80743.525
+            "paper_btc_price": 80594.875
           }
         ]
       }
     }
   },
-  "pending": [],
-  "updated_ms": 1793192266004,
+  "pending": [
+    {
+      "id": "98001da8c4ce10f834184a1f",
+      "created_ms": 1793206469125,
+      "candidates": [
+        {
+          "exchange": "OKX",
+          "symbol": "OFCUSDT",
+          "observed_ms": 1793206379252,
+          "feature_cutoff_ms": 1793203200000,
+          "mid_price": 0.006808,
+          "spread_pct": 0.3525264394829571,
+          "return24_pct": 3.203592814371259,
+          "relative24_pct_points": 3.2064479462224904,
+          "quote_volume24": 296731.7877779999,
+          "liquidity_band": "main",
+          "breakout_level": 0.006778,
+          "breakout_open_ms": 1793188800000.0,
+          "breakout_volume_ratio": 2.554960625704208,
+          "strength_score": 100,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 0.006200135503152905,
+          "atr": 0.00029945798738838296,
+          "close": 0.006894,
+          "paper_controls": [
+            {
+              "symbol": "CARDSUSDT",
+              "entry_price": 0.2965
+            },
+            {
+              "symbol": "AEONUSDT",
+              "entry_price": 0.028165
+            },
+            {
+              "symbol": "PROSUSDT",
+              "entry_price": 0.62895
+            }
+          ],
+          "paper_btc_price": 80444.95,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "XARMUSDT",
+          "observed_ms": 1793206379252,
+          "feature_cutoff_ms": 1793203200000,
+          "mid_price": 232.88,
+          "spread_pct": 0.1116454826520057,
+          "return24_pct": 2.7898981885495333,
+          "relative24_pct_points": 2.792753320400765,
+          "quote_volume24": 24028.196863699974,
+          "liquidity_band": "thin",
+          "breakout_level": 233.17,
+          "breakout_open_ms": 1793188800000.0,
+          "breakout_volume_ratio": 2.5185252930259714,
+          "strength_score": 100,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 227.77653116880748,
+          "atr": 3.693875324770063,
+          "close": 233.22,
+          "paper_controls": [
+            {
+              "symbol": "GOATUSDT",
+              "entry_price": 0.013999999999999999
+            },
+            {
+              "symbol": "MEMEUSDT",
+              "entry_price": 0.0004695
+            },
+            {
+              "symbol": "GMTUSDT",
+              "entry_price": 0.0068605
+            }
+          ],
+          "paper_btc_price": 80444.95,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "OLUSDT",
+          "observed_ms": 1793206379252,
+          "feature_cutoff_ms": 1793203200000,
+          "mid_price": 0.0072724999999999995,
+          "spread_pct": 0.31625988312134184,
+          "return24_pct": 12.007317478795931,
+          "relative24_pct_points": 12.010172610647164,
+          "quote_volume24": 388941.4496774,
+          "liquidity_band": "main",
+          "breakout_level": 0.006608,
+          "breakout_open_ms": 1793188800000.0,
+          "breakout_volume_ratio": 5.2818552063862825,
+          "strength_score": 75,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 0.0059447005654338315,
+          "atr": 0.0002491977382646743,
+          "close": 0.006735,
+          "paper_controls": [
+            {
+              "symbol": "MEWUSDT",
+              "entry_price": 0.0004421
+            },
+            {
+              "symbol": "AIUSDT",
+              "entry_price": 0.017759999999999998
+            },
+            {
+              "symbol": "XNBISUSDT",
+              "entry_price": 171.325
+            }
+          ],
+          "paper_btc_price": 80444.95,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "BICOUSDT",
+          "observed_ms": 1793206379252,
+          "feature_cutoff_ms": 1793203200000,
+          "mid_price": 0.01578,
+          "spread_pct": 0.12674271229403794,
+          "return24_pct": 2.720207253885998,
+          "relative24_pct_points": 2.7230623857372294,
+          "quote_volume24": 290923.75631474477,
+          "liquidity_band": "main",
+          "breakout_level": 0.0158,
+          "breakout_open_ms": 1793188800000.0,
+          "breakout_volume_ratio": 4.851749838777771,
+          "strength_score": 75,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 0.0154007658669902,
+          "atr": 0.00035693653203919723,
+          "close": 0.01586,
+          "paper_controls": [
+            {
+              "symbol": "ARUSDT",
+              "entry_price": 3.4585
+            },
+            {
+              "symbol": "APEUSDT",
+              "entry_price": 0.122045
+            },
+            {
+              "symbol": "XVRTUSDT",
+              "entry_price": 236.385
+            }
+          ],
+          "paper_btc_price": 80444.95,
+          "arrival": "new"
+        },
+        {
+          "exchange": "MEXC",
+          "symbol": "POWERUSDT",
+          "observed_ms": 1793206469035,
+          "feature_cutoff_ms": 1793203200000,
+          "mid_price": 0.084515,
+          "spread_pct": 0.10648997219427658,
+          "return24_pct": 6.938312097893284,
+          "relative24_pct_points": 6.959882856186095,
+          "quote_volume24": 215377.38292,
+          "liquidity_band": "main",
+          "breakout_level": 0.08444,
+          "breakout_open_ms": 1793188800000.0,
+          "breakout_volume_ratio": 1.640655499084214,
+          "strength_score": 80,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 0.07990760867144371,
+          "atr": 0.0026495653142251424,
+          "close": 0.08477,
+          "paper_controls": [
+            {
+              "symbol": "NIGHTUSDT",
+              "entry_price": 0.040035
+            },
+            {
+              "symbol": "DEODUSDT",
+              "entry_price": 0.0175625
+            },
+            {
+              "symbol": "RIVERUSDT",
+              "entry_price": 1.0452
+            }
+          ],
+          "paper_btc_price": 80594.875,
+          "arrival": "new"
+        },
+        {
+          "exchange": "MEXC",
+          "symbol": "FLUXUSDT",
+          "observed_ms": 1793206469035,
+          "feature_cutoff_ms": 1793203200000,
+          "mid_price": 0.06795000000000001,
+          "spread_pct": 0.1471670345842573,
+          "return24_pct": 4.515536506964635,
+          "relative24_pct_points": 4.537107265257445,
+          "quote_volume24": 68282.67863,
+          "liquidity_band": "thin",
+          "breakout_level": 0.06719,
+          "breakout_open_ms": 1793174400000.0,
+          "breakout_volume_ratio": 1.7785072619996094,
+          "strength_score": 55,
+          "breakout_age_bars": 1.0,
+          "invalidation_level": 0.06508849941894602,
+          "atr": 0.00172600232421589,
+          "close": 0.06828,
+          "paper_controls": [
+            {
+              "symbol": "CATIUSDT",
+              "entry_price": 0.042905
+            },
+            {
+              "symbol": "ONEUSDT",
+              "entry_price": 0.0012896000000000001
+            },
+            {
+              "symbol": "TRACUSDT",
+              "entry_price": 0.36695
+            }
+          ],
+          "paper_btc_price": 80594.875,
+          "arrival": "new"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1793206469125,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -1082,6 +1245,17 @@
             "control_excess_pct_points": 4.441349375025361,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793198900396,
+            "endpoint_ms": 1793198940000,
+            "endpoint_delay_ms": 39604,
+            "endpoint_price": 0.05051,
+            "return_pct": -2.1218874140102706,
+            "btc_excess_pct_points": -2.8033029950929933,
+            "control_excess_pct_points": -0.7240680122769683,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1135,6 +1309,17 @@
             "return_pct": -3.903505865199819,
             "btc_excess_pct_points": -4.110746616012017,
             "control_excess_pct_points": -6.651761506049548,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793198900396,
+            "endpoint_ms": 1793198940000,
+            "endpoint_delay_ms": 39604,
+            "endpoint_price": 0.0714,
+            "return_pct": -5.361521638279532,
+            "btc_excess_pct_points": -6.042937219362255,
+            "control_excess_pct_points": -7.8948654943287515,
             "complete": true,
             "controls_count": 3
           }
@@ -1192,6 +1377,17 @@
             "control_excess_pct_points": -3.421676456014866,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793198900396,
+            "endpoint_ms": 1793198940000,
+            "endpoint_delay_ms": 39604,
+            "endpoint_price": 0.006335,
+            "return_pct": -0.8994915917090229,
+            "btc_excess_pct_points": -1.5809071727917456,
+            "control_excess_pct_points": -2.1167806243464926,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1245,6 +1441,17 @@
             "return_pct": 2.1661639703866253,
             "btc_excess_pct_points": 2.172300232662794,
             "control_excess_pct_points": 0.6065180521626523,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793198995669,
+            "endpoint_ms": 1793199000000,
+            "endpoint_delay_ms": 4331,
+            "endpoint_price": 0.004006,
+            "return_pct": 9.843707156567039,
+            "btc_excess_pct_points": 9.41336516491571,
+            "control_excess_pct_points": 7.435979359565903,
             "complete": true,
             "controls_count": 3
           }
@@ -1302,6 +1509,17 @@
             "control_excess_pct_points": -1.9395605241003806,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793198995669,
+            "endpoint_ms": 1793199000000,
+            "endpoint_delay_ms": 4331,
+            "endpoint_price": 0.07146,
+            "return_pct": -5.625990491283694,
+            "btc_excess_pct_points": -6.056332482935023,
+            "control_excess_pct_points": -7.534770881076747,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1355,6 +1573,17 @@
             "return_pct": 0.8481110254433322,
             "btc_excess_pct_points": 0.8542472877195006,
             "control_excess_pct_points": -1.404332663464447,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793198995669,
+            "endpoint_ms": 1793199000000,
+            "endpoint_delay_ms": 4331,
+            "endpoint_price": 0.05045,
+            "return_pct": -2.7563608326908184,
+            "btc_excess_pct_points": -3.186702824342147,
+            "control_excess_pct_points": -7.2187492729798075,
             "complete": true,
             "controls_count": 3
           }
@@ -1412,6 +1641,17 @@
             "control_excess_pct_points": 1.918867847325934,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793198995669,
+            "endpoint_ms": 1793199000000,
+            "endpoint_delay_ms": 4331,
+            "endpoint_price": 0.006348,
+            "return_pct": -0.9208678008428173,
+            "btc_excess_pct_points": -1.3512097924941457,
+            "control_excess_pct_points": 5.751922343959426,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1465,6 +1705,17 @@
             "return_pct": -0.6931030564708673,
             "btc_excess_pct_points": -1.4275862314199972,
             "control_excess_pct_points": -4.657747903713549,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206096948,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 43052,
+            "endpoint_price": 0.039979,
+            "return_pct": 0.9455996162052394,
+            "btc_excess_pct_points": 0.28305713209944017,
+            "control_excess_pct_points": 2.1689391409602465,
             "complete": true,
             "controls_count": 3
           }
@@ -1522,6 +1773,17 @@
             "control_excess_pct_points": 5.537059945479772,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206096948,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 43052,
+            "endpoint_price": 895.41,
+            "return_pct": 9.177035768065412,
+            "btc_excess_pct_points": 8.514493283959613,
+            "control_excess_pct_points": 8.819892910922556,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1575,6 +1837,17 @@
             "return_pct": 2.970623831004504,
             "btc_excess_pct_points": 2.2361406560553743,
             "control_excess_pct_points": 2.886613749794753,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206096948,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 43052,
+            "endpoint_price": 94.05,
+            "return_pct": 3.4767301133237893,
+            "btc_excess_pct_points": 2.81418762921799,
+            "control_excess_pct_points": 3.0566797072750562,
             "complete": true,
             "controls_count": 3
           }
@@ -1632,6 +1905,17 @@
             "control_excess_pct_points": 8.31210612663571,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206096948,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 43052,
+            "endpoint_price": 57.67,
+            "return_pct": 5.8359331987520635,
+            "btc_excess_pct_points": 5.173390714646264,
+            "control_excess_pct_points": 5.880573208955509,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1685,6 +1969,17 @@
             "return_pct": 6.9200293158571125,
             "btc_excess_pct_points": 6.185546140907983,
             "control_excess_pct_points": 6.281561638283284,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206096948,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 43052,
+            "endpoint_price": 493.46,
+            "return_pct": 4.827556905690034,
+            "btc_excess_pct_points": 4.165014421584234,
+            "control_excess_pct_points": 3.9895680788743837,
             "complete": true,
             "controls_count": 3
           }
@@ -1742,6 +2037,17 @@
             "control_excess_pct_points": 2.924360284774008,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206096948,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 43052,
+            "endpoint_price": 347.72,
+            "return_pct": 5.649829092290171,
+            "btc_excess_pct_points": 4.987286608184371,
+            "control_excess_pct_points": 6.8924326425860105,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1795,6 +2101,17 @@
             "return_pct": 0.4398826979472137,
             "btc_excess_pct_points": -0.2958298465112419,
             "control_excess_pct_points": 1.722053384979605,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206178527,
+            "endpoint_ms": 1793206200000,
+            "endpoint_delay_ms": 21473,
+            "endpoint_price": 13.45,
+            "return_pct": -1.3929618768328544,
+            "btc_excess_pct_points": -2.0780676371922824,
+            "control_excess_pct_points": 0.20587082007192947,
             "complete": true,
             "controls_count": 3
           }
@@ -1852,6 +2169,17 @@
             "control_excess_pct_points": 3.3950327432148653,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206178527,
+            "endpoint_ms": 1793206200000,
+            "endpoint_delay_ms": 21473,
+            "endpoint_price": 0.00296,
+            "return_pct": 5.903398926654746,
+            "btc_excess_pct_points": 5.218293166295318,
+            "control_excess_pct_points": 2.110707562418024,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1907,6 +2235,17 @@
             "control_excess_pct_points": -2.461235250943239,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206178527,
+            "endpoint_ms": 1793206200000,
+            "endpoint_delay_ms": 21473,
+            "endpoint_price": 0.3777,
+            "return_pct": 0.6528980679546992,
+            "btc_excess_pct_points": -0.03220769240472876,
+            "control_excess_pct_points": -1.4769054404958126,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -1960,6 +2299,17 @@
             "return_pct": -0.7313997477932044,
             "btc_excess_pct_points": -1.46711229225166,
             "control_excess_pct_points": 0.5507709392391869,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793206178527,
+            "endpoint_ms": 1793206200000,
+            "endpoint_delay_ms": 21473,
+            "endpoint_price": 0.03996,
+            "return_pct": 0.7818411097099576,
+            "btc_excess_pct_points": 0.09673534935052963,
+            "control_excess_pct_points": 2.3806738066147415,
             "complete": true,
             "controls_count": 3
           }
@@ -3051,6 +3401,17 @@
             "control_excess_pct_points": -0.7229231203278896,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 1266.16,
+            "return_pct": -3.353573595807935,
+            "btc_excess_pct_points": -3.2928929665926754,
+            "control_excess_pct_points": -2.6471586516495282,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3093,6 +3454,17 @@
             "return_pct": 3.0695559306852305,
             "btc_excess_pct_points": 2.4692710981718324,
             "control_excess_pct_points": 1.2442837647317129,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 288.22,
+            "return_pct": -0.7062390188445122,
+            "btc_excess_pct_points": -0.6455583896292527,
+            "control_excess_pct_points": -0.34335108080626453,
             "complete": true,
             "controls_count": 3
           }
@@ -3139,6 +3511,17 @@
             "control_excess_pct_points": -0.6775919344943926,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 0.012686,
+            "return_pct": -0.6383395339729758,
+            "btc_excess_pct_points": -0.5776589047577163,
+            "control_excess_pct_points": -0.10953352228357804,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3181,6 +3564,17 @@
             "return_pct": 2.7664180899687363,
             "btc_excess_pct_points": 2.1661332574553382,
             "control_excess_pct_points": 1.3372086214560097,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 0.02083,
+            "return_pct": 0.21650228530192273,
+            "btc_excess_pct_points": 0.27718291451718224,
+            "control_excess_pct_points": 0.5291418565390837,
             "complete": true,
             "controls_count": 3
           }
@@ -3227,6 +3621,17 @@
             "control_excess_pct_points": 6.9408319626864445,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 9.99,
+            "return_pct": 10.368447218693033,
+            "btc_excess_pct_points": 10.429127847908292,
+            "control_excess_pct_points": 11.895601651055454,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3269,6 +3674,17 @@
             "return_pct": 0.36419398121525504,
             "btc_excess_pct_points": -0.236090851298143,
             "control_excess_pct_points": -1.0650154872974715,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 27.11,
+            "return_pct": 3.9294613762698827,
+            "btc_excess_pct_points": 3.990142005485142,
+            "control_excess_pct_points": 5.426897273705789,
             "complete": true,
             "controls_count": 3
           }
@@ -3315,6 +3731,17 @@
             "control_excess_pct_points": -0.34084412747414916,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 0.07483,
+            "return_pct": -2.016498625114571,
+            "btc_excess_pct_points": -1.9558179958993116,
+            "control_excess_pct_points": -0.4733304062816246,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3357,6 +3784,17 @@
             "return_pct": 3.987460335665416,
             "btc_excess_pct_points": 3.387175503152018,
             "control_excess_pct_points": 2.3607226840830497,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 1375.4,
+            "return_pct": 5.164965401231036,
+            "btc_excess_pct_points": 5.2256460304462955,
+            "control_excess_pct_points": 5.527853339269284,
             "complete": true,
             "controls_count": 3
           }
@@ -3403,6 +3841,17 @@
             "control_excess_pct_points": 1.6135405042572826,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 164.51,
+            "return_pct": 4.493918124940444,
+            "btc_excess_pct_points": 4.554598754155704,
+            "control_excess_pct_points": 4.349617980640308,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3445,6 +3894,17 @@
             "return_pct": 2.0136599152143164,
             "btc_excess_pct_points": 1.4133750827009184,
             "control_excess_pct_points": 1.9674491943270533,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 171.4,
+            "return_pct": 0.9185115402732036,
+            "btc_excess_pct_points": 0.9791921694884631,
+            "control_excess_pct_points": 2.3061874257656823,
             "complete": true,
             "controls_count": 3
           }
@@ -3491,6 +3951,17 @@
             "control_excess_pct_points": 0.44599895651600274,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 130.63,
+            "return_pct": -0.4761723362919468,
+            "btc_excess_pct_points": -0.41549170707668726,
+            "control_excess_pct_points": 0.4145688584453189,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3533,6 +4004,17 @@
             "return_pct": 0.8138351983723258,
             "btc_excess_pct_points": 0.21355036585892773,
             "control_excess_pct_points": -0.9895990927658138,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 0.10306,
+            "return_pct": -4.688800517895131,
+            "btc_excess_pct_points": -4.628119888679871,
+            "control_excess_pct_points": -4.95044363668109,
             "complete": true,
             "controls_count": 3
           }
@@ -3579,6 +4061,17 @@
             "control_excess_pct_points": 0.602801727666602,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 30.31,
+            "return_pct": 5.923466713262271,
+            "btc_excess_pct_points": 5.984147342477531,
+            "control_excess_pct_points": 5.0497095574924655,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3621,6 +4114,17 @@
             "return_pct": 1.6670941266991646,
             "btc_excess_pct_points": 1.0668092941857665,
             "control_excess_pct_points": 1.07303472075857,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 19.46,
+            "return_pct": -0.17953321364451158,
+            "btc_excess_pct_points": -0.11885258442925206,
+            "control_excess_pct_points": -4.94594362168711,
             "complete": true,
             "controls_count": 3
           }
@@ -3667,6 +4171,17 @@
             "control_excess_pct_points": -1.555694676501218,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 7.706,
+            "return_pct": -5.0926781205739236,
+            "btc_excess_pct_points": -5.0319974913586645,
+            "control_excess_pct_points": -3.243332157560841,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3709,6 +4224,17 @@
             "return_pct": 1.5311733355891866,
             "btc_excess_pct_points": 0.9308885030757885,
             "control_excess_pct_points": -0.8272463729882551,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 60.16,
+            "return_pct": 1.7849589713222036,
+            "btc_excess_pct_points": 1.8456396005374631,
+            "control_excess_pct_points": 3.2823948687581095,
             "complete": true,
             "controls_count": 3
           }
@@ -3755,6 +4281,17 @@
             "control_excess_pct_points": -3.1889834863626842,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 0.07941,
+            "return_pct": -3.341245207230248,
+            "btc_excess_pct_points": -3.2805645780149884,
+            "control_excess_pct_points": -4.048640705622519,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3797,6 +4334,17 @@
             "return_pct": 2.0415670406473962,
             "btc_excess_pct_points": 1.4412822081339982,
             "control_excess_pct_points": 0.2881896333464473,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206244793,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 15207,
+            "endpoint_price": 27.19,
+            "return_pct": 0.018392495861685454,
+            "btc_excess_pct_points": 0.07907312507694497,
+            "control_excess_pct_points": -1.505033776055531,
             "complete": true,
             "controls_count": 3
           }
@@ -3843,6 +4391,17 @@
             "control_excess_pct_points": 1.463868184828443,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 288.1,
+            "return_pct": -0.7065311046010492,
+            "btc_excess_pct_points": -0.6188601364332635,
+            "control_excess_pct_points": 0.08627499457571908,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3885,6 +4444,17 @@
             "return_pct": 1.4474899907606975,
             "btc_excess_pct_points": 0.8958254376811414,
             "control_excess_pct_points": 1.7588352761035209,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 0.004772,
+            "return_pct": -2.0223796324812526,
+            "btc_excess_pct_points": -1.934708664313467,
+            "control_excess_pct_points": -5.430070887442239,
             "complete": true,
             "controls_count": 3
           }
@@ -3931,6 +4501,17 @@
             "control_excess_pct_points": 0.14363702939477196,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 1266.21,
+            "return_pct": -3.4845741944089847,
+            "btc_excess_pct_points": -3.396903226241199,
+            "control_excess_pct_points": -2.6917680952322165,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -3973,6 +4554,17 @@
             "return_pct": 1.555411535968898,
             "btc_excess_pct_points": 1.003746982889342,
             "control_excess_pct_points": 0.9466134212791966,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 30.76,
+            "return_pct": -0.3240440699935121,
+            "btc_excess_pct_points": -0.23637310182572646,
+            "control_excess_pct_points": 1.168493243439317,
             "complete": true,
             "controls_count": 3
           }
@@ -4019,6 +4611,17 @@
             "control_excess_pct_points": 2.394747262262853,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 0.2439,
+            "return_pct": 2.7812895069532217,
+            "btc_excess_pct_points": 2.8689604751210074,
+            "control_excess_pct_points": 4.475008631865007,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -4061,6 +4664,17 @@
             "return_pct": 0.7119943666379802,
             "btc_excess_pct_points": 0.16032981355842413,
             "control_excess_pct_points": -0.07847666747138327,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 0.012691,
+            "return_pct": -0.7041702527188942,
+            "btc_excess_pct_points": -0.6164992845511086,
+            "control_excess_pct_points": 0.5627490759221532,
             "complete": true,
             "controls_count": 3
           }
@@ -4107,6 +4721,17 @@
             "control_excess_pct_points": 7.282586376538203,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 0.04592,
+            "return_pct": 4.221516114389479,
+            "btc_excess_pct_points": 4.309187082557264,
+            "control_excess_pct_points": 6.302567593031316,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -4151,6 +4776,17 @@
             "control_excess_pct_points": -1.4889416285912893,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 7.703,
+            "return_pct": -5.1705035085559565,
+            "btc_excess_pct_points": -5.082832540388171,
+            "control_excess_pct_points": -4.377697409379188,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -4193,6 +4829,17 @@
             "return_pct": -1.2928611579539173,
             "btc_excess_pct_points": -1.8445257110334734,
             "control_excess_pct_points": -1.4518436698776171,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793206368134,
+            "endpoint_ms": 1793206380000,
+            "endpoint_delay_ms": 11866,
+            "endpoint_price": 0.01683,
+            "return_pct": -5.396290050590213,
+            "btc_excess_pct_points": -5.308619082422428,
+            "control_excess_pct_points": -1.679483375278712,
             "complete": true,
             "controls_count": 3
           }
@@ -4932,7 +5579,19 @@
             "price": 0.0087545
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793192333299,
+            "endpoint_ms": 1793192340000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.012655,
+            "return_pct": 44.55422925352674,
+            "btc_excess_pct_points": 44.54645758430162,
+            "control_excess_pct_points": 46.16732238905011,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:PEPEUSDT": {
         "symbol": "PEPEUSDT",
@@ -4964,7 +5623,19 @@
             "price": 4.5965e-06
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793192333299,
+            "endpoint_ms": 1793192340000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 4.899e-06,
+            "return_pct": 6.581094310888713,
+            "btc_excess_pct_points": 6.573322641663593,
+            "control_excess_pct_points": 7.786289521310352,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:CASHCATUSDT": {
         "symbol": "CASHCATUSDT",
@@ -4996,7 +5667,19 @@
             "price": 0.102495
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793192333299,
+            "endpoint_ms": 1793192340000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.0986,
+            "return_pct": -3.8001853748963477,
+            "btc_excess_pct_points": -3.8079570441214683,
+            "control_excess_pct_points": -1.1009331407179856,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:PONSUSDT": {
         "symbol": "PONSUSDT",
@@ -5028,7 +5711,19 @@
             "price": 0.27815449999999997
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793192333299,
+            "endpoint_ms": 1793192340000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.284854,
+            "return_pct": 2.408553519716561,
+            "btc_excess_pct_points": 2.40078185049144,
+            "control_excess_pct_points": 3.304453802119889,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:TROLLSOLUSDT": {
         "symbol": "TROLLSOLUSDT",
@@ -5060,7 +5755,19 @@
             "price": 0.031703499999999996
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793192333299,
+            "endpoint_ms": 1793192340000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.031551,
+            "return_pct": -0.48101944580248857,
+            "btc_excess_pct_points": -0.4887911150276092,
+            "control_excess_pct_points": -0.6444753710797779,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:4USDT": {
         "symbol": "4USDT",
@@ -5092,7 +5799,19 @@
             "price": 0.012660000000000001
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793192333299,
+            "endpoint_ms": 1793192340000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.01233,
+            "return_pct": -2.6066350710900466,
+            "btc_excess_pct_points": -2.614406740315167,
+            "control_excess_pct_points": 0.04477436234562315,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:XBOTUSDT": {
         "symbol": "XBOTUSDT",
@@ -5124,7 +5843,19 @@
             "price": 24.67
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793206073944,
+            "endpoint_ms": 1793206080000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 23.69,
+            "return_pct": -3.972436157276049,
+            "btc_excess_pct_points": -3.2538776445397044,
+            "control_excess_pct_points": -2.8079062427461388,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:BOMEUSDT": {
         "symbol": "BOMEUSDT",
@@ -5156,7 +5887,19 @@
             "price": 0.00065185
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793206073944,
+            "endpoint_ms": 1793206080000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 0.0006303,
+            "return_pct": -3.3059753010662107,
+            "btc_excess_pct_points": -2.587416788329866,
+            "control_excess_pct_points": -1.701084204390635,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:FLOKIUSDT": {
         "symbol": "FLOKIUSDT",
@@ -5188,7 +5931,19 @@
             "price": 2.37e-05
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793206073944,
+            "endpoint_ms": 1793206080000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 2.353e-05,
+            "return_pct": -0.7172995780590719,
+            "btc_excess_pct_points": 0.0012589346772728938,
+            "control_excess_pct_points": 0.7161217723747337,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:XLRCXUSDT": {
         "symbol": "XLRCXUSDT",
@@ -5220,7 +5975,19 @@
             "price": 243.885
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793206073944,
+            "endpoint_ms": 1793206080000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 254.26,
+            "return_pct": 4.254054164872789,
+            "btc_excess_pct_points": 4.972612677609134,
+            "control_excess_pct_points": 5.954852498784624,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:XAMZNUSDT": {
         "symbol": "XAMZNUSDT",
@@ -5252,7 +6019,19 @@
             "price": 254.66500000000002
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793206073944,
+            "endpoint_ms": 1793206080000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 252.98,
+            "return_pct": -0.661653544853058,
+            "btc_excess_pct_points": 0.056904967883286695,
+            "control_excess_pct_points": 0.008049107169449954,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:XAMATUSDT": {
         "symbol": "XAMATUSDT",
@@ -5284,7 +6063,19 @@
             "price": 401.765
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793206073944,
+            "endpoint_ms": 1793206080000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 414.86,
+            "return_pct": 3.2593680385299972,
+            "btc_excess_pct_points": 3.977926551266342,
+            "control_excess_pct_points": 4.22978223971342,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:GIGGLEUSDT": {
         "symbol": "GIGGLEUSDT",
@@ -5316,7 +6107,19 @@
             "price": 31.47
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793206224260,
+            "endpoint_ms": 1793206260000,
+            "endpoint_delay_ms": 35740,
+            "endpoint_price": 31.07,
+            "return_pct": -1.271051795360656,
+            "btc_excess_pct_points": -0.6201267408678768,
+            "control_excess_pct_points": -0.08469028204911577,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:LINKUSDT": {
         "symbol": "LINKUSDT",
@@ -5733,9 +6536,201 @@
           }
         ],
         "outcomes": {}
+      },
+      "OKX:OFCUSDT": {
+        "symbol": "OFCUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793206379252,
+        "entry_price": 0.006808,
+        "btc_entry_price": 80444.95,
+        "controls": [
+          {
+            "symbol": "CARDSUSDT",
+            "entry_price": 0.2965
+          },
+          {
+            "symbol": "AEONUSDT",
+            "entry_price": 0.028165
+          },
+          {
+            "symbol": "PROSUSDT",
+            "entry_price": 0.62895
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793206379252,
+            "price": 0.006808
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:XARMUSDT": {
+        "symbol": "XARMUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793206379252,
+        "entry_price": 232.88,
+        "btc_entry_price": 80444.95,
+        "controls": [
+          {
+            "symbol": "GOATUSDT",
+            "entry_price": 0.013999999999999999
+          },
+          {
+            "symbol": "MEMEUSDT",
+            "entry_price": 0.0004695
+          },
+          {
+            "symbol": "GMTUSDT",
+            "entry_price": 0.0068605
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793206379252,
+            "price": 232.88
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:OLUSDT": {
+        "symbol": "OLUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793206379252,
+        "entry_price": 0.0072724999999999995,
+        "btc_entry_price": 80444.95,
+        "controls": [
+          {
+            "symbol": "MEWUSDT",
+            "entry_price": 0.0004421
+          },
+          {
+            "symbol": "AIUSDT",
+            "entry_price": 0.017759999999999998
+          },
+          {
+            "symbol": "XNBISUSDT",
+            "entry_price": 171.325
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793206379252,
+            "price": 0.0072724999999999995
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:BICOUSDT": {
+        "symbol": "BICOUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793206379252,
+        "entry_price": 0.01578,
+        "btc_entry_price": 80444.95,
+        "controls": [
+          {
+            "symbol": "ARUSDT",
+            "entry_price": 3.4585
+          },
+          {
+            "symbol": "APEUSDT",
+            "entry_price": 0.122045
+          },
+          {
+            "symbol": "XVRTUSDT",
+            "entry_price": 236.385
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793206379252,
+            "price": 0.01578
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:POWERUSDT": {
+        "symbol": "POWERUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1793206469035,
+        "entry_price": 0.084515,
+        "btc_entry_price": 80594.875,
+        "controls": [
+          {
+            "symbol": "NIGHTUSDT",
+            "entry_price": 0.040035
+          },
+          {
+            "symbol": "DEODUSDT",
+            "entry_price": 0.0175625
+          },
+          {
+            "symbol": "RIVERUSDT",
+            "entry_price": 1.0452
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793206469035,
+            "price": 0.084515
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:FLUXUSDT": {
+        "symbol": "FLUXUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1793206469035,
+        "entry_price": 0.06795000000000001,
+        "btc_entry_price": 80594.875,
+        "controls": [
+          {
+            "symbol": "CATIUSDT",
+            "entry_price": 0.042905
+          },
+          {
+            "symbol": "ONEUSDT",
+            "entry_price": 0.0012896000000000001
+          },
+          {
+            "symbol": "TRACUSDT",
+            "entry_price": 0.36695
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793206469035,
+            "price": 0.06795000000000001
+          }
+        ],
+        "outcomes": {}
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793192266004
+    "asof_ms": 1793206469125
   }
 }
