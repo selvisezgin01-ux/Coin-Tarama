@@ -1,6 +1,6 @@
 # Coin Tarama 5
 
-Son gözlem: 29.10.2026 00:32 TR.
+Son gözlem: 29.10.2026 01:12 TR.
 
 Bağımsız fiyat + pozisyon davranışı deneyi. 4s genel yapı, 1s hazırlık bağlamı, kapalı 15dk mumla kırılım/geri test; yaklaşık 5dk kamu veri kontrolü. GitHub gecikebilir/atlayabilir. Fiyat düşmezken OI ve kaynak grubun short payı artışı aranır; negatif fonlama yalnız ek destek.
 
@@ -11,13 +11,13 @@ Aktif 0 farklı coin; sınır 5. Hazırlık/tetik aynı coin için iki bağıms�
 
 Şu an doğrulanmış hazırlık/tetik yok. İlk OI ve oran bazları yaklaşık 45–75dk aralığında gerçek gözlemler biriktirir; kapsam rotasyonu/sağlayıcı/GitHub gecikmesi bunu uzatabilir.
 
-OKX: {"cursor": 36, "coverage": {"active_spot": 372, "liquid_spot_perpetual": 122, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": ["XLMUSDT BINANCE: BINANCE: public HTTP 451", "ADAUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 53, "futures": 5, "ratios": {"OKX": 3, "BINANCE": 1}}}
+OKX: {"cursor": 48, "coverage": {"active_spot": 372, "liquid_spot_perpetual": 122, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": ["CCUSDT BINANCE: BINANCE: public HTTP 451"], "calls": {"spot": 52, "futures": 4, "ratios": {"OKX": 2, "BINANCE": 1}}}
 
-MEXC: {"cursor": 36, "coverage": {"active_spot": 1246, "liquid_spot_perpetual": 106, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 51, "futures": 2, "ratios": {"OKX": 0, "BINANCE": 0}}}
+MEXC: {"cursor": 48, "coverage": {"active_spot": 1246, "liquid_spot_perpetual": 106, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": ["IRYSUSDT BINANCE: BINANCE: public HTTP 451", "STRKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BTWUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 55, "futures": 5, "ratios": {"OKX": 4, "BINANCE": 1}}}
 
 ## Eleme ve veri durumu
 
-{"oi_growth_insufficient": 23, "short_increase_unconfirmed": 24, "btc_relative_weak": 7, "spot_futures_basis": 1, "price_not_holding_or_extended": 3, "1h_structure_weak": 1, "price_preparation_not_ready": 22}
+{"oi_growth_insufficient": 24, "short_increase_unconfirmed": 24, "btc_relative_weak": 11, "price_not_holding_or_extended": 7, "1h_structure_weak": 2, "price_preparation_not_ready": 20}
 
 Bekleyen mesaj: 0. Deneysel eşikler başarı olasılığı değildir; yalnız sinyal sayısını artırmak için değiştirilmez.
 
