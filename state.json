@@ -94273,9 +94273,31 @@
               "1.0": -0.6858948301984515
             },
             "measured_ms": 1793192173513
+          },
+          "12": {
+            "target_ms": 1793206122627,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 17373,
+            "endpoint_price": 131.44,
+            "return_pct": -2.85650936772478,
+            "btc_excess_pct_points": -2.213601290582723,
+            "control_excess_pct_points": -1.5788942492792057,
+            "mae_pct": -3.2703891208750724,
+            "mfe_pct": 0.9792690587930863,
+            "path_complete": true,
+            "minute_bars": 720,
+            "range_start_ms": 1793162940000,
+            "ignored_entry_fragment_ms": 17373,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -3.05650936772478,
+              "0.5": -3.35650936772478,
+              "1.0": -3.85650936772478
+            },
+            "measured_ms": 1793220408742
           }
         },
-        "last_measure_attempt_ms": 1793192173513
+        "last_measure_attempt_ms": 1793220408742
       },
       "XRPUSDT": {
         "symbol": "XRPUSDT",
@@ -94653,7 +94675,31 @@
         "feature_cutoff_ms": 1793188800000,
         "source_lag_minutes": 56.223533333333336,
         "entry_spread_pct": 0.00529513773976564,
-        "outcomes": {}
+        "outcomes": {
+          "6": {
+            "target_ms": 1793213773412,
+            "endpoint_ms": 1793213820000,
+            "endpoint_delay_ms": 46588,
+            "endpoint_price": 750.11,
+            "return_pct": -0.7016057505195739,
+            "btc_excess_pct_points": -0.9357168850531727,
+            "control_excess_pct_points": -1.1200569886429368,
+            "mae_pct": -1.1940535603182312,
+            "mfe_pct": 0.018532982089203287,
+            "path_complete": true,
+            "minute_bars": 360,
+            "range_start_ms": 1793192220000,
+            "ignored_entry_fragment_ms": 46588,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -0.9016057505195738,
+              "0.5": -1.2016057505195739,
+              "1.0": -1.7016057505195739
+            },
+            "measured_ms": 1793220408742
+          }
+        },
+        "last_measure_attempt_ms": 1793220408742
       },
       "PONSUSDT": {
         "symbol": "PONSUSDT",
@@ -94705,7 +94751,31 @@
         "feature_cutoff_ms": 1793188800000,
         "source_lag_minutes": 56.223533333333336,
         "entry_spread_pct": 0.06726240260597674,
-        "outcomes": {}
+        "outcomes": {
+          "6": {
+            "target_ms": 1793213773412,
+            "endpoint_ms": 1793213820000,
+            "endpoint_delay_ms": 46588,
+            "endpoint_price": 0.281608,
+            "return_pct": -0.8291587797684463,
+            "btc_excess_pct_points": -1.0632699143020452,
+            "control_excess_pct_points": -1.6559646979581788,
+            "mae_pct": -2.2842804947836415,
+            "mfe_pct": 2.6255227362768085,
+            "path_complete": true,
+            "minute_bars": 360,
+            "range_start_ms": 1793192220000,
+            "ignored_entry_fragment_ms": 46588,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -1.0291587797684463,
+              "0.5": -1.3291587797684463,
+              "1.0": -1.8291587797684463
+            },
+            "measured_ms": 1793220408742
+          }
+        },
+        "last_measure_attempt_ms": 1793220408742
       },
       "PROSUSDT": {
         "symbol": "PROSUSDT",
@@ -94757,7 +94827,31 @@
         "feature_cutoff_ms": 1793188800000,
         "source_lag_minutes": 56.218716666666666,
         "entry_spread_pct": 0.1427551748750911,
-        "outcomes": {}
+        "outcomes": {
+          "6": {
+            "target_ms": 1793213773123,
+            "endpoint_ms": 1793213820000,
+            "endpoint_delay_ms": 46877,
+            "endpoint_price": 0.632,
+            "return_pct": 0.2458561345071164,
+            "btc_excess_pct_points": -0.002709582491999818,
+            "control_excess_pct_points": 0.5114294467188252,
+            "mae_pct": -1.3720358474105687,
+            "mfe_pct": 0.6741216591323873,
+            "path_complete": true,
+            "minute_bars": 360,
+            "range_start_ms": 1793192220000,
+            "ignored_entry_fragment_ms": 46877,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": 0.0458561345071164,
+              "0.5": -0.2541438654928836,
+              "1.0": -0.7541438654928836
+            },
+            "measured_ms": 1793220408742
+          }
+        },
+        "last_measure_attempt_ms": 1793220408742
       },
       "XPLUSDT": {
         "symbol": "XPLUSDT",
@@ -94862,41 +94956,304 @@
         "source_lag_minutes": 56.5124,
         "entry_spread_pct": 0.12594458438288827,
         "outcomes": {}
+      },
+      "PENGUUSDT": {
+        "symbol": "PENGUUSDT",
+        "exchange": "OKX",
+        "contract": "PENGU-USDT-SWAP",
+        "observed_ms": 1793220408641,
+        "entry_price": 0.007872500000000001,
+        "btc_entry_price": 81047.65,
+        "controls": [
+          {
+            "symbol": "DASHUSDT",
+            "entry_price": 53.685
+          },
+          {
+            "symbol": "ICPUSDT",
+            "entry_price": 2.635
+          },
+          {
+            "symbol": "RAYUSDT",
+            "entry_price": 1.8226
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 9398135.0,
+          "oi_notional": 7391633.1775,
+          "oi_notional_kind": "provider_USD",
+          "contract": "PENGU-USDT-SWAP",
+          "futures_observed_ms": 1793220399317,
+          "futures_mid": 0.007865500000000001,
+          "futures_spread_pct": 0.01271374992052972,
+          "basis_pct": 0.0381267077587788,
+          "funding_rate": 5e-05,
+          "funding_hours": 4.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793220380846,
+          "oi_change_pct": 0.7290371019006647,
+          "futures_price_change_pct": 1.706859765953328,
+          "elapsed_hours": 3.837727777777778,
+          "baseline_ms": 1793206583497
+        },
+        "cohort_index": 14,
+        "split": "first25",
+        "feature_cutoff_ms": 1793217600000,
+        "source_lag_minutes": 46.81068333333333,
+        "entry_spread_pct": 0.012702445220695652,
+        "outcomes": {}
+      },
+      "ARBUSDT": {
+        "symbol": "ARBUSDT",
+        "exchange": "OKX",
+        "contract": "ARB-USDT-SWAP",
+        "observed_ms": 1793220408641,
+        "entry_price": 0.173985,
+        "btc_entry_price": 81047.65,
+        "controls": [
+          {
+            "symbol": "FILUSDT",
+            "entry_price": 0.91405
+          },
+          {
+            "symbol": "ONDOUSDT",
+            "entry_price": 0.41964999999999997
+          },
+          {
+            "symbol": "STRKUSDT",
+            "entry_price": 0.04734
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 9843164.700000003,
+          "oi_notional": 17124153.628590003,
+          "oi_notional_kind": "provider_USD",
+          "contract": "ARB-USDT-SWAP",
+          "futures_observed_ms": 1793220399317,
+          "futures_mid": 0.173915,
+          "futures_spread_pct": 0.005749935313217518,
+          "basis_pct": 0.02874141350273085,
+          "funding_rate": 0.0001,
+          "funding_hours": 8.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793220379352,
+          "oi_change_pct": -3.6558362160568625,
+          "futures_price_change_pct": 5.002113143754139,
+          "elapsed_hours": 3.837727777777778,
+          "baseline_ms": 1793206583497
+        },
+        "cohort_index": 15,
+        "split": "first25",
+        "feature_cutoff_ms": 1793217600000,
+        "source_lag_minutes": 46.81068333333333,
+        "entry_spread_pct": 0.017242865764275365,
+        "outcomes": {}
+      },
+      "TIAUSDT": {
+        "symbol": "TIAUSDT",
+        "exchange": "OKX",
+        "contract": "TIA-USDT-SWAP",
+        "observed_ms": 1793220408641,
+        "entry_price": 0.5568,
+        "btc_entry_price": 81047.65,
+        "controls": [
+          {
+            "symbol": "DATAUSDT",
+            "entry_price": 0.14555
+          },
+          {
+            "symbol": "VVVUSDT",
+            "entry_price": 23.71
+          },
+          {
+            "symbol": "FETUSDT",
+            "entry_price": 0.1844
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 11818524.0,
+          "oi_notional": 6574644.9012,
+          "oi_notional_kind": "provider_USD",
+          "contract": "TIA-USDT-SWAP",
+          "futures_observed_ms": 1793220399317,
+          "futures_mid": 0.55665,
+          "futures_spread_pct": 0.01796460971885188,
+          "basis_pct": 0.00898311174990507,
+          "funding_rate": 6.1155103202e-06,
+          "funding_hours": 4.0,
+          "funding_scaled_8h": 1.22310206404e-05,
+          "funding_observed_ms": 1793220377783,
+          "oi_change_pct": -4.795536979147618,
+          "futures_price_change_pct": 4.820638357970042,
+          "elapsed_hours": 3.837727777777778,
+          "baseline_ms": 1793206583497
+        },
+        "cohort_index": 16,
+        "split": "first25",
+        "feature_cutoff_ms": 1793217600000,
+        "source_lag_minutes": 46.81068333333333,
+        "entry_spread_pct": 0.03591954022988111,
+        "outcomes": {}
+      },
+      "ICPUSDT": {
+        "symbol": "ICPUSDT",
+        "exchange": "MEXC",
+        "contract": "ICP_USDT",
+        "observed_ms": 1793220408659,
+        "entry_price": 2.6345,
+        "btc_entry_price": 81051.595,
+        "controls": [
+          {
+            "symbol": "ONDOUSDT",
+            "entry_price": 0.419335
+          },
+          {
+            "symbol": "CRVUSDT",
+            "entry_price": 0.33899999999999997
+          },
+          {
+            "symbol": "LINKUSDT",
+            "entry_price": 11.7555
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 491602176.0,
+          "oi_notional": 12941427.283200001,
+          "oi_notional_kind": "estimated_USDT_at_current_mid",
+          "contract": "ICP_USDT",
+          "futures_observed_ms": 1793220398165,
+          "futures_mid": 2.6325000000000003,
+          "futures_spread_pct": 0.037986704653367134,
+          "basis_pct": 0.07591573353576964,
+          "funding_rate": 4.1e-05,
+          "funding_hours": 8.0,
+          "funding_scaled_8h": 4.1e-05,
+          "funding_observed_ms": 1793220402007,
+          "oi_change_pct": 1.7117730107167661,
+          "futures_price_change_pct": 2.054661756154297,
+          "elapsed_hours": 3.838396111111111,
+          "baseline_ms": 1793206579939
+        },
+        "cohort_index": 17,
+        "split": "first25",
+        "feature_cutoff_ms": 1793217600000,
+        "source_lag_minutes": 46.81098333333333,
+        "entry_spread_pct": 0.037957866767883465,
+        "outcomes": {}
+      },
+      "PUMPUSDT": {
+        "symbol": "PUMPUSDT",
+        "exchange": "OKX",
+        "contract": "PUMP-USDT-SWAP",
+        "observed_ms": 1793220408641,
+        "entry_price": 0.0044659999999999995,
+        "btc_entry_price": 81047.65,
+        "controls": [
+          {
+            "symbol": "ZAMAUSDT",
+            "entry_price": 0.074765
+          },
+          {
+            "symbol": "STRKUSDT",
+            "entry_price": 0.04734
+          },
+          {
+            "symbol": "NIGHTUSDT",
+            "entry_price": 0.041103
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 5357458.0,
+          "oi_notional": 23915692.512,
+          "oi_notional_kind": "provider_USD",
+          "contract": "PUMP-USDT-SWAP",
+          "futures_observed_ms": 1793220399317,
+          "futures_mid": 0.0044624999999999995,
+          "futures_spread_pct": 0.02240896358543715,
+          "basis_pct": 0.03360215053764826,
+          "funding_rate": 0.0001,
+          "funding_hours": 8.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793220379676,
+          "oi_change_pct": -1.5623550180808854,
+          "futures_price_change_pct": 6.440071556350602,
+          "elapsed_hours": 3.837727777777778,
+          "baseline_ms": 1793206583497
+        },
+        "cohort_index": 18,
+        "split": "first25",
+        "feature_cutoff_ms": 1793217600000,
+        "source_lag_minutes": 46.81068333333333,
+        "entry_spread_pct": 0.044782803403479586,
+        "outcomes": {}
       }
     },
     "errors": [],
     "registration": {
-      "observed_ms": 1793206590854,
+      "observed_ms": 1793220408742,
       "added": [
-        "XPLUSDT",
-        "BICOUSDT"
+        "PENGUUSDT",
+        "ARBUSDT",
+        "TIAUSDT",
+        "ICPUSDT",
+        "PUMPUSDT"
       ],
       "skipped": {
-        "factor_unknown_or_common_failure": 3
+        "factor_unknown_or_common_failure": 8
       },
       "quote_errors": {}
     },
     "measurement": {
-      "observed_ms": 1793206590854,
-      "pending": 8,
+      "observed_ms": 1793220408742,
+      "pending": 7,
       "attempted": 4,
-      "unique_reads": 24
+      "unique_reads": 19
     },
-    "updated_ms": 1793206590854,
+    "updated_ms": 1793220408742,
     "summaries": {
       "6": {
         "A": {
-          "cases": 13,
-          "measured": 8,
-          "median_return_pct": 0.054497643358897285,
-          "median_btc_excess_pct_points": -0.6713627299248515,
-          "median_controls_excess_pct_points": -0.13031193799476481,
-          "control_comparisons": 8,
-          "median_mae_pct": -0.9682015788262055,
-          "median_mfe_pct": 0.8561069969778345,
+          "cases": 18,
+          "measured": 11,
+          "median_return_pct": 0.048862995677501075,
+          "median_btc_excess_pct_points": -0.6769973776062477,
+          "median_controls_excess_pct_points": -0.2898287608907868,
+          "control_comparisons": 11,
+          "median_mae_pct": -1.1940535603182312,
+          "median_mfe_pct": 0.7329449351625827,
           "positive_after_cost_fraction": {
-            "0.2": 0.375,
-            "0.5": 0.125,
+            "0.2": 0.36363636363636365,
+            "0.5": 0.09090909090909091,
             "1.0": 0.0
           },
           "enough_for_initial_review": false
@@ -94952,14 +95309,14 @@
       },
       "12": {
         "A": {
-          "cases": 13,
-          "measured": 3,
-          "median_return_pct": -3.999302755631007,
-          "median_btc_excess_pct_points": -3.344688692695952,
-          "median_controls_excess_pct_points": -2.2618681786543693,
-          "control_comparisons": 3,
-          "median_mae_pct": -4.204686694758541,
-          "median_mfe_pct": 1.6901861887642866,
+          "cases": 18,
+          "measured": 4,
+          "median_return_pct": -3.427906061677893,
+          "median_btc_excess_pct_points": -2.7791449916393374,
+          "median_controls_excess_pct_points": -1.9203812139667875,
+          "control_comparisons": 4,
+          "median_mae_pct": -3.7375379078168067,
+          "median_mfe_pct": 1.3347276237786865,
           "positive_after_cost_fraction": {
             "0.2": 0.0,
             "0.5": 0.0,
@@ -95018,7 +95375,7 @@
       },
       "24": {
         "A": {
-          "cases": 13,
+          "cases": 18,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -95084,7 +95441,7 @@
       },
       "48": {
         "A": {
-          "cases": 13,
+          "cases": 18,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -95152,14 +95509,14 @@
     "split_summaries": {
       "first25": {
         "A": {
-          "cases": 13,
-          "measured": 3,
-          "median_return_pct": -3.999302755631007,
-          "median_btc_excess_pct_points": -3.344688692695952,
-          "median_controls_excess_pct_points": -2.2618681786543693,
-          "control_comparisons": 3,
-          "median_mae_pct": -4.204686694758541,
-          "median_mfe_pct": 1.6901861887642866,
+          "cases": 18,
+          "measured": 4,
+          "median_return_pct": -3.427906061677893,
+          "median_btc_excess_pct_points": -2.7791449916393374,
+          "median_controls_excess_pct_points": -1.9203812139667875,
+          "control_comparisons": 4,
+          "median_mae_pct": -3.7375379078168067,
+          "median_mfe_pct": 1.3347276237786865,
           "positive_after_cost_fraction": {
             "0.2": 0.0,
             "0.5": 0.0,
