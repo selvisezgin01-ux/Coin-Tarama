@@ -1412,80 +1412,6 @@
       },
       "tier": "watch"
     },
-    "solana:9AADXJiAHq3jmc6PXCAwMco1N7GLmgs9fzo6nRi5RETB": {
-      "latest": {
-        "chain": "solana",
-        "mint": "9AADXJiAHq3jmc6PXCAwMco1N7GLmgs9fzo6nRi5RETB",
-        "pool": "4Cu3npzsvBBvSv9CivERxsf2kpVid6SgjXvYLFVaoPnt",
-        "price_observed_ms": 1793219344864,
-        "symbol": "HACCHAN",
-        "dex": "meteora-damm-v2",
-        "price_usd": 4.125310650943877e-10,
-        "liquidity_usd": 0.6751,
-        "market_cap_usd": null,
-        "fdv_usd": 0.3791859337,
-        "pool_created_ms": 1793213701000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793219344864
-      },
-      "first_seen_ms": 1793213944918,
-      "earliest_pool_created_ms": 1793213701000,
-      "observations": [
-        {
-          "ms": 1793213881301,
-          "price": 0.0001550902014516157,
-          "liquidity": 3350.479
-        },
-        {
-          "ms": 1793214844352,
-          "price": 1.6901899049732e-09,
-          "liquidity": 1.388
-        },
-        {
-          "ms": 1793215146118,
-          "price": 7.116591261714651e-10,
-          "liquidity": 1.543
-        },
-        {
-          "ms": 1793218144880,
-          "price": 4.125310650943877e-10,
-          "liquidity": 0.6762
-        },
-        {
-          "ms": 1793218745402,
-          "price": 4.125310650943877e-10,
-          "liquidity": 0.6762
-        },
-        {
-          "ms": 1793219044459,
-          "price": 4.125310650943877e-10,
-          "liquidity": 0.6762
-        },
-        {
-          "ms": 1793219344864,
-          "price": 4.125310650943877e-10,
-          "liquidity": 0.6751
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 94.07726666666667,
-        "valuation_usd": 0.3791859337,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch"
-    },
     "solana:5XiE2w4PYZS7nyVsP7EyYWxCvXzap4taZW1jKjQUTCNA": {
       "latest": {
         "chain": "solana",
@@ -2790,58 +2716,6 @@
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
-    },
-    "solana:6iNa5XZfSpycdvGsWsGN2qvR5knakrR4gp5kQvR9dMNE": {
-      "latest": {
-        "chain": "solana",
-        "mint": "6iNa5XZfSpycdvGsWsGN2qvR5knakrR4gp5kQvR9dMNE",
-        "pool": "DMJhLeqLjtwJD78AzvtCEokTHMSa3ZYh4rqocnXbkhQW",
-        "price_observed_ms": 1793215146118,
-        "symbol": "OMNI",
-        "dex": "pumpswap",
-        "price_usd": 0.00013552815927388306,
-        "liquidity_usd": 32102.5636,
-        "market_cap_usd": null,
-        "fdv_usd": 121643.0769,
-        "pool_created_ms": 1793213705000,
-        "volume15_usd": 508362.167503352,
-        "buys15": 1768.0,
-        "sells15": 1379.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793215146118
-      },
-      "first_seen_ms": 1793213944918,
-      "earliest_pool_created_ms": 1793213705000,
-      "observations": [
-        {
-          "ms": 1793213881301,
-          "price": 8.61440305423767e-05,
-          "liquidity": 24211.1365
-        },
-        {
-          "ms": 1793214844352,
-          "price": 0.00010611570668229299,
-          "liquidity": 28577.6697
-        },
-        {
-          "ms": 1793215146118,
-          "price": 0.00013552815927388306,
-          "liquidity": 32102.5636
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 24.031933333333335,
-        "valuation_usd": 121643.0769,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "unknown",
-      "last_evaluated_ms": 1793215208067
     },
     "solana:qbAY8N4VFqYjXquc66euhrC7jr4PZrSAxkEWeQY7Qtr": {
       "latest": {
@@ -10671,6 +10545,132 @@
       },
       "tier": "watch"
     },
+    "solana:9AADXJiAHq3jmc6PXCAwMco1N7GLmgs9fzo6nRi5RETB": {
+      "latest": {
+        "chain": "solana",
+        "mint": "9AADXJiAHq3jmc6PXCAwMco1N7GLmgs9fzo6nRi5RETB",
+        "pool": "4Cu3npzsvBBvSv9CivERxsf2kpVid6SgjXvYLFVaoPnt",
+        "price_observed_ms": 1793219344864,
+        "symbol": "HACCHAN",
+        "dex": "meteora-damm-v2",
+        "price_usd": 4.125310650943877e-10,
+        "liquidity_usd": 0.6751,
+        "market_cap_usd": null,
+        "fdv_usd": 0.3791859337,
+        "pool_created_ms": 1793213701000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793219344864
+      },
+      "first_seen_ms": 1793213944918,
+      "earliest_pool_created_ms": 1793213701000,
+      "observations": [
+        {
+          "ms": 1793213881301,
+          "price": 0.0001550902014516157,
+          "liquidity": 3350.479
+        },
+        {
+          "ms": 1793214844352,
+          "price": 1.6901899049732e-09,
+          "liquidity": 1.388
+        },
+        {
+          "ms": 1793215146118,
+          "price": 7.116591261714651e-10,
+          "liquidity": 1.543
+        },
+        {
+          "ms": 1793218144880,
+          "price": 4.125310650943877e-10,
+          "liquidity": 0.6762
+        },
+        {
+          "ms": 1793218745402,
+          "price": 4.125310650943877e-10,
+          "liquidity": 0.6762
+        },
+        {
+          "ms": 1793219044459,
+          "price": 4.125310650943877e-10,
+          "liquidity": 0.6762
+        },
+        {
+          "ms": 1793219344864,
+          "price": 4.125310650943877e-10,
+          "liquidity": 0.6751
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 94.07726666666667,
+        "valuation_usd": 0.3791859337,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "solana:6iNa5XZfSpycdvGsWsGN2qvR5knakrR4gp5kQvR9dMNE": {
+      "latest": {
+        "chain": "solana",
+        "mint": "6iNa5XZfSpycdvGsWsGN2qvR5knakrR4gp5kQvR9dMNE",
+        "pool": "DMJhLeqLjtwJD78AzvtCEokTHMSa3ZYh4rqocnXbkhQW",
+        "price_observed_ms": 1793215146118,
+        "symbol": "OMNI",
+        "dex": "pumpswap",
+        "price_usd": 0.00013552815927388306,
+        "liquidity_usd": 32102.5636,
+        "market_cap_usd": null,
+        "fdv_usd": 121643.0769,
+        "pool_created_ms": 1793213705000,
+        "volume15_usd": 508362.167503352,
+        "buys15": 1768.0,
+        "sells15": 1379.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793215146118
+      },
+      "first_seen_ms": 1793213944918,
+      "earliest_pool_created_ms": 1793213705000,
+      "observations": [
+        {
+          "ms": 1793213881301,
+          "price": 8.61440305423767e-05,
+          "liquidity": 24211.1365
+        },
+        {
+          "ms": 1793214844352,
+          "price": 0.00010611570668229299,
+          "liquidity": 28577.6697
+        },
+        {
+          "ms": 1793215146118,
+          "price": 0.00013552815927388306,
+          "liquidity": 32102.5636
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 24.031933333333335,
+        "valuation_usd": 121643.0769,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "unknown",
+      "last_evaluated_ms": 1793215208067
+    },
     "ethereum:0x1e635120fe4441702d826369114f0665c49ded5e": {
       "latest": {
         "chain": "ethereum",
@@ -11992,146 +11992,6 @@
         "unknown": [],
         "pool_age_minutes": 107.13525,
         "valuation_usd": 3983.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "ethereum:0x995f307fb23484559286b1bf3615626e4eb781a3": {
-      "latest": {
-        "chain": "ethereum",
-        "mint": "0x995f307fb23484559286b1bf3615626e4eb781a3",
-        "pool": "0x527c8f7eb43ddc14f1c384537f55f0a50075da0032bada2b16b4070486c62a55",
-        "price_observed_ms": 1793220687644,
-        "symbol": "LETHE",
-        "dex": "uniswap-v4-ethereum",
-        "price_usd": 3.99730525945071e-06,
-        "liquidity_usd": 4000.0261,
-        "market_cap_usd": 3980.0,
-        "fdv_usd": 3980.0,
-        "pool_created_ms": 1793213735000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793220687644
-      },
-      "first_seen_ms": 1793214257380,
-      "earliest_pool_created_ms": 1793213735000,
-      "observations": [
-        {
-          "ms": 1793214131523,
-          "price": 3.99730525945071e-06,
-          "liquidity": 3998.0384
-        },
-        {
-          "ms": 1793214431345,
-          "price": 3.99730525945071e-06,
-          "liquidity": 3995.6599
-        },
-        {
-          "ms": 1793214731373,
-          "price": 3.99730525945071e-06,
-          "liquidity": 3995.6599
-        },
-        {
-          "ms": 1793215032644,
-          "price": 3.99730525945071e-06,
-          "liquidity": 3995.6599
-        },
-        {
-          "ms": 1793215394460,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4002.8462
-        },
-        {
-          "ms": 1793215635044,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4001.5041
-        },
-        {
-          "ms": 1793215932595,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4001.5381
-        },
-        {
-          "ms": 1793216294449,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4010.4233
-        },
-        {
-          "ms": 1793216531514,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4010.4233
-        },
-        {
-          "ms": 1793216831560,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4011.2388
-        },
-        {
-          "ms": 1793217131529,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4014.3138
-        },
-        {
-          "ms": 1793217494375,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793217731532,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793218031919,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793218332762,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793218633045,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793218931454,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793219231552,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793219488740,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4020.1071
-        },
-        {
-          "ms": 1793220687644,
-          "price": 3.99730525945071e-06,
-          "liquidity": 4000.0261
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 116.93525,
-        "valuation_usd": 3980.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
@@ -19186,6 +19046,146 @@
         "valuation_kind": "market_cap_provider_reported"
       }
     },
+    "ethereum:0x995f307fb23484559286b1bf3615626e4eb781a3": {
+      "latest": {
+        "chain": "ethereum",
+        "mint": "0x995f307fb23484559286b1bf3615626e4eb781a3",
+        "pool": "0x527c8f7eb43ddc14f1c384537f55f0a50075da0032bada2b16b4070486c62a55",
+        "price_observed_ms": 1793220687644,
+        "symbol": "LETHE",
+        "dex": "uniswap-v4-ethereum",
+        "price_usd": 3.99730525945071e-06,
+        "liquidity_usd": 4000.0261,
+        "market_cap_usd": 3980.0,
+        "fdv_usd": 3980.0,
+        "pool_created_ms": 1793213735000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793220687644
+      },
+      "first_seen_ms": 1793214257380,
+      "earliest_pool_created_ms": 1793213735000,
+      "observations": [
+        {
+          "ms": 1793214131523,
+          "price": 3.99730525945071e-06,
+          "liquidity": 3998.0384
+        },
+        {
+          "ms": 1793214431345,
+          "price": 3.99730525945071e-06,
+          "liquidity": 3995.6599
+        },
+        {
+          "ms": 1793214731373,
+          "price": 3.99730525945071e-06,
+          "liquidity": 3995.6599
+        },
+        {
+          "ms": 1793215032644,
+          "price": 3.99730525945071e-06,
+          "liquidity": 3995.6599
+        },
+        {
+          "ms": 1793215394460,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4002.8462
+        },
+        {
+          "ms": 1793215635044,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4001.5041
+        },
+        {
+          "ms": 1793215932595,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4001.5381
+        },
+        {
+          "ms": 1793216294449,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4010.4233
+        },
+        {
+          "ms": 1793216531514,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4010.4233
+        },
+        {
+          "ms": 1793216831560,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4011.2388
+        },
+        {
+          "ms": 1793217131529,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4014.3138
+        },
+        {
+          "ms": 1793217494375,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793217731532,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793218031919,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793218332762,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793218633045,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793218931454,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793219231552,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793219488740,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4020.1071
+        },
+        {
+          "ms": 1793220687644,
+          "price": 3.99730525945071e-06,
+          "liquidity": 4000.0261
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 116.93525,
+        "valuation_usd": 3980.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch"
+    },
     "ethereum:0x64898822bbac317b96a791f0cdafc544dc8c923b": {
       "latest": {
         "chain": "ethereum",
@@ -23886,6 +23886,51 @@
       },
       "tier": "watch"
     },
+    "bnb:0x9d94fabb0e7ff48db83bbdfd8d2e16727cf27777": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x9d94fabb0e7ff48db83bbdfd8d2e16727cf27777",
+        "pool": "0x391a633488e5bef0a2ab6f31b057cb364248b704",
+        "price_observed_ms": 1793220700104,
+        "symbol": "DOG",
+        "dex": "pancakeswap_v2",
+        "price_usd": 6.34541017330643e-10,
+        "liquidity_usd": 0.0752,
+        "market_cap_usd": null,
+        "fdv_usd": 0.6345410173,
+        "pool_created_ms": 1793220002000,
+        "volume15_usd": 16456.9024515039,
+        "buys15": 100.0,
+        "sells15": 104.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793220700104
+      },
+      "first_seen_ms": 1793220825550,
+      "earliest_pool_created_ms": 1793220002000,
+      "observations": [
+        {
+          "ms": 1793220700104,
+          "price": 6.34541017330643e-10,
+          "liquidity": 0.0752
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 13.725833333333334,
+        "valuation_usd": 0.6345410173,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
     "bnb:0x8220278fa7e7ff452e8c8fc8c958d5626b96b0cb": {
       "latest": {
         "chain": "bnb",
@@ -23925,126 +23970,6 @@
         "unknown": [],
         "pool_age_minutes": 21.3925,
         "valuation_usd": 16294610562.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "bnb:0x5c64a6b6faa52791c20e728e1c06255073fd9b54": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x5c64a6b6faa52791c20e728e1c06255073fd9b54",
-        "pool": "0x50d32fd24766da992aab971cf8f843f91907ef5f",
-        "price_observed_ms": 1793219369440,
-        "symbol": "币安天下",
-        "dex": "pancakeswap_v2",
-        "price_usd": 2.20750877462373e-05,
-        "liquidity_usd": 9203.46,
-        "market_cap_usd": 25715693.0,
-        "fdv_usd": 25715693.0,
-        "pool_created_ms": 1793213760000,
-        "volume15_usd": 17048.2427537877,
-        "buys15": 16.0,
-        "sells15": 16.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793219369440
-      },
-      "first_seen_ms": 1793214570106,
-      "earliest_pool_created_ms": 1793213760000,
-      "observations": [
-        {
-          "ms": 1793214443842,
-          "price": 3.99926226863815e-06,
-          "liquidity": 4319.8366
-        },
-        {
-          "ms": 1793214869319,
-          "price": 9.27302264755506e-06,
-          "liquidity": 6384.2982
-        },
-        {
-          "ms": 1793215170586,
-          "price": 9.27302264755506e-06,
-          "liquidity": 6391.1871
-        },
-        {
-          "ms": 1793215469395,
-          "price": 1.54855221227992e-05,
-          "liquidity": 6462.9235
-        },
-        {
-          "ms": 1793215773032,
-          "price": 1.59417059055987e-05,
-          "liquidity": 7674.8109
-        },
-        {
-          "ms": 1793216070652,
-          "price": 1.77150572634277e-05,
-          "liquidity": 7854.6161
-        },
-        {
-          "ms": 1793216369269,
-          "price": 1.80327397106632e-05,
-          "liquidity": 6773.0883
-        },
-        {
-          "ms": 1793216669560,
-          "price": 1.86986379005393e-05,
-          "liquidity": 8520.8178
-        },
-        {
-          "ms": 1793216969667,
-          "price": 1.8978443861304e-05,
-          "liquidity": 7017.3455
-        },
-        {
-          "ms": 1793217269589,
-          "price": 1.90046778490643e-05,
-          "liquidity": 7124.6927
-        },
-        {
-          "ms": 1793217569499,
-          "price": 1.8482753947731e-05,
-          "liquidity": 8092.8354
-        },
-        {
-          "ms": 1793217869444,
-          "price": 1.94197793665397e-05,
-          "liquidity": 7289.5427
-        },
-        {
-          "ms": 1793218169667,
-          "price": 1.95480889929524e-05,
-          "liquidity": 7424.1325
-        },
-        {
-          "ms": 1793218770260,
-          "price": 2.10841079409461e-05,
-          "liquidity": 8869.8035
-        },
-        {
-          "ms": 1793219069478,
-          "price": 2.08862599722012e-05,
-          "liquidity": 8763.5063
-        },
-        {
-          "ms": 1793219369440,
-          "price": 2.20750877462373e-05,
-          "liquidity": 9203.46
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 93.4978,
-        "valuation_usd": 25715693.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
@@ -24140,6 +24065,49 @@
         "unknown": [],
         "pool_age_minutes": 21.831133333333334,
         "valuation_usd": 11.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch"
+    },
+    "bnb:0xb71b4606f827d4fb8f0b322071ea3671731be8e5": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0xb71b4606f827d4fb8f0b322071ea3671731be8e5",
+        "pool": "0xb6ef9d5d5806fd1c3338267dae752fb27010718e",
+        "price_observed_ms": 1793220762661,
+        "symbol": "CLIFFHAWK",
+        "dex": "pancakeswap_v2",
+        "price_usd": 0.000812635519826039,
+        "liquidity_usd": 13205.9234,
+        "market_cap_usd": 8411.0,
+        "fdv_usd": 8411.0,
+        "pool_created_ms": 1793220037000,
+        "volume15_usd": 2340.4430248601,
+        "buys15": 25.0,
+        "sells15": 12.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793220762661
+      },
+      "first_seen_ms": 1793220825550,
+      "earliest_pool_created_ms": 1793220037000,
+      "observations": [
+        {
+          "ms": 1793220762661,
+          "price": 0.000812635519826039,
+          "liquidity": 13205.9234
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "valuation"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 13.1425,
+        "valuation_usd": 8411.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
@@ -25041,6 +25009,52 @@
         "unknown": [],
         "pool_age_minutes": 17.1425,
         "valuation_usd": 3158.530778,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "bnb:0x12978902d2c27142fbc150699557441b02d86b52": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x12978902d2c27142fbc150699557441b02d86b52",
+        "pool": "0x177c62723ec22169cb611aa26fbd7564317b49f093d13b66ef03458ce139b684",
+        "price_observed_ms": 1793220700104,
+        "symbol": "CATICORN",
+        "dex": "uniswap-v4-bsc",
+        "price_usd": 3.00512564792888e-08,
+        "liquidity_usd": 0.4513,
+        "market_cap_usd": null,
+        "fdv_usd": 30.05125648,
+        "pool_created_ms": 1793220065000,
+        "volume15_usd": 0.03018590935,
+        "buys15": 2.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793220700104
+      },
+      "first_seen_ms": 1793220825550,
+      "earliest_pool_created_ms": 1793220065000,
+      "observations": [
+        {
+          "ms": 1793220700104,
+          "price": 3.00512564792888e-08,
+          "liquidity": 0.4513
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 12.675833333333333,
+        "valuation_usd": 30.05125648,
         "valuation_kind": "fdv_proxy"
       },
       "tier": "watch"
@@ -26031,60 +26045,6 @@
         "unknown": [],
         "pool_age_minutes": 19.659166666666668,
         "valuation_usd": 176716.21457473,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch"
-    },
-    "bnb:0x51482ea2bcbebe84c5cbf3aaf33029a73726ffff": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x51482ea2bcbebe84c5cbf3aaf33029a73726ffff",
-        "pool": "0x51482ea2bcbebe84c5cbf3aaf33029a73726ffff",
-        "price_observed_ms": 1793214806371,
-        "symbol": "投毒币",
-        "dex": "four-meme",
-        "price_usd": 3.21209862754576e-06,
-        "liquidity_usd": 2574.9318,
-        "market_cap_usd": null,
-        "fdv_usd": 3212.098628,
-        "pool_created_ms": 1793213707000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793214806371
-      },
-      "first_seen_ms": 1793214269836,
-      "earliest_pool_created_ms": 1793213707000,
-      "observations": [
-        {
-          "ms": 1793214144009,
-          "price": 3.21209862754576e-06,
-          "liquidity": 2570.7511
-        },
-        {
-          "ms": 1793214506373,
-          "price": 3.21209862754576e-06,
-          "liquidity": 2570.5455
-        },
-        {
-          "ms": 1793214806371,
-          "price": 3.21209862754576e-06,
-          "liquidity": 2574.9318
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 19.3794,
-        "valuation_usd": 3212.098628,
         "valuation_kind": "fdv_proxy"
       },
       "tier": "watch"
@@ -27303,83 +27263,6 @@
         "pool_age_minutes": 29.08465,
         "valuation_usd": 0.6439469589,
         "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch"
-    },
-    "bnb:0xf819385817e37f9c6f481da66d053b5f9b8f94e1": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0xf819385817e37f9c6f481da66d053b5f9b8f94e1",
-        "pool": "0x88dcee119d62b6199736026f9779ddc0db0c89c9",
-        "price_observed_ms": 1793216070652,
-        "symbol": "DAODJN",
-        "dex": "pancakeswap_v2",
-        "price_usd": 8.89468928568142e-08,
-        "liquidity_usd": 0.0751,
-        "market_cap_usd": 11.0,
-        "fdv_usd": 11.0,
-        "pool_created_ms": 1793213730000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793216070652
-      },
-      "first_seen_ms": 1793214269836,
-      "earliest_pool_created_ms": 1793213730000,
-      "observations": [
-        {
-          "ms": 1793214144009,
-          "price": 5.64891738274035e-05,
-          "liquidity": 9973.5102
-        },
-        {
-          "ms": 1793214443842,
-          "price": 6.57520733212074e-05,
-          "liquidity": 10835.5521
-        },
-        {
-          "ms": 1793214806371,
-          "price": 8.89468928568142e-08,
-          "liquidity": 0.0751
-        },
-        {
-          "ms": 1793215170586,
-          "price": 8.89468928568142e-08,
-          "liquidity": 0.0751
-        },
-        {
-          "ms": 1793215469395,
-          "price": 8.89468928568142e-08,
-          "liquidity": 0.0751
-        },
-        {
-          "ms": 1793215773032,
-          "price": 8.89468928568142e-08,
-          "liquidity": 0.0752
-        },
-        {
-          "ms": 1793216070652,
-          "price": 8.89468928568142e-08,
-          "liquidity": 0.0751
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15",
-          "transaction_flow15",
-          "liquidity_withdrawal"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 39.01798333333333,
-        "valuation_usd": 11.0,
-        "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
     },
@@ -32359,51 +32242,6 @@
       },
       "tier": "watch"
     },
-    "bnb:0x9d94fabb0e7ff48db83bbdfd8d2e16727cf27777": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x9d94fabb0e7ff48db83bbdfd8d2e16727cf27777",
-        "pool": "0x391a633488e5bef0a2ab6f31b057cb364248b704",
-        "price_observed_ms": 1793220700104,
-        "symbol": "DOG",
-        "dex": "pancakeswap_v2",
-        "price_usd": 6.34541017330643e-10,
-        "liquidity_usd": 0.0752,
-        "market_cap_usd": null,
-        "fdv_usd": 0.6345410173,
-        "pool_created_ms": 1793220002000,
-        "volume15_usd": 16456.9024515039,
-        "buys15": 100.0,
-        "sells15": 104.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793220700104
-      },
-      "first_seen_ms": 1793220825550,
-      "earliest_pool_created_ms": 1793220002000,
-      "observations": [
-        {
-          "ms": 1793220700104,
-          "price": 6.34541017330643e-10,
-          "liquidity": 0.0752
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 13.725833333333334,
-        "valuation_usd": 0.6345410173,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch"
-    },
     "bnb:0x12ee5aff8192dc93534276fc370f6d63ffab8af3": {
       "latest": {
         "chain": "bnb",
@@ -32444,49 +32282,6 @@
         "unknown": [],
         "pool_age_minutes": 10.259166666666667,
         "valuation_usd": 4368506867.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "bnb:0xb71b4606f827d4fb8f0b322071ea3671731be8e5": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0xb71b4606f827d4fb8f0b322071ea3671731be8e5",
-        "pool": "0xb6ef9d5d5806fd1c3338267dae752fb27010718e",
-        "price_observed_ms": 1793220762661,
-        "symbol": "CLIFFHAWK",
-        "dex": "pancakeswap_v2",
-        "price_usd": 0.000812635519826039,
-        "liquidity_usd": 13205.9234,
-        "market_cap_usd": 8411.0,
-        "fdv_usd": 8411.0,
-        "pool_created_ms": 1793220037000,
-        "volume15_usd": 2340.4430248601,
-        "buys15": 25.0,
-        "sells15": 12.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793220762661
-      },
-      "first_seen_ms": 1793220825550,
-      "earliest_pool_created_ms": 1793220037000,
-      "observations": [
-        {
-          "ms": 1793220762661,
-          "price": 0.000812635519826039,
-          "liquidity": 13205.9234
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "valuation"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 13.1425,
-        "valuation_usd": 8411.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
@@ -32752,52 +32547,6 @@
         "unknown": [],
         "pool_age_minutes": 10.025833333333333,
         "valuation_usd": 3160.125908,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch"
-    },
-    "bnb:0x12978902d2c27142fbc150699557441b02d86b52": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x12978902d2c27142fbc150699557441b02d86b52",
-        "pool": "0x177c62723ec22169cb611aa26fbd7564317b49f093d13b66ef03458ce139b684",
-        "price_observed_ms": 1793220700104,
-        "symbol": "CATICORN",
-        "dex": "uniswap-v4-bsc",
-        "price_usd": 3.00512564792888e-08,
-        "liquidity_usd": 0.4513,
-        "market_cap_usd": null,
-        "fdv_usd": 30.05125648,
-        "pool_created_ms": 1793220065000,
-        "volume15_usd": 0.03018590935,
-        "buys15": 2.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793220700104
-      },
-      "first_seen_ms": 1793220825550,
-      "earliest_pool_created_ms": 1793220065000,
-      "observations": [
-        {
-          "ms": 1793220700104,
-          "price": 3.00512564792888e-08,
-          "liquidity": 0.4513
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 12.675833333333333,
-        "valuation_usd": 30.05125648,
         "valuation_kind": "fdv_proxy"
       },
       "tier": "watch"
@@ -33071,6 +32820,126 @@
         "pool_age_minutes": 5.859166666666667,
         "valuation_usd": 3220.365843,
         "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "bnb:0x5c64a6b6faa52791c20e728e1c06255073fd9b54": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x5c64a6b6faa52791c20e728e1c06255073fd9b54",
+        "pool": "0x50d32fd24766da992aab971cf8f843f91907ef5f",
+        "price_observed_ms": 1793219369440,
+        "symbol": "币安天下",
+        "dex": "pancakeswap_v2",
+        "price_usd": 2.20750877462373e-05,
+        "liquidity_usd": 9203.46,
+        "market_cap_usd": 25715693.0,
+        "fdv_usd": 25715693.0,
+        "pool_created_ms": 1793213760000,
+        "volume15_usd": 17048.2427537877,
+        "buys15": 16.0,
+        "sells15": 16.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793219369440
+      },
+      "first_seen_ms": 1793214570106,
+      "earliest_pool_created_ms": 1793213760000,
+      "observations": [
+        {
+          "ms": 1793214443842,
+          "price": 3.99926226863815e-06,
+          "liquidity": 4319.8366
+        },
+        {
+          "ms": 1793214869319,
+          "price": 9.27302264755506e-06,
+          "liquidity": 6384.2982
+        },
+        {
+          "ms": 1793215170586,
+          "price": 9.27302264755506e-06,
+          "liquidity": 6391.1871
+        },
+        {
+          "ms": 1793215469395,
+          "price": 1.54855221227992e-05,
+          "liquidity": 6462.9235
+        },
+        {
+          "ms": 1793215773032,
+          "price": 1.59417059055987e-05,
+          "liquidity": 7674.8109
+        },
+        {
+          "ms": 1793216070652,
+          "price": 1.77150572634277e-05,
+          "liquidity": 7854.6161
+        },
+        {
+          "ms": 1793216369269,
+          "price": 1.80327397106632e-05,
+          "liquidity": 6773.0883
+        },
+        {
+          "ms": 1793216669560,
+          "price": 1.86986379005393e-05,
+          "liquidity": 8520.8178
+        },
+        {
+          "ms": 1793216969667,
+          "price": 1.8978443861304e-05,
+          "liquidity": 7017.3455
+        },
+        {
+          "ms": 1793217269589,
+          "price": 1.90046778490643e-05,
+          "liquidity": 7124.6927
+        },
+        {
+          "ms": 1793217569499,
+          "price": 1.8482753947731e-05,
+          "liquidity": 8092.8354
+        },
+        {
+          "ms": 1793217869444,
+          "price": 1.94197793665397e-05,
+          "liquidity": 7289.5427
+        },
+        {
+          "ms": 1793218169667,
+          "price": 1.95480889929524e-05,
+          "liquidity": 7424.1325
+        },
+        {
+          "ms": 1793218770260,
+          "price": 2.10841079409461e-05,
+          "liquidity": 8869.8035
+        },
+        {
+          "ms": 1793219069478,
+          "price": 2.08862599722012e-05,
+          "liquidity": 8763.5063
+        },
+        {
+          "ms": 1793219369440,
+          "price": 2.20750877462373e-05,
+          "liquidity": 9203.46
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 93.4978,
+        "valuation_usd": 25715693.0,
+        "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
     },
@@ -33663,6 +33532,137 @@
         "pool_age_minutes": 20.697283333333335,
         "valuation_usd": 3219.12401,
         "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "bnb:0x51482ea2bcbebe84c5cbf3aaf33029a73726ffff": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x51482ea2bcbebe84c5cbf3aaf33029a73726ffff",
+        "pool": "0x51482ea2bcbebe84c5cbf3aaf33029a73726ffff",
+        "price_observed_ms": 1793214806371,
+        "symbol": "投毒币",
+        "dex": "four-meme",
+        "price_usd": 3.21209862754576e-06,
+        "liquidity_usd": 2574.9318,
+        "market_cap_usd": null,
+        "fdv_usd": 3212.098628,
+        "pool_created_ms": 1793213707000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793214806371
+      },
+      "first_seen_ms": 1793214269836,
+      "earliest_pool_created_ms": 1793213707000,
+      "observations": [
+        {
+          "ms": 1793214144009,
+          "price": 3.21209862754576e-06,
+          "liquidity": 2570.7511
+        },
+        {
+          "ms": 1793214506373,
+          "price": 3.21209862754576e-06,
+          "liquidity": 2570.5455
+        },
+        {
+          "ms": 1793214806371,
+          "price": 3.21209862754576e-06,
+          "liquidity": 2574.9318
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 19.3794,
+        "valuation_usd": 3212.098628,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "bnb:0xf819385817e37f9c6f481da66d053b5f9b8f94e1": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0xf819385817e37f9c6f481da66d053b5f9b8f94e1",
+        "pool": "0x88dcee119d62b6199736026f9779ddc0db0c89c9",
+        "price_observed_ms": 1793216070652,
+        "symbol": "DAODJN",
+        "dex": "pancakeswap_v2",
+        "price_usd": 8.89468928568142e-08,
+        "liquidity_usd": 0.0751,
+        "market_cap_usd": 11.0,
+        "fdv_usd": 11.0,
+        "pool_created_ms": 1793213730000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793216070652
+      },
+      "first_seen_ms": 1793214269836,
+      "earliest_pool_created_ms": 1793213730000,
+      "observations": [
+        {
+          "ms": 1793214144009,
+          "price": 5.64891738274035e-05,
+          "liquidity": 9973.5102
+        },
+        {
+          "ms": 1793214443842,
+          "price": 6.57520733212074e-05,
+          "liquidity": 10835.5521
+        },
+        {
+          "ms": 1793214806371,
+          "price": 8.89468928568142e-08,
+          "liquidity": 0.0751
+        },
+        {
+          "ms": 1793215170586,
+          "price": 8.89468928568142e-08,
+          "liquidity": 0.0751
+        },
+        {
+          "ms": 1793215469395,
+          "price": 8.89468928568142e-08,
+          "liquidity": 0.0751
+        },
+        {
+          "ms": 1793215773032,
+          "price": 8.89468928568142e-08,
+          "liquidity": 0.0752
+        },
+        {
+          "ms": 1793216070652,
+          "price": 8.89468928568142e-08,
+          "liquidity": 0.0751
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15",
+          "transaction_flow15",
+          "liquidity_withdrawal"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 39.01798333333333,
+        "valuation_usd": 11.0,
+        "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
     },
@@ -34318,6 +34318,52 @@
       },
       "tier": "watch"
     },
+    "robinhood:0xfcdcfcec3ed35d4d79463188d2a4c06bb56a01a5": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0xfcdcfcec3ed35d4d79463188d2a4c06bb56a01a5",
+        "pool": "0xd0d30f3feef3cb9cc4cb919b52af5d946821ad9cfdbfeeb9003c8e0687b17e0d",
+        "price_observed_ms": 1793220712617,
+        "symbol": "EXILE",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 8.18465480288184e-05,
+        "liquidity_usd": 0.0,
+        "market_cap_usd": 18322.0,
+        "fdv_usd": 18322.0,
+        "pool_created_ms": 1793220001000,
+        "volume15_usd": 24990.9370342348,
+        "buys15": 61.0,
+        "sells15": 56.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793220712617
+      },
+      "first_seen_ms": 1793220837664,
+      "earliest_pool_created_ms": 1793220001000,
+      "observations": [
+        {
+          "ms": 1793220712617,
+          "price": 8.18465480288184e-05,
+          "liquidity": 0.0
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 13.9444,
+        "valuation_usd": 18322.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch"
+    },
     "robinhood:0xb87829b29eada460c8468e8985c7974f14b00e68": {
       "latest": {
         "chain": "robinhood",
@@ -34578,6 +34624,48 @@
         "unknown": [],
         "pool_age_minutes": 3.9829,
         "valuation_usd": 40119.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch"
+    },
+    "robinhood:0x7be3493ca7ecf3825149e3da26f38ece050c0b49": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x7be3493ca7ecf3825149e3da26f38ece050c0b49",
+        "pool": "0xfb7ac65c793ed3189c9c322a962c810ce859f093",
+        "price_observed_ms": 1793220775090,
+        "symbol": "Refrigerator",
+        "dex": "uniswap-v2-robinhood",
+        "price_usd": 1.66272407628524e-05,
+        "liquidity_usd": 147869.8791,
+        "market_cap_usd": 79705.0,
+        "fdv_usd": 79705.0,
+        "pool_created_ms": 1793220007000,
+        "volume15_usd": 3418.4578995888,
+        "buys15": 21.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793220775090
+      },
+      "first_seen_ms": 1793220837664,
+      "earliest_pool_created_ms": 1793220007000,
+      "observations": [
+        {
+          "ms": 1793220775090,
+          "price": 1.66272407628524e-05,
+          "liquidity": 147869.8791
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 13.8444,
+        "valuation_usd": 79705.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
@@ -35230,6 +35318,53 @@
         "pool_age_minutes": 30.5128,
         "valuation_usd": 6408.084752,
         "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "robinhood:0xcf40a268249778ed0c480386bf72452ffb806f33": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0xcf40a268249778ed0c480386bf72452ffb806f33",
+        "pool": "0xb6a638c7d15eb59d1c91657a303fb54a63c4f1d8a5a67124b933506112eef1fd",
+        "price_observed_ms": 1793220775090,
+        "symbol": "EXILE",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 3.17014508387213e-05,
+        "liquidity_usd": 0.0,
+        "market_cap_usd": 7305.0,
+        "fdv_usd": 7305.0,
+        "pool_created_ms": 1793219981000,
+        "volume15_usd": 4.7212278425,
+        "buys15": 4.0,
+        "sells15": 1.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793220775090
+      },
+      "first_seen_ms": 1793220837664,
+      "earliest_pool_created_ms": 1793219981000,
+      "observations": [
+        {
+          "ms": 1793220775090,
+          "price": 3.17014508387213e-05,
+          "liquidity": 0.0
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 14.277733333333334,
+        "valuation_usd": 7305.0,
+        "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
     },
@@ -36457,6 +36592,52 @@
       },
       "tier": "watch"
     },
+    "robinhood:0xfe74b5dca944307501b69ff9fc5c740a837f24e6": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0xfe74b5dca944307501b69ff9fc5c740a837f24e6",
+        "pool": "0x843c167462a4a89ff7ef8a6f515edfabfe04e5fdd45f0d8bb39cda0458d34a19",
+        "price_observed_ms": 1793220775090,
+        "symbol": "KILLFLOOR",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 4.09557529621106e-06,
+        "liquidity_usd": 3067.938,
+        "market_cap_usd": 4053.0,
+        "fdv_usd": 4053.0,
+        "pool_created_ms": 1793219990000,
+        "volume15_usd": 0.004704590664,
+        "buys15": 1.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793220775090
+      },
+      "first_seen_ms": 1793220837664,
+      "earliest_pool_created_ms": 1793219990000,
+      "observations": [
+        {
+          "ms": 1793220775090,
+          "price": 4.09557529621106e-06,
+          "liquidity": 3067.938
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 14.127733333333333,
+        "valuation_usd": 4053.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch"
+    },
     "robinhood:0x5606cff98142a404ba50ffee0664cc98cff0232a": {
       "latest": {
         "chain": "robinhood",
@@ -36981,185 +37162,6 @@
         "pool_age_minutes": 28.379716666666667,
         "valuation_usd": 21130.0,
         "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "robinhood:0x815b69eb15e3b06512e1736446063dae73cc0087": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x815b69eb15e3b06512e1736446063dae73cc0087",
-        "pool": "0x5966c293e5caee51adcfd943977dc7a570b9b593953b213cdc01fb2bdc8c6f31",
-        "price_observed_ms": 1793215481998,
-        "symbol": "PROOF",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 1.67388502862925e-06,
-        "liquidity_usd": 1667.4173,
-        "market_cap_usd": 1604.0,
-        "fdv_usd": 1604.0,
-        "pool_created_ms": 1793213716000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793215481998
-      },
-      "first_seen_ms": 1793214282827,
-      "earliest_pool_created_ms": 1793213716000,
-      "observations": [
-        {
-          "ms": 1793214156520,
-          "price": 2.21806865171816e-06,
-          "liquidity": 2226.9006
-        },
-        {
-          "ms": 1793214456348,
-          "price": 1.67388502862925e-06,
-          "liquidity": 1665.6774
-        },
-        {
-          "ms": 1793214881921,
-          "price": 1.67388502862925e-06,
-          "liquidity": 1665.6774
-        },
-        {
-          "ms": 1793215481998,
-          "price": 1.67388502862925e-06,
-          "liquidity": 1667.4173
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15",
-          "liquidity_withdrawal"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 29.446383333333333,
-        "valuation_usd": 1604.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "robinhood:0x42e018b6ace044f51ce79ff4a01d9c51961cae7e": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x42e018b6ace044f51ce79ff4a01d9c51961cae7e",
-        "pool": "0x1adb1c01f25e9f2915cb996b3b1882668a9770cd",
-        "price_observed_ms": 1793215481998,
-        "symbol": "PRELS",
-        "dex": "pons-v2",
-        "price_usd": 3.8779857659e-06,
-        "liquidity_usd": 3974.6438,
-        "market_cap_usd": null,
-        "fdv_usd": 3877.985766,
-        "pool_created_ms": 1793213682000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793215481998
-      },
-      "first_seen_ms": 1793214282827,
-      "earliest_pool_created_ms": 1793213682000,
-      "observations": [
-        {
-          "ms": 1793214156520,
-          "price": 3.8779857659e-06,
-          "liquidity": 3966.3993
-        },
-        {
-          "ms": 1793214456348,
-          "price": 3.8779857659e-06,
-          "liquidity": 3966.3993
-        },
-        {
-          "ms": 1793214881921,
-          "price": 3.8779857659e-06,
-          "liquidity": 3966.3993
-        },
-        {
-          "ms": 1793215481998,
-          "price": 3.8779857659e-06,
-          "liquidity": 3974.6438
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 30.01305,
-        "valuation_usd": 3877.985766,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch"
-    },
-    "robinhood:0x73bf30799054ed5c7cdee6952d402433ab5d862c": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x73bf30799054ed5c7cdee6952d402433ab5d862c",
-        "pool": "0xa478199cc1e992de9e19b5d11d7f3bf69df74984",
-        "price_observed_ms": 1793215481998,
-        "symbol": "XMR",
-        "dex": "pons-v2",
-        "price_usd": 3.93247100319219e-06,
-        "liquidity_usd": 3926.5521,
-        "market_cap_usd": null,
-        "fdv_usd": 3943.925029,
-        "pool_created_ms": 1793213754000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793215481998
-      },
-      "first_seen_ms": 1793214282827,
-      "earliest_pool_created_ms": 1793213754000,
-      "observations": [
-        {
-          "ms": 1793214156520,
-          "price": 3.93247100319219e-06,
-          "liquidity": 3920.0229
-        },
-        {
-          "ms": 1793214456348,
-          "price": 3.93247100319219e-06,
-          "liquidity": 3920.0229
-        },
-        {
-          "ms": 1793214881921,
-          "price": 3.93247100319219e-06,
-          "liquidity": 3920.0229
-        },
-        {
-          "ms": 1793215481998,
-          "price": 3.93247100319219e-06,
-          "liquidity": 3926.5521
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 28.81305,
-        "valuation_usd": 3943.925029,
-        "valuation_kind": "fdv_proxy"
       },
       "tier": "watch"
     },
@@ -37830,70 +37832,6 @@
         "pool_age_minutes": 27.6499,
         "valuation_usd": 30.0,
         "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "robinhood:0x130d5d5b2c8fabad1c680f5a7196f1b9e9a9de4f": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x130d5d5b2c8fabad1c680f5a7196f1b9e9a9de4f",
-        "pool": "0xa51f6e5dda215f82b5aa85df583c8ea57d2374e7",
-        "price_observed_ms": 1793215785563,
-        "symbol": "WASTE",
-        "dex": "pons-v2",
-        "price_usd": 3.879355969216e-06,
-        "liquidity_usd": 3886.5925,
-        "market_cap_usd": null,
-        "fdv_usd": 3879.355969,
-        "pool_created_ms": 1793213679000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793215785563
-      },
-      "first_seen_ms": 1793213982478,
-      "earliest_pool_created_ms": 1793213679000,
-      "observations": [
-        {
-          "ms": 1793213856327,
-          "price": 3.8943858091423e-06,
-          "liquidity": 3916.7133
-        },
-        {
-          "ms": 1793214156520,
-          "price": 3.879355969216e-06,
-          "liquidity": 3880.6916
-        },
-        {
-          "ms": 1793214456348,
-          "price": 3.879355969216e-06,
-          "liquidity": 3880.6916
-        },
-        {
-          "ms": 1793214881921,
-          "price": 3.879355969216e-06,
-          "liquidity": 3880.6916
-        },
-        {
-          "ms": 1793215785563,
-          "price": 3.879355969216e-06,
-          "liquidity": 3886.5925
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 35.116566666666664,
-        "valuation_usd": 3879.355969,
-        "valuation_kind": "fdv_proxy"
       },
       "tier": "watch"
     },
@@ -42059,52 +41997,6 @@
       },
       "tier": "watch"
     },
-    "robinhood:0xfcdcfcec3ed35d4d79463188d2a4c06bb56a01a5": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0xfcdcfcec3ed35d4d79463188d2a4c06bb56a01a5",
-        "pool": "0xd0d30f3feef3cb9cc4cb919b52af5d946821ad9cfdbfeeb9003c8e0687b17e0d",
-        "price_observed_ms": 1793220712617,
-        "symbol": "EXILE",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 8.18465480288184e-05,
-        "liquidity_usd": 0.0,
-        "market_cap_usd": 18322.0,
-        "fdv_usd": 18322.0,
-        "pool_created_ms": 1793220001000,
-        "volume15_usd": 24990.9370342348,
-        "buys15": 61.0,
-        "sells15": 56.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793220712617
-      },
-      "first_seen_ms": 1793220837664,
-      "earliest_pool_created_ms": 1793220001000,
-      "observations": [
-        {
-          "ms": 1793220712617,
-          "price": 8.18465480288184e-05,
-          "liquidity": 0.0
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 13.9444,
-        "valuation_usd": 18322.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
     "robinhood:0x1c412c194263b874cf76d5776814e5d7d1bf085f": {
       "latest": {
         "chain": "robinhood",
@@ -42187,48 +42079,6 @@
         "unknown": [],
         "pool_age_minutes": 9.8944,
         "valuation_usd": 121780.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "robinhood:0x7be3493ca7ecf3825149e3da26f38ece050c0b49": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x7be3493ca7ecf3825149e3da26f38ece050c0b49",
-        "pool": "0xfb7ac65c793ed3189c9c322a962c810ce859f093",
-        "price_observed_ms": 1793220775090,
-        "symbol": "Refrigerator",
-        "dex": "uniswap-v2-robinhood",
-        "price_usd": 1.66272407628524e-05,
-        "liquidity_usd": 147869.8791,
-        "market_cap_usd": 79705.0,
-        "fdv_usd": 79705.0,
-        "pool_created_ms": 1793220007000,
-        "volume15_usd": 3418.4578995888,
-        "buys15": 21.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793220775090
-      },
-      "first_seen_ms": 1793220837664,
-      "earliest_pool_created_ms": 1793220007000,
-      "observations": [
-        {
-          "ms": 1793220775090,
-          "price": 1.66272407628524e-05,
-          "liquidity": 147869.8791
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 13.8444,
-        "valuation_usd": 79705.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
@@ -42452,53 +42302,6 @@
       },
       "tier": "watch"
     },
-    "robinhood:0xcf40a268249778ed0c480386bf72452ffb806f33": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0xcf40a268249778ed0c480386bf72452ffb806f33",
-        "pool": "0xb6a638c7d15eb59d1c91657a303fb54a63c4f1d8a5a67124b933506112eef1fd",
-        "price_observed_ms": 1793220775090,
-        "symbol": "EXILE",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 3.17014508387213e-05,
-        "liquidity_usd": 0.0,
-        "market_cap_usd": 7305.0,
-        "fdv_usd": 7305.0,
-        "pool_created_ms": 1793219981000,
-        "volume15_usd": 4.7212278425,
-        "buys15": 4.0,
-        "sells15": 1.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793220775090
-      },
-      "first_seen_ms": 1793220837664,
-      "earliest_pool_created_ms": 1793219981000,
-      "observations": [
-        {
-          "ms": 1793220775090,
-          "price": 3.17014508387213e-05,
-          "liquidity": 0.0
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 14.277733333333334,
-        "valuation_usd": 7305.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
     "robinhood:0x927f9e546920e2c40daae0c16b5e6a4eb94d627f": {
       "latest": {
         "chain": "robinhood",
@@ -42540,52 +42343,6 @@
         "unknown": [],
         "pool_age_minutes": 5.977733333333333,
         "valuation_usd": 20078.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch"
-    },
-    "robinhood:0xfe74b5dca944307501b69ff9fc5c740a837f24e6": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0xfe74b5dca944307501b69ff9fc5c740a837f24e6",
-        "pool": "0x843c167462a4a89ff7ef8a6f515edfabfe04e5fdd45f0d8bb39cda0458d34a19",
-        "price_observed_ms": 1793220775090,
-        "symbol": "KILLFLOOR",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 4.09557529621106e-06,
-        "liquidity_usd": 3067.938,
-        "market_cap_usd": 4053.0,
-        "fdv_usd": 4053.0,
-        "pool_created_ms": 1793219990000,
-        "volume15_usd": 0.004704590664,
-        "buys15": 1.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793220775090
-      },
-      "first_seen_ms": 1793220837664,
-      "earliest_pool_created_ms": 1793219990000,
-      "observations": [
-        {
-          "ms": 1793220775090,
-          "price": 4.09557529621106e-06,
-          "liquidity": 3067.938
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 14.127733333333333,
-        "valuation_usd": 4053.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch"
@@ -43517,6 +43274,185 @@
       },
       "tier": "watch"
     },
+    "robinhood:0x815b69eb15e3b06512e1736446063dae73cc0087": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x815b69eb15e3b06512e1736446063dae73cc0087",
+        "pool": "0x5966c293e5caee51adcfd943977dc7a570b9b593953b213cdc01fb2bdc8c6f31",
+        "price_observed_ms": 1793215481998,
+        "symbol": "PROOF",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 1.67388502862925e-06,
+        "liquidity_usd": 1667.4173,
+        "market_cap_usd": 1604.0,
+        "fdv_usd": 1604.0,
+        "pool_created_ms": 1793213716000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793215481998
+      },
+      "first_seen_ms": 1793214282827,
+      "earliest_pool_created_ms": 1793213716000,
+      "observations": [
+        {
+          "ms": 1793214156520,
+          "price": 2.21806865171816e-06,
+          "liquidity": 2226.9006
+        },
+        {
+          "ms": 1793214456348,
+          "price": 1.67388502862925e-06,
+          "liquidity": 1665.6774
+        },
+        {
+          "ms": 1793214881921,
+          "price": 1.67388502862925e-06,
+          "liquidity": 1665.6774
+        },
+        {
+          "ms": 1793215481998,
+          "price": 1.67388502862925e-06,
+          "liquidity": 1667.4173
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15",
+          "liquidity_withdrawal"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 29.446383333333333,
+        "valuation_usd": 1604.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch"
+    },
+    "robinhood:0x42e018b6ace044f51ce79ff4a01d9c51961cae7e": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x42e018b6ace044f51ce79ff4a01d9c51961cae7e",
+        "pool": "0x1adb1c01f25e9f2915cb996b3b1882668a9770cd",
+        "price_observed_ms": 1793215481998,
+        "symbol": "PRELS",
+        "dex": "pons-v2",
+        "price_usd": 3.8779857659e-06,
+        "liquidity_usd": 3974.6438,
+        "market_cap_usd": null,
+        "fdv_usd": 3877.985766,
+        "pool_created_ms": 1793213682000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793215481998
+      },
+      "first_seen_ms": 1793214282827,
+      "earliest_pool_created_ms": 1793213682000,
+      "observations": [
+        {
+          "ms": 1793214156520,
+          "price": 3.8779857659e-06,
+          "liquidity": 3966.3993
+        },
+        {
+          "ms": 1793214456348,
+          "price": 3.8779857659e-06,
+          "liquidity": 3966.3993
+        },
+        {
+          "ms": 1793214881921,
+          "price": 3.8779857659e-06,
+          "liquidity": 3966.3993
+        },
+        {
+          "ms": 1793215481998,
+          "price": 3.8779857659e-06,
+          "liquidity": 3974.6438
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 30.01305,
+        "valuation_usd": 3877.985766,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "robinhood:0x73bf30799054ed5c7cdee6952d402433ab5d862c": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x73bf30799054ed5c7cdee6952d402433ab5d862c",
+        "pool": "0xa478199cc1e992de9e19b5d11d7f3bf69df74984",
+        "price_observed_ms": 1793215481998,
+        "symbol": "XMR",
+        "dex": "pons-v2",
+        "price_usd": 3.93247100319219e-06,
+        "liquidity_usd": 3926.5521,
+        "market_cap_usd": null,
+        "fdv_usd": 3943.925029,
+        "pool_created_ms": 1793213754000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793215481998
+      },
+      "first_seen_ms": 1793214282827,
+      "earliest_pool_created_ms": 1793213754000,
+      "observations": [
+        {
+          "ms": 1793214156520,
+          "price": 3.93247100319219e-06,
+          "liquidity": 3920.0229
+        },
+        {
+          "ms": 1793214456348,
+          "price": 3.93247100319219e-06,
+          "liquidity": 3920.0229
+        },
+        {
+          "ms": 1793214881921,
+          "price": 3.93247100319219e-06,
+          "liquidity": 3920.0229
+        },
+        {
+          "ms": 1793215481998,
+          "price": 3.93247100319219e-06,
+          "liquidity": 3926.5521
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 28.81305,
+        "valuation_usd": 3943.925029,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
     "robinhood:0x409955510bdf421d99c85a036b4a3acad5350b6c": {
       "latest": {
         "chain": "robinhood",
@@ -43781,6 +43717,70 @@
         "unknown": [],
         "pool_age_minutes": 31.16305,
         "valuation_usd": 3954.15631,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch"
+    },
+    "robinhood:0x130d5d5b2c8fabad1c680f5a7196f1b9e9a9de4f": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x130d5d5b2c8fabad1c680f5a7196f1b9e9a9de4f",
+        "pool": "0xa51f6e5dda215f82b5aa85df583c8ea57d2374e7",
+        "price_observed_ms": 1793215785563,
+        "symbol": "WASTE",
+        "dex": "pons-v2",
+        "price_usd": 3.879355969216e-06,
+        "liquidity_usd": 3886.5925,
+        "market_cap_usd": null,
+        "fdv_usd": 3879.355969,
+        "pool_created_ms": 1793213679000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793215785563
+      },
+      "first_seen_ms": 1793213982478,
+      "earliest_pool_created_ms": 1793213679000,
+      "observations": [
+        {
+          "ms": 1793213856327,
+          "price": 3.8943858091423e-06,
+          "liquidity": 3916.7133
+        },
+        {
+          "ms": 1793214156520,
+          "price": 3.879355969216e-06,
+          "liquidity": 3880.6916
+        },
+        {
+          "ms": 1793214456348,
+          "price": 3.879355969216e-06,
+          "liquidity": 3880.6916
+        },
+        {
+          "ms": 1793214881921,
+          "price": 3.879355969216e-06,
+          "liquidity": 3880.6916
+        },
+        {
+          "ms": 1793215785563,
+          "price": 3.879355969216e-06,
+          "liquidity": 3886.5925
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 35.116566666666664,
+        "valuation_usd": 3879.355969,
         "valuation_kind": "fdv_proxy"
       },
       "tier": "watch"
@@ -47523,6 +47523,17 @@
         "hyperevm": 0,
         "solana": 0,
         "ethereum": 0
+      }
+    },
+    {
+      "ms": 1793220975039,
+      "started_ms": 1793220975003,
+      "networks": {
+        "robinhood": 0,
+        "ethereum": 0,
+        "bnb": 0,
+        "solana": 0,
+        "hyperevm": 0
       }
     }
   ],
@@ -77728,286 +77739,190 @@
     "old_reference_prices_preserved": true,
     "no_backfilled_v5_entries": true
   },
-  "updated_ms": 1793220875068,
+  "updated_ms": 1793220975039,
   "last_scan_summary": {
-    "bnb": {
-      "refreshed": 33,
-      "eligible": 1,
-      "evaluated": 0,
-      "qualified": 0,
-      "review": 0,
-      "errors": [
-        "api.geckoterminal.com: HTTP 429",
-        "BOBB: api.geckoterminal.com: provider stopped after access/rate error",
-        "BAP: api.geckoterminal.com: provider stopped after access/rate error",
-        "TOKEN: api.geckoterminal.com: provider stopped after access/rate error"
-      ],
-      "funnel": {
-        "records": 33,
-        "waiting_min_age": 18,
-        "market_pass": 1,
-        "market_failed": {
-          "pool_age": 18,
-          "liquidity": 22,
-          "valuation": 27,
-          "volume15": 21,
-          "transaction_flow15": 25,
-          "liquidity_to_valuation": 8
-        },
-        "market_unknown": {},
-        "data_inspection_possible": 5,
-        "ohlcv_read": 0,
-        "ohlcv_attempted": 3,
-        "ohlcv_budget_waiting": 2,
-        "security_checked": 0
-      },
-      "discovery": {
-        "pages": [
-          {
-            "page": 1,
-            "returned": 20,
-            "oldest_created_ms": 1793219940000
-          },
-          {
-            "page": 2,
-            "returned": 20,
-            "oldest_created_ms": 1793219537000
-          }
-        ],
-        "covered_to_previous_checkpoint": false,
-        "gap_or_initial_window_uncovered": true,
-        "previous_checkpoint_ms": null,
-        "next_checkpoint_ms": null,
-        "oldest_returned_ms": 1793219537000,
-        "valid_page": true
-      },
-      "reasons": {}
-    },
     "robinhood": {
-      "refreshed": 30,
-      "eligible": 1,
-      "evaluated": 0,
-      "qualified": 0,
-      "review": 0,
-      "errors": [
-        "api.geckoterminal.com: queued request stopped after access/rate error",
-        "MoonCoin: gecko_request_budget_deferred"
-      ],
-      "funnel": {
-        "records": 30,
-        "waiting_min_age": 19,
-        "market_pass": 1,
-        "market_failed": {
-          "pool_age": 19,
-          "liquidity": 20,
-          "valuation": 21,
-          "volume15": 18,
-          "transaction_flow15": 24,
-          "liquidity_to_valuation": 8
-        },
-        "market_unknown": {
-          "liquidity": 2
-        },
-        "data_inspection_possible": 1,
-        "ohlcv_read": 0,
-        "ohlcv_attempted": 1,
-        "ohlcv_budget_waiting": 0,
-        "security_checked": 0
-      },
-      "discovery": {
-        "pages": [
-          {
-            "page": 1,
-            "returned": 20,
-            "oldest_created_ms": 1793219994000
-          },
-          {
-            "page": 2,
-            "returned": 20,
-            "oldest_created_ms": 1793219677000
-          }
-        ],
-        "covered_to_previous_checkpoint": false,
-        "gap_or_initial_window_uncovered": true,
-        "previous_checkpoint_ms": null,
-        "next_checkpoint_ms": null,
-        "oldest_returned_ms": 1793219677000,
-        "valid_page": true
-      },
-      "reasons": {}
-    },
-    "hyperevm": {
-      "refreshed": 18,
+      "refreshed": 0,
       "eligible": 0,
       "evaluated": 0,
       "qualified": 0,
       "review": 0,
       "errors": [
-        "BULL: api.geckoterminal.com: queued request stopped after access/rate error",
-        "iBEAR: gecko_request_budget_deferred"
+        "api.geckoterminal.com: provider stopped after access/rate error",
+        "api.geckoterminal.com: provider stopped after access/rate error"
       ],
       "funnel": {
-        "records": 18,
+        "records": 0,
         "waiting_min_age": 0,
         "market_pass": 0,
-        "market_failed": {
-          "liquidity": 16,
-          "valuation": 16,
-          "volume15": 18,
-          "transaction_flow15": 18,
-          "liquidity_to_valuation": 1,
-          "pool_age": 5
-        },
+        "market_failed": {},
         "market_unknown": {},
-        "data_inspection_possible": 2,
+        "data_inspection_possible": 0,
         "ohlcv_read": 0,
-        "ohlcv_attempted": 2,
+        "ohlcv_attempted": 0,
         "ohlcv_budget_waiting": 0,
         "security_checked": 0
       },
       "discovery": {
-        "pages": [
-          {
-            "page": 1,
-            "returned": 20,
-            "oldest_created_ms": 1793098680000
-          }
-        ],
-        "covered_to_previous_checkpoint": true,
-        "gap_or_initial_window_uncovered": false,
-        "previous_checkpoint_ms": 1793219475897,
-        "next_checkpoint_ms": 1793220675068,
-        "oldest_returned_ms": 1793098680000,
-        "valid_page": true
-      },
-      "reasons": {}
-    },
-    "solana": {
-      "refreshed": 60,
-      "eligible": 0,
-      "evaluated": 0,
-      "qualified": 0,
-      "review": 0,
-      "errors": [
-        "NODF: api.geckoterminal.com: queued request stopped after access/rate error",
-        "Toad: gecko_request_budget_deferred",
-        "uinhim: gecko_request_budget_deferred"
-      ],
-      "funnel": {
-        "records": 60,
-        "waiting_min_age": 30,
-        "market_pass": 0,
-        "market_failed": {
-          "pool_age": 30,
-          "liquidity": 51,
-          "transaction_flow15": 53,
-          "valuation": 45,
-          "volume15": 47,
-          "liquidity_to_valuation": 5,
-          "liquidity_withdrawal": 11
-        },
-        "market_unknown": {
-          "valuation": 10,
-          "liquidity": 3
-        },
-        "data_inspection_possible": 3,
-        "ohlcv_read": 0,
-        "ohlcv_attempted": 3,
-        "ohlcv_budget_waiting": 0,
-        "security_checked": 0
-      },
-      "discovery": {
-        "pages": [
-          {
-            "page": 1,
-            "returned": 20,
-            "oldest_created_ms": 1793220600000
-          },
-          {
-            "page": 2,
-            "returned": 20,
-            "oldest_created_ms": 1793220618000
-          }
-        ],
+        "pages": [],
         "covered_to_previous_checkpoint": false,
         "gap_or_initial_window_uncovered": true,
         "previous_checkpoint_ms": null,
         "next_checkpoint_ms": null,
-        "oldest_returned_ms": 1793220618000,
-        "valid_page": true
+        "oldest_returned_ms": null,
+        "valid_page": false
       },
       "reasons": {}
     },
     "ethereum": {
-      "refreshed": 35,
-      "eligible": 1,
-      "evaluated": 1,
+      "refreshed": 0,
+      "eligible": 0,
+      "evaluated": 0,
       "qualified": 0,
       "review": 0,
       "errors": [
-        "NBISon: api.geckoterminal.com: queued request stopped after access/rate error",
-        "USDte: gecko_request_budget_deferred"
+        "api.geckoterminal.com: provider stopped after access/rate error",
+        "api.geckoterminal.com: provider stopped after access/rate error"
       ],
       "funnel": {
-        "records": 35,
+        "records": 0,
         "waiting_min_age": 0,
-        "market_pass": 1,
-        "market_failed": {
-          "liquidity": 28,
-          "liquidity_to_valuation": 9,
-          "volume15": 34,
-          "transaction_flow15": 34,
-          "liquidity_withdrawal": 3,
-          "valuation": 30
-        },
+        "market_pass": 0,
+        "market_failed": {},
         "market_unknown": {},
-        "data_inspection_possible": 6,
-        "ohlcv_read": 1,
-        "ohlcv_attempted": 3,
-        "ohlcv_budget_waiting": 3,
+        "data_inspection_possible": 0,
+        "ohlcv_read": 0,
+        "ohlcv_attempted": 0,
+        "ohlcv_budget_waiting": 0,
         "security_checked": 0
       },
       "discovery": {
-        "pages": [
-          {
-            "page": 1,
-            "returned": 20,
-            "oldest_created_ms": 1793212259000
-          }
-        ],
-        "covered_to_previous_checkpoint": true,
-        "gap_or_initial_window_uncovered": false,
-        "previous_checkpoint_ms": 1793219475897,
+        "pages": [],
+        "covered_to_previous_checkpoint": false,
+        "gap_or_initial_window_uncovered": true,
+        "previous_checkpoint_ms": 1793220675067,
         "next_checkpoint_ms": 1793220675067,
-        "oldest_returned_ms": 1793212259000,
-        "valid_page": true
+        "oldest_returned_ms": null,
+        "valid_page": false
       },
-      "reasons": {
-        "current_interval_history_missing": 1
-      }
+      "reasons": {}
+    },
+    "bnb": {
+      "refreshed": 0,
+      "eligible": 0,
+      "evaluated": 0,
+      "qualified": 0,
+      "review": 0,
+      "errors": [
+        "api.geckoterminal.com: provider stopped after access/rate error",
+        "api.geckoterminal.com: provider stopped after access/rate error"
+      ],
+      "funnel": {
+        "records": 0,
+        "waiting_min_age": 0,
+        "market_pass": 0,
+        "market_failed": {},
+        "market_unknown": {},
+        "data_inspection_possible": 0,
+        "ohlcv_read": 0,
+        "ohlcv_attempted": 0,
+        "ohlcv_budget_waiting": 0,
+        "security_checked": 0
+      },
+      "discovery": {
+        "pages": [],
+        "covered_to_previous_checkpoint": false,
+        "gap_or_initial_window_uncovered": true,
+        "previous_checkpoint_ms": null,
+        "next_checkpoint_ms": null,
+        "oldest_returned_ms": null,
+        "valid_page": false
+      },
+      "reasons": {}
+    },
+    "solana": {
+      "refreshed": 0,
+      "eligible": 0,
+      "evaluated": 0,
+      "qualified": 0,
+      "review": 0,
+      "errors": [
+        "api.geckoterminal.com: provider stopped after access/rate error",
+        "api.geckoterminal.com: provider stopped after access/rate error"
+      ],
+      "funnel": {
+        "records": 0,
+        "waiting_min_age": 0,
+        "market_pass": 0,
+        "market_failed": {},
+        "market_unknown": {},
+        "data_inspection_possible": 0,
+        "ohlcv_read": 0,
+        "ohlcv_attempted": 0,
+        "ohlcv_budget_waiting": 0,
+        "security_checked": 0
+      },
+      "discovery": {
+        "pages": [],
+        "covered_to_previous_checkpoint": false,
+        "gap_or_initial_window_uncovered": true,
+        "previous_checkpoint_ms": null,
+        "next_checkpoint_ms": null,
+        "oldest_returned_ms": null,
+        "valid_page": false
+      },
+      "reasons": {}
+    },
+    "hyperevm": {
+      "refreshed": 0,
+      "eligible": 0,
+      "evaluated": 0,
+      "qualified": 0,
+      "review": 0,
+      "errors": [
+        "api.geckoterminal.com: provider stopped after access/rate error",
+        "api.geckoterminal.com: provider stopped after access/rate error"
+      ],
+      "funnel": {
+        "records": 0,
+        "waiting_min_age": 0,
+        "market_pass": 0,
+        "market_failed": {},
+        "market_unknown": {},
+        "data_inspection_possible": 0,
+        "ohlcv_read": 0,
+        "ohlcv_attempted": 0,
+        "ohlcv_budget_waiting": 0,
+        "security_checked": 0
+      },
+      "discovery": {
+        "pages": [],
+        "covered_to_previous_checkpoint": false,
+        "gap_or_initial_window_uncovered": true,
+        "previous_checkpoint_ms": 1793220675068,
+        "next_checkpoint_ms": 1793220675068,
+        "oldest_returned_ms": null,
+        "valid_page": false
+      },
+      "reasons": {}
     }
   },
   "timing": {
-    "started_ms": 1793220675033,
-    "finished_ms": 1793220875068,
-    "duration_seconds": 200.035,
+    "started_ms": 1793220975003,
+    "finished_ms": 1793220975039,
+    "duration_seconds": 0.036,
     "github_run_created_at": "2026-10-28T20:00:17Z",
     "worker_started_ms": "1793219473559",
     "github_job_started_at": "2026-10-28T20:30:56Z",
     "cadence": {
-      "interval_count": 28,
+      "interval_count": 29,
       "p95_minutes": 5.059966666666667,
       "max_minutes": 8.3347,
       "meets_7m_target": true,
       "full_24h_observed": false
     }
   },
-  "last_api_requests": {
-    "api.geckoterminal.com:ok": 12,
-    "api.dexscreener.com:ok": 14,
-    "api.geckoterminal.com:error": 1,
-    "gecko:budget_deferred": 5
-  },
+  "last_api_requests": {},
   "followup_watch": {
     "version": 1,
     "fingerprint": "0724a912990f97d7ffec128a327ef541ff878cd9ad3e7485dc364c6766d1f1dc",
