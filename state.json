@@ -48656,7 +48656,13 @@
   "delivery": [],
   "measurements": {
     "cases": {},
-    "errors": []
+    "errors": [],
+    "measurement": {
+      "observed_ms": 1793206398439,
+      "pending": 0,
+      "attempted": 0,
+      "unique_reads": 0
+    }
   },
   "latest": {
     "observed_ms": 1793206394905,
