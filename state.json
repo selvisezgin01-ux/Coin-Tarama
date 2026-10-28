@@ -41070,27 +41070,136 @@
   "comparison_lab": {
     "version": "shortcu-comparison-v1",
     "fingerprint": "5605b3da3927bdadf89228e9995529365ba030a82c487cd59b864e7fbba9ce37",
-    "cases": {},
+    "cases": {
+      "SUIUSDT": {
+        "symbol": "SUIUSDT",
+        "exchange": "MEXC",
+        "contract": "SUI_USDT",
+        "observed_ms": 1793148909721,
+        "entry_price": 0.93185,
+        "btc_entry_price": 80726.055,
+        "controls": [
+          {
+            "symbol": "HYPEUSDT",
+            "entry_price": 81.91
+          },
+          {
+            "symbol": "GRAMUSDT",
+            "entry_price": 1.2325
+          },
+          {
+            "symbol": "ATOMUSDT",
+            "entry_price": 1.6315
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 91516023.0,
+          "oi_notional": 85251751.22565,
+          "oi_notional_kind": "estimated_USDT_at_current_mid",
+          "contract": "SUI_USDT",
+          "futures_observed_ms": 1793148898888,
+          "futures_mid": 0.93155,
+          "futures_spread_pct": 0.010734796843968546,
+          "basis_pct": 0.03219402264312832,
+          "funding_rate": 6e-05,
+          "funding_hours": 8.0,
+          "funding_scaled_8h": 6e-05,
+          "funding_observed_ms": 1793148904079,
+          "oi_change_pct": -1.569343463727857,
+          "futures_price_change_pct": 0.7571250878805946,
+          "elapsed_hours": 4.041331666666666,
+          "baseline_ms": 1793134350094
+        },
+        "cohort_index": 1,
+        "split": "first25",
+        "feature_cutoff_ms": 1793145600000,
+        "source_lag_minutes": 55.162016666666666,
+        "entry_spread_pct": 0.010731340881041905,
+        "outcomes": {}
+      },
+      "NIGHTUSDT": {
+        "symbol": "NIGHTUSDT",
+        "exchange": "OKX",
+        "contract": "NIGHT-USDT-SWAP",
+        "observed_ms": 1793148909292,
+        "entry_price": 0.041943999999999995,
+        "btc_entry_price": 80730.65,
+        "controls": [
+          {
+            "symbol": "INJUSDT",
+            "entry_price": 7.9855
+          },
+          {
+            "symbol": "DATAUSDT",
+            "entry_price": 0.13885
+          },
+          {
+            "symbol": "ETHFIUSDT",
+            "entry_price": 0.66785
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 780649.0,
+          "oi_notional": 3272246.4133,
+          "oi_notional_kind": "provider_USD",
+          "contract": "NIGHT-USDT-SWAP",
+          "futures_observed_ms": 1793148901432,
+          "futures_mid": 0.041923,
+          "futures_spread_pct": 0.014311952865966322,
+          "basis_pct": 0.04768376129506979,
+          "funding_rate": 5e-05,
+          "funding_hours": 4.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793148864340,
+          "oi_change_pct": 2.1769149115791864,
+          "futures_price_change_pct": 3.070757732212215,
+          "elapsed_hours": 4.040978611111111,
+          "baseline_ms": 1793134353909
+        },
+        "cohort_index": 2,
+        "split": "first25",
+        "feature_cutoff_ms": 1793145600000,
+        "source_lag_minutes": 55.15486666666666,
+        "entry_spread_pct": 0.04768262445164788,
+        "outcomes": {}
+      }
+    },
     "errors": [],
     "registration": {
-      "observed_ms": 1793134361205,
-      "added": [],
+      "observed_ms": 1793148909790,
+      "added": [
+        "SUIUSDT",
+        "NIGHTUSDT"
+      ],
       "skipped": {
-        "factor_unknown_or_common_failure": 15
+        "factor_unknown_or_common_failure": 5,
+        "fresh_technical_quote_missing": 1
       },
       "quote_errors": {}
     },
     "measurement": {
-      "observed_ms": 1793134361205,
+      "observed_ms": 1793148909790,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
     },
-    "updated_ms": 1793134361205,
+    "updated_ms": 1793148909790,
     "summaries": {
       "6": {
         "A": {
-          "cases": 0,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -41156,7 +41265,7 @@
       },
       "12": {
         "A": {
-          "cases": 0,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -41222,7 +41331,7 @@
       },
       "24": {
         "A": {
-          "cases": 0,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -41288,7 +41397,7 @@
       },
       "48": {
         "A": {
-          "cases": 0,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -41356,7 +41465,7 @@
     "split_summaries": {
       "first25": {
         "A": {
-          "cases": 0,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
