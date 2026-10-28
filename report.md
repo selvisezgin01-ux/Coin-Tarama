@@ -1,6 +1,6 @@
 # Coin Tarama Meme — V5
 
-Son çalışma: 28.10.2026 23:36 Türkiye saati.
+Son çalışma: 28.10.2026 23:41 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -16,11 +16,11 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
-| BNB Chain | 0 | 0 | 0 | 0 | 0 | 2 |
 | HyperEVM (HYPE) | 0 | 0 | 0 | 0 | 0 | 2 |
 | Ethereum | 0 | 0 | 0 | 0 | 0 | 2 |
-| Robinhood | 0 | 0 | 0 | 0 | 0 | 2 |
+| BNB Chain | 0 | 0 | 0 | 0 | 0 | 2 |
 | Solana | 0 | 0 | 0 | 0 | 0 | 2 |
+| Robinhood | 0 | 0 | 0 | 0 | 0 | 2 |
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
 
@@ -59,15 +59,11 @@ Büyük alıcı desteği zorunlu filtre değildir: 15/30 dk işlem örneğinde a
 
 GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.
 
-- BNB Chain: api.geckoterminal.com: provider stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
 - HyperEVM (HYPE): api.geckoterminal.com: provider stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
 - Ethereum: api.geckoterminal.com: provider stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
-- Robinhood: api.geckoterminal.com: provider stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
+- BNB Chain: api.geckoterminal.com: provider stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
 - Solana: api.geckoterminal.com: provider stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
-
-
-
-
+- Robinhood: api.geckoterminal.com: provider stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
 
 
 <!-- meme-v5-pipeline -->
@@ -78,15 +74,15 @@ Gözlem kaydı alım adayı değildir. Tüm piyasa ön koşulları geçmeden sı
 
 Yeni havuz keşfi en çok2sayfa/ağ;15dk altı havuzlar uygun yaşa yaklaşırken öncelikli yenilenir. Bütçe dışında kalan kapsam ve veri boşluğu gizlenmez.
 
-- bnb: {"refreshed": 0, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: provider stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 0, "waiting_min_age": 0, "market_pass": 0, "market_failed": {}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": null, "valid_page": false}, "reasons": {}}
 - hyperevm: {"refreshed": 0, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: provider stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 0, "waiting_min_age": 0, "market_pass": 0, "market_failed": {}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": 1793219475897, "next_checkpoint_ms": 1793219475897, "oldest_returned_ms": null, "valid_page": false}, "reasons": {}}
 - ethereum: {"refreshed": 0, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: provider stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 0, "waiting_min_age": 0, "market_pass": 0, "market_failed": {}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": 1793219475897, "next_checkpoint_ms": 1793219475897, "oldest_returned_ms": null, "valid_page": false}, "reasons": {}}
-- robinhood: {"refreshed": 0, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: provider stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 0, "waiting_min_age": 0, "market_pass": 0, "market_failed": {}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": null, "valid_page": false}, "reasons": {}}
+- bnb: {"refreshed": 0, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: provider stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 0, "waiting_min_age": 0, "market_pass": 0, "market_failed": {}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": null, "valid_page": false}, "reasons": {}}
 - solana: {"refreshed": 0, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: provider stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 0, "waiting_min_age": 0, "market_pass": 0, "market_failed": {}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": null, "valid_page": false}, "reasons": {}}
+- robinhood: {"refreshed": 0, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: provider stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 0, "waiting_min_age": 0, "market_pass": 0, "market_failed": {}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": null, "valid_page": false}, "reasons": {}}
 
-Zamanlama: {"started_ms": 1793219774966, "finished_ms": 1793219775003, "duration_seconds": 0.037, "github_run_created_at": "2026-10-28T20:00:17Z", "worker_started_ms": "1793219473559", "github_job_started_at": "2026-10-28T20:30:56Z", "cadence": {"interval_count": 25, "p95_minutes": 5.02075, "max_minutes": 5.059966666666667, "meets_7m_target": true, "full_24h_observed": false}}
+Zamanlama: {"started_ms": 1793220074938, "finished_ms": 1793220074972, "duration_seconds": 0.034, "github_run_created_at": "2026-10-28T20:00:17Z", "worker_started_ms": "1793219473559", "github_job_started_at": "2026-10-28T20:30:56Z", "cadence": {"interval_count": 26, "p95_minutes": 5.02075, "max_minutes": 5.059966666666667, "meets_7m_target": true, "full_24h_observed": false}}
 
-İstek durumu: {"api.dexscreener.com:ok": 6}; sağlayıcı429bekleme bitişi: 1793220517337
+İstek durumu: {}; sağlayıcı429bekleme bitişi: 1793220517337
 
 GitHub worker oturumları sınırlıdır. Çalışan oturum içinde hedef5dk; oturum başlangıcı/yenilenmesi gecikebilir. Gerçek aralıklar yukarıda;24saat tamamlanmadan kesintisiz5dk doğrulandı denmez. EskiV4 paralel taranmaz, referansları previous_v4 içinde korunur.
 
