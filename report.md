@@ -69,6 +69,10 @@ GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç s
 - Ethereum: NBISon: api.geckoterminal.com: queued request stopped after access/rate error; USDte: gecko_request_budget_deferred
 
 
+
+
+
+
 <!-- meme-v5-pipeline -->
 
 ## V5 keşif, aşamalar ve gerçek zamanlama
@@ -85,7 +89,7 @@ Yeni havuz keşfi en çok2sayfa/ağ;15dk altı havuzlar uygun yaşa yaklaşırke
 
 Zamanlama: {"started_ms": 1793220675033, "finished_ms": 1793220875068, "duration_seconds": 200.035, "github_run_created_at": "2026-10-28T20:00:17Z", "worker_started_ms": "1793219473559", "github_job_started_at": "2026-10-28T20:30:56Z", "cadence": {"interval_count": 28, "p95_minutes": 5.059966666666667, "max_minutes": 8.3347, "meets_7m_target": true, "full_24h_observed": false}}
 
-İstek durumu: {"api.geckoterminal.com:ok": 12, "api.dexscreener.com:ok": 8, "api.geckoterminal.com:error": 1, "gecko:budget_deferred": 5}; sağlayıcı429bekleme bitişi: 1793221775068
+İstek durumu: {"api.geckoterminal.com:ok": 12, "api.dexscreener.com:ok": 14, "api.geckoterminal.com:error": 1, "gecko:budget_deferred": 5}; sağlayıcı429bekleme bitişi: 1793221779011
 
 GitHub worker oturumları sınırlıdır. Çalışan oturum içinde hedef5dk; oturum başlangıcı/yenilenmesi gecikebilir. Gerçek aralıklar yukarıda;24saat tamamlanmadan kesintisiz5dk doğrulandı denmez. EskiV4 paralel taranmaz, referansları previous_v4 içinde korunur.
 
