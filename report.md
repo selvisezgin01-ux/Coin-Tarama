@@ -1,6 +1,6 @@
 # Coin Tarama Meme — V5
 
-Son çalışma: 28.10.2026 23:30 Türkiye saati.
+Son çalışma: 28.10.2026 23:33 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -16,17 +16,11 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
-| Solana | 68 | 1 | 0 | 0 | 0 | 0 |
-| Robinhood | 67 | 2 | 0 | 0 | 0 | 0 |
-| BNB Chain | 59 | 2 | 1 | 0 | 0 | 0 |
-| HyperEVM (HYPE) | 18 | 0 | 2 | 0 | 0 | 0 |
-| Ethereum | 31 | 1 | 3 | 0 | 0 | 0 |
-
-Bu çalışmada aday olmayan mum incelemeleri (token listesi değildir):
-- 2: Güncel mumun yüksek/düşük verisi eksik
-- 2: Önceden yükseliş / uzun fitil görülmüş; Başlangıç fiyatından fazla uzaklaşmış
-- 1: Başlangıç geçmişinde veri boşluğu var
-- 1: Havuz başlangıç mumları eksik
+| BNB Chain | 19 | 0 | 0 | 0 | 0 | 2 |
+| Robinhood | 19 | 0 | 0 | 0 | 0 | 2 |
+| HyperEVM (HYPE) | 18 | 0 | 0 | 0 | 0 | 3 |
+| Solana | 36 | 0 | 0 | 0 | 0 | 1 |
+| Ethereum | 33 | 1 | 0 | 0 | 0 | 3 |
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
 
@@ -65,10 +59,11 @@ Büyük alıcı desteği zorunlu filtre değildir: 15/30 dk işlem örneğinde a
 
 GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.
 
-
-
-
-
+- BNB Chain: api.geckoterminal.com: HTTP 429; api.geckoterminal.com: provider stopped after access/rate error
+- Robinhood: api.geckoterminal.com: queued request stopped after access/rate error; api.geckoterminal.com: provider stopped after access/rate error
+- HyperEVM (HYPE): api.geckoterminal.com: queued request stopped after access/rate error; iBEAR: api.geckoterminal.com: provider stopped after access/rate error; BULL: api.geckoterminal.com: provider stopped after access/rate error
+- Solana: api.geckoterminal.com: queued request stopped after access/rate error
+- Ethereum: LTC: api.geckoterminal.com: queued request stopped after access/rate error; XRP: api.geckoterminal.com: provider stopped after access/rate error; NULORA: api.geckoterminal.com: provider stopped after access/rate error
 
 
 <!-- meme-v5-pipeline -->
@@ -79,15 +74,15 @@ Gözlem kaydı alım adayı değildir. Tüm piyasa ön koşulları geçmeden sı
 
 Yeni havuz keşfi en çok2sayfa/ağ;15dk altı havuzlar uygun yaşa yaklaşırken öncelikli yenilenir. Bütçe dışında kalan kapsam ve veri boşluğu gizlenmez.
 
-- solana: {"refreshed": 68, "eligible": 1, "evaluated": 0, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 68, "waiting_min_age": 38, "market_pass": 1, "market_failed": {"pool_age": 38, "valuation": 60, "liquidity_to_valuation": 14, "liquidity": 64, "volume15": 46, "transaction_flow15": 60, "liquidity_withdrawal": 10}, "market_unknown": {"liquidity": 1}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793219067000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793219115000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793219115000, "valid_page": true}, "reasons": {}}
-- robinhood: {"refreshed": 67, "eligible": 2, "evaluated": 0, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 67, "waiting_min_age": 35, "market_pass": 2, "market_failed": {"pool_age": 35, "transaction_flow15": 57, "liquidity": 55, "valuation": 51, "volume15": 47, "liquidity_to_valuation": 14, "liquidity_withdrawal": 2}, "market_unknown": {"liquidity": 2}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793218841000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793218388000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793218388000, "valid_page": true}, "reasons": {}}
-- bnb: {"refreshed": 59, "eligible": 2, "evaluated": 1, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 59, "waiting_min_age": 26, "market_pass": 2, "market_failed": {"pool_age": 27, "liquidity": 49, "valuation": 48, "volume15": 40, "transaction_flow15": 46, "liquidity_to_valuation": 17, "liquidity_withdrawal": 9}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 1, "ohlcv_attempted": 1, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793218650000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793217987000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793217987000, "valid_page": true}, "reasons": {"first_rise_already_observed,already_extended_from_initial_price": 1}}
-- hyperevm: {"refreshed": 18, "eligible": 0, "evaluated": 2, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 18, "waiting_min_age": 0, "market_pass": 0, "market_failed": {"liquidity": 16, "valuation": 16, "volume15": 18, "transaction_flow15": 18, "liquidity_to_valuation": 1, "pool_age": 5}, "market_unknown": {}, "data_inspection_possible": 2, "ohlcv_read": 2, "ohlcv_attempted": 2, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793098680000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793218918884, "next_checkpoint_ms": 1793219218969, "oldest_returned_ms": 1793098680000, "valid_page": true}, "reasons": {"initial_history_has_gaps": 1, "initial_pool_history_missing": 1}}
-- ethereum: {"refreshed": 31, "eligible": 1, "evaluated": 3, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 31, "waiting_min_age": 0, "market_pass": 1, "market_failed": {"valuation": 28, "liquidity": 24, "volume15": 29, "transaction_flow15": 29, "liquidity_to_valuation": 7, "liquidity_withdrawal": 1}, "market_unknown": {}, "data_inspection_possible": 5, "ohlcv_read": 3, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 3, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793211647000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793218918883, "next_checkpoint_ms": 1793219218969, "oldest_returned_ms": 1793211647000, "valid_page": true}, "reasons": {"first_rise_already_observed,already_extended_from_initial_price": 1, "current_interval_history_missing": 2}}
+- bnb: {"refreshed": 19, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: HTTP 429", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 19, "waiting_min_age": 19, "market_pass": 0, "market_failed": {"pool_age": 19, "valuation": 16, "transaction_flow15": 16, "liquidity": 13, "volume15": 14, "liquidity_to_valuation": 3}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793218885000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793218885000, "valid_page": true}, "reasons": {}}
+- robinhood: {"refreshed": 19, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: queued request stopped after access/rate error", "api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 19, "waiting_min_age": 19, "market_pass": 0, "market_failed": {"pool_age": 19, "liquidity": 13, "valuation": 15, "volume15": 13, "transaction_flow15": 15, "liquidity_to_valuation": 1}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793219003000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793219003000, "valid_page": true}, "reasons": {}}
+- hyperevm: {"refreshed": 18, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: queued request stopped after access/rate error", "iBEAR: api.geckoterminal.com: provider stopped after access/rate error", "BULL: api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 18, "waiting_min_age": 0, "market_pass": 0, "market_failed": {"liquidity": 16, "valuation": 16, "volume15": 18, "transaction_flow15": 18, "liquidity_to_valuation": 1, "pool_age": 5}, "market_unknown": {}, "data_inspection_possible": 2, "ohlcv_read": 0, "ohlcv_attempted": 2, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793098680000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793219218969, "next_checkpoint_ms": 1793219475897, "oldest_returned_ms": 1793098680000, "valid_page": true}, "reasons": {}}
+- solana: {"refreshed": 36, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["api.geckoterminal.com: queued request stopped after access/rate error"], "funnel": {"records": 36, "waiting_min_age": 36, "market_pass": 0, "market_failed": {"pool_age": 36, "transaction_flow15": 27, "liquidity": 31, "valuation": 33, "volume15": 24}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793219306000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793219438000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793219438000, "valid_page": true}, "reasons": {}}
+- ethereum: {"refreshed": 33, "eligible": 1, "evaluated": 0, "qualified": 0, "review": 0, "errors": ["LTC: api.geckoterminal.com: queued request stopped after access/rate error", "XRP: api.geckoterminal.com: provider stopped after access/rate error", "NULORA: api.geckoterminal.com: provider stopped after access/rate error"], "funnel": {"records": 33, "waiting_min_age": 0, "market_pass": 1, "market_failed": {"valuation": 31, "liquidity": 27, "volume15": 31, "transaction_flow15": 31, "liquidity_to_valuation": 8}, "market_unknown": {}, "data_inspection_possible": 4, "ohlcv_read": 0, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 1, "security_checked": 0}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793211647000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793219218969, "next_checkpoint_ms": 1793219475897, "oldest_returned_ms": 1793211647000, "valid_page": true}, "reasons": {}}
 
-Zamanlama: {"started_ms": 1793219218937, "finished_ms": 1793219445064, "duration_seconds": 226.127, "github_run_created_at": "2026-10-28T18:37:34Z", "worker_started_ms": "1793212917794", "github_job_started_at": "2026-10-28T18:41:43Z", "cadence": {"interval_count": 23, "p95_minutes": 5.02075, "max_minutes": 5.059966666666667, "meets_7m_target": true, "full_24h_observed": false}}
+Zamanlama: {"started_ms": 1793219475864, "finished_ms": 1793219613398, "duration_seconds": 137.534, "github_run_created_at": "2026-10-28T20:00:17Z", "worker_started_ms": "1793219473559", "github_job_started_at": "2026-10-28T20:30:56Z", "cadence": {"interval_count": 24, "p95_minutes": 5.02075, "max_minutes": 5.059966666666667, "meets_7m_target": true, "full_24h_observed": false}}
 
-İstek durumu: {"api.geckoterminal.com:ok": 19, "api.dexscreener.com:ok": 17}; sağlayıcı429bekleme bitişi: None
+İstek durumu: {"api.geckoterminal.com:ok": 7, "api.dexscreener.com:ok": 7, "api.geckoterminal.com:error": 1}; sağlayıcı429bekleme bitişi: 1793220513398
 
 GitHub worker oturumları sınırlıdır. Çalışan oturum içinde hedef5dk; oturum başlangıcı/yenilenmesi gecikebilir. Gerçek aralıklar yukarıda;24saat tamamlanmadan kesintisiz5dk doğrulandı denmez. EskiV4 paralel taranmaz, referansları previous_v4 içinde korunur.
 
