@@ -4,28 +4,17 @@
   "venues": {
     "OKX": {
       "active": [
-        "GRASSUSDT",
         "BCHUSDT",
-        "XMUUSDT",
-        "XEWYUSDT",
-        "XNBISUSDT",
-        "XSHAZUSDT",
-        "PONSUSDT",
-        "ZAMAUSDT",
-        "API3USDT",
-        "XMVLLUSDT",
-        "XIRENUSDT",
-        "XCRWVUSDT",
-        "XSNXXUSDT",
-        "NIGHTUSDT",
-        "XSKHYUSDT",
+        "XBOTUSDT",
         "XMRVLUSDT",
-        "XKORUUSDT",
-        "XBEUSDT",
-        "XLITEUSDT",
-        "XTQQQUSDT",
-        "XSNDKUSDT",
-        "XINTCUSDT"
+        "NIGHTUSDT",
+        "XAAOIUSDT",
+        "BOMEUSDT",
+        "ZENUSDT",
+        "FLOKIUSDT",
+        "XLRCXUSDT",
+        "XAMZNUSDT",
+        "XAMATUSDT"
       ],
       "last_alert": {
         "CHIPUSDT": 1793026195761,
@@ -75,16 +64,24 @@
         "XRPUSDT": 1793133773397,
         "PONSUSDT": 1793149133411,
         "API3USDT": 1793149133411,
-        "XBEUSDT": 1793149133411
+        "XBEUSDT": 1793149133411,
+        "XBOTUSDT": 1793163024372,
+        "BOMEUSDT": 1793163024372,
+        "FLOKIUSDT": 1793163024372,
+        "XLRCXUSDT": 1793163024372,
+        "XAMZNUSDT": 1793163024372,
+        "XAMATUSDT": 1793163024372
       },
       "ever_seen": [
         "API3USDT",
         "ASTRUSDT",
         "BCHUSDT",
+        "BOMEUSDT",
         "CELOUSDT",
         "CFGUSDT",
         "CHIPUSDT",
         "DASHUSDT",
+        "FLOKIUSDT",
         "GRASSUSDT",
         "HYPEUSDT",
         "INJUSDT",
@@ -94,10 +91,13 @@
         "SCRUSDT",
         "WUSDT",
         "XAAOIUSDT",
+        "XAMATUSDT",
         "XAMDUSDT",
+        "XAMZNUSDT",
         "XAPLDUSDT",
         "XAVGOUSDT",
         "XBEUSDT",
+        "XBOTUSDT",
         "XCOHRUSDT",
         "XCRWVUSDT",
         "XDELLUSDT",
@@ -107,6 +107,7 @@
         "XIRENUSDT",
         "XKORUUSDT",
         "XLITEUSDT",
+        "XLRCXUSDT",
         "XMRVLUSDT",
         "XMUUSDT",
         "XMVLLUSDT",
@@ -129,798 +130,409 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793148993010,
-        "feature_cutoff_ms": 1793145600000,
+        "observed_ms": 1793162873944,
+        "feature_cutoff_ms": 1793160000000,
         "universe_count": 462,
-        "prefilter_count": 263,
-        "analyzed_count": 245,
+        "prefilter_count": 315,
+        "analyzed_count": 299,
         "candidates": [
           {
             "exchange": "OKX",
-            "symbol": "GRASSUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.76215,
-            "spread_pct": 0.11808699074983939,
-            "return24_pct": 10.661169194522158,
-            "relative24_pct_points": 9.711028201833805,
-            "quote_volume24": 1904591.544431,
-            "liquidity_band": "main",
-            "breakout_level": 0.7437,
-            "breakout_open_ms": 1793116800000.0,
-            "breakout_volume_ratio": 4.121297482439581,
-            "strength_score": 100,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.6619792013060493,
-            "atr": 0.03208319477580329,
-            "close": 0.7515,
-            "paper_controls": [
-              {
-                "symbol": "ZROUSDT",
-                "entry_price": 1.6854
-              },
-              {
-                "symbol": "CPUSDT",
-                "entry_price": 0.0092895
-              },
-              {
-                "symbol": "DASHUSDT",
-                "entry_price": 54.959999999999994
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
             "symbol": "BCHUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 294.795,
-            "spread_pct": 0.0033921877915130526,
-            "return24_pct": 5.257731958762868,
-            "relative24_pct_points": 4.307590966074515,
-            "quote_volume24": 6316942.862385261,
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 298.015,
+            "spread_pct": 0.0033555357951750436,
+            "return24_pct": 5.5139623177092645,
+            "relative24_pct_points": 3.853599425748744,
+            "quote_volume24": 7523985.58927083,
             "liquidity_band": "main",
             "breakout_level": 294.87,
             "breakout_open_ms": 1793131200000.0,
             "breakout_volume_ratio": 3.3016579974959166,
             "strength_score": 100,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 278.55639018169006,
-            "atr": 6.37443927323964,
-            "close": 296.09,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 285.6827194620802,
+            "atr": 6.309122151679293,
+            "close": 297.37,
             "paper_controls": [
               {
                 "symbol": "SUIUSDT",
-                "entry_price": 0.93285
+                "entry_price": 0.94015
               },
               {
-                "symbol": "ENAUSDT",
-                "entry_price": 0.210285
+                "symbol": "XSNDKUSDT",
+                "entry_price": 1358.15
               },
               {
-                "symbol": "LITUSDT",
-                "entry_price": 3.0524500000000003
+                "symbol": "UNIUSDT",
+                "entry_price": 7.2125
               }
             ],
-            "paper_btc_price": 80747.35
+            "paper_btc_price": 81002.45
           },
           {
             "exchange": "OKX",
-            "symbol": "XMUUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 949.77,
-            "spread_pct": 0.02526927571938565,
-            "return24_pct": 3.064237440125983,
-            "relative24_pct_points": 2.11409644743763,
-            "quote_volume24": 1058557.2220197793,
+            "symbol": "XBOTUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 24.67,
+            "spread_pct": 0.2432103769760791,
+            "return24_pct": 3.731656184486365,
+            "relative24_pct_points": 2.0712932925258443,
+            "quote_volume24": 115455.25814599995,
             "liquidity_band": "main",
-            "breakout_level": 936.41,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 1.7273820248294371,
+            "breakout_level": 24.71,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 4.875366891083639,
+            "strength_score": 100,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 23.11397723489604,
+            "atr": 0.5040910604158381,
+            "close": 24.74,
+            "paper_controls": [
+              {
+                "symbol": "ZETAUSDT",
+                "entry_price": 0.039795
+              },
+              {
+                "symbol": "ALLOUSDT",
+                "entry_price": 0.18719999999999998
+              },
+              {
+                "symbol": "MOVEUSDT",
+                "entry_price": 0.006768
+              }
+            ],
+            "paper_btc_price": 81002.45
+          },
+          {
+            "exchange": "OKX",
+            "symbol": "XMRVLUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 247.025,
+            "spread_pct": 0.02833721283270648,
+            "return24_pct": 5.8906390062748,
+            "relative24_pct_points": 4.23027611431428,
+            "quote_volume24": 365114.2796587998,
+            "liquidity_band": "main",
+            "breakout_level": 245.2,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 1.5355247212380103,
             "strength_score": 80,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 908.8907424482209,
-            "atr": 15.07703020711622,
-            "close": 942.44,
+            "invalidation_level": 240.36445465421014,
+            "atr": 4.902181383159444,
+            "close": 248.07,
             "paper_controls": [
               {
-                "symbol": "TAOUSDT",
-                "entry_price": 255.88
+                "symbol": "ORDIUSDT",
+                "entry_price": 3.705
               },
               {
-                "symbol": "PIUSDT",
-                "entry_price": 0.076945
+                "symbol": "APEUSDT",
+                "entry_price": 0.12283
               },
               {
-                "symbol": "OPUSDT",
-                "entry_price": 0.112285
+                "symbol": "PNUTUSDT",
+                "entry_price": 0.041975
               }
             ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XEWYUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 160.95999999999998,
-            "spread_pct": 0.062127236580513376,
-            "return24_pct": 2.1894981592714524,
-            "relative24_pct_points": 1.2393571665830994,
-            "quote_volume24": 42950.41643209988,
-            "liquidity_band": "thin",
-            "breakout_level": 158.2,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 3.6790598404330774,
-            "strength_score": 80,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 154.48381411633522,
-            "atr": 1.864743534659042,
-            "close": 158.22,
-            "paper_controls": [
-              {
-                "symbol": "1INCHUSDT",
-                "entry_price": 0.08859
-              },
-              {
-                "symbol": "XQCOMUSDT",
-                "entry_price": 185.025
-              },
-              {
-                "symbol": "XGEVUSDT",
-                "entry_price": 902.7950000000001
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XNBISUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 172.235,
-            "spread_pct": 0.08709031265422573,
-            "return24_pct": 10.57753873735432,
-            "relative24_pct_points": 9.627397744665966,
-            "quote_volume24": 293689.80969519983,
-            "liquidity_band": "main",
-            "breakout_level": 165.86,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 6.090284565051139,
-            "strength_score": 75,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 156.83302186249836,
-            "atr": 5.267912550006579,
-            "close": 172.7,
-            "paper_controls": [
-              {
-                "symbol": "ROBOUSDT",
-                "entry_price": 0.0058224999999999996
-              },
-              {
-                "symbol": "ATHUSDT",
-                "entry_price": 0.0057855
-              },
-              {
-                "symbol": "NESUSDT",
-                "entry_price": 0.11495
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XSHAZUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 25.945,
-            "spread_pct": 0.26980150317980456,
-            "return24_pct": 9.81725456863578,
-            "relative24_pct_points": 8.867113575947428,
-            "quote_volume24": 55126.64849010006,
-            "liquidity_band": "thin",
-            "breakout_level": 24.57,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 12.208582805407307,
-            "strength_score": 75,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 23.79492363109876,
-            "atr": 0.740305475604958,
-            "close": 25.84,
-            "paper_controls": [
-              {
-                "symbol": "WCTUSDT",
-                "entry_price": 0.036895
-              },
-              {
-                "symbol": "SAHARAUSDT",
-                "entry_price": 0.007864
-              },
-              {
-                "symbol": "ACEUSDT",
-                "entry_price": 0.14573
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "PONSUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.2784,
-            "spread_pct": 0.07183908045978214,
-            "return24_pct": 8.879837067209762,
-            "relative24_pct_points": 7.9296960745214085,
-            "quote_volume24": 3437889.0503519997,
-            "liquidity_band": "main",
-            "breakout_level": 0.2599,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 2.243237342740376,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.24190783392448753,
-            "atr": 0.010768664302049886,
-            "close": 0.2673,
-            "paper_controls": [
-              {
-                "symbol": "PUMPUSDT",
-                "entry_price": 0.004357
-              },
-              {
-                "symbol": "ENAUSDT",
-                "entry_price": 0.210285
-              },
-              {
-                "symbol": "ZROUSDT",
-                "entry_price": 1.6854
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "ZAMAUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.077575,
-            "spread_pct": 0.0644537544312064,
-            "return24_pct": 8.419148344002236,
-            "relative24_pct_points": 7.469007351313883,
-            "quote_volume24": 2697052.161754,
-            "liquidity_band": "main",
-            "breakout_level": 0.07329,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 26.49259439062882,
-            "strength_score": 75,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 0.07133177217093199,
-            "atr": 0.002312911316272054,
-            "close": 0.07791,
-            "paper_controls": [
-              {
-                "symbol": "DASHUSDT",
-                "entry_price": 54.959999999999994
-              },
-              {
-                "symbol": "ONDOUSDT",
-                "entry_price": 0.42075
-              },
-              {
-                "symbol": "PUMPUSDT",
-                "entry_price": 0.004357
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "API3USDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.26044999999999996,
-            "spread_pct": 0.11518525628720387,
-            "return24_pct": 7.139991977537119,
-            "relative24_pct_points": 6.189850984848766,
-            "quote_volume24": 189740.6511219927,
-            "liquidity_band": "main",
-            "breakout_level": 0.264,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 5.137228014906254,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.24237138393853142,
-            "atr": 0.006514464245874292,
-            "close": 0.2671,
-            "paper_controls": [
-              {
-                "symbol": "XWDCUSDT",
-                "entry_price": 379.04
-              },
-              {
-                "symbol": "MINAUSDT",
-                "entry_price": 0.06471
-              },
-              {
-                "symbol": "AGLDUSDT",
-                "entry_price": 0.1773
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XMVLLUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 29.34,
-            "spread_pct": 0.13633265167007208,
-            "return24_pct": 7.05104663973557,
-            "relative24_pct_points": 6.100905647047217,
-            "quote_volume24": 17354.431929999988,
-            "liquidity_band": "thin",
-            "breakout_level": 27.86,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 16.443181533497523,
-            "strength_score": 75,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 27.005029711998944,
-            "atr": 0.8998811520042249,
-            "close": 29.15,
-            "paper_controls": [
-              {
-                "symbol": "SDUSDT",
-                "entry_price": 0.118085
-              },
-              {
-                "symbol": "WOOUSDT",
-                "entry_price": 0.010280000000000001
-              },
-              {
-                "symbol": "DOGSUSDT",
-                "entry_price": 3.596e-05
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XIRENUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 27.67,
-            "spread_pct": 0.07228044813877692,
-            "return24_pct": 6.389530408006161,
-            "relative24_pct_points": 5.439389415317808,
-            "quote_volume24": 163287.97758500002,
-            "liquidity_band": "main",
-            "breakout_level": 26.73,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 11.68805100662332,
-            "strength_score": 75,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 25.523555204166918,
-            "atr": 0.7457791833323321,
-            "close": 27.64,
-            "paper_controls": [
-              {
-                "symbol": "AGLDUSDT",
-                "entry_price": 0.1773
-              },
-              {
-                "symbol": "MINAUSDT",
-                "entry_price": 0.06471
-              },
-              {
-                "symbol": "MAGICUSDT",
-                "entry_price": 0.08298
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XCRWVUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 59.84,
-            "spread_pct": 0.06684491978609483,
-            "return24_pct": 6.024734982332158,
-            "relative24_pct_points": 5.074593989643805,
-            "quote_volume24": 57618.68082629995,
-            "liquidity_band": "thin",
-            "breakout_level": 57.85,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 3.2003833596868763,
-            "strength_score": 75,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 55.19972929160325,
-            "atr": 1.7210828335870272,
-            "close": 60.01,
-            "paper_controls": [
-              {
-                "symbol": "ACEUSDT",
-                "entry_price": 0.14573
-              },
-              {
-                "symbol": "GRTUSDT",
-                "entry_price": 0.022510000000000002
-              },
-              {
-                "symbol": "WCTUSDT",
-                "entry_price": 0.036895
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XSNXXUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 9.3115,
-            "spread_pct": 0.16109112387908037,
-            "return24_pct": 5.8041958041958,
-            "relative24_pct_points": 4.854054811507447,
-            "quote_volume24": 208061.7807053,
-            "liquidity_band": "main",
-            "breakout_level": 8.813,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 2.1814262588445104,
-            "strength_score": 75,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 8.360912984428063,
-            "atr": 0.356348062287746,
-            "close": 9.078,
-            "paper_controls": [
-              {
-                "symbol": "PARTIUSDT",
-                "entry_price": 0.038615
-              },
-              {
-                "symbol": "OLUSDT",
-                "entry_price": 0.0059965
-              },
-              {
-                "symbol": "WETUSDT",
-                "entry_price": 0.05068
-              }
-            ],
-            "paper_btc_price": 80747.35
+            "paper_btc_price": 81002.45
           },
           {
             "exchange": "OKX",
             "symbol": "NIGHTUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.0420995,
-            "spread_pct": 0.05463247782040686,
-            "return24_pct": 4.439193605148062,
-            "relative24_pct_points": 3.4890526124597088,
-            "quote_volume24": 1539591.4862168,
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 0.041764499999999996,
+            "spread_pct": 0.016760646003184672,
+            "return24_pct": 7.361311375882229,
+            "relative24_pct_points": 5.700948483921708,
+            "quote_volume24": 1696065.7195877,
             "liquidity_band": "main",
             "breakout_level": 0.041365,
             "breakout_open_ms": 1793131200000.0,
             "breakout_volume_ratio": 2.6155896254804163,
             "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.03898219482109058,
-            "atr": 0.0013352207156376642,
-            "close": 0.041548,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 0.038980930905700435,
+            "atr": 0.0013402763771982501,
+            "close": 0.042441,
             "paper_controls": [
               {
-                "symbol": "ETHFIUSDT",
-                "entry_price": 0.66785
+                "symbol": "INJUSDT",
+                "entry_price": 8.049
+              },
+              {
+                "symbol": "MONUSDT",
+                "entry_price": 0.021679999999999998
               },
               {
                 "symbol": "ZROUSDT",
-                "entry_price": 1.6854
-              },
-              {
-                "symbol": "XPLUSDT",
-                "entry_price": 0.07408000000000001
+                "entry_price": 1.72445
               }
             ],
-            "paper_btc_price": 80747.35
+            "paper_btc_price": 81002.45
           },
           {
             "exchange": "OKX",
-            "symbol": "XSKHYUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 151.475,
-            "spread_pct": 0.006601749463601852,
-            "return24_pct": 2.7285223367697675,
-            "relative24_pct_points": 1.7783813440814145,
-            "quote_volume24": 1536972.4977272998,
-            "liquidity_band": "main",
-            "breakout_level": 148.62,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 2.8651482246097957,
+            "symbol": "XAAOIUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 77.925,
+            "spread_pct": 0.08982996470964796,
+            "return24_pct": 6.92758761761898,
+            "relative24_pct_points": 5.267224725658459,
+            "quote_volume24": 90586.59512939997,
+            "liquidity_band": "thin",
+            "breakout_level": 77.65,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 2.712198341136824,
             "strength_score": 75,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 143.56621726955825,
-            "atr": 2.8151309217670253,
-            "close": 149.47,
+            "invalidation_level": 75.81475472415848,
+            "atr": 2.300981103366091,
+            "close": 78.41,
             "paper_controls": [
               {
-                "symbol": "GRAMUSDT",
-                "entry_price": 1.2325
+                "symbol": "CVXUSDT",
+                "entry_price": 2.311
               },
               {
-                "symbol": "TAOUSDT",
-                "entry_price": 255.88
+                "symbol": "VELODROMEUSDT",
+                "entry_price": 0.030605
               },
               {
-                "symbol": "SHIBUSDT",
-                "entry_price": 4.905e-06
+                "symbol": "SAFEUSDT",
+                "entry_price": 0.105075
               }
             ],
-            "paper_btc_price": 80747.35
+            "paper_btc_price": 81002.45
           },
           {
             "exchange": "OKX",
-            "symbol": "XMRVLUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 245.305,
-            "spread_pct": 0.028535904282421143,
-            "return24_pct": 3.57430229111082,
-            "relative24_pct_points": 2.624161298422467,
-            "quote_volume24": 333451.95733779983,
+            "symbol": "BOMEUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 0.00065185,
+            "spread_pct": 0.13806857405844405,
+            "return24_pct": 5.166828636216381,
+            "relative24_pct_points": 3.50646574425586,
+            "quote_volume24": 203727.2637151,
             "liquidity_band": "main",
-            "breakout_level": 239.04,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 1.90839584059803,
-            "strength_score": 60,
+            "breakout_level": 0.0006417,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 3.083304591331536,
+            "strength_score": 75,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 0.0006190777332148,
+            "atr": 1.6889067140800268e-05,
+            "close": 0.0006493,
+            "paper_controls": [
+              {
+                "symbol": "XIRENUSDT",
+                "entry_price": 27.755
+              },
+              {
+                "symbol": "API3USDT",
+                "entry_price": 0.2617
+              },
+              {
+                "symbol": "NESUSDT",
+                "entry_price": 0.11535000000000001
+              }
+            ],
+            "paper_btc_price": 81002.45
+          },
+          {
+            "exchange": "OKX",
+            "symbol": "ZENUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 5.9855,
+            "spread_pct": 0.11694929412746928,
+            "return24_pct": 4.2411496670171855,
+            "relative24_pct_points": 2.580786775056665,
+            "quote_volume24": 203114.59933,
+            "liquidity_band": "main",
+            "breakout_level": 5.847,
+            "breakout_open_ms": 1793116800000.0,
+            "breakout_volume_ratio": 3.4151484595623396,
+            "strength_score": 75,
             "breakout_age_bars": 2.0,
-            "invalidation_level": 234.65018193433198,
-            "atr": 4.799272262672068,
-            "close": 244.57,
+            "invalidation_level": 5.754923092612796,
+            "atr": 0.1123076295488171,
+            "close": 5.948,
             "paper_controls": [
               {
-                "symbol": "APEUSDT",
-                "entry_price": 0.122395
+                "symbol": "ALGOUSDT",
+                "entry_price": 0.10419
               },
               {
-                "symbol": "VIRTUALUSDT",
-                "entry_price": 0.6309
+                "symbol": "CFXUSDT",
+                "entry_price": 0.04811
               },
               {
-                "symbol": "ORDIUSDT",
-                "entry_price": 3.675
+                "symbol": "XBSPUSDT",
+                "entry_price": 47.15
               }
             ],
-            "paper_btc_price": 80747.35
+            "paper_btc_price": 81002.45
           },
           {
             "exchange": "OKX",
-            "symbol": "XKORUUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 12.629999999999999,
-            "spread_pct": 0.15835312747427832,
-            "return24_pct": 6.366047745358072,
-            "relative24_pct_points": 5.415906752669719,
-            "quote_volume24": 327613.14910799987,
+            "symbol": "FLOKIUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 2.37e-05,
+            "spread_pct": 0.08438818565402192,
+            "return24_pct": 4.172156346069378,
+            "relative24_pct_points": 2.511793454108857,
+            "quote_volume24": 60665.48322237003,
+            "liquidity_band": "thin",
+            "breakout_level": 2.355e-05,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 3.7062276881104084,
+            "strength_score": 75,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 2.2941390185403572e-05,
+            "atr": 4.344392583857231e-07,
+            "close": 2.372e-05,
+            "paper_controls": [
+              {
+                "symbol": "MANAUSDT",
+                "entry_price": 0.07953
+              },
+              {
+                "symbol": "SPACEUSDT",
+                "entry_price": 0.003748
+              },
+              {
+                "symbol": "XGLWUSDT",
+                "entry_price": 127.99000000000001
+              }
+            ],
+            "paper_btc_price": 81002.45
+          },
+          {
+            "exchange": "OKX",
+            "symbol": "XLRCXUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 243.885,
+            "spread_pct": 0.02870205219672927,
+            "return24_pct": 3.2058303142640465,
+            "relative24_pct_points": 1.5454674223035259,
+            "quote_volume24": 38082.79811809998,
+            "liquidity_band": "thin",
+            "breakout_level": 242.32,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 15.169912303355717,
+            "strength_score": 75,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 238.6456970387121,
+            "atr": 3.737211845151733,
+            "close": 244.99,
+            "paper_controls": [
+              {
+                "symbol": "HMSTRUSDT",
+                "entry_price": 0.00014405
+              },
+              {
+                "symbol": "XUSARUSDT",
+                "entry_price": 10.42
+              },
+              {
+                "symbol": "LUNAUSDT",
+                "entry_price": 0.043095
+              }
+            ],
+            "paper_btc_price": 81002.45
+          },
+          {
+            "exchange": "OKX",
+            "symbol": "XAMZNUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 254.66500000000002,
+            "spread_pct": 0.04319399996072692,
+            "return24_pct": 2.156485489818838,
+            "relative24_pct_points": 0.49612259785831725,
+            "quote_volume24": 123668.07751509994,
             "liquidity_band": "main",
-            "breakout_level": 11.87,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 2.010434792797068,
+            "breakout_level": 254.85,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 2.8257067951331494,
+            "strength_score": 75,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 252.14459526445523,
+            "atr": 1.5816189421790117,
+            "close": 254.86,
+            "paper_controls": [
+              {
+                "symbol": "XTSMUSDT",
+                "entry_price": 434.8
+              },
+              {
+                "symbol": "BRL1USDT",
+                "entry_price": 0.18665
+              },
+              {
+                "symbol": "FLRUSDT",
+                "entry_price": 0.0061355
+              }
+            ],
+            "paper_btc_price": 81002.45
+          },
+          {
+            "exchange": "OKX",
+            "symbol": "XAMATUSDT",
+            "observed_ms": 1793162873944,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 401.765,
+            "spread_pct": 0.17174218759722668,
+            "return24_pct": 4.167744605991608,
+            "relative24_pct_points": 2.5073817140310872,
+            "quote_volume24": 46706.6539205,
+            "liquidity_band": "thin",
+            "breakout_level": 399.24,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 1.689532780800351,
             "strength_score": 55,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 11.21640718553231,
-            "atr": 0.4143712578707633,
-            "close": 12.03,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 393.56979117086115,
+            "atr": 5.680835316555446,
+            "close": 402.65,
             "paper_controls": [
               {
-                "symbol": "ATHUSDT",
-                "entry_price": 0.0057855
+                "symbol": "XGEVUSDT",
+                "entry_price": 903.45
               },
               {
-                "symbol": "CFGUSDT",
-                "entry_price": 0.11247
+                "symbol": "PROVEUSDT",
+                "entry_price": 0.1951
               },
               {
-                "symbol": "MOODENGUSDT",
-                "entry_price": 0.038715
+                "symbol": "NEOUSDT",
+                "entry_price": 2.1125
               }
             ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XBEUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 220.51,
-            "spread_pct": 0.10883860142397582,
-            "return24_pct": 5.5998080614203305,
-            "relative24_pct_points": 4.649667068731977,
-            "quote_volume24": 121947.9669377,
-            "liquidity_band": "main",
-            "breakout_level": 213.62,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 3.7996198584400784,
-            "strength_score": 55,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 207.67693973609403,
-            "atr": 6.3322410556238,
-            "close": 220.07,
-            "paper_controls": [
-              {
-                "symbol": "BERAUSDT",
-                "entry_price": 0.15134999999999998
-              },
-              {
-                "symbol": "XAAOIUSDT",
-                "entry_price": 77.455
-              },
-              {
-                "symbol": "BOMEUSDT",
-                "entry_price": 0.00063795
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XLITEUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 869.46,
-            "spread_pct": 0.0552066800082831,
-            "return24_pct": 3.979001372069435,
-            "relative24_pct_points": 3.028860379381082,
-            "quote_volume24": 402329.93189943983,
-            "liquidity_band": "main",
-            "breakout_level": 847.0,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 8.938605401874476,
-            "strength_score": 55,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 815.9027258425767,
-            "atr": 23.06909662969287,
-            "close": 871.5,
-            "paper_controls": [
-              {
-                "symbol": "SLXUSDT",
-                "entry_price": 0.05134
-              },
-              {
-                "symbol": "ARUSDT",
-                "entry_price": 3.5125
-              },
-              {
-                "symbol": "2ZUSDT",
-                "entry_price": 0.02914
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XTQQQUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 71.50999999999999,
-            "spread_pct": 0.027968116347358442,
-            "return24_pct": 3.3251409570623114,
-            "relative24_pct_points": 2.3749999643739583,
-            "quote_volume24": 514420.17367020005,
-            "liquidity_band": "main",
-            "breakout_level": 69.65,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 7.272805597565388,
-            "strength_score": 55,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 68.74566544106219,
-            "atr": 1.1373382357512853,
-            "close": 71.47,
-            "paper_controls": [
-              {
-                "symbol": "ETCUSDT",
-                "entry_price": 7.6645
-              },
-              {
-                "symbol": "CROUSDT",
-                "entry_price": 0.053904999999999995
-              },
-              {
-                "symbol": "CHZUSDT",
-                "entry_price": 0.013049999999999999
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XSNDKUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 1326.4499999999998,
-            "spread_pct": 0.022616759018429234,
-            "return24_pct": 3.0167334433183868,
-            "relative24_pct_points": 2.0665924506300337,
-            "quote_volume24": 5345343.531005499,
-            "liquidity_band": "main",
-            "breakout_level": 1291.2,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 5.160748440774015,
-            "strength_score": 55,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 1256.4080528831316,
-            "atr": 27.16778846747376,
-            "close": 1311.3,
-            "paper_controls": [
-              {
-                "symbol": "SUIUSDT",
-                "entry_price": 0.93285
-              },
-              {
-                "symbol": "XSPCXUSDT",
-                "entry_price": 149.665
-              },
-              {
-                "symbol": "PUMPUSDT",
-                "entry_price": 0.004357
-              }
-            ],
-            "paper_btc_price": 80747.35
-          },
-          {
-            "exchange": "OKX",
-            "symbol": "XINTCUSDT",
-            "observed_ms": 1793148993010,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 94.34,
-            "spread_pct": 0.02119991520033498,
-            "return24_pct": 2.7404738508570725,
-            "relative24_pct_points": 1.7903328581687195,
-            "quote_volume24": 1110679.2795666002,
-            "liquidity_band": "main",
-            "breakout_level": 92.53,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 5.414831732469416,
-            "strength_score": 55,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 91.19118092961804,
-            "atr": 1.67527628152784,
-            "close": 94.1,
-            "paper_controls": [
-              {
-                "symbol": "TAOUSDT",
-                "entry_price": 255.88
-              },
-              {
-                "symbol": "OPUSDT",
-                "entry_price": 0.112285
-              },
-              {
-                "symbol": "PENGUUSDT",
-                "entry_price": 0.007749
-              }
-            ],
-            "paper_btc_price": 80747.35
+            "paper_btc_price": 81002.45
           }
         ]
       }
     },
     "MEXC": {
       "active": [
-        "GRASSUSDT",
         "BLESSUSDT",
-        "PEPEUSDT",
         "BCHUSDT",
         "CASHCATUSDT",
-        "PONSUSDT",
-        "AZTECUSDT",
         "TROLLSOLUSDT",
-        "4USDT",
-        "LUMIAUSDT",
-        "NIGHTUSDT"
+        "NIGHTUSDT",
+        "GIGGLEUSDT",
+        "ZENUSDT"
       ],
       "last_alert": {
         "GRASSUSDT": 1793133773397,
@@ -963,7 +575,8 @@
         "CASHCATUSDT": 1793149133411,
         "PONSUSDT": 1793149133411,
         "TROLLSOLUSDT": 1793149133411,
-        "4USDT": 1793149133411
+        "4USDT": 1793149133411,
+        "GIGGLEUSDT": 1793163024372
       },
       "ever_seen": [
         "4USDT",
@@ -980,6 +593,7 @@
         "CLANKERUSDT",
         "FIGHTUSDT",
         "GBCKUSDT",
+        "GIGGLEUSDT",
         "GRASSUSDT",
         "HYPEUSDT",
         "IDOLUSDT",
@@ -1010,403 +624,522 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793149133299,
-        "feature_cutoff_ms": 1793145600000,
+        "observed_ms": 1793163024260,
+        "feature_cutoff_ms": 1793160000000,
         "universe_count": 1248,
-        "prefilter_count": 661,
-        "analyzed_count": 646,
+        "prefilter_count": 774,
+        "analyzed_count": 758,
         "candidates": [
           {
             "exchange": "MEXC",
-            "symbol": "GRASSUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.7622500000000001,
-            "spread_pct": 0.17054772056411513,
-            "return24_pct": 10.592221567472016,
-            "relative24_pct_points": 9.64202920677053,
-            "quote_volume24": 240048.6056,
-            "liquidity_band": "main",
-            "breakout_level": 0.7407,
-            "breakout_open_ms": 1793116800000.0,
-            "breakout_volume_ratio": 2.672026654483311,
-            "strength_score": 100,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.6619069484004114,
-            "atr": 0.031172206398354354,
-            "close": 0.7507,
-            "paper_controls": [
-              {
-                "symbol": "NPCUSDT",
-                "entry_price": 0.0173125
-              },
-              {
-                "symbol": "QUBICUSDT",
-                "entry_price": 4.0935e-07
-              },
-              {
-                "symbol": "STONKUSDT",
-                "entry_price": 0.14780100000000002
-              }
-            ],
-            "paper_btc_price": 80741.985
-          },
-          {
-            "exchange": "MEXC",
             "symbol": "BLESSUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.0087545,
-            "spread_pct": 0.42263978525328505,
-            "return24_pct": 6.280076997112616,
-            "relative24_pct_points": 5.329884636411131,
-            "quote_volume24": 114894.801771,
+            "observed_ms": 1793163024260,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 0.009493000000000001,
+            "spread_pct": 0.3792267986937698,
+            "return24_pct": 9.680530440024103,
+            "relative24_pct_points": 8.036260298654451,
+            "quote_volume24": 128150.97703899999,
             "liquidity_band": "main",
             "breakout_level": 0.008448,
             "breakout_open_ms": 1793131200000.0,
             "breakout_volume_ratio": 2.1158178444050413,
             "strength_score": 100,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.00808501356152763,
-            "atr": 0.00029994575388948337,
-            "close": 0.008834,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 0.00811210187834772,
+            "atr": 0.00032759248660912287,
+            "close": 0.009098,
             "paper_controls": [
               {
-                "symbol": "MYXUSDT",
-                "entry_price": 0.06171
+                "symbol": "ZORAUSDT",
+                "entry_price": 0.006494
               },
               {
-                "symbol": "MOVRUSDT",
-                "entry_price": 1.1348500000000001
+                "symbol": "4USDT",
+                "entry_price": 0.012625
               },
               {
-                "symbol": "GLMRUSDT",
-                "entry_price": 0.008493
+                "symbol": "VVVUSDT",
+                "entry_price": 24.80065
               }
             ],
-            "paper_btc_price": 80741.985
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "PEPEUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 4.5965e-06,
-            "spread_pct": 0.0652670510170739,
-            "return24_pct": 6.4179796107507014,
-            "relative24_pct_points": 5.467787250049216,
-            "quote_volume24": 800159.0219868473,
-            "liquidity_band": "main",
-            "breakout_level": 4.586e-06,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 1.3031199158240152,
-            "strength_score": 80,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 4.228873630882952e-06,
-            "atr": 1.2850547646819524e-07,
-            "close": 4.593e-06,
-            "paper_controls": [
-              {
-                "symbol": "DASHUSDT",
-                "entry_price": 54.83
-              },
-              {
-                "symbol": "FOXSYUSDT",
-                "entry_price": 0.00266685
-              },
-              {
-                "symbol": "WUSDT",
-                "entry_price": 0.012819500000000001
-              }
-            ],
-            "paper_btc_price": 80741.985
+            "paper_btc_price": 80980.905
           },
           {
             "exchange": "MEXC",
             "symbol": "BCHUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 294.85,
-            "spread_pct": 0.03391555027979172,
-            "return24_pct": 5.263157894736836,
-            "relative24_pct_points": 4.312965534035351,
-            "quote_volume24": 3059042.0,
+            "observed_ms": 1793163024260,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 298.25,
+            "spread_pct": 0.0335289186923798,
+            "return24_pct": 5.498403689251519,
+            "relative24_pct_points": 3.854133547881866,
+            "quote_volume24": 3192958.3,
             "liquidity_band": "main",
             "breakout_level": 294.8,
             "breakout_open_ms": 1793131200000.0,
             "breakout_volume_ratio": 1.960105934893131,
             "strength_score": 80,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 278.5015141999215,
-            "atr": 6.393943200314091,
-            "close": 296.0,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 285.62283462185286,
+            "atr": 6.308661512588478,
+            "close": 297.4,
             "paper_controls": [
               {
                 "symbol": "ZECUSDT",
-                "entry_price": 1300.845
+                "entry_price": 1321.575
               },
               {
-                "symbol": "NEARUSDT",
-                "entry_price": 4.6713000000000005
+                "symbol": "LTCUSDT",
+                "entry_price": 57.605000000000004
               },
               {
                 "symbol": "ETHFIUSDT",
-                "entry_price": 0.66775
+                "entry_price": 0.66895
               }
             ],
-            "paper_btc_price": 80741.985
+            "paper_btc_price": 80980.905
           },
           {
             "exchange": "MEXC",
             "symbol": "CASHCATUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.102495,
-            "spread_pct": 0.08780916142251499,
-            "return24_pct": 12.494600431965441,
-            "relative24_pct_points": 11.544408071263955,
-            "quote_volume24": 610537.0627599999,
+            "observed_ms": 1793163024260,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 0.104545,
+            "spread_pct": 0.2391314744846719,
+            "return24_pct": 13.478932274431932,
+            "relative24_pct_points": 11.83466213306228,
+            "quote_volume24": 658851.9271399998,
             "liquidity_band": "main",
             "breakout_level": 0.10255,
             "breakout_open_ms": 1793131200000.0,
             "breakout_volume_ratio": 3.6459047001974887,
             "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.09245096425258262,
-            "atr": 0.004636142989669498,
-            "close": 0.10417,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 0.09247410966351448,
+            "atr": 0.004543561345942096,
+            "close": 0.10288,
             "paper_controls": [
-              {
-                "symbol": "BEATUSDT",
-                "entry_price": 0.08859
-              },
               {
                 "symbol": "WUSDT",
-                "entry_price": 0.012819500000000001
+                "entry_price": 0.012879499999999999
               },
               {
-                "symbol": "DASHUSDT",
-                "entry_price": 54.83
+                "symbol": "STRKUSDT",
+                "entry_price": 0.046579999999999996
+              },
+              {
+                "symbol": "TIAUSDT",
+                "entry_price": 0.5366
               }
             ],
-            "paper_btc_price": 80741.985
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "PONSUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.27815449999999997,
-            "spread_pct": 0.016178059315961904,
-            "return24_pct": 8.867613208123682,
-            "relative24_pct_points": 7.917420847422197,
-            "quote_volume24": 324337.25175399997,
-            "liquidity_band": "main",
-            "breakout_level": 0.260064,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 2.025849809047409,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.2420399507341176,
-            "atr": 0.010540197063529546,
-            "close": 0.267221,
-            "paper_controls": [
-              {
-                "symbol": "QUBICUSDT",
-                "entry_price": 4.0935e-07
-              },
-              {
-                "symbol": "DEPUSDT",
-                "entry_price": 0.0010268999999999999
-              },
-              {
-                "symbol": "NPCUSDT",
-                "entry_price": 0.0173125
-              }
-            ],
-            "paper_btc_price": 80741.985
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "AZTECUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.01765,
-            "spread_pct": 0.22662889518414642,
-            "return24_pct": 8.777239709443108,
-            "relative24_pct_points": 7.8270473487416234,
-            "quote_volume24": 76723.70473,
-            "liquidity_band": "thin",
-            "breakout_level": 0.01733,
-            "breakout_open_ms": 1793102400000.0,
-            "breakout_volume_ratio": 1.5139481065982556,
-            "strength_score": 55,
-            "breakout_age_bars": 2.0,
-            "invalidation_level": 0.01621815842660925,
-            "atr": 0.000527366293562998,
-            "close": 0.01797,
-            "paper_controls": [
-              {
-                "symbol": "REUSDT",
-                "entry_price": 0.38147
-              },
-              {
-                "symbol": "FHEUSDT",
-                "entry_price": 0.01849
-              },
-              {
-                "symbol": "AIOTUSDT",
-                "entry_price": 0.07126350000000001
-              }
-            ],
-            "paper_btc_price": 80741.985
+            "paper_btc_price": 80980.905
           },
           {
             "exchange": "MEXC",
             "symbol": "TROLLSOLUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.031703499999999996,
-            "spread_pct": 1.4540981279669316,
-            "return24_pct": 8.585264149039906,
-            "relative24_pct_points": 7.635071788338421,
-            "quote_volume24": 70365.644493,
+            "observed_ms": 1793163024260,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 0.0325195,
+            "spread_pct": 1.8050708036716558,
+            "return24_pct": 8.824517776732321,
+            "relative24_pct_points": 7.180247635362669,
+            "quote_volume24": 69373.342144,
             "liquidity_band": "thin",
             "breakout_level": 0.03142,
             "breakout_open_ms": 1793131200000.0,
             "breakout_volume_ratio": 1.7129007728413976,
             "strength_score": 55,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.029332216003661975,
-            "atr": 0.0008391359853521026,
-            "close": 0.03229,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 0.029873682718475732,
+            "atr": 0.0008492691260970793,
+            "close": 0.032384,
             "paper_controls": [
+              {
+                "symbol": "ONEUSDT",
+                "entry_price": 0.0013055
+              },
+              {
+                "symbol": "IDOLUSDT",
+                "entry_price": 0.008421499999999998
+              },
               {
                 "symbol": "TACUSDT",
-                "entry_price": 0.0011840000000000002
-              },
-              {
-                "symbol": "VANAUSDT",
-                "entry_price": 0.8565
-              },
-              {
-                "symbol": "FUNTOKENUSDT",
-                "entry_price": 0.008864750000000001
+                "entry_price": 0.0011905000000000002
               }
             ],
-            "paper_btc_price": 80741.985
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "4USDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.012660000000000001,
-            "spread_pct": 0.31595576619273386,
-            "return24_pct": 7.910576096302679,
-            "relative24_pct_points": 6.960383735601194,
-            "quote_volume24": 128466.12344000007,
-            "liquidity_band": "main",
-            "breakout_level": 0.01246,
-            "breakout_open_ms": 1793131200000.0,
-            "breakout_volume_ratio": 1.8757367519640091,
-            "strength_score": 55,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.01130298585826375,
-            "atr": 0.00042805656694500387,
-            "close": 0.01255,
-            "paper_controls": [
-              {
-                "symbol": "ZORAUSDT",
-                "entry_price": 0.006457
-              },
-              {
-                "symbol": "TAKEUSDT",
-                "entry_price": 0.07166
-              },
-              {
-                "symbol": "VVVUSDT",
-                "entry_price": 25.8506
-              }
-            ],
-            "paper_btc_price": 80741.985
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "LUMIAUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.0814,
-            "spread_pct": 0.9828009828009768,
-            "return24_pct": 6.6986824282723845,
-            "relative24_pct_points": 5.748490067570899,
-            "quote_volume24": 60265.160040000024,
-            "liquidity_band": "thin",
-            "breakout_level": 0.08484,
-            "breakout_open_ms": 1793116800000.0,
-            "breakout_volume_ratio": 1.4506866951881838,
-            "strength_score": 55,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 0.07969368401637146,
-            "atr": 0.003305263934514119,
-            "close": 0.08665,
-            "paper_controls": [
-              {
-                "symbol": "TRIAUSDT",
-                "entry_price": 0.002975
-              },
-              {
-                "symbol": "RICEUSDT",
-                "entry_price": 0.006107
-              },
-              {
-                "symbol": "CPOOLUSDT",
-                "entry_price": 0.02837
-              }
-            ],
-            "paper_btc_price": 80741.985
+            "paper_btc_price": 80980.905
           },
           {
             "exchange": "MEXC",
             "symbol": "NIGHTUSDT",
-            "observed_ms": 1793149133299,
-            "feature_cutoff_ms": 1793145600000,
-            "mid_price": 0.042124999999999996,
-            "spread_pct": 0.11869436201780757,
-            "return24_pct": 4.372958029655694,
-            "relative24_pct_points": 3.4227656689542085,
-            "quote_volume24": 173584.2402,
+            "observed_ms": 1793163024260,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 0.04187,
+            "spread_pct": 0.09553379508000566,
+            "return24_pct": 7.328784432650992,
+            "relative24_pct_points": 5.68451429128134,
+            "quote_volume24": 188344.86566,
             "liquidity_band": "main",
             "breakout_level": 0.04135,
             "breakout_open_ms": 1793131200000.0,
             "breakout_volume_ratio": 1.986066767919794,
             "strength_score": 55,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.039014208692722444,
-            "atr": 0.0013031652291102184,
-            "close": 0.04153,
+            "breakout_age_bars": 1.0,
+            "invalidation_level": 0.039014086643670794,
+            "atr": 0.0013036534253168229,
+            "close": 0.04247,
             "paper_controls": [
               {
-                "symbol": "BASEDUSDT",
-                "entry_price": 0.052324999999999997
+                "symbol": "TRUTHUSDT",
+                "entry_price": 0.021071
+              },
+              {
+                "symbol": "ULTIMAUSDT",
+                "entry_price": 1242.5900000000001
               },
               {
                 "symbol": "FARTCOINUSDT",
-                "entry_price": 0.130845
-              },
-              {
-                "symbol": "LYNUSDT",
-                "entry_price": 0.014624999999999999
+                "entry_price": 0.13335999999999998
               }
             ],
-            "paper_btc_price": 80741.985
+            "paper_btc_price": 80980.905
+          },
+          {
+            "exchange": "MEXC",
+            "symbol": "GIGGLEUSDT",
+            "observed_ms": 1793163024260,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 31.47,
+            "spread_pct": 0.0635525897680317,
+            "return24_pct": 4.815675855197599,
+            "relative24_pct_points": 3.171405713827946,
+            "quote_volume24": 72362.66,
+            "liquidity_band": "thin",
+            "breakout_level": 31.3,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 1.3790043553986926,
+            "strength_score": 55,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 30.66151280671551,
+            "atr": 0.6339487731379579,
+            "close": 31.56,
+            "paper_controls": [
+              {
+                "symbol": "PIPPINUSDT",
+                "entry_price": 0.0160575
+              },
+              {
+                "symbol": "HIVEUSDT",
+                "entry_price": 0.048850000000000005
+              },
+              {
+                "symbol": "PNUTUSDT",
+                "entry_price": 0.041935
+              }
+            ],
+            "paper_btc_price": 80980.905
+          },
+          {
+            "exchange": "MEXC",
+            "symbol": "ZENUSDT",
+            "observed_ms": 1793163024260,
+            "feature_cutoff_ms": 1793160000000,
+            "mid_price": 5.994,
+            "spread_pct": 0.03336670003336303,
+            "return24_pct": 4.4179523141655075,
+            "relative24_pct_points": 2.773682172795855,
+            "quote_volume24": 138830.761,
+            "liquidity_band": "main",
+            "breakout_level": 5.952,
+            "breakout_open_ms": 1793145600000.0,
+            "breakout_volume_ratio": 1.3053542552554351,
+            "strength_score": 55,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 5.748853659512248,
+            "atr": 0.1125853619510083,
+            "close": 5.956,
+            "paper_controls": [
+              {
+                "symbol": "VIRTUALUSDT",
+                "entry_price": 0.634
+              },
+              {
+                "symbol": "AAVEUSDT",
+                "entry_price": 135.325
+              },
+              {
+                "symbol": "CROUSDT",
+                "entry_price": 0.053965
+              }
+            ],
+            "paper_btc_price": 80980.905
           }
         ]
       }
     }
   },
-  "pending": [],
-  "updated_ms": 1793149133411,
+  "pending": [
+    {
+      "id": "3f526920e5677451eb883eba",
+      "created_ms": 1793163024372,
+      "candidates": [
+        {
+          "exchange": "OKX",
+          "symbol": "XBOTUSDT",
+          "observed_ms": 1793162873944,
+          "feature_cutoff_ms": 1793160000000,
+          "mid_price": 24.67,
+          "spread_pct": 0.2432103769760791,
+          "return24_pct": 3.731656184486365,
+          "relative24_pct_points": 2.0712932925258443,
+          "quote_volume24": 115455.25814599995,
+          "liquidity_band": "main",
+          "breakout_level": 24.71,
+          "breakout_open_ms": 1793145600000.0,
+          "breakout_volume_ratio": 4.875366891083639,
+          "strength_score": 100,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 23.11397723489604,
+          "atr": 0.5040910604158381,
+          "close": 24.74,
+          "paper_controls": [
+            {
+              "symbol": "ZETAUSDT",
+              "entry_price": 0.039795
+            },
+            {
+              "symbol": "ALLOUSDT",
+              "entry_price": 0.18719999999999998
+            },
+            {
+              "symbol": "MOVEUSDT",
+              "entry_price": 0.006768
+            }
+          ],
+          "paper_btc_price": 81002.45,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "BOMEUSDT",
+          "observed_ms": 1793162873944,
+          "feature_cutoff_ms": 1793160000000,
+          "mid_price": 0.00065185,
+          "spread_pct": 0.13806857405844405,
+          "return24_pct": 5.166828636216381,
+          "relative24_pct_points": 3.50646574425586,
+          "quote_volume24": 203727.2637151,
+          "liquidity_band": "main",
+          "breakout_level": 0.0006417,
+          "breakout_open_ms": 1793145600000.0,
+          "breakout_volume_ratio": 3.083304591331536,
+          "strength_score": 75,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 0.0006190777332148,
+          "atr": 1.6889067140800268e-05,
+          "close": 0.0006493,
+          "paper_controls": [
+            {
+              "symbol": "XIRENUSDT",
+              "entry_price": 27.755
+            },
+            {
+              "symbol": "API3USDT",
+              "entry_price": 0.2617
+            },
+            {
+              "symbol": "NESUSDT",
+              "entry_price": 0.11535000000000001
+            }
+          ],
+          "paper_btc_price": 81002.45,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "FLOKIUSDT",
+          "observed_ms": 1793162873944,
+          "feature_cutoff_ms": 1793160000000,
+          "mid_price": 2.37e-05,
+          "spread_pct": 0.08438818565402192,
+          "return24_pct": 4.172156346069378,
+          "relative24_pct_points": 2.511793454108857,
+          "quote_volume24": 60665.48322237003,
+          "liquidity_band": "thin",
+          "breakout_level": 2.355e-05,
+          "breakout_open_ms": 1793145600000.0,
+          "breakout_volume_ratio": 3.7062276881104084,
+          "strength_score": 75,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 2.2941390185403572e-05,
+          "atr": 4.344392583857231e-07,
+          "close": 2.372e-05,
+          "paper_controls": [
+            {
+              "symbol": "MANAUSDT",
+              "entry_price": 0.07953
+            },
+            {
+              "symbol": "SPACEUSDT",
+              "entry_price": 0.003748
+            },
+            {
+              "symbol": "XGLWUSDT",
+              "entry_price": 127.99000000000001
+            }
+          ],
+          "paper_btc_price": 81002.45,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "XLRCXUSDT",
+          "observed_ms": 1793162873944,
+          "feature_cutoff_ms": 1793160000000,
+          "mid_price": 243.885,
+          "spread_pct": 0.02870205219672927,
+          "return24_pct": 3.2058303142640465,
+          "relative24_pct_points": 1.5454674223035259,
+          "quote_volume24": 38082.79811809998,
+          "liquidity_band": "thin",
+          "breakout_level": 242.32,
+          "breakout_open_ms": 1793145600000.0,
+          "breakout_volume_ratio": 15.169912303355717,
+          "strength_score": 75,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 238.6456970387121,
+          "atr": 3.737211845151733,
+          "close": 244.99,
+          "paper_controls": [
+            {
+              "symbol": "HMSTRUSDT",
+              "entry_price": 0.00014405
+            },
+            {
+              "symbol": "XUSARUSDT",
+              "entry_price": 10.42
+            },
+            {
+              "symbol": "LUNAUSDT",
+              "entry_price": 0.043095
+            }
+          ],
+          "paper_btc_price": 81002.45,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "XAMZNUSDT",
+          "observed_ms": 1793162873944,
+          "feature_cutoff_ms": 1793160000000,
+          "mid_price": 254.66500000000002,
+          "spread_pct": 0.04319399996072692,
+          "return24_pct": 2.156485489818838,
+          "relative24_pct_points": 0.49612259785831725,
+          "quote_volume24": 123668.07751509994,
+          "liquidity_band": "main",
+          "breakout_level": 254.85,
+          "breakout_open_ms": 1793145600000.0,
+          "breakout_volume_ratio": 2.8257067951331494,
+          "strength_score": 75,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 252.14459526445523,
+          "atr": 1.5816189421790117,
+          "close": 254.86,
+          "paper_controls": [
+            {
+              "symbol": "XTSMUSDT",
+              "entry_price": 434.8
+            },
+            {
+              "symbol": "BRL1USDT",
+              "entry_price": 0.18665
+            },
+            {
+              "symbol": "FLRUSDT",
+              "entry_price": 0.0061355
+            }
+          ],
+          "paper_btc_price": 81002.45,
+          "arrival": "new"
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "XAMATUSDT",
+          "observed_ms": 1793162873944,
+          "feature_cutoff_ms": 1793160000000,
+          "mid_price": 401.765,
+          "spread_pct": 0.17174218759722668,
+          "return24_pct": 4.167744605991608,
+          "relative24_pct_points": 2.5073817140310872,
+          "quote_volume24": 46706.6539205,
+          "liquidity_band": "thin",
+          "breakout_level": 399.24,
+          "breakout_open_ms": 1793145600000.0,
+          "breakout_volume_ratio": 1.689532780800351,
+          "strength_score": 55,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 393.56979117086115,
+          "atr": 5.680835316555446,
+          "close": 402.65,
+          "paper_controls": [
+            {
+              "symbol": "XGEVUSDT",
+              "entry_price": 903.45
+            },
+            {
+              "symbol": "PROVEUSDT",
+              "entry_price": 0.1951
+            },
+            {
+              "symbol": "NEOUSDT",
+              "entry_price": 2.1125
+            }
+          ],
+          "paper_btc_price": 81002.45,
+          "arrival": "new"
+        },
+        {
+          "exchange": "MEXC",
+          "symbol": "GIGGLEUSDT",
+          "observed_ms": 1793163024260,
+          "feature_cutoff_ms": 1793160000000,
+          "mid_price": 31.47,
+          "spread_pct": 0.0635525897680317,
+          "return24_pct": 4.815675855197599,
+          "relative24_pct_points": 3.171405713827946,
+          "quote_volume24": 72362.66,
+          "liquidity_band": "thin",
+          "breakout_level": 31.3,
+          "breakout_open_ms": 1793145600000.0,
+          "breakout_volume_ratio": 1.3790043553986926,
+          "strength_score": 55,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 30.66151280671551,
+          "atr": 0.6339487731379579,
+          "close": 31.56,
+          "paper_controls": [
+            {
+              "symbol": "PIPPINUSDT",
+              "entry_price": 0.0160575
+            },
+            {
+              "symbol": "HIVEUSDT",
+              "entry_price": 0.048850000000000005
+            },
+            {
+              "symbol": "PNUTUSDT",
+              "entry_price": 0.041935
+            }
+          ],
+          "paper_btc_price": 80980.905,
+          "arrival": "new"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1793163024372,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -3299,6 +3032,17 @@
             "control_excess_pct_points": -0.3997543272103332,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793162291455,
+            "endpoint_ms": 1793162340000,
+            "endpoint_delay_ms": 48545,
+            "endpoint_price": 0.05031,
+            "return_pct": -3.5097813578826242,
+            "btc_excess_pct_points": -5.18732296043376,
+            "control_excess_pct_points": -4.169260055673885,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -5133,9 +4877,233 @@
           }
         ],
         "outcomes": {}
+      },
+      "OKX:XBOTUSDT": {
+        "symbol": "XBOTUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793162873944,
+        "entry_price": 24.67,
+        "btc_entry_price": 81002.45,
+        "controls": [
+          {
+            "symbol": "ZETAUSDT",
+            "entry_price": 0.039795
+          },
+          {
+            "symbol": "ALLOUSDT",
+            "entry_price": 0.18719999999999998
+          },
+          {
+            "symbol": "MOVEUSDT",
+            "entry_price": 0.006768
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793162873944,
+            "price": 24.67
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:BOMEUSDT": {
+        "symbol": "BOMEUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793162873944,
+        "entry_price": 0.00065185,
+        "btc_entry_price": 81002.45,
+        "controls": [
+          {
+            "symbol": "XIRENUSDT",
+            "entry_price": 27.755
+          },
+          {
+            "symbol": "API3USDT",
+            "entry_price": 0.2617
+          },
+          {
+            "symbol": "NESUSDT",
+            "entry_price": 0.11535000000000001
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793162873944,
+            "price": 0.00065185
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:FLOKIUSDT": {
+        "symbol": "FLOKIUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793162873944,
+        "entry_price": 2.37e-05,
+        "btc_entry_price": 81002.45,
+        "controls": [
+          {
+            "symbol": "MANAUSDT",
+            "entry_price": 0.07953
+          },
+          {
+            "symbol": "SPACEUSDT",
+            "entry_price": 0.003748
+          },
+          {
+            "symbol": "XGLWUSDT",
+            "entry_price": 127.99000000000001
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793162873944,
+            "price": 2.37e-05
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:XLRCXUSDT": {
+        "symbol": "XLRCXUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793162873944,
+        "entry_price": 243.885,
+        "btc_entry_price": 81002.45,
+        "controls": [
+          {
+            "symbol": "HMSTRUSDT",
+            "entry_price": 0.00014405
+          },
+          {
+            "symbol": "XUSARUSDT",
+            "entry_price": 10.42
+          },
+          {
+            "symbol": "LUNAUSDT",
+            "entry_price": 0.043095
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793162873944,
+            "price": 243.885
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:XAMZNUSDT": {
+        "symbol": "XAMZNUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793162873944,
+        "entry_price": 254.66500000000002,
+        "btc_entry_price": 81002.45,
+        "controls": [
+          {
+            "symbol": "XTSMUSDT",
+            "entry_price": 434.8
+          },
+          {
+            "symbol": "BRL1USDT",
+            "entry_price": 0.18665
+          },
+          {
+            "symbol": "FLRUSDT",
+            "entry_price": 0.0061355
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793162873944,
+            "price": 254.66500000000002
+          }
+        ],
+        "outcomes": {}
+      },
+      "OKX:XAMATUSDT": {
+        "symbol": "XAMATUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793162873944,
+        "entry_price": 401.765,
+        "btc_entry_price": 81002.45,
+        "controls": [
+          {
+            "symbol": "XGEVUSDT",
+            "entry_price": 903.45
+          },
+          {
+            "symbol": "PROVEUSDT",
+            "entry_price": 0.1951
+          },
+          {
+            "symbol": "NEOUSDT",
+            "entry_price": 2.1125
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793162873944,
+            "price": 401.765
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:GIGGLEUSDT": {
+        "symbol": "GIGGLEUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1793163024260,
+        "entry_price": 31.47,
+        "btc_entry_price": 80980.905,
+        "controls": [
+          {
+            "symbol": "PIPPINUSDT",
+            "entry_price": 0.0160575
+          },
+          {
+            "symbol": "HIVEUSDT",
+            "entry_price": 0.048850000000000005
+          },
+          {
+            "symbol": "PNUTUSDT",
+            "entry_price": 0.041935
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793163024260,
+            "price": 31.47
+          }
+        ],
+        "outcomes": {}
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793149133411
+    "asof_ms": 1793163024372
   }
 }
