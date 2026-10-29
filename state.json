@@ -1024282,59 +1024282,7 @@
     "OKX:PERP:TMFUSDT": 1793315041562,
     "MEXC:PERP:SOLVUSDT": 1793315973706
   },
-  "pending": [
-    {
-      "id": "e517f6159e0638e43f4f75ed",
-      "asset_id": "da3110f69b34ec45b4c61b79",
-      "key": "MEXC:PERP:SOLVUSDT",
-      "symbol": "SOLVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793315973706,
-      "price": 0.004791500000000001,
-      "level": 0.004763,
-      "invalid": 0.004413466214168722,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004763,
-        "base_invalid": 0.004413466214168722,
-        "atr": 7.689190554185455e-05,
-        "rvol": 5.1861935152909036,
-        "close_position": 0.7375886524822709,
-        "breakout": true,
-        "bar_close_ms": 1793313900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.1355109247406725,
-        "score": 6.923782167773174
-      },
-      "context": {
-        "atr": 9.076071541662528e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 10.072212803616154,
-        "btc_hour_pct": -0.029999962025384352,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOLVUSDT",
-          "change_pct": 11.114861366277617,
-          "old_ms": 1793312324470,
-          "current_ms": 1793315972512,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793313900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1024608,6 +1024556,13 @@
       "phase": "radar",
       "observed_ms": 1793315043565,
       "delivered_ms": 1793315050013
+    },
+    {
+      "id": "e517f6159e0638e43f4f75ed",
+      "asset_id": "da3110f69b34ec45b4c61b79",
+      "phase": "cancelled",
+      "observed_ms": 1793315973706,
+      "delivered_ms": 1793315979521
     }
   ],
   "runs": [
