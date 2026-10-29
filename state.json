@@ -416475,53 +416475,7 @@
     "MEXC:PERP:DODOUSDT": 1793303319948,
     "MEXC:SPOT:CENTUSDT": 1793304219808
   },
-  "pending": [
-    {
-      "id": "6afa461020f1e919e4c334c9",
-      "asset_id": "b6d53251050c3df5699a39df",
-      "key": "MEXC:SPOT:CENTUSDT",
-      "symbol": "CENTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793304219808,
-      "price": 0.001555,
-      "level": 0.001612,
-      "invalid": 0.0015170814508285745,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001612,
-        "base_invalid": 0.0015170814508285745,
-        "atr": 4.6123661142836454e-05,
-        "rvol": 3.0397887425737142,
-        "close_position": 0.6363636363636379,
-        "breakout": true,
-        "bar_close_ms": 1793301300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.878552971576245,
-        "score": 4.676152378937353
-      },
-      "context": {
-        "atr": 4.8412599317619807e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.6171195831467764,
-        "btc_hour_pct": -0.012811537704815468,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CENTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793301300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -416571,6 +416525,13 @@
       "phase": "radar",
       "observed_ms": 1793303319948,
       "delivered_ms": 1793303323572
+    },
+    {
+      "id": "6afa461020f1e919e4c334c9",
+      "asset_id": "b6d53251050c3df5699a39df",
+      "phase": "cancelled",
+      "observed_ms": 1793304219808,
+      "delivered_ms": 1793304226024
     }
   ],
   "runs": [
