@@ -1035989,59 +1035989,7 @@
     "MEXC:PERP:SOLVUSDT": 1793315973706,
     "MEXC:PERP:CAPUSDT": 1793316873522
   },
-  "pending": [
-    {
-      "id": "e0187e00cf692b3d7cc31004",
-      "asset_id": "172f967fa8897062b794a515",
-      "key": "MEXC:PERP:CAPUSDT",
-      "symbol": "CAPUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793316873522,
-      "price": 0.077085,
-      "level": 0.07812,
-      "invalid": 0.07367892189866239,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07812,
-        "base_invalid": 0.07367892189866239,
-        "atr": 0.0010738540089174585,
-        "rvol": 10.052945882772985,
-        "close_position": 0.6666666666666744,
-        "breakout": false,
-        "bar_close_ms": 1793314800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.0654885654885593,
-        "score": 7.166666666666674
-      },
-      "context": {
-        "atr": 0.0011180216483944354,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0954885275139437,
-        "btc_hour_pct": -0.029999962025384352,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CAPUSDT",
-          "change_pct": 6.605201935031202,
-          "old_ms": 1793313224265,
-          "current_ms": 1793316872136,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793314800000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1036322,6 +1036270,13 @@
       "phase": "cancelled",
       "observed_ms": 1793315973706,
       "delivered_ms": 1793315979521
+    },
+    {
+      "id": "e0187e00cf692b3d7cc31004",
+      "asset_id": "172f967fa8897062b794a515",
+      "phase": "cancelled",
+      "observed_ms": 1793316873522,
+      "delivered_ms": 1793316879639
     }
   ],
   "runs": [
