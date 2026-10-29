@@ -976793,7 +976793,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793314151391,
+      "duration_ms": 24137
     }
   ],
   "measurements": {
@@ -977472,11 +977474,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793314139741,
+            "endpoint_ms": 1793314140000,
+            "endpoint_price": 63829.0,
+            "return_pct": -0.8681741939491783,
+            "btc_excess_pct_points": -0.7111080851212814,
+            "mae_pct": -0.8868112070572143,
+            "mfe_pct": 0.30440454743119183,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 259,
+            "measured_ms": 1793314150840,
+            "cost_scenarios_pct": {
+              "0.2": -1.0681741939491782,
+              "0.5": -1.3681741939491783,
+              "1": -1.8681741939491783
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793310300000,
         "observation_lag_ms": 239741,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 7075
+        "notification_lag_ms": 7075,
+        "last_measure_attempt_ms": 1793314150840
       },
       "RUNEUSDT:radar": {
         "symbol": "RUNEUSDT",
@@ -977583,16 +977609,16 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793313842469,
+      "observed_ms": 1793314150840,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 18,
+        "unique_symbol_labels": 21,
         "hours": {
           "1": {
-            "known": 15,
-            "median_pct": -2.200488997555017
+            "known": 16,
+            "median_pct": -2.0918015378507517
           },
           "4": {
             "known": 0,
