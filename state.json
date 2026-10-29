@@ -145767,9 +145767,31 @@
               "1.0": -3.85650936772478
             },
             "measured_ms": 1793220408742
+          },
+          "24": {
+            "target_ms": 1793249322627,
+            "endpoint_ms": 1793249340000,
+            "endpoint_delay_ms": 17373,
+            "endpoint_price": 130.53,
+            "return_pct": -3.5290639665939927,
+            "btc_excess_pct_points": -2.5186810551740324,
+            "control_excess_pct_points": -1.7789622164922414,
+            "mae_pct": -4.948080263109267,
+            "mfe_pct": 2.3982853553083716,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793162940000,
+            "ignored_entry_fragment_ms": 17373,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -3.729063966593993,
+              "0.5": -4.029063966593993,
+              "1.0": -4.529063966593993
+            },
+            "measured_ms": 1793293178186
           }
         },
-        "last_measure_attempt_ms": 1793220408742
+        "last_measure_attempt_ms": 1793293178186
       },
       "XRPUSDT": {
         "symbol": "XRPUSDT",
@@ -146181,9 +146203,53 @@
               "1.0": -5.539377347679374
             },
             "measured_ms": 1793206590854
+          },
+          "12": {
+            "target_ms": 1793221053386,
+            "endpoint_ms": 1793221080000,
+            "endpoint_delay_ms": 26614,
+            "endpoint_price": 0.07514,
+            "return_pct": -4.322913350735336,
+            "btc_excess_pct_points": -4.044071585568243,
+            "control_excess_pct_points": -9.247197441227772,
+            "mae_pct": -5.290634748838086,
+            "mfe_pct": 0.5284268160692829,
+            "path_complete": true,
+            "minute_bars": 720,
+            "range_start_ms": 1793177880000,
+            "ignored_entry_fragment_ms": 26614,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -4.522913350735336,
+              "0.5": -4.822913350735336,
+              "1.0": -5.322913350735336
+            },
+            "measured_ms": 1793293178186
+          },
+          "24": {
+            "target_ms": 1793264253386,
+            "endpoint_ms": 1793264280000,
+            "endpoint_delay_ms": 26614,
+            "endpoint_price": 0.07364,
+            "return_pct": -6.232889794359197,
+            "btc_excess_pct_points": -4.480193793238596,
+            "control_excess_pct_points": -8.927851387901697,
+            "mae_pct": -7.722671420385796,
+            "mfe_pct": 0.5284268160692829,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793177880000,
+            "ignored_entry_fragment_ms": 26614,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -6.432889794359197,
+              "0.5": -6.732889794359197,
+              "1.0": -7.232889794359197
+            },
+            "measured_ms": 1793293178186
           }
         },
-        "last_measure_attempt_ms": 1793206590854
+        "last_measure_attempt_ms": 1793293178186
       },
       "BNBUSDT": {
         "symbol": "BNBUSDT",
@@ -146257,9 +146323,53 @@
               "1.0": -1.7016057505195739
             },
             "measured_ms": 1793220408742
+          },
+          "12": {
+            "target_ms": 1793235373412,
+            "endpoint_ms": 1793235420000,
+            "endpoint_delay_ms": 46588,
+            "endpoint_price": 755.8,
+            "return_pct": 0.05162759296275521,
+            "btc_excess_pct_points": -0.375270021258145,
+            "control_excess_pct_points": -0.3274399992196031,
+            "mae_pct": -1.1940535603182312,
+            "mfe_pct": 0.7174911637389148,
+            "path_complete": true,
+            "minute_bars": 720,
+            "range_start_ms": 1793192220000,
+            "ignored_entry_fragment_ms": 46588,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -0.1483724070372448,
+              "0.5": -0.4483724070372448,
+              "1.0": -0.9483724070372448
+            },
+            "measured_ms": 1793293178186
+          },
+          "24": {
+            "target_ms": 1793278573412,
+            "endpoint_ms": 1793278620000,
+            "endpoint_delay_ms": 46588,
+            "endpoint_price": 740.99,
+            "return_pct": -1.9088971551872391,
+            "btc_excess_pct_points": -0.995154865640413,
+            "control_excess_pct_points": -0.8209239360664755,
+            "mae_pct": -2.271614090361518,
+            "mfe_pct": 0.7174911637389148,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793192220000,
+            "ignored_entry_fragment_ms": 46588,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -2.1088971551872393,
+              "0.5": -2.408897155187239,
+              "1.0": -2.908897155187239
+            },
+            "measured_ms": 1793293178186
           }
         },
-        "last_measure_attempt_ms": 1793220408742
+        "last_measure_attempt_ms": 1793293178186
       },
       "PONSUSDT": {
         "symbol": "PONSUSDT",
@@ -146409,9 +146519,53 @@
               "1.0": -0.7541438654928836
             },
             "measured_ms": 1793220408742
+          },
+          "12": {
+            "target_ms": 1793235373123,
+            "endpoint_ms": 1793235420000,
+            "endpoint_delay_ms": 46877,
+            "endpoint_price": 0.6231,
+            "return_pct": -1.1658339281465535,
+            "btc_excess_pct_points": -1.5827928581562567,
+            "control_excess_pct_points": -1.8880069701257884,
+            "mae_pct": -2.1968435244666407,
+            "mfe_pct": 0.6741216591323873,
+            "path_complete": true,
+            "minute_bars": 720,
+            "range_start_ms": 1793192220000,
+            "ignored_entry_fragment_ms": 46877,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -1.3658339281465535,
+              "0.5": -1.6658339281465535,
+              "1.0": -2.1658339281465535
+            },
+            "measured_ms": 1793293178186
+          },
+          "24": {
+            "target_ms": 1793278573123,
+            "endpoint_ms": 1793278620000,
+            "endpoint_delay_ms": 46877,
+            "endpoint_price": 0.6249,
+            "return_pct": -0.8803235783963692,
+            "btc_excess_pct_points": 0.02708058450673345,
+            "control_excess_pct_points": 2.0533072079951475,
+            "mae_pct": -3.545086842731382,
+            "mfe_pct": 0.6741216591323873,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793192220000,
+            "ignored_entry_fragment_ms": 46877,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -1.0803235783963692,
+              "0.5": -1.3803235783963692,
+              "1.0": -1.8803235783963692
+            },
+            "measured_ms": 1793293178186
           }
         },
-        "last_measure_attempt_ms": 1793220408742
+        "last_measure_attempt_ms": 1793293178186
       },
       "XPLUSDT": {
         "symbol": "XPLUSDT",
@@ -147246,28 +147400,294 @@
         "source_lag_minutes": 55.98965,
         "entry_spread_pct": 0.03810249571347209,
         "outcomes": {}
+      },
+      "ZROUSDT": {
+        "symbol": "ZROUSDT",
+        "exchange": "OKX",
+        "contract": "ZRO-USDT-SWAP",
+        "observed_ms": 1793293178009,
+        "entry_price": 1.75415,
+        "btc_entry_price": 81230.95,
+        "controls": [
+          {
+            "symbol": "XLITEUSDT",
+            "entry_price": 937.105
+          },
+          {
+            "symbol": "INJUSDT",
+            "entry_price": 8.1585
+          },
+          {
+            "symbol": "BICOUSDT",
+            "entry_price": 0.017465
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 3873038.0,
+          "oi_notional": 6794857.8672,
+          "oi_notional_kind": "provider_USD",
+          "contract": "ZRO-USDT-SWAP",
+          "futures_observed_ms": 1793293166178,
+          "futures_mid": 1.75345,
+          "futures_spread_pct": 0.005703042573212181,
+          "basis_pct": 0.03990536727190852,
+          "funding_rate": 5e-05,
+          "funding_hours": 4.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793293108223,
+          "oi_change_pct": -0.8982273417905473,
+          "futures_price_change_pct": 0.24010290124338862,
+          "elapsed_hours": 4.0591944444444445,
+          "baseline_ms": 1793278553078
+        },
+        "cohort_index": 23,
+        "split": "first25",
+        "feature_cutoff_ms": 1793289600000,
+        "source_lag_minutes": 59.63348333333333,
+        "entry_spread_pct": 0.005700766753127668,
+        "outcomes": {}
+      },
+      "ASTERUSDT": {
+        "symbol": "ASTERUSDT",
+        "exchange": "MEXC",
+        "contract": "ASTER_USDT",
+        "observed_ms": 1793293178112,
+        "entry_price": 0.71855,
+        "btc_entry_price": 81203.07500000001,
+        "controls": [
+          {
+            "symbol": "WXTUSDT",
+            "entry_price": 0.018112000000000003
+          },
+          {
+            "symbol": "CTMUSDT",
+            "entry_price": 0.2188
+          },
+          {
+            "symbol": "CAKEUSDT",
+            "entry_price": 2.0945
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 35867496.0,
+          "oi_notional": 25765415.7516,
+          "oi_notional_kind": "estimated_USDT_at_current_mid",
+          "contract": "ASTER_USDT",
+          "futures_observed_ms": 1793293162933,
+          "futures_mid": 0.71835,
+          "futures_spread_pct": 0.013920790700910278,
+          "basis_pct": 0.02783383202281664,
+          "funding_rate": 5e-05,
+          "funding_hours": 4.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793293167071,
+          "oi_change_pct": -14.745645235358374,
+          "futures_price_change_pct": 2.016615777888231,
+          "elapsed_hours": 4.058574444444444,
+          "baseline_ms": 1793278552065
+        },
+        "cohort_index": 24,
+        "split": "first25",
+        "feature_cutoff_ms": 1793289600000,
+        "source_lag_minutes": 59.6352,
+        "entry_spread_pct": 0.013916916011410336,
+        "outcomes": {}
+      },
+      "LITUSDT": {
+        "symbol": "LITUSDT",
+        "exchange": "OKX",
+        "contract": "LIT-USDT-SWAP",
+        "observed_ms": 1793293178009,
+        "entry_price": 3.2417,
+        "btc_entry_price": 81230.95,
+        "controls": [
+          {
+            "symbol": "NEARUSDT",
+            "entry_price": 4.596500000000001
+          },
+          {
+            "symbol": "XSOXLUSDT",
+            "entry_price": 102.97
+          },
+          {
+            "symbol": "WLDUSDT",
+            "entry_price": 0.43355
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 6465779.0,
+          "oi_notional": 20974987.076,
+          "oi_notional_kind": "provider_USD",
+          "contract": "LIT-USDT-SWAP",
+          "futures_observed_ms": 1793293166178,
+          "futures_mid": 3.24055,
+          "futures_spread_pct": 0.015429479563659473,
+          "basis_pct": 0.07566165343872999,
+          "funding_rate": 5e-05,
+          "funding_hours": 4.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793293106567,
+          "oi_change_pct": 0.17320983069590845,
+          "futures_price_change_pct": 3.579933195889473,
+          "elapsed_hours": 4.0591944444444445,
+          "baseline_ms": 1793278553078
+        },
+        "cohort_index": 25,
+        "split": "first25",
+        "feature_cutoff_ms": 1793289600000,
+        "source_lag_minutes": 59.63348333333333,
+        "entry_spread_pct": 0.018508807107379892,
+        "outcomes": {}
+      },
+      "UNIUSDT": {
+        "symbol": "UNIUSDT",
+        "exchange": "OKX",
+        "contract": "UNI-USDT-SWAP",
+        "observed_ms": 1793293178009,
+        "entry_price": 7.372,
+        "btc_entry_price": 81230.95,
+        "controls": [
+          {
+            "symbol": "WLDUSDT",
+            "entry_price": 0.43355
+          },
+          {
+            "symbol": "XSOXLUSDT",
+            "entry_price": 102.97
+          },
+          {
+            "symbol": "XCRCLUSDT",
+            "entry_price": 80.775
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 5702771.0,
+          "oi_notional": 42018016.728,
+          "oi_notional_kind": "provider_USD",
+          "contract": "UNI-USDT-SWAP",
+          "futures_observed_ms": 1793293166178,
+          "futures_mid": 7.3685,
+          "futures_spread_pct": 0.013571283164815713,
+          "basis_pct": 0.0745863845945327,
+          "funding_rate": 0.0001,
+          "funding_hours": 8.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793293106715,
+          "oi_change_pct": 1.5898931187942278,
+          "futures_price_change_pct": 2.561068967917035,
+          "elapsed_hours": 4.0591944444444445,
+          "baseline_ms": 1793278553078
+        },
+        "cohort_index": 26,
+        "split": "next25",
+        "feature_cutoff_ms": 1793289600000,
+        "source_lag_minutes": 59.63348333333333,
+        "entry_spread_pct": 0.02712967986977455,
+        "outcomes": {}
+      },
+      "DYDXUSDT": {
+        "symbol": "DYDXUSDT",
+        "exchange": "MEXC",
+        "contract": "DYDX_USDT",
+        "observed_ms": 1793293178112,
+        "entry_price": 0.11543,
+        "btc_entry_price": 81203.07500000001,
+        "controls": [
+          {
+            "symbol": "SEIUSDT",
+            "entry_price": 0.053035
+          },
+          {
+            "symbol": "TLMUSDT",
+            "entry_price": 0.00123255
+          },
+          {
+            "symbol": "SANDUSDT",
+            "entry_price": 0.048854999999999996
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 22016670.0,
+          "oi_notional": 2537421.2175,
+          "oi_notional_kind": "estimated_USDT_at_current_mid",
+          "contract": "DYDX_USDT",
+          "futures_observed_ms": 1793293163255,
+          "futures_mid": 0.11524999999999999,
+          "futures_spread_pct": 0.08676789587852743,
+          "basis_pct": 0.14728816496274444,
+          "funding_rate": 0.0001,
+          "funding_hours": 8.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793293171105,
+          "oi_change_pct": 0.4049091471761912,
+          "futures_price_change_pct": 4.345857854232693,
+          "elapsed_hours": 4.058564166666667,
+          "baseline_ms": 1793278552424
+        },
+        "cohort_index": 27,
+        "split": "next25",
+        "feature_cutoff_ms": 1793289600000,
+        "source_lag_minutes": 59.6352,
+        "entry_spread_pct": 0.03465303647231947,
+        "outcomes": {}
       }
     },
     "errors": [],
     "registration": {
-      "observed_ms": 1793278559541,
+      "observed_ms": 1793293178186,
       "added": [
-        "PIUSDT"
+        "ZROUSDT",
+        "ASTERUSDT",
+        "LITUSDT",
+        "UNIUSDT",
+        "DYDXUSDT"
       ],
-      "skipped": {},
+      "skipped": {
+        "factor_unknown_or_common_failure": 30
+      },
       "quote_errors": {}
     },
     "measurement": {
-      "observed_ms": 1793278559541,
-      "pending": 17,
+      "observed_ms": 1793293178186,
+      "pending": 16,
       "attempted": 4,
-      "unique_reads": 23
+      "unique_reads": 32
     },
-    "updated_ms": 1793278559541,
+    "updated_ms": 1793293178186,
     "summaries": {
       "6": {
         "A": {
-          "cases": 22,
+          "cases": 27,
           "measured": 21,
           "median_return_pct": -0.7016057505195739,
           "median_btc_excess_pct_points": -1.0632699143020452,
@@ -147333,14 +147753,14 @@
       },
       "12": {
         "A": {
-          "cases": 22,
-          "measured": 8,
-          "median_return_pct": -3.324402177693375,
-          "median_btc_excess_pct_points": -2.4408180753505038,
-          "median_controls_excess_pct_points": -1.0904046608339324,
-          "control_comparisons": 8,
-          "median_mae_pct": -3.723354977043325,
-          "median_mfe_pct": 1.1444077311426049,
+          "cases": 27,
+          "measured": 11,
+          "median_return_pct": -3.296342863390367,
+          "median_btc_excess_pct_points": -2.2399073502456956,
+          "median_controls_excess_pct_points": -1.2374902694736734,
+          "control_comparisons": 11,
+          "median_mae_pct": -3.4397127420383256,
+          "median_mfe_pct": 0.7329449351625827,
           "positive_after_cost_fraction": {
             "0.2": 0.0,
             "0.5": 0.0,
@@ -147399,17 +147819,17 @@
       },
       "24": {
         "A": {
-          "cases": 22,
-          "measured": 4,
-          "median_return_pct": -3.806600119764103,
-          "median_btc_excess_pct_points": -3.531121492669759,
-          "median_controls_excess_pct_points": -2.6878925268888354,
-          "control_comparisons": 4,
-          "median_mae_pct": -5.137925686088913,
-          "median_mfe_pct": 2.0328066856581173,
+          "cases": 27,
+          "measured": 8,
+          "median_return_pct": -3.5621669251241883,
+          "median_btc_excess_pct_points": -2.7588081525321666,
+          "median_controls_excess_pct_points": -1.750814360519071,
+          "control_comparisons": 8,
+          "median_mae_pct": -5.013262785028639,
+          "median_mfe_pct": 1.3064377428460006,
           "positive_after_cost_fraction": {
-            "0.2": 0.25,
-            "0.5": 0.25,
+            "0.2": 0.125,
+            "0.5": 0.125,
             "1.0": 0.0
           },
           "enough_for_initial_review": false
@@ -147465,7 +147885,7 @@
       },
       "48": {
         "A": {
-          "cases": 22,
+          "cases": 27,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -147533,14 +147953,14 @@
     "split_summaries": {
       "first25": {
         "A": {
-          "cases": 22,
-          "measured": 8,
-          "median_return_pct": -3.324402177693375,
-          "median_btc_excess_pct_points": -2.4408180753505038,
-          "median_controls_excess_pct_points": -1.0904046608339324,
-          "control_comparisons": 8,
-          "median_mae_pct": -3.723354977043325,
-          "median_mfe_pct": 1.1444077311426049,
+          "cases": 25,
+          "measured": 11,
+          "median_return_pct": -3.296342863390367,
+          "median_btc_excess_pct_points": -2.2399073502456956,
+          "median_controls_excess_pct_points": -1.2374902694736734,
+          "control_comparisons": 11,
+          "median_mae_pct": -3.4397127420383256,
+          "median_mfe_pct": 0.7329449351625827,
           "positive_after_cost_fraction": {
             "0.2": 0.0,
             "0.5": 0.0,
@@ -147599,7 +148019,7 @@
       },
       "next25": {
         "A": {
-          "cases": 0,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
