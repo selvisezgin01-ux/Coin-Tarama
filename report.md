@@ -2,30 +2,30 @@
 
 Kapalı 15dk: hazırlık → hacimli kırılım → düşük hacimli geri test → sonraki mumda güçlenme. Hazırlıklar sessiz izlenir; yalnız tetik ve daha önce bildirilmiş adayın iptal/süre olayı bildirilir. Emir gönderilmez.
 
-Son tamamlanmış tarama: 29.10.2026 21:21 TR.
+Son tamamlanmış tarama: 29.10.2026 21:26 TR.
 
 Her borsanın mevcut likit spot+perpetual evrenindeki en çok60 coin her döngüde incelenir; daha önceki 12li rotasyon kaldırıldı. Teknik adaylar borsa başına en çok12lik sessiz havuzda oran geçmişi biriktirir. Aktif tetik üst sınırı küresel5 farklı sembol.
 
-Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 81, "p95_minutes": 5.000016666666666, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "within_session": {"intervals": 78, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 3, "p95_minutes": 5.571483333333333, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
+Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 82, "p95_minutes": 5.000016666666666, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "within_session": {"intervals": 79, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 3, "p95_minutes": 5.571483333333333, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
 
 | Coin | Borsa | Aşama | Son spot | Direnç | Geçersizlik | Hedef | Son gözlem TR |
 |---|---|---|---:|---:|---:|---:|---|
-| ASTERUSDT | MEXC | KIRILIM İZLEME | 0.71195 | 0.7054 | 0.70234569 | — | 29.10.2026 21:21 |
-| BICOUSDT | OKX | KIRILIM İZLEME | 0.016905 | 0.01663 | 0.016323866 | — | 29.10.2026 21:21 |
-| PENDLEUSDT | MEXC | KIRILIM İZLEME | 1.964 | 1.947 | 1.9202411 | — | 29.10.2026 21:21 |
-| ADAUSDT | MEXC | GERİ TEST | 0.20345 | 0.2023 | 0.20024663 | — | 29.10.2026 21:21 |
-| KASUSDT | MEXC | GERİ TEST | 0.036179 | 0.036134 | 0.03573992 | — | 29.10.2026 21:21 |
-| HYPEUSDT | OKX | KIRILIM İZLEME | 94.9535 | 92.131 | 90.129285 | — | 29.10.2026 21:21 |
-| AVAXUSDT | OKX | GERİ TEST | 8.8875 | 8.86 | 8.7559065 | — | 29.10.2026 21:21 |
-| PIUSDT | OKX | SESSİZ HAZIRLIK | 0.079425 | 0.07978 | 0.079188514 | — | 29.10.2026 21:21 |
-| BCHUSDT | MEXC | SESSİZ HAZIRLIK | 289.85 | 291.5 | 286.85759 | — | 29.10.2026 21:21 |
-| LITUSDT | OKX | SESSİZ HAZIRLIK | 3.22155 | 3.2663 | 3.1732253 | — | 29.10.2026 21:21 |
+| ASTERUSDT | MEXC | KIRILIM İZLEME | 0.71105 | 0.7054 | 0.70234569 | — | 29.10.2026 21:26 |
+| BICOUSDT | OKX | KIRILIM İZLEME | 0.01681 | 0.01663 | 0.016323866 | — | 29.10.2026 21:26 |
+| PENDLEUSDT | MEXC | KIRILIM İZLEME | 1.9525 | 1.947 | 1.9202411 | — | 29.10.2026 21:26 |
+| ADAUSDT | MEXC | GERİ TEST | 0.20265 | 0.2023 | 0.20024663 | — | 29.10.2026 21:26 |
+| KASUSDT | MEXC | GERİ TEST | 0.036077 | 0.036134 | 0.03573992 | — | 29.10.2026 21:26 |
+| HYPEUSDT | OKX | KIRILIM İZLEME | 94.7535 | 92.131 | 90.129285 | — | 29.10.2026 21:26 |
+| AVAXUSDT | OKX | GERİ TEST | 8.8445 | 8.86 | 8.7559065 | — | 29.10.2026 21:26 |
+| PIUSDT | OKX | SESSİZ HAZIRLIK | 0.07936 | 0.07978 | 0.079188514 | — | 29.10.2026 21:26 |
+| BCHUSDT | MEXC | SESSİZ HAZIRLIK | 287.85 | 291.5 | 286.85759 | — | 29.10.2026 21:26 |
+| LITUSDT | OKX | SESSİZ HAZIRLIK | 3.2122 | 3.2663 | 3.1732253 | — | 29.10.2026 21:26 |
 
 ## Eleme ve veri kapsamı
 
-{"observed_ms": 1793298085042, "new_preparations": [], "reasons": {"btc_relative_weak": 112, "oi_growth_insufficient": 9, "price_not_holding_or_extended": 4, "price_preparation_not_ready": 119, "1h_structure_weak": 24, "4h_structure_weak": 5, "stale_quotes_excluded": 0}, "evaluated": 120, "candidate_quotes": 10, "errors": {"OKX": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "AVAXUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "MEXC": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451", "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ADAUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "KASUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BCHUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
+{"observed_ms": 1793298385007, "new_preparations": [], "reasons": {"btc_relative_weak": 112, "oi_growth_insufficient": 10, "price_not_holding_or_extended": 7, "price_preparation_not_ready": 119, "1h_structure_weak": 24, "4h_structure_weak": 5, "stale_quotes_excluded": 0}, "evaluated": 120, "candidate_quotes": 10, "errors": {"OKX": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "AVAXUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "MEXC": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451", "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ADAUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "KASUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BCHUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
 
-{"OKX": {"coverage": {"active_spot": 372, "liquid_spot_perpetual": 124, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 5, "candidate_quotes": 5, "active": 5, "chart_budget_seconds": 150}, "errors": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "AVAXUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 8, "futures": 11, "ratios": {"OKX": 6, "BINANCE": 1}}, "cursor": 0}, "MEXC": {"coverage": {"active_spot": 1247, "liquid_spot_perpetual": 112, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 5, "candidate_quotes": 5, "active": 5, "chart_budget_seconds": 150}, "errors": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451", "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ADAUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "KASUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BCHUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 8, "futures": 9, "ratios": {"OKX": 5, "BINANCE": 1}}, "cursor": 0}}
+{"OKX": {"coverage": {"active_spot": 372, "liquid_spot_perpetual": 123, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 5, "candidate_quotes": 5, "active": 5, "chart_budget_seconds": 150}, "errors": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "AVAXUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 8, "futures": 11, "ratios": {"OKX": 6, "BINANCE": 1}}, "cursor": 0}, "MEXC": {"coverage": {"active_spot": 1247, "liquid_spot_perpetual": 113, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 5, "candidate_quotes": 5, "active": 5, "chart_budget_seconds": 150}, "errors": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451", "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ADAUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "KASUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BCHUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 8, "futures": 9, "ratios": {"OKX": 5, "BINANCE": 1}}, "cursor": 0}}
 
 OI kontrat adedinde gerçek45–75dk bazına göre en az%3 artış ve aynı aralıkta vadeli fiyat -%0.5/+%6 zorunlu. Baz yoksa bilinmiyor. Short payı+2yüzde puan şartı destek puanıdır; zorunlu değildir. OKX ve Binance grupları ayrı kalır; eksik oran verisi short açıldığı/azaldığı sayılmaz. Negatif fonlama ek destektir.
 
