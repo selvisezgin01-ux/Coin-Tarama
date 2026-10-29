@@ -681325,7 +681325,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793307527165,
+      "duration_ms": 21153
     }
   ],
   "measurements": {
@@ -681564,11 +681566,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793306919948,
+            "endpoint_ms": 1793306940000,
+            "endpoint_price": 0.05756,
+            "return_pct": -5.2510288065843564,
+            "btc_excess_pct_points": -2.8249397689744433,
+            "mae_pct": -7.572016460905351,
+            "mfe_pct": 4.625514403292197,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 20052,
+            "measured_ms": 1793307526617,
+            "cost_scenarios_pct": {
+              "0.2": -5.451028806584357,
+              "0.5": -5.7510288065843564,
+              "1": -6.2510288065843564
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793303100000,
         "observation_lag_ms": 219948,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 3624
+        "notification_lag_ms": 3624,
+        "last_measure_attempt_ms": 1793307526617
       },
       "XSNXXUSDT:radar": {
         "symbol": "XSNXXUSDT",
@@ -681693,18 +681719,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 3,
-      "attempted": 2,
-      "observed_ms": 1793307221957,
-      "unique_reads": 4
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793307526617,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 10,
+        "unique_symbol_labels": 12,
         "hours": {
           "1": {
-            "known": 5,
-            "median_pct": -3.910908453174333
+            "known": 6,
+            "median_pct": -4.033222110232165
           },
           "4": {
             "known": 0,
