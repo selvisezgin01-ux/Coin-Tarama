@@ -263458,7 +263458,7 @@
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793276421043,
+      "observed_ms": 1793276700918,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -264137,7 +264137,9 @@
           "ZECUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "XLMUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793276700918,
+      "duration_ms": 11601
     }
   ],
   "review_candidates": {},
