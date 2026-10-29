@@ -680350,102 +680350,7 @@
     "MEXC:PERP:AVNTUSDT": 1793305119015,
     "MEXC:SPOT:DYDXUSDT": 1793305117545
   },
-  "pending": [
-    {
-      "id": "9844311120d02dc431cecd69",
-      "asset_id": "2ee7f84ddc4fd436559c20bd",
-      "key": "OKX:SPOT:XUVXYUSDT",
-      "symbol": "XUVXYUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793307515430,
-      "price": 17.475,
-      "level": 17.4,
-      "invalid": 16.810018750525376,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 17.4,
-        "base_invalid": 16.810018750525376,
-        "atr": 0.1332083298308015,
-        "rvol": 2.5639481546135006,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793306700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.118893466745164,
-        "score": 4.063948154613501
-      },
-      "context": {
-        "atr": 0.1332083298308015,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.006708941866042,
-        "btc_hour_pct": -0.030543677458760854,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XUVXYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793306700000
-    },
-    {
-      "id": "e3ea02ed2c89f70747fdf136",
-      "asset_id": "0f3d2ad063af1efb364e5688",
-      "key": "OKX:PERP:SKDDUSDT",
-      "symbol": "SKDDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793307515795,
-      "price": 8.344999999999999,
-      "level": 8.28,
-      "invalid": 7.732806693745958,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.28,
-        "base_invalid": 7.732806693745958,
-        "atr": 0.1346220416936148,
-        "rvol": 2.1388221552940907,
-        "close_position": 0.9449541284403649,
-        "breakout": false,
-        "bar_close_ms": 1793306700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 4.489951666242686,
-        "score": 3.583776283734456
-      },
-      "context": {
-        "atr": 0.1346220416936148,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.2734074981315855,
-        "btc_hour_pct": -0.011876278864908496,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SKDDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793306700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -680551,6 +680456,20 @@
       "phase": "radar",
       "observed_ms": 1793306918492,
       "delivered_ms": 1793306924459
+    },
+    {
+      "id": "9844311120d02dc431cecd69",
+      "asset_id": "2ee7f84ddc4fd436559c20bd",
+      "phase": "radar",
+      "observed_ms": 1793307515430,
+      "delivered_ms": 1793307521500
+    },
+    {
+      "id": "e3ea02ed2c89f70747fdf136",
+      "asset_id": "0f3d2ad063af1efb364e5688",
+      "phase": "radar",
+      "observed_ms": 1793307515795,
+      "delivered_ms": 1793307521500
     }
   ],
   "runs": [
@@ -681748,7 +681667,8 @@
         "outcomes": {},
         "source_close_ms": 1793306700000,
         "observation_lag_ms": 815430,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6070
       },
       "SKDDUSDT:radar": {
         "symbol": "SKDDUSDT",
@@ -681767,7 +681687,8 @@
         "outcomes": {},
         "source_close_ms": 1793306700000,
         "observation_lag_ms": 815795,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5705
       }
     },
     "errors": [],
