@@ -2,25 +2,25 @@
 
 Kapalı 15dk: hazırlık → hacimli kırılım → düşük hacimli geri test → sonraki mumda güçlenme. Hazırlıklar sessiz izlenir; yalnız tetik ve daha önce bildirilmiş adayın iptal/süre olayı bildirilir. Emir gönderilmez.
 
-Son tamamlanmış tarama: 29.10.2026 21:51 TR.
+Son tamamlanmış tarama: 29.10.2026 21:56 TR.
 
 Her borsanın mevcut likit spot+perpetual evrenindeki en çok60 coin her döngüde incelenir; daha önceki 12li rotasyon kaldırıldı. Teknik adaylar borsa başına en çok12lik sessiz havuzda oran geçmişi biriktirir. Aktif tetik üst sınırı küresel5 farklı sembol.
 
-Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 87, "p95_minutes": 5.000016666666666, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "within_session": {"intervals": 84, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 3, "p95_minutes": 5.571483333333333, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
+Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 88, "p95_minutes": 5.000016666666666, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "within_session": {"intervals": 84, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 4, "p95_minutes": 5.571483333333333, "longest_minutes": 5.571483333333333, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
 
 | Coin | Borsa | Aşama | Son spot | Direnç | Geçersizlik | Hedef | Son gözlem TR |
 |---|---|---|---:|---:|---:|---:|---|
-| ASTERUSDT | MEXC | KIRILIM İZLEME | 0.7111 | 0.7054 | 0.70234569 | — | 29.10.2026 21:51 |
-| BICOUSDT | OKX | KIRILIM İZLEME | 0.017005 | 0.01663 | 0.016323866 | — | 29.10.2026 21:51 |
-| HYPEUSDT | OKX | KIRILIM İZLEME | 95.168 | 92.131 | 90.129285 | — | 29.10.2026 21:51 |
-| PIUSDT | OKX | SESSİZ HAZIRLIK | 0.079465 | 0.07978 | 0.079188514 | — | 29.10.2026 21:51 |
-| LITUSDT | OKX | SESSİZ HAZIRLIK | 3.22745 | 3.2663 | 3.1732253 | — | 29.10.2026 21:51 |
+| ASTERUSDT | MEXC | KIRILIM İZLEME | 0.71215 | 0.7054 | 0.70234569 | — | 29.10.2026 21:56 |
+| BICOUSDT | OKX | KIRILIM İZLEME | 0.016985 | 0.01663 | 0.016323866 | — | 29.10.2026 21:56 |
+| HYPEUSDT | OKX | KIRILIM İZLEME | 95.041 | 92.131 | 90.129285 | — | 29.10.2026 21:56 |
+| PIUSDT | OKX | SESSİZ HAZIRLIK | 0.07943 | 0.07978 | 0.079188514 | — | 29.10.2026 21:56 |
+| LITUSDT | OKX | SESSİZ HAZIRLIK | 3.2208 | 3.2663 | 3.1732253 | — | 29.10.2026 21:56 |
 
 ## Eleme ve veri kapsamı
 
-{"observed_ms": 1793299881950, "new_preparations": [], "reasons": {"btc_relative_weak": 108, "oi_growth_insufficient": 5, "price_not_holding_or_extended": 1, "price_preparation_not_ready": 119, "1h_structure_weak": 24, "4h_structure_weak": 5, "stale_quotes_excluded": 0}, "evaluated": 120, "candidate_quotes": 5, "errors": {"MEXC": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451"], "OKX": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
+{"observed_ms": 1793300214425, "new_preparations": [], "reasons": {"btc_relative_weak": 108, "oi_growth_insufficient": 5, "price_not_holding_or_extended": 1, "price_preparation_not_ready": 119, "1h_structure_weak": 24, "4h_structure_weak": 5, "stale_quotes_excluded": 0}, "evaluated": 120, "candidate_quotes": 5, "errors": {"MEXC": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451"], "OKX": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
 
-{"OKX": {"coverage": {"active_spot": 372, "liquid_spot_perpetual": 123, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 4, "candidate_quotes": 4, "active": 4, "chart_budget_seconds": 150}, "errors": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 7, "futures": 10, "ratios": {"OKX": 5, "BINANCE": 1}}, "cursor": 0}, "MEXC": {"coverage": {"active_spot": 1247, "liquid_spot_perpetual": 112, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 1, "candidate_quotes": 1, "active": 1, "chart_budget_seconds": 150}, "errors": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451"], "calls": {"spot": 4, "futures": 5, "ratios": {"OKX": 2, "BINANCE": 1}}, "cursor": 0}}
+{"OKX": {"coverage": {"active_spot": 372, "liquid_spot_perpetual": 123, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 4, "candidate_quotes": 4, "active": 4, "chart_budget_seconds": 150}, "errors": ["BICOUSDT BINANCE: BINANCE: public HTTP 451", "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LITUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 7, "futures": 10, "ratios": {"OKX": 5, "BINANCE": 1}}, "cursor": 0}, "MEXC": {"coverage": {"active_spot": 1247, "liquid_spot_perpetual": 113, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 1, "candidate_quotes": 1, "active": 1, "chart_budget_seconds": 150}, "errors": ["ASTERUSDT BINANCE: BINANCE: public HTTP 451"], "calls": {"spot": 4, "futures": 5, "ratios": {"OKX": 2, "BINANCE": 1}}, "cursor": 0}}
 
 OI kontrat adedinde gerçek45–75dk bazına göre en az%3 artış ve aynı aralıkta vadeli fiyat -%0.5/+%6 zorunlu. Baz yoksa bilinmiyor. Short payı+2yüzde puan şartı destek puanıdır; zorunlu değildir. OKX ve Binance grupları ayrı kalır; eksik oran verisi short açıldığı/azaldığı sayılmaz. Negatif fonlama ek destektir.
 
