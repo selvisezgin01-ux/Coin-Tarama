@@ -295075,7 +295075,7 @@
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793301720641,
+      "observed_ms": 1793302020297,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -300602,7 +300602,9 @@
           "LTCUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793302020297,
+      "duration_ms": 11365
     }
   ],
   "review_candidates": {},
