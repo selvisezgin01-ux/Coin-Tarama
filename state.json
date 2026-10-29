@@ -907348,57 +907348,7 @@
     "OKX:PERP:BTWUSDT": 1793308739504,
     "MEXC:PERP:JSTUSDT": 1793312340512
   },
-  "pending": [
-    {
-      "id": "bc3d0f52826590ff4cf92e5e",
-      "asset_id": "c498e2fd73ab93ab8ed5b692",
-      "key": "MEXC:PERP:JSTUSDT",
-      "symbol": "JSTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793312340512,
-      "price": 0.14224,
-      "level": 0.14209,
-      "invalid": 0.14059039397616818,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.14209,
-        "base_invalid": 0.14059039397616818,
-        "atr": 0.0005307068255453066,
-        "rvol": 25.56438998159386,
-        "close_position": 0.7142857142857099,
-        "breakout": true,
-        "bar_close_ms": 1793309400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4850434905593568,
-        "score": 7.71428571428571
-      },
-      "context": {
-        "atr": 0.0006821751163144637,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7560791328097505,
-        "btc_hour_pct": 0.22976693436862483,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:JSTUSDT",
-          "change_pct": 0.29912825480029603,
-          "old_ms": 1793308724627,
-          "current_ms": 1793312337366,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.002,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793309400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -907588,6 +907538,13 @@
       "phase": "radar",
       "observed_ms": 1793311439478,
       "delivered_ms": 1793311448331
+    },
+    {
+      "id": "bc3d0f52826590ff4cf92e5e",
+      "asset_id": "c498e2fd73ab93ab8ed5b692",
+      "phase": "cancelled",
+      "observed_ms": 1793312340512,
+      "delivered_ms": 1793312345655
     }
   ],
   "runs": [
