@@ -339623,218 +339623,13 @@
     "OKBUSDT": 1793297183140,
     "UNIUSDT": 1793297183424
   },
-  "pending": [
-    {
-      "id": "d87f062df31f220278adc0c4",
-      "asset_id": "65d6a5820941a8e22aac13a0",
-      "symbol": "LINKUSDT",
-      "exchange": "MEXC",
-      "phase": "expired",
-      "observed_ms": 1793297183937,
-      "signal_ms": 1793297183937,
-      "price": 11.745000000000001,
-      "level": 11.642,
-      "invalid": 11.564361899323872,
-      "reason": "izleme süresi doldu",
-      "derivatives": {
-        "ready": false,
-        "reasons": [
-          "oi_growth_insufficient",
-          "price_not_holding_or_extended"
-        ],
-        "profiles": {
-          "OKX": {
-            "status": "observed",
-            "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 51.81627410537446,
-            "long_pct": 48.18372589462554,
-            "provider_ms": 1793297100000,
-            "change_pp": -0.15720914793270424,
-            "previous_short_pct": 51.973483253307165,
-            "old_ms": 1793293500000,
-            "supports": false
-          },
-          "BINANCE": {
-            "status": "unknown",
-            "scope": "Binance: teminat bakiyesi en büyük %20 yatırımcı, pozisyon büyüklüğü oranı"
-          }
-        },
-        "negative_funding": false,
-        "score": 0,
-        "oi_change_pct": -1.362368989589846,
-        "price_change_pct": -0.7567430455736823,
-        "oi_old_ms": 1793293576068,
-        "oi_ms": 1793297176932,
-        "supporting_sources": [],
-        "opposing_sources": [],
-        "funding_8h_pct": 0.01,
-        "strict_short_confirmed": false,
-        "short_information": "observed_without_confirmation"
-      },
-      "context": {
-        "reasons": [
-          "btc_relative_weak"
-        ],
-        "atr": 0.06986922569177853,
-        "relative1h_pp": -0.3924366223699516,
-        "rsi14": 49.740141313410035,
-        "sar_below": false,
-        "ema4h": 11.622037446209617,
-        "ema1h": 11.666721053637445,
-        "btc_long_blocked": false,
-        "btc_close_ms": 1793296800000
-      },
-      "trigger_kind": null,
-      "overhead_room_r": null,
-      "version": "coin-tarama-5-v2",
-      "target": null,
-      "entry_plan": null,
-      "source_close_ms": null,
-      "strict_short_confirmed": null
-    },
-    {
-      "id": "1f9d636cb3d7acc923030343",
-      "asset_id": "86c5b2e2d0c6149736123355",
-      "symbol": "OKBUSDT",
-      "exchange": "OKX",
-      "phase": "expired",
-      "observed_ms": 1793297183140,
-      "signal_ms": 1793297183140,
-      "price": 113.235,
-      "level": 111.33,
-      "invalid": 110.75911879070331,
-      "reason": "izleme süresi doldu",
-      "derivatives": {
-        "ready": false,
-        "reasons": [
-          "oi_growth_insufficient",
-          "price_not_holding_or_extended"
-        ],
-        "profiles": {
-          "OKX": {
-            "status": "observed",
-            "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 55.651756965459256,
-            "long_pct": 44.348243034540744,
-            "provider_ms": 1793297100000,
-            "change_pp": -0.27065513029003796,
-            "previous_short_pct": 55.922412095749294,
-            "old_ms": 1793293500000,
-            "supports": false
-          },
-          "BINANCE": {
-            "status": "unknown",
-            "scope": "Binance: teminat bakiyesi en büyük %20 yatırımcı, pozisyon büyüklüğü oranı"
-          }
-        },
-        "negative_funding": false,
-        "score": 0,
-        "oi_change_pct": -0.3425011386631538,
-        "price_change_pct": -0.5885194782379477,
-        "oi_old_ms": 1793293578638,
-        "oi_ms": 1793297177882,
-        "supporting_sources": [],
-        "opposing_sources": [],
-        "funding_8h_pct": 0.007156348333259999,
-        "strict_short_confirmed": false,
-        "short_information": "observed_without_confirmation"
-      },
-      "context": {
-        "reasons": [
-          "btc_relative_weak"
-        ],
-        "atr": 0.7464379169387941,
-        "relative1h_pp": -0.1449679636824408,
-        "rsi14": 53.55411023916607,
-        "sar_below": true,
-        "ema4h": 110.51405674069638,
-        "ema1h": 111.86643560120791,
-        "btc_long_blocked": false,
-        "btc_close_ms": 1793296800000
-      },
-      "trigger_kind": null,
-      "overhead_room_r": null,
-      "version": "coin-tarama-5-v2",
-      "target": null,
-      "entry_plan": null,
-      "source_close_ms": null,
-      "strict_short_confirmed": null
-    },
-    {
-      "id": "5d2b936618648fb9a095f61a",
-      "asset_id": "b7de7f161779244268918f22",
-      "symbol": "UNIUSDT",
-      "exchange": "OKX",
-      "phase": "expired",
-      "observed_ms": 1793297183424,
-      "signal_ms": 1793297183424,
-      "price": 7.279999999999999,
-      "level": 7.246,
-      "invalid": 7.123649379388617,
-      "reason": "izleme süresi doldu",
-      "derivatives": {
-        "ready": false,
-        "reasons": [
-          "oi_growth_insufficient",
-          "price_not_holding_or_extended"
-        ],
-        "profiles": {
-          "OKX": {
-            "status": "observed",
-            "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 52.05551726543425,
-            "long_pct": 47.94448273456575,
-            "provider_ms": 1793297100000,
-            "change_pp": -0.11233587146250557,
-            "previous_short_pct": 52.16785313689675,
-            "old_ms": 1793293500000,
-            "supports": false
-          },
-          "BINANCE": {
-            "status": "unknown",
-            "scope": "Binance: teminat bakiyesi en büyük %20 yatırımcı, pozisyon büyüklüğü oranı"
-          }
-        },
-        "negative_funding": false,
-        "score": 0,
-        "oi_change_pct": 0.042189090378963456,
-        "price_change_pct": -0.9530941520865976,
-        "oi_old_ms": 1793293578638,
-        "oi_ms": 1793297177882,
-        "supporting_sources": [],
-        "opposing_sources": [],
-        "funding_8h_pct": 0.01,
-        "strict_short_confirmed": false,
-        "short_information": "observed_without_confirmation"
-      },
-      "context": {
-        "reasons": [
-          "btc_relative_weak"
-        ],
-        "atr": 0.06633972410550382,
-        "relative1h_pp": -1.0263905089250458,
-        "rsi14": 48.83149904088198,
-        "sar_below": false,
-        "ema4h": 7.118915608899406,
-        "ema1h": 7.1889346070522855,
-        "btc_long_blocked": false,
-        "btc_close_ms": 1793296800000
-      },
-      "trigger_kind": null,
-      "overhead_room_r": null,
-      "version": "coin-tarama-5-v2",
-      "target": null,
-      "entry_plan": null,
-      "source_close_ms": null,
-      "strict_short_confirmed": null
-    }
-  ],
+  "pending": [],
   "delivery": [],
   "measurements": {
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793296926999,
+      "observed_ms": 1793297191514,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -344591,7 +344386,9 @@
           "BCHUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "PEPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793297191514,
+      "duration_ms": 16158
     }
   ],
   "review_candidates": {},
