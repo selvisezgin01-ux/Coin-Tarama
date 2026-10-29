@@ -2206,33 +2206,27 @@
       "details": {}
     }
   ],
-  "pending": [
+  "pending": [],
+  "delivery": [
     {
       "id": "f97849fdd8734d4af3b551bad613",
-      "mint": null,
-      "kind": "VERİ ERİŞİMİ",
-      "observed_ms": 1793305177434,
-      "text": "holders:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk: solana-rpc.publicnode.com: HTTP 403",
-      "details": {}
+      "issue": 52,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/52",
+      "delivered_ms": 1793305179982
     },
     {
       "id": "fd2a44e5d57e9d2e66eaab656cbd",
-      "mint": null,
-      "kind": "VERİ ERİŞİMİ",
-      "observed_ms": 1793305177434,
-      "text": "holders:4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk: solana-rpc.publicnode.com:getTokenLargestAccounts: yöntem erişimi kapalı; diğer izinli okumalar bağımsız sürer",
-      "details": {}
+      "issue": 52,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/52",
+      "delivered_ms": 1793305179982
     },
     {
       "id": "99d8b1e241593149368131ccd922",
-      "mint": null,
-      "kind": "BAŞLANGIÇ — İŞLEM SİNYALİ DEĞİL",
-      "observed_ms": 1793305177434,
-      "text": "1 coin bağımsız takibi başladı: Solana 1 ve SPSC. İlk işlem örneği geçmiş başlangıç kaydıdır; eski alımlar yeni sinyal olarak bildirilmedi. Hedef kontrol aralığı yaklaşık5dk. Erişim eksikleri raporda açıkça gösterilir.",
-      "details": {}
+      "issue": 52,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/52",
+      "delivered_ms": 1793305179982
     }
   ],
-  "delivery": [],
   "provider_backoff": {
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434
   },
