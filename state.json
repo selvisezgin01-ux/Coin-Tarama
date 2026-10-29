@@ -974719,149 +974719,7 @@
     "OKX:PERP:JP225USDT": 1793312935303,
     "OKX:PERP:SKDDUSDT": 1793313239026
   },
-  "pending": [
-    {
-      "id": "a1565925c0bf54246c2e780c",
-      "asset_id": "0aa873806900a48954bf0e3d",
-      "key": "OKX:PERP:TMFUSDT",
-      "symbol": "TMFUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793314139376,
-      "price": 29.635,
-      "level": 29.69,
-      "invalid": 29.569404534649134,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 29.69,
-        "base_invalid": 29.569404534649134,
-        "atr": 0.07063643567243685,
-        "rvol": 70.57806905626497,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793313900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.03376097231599928,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.07063643567243685,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.14478229849150814,
-        "btc_hour_pct": 0.2461679017358609,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TMFUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793313900000
-    },
-    {
-      "id": "d02b3e19cafce666de00afef",
-      "asset_id": "6850c35321188ba2fcb89aaf",
-      "key": "OKX:SPOT:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793314139733,
-      "price": 0.0014635,
-      "level": 0.001495,
-      "invalid": 0.0013885156180838386,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001495,
-        "base_invalid": 0.0013885156180838386,
-        "atr": 2.3229212774409658e-05,
-        "rvol": 9.6534412749275,
-        "close_position": 0.8363636363636348,
-        "breakout": false,
-        "bar_close_ms": 1793313900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.7361111111110938,
-        "score": 7.336363636363635
-      },
-      "context": {
-        "atr": 2.3229212774409658e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.0653438700795954,
-        "btc_hour_pct": 0.22507100831812288,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793313900000
-    },
-    {
-      "id": "54c83a01351e77d80a444b64",
-      "asset_id": "da3110f69b34ec45b4c61b79",
-      "key": "MEXC:PERP:SOLVUSDT",
-      "symbol": "SOLVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793314142178,
-      "price": 0.0048225,
-      "level": 0.004763,
-      "invalid": 0.004413466214168722,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004763,
-        "base_invalid": 0.004413466214168722,
-        "atr": 7.689190554185455e-05,
-        "rvol": 5.1861935152909036,
-        "close_position": 0.7375886524822709,
-        "breakout": true,
-        "bar_close_ms": 1793313900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.1355109247406725,
-        "score": 6.923782167773174
-      },
-      "context": {
-        "atr": 7.689190554185455e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -3.120813320560656,
-        "btc_hour_pct": 0.22976693436862483,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOLVUSDT",
-          "change_pct": 9.021520155140927,
-          "old_ms": 1793310525424,
-          "current_ms": 1793314140530,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793313900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -975072,6 +974930,27 @@
       "phase": "expired",
       "observed_ms": 1793313239026,
       "delivered_ms": 1793313245514
+    },
+    {
+      "id": "a1565925c0bf54246c2e780c",
+      "asset_id": "0aa873806900a48954bf0e3d",
+      "phase": "radar",
+      "observed_ms": 1793314139376,
+      "delivered_ms": 1793314147239
+    },
+    {
+      "id": "d02b3e19cafce666de00afef",
+      "asset_id": "6850c35321188ba2fcb89aaf",
+      "phase": "radar",
+      "observed_ms": 1793314139733,
+      "delivered_ms": 1793314147239
+    },
+    {
+      "id": "54c83a01351e77d80a444b64",
+      "asset_id": "da3110f69b34ec45b4c61b79",
+      "phase": "radar",
+      "observed_ms": 1793314142178,
+      "delivered_ms": 1793314147239
     }
   ],
   "runs": [
@@ -977656,7 +977535,8 @@
         "outcomes": {},
         "source_close_ms": 1793313900000,
         "observation_lag_ms": 239376,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7863
       },
       "SOPHUSDT:radar": {
         "symbol": "SOPHUSDT",
@@ -977675,7 +977555,8 @@
         "outcomes": {},
         "source_close_ms": 1793313900000,
         "observation_lag_ms": 239733,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7506
       },
       "SOLVUSDT:radar": {
         "symbol": "SOLVUSDT",
@@ -977694,7 +977575,8 @@
         "outcomes": {},
         "source_close_ms": 1793313900000,
         "observation_lag_ms": 242178,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5061
       }
     },
     "errors": [],
