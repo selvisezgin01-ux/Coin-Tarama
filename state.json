@@ -1009222,7 +1009222,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793315054443,
+      "duration_ms": 27188
     }
   ],
   "measurements": {
@@ -1009989,11 +1009991,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793315039478,
+            "endpoint_ms": 1793315040000,
+            "endpoint_price": 0.018798,
+            "return_pct": 0.10117684647743541,
+            "btc_excess_pct_points": 0.2423493828773382,
+            "mae_pct": -1.4324511422333597,
+            "mfe_pct": 1.3472495873049661,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 522,
+            "measured_ms": 1793315053872,
+            "cost_scenarios_pct": {
+              "0.2": -0.0988231535225646,
+              "0.5": -0.3988231535225646,
+              "1": -0.8988231535225646
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793311200000,
         "observation_lag_ms": 239478,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8853
+        "notification_lag_ms": 8853,
+        "last_measure_attempt_ms": 1793315053872
       },
       "TMFUSDT:radar": {
         "symbol": "TMFUSDT",
@@ -1010120,16 +1010146,16 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793314743747,
+      "observed_ms": 1793315053872,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 22,
+        "unique_symbol_labels": 24,
         "hours": {
           "1": {
-            "known": 17,
-            "median_pct": -1.9831140781464862
+            "known": 18,
+            "median_pct": -1.9407755270319238
           },
           "4": {
             "known": 0,
