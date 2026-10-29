@@ -12,6 +12,7 @@ on:
           - Coin Tarama 3
           - Coin Tarama 5
           - Coin Tarama Meme
+          - Coin Tarama Meme V6 — örnek sinyal
           - Shortçu Kıstır
           - Shortçu Kıstır — oran değişimi
 
@@ -39,7 +40,7 @@ jobs:
 
           recipient = os.environ['COIN_NOTIFY_USER'].strip()
           label = os.environ['COIN_SCAN_LABEL']
-          if label not in ('Coin Tarama 2', 'Coin Tarama 3', 'Coin Tarama Meme', 'Shortçu Kıstır', 'Shortçu Kıstır — oran değişimi', 'Coin Tarama 5'):
+          if label not in ('Coin Tarama 2', 'Coin Tarama 3', 'Coin Tarama Meme', 'Coin Tarama Meme V6 — örnek sinyal', 'Shortçu Kıstır', 'Shortçu Kıstır — oran değişimi', 'Coin Tarama 5'):
               raise ValueError('Unknown scanner label.')
           if not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?', recipient):
               raise ValueError('Set COIN_NOTIFY_USER to a GitHub username without @.')
@@ -67,6 +68,45 @@ jobs:
                       'OI değişimi ile Binance/OKX kaynak gruplarının short/long oranları ayrı yazılacak.\n\n'
                       'Rapor: https://github.com/' + os.environ['GITHUB_REPOSITORY'] +
                       '/blob/scanner-state-coin-tarama-5/report.md\n\n' + marker)
+              if label == 'Coin Tarama Meme V6 — örnek sinyal':
+                  from datetime import datetime
+                  from zoneinfo import ZoneInfo
+                  current = datetime.now(ZoneInfo('Europe/Istanbul'))
+                  payload['title'] = 'TEST · Meme V6 · İlk taban + alım yönlü erken hacim · GERÇEK SİNYAL DEĞİL'
+                  payload['body'] = (
+                      f'@{recipient}\n\n'
+                      '# TEST — GERÇEK COIN SİNYALİ DEĞİLDİR\n\n'
+                      '**Aşağıdaki token, kontrat, fiyat, hacim ve güvenlik sonuçları tamamen örnektir. '
+                      'Bu mesaj yalnız gerçek bildirimin nasıl görüneceğini gösterir.**\n\n'
+                      '**Coin Tarama Meme V6 — ilk taban + alım yönlü erken hacim**\n\n'
+                      'ORNEK · Solana · 5 dk erken aday · Birikim\n\n'
+                      'Ağ: **Solana**\n\n'
+                      'Kontrat / token adresi (örnek yer tutucu; gerçek adres değildir):\n'
+                      '```text\nORNEK_ADRES_GERCEK_TOKEN_DEGILDIR\n```\n\n'
+                      '**MCAP:** $150.000 — örnek gözlem değeri\n'
+                      '**Fiyat:** $0,000150 — örnek\n'
+                      '**İlk taban:** 3 kapalı 5 dk mum\n'
+                      '**Hacim artışı:** 2,40x — taban medyanı $1.500 → son kapalı mum $3.600\n\n'
+                      '**Aynı kapalı 5 dk işlem örneğinde:**\n\n'
+                      '- Alım: **$2.700**\n'
+                      '- Satım: **$900**\n'
+                      '- Alım–satım tutar farkı: **+$1.800**\n'
+                      '- Alım hacmi payı: **%75**\n'
+                      '- İşlem adedi: 12 alım / 4 satım\n'
+                      '- Net alıcı işlem başlatıcı adresi: **6**\n\n'
+                      'Bunlar sınırlı işlem örneğidir; bağımsız yatırımcı, balina veya toplam sermaye girişi kanıtı değildir.\n\n'
+                      '**Güvenlik — yalnız örnek senaryo:** Kontrat ön kontrollerinde engel görülmedi; '
+                      'bu gerçek bir token için alınmış güvenlik raporu değildir. '
+                      'Geliştirici değerlendirmesi gerçek bildirimde yalnız taranan 45 dakikalık pencereyi kapsar; '
+                      'ömür boyu hiç satmadığı anlamına gelmez.\n\n'
+                      '**Bubblemaps cüzdan haritası MANUEL KONTROL EDİLMELİ.** '
+                      'Gerçek bildirimde tokena ait harita ve DexScreener bağlantıları da bulunur. '
+                      'Bu örnekte alınıp satılabilir bir token bağlantısı kullanılmadı.\n\n'
+                      'Gerçek mesaj filtreleri sağlayan izleme kaydıdır; otomatik alım emri veya getiri garantisi değildir. '
+                      'Resmî/orijinal kontrat kimliği ayrıca kontrol edilmelidir.\n\n'
+                      f'Test gönderim saati: {current:%d.%m.%Y %H:%M:%S} Türkiye\n\n'
+                      'Güncel tarama raporu: https://github.com/' + os.environ['GITHUB_REPOSITORY'] +
+                      '/blob/scanner-state-meme-v6/report.md\n\n' + marker)
               if label == 'Shortçu Kıstır — oran değişimi':
                   from datetime import datetime, timedelta
                   from zoneinfo import ZoneInfo
