@@ -1,0 +1,175 @@
+{
+  "version": "coin-tarama-meme-v6-buy-pressure",
+  "status": "experimental discovery and paper observation, no orders",
+  "networks": {
+    "solana": {
+      "name": "Solana",
+      "gecko": "solana",
+      "dex": "solana",
+      "security": "rugcheck",
+      "chain_id": null
+    },
+    "ethereum": {
+      "name": "Ethereum",
+      "gecko": "eth",
+      "dex": "ethereum",
+      "security": "goplus",
+      "chain_id": "1",
+      "rpc": "https://ethereum-rpc.publicnode.com"
+    },
+    "bnb": {
+      "name": "BNB Chain",
+      "gecko": "bsc",
+      "dex": "bsc",
+      "security": "goplus",
+      "chain_id": "56",
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    "robinhood": {
+      "name": "Robinhood",
+      "gecko": "robinhood",
+      "dex": "robinhood",
+      "security": "goplus",
+      "chain_id": "4663",
+      "rpc": "https://rpc.mainnet.chain.robinhood.com"
+    },
+    "hyperevm": {
+      "name": "HyperEVM (HYPE)",
+      "gecko": "hyperevm",
+      "dex": "hyperevm",
+      "security": "goplus",
+      "chain_id": "999",
+      "rpc": "https://rpc.hyperliquid.xyz/evm"
+    }
+  },
+  "discovery": {
+    "new_pool_pages_per_network": 2,
+    "trending_pools_per_network": false,
+    "max_watch_per_network": 180,
+    "max_ohlcv_per_network_per_run": 3,
+    "max_security_checks_per_network_per_run": 1,
+    "gecko_minimum_request_interval_seconds": 12.5,
+    "api_timeout_seconds": 15,
+    "note": "Bounded discovery, not the whole market. Profile/boost feeds are supplementary and never a positive scoring signal."
+  },
+  "market": {
+    "min_pool_age_minutes": 15,
+    "max_pool_age_hours": 24,
+    "liquidity_min_usd": 10000,
+    "valuation_min_usd": 50000,
+    "valuation_max_usd": 500000,
+    "liquidity_valuation_min_ratio": 0.03,
+    "volume15_min_usd": 1000,
+    "trades15_min": 12,
+    "buy_count_fraction_min": 0.6,
+    "liquidity_loss_max_pct": 20,
+    "ohlcv_staleness_max_minutes": 20,
+    "setup_bars": 3,
+    "accumulation_range_max_pct": 20,
+    "accumulation_net_change_max_pct": 10,
+    "accumulation_last_first_volume_max_ratio": 0.8,
+    "accumulation_close_position_min": 0.55,
+    "breakout_volume_ratio_min": 1.5,
+    "breakout_close_position_min": 0.65,
+    "breakout_extension_max_pct": 12,
+    "live_price_drift_max_pct": 15,
+    "max_previous_one_bar_gain_pct": 60,
+    "max_pool_peak_drawdown_pct": 25
+  },
+  "first_formation": {
+    "max_observed_runup_pct": 25,
+    "max_current_gain_from_initial_pct": 10,
+    "max_drawdown_from_peak_pct": 15,
+    "require_full_selected_pool_history": true,
+    "new_candidate_stage": "accumulation",
+    "note": "Experimental exclusion thresholds, not fitted profit predictors. Includes all available wicks and the open bar for exclusion only. Missing start/gaps remain unknown; pool history is not token lifetime history."
+  },
+  "risk": {
+    "wallet_map_mode": "manual",
+    "holder_count_min": 75,
+    "single_unexcluded_owner_max_pct_total_supply": 10,
+    "top10_unexcluded_owner_max_pct_total_supply": 35,
+    "largest_connected_cluster_max_pct": 20,
+    "developer_holdings_max_pct": 8,
+    "evm_tax_max_fraction": 0.05,
+    "developer_transfer_window_minutes": 45,
+    "max_developer_rpc_checks_per_network_per_run": 2,
+    "rpc_log_page_blocks": 1000,
+    "rpc_log_max_pages": 32,
+    "solana_signature_limit": 40,
+    "map_max_age_minutes": 15,
+    "security_cache_max_minutes": 15,
+    "note": "No outgoing transfers in a fully scanned 45-minute window is not lifetime no-sale proof. Unknown creator, incomplete history, missing maps or safety fields never becomes a verified candidate."
+  },
+  "alerts": {
+    "tiers": [
+      "qualified"
+    ],
+    "single_alert_per_chain_token": true,
+    "notify_first_breakout_after_accumulation": true
+  },
+  "measurement": {
+    "horizons_minutes": [
+      15,
+      30,
+      60,
+      180,
+      360,
+      1440
+    ],
+    "max_endpoint_observation_delay_minutes": 20,
+    "note": "Actual observed provider price and time; not a bid/ask execution price. Missing/late endpoints stay unknown. Highest observed price is not a complete intrabar maximum."
+  },
+  "timeframes": {
+    "early_minutes": 5,
+    "confirmation_minutes": 15,
+    "ohlcv_limit": 1000,
+    "max_closed_lag_minutes": 7,
+    "note": "3 fully closed 5m candles after pool creation; 3 fully closed 15m candles for separate confirmation. No positive open-bar signals."
+  },
+  "large_buyers": {
+    "net_buy_min_usd": 500,
+    "net_buy_min_liquidity_fraction": 0.005,
+    "top_buyer_fraction_warning": 0.5,
+    "resale_fraction_warning": 0.5,
+    "note": "Experimental support 0-10, not a required gate or probability. Last <=300 trades, 15/30m sampled initiators. No wealth/linked-wallet/smart-money verification. Missing/truncated samples get unknown, not zero."
+  },
+  "pipeline": {
+    "refresh_pool_budget_per_network": 30,
+    "priority_age_minutes": 120,
+    "discovery_gap_overlap_minutes": 5,
+    "minimum_observe_liquidity_usd": 10000,
+    "max_candidates_per_run": 5,
+    "notification_max_age_minutes": 10,
+    "worker_interval_seconds": 300,
+    "worker_session_minutes": 110,
+    "measurement_horizons_minutes": [
+      10,
+      30,
+      60,
+      240
+    ],
+    "measurement_max_delay_minutes": 7,
+    "exit_stop_pct": 10,
+    "exit_target_pct": 20,
+    "exit_timeout_minutes": 60,
+    "paper_policy": "observed_sell_quotes_only_no_orders_or_guaranteed_fills",
+    "gas_cost_known": false,
+    "global_gecko_requests_per_cycle": 20
+  },
+  "base_volume": {
+    "base_bars": 3,
+    "base_valid_minutes": 60,
+    "volume_multiple_min": 2,
+    "burst_volume_min_usd": 500,
+    "buy_volume_fraction_min": 0.6,
+    "buy_count_fraction_min": 0.6,
+    "net_buy_min_usd": 250,
+    "minimum_trades": 8,
+    "minimum_net_buy_initiators": 3,
+    "top_buyer_fraction_max": 0.6,
+    "trade_volume_reconciliation_tolerance": 0.2,
+    "reserved_trade_requests": 1,
+    "note": "Experimental thresholds frozen before prospective observations; sample initiators are not verified independent investors. Current provider market cap only; no historical mcap invented."
+  }
+}
