@@ -290233,140 +290233,13 @@
     "LTCUSDT": 1793280640497,
     "EVAAUSDT": 1793280640850
   },
-  "pending": [
-    {
-      "id": "c7836a3e62ab6852c61e2652",
-      "asset_id": "31a38c28f3f42fe90e42c175",
-      "symbol": "LTCUSDT",
-      "exchange": "MEXC",
-      "phase": "cancelled",
-      "observed_ms": 1793280640497,
-      "signal_ms": 1793280640497,
-      "price": 58.05,
-      "level": 58.18,
-      "invalid": 57.70998037969102,
-      "reason": "kırılan direnç üzerinde tutunamadı",
-      "derivatives": {
-        "ready": false,
-        "reasons": [
-          "oi_growth_insufficient"
-        ],
-        "profiles": {
-          "OKX": {
-            "status": "observed",
-            "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 54.46448210030757,
-            "long_pct": 45.53551789969243,
-            "provider_ms": 1793280300000,
-            "change_pp": -0.04988631163441681,
-            "previous_short_pct": 54.51436841194199,
-            "old_ms": 1793276700000,
-            "supports": false
-          },
-          "BINANCE": {
-            "status": "unknown",
-            "scope": "Binance: teminat bakiyesi en büyük %20 yatırımcı, pozisyon büyüklüğü oranı"
-          }
-        },
-        "negative_funding": false,
-        "score": 0,
-        "oi_change_pct": 0.06724260564492379,
-        "price_change_pct": 0.0,
-        "oi_old_ms": 1793276990000,
-        "oi_ms": 1793280628905,
-        "supporting_sources": [],
-        "opposing_sources": [],
-        "funding_8h_pct": 0.01,
-        "strict_short_confirmed": false,
-        "short_information": "observed_without_confirmation"
-      },
-      "context": {
-        "reasons": [],
-        "atr": 0.2720734985847403,
-        "relative1h_pp": 0.44596965899613705,
-        "rsi14": 58.333610606542564,
-        "sar_below": true,
-        "ema4h": 57.58568423866452,
-        "ema1h": 57.94300143421918,
-        "btc_long_blocked": true,
-        "btc_close_ms": 1793278800000
-      },
-      "trigger_kind": null,
-      "overhead_room_r": null,
-      "version": "coin-tarama-5-v2",
-      "target": null,
-      "entry_plan": null,
-      "source_close_ms": null,
-      "strict_short_confirmed": null
-    },
-    {
-      "id": "ff3129c9097af71c682d521b",
-      "asset_id": "4be7de34a24797bed4dccc04",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "phase": "cancelled",
-      "observed_ms": 1793280640850,
-      "signal_ms": 1793280640850,
-      "price": 1.21505,
-      "level": 1.2842,
-      "invalid": 1.2084244653010356,
-      "reason": "kapalı mum desteği kaybetti",
-      "derivatives": {
-        "ready": false,
-        "reasons": [
-          "oi_growth_insufficient",
-          "price_not_holding_or_extended"
-        ],
-        "profiles": {
-          "OKX": {
-            "status": "unsupported",
-            "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı"
-          },
-          "BINANCE": {
-            "status": "unknown",
-            "scope": "Binance: teminat bakiyesi en büyük %20 yatırımcı, pozisyon büyüklüğü oranı"
-          }
-        },
-        "negative_funding": false,
-        "score": 0,
-        "oi_change_pct": 0.6209138357707422,
-        "price_change_pct": -4.405685263199355,
-        "oi_old_ms": 1793276989938,
-        "oi_ms": 1793280628847,
-        "supporting_sources": [],
-        "opposing_sources": [],
-        "funding_8h_pct": 0.0334,
-        "strict_short_confirmed": false,
-        "short_information": "unknown"
-      },
-      "context": {
-        "reasons": [
-          "btc_relative_weak"
-        ],
-        "atr": 0.054798494612083005,
-        "relative1h_pp": -2.2756205668393537,
-        "rsi14": 48.852619197658555,
-        "sar_below": true,
-        "ema4h": 1.0390533434590215,
-        "ema1h": 1.2486878002065203,
-        "btc_long_blocked": true,
-        "btc_close_ms": 1793278800000
-      },
-      "trigger_kind": null,
-      "overhead_room_r": null,
-      "version": "coin-tarama-5-v2",
-      "target": null,
-      "entry_plan": null,
-      "source_close_ms": null,
-      "strict_short_confirmed": null
-    }
-  ],
+  "pending": [],
   "delivery": [],
   "measurements": {
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793280328431,
+      "observed_ms": 1793280647538,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -291801,7 +291674,9 @@
           "BICOUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793280647538,
+      "duration_ms": 35078
     }
   ],
   "review_candidates": {},
