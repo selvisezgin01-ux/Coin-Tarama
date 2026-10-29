@@ -739249,53 +739249,7 @@
     "OKX:PERP:SNXXUSDT": 1793307820447,
     "OKX:PERP:BTWUSDT": 1793308739504
   },
-  "pending": [
-    {
-      "id": "0820fc65d6600cf02f7131c9",
-      "asset_id": "d1a3e1a7ec43d0713b5703dc",
-      "key": "OKX:PERP:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793308739504,
-      "price": 1.5097,
-      "level": 1.5183,
-      "invalid": 1.4363281270735386,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.5183,
-        "base_invalid": 1.4363281270735386,
-        "atr": 0.040479152843075,
-        "rvol": 3.839863438528898,
-        "close_position": 0.6431181485992682,
-        "breakout": false,
-        "bar_close_ms": 1793306700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 3.608847497089629,
-        "score": 4.982981587128166
-      },
-      "context": {
-        "atr": 0.04347249590701546,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 8.20618750967551,
-        "btc_hour_pct": -2.494067341550388,
-        "trend4h_support": null,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793306700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -739436,6 +739390,13 @@
       "phase": "cancelled",
       "observed_ms": 1793307820447,
       "delivered_ms": 1793307826212
+    },
+    {
+      "id": "0820fc65d6600cf02f7131c9",
+      "asset_id": "d1a3e1a7ec43d0713b5703dc",
+      "phase": "cancelled",
+      "observed_ms": 1793308739504,
+      "delivered_ms": 1793308744853
     }
   ],
   "runs": [
