@@ -834447,53 +834447,7 @@
     "OKX:PERP:SNXXUSDT": 1793307820447,
     "OKX:PERP:BTWUSDT": 1793308739504
   },
-  "pending": [
-    {
-      "id": "ac4aed1f874fbcdf6d05106b",
-      "asset_id": "d98cdf117676b49563a4e964",
-      "key": "OKX:PERP:JP225USDT",
-      "symbol": "JP225USDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793310539741,
-      "price": 64388.0,
-      "level": 64817.0,
-      "invalid": 63948.37076542186,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 64817.0,
-        "base_invalid": 63948.37076542186,
-        "atr": 150.86156385429044,
-        "rvol": 7.694904743553968,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793310300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.333343717872836,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 150.86156385429044,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3718073847736045,
-        "btc_hour_pct": -2.494067341550388,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:JP225USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793310300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -834662,6 +834616,13 @@
       "phase": "radar",
       "observed_ms": 1793310236718,
       "delivered_ms": 1793310241410
+    },
+    {
+      "id": "ac4aed1f874fbcdf6d05106b",
+      "asset_id": "d98cdf117676b49563a4e964",
+      "phase": "radar",
+      "observed_ms": 1793310539741,
+      "delivered_ms": 1793310546816
     }
   ],
   "runs": [
@@ -836510,7 +836471,8 @@
         "outcomes": {},
         "source_close_ms": 1793310300000,
         "observation_lag_ms": 239741,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7075
       }
     },
     "errors": [],
