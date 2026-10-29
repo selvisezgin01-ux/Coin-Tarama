@@ -337888,7 +337888,7 @@
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793292657097,
+      "observed_ms": 1793292955245,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -341792,7 +341792,9 @@
           "CRVUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "LTCUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793292955245,
+      "duration_ms": 14180
     }
   ],
   "review_candidates": {},
