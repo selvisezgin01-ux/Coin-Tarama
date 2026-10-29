@@ -450206,53 +450206,7 @@
     "MEXC:SPOT:CENTUSDT": 1793304219808,
     "MEXC:PERP:POLYXUSDT": 1793304515642
   },
-  "pending": [
-    {
-      "id": "76e11ed19b398ae850f0e512",
-      "asset_id": "b9ff534a8240102db52bbdee",
-      "key": "MEXC:PERP:POLYXUSDT",
-      "symbol": "POLYXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793304515642,
-      "price": 0.033185,
-      "level": 0.03366,
-      "invalid": 0.033192593481990905,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03366,
-        "base_invalid": 0.033192593481990905,
-        "atr": 0.00018271012006063823,
-        "rvol": 8.48570752699743,
-        "close_position": 0.7222222222222522,
-        "breakout": false,
-        "bar_close_ms": 1793303100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7503001200480197,
-        "score": 7.2222222222222525
-      },
-      "context": {
-        "atr": 0.0001816833556394513,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.495751900385788,
-        "btc_hour_pct": -0.01756899542463275,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:POLYXUSDT"
-        },
-        "funding_raw_pct": -0.0112,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793303100000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -450309,6 +450263,13 @@
       "phase": "cancelled",
       "observed_ms": 1793304219808,
       "delivered_ms": 1793304226024
+    },
+    {
+      "id": "76e11ed19b398ae850f0e512",
+      "asset_id": "b9ff534a8240102db52bbdee",
+      "phase": "cancelled",
+      "observed_ms": 1793304515642,
+      "delivered_ms": 1793304521125
     }
   ],
   "runs": [
