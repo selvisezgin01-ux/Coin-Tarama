@@ -88222,146 +88222,30 @@
     }
   },
   "last_closed": {},
-  "pending": [
+  "pending": [],
+  "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
       "asset_id": "f29eb6759304ef7c3a2c4cff",
-      "key": "MEXC:PERP:DODOUSDT",
-      "symbol": "DODOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
       "phase": "radar",
       "observed_ms": 1793302119896,
-      "price": 0.025465,
-      "level": 0.02506,
-      "invalid": 0.024706214813489818,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02506,
-        "base_invalid": 0.024706214813489818,
-        "atr": 0.00015856791006787463,
-        "rvol": 9.65640530693804,
-        "close_position": 0.8837209302325547,
-        "breakout": true,
-        "bar_close_ms": 1793301300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0967741935483897,
-        "score": 7.883720930232554
-      },
-      "context": {
-        "atr": 0.00015856791006787463,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5250354962548331,
-        "btc_hour_pct": -0.041554432596491164,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:DODOUSDT"
-        },
-        "funding_raw_pct": 0.026600000000000002,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793301300000
+      "delivered_ms": 1793302123991
     },
     {
       "id": "543f7ef1e51eb52b1ca0916f",
       "asset_id": "5d223af3615d530d821434cb",
-      "key": "MEXC:PERP:AVNTUSDT",
-      "symbol": "AVNTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
       "phase": "radar",
       "observed_ms": 1793302119896,
-      "price": 0.10225000000000001,
-      "level": 0.102,
-      "invalid": 0.0997510480380629,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.102,
-        "base_invalid": 0.0997510480380629,
-        "atr": 0.0009930130795807613,
-        "rvol": 3.831743119406082,
-        "close_position": 0.7500000000000029,
-        "breakout": false,
-        "bar_close_ms": 1793301300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2970297029702973,
-        "score": 5.0817431194060845
-      },
-      "context": {
-        "atr": 0.0009930130795807613,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.24036158965415888,
-        "btc_hour_pct": -0.041554432596491164,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:AVNTUSDT"
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793301300000
+      "delivered_ms": 1793302123991
     },
     {
       "id": "a420763a7169059f08f13aa1",
       "asset_id": "b6d53251050c3df5699a39df",
-      "key": "MEXC:SPOT:CENTUSDT",
-      "symbol": "CENTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
       "phase": "radar",
       "observed_ms": 1793302118300,
-      "price": 0.0016625,
-      "level": 0.001612,
-      "invalid": 0.0015170814508285745,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001612,
-        "base_invalid": 0.0015170814508285745,
-        "atr": 4.6123661142836454e-05,
-        "rvol": 3.0397887425737142,
-        "close_position": 0.6363636363636379,
-        "breakout": true,
-        "bar_close_ms": 1793301300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.878552971576245,
-        "score": 4.676152378937353
-      },
-      "context": {
-        "atr": 4.6123661142836454e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.5470951113883995,
-        "btc_hour_pct": -0.031388305105695125,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CENTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793301300000
+      "delivered_ms": 1793302123991
     }
   ],
-  "delivery": [],
   "runs": [
     {
       "started_ms": 1793302106010,
@@ -88427,7 +88311,8 @@
         "outcomes": {},
         "source_close_ms": 1793301300000,
         "observation_lag_ms": 819896,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 4095
       },
       "AVNTUSDT:radar": {
         "symbol": "AVNTUSDT",
@@ -88446,7 +88331,8 @@
         "outcomes": {},
         "source_close_ms": 1793301300000,
         "observation_lag_ms": 819896,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 4095
       },
       "CENTUSDT:radar": {
         "symbol": "CENTUSDT",
@@ -88465,7 +88351,8 @@
         "outcomes": {},
         "source_close_ms": 1793301300000,
         "observation_lag_ms": 818300,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5691
       }
     },
     "errors": []
