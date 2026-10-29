@@ -939966,55 +939966,7 @@
     "OKX:PERP:JP225USDT": 1793312935303,
     "OKX:PERP:SKDDUSDT": 1793313239026
   },
-  "pending": [
-    {
-      "id": "55542c29e303434e4224ec4d",
-      "asset_id": "0f3d2ad063af1efb364e5688",
-      "key": "OKX:PERP:SKDDUSDT",
-      "symbol": "SKDDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793313239026,
-      "price": 8.504000000000001,
-      "level": 8.28,
-      "invalid": 7.732806693745958,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.28,
-        "base_invalid": 7.732806693745958,
-        "atr": 0.1346220416936148,
-        "rvol": 2.1388221552940907,
-        "close_position": 0.9449541284403649,
-        "breakout": false,
-        "bar_close_ms": 1793306700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 4.489951666242686,
-        "score": 3.583776283734456
-      },
-      "context": {
-        "atr": 0.14013475487967514,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.016221372863125,
-        "btc_hour_pct": 0.2461679017358609,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SKDDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793306700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -940218,6 +940170,13 @@
       "phase": "cancelled",
       "observed_ms": 1793312935303,
       "delivered_ms": 1793312945947
+    },
+    {
+      "id": "55542c29e303434e4224ec4d",
+      "asset_id": "0f3d2ad063af1efb364e5688",
+      "phase": "expired",
+      "observed_ms": 1793313239026,
+      "delivered_ms": 1793313245514
     }
   ],
   "runs": [
