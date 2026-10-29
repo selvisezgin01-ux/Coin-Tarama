@@ -792898,102 +792898,7 @@
     "OKX:PERP:SNXXUSDT": 1793307820447,
     "OKX:PERP:BTWUSDT": 1793308739504
   },
-  "pending": [
-    {
-      "id": "935718f8c1514a417b660ca1",
-      "asset_id": "c498e2fd73ab93ab8ed5b692",
-      "key": "MEXC:PERP:JSTUSDT",
-      "symbol": "JSTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793309641640,
-      "price": 0.14326499999999998,
-      "level": 0.14209,
-      "invalid": 0.14059039397616818,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.14209,
-        "base_invalid": 0.14059039397616818,
-        "atr": 0.0005307068255453066,
-        "rvol": 25.56438998159386,
-        "close_position": 0.7142857142857099,
-        "breakout": true,
-        "bar_close_ms": 1793309400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4850434905593568,
-        "score": 7.71428571428571
-      },
-      "context": {
-        "atr": 0.0005307068255453066,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.8810009864938757,
-        "btc_hour_pct": -2.463803984655366,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:JSTUSDT",
-          "change_pct": -0.9333934916248343,
-          "old_ms": 1793306005624,
-          "current_ms": 1793309637825,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0118,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793309400000
-    },
-    {
-      "id": "c1c46aa3f1e00ca3ef5c605e",
-      "asset_id": "2b470c717db2ff6c7924b950",
-      "key": "OKX:PERP:OLUSDT",
-      "symbol": "OLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793309640082,
-      "price": 0.0074535,
-      "level": 0.007439,
-      "invalid": 0.007102240813702561,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007439,
-        "base_invalid": 0.007102240813702561,
-        "atr": 0.00011172790864959423,
-        "rvol": 17.944882745200232,
-        "close_position": 0.9112149532710286,
-        "breakout": false,
-        "bar_close_ms": 1793309400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.25924409878566035,
-        "score": 7.4112149532710285
-      },
-      "context": {
-        "atr": 0.00011172790864959423,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.18693429154705843,
-        "btc_hour_pct": -2.494067341550388,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793309400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -793141,6 +793046,20 @@
       "phase": "cancelled",
       "observed_ms": 1793308739504,
       "delivered_ms": 1793308744853
+    },
+    {
+      "id": "935718f8c1514a417b660ca1",
+      "asset_id": "c498e2fd73ab93ab8ed5b692",
+      "phase": "radar",
+      "observed_ms": 1793309641640,
+      "delivered_ms": 1793309646358
+    },
+    {
+      "id": "c1c46aa3f1e00ca3ef5c605e",
+      "asset_id": "2b470c717db2ff6c7924b950",
+      "phase": "radar",
+      "observed_ms": 1793309640082,
+      "delivered_ms": 1793309646358
     }
   ],
   "runs": [
@@ -794720,7 +794639,8 @@
         "outcomes": {},
         "source_close_ms": 1793309400000,
         "observation_lag_ms": 241640,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 4718
       },
       "OLUSDT:radar": {
         "symbol": "OLUSDT",
@@ -794739,7 +794659,8 @@
         "outcomes": {},
         "source_close_ms": 1793309400000,
         "observation_lag_ms": 240082,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6276
       }
     },
     "errors": [],
