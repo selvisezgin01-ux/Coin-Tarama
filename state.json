@@ -810659,7 +810659,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793309945703,
+      "duration_ms": 18450
     }
   ],
   "measurements": {
@@ -811030,11 +811032,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793309618489,
+            "endpoint_ms": 1793309640000,
+            "endpoint_price": 8.864,
+            "return_pct": -9.84081777958602,
+            "btc_excess_pct_points": -9.015256387231897,
+            "mae_pct": -12.007323399277837,
+            "mfe_pct": 1.1239383613894205,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 21511,
+            "measured_ms": 1793309945151,
+            "cost_scenarios_pct": {
+              "0.2": -10.04081777958602,
+              "0.5": -10.34081777958602,
+              "1": -10.84081777958602
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793305800000,
         "observation_lag_ms": 218489,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 5588
+        "notification_lag_ms": 5588,
+        "last_measure_attempt_ms": 1793309945151
       },
       "BTWUSDT:radar": {
         "symbol": "BTWUSDT",
@@ -811139,18 +811165,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 3,
-      "attempted": 2,
-      "observed_ms": 1793309649644,
-      "unique_reads": 4
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793309945151,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
         "unique_symbol_labels": 14,
         "hours": {
           "1": {
-            "known": 8,
-            "median_pct": -4.544266587409557
+            "known": 9,
+            "median_pct": -4.9329974075291165
           },
           "4": {
             "known": 0,
