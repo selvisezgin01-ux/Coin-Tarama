@@ -338426,76 +338426,13 @@
     "PYTHUSDT": 1793292370734,
     "AEROUSDT": 1793292651846
   },
-  "pending": [
-    {
-      "id": "9f7b8e792e21246dcd6804f9",
-      "asset_id": "a075870c1e895b77cebf051f",
-      "symbol": "AEROUSDT",
-      "exchange": "MEXC",
-      "phase": "cancelled",
-      "observed_ms": 1793292651846,
-      "signal_ms": 1793292651846,
-      "price": 0.6967000000000001,
-      "level": 0.7097,
-      "invalid": 0.6970193519700308,
-      "reason": "korunması gereken destek kaybedildi",
-      "derivatives": {
-        "ready": false,
-        "reasons": [
-          "oi_growth_insufficient",
-          "price_not_holding_or_extended"
-        ],
-        "profiles": {
-          "OKX": {
-            "status": "baseline_warming",
-            "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 54.56304826561351,
-            "long_pct": 45.43695173438649,
-            "provider_ms": 1793292600000
-          },
-          "BINANCE": {
-            "status": "unknown",
-            "scope": "Binance: teminat bakiyesi en büyük %20 yatırımcı, pozisyon büyüklüğü oranı"
-          }
-        },
-        "negative_funding": false,
-        "score": 0,
-        "oi_change_pct": -1.9021562113217372,
-        "price_change_pct": -1.029098651525906,
-        "oi_old_ms": 1793289039256,
-        "oi_ms": 1793292641194,
-        "supporting_sources": [],
-        "opposing_sources": [],
-        "funding_8h_pct": 0.005,
-        "strict_short_confirmed": false,
-        "short_information": "unknown"
-      },
-      "context": {
-        "reasons": [],
-        "atr": 0.00515589395593958,
-        "relative1h_pp": 0.42054579791759306,
-        "rsi14": 60.36659728365027,
-        "sar_below": false,
-        "ema4h": 0.6947072768022227,
-        "ema1h": 0.6874553560476903,
-        "btc_long_blocked": false,
-        "btc_close_ms": 1793289600000
-      },
-      "trigger_kind": null,
-      "overhead_room_r": null,
-      "version": "coin-tarama-5-v2",
-      "target": null,
-      "entry_plan": null,
-      "source_close_ms": null,
-      "strict_short_confirmed": null
-    }
-  ],
+  "pending": [],
   "delivery": [],
   "measurements": {
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793292374860,
+      "observed_ms": 1793292657097,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -342339,7 +342276,9 @@
           "CRVUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "LTCUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793292657097,
+      "duration_ms": 16032
     }
   ],
   "review_candidates": {},
