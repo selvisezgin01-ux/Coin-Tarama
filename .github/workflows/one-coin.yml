@@ -1,0 +1,53 @@
+name: 1 coin
+
+on:
+  schedule:
+    - cron: '9 * * * *'
+  workflow_dispatch:
+    inputs:
+      session_minutes:
+        description: Bounded observation session (1-110 minutes)
+        type: string
+        default: '110'
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: one-coin-independent-state
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 125
+    env:
+      PYTHONUTF8: '1'
+      SCANNER_STATE_BRANCH: scanner-state-1-coin
+      ONE_COIN_SESSION_MINUTES: ${{ inputs.session_minutes || '110' }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install existing runtime dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate mint identity, transfers, cursor and notification isolation
+        run: python -m unittest test_one_coin -q
+      - name: Run independent five-minute 1 coin session
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
+        run: python -u one_coin_worker.py --minutes "$ONE_COIN_SESSION_MINUTES" --channel github_issue
+      - name: Preserve observation evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: one-coin-${{ github.run_id }}-${{ github.run_attempt }}
+          path: cloud_output_1_coin/
+          retention-days: 14
+          if-no-files-found: ignore

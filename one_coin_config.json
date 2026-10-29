@@ -1,0 +1,31 @@
+{
+  "version": "1-coin-v1",
+  "state_branch": "scanner-state-1-coin",
+  "interval_seconds": 300,
+  "tokens": [
+    {"mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk", "symbol": "1", "name": "1 coin can change your life"},
+    {"mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk", "symbol": "SPSC", "name": "Shit Piss Skin Can"}
+  ],
+  "watched_wallets": [
+    {"address": "2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB", "label": "WLFI - Treasury (Solscan etiketi)", "source": "https://solscan.io/account/2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB", "identity_verified": false},
+    {"address": "2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS", "label": "WLFI ile ilişkilendirilen adres (Lookonchain bildirimi; kesin kimlik doğrulanmadı)", "source": "https://www.binance.com/en/square/post/30239515666658", "identity_verified": false}
+  ],
+  "maximum_pools_per_token": 2,
+  "maximum_dynamic_wallets": 12,
+  "dynamic_wallets_per_cycle": 2,
+  "signature_pages_per_wallet": 2,
+  "signatures_per_page": 50,
+  "transaction_details_per_cycle": 12,
+  "large_trade_min_usd": 500,
+  "large_trade_liquidity_fraction": 0.005,
+  "price_alert_change_pct": 1,
+  "liquidity_alert_change_pct": 5,
+  "rugcheck_interval_seconds": 1800,
+  "holder_interval_seconds": 900,
+  "provider_backoff_seconds": 900,
+  "http_timeout_seconds": 18,
+  "wallet_rpc_url": "https://solana-rpc.publicnode.com",
+  "notify_each_new_trade": true,
+  "notify_each_new_watched_wallet_transaction": true,
+  "full_chain_coverage": false
+}
