@@ -65,6 +65,10 @@ GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç s
 
 
 
+
+
+
+
 <!-- meme-v6-pipeline -->
 
 ## V6 keşif, aşamalar ve gerçek zamanlama
@@ -81,7 +85,7 @@ Yeni havuz keşfi en çok2sayfa/ağ;15dk altı havuzlar uygun yaşa yaklaşırke
 
 Zamanlama: {"started_ms": 1793296346760, "finished_ms": 1793296534727, "duration_seconds": 187.967, "github_run_created_at": "2026-10-29T15:12:22Z", "worker_started_ms": "1793290045382", "github_job_started_at": "2026-10-29T16:07:09Z", "cadence": {"interval_count": 87, "p95_minutes": 5.626, "max_minutes": 5.83525, "meets_7m_target": true, "full_24h_observed": false}}
 
-İstek durumu: {"api.geckoterminal.com:ok": 16, "api.dexscreener.com:ok": 12}; sağlayıcı429bekleme bitişi: 1793221779011
+İstek durumu: {"api.geckoterminal.com:ok": 16, "api.dexscreener.com:ok": 18}; sağlayıcı429bekleme bitişi: 1793221779011
 
 GitHub worker oturumları sınırlıdır. Çalışan oturum içinde hedef5dk; oturum başlangıcı/yenilenmesi gecikebilir. Gerçek aralıklar yukarıda;24saat tamamlanmadan kesintisiz5dk doğrulandı denmez. EskiV5 paralel taranmaz, referansları previous_v5 içinde korunur.
 
