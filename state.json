@@ -290763,81 +290763,13 @@
     "LITUSDT": 1793300550808,
     "ASTERUSDT": 1793300866333
   },
-  "pending": [
-    {
-      "id": "c3814e95462ea9344e08d4c8",
-      "asset_id": "311272d270d58e8c0e0f078f",
-      "symbol": "ASTERUSDT",
-      "exchange": "MEXC",
-      "phase": "expired",
-      "observed_ms": 1793300866333,
-      "signal_ms": 1793300866333,
-      "price": 0.71055,
-      "level": 0.7054,
-      "invalid": 0.7023456898098095,
-      "reason": "izleme süresi doldu",
-      "derivatives": {
-        "ready": false,
-        "reasons": [
-          "oi_growth_insufficient"
-        ],
-        "profiles": {
-          "OKX": {
-            "status": "observed",
-            "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 50.37836930005993,
-            "long_pct": 49.62163069994007,
-            "provider_ms": 1793300700000,
-            "change_pp": 0.11074062750157765,
-            "previous_short_pct": 50.26762867255835,
-            "old_ms": 1793297100000,
-            "supports": false
-          },
-          "BINANCE": {
-            "status": "unknown",
-            "scope": "Binance: teminat bakiyesi en büyük %20 yatırımcı, pozisyon büyüklüğü oranı"
-          }
-        },
-        "negative_funding": false,
-        "score": 0,
-        "oi_change_pct": -1.429623274200531,
-        "price_change_pct": -0.3087935995508384,
-        "oi_old_ms": 1793297176982,
-        "oi_ms": 1793300860253,
-        "supporting_sources": [],
-        "opposing_sources": [],
-        "funding_8h_pct": 0.01,
-        "strict_short_confirmed": false,
-        "short_information": "observed_without_confirmation"
-      },
-      "context": {
-        "reasons": [
-          "btc_relative_weak"
-        ],
-        "atr": 0.0041075701077553034,
-        "relative1h_pp": -0.4582591487275356,
-        "rsi14": 47.57631345617178,
-        "sar_below": false,
-        "ema4h": 0.707822390052157,
-        "ema1h": 0.7082170871322993,
-        "btc_long_blocked": false,
-        "btc_close_ms": 1793300400000
-      },
-      "trigger_kind": null,
-      "overhead_room_r": null,
-      "version": "coin-tarama-5-v2",
-      "target": null,
-      "entry_plan": null,
-      "source_close_ms": null,
-      "strict_short_confirmed": null
-    }
-  ],
+  "pending": [],
   "delivery": [],
   "measurements": {
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793300554747,
+      "observed_ms": 1793300870929,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -296170,7 +296102,9 @@
           "ASTERUSDT BINANCE: BINANCE: public HTTP 451",
           "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793300870929,
+      "duration_ms": 61997
     }
   ],
   "review_candidates": {},
