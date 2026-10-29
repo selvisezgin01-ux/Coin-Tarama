@@ -2,37 +2,35 @@
 
 Kapalı 15dk: hazırlık → hacimli kırılım → düşük hacimli geri test → sonraki mumda güçlenme. Hazırlıklar sessiz izlenir; yalnız tetik ve daha önce bildirilmiş adayın iptal/süre olayı bildirilir. Emir gönderilmez.
 
-Son tamamlanmış tarama: 29.10.2026 16:35 TR.
+Son tamamlanmış tarama: 29.10.2026 16:40 TR.
 
 Her borsanın mevcut likit spot+perpetual evrenindeki en çok60 coin her döngüde incelenir; daha önceki 12li rotasyon kaldırıldı. Teknik adaylar borsa başına en çok12lik sessiz havuzda oran geçmişi biriktirir. Aktif tetik üst sınırı küresel5 farklı sembol.
 
-Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 24, "p95_minutes": 5.000016666666666, "longest_minutes": 5.3857, "over_10_minutes": 0}, "within_session": {"intervals": 23, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 1, "p95_minutes": 5.3857, "longest_minutes": 5.3857, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
+Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 25, "p95_minutes": 5.000016666666666, "longest_minutes": 5.3857, "over_10_minutes": 0}, "within_session": {"intervals": 24, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 1, "p95_minutes": 5.3857, "longest_minutes": 5.3857, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
 
 | Coin | Borsa | Aşama | Son spot | Direnç | Geçersizlik | Hedef | Son gözlem TR |
 |---|---|---|---:|---:|---:|---:|---|
-| TRXUSDT | MEXC | KIRILIM İZLEME | 0.33185 | 0.3317 | 0.33125498 | — | 29.10.2026 16:35 |
-| TIAUSDT | MEXC | KIRILIM İZLEME | 0.5388 | 0.5358 | 0.53115998 | — | 29.10.2026 16:35 |
-| ICPUSDT | MEXC | SESSİZ HAZIRLIK | 2.5775 | 2.587 | 2.5681082 | — | 29.10.2026 16:35 |
-| LINKUSDT | MEXC | SESSİZ HAZIRLIK | 11.6265 | 11.642 | 11.564362 | — | 29.10.2026 16:35 |
-| OKBUSDT | OKX | KIRILIM İZLEME | 112.16 | 111.33 | 110.75912 | — | 29.10.2026 16:35 |
-| SHIBUSDT | OKX | GERİ TEST | 4.9215e-06 | 4.906e-06 | 4.8751961e-06 | — | 29.10.2026 16:35 |
-| UNIUSDT | OKX | SESSİZ HAZIRLIK | 7.1645 | 7.246 | 7.1236494 | — | 29.10.2026 16:35 |
-| GRVTUSDT | OKX | SESSİZ HAZIRLIK | 0.224005 | 0.22422 | 0.22283735 | — | 29.10.2026 16:35 |
-| PEPEUSDT | OKX | SESSİZ HAZIRLIK | 4.8743e-06 | 4.95e-06 | 4.8540819e-06 | — | 29.10.2026 16:35 |
-| FILUSDT | OKX | SESSİZ HAZIRLIK | 0.90765 | 0.908 | 0.90151372 | — | 29.10.2026 16:35 |
-| ZECUSDT | OKX | KIRILIM İZLEME | 1273.735 | 1275.93 | 1259.8603 | — | 29.10.2026 16:35 |
-| XLMUSDT | OKX | KIRILIM İZLEME | 0.17094 | 0.17038 | 0.1694285 | — | 29.10.2026 16:35 |
-| ASTERUSDT | MEXC | KIRILIM İZLEME | 0.70935 | 0.7054 | 0.70234569 | — | 29.10.2026 16:35 |
-| AAVEUSDT | OKX | SESSİZ HAZIRLIK | 132.415 | 133.79 | 132.35272 | — | 29.10.2026 16:35 |
-| XMRUSDT | MEXC | SESSİZ HAZIRLIK | 599.835 | 601.93 | 598.03114 | — | 29.10.2026 16:35 |
-| GRAMUSDT | OKX | SESSİZ HAZIRLIK | 1.2175 | 1.221 | 1.2143999 | — | 29.10.2026 16:35 |
-| BICOUSDT | OKX | SESSİZ HAZIRLIK | 0.016435 | 0.01663 | 0.016323866 | — | 29.10.2026 16:35 |
-| ETHFIUSDT | MEXC | SESSİZ HAZIRLIK | 0.66235 | 0.6691 | 0.65740908 | — | 29.10.2026 16:35 |
-| PENDLEUSDT | MEXC | SESSİZ HAZIRLIK | 1.9265 | 1.947 | 1.9202411 | — | 29.10.2026 16:35 |
+| TRXUSDT | MEXC | KIRILIM İZLEME | 0.33175 | 0.3317 | 0.33125498 | — | 29.10.2026 16:40 |
+| TIAUSDT | MEXC | KIRILIM İZLEME | 0.53955 | 0.5358 | 0.53115998 | — | 29.10.2026 16:40 |
+| ICPUSDT | MEXC | SESSİZ HAZIRLIK | 2.5805 | 2.587 | 2.5681082 | — | 29.10.2026 16:40 |
+| LINKUSDT | MEXC | SESSİZ HAZIRLIK | 11.587 | 11.642 | 11.564362 | — | 29.10.2026 16:40 |
+| OKBUSDT | OKX | KIRILIM İZLEME | 112.16 | 111.33 | 110.75912 | — | 29.10.2026 16:40 |
+| SHIBUSDT | OKX | GERİ TEST | 4.92e-06 | 4.906e-06 | 4.8751961e-06 | — | 29.10.2026 16:40 |
+| UNIUSDT | OKX | SESSİZ HAZIRLIK | 7.1585 | 7.246 | 7.1236494 | — | 29.10.2026 16:40 |
+| GRVTUSDT | OKX | SESSİZ HAZIRLIK | 0.223775 | 0.22422 | 0.22283735 | — | 29.10.2026 16:40 |
+| FILUSDT | OKX | SESSİZ HAZIRLIK | 0.9091 | 0.908 | 0.90151372 | — | 29.10.2026 16:40 |
+| ZECUSDT | OKX | KIRILIM İZLEME | 1272.035 | 1275.93 | 1259.8603 | — | 29.10.2026 16:40 |
+| XLMUSDT | OKX | KIRILIM İZLEME | 0.170825 | 0.17038 | 0.1694285 | — | 29.10.2026 16:40 |
+| ASTERUSDT | MEXC | KIRILIM İZLEME | 0.70865 | 0.7054 | 0.70234569 | — | 29.10.2026 16:40 |
+| XMRUSDT | MEXC | SESSİZ HAZIRLIK | 598.295 | 601.93 | 598.03114 | — | 29.10.2026 16:40 |
+| GRAMUSDT | OKX | SESSİZ HAZIRLIK | 1.2175 | 1.221 | 1.2143999 | — | 29.10.2026 16:40 |
+| BICOUSDT | OKX | SESSİZ HAZIRLIK | 0.01639 | 0.01663 | 0.016323866 | — | 29.10.2026 16:40 |
+| ETHFIUSDT | MEXC | SESSİZ HAZIRLIK | 0.66405 | 0.6691 | 0.65740908 | — | 29.10.2026 16:40 |
+| PENDLEUSDT | MEXC | SESSİZ HAZIRLIK | 1.9275 | 1.947 | 1.9202411 | — | 29.10.2026 16:40 |
 
 ## Eleme ve veri kapsamı
 
-{"observed_ms": 1793280924849, "new_preparations": [], "reasons": {"oi_growth_insufficient": 21, "spot_futures_basis": 1, "price_not_holding_or_extended": 1, "btc_relative_weak": 22, "price_preparation_not_ready": 109, "1h_structure_weak": 31, "4h_structure_weak": 16, "stale_quotes_excluded": 0}, "evaluated": 120, "candidate_quotes": 21, "errors": {"MEXC": ["TRXUSDT BINANCE: BINANCE: public HTTP 451", "TIAUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ICPUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LINKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ASTERUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "XMRUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ETHFIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BULLAUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "OKX": ["OKBUSDT BINANCE: BINANCE: public HTTP 451", "SHIBUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "UNIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "GRVTUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PEPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "FILUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ZECUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "XLMUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "AAVEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "GRAMUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BICOUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
+{"observed_ms": 1793281225159, "new_preparations": [], "reasons": {"oi_growth_insufficient": 21, "price_not_holding_or_extended": 7, "spot_spread": 1, "spot_futures_basis": 1, "btc_relative_weak": 22, "price_preparation_not_ready": 109, "1h_structure_weak": 31, "4h_structure_weak": 16, "stale_quotes_excluded": 0}, "evaluated": 120, "candidate_quotes": 21, "errors": {"MEXC": ["TRXUSDT BINANCE: BINANCE: public HTTP 451", "TIAUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ICPUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LINKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ASTERUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "XMRUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ETHFIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BULLAUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "OKX": ["OKBUSDT BINANCE: BINANCE: public HTTP 451", "SHIBUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "UNIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "GRVTUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PEPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "FILUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ZECUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "XLMUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "AAVEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "GRAMUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BICOUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
 
 {"OKX": {"coverage": {"active_spot": 372, "liquid_spot_perpetual": 123, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 12, "candidate_quotes": 12, "active": 11, "chart_budget_seconds": 150}, "errors": ["OKBUSDT BINANCE: BINANCE: public HTTP 451", "SHIBUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "UNIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "GRVTUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PEPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "FILUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ZECUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "XLMUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "AAVEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "GRAMUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BICOUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 15, "futures": 18, "ratios": {"OKX": 13, "BINANCE": 1}}, "cursor": 0}, "MEXC": {"coverage": {"active_spot": 1247, "liquid_spot_perpetual": 111, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 9, "candidate_quotes": 9, "active": 8, "chart_budget_seconds": 150}, "errors": ["TRXUSDT BINANCE: BINANCE: public HTTP 451", "TIAUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ICPUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "LINKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ASTERUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "XMRUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "ETHFIUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "BULLAUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 12, "futures": 13, "ratios": {"OKX": 8, "BINANCE": 1}}, "cursor": 0}}
 
