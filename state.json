@@ -338032,7 +338032,7 @@
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793294493282,
+      "observed_ms": 1793294794681,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -342309,7 +342309,9 @@
           "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "INJUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793294794681,
+      "duration_ms": 19326
     }
   ],
   "review_candidates": {},
