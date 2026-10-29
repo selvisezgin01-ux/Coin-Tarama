@@ -958888,7 +958888,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793313843033,
+      "duration_ms": 15779
     }
   ],
   "measurements": {
@@ -959523,11 +959525,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793313836718,
+            "endpoint_ms": 1793313840000,
+            "endpoint_price": 0.016913,
+            "return_pct": 2.5434261981992945,
+            "btc_excess_pct_points": 2.891079710471256,
+            "mae_pct": -0.25767726680208103,
+            "mfe_pct": 2.9617728195955983,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 3282,
+            "measured_ms": 1793313842469,
+            "cost_scenarios_pct": {
+              "0.2": 2.3434261981992943,
+              "0.5": 2.0434261981992945,
+              "1": 1.5434261981992945
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793309400000,
         "observation_lag_ms": 836718,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 4692
+        "notification_lag_ms": 4692,
+        "last_measure_attempt_ms": 1793313842469
       },
       "JP225USDT:radar": {
         "symbol": "JP225USDT",
@@ -959592,18 +959618,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
-      "attempted": 2,
-      "observed_ms": 1793313545299,
-      "unique_reads": 4
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793313842469,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
         "unique_symbol_labels": 18,
         "hours": {
           "1": {
-            "known": 14,
-            "median_pct": -3.055698725364675
+            "known": 15,
+            "median_pct": -2.200488997555017
           },
           "4": {
             "known": 0,
