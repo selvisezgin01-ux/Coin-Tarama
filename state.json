@@ -603531,149 +603531,7 @@
     "MEXC:PERP:AVNTUSDT": 1793305119015,
     "MEXC:SPOT:DYDXUSDT": 1793305117545
   },
-  "pending": [
-    {
-      "id": "22515e546937231f036e69d7",
-      "asset_id": "4f2dfdb194f99b5063239716",
-      "key": "OKX:SPOT:XSNXXUSDT",
-      "symbol": "XSNXXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793306017807,
-      "price": 9.8315,
-      "level": 9.414,
-      "invalid": 8.434511472828934,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 9.414,
-        "base_invalid": 8.434511472828934,
-        "atr": 0.20992351447377428,
-        "rvol": 50.60795370392922,
-        "close_position": 0.9705882352941183,
-        "breakout": true,
-        "bar_close_ms": 1793305800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.16743340109127,
-        "score": 7.970588235294119
-      },
-      "context": {
-        "atr": 0.20992351447377428,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8627062193370616,
-        "btc_hour_pct": -0.030543677458760854,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XSNXXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793305800000
-    },
-    {
-      "id": "ad0ff9e13912368a4823ad89",
-      "asset_id": "c70f756d7ed79c572bb22adf",
-      "key": "OKX:PERP:SNDKUSDT",
-      "symbol": "SNDKUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793306018489,
-      "price": 1369.35,
-      "level": 1341.2,
-      "invalid": 1267.9833377313596,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1341.2,
-        "base_invalid": 1267.9833377313596,
-        "atr": 16.11108179093724,
-        "rvol": 16.60760310663094,
-        "close_position": 0.9473684210526306,
-        "breakout": true,
-        "bar_close_ms": 1793305800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.546244289672739,
-        "score": 7.947368421052631
-      },
-      "context": {
-        "atr": 16.11108179093724,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4336265424588315,
-        "btc_hour_pct": -0.011876278864908496,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SNDKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793305800000
-    },
-    {
-      "id": "df1d8ab4914242ec6ca80f8f",
-      "asset_id": "6eb2f0b1a80154db088165fd",
-      "key": "OKX:PERP:SNXXUSDT",
-      "symbol": "SNXXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793306018489,
-      "price": 9.8315,
-      "level": 9.431,
-      "invalid": 8.41870785966102,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 9.431,
-        "base_invalid": 8.41870785966102,
-        "atr": 0.22861426892653686,
-        "rvol": 16.566418959751015,
-        "close_position": 0.935028248587569,
-        "breakout": true,
-        "bar_close_ms": 1793305800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.994118276120196,
-        "score": 7.935028248587569
-      },
-      "context": {
-        "atr": 0.22861426892653686,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9862185977996263,
-        "btc_hour_pct": -0.011876278864908496,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SNXXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793305800000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -603751,6 +603609,27 @@
       "phase": "cancelled",
       "observed_ms": 1793305117545,
       "delivered_ms": 1793305123431
+    },
+    {
+      "id": "22515e546937231f036e69d7",
+      "asset_id": "4f2dfdb194f99b5063239716",
+      "phase": "radar",
+      "observed_ms": 1793306017807,
+      "delivered_ms": 1793306024077
+    },
+    {
+      "id": "ad0ff9e13912368a4823ad89",
+      "asset_id": "c70f756d7ed79c572bb22adf",
+      "phase": "radar",
+      "observed_ms": 1793306018489,
+      "delivered_ms": 1793306024077
+    },
+    {
+      "id": "df1d8ab4914242ec6ca80f8f",
+      "asset_id": "6eb2f0b1a80154db088165fd",
+      "phase": "radar",
+      "observed_ms": 1793306018489,
+      "delivered_ms": 1793306024077
     }
   ],
   "runs": [
@@ -604520,7 +604399,8 @@
         "outcomes": {},
         "source_close_ms": 1793305800000,
         "observation_lag_ms": 217807,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6270
       },
       "SNDKUSDT:radar": {
         "symbol": "SNDKUSDT",
@@ -604539,7 +604419,8 @@
         "outcomes": {},
         "source_close_ms": 1793305800000,
         "observation_lag_ms": 218489,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5588
       },
       "SNXXUSDT:radar": {
         "symbol": "SNXXUSDT",
@@ -604558,7 +604439,8 @@
         "outcomes": {},
         "source_close_ms": 1793305800000,
         "observation_lag_ms": 218489,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5588
       }
     },
     "errors": [],
