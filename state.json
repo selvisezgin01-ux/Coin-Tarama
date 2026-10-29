@@ -88289,7 +88289,9 @@
           "selected_for_candles": 30,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793302125732,
+      "duration_ms": 19722
     }
   ],
   "measurements": {
@@ -88355,7 +88357,57 @@
         "notification_lag_ms": 5691
       }
     },
-    "errors": []
+    "errors": [],
+    "queue": {
+      "due": 0,
+      "attempted": 0,
+      "observed_ms": 1793302125731,
+      "unique_reads": 0
+    },
+    "summary": {
+      "radar": {
+        "unique_symbol_labels": 3,
+        "hours": {
+          "1": {
+            "known": 0,
+            "median_pct": null
+          },
+          "4": {
+            "known": 0,
+            "median_pct": null
+          },
+          "12": {
+            "known": 0,
+            "median_pct": null
+          },
+          "24": {
+            "known": 0,
+            "median_pct": null
+          }
+        }
+      },
+      "triggered": {
+        "unique_symbol_labels": 0,
+        "hours": {
+          "1": {
+            "known": 0,
+            "median_pct": null
+          },
+          "4": {
+            "known": 0,
+            "median_pct": null
+          },
+          "12": {
+            "known": 0,
+            "median_pct": null
+          },
+          "24": {
+            "known": 0,
+            "median_pct": null
+          }
+        }
+      }
+    }
   },
   "archive": {
     "source_branch": "scanner-state-coin-tarama-5-v2",
