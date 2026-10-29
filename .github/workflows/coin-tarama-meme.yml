@@ -45,10 +45,6 @@ jobs:
         run: python -m unittest test_meme_v5 -q
       - name: Validate first base, buy pressure, cap and V5 archive preservation
         run: python -m unittest test_meme_v6 -q
-      - name: Validate first base, buy pressure, cap and V5 archive preservation
-        run: python -m unittest test_meme_v6 -q
-      - name: Validate first base, buy pressure, cap and V5 archive preservation
-        run: python -m unittest test_meme_v6 -q
       - name: Run bounded five-minute observation session
         env:
           GH_TOKEN: ${{ github.token }}
