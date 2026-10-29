@@ -698185,149 +698185,7 @@
     "OKX:PERP:SNDKUSDT": 1793307820447,
     "OKX:PERP:SNXXUSDT": 1793307820447
   },
-  "pending": [
-    {
-      "id": "6d25051fe54e607e1cdabf14",
-      "asset_id": "4f2dfdb194f99b5063239716",
-      "key": "OKX:SPOT:XSNXXUSDT",
-      "symbol": "XSNXXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793307819519,
-      "price": 8.9565,
-      "level": 9.414,
-      "invalid": 8.434511472828934,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 9.414,
-        "base_invalid": 8.434511472828934,
-        "atr": 0.20992351447377428,
-        "rvol": 50.60795370392922,
-        "close_position": 0.9705882352941183,
-        "breakout": true,
-        "bar_close_ms": 1793305800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.16743340109127,
-        "score": 7.970588235294119
-      },
-      "context": {
-        "atr": 0.2551653753822817,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.0996202596255111,
-        "btc_hour_pct": -2.4480753459478977,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XSNXXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793305800000
-    },
-    {
-      "id": "189176e758f0a9f560cef312",
-      "asset_id": "c70f756d7ed79c572bb22adf",
-      "key": "OKX:PERP:SNDKUSDT",
-      "symbol": "SNDKUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793307820447,
-      "price": 1307.95,
-      "level": 1341.2,
-      "invalid": 1267.9833377313596,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1341.2,
-        "base_invalid": 1267.9833377313596,
-        "atr": 16.11108179093724,
-        "rvol": 16.60760310663094,
-        "close_position": 0.9473684210526306,
-        "breakout": true,
-        "bar_close_ms": 1793305800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.546244289672739,
-        "score": 7.947368421052631
-      },
-      "context": {
-        "atr": 19.590989950281887,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6191610868631181,
-        "btc_hour_pct": -2.494067341550388,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SNDKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793305800000
-    },
-    {
-      "id": "cf4662b6436c758d90aa2184",
-      "asset_id": "6eb2f0b1a80154db088165fd",
-      "key": "OKX:PERP:SNXXUSDT",
-      "symbol": "SNXXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793307820447,
-      "price": 8.9575,
-      "level": 9.431,
-      "invalid": 8.41870785966102,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 9.431,
-        "base_invalid": 8.41870785966102,
-        "atr": 0.22861426892653686,
-        "rvol": 16.566418959751015,
-        "close_position": 0.935028248587569,
-        "breakout": true,
-        "bar_close_ms": 1793305800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.994118276120196,
-        "score": 7.935028248587569
-      },
-      "context": {
-        "atr": 0.2753874643097684,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.2263143460233161,
-        "btc_hour_pct": -2.494067341550388,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SNXXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793305800000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -698447,6 +698305,27 @@
       "phase": "radar",
       "observed_ms": 1793307515795,
       "delivered_ms": 1793307521500
+    },
+    {
+      "id": "6d25051fe54e607e1cdabf14",
+      "asset_id": "4f2dfdb194f99b5063239716",
+      "phase": "cancelled",
+      "observed_ms": 1793307819519,
+      "delivered_ms": 1793307826212
+    },
+    {
+      "id": "189176e758f0a9f560cef312",
+      "asset_id": "c70f756d7ed79c572bb22adf",
+      "phase": "cancelled",
+      "observed_ms": 1793307820447,
+      "delivered_ms": 1793307826212
+    },
+    {
+      "id": "cf4662b6436c758d90aa2184",
+      "asset_id": "6eb2f0b1a80154db088165fd",
+      "phase": "cancelled",
+      "observed_ms": 1793307820447,
+      "delivered_ms": 1793307826212
     }
   ],
   "runs": [
