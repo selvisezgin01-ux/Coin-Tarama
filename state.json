@@ -127758,9 +127758,31 @@
               "1.0": -1.713634168589361
             },
             "measured_ms": 1793206590854
+          },
+          "24": {
+            "target_ms": 1793235309721,
+            "endpoint_ms": 1793235360000,
+            "endpoint_delay_ms": 50279,
+            "endpoint_price": 0.94,
+            "return_pct": 0.8746042818050137,
+            "btc_excess_pct_points": 0.4008476985061016,
+            "control_excess_pct_points": 0.42835681730195585,
+            "mae_pct": -1.5614100981917622,
+            "mfe_pct": 3.342812684444918,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793148960000,
+            "ignored_entry_fragment_ms": 50279,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": 0.6746042818050138,
+              "0.5": 0.3746042818050137,
+              "1.0": -0.1253957181949863
+            },
+            "measured_ms": 1793278559541
           }
         },
-        "last_measure_attempt_ms": 1793206590854
+        "last_measure_attempt_ms": 1793278559541
       },
       "NIGHTUSDT": {
         "symbol": "NIGHTUSDT",
@@ -127856,9 +127878,31 @@
               "1.0": -5.284283806980715
             },
             "measured_ms": 1793206590854
+          },
+          "24": {
+            "target_ms": 1793235309292,
+            "endpoint_ms": 1793235360000,
+            "endpoint_delay_ms": 50708,
+            "endpoint_price": 0.040436,
+            "return_pct": -3.595269883654384,
+            "btc_excess_pct_points": -4.063307735449218,
+            "control_excess_pct_points": -5.818823076736656,
+            "mae_pct": -5.197406065229815,
+            "mfe_pct": 1.8953843219530864,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793148960000,
+            "ignored_entry_fragment_ms": 50708,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -3.795269883654384,
+              "0.5": -4.0952698836543835,
+              "1.0": -4.5952698836543835
+            },
+            "measured_ms": 1793278559541
           }
         },
-        "last_measure_attempt_ms": 1793206590854
+        "last_measure_attempt_ms": 1793278559541
       },
       "BCHUSDT": {
         "symbol": "BCHUSDT",
@@ -128226,9 +128270,53 @@
               "1.0": -0.9398677089597065
             },
             "measured_ms": 1793192173513
+          },
+          "12": {
+            "target_ms": 1793206122640,
+            "endpoint_ms": 1793206140000,
+            "endpoint_delay_ms": 17360,
+            "endpoint_price": 0.8845,
+            "return_pct": -3.296342863390367,
+            "btc_excess_pct_points": -2.641728800455312,
+            "control_excess_pct_points": -0.9433190521941914,
+            "mae_pct": -4.006997212048324,
+            "mfe_pct": 0.5630569070136149,
+            "path_complete": true,
+            "minute_bars": 720,
+            "range_start_ms": 1793162940000,
+            "ignored_entry_fragment_ms": 17360,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -3.496342863390367,
+              "0.5": -3.796342863390367,
+              "1.0": -4.296342863390366
+            },
+            "measured_ms": 1793278559541
+          },
+          "24": {
+            "target_ms": 1793249322640,
+            "endpoint_ms": 1793249340000,
+            "endpoint_delay_ms": 17360,
+            "endpoint_price": 0.8779,
+            "return_pct": -4.017930355873823,
+            "btc_excess_pct_points": -2.9989352498903004,
+            "control_excess_pct_points": -1.7226665045459004,
+            "mae_pct": -5.0784453069480096,
+            "mfe_pct": 2.170229049363148,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793162940000,
+            "ignored_entry_fragment_ms": 17360,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -4.217930355873823,
+              "0.5": -4.517930355873823,
+              "1.0": -5.017930355873823
+            },
+            "measured_ms": 1793278559541
           }
         },
-        "last_measure_attempt_ms": 1793192173513
+        "last_measure_attempt_ms": 1793278559541
       },
       "ZECUSDT": {
         "symbol": "ZECUSDT",
@@ -128324,9 +128412,31 @@
               "1.0": -4.999302755631007
             },
             "measured_ms": 1793206590854
+          },
+          "24": {
+            "target_ms": 1793249322640,
+            "endpoint_ms": 1793249340000,
+            "endpoint_delay_ms": 17360,
+            "endpoint_price": 1247.05,
+            "return_pct": -5.489283657198296,
+            "btc_excess_pct_points": -4.470288551214773,
+            "control_excess_pct_points": -3.653118549231771,
+            "mae_pct": -6.711734925879886,
+            "mfe_pct": 0.5782581016763988,
+            "path_complete": true,
+            "minute_bars": 1440,
+            "range_start_ms": 1793162940000,
+            "ignored_entry_fragment_ms": 17360,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -5.689283657198296,
+              "0.5": -5.989283657198296,
+              "1.0": -6.489283657198296
+            },
+            "measured_ms": 1793278559541
           }
         },
-        "last_measure_attempt_ms": 1793206590854
+        "last_measure_attempt_ms": 1793278559541
       },
       "ZAMAUSDT": {
         "symbol": "ZAMAUSDT",
@@ -129413,26 +129523,80 @@
           }
         },
         "last_measure_attempt_ms": 1793264360373
+      },
+      "PIUSDT": {
+        "symbol": "PIUSDT",
+        "exchange": "MEXC",
+        "contract": "PI_USDT",
+        "observed_ms": 1793278559379,
+        "entry_price": 0.078735,
+        "btc_entry_price": 80010.795,
+        "controls": [
+          {
+            "symbol": "GBCKUSDT",
+            "entry_price": 0.004798500000000001
+          },
+          {
+            "symbol": "OKBUSDT",
+            "entry_price": 111.5715
+          },
+          {
+            "symbol": "BZRUSDT",
+            "entry_price": 67.3215
+          }
+        ],
+        "arms": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false
+        },
+        "factor_metrics": {
+          "oi_contracts": 70331694.0,
+          "oi_notional": 5537565.92709,
+          "oi_notional_kind": "estimated_USDT_at_current_mid",
+          "contract": "PI_USDT",
+          "futures_observed_ms": 1793278552133,
+          "futures_mid": 0.078735,
+          "futures_spread_pct": 0.03810249571347209,
+          "basis_pct": 0.031742001015744314,
+          "funding_rate": 5e-05,
+          "funding_hours": 4.0,
+          "funding_scaled_8h": 0.0001,
+          "funding_observed_ms": 1793278553776,
+          "oi_change_pct": 5.007373929015535,
+          "futures_price_change_pct": 2.8476258898830764,
+          "elapsed_hours": 3.9446680555555558,
+          "baseline_ms": 1793264351328
+        },
+        "cohort_index": 22,
+        "split": "first25",
+        "feature_cutoff_ms": 1793275200000,
+        "source_lag_minutes": 55.98965,
+        "entry_spread_pct": 0.03810249571347209,
+        "outcomes": {}
       }
     },
     "errors": [],
     "registration": {
-      "observed_ms": 1793264360373,
-      "added": [],
+      "observed_ms": 1793278559541,
+      "added": [
+        "PIUSDT"
+      ],
       "skipped": {},
       "quote_errors": {}
     },
     "measurement": {
-      "observed_ms": 1793264360373,
-      "pending": 21,
+      "observed_ms": 1793278559541,
+      "pending": 17,
       "attempted": 4,
       "unique_reads": 23
     },
-    "updated_ms": 1793264360373,
+    "updated_ms": 1793278559541,
     "summaries": {
       "6": {
         "A": {
-          "cases": 21,
+          "cases": 22,
           "measured": 21,
           "median_return_pct": -0.7016057505195739,
           "median_btc_excess_pct_points": -1.0632699143020452,
@@ -129464,7 +129628,7 @@
           "enough_for_initial_review": false
         },
         "C": {
-          "cases": 1,
+          "cases": 2,
           "measured": 1,
           "median_return_pct": -4.932209600586301,
           "median_btc_excess_pct_points": -3.536787761920434,
@@ -129498,14 +129662,14 @@
       },
       "12": {
         "A": {
-          "cases": 21,
-          "measured": 7,
-          "median_return_pct": -3.3524614919963835,
-          "median_btc_excess_pct_points": -2.2399073502456956,
-          "median_controls_excess_pct_points": -1.2374902694736734,
-          "control_comparisons": 7,
-          "median_mae_pct": -3.4397127420383256,
-          "median_mfe_pct": 1.3095464034921234,
+          "cases": 22,
+          "measured": 8,
+          "median_return_pct": -3.324402177693375,
+          "median_btc_excess_pct_points": -2.4408180753505038,
+          "median_controls_excess_pct_points": -1.0904046608339324,
+          "control_comparisons": 8,
+          "median_mae_pct": -3.723354977043325,
+          "median_mfe_pct": 1.1444077311426049,
           "positive_after_cost_fraction": {
             "0.2": 0.0,
             "0.5": 0.0,
@@ -129530,7 +129694,7 @@
           "enough_for_initial_review": false
         },
         "C": {
-          "cases": 1,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -129564,18 +129728,18 @@
       },
       "24": {
         "A": {
-          "cases": 21,
-          "measured": 0,
-          "median_return_pct": null,
-          "median_btc_excess_pct_points": null,
-          "median_controls_excess_pct_points": null,
-          "control_comparisons": 0,
-          "median_mae_pct": null,
-          "median_mfe_pct": null,
+          "cases": 22,
+          "measured": 4,
+          "median_return_pct": -3.806600119764103,
+          "median_btc_excess_pct_points": -3.531121492669759,
+          "median_controls_excess_pct_points": -2.6878925268888354,
+          "control_comparisons": 4,
+          "median_mae_pct": -5.137925686088913,
+          "median_mfe_pct": 2.0328066856581173,
           "positive_after_cost_fraction": {
-            "0.2": null,
-            "0.5": null,
-            "1.0": null
+            "0.2": 0.25,
+            "0.5": 0.25,
+            "1.0": 0.0
           },
           "enough_for_initial_review": false
         },
@@ -129596,7 +129760,7 @@
           "enough_for_initial_review": false
         },
         "C": {
-          "cases": 1,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -129630,7 +129794,7 @@
       },
       "48": {
         "A": {
-          "cases": 21,
+          "cases": 22,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -129662,7 +129826,7 @@
           "enough_for_initial_review": false
         },
         "C": {
-          "cases": 1,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
@@ -129698,14 +129862,14 @@
     "split_summaries": {
       "first25": {
         "A": {
-          "cases": 21,
-          "measured": 7,
-          "median_return_pct": -3.3524614919963835,
-          "median_btc_excess_pct_points": -2.2399073502456956,
-          "median_controls_excess_pct_points": -1.2374902694736734,
-          "control_comparisons": 7,
-          "median_mae_pct": -3.4397127420383256,
-          "median_mfe_pct": 1.3095464034921234,
+          "cases": 22,
+          "measured": 8,
+          "median_return_pct": -3.324402177693375,
+          "median_btc_excess_pct_points": -2.4408180753505038,
+          "median_controls_excess_pct_points": -1.0904046608339324,
+          "control_comparisons": 8,
+          "median_mae_pct": -3.723354977043325,
+          "median_mfe_pct": 1.1444077311426049,
           "positive_after_cost_fraction": {
             "0.2": 0.0,
             "0.5": 0.0,
@@ -129730,7 +129894,7 @@
           "enough_for_initial_review": false
         },
         "C": {
-          "cases": 1,
+          "cases": 2,
           "measured": 0,
           "median_return_pct": null,
           "median_btc_excess_pct_points": null,
