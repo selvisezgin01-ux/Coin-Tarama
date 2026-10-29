@@ -1,6 +1,6 @@
 # Shortçu Kıstır — dinamik pozisyon oranı takibi
 
-Son kontrol: 29.10.2026 07:53 TR.
+Son kontrol: 29.10.2026 08:28 TR.
 
 **Yalnız gerçekten bildirilmiş Shortçu Kıstır adayları. Yeni aday seçimi veya alım/satım sinyali değildir.**
 
