@@ -2985,56 +2985,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "f476c43eb33bb2d6db77398173b6",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793307272694,
-      "text": "SATIŞ: $1.27 · işlem başlatıcı `GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq`",
-      "details": {
-        "tx": "y33tb6f8Mkxdv6Fcp7K6mSw4mNppjbxT5K11MhqK9ZTE6nmTmZESaSgybFmq6UoKFSmWaS9EZE1ZN4GVTnoeRQh",
-        "wallet": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq",
-        "side": "sell",
-        "usd": 1.2733563208108052,
-        "block_ms": 1793306857000,
-        "provider_row_id": "solana_463020988_y33tb6f8Mkxdv6Fcp7K6mSw4mNppjbxT5K11MhqK9ZTE6nmTmZESaSgybFmq6UoKFSmWaS9EZE1ZN4GVTnoeRQh_216_1793306985",
-        "first_buyer_seen_by_this_watch": false
-      }
-    },
-    {
-      "id": "16a8ff8e77de05ce635b7f34523f",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793307272694,
-      "text": "SATIŞ: $15.13 · işlem başlatıcı `7wKyboz4ZPctvm6sGrGkjBmxqvFmdrVzarAJg5E8q6bB`",
-      "details": {
-        "tx": "dGzc2qHtiDhbxZqewh9ZWFcyyBjjMe2Ds9yLY2rsXVB71qQedCthDYApMQS5k4Pt8P2y7H5LxbBskWR89ybMydy",
-        "wallet": "7wKyboz4ZPctvm6sGrGkjBmxqvFmdrVzarAJg5E8q6bB",
-        "side": "sell",
-        "usd": 15.125221730338456,
-        "block_ms": 1793306906000,
-        "provider_row_id": "solana_463021215_dGzc2qHtiDhbxZqewh9ZWFcyyBjjMe2Ds9yLY2rsXVB71qQedCthDYApMQS5k4Pt8P2y7H5LxbBskWR89ybMydy_10_1793307010",
-        "first_buyer_seen_by_this_watch": false
-      }
-    },
-    {
-      "id": "1acef367eddc2eee75b9faf53d17",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793307272694,
-      "text": "SATIŞ: $0.52 · işlem başlatıcı `GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq`",
-      "details": {
-        "tx": "5PcqnSvG55hz3Dyfb54h5cqbf7LvWw2bWVkf1j1ykPdoxVaPJM44FB1NGEV36WwNmH11CK745DwJJSNtn4hycvQd",
-        "wallet": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq",
-        "side": "sell",
-        "usd": 0.5227311602521898,
-        "block_ms": 1793306935000,
-        "provider_row_id": "solana_463021351_5PcqnSvG55hz3Dyfb54h5cqbf7LvWw2bWVkf1j1ykPdoxVaPJM44FB1NGEV36WwNmH11CK745DwJJSNtn4hycvQd_313_1793307035",
-        "first_buyer_seen_by_this_watch": false
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "f97849fdd8734d4af3b551bad613",
@@ -3089,6 +3040,24 @@
       "issue": 58,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/58",
       "delivered_ms": 1793306976856
+    },
+    {
+      "id": "f476c43eb33bb2d6db77398173b6",
+      "issue": 59,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/59",
+      "delivered_ms": 1793307277198
+    },
+    {
+      "id": "16a8ff8e77de05ce635b7f34523f",
+      "issue": 59,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/59",
+      "delivered_ms": 1793307277198
+    },
+    {
+      "id": "1acef367eddc2eee75b9faf53d17",
+      "issue": 59,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/59",
+      "delivered_ms": 1793307277198
     }
   ],
   "provider_backoff": {
