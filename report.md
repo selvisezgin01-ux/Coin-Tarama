@@ -2,23 +2,24 @@
 
 Kapalı 15dk: hazırlık → hacimli kırılım → düşük hacimli geri test → sonraki mumda güçlenme. Hazırlıklar sessiz izlenir; yalnız tetik ve daha önce bildirilmiş adayın iptal/süre olayı bildirilir. Emir gönderilmez.
 
-Son tamamlanmış tarama: 29.10.2026 14:44 TR.
+Son tamamlanmış tarama: 29.10.2026 14:50 TR.
 
 Her borsanın mevcut likit spot+perpetual evrenindeki en çok60 coin her döngüde incelenir; daha önceki 12li rotasyon kaldırıldı. Teknik adaylar borsa başına en çok12lik sessiz havuzda oran geçmişi biriktirir. Aktif tetik üst sınırı küresel5 farklı sembol.
 
-Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 2, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "within_session": {"intervals": 2, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 0, "p95_minutes": null, "longest_minutes": null, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
+Hedef döngü5dk; gerçek başlangıç aralıkları (veri erişimi anlamına gelmez): {"all_starts": {"intervals": 3, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "within_session": {"intervals": 3, "p95_minutes": 5.000016666666666, "longest_minutes": 5.000016666666666, "over_10_minutes": 0}, "between_sessions": {"intervals": 0, "p95_minutes": null, "longest_minutes": null, "over_10_minutes": 0}, "note": "Loop starts are not evidence of complete provider data."}
 
 | Coin | Borsa | Aşama | Son spot | Direnç | Geçersizlik | Hedef | Son gözlem TR |
 |---|---|---|---:|---:|---:|---:|---|
-| XPLUSDT | MEXC | SESSİZ HAZIRLIK | 0.077215 | 0.07796 | 0.076529569 | — | 29.10.2026 14:44 |
-| STRKUSDT | MEXC | SESSİZ HAZIRLIK | 0.046045 | 0.04682 | 0.045976612 | — | 29.10.2026 14:44 |
-| TRXUSDT | MEXC | SESSİZ HAZIRLIK | 0.33155 | 0.3317 | 0.33125498 | — | 29.10.2026 14:44 |
+| XPLUSDT | MEXC | SESSİZ HAZIRLIK | 0.077065 | 0.07796 | 0.076529569 | — | 29.10.2026 14:50 |
+| STRKUSDT | MEXC | SESSİZ HAZIRLIK | 0.046085 | 0.04682 | 0.045976612 | — | 29.10.2026 14:50 |
+| TRXUSDT | MEXC | SESSİZ HAZIRLIK | 0.33165 | 0.3317 | 0.33125498 | — | 29.10.2026 14:50 |
+| TIAUSDT | MEXC | SESSİZ HAZIRLIK | 0.5324 | 0.5358 | 0.53115998 | — | 29.10.2026 14:50 |
 
 ## Eleme ve veri kapsamı
 
-{"observed_ms": 1793274294625, "new_preparations": [], "reasons": {"oi_baseline_warming": 3, "1h_structure_weak": 47, "price_preparation_not_ready": 116, "4h_structure_weak": 55, "btc_relative_weak": 18, "stale_quotes_excluded": 0}, "evaluated": 119, "candidate_quotes": 3, "errors": {"OKX": [], "MEXC": ["AXISUSDT: Insufficient or stale closed candle history", "XPLUSDT BINANCE: BINANCE: public HTTP 451", "STRKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
+{"observed_ms": 1793274612855, "new_preparations": ["TIAUSDT"], "reasons": {"oi_baseline_warming": 4, "1h_structure_weak": 47, "price_preparation_not_ready": 116, "4h_structure_weak": 55, "btc_relative_weak": 18, "stale_quotes_excluded": 0}, "evaluated": 119, "candidate_quotes": 4, "errors": {"OKX": [], "MEXC": ["AXISUSDT: Insufficient or stale closed candle history", "XPLUSDT BINANCE: BINANCE: public HTTP 451", "STRKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TIAUSDT BINANCE: BINANCE: public requests stopped after access/rate error"]}, "failed_venues": []}
 
-{"OKX": {"coverage": {"active_spot": 372, "liquid_spot_perpetual": 123, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 0, "candidate_quotes": 0, "active": 0, "chart_budget_seconds": 150}, "errors": [], "calls": {"spot": 3, "futures": 6, "ratios": {"OKX": 0, "BINANCE": 0}}, "cursor": 0}, "MEXC": {"coverage": {"active_spot": 1246, "liquid_spot_perpetual": 111, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 59, "evaluated": 3, "candidate_quotes": 3, "active": 3, "chart_budget_seconds": 150}, "errors": ["AXISUSDT: Insufficient or stale closed candle history", "XPLUSDT BINANCE: BINANCE: public HTTP 451", "STRKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 9, "futures": 7, "ratios": {"OKX": 4, "BINANCE": 1}}, "cursor": 0}}
+{"OKX": {"coverage": {"active_spot": 372, "liquid_spot_perpetual": 123, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 60, "evaluated": 0, "candidate_quotes": 0, "active": 0, "chart_budget_seconds": 150}, "errors": [], "calls": {"spot": 63, "futures": 6, "ratios": {"OKX": 0, "BINANCE": 0}}, "cursor": 0}, "MEXC": {"coverage": {"active_spot": 1246, "liquid_spot_perpetual": 111, "bounded_universe": 60, "requested": 60, "attempted": 60, "chart_evaluated": 59, "evaluated": 4, "candidate_quotes": 4, "active": 3, "chart_budget_seconds": 150}, "errors": ["AXISUSDT: Insufficient or stale closed candle history", "XPLUSDT BINANCE: BINANCE: public HTTP 451", "STRKUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TRXUSDT BINANCE: BINANCE: public requests stopped after access/rate error", "TIAUSDT BINANCE: BINANCE: public requests stopped after access/rate error"], "calls": {"spot": 68, "futures": 8, "ratios": {"OKX": 5, "BINANCE": 1}}, "cursor": 0}}
 
 OI kontrat adedinde gerçek45–75dk bazına göre en az%3 artış ve aynı aralıkta vadeli fiyat -%0.5/+%6 zorunlu. Baz yoksa bilinmiyor. Short payı+2yüzde puan şartı destek puanıdır; zorunlu değildir. OKX ve Binance grupları ayrı kalır; eksik oran verisi short açıldığı/azaldığı sayılmaz. Negatif fonlama ek destektir.
 
