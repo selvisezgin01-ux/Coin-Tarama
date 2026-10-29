@@ -335905,7 +335905,7 @@
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793289054714,
+      "observed_ms": 1793289354916,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -339074,7 +339074,9 @@
           "AVAXUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "TAOUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793289354916,
+      "duration_ms": 13852
     }
   ],
   "review_candidates": {},
