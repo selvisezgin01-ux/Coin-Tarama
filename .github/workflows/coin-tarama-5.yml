@@ -1,4 +1,4 @@
-name: Coin Tarama 5 — V2 geri test teyidi
+name: Coin Tarama 5 — V3 geniş erken radar
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 125
     env:
       PYTHONUTF8: '1'
-      SCANNER_STATE_BRANCH: scanner-state-coin-tarama-5-v2
+      SCANNER_STATE_BRANCH: scanner-state-coin-tarama-5-v3
       NOTIFICATION_CHANNEL: ${{ vars.NOTIFICATION_CHANNEL == 'github_issue' && 'github_issue' || 'report' }}
       COIN5_SESSION_MINUTES: ${{ inputs.session_minutes || '110' }}
     steps:
@@ -37,20 +37,20 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
-      - name: Validate original rules and V2 causal entry, migration and measurement
-        run: python -m unittest test_coin5 test_coin5_v2 -q
-      - name: Run bounded checkpointed five-minute V2 session
+      - name: Validate independent markets, early radar, entries and measurements
+        run: python -m unittest test_coin5 test_coin5_v2 test_coin5_v3 -q
+      - name: Run bounded checkpointed five-minute V3 session
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
-        run: python -u coin5_v2_worker.py --minutes "$COIN5_SESSION_MINUTES" --channel "$NOTIFICATION_CHANNEL"
+        run: python -u coin5_v3_worker.py --minutes "$COIN5_SESSION_MINUTES" --channel "$NOTIFICATION_CHANNEL"
       - name: Preserve report and coverage
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: coin-tarama-5-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          name: coin-tarama-5-v3-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
-            cloud_output_coin5_v2/report.md
-            cloud_output_coin5_v2/state.json
+            cloud_output_coin5_v3/report.md
+            cloud_output_coin5_v3/state.json
           if-no-files-found: ignore
           retention-days: 14
