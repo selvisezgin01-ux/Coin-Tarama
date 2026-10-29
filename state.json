@@ -276610,7 +276610,7 @@
     "cases": {},
     "errors": [],
     "measurement": {
-      "observed_ms": 1793278502033,
+      "observed_ms": 1793278805525,
       "pending": 0,
       "attempted": 0,
       "unique_reads": 0
@@ -277674,7 +277674,9 @@
           "XLMUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
           "TAOUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
         ]
-      }
+      },
+      "finished_ms": 1793278805525,
+      "duration_ms": 16207
     }
   ],
   "review_candidates": {},
