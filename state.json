@@ -5,7 +5,7 @@
     "OKX": {
       "coverage": {
         "active_spot": 372,
-        "liquid_spot_perpetual": 123,
+        "liquid_spot_perpetual": 124,
         "bounded_universe": 60,
         "requested": 60,
         "attempted": 60,
@@ -233010,6 +233010,22 @@
         "oi_contracts": 138676140.0,
         "oi_notional": 6599597.5026,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "STRKUSDT",
+        "contract": "STRK_USDT",
+        "base": "STRK",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541128,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541128,
+        "mid_price": 0.047615000000000005,
+        "spread_pct": 0.021001785151744327,
+        "oi_contracts": 138626160.0,
+        "oi_notional": 6600684.6084,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:ZECUSDT": [
@@ -233747,6 +233763,22 @@
         "spread_pct": 0.0007594888639938408,
         "oi_contracts": 10129890.0,
         "oi_notional": 133377729.15750003,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ZECUSDT",
+        "contract": "ZEC_USDT",
+        "base": "ZEC",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541015,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541015,
+        "mid_price": 1318.68,
+        "spread_pct": 0.0015166681833334705,
+        "oi_contracts": 10351884.0,
+        "oi_notional": 136508223.9312,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -234486,6 +234518,22 @@
         "oi_contracts": 4593198.0,
         "oi_notional": 3068485.9239000003,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "BULLAUSDT",
+        "contract": "BULLA_USDT",
+        "base": "BULLA",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541051,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541051,
+        "mid_price": 0.067195,
+        "spread_pct": 0.07441029838530898,
+        "oi_contracts": 4593228.0,
+        "oi_notional": 3086419.5546000004,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:CAKEUSDT": [
@@ -235223,6 +235271,22 @@
         "spread_pct": 0.0047981191373083045,
         "oi_contracts": 4938294.0,
         "oi_notional": 10292145.440100001,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "CAKEUSDT",
+        "contract": "CAKE_USDT",
+        "base": "CAKE",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541328,
+        "retrieved_ms": 1793287543060,
+        "price_ms": 1793287541328,
+        "mid_price": 2.0875000000000004,
+        "spread_pct": 0.009580838323352237,
+        "oi_contracts": 4938294.0,
+        "oi_notional": 10308688.725000001,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -235962,6 +236026,22 @@
         "oi_contracts": 141473340.0,
         "oi_notional": 11033505.786600001,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "XPLUSDT",
+        "contract": "XPL_USDT",
+        "base": "XPL",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541169,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541169,
+        "mid_price": 0.078195,
+        "spread_pct": 0.012788541466858495,
+        "oi_contracts": 140947902.0,
+        "oi_notional": 11021421.19689,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:SUIUSDT": [
@@ -236699,6 +236779,22 @@
         "spread_pct": 0.010556875164950012,
         "oi_contracts": 85246374.0,
         "oi_notional": 80749627.7715,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "SUIUSDT",
+        "contract": "SUI_USDT",
+        "base": "SUI",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541025,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541025,
+        "mid_price": 0.94995,
+        "spread_pct": 0.010526869835253328,
+        "oi_contracts": 84720276.0,
+        "oi_notional": 80480026.1862,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -237438,6 +237534,22 @@
         "oi_contracts": 32126622.0,
         "oi_notional": 327900367.443,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "SOLUSDT",
+        "contract": "SOL_USDT",
+        "base": "SOL",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541023,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541023,
+        "mid_price": 102.16499999999999,
+        "spread_pct": 0.009788087897034324,
+        "oi_contracts": 32281926.0,
+        "oi_notional": 329808296.979,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:BTCUSDT": [
@@ -238175,6 +238287,22 @@
         "spread_pct": 0.00012273620737242126,
         "oi_contracts": 498316992.0,
         "oi_notional": 4060065099.7545605,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "contract": "BTC_USDT",
+        "base": "BTC",
+        "contract_size": 0.0001,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287540998,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287540998,
+        "mid_price": 81520.25,
+        "spread_pct": 0.00012266890742584913,
+        "oi_contracts": 500494056.0,
+        "oi_notional": 4080040056.8634005,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -238914,6 +239042,22 @@
         "oi_contracts": 8555952.0,
         "oi_notional": 68417670.16800001,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "contract": "DOGE_USDT",
+        "base": "DOGE",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541040,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541040,
+        "mid_price": 0.08000499999999999,
+        "spread_pct": 0.012499218798820228,
+        "oi_contracts": 8617152.0,
+        "oi_notional": 68941524.57599999,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:SHIBUSDT": [
@@ -239651,6 +239795,22 @@
         "spread_pct": 0.020126798832655706,
         "oi_contracts": 1643588868.0,
         "oi_notional": 8166171.290658,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "SHIBUSDT",
+        "contract": "SHIB_USDT",
+        "base": "SHIB",
+        "contract_size": 1000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541129,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541129,
+        "mid_price": 4.9744999999999996e-06,
+        "spread_pct": 0.02010252286661276,
+        "oi_contracts": 1641149190.0,
+        "oi_notional": 8163896.645655,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -240390,6 +240550,22 @@
         "oi_contracts": 1817808.0,
         "oi_notional": 92058341.64,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "PEPEUSDT",
+        "contract": "PEPE_USDT",
+        "base": "PEPE",
+        "contract_size": 10000000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541025,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541025,
+        "mid_price": 5.057849999999999e-06,
+        "spread_pct": 0.005931374002784005,
+        "oi_contracts": 1829310.0,
+        "oi_notional": 92523755.835,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:ASTERUSDT": [
@@ -241127,6 +241303,22 @@
         "spread_pct": 0.013893713094823061,
         "oi_contracts": 42224064.0,
         "oi_notional": 30390770.064,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ASTERUSDT",
+        "contract": "ASTER_USDT",
+        "base": "ASTER",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541096,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541096,
+        "mid_price": 0.71995,
+        "spread_pct": 0.013889853462044447,
+        "oi_contracts": 41165790.0,
+        "oi_notional": 29637310.5105,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -241866,6 +242058,22 @@
         "oi_contracts": 7785474.0,
         "oi_notional": 13799363.3913,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ZROUSDT",
+        "contract": "ZRO_USDT",
+        "base": "ZRO",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541120,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541120,
+        "mid_price": 1.7786499999999998,
+        "spread_pct": 0.005622241587720405,
+        "oi_contracts": 7785792.0,
+        "oi_notional": 13848198.940799998,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:BEATUSDT": [
@@ -242603,6 +242811,22 @@
         "spread_pct": 0.04496605063176806,
         "oi_contracts": 106918542.0,
         "oi_notional": 11888807.27769,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "BEATUSDT",
+        "contract": "BEAT_USDT",
+        "base": "BEAT",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541026,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541026,
+        "mid_price": 0.11211499999999999,
+        "spread_pct": 0.04459706551309671,
+        "oi_contracts": 108467208.0,
+        "oi_notional": 12160801.02492,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -243342,6 +243566,22 @@
         "oi_contracts": 1582500.0,
         "oi_notional": 1631003.6249999998,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "CCUSDT",
+        "contract": "CC_USDT",
+        "base": "CC",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541367,
+        "retrieved_ms": 1793287543060,
+        "price_ms": 1793287541367,
+        "mid_price": 0.10322500000000001,
+        "spread_pct": 0.009687575684181276,
+        "oi_contracts": 1582500.0,
+        "oi_notional": 1633535.6250000002,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:HYPEUSDT": [
@@ -244079,6 +244319,22 @@
         "spread_pct": 0.001075968775391276,
         "oi_contracts": 9591042.0,
         "oi_notional": 89138664.7959,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "contract": "HYPE_USDT",
+        "base": "HYPE",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287540998,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287540998,
+        "mid_price": 93.1015,
+        "spread_pct": 0.0010740965505440566,
+        "oi_contracts": 9566082.0,
+        "oi_notional": 89061658.3323,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -244818,6 +245074,22 @@
         "oi_contracts": 86472246.0,
         "oi_notional": 37109564.370900005,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "WLDUSDT",
+        "contract": "WLD_USDT",
+        "base": "WLD",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541026,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541026,
+        "mid_price": 0.42995,
+        "spread_pct": 0.023258518432373296,
+        "oi_contracts": 86578392.0,
+        "oi_notional": 37224379.6404,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:DOTUSDT": [
@@ -245555,6 +245827,22 @@
         "spread_pct": 0.009925065753559522,
         "oi_contracts": 202472208.0,
         "oi_notional": 20400087.317040004,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "DOTUSDT",
+        "contract": "DOT_USDT",
+        "base": "DOT",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541065,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541065,
+        "mid_price": 1.009,
+        "spread_pct": 0.01982160555006938,
+        "oi_contracts": 202520556.0,
+        "oi_notional": 20434324.1004,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -246294,6 +246582,22 @@
         "oi_contracts": 25522614.0,
         "oi_notional": 13941727.8975,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "TIAUSDT",
+        "contract": "TIA_USDT",
+        "base": "TIA",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541063,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541063,
+        "mid_price": 0.54675,
+        "spread_pct": 0.018289894833102695,
+        "oi_contracts": 25221924.0,
+        "oi_notional": 13790086.946999999,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:HBARUSDT": [
@@ -247031,6 +247335,22 @@
         "spread_pct": 0.013378821325836005,
         "oi_contracts": 508289850.0,
         "oi_notional": 37992124.838250004,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "HBARUSDT",
+        "contract": "HBAR_USDT",
+        "base": "HBAR",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541063,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541063,
+        "mid_price": 0.07466500000000001,
+        "spread_pct": 0.013393156097229119,
+        "oi_contracts": 508990914.0,
+        "oi_notional": 38003806.59381001,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -247770,6 +248090,22 @@
         "oi_contracts": 436348182.0,
         "oi_notional": 5431880.343627,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "WUSDT",
+        "contract": "W_USDT",
+        "base": "W",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541384,
+        "retrieved_ms": 1793287543060,
+        "price_ms": 1793287541384,
+        "mid_price": 0.0124595,
+        "spread_pct": 0.008026004253790282,
+        "oi_contracts": 436348182.0,
+        "oi_notional": 5436680.173629,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:LTCUSDT": [
@@ -248507,6 +248843,22 @@
         "spread_pct": 0.03429943405934338,
         "oi_contracts": 90282384.0,
         "oi_notional": 52643658.1104,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "LTCUSDT",
+        "contract": "LTC_USDT",
+        "base": "LTC",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541070,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541070,
+        "mid_price": 58.285,
+        "spread_pct": 0.017157073003342217,
+        "oi_contracts": 90140736.0,
+        "oi_notional": 52538527.97759999,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -249246,6 +249598,22 @@
         "oi_contracts": 11815668.0,
         "oi_notional": 1377825.0454800003,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "EVAAUSDT",
+        "contract": "EVAA_USDT",
+        "base": "EVAA",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541011,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541011,
+        "mid_price": 1.1642000000000001,
+        "spread_pct": 0.0687167153410182,
+        "oi_contracts": 11819814.0,
+        "oi_notional": 1376062.7458800003,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:BNBUSDT": [
@@ -249983,6 +250351,22 @@
         "spread_pct": 0.013272280841465624,
         "oi_contracts": 7640844.0,
         "oi_notional": 57569939.11800001,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "BNBUSDT",
+        "contract": "BNB_USDT",
+        "base": "BNB",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541046,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541046,
+        "mid_price": 753.6500000000001,
+        "spread_pct": 0.013268758707625918,
+        "oi_contracts": 7637094.0,
+        "oi_notional": 57556958.93100001,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -250722,6 +251106,22 @@
         "oi_contracts": 8303490.0,
         "oi_notional": 5597797.7835,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ETHFIUSDT",
+        "contract": "ETHFI_USDT",
+        "base": "ETHFI",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541186,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541186,
+        "mid_price": 0.6789000000000001,
+        "spread_pct": 0.02945941964944601,
+        "oi_contracts": 8268396.0,
+        "oi_notional": 5613414.044400001,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:TAOUSDT": [
@@ -251459,6 +251859,22 @@
         "spread_pct": 0.01169932728867026,
         "oi_contracts": 40100502.0,
         "oi_notional": 102827712.25350001,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "TAOUSDT",
+        "contract": "TAO_USDT",
+        "base": "TAO",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541026,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541026,
+        "mid_price": 256.95500000000004,
+        "spread_pct": 0.011675196046011773,
+        "oi_contracts": 40147146.0,
+        "oi_notional": 103160099.00430003,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -252198,6 +252614,22 @@
         "oi_contracts": 169953006.0,
         "oi_notional": 34797877.9785,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ADAUSDT",
+        "contract": "ADA_USDT",
+        "base": "ADA",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541035,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541035,
+        "mid_price": 0.20475,
+        "spread_pct": 0.048840048840057014,
+        "oi_contracts": 171001824.0,
+        "oi_notional": 35012623.464,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:INJUSDT": [
@@ -252935,6 +253367,22 @@
         "spread_pct": 0.04941321803581915,
         "oi_contracts": 2852556.0,
         "oi_notional": 23091440.819999997,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "INJUSDT",
+        "contract": "INJ_USDT",
+        "base": "INJ",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541052,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541052,
+        "mid_price": 8.135,
+        "spread_pct": 0.024585125998757118,
+        "oi_contracts": 2873544.0,
+        "oi_notional": 23376280.439999998,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -253674,6 +254122,22 @@
         "oi_contracts": 15131238.0,
         "oi_notional": 68960617.185,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "contract": "NEAR_USDT",
+        "base": "NEAR",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541024,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541024,
+        "mid_price": 4.5745000000000005,
+        "spread_pct": 0.021860312602477512,
+        "oi_contracts": 15681318.0,
+        "oi_notional": 71734189.19100001,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:ENAUSDT": [
@@ -254411,6 +254875,22 @@
         "spread_pct": 0.02374676450333381,
         "oi_contracts": 18474378.0,
         "oi_notional": 38898726.597899996,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ENAUSDT",
+        "contract": "ENA_USDT",
+        "base": "ENA",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541027,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541027,
+        "mid_price": 0.212395,
+        "spread_pct": 0.004708208761981215,
+        "oi_contracts": 18563514.0,
+        "oi_notional": 39427975.5603,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -255150,6 +255630,22 @@
         "oi_contracts": 5841408.0,
         "oi_notional": 4251376.7424,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "PYTHUSDT",
+        "contract": "PYTH_USDT",
+        "base": "PYTH",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541167,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541167,
+        "mid_price": 0.073015,
+        "spread_pct": 0.013695815928228616,
+        "oi_contracts": 5834238.0,
+        "oi_notional": 4259868.8757,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:QUSDT": [
@@ -255887,6 +256383,22 @@
         "spread_pct": 0.07617113114128553,
         "oi_contracts": 1069662.0,
         "oi_notional": 4212863.7870000005,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "QUSDT",
+        "contract": "Q_USDT",
+        "base": "Q",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541012,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541012,
+        "mid_price": 0.038925,
+        "spread_pct": 0.02569043031469781,
+        "oi_contracts": 997830.0,
+        "oi_notional": 3884053.275,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -256626,6 +257138,22 @@
         "oi_contracts": 474678.0,
         "oi_notional": 17377961.580000002,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "KASUSDT",
+        "contract": "KAS_USDT",
+        "base": "KAS",
+        "contract_size": 1000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541204,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541204,
+        "mid_price": 0.036625000000000005,
+        "spread_pct": 0.027303754266219962,
+        "oi_contracts": 474426.0,
+        "oi_notional": 17375852.250000004,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:BCHUSDT": [
@@ -257363,6 +257891,22 @@
         "spread_pct": 0.038823301039410466,
         "oi_contracts": 6811116.0,
         "oi_notional": 19298275.5186,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "BCHUSDT",
+        "contract": "BCH_USDT",
+        "base": "BCH",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541108,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541108,
+        "mid_price": 283.45,
+        "spread_pct": 0.03527959075675525,
+        "oi_contracts": 6813276.0,
+        "oi_notional": 19312230.821999997,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -258102,6 +258646,22 @@
         "oi_contracts": 44066400.0,
         "oi_notional": 7162993.319999999,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "contract": "ATOM_USDT",
+        "base": "ATOM",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541126,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541126,
+        "mid_price": 1.6255,
+        "spread_pct": 0.061519532451546594,
+        "oi_contracts": 44351814.0,
+        "oi_notional": 7209387.3657,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:IRYSUSDT": [
@@ -258839,6 +259399,22 @@
         "spread_pct": 0.044933722758928756,
         "oi_contracts": 998436.0,
         "oi_notional": 2222019.3179999995,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "IRYSUSDT",
+        "contract": "IRYS_USDT",
+        "base": "IRYS",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541011,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541011,
+        "mid_price": 0.022245,
+        "spread_pct": 0.04495392222971271,
+        "oi_contracts": 992076.0,
+        "oi_notional": 2206873.062,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -259578,6 +260154,22 @@
         "oi_contracts": 2617260.0,
         "oi_notional": 8669542.887,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "TRXUSDT",
+        "contract": "TRX_USDT",
+        "base": "TRX",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541245,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541245,
+        "mid_price": 0.33120499999999997,
+        "spread_pct": 0.0030192780906115554,
+        "oi_contracts": 2617188.0,
+        "oi_notional": 8668257.5154,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:AVAXUSDT": [
@@ -260315,6 +260907,22 @@
         "spread_pct": 0.011187559433903291,
         "oi_contracts": 35155038.0,
         "oi_notional": 31423330.716300007,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "contract": "AVAX_USDT",
+        "base": "AVAX",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541040,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541040,
+        "mid_price": 8.9515,
+        "spread_pct": 0.011171312070596502,
+        "oi_contracts": 35121942.0,
+        "oi_notional": 31439406.3813,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -261054,6 +261662,22 @@
         "oi_contracts": 107736.0,
         "oi_notional": 3053776.92,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "PONSUSDT",
+        "contract": "PONS_USDT",
+        "base": "PONS",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541140,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541140,
+        "mid_price": 0.28305,
+        "spread_pct": 0.035329447094168694,
+        "oi_contracts": 107784.0,
+        "oi_notional": 3050826.12,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:AKEUSDT": [
@@ -261791,6 +262415,22 @@
         "spread_pct": 0.004678034289996024,
         "oi_contracts": 624558.0,
         "oi_notional": 13350864.087,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "AKEUSDT",
+        "contract": "AKE_USDT",
+        "base": "AKE",
+        "contract_size": 1000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541049,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541049,
+        "mid_price": 0.02132,
+        "spread_pct": 0.04690431519699621,
+        "oi_contracts": 624696.0,
+        "oi_notional": 13318518.719999999,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -262530,6 +263170,22 @@
         "oi_contracts": 106663932.0,
         "oi_notional": 2513839549.7862,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "contract": "ETH_USDT",
+        "base": "ETH",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287540998,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287540998,
+        "mid_price": 2358.925,
+        "spread_pct": 0.00042392191357349345,
+        "oi_contracts": 107582406.0,
+        "oi_notional": 2537788270.7355003,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:QNTUSDT": [
@@ -263267,6 +263923,22 @@
         "spread_pct": 0.005055739528309273,
         "oi_contracts": 12957828.0,
         "oi_notional": 25629935.892600004,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "QNTUSDT",
+        "contract": "QNT_USDT",
+        "base": "QNT",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541036,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541036,
+        "mid_price": 197.555,
+        "spread_pct": 0.015185644504062736,
+        "oi_contracts": 12974202.0,
+        "oi_notional": 25631184.7611,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -264006,6 +264678,22 @@
         "oi_contracts": 18909852.0,
         "oi_notional": 5979389.7516600005,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "LITUSDT",
+        "contract": "LIT_USDT",
+        "base": "LIT",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541075,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541075,
+        "mid_price": 3.1340500000000002,
+        "spread_pct": 0.003190759560320066,
+        "oi_contracts": 19147962.0,
+        "oi_notional": 6001067.030610001,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:GRAMUSDT": [
@@ -264743,6 +265431,22 @@
         "spread_pct": 0.08173273395994196,
         "oi_contracts": 5462214.0,
         "oi_notional": 6683018.829,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "GRAMUSDT",
+        "contract": "GRAM_USDT",
+        "base": "GRAM",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541290,
+        "retrieved_ms": 1793287543060,
+        "price_ms": 1793287541290,
+        "mid_price": 1.2265000000000001,
+        "spread_pct": 0.08153281695883505,
+        "oi_contracts": 5502540.0,
+        "oi_notional": 6748865.3100000005,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -265482,6 +266186,22 @@
         "oi_contracts": 2691900.0,
         "oi_notional": 16199315.819999998,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "XMRUSDT",
+        "contract": "XMR_USDT",
+        "base": "XMR",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541138,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541138,
+        "mid_price": 600.835,
+        "spread_pct": 0.0016643504456283179,
+        "oi_contracts": 2687574.0,
+        "oi_notional": 16147885.242900003,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:AEROUSDT": [
@@ -266219,6 +266939,22 @@
         "spread_pct": 0.014248058702000284,
         "oi_contracts": 461712.0,
         "oi_notional": 3240525.672,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "AEROUSDT",
+        "contract": "AERO_USDT",
+        "base": "AERO",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541249,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541249,
+        "mid_price": 0.7011000000000001,
+        "spread_pct": 0.02852660105549693,
+        "oi_contracts": 461712.0,
+        "oi_notional": 3237062.8320000004,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -266958,6 +267694,22 @@
         "oi_contracts": 239092812.0,
         "oi_notional": 312530169.2058,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "XRPUSDT",
+        "contract": "XRP_USDT",
+        "base": "XRP",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541024,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541024,
+        "mid_price": 1.30695,
+        "spread_pct": 0.007651402119437545,
+        "oi_contracts": 241392828.0,
+        "oi_notional": 315488356.5546,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:CTUSDT": [
@@ -267695,6 +268447,22 @@
         "spread_pct": 0.03586414661264731,
         "oi_contracts": 57367986.0,
         "oi_notional": 7997957.76819,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "CTUSDT",
+        "contract": "CT_USDT",
+        "base": "CT",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541199,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541199,
+        "mid_price": 0.13938499999999998,
+        "spread_pct": 0.050220611974019266,
+        "oi_contracts": 57587970.0,
+        "oi_notional": 8026899.198449999,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -268434,6 +269202,22 @@
         "oi_contracts": 29150994.0,
         "oi_notional": 34608060.0768,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "LINKUSDT",
+        "contract": "LINK_USDT",
+        "base": "LINK",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541035,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541035,
+        "mid_price": 11.8645,
+        "spread_pct": 0.025285515613806854,
+        "oi_contracts": 29179344.0,
+        "oi_notional": 34619832.6888,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:CRVUSDT": [
@@ -269171,6 +269955,22 @@
         "spread_pct": 0.03001650907999069,
         "oi_contracts": 343145424.0,
         "oi_notional": 11431889.80056,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "CRVUSDT",
+        "contract": "CRV_USDT",
+        "base": "CRV",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541176,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541176,
+        "mid_price": 0.33365,
+        "spread_pct": 0.02997152704929986,
+        "oi_contracts": 354278526.0,
+        "oi_notional": 11820503.01999,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -269910,6 +270710,22 @@
         "oi_contracts": 156512388.0,
         "oi_notional": 26989778.748660002,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ARBUSDT",
+        "contract": "ARB_USDT",
+        "base": "ARB",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541048,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541048,
+        "mid_price": 0.17241499999999998,
+        "spread_pct": 0.005799959400273901,
+        "oi_contracts": 156361728.0,
+        "oi_notional": 26959107.333119996,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:ICPUSDT": [
@@ -270647,6 +271463,22 @@
         "spread_pct": 0.03839508542906086,
         "oi_contracts": 476935830.0,
         "oi_notional": 12421793.692349998,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ICPUSDT",
+        "contract": "ICP_USDT",
+        "base": "ICP",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541092,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541092,
+        "mid_price": 2.6094999999999997,
+        "spread_pct": 0.03832151753209005,
+        "oi_contracts": 476927892.0,
+        "oi_notional": 12445433.34174,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -271386,6 +272218,22 @@
         "oi_contracts": 5839866.0,
         "oi_notional": 11500448.1138,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "PENDLEUSDT",
+        "contract": "PENDLE_USDT",
+        "base": "PENDLE",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541222,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541222,
+        "mid_price": 1.97285,
+        "spread_pct": 0.015206427249927212,
+        "oi_contracts": 5839596.0,
+        "oi_notional": 11520646.9686,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:ONDOUSDT": [
@@ -272123,6 +272971,22 @@
         "spread_pct": 0.02357100766057489,
         "oi_contracts": 10472862.0,
         "oi_notional": 44431117.035000004,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "ONDOUSDT",
+        "contract": "ONDO_USDT",
+        "base": "ONDO",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541053,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541053,
+        "mid_price": 0.42505,
+        "spread_pct": 0.023526643924241617,
+        "oi_contracts": 10550712.0,
+        "oi_notional": 44845801.356,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -272862,6 +273726,22 @@
         "oi_contracts": 19216572.0,
         "oi_notional": 9776431.005,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "DASHUSDT",
+        "contract": "DASH_USDT",
+        "base": "DASH",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541090,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541090,
+        "mid_price": 51.155,
+        "spread_pct": 0.01954843123838923,
+        "oi_contracts": 19132632.0,
+        "oi_notional": 9787297.899600001,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:BTWUSDT": [
@@ -273599,6 +274479,22 @@
         "spread_pct": 0.011933886270062533,
         "oi_contracts": 43110.0,
         "oi_notional": 7224804.899999999,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "BTWUSDT",
+        "contract": "BTW_USDT",
+        "base": "BTW",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541061,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541061,
+        "mid_price": 1.6524,
+        "spread_pct": 0.012103606874847371,
+        "oi_contracts": 42150.0,
+        "oi_notional": 6964866.0,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -274338,6 +275234,22 @@
         "oi_contracts": 9569400.0,
         "oi_notional": 12596679.69,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "FARTCOINUSDT",
+        "contract": "FARTCOIN_USDT",
+        "base": "FARTCOIN",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541111,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541111,
+        "mid_price": 0.132145,
+        "spread_pct": 0.007567444852232204,
+        "oi_contracts": 9635010.0,
+        "oi_notional": 12732183.9645,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:UNIUSDT": [
@@ -275060,6 +275972,22 @@
         "oi_contracts": 50708460.0,
         "oi_notional": 37313820.29099999,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "UNIUSDT",
+        "contract": "UNI_USDT",
+        "base": "UNI",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541072,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541072,
+        "mid_price": 7.3740000000000006,
+        "spread_pct": 0.027122321670732023,
+        "oi_contracts": 50624136.0,
+        "oi_notional": 37330237.88640001,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:RUNEUSDT": [
@@ -275718,6 +276646,22 @@
         "oi_contracts": 2043750.0,
         "oi_notional": 1258643.4375,
         "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "RUNEUSDT",
+        "contract": "RUNE_USDT",
+        "base": "RUNE",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541414,
+        "retrieved_ms": 1793287543060,
+        "price_ms": 1793287541414,
+        "mid_price": 0.6164000000000001,
+        "spread_pct": 0.032446463335510864,
+        "oi_contracts": 2043750.0,
+        "oi_notional": 1259767.5000000002,
+        "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
     "MEXC:XLMUSDT": [
@@ -275847,6 +276791,22 @@
         "spread_pct": 0.005815813196069815,
         "oi_contracts": 12071130.0,
         "oi_notional": 20755704.4785,
+        "notional_kind": "estimated_USDT_at_current_mid"
+      },
+      {
+        "symbol": "XLMUSDT",
+        "contract": "XLM_USDT",
+        "base": "XLM",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "MEXC",
+        "observed_ms": 1793287541090,
+        "retrieved_ms": 1793287543059,
+        "price_ms": 1793287541090,
+        "mid_price": 0.171875,
+        "spread_pct": 0.005818181818187637,
+        "oi_contracts": 12050646.0,
+        "oi_notional": 20712047.8125,
         "notional_kind": "estimated_USDT_at_current_mid"
       }
     ],
@@ -276586,6 +277546,22 @@
         "oi_contracts": 150942877.0,
         "oi_notional": 7186390.37397,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "STRKUSDT",
+        "contract": "STRK-USDT-SWAP",
+        "base": "STRK",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541761,
+        "mid_price": 0.047625,
+        "spread_pct": 0.020997375328075846,
+        "oi_contracts": 151145070.0,
+        "oi_notional": 7199039.6841,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:OKBUSDT": [
@@ -277323,6 +278299,22 @@
         "spread_pct": 0.00879236822437324,
         "oi_contracts": 21024784.0,
         "oi_notional": 23934614.1056,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "OKBUSDT",
+        "contract": "OKB-USDT-SWAP",
+        "base": "OKB",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541573,
+        "mid_price": 114.195,
+        "spread_pct": 0.00875695082972557,
+        "oi_contracts": 21004136.0,
+        "oi_notional": 23982522.4848,
         "notional_kind": "provider_USD"
       }
     ],
@@ -278062,6 +279054,22 @@
         "oi_contracts": 1074366.7,
         "oi_notional": 14574858.652199998,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "AAVEUSDT",
+        "contract": "AAVE-USDT-SWAP",
+        "base": "AAVE",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541766,
+        "mid_price": 135.885,
+        "spread_pct": 0.0073591639989630244,
+        "oi_contracts": 1085372.0,
+        "oi_notional": 14748034.736,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ZECUSDT": [
@@ -278799,6 +279807,22 @@
         "spread_pct": 0.0007595407816427275,
         "oi_contracts": 12376527.0,
         "oi_notional": 163009999.4643,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ZECUSDT",
+        "contract": "ZEC-USDT-SWAP",
+        "base": "ZEC",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541770,
+        "mid_price": 1318.4050000000002,
+        "spread_pct": 0.0007584922690668576,
+        "oi_contracts": 12434307.0,
+        "oi_notional": 163906548.0126,
         "notional_kind": "provider_USD"
       }
     ],
@@ -279538,6 +280562,22 @@
         "oi_contracts": 1446299.0,
         "oi_notional": 2627925.283,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "DOODUSDT",
+        "contract": "DOOD-USDT-SWAP",
+        "base": "DOOD",
+        "contract_size": 1000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541769,
+        "mid_price": 0.0018135,
+        "spread_pct": 0.055141990625868914,
+        "oi_contracts": 1445422.0,
+        "oi_notional": 2620550.086,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:PENGUUSDT": [
@@ -280275,6 +281315,22 @@
         "spread_pct": 0.012615908660812029,
         "oi_contracts": 9381849.0,
         "oi_notional": 7436991.7023,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "PENGUUSDT",
+        "contract": "PENGU-USDT-SWAP",
+        "base": "PENGU",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541773,
+        "mid_price": 0.007936499999999999,
+        "spread_pct": 0.012600012600003346,
+        "oi_contracts": 9381363.0,
+        "oi_notional": 7443173.4042,
         "notional_kind": "provider_USD"
       }
     ],
@@ -281014,6 +282070,22 @@
         "oi_contracts": 11238661.0,
         "oi_notional": 8763907.8478,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "XPLUSDT",
+        "contract": "XPL-USDT-SWAP",
+        "base": "XPL",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541440,
+        "mid_price": 0.078175,
+        "spread_pct": 0.012791813239521744,
+        "oi_contracts": 11181045.0,
+        "oi_notional": 8742459.0855,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ETCUSDT": [
@@ -281751,6 +282823,22 @@
         "spread_pct": 0.013210912213492755,
         "oi_contracts": 88300.52000000003,
         "oi_notional": 6683466.358800002,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ETCUSDT",
+        "contract": "ETC-USDT-SWAP",
+        "base": "ETC",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541567,
+        "mid_price": 7.5715,
+        "spread_pct": 0.013207422571489585,
+        "oi_contracts": 88341.95000000003,
+        "oi_notional": 6689252.454000002,
         "notional_kind": "provider_USD"
       }
     ],
@@ -282490,6 +283578,22 @@
         "oi_contracts": 5649804.0,
         "oi_notional": 25130328.192,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "PUMPUSDT",
+        "contract": "PUMP-USDT-SWAP",
+        "base": "PUMP",
+        "contract_size": 1000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541764,
+        "mid_price": 0.0044475,
+        "spread_pct": 0.02248454187744273,
+        "oi_contracts": 5645166.0,
+        "oi_notional": 25104053.202,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:SUIUSDT": [
@@ -283227,6 +284331,22 @@
         "spread_pct": 0.010559104587941504,
         "oi_contracts": 33282732.0,
         "oi_notional": 31525403.7504,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "SUIUSDT",
+        "contract": "SUI-USDT-SWAP",
+        "base": "SUI",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541763,
+        "mid_price": 0.94965,
+        "spread_pct": 0.010530195335122306,
+        "oi_contracts": 33259117.0,
+        "oi_notional": 31582857.5032,
         "notional_kind": "provider_USD"
       }
     ],
@@ -283966,6 +285086,22 @@
         "oi_contracts": 1000439.0,
         "oi_notional": 2012883.268,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "DOSUSDT",
+        "contract": "DOS-USDT-SWAP",
+        "base": "DOS",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541563,
+        "mid_price": 0.2011,
+        "spread_pct": 0.09945300845349477,
+        "oi_contracts": 991673.0,
+        "oi_notional": 1995246.076,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:OPUSDT": [
@@ -284703,6 +285839,22 @@
         "spread_pct": 0.00887350814144028,
         "oi_contracts": 38270352.0,
         "oi_notional": 4314599.48448,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "OPUSDT",
+        "contract": "OP-USDT-SWAP",
+        "base": "OP",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541253,
+        "mid_price": 0.11277000000000001,
+        "spread_pct": 0.01773521326594495,
+        "oi_contracts": 38377218.0,
+        "oi_notional": 4327415.10168,
         "notional_kind": "provider_USD"
       }
     ],
@@ -285442,6 +286594,22 @@
         "oi_contracts": 530624.5000000003,
         "oi_notional": 9124088.277500005,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "XLMUSDT",
+        "contract": "XLM-USDT-SWAP",
+        "base": "XLM",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541566,
+        "mid_price": 0.171875,
+        "spread_pct": 0.005818181818187637,
+        "oi_contracts": 530049.8000000003,
+        "oi_notional": 9109435.862800006,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:SOLUSDT": [
@@ -286179,6 +287347,22 @@
         "spread_pct": 0.009799598216464213,
         "oi_contracts": 3255638.1400000034,
         "oi_notional": 332205315.80560035,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "SOLUSDT",
+        "contract": "SOL-USDT-SWAP",
+        "base": "SOL",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541770,
+        "mid_price": 102.14500000000001,
+        "spread_pct": 0.00979000440550699,
+        "oi_contracts": 3253781.300000004,
+        "oi_notional": 332373759.7950004,
         "notional_kind": "provider_USD"
       }
     ],
@@ -286918,6 +288102,22 @@
         "oi_contracts": 3176246.720000008,
         "oi_notional": 2587659616.5635266,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "contract": "BTC-USDT-SWAP",
+        "base": "BTC",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541764,
+        "mid_price": 81516.75,
+        "spread_pct": 0.000122674174333276,
+        "oi_contracts": 3180009.990000009,
+        "oi_notional": 2592239203.5183377,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:DOGEUSDT": [
@@ -287655,6 +288855,22 @@
         "spread_pct": 0.012508599662262962,
         "oi_contracts": 1177353.0300000003,
         "oi_notional": 94117601.21820001,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "contract": "DOGE-USDT-SWAP",
+        "base": "DOGE",
+        "contract_size": 1000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541762,
+        "mid_price": 0.079985,
+        "spread_pct": 0.012502344189548042,
+        "oi_contracts": 1177871.05,
+        "oi_notional": 94206126.57900001,
         "notional_kind": "provider_USD"
       }
     ],
@@ -288394,6 +289610,22 @@
         "oi_contracts": 2003783.7,
         "oi_notional": 23790923.8701,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "LINKUSDT",
+        "contract": "LINK-USDT-SWAP",
+        "base": "LINK",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541770,
+        "mid_price": 11.8645,
+        "spread_pct": 0.008428505204597293,
+        "oi_contracts": 2006072.8,
+        "oi_notional": 23804059.844800003,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ARBUSDT": [
@@ -289131,6 +290363,22 @@
         "spread_pct": 0.0057996230245092074,
         "oi_contracts": 9958614.800000003,
         "oi_notional": 17175622.945560005,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ARBUSDT",
+        "contract": "ARB-USDT-SWAP",
+        "base": "ARB",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541764,
+        "mid_price": 0.17241499999999998,
+        "spread_pct": 0.005799959400273901,
+        "oi_contracts": 9957243.200000001,
+        "oi_notional": 17168278.725440003,
         "notional_kind": "provider_USD"
       }
     ],
@@ -289870,6 +291118,22 @@
         "oi_contracts": 1372223.4000000004,
         "oi_notional": 6818578.074600002,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "SHIBUSDT",
+        "contract": "SHIB-USDT-SWAP",
+        "base": "SHIB",
+        "contract_size": 1000000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541771,
+        "mid_price": 4.9744999999999996e-06,
+        "spread_pct": 0.02010252286661276,
+        "oi_contracts": 1371888.3000000003,
+        "oi_notional": 6823772.404200002,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:UNIUSDT": [
@@ -290607,6 +291871,22 @@
         "spread_pct": 0.013586033557495358,
         "oi_contracts": 5666419.0,
         "oi_notional": 41693511.002,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "UNIUSDT",
+        "contract": "UNI-USDT-SWAP",
+        "base": "UNI",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541770,
+        "mid_price": 7.374499999999999,
+        "spread_pct": 0.013560241372300956,
+        "oi_contracts": 5669748.0,
+        "oi_notional": 41814391.5,
         "notional_kind": "provider_USD"
       }
     ],
@@ -291346,6 +292626,22 @@
         "oi_contracts": 1012660.4000000003,
         "oi_notional": 51251755.504400015,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "PEPEUSDT",
+        "contract": "PEPE-USDT-SWAP",
+        "base": "PEPE",
+        "contract_size": 10000000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541740,
+        "mid_price": 5.05425e-06,
+        "spread_pct": 0.001978532917845759,
+        "oi_contracts": 1010206.3000000003,
+        "oi_notional": 51064918.25870001,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ZROUSDT": [
@@ -292083,6 +293379,22 @@
         "spread_pct": 0.005643181625800004,
         "oi_contracts": 3830152.0,
         "oi_notional": 6780518.0856,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ZROUSDT",
+        "contract": "ZRO-USDT-SWAP",
+        "base": "ZRO",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541824,
+        "mid_price": 1.7786499999999998,
+        "spread_pct": 0.016866724763161214,
+        "oi_contracts": 3830596.0,
+        "oi_notional": 6818077.8204,
         "notional_kind": "provider_USD"
       }
     ],
@@ -292822,6 +294134,22 @@
         "oi_contracts": 2945577.0,
         "oi_notional": 3036006.2139,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "CCUSDT",
+        "contract": "CC-USDT-SWAP",
+        "base": "CC",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541767,
+        "mid_price": 0.103335,
+        "spread_pct": 0.029031789809843955,
+        "oi_contracts": 2944674.0,
+        "oi_notional": 3042437.1768,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:HYPEUSDT": [
@@ -293559,6 +294887,22 @@
         "spread_pct": 0.001075540593595989,
         "oi_contracts": 14070035.0,
         "oi_notional": 130876651.563,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "contract": "HYPE-USDT-SWAP",
+        "base": "HYPE",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541738,
+        "mid_price": 93.0655,
+        "spread_pct": 0.0010745120372262276,
+        "oi_contracts": 14076742.0,
+        "oi_notional": 130992530.3552,
         "notional_kind": "provider_USD"
       }
     ],
@@ -294298,6 +295642,22 @@
         "oi_contracts": 76080749.0,
         "oi_notional": 32631033.2461,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "WLDUSDT",
+        "contract": "WLD-USDT-SWAP",
+        "base": "WLD",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541766,
+        "mid_price": 0.42985,
+        "spread_pct": 0.02326392927765243,
+        "oi_contracts": 76209210.0,
+        "oi_notional": 32747097.537,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:DOTUSDT": [
@@ -295035,6 +296395,22 @@
         "spread_pct": 0.009924080782016472,
         "oi_contracts": 8808652.0,
         "oi_notional": 8876478.6204,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "DOTUSDT",
+        "contract": "DOT-USDT-SWAP",
+        "base": "DOT",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541761,
+        "mid_price": 1.00915,
+        "spread_pct": 0.009909329633849178,
+        "oi_contracts": 8794006.0,
+        "oi_notional": 8869634.4516,
         "notional_kind": "provider_USD"
       }
     ],
@@ -295774,6 +297150,22 @@
         "oi_contracts": 6923323.0,
         "oi_notional": 4784016.193,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "APTUSDT",
+        "contract": "APT-USDT-SWAP",
+        "base": "APT",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541850,
+        "mid_price": 0.6940500000000001,
+        "spread_pct": 0.014408183848440314,
+        "oi_contracts": 6924868.0,
+        "oi_notional": 4805858.392,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:HBARUSDT": [
@@ -296511,6 +297903,22 @@
         "spread_pct": 0.013380611493940087,
         "oi_contracts": 944500.7000000003,
         "oi_notional": 7054475.728300002,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "HBARUSDT",
+        "contract": "HBAR-USDT-SWAP",
+        "base": "HBAR",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541567,
+        "mid_price": 0.074655,
+        "spread_pct": 0.01339495010382426,
+        "oi_contracts": 944948.5000000002,
+        "oi_notional": 7054040.552500001,
         "notional_kind": "provider_USD"
       }
     ],
@@ -297250,6 +298658,22 @@
         "oi_contracts": 17584511.0,
         "oi_notional": 3694505.7611,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "MONUSDT",
+        "contract": "MON-USDT-SWAP",
+        "base": "MON",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541762,
+        "mid_price": 0.021075,
+        "spread_pct": 0.04744958481614739,
+        "oi_contracts": 17577474.0,
+        "oi_notional": 3705331.5192,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:LTCUSDT": [
@@ -297987,6 +299411,22 @@
         "spread_pct": 0.017151187719758366,
         "oi_contracts": 503757.5999999997,
         "oi_notional": 29369068.07999998,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "LTCUSDT",
+        "contract": "LTC-USDT-SWAP",
+        "base": "LTC",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541822,
+        "mid_price": 58.295,
+        "spread_pct": 0.0171541298567596,
+        "oi_contracts": 503835.19999999966,
+        "oi_notional": 29368553.80799998,
         "notional_kind": "provider_USD"
       }
     ],
@@ -298726,6 +300166,22 @@
         "oi_contracts": 7277233.0,
         "oi_notional": 54673851.529,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "BNBUSDT",
+        "contract": "BNB-USDT-SWAP",
+        "base": "BNB",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541771,
+        "mid_price": 751.665,
+        "spread_pct": 0.0013303798899763732,
+        "oi_contracts": 7279179.0,
+        "oi_notional": 54714676.8714,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ONDOUSDT": [
@@ -299463,6 +300919,22 @@
         "spread_pct": 0.023576564894505363,
         "oi_contracts": 2704437.0,
         "oi_notional": 11472221.754,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ONDOUSDT",
+        "contract": "ONDO-USDT-SWAP",
+        "base": "ONDO",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541761,
+        "mid_price": 0.42505,
+        "spread_pct": 0.023526643924241617,
+        "oi_contracts": 2705176.0,
+        "oi_notional": 11499703.176,
         "notional_kind": "provider_USD"
       }
     ],
@@ -300202,6 +301674,22 @@
         "oi_contracts": 7467816.0,
         "oi_notional": 19138518.8448,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "TAOUSDT",
+        "contract": "TAO-USDT-SWAP",
+        "base": "TAO",
+        "contract_size": 0.01,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541772,
+        "mid_price": 256.885,
+        "spread_pct": 0.00389279249469253,
+        "oi_contracts": 7472873.0,
+        "oi_notional": 19195568.8751,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ADAUSDT": [
@@ -300939,6 +302427,22 @@
         "spread_pct": 0.04886391399950599,
         "oi_contracts": 1371323.7000000007,
         "oi_notional": 28070996.139000013,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ADAUSDT",
+        "contract": "ADA-USDT-SWAP",
+        "base": "ADA",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541769,
+        "mid_price": 0.20465,
+        "spread_pct": 0.04886391399950599,
+        "oi_contracts": 1369367.3000000007,
+        "oi_notional": 28030948.631000012,
         "notional_kind": "provider_USD"
       }
     ],
@@ -301678,6 +303182,22 @@
         "oi_contracts": 189140052.0,
         "oi_notional": 17308206.15852,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "FILUSDT",
+        "contract": "FIL-USDT-SWAP",
+        "base": "FIL",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541661,
+        "mid_price": 0.91325,
+        "spread_pct": 0.010949904188337146,
+        "oi_contracts": 189286273.0,
+        "oi_notional": 17283729.58763,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:INJUSDT": [
@@ -302415,6 +303935,22 @@
         "spread_pct": 0.012358647963927851,
         "oi_contracts": 6088769.0,
         "oi_notional": 4926422.9979,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "INJUSDT",
+        "contract": "INJ-USDT-SWAP",
+        "base": "INJ",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541766,
+        "mid_price": 8.1325,
+        "spread_pct": 0.01229634183829629,
+        "oi_contracts": 6086649.0,
+        "oi_notional": 4950271.6317,
         "notional_kind": "provider_USD"
       }
     ],
@@ -303154,6 +304690,22 @@
         "oi_contracts": 1205487.0000000002,
         "oi_notional": 54958152.33000001,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "contract": "NEAR-USDT-SWAP",
+        "base": "NEAR",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541771,
+        "mid_price": 4.5755,
+        "spread_pct": 0.021855534914204913,
+        "oi_contracts": 1210962.8,
+        "oi_notional": 55389438.472,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ENAUSDT": [
@@ -303891,6 +305443,22 @@
         "spread_pct": 0.0047507066676083735,
         "oi_contracts": 8488764.0,
         "oi_notional": 17863754.9616,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ENAUSDT",
+        "contract": "ENA-USDT-SWAP",
+        "base": "ENA",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541834,
+        "mid_price": 0.21235500000000002,
+        "spread_pct": 0.004709095618178166,
+        "oi_contracts": 8480269.0,
+        "oi_notional": 18016331.4905,
         "notional_kind": "provider_USD"
       }
     ],
@@ -304630,6 +306198,22 @@
         "oi_contracts": 798806.1999999998,
         "oi_notional": 22611008.297199994,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "BCHUSDT",
+        "contract": "BCH-USDT-SWAP",
+        "base": "BCH",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541561,
+        "mid_price": 283.115,
+        "spread_pct": 0.0035321335852889833,
+        "oi_contracts": 797192.2999999998,
+        "oi_notional": 22569311.205299996,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:IRYSUSDT": [
@@ -305367,6 +306951,22 @@
         "spread_pct": 0.08988764044943454,
         "oi_contracts": 1201597.0,
         "oi_notional": 2675956.519,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "IRYSUSDT",
+        "contract": "IRYS-USDT-SWAP",
+        "base": "IRYS",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541669,
+        "mid_price": 0.022245,
+        "spread_pct": 0.04495392222971271,
+        "oi_contracts": 1204582.0,
+        "oi_notional": 2680194.95,
         "notional_kind": "provider_USD"
       }
     ],
@@ -306106,6 +307706,22 @@
         "oi_contracts": 41784.65000000002,
         "oi_notional": 13836569.001000008,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "TRXUSDT",
+        "contract": "TRX-USDT-SWAP",
+        "base": "TRX",
+        "contract_size": 1000.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541827,
+        "mid_price": 0.33113499999999996,
+        "spread_pct": 0.0030199163483201723,
+        "oi_contracts": 41786.35000000003,
+        "oi_notional": 13837131.939000009,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:AVAXUSDT": [
@@ -306843,6 +308459,22 @@
         "spread_pct": 0.011187559433903291,
         "oi_contracts": 1438678.0000000002,
         "oi_notional": 12858903.964000002,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "contract": "AVAX-USDT-SWAP",
+        "base": "AVAX",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541763,
+        "mid_price": 8.9515,
+        "spread_pct": 0.011171312070596502,
+        "oi_contracts": 1438354.8000000003,
+        "oi_notional": 12876152.169600002,
         "notional_kind": "provider_USD"
       }
     ],
@@ -307582,6 +309214,22 @@
         "oi_contracts": 4896487.0,
         "oi_notional": 3708109.6051,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ZAMAUSDT",
+        "contract": "ZAMA-USDT-SWAP",
+        "base": "ZAMA",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541775,
+        "mid_price": 0.07582,
+        "spread_pct": 0.02637826431019816,
+        "oi_contracts": 4885415.0,
+        "oi_notional": 3703633.1115,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:PONSUSDT": [
@@ -308319,6 +309967,22 @@
         "spread_pct": 0.0708215297450347,
         "oi_contracts": 3302646.0,
         "oi_notional": 9349790.826,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "PONSUSDT",
+        "contract": "PONS-USDT-SWAP",
+        "base": "PONS",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541740,
+        "mid_price": 0.28275,
+        "spread_pct": 0.03536693191865216,
+        "oi_contracts": 3295169.0,
+        "oi_notional": 9315442.763,
         "notional_kind": "provider_USD"
       }
     ],
@@ -309058,6 +310722,22 @@
         "oi_contracts": 656561.0,
         "oi_notional": 2592234.1402,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "NIGHTUSDT",
+        "contract": "NIGHT-USDT-SWAP",
+        "base": "NIGHT",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541768,
+        "mid_price": 0.03952,
+        "spread_pct": 0.05060728744939065,
+        "oi_contracts": 656425.0,
+        "oi_notional": 2594060.315,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:ETHUSDT": [
@@ -309795,6 +311475,22 @@
         "spread_pct": 0.0004243212451375237,
         "oi_contracts": 6561109.8800000185,
         "oi_notional": 1546401109.8369644,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "contract": "ETH-USDT-SWAP",
+        "base": "ETH",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541767,
+        "mid_price": 2358.825,
+        "spread_pct": 0.0004239398853142362,
+        "oi_contracts": 6559985.960000018,
+        "oi_notional": 1547520367.921884,
         "notional_kind": "provider_USD"
       }
     ],
@@ -310534,6 +312230,22 @@
         "oi_contracts": 6441637.0,
         "oi_notional": 20380051.1406,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "LITUSDT",
+        "contract": "LIT-USDT-SWAP",
+        "base": "LIT",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541770,
+        "mid_price": 3.1355500000000003,
+        "spread_pct": 0.00318923314889608,
+        "oi_contracts": 6433447.0,
+        "oi_notional": 20176576.4814,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:GRAMUSDT": [
@@ -311271,6 +312983,22 @@
         "spread_pct": 0.08173273395994196,
         "oi_contracts": 7364694.0,
         "oi_notional": 9007020.762,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "GRAMUSDT",
+        "contract": "GRAM-USDT-SWAP",
+        "base": "GRAM",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541767,
+        "mid_price": 1.2265000000000001,
+        "spread_pct": 0.08153281695883505,
+        "oi_contracts": 7375464.0,
+        "oi_notional": 9049694.328,
         "notional_kind": "provider_USD"
       }
     ],
@@ -312010,6 +313738,22 @@
         "oi_contracts": 98618425.0,
         "oi_notional": 16893336.2025,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "TRUMPUSDT",
+        "contract": "TRUMP-USDT-SWAP",
+        "base": "TRUMP",
+        "contract_size": 0.1,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541740,
+        "mid_price": 1.7125,
+        "spread_pct": 0.05839416058394815,
+        "oi_contracts": 98795587.0,
+        "oi_notional": 16923684.0531,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:XRPUSDT": [
@@ -312747,6 +314491,22 @@
         "spread_pct": 0.007650231419499597,
         "oi_contracts": 721128.4399999998,
         "oi_notional": 94258698.39239997,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "XRPUSDT",
+        "contract": "XRP-USDT-SWAP",
+        "base": "XRP",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541761,
+        "mid_price": 1.30695,
+        "spread_pct": 0.007651402119437545,
+        "oi_contracts": 721143.6899999997,
+        "oi_notional": 94275114.59369996,
         "notional_kind": "provider_USD"
       }
     ],
@@ -313486,6 +315246,22 @@
         "oi_contracts": 1716497.0,
         "oi_notional": 2392796.818,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "CTUSDT",
+        "contract": "CT-USDT-SWAP",
+        "base": "CT",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541561,
+        "mid_price": 0.13945000000000002,
+        "spread_pct": 0.07171029042668822,
+        "oi_contracts": 1708455.0,
+        "oi_notional": 2381586.27,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:BICOUSDT": [
@@ -314223,6 +315999,22 @@
         "spread_pct": 0.05768676088837376,
         "oi_contracts": 85469227.0,
         "oi_notional": 1479472.31937,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "BICOUSDT",
+        "contract": "BICO-USDT-SWAP",
+        "base": "BICO",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541763,
+        "mid_price": 0.01763,
+        "spread_pct": 0.1134429948950606,
+        "oi_contracts": 86295282.0,
+        "oi_notional": 1523111.7273,
         "notional_kind": "provider_USD"
       }
     ],
@@ -314962,6 +316754,22 @@
         "oi_contracts": 690149.5000000001,
         "oi_notional": 2056645.5100000002,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "STXUSDT",
+        "contract": "STX-USDT-SWAP",
+        "base": "STX",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541371,
+        "mid_price": 0.29825,
+        "spread_pct": 0.03352891869236847,
+        "oi_contracts": 694829.1000000001,
+        "oi_notional": 2073370.0344000002,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:CRVUSDT": [
@@ -315699,6 +317507,22 @@
         "spread_pct": 0.03001650907999069,
         "oi_contracts": 22309284.0,
         "oi_notional": 7431222.5004,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "CRVUSDT",
+        "contract": "CRV-USDT-SWAP",
+        "base": "CRV",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543029,
+        "price_ms": 1793287541562,
+        "mid_price": 0.33365,
+        "spread_pct": 0.02997152704929986,
+        "oi_contracts": 22308694.0,
+        "oi_notional": 7444411.1878,
         "notional_kind": "provider_USD"
       }
     ],
@@ -316438,6 +318262,22 @@
         "oi_contracts": 12241960.0,
         "oi_notional": 6690231.14,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "TIAUSDT",
+        "contract": "TIA-USDT-SWAP",
+        "base": "TIA",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541572,
+        "mid_price": 0.54695,
+        "spread_pct": 0.01828320687448377,
+        "oi_contracts": 12250445.0,
+        "oi_notional": 6699768.3705,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:KATUSDT": [
@@ -317175,6 +319015,22 @@
         "spread_pct": 0.022082367229769966,
         "oi_contracts": 2356818.0,
         "oi_notional": 1067874.2358,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "KATUSDT",
+        "contract": "KAT-USDT-SWAP",
+        "base": "KAT",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541765,
+        "mid_price": 0.0045155,
+        "spread_pct": 0.022145941756176117,
+        "oi_contracts": 2361497.0,
+        "oi_notional": 1065035.147,
         "notional_kind": "provider_USD"
       }
     ],
@@ -317914,6 +319770,22 @@
         "oi_contracts": 25634695.0,
         "oi_notional": 2056415.2329,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "PIUSDT",
+        "contract": "PI-USDT-SWAP",
+        "base": "PI",
+        "contract_size": 1.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541772,
+        "mid_price": 0.080195,
+        "spread_pct": 0.03740881601097605,
+        "oi_contracts": 25656412.0,
+        "oi_notional": 2058413.93476,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:XDPUSDT": [
@@ -318651,6 +320523,22 @@
         "spread_pct": 0.10660980810234108,
         "oi_contracts": 640722.0,
         "oi_notional": 1202635.194,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "XDPUSDT",
+        "contract": "XDP-USDT-SWAP",
+        "base": "XDP",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543031,
+        "price_ms": 1793287541563,
+        "mid_price": 0.018834999999999998,
+        "spread_pct": 0.05309264666843427,
+        "oi_contracts": 640689.0,
+        "oi_notional": 1206417.387,
         "notional_kind": "provider_USD"
       }
     ],
@@ -319390,6 +321278,22 @@
         "oi_contracts": 567142.0,
         "oi_notional": 1673636.042,
         "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "HUMAUSDT",
+        "contract": "HUMA-USDT-SWAP",
+        "base": "HUMA",
+        "contract_size": 100.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541766,
+        "mid_price": 0.0298,
+        "spread_pct": 0.06711409395972881,
+        "oi_contracts": 566990.0,
+        "oi_notional": 1689063.21,
+        "notional_kind": "provider_USD"
       }
     ],
     "OKX:PYTHUSDT": [
@@ -319439,6 +321343,22 @@
         "spread_pct": 0.02748763056625361,
         "oi_contracts": 3112208.0,
         "oi_notional": 2263820.0992,
+        "notional_kind": "provider_USD"
+      },
+      {
+        "symbol": "PYTHUSDT",
+        "contract": "PYTH-USDT-SWAP",
+        "base": "PYTH",
+        "contract_size": 10.0,
+        "identity_scope": "exact exchange base ID; cross-venue contract authenticity not independently verified",
+        "venue": "OKX",
+        "observed_ms": 1793287542956,
+        "retrieved_ms": 1793287543030,
+        "price_ms": 1793287541850,
+        "mid_price": 0.07300999999999999,
+        "spread_pct": 0.05478701547732965,
+        "oi_contracts": 3108610.0,
+        "oi_notional": 2268352.717,
         "notional_kind": "provider_USD"
       }
     ]
@@ -320831,6 +322751,21 @@
         "observed_ms": 1793286961327,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "TIAUSDT",
+        "contract": "TIA-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.9465587162909875,
+        "long_pct": 48.627288165988624,
+        "short_pct": 51.372711834011376,
+        "provider_ms": 1793287200000,
+        "observed_ms": 1793287543825,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "MEXC:TRXUSDT:OKX": [
@@ -322065,6 +324000,21 @@
         "short_pct": 51.96266729437,
         "provider_ms": 1793286900000,
         "observed_ms": 1793287243961,
+        "is_market_wide": false,
+        "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "LINKUSDT",
+        "contract": "LINK-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.9234090803726186,
+        "long_pct": 48.00897998223697,
+        "short_pct": 51.99102001776303,
+        "provider_ms": 1793287200000,
+        "observed_ms": 1793287544412,
         "is_market_wide": false,
         "is_account_count": false
       }
@@ -323579,6 +325529,21 @@
         "observed_ms": 1793287245463,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "PENDLEUSDT",
+        "contract": "PENDLE-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 1.3581944884987605,
+        "long_pct": 57.594676568148316,
+        "short_pct": 42.405323431851684,
+        "provider_ms": 1793287500000,
+        "observed_ms": 1793287545843,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "MEXC:ADAUSDT:OKX": [
@@ -323866,6 +325831,21 @@
         "observed_ms": 1793286963838,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "ADAUSDT",
+        "contract": "ADA-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.8592841091888174,
+        "long_pct": 46.21585829417497,
+        "short_pct": 53.78414170582503,
+        "provider_ms": 1793287200000,
+        "observed_ms": 1793287546329,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "MEXC:BEATUSDT:OKX": [
@@ -324061,6 +326041,21 @@
         "short_pct": 51.36595908550168,
         "provider_ms": 1793286900000,
         "observed_ms": 1793286964765,
+        "is_market_wide": false,
+        "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "BEATUSDT",
+        "contract": "BEAT-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.9805807095749596,
+        "long_pct": 49.50975766018624,
+        "short_pct": 50.49024233981376,
+        "provider_ms": 1793287500000,
+        "observed_ms": 1793287546943,
         "is_market_wide": false,
         "is_account_count": false
       }
@@ -325330,6 +327325,21 @@
         "observed_ms": 1793287244149,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "OKBUSDT",
+        "contract": "OKB-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.7915221208102305,
+        "long_pct": 44.18154325955284,
+        "short_pct": 55.81845674044716,
+        "provider_ms": 1793287500000,
+        "observed_ms": 1793287543747,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "OKX:IRYSUSDT:OKX": [
@@ -325932,6 +327942,21 @@
         "short_pct": 52.13123949666543,
         "provider_ms": 1793286900000,
         "observed_ms": 1793286962164,
+        "is_market_wide": false,
+        "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "UNIUSDT",
+        "contract": "UNI-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.9175464352180638,
+        "long_pct": 47.85002430012706,
+        "short_pct": 52.14997569987294,
+        "provider_ms": 1793287500000,
+        "observed_ms": 1793287544206,
         "is_market_wide": false,
         "is_account_count": false
       }
@@ -327690,6 +329715,21 @@
         "observed_ms": 1793286962621,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "FILUSDT",
+        "contract": "FIL-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.7415319102575885,
+        "long_pct": 42.57928929639361,
+        "short_pct": 57.42071070360639,
+        "provider_ms": 1793287200000,
+        "observed_ms": 1793287544962,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "OKX:AAVEUSDT:OKX": [
@@ -328328,6 +330368,21 @@
         "observed_ms": 1793286963136,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "BICOUSDT",
+        "contract": "BICO-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.7233664488561781,
+        "long_pct": 41.974035721554536,
+        "short_pct": 58.025964278445464,
+        "provider_ms": 1793287500000,
+        "observed_ms": 1793287545314,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "OKX:HUMAUSDT:OKX": [
@@ -328585,6 +330640,21 @@
         "observed_ms": 1793287248579,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "HUMAUSDT",
+        "contract": "HUMA-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 1.1141763102090276,
+        "long_pct": 52.70025516929899,
+        "short_pct": 47.29974483070101,
+        "provider_ms": 1793287200000,
+        "observed_ms": 1793287548332,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "OKX:HYPEUSDT:OKX": [
@@ -328797,6 +330867,21 @@
         "observed_ms": 1793287246093,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "HYPEUSDT",
+        "contract": "HYPE-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 1.009032158944554,
+        "long_pct": 50.22478880948573,
+        "short_pct": 49.77521119051427,
+        "provider_ms": 1793287500000,
+        "observed_ms": 1793287545787,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "OKX:APTUSDT:OKX": [
@@ -328964,6 +331049,21 @@
         "observed_ms": 1793286964642,
         "is_market_wide": false,
         "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "APTUSDT",
+        "contract": "APT-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.7795987794240514,
+        "long_pct": 43.80755867209352,
+        "short_pct": 56.19244132790648,
+        "provider_ms": 1793287200000,
+        "observed_ms": 1793287546312,
+        "is_market_wide": false,
+        "is_account_count": false
       }
     ],
     "OKX:AVAXUSDT:OKX": [
@@ -329099,6 +331199,21 @@
         "short_pct": 51.985410945835326,
         "provider_ms": 1793286900000,
         "observed_ms": 1793286966131,
+        "is_market_wide": false,
+        "is_account_count": false
+      },
+      {
+        "status": "observed",
+        "provider": "OKX",
+        "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
+        "symbol": "AVAXUSDT",
+        "contract": "AVAX-USDT-SWAP",
+        "period": "5m",
+        "ratio_long_over_short": 0.9218415096152114,
+        "long_pct": 47.96657294595439,
+        "short_pct": 52.03342705404561,
+        "provider_ms": 1793287200000,
+        "observed_ms": 1793287547810,
         "is_market_wide": false,
         "is_account_count": false
       }
@@ -329554,8 +331669,8 @@
       "invalid": 0.5311599814856812,
       "atr": 0.0042667900954591964,
       "initial_price": 0.5324,
-      "latest_price": 0.5465,
-      "last_observed_ms": 1793287247151,
+      "latest_price": 0.5465500000000001,
+      "last_observed_ms": 1793287547556,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -329565,12 +331680,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 51.35658600313642,
-            "long_pct": 48.64341399686358,
-            "provider_ms": 1793286900000,
-            "change_pp": -0.46243523243057183,
-            "previous_short_pct": 51.81902123556699,
-            "old_ms": 1793283300000,
+            "short_pct": 51.372711834011376,
+            "long_pct": 48.627288165988624,
+            "provider_ms": 1793287200000,
+            "change_pp": -0.5315377848113343,
+            "previous_short_pct": 51.90424961882271,
+            "old_ms": 1793283600000,
             "supports": false
           },
           "BINANCE": {
@@ -329580,13 +331695,13 @@
         },
         "negative_funding": true,
         "score": 1,
-        "oi_change_pct": -12.204758537591154,
-        "price_change_pct": 1.279317697228155,
-        "oi_old_ms": 1793283628014,
-        "oi_ms": 1793287238998,
+        "oi_change_pct": -13.156813402551926,
+        "price_change_pct": 1.3438368860055672,
+        "oi_old_ms": 1793283913127,
+        "oi_ms": 1793287541063,
         "supporting_sources": [],
         "opposing_sources": [],
-        "funding_8h_pct": -0.0026,
+        "funding_8h_pct": -0.003,
         "strict_short_confirmed": false,
         "short_information": "observed_without_confirmation"
       },
@@ -329657,8 +331772,8 @@
       "invalid": 11.564361899323872,
       "atr": 0.04425400450752087,
       "initial_price": 11.588999999999999,
-      "latest_price": 11.878499999999999,
-      "last_observed_ms": 1793287247434,
+      "latest_price": 11.8615,
+      "last_observed_ms": 1793287547852,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -329668,12 +331783,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 51.96266729437,
-            "long_pct": 48.03733270563,
-            "provider_ms": 1793286900000,
-            "change_pp": -0.004511509962888738,
-            "previous_short_pct": 51.96717880433289,
-            "old_ms": 1793283300000,
+            "short_pct": 51.99102001776303,
+            "long_pct": 48.00897998223697,
+            "provider_ms": 1793287200000,
+            "change_pp": 0.05032023277170339,
+            "previous_short_pct": 51.940699784991324,
+            "old_ms": 1793283600000,
             "supports": false
           },
           "BINANCE": {
@@ -329683,10 +331798,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": -4.1483066789221095,
-        "price_change_pct": 1.8968328898806952,
-        "oi_old_ms": 1793283627980,
-        "oi_ms": 1793287238968,
+        "oi_change_pct": -4.403375193671055,
+        "price_change_pct": 1.8412017167382055,
+        "oi_old_ms": 1793283913094,
+        "oi_ms": 1793287541035,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -329708,8 +331823,8 @@
       "invalid": 110.75911879070331,
       "atr": 0.339208061977973,
       "initial_price": 111.1,
-      "latest_price": 113.91499999999999,
-      "last_observed_ms": 1793287249196,
+      "latest_price": 114.19999999999999,
+      "last_observed_ms": 1793287548945,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -329719,12 +331834,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 55.71803383788484,
-            "long_pct": 44.28196616211516,
-            "provider_ms": 1793287200000,
-            "change_pp": -0.40602993808792576,
-            "previous_short_pct": 56.124063775972765,
-            "old_ms": 1793283600000,
+            "short_pct": 55.81845674044716,
+            "long_pct": 44.18154325955284,
+            "provider_ms": 1793287500000,
+            "change_pp": -0.2571773064302434,
+            "previous_short_pct": 56.075634046877404,
+            "old_ms": 1793283900000,
             "supports": false
           },
           "BINANCE": {
@@ -329734,13 +331849,13 @@
         },
         "negative_funding": true,
         "score": 1,
-        "oi_change_pct": 1.6810504715582653,
-        "price_change_pct": 1.156223595855388,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": 1.579599946105703,
+        "price_change_pct": 1.7372711479353153,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
-        "funding_8h_pct": -0.00790602761052,
+        "funding_8h_pct": -0.0077127044071,
         "strict_short_confirmed": false,
         "short_information": "observed_without_confirmation"
       },
@@ -329831,8 +331946,8 @@
       "invalid": 7.123649379388617,
       "atr": 0.04900413740922264,
       "initial_price": 7.156000000000001,
-      "latest_price": 7.367,
-      "last_observed_ms": 1793287249489,
+      "latest_price": 7.37,
+      "last_observed_ms": 1793287549261,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -329842,12 +331957,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 52.09524820455751,
-            "long_pct": 47.90475179544249,
-            "provider_ms": 1793286900000,
-            "change_pp": -0.2758048948047289,
-            "previous_short_pct": 52.371053099362236,
-            "old_ms": 1793283300000,
+            "short_pct": 52.14997569987294,
+            "long_pct": 47.85002430012706,
+            "provider_ms": 1793287500000,
+            "change_pp": -0.2593967069254717,
+            "previous_short_pct": 52.40937240679841,
+            "old_ms": 1793283900000,
             "supports": false
           },
           "BINANCE": {
@@ -329857,10 +331972,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 1.0660737039314805,
-        "price_change_pct": 2.25046884767659,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": 1.1751110298977796,
+        "price_change_pct": 2.5446707919071,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -330163,8 +332278,8 @@
       "invalid": 0.9015137170445492,
       "atr": 0.005908553036338929,
       "initial_price": 0.90755,
-      "latest_price": 0.9158999999999999,
-      "last_observed_ms": 1793287249810,
+      "latest_price": 0.91305,
+      "last_observed_ms": 1793287549565,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -330174,12 +332289,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 57.24187673290114,
-            "long_pct": 42.75812326709886,
-            "provider_ms": 1793286900000,
-            "change_pp": 0.07812393624605818,
-            "previous_short_pct": 57.16375279665508,
-            "old_ms": 1793283300000,
+            "short_pct": 57.42071070360639,
+            "long_pct": 42.57928929639361,
+            "provider_ms": 1793287200000,
+            "change_pp": 0.35804227156641844,
+            "previous_short_pct": 57.06266843203997,
+            "old_ms": 1793283600000,
             "supports": false
           },
           "BINANCE": {
@@ -330189,13 +332304,13 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": -0.926368061175753,
-        "price_change_pct": 0.7263522808562239,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": -0.7863594528924378,
+        "price_change_pct": 0.5948119182684231,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
-        "funding_8h_pct": 0.0010055859123,
+        "funding_8h_pct": 0.00080839862199,
         "strict_short_confirmed": false,
         "short_information": "observed_without_confirmation"
       },
@@ -330417,8 +332532,8 @@
       "invalid": 0.7023456898098095,
       "atr": 0.0016954012679369012,
       "initial_price": 0.7051499999999999,
-      "latest_price": 0.7198,
-      "last_observed_ms": 1793287247751,
+      "latest_price": 0.7204,
+      "last_observed_ms": 1793287548158,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -330428,10 +332543,10 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 50.16599140389623,
-            "long_pct": 49.83400859610377,
+            "short_pct": 50.158094807929594,
+            "long_pct": 49.841905192070406,
             "provider_ms": 1793287200000,
-            "change_pp": -0.35575071381524737,
+            "change_pp": -0.3636473097818822,
             "previous_short_pct": 50.521742117711476,
             "old_ms": 1793283600000,
             "supports": false
@@ -330443,10 +332558,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": -0.8015832629707842,
-        "price_change_pct": 1.666784377427799,
-        "oi_old_ms": 1793283628054,
-        "oi_ms": 1793287239033,
+        "oi_change_pct": -3.447277666556059,
+        "price_change_pct": 1.7094017094017033,
+        "oi_old_ms": 1793283913162,
+        "oi_ms": 1793287541096,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -330610,8 +332725,8 @@
       "invalid": 0.016323865936754743,
       "atr": 0.00017422708830170208,
       "initial_price": 0.016515000000000002,
-      "latest_price": 0.017355000000000002,
-      "last_observed_ms": 1793287250105,
+      "latest_price": 0.017655,
+      "last_observed_ms": 1793287549849,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -330621,12 +332736,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 58.51243487122794,
-            "long_pct": 41.48756512877206,
-            "provider_ms": 1793286900000,
-            "change_pp": -0.07195573847447179,
-            "previous_short_pct": 58.58439060970241,
-            "old_ms": 1793283300000,
+            "short_pct": 58.025964278445464,
+            "long_pct": 41.974035721554536,
+            "provider_ms": 1793287500000,
+            "change_pp": -0.18264187014735,
+            "previous_short_pct": 58.208606148592814,
+            "old_ms": 1793283600000,
             "supports": false
           },
           "BINANCE": {
@@ -330636,10 +332751,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 1.471093660874745,
-        "price_change_pct": 3.771325950314308,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": 2.0108453505152557,
+        "price_change_pct": 4.660136539032367,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -330661,8 +332776,8 @@
       "invalid": 0.65740907827981,
       "atr": 0.0046061448012671225,
       "initial_price": 0.66315,
-      "latest_price": 0.67475,
-      "last_observed_ms": 1793287248083,
+      "latest_price": 0.67875,
+      "last_observed_ms": 1793287548472,
       "latest_derivatives": {
         "ready": true,
         "reasons": [],
@@ -330670,10 +332785,10 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 46.149030744383275,
-            "long_pct": 53.850969255616725,
+            "short_pct": 46.12375759986806,
+            "long_pct": 53.87624240013194,
             "provider_ms": 1793287200000,
-            "change_pp": -0.5155242009234726,
+            "change_pp": -0.5407973454386905,
             "previous_short_pct": 46.66455494530675,
             "old_ms": 1793283600000,
             "supports": false
@@ -330685,10 +332800,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 4.77973326468728,
-        "price_change_pct": 1.0492393015063994,
-        "oi_old_ms": 1793283628149,
-        "oi_ms": 1793287239124,
+        "oi_change_pct": 4.481970899601273,
+        "price_change_pct": 1.8222722159730198,
+        "oi_old_ms": 1793283913256,
+        "oi_ms": 1793287541186,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -330710,8 +332825,8 @@
       "invalid": 1.9202410961252645,
       "atr": 0.011726025831569892,
       "initial_price": 1.9395,
-      "latest_price": 1.9705,
-      "last_observed_ms": 1793287248347,
+      "latest_price": 1.9715,
+      "last_observed_ms": 1793287548753,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -330721,12 +332836,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 42.40985293115811,
-            "long_pct": 57.59014706884189,
-            "provider_ms": 1793287200000,
-            "change_pp": -0.37872619922610085,
-            "previous_short_pct": 42.788579130384214,
-            "old_ms": 1793283600000,
+            "short_pct": 42.405323431851684,
+            "long_pct": 57.594676568148316,
+            "provider_ms": 1793287500000,
+            "change_pp": -0.38131039521589827,
+            "previous_short_pct": 42.78663382706758,
+            "old_ms": 1793283900000,
             "supports": false
           },
           "BINANCE": {
@@ -330736,10 +332851,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 1.3639667824047574,
-        "price_change_pct": 1.727923134540399,
-        "oi_old_ms": 1793283628184,
-        "oi_ms": 1793287239160,
+        "oi_change_pct": 1.3592803270937592,
+        "price_change_pct": 2.0219780219780326,
+        "oi_old_ms": 1793283913289,
+        "oi_ms": 1793287541222,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -330761,8 +332876,8 @@
       "invalid": 0.20024663065103632,
       "atr": 0.001022462326424459,
       "initial_price": 0.20095000000000002,
-      "latest_price": 0.20495,
-      "last_observed_ms": 1793287248661,
+      "latest_price": 0.20465,
+      "last_observed_ms": 1793287549065,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -330772,12 +332887,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 53.7911866419631,
-            "long_pct": 46.2088133580369,
-            "provider_ms": 1793286900000,
-            "change_pp": 0.009915126620512638,
-            "previous_short_pct": 53.78127151534259,
-            "old_ms": 1793283300000,
+            "short_pct": 53.78414170582503,
+            "long_pct": 46.21585829417497,
+            "provider_ms": 1793287200000,
+            "change_pp": -0.032677383316581654,
+            "previous_short_pct": 53.81681908914161,
+            "old_ms": 1793283600000,
             "supports": false
           },
           "BINANCE": {
@@ -330787,10 +332902,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": -1.7037177234726864,
-        "price_change_pct": 1.4367104285360366,
-        "oi_old_ms": 1793283627988,
-        "oi_ms": 1793287238971,
+        "oi_change_pct": -1.193127067230082,
+        "price_change_pct": 1.486988847583648,
+        "oi_old_ms": 1793283913103,
+        "oi_ms": 1793287541035,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -330812,8 +332927,8 @@
       "invalid": 0.03573991989240082,
       "atr": 0.00017386738399450985,
       "initial_price": 0.035944500000000004,
-      "latest_price": 0.0366265,
-      "last_observed_ms": 1793287248938,
+      "latest_price": 0.0366225,
+      "last_observed_ms": 1793287549354,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -330831,10 +332946,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 2.310995008147332,
-        "price_change_pct": 1.0628019323671634,
-        "oi_old_ms": 1793283628164,
-        "oi_ms": 1793287239140,
+        "oi_change_pct": 2.373184183950916,
+        "price_change_pct": 1.0066188637617435,
+        "oi_old_ms": 1793283913272,
+        "oi_ms": 1793287541204,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -330952,8 +333067,8 @@
       "invalid": 0.09661106911750982,
       "atr": 0.0028595392166012494,
       "initial_price": 0.10077,
-      "latest_price": 0.11155999999999999,
-      "last_observed_ms": 1793287249246,
+      "latest_price": 0.112175,
+      "last_observed_ms": 1793287549665,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -330964,12 +333079,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 51.119616654502344,
-            "long_pct": 48.880383345497656,
-            "provider_ms": 1793286900000,
-            "change_pp": -1.094982566895041,
-            "previous_short_pct": 52.214599221397386,
-            "old_ms": 1793283300000,
+            "short_pct": 50.49024233981376,
+            "long_pct": 49.50975766018624,
+            "provider_ms": 1793287500000,
+            "change_pp": -1.4556505440784875,
+            "previous_short_pct": 51.94589288389225,
+            "old_ms": 1793283600000,
             "supports": false
           },
           "BINANCE": {
@@ -330979,10 +333094,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": -38.89887900887281,
-        "price_change_pct": 12.733816596542802,
-        "oi_old_ms": 1793283627977,
-        "oi_ms": 1793287238961,
+        "oi_change_pct": -38.28991356326124,
+        "price_change_pct": 14.25732484076432,
+        "oi_old_ms": 1793283913092,
+        "oi_ms": 1793287541026,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.053399999999999996,
@@ -331004,8 +333119,8 @@
       "invalid": 90.12928451442735,
       "atr": 1.0581032371509749,
       "initial_price": 91.0235,
-      "latest_price": 93.238,
-      "last_observed_ms": 1793287250402,
+      "latest_price": 93.0655,
+      "last_observed_ms": 1793287550144,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -331015,12 +333130,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 49.78612790839952,
-            "long_pct": 50.21387209160048,
-            "provider_ms": 1793287200000,
-            "change_pp": 0.029971730362859716,
-            "previous_short_pct": 49.75615617803666,
-            "old_ms": 1793283600000,
+            "short_pct": 49.77521119051427,
+            "long_pct": 50.22478880948573,
+            "provider_ms": 1793287500000,
+            "change_pp": 0.012329590887397046,
+            "previous_short_pct": 49.76288159962687,
+            "old_ms": 1793283900000,
             "supports": false
           },
           "BINANCE": {
@@ -331030,10 +333145,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 0.8112888300725096,
-        "price_change_pct": 1.929475478668885,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": 0.45567334473284316,
+        "price_change_pct": 2.211935003816512,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -331055,8 +333170,8 @@
       "invalid": 0.6755006101752214,
       "atr": 0.00466259883185721,
       "initial_price": 0.68065,
-      "latest_price": 0.69185,
-      "last_observed_ms": 1793287250694,
+      "latest_price": 0.69395,
+      "last_observed_ms": 1793287550441,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -331066,12 +333181,12 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 56.424967774682834,
-            "long_pct": 43.575032225317166,
-            "provider_ms": 1793286900000,
-            "change_pp": 0.007145355399032383,
-            "previous_short_pct": 56.4178224192838,
-            "old_ms": 1793283300000,
+            "short_pct": 56.19244132790648,
+            "long_pct": 43.80755867209352,
+            "provider_ms": 1793287200000,
+            "change_pp": -0.3386790903575374,
+            "previous_short_pct": 56.53112041826402,
+            "old_ms": 1793283600000,
             "supports": false
           },
           "BINANCE": {
@@ -331081,13 +333196,13 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": -1.4549344249694673,
-        "price_change_pct": 1.677087164398694,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": -1.1209880950256101,
+        "price_change_pct": 2.216494845360817,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
-        "funding_8h_pct": 0.00941964456788,
+        "funding_8h_pct": 0.00924516969606,
         "strict_short_confirmed": false,
         "short_information": "observed_without_confirmation"
       },
@@ -331109,8 +333224,8 @@
       "invalid": 0.9875097595597054,
       "atr": 0.005934936268629926,
       "initial_price": 0.99595,
-      "latest_price": 1.00855,
-      "last_observed_ms": 1793287251000,
+      "latest_price": 1.0088499999999998,
+      "last_observed_ms": 1793287550744,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -331120,10 +333235,10 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 55.2170208069965,
-            "long_pct": 44.7829791930035,
+            "short_pct": 55.35463918422621,
+            "long_pct": 44.64536081577379,
             "provider_ms": 1793287200000,
-            "change_pp": -0.3059066212898216,
+            "change_pp": -0.16828824406011478,
             "previous_short_pct": 55.52292742828632,
             "old_ms": 1793283900000,
             "supports": false
@@ -331135,13 +333250,13 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 0.09155062811094794,
-        "price_change_pct": 1.1849174072400492,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": -0.25042864836587464,
+        "price_change_pct": 1.3813542294554892,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
-        "funding_8h_pct": 0.00870968223616,
+        "funding_8h_pct": 0.00902453853709,
         "strict_short_confirmed": false,
         "short_information": "observed_without_confirmation"
       },
@@ -331163,8 +333278,8 @@
       "invalid": 0.11028211219423761,
       "atr": 0.0007192520384159452,
       "initial_price": 0.11129,
-      "latest_price": 0.11280499999999999,
-      "last_observed_ms": 1793287251296,
+      "latest_price": 0.112735,
+      "last_observed_ms": 1793287551059,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -331174,10 +333289,10 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 55.71429843822479,
-            "long_pct": 44.28570156177521,
+            "short_pct": 55.697152893771595,
+            "long_pct": 44.302847106228405,
             "provider_ms": 1793287200000,
-            "change_pp": -0.6361039390097218,
+            "change_pp": -0.6532494834629148,
             "previous_short_pct": 56.35040237723451,
             "old_ms": 1793284200000,
             "supports": false
@@ -331189,13 +333304,13 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": -1.2864447828869863,
-        "price_change_pct": 1.3398678116991025,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": -0.9529824204608128,
+        "price_change_pct": 1.5351370818889931,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
-        "funding_8h_pct": 0.00671340500899,
+        "funding_8h_pct": 0.0062252127712900006,
         "strict_short_confirmed": false,
         "short_information": "observed_without_confirmation"
       },
@@ -331214,8 +333329,8 @@
       "invalid": 8.75590654648781,
       "atr": 0.04728969008127554,
       "initial_price": 8.838999999999999,
-      "latest_price": 8.946,
-      "last_observed_ms": 1793287251592,
+      "latest_price": 8.95,
+      "last_observed_ms": 1793287551343,
       "latest_derivatives": {
         "ready": false,
         "reasons": [
@@ -331225,10 +333340,10 @@
           "OKX": {
             "status": "observed",
             "scope": "OKX: açık pozisyon değeri en büyük %5 yatırımcı, pozisyon büyüklüğü oranı",
-            "short_pct": 52.063462206203894,
-            "long_pct": 47.936537793796106,
-            "provider_ms": 1793286900000,
-            "change_pp": -0.010273791507700025,
+            "short_pct": 52.03342705404561,
+            "long_pct": 47.96657294595439,
+            "provider_ms": 1793287200000,
+            "change_pp": -0.04030894366598403,
             "previous_short_pct": 52.073735997711594,
             "old_ms": 1793283900000,
             "supports": false
@@ -331240,10 +333355,10 @@
         },
         "negative_funding": false,
         "score": 0,
-        "oi_change_pct": 0.24139265691132117,
-        "price_change_pct": 1.2803807149736723,
-        "oi_old_ms": 1793283614491,
-        "oi_ms": 1793287243332,
+        "oi_change_pct": 0.013913663112874453,
+        "price_change_pct": 1.393215155462424,
+        "oi_old_ms": 1793283914542,
+        "oi_ms": 1793287542956,
         "supporting_sources": [],
         "opposing_sources": [],
         "funding_8h_pct": 0.01,
@@ -334047,6 +336162,62 @@
       },
       "finished_ms": 1793287255146,
       "duration_ms": 14083
+    },
+    {
+      "started_ms": 1793287541063,
+      "session_id": "40899594364",
+      "scan_complete": true,
+      "scan_finished_ms": 1793287551657,
+      "coverage": {
+        "OKX": {
+          "active_spot": 372,
+          "liquid_spot_perpetual": 124,
+          "bounded_universe": 60,
+          "requested": 60,
+          "attempted": 60,
+          "chart_evaluated": 60,
+          "evaluated": 10,
+          "candidate_quotes": 10,
+          "active": 9,
+          "chart_budget_seconds": 150
+        },
+        "MEXC": {
+          "active_spot": 1247,
+          "liquid_spot_perpetual": 112,
+          "bounded_universe": 60,
+          "requested": 60,
+          "attempted": 60,
+          "chart_evaluated": 60,
+          "evaluated": 8,
+          "candidate_quotes": 8,
+          "active": 8,
+          "chart_budget_seconds": 150
+        }
+      },
+      "errors": {
+        "MEXC": [
+          "TIAUSDT BINANCE: BINANCE: public HTTP 451",
+          "LINKUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "ASTERUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "ETHFIUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "PENDLEUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "ADAUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "KASUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "BEATUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
+        ],
+        "OKX": [
+          "OKBUSDT BINANCE: BINANCE: public HTTP 451",
+          "UNIUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "FILUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "BICOUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "HYPEUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "APTUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "DOTUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "OPUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "AVAXUSDT BINANCE: BINANCE: public requests stopped after access/rate error",
+          "HUMAUSDT BINANCE: BINANCE: public requests stopped after access/rate error"
+        ]
+      }
     }
   ],
   "review_candidates": {},
@@ -572374,12 +574545,12 @@
     "old_entries_replayed": false
   },
   "latest": {
-    "observed_ms": 1793287251897,
+    "observed_ms": 1793287551644,
     "new_preparations": [],
     "reasons": {
       "btc_relative_weak": 96,
       "oi_growth_insufficient": 17,
-      "price_not_holding_or_extended": 2,
+      "price_not_holding_or_extended": 1,
       "price_preparation_not_ready": 119,
       "1h_structure_weak": 17,
       "4h_structure_weak": 17,
@@ -572415,13 +574586,13 @@
   },
   "timing": {
     "all_starts": {
-      "intervals": 45,
+      "intervals": 46,
       "p95_minutes": 5.000016666666666,
       "longest_minutes": 5.476683333333333,
       "over_10_minutes": 0
     },
     "within_session": {
-      "intervals": 43,
+      "intervals": 44,
       "p95_minutes": 5.000016666666666,
       "longest_minutes": 5.000016666666666,
       "over_10_minutes": 0
