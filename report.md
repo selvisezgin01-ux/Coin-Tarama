@@ -70,6 +70,10 @@ GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç s
 - Solana: WOON: gecko_request_reserved_for_buy_pressure
 
 
+
+
+
+
 <!-- meme-v6-pipeline -->
 
 ## V6 keşif, aşamalar ve gerçek zamanlama
@@ -86,7 +90,7 @@ Yeni havuz keşfi en çok2sayfa/ağ;15dk altı havuzlar uygun yaşa yaklaşırke
 
 Zamanlama: {"started_ms": 1793287125985, "finished_ms": 1793287351377, "duration_seconds": 225.392, "github_run_created_at": "2026-10-29T13:21:10Z", "worker_started_ms": "1793283524519", "github_job_started_at": "2026-10-29T14:18:28Z", "cadence": {"interval_count": 56, "p95_minutes": 5.417016666666667, "max_minutes": 5.627933333333333, "meets_7m_target": true, "full_24h_observed": false}}
 
-İstek durumu: {"api.geckoterminal.com:ok": 19, "api.dexscreener.com:ok": 11, "gecko:reserved_for_buy_pressure": 5}; sağlayıcı429bekleme bitişi: 1793221779011
+İstek durumu: {"api.geckoterminal.com:ok": 19, "api.dexscreener.com:ok": 17, "gecko:reserved_for_buy_pressure": 5}; sağlayıcı429bekleme bitişi: 1793221779011
 
 GitHub worker oturumları sınırlıdır. Çalışan oturum içinde hedef5dk; oturum başlangıcı/yenilenmesi gecikebilir. Gerçek aralıklar yukarıda;24saat tamamlanmadan kesintisiz5dk doğrulandı denmez. EskiV5 paralel taranmaz, referansları previous_v5 içinde korunur.
 
