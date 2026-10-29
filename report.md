@@ -1,6 +1,6 @@
 # Coin Tarama 5
 
-Son gözlem: 29.10.2026 07:57 TR.
+Son gözlem: 29.10.2026 08:33 TR.
 
 Bağımsız fiyat + pozisyon davranışı deneyi. 4s genel yapı, 1s hazırlık bağlamı, kapalı 15dk mumla kırılım/geri test; yaklaşık 5dk kamu veri kontrolü. GitHub gecikebilir/atlayabilir. Fiyat düşmezken OI ve kaynak grubun short payı artışı aranır; negatif fonlama yalnız ek destek.
 
@@ -11,13 +11,13 @@ Aktif 0 farklı coin; sınır 5. Hazırlık/tetik aynı coin için iki bağıms�
 
 Şu an doğrulanmış hazırlık/tetik yok. İlk OI ve oran bazları yaklaşık 45–75dk aralığında gerçek gözlemler biriktirir; kapsam rotasyonu/sağlayıcı/GitHub gecikmesi bunu uzatabilir.
 
-OKX: {"cursor": 48, "coverage": {"active_spot": 372, "liquid_spot_perpetual": 120, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 49, "futures": 3, "ratios": {"OKX": 0, "BINANCE": 0}}}
+OKX: {"cursor": 0, "coverage": {"active_spot": 372, "liquid_spot_perpetual": 121, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 52, "futures": 3, "ratios": {"OKX": 0, "BINANCE": 0}}}
 
-MEXC: {"cursor": 48, "coverage": {"active_spot": 1246, "liquid_spot_perpetual": 110, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": ["BTWUSDT BINANCE: BINANCE: public HTTP 451"], "calls": {"spot": 52, "futures": 3, "ratios": {"OKX": 2, "BINANCE": 1}}}
+MEXC: {"cursor": 0, "coverage": {"active_spot": 1246, "liquid_spot_perpetual": 109, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 51, "futures": 2, "ratios": {"OKX": 0, "BINANCE": 0}}}
 
 ## Eleme ve veri durumu
 
-{"4h_structure_weak": 10, "1h_structure_weak": 19, "btc_relative_weak": 11, "oi_baseline_warming": 24, "short_increase_unconfirmed": 24, "spot_spread": 1, "price_preparation_not_ready": 23}
+{"4h_structure_weak": 12, "1h_structure_weak": 20, "oi_baseline_warming": 24, "short_increase_unconfirmed": 24, "btc_relative_weak": 14, "spot_futures_basis": 1, "price_preparation_not_ready": 24}
 
 Bekleyen mesaj: 0. Deneysel eşikler başarı olasılığı değildir; yalnız sinyal sayısını artırmak için değiştirilmez.
 
