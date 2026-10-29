@@ -152566,7 +152566,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793302422094,
+      "duration_ms": 16084
     }
   ],
   "measurements": {
@@ -152636,7 +152638,7 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793302125731,
+      "observed_ms": 1793302422094,
       "unique_reads": 0
     },
     "summary": {
