@@ -1,6 +1,6 @@
 # Coin Tarama 5
 
-Son gözlem: 29.10.2026 06:28 TR.
+Son gözlem: 29.10.2026 07:14 TR.
 
 Bağımsız fiyat + pozisyon davranışı deneyi. 4s genel yapı, 1s hazırlık bağlamı, kapalı 15dk mumla kırılım/geri test; yaklaşık 5dk kamu veri kontrolü. GitHub gecikebilir/atlayabilir. Fiyat düşmezken OI ve kaynak grubun short payı artışı aranır; negatif fonlama yalnız ek destek.
 
@@ -11,13 +11,13 @@ Aktif 0 farklı coin; sınır 5. Hazırlık/tetik aynı coin için iki bağıms�
 
 Şu an doğrulanmış hazırlık/tetik yok. İlk OI ve oran bazları yaklaşık 45–75dk aralığında gerçek gözlemler biriktirir; kapsam rotasyonu/sağlayıcı/GitHub gecikmesi bunu uzatabilir.
 
-OKX: {"cursor": 24, "coverage": {"active_spot": 372, "liquid_spot_perpetual": 120, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 51, "futures": 3, "ratios": {"OKX": 0, "BINANCE": 0}}}
+OKX: {"cursor": 36, "coverage": {"active_spot": 372, "liquid_spot_perpetual": 120, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 52, "futures": 3, "ratios": {"OKX": 0, "BINANCE": 0}}}
 
-MEXC: {"cursor": 24, "coverage": {"active_spot": 1246, "liquid_spot_perpetual": 109, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 51, "futures": 2, "ratios": {"OKX": 0, "BINANCE": 0}}}
+MEXC: {"cursor": 36, "coverage": {"active_spot": 1246, "liquid_spot_perpetual": 109, "bounded_universe": 60, "requested": 12, "evaluated": 12, "rotated": 12, "active": 0}, "errors": [], "calls": {"spot": 52, "futures": 2, "ratios": {"OKX": 0, "BINANCE": 0}}}
 
 ## Eleme ve veri durumu
 
-{"1h_structure_weak": 17, "btc_relative_weak": 13, "oi_baseline_warming": 24, "short_increase_unconfirmed": 24, "4h_structure_weak": 1, "price_preparation_not_ready": 24}
+{"4h_structure_weak": 11, "1h_structure_weak": 22, "btc_relative_weak": 14, "oi_growth_insufficient": 21, "short_increase_unconfirmed": 24, "price_not_holding_or_extended": 1, "oi_baseline_warming": 1, "price_preparation_not_ready": 24}
 
 Bekleyen mesaj: 0. Deneysel eşikler başarı olasılığı değildir; yalnız sinyal sayısını artırmak için değiştirilmez.
 
