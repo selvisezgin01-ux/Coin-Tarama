@@ -2615,16 +2615,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "2d778950a662470311c5b9fb7e83",
-      "mint": null,
-      "kind": "VERİ ERİŞİMİ",
-      "observed_ms": 1793306374879,
-      "text": "holders:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk: solana-rpc.publicnode.com:getTokenLargestAccounts: yöntem erişimi kapalı; diğer izinli okumalar bağımsız sürer",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "f97849fdd8734d4af3b551bad613",
@@ -2661,6 +2652,12 @@
       "issue": 54,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/54",
       "delivered_ms": 1793306076826
+    },
+    {
+      "id": "2d778950a662470311c5b9fb7e83",
+      "issue": 55,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/55",
+      "delivered_ms": 1793306377086
     }
   ],
   "provider_backoff": {
