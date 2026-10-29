@@ -300304,190 +300304,7 @@
   "last_closed": {
     "MEXC:PERP:DODOUSDT": 1793303319948
   },
-  "pending": [
-    {
-      "id": "91d1aa3381cfb9020a982daa",
-      "asset_id": "f29eb6759304ef7c3a2c4cff",
-      "key": "MEXC:PERP:DODOUSDT",
-      "symbol": "DODOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793303319948,
-      "price": 0.024985,
-      "level": 0.02506,
-      "invalid": 0.024706214813489818,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02506,
-        "base_invalid": 0.024706214813489818,
-        "atr": 0.00015856791006787463,
-        "rvol": 9.65640530693804,
-        "close_position": 0.8837209302325547,
-        "breakout": true,
-        "bar_close_ms": 1793301300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0967741935483897,
-        "score": 7.883720930232554
-      },
-      "context": {
-        "atr": 0.00021147319667075547,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5250354962548331,
-        "btc_hour_pct": -0.041554432596491164,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:DODOUSDT"
-        },
-        "funding_raw_pct": 0.022699999999999998,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793301300000
-    },
-    {
-      "id": "f67696ac564cbac4d0b0b120",
-      "asset_id": "e6b6f83ecdaa58988a28a864",
-      "key": "MEXC:SPOT:DYDXUSDT",
-      "symbol": "DYDXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793303318047,
-      "price": 0.11404,
-      "level": 0.11639,
-      "invalid": 0.11288124324128992,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11639,
-        "base_invalid": 0.11288124324128992,
-        "atr": 0.0008583783914005305,
-        "rvol": 9.443390849291204,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793303100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5806281340723141,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.0008583783914005305,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.9768689743380188,
-        "btc_hour_pct": -0.031388305105695125,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DYDXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793303100000
-    },
-    {
-      "id": "810e071492165bd8add73d27",
-      "asset_id": "b9ff534a8240102db52bbdee",
-      "key": "MEXC:PERP:POLYXUSDT",
-      "symbol": "POLYXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793303319948,
-      "price": 0.03369,
-      "level": 0.03366,
-      "invalid": 0.033192593481990905,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03366,
-        "base_invalid": 0.033192593481990905,
-        "atr": 0.00018271012006063823,
-        "rvol": 8.48570752699743,
-        "close_position": 0.7222222222222522,
-        "breakout": false,
-        "bar_close_ms": 1793303100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7503001200480197,
-        "score": 7.2222222222222525
-      },
-      "context": {
-        "atr": 0.00018271012006063823,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.13129418730780662,
-        "btc_hour_pct": -0.041554432596491164,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:POLYXUSDT"
-        },
-        "funding_raw_pct": -0.0059,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793303100000
-    },
-    {
-      "id": "f2da4a430fe1074c6977ed1c",
-      "asset_id": "37bafe4cb558c31d96aac958",
-      "key": "MEXC:PERP:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793303319948,
-      "price": 0.06075,
-      "level": 0.0641,
-      "invalid": 0.048721983793768846,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0641,
-        "base_invalid": 0.048721983793768846,
-        "atr": 0.004453441374874393,
-        "rvol": 2.2722984497894485,
-        "close_position": 0.9123287671232875,
-        "breakout": false,
-        "bar_close_ms": 1793303100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -5.050825921219825,
-        "score": 3.684627216912736
-      },
-      "context": {
-        "atr": 0.004453441374874393,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4375087327690097,
-        "btc_hour_pct": -0.041554432596491164,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:PARTIUSDT"
-        },
-        "funding_raw_pct": -1.0292000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793303100000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -300509,6 +300326,34 @@
       "phase": "radar",
       "observed_ms": 1793302118300,
       "delivered_ms": 1793302123991
+    },
+    {
+      "id": "91d1aa3381cfb9020a982daa",
+      "asset_id": "f29eb6759304ef7c3a2c4cff",
+      "phase": "cancelled",
+      "observed_ms": 1793303319948,
+      "delivered_ms": 1793303323572
+    },
+    {
+      "id": "f67696ac564cbac4d0b0b120",
+      "asset_id": "e6b6f83ecdaa58988a28a864",
+      "phase": "radar",
+      "observed_ms": 1793303318047,
+      "delivered_ms": 1793303323572
+    },
+    {
+      "id": "810e071492165bd8add73d27",
+      "asset_id": "b9ff534a8240102db52bbdee",
+      "phase": "radar",
+      "observed_ms": 1793303319948,
+      "delivered_ms": 1793303323572
+    },
+    {
+      "id": "f2da4a430fe1074c6977ed1c",
+      "asset_id": "37bafe4cb558c31d96aac958",
+      "phase": "radar",
+      "observed_ms": 1793303319948,
+      "delivered_ms": 1793303323572
     }
   ],
   "runs": [
@@ -300814,7 +300659,8 @@
         "outcomes": {},
         "source_close_ms": 1793303100000,
         "observation_lag_ms": 218047,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5525
       },
       "POLYXUSDT:radar": {
         "symbol": "POLYXUSDT",
@@ -300833,7 +300679,8 @@
         "outcomes": {},
         "source_close_ms": 1793303100000,
         "observation_lag_ms": 219948,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 3624
       },
       "PARTIUSDT:radar": {
         "symbol": "PARTIUSDT",
@@ -300852,7 +300699,8 @@
         "outcomes": {},
         "source_close_ms": 1793303100000,
         "observation_lag_ms": 219948,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 3624
       }
     },
     "errors": [],
