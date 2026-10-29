@@ -648867,53 +648867,7 @@
     "MEXC:PERP:AVNTUSDT": 1793305119015,
     "MEXC:SPOT:DYDXUSDT": 1793305117545
   },
-  "pending": [
-    {
-      "id": "2a3ac4550a1aee71cba92260",
-      "asset_id": "d1a3e1a7ec43d0713b5703dc",
-      "key": "OKX:PERP:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793306918492,
-      "price": 1.5202,
-      "level": 1.5183,
-      "invalid": 1.4363281270735386,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.5183,
-        "base_invalid": 1.4363281270735386,
-        "atr": 0.040479152843075,
-        "rvol": 3.839863438528898,
-        "close_position": 0.6431181485992682,
-        "breakout": false,
-        "bar_close_ms": 1793306700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 3.608847497089629,
-        "score": 4.982981587128166
-      },
-      "context": {
-        "atr": 0.040479152843075,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.5789016256924424,
-        "btc_hour_pct": -0.011876278864908496,
-        "trend4h_support": null,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793306700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -649012,6 +648966,13 @@
       "phase": "radar",
       "observed_ms": 1793306018489,
       "delivered_ms": 1793306024077
+    },
+    {
+      "id": "2a3ac4550a1aee71cba92260",
+      "asset_id": "d1a3e1a7ec43d0713b5703dc",
+      "phase": "radar",
+      "observed_ms": 1793306918492,
+      "delivered_ms": 1793306924459
     }
   ],
   "runs": [
@@ -650047,7 +650008,8 @@
         "outcomes": {},
         "source_close_ms": 1793306700000,
         "observation_lag_ms": 218492,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5967
       }
     },
     "errors": [],
