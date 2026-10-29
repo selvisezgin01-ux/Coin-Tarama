@@ -369,50 +369,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "7cad94fe4d80551cfe2e317a",
-      "created_ms": 1793264170818,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "NETXUSDT",
-          "observed_ms": 1793264170724,
-          "feature_cutoff_ms": 1793260800000,
-          "mid_price": 0.14715,
-          "spread_pct": 0.7475365273530342,
-          "return24_pct": 5.882352941176472,
-          "relative24_pct_points": 7.375967496293246,
-          "quote_volume24": 69877.44309999999,
-          "liquidity_band": "thin",
-          "breakout_level": 0.1474,
-          "breakout_open_ms": 1793246400000.0,
-          "breakout_volume_ratio": 5.824478101900327,
-          "strength_score": 75,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.13628615120670343,
-          "atr": 0.00285539517318634,
-          "close": 0.1476,
-          "paper_controls": [
-            {
-              "symbol": "STABLEUSDT",
-              "entry_price": 0.0273965
-            },
-            {
-              "symbol": "FUELUSDT",
-              "entry_price": 0.00079515
-            },
-            {
-              "symbol": "LAVAUSDT",
-              "entry_price": 0.01406
-            }
-          ],
-          "paper_btc_price": 80041.39499999999,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793264170818,
   "paper": {
     "version": "github-paper-v1",
