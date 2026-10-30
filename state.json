@@ -1352167,104 +1352167,7 @@
     "MEXC:SPOT:DEFIUSDT": 1793348242293,
     "MEXC:PERP:SYRUPUSDT": 1793348242346
   },
-  "pending": [
-    {
-      "id": "7d6640d1e412b28cd4f0bd6d",
-      "asset_id": "83406c5463aab0fa53faf5e5",
-      "key": "MEXC:PERP:ALPINEUSDT",
-      "symbol": "ALPINEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793349798890,
-      "price": 0.34645000000000004,
-      "level": 0.3791,
-      "invalid": 0.2814215643158723,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3791,
-        "base_invalid": 0.2814215643158723,
-        "atr": 0.012522904560851533,
-        "rvol": 8.151245067122714,
-        "close_position": 0.7677902621722832,
-        "breakout": false,
-        "bar_close_ms": 1793349000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -4.208754208754217,
-        "score": 7.267790262172284
-      },
-      "context": {
-        "atr": 0.012522904560851533,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 7.3908657672122064,
-        "btc_hour_pct": -0.6007423104220977,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ALPINEUSDT",
-          "change_pct": 10.904644833022314,
-          "old_ms": 1793346126599,
-          "current_ms": 1793349795155,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.09079999999999999,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793349000000
-    },
-    {
-      "id": "31808a31899b44e36cbaef61",
-      "asset_id": "066057814e9dad46ae13f2c3",
-      "key": "MEXC:SPOT:DUSKUSDT",
-      "symbol": "DUSKUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793349800347,
-      "price": 0.09282,
-      "level": 0.09176,
-      "invalid": 0.08905017183812598,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09176,
-        "base_invalid": 0.08905017183812598,
-        "atr": 0.0011988544124934572,
-        "rvol": 2.293305102301464,
-        "close_position": 0.9638554216867442,
-        "breakout": true,
-        "bar_close_ms": 1793349000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.952380952380949,
-        "score": 4.257160523988208
-      },
-      "context": {
-        "atr": 0.0011988544124934572,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3979752170442885,
-        "btc_hour_pct": -0.5858828107217384,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DUSKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793349000000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1353189,6 +1353092,20 @@
       "phase": "radar",
       "observed_ms": 1793348902064,
       "delivered_ms": 1793348908871
+    },
+    {
+      "id": "7d6640d1e412b28cd4f0bd6d",
+      "asset_id": "83406c5463aab0fa53faf5e5",
+      "phase": "radar",
+      "observed_ms": 1793349798890,
+      "delivered_ms": 1793349808107
+    },
+    {
+      "id": "31808a31899b44e36cbaef61",
+      "asset_id": "066057814e9dad46ae13f2c3",
+      "phase": "radar",
+      "observed_ms": 1793349800347,
+      "delivered_ms": 1793349808107
     }
   ],
   "runs": [
@@ -1364645,7 +1364562,8 @@
         "outcomes": {},
         "source_close_ms": 1793349000000,
         "observation_lag_ms": 798890,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9217
       },
       "DUSKUSDT:radar": {
         "symbol": "DUSKUSDT",
@@ -1364664,7 +1364582,8 @@
         "outcomes": {},
         "source_close_ms": 1793349000000,
         "observation_lag_ms": 800347,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7760
       }
     },
     "errors": [],
