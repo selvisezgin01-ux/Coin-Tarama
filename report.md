@@ -192,8 +192,8 @@ Kimlik defteri: 765 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota 
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | KLEOS `0x389ff560781bd54034e9ad829a965f1b78253b9f` | hyperevm | 30.10.2026 23:15 | 60502.0 | Bekliyor |
-| 🟡 ERKEN RADAR | HC `8GUoRZCSzjfoA47FRBJ4MuNjjpyn3pWZDTkRePWNpump` | solana | 30.10.2026 23:15 | 266526.0 | Bekliyor |
+| 🟡 ERKEN RADAR | KLEOS `0x389ff560781bd54034e9ad829a965f1b78253b9f` | hyperevm | 30.10.2026 23:15 | 60502.0 | [Issue #250](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/250) |
+| 🟡 ERKEN RADAR | HC `8GUoRZCSzjfoA47FRBJ4MuNjjpyn3pWZDTkRePWNpump` | solana | 30.10.2026 23:15 | 266526.0 | [Issue #249](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/249) |
 
 ## Kontrat başına son karar
 
