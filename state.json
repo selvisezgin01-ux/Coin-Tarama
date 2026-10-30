@@ -1233950,59 +1233950,7 @@
     "MEXC:SPOT:FIGHTUSDT": 1793336183398,
     "MEXC:SPOT:PIPPINUSDT": 1793336489099
   },
-  "pending": [
-    {
-      "id": "9966f26650d6abaed9a5ea35",
-      "asset_id": "e1b761dd20b85f20f3c04fe2",
-      "key": "MEXC:PERP:CROUSDT",
-      "symbol": "CROUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793337682488,
-      "price": 0.051519999999999996,
-      "level": 0.05124,
-      "invalid": 0.05028989604136999,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05124,
-        "base_invalid": 0.05028989604136999,
-        "atr": 0.00033402639086675125,
-        "rvol": 4.65991853828588,
-        "close_position": 0.8999999999999972,
-        "breakout": true,
-        "bar_close_ms": 1793337300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2367491166077604,
-        "score": 6.559918538285878
-      },
-      "context": {
-        "atr": 0.00033402639086675125,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.30378728735693805,
-        "btc_hour_pct": 0.04936162376725228,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CROUSDT",
-          "change_pct": -0.25416915813334384,
-          "old_ms": 1793334024124,
-          "current_ms": 1793337679060,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793337300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1234675,6 +1234623,13 @@
       "phase": "radar",
       "observed_ms": 1793337081279,
       "delivered_ms": 1793337090550
+    },
+    {
+      "id": "9966f26650d6abaed9a5ea35",
+      "asset_id": "e1b761dd20b85f20f3c04fe2",
+      "phase": "radar",
+      "observed_ms": 1793337682488,
+      "delivered_ms": 1793337690449
     }
   ],
   "runs": [
@@ -1242871,7 +1242826,8 @@
         "outcomes": {},
         "source_close_ms": 1793337300000,
         "observation_lag_ms": 382488,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7961
       }
     },
     "errors": [],
