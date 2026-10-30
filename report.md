@@ -65,7 +65,7 @@ Radar ve giriş ayrı referanslardır, bağımsız iki başarı gibi toplanmaz. 
 | JP225USDT | OKX PERP | radar | 30.10.2026 00:48 | 64388 | %-0.87 | %-2.54 | %-2.01 | — |
 | RUNEUSDT | MEXC PERP | radar | 30.10.2026 00:58 | 0.63125 | %+1.50 | %+0.59 | %+4.51 | — |
 | XDPUSDT | OKX SPOT | radar | 30.10.2026 01:03 | 0.018779 | %+0.10 | %-5.59 | %+0.07 | — |
-| TMFUSDT | OKX PERP | radar | 30.10.2026 01:48 | 29.635 | %+0.22 | %+1.06 | — | — |
+| TMFUSDT | OKX PERP | radar | 30.10.2026 01:48 | 29.635 | %+0.22 | %+1.06 | %+0.79 | — |
 | SOPHUSDT | OKX SPOT | radar | 30.10.2026 01:48 | 0.0014635 | %-3.25 | %-12.54 | — | — |
 | SOLVUSDT | MEXC PERP | radar | 30.10.2026 01:49 | 0.0048225 | %-0.03 | %-2.50 | — | — |
 | FIGHTUSDT | MEXC SPOT | radar | 30.10.2026 01:53 | 0.0039185 | %-1.75 | %-1.57 | — | — |
@@ -126,7 +126,7 @@ Radar ve giriş ayrı referanslardır, bağımsız iki başarı gibi toplanmaz. 
 | NOSUSDT | MEXC SPOT | radar | 30.10.2026 11:58 | 0.417135 | %-1.18 | — | — | — |
 | NOMUSDT | MEXC PERP | radar | 30.10.2026 12:18 | 0.0016195 | %-2.62 | — | — | — |
 | KITEUSDT | OKX PERP | radar | 30.10.2026 12:33 | 0.10768 | %+3.08 | — | — | — |
-| NIGHTUSDT | MEXC SPOT | radar | 30.10.2026 12:48 | 0.03912 | — | — | — | — |
+| NIGHTUSDT | MEXC SPOT | radar | 30.10.2026 12:48 | 0.03912 | %-0.31 | — | — | — |
 | WOOUSDT | OKX PERP | radar | 30.10.2026 12:53 | 0.01034 | — | — | — | — |
 | LDOUSDT | OKX SPOT | radar | 30.10.2026 12:58 | 0.3311 | — | — | — | — |
 | BTWUSDT | MEXC SPOT | triggered | 30.10.2026 13:49 | 1.52821 | — | — | — | — |
@@ -137,4 +137,4 @@ Giriş teyidinde risk<=%3, makas<=%0.3; geri testin üzerinde taze quote aranır
 
 1/4/12/24s getiriler, BTC farkı, tam sonraki1dk mumlardan MAE/MFE; girişte ayrıca stop/hedef sırası, aynı mum/giriş parçası belirsizliği ve toplam%0.2/%0.5/%1 maliyet sonrası varsayımsalR. Gerçek fill/net kâr/fonlama değildir. OI ve short verisi bulunmazsa bilinmiyor; spot için vadeli şartı uydurulmaz.
 
-Ölçüm: {"errors": [], "queue": {"due": 2, "attempted": 2, "observed_ms": 1793357052949, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 79, "hours": {"1": {"known": 76, "median_pct": -0.12314011803861713}, "4": {"known": 61, "median_pct": -0.44077918384758386}, "12": {"known": 18, "median_pct": -5.7867858383133575}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 3, "hours": {"1": {"known": 3, "median_pct": -0.8726625111309061}, "4": {"known": 2, "median_pct": 0.05223014447183205}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
+Ölçüm: {"errors": [], "queue": {"due": 3, "attempted": 2, "observed_ms": 1793357359940, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 81, "hours": {"1": {"known": 77, "median_pct": -0.20121489132732817}, "4": {"known": 61, "median_pct": -0.44077918384758386}, "12": {"known": 19, "median_pct": -5.755821602420729}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 4, "hours": {"1": {"known": 3, "median_pct": -0.8726625111309061}, "4": {"known": 2, "median_pct": 0.05223014447183205}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
