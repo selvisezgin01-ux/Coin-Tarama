@@ -118,8 +118,8 @@ Radar ve giriş ayrı referanslardır, bağımsız iki başarı gibi toplanmaz. 
 | AZTECUSDT | MEXC SPOT | radar | 30.10.2026 10:57 | 0.014995 | %-0.70 | — | — | — |
 | LSKUSDT | OKX SPOT | radar | 30.10.2026 11:17 | 0.191055 | %+1.02 | — | — | — |
 | GRTUSDT | OKX SPOT | radar | 30.10.2026 11:28 | 0.01957 | %+0.56 | — | — | — |
-| ALPINEUSDT | MEXC PERP | radar | 30.10.2026 11:43 | 0.34645 | — | — | — | — |
-| DUSKUSDT | MEXC SPOT | radar | 30.10.2026 11:43 | 0.09282 | — | — | — | — |
+| ALPINEUSDT | MEXC PERP | radar | 30.10.2026 11:43 | 0.34645 | %+6.48 | — | — | — |
+| DUSKUSDT | MEXC SPOT | radar | 30.10.2026 11:43 | 0.09282 | %-2.61 | — | — | — |
 | BLURUSDT | MEXC SPOT | radar | 30.10.2026 11:53 | 0.0081 | — | — | — | — |
 | NOSUSDT | MEXC SPOT | radar | 30.10.2026 11:58 | 0.417135 | — | — | — | — |
 | NOMUSDT | MEXC PERP | radar | 30.10.2026 12:18 | 0.0016195 | — | — | — | — |
@@ -130,4 +130,4 @@ Giriş teyidinde risk<=%3, makas<=%0.3; geri testin üzerinde taze quote aranır
 
 1/4/12/24s getiriler, BTC farkı, tam sonraki1dk mumlardan MAE/MFE; girişte ayrıca stop/hedef sırası, aynı mum/giriş parçası belirsizliği ve toplam%0.2/%0.5/%1 maliyet sonrası varsayımsalR. Gerçek fill/net kâr/fonlama değildir. OI ve short verisi bulunmazsa bilinmiyor; spot için vadeli şartı uydurulmaz.
 
-Ölçüm: {"errors": [], "queue": {"due": 2, "attempted": 2, "observed_ms": 1793353411253, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 76, "hours": {"1": {"known": 70, "median_pct": -0.12314011803861713}, "4": {"known": 55, "median_pct": -0.33670033670035737}, "12": {"known": 14, "median_pct": -6.523926202844155}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 3, "hours": {"1": {"known": 3, "median_pct": -0.8726625111309061}, "4": {"known": 1, "median_pct": 1.3357079252003468}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
+Ölçüm: {"errors": [], "queue": {"due": 3, "attempted": 2, "observed_ms": 1793353720729, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 77, "hours": {"1": {"known": 72, "median_pct": -0.12314011803861713}, "4": {"known": 55, "median_pct": -0.33670033670035737}, "12": {"known": 14, "median_pct": -6.523926202844155}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 3, "hours": {"1": {"known": 3, "median_pct": -0.8726625111309061}, "4": {"known": 1, "median_pct": 1.3357079252003468}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
