@@ -1137629,59 +1137629,7 @@
     "MEXC:PERP:NILUSDT": 1793363696070,
     "MEXC:PERP:TAGUSDT": 1793363696070
   },
-  "pending": [
-    {
-      "id": "72c9ff6ba5abf47002a30201",
-      "asset_id": "3949ad2a4f03138aeb8091b8",
-      "key": "MEXC:PERP:XPLUSDT",
-      "symbol": "XPLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793364591380,
-      "price": 0.076925,
-      "level": 0.07629,
-      "invalid": 0.07480468902448942,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07629,
-        "base_invalid": 0.07480468902448942,
-        "atr": 0.0006354065034038364,
-        "rvol": 14.557942660680737,
-        "close_position": 0.9625000000000143,
-        "breakout": true,
-        "bar_close_ms": 1793364300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7952127659574435,
-        "score": 7.962500000000015
-      },
-      "context": {
-        "atr": 0.0006354065034038364,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.30545324789716943,
-        "btc_hour_pct": -0.577287200060661,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XPLUSDT",
-          "change_pct": -2.6204944344813574,
-          "old_ms": 1793360976018,
-          "current_ms": 1793364587081,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793364300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1138956,6 +1138904,13 @@
       "phase": "radar",
       "observed_ms": 1793363987445,
       "delivered_ms": 1793363996957
+    },
+    {
+      "id": "72c9ff6ba5abf47002a30201",
+      "asset_id": "3949ad2a4f03138aeb8091b8",
+      "phase": "radar",
+      "observed_ms": 1793364591380,
+      "delivered_ms": 1793364598188
     }
   ],
   "runs": [
@@ -1154632,7 +1154587,8 @@
         "outcomes": {},
         "source_close_ms": 1793364300000,
         "observation_lag_ms": 291380,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6808
       }
     },
     "errors": [],
