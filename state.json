@@ -1110622,216 +1110622,7 @@
       "source_close_ms": 1793400300000
     }
   },
-  "pending": [
-    {
-      "id": "57729f4d86293ef984ede4c6",
-      "asset_id": "e51327fef7f0dd216c7b1b7c",
-      "key": "OKX:SPOT:SANDUSDT",
-      "symbol": "SANDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793400864078,
-      "price": 0.046685000000000004,
-      "level": 0.04646,
-      "invalid": 0.045459785592631245,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04646,
-        "base_invalid": 0.045459785592631245,
-        "atr": 0.00033476271579168835,
-        "rvol": 7.223370884332615,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793400300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7788836001731081,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.00033476271579168835,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.24060549234001805,
-        "btc_hour_pct": -0.28417847708949173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SANDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793400300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SANDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "51e53715486fc07c21387f00",
-      "asset_id": "0a9d1965c67e111d08d779f8",
-      "key": "OKX:SPOT:COMPUSDT",
-      "symbol": "COMPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793400864078,
-      "price": 20.43,
-      "level": 20.33,
-      "invalid": 20.09422204813608,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 20.33,
-        "base_invalid": 20.09422204813608,
-        "atr": 0.10518634575947573,
-        "rvol": 4.4699691903304535,
-        "close_position": 0.7857142857142785,
-        "breakout": true,
-        "bar_close_ms": 1793400300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8390918065152908,
-        "score": 6.255683476044732
-      },
-      "context": {
-        "atr": 0.10518634575947573,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3069545278366226,
-        "btc_hour_pct": -0.28417847708949173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:COMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793400300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e2b47ce4c86fb5e974db4be8",
-      "asset_id": "4a8888c46d6433666f026b33",
-      "key": "MEXC:SPOT:SANDUSDT",
-      "symbol": "SANDUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793400861701,
-      "price": 0.046725,
-      "level": 0.04648,
-      "invalid": 0.045456730923553616,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04648,
-        "base_invalid": 0.045456730923553616,
-        "atr": 0.0003551271763092201,
-        "rvol": 3.629873493714502,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793400300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6695464362850956,
-        "score": 5.629873493714502
-      },
-      "context": {
-        "atr": 0.0003551271763092201,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2975310308556911,
-        "btc_hour_pct": -0.2975310308556911,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SANDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793400300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SANDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5b0bf8bdb939e8e00ad41eb2",
-      "asset_id": "0610327b6d1e122de1146bf9",
-      "key": "OKX:SPOT:ARUSDT",
-      "symbol": "ARUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793400864078,
-      "price": 3.2145,
-      "level": 3.215,
-      "invalid": 3.1519214525045456,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.215,
-        "base_invalid": 3.1519214525045456,
-        "atr": 0.020523649969695194,
-        "rvol": 3.4552986838702244,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793400300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8132624335314365,
-        "score": 5.455298683870224
-      },
-      "context": {
-        "atr": 0.020523649969695194,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5358299398136146,
-        "btc_hour_pct": -0.28417847708949173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793400300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1112053,6 +1111844,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793400498128
+    },
+    {
+      "id": "57729f4d86293ef984ede4c6",
+      "asset_id": "e51327fef7f0dd216c7b1b7c",
+      "key": "OKX:SPOT:SANDUSDT",
+      "symbol": "SANDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793400864078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793400872553
+    },
+    {
+      "id": "51e53715486fc07c21387f00",
+      "asset_id": "0a9d1965c67e111d08d779f8",
+      "key": "OKX:SPOT:COMPUSDT",
+      "symbol": "COMPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793400864078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793400872553
+    },
+    {
+      "id": "e2b47ce4c86fb5e974db4be8",
+      "asset_id": "4a8888c46d6433666f026b33",
+      "key": "MEXC:SPOT:SANDUSDT",
+      "symbol": "SANDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793400861701,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793400872553
+    },
+    {
+      "id": "5b0bf8bdb939e8e00ad41eb2",
+      "asset_id": "0610327b6d1e122de1146bf9",
+      "key": "OKX:SPOT:ARUSDT",
+      "symbol": "ARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793400864078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793400872553
     }
   ],
   "runs": [
@@ -1121815,7 +1121650,8 @@
         "entry_seq": 0,
         "cohort": "SANDUSDT",
         "observation_lag_ms": 564078,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8475
       },
       "0a9d1965c67e111d08d779f8:radar": {
         "symbol": "COMPUSDT",
@@ -1121837,7 +1121673,8 @@
         "entry_seq": 0,
         "cohort": "COMPUSDT",
         "observation_lag_ms": 564078,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8475
       },
       "4a8888c46d6433666f026b33:radar": {
         "symbol": "SANDUSDT",
@@ -1121859,7 +1121696,8 @@
         "entry_seq": 0,
         "cohort": "SANDUSDT",
         "observation_lag_ms": 561701,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10852
       },
       "0610327b6d1e122de1146bf9:radar": {
         "symbol": "ARUSDT",
@@ -1121881,7 +1121719,8 @@
         "entry_seq": 0,
         "cohort": "ARUSDT",
         "observation_lag_ms": 564078,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8475
       }
     },
     "errors": [],
@@ -1144127,8 +1143966,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "52c544553c1fd03b72d44e6c6748290f726da5b3",
-    "previous_success_ms": 1793400852567,
+    "previous_commit": "b589f4e5d2901b28212f6dd0a42695b039abe5fc",
+    "previous_success_ms": 1793400871033,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
