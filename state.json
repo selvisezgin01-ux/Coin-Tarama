@@ -1132803,7 +1132803,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793380503484,
+      "duration_ms": 21314
     }
   ],
   "radar_admissions": [
@@ -1133393,6 +1133395,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793379846133,
+            "endpoint_ms": 1793379900000,
+            "endpoint_price": 0.3533,
+            "return_pct": 3.1984810866072744,
+            "btc_excess_pct_points": 3.1927085898201257,
+            "mae_pct": -1.4458887103841134,
+            "mfe_pct": 9.361764276325403,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 53867,
+            "measured_ms": 1793380502261,
+            "cost_scenarios_pct": {
+              "0.2": 2.998481086607274,
+              "0.5": 2.6984810866072744,
+              "1": 2.1984810866072744
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793365200000,
@@ -1133402,7 +1133426,7 @@
         "observation_lag_ms": 246133,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 5641,
-        "last_measure_attempt_ms": 1793369935752
+        "last_measure_attempt_ms": 1793380502261
       },
       "bc0d507ff532a408fa9e7365:radar": {
         "symbol": "REDUSDT",
@@ -1133440,6 +1133464,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793379846093,
+            "endpoint_ms": 1793379900000,
+            "endpoint_price": 0.1253,
+            "return_pct": 1.3344116457743471,
+            "btc_excess_pct_points": 1.3168907548596787,
+            "mae_pct": -2.547513141932889,
+            "mfe_pct": 1.4152850788516025,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 53907,
+            "measured_ms": 1793380502261,
+            "cost_scenarios_pct": {
+              "0.2": 1.1344116457743472,
+              "0.5": 0.8344116457743471,
+              "1": 0.3344116457743471
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793365200000,
@@ -1133449,7 +1133495,7 @@
         "observation_lag_ms": 246093,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 5681,
-        "last_measure_attempt_ms": 1793369633337
+        "last_measure_attempt_ms": 1793380502261
       },
       "96bef0f42eaa962d268173d5:radar": {
         "symbol": "EDGEUSDT",
@@ -1134528,10 +1134574,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 7,
-      "attempted": 1,
-      "observed_ms": 1793380201700,
-      "unique_reads": 2
+      "due": 6,
+      "attempted": 2,
+      "observed_ms": 1793380502261,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1134570,8 +1134616,8 @@
                 "median_reference_return_pct": -0.2525252525252597
               },
               "4": {
-                "known_first_symbols": 0,
-                "median_reference_return_pct": null
+                "known_first_symbols": 1,
+                "median_reference_return_pct": 3.1984810866072744
               },
               "12": {
                 "known_first_symbols": 0,
@@ -1134592,8 +1134638,8 @@
                 "median_reference_return_pct": -1.1513157894736836
               },
               "4": {
-                "known_first_symbols": 0,
-                "median_reference_return_pct": null
+                "known_first_symbols": 1,
+                "median_reference_return_pct": 1.3344116457743471
               },
               "12": {
                 "known_first_symbols": 0,
