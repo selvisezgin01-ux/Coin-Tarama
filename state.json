@@ -1262847,7 +1262847,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793386855378,
+      "duration_ms": 29604
     }
   ],
   "radar_admissions": [
@@ -1265711,15 +1265713,15 @@
     },
     "errors": [],
     "queue": {
-      "due": 1,
-      "attempted": 1,
-      "observed_ms": 1793386548518,
-      "unique_reads": 2
+      "due": 0,
+      "attempted": 0,
+      "observed_ms": 1793386855378,
+      "unique_reads": 0
     },
     "summary": {
       "radar": {
-        "market_event_references": 45,
-        "unique_symbol_labels": 34,
+        "market_event_references": 47,
+        "unique_symbol_labels": 35,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
@@ -1265767,8 +1265769,8 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 11,
-            "first_per_symbol": 11,
+            "event_references": 13,
+            "first_per_symbol": 13,
             "hours": {
               "1": {
                 "known_first_symbols": 9,
