@@ -1065035,116 +1065035,7 @@
       "source_close_ms": 1793376900000
     }
   },
-  "pending": [
-    {
-      "id": "b75feff8bf17c17afd61af5b",
-      "asset_id": "1d1c9deb2a84884dc880ff75",
-      "key": "OKX:PERP:GRTUSDT",
-      "symbol": "GRTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793377452794,
-      "price": 0.021,
-      "level": 0.02061,
-      "invalid": 0.019450556630136208,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02061,
-        "base_invalid": 0.019450556630136208,
-        "atr": 0.00026295579909194246,
-        "rvol": 17.50480384714703,
-        "close_position": 0.8714285714285716,
-        "breakout": true,
-        "bar_close_ms": 1793376900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7954879843060443,
-        "score": 7.871428571428572
-      },
-      "context": {
-        "atr": 0.00026295579909194246,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.38212525544711884,
-        "btc_hour_pct": 0.4799247664495576,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GRTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793376900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2f1e28fe7961237a52ff354f",
-      "asset_id": "901b143b2c33459b21075adb",
-      "key": "MEXC:PERP:PLAYUSDT",
-      "symbol": "PLAYUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793377455707,
-      "price": 0.013925,
-      "level": 0.01384,
-      "invalid": 0.013209098861595754,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01384,
-        "base_invalid": 0.013209098861595754,
-        "atr": 0.00013934092269497677,
-        "rvol": 19.911658338092057,
-        "close_position": 0.8181818181818175,
-        "breakout": false,
-        "bar_close_ms": 1793376900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.317715959004384,
-        "score": 7.3181818181818175
-      },
-      "context": {
-        "atr": 0.00013934092269497677,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.9107513417993447,
-        "btc_hour_pct": 0.47270730481721035,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PLAYUSDT",
-          "change_pct": 0.8258719651777824,
-          "old_ms": 1793374143399,
-          "current_ms": 1793377454501,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793376900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PLAYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1065541,6 +1065432,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793377166012
+    },
+    {
+      "id": "b75feff8bf17c17afd61af5b",
+      "asset_id": "1d1c9deb2a84884dc880ff75",
+      "key": "OKX:PERP:GRTUSDT",
+      "symbol": "GRTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793377452794,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793377462395
+    },
+    {
+      "id": "2f1e28fe7961237a52ff354f",
+      "asset_id": "901b143b2c33459b21075adb",
+      "key": "MEXC:PERP:PLAYUSDT",
+      "symbol": "PLAYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793377455707,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793377462395
     }
   ],
   "runs": [
@@ -1068169,7 +1068082,8 @@
         "entry_seq": 0,
         "cohort": "GRTUSDT",
         "observation_lag_ms": 552794,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9601
       },
       "901b143b2c33459b21075adb:radar": {
         "symbol": "PLAYUSDT",
@@ -1068191,7 +1068105,8 @@
         "entry_seq": 0,
         "cohort": "PLAYUSDT",
         "observation_lag_ms": 555707,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6688
       }
     },
     "errors": [],
