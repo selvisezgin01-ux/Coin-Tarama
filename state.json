@@ -1116883,158 +1116883,7 @@
       "source_close_ms": 1793369700000
     }
   },
-  "pending": [
-    {
-      "id": "46bc3a94813585a895fc4c2d",
-      "asset_id": "9e4ca2b0e99a1288094c1cac",
-      "key": "OKX:SPOT:EDGEUSDT",
-      "symbol": "EDGEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793369923654,
-      "price": 0.33985,
-      "level": 0.3414,
-      "invalid": 0.33507497624755966,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3414,
-        "base_invalid": 0.33507497624755966,
-        "atr": 0.0028334916829357852,
-        "rvol": 5.13067357418375,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 1.5178571428571486,
-        "score": 6.63067357418375
-      },
-      "context": {
-        "atr": 0.0027750624848263635,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7898675709921199,
-        "btc_hour_pct": -0.4087476648062638,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EDGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b5058184bbb7b4047763dc09",
-      "asset_id": "3fe231c889c2f7ef68532724",
-      "key": "MEXC:SPOT:EDGEUSDT",
-      "symbol": "EDGEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793369924939,
-      "price": 0.3399,
-      "level": 0.3411,
-      "invalid": 0.3339721597737817,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3411,
-        "base_invalid": 0.3339721597737817,
-        "atr": 0.0028522681747886933,
-        "rvol": 3.6744356910540317,
-        "close_position": 0.9687500000000038,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 1.3091341862540906,
-        "score": 5.143185691054035
-      },
-      "context": {
-        "atr": 0.00274087002411591,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6762957921755963,
-        "btc_hour_pct": -0.41197861155887194,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EDGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "015f761656731c440f42bcda",
-      "asset_id": "96bef0f42eaa962d268173d5",
-      "key": "OKX:PERP:EDGEUSDT",
-      "symbol": "EDGEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793369922292,
-      "price": 0.3397,
-      "level": 0.341,
-      "invalid": 0.33349740680494677,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.341,
-        "base_invalid": 0.33349740680494677,
-        "atr": 0.0033506213003551494,
-        "rvol": 2.300859885825476,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 1.5494636471990342,
-        "score": 3.800859885825476
-      },
-      "context": {
-        "atr": 0.003284068410706352,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8058340226804184,
-        "btc_hour_pct": -0.39503590061469307,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EDGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1117222,6 +1117071,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793369628341
+    },
+    {
+      "id": "46bc3a94813585a895fc4c2d",
+      "asset_id": "9e4ca2b0e99a1288094c1cac",
+      "key": "OKX:SPOT:EDGEUSDT",
+      "symbol": "EDGEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793369923654,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369931411
+    },
+    {
+      "id": "b5058184bbb7b4047763dc09",
+      "asset_id": "3fe231c889c2f7ef68532724",
+      "key": "MEXC:SPOT:EDGEUSDT",
+      "symbol": "EDGEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793369924939,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369931411
+    },
+    {
+      "id": "015f761656731c440f42bcda",
+      "asset_id": "96bef0f42eaa962d268173d5",
+      "key": "OKX:PERP:EDGEUSDT",
+      "symbol": "EDGEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793369922292,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369931411
     }
   ],
   "runs": [
