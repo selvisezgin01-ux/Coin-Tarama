@@ -1282379,102 +1282379,7 @@
     "OKX:SPOT:XLMUSDT": 1793340087304,
     "MEXC:PERP:UAIUSDT": 1793340988504
   },
-  "pending": [
-    {
-      "id": "5a30ffc71ae5f43d26b50ec9",
-      "asset_id": "b86ef7233b53d51c1f042b6a",
-      "key": "OKX:PERP:ATHUSDT",
-      "symbol": "ATHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793342536183,
-      "price": 0.005216999999999999,
-      "level": 0.005196,
-      "invalid": 0.005024550628190394,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005196,
-        "base_invalid": 0.005024550628190394,
-        "atr": 5.632914539737794e-05,
-        "rvol": 3.758997877798437,
-        "close_position": 0.9066666666666653,
-        "breakout": true,
-        "bar_close_ms": 1793341800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.244778450126872,
-        "score": 5.665664544465102
-      },
-      "context": {
-        "atr": 5.632914539737794e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5281649011939837,
-        "btc_hour_pct": 0.356790851018407,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793341800000
-    },
-    {
-      "id": "c9b12de62af4b30924fee475",
-      "asset_id": "3750f85063ef2cf612bd9c8c",
-      "key": "MEXC:SPOT:LIGHTUSDT",
-      "symbol": "LIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793342536728,
-      "price": 0.25345,
-      "level": 0.2508,
-      "invalid": 0.24494133017548392,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2508,
-        "base_invalid": 0.24494133017548392,
-        "atr": 0.0030577988301072195,
-        "rvol": 2.455615131213963,
-        "close_position": 0.9062500000000098,
-        "breakout": true,
-        "bar_close_ms": 1793341800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8423586040914532,
-        "score": 4.361865131213973
-      },
-      "context": {
-        "atr": 0.0030577988301072195,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2891451000402334,
-        "btc_hour_pct": 0.3695309521302592,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793341800000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1283231,6 +1283136,20 @@
       "phase": "triggered",
       "observed_ms": 1793341943997,
       "delivered_ms": 1793341951984
+    },
+    {
+      "id": "5a30ffc71ae5f43d26b50ec9",
+      "asset_id": "b86ef7233b53d51c1f042b6a",
+      "phase": "radar",
+      "observed_ms": 1793342536183,
+      "delivered_ms": 1793342543964
+    },
+    {
+      "id": "c9b12de62af4b30924fee475",
+      "asset_id": "3750f85063ef2cf612bd9c8c",
+      "phase": "radar",
+      "observed_ms": 1793342536728,
+      "delivered_ms": 1793342543964
     }
   ],
   "runs": [
@@ -1292617,7 +1292536,8 @@
         "outcomes": {},
         "source_close_ms": 1793341800000,
         "observation_lag_ms": 736183,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7781
       },
       "LIGHTUSDT:radar": {
         "symbol": "LIGHTUSDT",
@@ -1292636,7 +1292556,8 @@
         "outcomes": {},
         "source_close_ms": 1793341800000,
         "observation_lag_ms": 736728,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7236
       }
     },
     "errors": [],
