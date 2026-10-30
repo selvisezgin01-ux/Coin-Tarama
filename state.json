@@ -1327086,272 +1327086,7 @@
       "source_close_ms": 1793392200000
     }
   },
-  "pending": [
-    {
-      "id": "65f48ce4911c1edec37c69e5",
-      "asset_id": "384423c1f8622c8d18205345",
-      "key": "MEXC:PERP:XPLUSDT",
-      "symbol": "XPLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793392322622,
-      "price": 0.07971500000000001,
-      "level": 0.0782,
-      "invalid": 0.07683986317245799,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0782,
-        "base_invalid": 0.07683986317245799,
-        "atr": 0.0008009121836134092,
-        "rvol": 3.77256693923954,
-        "close_position": 0.9477124183006559,
-        "breakout": true,
-        "bar_close_ms": 1793386800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8238928939237944,
-        "score": 5.720279357540195
-      },
-      "context": {
-        "atr": 0.0009407097515858269,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.6223535757423875,
-        "btc_hour_pct": 0.3740713476488189,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XPLUSDT",
-          "change_pct": -2.6782944141442555,
-          "old_ms": 1793388705040,
-          "current_ms": 1793392319313,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793386800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XPLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "decfd311aa73fc3b22dd151e",
-      "asset_id": "375971a2c03154ef6c3dc846",
-      "key": "MEXC:PERP:NIULAIUSDT",
-      "symbol": "NIULAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793392322622,
-      "price": 0.053285,
-      "level": 0.05394,
-      "invalid": 0.052244286694041624,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05394,
-        "base_invalid": 0.052244286694041624,
-        "atr": 0.0006380887063891385,
-        "rvol": 7.401715379151779,
-        "close_position": 0.8085106382978721,
-        "breakout": false,
-        "bar_close_ms": 1793390400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.0540184453228019,
-        "score": 7.308510638297872
-      },
-      "context": {
-        "atr": 0.0006566462882514655,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.679947097673983,
-        "btc_hour_pct": 0.3740713476488189,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NIULAIUSDT",
-          "change_pct": -4.4769421865509145,
-          "old_ms": 1793388705523,
-          "current_ms": 1793392319770,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0049,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793390400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIULAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c6d3458674744de31087422e",
-      "asset_id": "bc8b03e9d6248f0c468c08a9",
-      "key": "OKX:SPOT:EIGENUSDT",
-      "symbol": "EIGENUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793392320426,
-      "price": 0.1856,
-      "level": 0.1866,
-      "invalid": 0.17928998975616853,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1866,
-        "base_invalid": 0.17928998975616853,
-        "atr": 0.0020667349588764836,
-        "rvol": 3.8072044885452034,
-        "close_position": 0.939393939393946,
-        "breakout": true,
-        "bar_close_ms": 1793390400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.327877795962908,
-        "score": 5.7465984279391495
-      },
-      "context": {
-        "atr": 0.0021875207143769314,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.96630950328316,
-        "btc_hour_pct": 0.3615682926797481,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:EIGENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793390400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EIGENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "99ba6dca689c8e72a1601030",
-      "asset_id": "00d87c259474bea481859cd1",
-      "key": "OKX:PERP:EIGENUSDT",
-      "symbol": "EIGENUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793392320379,
-      "price": 0.18555,
-      "level": 0.1865,
-      "invalid": 0.17906178554052407,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1865,
-        "base_invalid": 0.17906178554052407,
-        "atr": 0.0022547630631728948,
-        "rvol": 3.1313110058463667,
-        "close_position": 0.970588235294121,
-        "breakout": true,
-        "bar_close_ms": 1793390400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.4407427635172017,
-        "score": 5.1018992411404875
-      },
-      "context": {
-        "atr": 0.0023571562512600874,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.0776789277301653,
-        "btc_hour_pct": 0.3630638357870364,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:EIGENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793390400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EIGENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "51bb1ef982155fb0ec9889fa",
-      "asset_id": "9a46fc5eeede31f302e160bb",
-      "key": "MEXC:SPOT:ATOMUSDT",
-      "symbol": "ATOMUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793392321649,
-      "price": 1.5215,
-      "level": 1.52,
-      "invalid": 1.4946841555413024,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.52,
-        "base_invalid": 1.4946841555413024,
-        "atr": 0.008772296391317639,
-        "rvol": 12.55803554168912,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793392200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8609271523178696,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.008772296391317639,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3615218815332,
-        "btc_hour_pct": 0.3698610971901939,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ATOMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793392200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATOMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1328265,6 +1328000,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793391129774
+    },
+    {
+      "id": "65f48ce4911c1edec37c69e5",
+      "asset_id": "384423c1f8622c8d18205345",
+      "key": "MEXC:PERP:XPLUSDT",
+      "symbol": "XPLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793392322622,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793392332392
+    },
+    {
+      "id": "decfd311aa73fc3b22dd151e",
+      "asset_id": "375971a2c03154ef6c3dc846",
+      "key": "MEXC:PERP:NIULAIUSDT",
+      "symbol": "NIULAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793392322622,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793392332392
+    },
+    {
+      "id": "c6d3458674744de31087422e",
+      "asset_id": "bc8b03e9d6248f0c468c08a9",
+      "key": "OKX:SPOT:EIGENUSDT",
+      "symbol": "EIGENUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793392320426,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793392332392
+    },
+    {
+      "id": "99ba6dca689c8e72a1601030",
+      "asset_id": "00d87c259474bea481859cd1",
+      "key": "OKX:PERP:EIGENUSDT",
+      "symbol": "EIGENUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793392320379,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793392332392
+    },
+    {
+      "id": "51bb1ef982155fb0ec9889fa",
+      "asset_id": "9a46fc5eeede31f302e160bb",
+      "key": "MEXC:SPOT:ATOMUSDT",
+      "symbol": "ATOMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793392321649,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793392332392
     }
   ],
   "runs": [
@@ -1335201,7 +1334991,8 @@
         "entry_seq": 0,
         "cohort": "ATOMUSDT",
         "observation_lag_ms": 121649,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10743
       }
     },
     "errors": [],
@@ -1357242,8 +1357033,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "22a3abf57d667b114fb18244facc1a749cbe7ac1",
-    "previous_success_ms": 1793392043385,
+    "previous_commit": "b293d825f36a7c7d2ee830e48d7a30a06739c1dd",
+    "previous_success_ms": 1793392330763,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
