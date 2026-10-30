@@ -1250368,60 +1250368,7 @@
       "source_close_ms": 1793385900000
     }
   },
-  "pending": [
-    {
-      "id": "7c7f3ef6f9cfd7f818b0d995",
-      "asset_id": "df712bdd65fb3eb651882b94",
-      "key": "MEXC:SPOT:ILVUSDT",
-      "symbol": "ILVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793386536292,
-      "price": 2.9130000000000003,
-      "level": 2.979,
-      "invalid": 2.92521119939273,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.979,
-        "base_invalid": 2.92521119939273,
-        "atr": 0.018592004048467857,
-        "rvol": 35.83617874706008,
-        "close_position": 0.8928571428571389,
-        "breakout": true,
-        "bar_close_ms": 1793385000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3202437373053488,
-        "score": 7.892857142857139
-      },
-      "context": {
-        "atr": 0.019270083806582034,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4095162630778812,
-        "btc_hour_pct": -0.2202536059253024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ILVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793385000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ILVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1251148,6 +1251095,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793386203434
+    },
+    {
+      "id": "7c7f3ef6f9cfd7f818b0d995",
+      "asset_id": "df712bdd65fb3eb651882b94",
+      "key": "MEXC:SPOT:ILVUSDT",
+      "symbol": "ILVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793386536292,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793386543540
     }
   ],
   "runs": [
