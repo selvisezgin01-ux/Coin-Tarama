@@ -16529,17 +16529,15 @@
       "details": {}
     }
   ],
-  "pending": [
+  "pending": [],
+  "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
-      "mint": null,
-      "kind": "V2 GÜNCELLEME — İŞLEM SİNYALİ DEĞİL",
-      "observed_ms": 1793356990698,
-      "text": "1 coin V2: küçük swaplar kayıtta kalır, tek tek bildirilmez. Tek işlem eşiği max100USD/likiditenin%0.1i.15/60dk net alım ve yatay fiyatla sessiz birikim ayrıca aranır. Bilinen holder token hesapları ve doğrudan transfer bağlantıları ayrı gösterilir; kimlik/sahiplik kesinliği veya tüm zincir kapsamı yok.",
-      "details": {}
+      "issue": 184,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/184",
+      "delivered_ms": 1793356993609
     }
   ],
-  "delivery": [],
   "provider_backoff": {
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434
   },
