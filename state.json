@@ -1064202,53 +1064202,7 @@
     "OKX:PERP:SAMSUNGUSDT": 1793321373055,
     "OKX:SPOT:NESUSDT": 1793321372439
   },
-  "pending": [
-    {
-      "id": "1d41a797197626e92dd794db",
-      "asset_id": "ff47ad77b4cfe10d03140191",
-      "key": "OKX:PERP:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793322601441,
-      "price": 0.05685,
-      "level": 0.05744,
-      "invalid": 0.05229298633343648,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05744,
-        "base_invalid": 0.05229298633343648,
-        "atr": 0.0018467577770901245,
-        "rvol": 2.857459455475316,
-        "close_position": 0.882352941176472,
-        "breakout": false,
-        "bar_close_ms": 1793322000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.0590868397493356,
-        "score": 4.2398123966517876
-      },
-      "context": {
-        "atr": 0.0018467577770901245,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.004744548341043,
-        "btc_hour_pct": -0.9456577085917073,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:APRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793322000000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1064627,6 +1064581,13 @@
       "phase": "radar",
       "observed_ms": 1793322305262,
       "delivered_ms": 1793322311008
+    },
+    {
+      "id": "1d41a797197626e92dd794db",
+      "asset_id": "ff47ad77b4cfe10d03140191",
+      "phase": "radar",
+      "observed_ms": 1793322601441,
+      "delivered_ms": 1793322608918
     }
   ],
   "runs": [
@@ -1069201,7 +1069162,8 @@
         "outcomes": {},
         "source_close_ms": 1793322000000,
         "observation_lag_ms": 601441,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7477
       }
     },
     "errors": [],
