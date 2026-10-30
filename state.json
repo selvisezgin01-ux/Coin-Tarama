@@ -1391275,145 +1391275,7 @@
     "MEXC:PERP:SOPHUSDT": 1793353101650,
     "OKX:SPOT:LSKUSDT": 1793353705459
   },
-  "pending": [
-    {
-      "id": "a7aa012ab2132f3b44ca64ac",
-      "asset_id": "ff611b62789bbee579a0186b",
-      "key": "OKX:SPOT:LSKUSDT",
-      "symbol": "LSKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793353705459,
-      "price": 0.19784000000000002,
-      "level": 0.18727,
-      "invalid": 0.17539021168404664,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.18727,
-        "base_invalid": 0.17539021168404664,
-        "atr": 0.004731922106355818,
-        "rvol": 7.133928574672583,
-        "close_position": 0.9493891797556722,
-        "breakout": true,
-        "bar_close_ms": 1793348100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.915235579040056,
-        "score": 7.949389179755672
-      },
-      "context": {
-        "atr": 0.005247963390688596,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 8.55497211066395,
-        "btc_hour_pct": -0.23542199488492122,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LSKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793348100000
-    },
-    {
-      "id": "ee083c5bdb7f2305e0044a1f",
-      "asset_id": "607fc90a3b149ad073da42aa",
-      "key": "MEXC:SPOT:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793353707513,
-      "price": 0.03912,
-      "level": 0.03865,
-      "invalid": 0.03766882902351096,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03865,
-        "base_invalid": 0.03766882902351096,
-        "atr": 0.0003411398432602397,
-        "rvol": 8.786181298668486,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793353500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.421689918399572,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0003411398432602397,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0707257949588267,
-        "btc_hour_pct": -0.19840224222290592,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793353500000
-    },
-    {
-      "id": "ec0e7efc050e7c6a58dedc82",
-      "asset_id": "4432fc812e9a86571364ebe5",
-      "key": "OKX:SPOT:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793353705459,
-      "price": 0.12,
-      "level": 0.1207,
-      "invalid": 0.1188774489006415,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1207,
-        "base_invalid": 0.1188774489006415,
-        "atr": 0.0008170073290566128,
-        "rvol": 5.1430950921262895,
-        "close_position": 0.7857142857142893,
-        "breakout": false,
-        "bar_close_ms": 1793353500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6694560669456173,
-        "score": 6.428809377840579
-      },
-      "context": {
-        "atr": 0.0008170073290566128,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.34549086818561614,
-        "btc_hour_pct": -0.23542199488492122,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793353500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1392450,6 +1392312,27 @@
       "phase": "expired",
       "observed_ms": 1793353101650,
       "delivered_ms": 1793353109908
+    },
+    {
+      "id": "a7aa012ab2132f3b44ca64ac",
+      "asset_id": "ff611b62789bbee579a0186b",
+      "phase": "expired",
+      "observed_ms": 1793353705459,
+      "delivered_ms": 1793353715333
+    },
+    {
+      "id": "ee083c5bdb7f2305e0044a1f",
+      "asset_id": "607fc90a3b149ad073da42aa",
+      "phase": "radar",
+      "observed_ms": 1793353707513,
+      "delivered_ms": 1793353715333
+    },
+    {
+      "id": "ec0e7efc050e7c6a58dedc82",
+      "asset_id": "4432fc812e9a86571364ebe5",
+      "phase": "radar",
+      "observed_ms": 1793353705459,
+      "delivered_ms": 1793353715333
     }
   ],
   "runs": [
@@ -1405039,7 +1404922,8 @@
         "outcomes": {},
         "source_close_ms": 1793353500000,
         "observation_lag_ms": 207513,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7820
       }
     },
     "errors": [],
