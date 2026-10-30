@@ -1171922,60 +1171922,7 @@
       "source_close_ms": 1793402100000
     }
   },
-  "pending": [
-    {
-      "id": "28821e23567d57ae6d7800b7",
-      "asset_id": "5181bde04790758156a7aa10",
-      "key": "MEXC:SPOT:VIRTUALUSDT",
-      "symbol": "VIRTUALUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793402959825,
-      "price": 0.60065,
-      "level": 0.5977,
-      "invalid": 0.584661197975932,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5977,
-        "base_invalid": 0.584661197975932,
-        "atr": 0.004258680160454074,
-        "rvol": 2.421870157467496,
-        "close_position": 0.6774193548387085,
-        "breakout": false,
-        "bar_close_ms": 1793380500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2353336695242847,
-        "score": 3.5992895123062048
-      },
-      "context": {
-        "atr": 0.0033260806304258226,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.029826986688297197,
-        "btc_hour_pct": 0.3214023158706558,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:VIRTUALUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VIRTUALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1173318,6 +1173265,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793402377094
+    },
+    {
+      "id": "28821e23567d57ae6d7800b7",
+      "asset_id": "5181bde04790758156a7aa10",
+      "key": "MEXC:SPOT:VIRTUALUSDT",
+      "symbol": "VIRTUALUSDT",
+      "phase": "expired",
+      "observed_ms": 1793402959825,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793402970130
     }
   ],
   "runs": [
@@ -1206073,8 +1206031,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a2cadbf09843e49d4d590a9bc5acfc4eabbc2cb9",
-    "previous_success_ms": 1793402685196,
+    "previous_commit": "10c86b949cb20bc82e5b1b225e2009a1665ab9f5",
+    "previous_success_ms": 1793402969013,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
