@@ -1272154,7 +1272154,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793341592943,
+      "duration_ms": 18683
     }
   ],
   "measurements": {
@@ -1275305,11 +1275307,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793341282488,
+            "endpoint_ms": 1793341320000,
+            "endpoint_price": 0.05154,
+            "return_pct": 0.038819875776408,
+            "btc_excess_pct_points": -0.038801633086382736,
+            "mae_pct": -0.6017080745341574,
+            "mfe_pct": 0.13586956521738358,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 37512,
+            "measured_ms": 1793341592409,
+            "cost_scenarios_pct": {
+              "0.2": -0.16118012422359201,
+              "0.5": -0.461180124223592,
+              "1": -0.961180124223592
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793337300000,
         "observation_lag_ms": 382488,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 7961
+        "notification_lag_ms": 7961,
+        "last_measure_attempt_ms": 1793341592409
       },
       "UAIUSDT:radar": {
         "symbol": "UAIUSDT",
@@ -1275436,7 +1275462,7 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793341296090,
+      "observed_ms": 1793341592409,
       "unique_reads": 2
     },
     "summary": {
@@ -1275444,8 +1275470,8 @@
         "unique_symbol_labels": 59,
         "hours": {
           "1": {
-            "known": 52,
-            "median_pct": -0.12314011803861713
+            "known": 53,
+            "median_pct": -0.04506534474990609
           },
           "4": {
             "known": 36,
