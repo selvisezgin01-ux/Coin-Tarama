@@ -1084681,60 +1084681,7 @@
       "source_close_ms": 1793399400000
     }
   },
-  "pending": [
-    {
-      "id": "4e36b79392a16d7f4f40914c",
-      "asset_id": "1cec28af7767a9208dbb2156",
-      "key": "MEXC:SPOT:IOUSDT",
-      "symbol": "IOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793400184410,
-      "price": 0.13712,
-      "level": 0.13638,
-      "invalid": 0.1345627820423168,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13638,
-        "base_invalid": 0.1345627820423168,
-        "atr": 0.0009147863845545764,
-        "rvol": 6.9315460707069825,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793399400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8317385543942235,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0009147863845545764,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5715645073776865,
-        "btc_hour_pct": -0.2975310308556911,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793399400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1085934,6 +1085881,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793399602367
+    },
+    {
+      "id": "4e36b79392a16d7f4f40914c",
+      "asset_id": "1cec28af7767a9208dbb2156",
+      "key": "MEXC:SPOT:IOUSDT",
+      "symbol": "IOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793400184410,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793400194955
     }
   ],
   "runs": [
@@ -1095481,7 +1095439,8 @@
         "entry_seq": 0,
         "cohort": "IOUSDT",
         "observation_lag_ms": 784410,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10545
       },
       "ee4b2d886a399e32cdcab1b9:radar": {
         "symbol": "POLUSDT",
@@ -1117728,8 +1117687,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "06bc8088b990381a94d46b3e161e6a8d5ffcdb9e",
-    "previous_success_ms": 1793399906894,
+    "previous_commit": "3285428e2c441644cf3b868a38c7a45da44a035f",
+    "previous_success_ms": 1793400193880,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
