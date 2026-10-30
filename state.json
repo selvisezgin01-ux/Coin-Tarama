@@ -1450262,104 +1450262,7 @@
     "MEXC:SPOT:BTWUSDT": 1793359445299,
     "MEXC:SPOT:BLURUSDT": 1793360346574
   },
-  "pending": [
-    {
-      "id": "10947b0d865a6c9a23d3fd23",
-      "asset_id": "822eb0761d5f270a82f3a0b5",
-      "key": "MEXC:PERP:TAGUSDT",
-      "symbol": "TAGUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793361290008,
-      "price": 0.00074635,
-      "level": 0.0007319,
-      "invalid": 0.0007136795518735904,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0007319,
-        "base_invalid": 0.0007136795518735904,
-        "atr": 1.0136320842731287e-05,
-        "rvol": 2.4492331384015595,
-        "close_position": 0.7070707070707062,
-        "breakout": true,
-        "bar_close_ms": 1793360700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0413793103448263,
-        "score": 4.156303845472266
-      },
-      "context": {
-        "atr": 1.0136320842731287e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.1667668367997921,
-        "btc_hour_pct": 0.18054283900394985,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TAGUSDT",
-          "change_pct": 0.7039704190207718,
-          "old_ms": 1793357630290,
-          "current_ms": 1793361286230,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0063999999999999994,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793360700000
-    },
-    {
-      "id": "df2a89c5cbb5b8d1932c1200",
-      "asset_id": "48788c38a58dac1042a79a64",
-      "key": "MEXC:SPOT:TLMUSDT",
-      "symbol": "TLMUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793361288831,
-      "price": 0.00128275,
-      "level": 0.0012658,
-      "invalid": 0.0012191947961708814,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0012658,
-        "base_invalid": 0.0012191947961708814,
-        "atr": 1.6034692194123023e-05,
-        "rvol": 2.148177999588144,
-        "close_position": 0.8755760368663598,
-        "breakout": true,
-        "bar_close_ms": 1793360700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8987844601573212,
-        "score": 4.023754036454504
-      },
-      "context": {
-        "atr": 1.6034692194123023e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.176766712815681,
-        "btc_hour_pct": 0.1738857958979656,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TLMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793360700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1451557,6 +1451460,20 @@
       "phase": "radar",
       "observed_ms": 1793360990470,
       "delivered_ms": 1793360998537
+    },
+    {
+      "id": "10947b0d865a6c9a23d3fd23",
+      "asset_id": "822eb0761d5f270a82f3a0b5",
+      "phase": "radar",
+      "observed_ms": 1793361290008,
+      "delivered_ms": 1793361296798
+    },
+    {
+      "id": "df2a89c5cbb5b8d1932c1200",
+      "asset_id": "48788c38a58dac1042a79a64",
+      "phase": "radar",
+      "observed_ms": 1793361288831,
+      "delivered_ms": 1793361296798
     }
   ],
   "runs": [
@@ -1466269,7 +1466186,8 @@
         "outcomes": {},
         "source_close_ms": 1793360700000,
         "observation_lag_ms": 590008,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6790
       },
       "TLMUSDT:radar": {
         "symbol": "TLMUSDT",
@@ -1466288,7 +1466206,8 @@
         "outcomes": {},
         "source_close_ms": 1793360700000,
         "observation_lag_ms": 588831,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7967
       }
     },
     "errors": [],
