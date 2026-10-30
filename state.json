@@ -1193476,7 +1193476,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793383507213,
+      "duration_ms": 25042
     }
   ],
   "radar_admissions": [
@@ -1195808,12 +1195810,12 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793383199205,
+      "observed_ms": 1793383507213,
       "unique_reads": 0
     },
     "summary": {
       "radar": {
-        "market_event_references": 40,
+        "market_event_references": 41,
         "unique_symbol_labels": 30,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
@@ -1195862,8 +1195864,8 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 9,
-            "first_per_symbol": 9,
+            "event_references": 10,
+            "first_per_symbol": 10,
             "hours": {
               "1": {
                 "known_first_symbols": 8,
