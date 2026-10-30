@@ -1063422,106 +1063422,7 @@
     "OKX:PERP:SAMSUNGUSDT": 1793321373055,
     "OKX:SPOT:NESUSDT": 1793321372439
   },
-  "pending": [
-    {
-      "id": "d6db61c87b0bb7c3e5054c33",
-      "asset_id": "a128bb7a742ddfd50db7a209",
-      "key": "MEXC:SPOT:CTUSDT",
-      "symbol": "CTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793322303826,
-      "price": 0.13465,
-      "level": 0.1324,
-      "invalid": 0.12605108597596146,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1324,
-        "base_invalid": 0.12605108597596146,
-        "atr": 0.0023260934935904138,
-        "rvol": 2.6274350022097734,
-        "close_position": 0.9767441860465141,
-        "breakout": true,
-        "bar_close_ms": 1793322000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.833078101071984,
-        "score": 4.604179188256287
-      },
-      "context": {
-        "atr": 0.0023260934935904138,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.761583160230886,
-        "btc_hour_pct": -0.9285050591589017,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793322000000
-    },
-    {
-      "id": "37f6eb8e48dbc32308dcc825",
-      "asset_id": "9f0eb16415b59e9d072265ca",
-      "key": "MEXC:PERP:HAEDALUSDT",
-      "symbol": "HAEDALUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793322305262,
-      "price": 0.02219,
-      "level": 0.02144,
-      "invalid": 0.020507524287128737,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02144,
-        "base_invalid": 0.020507524287128737,
-        "atr": 0.0004165047524750913,
-        "rvol": 2.2693852791583584,
-        "close_position": 0.8807339449541302,
-        "breakout": true,
-        "bar_close_ms": 1793322000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.305927342256211,
-        "score": 4.150119224112489
-      },
-      "context": {
-        "atr": 0.0004165047524750913,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 6.277370205537225,
-        "btc_hour_pct": -0.9714428632810135,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HAEDALUSDT",
-          "change_pct": -2.0701531521333583,
-          "old_ms": 1793318660092,
-          "current_ms": 1793322302026,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793322000000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1063886,6 +1063787,20 @@
       "phase": "cancelled",
       "observed_ms": 1793321372439,
       "delivered_ms": 1793321379157
+    },
+    {
+      "id": "d6db61c87b0bb7c3e5054c33",
+      "asset_id": "a128bb7a742ddfd50db7a209",
+      "phase": "radar",
+      "observed_ms": 1793322303826,
+      "delivered_ms": 1793322311008
+    },
+    {
+      "id": "37f6eb8e48dbc32308dcc825",
+      "asset_id": "9f0eb16415b59e9d072265ca",
+      "phase": "radar",
+      "observed_ms": 1793322305262,
+      "delivered_ms": 1793322311008
     }
   ],
   "runs": [
@@ -1068352,7 +1068267,8 @@
         "outcomes": {},
         "source_close_ms": 1793322000000,
         "observation_lag_ms": 303826,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7182
       },
       "HAEDALUSDT:radar": {
         "symbol": "HAEDALUSDT",
@@ -1068371,7 +1068287,8 @@
         "outcomes": {},
         "source_close_ms": 1793322000000,
         "observation_lag_ms": 305262,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5746
       }
     },
     "errors": [],
