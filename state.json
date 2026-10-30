@@ -1325338,116 +1325338,7 @@
       "source_close_ms": 1793393100000
     }
   },
-  "pending": [
-    {
-      "id": "8366ee2be81643614546e8f4",
-      "asset_id": "43240ec5b0a86bf6b9bf73bc",
-      "key": "MEXC:PERP:NEOUSDT",
-      "symbol": "NEOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793394193679,
-      "price": 1.9965000000000002,
-      "level": 1.994,
-      "invalid": 1.9431211450742945,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.994,
-        "base_invalid": 1.9431211450742945,
-        "atr": 0.012525699504703402,
-        "rvol": 11.518761949462313,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793394000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5538771399798748,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.012525699504703402,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5685709750708368,
-        "btc_hour_pct": -0.014693835090962004,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NEOUSDT",
-          "change_pct": 2.7198158976670994,
-          "old_ms": 1793390507499,
-          "current_ms": 1793394189495,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793394000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2470dc460d2f517c5427ad1a",
-      "asset_id": "4cf3f632b6772fc7e87a82d5",
-      "key": "OKX:PERP:WIFUSDT",
-      "symbol": "WIFUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793394188517,
-      "price": 0.17604999999999998,
-      "level": 0.1756,
-      "invalid": 0.17148890962332083,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1756,
-        "base_invalid": 0.17148890962332083,
-        "atr": 0.0014072691778610924,
-        "rvol": 3.068953441136809,
-        "close_position": 0.8333333333333295,
-        "breakout": false,
-        "bar_close_ms": 1793394000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.402286774470138
-      },
-      "context": {
-        "atr": 0.0014072691778610924,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.007804756218443565,
-        "btc_hour_pct": -0.007804756218443565,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WIFUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793394000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WIFUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1326471,6 +1326362,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793393530468
+    },
+    {
+      "id": "8366ee2be81643614546e8f4",
+      "asset_id": "43240ec5b0a86bf6b9bf73bc",
+      "key": "MEXC:PERP:NEOUSDT",
+      "symbol": "NEOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793394193679,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793394203483
+    },
+    {
+      "id": "2470dc460d2f517c5427ad1a",
+      "asset_id": "4cf3f632b6772fc7e87a82d5",
+      "key": "OKX:PERP:WIFUSDT",
+      "symbol": "WIFUSDT",
+      "phase": "radar",
+      "observed_ms": 1793394188517,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793394203483
     }
   ],
   "runs": [
@@ -1334061,7 +1333974,8 @@
         "entry_seq": 0,
         "cohort": "NEOUSDT",
         "observation_lag_ms": 193679,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9804
       },
       "4cf3f632b6772fc7e87a82d5:radar": {
         "symbol": "WIFUSDT",
@@ -1334083,7 +1333997,8 @@
         "entry_seq": 0,
         "cohort": "WIFUSDT",
         "observation_lag_ms": 188517,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14966
       }
     },
     "errors": [],
@@ -1356172,8 +1356087,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8ac4f174d846ca09e785c9166f3d2532ce80a316",
-    "previous_success_ms": 1793394174633,
+    "previous_commit": "bc8f07d71de69bb149aafdcf5e7f1532c82c05da",
+    "previous_success_ms": 1793394202398,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
