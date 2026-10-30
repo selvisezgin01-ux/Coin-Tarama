@@ -1116607,7 +1116607,9 @@
           "selected_for_candles": 36,
           "fresh_candidate_quotes": 8
         }
-      }
+      },
+      "finished_ms": 1793400880170,
+      "duration_ms": 27573
     }
   ],
   "radar_admissions": [
@@ -1121439,14 +1121441,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793400490710,
+            "endpoint_ms": 1793400540000,
+            "endpoint_price": 0.022,
+            "return_pct": 1.8282804906271766,
+            "btc_excess_pct_points": 1.69007469223319,
+            "mae_pct": -0.11571395510299176,
+            "mfe_pct": 2.4299930571626938,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 49290,
+            "measured_ms": 1793400879088,
+            "cost_scenarios_pct": {
+              "0.2": 1.6282804906271766,
+              "0.5": 1.3282804906271766,
+              "1": 0.8282804906271766
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793396700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "BIOUSDT",
         "observation_lag_ms": 190710,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9227
+        "notification_lag_ms": 9227,
+        "last_measure_attempt_ms": 1793400879088
       },
       "6f0ad3c28042e2c8135ac702:radar": {
         "symbol": "BIOUSDT",
@@ -1121462,14 +1121488,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793400486883,
+            "endpoint_ms": 1793400540000,
+            "endpoint_price": 0.02197,
+            "return_pct": 1.8072289156626509,
+            "btc_excess_pct_points": 1.6819031500524328,
+            "mae_pct": -0.3707136237256936,
+            "mfe_pct": 2.641334569045406,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 53117,
+            "measured_ms": 1793400879088,
+            "cost_scenarios_pct": {
+              "0.2": 1.607228915662651,
+              "0.5": 1.3072289156626509,
+              "1": 0.8072289156626509
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793396700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "BIOUSDT",
         "observation_lag_ms": 186883,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13054
+        "notification_lag_ms": 13054,
+        "last_measure_attempt_ms": 1793400879088
       },
       "6e0539b4373053cd397953ce:radar": {
         "symbol": "KMNOUSDT",
@@ -1121725,24 +1121775,24 @@
     },
     "errors": [],
     "queue": {
-      "due": 4,
+      "due": 6,
       "attempted": 2,
-      "observed_ms": 1793400504343,
+      "observed_ms": 1793400879088,
       "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 78,
-        "unique_symbol_labels": 54,
+        "market_event_references": 82,
+        "unique_symbol_labels": 57,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 26,
-            "first_per_symbol": 26,
+            "event_references": 29,
+            "first_per_symbol": 29,
             "hours": {
               "1": {
-                "known_first_symbols": 23,
-                "median_reference_return_pct": -0.10040160642570406
+                "known_first_symbols": 24,
+                "median_reference_return_pct": -0.09253780575307347
               },
               "4": {
                 "known_first_symbols": 16,
@@ -1121759,8 +1121809,8 @@
             }
           },
           "MEXC:SPOT:radar": {
-            "event_references": 19,
-            "first_per_symbol": 19,
+            "event_references": 20,
+            "first_per_symbol": 20,
             "hours": {
               "1": {
                 "known_first_symbols": 16,
@@ -1121807,8 +1121857,8 @@
             "first_per_symbol": 12,
             "hours": {
               "1": {
-                "known_first_symbols": 10,
-                "median_reference_return_pct": -0.5705221968020702
+                "known_first_symbols": 11,
+                "median_reference_return_pct": -0.23628248884222103
               },
               "4": {
                 "known_first_symbols": 7,
@@ -1143966,8 +1144016,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b589f4e5d2901b28212f6dd0a42695b039abe5fc",
-    "previous_success_ms": 1793400871033,
+    "previous_commit": "3d0c95dab9fddb3e8af65bffc925e3fc62264029",
+    "previous_success_ms": 1793400879057,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
