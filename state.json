@@ -3188,57 +3188,6 @@
         ]
       }
     },
-    "solana:2XKAk4wrYjt3aFxDbKXpLmtrpxerqbhnpeZFqY99pump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "2XKAk4wrYjt3aFxDbKXpLmtrpxerqbhnpeZFqY99pump",
-        "pool": "D5RiaHizqHZE1fuQDdKHD4CverKJoPmJ95DAZXRXkgo1",
-        "price_observed_ms": 1793327542577,
-        "symbol": "Macbook",
-        "dex": "pump-fun",
-        "price_usd": 3.056135962618001e-06,
-        "liquidity_usd": 2461.8779,
-        "market_cap_usd": 2677.82,
-        "fdv_usd": 2677.82,
-        "pool_created_ms": 1793327359000,
-        "volume15_usd": 3727.051979434,
-        "buys15": 22.0,
-        "sells15": 29.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327542577
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327359000,
-      "observations": [
-        {
-          "ms": 1793327542577,
-          "price": 3.056135962618001e-06,
-          "liquidity": 2461.8779
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 5.157333333333334,
-        "valuation_usd": 2677.82,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
     "solana:iYN6d8KJgo5E5DDzTPzXZmYjooXgggE2T3vFPqzcash": {
       "latest": {
         "chain": "solana",
@@ -3497,416 +3446,6 @@
         ]
       }
     },
-    "solana:3nexfNn8TznbT37iEW8e1Rsy4wj6gDd4NHNd2MW7pump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "3nexfNn8TznbT37iEW8e1Rsy4wj6gDd4NHNd2MW7pump",
-        "pool": "ArTwS8XU9AaXkpDZeUUN59KzLFkWitZxzjk473Epftgh",
-        "price_observed_ms": 1793327542577,
-        "symbol": "$LOAD",
-        "dex": "pump-fun",
-        "price_usd": 1.7378049435900452e-07,
-        "liquidity_usd": 176.4431,
-        "market_cap_usd": 116.83,
-        "fdv_usd": 116.83,
-        "pool_created_ms": 1793327354000,
-        "volume15_usd": 272.946645043,
-        "buys15": 35.0,
-        "sells15": 27.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327542577
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327354000,
-      "observations": [
-        {
-          "ms": 1793327542577,
-          "price": 1.7378049435900452e-07,
-          "liquidity": 176.4431
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 5.240666666666667,
-        "valuation_usd": 116.83,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:CcLHXChYHooY4MbEnPnWWvYuAFywR2YsNBTi6vb5pump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "CcLHXChYHooY4MbEnPnWWvYuAFywR2YsNBTi6vb5pump",
-        "pool": "5ZxEPz7raMdC51Vs47JHRNS6xBVq94gdnsDVZZFtANeM",
-        "price_observed_ms": 1793327605091,
-        "symbol": "LAPTOP",
-        "dex": "pump-fun",
-        "price_usd": 2.988815616997483e-06,
-        "liquidity_usd": 3356.9646,
-        "market_cap_usd": 2678.36,
-        "fdv_usd": 2678.36,
-        "pool_created_ms": 1793327406000,
-        "volume15_usd": 2622.8729646268,
-        "buys15": 11.0,
-        "sells15": 16.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327605091
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327406000,
-      "observations": [
-        {
-          "ms": 1793327605091,
-          "price": 2.988815616997483e-06,
-          "liquidity": 3356.9646
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 4.374,
-        "valuation_usd": 2678.36,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:3A4prAf5XaMez1BvfoBQqKr2c2m4WcWtG5svPthZpump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "3A4prAf5XaMez1BvfoBQqKr2c2m4WcWtG5svPthZpump",
-        "pool": "6LiW655A6J3Hmm6LyzD5LiDXdbB7TwL8QqKG6efWhQQT",
-        "price_observed_ms": 1793327542577,
-        "symbol": "Fakeout",
-        "dex": "pump-fun",
-        "price_usd": 2.877063795632688e-06,
-        "liquidity_usd": 2277.5089,
-        "market_cap_usd": 2654.99,
-        "fdv_usd": 2654.99,
-        "pool_created_ms": 1793327349000,
-        "volume15_usd": 2231.5496481748,
-        "buys15": 13.0,
-        "sells15": 16.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327542577
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327349000,
-      "observations": [
-        {
-          "ms": 1793327542577,
-          "price": 2.877063795632688e-06,
-          "liquidity": 2277.5089
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 5.324,
-        "valuation_usd": 2654.99,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:EMuAoBL7ULoo84MLAJj6NZt5LAcV4KVawdSe9BR9pump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "EMuAoBL7ULoo84MLAJj6NZt5LAcV4KVawdSe9BR9pump",
-        "pool": "CuMwUtvxfPjBG8PXrpRL5PAvifEjwVt7SCSYUnPUefFd",
-        "price_observed_ms": 1793327605091,
-        "symbol": "LAPTOP",
-        "dex": "pump-fun",
-        "price_usd": 3.0743074536419787e-06,
-        "liquidity_usd": 2422.1203,
-        "market_cap_usd": 2654.99,
-        "fdv_usd": 2654.99,
-        "pool_created_ms": 1793327411000,
-        "volume15_usd": 2593.1878276963,
-        "buys15": 6.0,
-        "sells15": 7.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327605091
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327411000,
-      "observations": [
-        {
-          "ms": 1793327605091,
-          "price": 3.0743074536419787e-06,
-          "liquidity": 2422.1203
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 4.290666666666667,
-        "valuation_usd": 2654.99,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:8XDnpQLMRiQxZgCAnL7Q6sjcPhtGYt41TijLNFxxpump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "8XDnpQLMRiQxZgCAnL7Q6sjcPhtGYt41TijLNFxxpump",
-        "pool": "5TEPs6TFwKqvDi1LRfbnCqemWgdXF6uxrCCJwG5Yf3W9",
-        "price_observed_ms": 1793327542577,
-        "symbol": "Macbook",
-        "dex": "pump-fun",
-        "price_usd": 2.846956630920373e-06,
-        "liquidity_usd": 2299.7852,
-        "market_cap_usd": 2832.68,
-        "fdv_usd": 2832.68,
-        "pool_created_ms": 1793327384000,
-        "volume15_usd": 2163.8702094795,
-        "buys15": 8.0,
-        "sells15": 12.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327542577
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327384000,
-      "observations": [
-        {
-          "ms": 1793327542577,
-          "price": 2.846956630920373e-06,
-          "liquidity": 2299.7852
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 4.740666666666667,
-        "valuation_usd": 2832.68,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:6PZQBegXQ28As1nuKhTuD2oY9Wk6MKGSjTnFmJywpump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "6PZQBegXQ28As1nuKhTuD2oY9Wk6MKGSjTnFmJywpump",
-        "pool": "HcPGtP1ff8JNMRrRXzx51r19fpZ1gAvc59SLNA6K5Ndj",
-        "price_observed_ms": 1793327542577,
-        "symbol": "LAPTOP",
-        "dex": "pump-fun",
-        "price_usd": 2.948957790953803e-06,
-        "liquidity_usd": 2330.7098,
-        "market_cap_usd": 2654.99,
-        "fdv_usd": 2654.99,
-        "pool_created_ms": 1793327377000,
-        "volume15_usd": 2192.4905964309,
-        "buys15": 6.0,
-        "sells15": 5.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327542577
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327377000,
-      "observations": [
-        {
-          "ms": 1793327542577,
-          "price": 2.948957790953803e-06,
-          "liquidity": 2330.7098
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 4.857333333333333,
-        "valuation_usd": 2654.99,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:6KMj5XKXWBnA9Bi2MfkgNiiJu4ZT5ouu2LJcukk8pump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "6KMj5XKXWBnA9Bi2MfkgNiiJu4ZT5ouu2LJcukk8pump",
-        "pool": "A24iQ8p7iFuKwxTHxhxVcwnA8ZMtkPp8nggdVvjjkd9w",
-        "price_observed_ms": 1793327542577,
-        "symbol": "cap",
-        "dex": "pump-fun",
-        "price_usd": 9.046889470623225e-07,
-        "liquidity_usd": 1286.0311,
-        "market_cap_usd": 245.88,
-        "fdv_usd": 245.88,
-        "pool_created_ms": 1793327367000,
-        "volume15_usd": 149.1245729087,
-        "buys15": 24.0,
-        "sells15": 19.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327542577
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327367000,
-      "observations": [
-        {
-          "ms": 1793327542577,
-          "price": 9.046889470623225e-07,
-          "liquidity": 1286.0311
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 5.024,
-        "valuation_usd": 245.88,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:FSvFzDfBeT5WtRLKfrWW7sV9GjDRMKCZYMmWq2wVEBoi": {
-      "latest": {
-        "chain": "solana",
-        "mint": "FSvFzDfBeT5WtRLKfrWW7sV9GjDRMKCZYMmWq2wVEBoi",
-        "pool": "84QBtRkAhQS2ngJKGta4oaAcGH129b5sseYbii7qzZzN",
-        "price_observed_ms": 1793327605091,
-        "symbol": "FLUKE",
-        "dex": "meteora-damm-v2",
-        "price_usd": 1.85462271189476e-05,
-        "liquidity_usd": 215.3715,
-        "market_cap_usd": null,
-        "fdv_usd": 18536.9946,
-        "pool_created_ms": 1793327414000,
-        "volume15_usd": 215.6332621507,
-        "buys15": 20.0,
-        "sells15": 2.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793327605091
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327414000,
-      "observations": [
-        {
-          "ms": 1793327605091,
-          "price": 1.85462271189476e-05,
-          "liquidity": 215.3715
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 4.240666666666667,
-        "valuation_usd": 18536.9946,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
     "solana:7Gw7DQRDhW81e8RQs4w6NbrkEfvJexLCpmcxLANppump": {
       "latest": {
         "chain": "solana",
@@ -3958,57 +3497,6 @@
         "unknown": [],
         "pool_age_minutes": 22.586833333333335,
         "valuation_usd": 3102.09,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:2iJMVLuk1hpNuw5aBxs4XnFRgAFAtteCZujCMyAJpump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "2iJMVLuk1hpNuw5aBxs4XnFRgAFAtteCZujCMyAJpump",
-        "pool": "Auz7kqHCpVWV7biAkcgkrqCk2ydVUDJoQJS7ZZ745YEY",
-        "price_observed_ms": 1793327605091,
-        "symbol": "ICT",
-        "dex": "pump-fun",
-        "price_usd": 3.5238025330563944e-06,
-        "liquidity_usd": 3166.6426,
-        "market_cap_usd": 3516.68,
-        "fdv_usd": 3516.68,
-        "pool_created_ms": 1793327374000,
-        "volume15_usd": 35.2751578158,
-        "buys15": 21.0,
-        "sells15": 7.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327605091
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327374000,
-      "observations": [
-        {
-          "ms": 1793327605091,
-          "price": 3.5238025330563944e-06,
-          "liquidity": 3166.6426
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "volume15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 4.907333333333334,
-        "valuation_usd": 3516.68,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -4076,57 +3564,6 @@
         "unknown": [],
         "pool_age_minutes": 45.48823333333333,
         "valuation_usd": 3673.8,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:DBiYgdpkCdSaqwjsjeJxXpR9Nw7BKGkRzEh7AQXupump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "DBiYgdpkCdSaqwjsjeJxXpR9Nw7BKGkRzEh7AQXupump",
-        "pool": "A78YqmL7kPKvtw9cWe6kapYVvJpg77s2b3HTo2t71UWK",
-        "price_observed_ms": 1793327605091,
-        "symbol": "MEOW",
-        "dex": "pump-fun",
-        "price_usd": 4.228142247709096e-06,
-        "liquidity_usd": 3298.7501,
-        "market_cap_usd": 4218.08,
-        "fdv_usd": 4218.08,
-        "pool_created_ms": 1793327383000,
-        "volume15_usd": 273.5105973507,
-        "buys15": 13.0,
-        "sells15": 6.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793327605091
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327383000,
-      "observations": [
-        {
-          "ms": 1793327605091,
-          "price": 4.228142247709096e-06,
-          "liquidity": 3298.7501
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "valuation",
-          "volume15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 4.757333333333333,
-        "valuation_usd": 4218.08,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -5994,108 +5431,6 @@
         ]
       }
     },
-    "solana:5ohjoujwGcoCurVdABJYAdtg1wt45zi5HjXjne1ypump": {
-      "latest": {
-        "chain": "solana",
-        "mint": "5ohjoujwGcoCurVdABJYAdtg1wt45zi5HjXjne1ypump",
-        "pool": "2c1GHMup1ypNeWMSJAczfCDhQ3XBAoAtj9a2GKUdsRdS",
-        "price_observed_ms": 1793331222578,
-        "symbol": "LAPTOP",
-        "dex": "pump-fun",
-        "price_usd": 3.89540492477877e-05,
-        "liquidity_usd": 0.0,
-        "market_cap_usd": 38971.98,
-        "fdv_usd": 38971.98,
-        "pool_created_ms": 1793327374000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793331222578
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327374000,
-      "observations": [
-        {
-          "ms": 1793327542577,
-          "price": 1.0253567106054938e-05,
-          "liquidity": 5482.9642
-        },
-        {
-          "ms": 1793328568158,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793328868203,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793329168113,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793329432018,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793329722674,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793330022533,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793330322493,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793330622357,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793330922400,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793331222578,
-          "price": 3.89540492477877e-05,
-          "liquidity": 0.0
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 64.15195,
-        "valuation_usd": 38971.98,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
     "solana:9ynYhcwjqFDacXWorSB5RMQbMNUZA2wNAVrgNtyoBiFK": {
       "latest": {
         "chain": "solana",
@@ -6763,72 +6098,6 @@
         "unknown": [],
         "pool_age_minutes": 48.1049,
         "valuation_usd": 629.15,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "solana:A7uzrsmeWfw2QiHZeXrCgu6Upr3XGLp4CQcEbaueo3ju": {
-      "latest": {
-        "chain": "solana",
-        "mint": "A7uzrsmeWfw2QiHZeXrCgu6Upr3XGLp4CQcEbaueo3ju",
-        "pool": "DeFx6ojWoqxViH5j54eukHhTYs9DqNvzxxXpxLkKSnp7",
-        "price_observed_ms": 1793331822456,
-        "symbol": "LAPTOP",
-        "dex": "pump-fun",
-        "price_usd": 2.7505046656428112e-06,
-        "liquidity_usd": 2349.9038,
-        "market_cap_usd": 2661.14,
-        "fdv_usd": 2661.14,
-        "pool_created_ms": 1793327396000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793331822456
-      },
-      "first_seen_ms": 1793327668440,
-      "earliest_pool_created_ms": 1793327396000,
-      "observations": [
-        {
-          "ms": 1793327605091,
-          "price": 3.0493099746409894e-06,
-          "liquidity": 2340.7384
-        },
-        {
-          "ms": 1793328568158,
-          "price": 2.7505046656428112e-06,
-          "liquidity": 2332.5871
-        },
-        {
-          "ms": 1793328868203,
-          "price": 2.7505046656428112e-06,
-          "liquidity": 2332.5871
-        },
-        {
-          "ms": 1793331822456,
-          "price": 2.7505046656428112e-06,
-          "liquidity": 2349.9038
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 73.78823333333334,
-        "valuation_usd": 2661.14,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -8200,6 +7469,57 @@
         ]
       }
     },
+    "solana:2XKAk4wrYjt3aFxDbKXpLmtrpxerqbhnpeZFqY99pump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "2XKAk4wrYjt3aFxDbKXpLmtrpxerqbhnpeZFqY99pump",
+        "pool": "D5RiaHizqHZE1fuQDdKHD4CverKJoPmJ95DAZXRXkgo1",
+        "price_observed_ms": 1793327542577,
+        "symbol": "Macbook",
+        "dex": "pump-fun",
+        "price_usd": 3.056135962618001e-06,
+        "liquidity_usd": 2461.8779,
+        "market_cap_usd": 2677.82,
+        "fdv_usd": 2677.82,
+        "pool_created_ms": 1793327359000,
+        "volume15_usd": 3727.051979434,
+        "buys15": 22.0,
+        "sells15": 29.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327542577
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327359000,
+      "observations": [
+        {
+          "ms": 1793327542577,
+          "price": 3.056135962618001e-06,
+          "liquidity": 2461.8779
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 5.157333333333334,
+        "valuation_usd": 2677.82,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "solana:5oMRiRZE1PzSqgh53mXj1dqkT9nzTEZDcgk3zTqYpump": {
       "latest": {
         "chain": "solana",
@@ -8845,6 +8165,109 @@
         ]
       }
     },
+    "solana:3nexfNn8TznbT37iEW8e1Rsy4wj6gDd4NHNd2MW7pump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "3nexfNn8TznbT37iEW8e1Rsy4wj6gDd4NHNd2MW7pump",
+        "pool": "ArTwS8XU9AaXkpDZeUUN59KzLFkWitZxzjk473Epftgh",
+        "price_observed_ms": 1793327542577,
+        "symbol": "$LOAD",
+        "dex": "pump-fun",
+        "price_usd": 1.7378049435900452e-07,
+        "liquidity_usd": 176.4431,
+        "market_cap_usd": 116.83,
+        "fdv_usd": 116.83,
+        "pool_created_ms": 1793327354000,
+        "volume15_usd": 272.946645043,
+        "buys15": 35.0,
+        "sells15": 27.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327542577
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327354000,
+      "observations": [
+        {
+          "ms": 1793327542577,
+          "price": 1.7378049435900452e-07,
+          "liquidity": 176.4431
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 5.240666666666667,
+        "valuation_usd": 116.83,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "solana:CcLHXChYHooY4MbEnPnWWvYuAFywR2YsNBTi6vb5pump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "CcLHXChYHooY4MbEnPnWWvYuAFywR2YsNBTi6vb5pump",
+        "pool": "5ZxEPz7raMdC51Vs47JHRNS6xBVq94gdnsDVZZFtANeM",
+        "price_observed_ms": 1793327605091,
+        "symbol": "LAPTOP",
+        "dex": "pump-fun",
+        "price_usd": 2.988815616997483e-06,
+        "liquidity_usd": 3356.9646,
+        "market_cap_usd": 2678.36,
+        "fdv_usd": 2678.36,
+        "pool_created_ms": 1793327406000,
+        "volume15_usd": 2622.8729646268,
+        "buys15": 11.0,
+        "sells15": 16.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327605091
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327406000,
+      "observations": [
+        {
+          "ms": 1793327605091,
+          "price": 2.988815616997483e-06,
+          "liquidity": 3356.9646
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 4.374,
+        "valuation_usd": 2678.36,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "solana:FB9QYXCqLJ9prSbupbS9FqxL8gs9JZnnq8oo6YiA5GWj": {
       "latest": {
         "chain": "solana",
@@ -8910,6 +8333,108 @@
         ]
       }
     },
+    "solana:3A4prAf5XaMez1BvfoBQqKr2c2m4WcWtG5svPthZpump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "3A4prAf5XaMez1BvfoBQqKr2c2m4WcWtG5svPthZpump",
+        "pool": "6LiW655A6J3Hmm6LyzD5LiDXdbB7TwL8QqKG6efWhQQT",
+        "price_observed_ms": 1793327542577,
+        "symbol": "Fakeout",
+        "dex": "pump-fun",
+        "price_usd": 2.877063795632688e-06,
+        "liquidity_usd": 2277.5089,
+        "market_cap_usd": 2654.99,
+        "fdv_usd": 2654.99,
+        "pool_created_ms": 1793327349000,
+        "volume15_usd": 2231.5496481748,
+        "buys15": 13.0,
+        "sells15": 16.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327542577
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327349000,
+      "observations": [
+        {
+          "ms": 1793327542577,
+          "price": 2.877063795632688e-06,
+          "liquidity": 2277.5089
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 5.324,
+        "valuation_usd": 2654.99,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "solana:EMuAoBL7ULoo84MLAJj6NZt5LAcV4KVawdSe9BR9pump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "EMuAoBL7ULoo84MLAJj6NZt5LAcV4KVawdSe9BR9pump",
+        "pool": "CuMwUtvxfPjBG8PXrpRL5PAvifEjwVt7SCSYUnPUefFd",
+        "price_observed_ms": 1793327605091,
+        "symbol": "LAPTOP",
+        "dex": "pump-fun",
+        "price_usd": 3.0743074536419787e-06,
+        "liquidity_usd": 2422.1203,
+        "market_cap_usd": 2654.99,
+        "fdv_usd": 2654.99,
+        "pool_created_ms": 1793327411000,
+        "volume15_usd": 2593.1878276963,
+        "buys15": 6.0,
+        "sells15": 7.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327605091
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327411000,
+      "observations": [
+        {
+          "ms": 1793327605091,
+          "price": 3.0743074536419787e-06,
+          "liquidity": 2422.1203
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 4.290666666666667,
+        "valuation_usd": 2654.99,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "solana:7zZzFRxiXuu1N4oVx6aoDPqxMQEG5MAeiXDFDcS3pump": {
       "latest": {
         "chain": "solana",
@@ -8965,6 +8490,108 @@
         ]
       }
     },
+    "solana:8XDnpQLMRiQxZgCAnL7Q6sjcPhtGYt41TijLNFxxpump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "8XDnpQLMRiQxZgCAnL7Q6sjcPhtGYt41TijLNFxxpump",
+        "pool": "5TEPs6TFwKqvDi1LRfbnCqemWgdXF6uxrCCJwG5Yf3W9",
+        "price_observed_ms": 1793327542577,
+        "symbol": "Macbook",
+        "dex": "pump-fun",
+        "price_usd": 2.846956630920373e-06,
+        "liquidity_usd": 2299.7852,
+        "market_cap_usd": 2832.68,
+        "fdv_usd": 2832.68,
+        "pool_created_ms": 1793327384000,
+        "volume15_usd": 2163.8702094795,
+        "buys15": 8.0,
+        "sells15": 12.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327542577
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327384000,
+      "observations": [
+        {
+          "ms": 1793327542577,
+          "price": 2.846956630920373e-06,
+          "liquidity": 2299.7852
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 4.740666666666667,
+        "valuation_usd": 2832.68,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "solana:6PZQBegXQ28As1nuKhTuD2oY9Wk6MKGSjTnFmJywpump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "6PZQBegXQ28As1nuKhTuD2oY9Wk6MKGSjTnFmJywpump",
+        "pool": "HcPGtP1ff8JNMRrRXzx51r19fpZ1gAvc59SLNA6K5Ndj",
+        "price_observed_ms": 1793327542577,
+        "symbol": "LAPTOP",
+        "dex": "pump-fun",
+        "price_usd": 2.948957790953803e-06,
+        "liquidity_usd": 2330.7098,
+        "market_cap_usd": 2654.99,
+        "fdv_usd": 2654.99,
+        "pool_created_ms": 1793327377000,
+        "volume15_usd": 2192.4905964309,
+        "buys15": 6.0,
+        "sells15": 5.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327542577
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327377000,
+      "observations": [
+        {
+          "ms": 1793327542577,
+          "price": 2.948957790953803e-06,
+          "liquidity": 2330.7098
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 4.857333333333333,
+        "valuation_usd": 2654.99,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "solana:fM6WfwsNUbkZfg7mf3WHGypxY7BVYgn94iKhbznpump": {
       "latest": {
         "chain": "solana",
@@ -9006,6 +8633,58 @@
         "unknown": [],
         "pool_age_minutes": 4.21135,
         "valuation_usd": 3086.43,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "solana:6KMj5XKXWBnA9Bi2MfkgNiiJu4ZT5ouu2LJcukk8pump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "6KMj5XKXWBnA9Bi2MfkgNiiJu4ZT5ouu2LJcukk8pump",
+        "pool": "A24iQ8p7iFuKwxTHxhxVcwnA8ZMtkPp8nggdVvjjkd9w",
+        "price_observed_ms": 1793327542577,
+        "symbol": "cap",
+        "dex": "pump-fun",
+        "price_usd": 9.046889470623225e-07,
+        "liquidity_usd": 1286.0311,
+        "market_cap_usd": 245.88,
+        "fdv_usd": 245.88,
+        "pool_created_ms": 1793327367000,
+        "volume15_usd": 149.1245729087,
+        "buys15": 24.0,
+        "sells15": 19.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327542577
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327367000,
+      "observations": [
+        {
+          "ms": 1793327542577,
+          "price": 9.046889470623225e-07,
+          "liquidity": 1286.0311
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 5.024,
+        "valuation_usd": 245.88,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -9072,6 +8751,57 @@
         ]
       }
     },
+    "solana:FSvFzDfBeT5WtRLKfrWW7sV9GjDRMKCZYMmWq2wVEBoi": {
+      "latest": {
+        "chain": "solana",
+        "mint": "FSvFzDfBeT5WtRLKfrWW7sV9GjDRMKCZYMmWq2wVEBoi",
+        "pool": "84QBtRkAhQS2ngJKGta4oaAcGH129b5sseYbii7qzZzN",
+        "price_observed_ms": 1793327605091,
+        "symbol": "FLUKE",
+        "dex": "meteora-damm-v2",
+        "price_usd": 1.85462271189476e-05,
+        "liquidity_usd": 215.3715,
+        "market_cap_usd": null,
+        "fdv_usd": 18536.9946,
+        "pool_created_ms": 1793327414000,
+        "volume15_usd": 215.6332621507,
+        "buys15": 20.0,
+        "sells15": 2.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793327605091
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327414000,
+      "observations": [
+        {
+          "ms": 1793327605091,
+          "price": 1.85462271189476e-05,
+          "liquidity": 215.3715
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 4.240666666666667,
+        "valuation_usd": 18536.9946,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "solana:27JvmLAC1ed1TBHA6GfEAKWJNuctrqTDwKSMbuiBpump": {
       "latest": {
         "chain": "solana",
@@ -9114,6 +8844,57 @@
         "unknown": [],
         "pool_age_minutes": 4.346266666666667,
         "valuation_usd": 359.44,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "solana:2iJMVLuk1hpNuw5aBxs4XnFRgAFAtteCZujCMyAJpump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "2iJMVLuk1hpNuw5aBxs4XnFRgAFAtteCZujCMyAJpump",
+        "pool": "Auz7kqHCpVWV7biAkcgkrqCk2ydVUDJoQJS7ZZ745YEY",
+        "price_observed_ms": 1793327605091,
+        "symbol": "ICT",
+        "dex": "pump-fun",
+        "price_usd": 3.5238025330563944e-06,
+        "liquidity_usd": 3166.6426,
+        "market_cap_usd": 3516.68,
+        "fdv_usd": 3516.68,
+        "pool_created_ms": 1793327374000,
+        "volume15_usd": 35.2751578158,
+        "buys15": 21.0,
+        "sells15": 7.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327605091
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327374000,
+      "observations": [
+        {
+          "ms": 1793327605091,
+          "price": 3.5238025330563944e-06,
+          "liquidity": 3166.6426
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "volume15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 4.907333333333334,
+        "valuation_usd": 3516.68,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -9496,6 +9277,57 @@
         "unknown": [],
         "pool_age_minutes": 2.71295,
         "valuation_usd": 9516.8,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "solana:DBiYgdpkCdSaqwjsjeJxXpR9Nw7BKGkRzEh7AQXupump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "DBiYgdpkCdSaqwjsjeJxXpR9Nw7BKGkRzEh7AQXupump",
+        "pool": "A78YqmL7kPKvtw9cWe6kapYVvJpg77s2b3HTo2t71UWK",
+        "price_observed_ms": 1793327605091,
+        "symbol": "MEOW",
+        "dex": "pump-fun",
+        "price_usd": 4.228142247709096e-06,
+        "liquidity_usd": 3298.7501,
+        "market_cap_usd": 4218.08,
+        "fdv_usd": 4218.08,
+        "pool_created_ms": 1793327383000,
+        "volume15_usd": 273.5105973507,
+        "buys15": 13.0,
+        "sells15": 6.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793327605091
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327383000,
+      "observations": [
+        {
+          "ms": 1793327605091,
+          "price": 4.228142247709096e-06,
+          "liquidity": 3298.7501
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "pool_age",
+          "liquidity",
+          "valuation",
+          "volume15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 4.757333333333333,
+        "valuation_usd": 4218.08,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -10222,6 +10054,108 @@
         ]
       }
     },
+    "solana:5ohjoujwGcoCurVdABJYAdtg1wt45zi5HjXjne1ypump": {
+      "latest": {
+        "chain": "solana",
+        "mint": "5ohjoujwGcoCurVdABJYAdtg1wt45zi5HjXjne1ypump",
+        "pool": "2c1GHMup1ypNeWMSJAczfCDhQ3XBAoAtj9a2GKUdsRdS",
+        "price_observed_ms": 1793331222578,
+        "symbol": "LAPTOP",
+        "dex": "pump-fun",
+        "price_usd": 3.89540492477877e-05,
+        "liquidity_usd": 0.0,
+        "market_cap_usd": 38971.98,
+        "fdv_usd": 38971.98,
+        "pool_created_ms": 1793327374000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793331222578
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327374000,
+      "observations": [
+        {
+          "ms": 1793327542577,
+          "price": 1.0253567106054938e-05,
+          "liquidity": 5482.9642
+        },
+        {
+          "ms": 1793328568158,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793328868203,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793329168113,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793329432018,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793329722674,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793330022533,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793330322493,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793330622357,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793330922400,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793331222578,
+          "price": 3.89540492477877e-05,
+          "liquidity": 0.0
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 64.15195,
+        "valuation_usd": 38971.98,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "solana:6GwXMismKjtTV5oE8YYxMPD8tozdurQ3FYe8pfbdtic9": {
       "latest": {
         "chain": "solana",
@@ -10934,6 +10868,72 @@
         "unknown": [],
         "pool_age_minutes": 90.87083333333334,
         "valuation_usd": 27301.82,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "solana:A7uzrsmeWfw2QiHZeXrCgu6Upr3XGLp4CQcEbaueo3ju": {
+      "latest": {
+        "chain": "solana",
+        "mint": "A7uzrsmeWfw2QiHZeXrCgu6Upr3XGLp4CQcEbaueo3ju",
+        "pool": "DeFx6ojWoqxViH5j54eukHhTYs9DqNvzxxXpxLkKSnp7",
+        "price_observed_ms": 1793331822456,
+        "symbol": "LAPTOP",
+        "dex": "pump-fun",
+        "price_usd": 2.7505046656428112e-06,
+        "liquidity_usd": 2349.9038,
+        "market_cap_usd": 2661.14,
+        "fdv_usd": 2661.14,
+        "pool_created_ms": 1793327396000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793331822456
+      },
+      "first_seen_ms": 1793327668440,
+      "earliest_pool_created_ms": 1793327396000,
+      "observations": [
+        {
+          "ms": 1793327605091,
+          "price": 3.0493099746409894e-06,
+          "liquidity": 2340.7384
+        },
+        {
+          "ms": 1793328568158,
+          "price": 2.7505046656428112e-06,
+          "liquidity": 2332.5871
+        },
+        {
+          "ms": 1793328868203,
+          "price": 2.7505046656428112e-06,
+          "liquidity": 2332.5871
+        },
+        {
+          "ms": 1793331822456,
+          "price": 2.7505046656428112e-06,
+          "liquidity": 2349.9038
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 73.78823333333334,
+        "valuation_usd": 2661.14,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -50696,117 +50696,6 @@
         ]
       }
     },
-    "bnb:0x33e368b3a1d9276f76540fa462f96bc3efcd7777": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x33e368b3a1d9276f76540fa462f96bc3efcd7777",
-        "pool": "0xcafee03c4ba111327726f1dd21553793742fa2a6",
-        "price_observed_ms": 1793331247347,
-        "symbol": "LAPTOP",
-        "dex": "pancakeswap_v2",
-        "price_usd": 2.58473465840122e-06,
-        "liquidity_usd": 4907.5298,
-        "market_cap_usd": null,
-        "fdv_usd": 2584.734658,
-        "pool_created_ms": 1793327363000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793331247347
-      },
-      "first_seen_ms": 1793327693394,
-      "earliest_pool_created_ms": 1793327363000,
-      "observations": [
-        {
-          "ms": 1793327567583,
-          "price": 1.02982840887706e-05,
-          "liquidity": 9319.8836
-        },
-        {
-          "ms": 1793327867621,
-          "price": 4.08889899954117e-06,
-          "liquidity": 6228.4926
-        },
-        {
-          "ms": 1793328230126,
-          "price": 2.7194911832424e-06,
-          "liquidity": 5053.6548
-        },
-        {
-          "ms": 1793328530136,
-          "price": 2.92989816672535e-06,
-          "liquidity": 5294.7407
-        },
-        {
-          "ms": 1793328830196,
-          "price": 2.8049226669327e-06,
-          "liquidity": 5405.7888
-        },
-        {
-          "ms": 1793329193265,
-          "price": 2.8049226669327e-06,
-          "liquidity": 5075.6181
-        },
-        {
-          "ms": 1793329457180,
-          "price": 2.8049226669327e-06,
-          "liquidity": 5075.6181
-        },
-        {
-          "ms": 1793329747550,
-          "price": 2.8049226669327e-06,
-          "liquidity": 5075.6181
-        },
-        {
-          "ms": 1793330047721,
-          "price": 2.68095060530513e-06,
-          "liquidity": 5080.7692
-        },
-        {
-          "ms": 1793330347371,
-          "price": 2.58473465840122e-06,
-          "liquidity": 4896.8226
-        },
-        {
-          "ms": 1793330647595,
-          "price": 2.58473465840122e-06,
-          "liquidity": 4896.8226
-        },
-        {
-          "ms": 1793330947292,
-          "price": 2.58473465840122e-06,
-          "liquidity": 4895.9104
-        },
-        {
-          "ms": 1793331247347,
-          "price": 2.58473465840122e-06,
-          "liquidity": 4907.5298
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15",
-          "liquidity_withdrawal"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 64.74708333333334,
-        "valuation_usd": 2584.734658,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
     "bnb:0x8076466ac8f8b986b85af5a18e776aa73aa0e6ea": {
       "latest": {
         "chain": "bnb",
@@ -51477,127 +51366,6 @@
         "pool_age_minutes": 24.597033333333332,
         "valuation_usd": 4994.0,
         "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "bnb:0x6e4829a40a0e7e5dcdff31daf4a02dc0dff87777": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x6e4829a40a0e7e5dcdff31daf4a02dc0dff87777",
-        "pool": "0x1065bf0163744ba4bc8ef620a912c5bc4fc486ee",
-        "price_observed_ms": 1793331847316,
-        "symbol": "LAPTOP",
-        "dex": "pancakeswap_v2",
-        "price_usd": 3.29543870897898e-06,
-        "liquidity_usd": 5623.6827,
-        "market_cap_usd": null,
-        "fdv_usd": 3315.753923,
-        "pool_created_ms": 1793327371000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793331847316
-      },
-      "first_seen_ms": 1793327693394,
-      "earliest_pool_created_ms": 1793327371000,
-      "observations": [
-        {
-          "ms": 1793327567583,
-          "price": 4.00068327495577e-05,
-          "liquidity": 19833.3886
-        },
-        {
-          "ms": 1793327867621,
-          "price": 6.54623018260268e-06,
-          "liquidity": 8493.7614
-        },
-        {
-          "ms": 1793328230126,
-          "price": 4.94933682165126e-06,
-          "liquidity": 6917.4575
-        },
-        {
-          "ms": 1793328593176,
-          "price": 8.20224647240291e-06,
-          "liquidity": 8868.6534
-        },
-        {
-          "ms": 1793328830196,
-          "price": 6.86561872834865e-06,
-          "liquidity": 8090.6464
-        },
-        {
-          "ms": 1793329193265,
-          "price": 5.42462057931816e-06,
-          "liquidity": 7159.1498
-        },
-        {
-          "ms": 1793329457180,
-          "price": 3.77138980543687e-06,
-          "liquidity": 6222.4617
-        },
-        {
-          "ms": 1793329747550,
-          "price": 3.77138980543687e-06,
-          "liquidity": 6222.4617
-        },
-        {
-          "ms": 1793330047721,
-          "price": 3.59604341715544e-06,
-          "liquidity": 5725.3905
-        },
-        {
-          "ms": 1793330347371,
-          "price": 3.4428910662318e-06,
-          "liquidity": 5707.0898
-        },
-        {
-          "ms": 1793330647595,
-          "price": 3.37564845003089e-06,
-          "liquidity": 5698.5296
-        },
-        {
-          "ms": 1793330947292,
-          "price": 3.37564845003089e-06,
-          "liquidity": 5595.7206
-        },
-        {
-          "ms": 1793331247347,
-          "price": 3.29543870897898e-06,
-          "liquidity": 5598.9616
-        },
-        {
-          "ms": 1793331547372,
-          "price": 3.29543870897898e-06,
-          "liquidity": 5624.4684
-        },
-        {
-          "ms": 1793331847316,
-          "price": 3.29543870897898e-06,
-          "liquidity": 5623.6827
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15",
-          "liquidity_withdrawal"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 74.6137,
-        "valuation_usd": 3315.753923,
-        "valuation_kind": "fdv_proxy"
       },
       "tier": "watch",
       "buy_pressure": {
@@ -52532,240 +52300,6 @@
         "unknown": [],
         "pool_age_minutes": 73.79898333333334,
         "valuation_usd": 3107.1264508929,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "bnb:0x882691b4ad601553bbeb965e2705870ab54a7777": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x882691b4ad601553bbeb965e2705870ab54a7777",
-        "pool": "0x1199dfc91dbd6bb90ea1da6730782d63448f6c54",
-        "price_observed_ms": 1793332147393,
-        "symbol": "LAPTOP",
-        "dex": "pancakeswap_v2",
-        "price_usd": 8.54344518436249e-10,
-        "liquidity_usd": 0.1432,
-        "market_cap_usd": null,
-        "fdv_usd": 0.8543445184,
-        "pool_created_ms": 1793327282000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793332147393
-      },
-      "first_seen_ms": 1793327693394,
-      "earliest_pool_created_ms": 1793327282000,
-      "observations": [
-        {
-          "ms": 1793327567583,
-          "price": 0.000100524580961897,
-          "liquidity": 17722.2485
-        },
-        {
-          "ms": 1793327867621,
-          "price": 0.000107528833853001,
-          "liquidity": 20225.6355
-        },
-        {
-          "ms": 1793328230126,
-          "price": 8.54344518436249e-10,
-          "liquidity": 0.1428
-        },
-        {
-          "ms": 1793328530136,
-          "price": 8.54344518436249e-10,
-          "liquidity": 0.1427
-        },
-        {
-          "ms": 1793328830196,
-          "price": 8.54344518436249e-10,
-          "liquidity": 0.1421
-        },
-        {
-          "ms": 1793330347371,
-          "price": 8.54344518436249e-10,
-          "liquidity": 0.1416
-        },
-        {
-          "ms": 1793332147393,
-          "price": 8.54344518436249e-10,
-          "liquidity": 0.1432
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 81.09898333333334,
-        "valuation_usd": 0.8543445184,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "bnb:0x5b6c0451c8320604752dd3bc21086ae5ee14c888": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x5b6c0451c8320604752dd3bc21086ae5ee14c888",
-        "pool": "0x7da1306758ad9a026c6f9c13caaabc17501e5fee",
-        "price_observed_ms": 1793332147393,
-        "symbol": "LAPTOP",
-        "dex": "pancakeswap-v3-bsc",
-        "price_usd": 2.95836768312923e-06,
-        "liquidity_usd": 1933.0543,
-        "market_cap_usd": 2857.0,
-        "fdv_usd": 2857.0,
-        "pool_created_ms": 1793327495000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793332147393
-      },
-      "first_seen_ms": 1793327993571,
-      "earliest_pool_created_ms": 1793327495000,
-      "observations": [
-        {
-          "ms": 1793327867621,
-          "price": 2.95836768312923e-06,
-          "liquidity": 1942.2897
-        },
-        {
-          "ms": 1793328167631,
-          "price": 2.95836768312923e-06,
-          "liquidity": 1944.4964
-        },
-        {
-          "ms": 1793328530136,
-          "price": 2.95836768312923e-06,
-          "liquidity": 1943.6246
-        },
-        {
-          "ms": 1793328830196,
-          "price": 2.95836768312923e-06,
-          "liquidity": 1935.3427
-        },
-        {
-          "ms": 1793330347371,
-          "price": 2.95836768312923e-06,
-          "liquidity": 1928.532
-        },
-        {
-          "ms": 1793332147393,
-          "price": 2.95836768312923e-06,
-          "liquidity": 1933.0543
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 77.54898333333334,
-        "valuation_usd": 2857.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "bnb:0xa78e93e7bca9bc3ba0ab4e7cda1408e6cc051c11": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0xa78e93e7bca9bc3ba0ab4e7cda1408e6cc051c11",
-        "pool": "0x6cfa6516c1384eb6ab2dbc48658dcf7e9f0220cc",
-        "price_observed_ms": 1793332147393,
-        "symbol": "FLIP",
-        "dex": "pancakeswap_v2",
-        "price_usd": 4.23901744342631e-21,
-        "liquidity_usd": 0.0716,
-        "market_cap_usd": null,
-        "fdv_usd": 0.0,
-        "pool_created_ms": 1793327482000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793332147393
-      },
-      "first_seen_ms": 1793327993571,
-      "earliest_pool_created_ms": 1793327482000,
-      "observations": [
-        {
-          "ms": 1793327867621,
-          "price": 2.16879484451466e-11,
-          "liquidity": 2205.4759
-        },
-        {
-          "ms": 1793328230126,
-          "price": 4.23901744342631e-21,
-          "liquidity": 0.0713
-        },
-        {
-          "ms": 1793328530136,
-          "price": 4.23901744342631e-21,
-          "liquidity": 0.0713
-        },
-        {
-          "ms": 1793328830196,
-          "price": 4.23901744342631e-21,
-          "liquidity": 0.071
-        },
-        {
-          "ms": 1793330347371,
-          "price": 4.23901744342631e-21,
-          "liquidity": 0.0708
-        },
-        {
-          "ms": 1793332147393,
-          "price": 4.23901744342631e-21,
-          "liquidity": 0.0716
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [
-          "valuation"
-        ],
-        "pool_age_minutes": 77.76565,
-        "valuation_usd": 0.0,
         "valuation_kind": "fdv_proxy"
       },
       "tier": "watch",
@@ -54909,75 +54443,6 @@
         ]
       }
     },
-    "bnb:0x48a3045fa3e687c19cb18d238c44babec2c44e3a": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x48a3045fa3e687c19cb18d238c44babec2c44e3a",
-        "pool": "0xbc237850f2d94ab94255a422fb581c68a3e27f7b",
-        "price_observed_ms": 1793328830196,
-        "symbol": "钻石链",
-        "dex": "pancakeswap_v2",
-        "price_usd": 0.000692442753698398,
-        "liquidity_usd": 132952.5828,
-        "market_cap_usd": 1.0,
-        "fdv_usd": 1.0,
-        "pool_created_ms": 1793327259000,
-        "volume15_usd": 36405.3231871288,
-        "buys15": 325.0,
-        "sells15": 32.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793328830196
-      },
-      "first_seen_ms": 1793327693394,
-      "earliest_pool_created_ms": 1793327259000,
-      "observations": [
-        {
-          "ms": 1793327567583,
-          "price": 0.00029535563624982,
-          "liquidity": 76771.6093
-        },
-        {
-          "ms": 1793327867621,
-          "price": 0.000341695848325643,
-          "liquidity": 84951.3576
-        },
-        {
-          "ms": 1793328293125,
-          "price": 0.000642367859988604,
-          "liquidity": 128165.2985
-        },
-        {
-          "ms": 1793328530136,
-          "price": 0.000682364826800327,
-          "liquidity": 132688.9068
-        },
-        {
-          "ms": 1793328830196,
-          "price": 0.000692442753698398,
-          "liquidity": 132952.5828
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "valuation"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 27.245116666666668,
-        "valuation_usd": 1.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      },
-      "last_evaluated_ms": 1793328344047
-    },
     "bnb:0xa803a0b0c5effed35c678aeaf9ec5a84cbd57777": {
       "latest": {
         "chain": "bnb",
@@ -55154,70 +54619,6 @@
         "pool_age_minutes": 21.32845,
         "valuation_usd": 29010.18611,
         "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      },
-      "last_evaluated_ms": 1793328642853
-    },
-    "bnb:0x811c0153ee9f49813927cf9355d7f79f61f59bda": {
-      "latest": {
-        "chain": "bnb",
-        "mint": "0x811c0153ee9f49813927cf9355d7f79f61f59bda",
-        "pool": "0x756e56e73c8105425c68128db4eca7f31cf8c593",
-        "price_observed_ms": 1793328830196,
-        "symbol": "aipro",
-        "dex": "pancakeswap_v2",
-        "price_usd": 0.000166925928218618,
-        "liquidity_usd": 19986.0384,
-        "market_cap_usd": 16646.0,
-        "fdv_usd": 16646.0,
-        "pool_created_ms": 1793327471000,
-        "volume15_usd": 2167.0715225424,
-        "buys15": 18.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793328830196
-      },
-      "first_seen_ms": 1793327993571,
-      "earliest_pool_created_ms": 1793327471000,
-      "observations": [
-        {
-          "ms": 1793327867621,
-          "price": 8.15629016006678e-05,
-          "liquidity": 13990.3267
-        },
-        {
-          "ms": 1793328230126,
-          "price": 0.000117499412027077,
-          "liquidity": 16660.3674
-        },
-        {
-          "ms": 1793328530136,
-          "price": 0.000166925928218618,
-          "liquidity": 19955.7068
-        },
-        {
-          "ms": 1793328830196,
-          "price": 0.000166925928218618,
-          "liquidity": 19986.0384
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "valuation"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 23.711783333333333,
-        "valuation_usd": 16646.0,
-        "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
       "buy_pressure": {
@@ -61756,6 +61157,117 @@
         ]
       }
     },
+    "bnb:0x33e368b3a1d9276f76540fa462f96bc3efcd7777": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x33e368b3a1d9276f76540fa462f96bc3efcd7777",
+        "pool": "0xcafee03c4ba111327726f1dd21553793742fa2a6",
+        "price_observed_ms": 1793331247347,
+        "symbol": "LAPTOP",
+        "dex": "pancakeswap_v2",
+        "price_usd": 2.58473465840122e-06,
+        "liquidity_usd": 4907.5298,
+        "market_cap_usd": null,
+        "fdv_usd": 2584.734658,
+        "pool_created_ms": 1793327363000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793331247347
+      },
+      "first_seen_ms": 1793327693394,
+      "earliest_pool_created_ms": 1793327363000,
+      "observations": [
+        {
+          "ms": 1793327567583,
+          "price": 1.02982840887706e-05,
+          "liquidity": 9319.8836
+        },
+        {
+          "ms": 1793327867621,
+          "price": 4.08889899954117e-06,
+          "liquidity": 6228.4926
+        },
+        {
+          "ms": 1793328230126,
+          "price": 2.7194911832424e-06,
+          "liquidity": 5053.6548
+        },
+        {
+          "ms": 1793328530136,
+          "price": 2.92989816672535e-06,
+          "liquidity": 5294.7407
+        },
+        {
+          "ms": 1793328830196,
+          "price": 2.8049226669327e-06,
+          "liquidity": 5405.7888
+        },
+        {
+          "ms": 1793329193265,
+          "price": 2.8049226669327e-06,
+          "liquidity": 5075.6181
+        },
+        {
+          "ms": 1793329457180,
+          "price": 2.8049226669327e-06,
+          "liquidity": 5075.6181
+        },
+        {
+          "ms": 1793329747550,
+          "price": 2.8049226669327e-06,
+          "liquidity": 5075.6181
+        },
+        {
+          "ms": 1793330047721,
+          "price": 2.68095060530513e-06,
+          "liquidity": 5080.7692
+        },
+        {
+          "ms": 1793330347371,
+          "price": 2.58473465840122e-06,
+          "liquidity": 4896.8226
+        },
+        {
+          "ms": 1793330647595,
+          "price": 2.58473465840122e-06,
+          "liquidity": 4896.8226
+        },
+        {
+          "ms": 1793330947292,
+          "price": 2.58473465840122e-06,
+          "liquidity": 4895.9104
+        },
+        {
+          "ms": 1793331247347,
+          "price": 2.58473465840122e-06,
+          "liquidity": 4907.5298
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15",
+          "liquidity_withdrawal"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 64.74708333333334,
+        "valuation_usd": 2584.734658,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "bnb:0x96ffb606f814e59bad8a133fb527b2644d155b4f": {
       "latest": {
         "chain": "bnb",
@@ -62557,6 +62069,127 @@
         ]
       }
     },
+    "bnb:0x6e4829a40a0e7e5dcdff31daf4a02dc0dff87777": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x6e4829a40a0e7e5dcdff31daf4a02dc0dff87777",
+        "pool": "0x1065bf0163744ba4bc8ef620a912c5bc4fc486ee",
+        "price_observed_ms": 1793331847316,
+        "symbol": "LAPTOP",
+        "dex": "pancakeswap_v2",
+        "price_usd": 3.29543870897898e-06,
+        "liquidity_usd": 5623.6827,
+        "market_cap_usd": null,
+        "fdv_usd": 3315.753923,
+        "pool_created_ms": 1793327371000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793331847316
+      },
+      "first_seen_ms": 1793327693394,
+      "earliest_pool_created_ms": 1793327371000,
+      "observations": [
+        {
+          "ms": 1793327567583,
+          "price": 4.00068327495577e-05,
+          "liquidity": 19833.3886
+        },
+        {
+          "ms": 1793327867621,
+          "price": 6.54623018260268e-06,
+          "liquidity": 8493.7614
+        },
+        {
+          "ms": 1793328230126,
+          "price": 4.94933682165126e-06,
+          "liquidity": 6917.4575
+        },
+        {
+          "ms": 1793328593176,
+          "price": 8.20224647240291e-06,
+          "liquidity": 8868.6534
+        },
+        {
+          "ms": 1793328830196,
+          "price": 6.86561872834865e-06,
+          "liquidity": 8090.6464
+        },
+        {
+          "ms": 1793329193265,
+          "price": 5.42462057931816e-06,
+          "liquidity": 7159.1498
+        },
+        {
+          "ms": 1793329457180,
+          "price": 3.77138980543687e-06,
+          "liquidity": 6222.4617
+        },
+        {
+          "ms": 1793329747550,
+          "price": 3.77138980543687e-06,
+          "liquidity": 6222.4617
+        },
+        {
+          "ms": 1793330047721,
+          "price": 3.59604341715544e-06,
+          "liquidity": 5725.3905
+        },
+        {
+          "ms": 1793330347371,
+          "price": 3.4428910662318e-06,
+          "liquidity": 5707.0898
+        },
+        {
+          "ms": 1793330647595,
+          "price": 3.37564845003089e-06,
+          "liquidity": 5698.5296
+        },
+        {
+          "ms": 1793330947292,
+          "price": 3.37564845003089e-06,
+          "liquidity": 5595.7206
+        },
+        {
+          "ms": 1793331247347,
+          "price": 3.29543870897898e-06,
+          "liquidity": 5598.9616
+        },
+        {
+          "ms": 1793331547372,
+          "price": 3.29543870897898e-06,
+          "liquidity": 5624.4684
+        },
+        {
+          "ms": 1793331847316,
+          "price": 3.29543870897898e-06,
+          "liquidity": 5623.6827
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15",
+          "liquidity_withdrawal"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 74.6137,
+        "valuation_usd": 3315.753923,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "bnb:0xa686222b5037c1d4aa38a8c2dd72e72695dbcd0d": {
       "latest": {
         "chain": "bnb",
@@ -62644,6 +62277,240 @@
         "pool_age_minutes": 77.6637,
         "valuation_usd": 246.0,
         "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "bnb:0x882691b4ad601553bbeb965e2705870ab54a7777": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x882691b4ad601553bbeb965e2705870ab54a7777",
+        "pool": "0x1199dfc91dbd6bb90ea1da6730782d63448f6c54",
+        "price_observed_ms": 1793332147393,
+        "symbol": "LAPTOP",
+        "dex": "pancakeswap_v2",
+        "price_usd": 8.54344518436249e-10,
+        "liquidity_usd": 0.1432,
+        "market_cap_usd": null,
+        "fdv_usd": 0.8543445184,
+        "pool_created_ms": 1793327282000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793332147393
+      },
+      "first_seen_ms": 1793327693394,
+      "earliest_pool_created_ms": 1793327282000,
+      "observations": [
+        {
+          "ms": 1793327567583,
+          "price": 0.000100524580961897,
+          "liquidity": 17722.2485
+        },
+        {
+          "ms": 1793327867621,
+          "price": 0.000107528833853001,
+          "liquidity": 20225.6355
+        },
+        {
+          "ms": 1793328230126,
+          "price": 8.54344518436249e-10,
+          "liquidity": 0.1428
+        },
+        {
+          "ms": 1793328530136,
+          "price": 8.54344518436249e-10,
+          "liquidity": 0.1427
+        },
+        {
+          "ms": 1793328830196,
+          "price": 8.54344518436249e-10,
+          "liquidity": 0.1421
+        },
+        {
+          "ms": 1793330347371,
+          "price": 8.54344518436249e-10,
+          "liquidity": 0.1416
+        },
+        {
+          "ms": 1793332147393,
+          "price": 8.54344518436249e-10,
+          "liquidity": 0.1432
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 81.09898333333334,
+        "valuation_usd": 0.8543445184,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "bnb:0x5b6c0451c8320604752dd3bc21086ae5ee14c888": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x5b6c0451c8320604752dd3bc21086ae5ee14c888",
+        "pool": "0x7da1306758ad9a026c6f9c13caaabc17501e5fee",
+        "price_observed_ms": 1793332147393,
+        "symbol": "LAPTOP",
+        "dex": "pancakeswap-v3-bsc",
+        "price_usd": 2.95836768312923e-06,
+        "liquidity_usd": 1933.0543,
+        "market_cap_usd": 2857.0,
+        "fdv_usd": 2857.0,
+        "pool_created_ms": 1793327495000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793332147393
+      },
+      "first_seen_ms": 1793327993571,
+      "earliest_pool_created_ms": 1793327495000,
+      "observations": [
+        {
+          "ms": 1793327867621,
+          "price": 2.95836768312923e-06,
+          "liquidity": 1942.2897
+        },
+        {
+          "ms": 1793328167631,
+          "price": 2.95836768312923e-06,
+          "liquidity": 1944.4964
+        },
+        {
+          "ms": 1793328530136,
+          "price": 2.95836768312923e-06,
+          "liquidity": 1943.6246
+        },
+        {
+          "ms": 1793328830196,
+          "price": 2.95836768312923e-06,
+          "liquidity": 1935.3427
+        },
+        {
+          "ms": 1793330347371,
+          "price": 2.95836768312923e-06,
+          "liquidity": 1928.532
+        },
+        {
+          "ms": 1793332147393,
+          "price": 2.95836768312923e-06,
+          "liquidity": 1933.0543
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 77.54898333333334,
+        "valuation_usd": 2857.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "bnb:0xa78e93e7bca9bc3ba0ab4e7cda1408e6cc051c11": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0xa78e93e7bca9bc3ba0ab4e7cda1408e6cc051c11",
+        "pool": "0x6cfa6516c1384eb6ab2dbc48658dcf7e9f0220cc",
+        "price_observed_ms": 1793332147393,
+        "symbol": "FLIP",
+        "dex": "pancakeswap_v2",
+        "price_usd": 4.23901744342631e-21,
+        "liquidity_usd": 0.0716,
+        "market_cap_usd": null,
+        "fdv_usd": 0.0,
+        "pool_created_ms": 1793327482000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793332147393
+      },
+      "first_seen_ms": 1793327993571,
+      "earliest_pool_created_ms": 1793327482000,
+      "observations": [
+        {
+          "ms": 1793327867621,
+          "price": 2.16879484451466e-11,
+          "liquidity": 2205.4759
+        },
+        {
+          "ms": 1793328230126,
+          "price": 4.23901744342631e-21,
+          "liquidity": 0.0713
+        },
+        {
+          "ms": 1793328530136,
+          "price": 4.23901744342631e-21,
+          "liquidity": 0.0713
+        },
+        {
+          "ms": 1793328830196,
+          "price": 4.23901744342631e-21,
+          "liquidity": 0.071
+        },
+        {
+          "ms": 1793330347371,
+          "price": 4.23901744342631e-21,
+          "liquidity": 0.0708
+        },
+        {
+          "ms": 1793332147393,
+          "price": 4.23901744342631e-21,
+          "liquidity": 0.0716
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [
+          "valuation"
+        ],
+        "pool_age_minutes": 77.76565,
+        "valuation_usd": 0.0,
+        "valuation_kind": "fdv_proxy"
       },
       "tier": "watch",
       "buy_pressure": {
@@ -63918,6 +63785,75 @@
         }
       }
     },
+    "bnb:0x48a3045fa3e687c19cb18d238c44babec2c44e3a": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x48a3045fa3e687c19cb18d238c44babec2c44e3a",
+        "pool": "0xbc237850f2d94ab94255a422fb581c68a3e27f7b",
+        "price_observed_ms": 1793328830196,
+        "symbol": "钻石链",
+        "dex": "pancakeswap_v2",
+        "price_usd": 0.000692442753698398,
+        "liquidity_usd": 132952.5828,
+        "market_cap_usd": 1.0,
+        "fdv_usd": 1.0,
+        "pool_created_ms": 1793327259000,
+        "volume15_usd": 36405.3231871288,
+        "buys15": 325.0,
+        "sells15": 32.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793328830196
+      },
+      "first_seen_ms": 1793327693394,
+      "earliest_pool_created_ms": 1793327259000,
+      "observations": [
+        {
+          "ms": 1793327567583,
+          "price": 0.00029535563624982,
+          "liquidity": 76771.6093
+        },
+        {
+          "ms": 1793327867621,
+          "price": 0.000341695848325643,
+          "liquidity": 84951.3576
+        },
+        {
+          "ms": 1793328293125,
+          "price": 0.000642367859988604,
+          "liquidity": 128165.2985
+        },
+        {
+          "ms": 1793328530136,
+          "price": 0.000682364826800327,
+          "liquidity": 132688.9068
+        },
+        {
+          "ms": 1793328830196,
+          "price": 0.000692442753698398,
+          "liquidity": 132952.5828
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "valuation"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 27.245116666666668,
+        "valuation_usd": 1.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      },
+      "last_evaluated_ms": 1793328344047
+    },
     "bnb:0x36c3b28e2caa71c70ca5105ac768c14e1a33a089": {
       "latest": {
         "chain": "bnb",
@@ -63990,6 +63926,70 @@
         ]
       },
       "last_evaluated_ms": 1793328344047
+    },
+    "bnb:0x811c0153ee9f49813927cf9355d7f79f61f59bda": {
+      "latest": {
+        "chain": "bnb",
+        "mint": "0x811c0153ee9f49813927cf9355d7f79f61f59bda",
+        "pool": "0x756e56e73c8105425c68128db4eca7f31cf8c593",
+        "price_observed_ms": 1793328830196,
+        "symbol": "aipro",
+        "dex": "pancakeswap_v2",
+        "price_usd": 0.000166925928218618,
+        "liquidity_usd": 19986.0384,
+        "market_cap_usd": 16646.0,
+        "fdv_usd": 16646.0,
+        "pool_created_ms": 1793327471000,
+        "volume15_usd": 2167.0715225424,
+        "buys15": 18.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793328830196
+      },
+      "first_seen_ms": 1793327993571,
+      "earliest_pool_created_ms": 1793327471000,
+      "observations": [
+        {
+          "ms": 1793327867621,
+          "price": 8.15629016006678e-05,
+          "liquidity": 13990.3267
+        },
+        {
+          "ms": 1793328230126,
+          "price": 0.000117499412027077,
+          "liquidity": 16660.3674
+        },
+        {
+          "ms": 1793328530136,
+          "price": 0.000166925928218618,
+          "liquidity": 19955.7068
+        },
+        {
+          "ms": 1793328830196,
+          "price": 0.000166925928218618,
+          "liquidity": 19986.0384
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "valuation"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 23.711783333333333,
+        "valuation_usd": 16646.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      },
+      "last_evaluated_ms": 1793328642853
     },
     "bnb:0xd6e47f73de529ce90cf56e1ca3bcb393954e41d9": {
       "latest": {
@@ -65868,177 +65868,6 @@
         ]
       }
     },
-    "robinhood:0x706b540c20ac47d4414ccadaad04a8cbeec3a4c3": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x706b540c20ac47d4414ccadaad04a8cbeec3a4c3",
-        "pool": "0x8cb389fafb1d93b96727cdd4746e8c06f0261319fd770eec6565da40b92c994d",
-        "price_observed_ms": 1793329142691,
-        "symbol": "GRWHOOD",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 0.0445528712891885,
-        "liquidity_usd": 0.0,
-        "market_cap_usd": 4456.0,
-        "fdv_usd": 4456.0,
-        "pool_created_ms": 1793327271000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793329142691
-      },
-      "first_seen_ms": 1793327706177,
-      "earliest_pool_created_ms": 1793327271000,
-      "observations": [
-        {
-          "ms": 1793327580077,
-          "price": 0.0445528712891885,
-          "liquidity": 4456.1762
-        },
-        {
-          "ms": 1793327880123,
-          "price": 0.0445528712891885,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793328180132,
-          "price": 0.0445528712891885,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793328542602,
-          "price": 0.0445528712891885,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793328842655,
-          "price": 0.0445528712891885,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793329142691,
-          "price": 0.0445528712891885,
-          "liquidity": 0.0
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15",
-          "transaction_flow15",
-          "liquidity_withdrawal"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 32.25301666666667,
-        "valuation_usd": 4456.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "robinhood:0xb6686213d27d8da9da9dff8837177dc1bcfc2b85": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0xb6686213d27d8da9da9dff8837177dc1bcfc2b85",
-        "pool": "0xb6944c27ad3d9d44c82b02eba4f213a7fe07d64f58f7ec66f08184541efcc27a",
-        "price_observed_ms": 1793330060183,
-        "symbol": "FARE",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 4.45268327535233e-05,
-        "liquidity_usd": 0.0,
-        "market_cap_usd": 44455.0,
-        "fdv_usd": 44455.0,
-        "pool_created_ms": 1793327365000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793330060183
-      },
-      "first_seen_ms": 1793327706177,
-      "earliest_pool_created_ms": 1793327365000,
-      "observations": [
-        {
-          "ms": 1793327580077,
-          "price": 2.32717067457654e-05,
-          "liquidity": 17234.7048
-        },
-        {
-          "ms": 1793327880123,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793328180132,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793328542602,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793328842655,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793329142691,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793329469489,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793329760077,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793330060183,
-          "price": 4.45268327535233e-05,
-          "liquidity": 0.0
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15",
-          "transaction_flow15",
-          "liquidity_withdrawal"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 44.92726666666667,
-        "valuation_usd": 44455.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
     "robinhood:0x9aee77225d70657646c94194eccdcbb8b18e1284": {
       "latest": {
         "chain": "robinhood",
@@ -67342,243 +67171,6 @@
         "unknown": [],
         "pool_age_minutes": 44.00696666666666,
         "valuation_usd": 3361.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "robinhood:0xd7d331d999e84a336046c5b265f18aedce7553dd": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0xd7d331d999e84a336046c5b265f18aedce7553dd",
-        "pool": "0xb3ca8917453ca439e0488bdb49b095f2bf8f49328b457a0de478ae95db226262",
-        "price_observed_ms": 1793330359893,
-        "symbol": "LAPTOP",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 4.91945307694763e-06,
-        "liquidity_usd": 5121.9337,
-        "market_cap_usd": 4999.0,
-        "fdv_usd": 4999.0,
-        "pool_created_ms": 1793327392000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "dexscreener_matched": true,
-        "observed_ms": 1793330359893
-      },
-      "first_seen_ms": 1793327706177,
-      "earliest_pool_created_ms": 1793327392000,
-      "observations": [
-        {
-          "ms": 1793327580077,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5125.1588
-        },
-        {
-          "ms": 1793327880123,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5121.7949
-        },
-        {
-          "ms": 1793328180132,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5121.7949
-        },
-        {
-          "ms": 1793328480094,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5127.763
-        },
-        {
-          "ms": 1793328842655,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5127.763
-        },
-        {
-          "ms": 1793329142691,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5127.763
-        },
-        {
-          "ms": 1793329469489,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5127.763
-        },
-        {
-          "ms": 1793330359893,
-          "price": 4.91945307694763e-06,
-          "liquidity": 5121.9337
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 49.47365,
-        "valuation_usd": 4999.0,
-        "valuation_kind": "market_cap_provider_reported"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "robinhood:0x21a36858179a6182db2d5790c2204e8ff37f7b32": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x21a36858179a6182db2d5790c2204e8ff37f7b32",
-        "pool": "0xcfe4ee53f7da443cd849f59b59641d0708984d06",
-        "price_observed_ms": 1793330359893,
-        "symbol": "DEADGUY",
-        "dex": "pons-v2",
-        "price_usd": 3.61458654964679e-06,
-        "liquidity_usd": 3612.2785,
-        "market_cap_usd": null,
-        "fdv_usd": 3614.58655,
-        "pool_created_ms": 1793327441000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793330359893
-      },
-      "first_seen_ms": 1793328006163,
-      "earliest_pool_created_ms": 1793327441000,
-      "observations": [
-        {
-          "ms": 1793327880123,
-          "price": 3.62282420408754e-06,
-          "liquidity": 3623.0049
-        },
-        {
-          "ms": 1793328180132,
-          "price": 3.62282420408754e-06,
-          "liquidity": 3623.0049
-        },
-        {
-          "ms": 1793328480094,
-          "price": 3.61458654964679e-06,
-          "liquidity": 3618.3473
-        },
-        {
-          "ms": 1793328842655,
-          "price": 3.61458654964679e-06,
-          "liquidity": 3618.3473
-        },
-        {
-          "ms": 1793329142691,
-          "price": 3.61458654964679e-06,
-          "liquidity": 3618.3473
-        },
-        {
-          "ms": 1793330359893,
-          "price": 3.61458654964679e-06,
-          "liquidity": 3612.2785
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 48.656983333333336,
-        "valuation_usd": 3614.58655,
-        "valuation_kind": "fdv_proxy"
-      },
-      "tier": "watch",
-      "buy_pressure": {
-        "status": "not_checked",
-        "reasons": [
-          "not_evaluated_this_cycle"
-        ]
-      }
-    },
-    "robinhood:0x000de658153f47f23e92973c8eb1e89762703676": {
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x000de658153f47f23e92973c8eb1e89762703676",
-        "pool": "0xa74358f0183da8e0d5b965ab16b1dd9145f7a2674a3efdcca9b0083189de7bb2",
-        "price_observed_ms": 1793330359893,
-        "symbol": "FOBO",
-        "dex": "uniswap-v4-robinhood",
-        "price_usd": 0.000729038175069912,
-        "liquidity_usd": 64.4338,
-        "market_cap_usd": 726781.584281095,
-        "fdv_usd": 726781.584281095,
-        "pool_created_ms": 1793327374000,
-        "volume15_usd": 0.0,
-        "buys15": 0.0,
-        "sells15": 0.0,
-        "source": "geckoterminal",
-        "pool_age_is_token_age": false,
-        "observed_ms": 1793330359893
-      },
-      "first_seen_ms": 1793328006163,
-      "earliest_pool_created_ms": 1793327374000,
-      "observations": [
-        {
-          "ms": 1793327880123,
-          "price": 0.000715335173993289,
-          "liquidity": 63.5318
-        },
-        {
-          "ms": 1793328180132,
-          "price": 0.000715335173993289,
-          "liquidity": 63.5318
-        },
-        {
-          "ms": 1793328542602,
-          "price": 0.000757827585462038,
-          "liquidity": 66.2805
-        },
-        {
-          "ms": 1793328842655,
-          "price": 0.000757827585462038,
-          "liquidity": 66.2805
-        },
-        {
-          "ms": 1793329142691,
-          "price": 0.000743175848691121,
-          "liquidity": 65.3627
-        },
-        {
-          "ms": 1793330359893,
-          "price": 0.000729038175069912,
-          "liquidity": 64.4338
-        }
-      ],
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "valuation",
-          "liquidity_to_valuation",
-          "volume15",
-          "transaction_flow15"
-        ],
-        "unknown": [],
-        "pool_age_minutes": 49.77365,
-        "valuation_usd": 726781.584281095,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -75439,6 +75031,84 @@
         ]
       }
     },
+    "robinhood:0x706b540c20ac47d4414ccadaad04a8cbeec3a4c3": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x706b540c20ac47d4414ccadaad04a8cbeec3a4c3",
+        "pool": "0x8cb389fafb1d93b96727cdd4746e8c06f0261319fd770eec6565da40b92c994d",
+        "price_observed_ms": 1793329142691,
+        "symbol": "GRWHOOD",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 0.0445528712891885,
+        "liquidity_usd": 0.0,
+        "market_cap_usd": 4456.0,
+        "fdv_usd": 4456.0,
+        "pool_created_ms": 1793327271000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793329142691
+      },
+      "first_seen_ms": 1793327706177,
+      "earliest_pool_created_ms": 1793327271000,
+      "observations": [
+        {
+          "ms": 1793327580077,
+          "price": 0.0445528712891885,
+          "liquidity": 4456.1762
+        },
+        {
+          "ms": 1793327880123,
+          "price": 0.0445528712891885,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793328180132,
+          "price": 0.0445528712891885,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793328542602,
+          "price": 0.0445528712891885,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793328842655,
+          "price": 0.0445528712891885,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793329142691,
+          "price": 0.0445528712891885,
+          "liquidity": 0.0
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15",
+          "transaction_flow15",
+          "liquidity_withdrawal"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 32.25301666666667,
+        "valuation_usd": 4456.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
     "robinhood:0x07fecddf45ac68de53ec0891884d3c9be2c822a9": {
       "latest": {
         "chain": "robinhood",
@@ -75505,6 +75175,99 @@
         "unknown": [],
         "pool_age_minutes": 33.91968333333333,
         "valuation_usd": 4003.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "robinhood:0xb6686213d27d8da9da9dff8837177dc1bcfc2b85": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0xb6686213d27d8da9da9dff8837177dc1bcfc2b85",
+        "pool": "0xb6944c27ad3d9d44c82b02eba4f213a7fe07d64f58f7ec66f08184541efcc27a",
+        "price_observed_ms": 1793330060183,
+        "symbol": "FARE",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 4.45268327535233e-05,
+        "liquidity_usd": 0.0,
+        "market_cap_usd": 44455.0,
+        "fdv_usd": 44455.0,
+        "pool_created_ms": 1793327365000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793330060183
+      },
+      "first_seen_ms": 1793327706177,
+      "earliest_pool_created_ms": 1793327365000,
+      "observations": [
+        {
+          "ms": 1793327580077,
+          "price": 2.32717067457654e-05,
+          "liquidity": 17234.7048
+        },
+        {
+          "ms": 1793327880123,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793328180132,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793328542602,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793328842655,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793329142691,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793329469489,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793329760077,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        },
+        {
+          "ms": 1793330060183,
+          "price": 4.45268327535233e-05,
+          "liquidity": 0.0
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15",
+          "transaction_flow15",
+          "liquidity_withdrawal"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 44.92726666666667,
+        "valuation_usd": 44455.0,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -75701,6 +75464,243 @@
         "unknown": [],
         "pool_age_minutes": 51.74393333333333,
         "valuation_usd": 30637.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "robinhood:0xd7d331d999e84a336046c5b265f18aedce7553dd": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0xd7d331d999e84a336046c5b265f18aedce7553dd",
+        "pool": "0xb3ca8917453ca439e0488bdb49b095f2bf8f49328b457a0de478ae95db226262",
+        "price_observed_ms": 1793330359893,
+        "symbol": "LAPTOP",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 4.91945307694763e-06,
+        "liquidity_usd": 5121.9337,
+        "market_cap_usd": 4999.0,
+        "fdv_usd": 4999.0,
+        "pool_created_ms": 1793327392000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "dexscreener_matched": true,
+        "observed_ms": 1793330359893
+      },
+      "first_seen_ms": 1793327706177,
+      "earliest_pool_created_ms": 1793327392000,
+      "observations": [
+        {
+          "ms": 1793327580077,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5125.1588
+        },
+        {
+          "ms": 1793327880123,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5121.7949
+        },
+        {
+          "ms": 1793328180132,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5121.7949
+        },
+        {
+          "ms": 1793328480094,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5127.763
+        },
+        {
+          "ms": 1793328842655,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5127.763
+        },
+        {
+          "ms": 1793329142691,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5127.763
+        },
+        {
+          "ms": 1793329469489,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5127.763
+        },
+        {
+          "ms": 1793330359893,
+          "price": 4.91945307694763e-06,
+          "liquidity": 5121.9337
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 49.47365,
+        "valuation_usd": 4999.0,
+        "valuation_kind": "market_cap_provider_reported"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "robinhood:0x21a36858179a6182db2d5790c2204e8ff37f7b32": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x21a36858179a6182db2d5790c2204e8ff37f7b32",
+        "pool": "0xcfe4ee53f7da443cd849f59b59641d0708984d06",
+        "price_observed_ms": 1793330359893,
+        "symbol": "DEADGUY",
+        "dex": "pons-v2",
+        "price_usd": 3.61458654964679e-06,
+        "liquidity_usd": 3612.2785,
+        "market_cap_usd": null,
+        "fdv_usd": 3614.58655,
+        "pool_created_ms": 1793327441000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793330359893
+      },
+      "first_seen_ms": 1793328006163,
+      "earliest_pool_created_ms": 1793327441000,
+      "observations": [
+        {
+          "ms": 1793327880123,
+          "price": 3.62282420408754e-06,
+          "liquidity": 3623.0049
+        },
+        {
+          "ms": 1793328180132,
+          "price": 3.62282420408754e-06,
+          "liquidity": 3623.0049
+        },
+        {
+          "ms": 1793328480094,
+          "price": 3.61458654964679e-06,
+          "liquidity": 3618.3473
+        },
+        {
+          "ms": 1793328842655,
+          "price": 3.61458654964679e-06,
+          "liquidity": 3618.3473
+        },
+        {
+          "ms": 1793329142691,
+          "price": 3.61458654964679e-06,
+          "liquidity": 3618.3473
+        },
+        {
+          "ms": 1793330359893,
+          "price": 3.61458654964679e-06,
+          "liquidity": 3612.2785
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 48.656983333333336,
+        "valuation_usd": 3614.58655,
+        "valuation_kind": "fdv_proxy"
+      },
+      "tier": "watch",
+      "buy_pressure": {
+        "status": "not_checked",
+        "reasons": [
+          "not_evaluated_this_cycle"
+        ]
+      }
+    },
+    "robinhood:0x000de658153f47f23e92973c8eb1e89762703676": {
+      "latest": {
+        "chain": "robinhood",
+        "mint": "0x000de658153f47f23e92973c8eb1e89762703676",
+        "pool": "0xa74358f0183da8e0d5b965ab16b1dd9145f7a2674a3efdcca9b0083189de7bb2",
+        "price_observed_ms": 1793330359893,
+        "symbol": "FOBO",
+        "dex": "uniswap-v4-robinhood",
+        "price_usd": 0.000729038175069912,
+        "liquidity_usd": 64.4338,
+        "market_cap_usd": 726781.584281095,
+        "fdv_usd": 726781.584281095,
+        "pool_created_ms": 1793327374000,
+        "volume15_usd": 0.0,
+        "buys15": 0.0,
+        "sells15": 0.0,
+        "source": "geckoterminal",
+        "pool_age_is_token_age": false,
+        "observed_ms": 1793330359893
+      },
+      "first_seen_ms": 1793328006163,
+      "earliest_pool_created_ms": 1793327374000,
+      "observations": [
+        {
+          "ms": 1793327880123,
+          "price": 0.000715335173993289,
+          "liquidity": 63.5318
+        },
+        {
+          "ms": 1793328180132,
+          "price": 0.000715335173993289,
+          "liquidity": 63.5318
+        },
+        {
+          "ms": 1793328542602,
+          "price": 0.000757827585462038,
+          "liquidity": 66.2805
+        },
+        {
+          "ms": 1793328842655,
+          "price": 0.000757827585462038,
+          "liquidity": 66.2805
+        },
+        {
+          "ms": 1793329142691,
+          "price": 0.000743175848691121,
+          "liquidity": 65.3627
+        },
+        {
+          "ms": 1793330359893,
+          "price": 0.000729038175069912,
+          "liquidity": 64.4338
+        }
+      ],
+      "market": {
+        "passed": false,
+        "failed": [
+          "liquidity",
+          "valuation",
+          "liquidity_to_valuation",
+          "volume15",
+          "transaction_flow15"
+        ],
+        "unknown": [],
+        "pool_age_minutes": 49.77365,
+        "valuation_usd": 726781.584281095,
         "valuation_kind": "market_cap_provider_reported"
       },
       "tier": "watch",
@@ -113335,6 +113335,17 @@
         "hyperevm": 0,
         "robinhood": 0,
         "ethereum": 0
+      }
+    },
+    {
+      "ms": 1793334696812,
+      "started_ms": 1793334696750,
+      "networks": {
+        "robinhood": 0,
+        "ethereum": 0,
+        "bnb": 0,
+        "hyperevm": 0,
+        "solana": 0
       }
     }
   ],
@@ -187422,9 +187433,9 @@
     "no_backfilled_v6_entries": true,
     "old_pump_latches_preserved": true
   },
-  "updated_ms": 1793334396851,
+  "updated_ms": 1793334696812,
   "last_scan_summary": {
-    "solana": {
+    "robinhood": {
       "refreshed": 0,
       "eligible": 0,
       "evaluated": 0,
@@ -187454,6 +187465,41 @@
         "gap_or_initial_window_uncovered": true,
         "previous_checkpoint_ms": null,
         "next_checkpoint_ms": null,
+        "oldest_returned_ms": null,
+        "valid_page": false
+      },
+      "reasons": {}
+    },
+    "ethereum": {
+      "refreshed": 0,
+      "eligible": 0,
+      "evaluated": 0,
+      "qualified": 0,
+      "review": 0,
+      "errors": [
+        "api.geckoterminal.com: provider stopped after access/rate error",
+        "api.geckoterminal.com: provider stopped after access/rate error"
+      ],
+      "funnel": {
+        "records": 0,
+        "waiting_min_age": 0,
+        "market_pass": 0,
+        "market_failed": {},
+        "market_unknown": {},
+        "data_inspection_possible": 0,
+        "ohlcv_read": 0,
+        "ohlcv_attempted": 0,
+        "ohlcv_budget_waiting": 0,
+        "security_checked": 0,
+        "buy_pressure_status": {},
+        "buy_pressure_reasons": {}
+      },
+      "discovery": {
+        "pages": [],
+        "covered_to_previous_checkpoint": false,
+        "gap_or_initial_window_uncovered": true,
+        "previous_checkpoint_ms": 1793332896874,
+        "next_checkpoint_ms": 1793332896874,
         "oldest_returned_ms": null,
         "valid_page": false
       },
@@ -187529,7 +187575,7 @@
       },
       "reasons": {}
     },
-    "robinhood": {
+    "solana": {
       "refreshed": 0,
       "eligible": 0,
       "evaluated": 0,
@@ -187563,61 +187609,24 @@
         "valid_page": false
       },
       "reasons": {}
-    },
-    "ethereum": {
-      "refreshed": 0,
-      "eligible": 0,
-      "evaluated": 0,
-      "qualified": 0,
-      "review": 0,
-      "errors": [
-        "api.geckoterminal.com: provider stopped after access/rate error",
-        "api.geckoterminal.com: provider stopped after access/rate error"
-      ],
-      "funnel": {
-        "records": 0,
-        "waiting_min_age": 0,
-        "market_pass": 0,
-        "market_failed": {},
-        "market_unknown": {},
-        "data_inspection_possible": 0,
-        "ohlcv_read": 0,
-        "ohlcv_attempted": 0,
-        "ohlcv_budget_waiting": 0,
-        "security_checked": 0,
-        "buy_pressure_status": {},
-        "buy_pressure_reasons": {}
-      },
-      "discovery": {
-        "pages": [],
-        "covered_to_previous_checkpoint": false,
-        "gap_or_initial_window_uncovered": true,
-        "previous_checkpoint_ms": 1793332896874,
-        "next_checkpoint_ms": 1793332896874,
-        "oldest_returned_ms": null,
-        "valid_page": false
-      },
-      "reasons": {}
     }
   },
   "timing": {
-    "started_ms": 1793334396768,
-    "finished_ms": 1793334396851,
-    "duration_seconds": 0.083,
+    "started_ms": 1793334696750,
+    "finished_ms": 1793334696812,
+    "duration_seconds": 0.062,
     "github_run_created_at": "2026-10-30T01:23:27Z",
     "worker_started_ms": "1793329295456",
     "github_job_started_at": "2026-10-30T03:01:20Z",
     "cadence": {
-      "interval_count": 215,
+      "interval_count": 216,
       "p95_minutes": 5.622516666666667,
       "max_minutes": 6.028783333333333,
       "meets_7m_target": true,
       "full_24h_observed": false
     }
   },
-  "last_api_requests": {
-    "api.dexscreener.com:ok": 6
-  },
+  "last_api_requests": {},
   "followup_watch": {
     "version": 1,
     "fingerprint": "0724a912990f97d7ffec128a327ef541ff878cd9ad3e7485dc364c6766d1f1dc",
