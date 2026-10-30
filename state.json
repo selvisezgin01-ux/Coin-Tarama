@@ -1357824,7 +1357824,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793397814153,
+      "duration_ms": 39480
     }
   ],
   "radar_admissions": [
@@ -1360873,6 +1360875,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793396095672,
+            "endpoint_ms": 1793396100000,
+            "endpoint_price": 0.01915,
+            "return_pct": -0.7257646448937338,
+            "btc_excess_pct_points": -0.20949733588772057,
+            "mae_pct": -1.4515292897874676,
+            "mfe_pct": 1.9699326075686807,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 4328,
+            "measured_ms": 1793397810602,
+            "cost_scenarios_pct": {
+              "0.2": -0.9257646448937338,
+              "0.5": -1.2257646448937338,
+              "1": -1.7257646448937338
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793381400000,
@@ -1360881,7 +1360905,7 @@
         "cohort": "SENTUSDT",
         "observation_lag_ms": 295672,
         "interpretation": "early radar reference, not a trade entry",
-        "last_measure_attempt_ms": 1793385899611
+        "last_measure_attempt_ms": 1793397810602
       },
       "b4a644e08bcf34c6454d269c:radar": {
         "symbol": "AINUSDT",
@@ -1360928,7 +1360952,7 @@
         "observation_lag_ms": 295454,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 7294,
-        "last_measure_attempt_ms": 1793385601048
+        "last_measure_attempt_ms": 1793397810602
       },
       "4ff828e6e50f5150ba6d2a5a:radar": {
         "symbol": "AIUSDT",
@@ -1362327,11 +1362351,17 @@
         "notification_lag_ms": 10151
       }
     },
-    "errors": [],
+    "errors": [
+      {
+        "key": "MEXC:SPOT:AINUSDT",
+        "phase": "radar",
+        "error": "MEXC SPOT public connection/response error"
+      }
+    ],
     "queue": {
-      "due": 6,
-      "attempted": 1,
-      "observed_ms": 1793397499250,
+      "due": 5,
+      "attempted": 2,
+      "observed_ms": 1793397810602,
       "unique_reads": 2
     },
     "summary": {
@@ -1362349,8 +1362379,8 @@
                 "median_reference_return_pct": -0.2868235163427768
               },
               "4": {
-                "known_first_symbols": 13,
-                "median_reference_return_pct": -0.8069939475453869
+                "known_first_symbols": 14,
+                "median_reference_return_pct": -0.7663792962195604
               },
               "12": {
                 "known_first_symbols": 0,
@@ -1384493,8 +1384523,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e1f9cc16592baa97825baa31963278209ef915e5",
-    "previous_success_ms": 1793397802200,
+    "previous_commit": "2f782f1fbe254c5584d1f2c25c6f015a2dd9d7b3",
+    "previous_success_ms": 1793397810565,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
