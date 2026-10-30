@@ -1110489,7 +1110489,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793379264932,
+      "duration_ms": 19924
     }
   ],
   "radar_admissions": [
@@ -1112150,7 +1112152,7 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793378969951,
+      "observed_ms": 1793379264051,
       "unique_reads": 0
     },
     "summary": {
@@ -1119107,13 +1119109,35 @@
               "barriers": {
                 "status": "not_a_trade_entry"
               }
+            },
+            "12": {
+              "target_ms": 1793366404515,
+              "endpoint_ms": 1793366460000,
+              "endpoint_price": 0.0189232,
+              "return_pct": -10.091390045683147,
+              "btc_excess_pct_points": -10.477679086284109,
+              "mae_pct": -19.22896924286661,
+              "mfe_pct": 1.2916238065486363,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 720,
+              "ignored_entry_fragment_ms": 55485,
+              "measured_ms": 1793379264051,
+              "cost_scenarios_pct": {
+                "0.2": -10.291390045683146,
+                "0.5": -10.591390045683147,
+                "1": -11.091390045683147
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
             }
           },
           "source_close_ms": 1793322900000,
           "observation_lag_ms": 304515,
           "interpretation": "early radar reference, not a trade entry",
           "notification_lag_ms": 6426,
-          "last_measure_attempt_ms": 1793337992103
+          "last_measure_attempt_ms": 1793379264051
         },
         "USOUSDT:radar": {
           "symbol": "USOUSDT",
@@ -1123054,9 +1123078,9 @@
       },
       "errors": [],
       "queue": {
-        "due": 36,
+        "due": 40,
         "attempted": 1,
-        "observed_ms": 1793378368656,
+        "observed_ms": 1793379264051,
         "unique_reads": 2
       },
       "summary": {
@@ -1123072,8 +1123096,8 @@
               "median_pct": -0.3887397602739706
             },
             "12": {
-              "known": 32,
-              "median_pct": -1.857038714568665
+              "known": 33,
+              "median_pct": -2.0050319935391636
             },
             "24": {
               "known": 0,
