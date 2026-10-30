@@ -1138699,7 +1138699,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793329846427,
+      "duration_ms": 20939
     }
   ],
   "measurements": {
@@ -1140742,11 +1140744,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793329502850,
+            "endpoint_ms": 1793329560000,
+            "endpoint_price": 0.002043,
+            "return_pct": 6.9633507853403165,
+            "btc_excess_pct_points": 5.791723400320992,
+            "mae_pct": -0.732984293193728,
+            "mfe_pct": 7.748691099476446,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 57150,
+            "measured_ms": 1793329845913,
+            "cost_scenarios_pct": {
+              "0.2": 6.763350785340316,
+              "0.5": 6.4633507853403165,
+              "1": 5.9633507853403165
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793325600000,
         "observation_lag_ms": 302850,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9250
+        "notification_lag_ms": 9250,
+        "last_measure_attempt_ms": 1793329845913
       },
       "FOGOUSDT:radar": {
         "symbol": "FOGOUSDT",
@@ -1140871,18 +1140897,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
-      "attempted": 2,
-      "observed_ms": 1793329543129,
-      "unique_reads": 3
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793329845913,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 40,
+        "unique_symbol_labels": 41,
         "hours": {
           "1": {
-            "known": 34,
-            "median_pct": -1.3081460481038476
+            "known": 35,
+            "median_pct": -0.8681741939491783
           },
           "4": {
             "known": 24,
