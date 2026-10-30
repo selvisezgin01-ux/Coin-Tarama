@@ -1311456,53 +1311456,7 @@
     "MEXC:PERP:HAEDALUSDT": 1793344036796,
     "MEXC:SPOT:LIGHTUSDT": 1793344641504
   },
-  "pending": [
-    {
-      "id": "d1f6bcfb85259f9a94c613d5",
-      "asset_id": "1dcfb083874a0f8de0362878",
-      "key": "OKX:SPOT:WETUSDT",
-      "symbol": "WETUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793345236885,
-      "price": 0.052595,
-      "level": 0.05243,
-      "invalid": 0.051637944854740804,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05243,
-        "base_invalid": 0.051637944854740804,
-        "atr": 0.00041370096839466776,
-        "rvol": 10.804504575444925,
-        "close_position": 0.9117647058823464,
-        "breakout": true,
-        "bar_close_ms": 1793344500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2099097368926337,
-        "score": 7.911764705882346
-      },
-      "context": {
-        "atr": 0.00041370096839466776,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.28903782308358217,
-        "btc_hour_pct": 0.11597664171874023,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793344500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1312322,6 +1312276,13 @@
       "phase": "radar",
       "observed_ms": 1793344641504,
       "delivered_ms": 1793344648605
+    },
+    {
+      "id": "d1f6bcfb85259f9a94c613d5",
+      "asset_id": "1dcfb083874a0f8de0362878",
+      "phase": "radar",
+      "observed_ms": 1793345236885,
+      "delivered_ms": 1793345245338
     }
   ],
   "runs": [
@@ -1322438,7 +1322399,8 @@
         "outcomes": {},
         "source_close_ms": 1793344500000,
         "observation_lag_ms": 736885,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8453
       }
     },
     "errors": [],
