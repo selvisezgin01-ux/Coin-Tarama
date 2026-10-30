@@ -987225,164 +987225,7 @@
       "source_close_ms": 1793375100000
     }
   },
-  "pending": [
-    {
-      "id": "b42834719edc0db0752129bc",
-      "asset_id": "a3ff797ba6b1e1b2d696e341",
-      "key": "MEXC:SPOT:WLDUSDT",
-      "symbol": "WLDUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793375359072,
-      "price": 0.4104,
-      "level": 0.409,
-      "invalid": 0.3946882939740218,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.409,
-        "base_invalid": 0.3946882939740218,
-        "atr": 0.004078040173188105,
-        "rvol": 13.957438945362355,
-        "close_position": 0.8840579710144968,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.1132312327391443,
-        "score": 7.884057971014497
-      },
-      "context": {
-        "atr": 0.004046980763709547,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2564033575383604,
-        "btc_hour_pct": 0.12169736909657392,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ac4e6595f094191112f69dc3",
-      "asset_id": "dcf0980d426302acf19e0b83",
-      "key": "OKX:PERP:ZETAUSDT",
-      "symbol": "ZETAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793375357471,
-      "price": 0.036785,
-      "level": 0.03701,
-      "invalid": 0.036310404962671634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03701,
-        "base_invalid": 0.036310404962671634,
-        "atr": 0.000263966915522436,
-        "rvol": 3.8954708562644136,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.998624484181578,
-        "score": 5.895470856264414
-      },
-      "context": {
-        "atr": 0.0002901707560340416,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5916487102792578,
-        "btc_hour_pct": 0.09010749370219617,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZETAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZETAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e5e353d5848c682bda041e7a",
-      "asset_id": "726a6bd20348a35a1fe5c702",
-      "key": "MEXC:SPOT:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793375359072,
-      "price": 4.2954,
-      "level": 4.3535,
-      "invalid": 4.21146975303474,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.3535,
-        "base_invalid": 4.21146975303474,
-        "atr": 0.04686831310173613,
-        "rvol": 3.307102955846097,
-        "close_position": 0.8962264150943468,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.1738177705520565,
-        "score": 5.203329370940444
-      },
-      "context": {
-        "atr": 0.05090150383052451,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.631983805157299,
-        "btc_hour_pct": 0.12169736909657392,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -987713,6 +987556,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793374464526
+    },
+    {
+      "id": "b42834719edc0db0752129bc",
+      "asset_id": "a3ff797ba6b1e1b2d696e341",
+      "key": "MEXC:SPOT:WLDUSDT",
+      "symbol": "WLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793375359072,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793375364963
+    },
+    {
+      "id": "ac4e6595f094191112f69dc3",
+      "asset_id": "dcf0980d426302acf19e0b83",
+      "key": "OKX:PERP:ZETAUSDT",
+      "symbol": "ZETAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793375357471,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793375364963
+    },
+    {
+      "id": "e5e353d5848c682bda041e7a",
+      "asset_id": "726a6bd20348a35a1fe5c702",
+      "key": "MEXC:SPOT:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793375359072,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793375364963
     }
   ],
   "runs": [
