@@ -1152676,112 +1152676,7 @@
       "source_close_ms": 1793379600000
     }
   },
-  "pending": [
-    {
-      "id": "a9063e6d6cf3f8e1bb9623d4",
-      "asset_id": "343fd7cfec8bdba4377ccdf5",
-      "key": "OKX:PERP:EDENUSDT",
-      "symbol": "EDENUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793381389203,
-      "price": 0.05524,
-      "level": 0.05512,
-      "invalid": 0.05093015705221385,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05512,
-        "base_invalid": 0.05093015705221385,
-        "atr": 0.0007322863185743699,
-        "rvol": 17.531563938153745,
-        "close_position": 0.6724137931034441,
-        "breakout": true,
-        "bar_close_ms": 1793380500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9679094787608884,
-        "score": 7.672413793103444
-      },
-      "context": {
-        "atr": 0.0007322863185743699,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.7622652532152245,
-        "btc_hour_pct": -0.3445915372031316,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:EDENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EDENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8c6f9210ee11252948534f97",
-      "asset_id": "7db253f2b2d27b71c6b0166d",
-      "key": "OKX:SPOT:MMTUSDT",
-      "symbol": "MMTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793381390932,
-      "price": 0.12940000000000002,
-      "level": 0.1304,
-      "invalid": 0.12717935870277575,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1304,
-        "base_invalid": 0.12717935870277575,
-        "atr": 0.0008042753148283557,
-        "rvol": 3.1624417285605255,
-        "close_position": 0.9090909090909183,
-        "breakout": false,
-        "bar_close_ms": 1793380500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2327385570209728,
-        "score": 4.571532637651444
-      },
-      "context": {
-        "atr": 0.0008042753148283557,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.20110309977666718,
-        "btc_hour_pct": -0.3569877451391035,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MMTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1153321,6 +1153216,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793381100385
+    },
+    {
+      "id": "a9063e6d6cf3f8e1bb9623d4",
+      "asset_id": "343fd7cfec8bdba4377ccdf5",
+      "key": "OKX:PERP:EDENUSDT",
+      "symbol": "EDENUSDT",
+      "phase": "radar",
+      "observed_ms": 1793381389203,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793381398696
+    },
+    {
+      "id": "8c6f9210ee11252948534f97",
+      "asset_id": "7db253f2b2d27b71c6b0166d",
+      "key": "OKX:SPOT:MMTUSDT",
+      "symbol": "MMTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793381390932,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793381398696
     }
   ],
   "runs": [
@@ -1157155,7 +1157072,8 @@
         "entry_seq": 0,
         "cohort": "EDENUSDT",
         "observation_lag_ms": 889203,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9493
       },
       "7db253f2b2d27b71c6b0166d:radar": {
         "symbol": "MMTUSDT",
@@ -1157177,7 +1157095,8 @@
         "entry_seq": 0,
         "cohort": "MMTUSDT",
         "observation_lag_ms": 890932,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7764
       }
     },
     "errors": [],
