@@ -1451474,163 +1451474,7 @@
     "MEXC:SPOT:BLURUSDT": 1793360346574,
     "MEXC:PERP:LTCUSDT": 1793361894079
   },
-  "pending": [
-    {
-      "id": "dc7f558428a2cf8d1d4e806c",
-      "asset_id": "1c9b4ff02490ed99c9e037ff",
-      "key": "MEXC:PERP:LTCUSDT",
-      "symbol": "LTCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793361894079,
-      "price": 55.09,
-      "level": 55.77,
-      "invalid": 55.05199087378895,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 55.77,
-        "base_invalid": 55.05199087378895,
-        "atr": 0.3200608414070084,
-        "rvol": 4.198111640431672,
-        "close_position": 0.769230769230765,
-        "breakout": false,
-        "bar_close_ms": 1793357100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.30625112592326253,
-        "score": 5.467342409662437
-      },
-      "context": {
-        "atr": 0.3303518696941311,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.677642882406182,
-        "btc_hour_pct": -0.577287200060661,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LTCUSDT",
-          "change_pct": -0.8221228181371498,
-          "old_ms": 1793358231957,
-          "current_ms": 1793361889896,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793357100000
-    },
-    {
-      "id": "a852de33d24e41303b07797d",
-      "asset_id": "f75268760669bc0cbbc83e2f",
-      "key": "OKX:SPOT:SSVUSDT",
-      "symbol": "SSVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793361893157,
-      "price": 2.3655,
-      "level": 2.36,
-      "invalid": 2.3596480395998007,
-      "target": 2.4126864208003984,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.36,
-        "base_invalid": 2.2926480395998006,
-        "atr": 0.015679736001328357,
-        "rvol": 3.5231665751956727,
-        "close_position": 0.8235294117646982,
-        "breakout": true,
-        "bar_close_ms": 1793358900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7657192075796635,
-        "score": 5.346695986960371
-      },
-      "context": {
-        "atr": 0.014010873827524462,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.140786112713077,
-        "btc_hour_pct": -0.5885346258821644,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SSVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 2.3596480395998007,
-        "target": 2.4126864208003984,
-        "risk_pct": 0.24738788417667285,
-        "planning_cost_pct": 0.5,
-        "resistance": 2.476,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 2.364,
-        "entry_zone_high": 2.3710054369137623
-      },
-      "reason": null,
-      "source_close_ms": 1793361600000
-    },
-    {
-      "id": "e1a72bd87c8a82e86b936854",
-      "asset_id": "411aed0528be46527aa1215a",
-      "key": "MEXC:SPOT:RSRUSDT",
-      "symbol": "RSRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793361895245,
-      "price": 0.001361,
-      "level": 0.001355,
-      "invalid": 0.0012805544361774064,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001355,
-        "base_invalid": 0.0012805544361774064,
-        "atr": 2.2970425483957273e-05,
-        "rvol": 2.811261406017695,
-        "close_position": 0.7894736842105203,
-        "breakout": false,
-        "bar_close_ms": 1793361600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5235602094240788,
-        "score": 4.100735090228215
-      },
-      "context": {
-        "atr": 2.2970425483957273e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1009353840265135,
-        "btc_hour_pct": -0.5773751746024347,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RSRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793361600000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1452842,6 +1452686,27 @@
       "phase": "radar",
       "observed_ms": 1793361288831,
       "delivered_ms": 1793361296798
+    },
+    {
+      "id": "dc7f558428a2cf8d1d4e806c",
+      "asset_id": "1c9b4ff02490ed99c9e037ff",
+      "phase": "cancelled",
+      "observed_ms": 1793361894079,
+      "delivered_ms": 1793361902076
+    },
+    {
+      "id": "a852de33d24e41303b07797d",
+      "asset_id": "f75268760669bc0cbbc83e2f",
+      "phase": "triggered",
+      "observed_ms": 1793361893157,
+      "delivered_ms": 1793361902076
+    },
+    {
+      "id": "e1a72bd87c8a82e86b936854",
+      "asset_id": "411aed0528be46527aa1215a",
+      "phase": "radar",
+      "observed_ms": 1793361895245,
+      "delivered_ms": 1793361902076
     }
   ],
   "runs": [
@@ -1467780,7 +1467645,8 @@
         "outcomes": {},
         "source_close_ms": 1793361600000,
         "observation_lag_ms": 293157,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 8919
       },
       "RSRUSDT:radar": {
         "symbol": "RSRUSDT",
@@ -1467799,7 +1467665,8 @@
         "outcomes": {},
         "source_close_ms": 1793361600000,
         "observation_lag_ms": 295245,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6831
       }
     },
     "errors": [],
