@@ -1288964,106 +1288964,7 @@
     "MEXC:PERP:UAIUSDT": 1793340988504,
     "MEXC:SPOT:GLMRUSDT": 1793342842320
   },
-  "pending": [
-    {
-      "id": "ef0d448d62bb0d2ad963ea1c",
-      "asset_id": "61e9dfad935acaec1f0d15c2",
-      "key": "MEXC:PERP:YFIUSDT",
-      "symbol": "YFIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793343136573,
-      "price": 1812.5,
-      "level": 1781.0,
-      "invalid": 1742.8026747233896,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1781.0,
-        "base_invalid": 1742.8026747233896,
-        "atr": 21.31550184406885,
-        "rvol": 2.486724461532558,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793342700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0477815699658786,
-        "score": 4.4867244615325585
-      },
-      "context": {
-        "atr": 21.31550184406885,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.25953696315739183,
-        "btc_hour_pct": 0.36760100719608335,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:YFIUSDT",
-          "change_pct": -9.669942965915512,
-          "old_ms": 1793339471472,
-          "current_ms": 1793343133407,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793342700000
-    },
-    {
-      "id": "fe2a7e215aba004591b05cbf",
-      "asset_id": "5c662c0ae46f1392a4dca6da",
-      "key": "OKX:PERP:BILLUSDT",
-      "symbol": "BILLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793343138557,
-      "price": 0.0055215,
-      "level": 0.00563,
-      "invalid": 0.005349218366262809,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00563,
-        "base_invalid": 0.005349218366262809,
-        "atr": 7.854422491460425e-05,
-        "rvol": 2.9984751013219095,
-        "close_position": 0.6272727272727247,
-        "breakout": false,
-        "bar_close_ms": 1793342700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2512562814070418,
-        "score": 4.125747828594634
-      },
-      "context": {
-        "atr": 7.854422491460425e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.2684186071830537,
-        "btc_hour_pct": 0.356790851018407,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BILLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793342700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1289841,6 +1289742,20 @@
       "phase": "cancelled",
       "observed_ms": 1793342842320,
       "delivered_ms": 1793342849345
+    },
+    {
+      "id": "ef0d448d62bb0d2ad963ea1c",
+      "asset_id": "61e9dfad935acaec1f0d15c2",
+      "phase": "radar",
+      "observed_ms": 1793343136573,
+      "delivered_ms": 1793343145886
+    },
+    {
+      "id": "fe2a7e215aba004591b05cbf",
+      "asset_id": "5c662c0ae46f1392a4dca6da",
+      "phase": "radar",
+      "observed_ms": 1793343138557,
+      "delivered_ms": 1793343145886
     }
   ],
   "runs": [
@@ -1299425,7 +1299340,8 @@
         "outcomes": {},
         "source_close_ms": 1793342700000,
         "observation_lag_ms": 436573,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9313
       },
       "BILLUSDT:radar": {
         "symbol": "BILLUSDT",
@@ -1299444,7 +1299360,8 @@
         "outcomes": {},
         "source_close_ms": 1793342700000,
         "observation_lag_ms": 438557,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7329
       }
     },
     "errors": [],
