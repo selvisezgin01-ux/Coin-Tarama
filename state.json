@@ -1336790,7 +1336790,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793347945836,
+      "duration_ms": 18344
     }
   ],
   "measurements": {
@@ -1340015,13 +1340017,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793347835632,
+            "endpoint_ms": 1793347860000,
+            "endpoint_price": 0.01628,
+            "return_pct": -0.33670033670035737,
+            "btc_excess_pct_points": -0.38611799668762936,
+            "mae_pct": -1.3161922252831526,
+            "mfe_pct": 0.9488827670645739,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 24368,
+            "measured_ms": 1793347945347,
+            "cost_scenarios_pct": {
+              "0.2": -0.5367003367003573,
+              "0.5": -0.8367003367003574,
+              "1": -1.3367003367003574
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793332800000,
         "observation_lag_ms": 635632,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 6690,
-        "last_measure_attempt_ms": 1793337094997
+        "last_measure_attempt_ms": 1793347945347
       },
       "BOMEUSDT:radar": {
         "symbol": "BOMEUSDT",
@@ -1340948,7 +1340972,7 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793347647682,
+      "observed_ms": 1793347945347,
       "unique_reads": 2
     },
     "summary": {
@@ -1340960,8 +1340984,8 @@
             "median_pct": -0.23572941843462702
           },
           "4": {
-            "known": 45,
-            "median_pct": -0.3014684430613701
+            "known": 46,
+            "median_pct": -0.31908438988086374
           },
           "12": {
             "known": 6,
