@@ -1328060,7 +1328060,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793346151670,
+      "duration_ms": 24179
     }
   ],
   "measurements": {
@@ -1330947,13 +1330949,43 @@
               },
               "hypothetical_not_fill": true
             }
+          },
+          "4": {
+            "target_ms": 1793345437273,
+            "endpoint_ms": 1793345460000,
+            "endpoint_price": 0.002845,
+            "return_pct": 1.3357079252003468,
+            "btc_excess_pct_points": 0.2478676733729701,
+            "mae_pct": -1.976847729296527,
+            "mfe_pct": 1.8343722172751598,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 22727,
+            "measured_ms": 1793346149979,
+            "cost_scenarios_pct": {
+              "0.2": 1.1357079252003468,
+              "0.5": 0.8357079252003468,
+              "1": 0.33570792520034676
+            },
+            "barriers": {
+              "status": "neither",
+              "at_ms": 1793345460000,
+              "exit_price": 0.002845,
+              "net_r_scenarios": {
+                "0.2": 0.4686288661843287,
+                "0.5": 0.3448394158020944,
+                "1": 0.13852366516503717
+              },
+              "hypothetical_not_fill": true
+            }
           }
         },
         "source_close_ms": 1793331000000,
         "observation_lag_ms": 37273,
         "interpretation": "hypothetical confirmed entry, not an order fill",
         "notification_lag_ms": 9338,
-        "last_measure_attempt_ms": 1793334949095
+        "last_measure_attempt_ms": 1793346149979
       },
       "RAYUSDT:radar": {
         "symbol": "RAYUSDT",
@@ -1330991,13 +1331023,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793345734542,
+            "endpoint_ms": 1793345760000,
+            "endpoint_price": 1.6241,
+            "return_pct": -0.2916167848481921,
+            "btc_excess_pct_points": -0.9863417788050333,
+            "mae_pct": -0.3898455965865355,
+            "mfe_pct": 3.600699880283642,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 25458,
+            "measured_ms": 1793346149979,
+            "cost_scenarios_pct": {
+              "0.2": -0.4916167848481921,
+              "0.5": -0.7916167848481921,
+              "1": -1.291616784848192
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793331000000,
         "observation_lag_ms": 334542,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 10184,
-        "last_measure_attempt_ms": 1793335294128
+        "last_measure_attempt_ms": 1793346149979
       },
       "OPGUSDT:radar": {
         "symbol": "OPGUSDT",
@@ -1331918,22 +1331972,22 @@
     },
     "errors": [],
     "queue": {
-      "due": 4,
+      "due": 2,
       "attempted": 2,
-      "observed_ms": 1793345846500,
+      "observed_ms": 1793346149979,
       "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 65,
+        "unique_symbol_labels": 66,
         "hours": {
           "1": {
             "known": 59,
             "median_pct": -0.04506534474990609
           },
           "4": {
-            "known": 42,
-            "median_pct": -0.45282299081527144
+            "known": 43,
+            "median_pct": -0.44077918384758386
           },
           "12": {
             "known": 3,
@@ -1331953,8 +1332007,8 @@
             "median_pct": -0.6737561410552262
           },
           "4": {
-            "known": 0,
-            "median_pct": null
+            "known": 1,
+            "median_pct": 1.3357079252003468
           },
           "12": {
             "known": 0,
