@@ -1287890,58 +1287890,7 @@
       "source_close_ms": 1793388600000
     }
   },
-  "pending": [
-    {
-      "id": "f6f8a19dc8363d63dbaab89b",
-      "asset_id": "52a04ea0dc9b2c7ed06c7e86",
-      "key": "MEXC:SPOT:UAIUSDT",
-      "symbol": "UAIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793389018627,
-      "price": 0.2713,
-      "level": 0.2709,
-      "invalid": 0.25906810365091376,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2709,
-        "base_invalid": 0.25906810365091376,
-        "atr": 0.0028793089939084062,
-        "rvol": 2.165183306426033,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793388600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.746268656716409,
-        "score": 3.665183306426033
-      },
-      "context": {
-        "atr": 0.0028793089939084062,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.607581552307146,
-        "btc_hour_pct": -0.6821805825197425,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:UAIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793388600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1288767,6 +1288716,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793388733536
+    },
+    {
+      "id": "f6f8a19dc8363d63dbaab89b",
+      "asset_id": "52a04ea0dc9b2c7ed06c7e86",
+      "key": "MEXC:SPOT:UAIUSDT",
+      "symbol": "UAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793389018627,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793389028693
     }
   ],
   "runs": [
@@ -1294841,7 +1294801,8 @@
         "entry_seq": 0,
         "cohort": "UAIUSDT",
         "observation_lag_ms": 418627,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10066
       }
     },
     "errors": [],
@@ -1316794,8 +1316755,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e672e7ce88dc498dd8ef2ef49a604bf0fdcf9794",
-    "previous_success_ms": 1793388749423,
+    "previous_commit": "7e873d8332bae4261cc059b2eb939d0a16782a29",
+    "previous_success_ms": 1793389027183,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
