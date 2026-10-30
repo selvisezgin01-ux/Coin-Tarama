@@ -1013617,7 +1013617,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793375961649,
+      "duration_ms": 16642
     }
   ],
   "radar_admissions": [
@@ -1014901,7 +1014903,7 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793375661723,
+      "observed_ms": 1793375961649,
       "unique_reads": 0
     },
     "summary": {
