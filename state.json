@@ -1289388,166 +1289388,7 @@
       "source_close_ms": 1793388600000
     }
   },
-  "pending": [
-    {
-      "id": "df68d88bbb6eb8417702e484",
-      "asset_id": "79c06dec63d865d560e283a4",
-      "key": "OKX:SPOT:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793388720760,
-      "price": 0.050185,
-      "level": 0.05104,
-      "invalid": 0.047360717515757954,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05104,
-        "base_invalid": 0.047360717515757954,
-        "atr": 0.0015952165616136777,
-        "rvol": 3.4281469008400265,
-        "close_position": 0.8413793103448268,
-        "breakout": true,
-        "bar_close_ms": 1793384100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.013149784261353,
-        "score": 5.2695262111848535
-      },
-      "context": {
-        "atr": 0.0015177528715916947,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.595892010168822,
-        "btc_hour_pct": -0.6950376489528343,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PARTIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793384100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fa84233bc7c675538c3454db",
-      "asset_id": "fdcde519544873884310ad6c",
-      "key": "OKX:SPOT:ATOMUSDT",
-      "symbol": "ATOMUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793388720760,
-      "price": 1.5085,
-      "level": 1.515,
-      "invalid": 1.4947312160823079,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.515,
-        "base_invalid": 1.4947312160823079,
-        "atr": 0.0084585594512812,
-        "rvol": 4.430613496715976,
-        "close_position": 0.9285714285714354,
-        "breakout": false,
-        "bar_close_ms": 1793388600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.665778961384822,
-        "score": 5.859184925287411
-      },
-      "context": {
-        "atr": 0.0084585594512812,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.894771337368272,
-        "btc_hour_pct": -0.6950376489528343,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ATOMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793388600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATOMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "893a800be76e97e543be8212",
-      "asset_id": "15df21242378eb746358dd65",
-      "key": "MEXC:PERP:SPXUSDT",
-      "symbol": "SPXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793388722688,
-      "price": 0.358,
-      "level": 0.3631,
-      "invalid": 0.35248043380771077,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3631,
-        "base_invalid": 0.35248043380771077,
-        "atr": 0.0034637746152613625,
-        "rvol": 2.905109689088283,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793388600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9009009009008917,
-        "score": 4.405109689088283
-      },
-      "context": {
-        "atr": 0.0034637746152613625,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.16422796608062118,
-        "btc_hour_pct": -0.6942140190792312,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SPXUSDT",
-          "change_pct": -0.6873013231299185,
-          "old_ms": 1793384980230,
-          "current_ms": 1793388719066,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793388600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1290340,6 +1290181,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793387832522
+    },
+    {
+      "id": "df68d88bbb6eb8417702e484",
+      "asset_id": "79c06dec63d865d560e283a4",
+      "key": "OKX:SPOT:PARTIUSDT",
+      "symbol": "PARTIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793388720760,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793388733535
+    },
+    {
+      "id": "fa84233bc7c675538c3454db",
+      "asset_id": "fdcde519544873884310ad6c",
+      "key": "OKX:SPOT:ATOMUSDT",
+      "symbol": "ATOMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793388720760,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793388733536
+    },
+    {
+      "id": "893a800be76e97e543be8212",
+      "asset_id": "15df21242378eb746358dd65",
+      "key": "MEXC:PERP:SPXUSDT",
+      "symbol": "SPXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793388722688,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793388733536
     }
   ],
   "runs": [
@@ -1296272,7 +1296146,8 @@
         "entry_seq": 0,
         "cohort": "ATOMUSDT",
         "observation_lag_ms": 120760,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12776
       },
       "15df21242378eb746358dd65:radar": {
         "symbol": "SPXUSDT",
@@ -1296294,7 +1296169,8 @@
         "entry_seq": 0,
         "cohort": "SPXUSDT",
         "observation_lag_ms": 122688,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10848
       }
     },
     "errors": [],
@@ -1318249,8 +1318125,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d48f81cb0a065944a8cb40339320e2feb53d2a38",
-    "previous_success_ms": 1793388446359,
+    "previous_commit": "e6b1fe52e4c5e77ac91954ea8b1524b28b19e37b",
+    "previous_success_ms": 1793388731878,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
