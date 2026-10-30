@@ -1389671,7 +1389671,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793352818854,
+      "duration_ms": 26508
     }
   ],
   "measurements": {
@@ -1394342,11 +1394344,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793352502064,
+            "endpoint_ms": 1793352540000,
+            "endpoint_price": 0.01968,
+            "return_pct": 0.5620848237097631,
+            "btc_excess_pct_points": 0.992858235356997,
+            "mae_pct": -0.562084823709752,
+            "mfe_pct": 0.7664793050587759,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 37936,
+            "measured_ms": 1793352818358,
+            "cost_scenarios_pct": {
+              "0.2": 0.3620848237097631,
+              "0.5": 0.06208482370976309,
+              "1": -0.4379151762902369
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793348100000,
         "observation_lag_ms": 802064,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 6807
+        "notification_lag_ms": 6807,
+        "last_measure_attempt_ms": 1793352818358
       },
       "ALPINEUSDT:radar": {
         "symbol": "ALPINEUSDT",
@@ -1394471,18 +1394497,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 0,
-      "attempted": 0,
-      "observed_ms": 1793352510425,
-      "unique_reads": 0
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793352818358,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 75,
+        "unique_symbol_labels": 76,
         "hours": {
           "1": {
-            "known": 69,
-            "median_pct": -0.20121489132732817
+            "known": 70,
+            "median_pct": -0.12314011803861713
           },
           "4": {
             "known": 53,
