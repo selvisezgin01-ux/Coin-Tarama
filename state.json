@@ -1294666,55 +1294666,7 @@
     "MEXC:SPOT:GLMRUSDT": 1793342842320,
     "MEXC:SPOT:REZUSDT": 1793343743653
   },
-  "pending": [
-    {
-      "id": "732f57f1599506cbc12512ab",
-      "asset_id": "284954f28d4a5732fd0a3cc4",
-      "key": "MEXC:SPOT:REZUSDT",
-      "symbol": "REZUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793343743653,
-      "price": 0.0041305000000000005,
-      "level": 0.004104,
-      "invalid": 0.0037675763704551413,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004104,
-        "base_invalid": 0.0037675763704551413,
-        "atr": 5.6157530299055574e-05,
-        "rvol": 9.055114750887542,
-        "close_position": 0.9777777777777747,
-        "breakout": true,
-        "bar_close_ms": 1793340900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1779141104294455,
-        "score": 7.977777777777774
-      },
-      "context": {
-        "atr": 5.3506101709688664e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1435384135242144,
-        "btc_hour_pct": 0.11076557073550486,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:REZUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793340900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1295506,6 +1295458,13 @@
       "phase": "radar",
       "observed_ms": 1793343138557,
       "delivered_ms": 1793343145886
+    },
+    {
+      "id": "732f57f1599506cbc12512ab",
+      "asset_id": "284954f28d4a5732fd0a3cc4",
+      "phase": "cancelled",
+      "observed_ms": 1793343743653,
+      "delivered_ms": 1793343750919
     }
   ],
   "runs": [
