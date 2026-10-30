@@ -1147405,168 +1147405,7 @@
       "source_close_ms": 1793379600000
     }
   },
-  "pending": [
-    {
-      "id": "54834b18ee4f1419b56c68fe",
-      "asset_id": "af35a8c6548b2f865e9ed57c",
-      "key": "MEXC:PERP:SENTUSDT",
-      "symbol": "SENTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793381091724,
-      "price": 0.019104999999999997,
-      "level": 0.01894,
-      "invalid": 0.018355994297929775,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01894,
-        "base_invalid": 0.018355994297929775,
-        "atr": 0.00022670468046816794,
-        "rvol": 3.1943505429945884,
-        "close_position": 0.9200000000000034,
-        "breakout": false,
-        "bar_close_ms": 1793380500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.177100053504554,
-        "score": 4.6143505429945915
-      },
-      "context": {
-        "atr": 0.00022670468046816794,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5192324080871122,
-        "btc_hour_pct": -0.33707227912420645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SENTUSDT",
-          "change_pct": 0.2546274244335178,
-          "old_ms": 1793377441405,
-          "current_ms": 1793381087574,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SENTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b5f31a9daf678872d63a7dfb",
-      "asset_id": "5181bde04790758156a7aa10",
-      "key": "MEXC:SPOT:VIRTUALUSDT",
-      "symbol": "VIRTUALUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793381092019,
-      "price": 0.5954,
-      "level": 0.5977,
-      "invalid": 0.584661197975932,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5977,
-        "base_invalid": 0.584661197975932,
-        "atr": 0.004258680160454074,
-        "rvol": 2.421870157467496,
-        "close_position": 0.6774193548387085,
-        "breakout": false,
-        "bar_close_ms": 1793380500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2353336695242847,
-        "score": 3.5992895123062048
-      },
-      "context": {
-        "atr": 0.004258680160454074,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.46018683086779255,
-        "btc_hour_pct": -0.3418436356015242,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:VIRTUALUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VIRTUALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "04260f20b3edaec20b5acc6e",
-      "asset_id": "cb1d79e4d78047ed68a8ffb1",
-      "key": "OKX:SPOT:VIRTUALUSDT",
-      "symbol": "VIRTUALUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793381093650,
-      "price": 0.595,
-      "level": 0.5978,
-      "invalid": 0.5841524519754481,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5978,
-        "base_invalid": 0.5841524519754481,
-        "atr": 0.004316986830346303,
-        "rvol": 2.154321035850214,
-        "close_position": 0.7142857142857086,
-        "breakout": false,
-        "bar_close_ms": 1793380500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.1682085786375076,
-        "score": 3.3686067501359225
-      },
-      "context": {
-        "atr": 0.004316986830346303,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4922599805127881,
-        "btc_hour_pct": -0.3569877451391035,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VIRTUALUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VIRTUALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1148073,6 +1147912,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793379904653
+    },
+    {
+      "id": "54834b18ee4f1419b56c68fe",
+      "asset_id": "af35a8c6548b2f865e9ed57c",
+      "key": "MEXC:PERP:SENTUSDT",
+      "symbol": "SENTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793381091724,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793381100385
+    },
+    {
+      "id": "b5f31a9daf678872d63a7dfb",
+      "asset_id": "5181bde04790758156a7aa10",
+      "key": "MEXC:SPOT:VIRTUALUSDT",
+      "symbol": "VIRTUALUSDT",
+      "phase": "radar",
+      "observed_ms": 1793381092019,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793381100385
+    },
+    {
+      "id": "04260f20b3edaec20b5acc6e",
+      "asset_id": "cb1d79e4d78047ed68a8ffb1",
+      "key": "OKX:SPOT:VIRTUALUSDT",
+      "symbol": "VIRTUALUSDT",
+      "phase": "radar",
+      "observed_ms": 1793381093650,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793381100385
     }
   ],
   "runs": [
@@ -1151762,7 +1151634,8 @@
         "entry_seq": 0,
         "cohort": "SENTUSDT",
         "observation_lag_ms": 591724,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8661
       },
       "5181bde04790758156a7aa10:radar": {
         "symbol": "VIRTUALUSDT",
@@ -1151784,7 +1151657,8 @@
         "entry_seq": 0,
         "cohort": "VIRTUALUSDT",
         "observation_lag_ms": 592019,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8366
       },
       "cb1d79e4d78047ed68a8ffb1:radar": {
         "symbol": "VIRTUALUSDT",
@@ -1151806,7 +1151680,8 @@
         "entry_seq": 0,
         "cohort": "VIRTUALUSDT",
         "observation_lag_ms": 593650,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6735
       }
     },
     "errors": [],
