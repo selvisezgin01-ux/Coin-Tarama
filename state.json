@@ -1220807,7 +1220807,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793335896844,
+      "duration_ms": 22587
     }
   ],
   "measurements": {
@@ -1223430,11 +1223432,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793335836920,
+            "endpoint_ms": 1793335860000,
+            "endpoint_price": 1.1459,
+            "return_pct": -7.517856422258995,
+            "btc_excess_pct_points": -7.822651078879872,
+            "mae_pct": -9.115854888826103,
+            "mfe_pct": 1.0048020660990309,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 23080,
+            "measured_ms": 1793335896012,
+            "cost_scenarios_pct": {
+              "0.2": -7.717856422258995,
+              "0.5": -8.017856422258994,
+              "1": -8.517856422258994
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793331900000,
         "observation_lag_ms": 336920,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9375
+        "notification_lag_ms": 9375,
+        "last_measure_attempt_ms": 1793335896012
       },
       "1000RATSUSDT:radar": {
         "symbol": "1000RATSUSDT",
@@ -1223561,16 +1223587,16 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793335602244,
+      "observed_ms": 1793335896012,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 50,
+        "unique_symbol_labels": 51,
         "hours": {
           "1": {
-            "known": 44,
-            "median_pct": -0.692848298212767
+            "known": 45,
+            "median_pct": -0.7086285952480176
           },
           "4": {
             "known": 28,
