@@ -1260691,7 +1260691,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 8
         }
-      }
+      },
+      "finished_ms": 1793339497665,
+      "duration_ms": 23406
     }
   ],
   "measurements": {
@@ -1262910,13 +1262912,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793339402470,
+            "endpoint_ms": 1793339460000,
+            "endpoint_price": 168.19,
+            "return_pct": -0.9773329408301445,
+            "btc_excess_pct_points": -3.1029774126150156,
+            "mae_pct": -1.1421842802472715,
+            "mfe_pct": 0.5004415660877282,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 57530,
+            "measured_ms": 1793339495918,
+            "cost_scenarios_pct": {
+              "0.2": -1.1773329408301445,
+              "0.5": -1.4773329408301445,
+              "1": -1.9773329408301445
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793324700000,
         "observation_lag_ms": 302470,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 7714,
-        "last_measure_attempt_ms": 1793328942213
+        "last_measure_attempt_ms": 1793339495918
       },
       "DOODUSDT:radar": {
         "symbol": "DOODUSDT",
@@ -1263644,11 +1263668,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793339191416,
+            "endpoint_ms": 1793339220000,
+            "endpoint_price": 0.02002,
+            "return_pct": 0.7802668009061042,
+            "btc_excess_pct_points": 0.3550834164514738,
+            "mae_pct": -0.07550969041028033,
+            "mfe_pct": 2.240120815504665,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 28584,
+            "measured_ms": 1793339495918,
+            "cost_scenarios_pct": {
+              "0.2": 0.5802668009061043,
+              "0.5": 0.28026680090610423,
+              "1": -0.21973319909389577
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793335500000,
         "observation_lag_ms": 91416,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 6127
+        "notification_lag_ms": 6127,
+        "last_measure_attempt_ms": 1793339495918
       },
       "PIPPINUSDT:radar": {
         "symbol": "PIPPINUSDT",
@@ -1263793,22 +1263841,22 @@
     },
     "errors": [],
     "queue": {
-      "due": 1,
-      "attempted": 1,
-      "observed_ms": 1793339197978,
-      "unique_reads": 2
+      "due": 2,
+      "attempted": 2,
+      "observed_ms": 1793339495918,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 55,
+        "unique_symbol_labels": 57,
         "hours": {
           "1": {
-            "known": 49,
-            "median_pct": -0.5878146753874991
+            "known": 50,
+            "median_pct": -0.39451478335741363
           },
           "4": {
-            "known": 33,
-            "median_pct": -1.9648902383694433
+            "known": 34,
+            "median_pct": -1.7671841774978492
           },
           "12": {
             "known": 0,
