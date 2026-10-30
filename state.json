@@ -1146330,106 +1146330,7 @@
     "MEXC:SPOT:AKEUSDT": 1793330434853,
     "OKX:SPOT:EDGEUSDT": 1793331037245
   },
-  "pending": [
-    {
-      "id": "577b3d483f1fc18147aa2797",
-      "asset_id": "5e15ca2b56969aeb696679f5",
-      "key": "MEXC:SPOT:RAYUSDT",
-      "symbol": "RAYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793331334542,
-      "price": 1.62885,
-      "level": 1.5979,
-      "invalid": 1.5328546246373103,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.5979,
-        "base_invalid": 1.5328546246373103,
-        "atr": 0.017635835751265202,
-        "rvol": 3.029562762833847,
-        "close_position": 0.9807692307692328,
-        "breakout": true,
-        "bar_close_ms": 1793331000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3956281375103083,
-        "score": 5.01033199360308
-      },
-      "context": {
-        "atr": 0.017635835751265202,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4531498098553808,
-        "btc_hour_pct": 0.7725130506052391,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RAYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793331000000
-    },
-    {
-      "id": "868cba81746a6628c55fa38d",
-      "asset_id": "09fa575a5b8e8bb5df30adba",
-      "key": "MEXC:PERP:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793331338691,
-      "price": 0.0013614999999999999,
-      "level": 0.001308,
-      "invalid": 0.0011827829278369146,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001308,
-        "base_invalid": 0.0011827829278369146,
-        "atr": 3.47804810872359e-05,
-        "rvol": 2.952366594538264,
-        "close_position": 0.7647058823529406,
-        "breakout": true,
-        "bar_close_ms": 1793331000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.910246227164429,
-        "score": 4.717072476891205
-      },
-      "context": {
-        "atr": 3.47804810872359e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 5.138350010875237,
-        "btc_hour_pct": 0.7875759150506978,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOPHUSDT",
-          "change_pct": -2.3665036378326842,
-          "old_ms": 1793327688443,
-          "current_ms": 1793331337229,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0063,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793331000000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1146962,6 +1146863,20 @@
       "phase": "cancelled",
       "observed_ms": 1793331037245,
       "delivered_ms": 1793331046611
+    },
+    {
+      "id": "577b3d483f1fc18147aa2797",
+      "asset_id": "5e15ca2b56969aeb696679f5",
+      "phase": "radar",
+      "observed_ms": 1793331334542,
+      "delivered_ms": 1793331344726
+    },
+    {
+      "id": "868cba81746a6628c55fa38d",
+      "asset_id": "09fa575a5b8e8bb5df30adba",
+      "phase": "radar",
+      "observed_ms": 1793331338691,
+      "delivered_ms": 1793331344726
     }
   ],
   "runs": [
@@ -1153608,7 +1153523,8 @@
         "outcomes": {},
         "source_close_ms": 1793331000000,
         "observation_lag_ms": 334542,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10184
       }
     },
     "errors": [],
