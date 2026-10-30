@@ -1177146,53 +1177146,7 @@
     "OKX:SPOT:DOODUSDT": 1793331937601,
     "OKX:PERP:USOUSDT": 1793332840637
   },
-  "pending": [
-    {
-      "id": "dc13db6dba598dc7b5a3dbe9",
-      "asset_id": "4ec3aed3571a4cf4061c7285",
-      "key": "OKX:PERP:USOUSDT",
-      "symbol": "USOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793332840637,
-      "price": 168.435,
-      "level": 168.2,
-      "invalid": 165.57325399858686,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 168.2,
-        "base_invalid": 165.57325399858686,
-        "atr": 0.9116400094210493,
-        "rvol": 12.712115446145095,
-        "close_position": 0.8475177304964511,
-        "breakout": true,
-        "bar_close_ms": 1793324700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1552044053390942,
-        "score": 7.847517730496451
-      },
-      "context": {
-        "atr": 0.8053311563886487,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.296258405676709,
-        "btc_hour_pct": 1.0412924999547934,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:USOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793324700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1177760,6 +1177714,13 @@
       "phase": "radar",
       "observed_ms": 1793332236920,
       "delivered_ms": 1793332246295
+    },
+    {
+      "id": "dc13db6dba598dc7b5a3dbe9",
+      "asset_id": "4ec3aed3571a4cf4061c7285",
+      "phase": "expired",
+      "observed_ms": 1793332840637,
+      "delivered_ms": 1793332849526
     }
   ],
   "runs": [
