@@ -19597,22 +19597,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "5e87e286a63279e83e2369960bf8",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "HOLDER BAKİYE AZALIŞI",
-      "observed_ms": 1793367495338,
-      "text": "`DLF6ALrW35JmwqNXiMjhCobrFfyAUu4odv7E1VN6dYZu` · aynı izlenen token hesaplarında -2292371.938990token; güncel fiyatla yaklaşık $832. Token transferi olabilir; otomatik alım/satım yorumu yok.",
-      "details": {
-        "owner": "DLF6ALrW35JmwqNXiMjhCobrFfyAUu4odv7E1VN6dYZu",
-        "amount": 5000000.0,
-        "change_tokens": -2292371.9389899997,
-        "same_accounts_compared": 1,
-        "slot": 463304818
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -19637,6 +19622,12 @@
       "issue": 196,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/196",
       "delivered_ms": 1793363608251
+    },
+    {
+      "id": "5e87e286a63279e83e2369960bf8",
+      "issue": 206,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/206",
+      "delivered_ms": 1793367567693
     }
   ],
   "provider_backoff": {
