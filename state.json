@@ -1077477,147 +1077477,7 @@
     "OKX:SPOT:NESUSDT": 1793321372439,
     "OKX:PERP:BWETUSDT": 1793323203357
   },
-  "pending": [
-    {
-      "id": "d13b5485382f5b618862e658",
-      "asset_id": "68301f33bddb80b7a59f920a",
-      "key": "OKX:PERP:BWETUSDT",
-      "symbol": "BWETUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793323203357,
-      "price": 947.095,
-      "level": 945.93,
-      "invalid": 911.521017831004,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 945.93,
-        "base_invalid": 911.521017831004,
-        "atr": 11.793214459973214,
-        "rvol": 23.98861345353866,
-        "close_position": 0.9322139303482602,
-        "breakout": true,
-        "bar_close_ms": 1793319300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0687127410713435,
-        "score": 7.93221393034826
-      },
-      "context": {
-        "atr": 11.413462011229072,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.756791234571766,
-        "btc_hour_pct": -0.9456577085917073,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BWETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793319300000
-    },
-    {
-      "id": "cfe5985b8b912cbd88c8bf44",
-      "asset_id": "b6603cd3edb372acded978ef",
-      "key": "MEXC:SPOT:BULLAUSDT",
-      "symbol": "BULLAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793323204515,
-      "price": 0.076583,
-      "level": 0.077235,
-      "invalid": 0.07257112835576175,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.077235,
-        "base_invalid": 0.07257112835576175,
-        "atr": 0.0015924776282549952,
-        "rvol": 3.853083905221089,
-        "close_position": 0.6580056179775259,
-        "breakout": false,
-        "bar_close_ms": 1793322900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.552614988397184,
-        "score": 5.011089523198615
-      },
-      "context": {
-        "atr": 0.0015924776282549952,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.8996221596054084,
-        "btc_hour_pct": -0.9285050591589017,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BULLAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793322900000
-    },
-    {
-      "id": "df5b53a06bd8eb5efa81b007",
-      "asset_id": "139ee214928a98f2af4d4028",
-      "key": "MEXC:SPOT:AKEUSDT",
-      "symbol": "AKEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793323204515,
-      "price": 0.02104715,
-      "level": 0.021219,
-      "invalid": 0.020448006086479058,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.021219,
-        "base_invalid": 0.020448006086479058,
-        "atr": 0.0003466260901396301,
-        "rvol": 3.2711514135227904,
-        "close_position": 0.9919711617237446,
-        "breakout": false,
-        "bar_close_ms": 1793322900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.3688657285450212,
-        "score": 4.763122575246535
-      },
-      "context": {
-        "atr": 0.0003466260901396301,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4784802338906,
-        "btc_hour_pct": -0.9285050591589017,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793322900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1078003,6 +1077863,27 @@
       "phase": "radar",
       "observed_ms": 1793322601441,
       "delivered_ms": 1793322608918
+    },
+    {
+      "id": "d13b5485382f5b618862e658",
+      "asset_id": "68301f33bddb80b7a59f920a",
+      "phase": "cancelled",
+      "observed_ms": 1793323203357,
+      "delivered_ms": 1793323210941
+    },
+    {
+      "id": "cfe5985b8b912cbd88c8bf44",
+      "asset_id": "b6603cd3edb372acded978ef",
+      "phase": "radar",
+      "observed_ms": 1793323204515,
+      "delivered_ms": 1793323210941
+    },
+    {
+      "id": "df5b53a06bd8eb5efa81b007",
+      "asset_id": "139ee214928a98f2af4d4028",
+      "phase": "radar",
+      "observed_ms": 1793323204515,
+      "delivered_ms": 1793323210941
     }
   ],
   "runs": [
@@ -1082711,7 +1082592,8 @@
         "outcomes": {},
         "source_close_ms": 1793322900000,
         "observation_lag_ms": 304515,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6426
       },
       "AKEUSDT:radar": {
         "symbol": "AKEUSDT",
@@ -1082730,7 +1082612,8 @@
         "outcomes": {},
         "source_close_ms": 1793322900000,
         "observation_lag_ms": 304515,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6426
       }
     },
     "errors": [],
