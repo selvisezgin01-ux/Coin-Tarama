@@ -1235117,55 +1235117,7 @@
     "MEXC:SPOT:PIPPINUSDT": 1793336489099,
     "OKX:PERP:OPGUSDT": 1793338286627
   },
-  "pending": [
-    {
-      "id": "8e102df5fef5920dbaaf1a46",
-      "asset_id": "9fd4e1e83b22da3c4ea046da",
-      "key": "OKX:PERP:OPGUSDT",
-      "symbol": "OPGUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793338286627,
-      "price": 0.115735,
-      "level": 0.11368,
-      "invalid": 0.11059393273791614,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11368,
-        "base_invalid": 0.11059393273791614,
-        "atr": 0.0015071150805591254,
-        "rvol": 23.2283996823442,
-        "close_position": 0.7570281124497986,
-        "breakout": true,
-        "bar_close_ms": 1793331900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.695322822161539,
-        "score": 7.757028112449799
-      },
-      "context": {
-        "atr": 0.0011995115343621412,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.0441497455072057,
-        "btc_hour_pct": 0.03196926858148874,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OPGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793331900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1235845,6 +1235797,13 @@
       "phase": "radar",
       "observed_ms": 1793337682488,
       "delivered_ms": 1793337690449
+    },
+    {
+      "id": "8e102df5fef5920dbaaf1a46",
+      "asset_id": "9fd4e1e83b22da3c4ea046da",
+      "phase": "expired",
+      "observed_ms": 1793338286627,
+      "delivered_ms": 1793338294064
     }
   ],
   "runs": [
