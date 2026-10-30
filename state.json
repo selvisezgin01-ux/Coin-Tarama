@@ -1254578,106 +1254578,7 @@
     "MEXC:PERP:CROUSDT": 1793340088982,
     "OKX:SPOT:XLMUSDT": 1793340087304
   },
-  "pending": [
-    {
-      "id": "cd3e8057e9931aa0836cc614",
-      "asset_id": "e1b761dd20b85f20f3c04fe2",
-      "key": "MEXC:PERP:CROUSDT",
-      "symbol": "CROUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793340088982,
-      "price": 0.051255,
-      "level": 0.05124,
-      "invalid": 0.05028989604136999,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05124,
-        "base_invalid": 0.05028989604136999,
-        "atr": 0.00033402639086675125,
-        "rvol": 4.65991853828588,
-        "close_position": 0.8999999999999972,
-        "breakout": true,
-        "bar_close_ms": 1793337300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2367491166077604,
-        "score": 6.559918538285878
-      },
-      "context": {
-        "atr": 0.0003038346812680095,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.13299690162422717,
-        "btc_hour_pct": 0.36760100719608335,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CROUSDT",
-          "change_pct": -0.31455006333854785,
-          "old_ms": 1793336473219,
-          "current_ms": 1793340087160,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793337300000
-    },
-    {
-      "id": "9b343f9eefbd201e92c4f8de",
-      "asset_id": "adfb1070c26de9f3dabf6e0a",
-      "key": "OKX:SPOT:XLMUSDT",
-      "symbol": "XLMUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793340087304,
-      "price": 0.166425,
-      "level": 0.16735,
-      "invalid": 0.16315282365628042,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.16735,
-        "base_invalid": 0.16315282365628042,
-        "atr": 0.001181175624797238,
-        "rvol": 2.09567772535143,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793338200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2515114873035138,
-        "score": 4.09567772535143
-      },
-      "context": {
-        "atr": 0.0011574620430660869,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.00663015415147683,
-        "btc_hour_pct": 0.36183786035255405,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XLMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793338200000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1255392,6 +1255293,20 @@
       "phase": "radar",
       "observed_ms": 1793339484774,
       "delivered_ms": 1793339491208
+    },
+    {
+      "id": "cd3e8057e9931aa0836cc614",
+      "asset_id": "e1b761dd20b85f20f3c04fe2",
+      "phase": "cancelled",
+      "observed_ms": 1793340088982,
+      "delivered_ms": 1793340095794
+    },
+    {
+      "id": "9b343f9eefbd201e92c4f8de",
+      "asset_id": "adfb1070c26de9f3dabf6e0a",
+      "phase": "cancelled",
+      "observed_ms": 1793340087304,
+      "delivered_ms": 1793340095794
     }
   ],
   "runs": [
