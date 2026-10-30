@@ -869849,212 +869849,7 @@
       "source_close_ms": 1793370600000
     }
   },
-  "pending": [
-    {
-      "id": "fe29d080eeb4b4d6c3e986ab",
-      "asset_id": "706bbd36dc82b66a09995321",
-      "key": "OKX:SPOT:TUSDT",
-      "symbol": "TUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793373861909,
-      "price": 0.004550500000000001,
-      "level": 0.004484,
-      "invalid": 0.00439602168026063,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004484,
-        "base_invalid": 0.00439602168026063,
-        "atr": 2.6522131595802395e-05,
-        "rvol": 5.876248029545967,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9711952823769483,
-        "score": 7.876248029545967
-      },
-      "context": {
-        "atr": 2.6522131595802395e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5609679536833898,
-        "btc_hour_pct": 0.09398557159432386,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:TUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "677ce8c634b75faefde063a5",
-      "asset_id": "e48a16c584cc98d274f9b506",
-      "key": "OKX:SPOT:BREVUSDT",
-      "symbol": "BREVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793373861909,
-      "price": 0.08922,
-      "level": 0.08743,
-      "invalid": 0.08512488916078949,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08743,
-        "base_invalid": 0.08512488916078949,
-        "atr": 0.0007674055947367227,
-        "rvol": 12.064274666054866,
-        "close_position": 0.7921348314606694,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.860465116279065,
-        "score": 7.792134831460669
-      },
-      "context": {
-        "atr": 0.0007674055947367227,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5610260834173273,
-        "btc_hour_pct": 0.09398557159432386,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BREVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BREVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "caf837abae33ca8219966548",
-      "asset_id": "7c53e3ae9ad4ff16ebe5e56e",
-      "key": "OKX:SPOT:SAHARAUSDT",
-      "symbol": "SAHARAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793373861909,
-      "price": 0.0075545000000000005,
-      "level": 0.007477,
-      "invalid": 0.007367034753497438,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007477,
-        "base_invalid": 0.007367034753497438,
-        "atr": 3.976831001708044e-05,
-        "rvol": 7.205246892573364,
-        "close_position": 0.7666666666666653,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3622875640679766,
-        "score": 7.766666666666666
-      },
-      "context": {
-        "atr": 3.976831001708044e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4443724364810553,
-        "btc_hour_pct": 0.09398557159432386,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SAHARAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SAHARAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f80e7b2ff6850837636f07cf",
-      "asset_id": "1d057f9a7b4c5b7ac2acae4c",
-      "key": "OKX:PERP:BREVUSDT",
-      "symbol": "BREVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793373859198,
-      "price": 0.08912,
-      "level": 0.08737,
-      "invalid": 0.08500794364513173,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08737,
-        "base_invalid": 0.08500794364513173,
-        "atr": 0.0009470423657885081,
-        "rvol": 3.0123241157075125,
-        "close_position": 0.8108108108108096,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.113339552238803,
-        "score": 4.823134926518322
-      },
-      "context": {
-        "atr": 0.0009470423657885081,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.306053064762036,
-        "btc_hour_pct": 0.09010749370219617,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BREVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BREVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -870330,6 +870125,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793373569449
+    },
+    {
+      "id": "fe29d080eeb4b4d6c3e986ab",
+      "asset_id": "706bbd36dc82b66a09995321",
+      "key": "OKX:SPOT:TUSDT",
+      "symbol": "TUSDT",
+      "phase": "radar",
+      "observed_ms": 1793373861909,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373867350
+    },
+    {
+      "id": "677ce8c634b75faefde063a5",
+      "asset_id": "e48a16c584cc98d274f9b506",
+      "key": "OKX:SPOT:BREVUSDT",
+      "symbol": "BREVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793373861909,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373867350
+    },
+    {
+      "id": "caf837abae33ca8219966548",
+      "asset_id": "7c53e3ae9ad4ff16ebe5e56e",
+      "key": "OKX:SPOT:SAHARAUSDT",
+      "symbol": "SAHARAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793373861909,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373867350
+    },
+    {
+      "id": "f80e7b2ff6850837636f07cf",
+      "asset_id": "1d057f9a7b4c5b7ac2acae4c",
+      "key": "OKX:PERP:BREVUSDT",
+      "symbol": "BREVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793373859198,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373867350
     }
   ],
   "runs": [
@@ -872156,7 +871995,8 @@
         "entry_seq": 0,
         "cohort": "TUSDT",
         "observation_lag_ms": 561909,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5441
       },
       "e48a16c584cc98d274f9b506:radar": {
         "symbol": "BREVUSDT",
@@ -872178,7 +872018,8 @@
         "entry_seq": 0,
         "cohort": "BREVUSDT",
         "observation_lag_ms": 561909,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5441
       },
       "7c53e3ae9ad4ff16ebe5e56e:radar": {
         "symbol": "SAHARAUSDT",
@@ -872200,7 +872041,8 @@
         "entry_seq": 0,
         "cohort": "SAHARAUSDT",
         "observation_lag_ms": 561909,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5441
       },
       "1d057f9a7b4c5b7ac2acae4c:radar": {
         "symbol": "BREVUSDT",
@@ -872222,7 +872064,8 @@
         "entry_seq": 0,
         "cohort": "BREVUSDT",
         "observation_lag_ms": 559198,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8152
       }
     },
     "errors": [],
