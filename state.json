@@ -1157921,58 +1157921,7 @@
       "source_close_ms": 1793379600000
     }
   },
-  "pending": [
-    {
-      "id": "4eacddebcb6adabe2caa62dd",
-      "asset_id": "b4a644e08bcf34c6454d269c",
-      "key": "MEXC:SPOT:AINUSDT",
-      "symbol": "AINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793381695454,
-      "price": 0.173475,
-      "level": 0.17208,
-      "invalid": 0.16529264831423304,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.17208,
-        "base_invalid": 0.16529264831423304,
-        "atr": 0.005115677905113083,
-        "rvol": 2.183544382634025,
-        "close_position": 0.6958333333333355,
-        "breakout": true,
-        "bar_close_ms": 1793381400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.340677663312097,
-        "score": 3.8793777159673604
-      },
-      "context": {
-        "atr": 0.005115677905113083,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6995100090990247,
-        "btc_hour_pct": -0.3418436356015242,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793381400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1158534,6 +1158483,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793381398696
+    },
+    {
+      "id": "4eacddebcb6adabe2caa62dd",
+      "asset_id": "b4a644e08bcf34c6454d269c",
+      "key": "MEXC:SPOT:AINUSDT",
+      "symbol": "AINUSDT",
+      "phase": "radar",
+      "observed_ms": 1793381695454,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793381702748
     }
   ],
   "runs": [
@@ -1162540,7 +1162500,8 @@
         "entry_seq": 0,
         "cohort": "AINUSDT",
         "observation_lag_ms": 295454,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7294
       }
     },
     "errors": [],
