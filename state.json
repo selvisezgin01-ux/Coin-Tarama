@@ -1138778,102 +1138778,7 @@
     "MEXC:SPOT:PEPEUSDT": 1793329241065,
     "MEXC:SPOT:AKEUSDT": 1793330434853
   },
-  "pending": [
-    {
-      "id": "c0634382b09e8f77f0a6d575",
-      "asset_id": "139ee214928a98f2af4d4028",
-      "key": "MEXC:SPOT:AKEUSDT",
-      "symbol": "AKEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793330434853,
-      "price": 0.02016545,
-      "level": 0.021219,
-      "invalid": 0.020448006086479058,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.021219,
-        "base_invalid": 0.020448006086479058,
-        "atr": 0.0003466260901396301,
-        "rvol": 3.2711514135227904,
-        "close_position": 0.9919711617237446,
-        "breakout": false,
-        "bar_close_ms": 1793322900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.3688657285450212,
-        "score": 4.763122575246535
-      },
-      "context": {
-        "atr": 0.00030316391272075825,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6277449421345116,
-        "btc_hour_pct": 0.7725130506052391,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793322900000
-    },
-    {
-      "id": "6d753bb2e492c280f223c7d6",
-      "asset_id": "02300338da7b293b4b3e8137",
-      "key": "MEXC:SPOT:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793330434853,
-      "price": 0.025304,
-      "level": 0.024837,
-      "invalid": 0.02411282230913164,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.024837,
-        "base_invalid": 0.02411282230913164,
-        "atr": 0.00026785127245573126,
-        "rvol": 7.190684437133845,
-        "close_position": 0.6631299734748036,
-        "breakout": true,
-        "bar_close_ms": 1793330100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6407967600628144,
-        "score": 7.6631299734748035
-      },
-      "context": {
-        "atr": 0.00026785127245573126,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1444067425151916,
-        "btc_hour_pct": 0.7725130506052391,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793330100000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1139378,6 +1139283,20 @@
       "phase": "radar",
       "observed_ms": 1793329832853,
       "delivered_ms": 1793329841457
+    },
+    {
+      "id": "c0634382b09e8f77f0a6d575",
+      "asset_id": "139ee214928a98f2af4d4028",
+      "phase": "cancelled",
+      "observed_ms": 1793330434853,
+      "delivered_ms": 1793330441775
+    },
+    {
+      "id": "6d753bb2e492c280f223c7d6",
+      "asset_id": "02300338da7b293b4b3e8137",
+      "phase": "radar",
+      "observed_ms": 1793330434853,
+      "delivered_ms": 1793330441775
     }
   ],
   "runs": [
@@ -1145828,7 +1145747,8 @@
         "outcomes": {},
         "source_close_ms": 1793330100000,
         "observation_lag_ms": 334853,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6922
       }
     },
     "errors": [],
