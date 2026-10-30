@@ -1259376,276 +1259376,7 @@
       "source_close_ms": 1793386800000
     }
   },
-  "pending": [
-    {
-      "id": "67687f2a2030b64e815ff930",
-      "asset_id": "044cf1c81b873c8aae4ded41",
-      "key": "MEXC:PERP:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793386842751,
-      "price": 1.67055,
-      "level": 1.7772,
-      "invalid": 1.6726943553285822,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7772,
-        "base_invalid": 1.6726943553285822,
-        "atr": 0.026704297809452014,
-        "rvol": 2.0456418246876096,
-        "close_position": 0.8601398601398598,
-        "breakout": false,
-        "bar_close_ms": 1793376900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.728628800917952,
-        "score": 3.4057816848274696
-      },
-      "context": {
-        "atr": 0.02579680095194192,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.8803196009591239,
-        "btc_hour_pct": -0.6942140190792312,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZROUSDT",
-          "change_pct": 0.18529127322464145,
-          "old_ms": 1793383179016,
-          "current_ms": 1793386839900,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0025,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793376900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7659eed1020fea6c14f4291d",
-      "asset_id": "76cda69f750b58d75daad4f9",
-      "key": "OKX:SPOT:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793386840684,
-      "price": 0.04251,
-      "level": 0.04511,
-      "invalid": 0.04251497256920008,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04511,
-        "base_invalid": 0.04251497256920008,
-        "atr": 0.0005668495386661233,
-        "rvol": 2.3746569825347104,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793377800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.22578460149016433,
-        "score": 3.8746569825347104
-      },
-      "context": {
-        "atr": 0.0004904568204966199,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.2860726942860556,
-        "btc_hour_pct": -0.6950376489528343,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793377800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a882651cf07d4073f976c88d",
-      "asset_id": "b11c7c4bac0bdc87ef746333",
-      "key": "OKX:SPOT:SENTUSDT",
-      "symbol": "SENTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793386840684,
-      "price": 0.019020000000000002,
-      "level": 0.01896,
-      "invalid": 0.0183456888695211,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01896,
-        "base_invalid": 0.0183456888695211,
-        "atr": 0.00022874086985933287,
-        "rvol": 2.62601025483681,
-        "close_position": 0.6499999999999948,
-        "breakout": true,
-        "bar_close_ms": 1793381400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.273885350318471,
-        "score": 4.276010254836804
-      },
-      "context": {
-        "atr": 0.00024038898844659784,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.60557584797969,
-        "btc_hour_pct": -0.6950376489528343,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SENTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793381400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SENTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6cdb30f1b05fb1f4ccbb3700",
-      "asset_id": "321eb0e924c5f0a0a917e9be",
-      "key": "MEXC:PERP:SIRENUSDT",
-      "symbol": "SIRENUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793386842751,
-      "price": 0.02309,
-      "level": 0.02239,
-      "invalid": 0.021935859896478036,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02239,
-        "base_invalid": 0.021935859896478036,
-        "atr": 0.0002276006901464226,
-        "rvol": 5.458911738128885,
-        "close_position": 0.844827586206897,
-        "breakout": true,
-        "bar_close_ms": 1793386800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6903690369036957,
-        "score": 7.3037393243357815
-      },
-      "context": {
-        "atr": 0.0002276006901464226,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.384583055982927,
-        "btc_hour_pct": -0.6942140190792312,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SIRENUSDT",
-          "change_pct": 2.7544436709661113,
-          "old_ms": 1793383179138,
-          "current_ms": 1793386840022,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793386800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SIRENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2ed549930a54c88f4ab032a1",
-      "asset_id": "384423c1f8622c8d18205345",
-      "key": "MEXC:PERP:XPLUSDT",
-      "symbol": "XPLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793386842751,
-      "price": 0.07824500000000001,
-      "level": 0.0782,
-      "invalid": 0.07683986317245799,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0782,
-        "base_invalid": 0.07683986317245799,
-        "atr": 0.0008009121836134092,
-        "rvol": 3.77256693923954,
-        "close_position": 0.9477124183006559,
-        "breakout": true,
-        "bar_close_ms": 1793386800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8238928939237944,
-        "score": 5.720279357540195
-      },
-      "context": {
-        "atr": 0.0008009121836134092,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5181069130030256,
-        "btc_hour_pct": -0.6942140190792312,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XPLUSDT",
-          "change_pct": 4.7872462269126,
-          "old_ms": 1793383179027,
-          "current_ms": 1793386839905,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793386800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XPLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1260383,6 +1260114,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793386543540
+    },
+    {
+      "id": "67687f2a2030b64e815ff930",
+      "asset_id": "044cf1c81b873c8aae4ded41",
+      "key": "MEXC:PERP:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793386842751,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793386850236
+    },
+    {
+      "id": "7659eed1020fea6c14f4291d",
+      "asset_id": "76cda69f750b58d75daad4f9",
+      "key": "OKX:SPOT:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793386840684,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793386850236
+    },
+    {
+      "id": "6cdb30f1b05fb1f4ccbb3700",
+      "asset_id": "321eb0e924c5f0a0a917e9be",
+      "key": "MEXC:PERP:SIRENUSDT",
+      "symbol": "SIRENUSDT",
+      "phase": "radar",
+      "observed_ms": 1793386842751,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793386850236
+    },
+    {
+      "id": "2ed549930a54c88f4ab032a1",
+      "asset_id": "384423c1f8622c8d18205345",
+      "key": "MEXC:PERP:XPLUSDT",
+      "symbol": "XPLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793386842751,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793386850236
     }
   ],
   "runs": [
@@ -1265907,7 +1265682,8 @@
         "entry_seq": 0,
         "cohort": "SIRENUSDT",
         "observation_lag_ms": 42751,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7485
       },
       "384423c1f8622c8d18205345:radar": {
         "symbol": "XPLUSDT",
@@ -1265929,7 +1265705,8 @@
         "entry_seq": 0,
         "cohort": "XPLUSDT",
         "observation_lag_ms": 42751,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7485
       }
     },
     "errors": [],
