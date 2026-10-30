@@ -1090228,55 +1090228,7 @@
     "OKX:PERP:BWETUSDT": 1793323203357,
     "MEXC:SPOT:BULLAUSDT": 1793324401246
   },
-  "pending": [
-    {
-      "id": "d33b2dd7a974753a029e2e00",
-      "asset_id": "b6603cd3edb372acded978ef",
-      "key": "MEXC:SPOT:BULLAUSDT",
-      "symbol": "BULLAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793324401246,
-      "price": 0.07103999999999999,
-      "level": 0.077235,
-      "invalid": 0.07257112835576175,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.077235,
-        "base_invalid": 0.07257112835576175,
-        "atr": 0.0015924776282549952,
-        "rvol": 3.853083905221089,
-        "close_position": 0.6580056179775259,
-        "breakout": false,
-        "bar_close_ms": 1793322900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.552614988397184,
-        "score": 5.011089523198615
-      },
-      "context": {
-        "atr": 0.001973897560768001,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.8996221596054084,
-        "btc_hour_pct": -0.9285050591589017,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BULLAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793322900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1090683,6 +1090635,13 @@
       "phase": "radar",
       "observed_ms": 1793323204515,
       "delivered_ms": 1793323210941
+    },
+    {
+      "id": "d33b2dd7a974753a029e2e00",
+      "asset_id": "b6603cd3edb372acded978ef",
+      "phase": "cancelled",
+      "observed_ms": 1793324401246,
+      "delivered_ms": 1793324407334
     }
   ],
   "runs": [
