@@ -1268127,7 +1268127,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793387146381,
+      "duration_ms": 20607
     }
   ],
   "radar_admissions": [
@@ -1270842,13 +1270844,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793387097617,
+            "endpoint_ms": 1793387100000,
+            "endpoint_price": 0.18289,
+            "return_pct": -0.48156713372330406,
+            "btc_excess_pct_points": 0.13849337233801107,
+            "mae_pct": -1.836484831995644,
+            "mfe_pct": 6.744660590395868,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 2383,
+            "measured_ms": 1793387145825,
+            "cost_scenarios_pct": {
+              "0.2": -0.681567133723304,
+              "0.5": -0.9815671337233041,
+              "1": -1.481567133723304
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793383200000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "AINUSDT",
         "observation_lag_ms": 297617,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793387145825
       },
       "9eb994d78dfcf0395bb576d7:radar": {
         "symbol": "BULLAUSDT",
@@ -1270991,10 +1271017,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 0,
-      "attempted": 0,
-      "observed_ms": 1793386855378,
-      "unique_reads": 0
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793387145825,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
@@ -1271051,8 +1271077,8 @@
             "first_per_symbol": 13,
             "hours": {
               "1": {
-                "known_first_symbols": 9,
-                "median_reference_return_pct": -0.3593083314619383
+                "known_first_symbols": 10,
+                "median_reference_return_pct": -0.4204377325926212
               },
               "4": {
                 "known_first_symbols": 4,
