@@ -1354739,100 +1354739,7 @@
     "OKX:SPOT:WETUSDT": 1793350106141,
     "OKX:SPOT:GRTUSDT": 1793350106141
   },
-  "pending": [
-    {
-      "id": "6758f2dc8bc7ed9fd3f59e63",
-      "asset_id": "1dcfb083874a0f8de0362878",
-      "key": "OKX:SPOT:WETUSDT",
-      "symbol": "WETUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793350106141,
-      "price": 0.05333,
-      "level": 0.05243,
-      "invalid": 0.051637944854740804,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05243,
-        "base_invalid": 0.051637944854740804,
-        "atr": 0.00041370096839466776,
-        "rvol": 10.804504575444925,
-        "close_position": 0.9117647058823464,
-        "breakout": true,
-        "bar_close_ms": 1793344500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2099097368926337,
-        "score": 7.911764705882346
-      },
-      "context": {
-        "atr": 0.00038272837344233986,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5601294547464506,
-        "btc_hour_pct": -0.5612819710737571,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793344500000
-    },
-    {
-      "id": "131830c8cf44be21b9532451",
-      "asset_id": "1473a883bc68570bf6458b7b",
-      "key": "OKX:SPOT:GRTUSDT",
-      "symbol": "GRTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793350106141,
-      "price": 0.019450000000000002,
-      "level": 0.01958,
-      "invalid": 0.018964047522528737,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01958,
-        "base_invalid": 0.018964047522528737,
-        "atr": 0.00017301651647508033,
-        "rvol": 6.848939124700134,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793348100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8726899383983522,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.00016219429143925714,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.1040199736549896,
-        "btc_hour_pct": -0.5612819710737571,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793348100000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1355771,6 +1355678,20 @@
       "phase": "radar",
       "observed_ms": 1793349800347,
       "delivered_ms": 1793349808107
+    },
+    {
+      "id": "6758f2dc8bc7ed9fd3f59e63",
+      "asset_id": "1dcfb083874a0f8de0362878",
+      "phase": "expired",
+      "observed_ms": 1793350106141,
+      "delivered_ms": 1793350113556
+    },
+    {
+      "id": "131830c8cf44be21b9532451",
+      "asset_id": "1473a883bc68570bf6458b7b",
+      "phase": "cancelled",
+      "observed_ms": 1793350106141,
+      "delivered_ms": 1793350113556
     }
   ],
   "runs": [
