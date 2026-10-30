@@ -1027681,267 +1027681,64 @@
     }
   },
   "last_closed": {},
-  "pending": [
+  "pending": [],
+  "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
       "asset_id": "40437c69d355d2dca5f9a42f",
       "key": "OKX:SPOT:XPLUSDT",
       "symbol": "XPLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
       "phase": "radar",
       "observed_ms": 1793365446026,
-      "price": 0.077915,
-      "level": 0.07663,
-      "invalid": 0.07484471370971489,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07663,
-        "base_invalid": 0.07484471370971489,
-        "atr": 0.0007019086019007071,
-        "rvol": 6.885423703286241,
-        "close_position": 0.8913043478260793,
-        "breakout": true,
-        "bar_close_ms": 1793365200000,
-        "kind": "hacimli kÄ±rÄ±lÄ±m",
-        "recent_hour_pct": 2.826808228268063,
-        "score": 7.891304347826079
-      },
-      "context": {
-        "atr": 0.0007019086019007071,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henÃ¼z teyitsiz"
-        ],
-        "relative1h_pp": 2.7056899589279038,
-        "btc_hour_pct": 0.12111826934015912,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XPLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
       "entry_seq": 0,
-      "cohort": "XPLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
+      "entry_route": null,
+      "delivered_ms": 1793365451774
     },
     {
       "id": "79924f2b93f8b3ae28113822",
       "asset_id": "9e4ca2b0e99a1288094c1cac",
       "key": "OKX:SPOT:EDGEUSDT",
       "symbol": "EDGEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
       "phase": "radar",
       "observed_ms": 1793365446026,
-      "price": 0.3428,
-      "level": 0.3414,
-      "invalid": 0.33507497624755966,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3414,
-        "base_invalid": 0.33507497624755966,
-        "atr": 0.0028334916829357852,
-        "rvol": 5.13067357418375,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 1.5178571428571486,
-        "score": 6.63067357418375
-      },
-      "context": {
-        "atr": 0.0028334916829357852,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3967388735169894,
-        "btc_hour_pct": 0.12111826934015912,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
       "entry_seq": 0,
-      "cohort": "EDGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
+      "entry_route": null,
+      "delivered_ms": 1793365451774
     },
     {
       "id": "68059e2a62fb4144fadd6488",
       "asset_id": "3fe231c889c2f7ef68532724",
       "key": "MEXC:SPOT:EDGEUSDT",
       "symbol": "EDGEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
       "phase": "radar",
       "observed_ms": 1793365446133,
-      "price": 0.34235,
-      "level": 0.3411,
-      "invalid": 0.3339721597737817,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3411,
-        "base_invalid": 0.3339721597737817,
-        "atr": 0.0028522681747886933,
-        "rvol": 3.6744356910540317,
-        "close_position": 0.9687500000000038,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 1.3091341862540906,
-        "score": 5.143185691054035
-      },
-      "context": {
-        "atr": 0.0028522681747886933,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1930195777876795,
-        "btc_hour_pct": 0.11611460846641108,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
       "entry_seq": 0,
-      "cohort": "EDGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
+      "entry_route": null,
+      "delivered_ms": 1793365451774
     },
     {
       "id": "5d4e48ad6286509ddc4814b6",
       "asset_id": "bc0d507ff532a408fa9e7365",
       "key": "MEXC:PERP:REDUSDT",
       "symbol": "REDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
       "phase": "radar",
       "observed_ms": 1793365446093,
-      "price": 0.12365000000000001,
-      "level": 0.1227,
-      "invalid": 0.12031248484477773,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1227,
-        "base_invalid": 0.12031248484477773,
-        "atr": 0.0012501010348150872,
-        "rvol": 3.6981674954175423,
-        "close_position": 0.8749999999999957,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 1.4084507042253502,
-        "score": 5.073167495417538
-      },
-      "context": {
-        "atr": 0.0012501010348150872,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henÃ¼z teyitsiz"
-        ],
-        "relative1h_pp": 1.294934521058333,
-        "btc_hour_pct": 0.11351618316701728,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:REDUSDT",
-          "change_pct": 8.27504557024421,
-          "old_ms": 1793361877229,
-          "current_ms": 1793365443485,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0455,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
       "entry_seq": 0,
-      "cohort": "REDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
+      "entry_route": null,
+      "delivered_ms": 1793365451774
     },
     {
       "id": "4494815d86346b3663272803",
       "asset_id": "96bef0f42eaa962d268173d5",
       "key": "OKX:PERP:EDGEUSDT",
       "symbol": "EDGEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
       "phase": "radar",
       "observed_ms": 1793365445806,
-      "price": 0.3423,
-      "level": 0.341,
-      "invalid": 0.33349740680494677,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.341,
-        "base_invalid": 0.33349740680494677,
-        "atr": 0.0033506213003551494,
-        "rvol": 2.300859885825476,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 1.5494636471990342,
-        "score": 3.800859885825476
-      },
-      "context": {
-        "atr": 0.0033506213003551494,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4301261963142187,
-        "btc_hour_pct": 0.11933745088481551,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
       "entry_seq": 0,
-      "cohort": "EDGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
+      "entry_route": null,
+      "delivered_ms": 1793365451774
     }
   ],
-  "delivery": [],
   "runs": [
     {
       "started_ms": 1793365433122,
@@ -1028318,7 +1028115,8 @@
         "entry_seq": 0,
         "cohort": "XPLUSDT",
         "observation_lag_ms": 246026,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5748
       },
       "9e4ca2b0e99a1288094c1cac:radar": {
         "symbol": "EDGEUSDT",
@@ -1028340,7 +1028138,8 @@
         "entry_seq": 0,
         "cohort": "EDGEUSDT",
         "observation_lag_ms": 246026,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5748
       },
       "3fe231c889c2f7ef68532724:radar": {
         "symbol": "EDGEUSDT",
@@ -1028362,7 +1028161,8 @@
         "entry_seq": 0,
         "cohort": "EDGEUSDT",
         "observation_lag_ms": 246133,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5641
       },
       "bc0d507ff532a408fa9e7365:radar": {
         "symbol": "REDUSDT",
@@ -1028384,7 +1028184,8 @@
         "entry_seq": 0,
         "cohort": "REDUSDT",
         "observation_lag_ms": 246093,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5681
       },
       "96bef0f42eaa962d268173d5:radar": {
         "symbol": "EDGEUSDT",
@@ -1028406,7 +1028207,8 @@
         "entry_seq": 0,
         "cohort": "EDGEUSDT",
         "observation_lag_ms": 245806,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5968
       }
     },
     "errors": []
