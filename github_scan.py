@@ -215,6 +215,8 @@ def push_state():
 
 
 def http_json(url,payload=None,headers=None,label='Notification'):
+    from notification_style import outgoing
+    payload=outgoing(url,payload)
     data=None if payload is None else json.dumps(payload,ensure_ascii=False).encode()
     request=Request(url,data=data,headers={'Content-Type':'application/json',**(headers or {})})
     try:
