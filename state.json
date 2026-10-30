@@ -1323334,160 +1323334,7 @@
       "source_close_ms": 1793393100000
     }
   },
-  "pending": [
-    {
-      "id": "205ff3a68790783791778421",
-      "asset_id": "bce6a090ee9f580752fc6d71",
-      "key": "OKX:PERP:SENTUSDT",
-      "symbol": "SENTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793393220387,
-      "price": 0.019305000000000003,
-      "level": 0.01914,
-      "invalid": 0.018322205411051968,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01914,
-        "base_invalid": 0.018322205411051968,
-        "atr": 0.00025196392632021553,
-        "rvol": 2.136148532747559,
-        "close_position": 0.8461538461538441,
-        "breakout": true,
-        "bar_close_ms": 1793382300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.596714361420238,
-        "score": 3.982302378901403
-      },
-      "context": {
-        "atr": 0.00023769465711718919,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5751236969526294,
-        "btc_hour_pct": 0.3630638357870364,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SENTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793382300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SENTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a81b1dd417f40ae8ec2e2990",
-      "asset_id": "4c95932a7277967d35f219af",
-      "key": "OKX:SPOT:WOOUSDT",
-      "symbol": "WOOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793393221131,
-      "price": 0.011040000000000001,
-      "level": 0.01102,
-      "invalid": 0.010733080721828782,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01102,
-        "base_invalid": 0.010733080721828782,
-        "atr": 0.00011279518780812168,
-        "rvol": 5.139017870592174,
-        "close_position": 0.9047619047619087,
-        "breakout": false,
-        "bar_close_ms": 1793393100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.45578851412944044,
-        "score": 6.543779775354083
-      },
-      "context": {
-        "atr": 0.00011279518780812168,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.3615682926797481,
-        "btc_hour_pct": 0.3615682926797481,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WOOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793393100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WOOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "17c888328018c184d40a3aff",
-      "asset_id": "8db80f6917be999145cecb3c",
-      "key": "OKX:PERP:WOOUSDT",
-      "symbol": "WOOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793393220387,
-      "price": 0.011025,
-      "level": 0.01104,
-      "invalid": 0.010709903652885384,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01104,
-        "base_invalid": 0.010709903652885384,
-        "atr": 0.00013397564743077383,
-        "rvol": 3.829416650583482,
-        "close_position": 0.6923076923076933,
-        "breakout": false,
-        "bar_close_ms": 1793393100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.45787545787547845,
-        "score": 5.021724342891175
-      },
-      "context": {
-        "atr": 0.00013397564743077383,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.1787320385520319,
-        "btc_hour_pct": 0.3630638357870364,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WOOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793393100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WOOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1324467,6 +1324314,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793392928063
+    },
+    {
+      "id": "a81b1dd417f40ae8ec2e2990",
+      "asset_id": "4c95932a7277967d35f219af",
+      "key": "OKX:SPOT:WOOUSDT",
+      "symbol": "WOOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793393221131,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793393232738
+    },
+    {
+      "id": "17c888328018c184d40a3aff",
+      "asset_id": "8db80f6917be999145cecb3c",
+      "key": "OKX:PERP:WOOUSDT",
+      "symbol": "WOOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793393220387,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793393232738
     }
   ],
   "runs": [
@@ -1331705,7 +1331574,8 @@
         "entry_seq": 0,
         "cohort": "WOOUSDT",
         "observation_lag_ms": 121131,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11607
       },
       "8db80f6917be999145cecb3c:radar": {
         "symbol": "WOOUSDT",
@@ -1331727,7 +1331597,8 @@
         "entry_seq": 0,
         "cohort": "WOOUSDT",
         "observation_lag_ms": 120387,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12351
       }
     },
     "errors": [],
@@ -1353791,8 +1353662,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e3c95f3b2fae829ff1730f5094fcd0524c4ad288",
-    "previous_success_ms": 1793392945951,
+    "previous_commit": "41e273d9b3df39d1889e9138455643f5cc68648c",
+    "previous_success_ms": 1793393231236,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
