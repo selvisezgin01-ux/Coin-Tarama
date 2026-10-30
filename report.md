@@ -52,8 +52,8 @@ Radar ve giriş ayrı referanslardır, bağımsız iki başarı gibi toplanmaz. 
 | DODOUSDT | MEXC PERP | radar | 29.10.2026 22:28 | 0.025465 | %-1.98 | %-2.69 | %-7.56 | — |
 | AVNTUSDT | MEXC PERP | radar | 29.10.2026 22:28 | 0.10225 | %-2.20 | %-7.58 | %-11.10 | — |
 | CENTUSDT | MEXC SPOT | radar | 29.10.2026 22:28 | 0.0016625 | %-6.23 | %-7.07 | %-6.41 | — |
-| DYDXUSDT | MEXC SPOT | radar | 29.10.2026 22:48 | 0.11404 | %-3.91 | %-7.55 | — | — |
-| POLYXUSDT | MEXC PERP | radar | 29.10.2026 22:48 | 0.03369 | %-4.16 | %-5.16 | — | — |
+| DYDXUSDT | MEXC SPOT | radar | 29.10.2026 22:48 | 0.11404 | %-3.91 | %-7.55 | %-9.01 | — |
+| POLYXUSDT | MEXC PERP | radar | 29.10.2026 22:48 | 0.03369 | %-4.16 | %-5.16 | %-5.82 | — |
 | PARTIUSDT | MEXC PERP | radar | 29.10.2026 22:48 | 0.06075 | %-5.25 | %+1.86 | — | — |
 | XSNXXUSDT | OKX SPOT | radar | 29.10.2026 23:33 | 9.8315 | %-10.07 | %-12.40 | — | — |
 | SNDKUSDT | OKX PERP | radar | 29.10.2026 23:33 | 1369.35 | %-4.93 | %-6.30 | — | — |
@@ -124,4 +124,4 @@ Giriş teyidinde risk<=%3, makas<=%0.3; geri testin üzerinde taze quote aranır
 
 1/4/12/24s getiriler, BTC farkı, tam sonraki1dk mumlardan MAE/MFE; girişte ayrıca stop/hedef sırası, aynı mum/giriş parçası belirsizliği ve toplam%0.2/%0.5/%1 maliyet sonrası varsayımsalR. Gerçek fill/net kâr/fonlama değildir. OI ve short verisi bulunmazsa bilinmiyor; spot için vadeli şartı uydurulmaz.
 
-Ölçüm: {"errors": [], "queue": {"due": 3, "attempted": 2, "observed_ms": 1793346450007, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 66, "hours": {"1": {"known": 61, "median_pct": -0.20121489132732817}, "4": {"known": 43, "median_pct": -0.44077918384758386}, "12": {"known": 3, "median_pct": -7.559395248380141}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 3, "hours": {"1": {"known": 2, "median_pct": -0.6737561410552262}, "4": {"known": 1, "median_pct": 1.3357079252003468}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
+Ölçüm: {"errors": [], "queue": {"due": 5, "attempted": 2, "observed_ms": 1793346750450, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 67, "hours": {"1": {"known": 61, "median_pct": -0.20121489132732817}, "4": {"known": 43, "median_pct": -0.44077918384758386}, "12": {"known": 5, "median_pct": -7.559395248380141}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 3, "hours": {"1": {"known": 2, "median_pct": -0.6737561410552262}, "4": {"known": 1, "median_pct": 1.3357079252003468}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
