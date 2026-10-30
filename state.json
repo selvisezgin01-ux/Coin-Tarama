@@ -1362814,7 +1362814,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793350120505,
+      "duration_ms": 28160
     }
   ],
   "measurements": {
@@ -1366237,13 +1366239,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793349336218,
+            "endpoint_ms": 1793349360000,
+            "endpoint_price": 1.6795,
+            "return_pct": 2.483524530143999,
+            "btc_excess_pct_points": 2.8702769657901195,
+            "mae_pct": -0.42714181108128857,
+            "mfe_pct": 3.911398584330006,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 23782,
+            "measured_ms": 1793350118836,
+            "cost_scenarios_pct": {
+              "0.2": 2.283524530143999,
+              "0.5": 1.983524530143999,
+              "1": 1.483524530143999
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793334600000,
         "observation_lag_ms": 336218,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 8365,
-        "last_measure_attempt_ms": 1793338591265
+        "last_measure_attempt_ms": 1793350118836
       },
       "FARTCOINUSDT:radar": {
         "symbol": "FARTCOINUSDT",
@@ -1366281,13 +1366305,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793349682432,
+            "endpoint_ms": 1793349720000,
+            "endpoint_price": 0.11647,
+            "return_pct": -2.314853644217063,
+            "btc_excess_pct_points": -1.90223874798493,
+            "mae_pct": -2.7677597919986585,
+            "mfe_pct": 1.1825882747630523,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 37568,
+            "measured_ms": 1793350118836,
+            "cost_scenarios_pct": {
+              "0.2": -2.5148536442170633,
+              "0.5": -2.814853644217063,
+              "1": -3.314853644217063
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793334600000,
         "observation_lag_ms": 682432,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 7096,
-        "last_measure_attempt_ms": 1793339197978
+        "last_measure_attempt_ms": 1793350118836
       },
       "MONUSDT:radar": {
         "symbol": "MONUSDT",
@@ -1367264,9 +1367310,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 4,
+      "due": 3,
       "attempted": 2,
-      "observed_ms": 1793349813156,
+      "observed_ms": 1793350118836,
       "unique_reads": 4
     },
     "summary": {
@@ -1367278,7 +1367324,7 @@
             "median_pct": -0.12314011803861713
           },
           "4": {
-            "known": 47,
+            "known": 49,
             "median_pct": -0.3014684430613701
           },
           "12": {
