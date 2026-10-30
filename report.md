@@ -71,8 +71,8 @@ Radar ve giriş ayrı referanslardır, bağımsız iki başarı gibi toplanmaz. 
 | CTUSDT | MEXC SPOT | radar | 30.10.2026 04:05 | 0.13465 | %-4.57 | — | — | — |
 | HAEDALUSDT | MEXC PERP | radar | 30.10.2026 04:05 | 0.02219 | %-0.05 | — | — | — |
 | APRUSDT | OKX PERP | radar | 30.10.2026 04:10 | 0.05685 | %+3.22 | — | — | — |
-| BULLAUSDT | MEXC SPOT | radar | 30.10.2026 04:20 | 0.076583 | — | — | — | — |
-| AKEUSDT | MEXC SPOT | radar | 30.10.2026 04:20 | 0.02104715 | — | — | — | — |
+| BULLAUSDT | MEXC SPOT | radar | 30.10.2026 04:20 | 0.076583 | %-5.98 | — | — | — |
+| AKEUSDT | MEXC SPOT | radar | 30.10.2026 04:20 | 0.02104715 | %-0.20 | — | — | — |
 | USOUSDT | OKX PERP | radar | 30.10.2026 04:50 | 169.85 | — | — | — | — |
 | DOODUSDT | OKX SPOT | radar | 30.10.2026 05:05 | 0.00191 | — | — | — | — |
 | FOGOUSDT | OKX PERP | radar | 30.10.2026 05:20 | 0.002766 | — | — | — | — |
@@ -81,4 +81,4 @@ Giriş teyidinde risk<=%3, makas<=%0.3; geri testin üzerinde taze quote aranır
 
 1/4/12/24s getiriler, BTC farkı, tam sonraki1dk mumlardan MAE/MFE; girişte ayrıca stop/hedef sırası, aynı mum/giriş parçası belirsizliği ve toplam%0.2/%0.5/%1 maliyet sonrası varsayımsalR. Gerçek fill/net kâr/fonlama değildir. OI ve short verisi bulunmazsa bilinmiyor; spot için vadeli şartı uydurulmaz.
 
-Ölçüm: {"errors": [], "queue": {"due": 0, "attempted": 0, "observed_ms": 1793326813285, "unique_reads": 0}, "summary": {"radar": {"unique_symbol_labels": 36, "hours": {"1": {"known": 31, "median_pct": -1.748117902258517}, "4": {"known": 18, "median_pct": -2.614629828410797}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 0, "hours": {"1": {"known": 0, "median_pct": null}, "4": {"known": 0, "median_pct": null}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
+Ölçüm: {"errors": [], "queue": {"due": 2, "attempted": 2, "observed_ms": 1793327110287, "unique_reads": 3}, "summary": {"radar": {"unique_symbol_labels": 36, "hours": {"1": {"known": 33, "median_pct": -1.748117902258517}, "4": {"known": 18, "median_pct": -2.614629828410797}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 0, "hours": {"1": {"known": 0, "median_pct": null}, "4": {"known": 0, "median_pct": null}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
