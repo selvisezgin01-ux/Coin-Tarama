@@ -8245,24 +8245,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "38422773f97bca50a87109512f9c",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793323210806,
-      "text": "SATIŞ: $0.57 · işlem başlatıcı `GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq`",
-      "details": {
-        "tx": "5nD2oA6G3xsUHdVCxJKvNa81pcBmUtLsfpeSw9AjQCW6RVhgLi7xsGMLz2wAWtJbMJfekouTsk5sMVi1JtWxqYwe",
-        "wallet": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq",
-        "side": "sell",
-        "usd": 0.5717283882519917,
-        "block_ms": 1793322913000,
-        "provider_row_id": "solana_463095953_5nD2oA6G3xsUHdVCxJKvNa81pcBmUtLsfpeSw9AjQCW6RVhgLi7xsGMLz2wAWtJbMJfekouTsk5sMVi1JtWxqYwe_313_1793322920",
-        "first_buyer_seen_by_this_watch": false
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "f97849fdd8734d4af3b551bad613",
@@ -8563,6 +8546,12 @@
       "issue": 97,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/97",
       "delivered_ms": 1793322015410
+    },
+    {
+      "id": "38422773f97bca50a87109512f9c",
+      "issue": 101,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/101",
+      "delivered_ms": 1793323215571
     }
   ],
   "provider_backoff": {
