@@ -1358008,168 +1358008,7 @@
       "source_close_ms": 1793398500000
     }
   },
-  "pending": [
-    {
-      "id": "9858092a851f68e3f4e69537",
-      "asset_id": "97911c32ae3ebedb08016bf7",
-      "key": "MEXC:PERP:EIGENUSDT",
-      "symbol": "EIGENUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793398690614,
-      "price": 0.18985000000000002,
-      "level": 0.1866,
-      "invalid": 0.17947008309488924,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1866,
-        "base_invalid": 0.17947008309488924,
-        "atr": 0.0021994460340716603,
-        "rvol": 3.19603617702361,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793390400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.4915439170758455,
-        "score": 5.196036177023609
-      },
-      "context": {
-        "atr": 0.0022519008954404846,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.08269520913004591,
-        "btc_hour_pct": -0.2880675027343682,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:EIGENUSDT",
-          "change_pct": -1.9907959535869102,
-          "old_ms": 1793395073287,
-          "current_ms": 1793398689052,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0097,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793390400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EIGENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "93513d6c4a9c6638421ec77c",
-      "asset_id": "b8f7cbcc2bee0b60eea0ebe0",
-      "key": "MEXC:PERP:HOLOUSDT",
-      "symbol": "HOLOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793398690614,
-      "price": 0.059025,
-      "level": 0.05804,
-      "invalid": 0.056236474854469726,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05804,
-        "base_invalid": 0.056236474854469726,
-        "atr": 0.0003568343035351631,
-        "rvol": 2.9471065028330057,
-        "close_position": 0.9230769230769261,
-        "breakout": true,
-        "bar_close_ms": 1793393100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7235376044568262,
-        "score": 4.870183425909932
-      },
-      "context": {
-        "atr": 0.0003868905920987243,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.730394824952818,
-        "btc_hour_pct": -0.2880675027343682,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HOLOUSDT",
-          "change_pct": -5.151788789956635,
-          "old_ms": 1793395073905,
-          "current_ms": 1793398686655,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793393100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HOLOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b319383703ecba4b64bfdc00",
-      "asset_id": "10662493de5d8588a4c70d39",
-      "key": "OKX:SPOT:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793398689356,
-      "price": 0.09547,
-      "level": 0.0948,
-      "invalid": 0.09246031632835604,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0948,
-        "base_invalid": 0.09246031632835604,
-        "atr": 0.0006645578109597652,
-        "rvol": 11.206449676224873,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793398500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.5558419243986386,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0006645578109597652,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.6372712605946638,
-        "btc_hour_pct": -0.28417847708949173,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793398500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1359314,6 +1359153,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793398093567
+    },
+    {
+      "id": "9858092a851f68e3f4e69537",
+      "asset_id": "97911c32ae3ebedb08016bf7",
+      "key": "MEXC:PERP:EIGENUSDT",
+      "symbol": "EIGENUSDT",
+      "phase": "expired",
+      "observed_ms": 1793398690614,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793398699631
+    },
+    {
+      "id": "93513d6c4a9c6638421ec77c",
+      "asset_id": "b8f7cbcc2bee0b60eea0ebe0",
+      "key": "MEXC:PERP:HOLOUSDT",
+      "symbol": "HOLOUSDT",
+      "phase": "expired",
+      "observed_ms": 1793398690614,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793398699631
+    },
+    {
+      "id": "b319383703ecba4b64bfdc00",
+      "asset_id": "10662493de5d8588a4c70d39",
+      "key": "OKX:SPOT:POLUSDT",
+      "symbol": "POLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793398689356,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793398699631
     }
   ],
   "runs": [
@@ -1368368,7 +1368240,8 @@
         "entry_seq": 0,
         "cohort": "POLUSDT",
         "observation_lag_ms": 189356,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10275
       }
     },
     "errors": [],
@@ -1390568,8 +1390441,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "503641dffeb97a89274e4deaa501acea1b97f630",
-    "previous_success_ms": 1793398412073,
+    "previous_commit": "6ff759744209f7574b78baf5431aa9143a79fe8b",
+    "previous_success_ms": 1793398698703,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
