@@ -1446443,65 +1446443,7 @@
     "MEXC:PERP:LPTUSDT": 1793359147608,
     "MEXC:SPOT:BTWUSDT": 1793359445299
   },
-  "pending": [
-    {
-      "id": "38b0e22b1ed9261f3dce6016",
-      "asset_id": "2b7eac6641b0d3c83d94fdef",
-      "key": "MEXC:SPOT:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793359445299,
-      "price": 1.4851695,
-      "level": 1.498618,
-      "invalid": 1.4904820232099412,
-      "target": 1.6265891035801179,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.498618,
-        "base_invalid": 1.4122840232099412,
-        "atr": 0.03214651193372535,
-        "rvol": 5.634234601154915,
-        "close_position": 0.777729183370995,
-        "breakout": true,
-        "bar_close_ms": 1793355300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8695523887375822,
-        "score": 7.41196378452591
-      },
-      "context": {
-        "atr": 0.031862596317876524,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.8688143838668134,
-        "btc_hour_pct": 0.1738857958979656,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 1.4904820232099412,
-        "target": 1.6265891035801179,
-        "risk_pct": 2.4687691344814455,
-        "planning_cost_pct": 0.5,
-        "resistance": 1.732472,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 1.514844,
-        "entry_zone_high": 1.5307314436950334
-      },
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793357100000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1447671,6 +1447613,13 @@
       "phase": "radar",
       "observed_ms": 1793359146876,
       "delivered_ms": 1793359154977
+    },
+    {
+      "id": "38b0e22b1ed9261f3dce6016",
+      "asset_id": "2b7eac6641b0d3c83d94fdef",
+      "phase": "cancelled",
+      "observed_ms": 1793359445299,
+      "delivered_ms": 1793359451998
     }
   ],
   "runs": [
