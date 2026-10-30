@@ -71,6 +71,10 @@ GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç s
 - Robinhood: AHM: gecko_request_reserved_for_buy_pressure; ZERODAY: gecko_request_reserved_for_buy_pressure
 
 
+
+
+
+
 <!-- meme-v6-pipeline -->
 
 ## V6 keşif, aşamalar ve gerçek zamanlama
@@ -87,7 +91,7 @@ Yeni havuz keşfi en çok2sayfa/ağ;15dk altı havuzlar uygun yaşa yaklaşırke
 
 Zamanlama: {"started_ms": 1793319789922, "finished_ms": 1793320015414, "duration_seconds": 225.492, "github_run_created_at": "2026-10-29T22:57:19Z", "worker_started_ms": "1793316188742", "github_job_started_at": "2026-10-29T23:22:55Z", "cadence": {"interval_count": 166, "p95_minutes": 5.625416666666666, "max_minutes": 6.028783333333333, "meets_7m_target": true, "full_24h_observed": false}}
 
-İstek durumu: {"api.geckoterminal.com:ok": 19, "api.dexscreener.com:ok": 9, "gecko:reserved_for_buy_pressure": 5}; sağlayıcı429bekleme bitişi: 1793221779011
+İstek durumu: {"api.geckoterminal.com:ok": 19, "api.dexscreener.com:ok": 15, "gecko:reserved_for_buy_pressure": 5}; sağlayıcı429bekleme bitişi: 1793221779011
 
 GitHub worker oturumları sınırlıdır. Çalışan oturum içinde hedef5dk; oturum başlangıcı/yenilenmesi gecikebilir. Gerçek aralıklar yukarıda;24saat tamamlanmadan kesintisiz5dk doğrulandı denmez. EskiV5 paralel taranmaz, referansları previous_v5 içinde korunur.
 
