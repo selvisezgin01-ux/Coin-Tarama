@@ -1099231,166 +1099231,7 @@
       "source_close_ms": 1793368800000
     }
   },
-  "pending": [
-    {
-      "id": "15c79473b833b1725e030bc8",
-      "asset_id": "9db6a16d4fd3d61a3c519845",
-      "key": "MEXC:PERP:BRUSDT",
-      "symbol": "BRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793369324683,
-      "price": 0.4864,
-      "level": 0.4791,
-      "invalid": 0.46902200305743014,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4791,
-        "base_invalid": 0.46902200305743014,
-        "atr": 0.0038533129504658287,
-        "rvol": 3.19529316751427,
-        "close_position": 0.9574468085106428,
-        "breakout": true,
-        "bar_close_ms": 1793368800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.11461196870375,
-        "score": 5.152739976024913
-      },
-      "context": {
-        "atr": 0.0038533129504658287,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.4883515339570894,
-        "btc_hour_pct": -0.3737395652533393,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BRUSDT",
-          "change_pct": -5.923074685618435,
-          "old_ms": 1793365733092,
-          "current_ms": 1793369321231,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e4d410cd93fd192b49569d51",
-      "asset_id": "a0b1278f8a75c4888bf4423a",
-      "key": "OKX:SPOT:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793369323799,
-      "price": 0.02887,
-      "level": 0.02866,
-      "invalid": 0.02794117455041875,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02866,
-        "base_invalid": 0.02794117455041875,
-        "atr": 0.0002588363305416716,
-        "rvol": 2.464792308519984,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793368800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8734535171438749,
-        "score": 4.464792308519984
-      },
-      "context": {
-        "atr": 0.0002588363305416716,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.2822011819501387,
-        "btc_hour_pct": -0.4087476648062638,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fb95d34ad5e3615716a7225f",
-      "asset_id": "77804952b9c4d2c9928e2ce3",
-      "key": "OKX:SPOT:ARKMUSDT",
-      "symbol": "ARKMUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793369323799,
-      "price": 0.11046,
-      "level": 0.11007,
-      "invalid": 0.10764038296667292,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11007,
-        "base_invalid": 0.10764038296667292,
-        "atr": 0.0010641135555139712,
-        "rvol": 2.8270728229069313,
-        "close_position": 0.9648241206030216,
-        "breakout": false,
-        "bar_close_ms": 1793368800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2725538293812946,
-        "score": 4.291896943509952
-      },
-      "context": {
-        "atr": 0.0010641135555139712,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1361938354249692,
-        "btc_hour_pct": -0.4087476648062638,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ARKMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARKMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1099512,6 +1099353,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793369032967
+    },
+    {
+      "id": "15c79473b833b1725e030bc8",
+      "asset_id": "9db6a16d4fd3d61a3c519845",
+      "key": "MEXC:PERP:BRUSDT",
+      "symbol": "BRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793369324683,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369330815
+    },
+    {
+      "id": "e4d410cd93fd192b49569d51",
+      "asset_id": "a0b1278f8a75c4888bf4423a",
+      "key": "OKX:SPOT:HUMAUSDT",
+      "symbol": "HUMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793369323799,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369330815
+    },
+    {
+      "id": "fb95d34ad5e3615716a7225f",
+      "asset_id": "77804952b9c4d2c9928e2ce3",
+      "key": "OKX:SPOT:ARKMUSDT",
+      "symbol": "ARKMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793369323799,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369330815
     }
   ],
   "runs": [
@@ -1100657,7 +1100531,8 @@
         "entry_seq": 0,
         "cohort": "BRUSDT",
         "observation_lag_ms": 524683,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6132
       },
       "a0b1278f8a75c4888bf4423a:radar": {
         "symbol": "HUMAUSDT",
@@ -1100679,7 +1100554,8 @@
         "entry_seq": 0,
         "cohort": "HUMAUSDT",
         "observation_lag_ms": 523799,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7016
       },
       "77804952b9c4d2c9928e2ce3:radar": {
         "symbol": "ARKMUSDT",
@@ -1100701,7 +1100577,8 @@
         "entry_seq": 0,
         "cohort": "ARKMUSDT",
         "observation_lag_ms": 523799,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7016
       }
     },
     "errors": [],
