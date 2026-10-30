@@ -1119289,7 +1119289,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793379911987,
+      "duration_ms": 29817
     }
   ],
   "radar_admissions": [
@@ -1119741,6 +1119743,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793379846026,
+            "endpoint_ms": 1793379900000,
+            "endpoint_price": 0.07741,
+            "return_pct": -0.6481422062503905,
+            "btc_excess_pct_points": -0.6535071414219495,
+            "mae_pct": -2.0984406083552565,
+            "mfe_pct": 2.085606109221594,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 53974,
+            "measured_ms": 1793379909558,
+            "cost_scenarios_pct": {
+              "0.2": -0.8481422062503905,
+              "0.5": -1.1481422062503905,
+              "1": -1.6481422062503905
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793365200000,
@@ -1119750,7 +1119774,7 @@
         "observation_lag_ms": 246026,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 5748,
-        "last_measure_attempt_ms": 1793369335251
+        "last_measure_attempt_ms": 1793379909558
       },
       "9e4ca2b0e99a1288094c1cac:radar": {
         "symbol": "EDGEUSDT",
@@ -1119929,6 +1119953,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793379845806,
+            "endpoint_ms": 1793379900000,
+            "endpoint_price": 0.353,
+            "return_pct": 3.125912941863862,
+            "btc_excess_pct_points": 3.1206759282030205,
+            "mae_pct": -1.6067776803973088,
+            "mfe_pct": 9.757522640958216,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 54194,
+            "measured_ms": 1793379909558,
+            "cost_scenarios_pct": {
+              "0.2": 2.925912941863862,
+              "0.5": 2.625912941863862,
+              "1": 2.125912941863862
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793365200000,
@@ -1119938,7 +1119984,7 @@
         "observation_lag_ms": 245806,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 5968,
-        "last_measure_attempt_ms": 1793369335251
+        "last_measure_attempt_ms": 1793379909558
       },
       "aae1433dc7d6e72b08c3a944:radar": {
         "symbol": "XPLUSDT",
@@ -1120948,10 +1120994,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 0,
-      "attempted": 0,
-      "observed_ms": 1793379560839,
-      "unique_reads": 0
+      "due": 5,
+      "attempted": 2,
+      "observed_ms": 1793379909558,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1120968,8 +1121014,8 @@
                 "median_reference_return_pct": 0.029171528588101125
               },
               "4": {
-                "known_first_symbols": 0,
-                "median_reference_return_pct": null
+                "known_first_symbols": 1,
+                "median_reference_return_pct": -0.6481422062503905
               },
               "12": {
                 "known_first_symbols": 0,
@@ -1121034,8 +1121080,8 @@
                 "median_reference_return_pct": -0.8091989299274793
               },
               "4": {
-                "known_first_symbols": 0,
-                "median_reference_return_pct": null
+                "known_first_symbols": 1,
+                "median_reference_return_pct": 3.125912941863862
               },
               "12": {
                 "known_first_symbols": 0,
