@@ -11,6 +11,7 @@ on:
           - Coin Tarama 2
           - Coin Tarama 3
           - Coin Tarama 5
+          - Coin Tarama 5 V4 — örnek teyit
           - Coin Tarama Meme
           - Coin Tarama Meme V6 — örnek sinyal
           - Shortçu Kıstır
@@ -40,7 +41,7 @@ jobs:
 
           recipient = os.environ['COIN_NOTIFY_USER'].strip()
           label = os.environ['COIN_SCAN_LABEL']
-          if label not in ('Coin Tarama 2', 'Coin Tarama 3', 'Coin Tarama Meme', 'Coin Tarama Meme V6 — örnek sinyal', 'Shortçu Kıstır', 'Shortçu Kıstır — oran değişimi', 'Coin Tarama 5'):
+          if label not in ('Coin Tarama 2', 'Coin Tarama 3', 'Coin Tarama Meme', 'Coin Tarama Meme V6 — örnek sinyal', 'Shortçu Kıstır', 'Shortçu Kıstır — oran değişimi', 'Coin Tarama 5', 'Coin Tarama 5 V4 — örnek teyit'):
               raise ValueError('Unknown scanner label.')
           if not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?', recipient):
               raise ValueError('Set COIN_NOTIFY_USER to a GitHub username without @.')
@@ -107,6 +108,23 @@ jobs:
                       f'Test gönderim saati: {current:%d.%m.%Y %H:%M:%S} Türkiye\n\n'
                       'Güncel tarama raporu: https://github.com/' + os.environ['GITHUB_REPOSITORY'] +
                       '/blob/scanner-state-meme-v6/report.md\n\n' + marker)
+              if label == 'Coin Tarama 5 V4 — örnek teyit':
+                  payload['title'] = 'TEST · 🟢🎯 Coin Tarama 5 V4 — giriş ve trend bildirimi örneği'
+                  payload['body'] = (
+                      f'@{recipient}\n\n'
+                      '# TEST — GERÇEK SİNYAL DEĞİLDİR\n\n'
+                      '**Coin, fiyat, stop ve hedef tamamen örnektir. Başarı ölçümlerine dahil edilmez.**\n\n'
+                      '🟢🎯 **GİRİŞ TEYİDİ — ORNEKUSDT · OKX SPOT**\n\n'
+                      'Giriş türü: yukarıda yeni taban kırılımı.\n\n'
+                      'Örnek fiyat: 1,00 USDT · örnek geçersizlik: 0,98 · örnek hedef: 1,06.\n\n'
+                      'Gerçek mesajda gerçek gözlem fiyatı ve Türkiye saati, kaynak mum kapanışı, giriş türü, stop mesafesi ve hedefin projeksiyon olup olmadığı yazılır.\n\n'
+                      'Giriş teyidi bildirimi verilmiş coinlerde sonraki durumlar:\n\n'
+                      '🔵📈 Trend sürüyor / güçleniyor\n\n'
+                      '🟠⚠️ Trend zayıflıyor\n\n'
+                      '🔴🧱 Trend yapısı bozuldu\n\n'
+                      'Trend mesajları yeni giriş değildir. Yeni taban yeniden giriş şartlarını sağlarsa ayrı 🟢🎯 teyit gönderilir.\n\n'
+                      'V4 raporu: https://github.com/' + os.environ['GITHUB_REPOSITORY'] +
+                      '/blob/scanner-state-coin-tarama-5-v4/report.md\n\n' + marker)
               if label == 'Shortçu Kıstır — oran değişimi':
                   from datetime import datetime, timedelta
                   from zoneinfo import ZoneInfo
