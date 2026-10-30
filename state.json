@@ -196,11 +196,11 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793321763678,
-        "feature_cutoff_ms": 1793318400000,
+        "observed_ms": 1793335666981,
+        "feature_cutoff_ms": 1793332800000,
         "universe_count": 462,
-        "prefilter_count": 37,
-        "analyzed_count": 28,
+        "prefilter_count": 61,
+        "analyzed_count": 52,
         "candidates": []
       }
     },
@@ -378,17 +378,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793321792903,
-        "feature_cutoff_ms": 1793318400000,
+        "observed_ms": 1793335704031,
+        "feature_cutoff_ms": 1793332800000,
         "universe_count": 1247,
-        "prefilter_count": 126,
-        "analyzed_count": 126,
+        "prefilter_count": 173,
+        "analyzed_count": 170,
         "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793321792998,
+  "updated_ms": 1793335704128,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -5724,6 +5724,17 @@
             "control_excess_pct_points": 3.3042780185201015,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321793010,
+            "endpoint_ms": 1793321820000,
+            "endpoint_delay_ms": 26990,
+            "endpoint_price": 0.2259,
+            "return_pct": -18.85775862068966,
+            "btc_excess_pct_points": -14.602324851036531,
+            "control_excess_pct_points": -5.650211450878341,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -5777,6 +5788,17 @@
             "return_pct": 0.019197542714555205,
             "btc_excess_pct_points": -0.4176588990138841,
             "control_excess_pct_points": -0.8832277251929366,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321793010,
+            "endpoint_ms": 1793321820000,
+            "endpoint_delay_ms": 26990,
+            "endpoint_price": 0.2348,
+            "return_pct": -9.848339412555173,
+            "btc_excess_pct_points": -5.592905642902046,
+            "control_excess_pct_points": -6.915457291855786,
             "complete": true,
             "controls_count": 3
           }
@@ -5834,6 +5856,17 @@
             "control_excess_pct_points": -1.458334041973508,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321793010,
+            "endpoint_ms": 1793321820000,
+            "endpoint_delay_ms": 26990,
+            "endpoint_price": 205.36,
+            "return_pct": -6.870436714888206,
+            "btc_excess_pct_points": -2.615002945235079,
+            "control_excess_pct_points": 2.6209027317768863,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -5887,6 +5920,17 @@
             "return_pct": 15.940373522188578,
             "btc_excess_pct_points": 15.475256148618932,
             "control_excess_pct_points": 17.494594645466577,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321933299,
+            "endpoint_ms": 1793321940000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.0123,
+            "return_pct": 40.499171854474845,
+            "btc_excess_pct_points": 44.80406354124722,
+            "control_excess_pct_points": 51.12953970409404,
             "complete": true,
             "controls_count": 3
           }
@@ -5944,6 +5988,17 @@
             "control_excess_pct_points": 10.99837893704909,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321933299,
+            "endpoint_ms": 1793321940000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 4.574e-06,
+            "return_pct": -0.48950288262809005,
+            "btc_excess_pct_points": 3.815388804144282,
+            "control_excess_pct_points": 13.298086336920267,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -5997,6 +6052,17 @@
             "return_pct": 0.2975754914873896,
             "btc_excess_pct_points": -0.16754188208225607,
             "control_excess_pct_points": 3.0880186795231412,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321933299,
+            "endpoint_ms": 1793321940000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.08863,
+            "return_pct": -13.527489145811987,
+            "btc_excess_pct_points": -9.222597459039616,
+            "control_excess_pct_points": 0.26010007373636945,
             "complete": true,
             "controls_count": 3
           }
@@ -6054,6 +6120,17 @@
             "control_excess_pct_points": 3.696603058556547,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321933299,
+            "endpoint_ms": 1793321940000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.225837,
+            "return_pct": -18.808791516944712,
+            "btc_excess_pct_points": -14.50389983017234,
+            "control_excess_pct_points": -16.109390026777383,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -6107,6 +6184,17 @@
             "return_pct": 7.048117715709656,
             "btc_excess_pct_points": 6.583000342140011,
             "control_excess_pct_points": 7.048117715709656,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321933299,
+            "endpoint_ms": 1793321940000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.0285,
+            "return_pct": -10.104562587726896,
+            "btc_excess_pct_points": -5.799670900954524,
+            "control_excess_pct_points": 3.2400320068677093,
             "complete": true,
             "controls_count": 3
           }
@@ -6164,6 +6252,17 @@
             "control_excess_pct_points": -0.39809721085044547,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793321933299,
+            "endpoint_ms": 1793321940000,
+            "endpoint_delay_ms": 6701,
+            "endpoint_price": 0.01055,
+            "return_pct": -16.666666666666675,
+            "btc_excess_pct_points": -12.361774979894303,
+            "control_excess_pct_points": -6.619220392594672,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -6217,6 +6316,17 @@
             "return_pct": -4.823672476692343,
             "btc_excess_pct_points": -3.8399367995615945,
             "control_excess_pct_points": -2.3664075194274052,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335673944,
+            "endpoint_ms": 1793335680000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 23.69,
+            "return_pct": -3.972436157276049,
+            "btc_excess_pct_points": -0.7808660257553335,
+            "control_excess_pct_points": 3.327475891976362,
             "complete": true,
             "controls_count": 3
           }
@@ -6274,6 +6384,17 @@
             "control_excess_pct_points": -2.5237828820968478,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335673944,
+            "endpoint_ms": 1793335680000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 0.0006194,
+            "return_pct": -4.978139142440751,
+            "btc_excess_pct_points": -1.7865690109200356,
+            "control_excess_pct_points": 4.011232142012489,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -6327,6 +6448,17 @@
             "return_pct": -0.9704641350210985,
             "btc_excess_pct_points": 0.013271542109649648,
             "control_excess_pct_points": 1.0572839973161496,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335673944,
+            "endpoint_ms": 1793335680000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 2.335e-05,
+            "return_pct": -1.4767932489451518,
+            "btc_excess_pct_points": 1.7147768825755638,
+            "control_excess_pct_points": 3.299087220638619,
             "complete": true,
             "controls_count": 3
           }
@@ -6384,6 +6516,17 @@
             "control_excess_pct_points": 3.524498120654951,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335673944,
+            "endpoint_ms": 1793335680000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 244.34,
+            "return_pct": 0.1865633392787558,
+            "btc_excess_pct_points": 3.3781334707994715,
+            "control_excess_pct_points": 4.31707357877894,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -6439,6 +6582,17 @@
             "control_excess_pct_points": -0.0993521839207645,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335673944,
+            "endpoint_ms": 1793335680000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 227.55,
+            "return_pct": -10.647320990320619,
+            "btc_excess_pct_points": -7.455750858799903,
+            "control_excess_pct_points": -7.705425464283621,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -6492,6 +6646,17 @@
             "return_pct": 1.061565840727785,
             "btc_excess_pct_points": 2.045301517858533,
             "control_excess_pct_points": 2.855517660307494,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335673944,
+            "endpoint_ms": 1793335680000,
+            "endpoint_delay_ms": 6056,
+            "endpoint_price": 403.74,
+            "return_pct": 0.49158089928191817,
+            "btc_excess_pct_points": 3.683151030802634,
+            "control_excess_pct_points": 6.847295917221429,
             "complete": true,
             "controls_count": 3
           }
@@ -9123,6 +9288,17 @@
             "control_excess_pct_points": 3.268857963789928,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793321821333,
+            "endpoint_ms": 1793321880000,
+            "endpoint_delay_ms": 58667,
+            "endpoint_price": 0.0339,
+            "return_pct": -5.833333333333346,
+            "btc_excess_pct_points": -1.1048855578170933,
+            "control_excess_pct_points": -1.1630517171010712,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -9165,6 +9341,17 @@
             "return_pct": -5.05225920566007,
             "btc_excess_pct_points": -3.7291233429037614,
             "control_excess_pct_points": -4.210521130282807,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793321821333,
+            "endpoint_ms": 1793321880000,
+            "endpoint_delay_ms": 58667,
+            "endpoint_price": 0.012832,
+            "return_pct": -17.465830519376112,
+            "btc_excess_pct_points": -12.73738274385986,
+            "control_excess_pct_points": -5.916577467127681,
             "complete": true,
             "controls_count": 3
           }
@@ -9211,6 +9398,17 @@
             "control_excess_pct_points": 7.363060862340653,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793321821333,
+            "endpoint_ms": 1793321880000,
+            "endpoint_delay_ms": 58667,
+            "endpoint_price": 0.005265,
+            "return_pct": -1.3305847076461874,
+            "btc_excess_pct_points": 3.3978630678700656,
+            "control_excess_pct_points": 3.1920283576804542,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -9255,6 +9453,17 @@
             "control_excess_pct_points": -0.8107920511914113,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793321821333,
+            "endpoint_ms": 1793321880000,
+            "endpoint_delay_ms": 58667,
+            "endpoint_price": 2.0158,
+            "return_pct": -9.609434554504293,
+            "btc_excess_pct_points": -4.88098677898804,
+            "control_excess_pct_points": 1.2051442146651752,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -9297,6 +9506,17 @@
             "return_pct": -2.9278290147855435,
             "btc_excess_pct_points": -1.6046931520292351,
             "control_excess_pct_points": -1.1264295805142654,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793321821333,
+            "endpoint_ms": 1793321880000,
+            "endpoint_delay_ms": 58667,
+            "endpoint_price": 0.5937,
+            "return_pct": -13.087395696091352,
+            "btc_excess_pct_points": -8.3589479205751,
+            "control_excess_pct_points": -1.8528432057655522,
             "complete": true,
             "controls_count": 3
           }
@@ -10268,6 +10488,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793321792998
+    "asof_ms": 1793335704128
   }
 }
