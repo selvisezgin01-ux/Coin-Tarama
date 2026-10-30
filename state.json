@@ -1013499,118 +1013499,7 @@
       "source_close_ms": 1793370600000
     }
   },
-  "pending": [
-    {
-      "id": "bb661d74e4554c9ef52b9638",
-      "asset_id": "9db6a16d4fd3d61a3c519845",
-      "key": "MEXC:PERP:BRUSDT",
-      "symbol": "BRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793373260015,
-      "price": 0.48214999999999997,
-      "level": 0.4791,
-      "invalid": 0.46902200305743014,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4791,
-        "base_invalid": 0.46902200305743014,
-        "atr": 0.0038533129504658287,
-        "rvol": 3.19529316751427,
-        "close_position": 0.9574468085106428,
-        "breakout": true,
-        "bar_close_ms": 1793368800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.11461196870375,
-        "score": 5.152739976024913
-      },
-      "context": {
-        "atr": 0.0038691497510189216,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.13293336777371323,
-        "btc_hour_pct": 0.09151692544611123,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BRUSDT",
-          "change_pct": 3.9359155319384387,
-          "old_ms": 1793369609034,
-          "current_ms": 1793373256068,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b9a6c8297f3a724a85c1f796",
-      "asset_id": "d5a9510362ef05c288110e8d",
-      "key": "MEXC:PERP:BEAMXUSDT",
-      "symbol": "BEAMXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793373260015,
-      "price": 0.004751,
-      "level": 0.00509,
-      "invalid": 0.004528004154845637,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00509,
-        "base_invalid": 0.004528004154845637,
-        "atr": 0.00015997230102908713,
-        "rvol": 3.1933294128136755,
-        "close_position": 0.7709923664122132,
-        "breakout": true,
-        "bar_close_ms": 1793368800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 11.62046908315566,
-        "score": 4.964321779225889
-      },
-      "context": {
-        "atr": 0.00017448652617648282,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -3.1860727993716087,
-        "btc_hour_pct": 0.09151692544611123,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BEAMXUSDT",
-          "change_pct": -1.9214420595692228,
-          "old_ms": 1793369608870,
-          "current_ms": 1793373255912,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEAMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1013831,6 +1013720,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793369931411
+    },
+    {
+      "id": "bb661d74e4554c9ef52b9638",
+      "asset_id": "9db6a16d4fd3d61a3c519845",
+      "key": "MEXC:PERP:BRUSDT",
+      "symbol": "BRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793373260015,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373266153
+    },
+    {
+      "id": "b9a6c8297f3a724a85c1f796",
+      "asset_id": "d5a9510362ef05c288110e8d",
+      "key": "MEXC:PERP:BEAMXUSDT",
+      "symbol": "BEAMXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793373260015,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373266153
     }
   ],
   "runs": [
