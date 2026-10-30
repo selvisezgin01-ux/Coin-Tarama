@@ -3,8 +3,8 @@
 Solana: 1 ve SPSC. Yaş/mcap/yeni token filtresi yok. Alım önerisi değildir. İşlemler sınırlı havuz örneğidir; bütün zincir/bütün cüzdanlar izlenmiyor.
 Kontrol hedefi 5 dakika; GitHub oturumları ve kaynaklar gecikebilir. Sayım oranı USD alım hacmi değildir. Transfer alım değildir. İlişki aynı sahiplik değildir.
 
-Son gözlem: 30.10.2026 05:25:34 TR
-Döngü: 74 · doğrulanmış Issue gönderimi: 53
+Son gözlem: 30.10.2026 05:30:35 TR
+Döngü: 75 · doğrulanmış Issue gönderimi: 53
 
 ## 1 — 1 coin can change your life
 
@@ -12,8 +12,8 @@ CA:
 ```text
 GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk
 ```
-Fiyat: $0.0003731 · likidite: $166217.9 · gözlem: 30.10.2026 05:25:19 TR
-15dk örneği: alım $0, satış $0, net $0. Örnek gözlemi: 30.10.2026 05:25:20 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
+Fiyat: $0.0003693 · likidite: $165353.85 · gözlem: 30.10.2026 05:30:19 TR
+15dk örneği: alım $0, satış $430.73729966606993, net $-430.73729966606993. Örnek gözlemi: 30.10.2026 05:30:19 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
 [Solscan](https://solscan.io/token/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) · [DexScreener](https://dexscreener.com/solana/6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk)
 
 Üst token hesapları: 0 altyapı dışı örnek sahip adresi; son zincir okuması BİLİNMİYOR / ERİŞİLEMEDİ. Her sahibin bütün token hesapları kapsanmış sayılmaz.
@@ -24,8 +24,8 @@ CA:
 ```text
 4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk
 ```
-Fiyat: $0.0001987 · likidite: $93329.03 · gözlem: 30.10.2026 05:25:20 TR
-15dk örneği: alım $0, satış $0, net $0. Örnek gözlemi: 30.10.2026 05:25:32 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
+Fiyat: $0.0001987 · likidite: $93329.03 · gözlem: 30.10.2026 05:30:20 TR
+15dk örneği: alım $0, satış $0, net $0. Örnek gözlemi: 30.10.2026 05:30:32 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
 [Solscan](https://solscan.io/token/4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk) · [DexScreener](https://dexscreener.com/solana/6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5)
 
 Üst token hesapları: 0 altyapı dışı örnek sahip adresi; son zincir okuması BİLİNMİYOR / ERİŞİLEMEDİ. Her sahibin bütün token hesapları kapsanmış sayılmaz.
@@ -34,8 +34,8 @@ Fiyat: $0.0001987 · likidite: $93329.03 · gözlem: 30.10.2026 05:25:20 TR
 
 WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşağıdaki etiketler kaynak iddiasıdır; kesin kurum sahipliği doğrulanmadı.
 
-- WLFI - Treasury (Solscan etiketi) · [2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB](https://solscan.io/account/2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB) · son okuma 30.10.2026 05:25:32 TR
-- WLFI ile ilişkilendirilen adres (Lookonchain bildirimi; kesin kimlik doğrulanmadı) · [2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS](https://solscan.io/account/2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS) · son okuma 30.10.2026 05:25:34 TR
+- WLFI - Treasury (Solscan etiketi) · [2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB](https://solscan.io/account/2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB) · son okuma 30.10.2026 05:30:33 TR
+- WLFI ile ilişkilendirilen adres (Lookonchain bildirimi; kesin kimlik doğrulanmadı) · [2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS](https://solscan.io/account/2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS) · son okuma 30.10.2026 05:30:35 TR
 
 ## Erişim ve boşluklar
 
@@ -47,7 +47,7 @@ WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşa�
     "errors": [],
     "detail_queue": 0,
     "full_chain_coverage": false,
-    "checked_ms": 1793327134833
+    "checked_ms": 1793327435500
   },
   "errors": [],
   "alerts": {
@@ -60,10 +60,11 @@ WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşa�
   "last_api_requests": {
     "api.dexscreener.com": 1,
     "api.geckoterminal.com": 2,
+    "api.rugcheck.xyz": 2,
     "solana-rpc.publicnode.com": 2
   },
   "cadence": {
-    "intervals": 73,
+    "intervals": 74,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 5.365516666666666,
     "over10_minutes": 0,
@@ -75,6 +76,12 @@ WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşa�
 Rugcheck holder/ilişki verisinin kaynak güncelliği bilinmiyor; bu snapshotlar canlı balina girişi veya ortak sahiplik kanıtı sayılmaz.
 
 ## Son kayıtlar
+
+30.10.2026 05:30:19 TR · **SATIŞ** · SATIŞ: $391.52 · işlem başlatıcı `HU3bakNZ3ZnfbgwgnF3Y9jQ9tF49F5XBboDgCCzEN2kE`
+
+30.10.2026 05:30:19 TR · **SATIŞ** · SATIŞ: $39.21 · işlem başlatıcı `7Bdd7VeM3672nNNs5cTS164KpEojEYmzFwGTq1CWDVuK`
+
+30.10.2026 05:30:19 TR · **FİYAT** · Son kontrol %-1.02; fiyat $0.0003693. Gözlem aralığı 5.0dk.
 
 30.10.2026 04:44:57 TR · **SATIŞ** · SATIŞ: $0.11 · işlem başlatıcı `FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT`
 
@@ -149,10 +156,4 @@ Rugcheck holder/ilişki verisinin kaynak güncelliği bilinmiyor; bu snapshotlar
 30.10.2026 01:14:50 TR · **SATIŞ** · SATIŞ: $5.92 · işlem başlatıcı `HZHbzoJ5eBJiSSWngJsm6nfa6fyWL1BqbS9tjfaDKtDv`
 
 30.10.2026 01:14:38 TR · **SATIŞ** · SATIŞ: $4.46 · işlem başlatıcı `HZHbzoJ5eBJiSSWngJsm6nfa6fyWL1BqbS9tjfaDKtDv`
-
-30.10.2026 00:34:32 TR · **SATIŞ** · SATIŞ: $46.74 · işlem başlatıcı `9E9huBYkM55SQ7baAxARaSw6q2jBLCJt2qQfCXf3Et76`
-
-30.10.2026 00:14:32 TR · **ALIM** · ALIM: $4.99 · işlem başlatıcı `6XJ2VNr3d3GCs469hRrEjDBu2xBtJ7LpC5xxoa9F3WmU`
-
-30.10.2026 00:14:19 TR · **ALIM** · ALIM: $4.99 · işlem başlatıcı `6XJ2VNr3d3GCs469hRrEjDBu2xBtJ7LpC5xxoa9F3WmU`
 
