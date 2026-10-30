@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 30.10.2026 13:43:10 TR · V2 döngüsü 1
+Son gözlem: 30.10.2026 13:48:02 TR · V2 döngüsü 2
 
 ## Bildirim kuralları
 
@@ -26,22 +26,22 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 30.10.2026 13:42:58 TR
+Son zincir okuması: 30.10.2026 13:47:50 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
-|[HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4](https://solscan.io/account/HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4)|31677596.600942|ilk baz / bilinmiyor|
-|[7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX](https://solscan.io/account/7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX)|20690604.787121|ilk baz / bilinmiyor|
-|[GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1](https://solscan.io/account/GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1)|18632853.848854|ilk baz / bilinmiyor|
-|[HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj](https://solscan.io/account/HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj)|18600880.793574|ilk baz / bilinmiyor|
-|[AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN](https://solscan.io/account/AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN)|18385703.106597|ilk baz / bilinmiyor|
-|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17915708.643783|ilk baz / bilinmiyor|
-|[4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb](https://solscan.io/account/4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb)|13902460.752094|ilk baz / bilinmiyor|
-|[5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe](https://solscan.io/account/5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe)|13429775.275641|ilk baz / bilinmiyor|
-|[6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM](https://solscan.io/account/6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM)|12000069.420000|ilk baz / bilinmiyor|
-|[CDjgazRvVC8eRrFNzzgr7ZKt9ntMxWocwninbbmtyGc5](https://solscan.io/account/CDjgazRvVC8eRrFNzzgr7ZKt9ntMxWocwninbbmtyGc5)|11718504.619731|ilk baz / bilinmiyor|
-|[GMFovc2oymqD8jTMZUeJ6zsRHmUuoPb3L8EkFHba6yk6](https://solscan.io/account/GMFovc2oymqD8jTMZUeJ6zsRHmUuoPb3L8EkFHba6yk6)|11529374.921350|ilk baz / bilinmiyor|
-|[GVDZKpujcfKvcQdHtvcQWVncz9VxqmftUhKVQD1nFDxS](https://solscan.io/account/GVDZKpujcfKvcQdHtvcQWVncz9VxqmftUhKVQD1nFDxS)|11519165.266273|ilk baz / bilinmiyor|
+|[HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4](https://solscan.io/account/HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4)|31677596.600942|+0.000000|
+|[7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX](https://solscan.io/account/7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX)|20690604.787121|+0.000000|
+|[GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1](https://solscan.io/account/GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1)|18632853.848854|+0.000000|
+|[HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj](https://solscan.io/account/HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj)|18600880.793574|+0.000000|
+|[AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN](https://solscan.io/account/AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN)|18385703.106597|+0.000000|
+|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17915708.643783|+0.000000|
+|[4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb](https://solscan.io/account/4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb)|13902460.752094|+0.000000|
+|[5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe](https://solscan.io/account/5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe)|13429775.275641|+0.000000|
+|[6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM](https://solscan.io/account/6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM)|12000069.420000|+0.000000|
+|[CDjgazRvVC8eRrFNzzgr7ZKt9ntMxWocwninbbmtyGc5](https://solscan.io/account/CDjgazRvVC8eRrFNzzgr7ZKt9ntMxWocwninbbmtyGc5)|11718504.619731|+0.000000|
+|[GMFovc2oymqD8jTMZUeJ6zsRHmUuoPb3L8EkFHba6yk6](https://solscan.io/account/GMFovc2oymqD8jTMZUeJ6zsRHmUuoPb3L8EkFHba6yk6)|11529374.921350|+0.000000|
+|[GVDZKpujcfKvcQdHtvcQWVncz9VxqmftUhKVQD1nFDxS](https://solscan.io/account/GVDZKpujcfKvcQdHtvcQWVncz9VxqmftUhKVQD1nFDxS)|11519165.266273|+0.000000|
 
 ### Cüzdan bağlantıları
 
@@ -64,22 +64,22 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 30.10.2026 13:42:58 TR
+Son zincir okuması: 30.10.2026 13:47:50 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
-|[69ehVz81526sBL7daKHFW4JNmVhNhRGtoSPSRBEqV36n](https://solscan.io/account/69ehVz81526sBL7daKHFW4JNmVhNhRGtoSPSRBEqV36n)|26481306.566557|ilk baz / bilinmiyor|
-|[HJ79mH6rPgTobjWgnf2uan6D4eQ7pHneUJqmfYUe7VdA](https://solscan.io/account/HJ79mH6rPgTobjWgnf2uan6D4eQ7pHneUJqmfYUe7VdA)|25002356.844576|ilk baz / bilinmiyor|
-|[6Kf8Wmkkb1DXBU7jKoC5FMcxiy3BgvZPmzDUQgomY9d3](https://solscan.io/account/6Kf8Wmkkb1DXBU7jKoC5FMcxiy3BgvZPmzDUQgomY9d3)|23694003.138384|ilk baz / bilinmiyor|
-|[2aEWmEfZjg8HZpwt7sTgt7Jqr7gEvK3ACocuKxv1UVgP](https://solscan.io/account/2aEWmEfZjg8HZpwt7sTgt7Jqr7gEvK3ACocuKxv1UVgP)|20400046.769062|ilk baz / bilinmiyor|
-|[CGXEMoq7yTqiobSKJVS3WXpywC9qocwNh6Rj8cy75zkm](https://solscan.io/account/CGXEMoq7yTqiobSKJVS3WXpywC9qocwNh6Rj8cy75zkm)|20058661.296390|ilk baz / bilinmiyor|
-|[7fCXLR91qaRuiXayPwENWyXm9jHyD5DER2pLaEt4yciA](https://solscan.io/account/7fCXLR91qaRuiXayPwENWyXm9jHyD5DER2pLaEt4yciA)|19999268.324101|ilk baz / bilinmiyor|
-|[7y4t9NKPcg6dN3uBgyaDmDHsfedEiNhaCEZZ2y7j5Dc5](https://solscan.io/account/7y4t9NKPcg6dN3uBgyaDmDHsfedEiNhaCEZZ2y7j5Dc5)|19408868.491961|ilk baz / bilinmiyor|
-|[6ip21xEnQgMbRAiJq2CCW2b1TsPrqJyQ4DyCiYGJ2ph7](https://solscan.io/account/6ip21xEnQgMbRAiJq2CCW2b1TsPrqJyQ4DyCiYGJ2ph7)|18933280.342635|ilk baz / bilinmiyor|
-|[9GLLyBDLPZk3GL2mBkix4wDEZoMCZuU62cii2x8WNrMd](https://solscan.io/account/9GLLyBDLPZk3GL2mBkix4wDEZoMCZuU62cii2x8WNrMd)|18766352.660686|ilk baz / bilinmiyor|
-|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17349233.396626|ilk baz / bilinmiyor|
-|[AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN](https://solscan.io/account/AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN)|17334944.694858|ilk baz / bilinmiyor|
-|[812HUoAGBBLmyUP8dvSyGB8v8PV3v3fheeXN7nMdLVGe](https://solscan.io/account/812HUoAGBBLmyUP8dvSyGB8v8PV3v3fheeXN7nMdLVGe)|15869243.235194|ilk baz / bilinmiyor|
+|[69ehVz81526sBL7daKHFW4JNmVhNhRGtoSPSRBEqV36n](https://solscan.io/account/69ehVz81526sBL7daKHFW4JNmVhNhRGtoSPSRBEqV36n)|26481306.566557|+0.000000|
+|[HJ79mH6rPgTobjWgnf2uan6D4eQ7pHneUJqmfYUe7VdA](https://solscan.io/account/HJ79mH6rPgTobjWgnf2uan6D4eQ7pHneUJqmfYUe7VdA)|25002356.844576|+0.000000|
+|[6Kf8Wmkkb1DXBU7jKoC5FMcxiy3BgvZPmzDUQgomY9d3](https://solscan.io/account/6Kf8Wmkkb1DXBU7jKoC5FMcxiy3BgvZPmzDUQgomY9d3)|23694003.138384|+0.000000|
+|[2aEWmEfZjg8HZpwt7sTgt7Jqr7gEvK3ACocuKxv1UVgP](https://solscan.io/account/2aEWmEfZjg8HZpwt7sTgt7Jqr7gEvK3ACocuKxv1UVgP)|20400046.769062|+0.000000|
+|[CGXEMoq7yTqiobSKJVS3WXpywC9qocwNh6Rj8cy75zkm](https://solscan.io/account/CGXEMoq7yTqiobSKJVS3WXpywC9qocwNh6Rj8cy75zkm)|20058661.296390|+0.000000|
+|[7fCXLR91qaRuiXayPwENWyXm9jHyD5DER2pLaEt4yciA](https://solscan.io/account/7fCXLR91qaRuiXayPwENWyXm9jHyD5DER2pLaEt4yciA)|19999268.324101|+0.000000|
+|[7y4t9NKPcg6dN3uBgyaDmDHsfedEiNhaCEZZ2y7j5Dc5](https://solscan.io/account/7y4t9NKPcg6dN3uBgyaDmDHsfedEiNhaCEZZ2y7j5Dc5)|19408868.491961|+0.000000|
+|[6ip21xEnQgMbRAiJq2CCW2b1TsPrqJyQ4DyCiYGJ2ph7](https://solscan.io/account/6ip21xEnQgMbRAiJq2CCW2b1TsPrqJyQ4DyCiYGJ2ph7)|18933280.342635|+0.000000|
+|[9GLLyBDLPZk3GL2mBkix4wDEZoMCZuU62cii2x8WNrMd](https://solscan.io/account/9GLLyBDLPZk3GL2mBkix4wDEZoMCZuU62cii2x8WNrMd)|18766352.660686|+0.000000|
+|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17349233.396626|+0.000000|
+|[AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN](https://solscan.io/account/AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN)|17334944.694858|+0.000000|
+|[812HUoAGBBLmyUP8dvSyGB8v8PV3v3fheeXN7nMdLVGe](https://solscan.io/account/812HUoAGBBLmyUP8dvSyGB8v8PV3v3fheeXN7nMdLVGe)|15869243.235194|+0.000000|
 
 ### Cüzdan bağlantıları
 
@@ -100,12 +100,12 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "errors": [],
       "detail_queue": 0,
       "full_chain_coverage": false,
-      "checked_ms": 1793356990698
+      "checked_ms": 1793357282579
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793356978326,
+      "observed_ms": 1793357270272,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -115,9 +115,9 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434
   },
   "timing": {
-    "intervals": 0,
-    "p95_minutes": null,
-    "max_minutes": null,
+    "intervals": 1,
+    "p95_minutes": 5.0,
+    "max_minutes": 5.0,
     "over10_minutes": 0,
     "full_chain_coverage": false
   },
