@@ -1237730,7 +1237730,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793404481758,
+      "duration_ms": 29160
     }
   ],
   "radar_admissions": [
@@ -1243425,20 +1243427,20 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
-      "attempted": 2,
-      "observed_ms": 1793404185484,
-      "unique_reads": 4
+      "due": 0,
+      "attempted": 0,
+      "observed_ms": 1793404481758,
+      "unique_reads": 0
     },
     "summary": {
       "radar": {
-        "market_event_references": 85,
-        "unique_symbol_labels": 60,
+        "market_event_references": 88,
+        "unique_symbol_labels": 62,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 30,
-            "first_per_symbol": 30,
+            "event_references": 31,
+            "first_per_symbol": 31,
             "hours": {
               "1": {
                 "known_first_symbols": 26,
@@ -1243459,8 +1243461,8 @@
             }
           },
           "MEXC:SPOT:radar": {
-            "event_references": 21,
-            "first_per_symbol": 21,
+            "event_references": 22,
+            "first_per_symbol": 22,
             "hours": {
               "1": {
                 "known_first_symbols": 19,
@@ -1243481,8 +1243483,8 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 21,
-            "first_per_symbol": 21,
+            "event_references": 22,
+            "first_per_symbol": 22,
             "hours": {
               "1": {
                 "known_first_symbols": 21,
@@ -1265782,8 +1265784,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3c53612bd1d1cd14dfc89fb2937d932e54da618e",
-    "previous_success_ms": 1793404473408,
+    "previous_commit": "3fc1e496112bf254fd8b40b9e1518e31c55d60d8",
+    "previous_success_ms": 1793404481723,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
