@@ -1205834,7 +1205834,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793334949615,
+      "duration_ms": 24125
     }
   ],
   "measurements": {
@@ -1208317,11 +1208319,43 @@
         "stop": 0.002739461084131215,
         "target": 0.00298569033173757,
         "risk_pct": 2.4234698439460445,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793334637273,
+            "endpoint_ms": 1793334660000,
+            "endpoint_price": 0.002783,
+            "return_pct": -0.8726625111309061,
+            "btc_excess_pct_points": -1.7645511843700556,
+            "mae_pct": -1.976847729296527,
+            "mfe_pct": 0,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 22727,
+            "measured_ms": 1793334949095,
+            "cost_scenarios_pct": {
+              "0.2": -1.072662511130906,
+              "0.5": -1.372662511130906,
+              "1": -1.872662511130906
+            },
+            "barriers": {
+              "status": "neither",
+              "at_ms": 1793334660000,
+              "exit_price": 0.002783,
+              "net_r_scenarios": {
+                "0.2": -0.4426143423284072,
+                "0.5": -0.5664037927106415,
+                "1": -0.7727195433476987
+              },
+              "hypothetical_not_fill": true
+            }
+          }
+        },
         "source_close_ms": 1793331000000,
         "observation_lag_ms": 37273,
         "interpretation": "hypothetical confirmed entry, not an order fill",
-        "notification_lag_ms": 9338
+        "notification_lag_ms": 9338,
+        "last_measure_attempt_ms": 1793334949095
       },
       "RAYUSDT:radar": {
         "symbol": "RAYUSDT",
@@ -1208448,12 +1208482,12 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793334650680,
+      "observed_ms": 1793334949095,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 47,
+        "unique_symbol_labels": 48,
         "hours": {
           "1": {
             "known": 42,
@@ -1208477,8 +1208511,8 @@
         "unique_symbol_labels": 1,
         "hours": {
           "1": {
-            "known": 0,
-            "median_pct": null
+            "known": 1,
+            "median_pct": -0.8726625111309061
           },
           "4": {
             "known": 0,
