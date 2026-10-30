@@ -1323410,116 +1323410,7 @@
       "source_close_ms": 1793393100000
     }
   },
-  "pending": [
-    {
-      "id": "e35d1d425c18e196c5721fcc",
-      "asset_id": "bca2bf8cd56a09d10e6e9682",
-      "key": "MEXC:SPOT:RENDERUSDT",
-      "symbol": "RENDERUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793393520803,
-      "price": 1.5445,
-      "level": 1.558,
-      "invalid": 1.526020621483054,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.558,
-        "base_invalid": 1.526020621483054,
-        "atr": 0.013195856779639498,
-        "rvol": 4.503516711614214,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793393100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6510416666666741,
-        "score": 6.003516711614214
-      },
-      "context": {
-        "atr": 0.013195856779639498,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4113889028098061,
-        "btc_hour_pct": 0.3698610971901939,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RENDERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793393100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RENDERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "27d6a829d978c92adf500dbb",
-      "asset_id": "b8f7cbcc2bee0b60eea0ebe0",
-      "key": "MEXC:PERP:HOLOUSDT",
-      "symbol": "HOLOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793393518685,
-      "price": 0.058635,
-      "level": 0.05804,
-      "invalid": 0.056236474854469726,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05804,
-        "base_invalid": 0.056236474854469726,
-        "atr": 0.0003568343035351631,
-        "rvol": 2.9471065028330057,
-        "close_position": 0.9230769230769261,
-        "breakout": true,
-        "bar_close_ms": 1793393100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7235376044568262,
-        "score": 4.870183425909932
-      },
-      "context": {
-        "atr": 0.0003568343035351631,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2702002223653253,
-        "btc_hour_pct": 0.3740713476488189,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HOLOUSDT",
-          "change_pct": 4.946761058532978,
-          "old_ms": 1793389906738,
-          "current_ms": 1793393516755,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793393100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HOLOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1324521,6 +1324412,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793393232738
+    },
+    {
+      "id": "e35d1d425c18e196c5721fcc",
+      "asset_id": "bca2bf8cd56a09d10e6e9682",
+      "key": "MEXC:SPOT:RENDERUSDT",
+      "symbol": "RENDERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793393520803,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793393530468
+    },
+    {
+      "id": "27d6a829d978c92adf500dbb",
+      "asset_id": "b8f7cbcc2bee0b60eea0ebe0",
+      "key": "MEXC:PERP:HOLOUSDT",
+      "symbol": "HOLOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793393518685,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793393530468
     }
   ],
   "runs": [
@@ -1331901,7 +1331814,8 @@
         "entry_seq": 0,
         "cohort": "RENDERUSDT",
         "observation_lag_ms": 420803,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9665
       },
       "b8f7cbcc2bee0b60eea0ebe0:radar": {
         "symbol": "HOLOUSDT",
@@ -1331923,7 +1331837,8 @@
         "entry_seq": 0,
         "cohort": "HOLOUSDT",
         "observation_lag_ms": 418685,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11783
       }
     },
     "errors": [],
@@ -1353991,8 +1353906,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b0c54ea632ca350856cefe1ac01a23d36b37c118",
-    "previous_success_ms": 1793393249649,
+    "previous_commit": "13de493fc708a7c815bd4fd45e40a36af313cc97",
+    "previous_success_ms": 1793393529043,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
