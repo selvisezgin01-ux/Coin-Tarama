@@ -1271585,7 +1271585,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793341297305,
+      "duration_ms": 23045
     }
   ],
   "measurements": {
@@ -1273936,13 +1273938,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793341202836,
+            "endpoint_ms": 1793341260000,
+            "endpoint_price": 0.002794,
+            "return_pct": 1.0122921185827805,
+            "btc_excess_pct_points": -0.9460100593045029,
+            "mae_pct": -0.5061460592914013,
+            "mfe_pct": 3.21764280549528,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 57164,
+            "measured_ms": 1793341296090,
+            "cost_scenarios_pct": {
+              "0.2": 0.8122921185827805,
+              "0.5": 0.5122921185827805,
+              "1": 0.012292118582780454
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793326500000,
         "observation_lag_ms": 302836,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 6145,
-        "last_measure_attempt_ms": 1793330744074
+        "last_measure_attempt_ms": 1793341296090
       },
       "RLCUSDT:radar": {
         "symbol": "RLCUSDT",
@@ -1274845,20 +1274869,20 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793341001329,
+      "observed_ms": 1793341296090,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 58,
+        "unique_symbol_labels": 59,
         "hours": {
           "1": {
             "known": 52,
             "median_pct": -0.12314011803861713
           },
           "4": {
-            "known": 35,
-            "median_pct": -1.569478116626255
+            "known": 36,
+            "median_pct": -1.2734055287281998
           },
           "12": {
             "known": 0,
