@@ -1195791,7 +1195791,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793334343438,
+      "duration_ms": 17948
     }
   ],
   "measurements": {
@@ -1198208,11 +1198210,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793334034853,
+            "endpoint_ms": 1793334060000,
+            "endpoint_price": 0.025659,
+            "return_pct": 1.4029402466013252,
+            "btc_excess_pct_points": 0.34307627334031476,
+            "mae_pct": -0.11065444198545826,
+            "mfe_pct": 1.7111919064179526,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 25147,
+            "measured_ms": 1793334342949,
+            "cost_scenarios_pct": {
+              "0.2": 1.2029402466013253,
+              "0.5": 0.9029402466013252,
+              "1": 0.4029402466013252
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793330100000,
         "observation_lag_ms": 334853,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 6922
+        "notification_lag_ms": 6922,
+        "last_measure_attempt_ms": 1793334342949
       },
       "FOGOUSDT:triggered": {
         "symbol": "FOGOUSDT",
@@ -1198339,7 +1198365,7 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793334046887,
+      "observed_ms": 1793334342949,
       "unique_reads": 2
     },
     "summary": {
@@ -1198347,8 +1198373,8 @@
         "unique_symbol_labels": 47,
         "hours": {
           "1": {
-            "known": 41,
-            "median_pct": -0.7086285952480176
+            "known": 42,
+            "median_pct": -0.692848298212767
           },
           "4": {
             "known": 27,
