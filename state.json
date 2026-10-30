@@ -1333349,7 +1333349,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793346450995,
+      "duration_ms": 23504
     }
   ],
   "measurements": {
@@ -1337110,11 +1337112,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793346136183,
+            "endpoint_ms": 1793346180000,
+            "endpoint_price": 0.005168,
+            "return_pct": -0.9392371094498642,
+            "btc_excess_pct_points": -0.4292230460237412,
+            "mae_pct": -0.9392371094498642,
+            "mfe_pct": 1.111750047920279,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 43817,
+            "measured_ms": 1793346450007,
+            "cost_scenarios_pct": {
+              "0.2": -1.1392371094498641,
+              "0.5": -1.4392371094498642,
+              "1": -1.9392371094498642
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793341800000,
         "observation_lag_ms": 736183,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 7781
+        "notification_lag_ms": 7781,
+        "last_measure_attempt_ms": 1793346450007
       },
       "LIGHTUSDT:radar": {
         "symbol": "LIGHTUSDT",
@@ -1337130,11 +1337156,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793346136728,
+            "endpoint_ms": 1793346180000,
+            "endpoint_price": 0.2494,
+            "return_pct": -1.5979483132767758,
+            "btc_excess_pct_points": -1.080229691079393,
+            "mae_pct": -1.7557703689090598,
+            "mfe_pct": 0.09863878477016641,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 43272,
+            "measured_ms": 1793346450007,
+            "cost_scenarios_pct": {
+              "0.2": -1.7979483132767757,
+              "0.5": -2.097948313276776,
+              "1": -2.597948313276776
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793341800000,
         "observation_lag_ms": 736728,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 7236
+        "notification_lag_ms": 7236,
+        "last_measure_attempt_ms": 1793346450007
       },
       "YFIUSDT:radar": {
         "symbol": "YFIUSDT",
@@ -1337259,9 +1337309,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
+      "due": 3,
       "attempted": 2,
-      "observed_ms": 1793346149979,
+      "observed_ms": 1793346450007,
       "unique_reads": 4
     },
     "summary": {
@@ -1337269,8 +1337319,8 @@
         "unique_symbol_labels": 66,
         "hours": {
           "1": {
-            "known": 59,
-            "median_pct": -0.04506534474990609
+            "known": 61,
+            "median_pct": -0.20121489132732817
           },
           "4": {
             "known": 43,

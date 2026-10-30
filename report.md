@@ -109,8 +109,8 @@ Radar ve giriş ayrı referanslardır, bağımsız iki başarı gibi toplanmaz. 
 | REZUSDT | MEXC SPOT | radar | 30.10.2026 09:16 | 0.0041165 | %+1.62 | — | — | — |
 | GLMRUSDT | MEXC SPOT | radar | 30.10.2026 09:21 | 0.007847 | %-0.87 | — | — | — |
 | FARTCOINUSDT | MEXC SPOT | triggered | 30.10.2026 09:32 | 0.118985 | %-0.47 | — | — | — |
-| ATHUSDT | OKX PERP | radar | 30.10.2026 09:42 | 0.005217 | — | — | — | — |
-| LIGHTUSDT | MEXC SPOT | radar | 30.10.2026 09:42 | 0.25345 | — | — | — | — |
+| ATHUSDT | OKX PERP | radar | 30.10.2026 09:42 | 0.005217 | %-0.94 | — | — | — |
+| LIGHTUSDT | MEXC SPOT | radar | 30.10.2026 09:42 | 0.25345 | %-1.60 | — | — | — |
 | YFIUSDT | MEXC PERP | radar | 30.10.2026 09:52 | 1812.5 | — | — | — | — |
 | BILLUSDT | OKX PERP | radar | 30.10.2026 09:52 | 0.0055215 | — | — | — | — |
 | JASMYUSDT | MEXC SPOT | radar | 30.10.2026 10:17 | 0.003788 | — | — | — | — |
@@ -122,4 +122,4 @@ Giriş teyidinde risk<=%3, makas<=%0.3; geri testin üzerinde taze quote aranır
 
 1/4/12/24s getiriler, BTC farkı, tam sonraki1dk mumlardan MAE/MFE; girişte ayrıca stop/hedef sırası, aynı mum/giriş parçası belirsizliği ve toplam%0.2/%0.5/%1 maliyet sonrası varsayımsalR. Gerçek fill/net kâr/fonlama değildir. OI ve short verisi bulunmazsa bilinmiyor; spot için vadeli şartı uydurulmaz.
 
-Ölçüm: {"errors": [], "queue": {"due": 2, "attempted": 2, "observed_ms": 1793346149979, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 66, "hours": {"1": {"known": 59, "median_pct": -0.04506534474990609}, "4": {"known": 43, "median_pct": -0.44077918384758386}, "12": {"known": 3, "median_pct": -7.559395248380141}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 3, "hours": {"1": {"known": 2, "median_pct": -0.6737561410552262}, "4": {"known": 1, "median_pct": 1.3357079252003468}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
+Ölçüm: {"errors": [], "queue": {"due": 3, "attempted": 2, "observed_ms": 1793346450007, "unique_reads": 4}, "summary": {"radar": {"unique_symbol_labels": 66, "hours": {"1": {"known": 61, "median_pct": -0.20121489132732817}, "4": {"known": 43, "median_pct": -0.44077918384758386}, "12": {"known": 3, "median_pct": -7.559395248380141}, "24": {"known": 0, "median_pct": null}}}, "triggered": {"unique_symbol_labels": 3, "hours": {"1": {"known": 2, "median_pct": -0.6737561410552262}, "4": {"known": 1, "median_pct": 1.3357079252003468}, "12": {"known": 0, "median_pct": null}, "24": {"known": 0, "median_pct": null}}}}}
