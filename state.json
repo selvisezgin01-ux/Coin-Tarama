@@ -1099184,164 +1099184,7 @@
       "source_close_ms": 1793400300000
     }
   },
-  "pending": [
-    {
-      "id": "39757953422c4cd6a83e46d3",
-      "asset_id": "4cf3f632b6772fc7e87a82d5",
-      "key": "OKX:PERP:WIFUSDT",
-      "symbol": "WIFUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793400488504,
-      "price": 0.17895,
-      "level": 0.1756,
-      "invalid": 0.17148890962332083,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1756,
-        "base_invalid": 0.17148890962332083,
-        "atr": 0.0014072691778610924,
-        "rvol": 3.068953441136809,
-        "close_position": 0.8333333333333295,
-        "breakout": false,
-        "bar_close_ms": 1793394000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.402286774470138
-      },
-      "context": {
-        "atr": 0.0014142957479223004,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3076809753741592,
-        "btc_hour_pct": -0.278521455648606,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WIFUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793394000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WIFUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e7c73896fd609e5dedb98ae7",
-      "asset_id": "38156a6ee6592e80f92f960a",
-      "key": "OKX:SPOT:WIFUSDT",
-      "symbol": "WIFUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793400490028,
-      "price": 0.17909999999999998,
-      "level": 0.1759,
-      "invalid": 0.17230458775923743,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1759,
-        "base_invalid": 0.17230458775923743,
-        "atr": 0.001302748271750373,
-        "rvol": 6.238102784063015,
-        "close_position": 0.6428571428571457,
-        "breakout": true,
-        "bar_close_ms": 1793394900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5136986301369939,
-        "score": 7.642857142857146
-      },
-      "context": {
-        "atr": 0.0012814448397777745,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3121624862271308,
-        "btc_hour_pct": -0.28417847708949173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WIFUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793394900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WIFUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ac49e01559185958135eb80a",
-      "asset_id": "b4324d25f9ea06131073afc1",
-      "key": "MEXC:SPOT:WIFUSDT",
-      "symbol": "WIFUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793400489475,
-      "price": 0.17925,
-      "level": 0.176,
-      "invalid": 0.17228737800528626,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.176,
-        "base_invalid": 0.17228737800528626,
-        "atr": 0.0014174799647581674,
-        "rvol": 2.070425491621979,
-        "close_position": 0.7058823529411774,
-        "breakout": true,
-        "bar_close_ms": 1793394900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6282124500285535,
-        "score": 3.7763078445631564
-      },
-      "context": {
-        "atr": 0.0014021945015806388,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3261024594271364,
-        "btc_hour_pct": -0.2975310308556911,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WIFUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793394900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WIFUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1100552,6 +1100395,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793400194955
+    },
+    {
+      "id": "39757953422c4cd6a83e46d3",
+      "asset_id": "4cf3f632b6772fc7e87a82d5",
+      "key": "OKX:PERP:WIFUSDT",
+      "symbol": "WIFUSDT",
+      "phase": "expired",
+      "observed_ms": 1793400488504,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793400498128
     }
   ],
   "runs": [
@@ -1132436,8 +1132290,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "61344f635459699081ba304a770e263ed88dc9e5",
-    "previous_success_ms": 1793400214786,
+    "previous_commit": "2396476fe8343fb04b4ed7bacba8f9a25dc8e028",
+    "previous_success_ms": 1793400496917,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
