@@ -1039798,53 +1039798,7 @@
     "OKX:SPOT:SOPHUSDT": 1793319572107,
     "OKX:PERP:OLUSDT": 1793319870706
   },
-  "pending": [
-    {
-      "id": "ca68cde46f463164b1313a42",
-      "asset_id": "2b470c717db2ff6c7924b950",
-      "key": "OKX:PERP:OLUSDT",
-      "symbol": "OLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793319870706,
-      "price": 0.0070405,
-      "level": 0.007439,
-      "invalid": 0.007102240813702561,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007439,
-        "base_invalid": 0.007102240813702561,
-        "atr": 0.00011172790864959423,
-        "rvol": 17.944882745200232,
-        "close_position": 0.9112149532710286,
-        "breakout": false,
-        "bar_close_ms": 1793309400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.25924409878566035,
-        "score": 7.4112149532710285
-      },
-      "context": {
-        "atr": 0.00011544732593794953,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7801268982849052,
-        "btc_hour_pct": -1.2882290680184982,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793309400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1040160,6 +1040114,13 @@
       "phase": "radar",
       "observed_ms": 1793319573171,
       "delivered_ms": 1793319580110
+    },
+    {
+      "id": "ca68cde46f463164b1313a42",
+      "asset_id": "2b470c717db2ff6c7924b950",
+      "phase": "cancelled",
+      "observed_ms": 1793319870706,
+      "delivered_ms": 1793319879596
     }
   ],
   "runs": [
