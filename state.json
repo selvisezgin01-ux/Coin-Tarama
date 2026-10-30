@@ -18089,24 +18089,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "7e8ebf7042130fe9b579fc149916",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "ALIM",
-      "observed_ms": 1793356900025,
-      "text": "ALIM: $9.98 · işlem başlatıcı `E3RzdGTu9JdeUZcB4NikV4W1txEGPHEXFHbC7gVNxE6Z`",
-      "details": {
-        "tx": "4XkbNgR3kx4gSA7mCYZBAMMCNdFQDybuzCpenvUJzRubo6QVW2z24c7ntY5kyGNAYD7z2AcrJR92SRApAu5zZPBP",
-        "wallet": "E3RzdGTu9JdeUZcB4NikV4W1txEGPHEXFHbC7gVNxE6Z",
-        "side": "buy",
-        "usd": 9.979664451211718,
-        "block_ms": 1793356728000,
-        "provider_row_id": "solana_463254368_4XkbNgR3kx4gSA7mCYZBAMMCNdFQDybuzCpenvUJzRubo6QVW2z24c7ntY5kyGNAYD7z2AcrJR92SRApAu5zZPBP_14_1793356731",
-        "first_buyer_seen_by_this_watch": false
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "f97849fdd8734d4af3b551bad613",
@@ -18617,6 +18600,12 @@
       "issue": 180,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/180",
       "delivered_ms": 1793356017961
+    },
+    {
+      "id": "7e8ebf7042130fe9b579fc149916",
+      "issue": 183,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/183",
+      "delivered_ms": 1793356918569
     }
   ],
   "provider_backoff": {
