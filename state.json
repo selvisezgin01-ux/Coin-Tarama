@@ -1058788,100 +1058788,7 @@
     "OKX:PERP:SAMSUNGUSDT": 1793321373055,
     "OKX:SPOT:NESUSDT": 1793321372439
   },
-  "pending": [
-    {
-      "id": "cc51ce372da061913f081f25",
-      "asset_id": "06f980df1fe27420cc3226e6",
-      "key": "OKX:PERP:SAMSUNGUSDT",
-      "symbol": "SAMSUNGUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793321373055,
-      "price": 166.405,
-      "level": 166.13,
-      "invalid": 162.5410539902714,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 166.13,
-        "base_invalid": 162.5410539902714,
-        "atr": 1.3929733981907113,
-        "rvol": 5.8690038456568185,
-        "close_position": 0.9957983193277349,
-        "breakout": true,
-        "bar_close_ms": 1793318400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9438841004951524,
-        "score": 7.864802164984553
-      },
-      "context": {
-        "atr": 1.7084502662976793,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.2321131685136506,
-        "btc_hour_pct": -1.2882290680184982,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SAMSUNGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793318400000
-    },
-    {
-      "id": "1e1700acd8ac16db4d665eaa",
-      "asset_id": "825012f9df08b0c79dc76f9a",
-      "key": "OKX:SPOT:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793321372439,
-      "price": 0.1191,
-      "level": 0.12,
-      "invalid": 0.11632778825975858,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12,
-        "base_invalid": 0.11632778825975858,
-        "atr": 0.001148078268276226,
-        "rvol": 10.866113221844682,
-        "close_position": 0.6666666666666686,
-        "breakout": true,
-        "bar_close_ms": 1793319300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4180602006689016,
-        "score": 7.666666666666669
-      },
-      "context": {
-        "atr": 0.0013452547574703876,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.6079771558321299,
-        "btc_hour_pct": -1.268706587553925,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793319300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1059232,6 +1059139,20 @@
       "phase": "cancelled",
       "observed_ms": 1793320472486,
       "delivered_ms": 1793320479376
+    },
+    {
+      "id": "cc51ce372da061913f081f25",
+      "asset_id": "06f980df1fe27420cc3226e6",
+      "phase": "cancelled",
+      "observed_ms": 1793321373055,
+      "delivered_ms": 1793321379157
+    },
+    {
+      "id": "1e1700acd8ac16db4d665eaa",
+      "asset_id": "825012f9df08b0c79dc76f9a",
+      "phase": "cancelled",
+      "observed_ms": 1793321372439,
+      "delivered_ms": 1793321379157
     }
   ],
   "runs": [
