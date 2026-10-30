@@ -2335,6 +2335,44 @@
           "dex": "raydium",
           "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
           "observed_ms": 1793323197491
+        },
+        {
+          "pool": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
+          "price": 0.0003731,
+          "liquidity": 166218.12,
+          "market_cap": 373200.0,
+          "volume": {
+            "h24": 5210.27,
+            "h6": 1782.33,
+            "h1": 738.26,
+            "m5": 0
+          },
+          "price_change": {
+            "h1": 1.25,
+            "h6": -0.9,
+            "h24": -2.45
+          },
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 6,
+              "sells": 2
+            },
+            "h6": {
+              "buys": 23,
+              "sells": 9
+            },
+            "h24": {
+              "buys": 52,
+              "sells": 33
+            }
+          },
+          "dex": "raydium",
+          "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "observed_ms": 1793323497522
         }
       ],
       "seen_trades": {
@@ -3274,15 +3312,15 @@
           "liquidity": 166218.12,
           "market_cap": 373200.0,
           "volume": {
-            "h24": 5220.28,
+            "h24": 5210.27,
             "h6": 1782.33,
-            "h1": 1588.36,
+            "h1": 738.26,
             "m5": 0
           },
           "price_change": {
-            "h1": -0.71,
+            "h1": 1.25,
             "h6": -0.9,
-            "h24": -2.7
+            "h24": -2.45
           },
           "txns": {
             "m5": {
@@ -3290,15 +3328,15 @@
               "sells": 0
             },
             "h1": {
-              "buys": 14,
-              "sells": 6
+              "buys": 6,
+              "sells": 2
             },
             "h6": {
               "buys": 23,
               "sells": 9
             },
             "h24": {
-              "buys": 53,
+              "buys": 52,
               "sells": 33
             }
           },
@@ -3312,15 +3350,15 @@
         "liquidity": 166218.12,
         "market_cap": 373200.0,
         "volume": {
-          "h24": 5220.28,
+          "h24": 5210.27,
           "h6": 1782.33,
-          "h1": 1588.36,
+          "h1": 738.26,
           "m5": 0
         },
         "price_change": {
-          "h1": -0.71,
+          "h1": 1.25,
           "h6": -0.9,
-          "h24": -2.7
+          "h24": -2.45
         },
         "txns": {
           "m5": {
@@ -3328,21 +3366,21 @@
             "sells": 0
           },
           "h1": {
-            "buys": 14,
-            "sells": 6
+            "buys": 6,
+            "sells": 2
           },
           "h6": {
             "buys": 23,
             "sells": 9
           },
           "h24": {
-            "buys": 53,
+            "buys": 52,
             "sells": 33
           }
         },
         "dex": "raydium",
         "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-        "observed_ms": 1793323197491
+        "observed_ms": 1793323497522
       },
       "trade_baseline_ms": 1793305159924,
       "buyer_first_seen": {
@@ -3389,7 +3427,7 @@
         "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe": 1793320798232
       },
       "flow15_sample": {
-        "observed_ms": 1793323197866,
+        "observed_ms": 1793323498058,
         "buy_usd": 0,
         "sell_usd": 0,
         "net_usd": 0,
@@ -3399,8 +3437,8 @@
         "coverage": [
           {
             "pool": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
-            "returned": 87,
-            "oldest_ms": 1793236963000,
+            "returned": 86,
+            "oldest_ms": 1793242325000,
             "invalid": 0,
             "possibly_truncated": false,
             "full_chain_coverage": false
@@ -3408,7 +3446,7 @@
         ],
         "new_trades": 0
       },
-      "last_trade_check_ms": 1793323197866,
+      "last_trade_check_ms": 1793323498058,
       "security_snapshot": {
         "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
         "token": {
@@ -3426,11 +3464,11 @@
         "topHolders": [
           {
             "address": "2P5hWzNvNwbR9y1S6Tim5nvkxVANnKozU4ZJYqKGoReY",
-            "amount": 222593334321454,
+            "amount": 222693334321454,
             "decimals": 6,
-            "pct": 22.285391627050338,
-            "uiAmount": 222593334.321454,
-            "uiAmountString": "222593334.321454",
+            "pct": 22.29540333368791,
+            "uiAmount": 222693334.321454,
+            "uiAmountString": "222693334.321454",
             "owner": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
             "insider": false
           },
@@ -3948,8 +3986,8 @@
         "uogQT5bwN5jjJ4avzqFSV85AswNsSE7pbqfjhXof1D1",
         "xPbb9uJkZAW2RycpairjQCmvSUXcF45UrpPCyLzQXU8"
       ],
-      "rugcheck_observed_ms": 1793321398679,
-      "holder_attempt_ms": 1793322613028
+      "rugcheck_observed_ms": 1793323499222,
+      "holder_attempt_ms": 1793323514319
     },
     "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk": {
       "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
@@ -6265,6 +6303,43 @@
           "dex": "raydium",
           "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
           "observed_ms": 1793323197866
+        },
+        {
+          "pool": "6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5",
+          "price": 0.0001987,
+          "liquidity": 93329.01,
+          "market_cap": 198755.0,
+          "volume": {
+            "h24": 606.69,
+            "h6": 190.7,
+            "h1": 0.57,
+            "m5": 0
+          },
+          "price_change": {
+            "h6": -0.87,
+            "h24": -0.22
+          },
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 1
+            },
+            "h6": {
+              "buys": 1,
+              "sells": 13
+            },
+            "h24": {
+              "buys": 6,
+              "sells": 21
+            }
+          },
+          "dex": "raydium",
+          "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "observed_ms": 1793323499222
         }
       ],
       "seen_trades": {
@@ -6620,22 +6695,21 @@
           "volume": {
             "h24": 606.69,
             "h6": 190.7,
-            "h1": 68.45,
-            "m5": 0.57
+            "h1": 0.57,
+            "m5": 0
           },
           "price_change": {
-            "h1": -0.37,
             "h6": -0.87,
             "h24": -0.22
           },
           "txns": {
             "m5": {
               "buys": 0,
-              "sells": 1
+              "sells": 0
             },
             "h1": {
               "buys": 0,
-              "sells": 4
+              "sells": 1
             },
             "h6": {
               "buys": 1,
@@ -6658,22 +6732,21 @@
         "volume": {
           "h24": 606.69,
           "h6": 190.7,
-          "h1": 68.45,
-          "m5": 0.57
+          "h1": 0.57,
+          "m5": 0
         },
         "price_change": {
-          "h1": -0.37,
           "h6": -0.87,
           "h24": -0.22
         },
         "txns": {
           "m5": {
             "buys": 0,
-            "sells": 1
+            "sells": 0
           },
           "h1": {
             "buys": 0,
-            "sells": 4
+            "sells": 1
           },
           "h6": {
             "buys": 1,
@@ -6686,7 +6759,7 @@
         },
         "dex": "raydium",
         "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-        "observed_ms": 1793323197866
+        "observed_ms": 1793323499222
       },
       "trade_baseline_ms": 1793305172877,
       "buyer_first_seen": {
@@ -6702,7 +6775,7 @@
         "6XJ2VNr3d3GCs469hRrEjDBu2xBtJ7LpC5xxoa9F3WmU": 1793308472720
       },
       "flow15_sample": {
-        "observed_ms": 1793323210806,
+        "observed_ms": 1793323510720,
         "buy_usd": 0,
         "sell_usd": 0.5717283882519917,
         "net_usd": -0.5717283882519917,
@@ -6719,9 +6792,9 @@
             "full_chain_coverage": false
           }
         ],
-        "new_trades": 1
+        "new_trades": 0
       },
-      "last_trade_check_ms": 1793323210806,
+      "last_trade_check_ms": 1793323510720,
       "security_snapshot": {
         "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
         "token": {
@@ -6739,11 +6812,11 @@
         "topHolders": [
           {
             "address": "2viii8NCRekQ1peA7dshCj8YzHvhkFQ3mb2NwWzkeGGd",
-            "amount": 234780555581866,
+            "amount": 234783637043411,
             "decimals": 6,
-            "pct": 23.481556132402098,
-            "uiAmount": 234780555.581866,
-            "uiAmountString": "234780555.581866",
+            "pct": 23.48186432450114,
+            "uiAmount": 234783637.043411,
+            "uiAmountString": "234783637.043411",
             "owner": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
             "insider": false
           },
@@ -7128,8 +7201,8 @@
         "Ta2fpePbkhZ74rna7Dda5cHyXrUZj3p626QDSXeGP4m",
         "UcEfwiUxsWHHGTuqo3wGMzyE4QxshbrM68whCVkNb4D"
       ],
-      "rugcheck_observed_ms": 1793321411408,
-      "holder_attempt_ms": 1793322613028
+      "rugcheck_observed_ms": 1793323512205,
+      "holder_attempt_ms": 1793323514319
     }
   },
   "wallets": {
@@ -7143,7 +7216,7 @@
       "pending_head": null,
       "seen_signatures": [],
       "baseline_ms": 1793305173395,
-      "last_checked_ms": 1793323210913,
+      "last_checked_ms": 1793323512350,
       "baseline_ready": true
     },
     "2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS": {
@@ -7156,7 +7229,7 @@
       "pending_head": null,
       "seen_signatures": [],
       "baseline_ms": 1793305173470,
-      "last_checked_ms": 1793323212909,
+      "last_checked_ms": 1793323514319,
       "baseline_ready": true
     }
   },
@@ -7465,6 +7538,11 @@
       "started_ms": 1793323197407,
       "session_id": "40974554851",
       "finished_ms": 1793323212909
+    },
+    {
+      "started_ms": 1793323497407,
+      "session_id": "40974554851",
+      "finished_ms": 1793323514319
     }
   ],
   "events": [
@@ -8572,23 +8650,23 @@
       "errors": [],
       "detail_queue": 0,
       "full_chain_coverage": false,
-      "checked_ms": 1793323212909
+      "checked_ms": 1793323514319
     }
   },
-  "wallet_rotation": 122,
+  "wallet_rotation": 124,
   "startup_recorded": true,
-  "updated_ms": 1793323212909,
+  "updated_ms": 1793323514319,
   "latest": {
-    "observed_ms": 1793323197412,
+    "observed_ms": 1793323497412,
     "tokens": {
       "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk": {
         "market": "observed",
-        "trades": 87,
+        "trades": 86,
         "trade_coverage": [
           {
             "pool": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
-            "returned": 87,
-            "oldest_ms": 1793236963000,
+            "returned": 86,
+            "oldest_ms": 1793242325000,
             "invalid": 0,
             "possibly_truncated": false,
             "full_chain_coverage": false
@@ -8615,11 +8693,12 @@
   "last_api_requests": {
     "api.dexscreener.com": 1,
     "api.geckoterminal.com": 2,
+    "api.rugcheck.xyz": 2,
     "solana-rpc.publicnode.com": 2
   },
   "wallet_transaction_details": {},
   "timing": {
-    "intervals": 60,
+    "intervals": 61,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 5.332,
     "over10_minutes": 0,
