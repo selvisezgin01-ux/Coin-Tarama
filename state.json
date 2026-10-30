@@ -1166979,60 +1166979,7 @@
       "source_close_ms": 1793379600000
     }
   },
-  "pending": [
-    {
-      "id": "69b003e90ddfdde131cbab5b",
-      "asset_id": "4ff828e6e50f5150ba6d2a5a",
-      "key": "OKX:SPOT:AIUSDT",
-      "symbol": "AIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793381995679,
-      "price": 0.016915,
-      "level": 0.01708,
-      "invalid": 0.016814042237097964,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01708,
-        "base_invalid": 0.016814042237097964,
-        "atr": 0.00010638508601357661,
-        "rvol": 5.633156160877871,
-        "close_position": 0.6250000000000162,
-        "breakout": false,
-        "bar_close_ms": 1793381400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.6451612903225712,
-        "score": 6.758156160877887
-      },
-      "context": {
-        "atr": 0.00010638508601357661,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.11498865604083752,
-        "btc_hour_pct": -0.3569877451391035,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793381400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1167605,6 +1167552,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793381702748
+    },
+    {
+      "id": "69b003e90ddfdde131cbab5b",
+      "asset_id": "4ff828e6e50f5150ba6d2a5a",
+      "key": "OKX:SPOT:AIUSDT",
+      "symbol": "AIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793381995679,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793382002890
     }
   ],
   "runs": [
@@ -1171730,7 +1171688,8 @@
         "entry_seq": 0,
         "cohort": "AIUSDT",
         "observation_lag_ms": 595679,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7211
       }
     },
     "errors": [],
