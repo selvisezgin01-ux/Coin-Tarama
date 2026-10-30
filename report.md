@@ -236,7 +236,7 @@ Kimlik defteri: 1724 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | ELOOONG `0x818ab542be767001d30168dcd7b820f5d666d9f4` | robinhood | 31.10.2026 00:19 | 72054.0 | Bekliyor |
+| 🟡 ERKEN RADAR | ELOOONG `0x818ab542be767001d30168dcd7b820f5d666d9f4` | robinhood | 31.10.2026 00:19 | 72054.0 | [Issue #264](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/264) |
 | 🟡 ERKEN RADAR | SAFU `EoPDUW5A8EDDFdR5QeBsb97MqGu3G2XxLVeLfWFa1R6` | solana | 31.10.2026 00:18 | 71199.0 | [Issue #263](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/263) |
 | 🟡 ERKEN RADAR | BONK `0xee8cfbe1372d64cacf62d1d6b962da43a1bf16dc` | bnb | 31.10.2026 00:16 | 234681.0 | [Issue #261](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/261) |
 | 🟡 ERKEN RADAR | PILLSEY `J5jxG3PFaWpj6BLEQExyC6FSqSvaTKNdQ9G3sZwBpump` | solana | 31.10.2026 00:16 | 184868.0 | [Issue #260](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/260) |
