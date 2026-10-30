@@ -1073037,166 +1073037,7 @@
       "source_close_ms": 1793376900000
     }
   },
-  "pending": [
-    {
-      "id": "6d32725419b0245bca4b4c00",
-      "asset_id": "0edf71747f4ed663c7cc18a0",
-      "key": "OKX:SPOT:GRASSUSDT",
-      "symbol": "GRASSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793377755161,
-      "price": 0.6026,
-      "level": 0.6036,
-      "invalid": 0.5788503728847789,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6036,
-        "base_invalid": 0.5788503728847789,
-        "atr": 0.008330847434806684,
-        "rvol": 5.695734873064545,
-        "close_position": 0.6812227074235808,
-        "breakout": true,
-        "bar_close_ms": 1793376900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.76322418136019,
-        "score": 7.376957580488126
-      },
-      "context": {
-        "atr": 0.008330847434806684,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.16711219092566676,
-        "btc_hour_pct": 0.49435320934569926,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRASSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793376900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRASSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "61c57d5ba65534e554d1187d",
-      "asset_id": "b9e3f0393e4d22a79bda566e",
-      "key": "MEXC:SPOT:GRASSUSDT",
-      "symbol": "GRASSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793377756134,
-      "price": 0.6024499999999999,
-      "level": 0.6018,
-      "invalid": 0.5788617772044428,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6018,
-        "base_invalid": 0.5788617772044428,
-        "atr": 0.007588151970381233,
-        "rvol": 2.6241313621566054,
-        "close_position": 0.6799999999999968,
-        "breakout": true,
-        "bar_close_ms": 1793376900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9195150698770869,
-        "score": 4.304131362156602
-      },
-      "context": {
-        "atr": 0.007588151970381233,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.0627910053534464,
-        "btc_hour_pct": 0.46272179342601305,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GRASSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793376900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRASSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2a7af7e23542b3e83ff642d1",
-      "asset_id": "044cf1c81b873c8aae4ded41",
-      "key": "MEXC:PERP:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793377756484,
-      "price": 1.76525,
-      "level": 1.7772,
-      "invalid": 1.6726943553285822,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7772,
-        "base_invalid": 1.6726943553285822,
-        "atr": 0.026704297809452014,
-        "rvol": 2.0456418246876096,
-        "close_position": 0.8601398601398598,
-        "breakout": false,
-        "bar_close_ms": 1793376900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.728628800917952,
-        "score": 3.4057816848274696
-      },
-      "context": {
-        "atr": 0.026704297809452014,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.0226066595689263,
-        "btc_hour_pct": 0.47270730481721035,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZROUSDT",
-          "change_pct": 2.581870172539702,
-          "old_ms": 1793374143058,
-          "current_ms": 1793377753972,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0043,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793376900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1073615,6 +1073456,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793377462395
+    },
+    {
+      "id": "6d32725419b0245bca4b4c00",
+      "asset_id": "0edf71747f4ed663c7cc18a0",
+      "key": "OKX:SPOT:GRASSUSDT",
+      "symbol": "GRASSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793377755161,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793377762320
+    },
+    {
+      "id": "61c57d5ba65534e554d1187d",
+      "asset_id": "b9e3f0393e4d22a79bda566e",
+      "key": "MEXC:SPOT:GRASSUSDT",
+      "symbol": "GRASSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793377756134,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793377762320
+    },
+    {
+      "id": "2a7af7e23542b3e83ff642d1",
+      "asset_id": "044cf1c81b873c8aae4ded41",
+      "key": "MEXC:PERP:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793377756484,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793377762320
     }
   ],
   "runs": [
@@ -1076367,7 +1076241,8 @@
         "entry_seq": 0,
         "cohort": "GRASSUSDT",
         "observation_lag_ms": 855161,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7159
       },
       "b9e3f0393e4d22a79bda566e:radar": {
         "symbol": "GRASSUSDT",
@@ -1076389,7 +1076264,8 @@
         "entry_seq": 0,
         "cohort": "GRASSUSDT",
         "observation_lag_ms": 856134,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6186
       },
       "044cf1c81b873c8aae4ded41:radar": {
         "symbol": "ZROUSDT",
@@ -1076411,7 +1076287,8 @@
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 856484,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5836
       }
     },
     "errors": [],
