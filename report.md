@@ -1,6 +1,6 @@
 # Coin Tarama Meme — V6
 
-Son çalışma: 30.10.2026 08:09 Türkiye saati.
+Son çalışma: 30.10.2026 08:14 Türkiye saati.
 
 **Deneysel DEX izleme. Tüm yeni tokenleri kapsamaz ve yükseliş garantisi vermez.**
 
@@ -16,18 +16,18 @@ Yeni havuz yaşı tokenin yaratılma yaşı değildir. Market cap sağlayıcı b
 
 | Ağ | Güncellenen token | Piyasa ön elemesi | Mum incelenen | Ön eleme / manuel harita bekliyor | İnceleme | Erişim/veri hatası |
 |---|---:|---:|---:|---:|---:|---:|
-| HyperEVM (HYPE) | 39 | 0 | 0 | 0 | 0 | 0 |
-| Solana | 51 | 0 | 0 | 0 | 0 | 0 |
-| Robinhood | 56 | 2 | 1 | 0 | 0 | 2 |
-| Ethereum | 35 | 0 | 3 | 0 | 0 | 0 |
-| BNB Chain | 53 | 1 | 2 | 0 | 0 | 1 |
+| HyperEVM (HYPE) | 32 | 0 | 0 | 0 | 0 | 0 |
+| Solana | 69 | 0 | 1 | 0 | 0 | 0 |
+| BNB Chain | 54 | 2 | 1 | 0 | 0 | 2 |
+| Robinhood | 54 | 2 | 1 | 0 | 0 | 2 |
+| Ethereum | 34 | 0 | 3 | 0 | 0 | 0 |
 
 Bu çalışmada aday olmayan mum incelemeleri (token listesi değildir):
 - 1: Başlangıç fiyatından fazla uzaklaşmış
 - 1: Güncel mumun yüksek/düşük verisi eksik
-- 2: Önceden yükseliş / uzun fitil görülmüş; Başlangıç fiyatından fazla uzaklaşmış
+- 1: Önceden yükseliş / uzun fitil görülmüş; Başlangıç fiyatından fazla uzaklaşmış
 - 1: Önceden yükseliş / uzun fitil görülmüş; Başlangıç fiyatından fazla uzaklaşmış; Tepeden düşüş sonrası yapı elenmiş
-- 1: Havuz başlangıç mumları eksik
+- 2: Havuz başlangıç mumları eksik
 
 ## Otomatik ön eleme geçti — manuel harita kontrolü bekliyor
 
@@ -66,12 +66,8 @@ Büyük alıcı desteği zorunlu filtre değildir: 15/30 dk işlem örneğinde a
 
 GitHub planı yaklaşık 5 dakikada birdir; zamanlayıcı gecikebilir. Birkaç saniyede oluşan ilk pump yakalanamayabilir. Mum/istek bütçesi nedeniyle aynı anda bütün havuzlara bakıldığı iddia edilmez.
 
-- Robinhood: GTA6: gecko_request_reserved_for_buy_pressure; SPHINCS: gecko_request_reserved_for_buy_pressure
-- BNB Chain: BIBIAI: gecko_request_reserved_for_buy_pressure
-
-
-
-
+- BNB Chain: USD: gecko_request_reserved_for_buy_pressure; BIBIAI: gecko_request_reserved_for_buy_pressure
+- Robinhood: TELEPATHY: gecko_request_reserved_for_buy_pressure; WOFL: gecko_request_reserved_for_buy_pressure
 
 
 <!-- meme-v6-pipeline -->
@@ -82,15 +78,15 @@ Gözlem kaydı alım adayı değildir. Tüm piyasa ön koşulları geçmeden sı
 
 Yeni havuz keşfi en çok2sayfa/ağ;15dk altı havuzlar uygun yaşa yaklaşırken öncelikli yenilenir. Bütçe dışında kalan kapsam ve veri boşluğu gizlenmez.
 
-- hyperevm: {"refreshed": 39, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 39, "waiting_min_age": 0, "market_pass": 0, "market_failed": {"liquidity": 39, "valuation": 39, "volume15": 39, "transaction_flow15": 39, "liquidity_to_valuation": 4}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0, "buy_pressure_status": {"not_checked": 39}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 39}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793292540000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793336452956, "next_checkpoint_ms": 1793336752982, "oldest_returned_ms": 1793292540000, "valid_page": true}, "reasons": {}}
-- solana: {"refreshed": 51, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 51, "waiting_min_age": 21, "market_pass": 0, "market_failed": {"pool_age": 21, "liquidity": 51, "valuation": 50, "liquidity_to_valuation": 10, "volume15": 38, "transaction_flow15": 41, "liquidity_withdrawal": 17}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0, "buy_pressure_status": {"not_checked": 51}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 51}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793336651000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793336649000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793336649000, "valid_page": true}, "reasons": {}}
-- robinhood: {"refreshed": 56, "eligible": 2, "evaluated": 1, "qualified": 0, "review": 0, "errors": ["GTA6: gecko_request_reserved_for_buy_pressure", "SPHINCS: gecko_request_reserved_for_buy_pressure"], "funnel": {"records": 56, "waiting_min_age": 12, "market_pass": 2, "market_failed": {"pool_age": 12, "valuation": 48, "volume15": 40, "transaction_flow15": 54, "liquidity": 42, "liquidity_to_valuation": 14, "liquidity_withdrawal": 9}, "market_unknown": {"liquidity": 1}, "data_inspection_possible": 5, "ohlcv_read": 1, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 3, "security_checked": 0, "buy_pressure_status": {"not_checked": 56}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 56}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793335692000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793334761000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793334761000, "valid_page": true}, "reasons": {"first_rise_already_observed,already_extended_from_initial_price": 1}}
-- ethereum: {"refreshed": 35, "eligible": 0, "evaluated": 3, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 35, "waiting_min_age": 3, "market_pass": 0, "market_failed": {"pool_age": 5, "liquidity": 26, "valuation": 35, "volume15": 34, "transaction_flow15": 33, "liquidity_to_valuation": 26, "liquidity_withdrawal": 5}, "market_unknown": {}, "data_inspection_possible": 5, "ohlcv_read": 3, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 3, "security_checked": 0, "buy_pressure_status": {"not_checked": 35}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 35}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793333903000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793336452956, "next_checkpoint_ms": 1793336752982, "oldest_returned_ms": 1793333903000, "valid_page": true}, "reasons": {"already_extended_from_initial_price": 1, "current_interval_history_missing": 1, "initial_pool_history_missing": 1}}
-- bnb: {"refreshed": 53, "eligible": 1, "evaluated": 2, "qualified": 0, "review": 0, "errors": ["BIBIAI: gecko_request_reserved_for_buy_pressure"], "funnel": {"records": 53, "waiting_min_age": 13, "market_pass": 1, "market_failed": {"pool_age": 13, "liquidity": 39, "valuation": 47, "liquidity_to_valuation": 15, "volume15": 34, "transaction_flow15": 40, "liquidity_withdrawal": 22}, "market_unknown": {"liquidity": 1}, "data_inspection_possible": 3, "ohlcv_read": 2, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 2, "security_checked": 0, "buy_pressure_status": {"not_checked": 53}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 53}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793335699000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793334747000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793334747000, "valid_page": true}, "reasons": {"first_rise_already_observed,already_extended_from_initial_price,post_peak_rebound_excluded": 1, "first_rise_already_observed,already_extended_from_initial_price": 1}}
+- hyperevm: {"refreshed": 32, "eligible": 0, "evaluated": 0, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 32, "waiting_min_age": 0, "market_pass": 0, "market_failed": {"liquidity": 32, "valuation": 32, "volume15": 32, "transaction_flow15": 32, "liquidity_to_valuation": 1}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 0, "ohlcv_attempted": 0, "ohlcv_budget_waiting": 0, "security_checked": 0, "buy_pressure_status": {"not_checked": 32}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 32}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793292540000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793336752982, "next_checkpoint_ms": 1793337052975, "oldest_returned_ms": 1793292540000, "valid_page": true}, "reasons": {}}
+- solana: {"refreshed": 69, "eligible": 0, "evaluated": 1, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 69, "waiting_min_age": 39, "market_pass": 0, "market_failed": {"pool_age": 39, "liquidity": 64, "valuation": 67, "volume15": 46, "transaction_flow15": 55, "liquidity_to_valuation": 6, "liquidity_withdrawal": 16}, "market_unknown": {}, "data_inspection_possible": 0, "ohlcv_read": 1, "ohlcv_attempted": 1, "ohlcv_budget_waiting": 0, "security_checked": 0, "buy_pressure_status": {"not_checked": 69}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 69}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793336921000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793337010000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793337010000, "valid_page": true}, "reasons": {"already_extended_from_initial_price": 1}}
+- bnb: {"refreshed": 54, "eligible": 2, "evaluated": 1, "qualified": 0, "review": 0, "errors": ["USD: gecko_request_reserved_for_buy_pressure", "BIBIAI: gecko_request_reserved_for_buy_pressure"], "funnel": {"records": 54, "waiting_min_age": 11, "market_pass": 2, "market_failed": {"pool_age": 12, "valuation": 46, "volume15": 34, "transaction_flow15": 41, "liquidity": 39, "liquidity_to_valuation": 13, "liquidity_withdrawal": 17}, "market_unknown": {"liquidity": 1}, "data_inspection_possible": 2, "ohlcv_read": 1, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 0, "security_checked": 0, "buy_pressure_status": {"not_checked": 54}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 54}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793335904000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793335148000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793335148000, "valid_page": true}, "reasons": {"first_rise_already_observed,already_extended_from_initial_price,post_peak_rebound_excluded": 1}}
+- robinhood: {"refreshed": 54, "eligible": 2, "evaluated": 1, "qualified": 0, "review": 0, "errors": ["TELEPATHY: gecko_request_reserved_for_buy_pressure", "WOFL: gecko_request_reserved_for_buy_pressure"], "funnel": {"records": 54, "waiting_min_age": 13, "market_pass": 2, "market_failed": {"pool_age": 13, "liquidity": 39, "valuation": 44, "volume15": 40, "transaction_flow15": 52, "liquidity_to_valuation": 14, "liquidity_withdrawal": 9}, "market_unknown": {"liquidity": 1}, "data_inspection_possible": 5, "ohlcv_read": 1, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 3, "security_checked": 0, "buy_pressure_status": {"not_checked": 54}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 54}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793335962000}, {"page": 2, "returned": 20, "oldest_created_ms": 1793335021000}], "covered_to_previous_checkpoint": false, "gap_or_initial_window_uncovered": true, "previous_checkpoint_ms": null, "next_checkpoint_ms": null, "oldest_returned_ms": 1793335021000, "valid_page": true}, "reasons": {"first_rise_already_observed,already_extended_from_initial_price": 1}}
+- ethereum: {"refreshed": 34, "eligible": 0, "evaluated": 3, "qualified": 0, "review": 0, "errors": [], "funnel": {"records": 34, "waiting_min_age": 1, "market_pass": 0, "market_failed": {"valuation": 34, "liquidity_to_valuation": 25, "liquidity_withdrawal": 5, "pool_age": 2, "liquidity": 25, "volume15": 31, "transaction_flow15": 32}, "market_unknown": {}, "data_inspection_possible": 6, "ohlcv_read": 3, "ohlcv_attempted": 3, "ohlcv_budget_waiting": 3, "security_checked": 0, "buy_pressure_status": {"not_checked": 34}, "buy_pressure_reasons": {"not_evaluated_this_cycle": 34}}, "discovery": {"pages": [{"page": 1, "returned": 20, "oldest_created_ms": 1793334203000}], "covered_to_previous_checkpoint": true, "gap_or_initial_window_uncovered": false, "previous_checkpoint_ms": 1793336752982, "next_checkpoint_ms": 1793337052975, "oldest_returned_ms": 1793334203000, "valid_page": true}, "reasons": {"initial_pool_history_missing": 2, "current_interval_history_missing": 1}}
 
-Zamanlama: {"started_ms": 1793336752939, "finished_ms": 1793336979598, "duration_seconds": 226.659, "github_run_created_at": "2026-10-30T04:06:10Z", "worker_started_ms": "1793335851507", "github_job_started_at": "2026-10-30T04:50:36Z", "cadence": {"interval_count": 223, "p95_minutes": 5.622516666666667, "max_minutes": 8.757266666666666, "meets_7m_target": true, "full_24h_observed": false}}
+Zamanlama: {"started_ms": 1793337052934, "finished_ms": 1793337278442, "duration_seconds": 225.508, "github_run_created_at": "2026-10-30T04:06:10Z", "worker_started_ms": "1793335851507", "github_job_started_at": "2026-10-30T04:50:36Z", "cadence": {"interval_count": 224, "p95_minutes": 5.622516666666667, "max_minutes": 8.757266666666666, "meets_7m_target": true, "full_24h_observed": false}}
 
-İstek durumu: {"api.geckoterminal.com:ok": 19, "api.dexscreener.com:ok": 16, "gecko:reserved_for_buy_pressure": 3}; sağlayıcı429bekleme bitişi: 1793335051606
+İstek durumu: {"api.geckoterminal.com:ok": 19, "api.dexscreener.com:ok": 11, "gecko:reserved_for_buy_pressure": 4}; sağlayıcı429bekleme bitişi: 1793335051606
 
 GitHub worker oturumları sınırlıdır. Çalışan oturum içinde hedef5dk; oturum başlangıcı/yenilenmesi gecikebilir. Gerçek aralıklar yukarıda;24saat tamamlanmadan kesintisiz5dk doğrulandı denmez. EskiV5 paralel taranmaz, referansları previous_v5 içinde korunur.
 
