@@ -1382835,7 +1382835,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793351920504,
+      "duration_ms": 28159
     }
   ],
   "measurements": {
@@ -1387440,11 +1387442,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793351841196,
+            "endpoint_ms": 1793351880000,
+            "endpoint_price": 0.19301,
+            "return_pct": 1.023265551804453,
+            "btc_excess_pct_points": 1.5212172511933741,
+            "mae_pct": -1.7665070267723904,
+            "mfe_pct": 4.263170291277363,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 38804,
+            "measured_ms": 1793351920009,
+            "cost_scenarios_pct": {
+              "0.2": 0.8232655518044532,
+              "0.5": 0.5232655518044531,
+              "1": 0.02326555180445311
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793348100000,
         "observation_lag_ms": 141196,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8335
+        "notification_lag_ms": 8335,
+        "last_measure_attempt_ms": 1793351920009
       },
       "GRTUSDT:radar": {
         "symbol": "GRTUSDT",
@@ -1387571,16 +1387597,16 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793351612127,
+      "observed_ms": 1793351920009,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 74,
+        "unique_symbol_labels": 75,
         "hours": {
           "1": {
-            "known": 68,
-            "median_pct": -0.2184721548809776
+            "known": 69,
+            "median_pct": -0.20121489132732817
           },
           "4": {
             "known": 52,
