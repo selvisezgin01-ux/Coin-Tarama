@@ -1085151,62 +1085151,7 @@
       "source_close_ms": 1793376900000
     }
   },
-  "pending": [
-    {
-      "id": "f6aa95b3e5e86a0b75bc0cfc",
-      "asset_id": "1e354dc8ff7323b2cd7b3dac",
-      "key": "MEXC:PERP:BIANRENSHENGUSDT",
-      "symbol": "BIANRENSHENGUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793378058644,
-      "price": 0.53025,
-      "level": 0.5277,
-      "invalid": 0.5140899359861569,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5277,
-        "base_invalid": 0.5140899359861569,
-        "atr": 0.0047337600922875405,
-        "rvol": 3.471220960164579,
-        "close_position": 0.8823529411764834,
-        "breakout": true,
-        "bar_close_ms": 1793377800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4366812227074357,
-        "score": 5.353573901341063
-      },
-      "context": {
-        "atr": 0.0047337600922875405,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8204793386879183,
-        "btc_hour_pct": 0.47270730481721035,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BIANRENSHENGUSDT",
-          "change_pct": -0.23210141046241528,
-          "old_ms": 1793374443782,
-          "current_ms": 1793378054883,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793377800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIANRENSHENGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1085658,6 +1085603,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793377762320
+    },
+    {
+      "id": "f6aa95b3e5e86a0b75bc0cfc",
+      "asset_id": "1e354dc8ff7323b2cd7b3dac",
+      "key": "MEXC:PERP:BIANRENSHENGUSDT",
+      "symbol": "BIANRENSHENGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793378058644,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793378064951
     }
   ],
   "runs": [
@@ -1088575,7 +1088531,8 @@
         "entry_seq": 0,
         "cohort": "BIANRENSHENGUSDT",
         "observation_lag_ms": 258644,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6307
       }
     },
     "errors": [],
