@@ -1229580,272 +1229580,7 @@
       "source_close_ms": 1793384100000
     }
   },
-  "pending": [
-    {
-      "id": "e46d91896a043951db689136",
-      "asset_id": "1e354dc8ff7323b2cd7b3dac",
-      "key": "MEXC:PERP:BIANRENSHENGUSDT",
-      "symbol": "BIANRENSHENGUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793385297760,
-      "price": 0.5307999999999999,
-      "level": 0.5277,
-      "invalid": 0.5140899359861569,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5277,
-        "base_invalid": 0.5140899359861569,
-        "atr": 0.0047337600922875405,
-        "rvol": 3.471220960164579,
-        "close_position": 0.8823529411764834,
-        "breakout": true,
-        "bar_close_ms": 1793377800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4366812227074357,
-        "score": 5.353573901341063
-      },
-      "context": {
-        "atr": 0.004404115222558712,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.21675886999052985,
-        "btc_hour_pct": -0.21508491521412543,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BIANRENSHENGUSDT",
-          "change_pct": -0.01106133510314633,
-          "old_ms": 1793381680055,
-          "current_ms": 1793385294883,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793377800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIANRENSHENGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a0c6a2e7ad421fa18ed24154",
-      "asset_id": "343fd7cfec8bdba4377ccdf5",
-      "key": "OKX:PERP:EDENUSDT",
-      "symbol": "EDENUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793385293961,
-      "price": 0.05358,
-      "level": 0.05512,
-      "invalid": 0.05093015705221385,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05512,
-        "base_invalid": 0.05093015705221385,
-        "atr": 0.0007322863185743699,
-        "rvol": 17.531563938153745,
-        "close_position": 0.6724137931034441,
-        "breakout": true,
-        "bar_close_ms": 1793380500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9679094787608884,
-        "score": 7.672413793103444
-      },
-      "context": {
-        "atr": 0.0007527277486375135,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8559750704137392,
-        "btc_hour_pct": -0.2169391018177813,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:EDENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EDENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6bba071e91b320030006cbe4",
-      "asset_id": "7db253f2b2d27b71c6b0166d",
-      "key": "OKX:SPOT:MMTUSDT",
-      "symbol": "MMTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793385295330,
-      "price": 0.1271,
-      "level": 0.1304,
-      "invalid": 0.12717935870277575,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1304,
-        "base_invalid": 0.12717935870277575,
-        "atr": 0.0008042753148283557,
-        "rvol": 3.1624417285605255,
-        "close_position": 0.9090909090909183,
-        "breakout": false,
-        "bar_close_ms": 1793380500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2327385570209728,
-        "score": 4.571532637651444
-      },
-      "context": {
-        "atr": 0.0007067292220831157,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0002563268355136,
-        "btc_hour_pct": -0.21961620193309273,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MMTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "558a4913511661c793bc1f0b",
-      "asset_id": "df712bdd65fb3eb651882b94",
-      "key": "MEXC:SPOT:ILVUSDT",
-      "symbol": "ILVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793385295805,
-      "price": 2.9850000000000003,
-      "level": 2.979,
-      "invalid": 2.92521119939273,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.979,
-        "base_invalid": 2.92521119939273,
-        "atr": 0.018592004048467857,
-        "rvol": 35.83617874706008,
-        "close_position": 0.8928571428571389,
-        "breakout": true,
-        "bar_close_ms": 1793385000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3202437373053488,
-        "score": 7.892857142857139
-      },
-      "context": {
-        "atr": 0.018592004048467857,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4095162630778812,
-        "btc_hour_pct": -0.2202536059253024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ILVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793385000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ILVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "dd90d491fce2c6027cf649c5",
-      "asset_id": "ad711eef54eb1f1df2949607",
-      "key": "MEXC:PERP:GWEIUSDT",
-      "symbol": "GWEIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793385297760,
-      "price": 0.02216,
-      "level": 0.02172,
-      "invalid": 0.020731220834621335,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02172,
-        "base_invalid": 0.020731220834621335,
-        "atr": 0.00032519443585775815,
-        "rvol": 2.283836697513578,
-        "close_position": 0.8947368421052588,
-        "breakout": true,
-        "bar_close_ms": 1793385000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9948525970987294,
-        "score": 4.178573539618837
-      },
-      "context": {
-        "atr": 0.00032519443585775815,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9193102673268005,
-        "btc_hour_pct": -0.21508491521412543,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GWEIUSDT",
-          "change_pct": 17.196288639969225,
-          "old_ms": 1793381679737,
-          "current_ms": 1793385294549,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0338,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793385000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GWEIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1230495,6 +1230230,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793384999679
+    },
+    {
+      "id": "e46d91896a043951db689136",
+      "asset_id": "1e354dc8ff7323b2cd7b3dac",
+      "key": "MEXC:PERP:BIANRENSHENGUSDT",
+      "symbol": "BIANRENSHENGUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793385297760,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793385304822
+    },
+    {
+      "id": "a0c6a2e7ad421fa18ed24154",
+      "asset_id": "343fd7cfec8bdba4377ccdf5",
+      "key": "OKX:PERP:EDENUSDT",
+      "symbol": "EDENUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793385293961,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793385304822
+    },
+    {
+      "id": "6bba071e91b320030006cbe4",
+      "asset_id": "7db253f2b2d27b71c6b0166d",
+      "key": "OKX:SPOT:MMTUSDT",
+      "symbol": "MMTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793385295330,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793385304822
+    },
+    {
+      "id": "558a4913511661c793bc1f0b",
+      "asset_id": "df712bdd65fb3eb651882b94",
+      "key": "MEXC:SPOT:ILVUSDT",
+      "symbol": "ILVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793385295805,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793385304822
+    },
+    {
+      "id": "dd90d491fce2c6027cf649c5",
+      "asset_id": "ad711eef54eb1f1df2949607",
+      "key": "MEXC:PERP:GWEIUSDT",
+      "symbol": "GWEIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793385297760,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793385304822
     }
   ],
   "runs": [
@@ -1235553,7 +1235343,8 @@
         "entry_seq": 0,
         "cohort": "ILVUSDT",
         "observation_lag_ms": 295805,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9017
       },
       "ad711eef54eb1f1df2949607:radar": {
         "symbol": "GWEIUSDT",
@@ -1235575,7 +1235366,8 @@
         "entry_seq": 0,
         "cohort": "GWEIUSDT",
         "observation_lag_ms": 297760,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7062
       }
     },
     "errors": [],
