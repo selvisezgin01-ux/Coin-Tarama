@@ -181024,7 +181024,8 @@
       "requests": {
         "api.github.com:ok": 1,
         "api.dexscreener.com:ok": 9
-      }
+      },
+      "finished_ms": 1793394506341
     }
   ],
   "archive": {
@@ -255106,8 +255107,8 @@
     }
   },
   "publication": {
-    "commit": "4629c2e4f3a0d8592b7d1bfd8ee58341bbaf2657",
-    "success_ms": 1793394449312,
+    "commit": "ff20b4c5837d1059804bc96316193e0fd1c53d96",
+    "success_ms": 1793394506331,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793395068360,
