@@ -1440593,55 +1440593,7 @@
     "OKX:PERP:WETUSDT": 1793357348900,
     "OKX:PERP:CNPYUSDT": 1793358845844
   },
-  "pending": [
-    {
-      "id": "046a057a618b8b3abccb5e51",
-      "asset_id": "0f406752ab649ae364bdb79d",
-      "key": "OKX:PERP:CNPYUSDT",
-      "symbol": "CNPYUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793358845844,
-      "price": 0.2032,
-      "level": 0.182,
-      "invalid": 0.1771905416609484,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.182,
-        "base_invalid": 0.1771905416609484,
-        "atr": 0.0027297222603441086,
-        "rvol": 8.793188566934752,
-        "close_position": 0.8749999999999992,
-        "breakout": true,
-        "bar_close_ms": 1793336400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.746136865342154,
-        "score": 7.874999999999999
-      },
-      "context": {
-        "atr": 0.003847065453991226,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2981328512330137,
-        "btc_hour_pct": 0.1958910531494551,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CNPYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793336400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1441790,6 +1441742,13 @@
       "phase": "radar",
       "observed_ms": 1793357943612,
       "delivered_ms": 1793357950870
+    },
+    {
+      "id": "046a057a618b8b3abccb5e51",
+      "asset_id": "0f406752ab649ae364bdb79d",
+      "phase": "expired",
+      "observed_ms": 1793358845844,
+      "delivered_ms": 1793358852660
     }
   ],
   "runs": [
