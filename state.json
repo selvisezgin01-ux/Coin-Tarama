@@ -1251903,7 +1251903,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793386209411,
+      "duration_ms": 27239
     }
   ],
   "radar_admissions": [
@@ -1254496,13 +1254498,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793386194473,
+            "endpoint_ms": 1793386200000,
+            "endpoint_price": 0.01919,
+            "return_pct": -2.01684962981874,
+            "btc_excess_pct_points": -1.2343640749070128,
+            "mae_pct": -2.476384988511615,
+            "mfe_pct": 0.43400561654327596,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 5527,
+            "measured_ms": 1793386208307,
+            "cost_scenarios_pct": {
+              "0.2": -2.21684962981874,
+              "0.5": -2.51684962981874,
+              "1": -3.01684962981874
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793382300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "SENTUSDT",
         "observation_lag_ms": 294473,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793386208307
       },
       "bce6a090ee9f580752fc6d71:radar": {
         "symbol": "SENTUSDT",
@@ -1254518,13 +1254544,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793386194288,
+            "endpoint_ms": 1793386200000,
+            "endpoint_price": 0.01915,
+            "return_pct": -1.9959058341862956,
+            "btc_excess_pct_points": -1.2278984395664216,
+            "mae_pct": -2.507676560900718,
+            "mfe_pct": 0.5117707267144223,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 5712,
+            "measured_ms": 1793386208307,
+            "cost_scenarios_pct": {
+              "0.2": -2.195905834186296,
+              "0.5": -2.4959058341862956,
+              "1": -2.9959058341862956
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793382300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "SENTUSDT",
         "observation_lag_ms": 294288,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793386208307
       },
       "d2a70e97072e6783871fdee1:radar": {
         "symbol": "AINUSDT",
@@ -1254645,7 +1254695,7 @@
     "queue": {
       "due": 3,
       "attempted": 2,
-      "observed_ms": 1793385899611,
+      "observed_ms": 1793386208307,
       "unique_reads": 4
     },
     "summary": {
@@ -1254681,8 +1254731,8 @@
             "first_per_symbol": 11,
             "hours": {
               "1": {
-                "known_first_symbols": 8,
-                "median_reference_return_pct": -0.16277496743394293
+                "known_first_symbols": 9,
+                "median_reference_return_pct": -0.2525252525252597
               },
               "4": {
                 "known_first_symbols": 3,
@@ -1254725,8 +1254775,8 @@
             "first_per_symbol": 7,
             "hours": {
               "1": {
-                "known_first_symbols": 6,
-                "median_reference_return_pct": -1.1447233237340926
+                "known_first_symbols": 7,
+                "median_reference_return_pct": -1.3846847427062658
               },
               "4": {
                 "known_first_symbols": 2,
