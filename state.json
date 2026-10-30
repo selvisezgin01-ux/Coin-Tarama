@@ -1169568,7 +1169568,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793382304715,
+      "duration_ms": 22544
     }
   ],
   "radar_admissions": [
@@ -1170465,6 +1170467,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793380145237,
+            "endpoint_ms": 1793380200000,
+            "endpoint_price": 0.2537,
+            "return_pct": -0.5488043904351314,
+            "btc_excess_pct_points": -0.40063726972043856,
+            "mae_pct": -1.646413171305361,
+            "mfe_pct": 1.3720109760878119,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 54763,
+            "measured_ms": 1793382303342,
+            "cost_scenarios_pct": {
+              "0.2": -0.7488043904351314,
+              "0.5": -1.0488043904351314,
+              "1": -1.5488043904351314
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793365200000,
@@ -1170474,7 +1170498,7 @@
         "observation_lag_ms": 545237,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 5680,
-        "last_measure_attempt_ms": 1793373574102
+        "last_measure_attempt_ms": 1793382303342
       },
       "b60f1a31cdd9a50ae0cb468e:radar": {
         "symbol": "4USDT",
@@ -1171545,14 +1171569,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793381957933,
+            "endpoint_ms": 1793382000000,
+            "endpoint_price": 0.04358,
+            "return_pct": -1.7029434983647174,
+            "btc_excess_pct_points": -1.4633335376669443,
+            "mae_pct": -2.0863877297846,
+            "mfe_pct": 0.2593887447840393,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 42067,
+            "measured_ms": 1793382303342,
+            "cost_scenarios_pct": {
+              "0.2": -1.9029434983647173,
+              "0.5": -2.2029434983647174,
+              "1": -2.7029434983647174
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793377800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "CHIPUSDT",
         "observation_lag_ms": 557933,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 5878
+        "notification_lag_ms": 5878,
+        "last_measure_attempt_ms": 1793382303342
       },
       "af35a8c6548b2f865e9ed57c:radar": {
         "symbol": "SENTUSDT",
@@ -1171740,10 +1171788,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 4,
-      "attempted": 1,
-      "observed_ms": 1793382007436,
-      "unique_reads": 2
+      "due": 3,
+      "attempted": 2,
+      "observed_ms": 1793382303342,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1171756,8 +1171804,8 @@
             "first_per_symbol": 15,
             "hours": {
               "1": {
-                "known_first_symbols": 10,
-                "median_reference_return_pct": 0.20542545895053665
+                "known_first_symbols": 11,
+                "median_reference_return_pct": 0.029171528588101125
               },
               "4": {
                 "known_first_symbols": 2,
@@ -1171782,8 +1171830,8 @@
                 "median_reference_return_pct": -0.16277496743394293
               },
               "4": {
-                "known_first_symbols": 1,
-                "median_reference_return_pct": 3.1984810866072744
+                "known_first_symbols": 2,
+                "median_reference_return_pct": 1.3248383480860715
               },
               "12": {
                 "known_first_symbols": 0,
