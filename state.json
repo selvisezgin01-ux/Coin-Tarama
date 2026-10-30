@@ -1089890,7 +1089890,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793369038831,
+      "duration_ms": 27978
     }
   ],
   "radar_admissions": [
@@ -1090437,7 +1090439,7 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793368728119,
+      "observed_ms": 1793369038300,
       "unique_reads": 0
     },
     "summary": {
@@ -1101088,11 +1101090,35 @@
           "stop": null,
           "target": null,
           "risk_pct": null,
-          "outcomes": {},
+          "outcomes": {
+            "1": {
+              "target_ms": 1793367587445,
+              "endpoint_ms": 1793367600000,
+              "endpoint_price": 0.0474,
+              "return_pct": 1.3253527148353816,
+              "btc_excess_pct_points": 1.6037563788368403,
+              "mae_pct": -0.2565198802907287,
+              "mfe_pct": 1.5604959384352135,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 60,
+              "ignored_entry_fragment_ms": 12555,
+              "measured_ms": 1793369038301,
+              "cost_scenarios_pct": {
+                "0.2": 1.1253527148353817,
+                "0.5": 0.8253527148353816,
+                "1": 0.32535271483538164
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
+            }
+          },
           "source_close_ms": 1793363400000,
           "observation_lag_ms": 587445,
           "interpretation": "early radar reference, not a trade entry",
-          "notification_lag_ms": 9512
+          "notification_lag_ms": 9512,
+          "last_measure_attempt_ms": 1793369038301
         },
         "XPLUSDT:radar": {
           "symbol": "XPLUSDT",
@@ -1101157,9 +1101183,9 @@
       },
       "errors": [],
       "queue": {
-        "due": 9,
+        "due": 15,
         "attempted": 1,
-        "observed_ms": 1793368137134,
+        "observed_ms": 1793369038301,
         "unique_reads": 2
       },
       "summary": {
@@ -1101167,8 +1101193,8 @@
           "unique_symbol_labels": 94,
           "hours": {
             "1": {
-              "known": 90,
-              "median_pct": -0.12314011803861713
+              "known": 91,
+              "median_pct": -0.04506534474990609
             },
             "4": {
               "known": 74,
