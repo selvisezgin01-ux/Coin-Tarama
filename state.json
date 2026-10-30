@@ -1134489,100 +1134489,7 @@
     "OKX:SPOT:XUVXYUSDT": 1793329238978,
     "MEXC:SPOT:PEPEUSDT": 1793329241065
   },
-  "pending": [
-    {
-      "id": "c7f7fcd672d33dcc3c93124e",
-      "asset_id": "2ee7f84ddc4fd436559c20bd",
-      "key": "OKX:SPOT:XUVXYUSDT",
-      "symbol": "XUVXYUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793329238978,
-      "price": 18.155,
-      "level": 17.4,
-      "invalid": 16.810018750525376,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 17.4,
-        "base_invalid": 16.810018750525376,
-        "atr": 0.1332083298308015,
-        "rvol": 2.5639481546135006,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793306700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.118893466745164,
-        "score": 4.063948154613501
-      },
-      "context": {
-        "atr": 0.08977250640005938,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.48666619434063474,
-        "btc_hour_pct": 0.7627567520435585,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XUVXYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793306700000
-    },
-    {
-      "id": "66868c22d14ea772f3a1ce14",
-      "asset_id": "9f3777ec326eee7431d09b50",
-      "key": "MEXC:SPOT:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793329241065,
-      "price": 4.7365e-06,
-      "level": 4.68e-06,
-      "invalid": 4.283010986833132e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.68e-06,
-        "base_invalid": 4.283010986833132e-06,
-        "atr": 1.399267544457892e-07,
-        "rvol": 2.358153974073181,
-        "close_position": 0.8175675675675683,
-        "breakout": true,
-        "bar_close_ms": 1793327400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.360210341805426,
-        "score": 4.175721541640749
-      },
-      "context": {
-        "atr": 1.3059749773935128e-07,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1443510458840844,
-        "btc_hour_pct": 0.7725130506052391,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793327400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1135066,6 +1134973,20 @@
       "phase": "radar",
       "observed_ms": 1793328638615,
       "delivered_ms": 1793328644720
+    },
+    {
+      "id": "c7f7fcd672d33dcc3c93124e",
+      "asset_id": "2ee7f84ddc4fd436559c20bd",
+      "phase": "expired",
+      "observed_ms": 1793329238978,
+      "delivered_ms": 1793329247566
+    },
+    {
+      "id": "66868c22d14ea772f3a1ce14",
+      "asset_id": "9f3777ec326eee7431d09b50",
+      "phase": "cancelled",
+      "observed_ms": 1793329241065,
+      "delivered_ms": 1793329247566
     }
   ],
   "runs": [
