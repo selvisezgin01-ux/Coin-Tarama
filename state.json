@@ -1045799,7 +1045799,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793366049719,
+      "duration_ms": 16597
     }
   ],
   "radar_admissions": [
@@ -1046346,7 +1046348,7 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793365755170,
+      "observed_ms": 1793366049179,
       "unique_reads": 0
     },
     "summary": {
@@ -1056857,11 +1056859,43 @@
           "stop": 2.3596480395998007,
           "target": 2.4126864208003984,
           "risk_pct": 0.24738788417667285,
-          "outcomes": {},
+          "outcomes": {
+            "1": {
+              "target_ms": 1793365493157,
+              "endpoint_ms": 1793365500000,
+              "endpoint_price": 2.38,
+              "return_pct": 0.6129782287042973,
+              "btc_excess_pct_points": 0.7590961600153046,
+              "mae_pct": -0.23250898330162695,
+              "mfe_pct": 1.1625449165081347,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 60,
+              "ignored_entry_fragment_ms": 6843,
+              "measured_ms": 1793366049179,
+              "cost_scenarios_pct": {
+                "0.2": 0.4129782287042973,
+                "0.5": 0.1129782287042973,
+                "1": -0.3870217712957027
+              },
+              "barriers": {
+                "status": "neither",
+                "at_ms": 1793365500000,
+                "exit_price": 2.38,
+                "net_r_scenarios": {
+                  "0.2": 1.6693551104118243,
+                  "0.5": 0.4566845667494918,
+                  "1": -1.5644330060210623
+                },
+                "hypothetical_not_fill": true
+              }
+            }
+          },
           "source_close_ms": 1793361600000,
           "observation_lag_ms": 293157,
           "interpretation": "hypothetical confirmed entry, not an order fill",
-          "notification_lag_ms": 8919
+          "notification_lag_ms": 8919,
+          "last_measure_attempt_ms": 1793366049179
         },
         "RSRUSDT:radar": {
           "symbol": "RSRUSDT",
@@ -1056986,10 +1057020,10 @@
       },
       "errors": [],
       "queue": {
-        "due": 2,
-        "attempted": 2,
-        "observed_ms": 1793365195939,
-        "unique_reads": 4
+        "due": 5,
+        "attempted": 1,
+        "observed_ms": 1793366049179,
+        "unique_reads": 2
       },
       "summary": {
         "radar": {
@@ -1057017,8 +1057051,8 @@
           "unique_symbol_labels": 5,
           "hours": {
             "1": {
-              "known": 4,
-              "median_pct": -1.6028714680085543
+              "known": 5,
+              "median_pct": -0.8726625111309061
             },
             "4": {
               "known": 3,
