@@ -1226511,162 +1226511,7 @@
       "source_close_ms": 1793384100000
     }
   },
-  "pending": [
-    {
-      "id": "ef3982f34995601ce6218826",
-      "asset_id": "4ff828e6e50f5150ba6d2a5a",
-      "key": "OKX:SPOT:AIUSDT",
-      "symbol": "AIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793384989551,
-      "price": 0.01677,
-      "level": 0.01708,
-      "invalid": 0.016814042237097964,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01708,
-        "base_invalid": 0.016814042237097964,
-        "atr": 0.00010638508601357661,
-        "rvol": 5.633156160877871,
-        "close_position": 0.6250000000000162,
-        "breakout": false,
-        "bar_close_ms": 1793381400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.6451612903225712,
-        "score": 6.758156160877887
-      },
-      "context": {
-        "atr": 9.691752691780174e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.27889302469539246,
-        "btc_hour_pct": -0.21961620193309273,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793381400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "09e7e5c145fd69fd75702442",
-      "asset_id": "9eb994d78dfcf0395bb576d7",
-      "key": "MEXC:SPOT:BULLAUSDT",
-      "symbol": "BULLAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793384992528,
-      "price": 0.07380400000000001,
-      "level": 0.073224,
-      "invalid": 0.07173166199432132,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.073224,
-        "base_invalid": 0.07173166199432132,
-        "atr": 0.0008889200378578188,
-        "rvol": 8.86383197734661,
-        "close_position": 0.9911557788944719,
-        "breakout": true,
-        "bar_close_ms": 1793384100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.48289959255347625,
-        "score": 7.991155778894472
-      },
-      "context": {
-        "atr": 0.0008889200378578188,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.0227893193963888,
-        "btc_hour_pct": -0.2202536059253024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BULLAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793384100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BULLAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5db31aa90d15f5112bb85ac1",
-      "asset_id": "79c06dec63d865d560e283a4",
-      "key": "OKX:SPOT:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793384989551,
-      "price": 0.053295,
-      "level": 0.05104,
-      "invalid": 0.047360717515757954,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05104,
-        "base_invalid": 0.047360717515757954,
-        "atr": 0.0015952165616136777,
-        "rvol": 3.4281469008400265,
-        "close_position": 0.8413793103448268,
-        "breakout": true,
-        "bar_close_ms": 1793384100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.013149784261353,
-        "score": 5.2695262111848535
-      },
-      "context": {
-        "atr": 0.0015952165616136777,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.812301156214049,
-        "btc_hour_pct": -0.21961620193309273,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PARTIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793384100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1227283,6 +1227128,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793384404074
+    },
+    {
+      "id": "ef3982f34995601ce6218826",
+      "asset_id": "4ff828e6e50f5150ba6d2a5a",
+      "key": "OKX:SPOT:AIUSDT",
+      "symbol": "AIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793384989551,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793384999679
+    },
+    {
+      "id": "09e7e5c145fd69fd75702442",
+      "asset_id": "9eb994d78dfcf0395bb576d7",
+      "key": "MEXC:SPOT:BULLAUSDT",
+      "symbol": "BULLAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793384992528,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793384999679
+    },
+    {
+      "id": "5db31aa90d15f5112bb85ac1",
+      "asset_id": "79c06dec63d865d560e283a4",
+      "key": "OKX:SPOT:PARTIUSDT",
+      "symbol": "PARTIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793384989551,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793384999679
     }
   ],
   "runs": [
@@ -1232195,7 +1232073,8 @@
         "entry_seq": 0,
         "cohort": "BULLAUSDT",
         "observation_lag_ms": 892528,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7151
       },
       "79c06dec63d865d560e283a4:radar": {
         "symbol": "PARTIUSDT",
@@ -1232217,7 +1232096,8 @@
         "entry_seq": 0,
         "cohort": "PARTIUSDT",
         "observation_lag_ms": 889551,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10128
       }
     },
     "errors": [],
