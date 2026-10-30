@@ -1308614,102 +1308614,7 @@
     "MEXC:PERP:HAEDALUSDT": 1793344036796,
     "MEXC:SPOT:LIGHTUSDT": 1793344641504
   },
-  "pending": [
-    {
-      "id": "87e2ff09f3df321acbe1f9cc",
-      "asset_id": "3750f85063ef2cf612bd9c8c",
-      "key": "MEXC:SPOT:LIGHTUSDT",
-      "symbol": "LIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793344641504,
-      "price": 0.25105,
-      "level": 0.2508,
-      "invalid": 0.24494133017548392,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2508,
-        "base_invalid": 0.24494133017548392,
-        "atr": 0.0030577988301072195,
-        "rvol": 2.455615131213963,
-        "close_position": 0.9062500000000098,
-        "breakout": true,
-        "bar_close_ms": 1793341800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8423586040914532,
-        "score": 4.361865131213973
-      },
-      "context": {
-        "atr": 0.002966453510091168,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7326079232403915,
-        "btc_hour_pct": 0.11076557073550486,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793341800000
-    },
-    {
-      "id": "564cafe0b95b8e44c75327c6",
-      "asset_id": "089c51fd9d731b46e71a3c2e",
-      "key": "MEXC:SPOT:JASMYUSDT",
-      "symbol": "JASMYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793344641504,
-      "price": 0.0037879999999999997,
-      "level": 0.003811,
-      "invalid": 0.0035827359103697736,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003811,
-        "base_invalid": 0.0035827359103697736,
-        "atr": 5.509393086817511e-05,
-        "rvol": 9.860805963652025,
-        "close_position": 0.8974358974358949,
-        "breakout": false,
-        "bar_close_ms": 1793344500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.564794816414695,
-        "score": 7.397435897435895
-      },
-      "context": {
-        "atr": 5.509393086817511e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1311699131354649,
-        "btc_hour_pct": 0.11076557073550486,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:JASMYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793344500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1309515,6 +1309420,20 @@
       "phase": "expired",
       "observed_ms": 1793344036796,
       "delivered_ms": 1793344046955
+    },
+    {
+      "id": "87e2ff09f3df321acbe1f9cc",
+      "asset_id": "3750f85063ef2cf612bd9c8c",
+      "phase": "cancelled",
+      "observed_ms": 1793344641504,
+      "delivered_ms": 1793344648605
+    },
+    {
+      "id": "564cafe0b95b8e44c75327c6",
+      "asset_id": "089c51fd9d731b46e71a3c2e",
+      "phase": "radar",
+      "observed_ms": 1793344641504,
+      "delivered_ms": 1793344648605
     }
   ],
   "runs": [
@@ -1319451,7 +1319370,8 @@
         "outcomes": {},
         "source_close_ms": 1793344500000,
         "observation_lag_ms": 141504,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7101
       }
     },
     "errors": [],
