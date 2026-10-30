@@ -1135851,60 +1135851,7 @@
       "source_close_ms": 1793401200000
     }
   },
-  "pending": [
-    {
-      "id": "ab1bbf4377e26c31dadd98da",
-      "asset_id": "30e5e0a7d7666f3a80f7dd2b",
-      "key": "MEXC:SPOT:QUSDT",
-      "symbol": "QUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793401761193,
-      "price": 0.048233,
-      "level": 0.047736,
-      "invalid": 0.045000648256989934,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.047736,
-        "base_invalid": 0.045000648256989934,
-        "atr": 0.0010490116200671017,
-        "rvol": 7.536372636575144,
-        "close_position": 0.6330548926014328,
-        "breakout": true,
-        "bar_close_ms": 1793401200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6495249585281275,
-        "score": 7.633054892601432
-      },
-      "context": {
-        "atr": 0.0010490116200671017,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.3281226426574717,
-        "btc_hour_pct": 0.3214023158706558,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:QUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793401200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "QUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1137192,6 +1137139,17 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793401479988
+    },
+    {
+      "id": "ab1bbf4377e26c31dadd98da",
+      "asset_id": "30e5e0a7d7666f3a80f7dd2b",
+      "key": "MEXC:SPOT:QUSDT",
+      "symbol": "QUSDT",
+      "phase": "radar",
+      "observed_ms": 1793401761193,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793401772245
     }
   ],
   "runs": [
@@ -1147323,7 +1147281,8 @@
         "entry_seq": 0,
         "cohort": "QUSDT",
         "observation_lag_ms": 561193,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11052
       }
     },
     "errors": [],
@@ -1169606,8 +1169565,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "20fbb29c1221067d62b5f8c539e071123f5e1e68",
-    "previous_success_ms": 1793401495256,
+    "previous_commit": "955d1019e7fdb02087b2ef1133bd3bccdb642c26",
+    "previous_success_ms": 1793401771023,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
