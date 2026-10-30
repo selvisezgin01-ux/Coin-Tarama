@@ -1442237,106 +1442237,7 @@
     "OKX:PERP:CNPYUSDT": 1793358845844,
     "MEXC:PERP:LPTUSDT": 1793359147608
   },
-  "pending": [
-    {
-      "id": "61fcccda4716ea710b86ae31",
-      "asset_id": "ae066635b8269f5f9452a865",
-      "key": "MEXC:PERP:LPTUSDT",
-      "symbol": "LPTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793359147608,
-      "price": 1.4255,
-      "level": 1.431,
-      "invalid": 1.41461029072577,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.431,
-        "base_invalid": 1.41461029072577,
-        "atr": 0.009264728494866552,
-        "rvol": 23.215816496633884,
-        "close_position": 0.8181818181818163,
-        "breakout": true,
-        "bar_close_ms": 1793357100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1267605633802802,
-        "score": 7.818181818181817
-      },
-      "context": {
-        "atr": 0.009298142579075797,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7310981147127471,
-        "btc_hour_pct": 0.18054283900394985,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LPTUSDT",
-          "change_pct": 1.0419554512195228,
-          "old_ms": 1793355531637,
-          "current_ms": 1793359144679,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793357100000
-    },
-    {
-      "id": "b9ca423f879d073d097a194f",
-      "asset_id": "f75268760669bc0cbbc83e2f",
-      "key": "OKX:SPOT:SSVUSDT",
-      "symbol": "SSVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793359146876,
-      "price": 2.3575,
-      "level": 2.36,
-      "invalid": 2.2926480395998006,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.36,
-        "base_invalid": 2.2926480395998006,
-        "atr": 0.015679736001328357,
-        "rvol": 3.5231665751956727,
-        "close_position": 0.8235294117646982,
-        "breakout": true,
-        "bar_close_ms": 1793358900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7657192075796635,
-        "score": 5.346695986960371
-      },
-      "context": {
-        "atr": 0.015679736001328357,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7085420973766308,
-        "btc_hour_pct": 0.19621980738526723,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SSVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793358900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1443492,6 +1443393,20 @@
       "phase": "expired",
       "observed_ms": 1793358845844,
       "delivered_ms": 1793358852660
+    },
+    {
+      "id": "61fcccda4716ea710b86ae31",
+      "asset_id": "ae066635b8269f5f9452a865",
+      "phase": "cancelled",
+      "observed_ms": 1793359147608,
+      "delivered_ms": 1793359154977
+    },
+    {
+      "id": "b9ca423f879d073d097a194f",
+      "asset_id": "f75268760669bc0cbbc83e2f",
+      "phase": "radar",
+      "observed_ms": 1793359146876,
+      "delivered_ms": 1793359154977
     }
   ],
   "runs": [
@@ -1457682,7 +1457597,8 @@
         "outcomes": {},
         "source_close_ms": 1793358900000,
         "observation_lag_ms": 246876,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8101
       }
     },
     "errors": [],
