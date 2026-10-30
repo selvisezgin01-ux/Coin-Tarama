@@ -1412554,7 +1412554,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793355853773,
+      "duration_ms": 20055
     }
   ],
   "measurements": {
@@ -1416901,13 +1416903,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793355683251,
+            "endpoint_ms": 1793355720000,
+            "endpoint_price": 0.007781,
+            "return_pct": -0.8410857652606074,
+            "btc_excess_pct_points": 0.8255699899935798,
+            "mae_pct": -2.8291066649675067,
+            "mfe_pct": 0.1784121320249854,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 36749,
+            "measured_ms": 1793355853217,
+            "cost_scenarios_pct": {
+              "0.2": -1.0410857652606074,
+              "0.5": -1.3410857652606074,
+              "1": -1.8410857652606074
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793340900000,
         "observation_lag_ms": 383251,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 8065,
-        "last_measure_attempt_ms": 1793344946406
+        "last_measure_attempt_ms": 1793355853217
       },
       "FARTCOINUSDT:triggered": {
         "symbol": "FARTCOINUSDT",
@@ -1417800,10 +1417824,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
-      "attempted": 2,
-      "observed_ms": 1793355559690,
-      "unique_reads": 4
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793355853217,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
@@ -1417814,8 +1417838,8 @@
             "median_pct": -0.20121489132732817
           },
           "4": {
-            "known": 58,
-            "median_pct": -0.31908438988086374
+            "known": 59,
+            "median_pct": -0.33670033670035737
           },
           "12": {
             "known": 18,
