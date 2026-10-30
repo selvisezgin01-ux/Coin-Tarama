@@ -1195020,104 +1195020,7 @@
     "MEXC:PERP:RLCUSDT": 1793334638961,
     "MEXC:SPOT:EVAAUSDT": 1793334637802
   },
-  "pending": [
-    {
-      "id": "daebf238d36d0e3f30c5f2de",
-      "asset_id": "8d458a27b0f7d4a469870364",
-      "key": "MEXC:PERP:RLCUSDT",
-      "symbol": "RLCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793334638961,
-      "price": 0.51325,
-      "level": 0.4951,
-      "invalid": 0.4605490439915584,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4951,
-        "base_invalid": 0.4605490439915584,
-        "atr": 0.00833970672294415,
-        "rvol": 5.28079537659224,
-        "close_position": 0.8780487804878006,
-        "breakout": true,
-        "bar_close_ms": 1793327400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.437749317656926,
-        "score": 7.158844157080041
-      },
-      "context": {
-        "atr": 0.00818715094560513,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2614303897878543,
-        "btc_hour_pct": 1.051630427759509,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RLCUSDT",
-          "change_pct": -2.1018197669693484,
-          "old_ms": 1793331022129,
-          "current_ms": 1793334637154,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793327400000
-    },
-    {
-      "id": "31a6a73fb4b926a15e2ea0e2",
-      "asset_id": "7133da3466972de693906785",
-      "key": "MEXC:SPOT:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793334637802,
-      "price": 1.1720000000000002,
-      "level": 1.1742,
-      "invalid": 1.1161641534301812,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.1742,
-        "base_invalid": 1.1161641534301812,
-        "atr": 0.030238977132126293,
-        "rvol": 8.529581817912034,
-        "close_position": 0.8340707964601781,
-        "breakout": true,
-        "bar_close_ms": 1793331900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.388142498049754,
-        "score": 7.834070796460178
-      },
-      "context": {
-        "atr": 0.03342786567525625,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.621849804714495,
-        "btc_hour_pct": 1.031240082925966,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EVAAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793331900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1195720,6 +1195623,20 @@
       "phase": "radar",
       "observed_ms": 1793334034188,
       "delivered_ms": 1793334042463
+    },
+    {
+      "id": "daebf238d36d0e3f30c5f2de",
+      "asset_id": "8d458a27b0f7d4a469870364",
+      "phase": "expired",
+      "observed_ms": 1793334638961,
+      "delivered_ms": 1793334646048
+    },
+    {
+      "id": "31a6a73fb4b926a15e2ea0e2",
+      "asset_id": "7133da3466972de693906785",
+      "phase": "cancelled",
+      "observed_ms": 1793334637802,
+      "delivered_ms": 1793334646048
     }
   ],
   "runs": [
