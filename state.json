@@ -1082943,7 +1082943,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793368137653,
+      "duration_ms": 26800
     }
   ],
   "radar_admissions": [
@@ -1083490,7 +1083492,7 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793367827621,
+      "observed_ms": 1793368137134,
       "unique_reads": 0
     },
     "summary": {
@@ -1094097,11 +1094099,35 @@
           "stop": null,
           "target": null,
           "risk_pct": null,
-          "outcomes": {},
+          "outcomes": {
+            "1": {
+              "target_ms": 1793366393081,
+              "endpoint_ms": 1793366400000,
+              "endpoint_price": 0.04361,
+              "return_pct": -1.9779725781074342,
+              "btc_excess_pct_points": -1.6607924046743383,
+              "mae_pct": -2.0004495392223043,
+              "mfe_pct": 0.2697235333782855,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 60,
+              "ignored_entry_fragment_ms": 6919,
+              "measured_ms": 1793368137134,
+              "cost_scenarios_pct": {
+                "0.2": -2.1779725781074344,
+                "0.5": -2.477972578107434,
+                "1": -2.977972578107434
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
+            }
+          },
           "source_close_ms": 1793362500000,
           "observation_lag_ms": 293081,
           "interpretation": "early radar reference, not a trade entry",
-          "notification_lag_ms": 8194
+          "notification_lag_ms": 8194,
+          "last_measure_attempt_ms": 1793368137134
         },
         "ONTUSDT:radar": {
           "symbol": "ONTUSDT",
@@ -1094186,9 +1094212,9 @@
       },
       "errors": [],
       "queue": {
-        "due": 8,
+        "due": 9,
         "attempted": 1,
-        "observed_ms": 1793367230676,
+        "observed_ms": 1793368137134,
         "unique_reads": 2
       },
       "summary": {
@@ -1094196,8 +1094222,8 @@
           "unique_symbol_labels": 94,
           "hours": {
             "1": {
-              "known": 89,
-              "median_pct": -0.04506534474990609
+              "known": 90,
+              "median_pct": -0.12314011803861713
             },
             "4": {
               "known": 74,
