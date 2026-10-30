@@ -1377899,7 +1377899,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793351613299,
+      "duration_ms": 20954
     }
   ],
   "measurements": {
@@ -1381652,13 +1381654,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793351481279,
+            "endpoint_ms": 1793351520000,
+            "endpoint_price": 0.2011,
+            "return_pct": 5.8142594054196195,
+            "btc_excess_pct_points": 6.881482024558883,
+            "mae_pct": -1.2891344383057168,
+            "mfe_pct": 8.234675085503817,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 38721,
+            "measured_ms": 1793351612127,
+            "cost_scenarios_pct": {
+              "0.2": 5.614259405419619,
+              "0.5": 5.3142594054196195,
+              "1": 4.8142594054196195
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793336400000,
         "observation_lag_ms": 681279,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 9271,
-        "last_measure_attempt_ms": 1793341001329
+        "last_measure_attempt_ms": 1793351612127
       },
       "CROUSDT:radar": {
         "symbol": "CROUSDT",
@@ -1382593,7 +1382617,7 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793351311605,
+      "observed_ms": 1793351612127,
       "unique_reads": 2
     },
     "summary": {
@@ -1382605,8 +1382629,8 @@
             "median_pct": -0.2184721548809776
           },
           "4": {
-            "known": 51,
-            "median_pct": -0.33670033670035737
+            "known": 52,
+            "median_pct": -0.31908438988086374
           },
           "12": {
             "known": 12,
