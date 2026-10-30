@@ -1261340,7 +1261340,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793339793185,
+      "duration_ms": 18926
     }
   ],
   "measurements": {
@@ -1264359,11 +1264361,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793339481237,
+            "endpoint_ms": 1793339520000,
+            "endpoint_price": 0.013926,
+            "return_pct": 0.40374909877431975,
+            "btc_excess_pct_points": 0.07395299296684144,
+            "mae_pct": -0.8940158615717397,
+            "mfe_pct": 0.5118961788031617,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 38763,
+            "measured_ms": 1793339792652,
+            "cost_scenarios_pct": {
+              "0.2": 0.20374909877431974,
+              "0.5": -0.09625090122568025,
+              "1": -0.5962509012256803
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793335500000,
         "observation_lag_ms": 381237,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9998
+        "notification_lag_ms": 9998,
+        "last_measure_attempt_ms": 1793339792652
       },
       "CNPYUSDT:radar": {
         "symbol": "CNPYUSDT",
@@ -1264488,18 +1264514,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
-      "attempted": 2,
-      "observed_ms": 1793339495918,
-      "unique_reads": 4
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793339792652,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
         "unique_symbol_labels": 57,
         "hours": {
           "1": {
-            "known": 50,
-            "median_pct": -0.39451478335741363
+            "known": 51,
+            "median_pct": -0.20121489132732817
           },
           "4": {
             "known": 34,
