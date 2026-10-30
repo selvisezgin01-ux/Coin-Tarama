@@ -1455122,151 +1455122,7 @@
     "MEXC:SPOT:NIGHTUSDT": 1793362793743,
     "OKX:SPOT:POLUSDT": 1793362793223
   },
-  "pending": [
-    {
-      "id": "6e1901d5512a99d94843033f",
-      "asset_id": "607fc90a3b149ad073da42aa",
-      "key": "MEXC:SPOT:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793362793743,
-      "price": 0.038405,
-      "level": 0.03865,
-      "invalid": 0.03766882902351096,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03865,
-        "base_invalid": 0.03766882902351096,
-        "atr": 0.0003411398432602397,
-        "rvol": 8.786181298668486,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793353500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.421689918399572,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0003228602413009774,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.34075795470130954,
-        "btc_hour_pct": -0.5773751746024347,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793353500000
-    },
-    {
-      "id": "6b1cd6df83e46284afc057ee",
-      "asset_id": "ba151ff33dfcfcb624fdf413",
-      "key": "OKX:SPOT:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793362793223,
-      "price": 0.09184500000000001,
-      "level": 0.0911,
-      "invalid": 0.0886292381522218,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0911,
-        "base_invalid": 0.0886292381522218,
-        "atr": 0.0006717456518546811,
-        "rvol": 7.780940976938346,
-        "close_position": 0.6950354609929098,
-        "breakout": true,
-        "bar_close_ms": 1793357100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4252568776930818,
-        "score": 7.6950354609929095
-      },
-      "context": {
-        "atr": 0.0006766465778969777,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4141857101144786,
-        "btc_hour_pct": -0.5885346258821644,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793357100000
-    },
-    {
-      "id": "b0ada522c7bb13a478d9c3a3",
-      "asset_id": "4d5f093f48140f39b88409c3",
-      "key": "MEXC:PERP:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793362793081,
-      "price": 0.04449,
-      "level": 0.04423,
-      "invalid": 0.04238552506713412,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04423,
-        "base_invalid": 0.04238552506713412,
-        "atr": 0.0004964995524391797,
-        "rvol": 6.366561646831105,
-        "close_position": 0.7741935483870932,
-        "breakout": true,
-        "bar_close_ms": 1793362500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6306844281120725,
-        "score": 7.774193548387093
-      },
-      "context": {
-        "atr": 0.0004964995524391797,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7142422331581133,
-        "btc_hour_pct": -0.577287200060661,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CHIPUSDT",
-          "change_pct": 4.301781996985143,
-          "old_ms": 1793359132168,
-          "current_ms": 1793362789063,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0033000000000000004,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793362500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1456499,6 +1456355,27 @@
       "phase": "radar",
       "observed_ms": 1793361895245,
       "delivered_ms": 1793361902076
+    },
+    {
+      "id": "6e1901d5512a99d94843033f",
+      "asset_id": "607fc90a3b149ad073da42aa",
+      "phase": "cancelled",
+      "observed_ms": 1793362793743,
+      "delivered_ms": 1793362801275
+    },
+    {
+      "id": "6b1cd6df83e46284afc057ee",
+      "asset_id": "ba151ff33dfcfcb624fdf413",
+      "phase": "expired",
+      "observed_ms": 1793362793223,
+      "delivered_ms": 1793362801275
+    },
+    {
+      "id": "b0ada522c7bb13a478d9c3a3",
+      "asset_id": "4d5f093f48140f39b88409c3",
+      "phase": "radar",
+      "observed_ms": 1793362793081,
+      "delivered_ms": 1793362801275
     }
   ],
   "runs": [
@@ -1471657,7 +1471534,8 @@
         "outcomes": {},
         "source_close_ms": 1793362500000,
         "observation_lag_ms": 293081,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8194
       }
     },
     "errors": [],
