@@ -1041279,100 +1041279,7 @@
     "MEXC:PERP:CAPUSDT": 1793316873522,
     "OKX:SPOT:SOPHUSDT": 1793319572107
   },
-  "pending": [
-    {
-      "id": "19bae104e03201ae2e319771",
-      "asset_id": "6850c35321188ba2fcb89aaf",
-      "key": "OKX:SPOT:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793319572107,
-      "price": 0.001387,
-      "level": 0.001495,
-      "invalid": 0.0013885156180838386,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001495,
-        "base_invalid": 0.0013885156180838386,
-        "atr": 2.3229212774409658e-05,
-        "rvol": 9.6534412749275,
-        "close_position": 0.8363636363636348,
-        "breakout": false,
-        "bar_close_ms": 1793313900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.7361111111110938,
-        "score": 7.336363636363635
-      },
-      "context": {
-        "atr": 2.3457142810657884e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4266013243960254,
-        "btc_hour_pct": -1.268706587553925,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793313900000
-    },
-    {
-      "id": "c6ac29c28232e4102cb38d12",
-      "asset_id": "68301f33bddb80b7a59f920a",
-      "key": "OKX:PERP:BWETUSDT",
-      "symbol": "BWETUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793319573171,
-      "price": 950.98,
-      "level": 945.93,
-      "invalid": 911.521017831004,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 945.93,
-        "base_invalid": 911.521017831004,
-        "atr": 11.793214459973214,
-        "rvol": 23.98861345353866,
-        "close_position": 0.9322139303482602,
-        "breakout": true,
-        "bar_close_ms": 1793319300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0687127410713435,
-        "score": 7.93221393034826
-      },
-      "context": {
-        "atr": 11.793214459973214,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.952541876580526,
-        "btc_hour_pct": -1.2882290680184982,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BWETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793319300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1041674,6 +1041581,20 @@
       "phase": "radar",
       "observed_ms": 1793319267927,
       "delivered_ms": 1793319276122
+    },
+    {
+      "id": "19bae104e03201ae2e319771",
+      "asset_id": "6850c35321188ba2fcb89aaf",
+      "phase": "cancelled",
+      "observed_ms": 1793319572107,
+      "delivered_ms": 1793319580110
+    },
+    {
+      "id": "c6ac29c28232e4102cb38d12",
+      "asset_id": "68301f33bddb80b7a59f920a",
+      "phase": "radar",
+      "observed_ms": 1793319573171,
+      "delivered_ms": 1793319580110
     }
   ],
   "runs": [
@@ -1045564,7 +1045485,8 @@
         "outcomes": {},
         "source_close_ms": 1793319300000,
         "observation_lag_ms": 273171,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6939
       }
     },
     "errors": [],
