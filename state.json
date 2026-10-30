@@ -1219855,53 +1219855,7 @@
     "OKX:SPOT:BOMEUSDT": 1793335587205,
     "MEXC:SPOT:FIGHTUSDT": 1793336183398
   },
-  "pending": [
-    {
-      "id": "c9985dea3565cd11e9befaab",
-      "asset_id": "c438e0ad934a13f39d9eb9fc",
-      "key": "MEXC:SPOT:FIGHTUSDT",
-      "symbol": "FIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793336183398,
-      "price": 0.0040315,
-      "level": 0.003969,
-      "invalid": 0.0036397004289268017,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003969,
-        "base_invalid": 0.0036397004289268017,
-        "atr": 5.533047382132275e-05,
-        "rvol": 3.0083359703913395,
-        "close_position": 0.7341772151898713,
-        "breakout": false,
-        "bar_close_ms": 1793313900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.1320852834113335,
-        "score": 4.242513185581211
-      },
-      "context": {
-        "atr": 5.6527847927983445e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.32013913852287,
-        "btc_hour_pct": 1.031240082925966,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793313900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1220553,6 +1220507,13 @@
       "phase": "radar",
       "observed_ms": 1793335881237,
       "delivered_ms": 1793335891235
+    },
+    {
+      "id": "c9985dea3565cd11e9befaab",
+      "asset_id": "c438e0ad934a13f39d9eb9fc",
+      "phase": "expired",
+      "observed_ms": 1793336183398,
+      "delivered_ms": 1793336190061
     }
   ],
   "runs": [
