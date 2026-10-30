@@ -1315707,60 +1315707,7 @@
       "source_close_ms": 1793390400000
     }
   },
-  "pending": [
-    {
-      "id": "9931df700a9debace4098bb0",
-      "asset_id": "77804952b9c4d2c9928e2ce3",
-      "key": "OKX:SPOT:ARKMUSDT",
-      "symbol": "ARKMUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793391117042,
-      "price": 0.11142,
-      "level": 0.11007,
-      "invalid": 0.10764038296667292,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11007,
-        "base_invalid": 0.10764038296667292,
-        "atr": 0.0010641135555139712,
-        "rvol": 2.8270728229069313,
-        "close_position": 0.9648241206030216,
-        "breakout": false,
-        "bar_close_ms": 1793368800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2725538293812946,
-        "score": 4.291896943509952
-      },
-      "context": {
-        "atr": 0.000904397712118205,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9905188216578154,
-        "btc_hour_pct": 0.3615682926797481,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ARKMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARKMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1316663,6 +1316610,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793390540040
+    },
+    {
+      "id": "9931df700a9debace4098bb0",
+      "asset_id": "77804952b9c4d2c9928e2ce3",
+      "key": "OKX:SPOT:ARKMUSDT",
+      "symbol": "ARKMUSDT",
+      "phase": "expired",
+      "observed_ms": 1793391117042,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793391129774
     }
   ],
   "runs": [
@@ -1345374,8 +1345332,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "aef962405fa408ba8330b81e528b754e7bd59607",
-    "previous_success_ms": 1793390845096,
+    "previous_commit": "7b34597a419263d975d8ee4b2ce2e15168b4dbf5",
+    "previous_success_ms": 1793391128200,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
