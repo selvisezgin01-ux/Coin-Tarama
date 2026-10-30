@@ -1401294,53 +1401294,7 @@
     "MEXC:PERP:SOPHUSDT": 1793353101650,
     "OKX:SPOT:LSKUSDT": 1793353705459
   },
-  "pending": [
-    {
-      "id": "0071a86b4bfdaf8dc4b96948",
-      "asset_id": "4432fc812e9a86571364ebe5",
-      "key": "OKX:SPOT:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793355243125,
-      "price": 0.11885,
-      "level": 0.1207,
-      "invalid": 0.1188774489006415,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1207,
-        "base_invalid": 0.1188774489006415,
-        "atr": 0.0008170073290566128,
-        "rvol": 5.1430950921262895,
-        "close_position": 0.7857142857142893,
-        "breakout": false,
-        "bar_close_ms": 1793353500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6694560669456173,
-        "score": 6.428809377840579
-      },
-      "context": {
-        "atr": 0.000837599405320486,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.05489998559666809,
-        "btc_hour_pct": -0.4459347389442314,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793353500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1402412,6 +1402366,13 @@
       "phase": "radar",
       "observed_ms": 1793354302407,
       "delivered_ms": 1793354310874
+    },
+    {
+      "id": "0071a86b4bfdaf8dc4b96948",
+      "asset_id": "4432fc812e9a86571364ebe5",
+      "phase": "cancelled",
+      "observed_ms": 1793355243125,
+      "delivered_ms": 1793355253365
     }
   ],
   "runs": [
