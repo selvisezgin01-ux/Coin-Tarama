@@ -1382171,104 +1382171,7 @@
     "MEXC:SPOT:RAYUSDT": 1793353101305,
     "MEXC:PERP:SOPHUSDT": 1793353101650
   },
-  "pending": [
-    {
-      "id": "10340d1522067dc9dc4618eb",
-      "asset_id": "5e15ca2b56969aeb696679f5",
-      "key": "MEXC:SPOT:RAYUSDT",
-      "symbol": "RAYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793353101305,
-      "price": 1.6149499999999999,
-      "level": 1.5979,
-      "invalid": 1.5328546246373103,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.5979,
-        "base_invalid": 1.5328546246373103,
-        "atr": 0.017635835751265202,
-        "rvol": 3.029562762833847,
-        "close_position": 0.9807692307692328,
-        "breakout": true,
-        "bar_close_ms": 1793331000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3956281375103083,
-        "score": 5.01033199360308
-      },
-      "context": {
-        "atr": 0.012562194472999227,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3528662521086079,
-        "btc_hour_pct": -0.19840224222290592,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RAYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793331000000
-    },
-    {
-      "id": "184c391dfca849e2e4c8475a",
-      "asset_id": "09fa575a5b8e8bb5df30adba",
-      "key": "MEXC:PERP:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793353101650,
-      "price": 0.0017185,
-      "level": 0.001308,
-      "invalid": 0.0011827829278369146,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001308,
-        "base_invalid": 0.0011827829278369146,
-        "atr": 3.47804810872359e-05,
-        "rvol": 2.952366594538264,
-        "close_position": 0.7647058823529406,
-        "breakout": true,
-        "bar_close_ms": 1793331000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.910246227164429,
-        "score": 4.717072476891205
-      },
-      "context": {
-        "atr": 5.778093073674234e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.1382714976002406,
-        "btc_hour_pct": -0.20205484272609597,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOPHUSDT",
-          "change_pct": -0.7334793296779218,
-          "old_ms": 1793349488192,
-          "current_ms": 1793353099152,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0883,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793331000000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1383291,6 +1383194,20 @@
       "phase": "radar",
       "observed_ms": 1793352804432,
       "delivered_ms": 1793352812675
+    },
+    {
+      "id": "10340d1522067dc9dc4618eb",
+      "asset_id": "5e15ca2b56969aeb696679f5",
+      "phase": "expired",
+      "observed_ms": 1793353101305,
+      "delivered_ms": 1793353109908
+    },
+    {
+      "id": "184c391dfca849e2e4c8475a",
+      "asset_id": "09fa575a5b8e8bb5df30adba",
+      "phase": "expired",
+      "observed_ms": 1793353101650,
+      "delivered_ms": 1793353109908
     }
   ],
   "runs": [
