@@ -427,50 +427,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "cc8349cbf7598a7400d3952e",
-      "created_ms": 1793350557805,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "XRBUSDT",
-          "observed_ms": 1793350557741,
-          "feature_cutoff_ms": 1793347200000,
-          "mid_price": 1.6517499999999998,
-          "spread_pct": 0.7083396397759979,
-          "return24_pct": 2.7050448777468317,
-          "relative24_pct_points": 4.820872379272457,
-          "quote_volume24": 139541.5313,
-          "liquidity_band": "main",
-          "breakout_level": 1.6449,
-          "breakout_open_ms": 1793332800000.0,
-          "breakout_volume_ratio": 2.0027886799445302,
-          "strength_score": 75,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 1.5605056321297357,
-          "atr": 0.04717747148105737,
-          "close": 1.6592,
-          "paper_controls": [
-            {
-              "symbol": "HGPTUSDT",
-              "entry_price": 0.0014529500000000002
-            },
-            {
-              "symbol": "VTHOUSDT",
-              "entry_price": 0.00056945
-            },
-            {
-              "symbol": "SANDUSDT",
-              "entry_price": 0.04632
-            }
-          ],
-          "paper_btc_price": 78041.715,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793350557805,
   "paper": {
     "version": "github-paper-v1",
