@@ -1362138,147 +1362138,7 @@
     "OKX:SPOT:GRASSUSDT": 1793351006822,
     "MEXC:SPOT:DUSKUSDT": 1793351009184
   },
-  "pending": [
-    {
-      "id": "34e6f548923b80bacf015d62",
-      "asset_id": "0e87e1833c49140349e020d3",
-      "key": "OKX:SPOT:GRASSUSDT",
-      "symbol": "GRASSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793351006822,
-      "price": 0.5882000000000001,
-      "level": 0.5795,
-      "invalid": 0.5589645422297933,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5795,
-        "base_invalid": 0.5589645422297933,
-        "atr": 0.008236385134711645,
-        "rvol": 26.411364704144805,
-        "close_position": 0.9813664596273313,
-        "breakout": true,
-        "bar_close_ms": 1793339100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.010790114862516,
-        "score": 7.981366459627331
-      },
-      "context": {
-        "atr": 0.006102481949659844,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1111088080717368,
-        "btc_hour_pct": -0.23542199488492122,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRASSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793339100000
-    },
-    {
-      "id": "cc9c21c311ac0e2193d69b05",
-      "asset_id": "5db469afe3732ac1c0c56f57",
-      "key": "OKX:SPOT:XDPUSDT",
-      "symbol": "XDPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793351006822,
-      "price": 0.0187305,
-      "level": 0.018497,
-      "invalid": 0.01807247710444672,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.018497,
-        "base_invalid": 0.01807247710444672,
-        "atr": 0.0001834859703552094,
-        "rvol": 2.6128542075183625,
-        "close_position": 0.9363636363636358,
-        "breakout": true,
-        "bar_close_ms": 1793345400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3262178434592107,
-        "score": 4.549217843881999
-      },
-      "context": {
-        "atr": 0.0001919871594458726,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.10246448810408149,
-        "btc_hour_pct": -0.23542199488492122,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XDPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793345400000
-    },
-    {
-      "id": "61282f10551e8cf278bbee09",
-      "asset_id": "066057814e9dad46ae13f2c3",
-      "key": "MEXC:SPOT:DUSKUSDT",
-      "symbol": "DUSKUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793351009184,
-      "price": 0.090725,
-      "level": 0.09176,
-      "invalid": 0.08905017183812598,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09176,
-        "base_invalid": 0.08905017183812598,
-        "atr": 0.0011988544124934572,
-        "rvol": 2.293305102301464,
-        "close_position": 0.9638554216867442,
-        "breakout": true,
-        "bar_close_ms": 1793349000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.952380952380949,
-        "score": 4.257160523988208
-      },
-      "context": {
-        "atr": 0.001206347233616285,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.984670237793217,
-        "btc_hour_pct": -0.19840224222290592,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DUSKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793349000000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1363245,6 +1363105,27 @@
       "phase": "radar",
       "observed_ms": 1793350701718,
       "delivered_ms": 1793350708817
+    },
+    {
+      "id": "34e6f548923b80bacf015d62",
+      "asset_id": "0e87e1833c49140349e020d3",
+      "phase": "expired",
+      "observed_ms": 1793351006822,
+      "delivered_ms": 1793351016736
+    },
+    {
+      "id": "cc9c21c311ac0e2193d69b05",
+      "asset_id": "5db469afe3732ac1c0c56f57",
+      "phase": "cancelled",
+      "observed_ms": 1793351006822,
+      "delivered_ms": 1793351016736
+    },
+    {
+      "id": "61282f10551e8cf278bbee09",
+      "asset_id": "066057814e9dad46ae13f2c3",
+      "phase": "cancelled",
+      "observed_ms": 1793351009184,
+      "delivered_ms": 1793351016736
     }
   ],
   "runs": [
