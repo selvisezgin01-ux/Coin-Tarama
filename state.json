@@ -1418913,204 +1418913,7 @@
     "OKX:PERP:ZROUSDT": 1793356743443,
     "OKX:PERP:WETUSDT": 1793357348900
   },
-  "pending": [
-    {
-      "id": "fe69af47a429e253dc57728c",
-      "asset_id": "2b7eac6641b0d3c83d94fdef",
-      "key": "MEXC:SPOT:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793357348825,
-      "price": 1.52821,
-      "level": 1.498618,
-      "invalid": 1.4904820232099412,
-      "target": 1.6265891035801179,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.498618,
-        "base_invalid": 1.4122840232099412,
-        "atr": 0.03214651193372535,
-        "rvol": 5.634234601154915,
-        "close_position": 0.777729183370995,
-        "breakout": true,
-        "bar_close_ms": 1793355300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8695523887375822,
-        "score": 7.41196378452591
-      },
-      "context": {
-        "atr": 0.03177488739006686,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.801585219130065,
-        "btc_hour_pct": -0.44477083785915417,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 1.4904820232099412,
-        "target": 1.6265891035801179,
-        "risk_pct": 2.4687691344814455,
-        "planning_cost_pct": 0.5,
-        "resistance": 1.732472,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 1.514844,
-        "entry_zone_high": 1.5307314436950334
-      },
-      "reason": null,
-      "source_close_ms": 1793357100000
-    },
-    {
-      "id": "1b3aa7c5d22f5860d33a7ae0",
-      "asset_id": "521802a40ef51b5b5e8345bd",
-      "key": "OKX:PERP:WETUSDT",
-      "symbol": "WETUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793357348900,
-      "price": 0.052925,
-      "level": 0.05358,
-      "invalid": 0.05265280953433048,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05358,
-        "base_invalid": 0.05265280953433048,
-        "atr": 0.0005146031044634974,
-        "rvol": 10.374011447368975,
-        "close_position": 0.6978417266187064,
-        "breakout": true,
-        "bar_close_ms": 1793356200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7286734310409502,
-        "score": 7.697841726618706
-      },
-      "context": {
-        "atr": 0.0006222386503754175,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.17054429814933325,
-        "btc_hour_pct": -0.4470862464885039,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793356200000
-    },
-    {
-      "id": "95576afb609682089bacaf20",
-      "asset_id": "ba151ff33dfcfcb624fdf413",
-      "key": "OKX:SPOT:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793357346378,
-      "price": 0.091555,
-      "level": 0.0911,
-      "invalid": 0.0886292381522218,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0911,
-        "base_invalid": 0.0886292381522218,
-        "atr": 0.0006717456518546811,
-        "rvol": 7.780940976938346,
-        "close_position": 0.6950354609929098,
-        "breakout": true,
-        "bar_close_ms": 1793357100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4252568776930818,
-        "score": 7.6950354609929095
-      },
-      "context": {
-        "atr": 0.0006717456518546811,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7960697524455727,
-        "btc_hour_pct": -0.4459347389442314,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793357100000
-    },
-    {
-      "id": "b10a35f72787c524df69dd81",
-      "asset_id": "078fb346dd87f8ce5a8919db",
-      "key": "MEXC:SPOT:MEYUSDT",
-      "symbol": "MEYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793357348825,
-      "price": 0.045695,
-      "level": 0.04586,
-      "invalid": 0.04477691228278862,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04586,
-        "base_invalid": 0.04477691228278862,
-        "atr": 0.00035391811474252537,
-        "rvol": 12.603098820073841,
-        "close_position": 0.903846153846151,
-        "breakout": false,
-        "bar_close_ms": 1793357100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.3300820217246878,
-        "score": 7.403846153846151
-      },
-      "context": {
-        "atr": 0.00035391811474252537,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.21442494328784978,
-        "btc_hour_pct": -0.44477083785915417,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MEYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793357100000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1420217,6 +1420020,34 @@
       "phase": "expired",
       "observed_ms": 1793356743443,
       "delivered_ms": 1793356752966
+    },
+    {
+      "id": "fe69af47a429e253dc57728c",
+      "asset_id": "2b7eac6641b0d3c83d94fdef",
+      "phase": "triggered",
+      "observed_ms": 1793357348825,
+      "delivered_ms": 1793357355346
+    },
+    {
+      "id": "1b3aa7c5d22f5860d33a7ae0",
+      "asset_id": "521802a40ef51b5b5e8345bd",
+      "phase": "cancelled",
+      "observed_ms": 1793357348900,
+      "delivered_ms": 1793357355346
+    },
+    {
+      "id": "95576afb609682089bacaf20",
+      "asset_id": "ba151ff33dfcfcb624fdf413",
+      "phase": "radar",
+      "observed_ms": 1793357346378,
+      "delivered_ms": 1793357355346
+    },
+    {
+      "id": "b10a35f72787c524df69dd81",
+      "asset_id": "078fb346dd87f8ce5a8919db",
+      "phase": "radar",
+      "observed_ms": 1793357348825,
+      "delivered_ms": 1793357355346
     }
   ],
   "runs": [
@@ -1433792,7 +1433623,8 @@
         "outcomes": {},
         "source_close_ms": 1793357100000,
         "observation_lag_ms": 248825,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 6521
       },
       "POLUSDT:radar": {
         "symbol": "POLUSDT",
@@ -1433811,7 +1433643,8 @@
         "outcomes": {},
         "source_close_ms": 1793357100000,
         "observation_lag_ms": 246378,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8968
       },
       "MEYUSDT:radar": {
         "symbol": "MEYUSDT",
@@ -1433830,7 +1433663,8 @@
         "outcomes": {},
         "source_close_ms": 1793357100000,
         "observation_lag_ms": 248825,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6521
       }
     },
     "errors": [],
