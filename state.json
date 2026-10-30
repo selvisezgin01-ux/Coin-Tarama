@@ -1048822,60 +1048822,7 @@
       "source_close_ms": 1793366100000
     }
   },
-  "pending": [
-    {
-      "id": "458a9ec6002a65f2ab5d6592",
-      "asset_id": "91a9ed36d88d551440536bf1",
-      "key": "MEXC:SPOT:JUPUSDT",
-      "symbol": "JUPUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793366921166,
-      "price": 0.25365,
-      "level": 0.2572,
-      "invalid": 0.2537598697611027,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2572,
-        "base_invalid": 0.2537598697611027,
-        "atr": 0.0016008682593153373,
-        "rvol": 4.280670752660533,
-        "close_position": 0.9500000000000055,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 0.235017626321965,
-        "score": 5.730670752660538
-      },
-      "context": {
-        "atr": 0.0015794452254452491,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1189030178555539,
-        "btc_hour_pct": 0.11611460846641108,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:JUPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JUPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1048975,6 +1048922,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793366629747
+    },
+    {
+      "id": "458a9ec6002a65f2ab5d6592",
+      "asset_id": "91a9ed36d88d551440536bf1",
+      "key": "MEXC:SPOT:JUPUSDT",
+      "symbol": "JUPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793366921166,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793366927413
     }
   ],
   "runs": [
