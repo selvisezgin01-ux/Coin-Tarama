@@ -43,3 +43,74 @@ Aynı sembol küresel listede bir kez seçilir; farklı borsaların OI/hacimleri
 [MEXC kontrat verileri](https://www.mexc.com/api-docs/futures/market-endpoints/get-ticker-contract-market-data) · [MEXC fonlama](https://www.mexc.com/api-docs/futures/market-endpoints/get-funding-rate) · [OKX kamu verileri](https://www.okx.com/docs-v5/en/#public-data-rest-api-get-open-interest)
 
 <!-- shortcu-kistir:v1 -->
+
+<!-- shortcu-comparison:start -->
+
+## Ücretsiz karşılaştırmalı deney — sessiz ölçüm
+
+Aynı ilk uygun gözlemde en çok 50 farklı sembol. Şu an 28 kayıt. Bildirim eklenmez; mevcut Shortçu Kıstır kuralları ve eski fiyatlar korunur.
+
+Aynı anda tüm faktörler biliniyorsa kayda alınır. Eksik OI geçmişi, fonlama veya fiyat bilinmiyor kalır; olumsuz koşula veya 0 puana dönüştürülmez. Aynı sembol iki borsada iki bağımsız örnek sayılmaz.
+
+| Grup | Koşul | Kayıt | Ölçülen 12s | Medyan % | BTC üstü puan | Kontrol üstü puan | Girişe göre dip % | Girişe göre tepe % |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| A | Teknik temel + ortak vadeli işlem koşulları | 28 | 12 | -3.08 | -2.23 | -1.41 | -3.36 | +0.86 |
+| B | A + negatif fonlama | 0 | 0 | — | — | — | — | — |
+| C | A + OI artışı ve fiyat tutunması | 2 | 0 | — | — | — | — | — |
+| D | A + fonlama + OI/fiyat birlikte | 0 | 0 | — | — | — | — | — |
+
+**Henüz üstünlük/başarı iddiası yok.** Ana karşılaştırma 12 saat; 6/24/48 saat ikincildir. Gruplar örtüşür, grup sayıları toplanarak bağımsız başarı hesaplanmaz. A da aynı borsada geçerli perpetual/likidite/makas/fiyat farkı şartlarına tabidir; bütün spot piyasanın kontrol grubu değildir.
+
+Aynı başlangıç fiyatındaki koşullu karşılaştırmadır; bir coin saatler sonra yeni bir şartı sağladığında geriye dönük grup değiştirilmez. Bu nedenle D, mevcut üretim sinyallerinin tümünün birebir kopyası değildir; ilk ortak uygun gözlemde birlikte sağlanan koşulları ölçer. Üretimin kendi gerçek sinyal ölçümleri yukarıda ayrıca sürer.
+
+Her grupta en az 20 tamamlanmış gözlem olmadan ilk değerlendirme yapılmaz. İlk 25 / sonraki 25 kayıt ayrı tutulur; dönem arasında sonuçlara bakıp eşik değiştirilmez. Bunlar istatistiksel kesinlik veya bağımsız piyasa rejimleri anlamına gelmez.
+
+Maliyet duyarlılığı (gerçek gerçekleşme/net kâr değildir): gidiş-dönüş %0.2 / %0.5 / %1 toplam maliyet varsayımı getiriden ayrı düşülür. Sabit maliyet senaryosu gerçek hesap komisyonu, kayma, vergi veya vadeli fonlamanın ölçüldüğü anlamına gelmez.
+
+| Grup | Ölçülen | %0.2 maliyet sonrası pozitif | %0.5 sonrası | %1 sonrası |
+|---|---:|---:|---:|---:|
+| A | 12 | %8.3 | %8.3 | %8.3 |
+| B | 0 | — | — | — |
+| C | 0 | — | — | — |
+| D | 0 | — | — | — |
+
+Ölçüm: girişten sonraki ilk TAM 1dk mumdan hedefin ilk dakika kapanışına kadar. Giriş mumunun kalan <1 dakikası dip/tepe hesabına dahil edilmez; tam işlem aralığının mutlak tepe/dibi olduğu iddia edilmez. Eksik ara mum varsa dip/tepe bilinmiyor; eksik sonuçlar sıfır getiri sayılmaz.
+
+## Deneyin gerçek gözlem kayıtları
+
+| No | Coin | Borsa | Grup üyelikleri | Gerçek gözlem TR | Spot referans | Kaynak kapanışından gecikme dk |
+|---:|---|---|---|---|---:|---:|
+| 1 | SUIUSDT | MEXC | A | 28.10.2026 03:55 | 0.93185 | 55.2 |
+| 2 | NIGHTUSDT | OKX | A | 28.10.2026 03:55 | 0.041944 | 55.2 |
+| 3 | BCHUSDT | OKX | A | 28.10.2026 07:48 | 297.99 | 48.7 |
+| 4 | AAVEUSDT | MEXC | A | 28.10.2026 07:48 | 135.305 | 48.7 |
+| 5 | XRPUSDT | OKX | A | 28.10.2026 07:48 | 1.33025 | 48.7 |
+| 6 | FILUSDT | OKX | A | 28.10.2026 07:48 | 0.91465 | 48.7 |
+| 7 | ZECUSDT | OKX | A | 28.10.2026 07:48 | 1319.48 | 48.7 |
+| 8 | ZAMAUSDT | MEXC | A | 28.10.2026 11:57 | 0.078535 | 57.6 |
+| 9 | BNBUSDT | MEXC | A | 28.10.2026 15:56 | 755.41 | 56.2 |
+| 10 | PONSUSDT | MEXC | A | 28.10.2026 15:56 | 0.2839625 | 56.2 |
+| 11 | PROSUSDT | OKX | A | 28.10.2026 15:56 | 0.63045 | 56.2 |
+| 12 | XPLUSDT | OKX | A | 28.10.2026 19:56 | 0.07642 | 56.5 |
+| 13 | BICOUSDT | OKX | A | 28.10.2026 19:56 | 0.01588 | 56.5 |
+| 14 | PENGUUSDT | OKX | A | 28.10.2026 23:46 | 0.0078725 | 46.8 |
+| 15 | ARBUSDT | OKX | A | 28.10.2026 23:46 | 0.173985 | 46.8 |
+| 16 | TIAUSDT | OKX | A | 28.10.2026 23:46 | 0.5568 | 46.8 |
+| 17 | ICPUSDT | MEXC | A | 28.10.2026 23:46 | 2.6345 | 46.8 |
+| 18 | PUMPUSDT | OKX | A | 28.10.2026 23:46 | 0.004466 | 46.8 |
+| 19 | ETHFIUSDT | MEXC | A,C | 29.10.2026 03:56 | 0.68225 | 56.1 |
+| 20 | EDGEUSDT | OKX | A | 29.10.2026 03:56 | 0.35675 | 56.1 |
+| 21 | KASUSDT | MEXC | A | 29.10.2026 03:56 | 0.0371365 | 56.1 |
+| 22 | PIUSDT | MEXC | A,C | 29.10.2026 15:55 | 0.078735 | 56.0 |
+| 23 | ZROUSDT | OKX | A | 29.10.2026 19:59 | 1.75415 | 59.6 |
+| 24 | ASTERUSDT | MEXC | A | 29.10.2026 19:59 | 0.71855 | 59.6 |
+| 25 | LITUSDT | OKX | A | 29.10.2026 19:59 | 3.2417 | 59.6 |
+| 26 | UNIUSDT | OKX | A | 29.10.2026 19:59 | 7.372 | 59.6 |
+| 27 | DYDXUSDT | MEXC | A | 29.10.2026 19:59 | 0.11543 | 59.6 |
+| 28 | DUSKUSDT | MEXC | A | 29.10.2026 23:48 | 0.09759 | 48.8 |
+
+Dış likidasyon haritası / büyük yatırımcı pozisyon oranı API bağlantısı yok; bu alanlar hesaplanmış veya doğrulanmış kabul edilmez. Ücretsiz deney mevcut kamu verisinin katkısını sınar. Dört saatlik teknik kaynak ve GitHub gecikmesi hızlı squeeze hareketlerini kaçırabilir; gecikme yukarıda kayıtlıdır.
+
+Son kayıt elemesi: {}
+Fiyat kaynağı hataları: {}
+Ölçüm erişim/veri hatası: 0.

@@ -157382,7 +157382,31 @@
         "feature_cutoff_ms": 1793289600000,
         "source_lag_minutes": 59.63348333333333,
         "entry_spread_pct": 0.005700766753127668,
-        "outcomes": {}
+        "outcomes": {
+          "6": {
+            "target_ms": 1793314778009,
+            "endpoint_ms": 1793314800000,
+            "endpoint_delay_ms": 21991,
+            "endpoint_price": 1.5702,
+            "return_pct": -10.4865604423795,
+            "btc_excess_pct_points": -7.751950050650746,
+            "control_excess_pct_points": -1.4685243702352118,
+            "mae_pct": -11.77493372858649,
+            "mfe_pct": 0.8465638628395444,
+            "path_complete": true,
+            "minute_bars": 360,
+            "range_start_ms": 1793293200000,
+            "ignored_entry_fragment_ms": 21991,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -10.686560442379498,
+              "0.5": -10.9865604423795,
+              "1.0": -11.4865604423795
+            },
+            "measured_ms": 1793321674426
+          }
+        },
+        "last_measure_attempt_ms": 1793321674426
       },
       "ASTERUSDT": {
         "symbol": "ASTERUSDT",
@@ -157434,7 +157458,31 @@
         "feature_cutoff_ms": 1793289600000,
         "source_lag_minutes": 59.6352,
         "entry_spread_pct": 0.013916916011410336,
-        "outcomes": {}
+        "outcomes": {
+          "6": {
+            "target_ms": 1793314778112,
+            "endpoint_ms": 1793314800000,
+            "endpoint_delay_ms": 21888,
+            "endpoint_price": 0.6929,
+            "return_pct": -3.569688956927153,
+            "btc_excess_pct_points": -0.8703268945914444,
+            "control_excess_pct_points": -0.4226041512734202,
+            "mae_pct": -5.197968130262332,
+            "mfe_pct": 0.17396145014263453,
+            "path_complete": true,
+            "minute_bars": 360,
+            "range_start_ms": 1793293200000,
+            "ignored_entry_fragment_ms": 21888,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -3.769688956927153,
+              "0.5": -4.069688956927153,
+              "1.0": -4.569688956927153
+            },
+            "measured_ms": 1793321674426
+          }
+        },
+        "last_measure_attempt_ms": 1793321674426
       },
       "LITUSDT": {
         "symbol": "LITUSDT",
@@ -157486,7 +157534,31 @@
         "feature_cutoff_ms": 1793289600000,
         "source_lag_minutes": 59.63348333333333,
         "entry_spread_pct": 0.018508807107379892,
-        "outcomes": {}
+        "outcomes": {
+          "6": {
+            "target_ms": 1793314778009,
+            "endpoint_ms": 1793314800000,
+            "endpoint_delay_ms": 21991,
+            "endpoint_price": 2.7948,
+            "return_pct": -13.785976493814967,
+            "btc_excess_pct_points": -11.051366102086213,
+            "control_excess_pct_points": -3.267103438229192,
+            "mae_pct": -16.232223833173943,
+            "mfe_pct": 0.4596353765000005,
+            "path_complete": true,
+            "minute_bars": 360,
+            "range_start_ms": 1793293200000,
+            "ignored_entry_fragment_ms": 21991,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -13.985976493814967,
+              "0.5": -14.285976493814967,
+              "1.0": -14.785976493814967
+            },
+            "measured_ms": 1793321674426
+          }
+        },
+        "last_measure_attempt_ms": 1793321674426
       },
       "UNIUSDT": {
         "symbol": "UNIUSDT",
@@ -157538,7 +157610,31 @@
         "feature_cutoff_ms": 1793289600000,
         "source_lag_minutes": 59.63348333333333,
         "entry_spread_pct": 0.02712967986977455,
-        "outcomes": {}
+        "outcomes": {
+          "6": {
+            "target_ms": 1793314778009,
+            "endpoint_ms": 1793314800000,
+            "endpoint_delay_ms": 21991,
+            "endpoint_price": 6.431,
+            "return_pct": -12.764514378730329,
+            "btc_excess_pct_points": -10.029903987001575,
+            "control_excess_pct_points": -2.304359840614767,
+            "mae_pct": -15.15192620727075,
+            "mfe_pct": 0.10851871947910041,
+            "path_complete": true,
+            "minute_bars": 360,
+            "range_start_ms": 1793293200000,
+            "ignored_entry_fragment_ms": 21991,
+            "complete": true,
+            "cost_scenarios_pct": {
+              "0.2": -12.964514378730328,
+              "0.5": -13.264514378730329,
+              "1.0": -13.764514378730329
+            },
+            "measured_ms": 1793321674426
+          }
+        },
+        "last_measure_attempt_ms": 1793321674426
       },
       "DYDXUSDT": {
         "symbol": "DYDXUSDT",
@@ -157647,35 +157743,33 @@
     },
     "errors": [],
     "registration": {
-      "observed_ms": 1793306930732,
-      "added": [
-        "DUSKUSDT"
-      ],
+      "observed_ms": 1793321674426,
+      "added": [],
       "skipped": {},
       "quote_errors": {}
     },
     "measurement": {
-      "observed_ms": 1793306930732,
-      "pending": 14,
+      "observed_ms": 1793321674426,
+      "pending": 15,
       "attempted": 4,
-      "unique_reads": 23
+      "unique_reads": 16
     },
-    "updated_ms": 1793306930732,
+    "updated_ms": 1793321674426,
     "summaries": {
       "6": {
         "A": {
           "cases": 28,
-          "measured": 22,
-          "median_return_pct": -0.6428589500261372,
-          "median_btc_excess_pct_points": -0.999493399677609,
-          "median_controls_excess_pct_points": -0.4353877140549467,
-          "control_comparisons": 22,
-          "median_mae_pct": -1.3607270596961263,
-          "median_mfe_pct": 1.3871872168772503,
+          "measured": 26,
+          "median_return_pct": -2.1994238683477993,
+          "median_btc_excess_pct_points": -1.1101803861611026,
+          "median_controls_excess_pct_points": -0.5998513099519043,
+          "control_comparisons": 26,
+          "median_mae_pct": -3.2203334529336716,
+          "median_mfe_pct": 0.9129164608163154,
           "positive_after_cost_fraction": {
-            "0.2": 0.3181818181818182,
-            "0.5": 0.18181818181818182,
-            "1.0": 0.045454545454545456
+            "0.2": 0.2692307692307692,
+            "0.5": 0.15384615384615385,
+            "1.0": 0.038461538461538464
           },
           "enough_for_initial_review": true
         },
