@@ -1093478,108 +1093478,7 @@
     "MEXC:PERP:NILUSDT": 1793363696070,
     "MEXC:PERP:TAGUSDT": 1793363696070
   },
-  "pending": [
-    {
-      "id": "c10a4127ea9a022ac9310f0a",
-      "asset_id": "214194a2302ed690e53c41a9",
-      "key": "MEXC:PERP:NILUSDT",
-      "symbol": "NILUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793363696070,
-      "price": 0.077815,
-      "level": 0.07723,
-      "invalid": 0.07474443303659563,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07723,
-        "base_invalid": 0.07474443303659563,
-        "atr": 0.0010371130893624847,
-        "rvol": 2.137709856977385,
-        "close_position": 0.8018018018018036,
-        "breakout": true,
-        "bar_close_ms": 1793360700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7234267583289284,
-        "score": 3.939511658779189
-      },
-      "context": {
-        "atr": 0.001093817394227299,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.9479486276965283,
-        "btc_hour_pct": -0.577287200060661,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NILUSDT",
-          "change_pct": -0.7500517080559543,
-          "old_ms": 1793360032136,
-          "current_ms": 1793363694976,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0781,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793360700000
-    },
-    {
-      "id": "39909a59d8e9bb304587b539",
-      "asset_id": "822eb0761d5f270a82f3a0b5",
-      "key": "MEXC:PERP:TAGUSDT",
-      "symbol": "TAGUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793363696070,
-      "price": 0.0007358,
-      "level": 0.0007319,
-      "invalid": 0.0007136795518735904,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0007319,
-        "base_invalid": 0.0007136795518735904,
-        "atr": 1.0136320842731287e-05,
-        "rvol": 2.4492331384015595,
-        "close_position": 0.7070707070707062,
-        "breakout": true,
-        "bar_close_ms": 1793360700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0413793103448263,
-        "score": 4.156303845472266
-      },
-      "context": {
-        "atr": 1.0276689372288129e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.249463508600614,
-        "btc_hour_pct": -0.577287200060661,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TAGUSDT",
-          "change_pct": 0.5158205815214201,
-          "old_ms": 1793360032249,
-          "current_ms": 1793363695089,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.006200000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793360700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1094833,6 +1094732,20 @@
       "phase": "radar",
       "observed_ms": 1793362793081,
       "delivered_ms": 1793362801275
+    },
+    {
+      "id": "c10a4127ea9a022ac9310f0a",
+      "asset_id": "214194a2302ed690e53c41a9",
+      "phase": "cancelled",
+      "observed_ms": 1793363696070,
+      "delivered_ms": 1793363701998
+    },
+    {
+      "id": "39909a59d8e9bb304587b539",
+      "asset_id": "822eb0761d5f270a82f3a0b5",
+      "phase": "cancelled",
+      "observed_ms": 1793363696070,
+      "delivered_ms": 1793363701998
     }
   ],
   "runs": [
