@@ -1451869,7 +1451869,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793359160356,
+      "duration_ms": 26637
     }
   ],
   "measurements": {
@@ -1456760,13 +1456762,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793359041504,
+            "endpoint_ms": 1793359080000,
+            "endpoint_price": 0.00375,
+            "return_pct": -1.003167898627244,
+            "btc_excess_pct_points": 0.05453049495441897,
+            "mae_pct": -2.7191129883843645,
+            "mfe_pct": 2.3231256599788974,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 38496,
+            "measured_ms": 1793359159730,
+            "cost_scenarios_pct": {
+              "0.2": -1.203167898627244,
+              "0.5": -1.503167898627244,
+              "1": -2.003167898627244
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793344500000,
         "observation_lag_ms": 141504,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 7101,
-        "last_measure_attempt_ms": 1793348611437
+        "last_measure_attempt_ms": 1793359159730
       },
       "WETUSDT:radar": {
         "symbol": "WETUSDT",
@@ -1457605,20 +1457629,20 @@
     "queue": {
       "due": 1,
       "attempted": 1,
-      "observed_ms": 1793358857497,
+      "observed_ms": 1793359159730,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 83,
+        "unique_symbol_labels": 84,
         "hours": {
           "1": {
             "known": 79,
             "median_pct": -0.04506534474990609
           },
           "4": {
-            "known": 63,
-            "median_pct": -0.33670033670035737
+            "known": 64,
+            "median_pct": -0.3887397602739706
           },
           "12": {
             "known": 24,
