@@ -1375460,106 +1375460,7 @@
     "MEXC:SPOT:STABLEUSDT": 1793352201790,
     "MEXC:PERP:1000RATSUSDT": 1793352202140
   },
-  "pending": [
-    {
-      "id": "1a7ad279d39525198cb6645c",
-      "asset_id": "02300338da7b293b4b3e8137",
-      "key": "MEXC:SPOT:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793352201790,
-      "price": 0.025905,
-      "level": 0.024837,
-      "invalid": 0.02411282230913164,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.024837,
-        "base_invalid": 0.02411282230913164,
-        "atr": 0.00026785127245573126,
-        "rvol": 7.190684437133845,
-        "close_position": 0.6631299734748036,
-        "breakout": true,
-        "bar_close_ms": 1793330100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6407967600628144,
-        "score": 7.6631299734748035
-      },
-      "context": {
-        "atr": 0.0001595056349416076,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6436554557895824,
-        "btc_hour_pct": -0.19840224222290592,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793330100000
-    },
-    {
-      "id": "2aeeb1f7826482ff23cd2a49",
-      "asset_id": "054763582cfb50111a73cab4",
-      "key": "MEXC:PERP:1000RATSUSDT",
-      "symbol": "1000RATSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793352202140,
-      "price": 0.016055,
-      "level": 0.01648,
-      "invalid": 0.016105144300891786,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01648,
-        "base_invalid": 0.016105144300891786,
-        "atr": 0.00023237132738810977,
-        "rvol": 3.181018904786073,
-        "close_position": 0.8666666666666497,
-        "breakout": false,
-        "bar_close_ms": 1793332800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.42918454935620964,
-        "score": 4.547685571452723
-      },
-      "context": {
-        "atr": 0.00014697684937239452,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.16626928250409456,
-        "btc_hour_pct": -0.20205484272609597,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:1000RATSUSDT",
-          "change_pct": -3.5062182735308034,
-          "old_ms": 1793348590585,
-          "current_ms": 1793352199354,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793332800000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1376561,6 +1376462,20 @@
       "phase": "radar",
       "observed_ms": 1793351904903,
       "delivered_ms": 1793351914423
+    },
+    {
+      "id": "1a7ad279d39525198cb6645c",
+      "asset_id": "02300338da7b293b4b3e8137",
+      "phase": "expired",
+      "observed_ms": 1793352201790,
+      "delivered_ms": 1793352210801
+    },
+    {
+      "id": "2aeeb1f7826482ff23cd2a49",
+      "asset_id": "054763582cfb50111a73cab4",
+      "phase": "cancelled",
+      "observed_ms": 1793352202140,
+      "delivered_ms": 1793352210801
     }
   ],
   "runs": [
