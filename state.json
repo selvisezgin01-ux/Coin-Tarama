@@ -926207,58 +926207,7 @@
       "source_close_ms": 1793374200000
     }
   },
-  "pending": [
-    {
-      "id": "9885b00275a5846aa2270290",
-      "asset_id": "a0b1278f8a75c4888bf4423a",
-      "key": "OKX:SPOT:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793374458883,
-      "price": 0.02876,
-      "level": 0.02866,
-      "invalid": 0.02794117455041875,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02866,
-        "base_invalid": 0.02794117455041875,
-        "atr": 0.0002588363305416716,
-        "rvol": 2.464792308519984,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793368800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8734535171438749,
-        "score": 4.464792308519984
-      },
-      "context": {
-        "atr": 0.00028198672599435087,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6693732070316427,
-        "btc_hour_pct": 0.09398557159432386,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -926578,6 +926527,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793373867350
+    },
+    {
+      "id": "9885b00275a5846aa2270290",
+      "asset_id": "a0b1278f8a75c4888bf4423a",
+      "key": "OKX:SPOT:HUMAUSDT",
+      "symbol": "HUMAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793374458883,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793374464526
     }
   ],
   "runs": [
