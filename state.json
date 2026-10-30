@@ -1271798,65 +1271798,7 @@
     "OKX:SPOT:XLMUSDT": 1793340087304,
     "MEXC:PERP:UAIUSDT": 1793340988504
   },
-  "pending": [
-    {
-      "id": "9232fd5536140e0afddafef8",
-      "asset_id": "2fcddabf86537a48acd21413",
-      "key": "MEXC:SPOT:FARTCOINUSDT",
-      "symbol": "FARTCOINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793341943997,
-      "price": 0.11898500000000001,
-      "level": 0.11801,
-      "invalid": 0.11771425488213788,
-      "target": 0.12331126523572428,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11801,
-        "base_invalid": 0.11376425488213789,
-        "atr": 0.0015716341190807495,
-        "rvol": 6.927791799127495,
-        "close_position": 0.7868852459016308,
-        "breakout": true,
-        "bar_close_ms": 1793334600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.223277288962456,
-        "score": 7.7868852459016304
-      },
-      "context": {
-        "atr": 0.0012960360411419548,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4367691434229104,
-        "btc_hour_pct": 0.3695309521302592,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FARTCOINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.11771425488213788,
-        "target": 0.12331126523572428,
-        "risk_pct": 1.0679876605136163,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.1265,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.1189,
-        "entry_zone_high": 0.11954801802057098
-      },
-      "reason": null,
-      "source_close_ms": 1793341800000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1272606,6 +1272548,13 @@
       "phase": "radar",
       "observed_ms": 1793341283251,
       "delivered_ms": 1793341291316
+    },
+    {
+      "id": "9232fd5536140e0afddafef8",
+      "asset_id": "2fcddabf86537a48acd21413",
+      "phase": "triggered",
+      "observed_ms": 1793341943997,
+      "delivered_ms": 1793341951984
     }
   ],
   "runs": [
@@ -1281838,7 +1281787,8 @@
         "outcomes": {},
         "source_close_ms": 1793341800000,
         "observation_lag_ms": 143997,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 7987
       }
     },
     "errors": [],
