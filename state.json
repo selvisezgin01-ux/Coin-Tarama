@@ -1040407,168 +1040407,7 @@
     }
   },
   "last_closed": {},
-  "pending": [
-    {
-      "id": "4f1d9cafca55b63a66a749d1",
-      "asset_id": "91a9ed36d88d551440536bf1",
-      "key": "MEXC:SPOT:JUPUSDT",
-      "symbol": "JUPUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793365745237,
-      "price": 0.2551,
-      "level": 0.2572,
-      "invalid": 0.2537598697611027,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2572,
-        "base_invalid": 0.2537598697611027,
-        "atr": 0.0016008682593153373,
-        "rvol": 4.280670752660533,
-        "close_position": 0.9500000000000055,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 0.235017626321965,
-        "score": 5.730670752660538
-      },
-      "context": {
-        "atr": 0.0016008682593153373,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henÃ¼z teyitsiz"
-        ],
-        "relative1h_pp": 0.1189030178555539,
-        "btc_hour_pct": 0.11611460846641108,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:JUPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JUPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "eafe9876e4fb510c4b53d003",
-      "asset_id": "b60f1a31cdd9a50ae0cb468e",
-      "key": "MEXC:PERP:4USDT",
-      "symbol": "4USDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793365744969,
-      "price": 0.011075,
-      "level": 0.01108,
-      "invalid": 0.010915911854917333,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01108,
-        "base_invalid": 0.010915911854917333,
-        "atr": 9.39209672177751e-05,
-        "rvol": 3.313939160569888,
-        "close_position": 0.9090909090908976,
-        "breakout": true,
-        "bar_close_ms": 1793365200000,
-        "kind": "hacimli kÄ±rÄ±lÄ±m",
-        "recent_hour_pct": 1.0938924339106482,
-        "score": 5.223030069660785
-      },
-      "context": {
-        "atr": 9.39209672177751e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henÃ¼z teyitsiz"
-        ],
-        "relative1h_pp": 0.9803762507436309,
-        "btc_hour_pct": 0.11351618316701728,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:4USDT",
-          "change_pct": 3.022619473982502,
-          "old_ms": 1793362179477,
-          "current_ms": 1793365742285,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "4USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bd812d32aa06a8945aaa62e8",
-      "asset_id": "7338dc423271197b58e61447",
-      "key": "MEXC:SPOT:IBVMUSDT",
-      "symbol": "IBVMUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793365745237,
-      "price": 0.1188,
-      "level": 0.119,
-      "invalid": 0.11290841764927745,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.119,
-        "base_invalid": 0.11290841764927745,
-        "atr": 0.0012772156714837325,
-        "rvol": 2.617183056243532,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793365200000,
-        "kind": "erken dÃ¶nÃ¼ÅŸ / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.117183056243531
-      },
-      "context": {
-        "atr": 0.0012772156714837325,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henÃ¼z teyitsiz"
-        ],
-        "relative1h_pp": -0.11611460846641108,
-        "btc_hour_pct": 0.11611460846641108,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IBVMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793365200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IBVMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1040624,6 +1040463,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793365451774
+    },
+    {
+      "id": "4f1d9cafca55b63a66a749d1",
+      "asset_id": "91a9ed36d88d551440536bf1",
+      "key": "MEXC:SPOT:JUPUSDT",
+      "symbol": "JUPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793365745237,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793365750917
+    },
+    {
+      "id": "eafe9876e4fb510c4b53d003",
+      "asset_id": "b60f1a31cdd9a50ae0cb468e",
+      "key": "MEXC:PERP:4USDT",
+      "symbol": "4USDT",
+      "phase": "radar",
+      "observed_ms": 1793365744969,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793365750917
+    },
+    {
+      "id": "bd812d32aa06a8945aaa62e8",
+      "asset_id": "7338dc423271197b58e61447",
+      "key": "MEXC:SPOT:IBVMUSDT",
+      "symbol": "IBVMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793365745237,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793365750917
     }
   ],
   "runs": [
@@ -1041204,7 +1041076,8 @@
         "entry_seq": 0,
         "cohort": "JUPUSDT",
         "observation_lag_ms": 545237,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5680
       },
       "b60f1a31cdd9a50ae0cb468e:radar": {
         "symbol": "4USDT",
@@ -1041226,7 +1041099,8 @@
         "entry_seq": 0,
         "cohort": "4USDT",
         "observation_lag_ms": 544969,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5948
       },
       "7338dc423271197b58e61447:radar": {
         "symbol": "IBVMUSDT",
@@ -1041248,7 +1041122,8 @@
         "entry_seq": 0,
         "cohort": "IBVMUSDT",
         "observation_lag_ms": 545237,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5680
       }
     },
     "errors": [],
