@@ -1093045,60 +1093045,7 @@
       "source_close_ms": 1793376900000
     }
   },
-  "pending": [
-    {
-      "id": "00b7739cf47aac7a48f8e0a5",
-      "asset_id": "76cda69f750b58d75daad4f9",
-      "key": "OKX:SPOT:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793378357933,
-      "price": 0.044335,
-      "level": 0.04511,
-      "invalid": 0.04251497256920008,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04511,
-        "base_invalid": 0.04251497256920008,
-        "atr": 0.0005668495386661233,
-        "rvol": 2.3746569825347104,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793377800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.22578460149016433,
-        "score": 3.8746569825347104
-      },
-      "context": {
-        "atr": 0.0005668495386661233,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4172082830541166,
-        "btc_hour_pct": 0.49435320934569926,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793377800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1093561,6 +1093508,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793378064951
+    },
+    {
+      "id": "00b7739cf47aac7a48f8e0a5",
+      "asset_id": "76cda69f750b58d75daad4f9",
+      "key": "OKX:SPOT:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793378357933,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793378363811
     }
   ],
   "runs": [
@@ -1096597,7 +1096555,8 @@
         "entry_seq": 0,
         "cohort": "CHIPUSDT",
         "observation_lag_ms": 557933,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 5878
       }
     },
     "errors": [],
