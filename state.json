@@ -1295848,7 +1295848,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793343152030,
+      "duration_ms": 24541
     }
   ],
   "measurements": {
@@ -1299197,11 +1299199,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793343081318,
+            "endpoint_ms": 1793343120000,
+            "endpoint_price": 0.5896,
+            "return_pct": -0.9990764839224231,
+            "btc_excess_pct_points": -0.86627368368416,
+            "mae_pct": -1.687515741751322,
+            "mfe_pct": 0.8143732684073646,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 38682,
+            "measured_ms": 1793343151030,
+            "cost_scenarios_pct": {
+              "0.2": -1.199076483922423,
+              "0.5": -1.499076483922423,
+              "1": -1.999076483922423
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793339100000,
         "observation_lag_ms": 381318,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9890
+        "notification_lag_ms": 9890,
+        "last_measure_attempt_ms": 1793343151030
       },
       "UBUSDT:radar": {
         "symbol": "UBUSDT",
@@ -1299217,11 +1299243,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793343084774,
+            "endpoint_ms": 1793343120000,
+            "endpoint_price": 0.11334,
+            "return_pct": 1.4818462640461938,
+            "btc_excess_pct_points": 1.6082328109710997,
+            "mae_pct": -0.7655459551416999,
+            "mfe_pct": 2.2339615883959274,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 35226,
+            "measured_ms": 1793343151030,
+            "cost_scenarios_pct": {
+              "0.2": 1.2818462640461938,
+              "0.5": 0.9818462640461938,
+              "1": 0.4818462640461938
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793339100000,
         "observation_lag_ms": 384774,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 6434
+        "notification_lag_ms": 6434,
+        "last_measure_attempt_ms": 1793343151030
       },
       "REZUSDT:radar": {
         "symbol": "REZUSDT",
@@ -1299366,17 +1299416,17 @@
     },
     "errors": [],
     "queue": {
-      "due": 1,
-      "attempted": 1,
-      "observed_ms": 1793342854271,
-      "unique_reads": 2
+      "due": 3,
+      "attempted": 2,
+      "observed_ms": 1793343151030,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 61,
+        "unique_symbol_labels": 63,
         "hours": {
           "1": {
-            "known": 55,
+            "known": 57,
             "median_pct": -0.04506534474990609
           },
           "4": {
