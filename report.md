@@ -3,8 +3,8 @@
 Solana: 1 ve SPSC. Yaş/mcap/yeni token filtresi yok. Alım önerisi değildir. İşlemler sınırlı havuz örneğidir; bütün zincir/bütün cüzdanlar izlenmiyor.
 Kontrol hedefi 5 dakika; GitHub oturumları ve kaynaklar gecikebilir. Sayım oranı USD alım hacmi değildir. Transfer alım değildir. İlişki aynı sahiplik değildir.
 
-Son gözlem: 30.10.2026 11:31:35 TR
-Döngü: 147 · doğrulanmış Issue gönderimi: 75
+Son gözlem: 30.10.2026 11:36:35 TR
+Döngü: 148 · doğrulanmış Issue gönderimi: 75
 
 ## 1 — 1 coin can change your life
 
@@ -12,8 +12,8 @@ CA:
 ```text
 GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk
 ```
-Fiyat: $0.0003678 · likidite: $165022.36 · gözlem: 30.10.2026 11:31:19 TR
-15dk örneği: alım $0, satış $0, net $0. Örnek gözlemi: 30.10.2026 11:31:20 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
+Fiyat: $0.0003648 · likidite: $164357.57 · gözlem: 30.10.2026 11:36:19 TR
+15dk örneği: alım $2.3202520471102797, satış $333.620108122759, net $-331.29985607564873. Örnek gözlemi: 30.10.2026 11:36:20 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
 [Solscan](https://solscan.io/token/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) · [DexScreener](https://dexscreener.com/solana/6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk)
 
 Üst token hesapları: 0 altyapı dışı örnek sahip adresi; son zincir okuması BİLİNMİYOR / ERİŞİLEMEDİ. Her sahibin bütün token hesapları kapsanmış sayılmaz.
@@ -24,8 +24,8 @@ CA:
 ```text
 4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk
 ```
-Fiyat: $0.0001989 · likidite: $93368.42 · gözlem: 30.10.2026 11:31:20 TR
-15dk örneği: alım $0, satış $0, net $0. Örnek gözlemi: 30.10.2026 11:31:33 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
+Fiyat: $0.0001983 · likidite: $93232.28 · gözlem: 30.10.2026 11:36:20 TR
+15dk örneği: alım $0, satış $67.85272257555067, net $-67.85272257555067. Örnek gözlemi: 30.10.2026 11:36:33 TR. Kaynak: seçili havuzlardaki sınırlı swap örneği.
 [Solscan](https://solscan.io/token/4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk) · [DexScreener](https://dexscreener.com/solana/6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5)
 
 Üst token hesapları: 0 altyapı dışı örnek sahip adresi; son zincir okuması BİLİNMİYOR / ERİŞİLEMEDİ. Her sahibin bütün token hesapları kapsanmış sayılmaz.
@@ -34,8 +34,8 @@ Fiyat: $0.0001989 · likidite: $93368.42 · gözlem: 30.10.2026 11:31:20 TR
 
 WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşağıdaki etiketler kaynak iddiasıdır; kesin kurum sahipliği doğrulanmadı.
 
-- WLFI - Treasury (Solscan etiketi) · [2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB](https://solscan.io/account/2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB) · son okuma 30.10.2026 11:31:33 TR
-- WLFI ile ilişkilendirilen adres (Lookonchain bildirimi; kesin kimlik doğrulanmadı) · [2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS](https://solscan.io/account/2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS) · son okuma 30.10.2026 11:31:35 TR
+- WLFI - Treasury (Solscan etiketi) · [2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB](https://solscan.io/account/2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB) · son okuma 30.10.2026 11:36:33 TR
+- WLFI ile ilişkilendirilen adres (Lookonchain bildirimi; kesin kimlik doğrulanmadı) · [2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS](https://solscan.io/account/2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS) · son okuma 30.10.2026 11:36:35 TR
 
 ## Erişim ve boşluklar
 
@@ -47,7 +47,7 @@ WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşa�
     "errors": [],
     "detail_queue": 0,
     "full_chain_coverage": false,
-    "checked_ms": 1793349095348
+    "checked_ms": 1793349395053
   },
   "errors": [],
   "alerts": {
@@ -63,7 +63,7 @@ WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşa�
     "solana-rpc.publicnode.com": 2
   },
   "cadence": {
-    "intervals": 146,
+    "intervals": 147,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 5.365516666666666,
     "over10_minutes": 0,
@@ -75,6 +75,22 @@ WLFI’nin bütün adreslerini veya ana cüzdanını kapsama iddiası yok. Aşa�
 Rugcheck holder/ilişki verisinin kaynak güncelliği bilinmiyor; bu snapshotlar canlı balina girişi veya ortak sahiplik kanıtı sayılmaz.
 
 ## Son kayıtlar
+
+30.10.2026 11:36:33 TR · **SATIŞ** · SATIŞ: $67.85 · işlem başlatıcı `8FZm4B4wEHRoyD9ESoasLWynoH3bbpX6LDZB6vZDWFKE`
+
+30.10.2026 11:36:20 TR · **SATIŞ** · SATIŞ: $145.11 · işlem başlatıcı `8FZm4B4wEHRoyD9ESoasLWynoH3bbpX6LDZB6vZDWFKE`
+
+30.10.2026 11:36:20 TR · **ALIM** · ALIM: $2.01 · işlem başlatıcı `6AGp6zbGNuyZpmzeswv9KCNU15Rf37UQDqDqFAeHmS8d`
+
+30.10.2026 11:36:20 TR · **ALIM** · ALIM: $0.18 · işlem başlatıcı `LionX7R69tL1EEcpRkJ9jRuwV7bi4jFoKmZZnxiVK6y`
+
+30.10.2026 11:36:20 TR · **SATIŞ** · SATIŞ: $60.24 · işlem başlatıcı `8FZm4B4wEHRoyD9ESoasLWynoH3bbpX6LDZB6vZDWFKE`
+
+30.10.2026 11:36:20 TR · **ALIM** · ALIM: $0.11 · işlem başlatıcı `ESuvjvsQtjuxC4XGsDeMhx8Wp5yjQcCFGncGhupcJbg8`
+
+30.10.2026 11:36:20 TR · **SATIŞ** · SATIŞ: $128.26 · işlem başlatıcı `8FZm4B4wEHRoyD9ESoasLWynoH3bbpX6LDZB6vZDWFKE`
+
+30.10.2026 11:36:20 TR · **ALIM** · ALIM: $0.01 · işlem başlatıcı `65R4NA32yUQnN9NEsDxCSFDWT7x8GLvsydTtLr81VnEu`
 
 30.10.2026 10:31:20 TR · **ALIM** · ALIM: $24.87 · işlem başlatıcı `HvRLXMCpJ8dFsa1Pf4U59Hfp8wdkJGcmXMECd41nBAZn`
 
@@ -139,20 +155,4 @@ Rugcheck holder/ilişki verisinin kaynak güncelliği bilinmiyor; bu snapshotlar
 30.10.2026 03:34:57 TR · **ALIM** · ALIM: $73.53 · işlem başlatıcı `HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4`
 
 30.10.2026 03:34:57 TR · **SATIŞ** · SATIŞ: $73.92 · işlem başlatıcı `HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4`
-
-30.10.2026 03:29:58 TR · **ALIM** · ALIM: $224.95 · işlem başlatıcı `EciGzv86MdB6zLHkoLPLiAyU37BQmpJyY7yQb7SPG9zS`
-
-30.10.2026 03:25:10 TR · **SATIŞ** · SATIŞ: $0.08 · işlem başlatıcı `52Arz5vJ21EQe6QYokuPNBvr3beMgDuPBS3wVWQz32RK`
-
-30.10.2026 03:25:10 TR · **SATIŞ** · SATIŞ: $63.08 · işlem başlatıcı `HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4`
-
-30.10.2026 03:25:10 TR · **SATIŞ** · SATIŞ: $4.69 · işlem başlatıcı `6AGp6zbGNuyZpmzeswv9KCNU15Rf37UQDqDqFAeHmS8d`
-
-30.10.2026 03:25:10 TR · **SATIŞ** · SATIŞ: $16.13 · işlem başlatıcı `FUEL3Te8gvaohxwQMapfMTeJVHh2z1BL9fvTCcHZeYEh`
-
-30.10.2026 03:24:58 TR · **SATIŞ** · SATIŞ: $73.34 · işlem başlatıcı `HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4`
-
-30.10.2026 03:24:58 TR · **SATIŞ** · SATIŞ: $22.97 · işlem başlatıcı `HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4`
-
-30.10.2026 03:24:58 TR · **ALIM** · ALIM: $0.10 · işlem başlatıcı `ESuvjvsQtjuxC4XGsDeMhx8Wp5yjQcCFGncGhupcJbg8`
 
