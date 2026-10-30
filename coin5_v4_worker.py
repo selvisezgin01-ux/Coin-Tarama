@@ -7,7 +7,19 @@ import coin5_v3_measure as legacy_study
 import coin5_v3_model as legacy_model
 from coin5_v2_worker import cadence
 def restore():
-    scan.cloud.pull_state();s=json.loads(scan.STATE.read_text(encoding='utf-8'))
+    # The generic cloud reader rejects any different fingerprint before a caller
+    # can run its explicit migration. Validate the one approved V4 predecessor here.
+    branch=scan.cloud.state_branch()
+    if branch!=model.config()['state_branch']:raise ValueError('V4 branch isolation required')
+    found=scan.cloud.git('ls-remote','--exit-code','--heads','origin','refs/heads/'+branch,allowed=(0,2))
+    if found.returncode==2:
+        scan.cloud.pull_state();s=json.loads(scan.STATE.read_text(encoding='utf-8'))
+    else:
+        scan.cloud.git('fetch','--no-tags','origin','refs/heads/'+branch)
+        parent=scan.cloud.git('rev-parse','FETCH_HEAD').stdout.strip()
+        s=validate_state(json.loads(scan.cloud.git('show',parent+':state.json').stdout))
+        scan.OUT.mkdir(parents=True,exist_ok=True);scan.cloud.save(scan.STATE,s)
+        (scan.OUT/'parent.txt').write_text(parent,encoding='ascii')
     if not s.get('archive'):
         scan.cloud.git('fetch','--no-tags','origin','refs/heads/scanner-state-coin-tarama-5-v3')
         sha=scan.cloud.git('rev-parse','FETCH_HEAD').stdout.strip()

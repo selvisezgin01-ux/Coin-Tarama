@@ -203,6 +203,23 @@ class TrendAndNotification(unittest.TestCase):
         self.assertFalse(p['title'].startswith('🟢🎯'));self.assertIn('yeni giriş teyidi değildir',p['body'])
 
 class PreservationAndStudy(unittest.TestCase):
+    def test_restore_validates_approved_previous_fingerprint_before_cloud_rejects_it(self):
+        import tempfile
+        from pathlib import Path
+        from types import SimpleNamespace
+        import coin5_v4_worker as worker
+        s=m.new_state();s['archive']={'source_sha':'kept'}
+        s['rules_fingerprint']='9827746f05ad8df4bb7eaaebdfc768271ebd9fa18381eeaf5d93cc564abef469'
+        s['measurements']['cases']={'old':{'entry_price':123.}}
+        def git(*args,**kwargs):
+            if args[0]=='show':return SimpleNamespace(stdout=json.dumps(s),returncode=0)
+            return SimpleNamespace(stdout='source-sha',returncode=0)
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            out=Path(directory)
+            with patch.object(run,'OUT',out),patch.object(run,'STATE',out/'state.json'),patch.object(run.cloud,'OUT',out),patch.object(run.cloud,'STATE',out/'state.json'),patch.object(run.cloud,'git',side_effect=git),patch.object(run.cloud,'state_branch',return_value=C['state_branch']),patch.object(run.cloud,'pull_state',side_effect=AssertionError('Generic reader rejects approved prior fingerprint before migration')):
+                restored=worker.restore()
+                self.assertEqual(restored['measurements']['cases']['old']['entry_price'],123.)
+                self.assertEqual((out/'parent.txt').read_text(),'source-sha')
     def test_approved_text_fix_retains_all_live_references(self):
         import coin5_v4_worker as worker
         s=m.new_state();s['rules_fingerprint']='9827746f05ad8df4bb7eaaebdfc768271ebd9fa18381eeaf5d93cc564abef469'
