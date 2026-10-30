@@ -1086963,7 +1086963,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793323809487,
+      "duration_ms": 19140
     }
   ],
   "measurements": {
@@ -1088434,11 +1088436,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793323771839,
+            "endpoint_ms": 1793323800000,
+            "endpoint_price": 0.1191,
+            "return_pct": -0.7086285952480176,
+            "btc_excess_pct_points": -0.6175486519863549,
+            "mae_pct": -1.2922050854522693,
+            "mfe_pct": 0.541892455189652,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 28161,
+            "measured_ms": 1793323808925,
+            "cost_scenarios_pct": {
+              "0.2": -0.9086285952480175,
+              "0.5": -1.2086285952480176,
+              "1": -1.7086285952480176
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793319300000,
         "observation_lag_ms": 871839,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 6823
+        "notification_lag_ms": 6823,
+        "last_measure_attempt_ms": 1793323808925
       },
       "CTUSDT:radar": {
         "symbol": "CTUSDT",
@@ -1088543,18 +1088569,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 0,
-      "attempted": 0,
-      "observed_ms": 1793323508147,
-      "unique_reads": 0
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793323808925,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
         "unique_symbol_labels": 33,
         "hours": {
           "1": {
-            "known": 27,
-            "median_pct": -1.8296680374277452
+            "known": 28,
+            "median_pct": -1.788892969843131
           },
           "4": {
             "known": 12,
