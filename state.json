@@ -1102204,100 +1102204,7 @@
     "MEXC:SPOT:CTUSDT": 1793325003274,
     "OKX:PERP:APRUSDT": 1793326802836
   },
-  "pending": [
-    {
-      "id": "1c64121319a26e5035d2e2fe",
-      "asset_id": "ff47ad77b4cfe10d03140191",
-      "key": "OKX:PERP:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793326802836,
-      "price": 0.05832,
-      "level": 0.05744,
-      "invalid": 0.05229298633343648,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05744,
-        "base_invalid": 0.05229298633343648,
-        "atr": 0.0018467577770901245,
-        "rvol": 2.857459455475316,
-        "close_position": 0.882352941176472,
-        "breakout": false,
-        "bar_close_ms": 1793322000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.0590868397493356,
-        "score": 4.2398123966517876
-      },
-      "context": {
-        "atr": 0.0019416685233601765,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.350007605483151,
-        "btc_hour_pct": -0.5254462019743777,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:APRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793322000000
-    },
-    {
-      "id": "6aade67c3f022e185226f2b5",
-      "asset_id": "dbc1c5402ad8af48070adda9",
-      "key": "OKX:PERP:FOGOUSDT",
-      "symbol": "FOGOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793326802836,
-      "price": 0.0027660000000000002,
-      "level": 0.002743,
-      "invalid": 0.002538461084131215,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002743,
-        "base_invalid": 0.002538461084131215,
-        "atr": 5.0259439125234027e-05,
-        "rvol": 6.486005952629453,
-        "close_position": 0.7717391304347808,
-        "breakout": true,
-        "bar_close_ms": 1793326500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.043090638930156,
-        "score": 7.7717391304347805
-      },
-      "context": {
-        "atr": 5.0259439125234027e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8998378156022224,
-        "btc_hour_pct": -0.5254462019743777,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FOGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793326500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1102739,6 +1102646,20 @@
       "phase": "radar",
       "observed_ms": 1793325902850,
       "delivered_ms": 1793325912100
+    },
+    {
+      "id": "1c64121319a26e5035d2e2fe",
+      "asset_id": "ff47ad77b4cfe10d03140191",
+      "phase": "cancelled",
+      "observed_ms": 1793326802836,
+      "delivered_ms": 1793326808981
+    },
+    {
+      "id": "6aade67c3f022e185226f2b5",
+      "asset_id": "dbc1c5402ad8af48070adda9",
+      "phase": "radar",
+      "observed_ms": 1793326802836,
+      "delivered_ms": 1793326808981
     }
   ],
   "runs": [
@@ -1108307,7 +1108228,8 @@
         "outcomes": {},
         "source_close_ms": 1793326500000,
         "observation_lag_ms": 302836,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6145
       }
     },
     "errors": [],
