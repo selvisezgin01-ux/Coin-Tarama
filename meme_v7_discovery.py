@@ -1,7 +1,7 @@
 """Persistent identity ledger, young-token capacity and honest discovery coverage."""
 from copy import deepcopy
 from collections import Counter
-import hashlib,json,time
+import hashlib,json,time,os,base64
 import meme_sources as source
 import meme_v7_model as model
 
@@ -46,7 +46,15 @@ def merge_feed(state,feed,cfg,now):
 
 def discover(state,client,cfg,now):
     errors=[];fresh=False
-    try:fresh=merge_feed(state,client.request(cfg['v7']['feed_url']+'?minute='+str(now//60000)),cfg,now)
+    try:
+        token=os.environ.get('GH_TOKEN')
+        if token and os.environ.get('GITHUB_REPOSITORY')=='selvisezgin01-ux/Coin-Tarama':
+            # Read the branch through authenticated Contents API, not the 5min raw CDN cache.
+            payload=client.request('https://api.github.com/repos/selvisezgin01-ux/Coin-Tarama/contents/feed.json?ref=scanner-feed-meme-v7',
+                headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github.raw+json','Cache-Control':'no-cache'})
+            if payload.get('encoding')=='base64':payload=json.loads(base64.b64decode(payload['content']).decode('utf-8'))
+        else:payload=client.request(cfg['v7']['feed_url']+'?minute='+str(now//60000))
+        fresh=merge_feed(state,payload,cfg,now)
     except Exception as exc:errors.append('collector_feed: '+str(exc));state['collector_feed']={'fresh':False,'error':str(exc)}
     if fresh:return {'mode':'continuous_collector_feed','errors':errors,'coverage':state['collector_feed']}
     if now<state.get('provider_backoff_until_ms',0):

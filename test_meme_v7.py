@@ -82,6 +82,13 @@ class DiscoveryTests(unittest.TestCase):
     def test_feed_staleness_not_fresh_price(self):
         s=v.new_state();feed={'version':'meme-v7-discovery-feed','observed_ms':START-181000,'identities':[{'chain':'solana','mint':MINT,'pool':POOL,'created_ms':START-300000,'first_seen_ms':START-180000}]}
         self.assertFalse(d.merge_feed(s,feed,CFG,START));self.assertEqual(len(s['ledger']),1);self.assertFalse(s['assets'])
+    def test_github_worker_uses_authenticated_feed_api(self):
+        feed={'version':'meme-v7-discovery-feed','observed_ms':NOW,'identities':[],
+            'networks':{chain:{'last_observed_ms':NOW,'last_error':None} for chain in CFG['networks']}}
+        client=unittest.mock.Mock();client.request.return_value=feed
+        with patch.dict(v.os.environ,{'GITHUB_REPOSITORY':'selvisezgin01-ux/Coin-Tarama','GH_TOKEN':'fixture'}):
+            result=d.discover(v.new_state(),client,CFG,NOW)
+        self.assertEqual(result['mode'],'continuous_collector_feed');self.assertTrue(client.request.call_args.args[0].startswith('https://api.github.com/repos/selvisezgin01-ux/Coin-Tarama/contents/'))
     def test_future_feed_rejected(self):
         with self.assertRaises(ValueError):d.merge_feed(v.new_state(),{'version':'meme-v7-discovery-feed','observed_ms':NOW+60001,'identities':[]},CFG,NOW)
     def test_fresh_heartbeat_never_hides_network_429(self):

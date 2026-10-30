@@ -41,20 +41,26 @@ def bind():
 def restore():
     bind()
     # A pre-entry bootstrap measurement fix keeps all original radar references.
-    prior_fp='6d60299ed5430c49ea33bfc25f6915594e599935b95e641f2e5f51bebe4c5915'
+    prior_fps=('6d60299ed5430c49ea33bfc25f6915594e599935b95e641f2e5f51bebe4c5915',
+               '88cc705267e44bbc8e675c2243ba0115f5d39527691039bdef726444e5f8b01b')
     original=cloud.fingerprint
-    def compatible_fingerprint():return prior_fp
     try:cloud.pull_state()
     except RuntimeError as exc:
         if 'Stored state uses different rules' not in str(exc):raise
-        cloud.fingerprint=compatible_fingerprint
-        try:cloud.pull_state()
+        try:
+            accepted=False
+            for prior_fp in prior_fps:
+                cloud.fingerprint=lambda value=prior_fp:value
+                try:cloud.pull_state();accepted=True;break
+                except RuntimeError as failure:
+                    if 'Stored state uses different rules' not in str(failure):raise
+            if not accepted:raise ValueError('Unknown V7 bootstrap fingerprint')
         finally:cloud.fingerprint=original
     s=json.loads(STATE.read_text(encoding='utf-8'))
-    if s.get('rules_fingerprint')==prior_fp:
+    if s.get('rules_fingerprint') in prior_fps:
         if s.get('cases') or any(e['phase']!='early_radar' for e in s['events'].values()):raise ValueError('Bootstrap fix requires no actual entries')
-        s['rules_fingerprint']=fingerprint();s.setdefault('bootstrap_migrations',[]).append({'from':prior_fp,'to':fingerprint(),
-            'observed_ms':now_ms(),'reason':'same-pool radar endpoint measurement only; signal conditions unchanged','references_repriced':False})
+        old_fp=s['rules_fingerprint'];s['rules_fingerprint']=fingerprint();s.setdefault('bootstrap_migrations',[]).append({'from':old_fp,'to':fingerprint(),
+            'observed_ms':now_ms(),'reason':'same-pool measurements and authenticated feed freshness; signal conditions unchanged','references_repriced':False})
     if not (OUT/'parent.txt').read_text(encoding='ascii').strip():
         cloud.git('fetch','--no-tags','origin','refs/heads/'+ARCHIVE_BRANCH);sha=cloud.git('rev-parse','FETCH_HEAD').stdout.strip()
         s=seed(json.loads(cloud.git('show',sha+':state.json').stdout),sha)
