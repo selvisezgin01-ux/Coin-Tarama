@@ -5,11 +5,9 @@
   "venues": {
     "OKX": {
       "active": [
-        "XLLYUSDT",
-        "XXLEUSDT",
-        "XSOXSUSDT",
-        "LEOUSDT",
-        "XSTRCUSDT"
+        "HYPEUSDT",
+        "OLUSDT",
+        "DOODUSDT"
       ],
       "last_alert": {
         "GALFTUSDT": 1793018681508,
@@ -27,7 +25,7 @@
         "IMXUSDT": 1793220309742,
         "CHIPUSDT": 1793293022782,
         "PYTHUSDT": 1793018681508,
-        "DOODUSDT": 1793018681508,
+        "DOODUSDT": 1793335783279,
         "DYDXUSDT": 1793206364140,
         "LDOUSDT": 1793018681508,
         "BICOUSDT": 1793192035811,
@@ -189,7 +187,7 @@
         "RONUSDT": 1793119913974,
         "ENJUSDT": 1793293022782,
         "MMTUSDT": 1793119913974,
-        "OLUSDT": 1793119913974,
+        "OLUSDT": 1793335783279,
         "PENGUUSDT": 1793293022782,
         "PROVEUSDT": 1793119913974,
         "SSVUSDT": 1793119913974,
@@ -205,7 +203,7 @@
         "AUCTIONUSDT": 1793132629705,
         "XCRCLUSDT": 1793132629705,
         "ALLOUSDT": 1793132629705,
-        "HYPEUSDT": 1793132629705,
+        "HYPEUSDT": 1793335783279,
         "MAGICUSDT": 1793132629705,
         "PNUTUSDT": 1793132629705,
         "XMSTRUSDT": 1793132629705,
@@ -578,44 +576,44 @@
       "latest": {
         "exchange": "OKX",
         "archive": false,
-        "feature_cutoff_ms": 1793318400000,
-        "observed_ms": 1793321417933,
+        "feature_cutoff_ms": 1793332800000,
+        "observed_ms": 1793335536436,
         "universe_count": 462,
-        "prefilter_count": 226,
-        "analyzed_count": 202,
+        "prefilter_count": 364,
+        "analyzed_count": 339,
         "candidates": [
           {
-            "open": 1370.9,
-            "high": 1388.1,
-            "low": 1369.3,
-            "close": 1386.8,
-            "volume": 7.942107,
-            "close_ms": 1793318400000,
-            "quote_volume": 10950.8746661,
-            "atr": 17.979372995033163,
-            "ema20": 1316.7793513450115,
-            "ema50": 1293.2450402617185,
-            "return24_pct": 5.5483674556663365,
-            "return72_pct": 8.07356608478802,
-            "relative24_pct_points": 9.658586273159443,
-            "ema20_extension_atr": 3.8944989168605493,
-            "close_position": 0.9308510638297894,
-            "quote_volume24": 292822.8939891,
+            "open": 89.034,
+            "high": 92.981,
+            "low": 88.554,
+            "close": 92.678,
+            "volume": 482080.533,
+            "close_ms": 1793332800000,
+            "quote_volume": 43611499.126506,
+            "atr": 2.9473728363606915,
+            "ema20": 84.21058065899624,
+            "ema50": 81.30346771906342,
+            "return24_pct": 18.177065401731628,
+            "return72_pct": 19.15402417073797,
+            "relative24_pct_points": 20.223171664018913,
+            "ema20_extension_atr": 2.8728701155633307,
+            "close_position": 0.9315563587079291,
+            "quote_volume24": 178022896.3064169,
             "nonzero24": 6.0,
             "higher_lows": true,
             "breakout_now": false,
-            "breakout_age_bars": 3.0,
-            "breakout_level": 1313.9,
-            "breakout_volume_ratio": 281.0445110236116,
-            "breakout_low": 1279.9,
-            "anchor_atr": 13.894583294661336,
+            "breakout_age_bars": 4.0,
+            "breakout_level": 82.48,
+            "breakout_volume_ratio": 12.315619347828028,
+            "breakout_low": 78.783,
+            "anchor_atr": 2.0943850313935917,
             "breakout_open_ms": 1793260800000.0,
-            "hold_low": 1331.8,
-            "peak_since_breakout": 1407.4,
-            "peak_drawdown_pct": 1.463691914167975,
-            "peak_drawdown_atr": 1.1457574191097168,
-            "invalidation_level": 1276.4263541763348,
-            "invalidation_distance_pct": 7.958872643760106,
+            "hold_low": 87.339,
+            "peak_since_breakout": 97.088,
+            "peak_drawdown_pct": 4.542270929466053,
+            "peak_drawdown_atr": 1.4962477585446243,
+            "invalidation_level": 78.2594037421516,
+            "invalidation_distance_pct": 15.557733505091164,
             "gate_history": true,
             "gate_anchor": true,
             "gate_trend": true,
@@ -628,184 +626,178 @@
             "stage": "continuation",
             "sar_below": true,
             "strength_score": 100,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 10.18719333780458,
-            "relative8_pct_points": 6.035088804848965,
-            "early_level": 1407.4,
-            "early_ema": 1360.5895072119183,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 16.046255979311265,
+            "relative8_pct_points": 1.8058975942031652,
+            "early_level": 97.088,
+            "early_ema": 90.17201251422878,
             "early_prior_below_ema20": false,
             "group_early_reversal": false,
-            "box_high": 1407.4,
-            "box_low": 1279.9,
-            "box_range_atr": 7.11644542612398,
-            "box_net_change_atr": 3.5442688985009627,
+            "box_high": 97.088,
+            "box_low": 87.339,
+            "box_range_atr": 3.440553916797928,
+            "box_net_change_atr": 0.3673829754217493,
             "group_sideways_volume": false,
             "retest_touched_support": false,
-            "retest_base_range_anchor_atr": 1.7488829628547877,
+            "retest_base_range_anchor_atr": 3.173723981199921,
             "group_retest": false,
             "group_new_breakout": false,
             "group_continuation": true,
             "matched_groups": [
               "continuation"
             ],
-            "signal_reference_level": 1313.9,
-            "signal_invalidation_level": 1276.4263541763348,
-            "signal_invalidation_distance_pct": 7.958872643760106,
-            "signal_volume_ratio": 281.0445110236116,
-            "rsi14": 83.68124398768856,
+            "signal_reference_level": 82.48,
+            "signal_invalidation_level": 78.2594037421516,
+            "signal_invalidation_distance_pct": 15.557733505091164,
+            "signal_volume_ratio": 12.315619347828028,
+            "rsi14": 68.62280561831415,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "XLLYUSDT",
+            "symbol": "HYPEUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793321417933,
+            "observed_ms": 1793335536436,
             "liquidity_band": "main",
-            "mid_price": 1395.35,
-            "spread_pct": 0.15049987458344766,
+            "mid_price": 92.21,
+            "spread_pct": 0.00650688645483161,
             "warnings": [
-              "ortalamadan uzak"
+              "ortalamadan uzak",
+              "yapı bozulma mesafesi geniş"
             ],
             "failed_legacy_gates": [],
             "paper_controls": [
               {
-                "symbol": "XTSMUSDT",
-                "entry_price": 418.155
+                "symbol": "SOLUSDT",
+                "entry_price": 97.295
               },
               {
-                "symbol": "XNFLXUSDT",
-                "entry_price": 62.504999999999995
+                "symbol": "ZECUSDT",
+                "entry_price": 1283.125
               },
               {
-                "symbol": "FLRUSDT",
-                "entry_price": 0.0059095
+                "symbol": "XRPUSDT",
+                "entry_price": 1.25265
               }
             ],
-            "paper_btc_price": 77063.35
+            "paper_btc_price": 78350.15
           },
           {
-            "open": 68.83,
-            "high": 69.4,
-            "low": 68.63,
-            "close": 69.4,
-            "volume": 116.20958,
-            "close_ms": 1793318400000,
-            "quote_volume": 8019.6812039,
-            "atr": 0.48946345073857545,
-            "ema20": 68.93513364958291,
-            "ema50": 68.83559070053582,
-            "return24_pct": 0.9748290411756066,
-            "return72_pct": -0.40183696900114585,
-            "relative24_pct_points": 5.0850478586687125,
-            "ema20_extension_atr": 0.9497468089101183,
-            "close_position": 1.0,
-            "quote_volume24": 13324.9237776,
+            "open": 0.007245,
+            "high": 0.007528,
+            "low": 0.006964,
+            "close": 0.007508,
+            "volume": 13057299.9,
+            "close_ms": 1793332800000,
+            "quote_volume": 94690.1276427,
+            "atr": 0.000363257603213405,
+            "ema20": 0.00684903449205189,
+            "ema50": 0.006645863267636908,
+            "return24_pct": 5.375438596491233,
+            "return72_pct": 30.82418539815299,
+            "relative24_pct_points": 7.4215448587785176,
+            "ema20_extension_atr": 1.814044639723573,
+            "close_position": 0.9645390070921985,
+            "quote_volume24": 503648.6793858,
             "nonzero24": 6.0,
-            "higher_lows": false,
+            "higher_lows": true,
             "breakout_now": false,
-            "breakout_age_bars": null,
-            "breakout_level": null,
-            "breakout_volume_ratio": null,
-            "breakout_low": null,
-            "anchor_atr": null,
-            "breakout_open_ms": null,
-            "hold_low": null,
-            "peak_since_breakout": null,
-            "peak_drawdown_pct": null,
-            "peak_drawdown_atr": null,
-            "invalidation_level": null,
-            "invalidation_distance_pct": null,
+            "breakout_age_bars": 9.0,
+            "breakout_level": 0.006608,
+            "breakout_volume_ratio": 5.2818552063862825,
+            "breakout_low": 0.00615,
+            "anchor_atr": 0.00024919773537034745,
+            "breakout_open_ms": 1793188800000.0,
+            "hold_low": 0.006739,
+            "peak_since_breakout": 0.007767,
+            "peak_drawdown_pct": 3.3346208317239556,
+            "peak_drawdown_atr": 0.7129926468403291,
+            "invalidation_level": 0.006087700566157413,
+            "invalidation_distance_pct": 18.91714749390766,
             "gate_history": true,
-            "gate_anchor": false,
-            "gate_trend": false,
-            "gate_holds_breakout": false,
+            "gate_anchor": true,
+            "gate_trend": true,
+            "gate_holds_breakout": true,
             "gate_relative_strength": true,
             "gate_liquidity": true,
             "new_breakout": false,
-            "continuation": false,
+            "continuation": true,
             "qualified": true,
-            "stage": "early_reversal",
+            "stage": "continuation",
             "sar_below": true,
-            "strength_score": 75,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 10.79214937365564,
-            "relative8_pct_points": 6.293902128827223,
-            "early_level": 69.36,
-            "early_ema": 68.93570499206359,
-            "early_prior_below_ema20": true,
-            "group_early_reversal": true,
-            "box_high": 69.36,
-            "box_low": 68.1,
-            "box_range_atr": 2.724329621037326,
-            "box_net_change_atr": 1.7297330927220984,
+            "strength_score": 100,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 1.2708643447171153,
+            "relative8_pct_points": 5.24936487279466,
+            "early_level": 0.007719,
+            "early_ema": 0.0073512049846755564,
+            "early_prior_below_ema20": false,
+            "group_early_reversal": false,
+            "box_high": 0.007719,
+            "box_low": 0.007129,
+            "box_range_atr": 1.6962997760458385,
+            "box_net_change_atr": 0.04312626549269153,
             "group_sideways_volume": false,
             "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
+            "retest_base_range_anchor_atr": 2.287340208581308,
             "group_retest": false,
             "group_new_breakout": false,
-            "group_continuation": false,
+            "group_continuation": true,
             "matched_groups": [
-              "early_reversal"
+              "continuation"
             ],
-            "signal_reference_level": 69.36,
-            "signal_invalidation_level": 68.50763413731535,
-            "signal_invalidation_distance_pct": 1.2858297733208346,
-            "signal_volume_ratio": 10.79214937365564,
-            "rsi14": 55.176618840129926,
+            "signal_reference_level": 0.006608,
+            "signal_invalidation_level": 0.006087700566157413,
+            "signal_invalidation_distance_pct": 18.91714749390766,
+            "signal_volume_ratio": 5.2818552063862825,
+            "rsi14": 67.93901439246785,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "XXLEUSDT",
+            "symbol": "OLUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793321417933,
-            "liquidity_band": "thin",
-            "mid_price": 69.315,
-            "spread_pct": 0.014426891726164475,
+            "observed_ms": 1793335536436,
+            "liquidity_band": "main",
+            "mid_price": 0.007462,
+            "spread_pct": 0.34843205574912867,
             "warnings": [
-              "düşük hacim",
-              "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
-              "gözlem fiyatı grubun izlediği seviyenin altında"
+              "yapı bozulma mesafesi geniş"
             ],
-            "failed_legacy_gates": [
-              "anchor",
-              "trend",
-              "holds_breakout"
-            ],
+            "failed_legacy_gates": [],
             "paper_controls": [
               {
-                "symbol": "XBXUSDT",
-                "entry_price": 120.06
+                "symbol": "EDGEUSDT",
+                "entry_price": 0.33375
               },
               {
-                "symbol": "XZMUSDT",
-                "entry_price": 96.705
+                "symbol": "WETUSDT",
+                "entry_price": 0.052055
               },
               {
-                "symbol": "GALFTUSDT",
-                "entry_price": 0.78895
+                "symbol": "BATUSDT",
+                "entry_price": 0.128315
               }
             ],
-            "paper_btc_price": 77063.35
+            "paper_btc_price": 78350.15
           },
           {
-            "open": 41.7,
-            "high": 48.0,
-            "low": 41.68,
-            "close": 47.43,
-            "volume": 16626.0397,
-            "close_ms": 1793318400000,
-            "quote_volume": 764362.778582,
-            "atr": 2.3215086772620066,
-            "ema20": 44.2187677083911,
-            "ema50": 46.06484410857696,
-            "return24_pct": 12.074669187145549,
-            "return72_pct": 0.850520944078248,
-            "relative24_pct_points": 16.184888004638655,
-            "ema20_extension_atr": 1.383252332012059,
-            "close_position": 0.9098101265822784,
-            "quote_volume24": 1671700.75969,
+            "open": 0.001817,
+            "high": 0.002065,
+            "low": 0.001748,
+            "close": 0.001979,
+            "volume": 324989476.2,
+            "close_ms": 1793332800000,
+            "quote_volume": 627482.6541627,
+            "atr": 0.00020774909642741588,
+            "ema20": 0.0019071098034220365,
+            "ema50": 0.0018729433081658628,
+            "return24_pct": 8.736263736263727,
+            "return72_pct": -14.95487752470993,
+            "relative24_pct_points": 10.78236999855101,
+            "ema20_extension_atr": 0.3460433658400079,
+            "close_position": 0.7287066246056778,
+            "quote_volume24": 1347393.6515113,
             "nonzero24": 6.0,
             "higher_lows": false,
             "breakout_now": false,
@@ -831,19 +823,19 @@
             "continuation": false,
             "qualified": true,
             "stage": "early_reversal",
-            "sar_below": true,
-            "strength_score": 50,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 5.576417696149492,
-            "relative8_pct_points": 21.115921180765184,
-            "early_level": 43.51,
-            "early_ema": 43.73788520929995,
+            "sar_below": false,
+            "strength_score": 45,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 1.8552674627323678,
+            "relative8_pct_points": 13.000003904360401,
+            "early_level": 0.001851,
+            "early_ema": 0.0018797236092199052,
             "early_prior_below_ema20": true,
             "group_early_reversal": true,
-            "box_high": 43.51,
-            "box_low": 40.69,
-            "box_range_atr": 1.4002455939738554,
-            "box_net_change_atr": 0.7696385356948517,
+            "box_high": 0.001851,
+            "box_low": 0.001702,
+            "box_range_atr": 0.7474472140533862,
+            "box_net_change_atr": 0.06521351532009403,
             "group_sideways_volume": false,
             "retest_touched_support": false,
             "retest_base_range_anchor_atr": null,
@@ -853,21 +845,21 @@
             "matched_groups": [
               "early_reversal"
             ],
-            "signal_reference_level": 43.51,
-            "signal_invalidation_level": 41.099622830684496,
-            "signal_invalidation_distance_pct": 13.346778767268619,
-            "signal_volume_ratio": 5.576417696149492,
-            "rsi14": 56.8905784140949,
+            "signal_reference_level": 0.001851,
+            "signal_invalidation_level": 0.001696062725893146,
+            "signal_invalidation_distance_pct": 14.296982016516113,
+            "signal_volume_ratio": 1.8552674627323678,
+            "rsi14": 53.692932161555355,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "XSOXSUSDT",
+            "symbol": "DOODUSDT",
             "exchange": "OKX",
-            "observed_ms": 1793321417933,
+            "observed_ms": 1793335536436,
             "liquidity_band": "main",
-            "mid_price": 48.615,
-            "spread_pct": 0.1028489149439415,
+            "mid_price": 0.0020670000000000003,
+            "spread_pct": 0.1935171746492548,
             "warnings": [
               "yapı bozulma mesafesi geniş",
               "erken dönüş; uzun trend teyidi henüz aranmadı",
@@ -880,225 +872,19 @@
             ],
             "paper_controls": [
               {
-                "symbol": "VVVUSDT",
-                "entry_price": 22.415
+                "symbol": "KATUSDT",
+                "entry_price": 0.0041875
               },
               {
-                "symbol": "GRVTUSDT",
-                "entry_price": 0.210845
+                "symbol": "XSNXXUSDT",
+                "entry_price": 9.0535
               },
               {
-                "symbol": "LSKUSDT",
-                "entry_price": 0.17848
+                "symbol": "BICOUSDT",
+                "entry_price": 0.016345
               }
             ],
-            "paper_btc_price": 77063.35
-          },
-          {
-            "open": 9.443,
-            "high": 9.497,
-            "low": 9.431,
-            "close": 9.471,
-            "volume": 694.784916,
-            "close_ms": 1793318400000,
-            "quote_volume": 6578.560524216,
-            "atr": 0.08436503894853983,
-            "ema20": 9.321517570768277,
-            "ema50": 9.19059545685563,
-            "return24_pct": 0.48806366047744465,
-            "return72_pct": 4.7097844112769405,
-            "relative24_pct_points": 4.5982824779705505,
-            "ema20_extension_atr": 1.771852785167358,
-            "close_position": 0.6060606060606134,
-            "quote_volume24": 14395.992963246987,
-            "nonzero24": 6.0,
-            "higher_lows": true,
-            "breakout_now": false,
-            "breakout_age_bars": 5.0,
-            "breakout_level": 9.478,
-            "breakout_volume_ratio": 32.442826891849094,
-            "breakout_low": 9.424,
-            "anchor_atr": 0.08289665764627806,
-            "breakout_open_ms": 1793232000000.0,
-            "hold_low": 9.41,
-            "peak_since_breakout": 9.619,
-            "peak_drawdown_pct": 1.5386214783241425,
-            "peak_drawdown_atr": 1.7542811790826682,
-            "invalidation_level": 9.38927583558843,
-            "invalidation_distance_pct": 0.8628884427364536,
-            "gate_history": true,
-            "gate_anchor": true,
-            "gate_trend": true,
-            "gate_holds_breakout": false,
-            "gate_relative_strength": true,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "sideways_volume",
-            "sar_below": true,
-            "strength_score": 100,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 24.248891140132894,
-            "relative8_pct_points": 4.714617516036624,
-            "early_level": 9.579,
-            "early_ema": 9.456219973131425,
-            "early_prior_below_ema20": false,
-            "group_early_reversal": false,
-            "box_high": 9.579,
-            "box_low": 9.41,
-            "box_range_atr": 1.9702082536123993,
-            "box_net_change_atr": 0.01165803700363788,
-            "group_sideways_volume": true,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
-            "group_new_breakout": false,
-            "group_continuation": false,
-            "matched_groups": [
-              "sideways_volume"
-            ],
-            "signal_reference_level": 9.41,
-            "signal_invalidation_level": 9.388908740262865,
-            "signal_invalidation_distance_pct": 0.866764436037748,
-            "signal_volume_ratio": 24.248891140132894,
-            "rsi14": 76.85666304008647,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "LEOUSDT",
-            "exchange": "OKX",
-            "observed_ms": 1793321417933,
-            "liquidity_band": "thin",
-            "mid_price": 9.439499999999999,
-            "spread_pct": 0.07415647015201732,
-            "warnings": [
-              "düşük hacim",
-              "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
-            ],
-            "failed_legacy_gates": [
-              "holds_breakout"
-            ],
-            "paper_controls": [
-              {
-                "symbol": "GALFTUSDT",
-                "entry_price": 0.78895
-              },
-              {
-                "symbol": "XBXUSDT",
-                "entry_price": 120.06
-              },
-              {
-                "symbol": "XZMUSDT",
-                "entry_price": 96.705
-              }
-            ],
-            "paper_btc_price": 77063.35
-          },
-          {
-            "open": 99.93,
-            "high": 99.94,
-            "low": 99.93,
-            "close": 99.94,
-            "volume": 20.19895,
-            "close_ms": 1793318400000,
-            "quote_volume": 2018.4830749,
-            "atr": 0.33372523912448787,
-            "ema20": 99.77685325771738,
-            "ema50": 99.52723256507261,
-            "return24_pct": 0.01000700490343398,
-            "return72_pct": -0.5176189528170339,
-            "relative24_pct_points": 4.12022582239654,
-            "ema20_extension_atr": 0.48886545923415364,
-            "close_position": 1.0,
-            "quote_volume24": 12894.729141799999,
-            "nonzero24": 6.0,
-            "higher_lows": true,
-            "breakout_now": false,
-            "breakout_age_bars": 18.0,
-            "breakout_level": 99.78,
-            "breakout_volume_ratio": 43.61701381106926,
-            "breakout_low": 99.32,
-            "anchor_atr": 0.35193721134631595,
-            "breakout_open_ms": 1793044800000.0,
-            "hold_low": 99.57,
-            "peak_since_breakout": 100.5,
-            "peak_drawdown_pct": 0.5572139303482659,
-            "peak_drawdown_atr": 1.6780271143685008,
-            "invalidation_level": 99.23201569716342,
-            "invalidation_distance_pct": 0.7084093484456488,
-            "gate_history": true,
-            "gate_anchor": true,
-            "gate_trend": true,
-            "gate_holds_breakout": false,
-            "gate_relative_strength": true,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "sideways_volume",
-            "sar_below": false,
-            "strength_score": 90,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 16.542413440852062,
-            "relative8_pct_points": 4.429136184956184,
-            "early_level": 100.12,
-            "early_ema": 99.93058419722159,
-            "early_prior_below_ema20": false,
-            "group_early_reversal": false,
-            "box_high": 100.12,
-            "box_low": 99.8,
-            "box_range_atr": 0.8922915420648146,
-            "box_net_change_atr": 0.390377549653349,
-            "group_sideways_volume": true,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
-            "group_new_breakout": false,
-            "group_continuation": false,
-            "matched_groups": [
-              "sideways_volume"
-            ],
-            "signal_reference_level": 99.8,
-            "signal_invalidation_level": 99.71656869021888,
-            "signal_invalidation_distance_pct": 0.22356544905054454,
-            "signal_volume_ratio": 16.542413440852062,
-            "rsi14": 55.46786354706682,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "XSTRCUSDT",
-            "exchange": "OKX",
-            "observed_ms": 1793321417933,
-            "liquidity_band": "thin",
-            "mid_price": 100.045,
-            "spread_pct": 0.22989654655404043,
-            "warnings": [
-              "düşük hacim",
-              "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
-            ],
-            "failed_legacy_gates": [
-              "holds_breakout"
-            ],
-            "paper_controls": [
-              {
-                "symbol": "XBXUSDT",
-                "entry_price": 120.06
-              },
-              {
-                "symbol": "XZMUSDT",
-                "entry_price": 96.705
-              },
-              {
-                "symbol": "GALFTUSDT",
-                "entry_price": 0.78895
-              }
-            ],
-            "paper_btc_price": 77063.35
+            "paper_btc_price": 78350.15
           }
         ],
         "limitation": "V5 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume."
@@ -1106,17 +892,11 @@
     },
     "MEXC": {
       "active": [
-        "HINTUSDT",
-        "USDUSDT",
-        "HAIUSDT",
-        "SUNUSDT",
-        "XTMUSDT",
-        "HTXUSDT",
-        "MIUUSDT",
-        "CGNUSDT",
-        "DEFIUSDT",
-        "AKEUSDT",
-        "XEFUSDT"
+        "BLESSUSDT",
+        "HYPEUSDT",
+        "RUNEUSDT",
+        "DOODUSDT",
+        "ESEUSDT"
       ],
       "last_alert": {
         "CAPUSDT": 1792963424958,
@@ -1144,7 +924,7 @@
         "SAGAUSDT": 1793018681508,
         "4USDT": 1793018681508,
         "NATIXUSDT": 1793018681508,
-        "RUNEUSDT": 1793018681508,
+        "RUNEUSDT": 1793335783279,
         "PLAYUSDT": 1793018681508,
         "QNTUSDT": 1793018681508,
         "CHIPUSDT": 1793018681508,
@@ -1161,7 +941,7 @@
         "PARTIUSDT": 1793249438134,
         "TRUMPUSDT": 1793033448626,
         "NOTUSDT": 1793033448626,
-        "BLESSUSDT": 1793033448626,
+        "BLESSUSDT": 1793335783279,
         "FARTCOINUSDT": 1793033448626,
         "GIGGLEUSDT": 1793033448626,
         "PIUSDT": 1793278456167,
@@ -1454,7 +1234,9 @@
         "HTXUSDT": 1793321588210,
         "CGNUSDT": 1793321588210,
         "DEFIUSDT": 1793321588210,
-        "XEFUSDT": 1793321588210
+        "XEFUSDT": 1793321588210,
+        "DOODUSDT": 1793335783279,
+        "ESEUSDT": 1793335783279
       },
       "ever_seen": [
         "2U2USDT",
@@ -1547,6 +1329,7 @@
         "DINUSDT",
         "DOGEUSDT",
         "DOGSUSDT",
+        "DOODUSDT",
         "DOSUSDT",
         "DTECUSDT",
         "DUSKUSDT",
@@ -1562,6 +1345,7 @@
         "EMBERUSDT",
         "ENAUSDT",
         "EPICUSDT",
+        "ESEUSDT",
         "ETCUSDT",
         "ETHFIUSDT",
         "ETHUSDT",
@@ -1797,44 +1581,44 @@
       "latest": {
         "exchange": "MEXC",
         "archive": false,
-        "feature_cutoff_ms": 1793318400000,
-        "observed_ms": 1793321555923,
+        "feature_cutoff_ms": 1793332800000,
+        "observed_ms": 1793335712439,
         "universe_count": 1247,
-        "prefilter_count": 685,
-        "analyzed_count": 674,
+        "prefilter_count": 948,
+        "analyzed_count": 930,
         "candidates": [
           {
-            "open": 0.0008793,
-            "high": 0.0008839,
-            "low": 0.0008779,
-            "close": 0.0008816,
-            "volume": 3863372.16,
-            "close_ms": 1793318400000,
-            "quote_volume": 3400.7078824,
-            "atr": 4.330764254908726e-06,
-            "ema20": 0.0008745724760677395,
-            "ema50": 0.0008780787950290721,
-            "return24_pct": 0.7197532274648699,
-            "return72_pct": 2.6429153568517716,
-            "relative24_pct_points": 4.834896897652441,
-            "ema20_extension_atr": 1.6226983318925974,
-            "close_position": 0.6166666666666618,
-            "quote_volume24": 38668.66227699999,
+            "open": 0.012576,
+            "high": 0.012954,
+            "low": 0.011695,
+            "close": 0.012856,
+            "volume": 3629902.64,
+            "close_ms": 1793332800000,
+            "quote_volume": 45254.712655,
+            "atr": 0.001201669072560923,
+            "ema20": 0.010572696265056867,
+            "ema50": 0.00934792762889893,
+            "return24_pct": 29.88482521721558,
+            "return72_pct": 54.98493068113319,
+            "relative24_pct_points": 31.947167896867533,
+            "ema20_extension_atr": 1.9001102608699887,
+            "close_position": 0.9221604447974576,
+            "quote_volume24": 620377.8142,
             "nonzero24": 6.0,
             "higher_lows": true,
             "breakout_now": false,
-            "breakout_age_bars": 3.0,
-            "breakout_level": 0.0008795,
-            "breakout_volume_ratio": 7.819749905788431,
-            "breakout_low": 0.000874,
-            "anchor_atr": 4.613981390746269e-06,
-            "breakout_open_ms": 1793260800000.0,
-            "hold_low": 0.0008779,
-            "peak_since_breakout": 0.0008839,
-            "peak_drawdown_pct": 0.2602104310442388,
-            "peak_drawdown_atr": 0.5310840915418232,
-            "invalidation_level": 0.0008728465046523135,
-            "invalidation_distance_pct": 0.9929100893473763,
+            "breakout_age_bars": 13.0,
+            "breakout_level": 0.008448,
+            "breakout_volume_ratio": 2.1158178444050413,
+            "breakout_low": 0.008213,
+            "anchor_atr": 0.0002999457508585152,
+            "breakout_open_ms": 1793131200000.0,
+            "hold_low": 0.008596,
+            "peak_since_breakout": 0.0145,
+            "peak_drawdown_pct": 11.337931034482763,
+            "peak_drawdown_atr": 1.3680971221938916,
+            "invalidation_level": 0.00813801356228537,
+            "invalidation_distance_pct": 36.69871217886301,
             "gate_history": true,
             "gate_anchor": true,
             "gate_trend": true,
@@ -1846,403 +1630,195 @@
             "qualified": true,
             "stage": "continuation",
             "sar_below": true,
-            "strength_score": 75,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 1.1434819740762812,
-            "relative8_pct_points": 4.8284483283739466,
-            "early_level": 0.0008815,
-            "early_ema": 0.0008793159457914123,
+            "strength_score": 100,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 1.5300496487845563,
+            "relative8_pct_points": 0.576119967945321,
+            "early_level": 0.0145,
+            "early_ema": 0.012163636960407957,
             "early_prior_below_ema20": false,
             "group_early_reversal": false,
-            "box_high": 0.0008815,
-            "box_low": 0.000874,
-            "box_range_atr": 1.7847108085692909,
-            "box_net_change_atr": 0.8328650439989818,
+            "box_high": 0.0145,
+            "box_low": 0.009398,
+            "box_range_atr": 4.26140041110855,
+            "box_net_change_atr": 2.6243277325956615,
             "group_sideways_volume": false,
             "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
+            "retest_base_range_anchor_atr": 6.017754860116089,
             "group_retest": false,
             "group_new_breakout": false,
             "group_continuation": true,
             "matched_groups": [
               "continuation"
             ],
-            "signal_reference_level": 0.0008795,
-            "signal_invalidation_level": 0.0008728465046523135,
-            "signal_invalidation_distance_pct": 0.9929100893473763,
-            "signal_volume_ratio": 7.819749905788431,
-            "rsi14": 61.43095567274593,
+            "signal_reference_level": 0.008448,
+            "signal_invalidation_level": 0.00813801356228537,
+            "signal_invalidation_distance_pct": 36.69871217886301,
+            "signal_volume_ratio": 2.1158178444050413,
+            "rsi14": 65.59594835967101,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "HINTUSDT",
+            "symbol": "BLESSUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "thin",
-            "mid_price": 0.0008753,
-            "spread_pct": 0.22849308808409102,
+            "observed_ms": 1793335712439,
+            "liquidity_band": "main",
+            "mid_price": 0.0126595,
+            "spread_pct": 0.15008491646589453,
             "warnings": [
-              "düşük hacim",
-              "gözlem fiyatı grubun izlediği seviyenin altında",
-              "gözlem fiyatı kapanıştan uzaklaştı"
+              "72 saatlik yükseliş yüksek",
+              "yapı bozulma mesafesi geniş"
             ],
             "failed_legacy_gates": [],
             "paper_controls": [
               {
-                "symbol": "ZTCUSDT",
-                "entry_price": 0.0005398
+                "symbol": "BEATUSDT",
+                "entry_price": 0.09928999999999999
               },
               {
-                "symbol": "BTCBAMUSDT",
-                "entry_price": 0.050089999999999996
+                "symbol": "PARTIUSDT",
+                "entry_price": 0.053025
               },
               {
-                "symbol": "NODEUSDT",
-                "entry_price": 0.0048715
+                "symbol": "CASHCATUSDT",
+                "entry_price": 0.093475
               }
             ],
-            "paper_btc_price": 77166.57500000001
+            "paper_btc_price": 78417.015
           },
           {
-            "open": 1.0012,
-            "high": 1.0021,
-            "low": 1.0011,
-            "close": 1.002,
-            "volume": 31590.0,
-            "close_ms": 1793318400000,
-            "quote_volume": 31633.9314,
-            "atr": 0.0005009784952322195,
-            "ema20": 1.0013908866286494,
-            "ema50": 1.001344964100432,
-            "return24_pct": 0.08990110878033253,
-            "return72_pct": 0.029949086552849558,
-            "relative24_pct_points": 4.2050447789679035,
-            "ema20_extension_atr": 1.2158473410485773,
-            "close_position": 0.9,
-            "quote_volume24": 80078.0497,
-            "nonzero24": 6.0,
-            "higher_lows": false,
-            "breakout_now": true,
-            "breakout_age_bars": 0.0,
-            "breakout_level": 1.0018,
-            "breakout_volume_ratio": 3.282423073489928,
-            "breakout_low": 1.0011,
-            "anchor_atr": 0.0005009784952322195,
-            "breakout_open_ms": 1793304000000.0,
-            "hold_low": 1.002,
-            "peak_since_breakout": 1.0021,
-            "peak_drawdown_pct": 0.009979044007579763,
-            "peak_drawdown_atr": 0.19960936637337257,
-            "invalidation_level": 1.000974755376192,
-            "invalidation_distance_pct": 0.10231982273531948,
-            "gate_history": true,
-            "gate_anchor": true,
-            "gate_trend": true,
-            "gate_holds_breakout": true,
-            "gate_relative_strength": true,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "early_reversal",
-            "sar_below": true,
-            "strength_score": 75,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 3.282423073489928,
-            "relative8_pct_points": 4.6695804138735975,
-            "early_level": 1.0013,
-            "early_ema": 1.001492107978496,
-            "early_prior_below_ema20": true,
-            "group_early_reversal": true,
-            "box_high": 1.0013,
-            "box_low": 1.0011,
-            "box_range_atr": 0.4323462196658517,
-            "box_net_change_atr": 0.21617310983292584,
-            "group_sideways_volume": false,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
-            "group_new_breakout": false,
-            "group_continuation": false,
-            "matched_groups": [
-              "early_reversal"
-            ],
-            "signal_reference_level": 1.0013,
-            "signal_invalidation_level": 1.000974755376192,
-            "signal_invalidation_distance_pct": 0.10231982273531948,
-            "signal_volume_ratio": 3.282423073489928,
-            "rsi14": 68.43688290099274,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "USDUSDT",
-            "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "thin",
-            "mid_price": 1.0019,
-            "spread_pct": 0.01996207206307795,
-            "warnings": [
-              "düşük hacim",
-              "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
-            ],
-            "failed_legacy_gates": [],
-            "paper_controls": [
-              {
-                "symbol": "COPUSDT",
-                "entry_price": 0.0003039
-              },
-              {
-                "symbol": "ALEUSDT",
-                "entry_price": 0.26575
-              },
-              {
-                "symbol": "RHUSDT",
-                "entry_price": 0.0069995000000000005
-              }
-            ],
-            "paper_btc_price": 77166.57500000001
-          },
-          {
-            "open": 0.001446,
-            "high": 0.001499,
-            "low": 0.001441,
-            "close": 0.001492,
-            "volume": 3550353.89,
-            "close_ms": 1793318400000,
-            "quote_volume": 5227.990347,
-            "atr": 2.5066036563492085e-05,
-            "ema20": 0.001474788998608946,
-            "ema50": 0.0014928661148328598,
-            "return24_pct": 1.8430034129693018,
-            "return72_pct": -2.419882275997376,
-            "relative24_pct_points": 5.958147083156873,
-            "ema20_extension_atr": 0.6866263578391681,
-            "close_position": 0.8793103448275886,
-            "quote_volume24": 21882.380951,
-            "nonzero24": 6.0,
-            "higher_lows": false,
-            "breakout_now": false,
-            "breakout_age_bars": null,
-            "breakout_level": null,
-            "breakout_volume_ratio": null,
-            "breakout_low": null,
-            "anchor_atr": null,
-            "breakout_open_ms": null,
-            "hold_low": null,
-            "peak_since_breakout": null,
-            "peak_drawdown_pct": null,
-            "peak_drawdown_atr": null,
-            "invalidation_level": null,
-            "invalidation_distance_pct": null,
-            "gate_history": true,
-            "gate_anchor": false,
-            "gate_trend": false,
-            "gate_holds_breakout": false,
-            "gate_relative_strength": true,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "early_reversal",
-            "sar_below": true,
-            "strength_score": 30,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 1.5163568635010642,
-            "relative8_pct_points": 7.415313790196931,
-            "early_level": 0.001468,
-            "early_ema": 0.001464665567923415,
-            "early_prior_below_ema20": true,
-            "group_early_reversal": true,
-            "box_high": 0.001468,
-            "box_low": 0.00144,
-            "box_range_atr": 1.2426409713983522,
-            "box_net_change_atr": 0.7544605897775799,
-            "group_sideways_volume": false,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
-            "group_new_breakout": false,
-            "group_continuation": false,
-            "matched_groups": [
-              "early_reversal"
-            ],
-            "signal_reference_level": 0.001468,
-            "signal_invalidation_level": 0.0014347334908591269,
-            "signal_invalidation_distance_pct": 3.838237878074613,
-            "signal_volume_ratio": 1.5163568635010642,
-            "rsi14": 53.46349109662876,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "HAIUSDT",
-            "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "thin",
-            "mid_price": 0.0014694999999999999,
-            "spread_pct": 0.3402517863218791,
-            "warnings": [
-              "düşük hacim",
-              "erken dönüş; uzun trend teyidi henüz aranmadı",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
-            ],
-            "failed_legacy_gates": [
-              "anchor",
-              "trend",
-              "holds_breakout"
-            ],
-            "paper_controls": [
-              {
-                "symbol": "BXNUSDT",
-                "entry_price": 0.00046415
-              },
-              {
-                "symbol": "ZETRIXUSDT",
-                "entry_price": 2.734
-              },
-              {
-                "symbol": "OFTUSDT",
-                "entry_price": 0.04659
-              }
-            ],
-            "paper_btc_price": 77166.57500000001
-          },
-          {
-            "open": 0.016254,
-            "high": 0.017331,
-            "low": 0.016087,
-            "close": 0.017216,
-            "volume": 7530703.04,
-            "close_ms": 1793318400000,
-            "quote_volume": 125473.186538,
-            "atr": 0.0001498129088872912,
-            "ema20": 0.01635528753208258,
-            "ema50": 0.016368335406457,
-            "return24_pct": 6.166748889985185,
-            "return72_pct": 5.464346973780909,
-            "relative24_pct_points": 10.281892560172757,
-            "ema20_extension_atr": 5.7452490196619825,
-            "close_position": 0.9075562700964624,
-            "quote_volume24": 171269.91508,
+            "open": 89.07,
+            "high": 93.1,
+            "low": 88.52,
+            "close": 92.82,
+            "volume": 9473.73,
+            "close_ms": 1793332800000,
+            "quote_volume": 859686.19,
+            "atr": 2.934590746561445,
+            "ema20": 84.22694566727934,
+            "ema50": 81.31712120500127,
+            "return24_pct": 18.362662586074975,
+            "return72_pct": 19.27525057825752,
+            "relative24_pct_points": 20.425005265726927,
+            "ema20_extension_atr": 2.9281951300328384,
+            "close_position": 0.9388646288209604,
+            "quote_volume24": 6040356.399999999,
             "nonzero24": 6.0,
             "higher_lows": true,
-            "breakout_now": true,
-            "breakout_age_bars": 0.0,
-            "breakout_level": 0.016357,
-            "breakout_volume_ratio": 13.444728526904433,
-            "breakout_low": 0.016087,
-            "anchor_atr": 0.0001498129088872912,
-            "breakout_open_ms": 1793304000000.0,
-            "hold_low": 0.017216,
-            "peak_since_breakout": 0.017331,
-            "peak_drawdown_pct": 0.6635508626161246,
-            "peak_drawdown_atr": 0.7676241043187975,
-            "invalidation_level": 0.016049546772778176,
-            "invalidation_distance_pct": 6.775402109792184,
+            "breakout_now": false,
+            "breakout_age_bars": 4.0,
+            "breakout_level": 82.48,
+            "breakout_volume_ratio": 6.355868970590617,
+            "breakout_low": 78.77,
+            "anchor_atr": 2.0751475130389156,
+            "breakout_open_ms": 1793260800000.0,
+            "hold_low": 87.33,
+            "peak_since_breakout": 97.09,
+            "peak_drawdown_pct": 4.397981254506133,
+            "peak_drawdown_atr": 1.4550580877430037,
+            "invalidation_level": 78.25121312174026,
+            "invalidation_distance_pct": 15.695741088407377,
             "gate_history": true,
             "gate_anchor": true,
             "gate_trend": true,
             "gate_holds_breakout": true,
             "gate_relative_strength": true,
             "gate_liquidity": true,
-            "new_breakout": true,
-            "continuation": false,
+            "new_breakout": false,
+            "continuation": true,
             "qualified": true,
-            "stage": "new_breakout",
-            "sar_below": false,
-            "strength_score": 65,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 13.444728526904433,
-            "relative8_pct_points": 10.105734156129653,
-            "early_level": 0.016316,
-            "early_ema": 0.01658207849045349,
-            "early_prior_below_ema20": true,
+            "stage": "continuation",
+            "sar_below": true,
+            "strength_score": 100,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 6.982995884133204,
+            "relative8_pct_points": 2.0741769309759794,
+            "early_level": 97.09,
+            "early_ema": 90.21430166242703,
+            "early_prior_below_ema20": false,
             "group_early_reversal": false,
-            "box_high": 0.016316,
-            "box_low": 0.016203,
-            "box_range_atr": 1.7213887752091588,
-            "box_net_change_atr": 0.746442920223434,
+            "box_high": 97.09,
+            "box_low": 87.33,
+            "box_range_atr": 3.475757724492049,
+            "box_net_change_atr": 0.39529621661743547,
             "group_sideways_volume": false,
             "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
+            "retest_base_range_anchor_atr": 3.19977252618353,
             "group_retest": false,
-            "group_new_breakout": true,
-            "group_continuation": false,
+            "group_new_breakout": false,
+            "group_continuation": true,
             "matched_groups": [
-              "new_breakout"
+              "continuation"
             ],
-            "signal_reference_level": 0.016357,
-            "signal_invalidation_level": 0.016049546772778176,
-            "signal_invalidation_distance_pct": 6.775402109792184,
-            "signal_volume_ratio": 13.444728526904433,
-            "rsi14": 82.6055423283952,
+            "signal_reference_level": 82.48,
+            "signal_invalidation_level": 78.25121312174026,
+            "signal_invalidation_distance_pct": 15.695741088407377,
+            "signal_volume_ratio": 6.355868970590617,
+            "rsi14": 68.80206632680584,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "SUNUSDT",
+            "symbol": "HYPEUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793321555923,
+            "observed_ms": 1793335712439,
             "liquidity_band": "main",
-            "mid_price": 0.016931500000000002,
-            "spread_pct": 0.07677996633495314,
+            "mid_price": 92.4,
+            "spread_pct": 0.02164502164501734,
             "warnings": [
               "ortalamadan uzak",
-              "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
-              "gözlem fiyatı kapanıştan uzaklaştı"
+              "yapı bozulma mesafesi geniş"
             ],
             "failed_legacy_gates": [],
             "paper_controls": [
               {
-                "symbol": "SHAREUSDT",
-                "entry_price": 2.73475
+                "symbol": "BCHUSDT",
+                "entry_price": 284.85
               },
               {
-                "symbol": "NATGUSDT",
-                "entry_price": 2124.7505
+                "symbol": "ADAUSDT",
+                "entry_price": 0.19305
               },
               {
-                "symbol": "BTCMTUSDT",
-                "entry_price": 0.6524
+                "symbol": "INJUSDT",
+                "entry_price": 7.396000000000001
               }
             ],
-            "paper_btc_price": 77166.57500000001
+            "paper_btc_price": 78417.015
           },
           {
-            "open": 0.0010854,
-            "high": 0.0013417,
-            "low": 0.0010745,
-            "close": 0.0013417,
-            "volume": 3506050.49,
-            "close_ms": 1793318400000,
-            "quote_volume": 4112.2150587,
-            "atr": 9.308723954416356e-05,
-            "ema20": 0.0010687023410602702,
-            "ema50": 0.0011009492124512562,
-            "return24_pct": 31.384645515080265,
-            "return72_pct": 33.54235095053249,
-            "relative24_pct_points": 35.499789185267836,
-            "ema20_extension_atr": 2.932707643674522,
-            "close_position": 1.0,
-            "quote_volume24": 13565.743557100006,
+            "open": 0.6179,
+            "high": 0.6762,
+            "low": 0.5945,
+            "close": 0.6754,
+            "volume": 943984.06,
+            "close_ms": 1793332800000,
+            "quote_volume": 594473.8808,
+            "atr": 0.02041763733773566,
+            "ema20": 0.6259510762629732,
+            "ema50": 0.6319110906842906,
+            "return24_pct": 11.617914394314987,
+            "return72_pct": 8.532861963683125,
+            "relative24_pct_points": 13.680257073966938,
+            "ema20_extension_atr": 2.4218729581231138,
+            "close_position": 0.990208078335373,
+            "quote_volume24": 1691482.8386000001,
             "nonzero24": 6.0,
             "higher_lows": false,
             "breakout_now": true,
             "breakout_age_bars": 0.0,
-            "breakout_level": 0.0011109,
-            "breakout_volume_ratio": 2.431641843303543,
-            "breakout_low": 0.0010745,
-            "anchor_atr": 9.308723954416356e-05,
-            "breakout_open_ms": 1793304000000.0,
-            "hold_low": 0.0013417,
-            "peak_since_breakout": 0.0013417,
-            "peak_drawdown_pct": 0.0,
-            "peak_drawdown_atr": 0.0,
-            "invalidation_level": 0.000986128190113959,
-            "invalidation_distance_pct": 26.501588275027277,
+            "breakout_level": 0.6427,
+            "breakout_volume_ratio": 14.823252698988137,
+            "breakout_low": 0.5945,
+            "anchor_atr": 0.02041763733773566,
+            "breakout_open_ms": 1793318400000.0,
+            "hold_low": 0.6754,
+            "peak_since_breakout": 0.6762,
+            "peak_drawdown_pct": 0.1183081928423535,
+            "peak_drawdown_atr": 0.0391818106457142,
+            "invalidation_level": 0.5726955906655661,
+            "invalidation_distance_pct": 15.2064568158771,
             "gate_history": true,
             "gate_anchor": true,
             "gate_trend": true,
@@ -2252,20 +1828,20 @@
             "new_breakout": true,
             "continuation": false,
             "qualified": true,
-            "stage": "new_breakout",
+            "stage": "early_reversal",
             "sar_below": true,
             "strength_score": 50,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 2.431641843303543,
-            "relative8_pct_points": 32.761246799384836,
-            "early_level": 0.0011109,
-            "early_ema": 0.0011575290487520428,
-            "early_prior_below_ema20": false,
-            "group_early_reversal": false,
-            "box_high": 0.0011109,
-            "box_low": 0.0010094,
-            "box_range_atr": 1.2736223972523977,
-            "box_net_change_atr": 0.47431454794227135,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 14.823252698988137,
+            "relative8_pct_points": 13.327615960373306,
+            "early_level": 0.6427,
+            "early_ema": 0.6355705974662278,
+            "early_prior_below_ema20": true,
+            "group_early_reversal": true,
+            "box_high": 0.6427,
+            "box_low": 0.5778,
+            "box_range_atr": 4.132807826463727,
+            "box_net_change_atr": 0.6304283125114166,
             "group_sideways_volume": false,
             "retest_touched_support": false,
             "retest_base_range_anchor_atr": null,
@@ -2273,443 +1849,128 @@
             "group_new_breakout": true,
             "group_continuation": false,
             "matched_groups": [
+              "early_reversal",
               "new_breakout"
             ],
-            "signal_reference_level": 0.0011109,
-            "signal_invalidation_level": 0.000986128190113959,
-            "signal_invalidation_distance_pct": 26.501588275027277,
-            "signal_volume_ratio": 2.431641843303543,
-            "rsi14": 67.94866895544928,
+            "signal_reference_level": 0.6427,
+            "signal_invalidation_level": 0.5893955906655661,
+            "signal_invalidation_distance_pct": 12.733847991476733,
+            "signal_volume_ratio": 14.823252698988137,
+            "rsi14": 70.9621431523074,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "XTMUSDT",
+            "symbol": "RUNEUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "thin",
-            "mid_price": 0.0011212499999999999,
-            "spread_pct": 5.056856187290973,
+            "observed_ms": 1793335712439,
+            "liquidity_band": "main",
+            "mid_price": 0.6744,
+            "spread_pct": 0.3262158956109104,
             "warnings": [
-              "24 saatlik yükseliş yüksek",
-              "ortalamadan uzak",
               "yapı bozulma mesafesi geniş",
-              "düşük hacim",
-              "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
-              "makas geniş",
-              "gözlem fiyatı kapanıştan uzaklaştı"
+              "erken dönüş; uzun trend teyidi henüz aranmadı",
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
             ],
             "failed_legacy_gates": [],
             "paper_controls": [
               {
-                "symbol": "PEPUSDT",
-                "entry_price": 8.539999999999999e-05
+                "symbol": "LINKUSDT",
+                "entry_price": 11.055499999999999
               },
               {
-                "symbol": "GAINUSDT",
-                "entry_price": 0.0013487
+                "symbol": "ZIGUSDT",
+                "entry_price": 0.041176
               },
               {
-                "symbol": "CELLUSDT",
-                "entry_price": 0.056535
+                "symbol": "UNIUSDT",
+                "entry_price": 6.791
               }
             ],
-            "paper_btc_price": 77166.57500000001
+            "paper_btc_price": 78417.015
           },
           {
-            "open": 1.629e-06,
-            "high": 1.728e-06,
-            "low": 1.616e-06,
-            "close": 1.716e-06,
-            "volume": 8175183861,
-            "close_ms": 1793318400000,
-            "quote_volume": 13580.646605289,
-            "atr": 1.976414504865321e-08,
-            "ema20": 1.6339122220102421e-06,
-            "ema50": 1.635207690465127e-06,
-            "return24_pct": 5.9259259259259345,
-            "return72_pct": 5.211526670754152,
-            "relative24_pct_points": 10.041069596113505,
-            "ema20_extension_atr": 4.153368526069968,
-            "close_position": 0.8928571428571423,
-            "quote_volume24": 57876.14147825,
+            "open": 0.001811,
+            "high": 0.00206,
+            "low": 0.001749,
+            "close": 0.001978,
+            "volume": 21025141.14,
+            "close_ms": 1793332800000,
+            "quote_volume": 40081.718598,
+            "atr": 0.00020916802673824297,
+            "ema20": 0.0019092433760510774,
+            "ema50": 0.0018742543368015527,
+            "return24_pct": 7.67555797495918,
+            "return72_pct": -15.034364261168387,
+            "relative24_pct_points": 9.737900654611131,
+            "ema20_extension_atr": 0.3287147898324165,
+            "close_position": 0.7363344051446946,
+            "quote_volume24": 133077.16642699987,
             "nonzero24": 6.0,
             "higher_lows": false,
-            "breakout_now": true,
-            "breakout_age_bars": 0.0,
-            "breakout_level": 1.634e-06,
-            "breakout_volume_ratio": 1.5376974385955555,
-            "breakout_low": 1.616e-06,
-            "anchor_atr": 1.976414504865321e-08,
-            "breakout_open_ms": 1793304000000.0,
-            "hold_low": 1.716e-06,
-            "peak_since_breakout": 1.728e-06,
-            "peak_drawdown_pct": 0.6944444444444531,
-            "peak_drawdown_atr": 0.6071600856227156,
-            "invalidation_level": 1.6110589637378369e-06,
-            "invalidation_distance_pct": 6.115445003622555,
+            "breakout_now": false,
+            "breakout_age_bars": null,
+            "breakout_level": null,
+            "breakout_volume_ratio": null,
+            "breakout_low": null,
+            "anchor_atr": null,
+            "breakout_open_ms": null,
+            "hold_low": null,
+            "peak_since_breakout": null,
+            "peak_drawdown_pct": null,
+            "peak_drawdown_atr": null,
+            "invalidation_level": null,
+            "invalidation_distance_pct": null,
             "gate_history": true,
-            "gate_anchor": true,
-            "gate_trend": true,
-            "gate_holds_breakout": true,
+            "gate_anchor": false,
+            "gate_trend": false,
+            "gate_holds_breakout": false,
             "gate_relative_strength": true,
             "gate_liquidity": true,
-            "new_breakout": true,
+            "new_breakout": false,
             "continuation": false,
             "qualified": true,
-            "stage": "new_breakout",
-            "sar_below": true,
-            "strength_score": 30,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 1.5376974385955555,
-            "relative8_pct_points": 10.18967629881169,
-            "early_level": 1.634e-06,
-            "early_ema": 1.6553228404839562e-06,
-            "early_prior_below_ema20": false,
-            "group_early_reversal": false,
-            "box_high": 1.634e-06,
-            "box_low": 1.617e-06,
-            "box_range_atr": 1.3418496814200265,
-            "box_net_change_atr": 0.6314586736094212,
+            "stage": "early_reversal",
+            "sar_below": false,
+            "strength_score": 45,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 1.722279008009314,
+            "relative8_pct_points": 12.658562874566082,
+            "early_level": 0.001852,
+            "early_ema": 0.0018793947569401605,
+            "early_prior_below_ema20": true,
+            "group_early_reversal": true,
+            "box_high": 0.001852,
+            "box_low": 0.001702,
+            "box_range_atr": 0.7450276925341947,
+            "box_net_change_atr": 0.014900553850683722,
             "group_sideways_volume": false,
             "retest_touched_support": false,
             "retest_base_range_anchor_atr": null,
             "group_retest": false,
-            "group_new_breakout": true,
-            "group_continuation": false,
-            "matched_groups": [
-              "new_breakout"
-            ],
-            "signal_reference_level": 1.634e-06,
-            "signal_invalidation_level": 1.6110589637378369e-06,
-            "signal_invalidation_distance_pct": 6.115445003622555,
-            "signal_volume_ratio": 1.5376974385955555,
-            "rsi14": 85.61179731267862,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "HTXUSDT",
-            "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "thin",
-            "mid_price": 1.69e-06,
-            "spread_pct": 0.946745562130186,
-            "warnings": [
-              "ortalamadan uzak",
-              "düşük hacim",
-              "ilk kapanış; sonraki mumda tutunma henüz gözlenmedi",
-              "makas geniş",
-              "gözlem fiyatı kapanıştan uzaklaştı"
-            ],
-            "failed_legacy_gates": [],
-            "paper_controls": [
-              {
-                "symbol": "PLEARNUSDT",
-                "entry_price": 0.0025120000000000003
-              },
-              {
-                "symbol": "TCOMUSDT",
-                "entry_price": 0.0077985
-              },
-              {
-                "symbol": "DCTUSDT",
-                "entry_price": 0.005635
-              }
-            ],
-            "paper_btc_price": 77166.57500000001
-          },
-          {
-            "open": 8.8e-10,
-            "high": 8.9e-10,
-            "low": 8.6e-10,
-            "close": 8.9e-10,
-            "volume": 9072418688619.59,
-            "close_ms": 1793318400000,
-            "quote_volume": 7901.0906958426,
-            "atr": 3.0884404857544936e-11,
-            "ema20": 8.590589450359531e-10,
-            "ema50": 7.906097681466666e-10,
-            "return24_pct": 1.1363636363636465,
-            "return72_pct": -3.2608695652173947,
-            "relative24_pct_points": 5.2515073065512174,
-            "ema20_extension_atr": 1.001834262527101,
-            "close_position": 1.0,
-            "quote_volume24": 39079.21415848406,
-            "nonzero24": 6.0,
-            "higher_lows": true,
-            "breakout_now": false,
-            "breakout_age_bars": null,
-            "breakout_level": null,
-            "breakout_volume_ratio": null,
-            "breakout_low": null,
-            "anchor_atr": null,
-            "breakout_open_ms": null,
-            "hold_low": null,
-            "peak_since_breakout": null,
-            "peak_drawdown_pct": null,
-            "peak_drawdown_atr": null,
-            "invalidation_level": null,
-            "invalidation_distance_pct": null,
-            "gate_history": true,
-            "gate_anchor": false,
-            "gate_trend": true,
-            "gate_holds_breakout": false,
-            "gate_relative_strength": true,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "sideways_volume",
-            "sar_below": false,
-            "strength_score": 90,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 7.458571557550302,
-            "relative8_pct_points": 6.8885268735243255,
-            "early_level": 8.9e-10,
-            "early_ema": 8.804690918108663e-10,
-            "early_prior_below_ema20": false,
-            "group_early_reversal": false,
-            "box_high": 8.9e-10,
-            "box_low": 8.6e-10,
-            "box_range_atr": 0.9692290454806308,
-            "box_net_change_atr": 0.646152696987085,
-            "group_sideways_volume": true,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
             "group_new_breakout": false,
             "group_continuation": false,
             "matched_groups": [
-              "sideways_volume"
+              "early_reversal"
             ],
-            "signal_reference_level": 8.6e-10,
-            "signal_invalidation_level": 8.522788987856138e-10,
-            "signal_invalidation_distance_pct": 4.23832597914452,
-            "signal_volume_ratio": 7.458571557550302,
-            "rsi14": 62.8883651306802,
+            "signal_reference_level": 0.001852,
+            "signal_invalidation_level": 0.0016967079933154392,
+            "signal_invalidation_distance_pct": 14.221031682738161,
+            "signal_volume_ratio": 1.722279008009314,
+            "rsi14": 53.66223327963246,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "MIUUSDT",
+            "symbol": "DOODUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "thin",
-            "mid_price": 8.599999999999999e-10,
-            "spread_pct": 2.3255813953488413,
-            "warnings": [
-              "düşük hacim",
-              "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
-              "makas geniş",
-              "gözlem fiyatı grubun izlediği seviyenin altında"
-            ],
-            "failed_legacy_gates": [
-              "anchor",
-              "holds_breakout"
-            ],
-            "paper_controls": [
-              {
-                "symbol": "CHEQUSDT",
-                "entry_price": 0.0012875
-              },
-              {
-                "symbol": "XPUSDT",
-                "entry_price": 0.007985
-              },
-              {
-                "symbol": "WOOUSDT",
-                "entry_price": 0.0097
-              }
-            ],
-            "paper_btc_price": 77166.57500000001
-          },
-          {
-            "open": 0.00204,
-            "high": 0.002056,
-            "low": 0.00203,
-            "close": 0.002047,
-            "volume": 10808182.16,
-            "close_ms": 1793318400000,
-            "quote_volume": 22072.756828,
-            "atr": 2.029353271760084e-05,
-            "ema20": 0.0020339189146079462,
-            "ema50": 0.002034393099178574,
-            "return24_pct": 0.9866798223976403,
-            "return72_pct": -0.3892944038929369,
-            "relative24_pct_points": 5.101823492585211,
-            "ema20_extension_atr": 0.6445938010935163,
-            "close_position": 0.6538461538461577,
-            "quote_volume24": 99074.31312800001,
-            "nonzero24": 6.0,
-            "higher_lows": true,
-            "breakout_now": false,
-            "breakout_age_bars": null,
-            "breakout_level": null,
-            "breakout_volume_ratio": null,
-            "breakout_low": null,
-            "anchor_atr": null,
-            "breakout_open_ms": null,
-            "hold_low": null,
-            "peak_since_breakout": null,
-            "peak_drawdown_pct": null,
-            "peak_drawdown_atr": null,
-            "invalidation_level": null,
-            "invalidation_distance_pct": null,
-            "gate_history": true,
-            "gate_anchor": false,
-            "gate_trend": true,
-            "gate_holds_breakout": false,
-            "gate_relative_strength": true,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "sideways_volume",
-            "sar_below": true,
-            "strength_score": 55,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 1.5418486515658891,
-            "relative8_pct_points": 5.576356121209325,
-            "early_level": 0.002054,
-            "early_ema": 0.002037074907700982,
-            "early_prior_below_ema20": false,
-            "group_early_reversal": false,
-            "box_high": 0.002054,
-            "box_low": 0.002026,
-            "box_range_atr": 1.410254404294418,
-            "box_net_change_atr": 0.7051272021472199,
-            "group_sideways_volume": true,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
-            "group_new_breakout": false,
-            "group_continuation": false,
-            "matched_groups": [
-              "sideways_volume"
-            ],
-            "signal_reference_level": 0.002026,
-            "signal_invalidation_level": 0.0020209266168206,
-            "signal_invalidation_distance_pct": 1.273736354636068,
-            "signal_volume_ratio": 1.5418486515658891,
-            "rsi14": 59.16127031566564,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "CGNUSDT",
-            "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "thin",
-            "mid_price": 0.0020485,
-            "spread_pct": 0.04881620698072408,
-            "warnings": [
-              "düşük hacim",
-              "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
-            ],
-            "failed_legacy_gates": [
-              "anchor",
-              "holds_breakout"
-            ],
-            "paper_controls": [
-              {
-                "symbol": "BGBUSDT",
-                "entry_price": 1.82799
-              },
-              {
-                "symbol": "FLRUSDT",
-                "entry_price": 0.0059115
-              },
-              {
-                "symbol": "JSTUSDT",
-                "entry_price": 0.140405
-              }
-            ],
-            "paper_btc_price": 77166.57500000001
-          },
-          {
-            "open": 0.0001049,
-            "high": 0.0001061,
-            "low": 0.0001028,
-            "close": 0.0001047,
-            "volume": 237475887.21,
-            "close_ms": 1793318400000,
-            "quote_volume": 24893.2354227,
-            "atr": 2.309387353163619e-06,
-            "ema20": 0.00011085063187388377,
-            "ema50": 0.00012100455189724348,
-            "return24_pct": -1.7823639774859346,
-            "return72_pct": -9.974204643164231,
-            "relative24_pct_points": 2.3327796927016364,
-            "ema20_extension_atr": -2.6633175527951374,
-            "close_position": 0.5757575757575735,
-            "quote_volume24": 164378.8192833,
-            "nonzero24": 6.0,
-            "higher_lows": false,
-            "breakout_now": false,
-            "breakout_age_bars": null,
-            "breakout_level": null,
-            "breakout_volume_ratio": null,
-            "breakout_low": null,
-            "anchor_atr": null,
-            "breakout_open_ms": null,
-            "hold_low": null,
-            "peak_since_breakout": null,
-            "peak_drawdown_pct": null,
-            "peak_drawdown_atr": null,
-            "invalidation_level": null,
-            "invalidation_distance_pct": null,
-            "gate_history": true,
-            "gate_anchor": false,
-            "gate_trend": false,
-            "gate_holds_breakout": false,
-            "gate_relative_strength": true,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "sideways_volume",
-            "sar_below": true,
-            "strength_score": 50,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 2.5912813424996375,
-            "relative8_pct_points": 4.399018529507581,
-            "early_level": 0.0001059,
-            "early_ema": 0.00010509674478285789,
-            "early_prior_below_ema20": true,
-            "group_early_reversal": false,
-            "box_high": 0.0001059,
-            "box_low": 0.0001028,
-            "box_range_atr": 1.3881510416259268,
-            "box_net_change_atr": 0.31345346101230825,
-            "group_sideways_volume": true,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
-            "group_new_breakout": false,
-            "group_continuation": false,
-            "matched_groups": [
-              "sideways_volume"
-            ],
-            "signal_reference_level": 0.0001028,
-            "signal_invalidation_level": 0.0001022226531617091,
-            "signal_invalidation_distance_pct": 2.3661383364765087,
-            "signal_volume_ratio": 2.5912813424996375,
-            "rsi14": 12.28517371155057,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "DEFIUSDT",
-            "exchange": "MEXC",
-            "observed_ms": 1793321555923,
+            "observed_ms": 1793335712439,
             "liquidity_band": "main",
-            "mid_price": 0.00010435,
-            "spread_pct": 0.09583133684715134,
+            "mid_price": 0.0020594999999999997,
+            "spread_pct": 0.43699927166787544,
             "warnings": [
-              "yatay hacim; toplama veya yükseliş teyidi değildir",
+              "yapı bozulma mesafesi geniş",
+              "erken dönüş; uzun trend teyidi henüz aranmadı",
               "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
             ],
             "failed_legacy_gates": [
@@ -2718,143 +1979,38 @@
               "holds_breakout"
             ],
             "paper_controls": [
-              {
-                "symbol": "LUNCUSDT",
-                "entry_price": 4.1530000000000004e-05
-              },
-              {
-                "symbol": "SMARTUSDT",
-                "entry_price": 0.004095
-              },
-              {
-                "symbol": "CROUSDT",
-                "entry_price": 0.050699999999999995
-              }
-            ],
-            "paper_btc_price": 77166.57500000001
-          },
-          {
-            "open": 0.0202978,
-            "high": 0.021369,
-            "low": 0.0202186,
-            "close": 0.0209464,
-            "volume": 6162844.47,
-            "close_ms": 1793318400000,
-            "quote_volume": 128941.0428644,
-            "atr": 0.00220760245880245,
-            "ema20": 0.02332202518844193,
-            "ema50": 0.026424816829078903,
-            "return24_pct": -7.107188788859808,
-            "return72_pct": -31.15556914056209,
-            "relative24_pct_points": -2.9920451186722374,
-            "ema20_extension_atr": -1.076110954202608,
-            "close_position": 0.6326495132127965,
-            "quote_volume24": 242485.94153150002,
-            "nonzero24": 6.0,
-            "higher_lows": false,
-            "breakout_now": false,
-            "breakout_age_bars": null,
-            "breakout_level": null,
-            "breakout_volume_ratio": null,
-            "breakout_low": null,
-            "anchor_atr": null,
-            "breakout_open_ms": null,
-            "hold_low": null,
-            "peak_since_breakout": null,
-            "peak_drawdown_pct": null,
-            "peak_drawdown_atr": null,
-            "invalidation_level": null,
-            "invalidation_distance_pct": null,
-            "gate_history": true,
-            "gate_anchor": false,
-            "gate_trend": false,
-            "gate_holds_breakout": false,
-            "gate_relative_strength": false,
-            "gate_liquidity": true,
-            "new_breakout": false,
-            "continuation": false,
-            "qualified": true,
-            "stage": "sideways_volume",
-            "sar_below": false,
-            "strength_score": 40,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 2.982880971051111,
-            "relative8_pct_points": 4.183150972997096,
-            "early_level": 0.0215112,
-            "early_ema": 0.020895668884284332,
-            "early_prior_below_ema20": true,
-            "group_early_reversal": false,
-            "box_high": 0.0215112,
-            "box_low": 0.0201268,
-            "box_range_atr": 0.6048252177698559,
-            "box_net_change_atr": 0.12014369754890836,
-            "group_sideways_volume": true,
-            "retest_touched_support": false,
-            "retest_base_range_anchor_atr": null,
-            "group_retest": false,
-            "group_new_breakout": false,
-            "group_continuation": false,
-            "matched_groups": [
-              "sideways_volume"
-            ],
-            "signal_reference_level": 0.0201268,
-            "signal_invalidation_level": 0.01957489938529939,
-            "signal_invalidation_distance_pct": 6.547667449779492,
-            "signal_volume_ratio": 2.982880971051111,
-            "rsi14": 38.03542100807734,
-            "pu_confirmed_now": false,
-            "pu_active": false,
-            "pu_confirmation_ms": null,
-            "pu_age_bars": null,
-            "symbol": "AKEUSDT",
-            "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "main",
-            "mid_price": 0.02090175,
-            "spread_pct": 0.22821055653233696,
-            "warnings": [
-              "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
-            ],
-            "failed_legacy_gates": [
-              "anchor",
-              "trend",
-              "holds_breakout",
-              "relative_strength"
-            ],
-            "paper_controls": [
-              {
-                "symbol": "AINUSDT",
-                "entry_price": 0.140925
-              },
               {
                 "symbol": "CAPUSDT",
-                "entry_price": 0.075585
+                "entry_price": 0.08171
               },
               {
-                "symbol": "VEREMUSDT",
-                "entry_price": 34.865
+                "symbol": "ONUSDT",
+                "entry_price": 0.17905500000000002
+              },
+              {
+                "symbol": "XANUSDT",
+                "entry_price": 0.0103825
               }
             ],
-            "paper_btc_price": 77166.57500000001
+            "paper_btc_price": 78417.015
           },
           {
-            "open": 0.0043007,
-            "high": 0.0043109,
-            "low": 0.0042854,
-            "close": 0.0043086,
-            "volume": 11343554.66,
-            "close_ms": 1793318400000,
-            "quote_volume": 48751.9857935,
-            "atr": 8.502274075595899e-05,
-            "ema20": 0.004342552464774104,
-            "ema50": 0.00439656167309329,
-            "return24_pct": 0.13712320171057613,
-            "return72_pct": 3.3088764206588905,
-            "relative24_pct_points": 4.252266871898147,
-            "ema20_extension_atr": -0.39933392492671926,
-            "close_position": 0.9098039215686201,
-            "quote_volume24": 141020.0975626,
+            "open": 0.003514,
+            "high": 0.003515,
+            "low": 0.003445,
+            "close": 0.003509,
+            "volume": 1265017.25,
+            "close_ms": 1793332800000,
+            "quote_volume": 4429.274462,
+            "atr": 0.0001228043751934969,
+            "ema20": 0.00373137426398058,
+            "ema50": 0.003905245052125409,
+            "return24_pct": -0.8196721311475419,
+            "return72_pct": -12.471938139186845,
+            "relative24_pct_points": 1.2426705485044098,
+            "ema20_extension_atr": -1.8108008255422146,
+            "close_position": 0.914285714285715,
+            "quote_volume24": 19398.013097,
             "nonzero24": 6.0,
             "higher_lows": false,
             "breakout_now": false,
@@ -2881,18 +2037,18 @@
             "qualified": true,
             "stage": "sideways_volume",
             "sar_below": false,
-            "strength_score": 40,
-            "decision_ms": 1793318400000,
-            "volume_ratio_now": 20.45353261316264,
-            "relative8_pct_points": 4.536323170694578,
-            "early_level": 0.0043397,
-            "early_ema": 0.004303223550060664,
+            "strength_score": 20,
+            "decision_ms": 1793332800000,
+            "volume_ratio_now": 1.5229898782928493,
+            "relative8_pct_points": 1.3000544169210593,
+            "early_level": 0.00359,
+            "early_ema": 0.003539950179476165,
             "early_prior_below_ema20": true,
             "group_early_reversal": false,
-            "box_high": 0.0043397,
-            "box_low": 0.0042456,
-            "box_range_atr": 1.0502066510054089,
-            "box_net_change_atr": 0.17075623549822552,
+            "box_high": 0.00359,
+            "box_low": 0.003473,
+            "box_range_atr": 0.9222310883140648,
+            "box_net_change_atr": 0.08670548693550827,
             "group_sideways_volume": true,
             "retest_touched_support": false,
             "retest_base_range_anchor_atr": null,
@@ -2902,26 +2058,25 @@
             "matched_groups": [
               "sideways_volume"
             ],
-            "signal_reference_level": 0.0042456,
-            "signal_invalidation_level": 0.00422434431481101,
-            "signal_invalidation_distance_pct": 1.9555234922942422,
-            "signal_volume_ratio": 20.45353261316264,
-            "rsi14": 44.403053912981484,
+            "signal_reference_level": 0.003473,
+            "signal_invalidation_level": 0.0034422989062016258,
+            "signal_invalidation_distance_pct": 1.9008576175085223,
+            "signal_volume_ratio": 1.5229898782928493,
+            "rsi14": 30.49428498500407,
             "pu_confirmed_now": false,
             "pu_active": false,
             "pu_confirmation_ms": null,
             "pu_age_bars": null,
-            "symbol": "XEFUSDT",
+            "symbol": "ESEUSDT",
             "exchange": "MEXC",
-            "observed_ms": 1793321555923,
-            "liquidity_band": "main",
-            "mid_price": 0.00410735,
-            "spread_pct": 0.35302567348778713,
+            "observed_ms": 1793335712439,
+            "liquidity_band": "thin",
+            "mid_price": 0.0035120000000000004,
+            "spread_pct": 0.4555808656036433,
             "warnings": [
+              "düşük hacim",
               "yatay hacim; toplama veya yükseliş teyidi değildir",
-              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi",
-              "gözlem fiyatı grubun izlediği seviyenin altında",
-              "gözlem fiyatı kapanıştan uzaklaştı"
+              "deneysel ek grup; geçmiş karşılaştırmada tutarlı üstünlük gösterilmedi"
             ],
             "failed_legacy_gates": [
               "anchor",
@@ -2930,19 +2085,19 @@
             ],
             "paper_controls": [
               {
-                "symbol": "BZRUSDT",
-                "entry_price": 64.2595
+                "symbol": "ASEUSDT",
+                "entry_price": 0.0013325
               },
               {
-                "symbol": "ELUSDT",
-                "entry_price": 0.001458
+                "symbol": "ABUSDT",
+                "entry_price": 0.0005225
               },
               {
-                "symbol": "CROUSDT",
-                "entry_price": 0.050699999999999995
+                "symbol": "MOCAUSDT",
+                "entry_price": 0.007939499999999999
               }
             ],
-            "paper_btc_price": 77166.57500000001
+            "paper_btc_price": 78417.015
           }
         ],
         "limitation": "V5 live prefilter: >=-10% rolling 24h, no upper return cap, >=10k USDT volume."
@@ -3271,6 +2426,17 @@
                 "control_excess_pct_points": 0.9249081795572378,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 41.77,
+                "return_pct": -0.10761688389332447,
+                "btc_excess_pct_points": 3.21243099066989,
+                "control_excess_pct_points": 8.277034939886885,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -3326,6 +2492,17 @@
                 "control_excess_pct_points": -0.415020660323695,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.07136,
+                "return_pct": -11.792336217552524,
+                "btc_excess_pct_points": -8.472288342989309,
+                "control_excess_pct_points": -6.608376344550205,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -3379,6 +2556,17 @@
                 "return_pct": -6.033010813887318,
                 "btc_excess_pct_points": -5.032548819169735,
                 "control_excess_pct_points": 1.0209310948263832,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.01512,
+                "return_pct": -13.94422310756973,
+                "btc_excess_pct_points": -10.657433361199086,
+                "control_excess_pct_points": 2.068987155788726,
                 "complete": true,
                 "controls_count": 3
               }
@@ -3568,11 +2756,23 @@
                 "price": 0.0320525
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.028408,
+                "return_pct": -11.37040792449886,
+                "btc_excess_pct_points": -7.865546247959809,
+                "control_excess_pct_points": -3.850103101476698,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793321588210
+        "asof_ms": 1793335783279
       }
     },
     "early_reversal": {
@@ -19471,6 +18671,17 @@
                 "control_excess_pct_points": 6.2725354418159736,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.004181,
+                "return_pct": -6.444394719176572,
+                "btc_excess_pct_points": -3.124346844613357,
+                "control_excess_pct_points": 0.3452113160287933,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -19524,6 +18735,17 @@
                 "return_pct": -2.3717282434092213,
                 "btc_excess_pct_points": -1.2539349669582922,
                 "control_excess_pct_points": 2.2305361294771013,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 4.771,
+                "return_pct": -9.836530284418398,
+                "btc_excess_pct_points": -6.5164824098551835,
+                "control_excess_pct_points": 0.18999491452058592,
                 "complete": true,
                 "controls_count": 3
               }
@@ -19581,6 +18803,17 @@
                 "control_excess_pct_points": -2.1911806512605603,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.007413,
+                "return_pct": -8.158334881992179,
+                "btc_excess_pct_points": -4.838287007428964,
+                "control_excess_pct_points": -6.657702085029603,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -19634,6 +18867,17 @@
                 "return_pct": -2.068004027573389,
                 "btc_excess_pct_points": -0.95021075112246,
                 "control_excess_pct_points": 0.6205634317712261,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.05837,
+                "return_pct": -9.580977461079708,
+                "btc_excess_pct_points": -6.260929586516494,
+                "control_excess_pct_points": -0.8288323274685201,
                 "complete": true,
                 "controls_count": 3
               }
@@ -19691,6 +18935,17 @@
                 "control_excess_pct_points": -1.7939702155474908,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.8365,
+                "return_pct": -8.674054260603747,
+                "btc_excess_pct_points": -5.354006386040532,
+                "control_excess_pct_points": -4.038253784986478,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -19744,6 +18999,17 @@
                 "return_pct": -2.1510297482837615,
                 "btc_excess_pct_points": -1.0332364718328324,
                 "control_excess_pct_points": 0.969849372595355,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 20.77,
+                "return_pct": -4.9427917620137425,
+                "btc_excess_pct_points": -1.622743887450528,
+                "control_excess_pct_points": 4.859406040184057,
                 "complete": true,
                 "controls_count": 3
               }
@@ -19801,6 +19067,17 @@
                 "control_excess_pct_points": 0.5408764134671395,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.01543,
+                "return_pct": -12.750918857789085,
+                "btc_excess_pct_points": -9.43087098322587,
+                "control_excess_pct_points": -0.6399240122284873,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -19854,6 +19131,17 @@
                 "return_pct": -2.165165740563313,
                 "btc_excess_pct_points": -1.0473724641123838,
                 "control_excess_pct_points": 2.1258460906215744,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 2.44,
+                "return_pct": -6.495497221689972,
+                "btc_excess_pct_points": -3.175449347126757,
+                "control_excess_pct_points": 4.461592659998182,
                 "complete": true,
                 "controls_count": 3
               }
@@ -19911,6 +19199,17 @@
                 "control_excess_pct_points": -1.1998260903040685,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.1583,
+                "return_pct": -11.982207395051436,
+                "btc_excess_pct_points": -8.66215952048822,
+                "control_excess_pct_points": -4.083087718629841,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -19964,6 +19263,17 @@
                 "return_pct": 2.3016759776536277,
                 "btc_excess_pct_points": 3.3021379723712108,
                 "control_excess_pct_points": 6.519264372939204,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.00418,
+                "return_pct": -6.592178770949719,
+                "btc_excess_pct_points": -3.3053890245790747,
+                "control_excess_pct_points": 8.922414162998038,
                 "complete": true,
                 "controls_count": 3
               }
@@ -20021,6 +19331,17 @@
                 "control_excess_pct_points": -2.4792638856972693,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.03985,
+                "return_pct": -9.339096803549085,
+                "btc_excess_pct_points": -6.0523070571784405,
+                "control_excess_pct_points": -0.11546361976076902,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -20074,6 +19395,17 @@
                 "return_pct": -6.731272917757991,
                 "btc_excess_pct_points": -5.7308109230404085,
                 "control_excess_pct_points": -3.932516809361719,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.002938,
+                "return_pct": -23.048716605552645,
+                "btc_excess_pct_points": -19.761926859182,
+                "control_excess_pct_points": -8.405773590404788,
                 "complete": true,
                 "controls_count": 3
               }
@@ -20131,6 +19463,17 @@
                 "control_excess_pct_points": 0.3995562913621131,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.3381,
+                "return_pct": -8.050040794125646,
+                "btc_excess_pct_points": -4.763251047755002,
+                "control_excess_pct_points": -2.620787186734386,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -20186,6 +19529,17 @@
                 "control_excess_pct_points": -1.9134835986509446,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 124.58,
+                "return_pct": -8.096344657150246,
+                "btc_excess_pct_points": -4.809554910779601,
+                "control_excess_pct_points": 2.680393854439833,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -20239,6 +19593,17 @@
                 "return_pct": -2.5373134328358193,
                 "btc_excess_pct_points": -1.5368514381182363,
                 "control_excess_pct_points": -0.26606099935106986,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.0004312,
+                "return_pct": -8.059701492537307,
+                "btc_excess_pct_points": -4.772911746166663,
+                "control_excess_pct_points": -6.307592472420509,
                 "complete": true,
                 "controls_count": 3
               }
@@ -23475,6 +22840,17 @@
                 "control_excess_pct_points": -1.347296098793016,
                 "complete": true,
                 "controls_count": 3
+              },
+              "24": {
+                "target_ms": 1793335599877,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 20123,
+                "endpoint_price": 3.386,
+                "return_pct": 3.2002438281012013,
+                "btc_excess_pct_points": 5.355158222639722,
+                "control_excess_pct_points": 5.079732681752914,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -23992,7 +23368,19 @@
                 "price": 0.04041
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.04042,
+                "return_pct": 0.02474634991338487,
+                "btc_excess_pct_points": 3.5296080264524354,
+                "control_excess_pct_points": 10.184062904981484,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "MEXC:MYSTUSDT": {
             "symbol": "MYSTUSDT",
@@ -24024,7 +23412,19 @@
                 "price": 0.09558
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.09239,
+                "return_pct": -3.337518309269716,
+                "btc_excess_pct_points": 0.16734336726933474,
+                "control_excess_pct_points": -4.297235445271763,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "MEXC:MERLUSDT": {
             "symbol": "MERLUSDT",
@@ -24056,7 +23456,19 @@
                 "price": 0.027805
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.02717,
+                "return_pct": -2.2837619133249443,
+                "btc_excess_pct_points": 1.2210997632141063,
+                "control_excess_pct_points": 4.464516587057609,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "MEXC:TWTUSDT": {
             "symbol": "TWTUSDT",
@@ -24088,7 +23500,19 @@
                 "price": 0.44475
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.4054,
+                "return_pct": -8.84766722878021,
+                "btc_excess_pct_points": -5.34280555224116,
+                "control_excess_pct_points": -2.191656268624943,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "MEXC:EPICUSDT": {
             "symbol": "EPICUSDT",
@@ -24120,7 +23544,19 @@
                 "price": 0.10485
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.0992,
+                "return_pct": -5.388650453028143,
+                "btc_excess_pct_points": -1.8837887764890926,
+                "control_excess_pct_points": 10.521383455947019,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "MEXC:GRIFFAINUSDT": {
             "symbol": "GRIFFAINUSDT",
@@ -24152,7 +23588,19 @@
                 "price": 0.014157
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.01239,
+                "return_pct": -12.481457936003393,
+                "btc_excess_pct_points": -8.976596259464342,
+                "control_excess_pct_points": -6.232751128637382,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "MEXC:KEKIUSUSDT": {
             "symbol": "KEKIUSUSDT",
@@ -24184,7 +23632,19 @@
                 "price": 0.0050325000000000005
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.004534,
+                "return_pct": -9.905613512170897,
+                "btc_excess_pct_points": -6.400751835631846,
+                "control_excess_pct_points": -2.3853086891487347,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "OKX:ASTERUSDT": {
             "symbol": "ASTERUSDT",
@@ -26137,6 +25597,70 @@
               }
             ],
             "outcomes": {}
+          },
+          "OKX:DOODUSDT": {
+            "symbol": "DOODUSDT",
+            "exchange": "OKX",
+            "observed_ms": 1793335536436,
+            "entry_price": 0.0020670000000000003,
+            "btc_entry_price": 78350.15,
+            "controls": [
+              {
+                "symbol": "KATUSDT",
+                "entry_price": 0.0041875
+              },
+              {
+                "symbol": "XSNXXUSDT",
+                "entry_price": 9.0535
+              },
+              {
+                "symbol": "BICOUSDT",
+                "entry_price": 0.016345
+              }
+            ],
+            "pu_at_entry": false,
+            "rsi14_at_entry": 53.692932161555355,
+            "initial_stage": "early_reversal",
+            "stages": [
+              {
+                "stage": "early_reversal",
+                "observed_ms": 1793335536436,
+                "price": 0.0020670000000000003
+              }
+            ],
+            "outcomes": {}
+          },
+          "MEXC:DOODUSDT": {
+            "symbol": "DOODUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1793335712439,
+            "entry_price": 0.0020594999999999997,
+            "btc_entry_price": 78417.015,
+            "controls": [
+              {
+                "symbol": "CAPUSDT",
+                "entry_price": 0.08171
+              },
+              {
+                "symbol": "ONUSDT",
+                "entry_price": 0.17905500000000002
+              },
+              {
+                "symbol": "XANUSDT",
+                "entry_price": 0.0103825
+              }
+            ],
+            "pu_at_entry": false,
+            "rsi14_at_entry": 53.66223327963246,
+            "initial_stage": "early_reversal",
+            "stages": [
+              {
+                "stage": "early_reversal",
+                "observed_ms": 1793335712439,
+                "price": 0.0020594999999999997
+              }
+            ],
+            "outcomes": {}
           }
         },
         "measurement_errors": [
@@ -26147,7 +25671,7 @@
             "error": "HTTP Error 400: Bad Request"
           }
         ],
-        "asof_ms": 1793321588210
+        "asof_ms": 1793335783279
       }
     },
     "sideways_volume": {
@@ -35974,6 +35498,17 @@
                 "control_excess_pct_points": -1.1344869536388358,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.1159,
+                "return_pct": -16.768402154398554,
+                "btc_excess_pct_points": -13.448354279835339,
+                "control_excess_pct_points": -8.552439713084004,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -36027,6 +35562,17 @@
                 "return_pct": -2.2865533878749678,
                 "btc_excess_pct_points": -1.1687601114240387,
                 "control_excess_pct_points": 0.0049746144070494935,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.6913,
+                "return_pct": -3.3214460527235756,
+                "btc_excess_pct_points": -0.001398178160361141,
+                "control_excess_pct_points": 1.4232045862618952,
                 "complete": true,
                 "controls_count": 3
               }
@@ -36084,6 +35630,17 @@
                 "control_excess_pct_points": -0.26606099935106986,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.0004312,
+                "return_pct": -8.059701492537307,
+                "btc_excess_pct_points": -4.772911746166663,
+                "control_excess_pct_points": -6.307592472420509,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -36137,6 +35694,17 @@
                 "return_pct": -1.187469775938954,
                 "btc_excess_pct_points": -0.18700778122137107,
                 "control_excess_pct_points": -0.17318701874581288,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.008679,
+                "return_pct": -6.732577507925419,
+                "btc_excess_pct_points": -3.445787761554775,
+                "control_excess_pct_points": -3.565531347710138,
                 "complete": true,
                 "controls_count": 3
               }
@@ -36194,6 +35762,17 @@
                 "control_excess_pct_points": 1.4162751420236153,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.0454,
+                "return_pct": -6.871794871794867,
+                "btc_excess_pct_points": -3.585005125424223,
+                "control_excess_pct_points": 3.2698227925275223,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -36247,6 +35826,17 @@
                 "return_pct": 0.6087735004476347,
                 "btc_excess_pct_points": 1.6092354951652177,
                 "control_excess_pct_points": 4.374411269983058,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.00516,
+                "return_pct": -7.609668755595345,
+                "btc_excess_pct_points": -4.3228790092247005,
+                "control_excess_pct_points": 1.3571041165029714,
                 "complete": true,
                 "controls_count": 3
               }
@@ -36304,6 +35894,17 @@
                 "control_excess_pct_points": -2.1525394726288116,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.01543,
+                "return_pct": -12.775579423403038,
+                "btc_excess_pct_points": -9.488789677032393,
+                "control_excess_pct_points": -0.6624052412633414,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -36357,6 +35958,17 @@
                 "return_pct": 1.0393532912854386,
                 "btc_excess_pct_points": 2.0398152860030216,
                 "control_excess_pct_points": 3.298080190669417,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.005685,
+                "return_pct": 1.003819845429521,
+                "btc_excess_pct_points": 4.290609591800165,
+                "control_excess_pct_points": 5.315934835162584,
                 "complete": true,
                 "controls_count": 3
               }
@@ -39043,6 +38655,17 @@
                 "control_excess_pct_points": 4.1282472438258,
                 "complete": true,
                 "controls_count": 3
+              },
+              "24": {
+                "target_ms": 1793335599877,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 20123,
+                "endpoint_price": 0.00419,
+                "return_pct": -8.654894266405066,
+                "btc_excess_pct_points": -6.499979871866545,
+                "control_excess_pct_points": 3.6170320679324472,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -39087,6 +38710,17 @@
                 "control_excess_pct_points": 0.8213766627073626,
                 "complete": true,
                 "controls_count": 3
+              },
+              "24": {
+                "target_ms": 1793335599877,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 20123,
+                "endpoint_price": 0.1217,
+                "return_pct": 6.5207877461706865,
+                "btc_excess_pct_points": 8.675702140709207,
+                "control_excess_pct_points": 11.421365039307307,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -39129,6 +38763,17 @@
                 "return_pct": 1.4296463506395796,
                 "btc_excess_pct_points": -0.18371495503020085,
                 "control_excess_pct_points": 0.45376457174650664,
+                "complete": true,
+                "controls_count": 3
+              },
+              "24": {
+                "target_ms": 1793335599877,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 20123,
+                "endpoint_price": 0.00257,
+                "return_pct": -3.3107599699021772,
+                "btc_excess_pct_points": -1.1558455753636565,
+                "control_excess_pct_points": 2.209215632415596,
                 "complete": true,
                 "controls_count": 3
               }
@@ -39296,7 +38941,19 @@
                 "price": 0.052575
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.05229,
+                "return_pct": -0.5420827389443494,
+                "btc_excess_pct_points": 2.962778937594701,
+                "control_excess_pct_points": 3.452311094272187,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "MEXC:CHIRPUSDT": {
             "symbol": "CHIRPUSDT",
@@ -39328,7 +38985,19 @@
                 "price": 0.0061675
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.006122,
+                "return_pct": -0.7377381434941266,
+                "btc_excess_pct_points": 2.767123533044924,
+                "control_excess_pct_points": 3.6593014733974694,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "OKX:KAIAUSDT": {
             "symbol": "KAIAUSDT",
@@ -39745,10 +39414,42 @@
               }
             ],
             "outcomes": {}
+          },
+          "MEXC:ESEUSDT": {
+            "symbol": "ESEUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1793335712439,
+            "entry_price": 0.0035120000000000004,
+            "btc_entry_price": 78417.015,
+            "controls": [
+              {
+                "symbol": "ASEUSDT",
+                "entry_price": 0.0013325
+              },
+              {
+                "symbol": "ABUSDT",
+                "entry_price": 0.0005225
+              },
+              {
+                "symbol": "MOCAUSDT",
+                "entry_price": 0.007939499999999999
+              }
+            ],
+            "pu_at_entry": false,
+            "rsi14_at_entry": 30.49428498500407,
+            "initial_stage": "sideways_volume",
+            "stages": [
+              {
+                "stage": "sideways_volume",
+                "observed_ms": 1793335712439,
+                "price": 0.0035120000000000004
+              }
+            ],
+            "outcomes": {}
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793321588210
+        "asof_ms": 1793335783279
       }
     },
     "new_breakout": {
@@ -48057,6 +47758,17 @@
                 "control_excess_pct_points": -2.182484561616704,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 23.76,
+                "return_pct": -3.6105476673427894,
+                "btc_excess_pct_points": -0.29049979277957494,
+                "control_excess_pct_points": 3.973580911260921,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -48110,6 +47822,17 @@
                 "return_pct": -7.566974088713218,
                 "btc_excess_pct_points": -6.44918081226229,
                 "control_excess_pct_points": -6.869741889262559,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 217.94,
+                "return_pct": -4.286341677646021,
+                "btc_excess_pct_points": -0.9662938030828068,
+                "control_excess_pct_points": -3.2088010057677248,
                 "complete": true,
                 "controls_count": 3
               }
@@ -48167,6 +47890,17 @@
                 "control_excess_pct_points": -2.793277830092311,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 0.0006159,
+                "return_pct": -5.60919540229885,
+                "btc_excess_pct_points": -2.2891475277356355,
+                "control_excess_pct_points": -0.07563049398638988,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -48220,6 +47954,17 @@
                 "return_pct": -1.284480943356503,
                 "btc_excess_pct_points": -0.1666876669055739,
                 "control_excess_pct_points": 0.8505604230699793,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 2.333e-05,
+                "return_pct": -1.747736365550645,
+                "btc_excess_pct_points": 1.5723115090125694,
+                "control_excess_pct_points": 3.0561067089089344,
                 "complete": true,
                 "controls_count": 3
               }
@@ -48277,6 +48022,17 @@
                 "control_excess_pct_points": -0.8173792538774927,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 227.6,
+                "return_pct": -10.60311475087885,
+                "btc_excess_pct_points": -7.283066876315636,
+                "control_excess_pct_points": -13.89680686465098,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -48330,6 +48086,17 @@
                 "return_pct": -1.7922446882461363,
                 "btc_excess_pct_points": -0.6744514117952072,
                 "control_excess_pct_points": -0.5358111429842438,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 1616.5,
+                "return_pct": -2.287907637440678,
+                "btc_excess_pct_points": 1.0321402371225363,
+                "control_excess_pct_points": -0.1837598929659512,
                 "complete": true,
                 "controls_count": 3
               }
@@ -48387,6 +48154,17 @@
                 "control_excess_pct_points": 3.8429398489701616,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 244.16,
+                "return_pct": 0.14560817046409547,
+                "btc_excess_pct_points": 3.46565604502731,
+                "control_excess_pct_points": 7.601129209718538,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -48440,6 +48218,17 @@
                 "return_pct": 1.0879848628192912,
                 "btc_excess_pct_points": 2.2057781392702203,
                 "control_excess_pct_points": 3.146182165871114,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 404.07,
+                "return_pct": 0.6000099586715102,
+                "btc_excess_pct_points": 3.9200578332347247,
+                "control_excess_pct_points": 8.099418522664891,
                 "complete": true,
                 "controls_count": 3
               }
@@ -48497,6 +48286,17 @@
                 "control_excess_pct_points": -3.932516809361719,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.002938,
+                "return_pct": -23.048716605552645,
+                "btc_excess_pct_points": -19.761926859182,
+                "control_excess_pct_points": -8.405773590404788,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -48552,6 +48352,17 @@
                 "control_excess_pct_points": -11.192235260031856,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.01141,
+                "return_pct": -25.61929595827901,
+                "btc_excess_pct_points": -22.332506211908367,
+                "control_excess_pct_points": -10.498492411088712,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -48605,6 +48416,17 @@
                 "return_pct": -14.595375722543357,
                 "btc_excess_pct_points": -13.594913727825775,
                 "control_excess_pct_points": -11.796619614147085,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.01338,
+                "return_pct": -35.54913294797688,
+                "btc_excess_pct_points": -32.262343201606235,
+                "control_excess_pct_points": -15.0911176808013,
                 "complete": true,
                 "controls_count": 3
               }
@@ -51841,7 +51663,19 @@
                 "price": 0.078845
               }
             ],
-            "outcomes": {}
+            "outcomes": {
+              "12": {
+                "target_ms": 1793321593406,
+                "endpoint_ms": 1793321640000,
+                "endpoint_delay_ms": 46594,
+                "endpoint_price": 0.07668,
+                "return_pct": -2.745893842348912,
+                "btc_excess_pct_points": 0.7589678341901385,
+                "control_excess_pct_points": 1.5712292624192274,
+                "complete": true,
+                "controls_count": 3
+              }
+            }
           },
           "OKX:XBMNRUSDT": {
             "symbol": "XBMNRUSDT",
@@ -52962,10 +52796,42 @@
               }
             ],
             "outcomes": {}
+          },
+          "MEXC:RUNEUSDT": {
+            "symbol": "RUNEUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1793335712439,
+            "entry_price": 0.6744,
+            "btc_entry_price": 78417.015,
+            "controls": [
+              {
+                "symbol": "LINKUSDT",
+                "entry_price": 11.055499999999999
+              },
+              {
+                "symbol": "ZIGUSDT",
+                "entry_price": 0.041176
+              },
+              {
+                "symbol": "UNIUSDT",
+                "entry_price": 6.791
+              }
+            ],
+            "pu_at_entry": false,
+            "rsi14_at_entry": 70.9621431523074,
+            "initial_stage": "new_breakout",
+            "stages": [
+              {
+                "stage": "new_breakout",
+                "observed_ms": 1793335712439,
+                "price": 0.6744
+              }
+            ],
+            "outcomes": {}
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793321588210
+        "asof_ms": 1793335783279
       }
     },
     "continuation": {
@@ -54806,6 +54672,17 @@
                 "control_excess_pct_points": -6.727192099283208,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 257.94,
+                "return_pct": -4.317827732027613,
+                "btc_excess_pct_points": -0.9977798574643986,
+                "control_excess_pct_points": -3.246624203357163,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -54859,6 +54736,17 @@
                 "return_pct": 8.986537044547127,
                 "btc_excess_pct_points": 10.104330320998056,
                 "control_excess_pct_points": 13.066758344685436,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 890.68,
+                "return_pct": 1.7495558995390459,
+                "btc_excess_pct_points": 5.06960377410226,
+                "control_excess_pct_points": 11.016499191378603,
                 "complete": true,
                 "controls_count": 3
               }
@@ -54916,6 +54804,17 @@
                 "control_excess_pct_points": 0.11668987424873212,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 56.92,
+                "return_pct": -3.0571404240824385,
+                "btc_excess_pct_points": 0.262907450480776,
+                "control_excess_pct_points": 6.400933252654971,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -54969,6 +54868,17 @@
                 "return_pct": 0.40672806948489626,
                 "btc_excess_pct_points": 1.5245213459358253,
                 "control_excess_pct_points": 0.40672806948491846,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 380.04,
+                "return_pct": -0.27552546642525266,
+                "btc_excess_pct_points": 3.044522408137962,
+                "control_excess_pct_points": -0.1621467816179889,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55026,6 +54936,17 @@
                 "control_excess_pct_points": -3.63421100687189,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 1284.32,
+                "return_pct": -2.7796281717434757,
+                "btc_excess_pct_points": 0.5404197028197388,
+                "control_excess_pct_points": 2.0591604186963592,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55079,6 +55000,17 @@
                 "return_pct": -2.2047032036137004,
                 "btc_excess_pct_points": -1.0869099271627713,
                 "control_excess_pct_points": 0.04913016050970276,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 397.47,
+                "return_pct": -2.6870202842487867,
+                "btc_excess_pct_points": 0.6330275903144278,
+                "control_excess_pct_points": -1.0991149880616558,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55136,6 +55068,17 @@
                 "control_excess_pct_points": -20.698794205787287,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 211.29,
+                "return_pct": -4.553462528797947,
+                "btc_excess_pct_points": -1.2334146542347328,
+                "control_excess_pct_points": -7.256165231500667,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55189,6 +55132,17 @@
                 "return_pct": 1.0094268791190464,
                 "btc_excess_pct_points": 2.1272201555699755,
                 "control_excess_pct_points": 2.223054602470409,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 58.64,
+                "return_pct": -2.160674063568868,
+                "btc_excess_pct_points": 1.1593738109943463,
+                "control_excess_pct_points": 2.94818824860531,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55246,6 +55200,17 @@
                 "control_excess_pct_points": 3.1670155837189573,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 164.62,
+                "return_pct": -4.8109170810685775,
+                "btc_excess_pct_points": -1.490869206505363,
+                "control_excess_pct_points": 8.919894554924968,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55299,6 +55264,17 @@
                 "return_pct": 6.9013817906492525,
                 "btc_excess_pct_points": 8.019175067100182,
                 "control_excess_pct_points": 8.174138355817618,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 134.99,
+                "return_pct": 2.2070793109975506,
+                "btc_excess_pct_points": 5.527127185560765,
+                "control_excess_pct_points": 5.362502911080414,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55356,6 +55332,17 @@
                 "control_excess_pct_points": -0.5123877223721651,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 1.2532,
+                "return_pct": -5.891187624375771,
+                "btc_excess_pct_points": -2.5711397498125566,
+                "control_excess_pct_points": -1.4872535267750786,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55409,6 +55396,17 @@
                 "return_pct": 4.103836610040079,
                 "btc_excess_pct_points": 5.221629886491009,
                 "control_excess_pct_points": 8.680775357833092,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 24.9,
+                "return_pct": -4.943691544187834,
+                "btc_excess_pct_points": -1.6236436696246193,
+                "control_excess_pct_points": 5.809928057346637,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55466,6 +55464,17 @@
                 "control_excess_pct_points": 0.9354743702124413,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 10.17,
+                "return_pct": -2.2585295530994864,
+                "btc_excess_pct_points": 1.061518321463728,
+                "control_excess_pct_points": 7.475778371253683,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55519,6 +55528,17 @@
                 "return_pct": -1.1120411335645008,
                 "btc_excess_pct_points": 0.005752142886428224,
                 "control_excess_pct_points": 0.9249081795572378,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335403840,
+                "endpoint_ms": 1793335440000,
+                "endpoint_delay_ms": 36160,
+                "endpoint_price": 41.77,
+                "return_pct": -0.10761688389332447,
+                "btc_excess_pct_points": 3.21243099066989,
+                "control_excess_pct_points": 8.277034939886885,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55576,6 +55596,17 @@
                 "control_excess_pct_points": 2.4679207651001844,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 1.1582,
+                "return_pct": -2.59860398620807,
+                "btc_excess_pct_points": 0.688185760162574,
+                "control_excess_pct_points": 10.92984355132589,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55629,6 +55660,17 @@
                 "return_pct": 108.82941734274571,
                 "btc_excess_pct_points": 109.8298793374633,
                 "control_excess_pct_points": 107.71926491248975,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.0007409,
+                "return_pct": 56.12685702244229,
+                "btc_excess_pct_points": 59.41364676881293,
+                "control_excess_pct_points": 55.24678799742071,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55686,6 +55728,17 @@
                 "control_excess_pct_points": 32.43069235970982,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.17846,
+                "return_pct": 17.75651600131969,
+                "btc_excess_pct_points": 21.043305747690333,
+                "control_excess_pct_points": 31.338406813570018,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55739,6 +55792,17 @@
                 "return_pct": 0.05571030640669772,
                 "btc_excess_pct_points": 1.0561723011242807,
                 "control_excess_pct_points": 9.33311875453683,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.001733,
+                "return_pct": -3.4540389972144814,
+                "btc_excess_pct_points": -0.16724925084383724,
+                "control_excess_pct_points": 5.773832942521872,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55796,6 +55860,17 @@
                 "control_excess_pct_points": -2.1088616489063905,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.003365,
+                "return_pct": 9.395318595578672,
+                "btc_excess_pct_points": 12.682108341949316,
+                "control_excess_pct_points": 18.024760219944156,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55849,6 +55924,17 @@
                 "return_pct": -5.634729723596421,
                 "btc_excess_pct_points": -4.634267728878838,
                 "control_excess_pct_points": -3.968934549173475,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 1285.92,
+                "return_pct": -2.7277265919302796,
+                "btc_excess_pct_points": 0.5590631544403646,
+                "control_excess_pct_points": 6.019565557169592,
                 "complete": true,
                 "controls_count": 3
               }
@@ -55906,6 +55992,17 @@
                 "control_excess_pct_points": 1.8158651479949217,
                 "complete": true,
                 "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 0.04636,
+                "return_pct": -2.6459470810583863,
+                "btc_excess_pct_points": 0.6408426653122579,
+                "control_excess_pct_points": 9.395233346539522,
+                "complete": true,
+                "controls_count": 3
               }
             }
           },
@@ -55959,6 +56056,17 @@
                 "return_pct": -2.606474874183129,
                 "btc_excess_pct_points": -1.606012879465546,
                 "control_excess_pct_points": -0.6840564424461015,
+                "complete": true,
+                "controls_count": 3
+              },
+              "48": {
+                "target_ms": 1793335617321,
+                "endpoint_ms": 1793335620000,
+                "endpoint_delay_ms": 2679,
+                "endpoint_price": 1.2527,
+                "return_pct": -5.904003605498387,
+                "btc_excess_pct_points": -2.6172138591277427,
+                "control_excess_pct_points": -1.1835614003425814,
                 "complete": true,
                 "controls_count": 3
               }
@@ -57798,10 +57906,74 @@
               }
             ],
             "outcomes": {}
+          },
+          "OKX:HYPEUSDT": {
+            "symbol": "HYPEUSDT",
+            "exchange": "OKX",
+            "observed_ms": 1793335536436,
+            "entry_price": 92.21,
+            "btc_entry_price": 78350.15,
+            "controls": [
+              {
+                "symbol": "SOLUSDT",
+                "entry_price": 97.295
+              },
+              {
+                "symbol": "ZECUSDT",
+                "entry_price": 1283.125
+              },
+              {
+                "symbol": "XRPUSDT",
+                "entry_price": 1.25265
+              }
+            ],
+            "pu_at_entry": false,
+            "rsi14_at_entry": 68.62280561831415,
+            "initial_stage": "continuation",
+            "stages": [
+              {
+                "stage": "continuation",
+                "observed_ms": 1793335536436,
+                "price": 92.21
+              }
+            ],
+            "outcomes": {}
+          },
+          "MEXC:HYPEUSDT": {
+            "symbol": "HYPEUSDT",
+            "exchange": "MEXC",
+            "observed_ms": 1793335712439,
+            "entry_price": 92.4,
+            "btc_entry_price": 78417.015,
+            "controls": [
+              {
+                "symbol": "BCHUSDT",
+                "entry_price": 284.85
+              },
+              {
+                "symbol": "ADAUSDT",
+                "entry_price": 0.19305
+              },
+              {
+                "symbol": "INJUSDT",
+                "entry_price": 7.396000000000001
+              }
+            ],
+            "pu_at_entry": false,
+            "rsi14_at_entry": 68.80206632680584,
+            "initial_stage": "continuation",
+            "stages": [
+              {
+                "stage": "continuation",
+                "observed_ms": 1793335712439,
+                "price": 92.4
+              }
+            ],
+            "outcomes": {}
           }
         },
         "measurement_errors": [],
-        "asof_ms": 1793321588210
+        "asof_ms": 1793335783279
       }
     }
   },
@@ -58345,7 +58517,7 @@
         }
       },
       "measurement_errors": [],
-      "asof_ms": 1793321588210
+      "asof_ms": 1793335783279
     }
   },
   "migration": {
@@ -58355,7 +58527,7 @@
     "migrated_ms": 1793018282527,
     "reason": "Three added alternative groups; previous real reference prices retained in separate cohort and continue measuring. Notification cooldowns retained; no backdated new-version entries."
   },
-  "updated_ms": 1793321588210,
+  "updated_ms": 1793335783279,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -59442,6 +59614,11 @@
             "stage": "new_breakout",
             "observed_ms": 1793018384801,
             "price": 0.0023005
+          },
+          {
+            "stage": "early_reversal",
+            "observed_ms": 1793335536436,
+            "price": 0.0020670000000000003
           }
         ],
         "outcomes": {
@@ -60649,6 +60826,11 @@
             "stage": "new_breakout",
             "observed_ms": 1793292944415,
             "price": 96.41
+          },
+          {
+            "stage": "continuation",
+            "observed_ms": 1793335712439,
+            "price": 92.4
           }
         ],
         "outcomes": {
@@ -84872,6 +85054,11 @@
             "stage": "new_breakout",
             "observed_ms": 1793292736431,
             "price": 96.268
+          },
+          {
+            "stage": "continuation",
+            "observed_ms": 1793335536436,
+            "price": 92.21
           }
         ],
         "outcomes": {
@@ -86966,6 +87153,17 @@
             "control_excess_pct_points": 6.2725354418159736,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 0.004181,
+            "return_pct": -6.444394719176572,
+            "btc_excess_pct_points": -3.124346844613357,
+            "control_excess_pct_points": 0.3452113160287933,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87031,6 +87229,17 @@
             "control_excess_pct_points": 2.2305361294771013,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 4.771,
+            "return_pct": -9.836530284418398,
+            "btc_excess_pct_points": -6.5164824098551835,
+            "control_excess_pct_points": 0.18999491452058592,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87086,6 +87295,17 @@
             "control_excess_pct_points": -2.1911806512605603,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 0.007413,
+            "return_pct": -8.158334881992179,
+            "btc_excess_pct_points": -4.838287007428964,
+            "control_excess_pct_points": -6.657702085029603,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87139,6 +87359,17 @@
             "return_pct": -2.1510297482837615,
             "btc_excess_pct_points": -1.0332364718328324,
             "control_excess_pct_points": 0.969849372595355,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 20.77,
+            "return_pct": -4.9427917620137425,
+            "btc_excess_pct_points": -1.622743887450528,
+            "control_excess_pct_points": 4.859406040184057,
             "complete": true,
             "controls_count": 3
           }
@@ -87201,6 +87432,17 @@
             "control_excess_pct_points": 0.5408764134671395,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 0.01543,
+            "return_pct": -12.750918857789085,
+            "btc_excess_pct_points": -9.43087098322587,
+            "control_excess_pct_points": -0.6399240122284873,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87254,6 +87496,17 @@
             "return_pct": -2.165165740563313,
             "btc_excess_pct_points": -1.0473724641123838,
             "control_excess_pct_points": 2.1258460906215744,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 2.44,
+            "return_pct": -6.495497221689972,
+            "btc_excess_pct_points": -3.175449347126757,
+            "control_excess_pct_points": 4.461592659998182,
             "complete": true,
             "controls_count": 3
           }
@@ -87311,6 +87564,17 @@
             "control_excess_pct_points": -1.1998260903040685,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 0.1583,
+            "return_pct": -11.982207395051436,
+            "btc_excess_pct_points": -8.66215952048822,
+            "control_excess_pct_points": -4.083087718629841,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87366,6 +87630,17 @@
             "control_excess_pct_points": -6.869741889262559,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 217.94,
+            "return_pct": -4.286341677646021,
+            "btc_excess_pct_points": -0.9662938030828068,
+            "control_excess_pct_points": -3.2088010057677248,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87419,6 +87694,17 @@
             "return_pct": -3.616858237547882,
             "btc_excess_pct_points": -2.499064961096953,
             "control_excess_pct_points": -2.793277830092311,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 0.0006159,
+            "return_pct": -5.60919540229885,
+            "btc_excess_pct_points": -2.2891475277356355,
+            "control_excess_pct_points": -0.07563049398638988,
             "complete": true,
             "controls_count": 3
           }
@@ -87481,6 +87767,17 @@
             "control_excess_pct_points": 0.8505604230699793,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 2.333e-05,
+            "return_pct": -1.747736365550645,
+            "btc_excess_pct_points": 1.5723115090125694,
+            "control_excess_pct_points": 3.0561067089089344,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87541,6 +87838,17 @@
             "control_excess_pct_points": 0.0049746144070494935,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335403840,
+            "endpoint_ms": 1793335440000,
+            "endpoint_delay_ms": 36160,
+            "endpoint_price": 0.6913,
+            "return_pct": -3.3214460527235756,
+            "btc_excess_pct_points": -0.001398178160361141,
+            "control_excess_pct_points": 1.4232045862618952,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87594,6 +87902,17 @@
             "return_pct": 24.216430221049134,
             "btc_excess_pct_points": 25.216892215766716,
             "control_excess_pct_points": 32.43069235970982,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.17846,
+            "return_pct": 17.75651600131969,
+            "btc_excess_pct_points": 21.043305747690333,
+            "control_excess_pct_points": 31.338406813570018,
             "complete": true,
             "controls_count": 3
           }
@@ -87656,6 +87975,17 @@
             "control_excess_pct_points": 6.519264372939204,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.00418,
+            "return_pct": -6.592178770949719,
+            "btc_excess_pct_points": -3.3053890245790747,
+            "control_excess_pct_points": 8.922414162998038,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87709,6 +88039,17 @@
             "return_pct": -3.560459560914564,
             "btc_excess_pct_points": -2.559997566196981,
             "control_excess_pct_points": -2.4792638856972693,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.03985,
+            "return_pct": -9.339096803549085,
+            "btc_excess_pct_points": -6.0523070571784405,
+            "control_excess_pct_points": -0.11546361976076902,
             "complete": true,
             "controls_count": 3
           }
@@ -87776,6 +88117,17 @@
             "control_excess_pct_points": -3.932516809361719,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.002938,
+            "return_pct": -23.048716605552645,
+            "btc_excess_pct_points": -19.761926859182,
+            "control_excess_pct_points": -8.405773590404788,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87829,6 +88181,17 @@
             "return_pct": -1.2510198531411554,
             "btc_excess_pct_points": -0.25055785842357237,
             "control_excess_pct_points": 0.3995562913621131,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.3381,
+            "return_pct": -8.050040794125646,
+            "btc_excess_pct_points": -4.763251047755002,
+            "control_excess_pct_points": -2.620787186734386,
             "complete": true,
             "controls_count": 3
           }
@@ -87886,6 +88249,17 @@
             "control_excess_pct_points": -1.9134835986509446,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 124.58,
+            "return_pct": -8.096344657150246,
+            "btc_excess_pct_points": -4.809554910779601,
+            "control_excess_pct_points": 2.680393854439833,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -87939,6 +88313,17 @@
             "return_pct": -2.5373134328358193,
             "btc_excess_pct_points": -1.5368514381182363,
             "control_excess_pct_points": -0.26606099935106986,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.0004312,
+            "return_pct": -8.059701492537307,
+            "btc_excess_pct_points": -4.772911746166663,
+            "control_excess_pct_points": -6.307592472420509,
             "complete": true,
             "controls_count": 3
           }
@@ -88001,6 +88386,17 @@
             "control_excess_pct_points": -11.796619614147085,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.01338,
+            "return_pct": -35.54913294797688,
+            "btc_excess_pct_points": -32.262343201606235,
+            "control_excess_pct_points": -15.0911176808013,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -88054,6 +88450,17 @@
             "return_pct": -2.6256410256410345,
             "btc_excess_pct_points": -1.6251790309234515,
             "control_excess_pct_points": 1.4162751420236153,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.0454,
+            "return_pct": -6.871794871794867,
+            "btc_excess_pct_points": -3.585005125424223,
+            "control_excess_pct_points": 3.2698227925275223,
             "complete": true,
             "controls_count": 3
           }
@@ -88111,6 +88518,17 @@
             "control_excess_pct_points": 4.374411269983058,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.00516,
+            "return_pct": -7.609668755595345,
+            "btc_excess_pct_points": -4.3228790092247005,
+            "control_excess_pct_points": 1.3571041165029714,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -88166,6 +88584,17 @@
             "control_excess_pct_points": -2.1525394726288116,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.01543,
+            "return_pct": -12.775579423403038,
+            "btc_excess_pct_points": -9.488789677032393,
+            "control_excess_pct_points": -0.6624052412633414,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -88219,6 +88648,17 @@
             "return_pct": 1.0393532912854386,
             "btc_excess_pct_points": 2.0398152860030216,
             "control_excess_pct_points": 3.298080190669417,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793335617321,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 2679,
+            "endpoint_price": 0.005685,
+            "return_pct": 1.003819845429521,
+            "btc_excess_pct_points": 4.290609591800165,
+            "control_excess_pct_points": 5.315934835162584,
             "complete": true,
             "controls_count": 3
           }
@@ -93765,6 +94205,17 @@
             "control_excess_pct_points": 0.8213766627073626,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793335599877,
+            "endpoint_ms": 1793335620000,
+            "endpoint_delay_ms": 20123,
+            "endpoint_price": 0.1217,
+            "return_pct": 6.5207877461706865,
+            "btc_excess_pct_points": 8.675702140709207,
+            "control_excess_pct_points": 11.421365039307307,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -94204,7 +94655,19 @@
             "price": 0.04041
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321593406,
+            "endpoint_ms": 1793321640000,
+            "endpoint_delay_ms": 46594,
+            "endpoint_price": 0.04042,
+            "return_pct": 0.02474634991338487,
+            "btc_excess_pct_points": 3.5296080264524354,
+            "control_excess_pct_points": 10.184062904981484,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:MERLUSDT": {
         "symbol": "MERLUSDT",
@@ -94241,7 +94704,19 @@
             "price": 0.029089999999999998
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321593406,
+            "endpoint_ms": 1793321640000,
+            "endpoint_delay_ms": 46594,
+            "endpoint_price": 0.02717,
+            "return_pct": -2.2837619133249443,
+            "btc_excess_pct_points": 1.2210997632141063,
+            "control_excess_pct_points": 4.464516587057609,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:TWTUSDT": {
         "symbol": "TWTUSDT",
@@ -94278,7 +94753,19 @@
             "price": 0.4657
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321593406,
+            "endpoint_ms": 1793321640000,
+            "endpoint_delay_ms": 46594,
+            "endpoint_price": 0.4054,
+            "return_pct": -8.84766722878021,
+            "btc_excess_pct_points": -5.34280555224116,
+            "control_excess_pct_points": -2.191656268624943,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:EPICUSDT": {
         "symbol": "EPICUSDT",
@@ -94310,7 +94797,19 @@
             "price": 0.10485
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321593406,
+            "endpoint_ms": 1793321640000,
+            "endpoint_delay_ms": 46594,
+            "endpoint_price": 0.0992,
+            "return_pct": -5.388650453028143,
+            "btc_excess_pct_points": -1.8837887764890926,
+            "control_excess_pct_points": 10.521383455947019,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:GRIFFAINUSDT": {
         "symbol": "GRIFFAINUSDT",
@@ -94342,7 +94841,19 @@
             "price": 0.014157
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321593406,
+            "endpoint_ms": 1793321640000,
+            "endpoint_delay_ms": 46594,
+            "endpoint_price": 0.01239,
+            "return_pct": -12.481457936003393,
+            "btc_excess_pct_points": -8.976596259464342,
+            "control_excess_pct_points": -6.232751128637382,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:KEKIUSUSDT": {
         "symbol": "KEKIUSUSDT",
@@ -94374,7 +94885,19 @@
             "price": 0.0050325000000000005
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321593406,
+            "endpoint_ms": 1793321640000,
+            "endpoint_delay_ms": 46594,
+            "endpoint_price": 0.004534,
+            "return_pct": -9.905613512170897,
+            "btc_excess_pct_points": -6.400751835631846,
+            "control_excess_pct_points": -2.3853086891487347,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:TPTUUSDT": {
         "symbol": "TPTUUSDT",
@@ -94406,7 +94929,19 @@
             "price": 0.052575
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321593406,
+            "endpoint_ms": 1793321640000,
+            "endpoint_delay_ms": 46594,
+            "endpoint_price": 0.05229,
+            "return_pct": -0.5420827389443494,
+            "btc_excess_pct_points": 2.962778937594701,
+            "control_excess_pct_points": 3.452311094272187,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:CATIUSDT": {
         "symbol": "CATIUSDT",
@@ -96455,6 +96990,70 @@
           }
         ],
         "outcomes": {}
+      },
+      "MEXC:DOODUSDT": {
+        "symbol": "DOODUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1793335712439,
+        "entry_price": 0.0020594999999999997,
+        "btc_entry_price": 78417.015,
+        "controls": [
+          {
+            "symbol": "CAPUSDT",
+            "entry_price": 0.08171
+          },
+          {
+            "symbol": "ONUSDT",
+            "entry_price": 0.17905500000000002
+          },
+          {
+            "symbol": "XANUSDT",
+            "entry_price": 0.0103825
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": 53.66223327963246,
+        "initial_stage": "early_reversal",
+        "stages": [
+          {
+            "stage": "early_reversal",
+            "observed_ms": 1793335712439,
+            "price": 0.0020594999999999997
+          }
+        ],
+        "outcomes": {}
+      },
+      "MEXC:ESEUSDT": {
+        "symbol": "ESEUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1793335712439,
+        "entry_price": 0.0035120000000000004,
+        "btc_entry_price": 78417.015,
+        "controls": [
+          {
+            "symbol": "ASEUSDT",
+            "entry_price": 0.0013325
+          },
+          {
+            "symbol": "ABUSDT",
+            "entry_price": 0.0005225
+          },
+          {
+            "symbol": "MOCAUSDT",
+            "entry_price": 0.007939499999999999
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": 30.49428498500407,
+        "initial_stage": "sideways_volume",
+        "stages": [
+          {
+            "stage": "sideways_volume",
+            "observed_ms": 1793335712439,
+            "price": 0.0035120000000000004
+          }
+        ],
+        "outcomes": {}
       }
     },
     "measurement_errors": [
@@ -96465,7 +97064,7 @@
         "error": "HTTP Error 400: Bad Request"
       }
     ],
-    "asof_ms": 1793321588210
+    "asof_ms": 1793335783279
   },
   "priority_watch": {
     "version": 1,
@@ -96650,156 +97249,84 @@
         "created_ms": 1793321588210,
         "raw_candidates": 13,
         "reason": "Priority-only notifications; full candidates and paper measurements retained"
+      },
+      {
+        "id": "96c6ab383cb9492bacc97a53",
+        "created_ms": 1793335783279,
+        "raw_candidates": 7,
+        "reason": "Priority-only notifications; full candidates and paper measurements retained"
       }
     ],
     "latest": {
       "selected": [],
       "eligible_rows": 0,
       "eligible_unique": 0,
-      "raw_rows": 16,
-      "raw_unique": 16,
+      "raw_rows": 8,
+      "raw_unique": 6,
       "excluded": [
         {
-          "symbol": "XLLYUSDT",
+          "symbol": "HYPEUSDT",
           "exchange": "OKX",
           "reasons": [
             "extension",
-            "known_equity",
-            "extreme_volume"
+            "risk_distance"
           ]
         },
         {
-          "symbol": "XXLEUSDT",
-          "exchange": "OKX",
-          "reasons": [
-            "volume",
-            "structure_lost",
-            "known_equity"
-          ]
-        },
-        {
-          "symbol": "XSOXSUSDT",
+          "symbol": "OLUSDT",
           "exchange": "OKX",
           "reasons": [
             "risk_distance"
           ]
         },
         {
-          "symbol": "LEOUSDT",
+          "symbol": "DOODUSDT",
           "exchange": "OKX",
           "reasons": [
-            "volume",
-            "preparation_only",
-            "extreme_volume"
-          ]
-        },
-        {
-          "symbol": "XSTRCUSDT",
-          "exchange": "OKX",
-          "reasons": [
-            "volume",
-            "preparation_only",
-            "known_equity"
-          ]
-        },
-        {
-          "symbol": "HINTUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "volume",
-            "structure_lost",
-            "quote_drift"
-          ]
-        },
-        {
-          "symbol": "USDUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "volume"
-          ]
-        },
-        {
-          "symbol": "HAIUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "volume"
-          ]
-        },
-        {
-          "symbol": "SUNUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "quote_drift",
-            "extension"
-          ]
-        },
-        {
-          "symbol": "XTMUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "volume",
-            "spread",
-            "quote_drift",
             "risk_distance"
           ]
         },
         {
-          "symbol": "HTXUSDT",
+          "symbol": "BLESSUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "HYPEUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "extension",
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "RUNEUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "DOODUSDT",
+          "exchange": "MEXC",
+          "reasons": [
+            "risk_distance"
+          ]
+        },
+        {
+          "symbol": "ESEUSDT",
           "exchange": "MEXC",
           "reasons": [
             "volume",
-            "spread",
-            "quote_drift",
-            "extension"
-          ]
-        },
-        {
-          "symbol": "MIUUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "volume",
-            "spread",
-            "structure_lost",
             "preparation_only"
-          ]
-        },
-        {
-          "symbol": "CGNUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "volume",
-            "preparation_only"
-          ]
-        },
-        {
-          "symbol": "DEFIUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "preparation_only"
-          ]
-        },
-        {
-          "symbol": "AKEUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "preparation_only"
-          ]
-        },
-        {
-          "symbol": "XEFUSDT",
-          "exchange": "MEXC",
-          "reasons": [
-            "structure_lost",
-            "quote_drift",
-            "risk_distance",
-            "preparation_only",
-            "extreme_volume"
           ]
         }
       ],
       "source_errors": {},
       "ranked_but_not_selected": [],
-      "observed_ms": 1793321635133
+      "observed_ms": 1793335836760
     },
     "paper": {
       "version": "github-paper-v1",
@@ -99262,6 +99789,17 @@
               "control_excess_pct_points": -6.010932833452665,
               "complete": true,
               "controls_count": 3
+            },
+            "48": {
+              "target_ms": 1793321657451,
+              "endpoint_ms": 1793321700000,
+              "endpoint_delay_ms": 42549,
+              "endpoint_price": 0.036427,
+              "return_pct": -13.193608731397521,
+              "btc_excess_pct_points": -8.7769778170241,
+              "control_excess_pct_points": -2.0602461930659626,
+              "complete": true,
+              "controls_count": 3
             }
           }
         },
@@ -99315,6 +99853,17 @@
               "return_pct": 7.42030538440932,
               "btc_excess_pct_points": 6.965585741201741,
               "control_excess_pct_points": 2.3562659755423265,
+              "complete": true,
+              "controls_count": 3
+            },
+            "48": {
+              "target_ms": 1793321657451,
+              "endpoint_ms": 1793321700000,
+              "endpoint_delay_ms": 42549,
+              "endpoint_price": 8.469,
+              "return_pct": -9.252611840342894,
+              "btc_excess_pct_points": -4.835980925969473,
+              "control_excess_pct_points": -30.075876568282233,
               "complete": true,
               "controls_count": 3
             }
@@ -99372,6 +99921,17 @@
               "control_excess_pct_points": -2.4503866967439114,
               "complete": true,
               "controls_count": 3
+            },
+            "48": {
+              "target_ms": 1793335677023,
+              "endpoint_ms": 1793335680000,
+              "endpoint_delay_ms": 2977,
+              "endpoint_price": 0.007413,
+              "return_pct": -7.918762809763368,
+              "btc_excess_pct_points": -4.727192678242653,
+              "control_excess_pct_points": -6.4820852774683075,
+              "complete": true,
+              "controls_count": 3
             }
           }
         },
@@ -99427,6 +99987,17 @@
               "control_excess_pct_points": 2.245526224540584,
               "complete": true,
               "controls_count": 3
+            },
+            "48": {
+              "target_ms": 1793335677023,
+              "endpoint_ms": 1793335680000,
+              "endpoint_delay_ms": 2977,
+              "endpoint_price": 4.793,
+              "return_pct": -9.275033125118293,
+              "btc_excess_pct_points": -6.0834629935975775,
+              "control_excess_pct_points": 0.5302766093949636,
+              "complete": true,
+              "controls_count": 3
             }
           }
         },
@@ -99480,6 +100051,17 @@
               "return_pct": -6.099852368809544,
               "btc_excess_pct_points": -5.116116691678796,
               "control_excess_pct_points": -3.137874171521582,
+              "complete": true,
+              "controls_count": 3
+            },
+            "48": {
+              "target_ms": 1793335677023,
+              "endpoint_ms": 1793335680000,
+              "endpoint_delay_ms": 2977,
+              "endpoint_price": 284.87,
+              "return_pct": -4.418869950342219,
+              "btc_excess_pct_points": -1.2272998188215034,
+              "control_excess_pct_points": 0.6382956970919729,
               "complete": true,
               "controls_count": 3
             }
@@ -100356,6 +100938,17 @@
               "control_excess_pct_points": -2.1427070996727586,
               "complete": true,
               "controls_count": 3
+            },
+            "24": {
+              "target_ms": 1793321717771,
+              "endpoint_ms": 1793321760000,
+              "endpoint_delay_ms": 42229,
+              "endpoint_price": 0.0282,
+              "return_pct": -8.530651962374314,
+              "btc_excess_pct_points": -3.7410978290455255,
+              "control_excess_pct_points": 2.6856282079995566,
+              "complete": true,
+              "controls_count": 3
             }
           }
         },
@@ -100400,6 +100993,17 @@
               "control_excess_pct_points": -3.9701651329645427,
               "complete": true,
               "controls_count": 3
+            },
+            "24": {
+              "target_ms": 1793321717771,
+              "endpoint_ms": 1793321760000,
+              "endpoint_delay_ms": 42229,
+              "endpoint_price": 0.033625,
+              "return_pct": -9.477594863442395,
+              "btc_excess_pct_points": -4.688040730113606,
+              "control_excess_pct_points": -3.2110991240562257,
+              "complete": true,
+              "controls_count": 3
             }
           }
         },
@@ -100442,6 +101046,17 @@
               "return_pct": -2.8554693220090854,
               "btc_excess_pct_points": -1.471839522987517,
               "control_excess_pct_points": -2.488124621093457,
+              "complete": true,
+              "controls_count": 3
+            },
+            "24": {
+              "target_ms": 1793321717771,
+              "endpoint_ms": 1793321760000,
+              "endpoint_delay_ms": 42229,
+              "endpoint_price": 0.5913,
+              "return_pct": -13.413384097232395,
+              "btc_excess_pct_points": -8.623829963903606,
+              "control_excess_pct_points": -7.934184761377772,
               "complete": true,
               "controls_count": 3
             }
@@ -100521,7 +101136,19 @@
               "price": 0.07874
             }
           ],
-          "outcomes": {}
+          "outcomes": {
+            "12": {
+              "target_ms": 1793321716563,
+              "endpoint_ms": 1793321760000,
+              "endpoint_delay_ms": 43437,
+              "endpoint_price": 0.07665,
+              "return_pct": -2.654305308610627,
+              "btc_excess_pct_points": 0.8278443815379566,
+              "control_excess_pct_points": 1.707794262829609,
+              "complete": true,
+              "controls_count": 3
+            }
+          }
         },
         "OKX:NEOUSDT": {
           "symbol": "NEOUSDT",
@@ -100685,7 +101312,7 @@
         }
       },
       "measurement_errors": [],
-      "asof_ms": 1793321635133
+      "asof_ms": 1793335836760
     }
   }
 }
