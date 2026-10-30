@@ -1203996,60 +1203996,7 @@
       "source_close_ms": 1793403000000
     }
   },
-  "pending": [
-    {
-      "id": "5eea8834663f5fc505cca2fd",
-      "asset_id": "5e29891b863b8317be1dd30c",
-      "key": "OKX:PERP:RECALLUSDT",
-      "symbol": "RECALLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793403862827,
-      "price": 0.032955,
-      "level": 0.03115,
-      "invalid": 0.029249867186653213,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03115,
-        "base_invalid": 0.029249867186653213,
-        "atr": 0.0008008854223119181,
-        "rvol": 13.446942036609904,
-        "close_position": 0.6853932584269675,
-        "breakout": true,
-        "bar_close_ms": 1793403000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 10.0762346702022,
-        "score": 7.685393258426967
-      },
-      "context": {
-        "atr": 0.0008008854223119181,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.6265084361627444,
-        "btc_hour_pct": 0.3068248971705989,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RECALLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793403000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RECALLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1205414,6 +1205361,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793403278990
+    },
+    {
+      "id": "5eea8834663f5fc505cca2fd",
+      "asset_id": "5e29891b863b8317be1dd30c",
+      "key": "OKX:PERP:RECALLUSDT",
+      "symbol": "RECALLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793403862827,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793403874869
     }
   ],
   "runs": [
@@ -1216117,7 +1216075,8 @@
         "entry_seq": 0,
         "cohort": "RECALLUSDT",
         "observation_lag_ms": 862827,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12042
       }
     },
     "errors": [],
@@ -1238451,8 +1238410,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4ba3ed30b30ef71b7d3383cbea6eb86afccef40a",
-    "previous_success_ms": 1793403586889,
+    "previous_commit": "afe4c1d27893b1db464ecc5ff62b86227fb698d8",
+    "previous_success_ms": 1793403873498,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
