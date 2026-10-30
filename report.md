@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 30.10.2026 19:47:49 TR · V2 döngüsü 69
+Son gözlem: 30.10.2026 19:52:48 TR · V2 döngüsü 70
 
 ## Bildirim kuralları
 
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 30.10.2026 19:47:36 TR
+Son zincir okuması: 30.10.2026 19:52:36 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -53,8 +53,8 @@ CA:
 ```text
 4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk
 ```
-Fiyat $0.0001978; likidite $93123.24; tek swap bildirim eşiği $100.
-V2de sessiz kaydedilen küçük işlem 16, anlamlı tek işlem 2.
+Fiyat $0.0001978; likidite $93121.76; tek swap bildirim eşiği $100.
+V2de sessiz kaydedilen küçük işlem 17, anlamlı tek işlem 2.
 [Solscan](https://solscan.io/token/4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk) · [DexScreener](https://dexscreener.com/solana/6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5)
 
 ### Sessiz birikim
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 30.10.2026 19:47:36 TR
+Son zincir okuması: 30.10.2026 19:52:36 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -100,12 +100,12 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "errors": [],
       "detail_queue": 0,
       "full_chain_coverage": false,
-      "checked_ms": 1793378869003
+      "checked_ms": 1793379168712
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793378856893,
+      "observed_ms": 1793379156639,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -115,7 +115,7 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434
   },
   "timing": {
-    "intervals": 68,
+    "intervals": 69,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
