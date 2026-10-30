@@ -1185899,60 +1185899,7 @@
       "source_close_ms": 1793403000000
     }
   },
-  "pending": [
-    {
-      "id": "e1bcac1a1aaed7664e8d05bf",
-      "asset_id": "5af266684388dd3ca20e5cfb",
-      "key": "MEXC:SPOT:CETUSUSDT",
-      "symbol": "CETUSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793403270226,
-      "price": 0.02129,
-      "level": 0.02102,
-      "invalid": 0.020428890866046406,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02102,
-        "base_invalid": 0.020428890866046406,
-        "atr": 0.00014072755969061265,
-        "rvol": 2.2559026908290463,
-        "close_position": 0.9411764705882377,
-        "breakout": true,
-        "bar_close_ms": 1793397600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5429122468659573,
-        "score": 4.1970791614172835
-      },
-      "context": {
-        "atr": 0.0001401770248306523,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9131655853639176,
-        "btc_hour_pct": 0.3214023158706558,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CETUSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793397600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CETUSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1187306,6 +1187253,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793402970130
+    },
+    {
+      "id": "e1bcac1a1aaed7664e8d05bf",
+      "asset_id": "5af266684388dd3ca20e5cfb",
+      "key": "MEXC:SPOT:CETUSUSDT",
+      "symbol": "CETUSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793403270226,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793403278990
     }
   ],
   "runs": [
@@ -1220155,8 +1220113,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "209d796ef404293fee7aed0e7a9e91bc1b7342a1",
-    "previous_success_ms": 1793402985416,
+    "previous_commit": "411a8c8b396a64dbc660a4920ba40732b35b2ddc",
+    "previous_success_ms": 1793403277807,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
