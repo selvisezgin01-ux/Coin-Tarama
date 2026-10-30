@@ -1277231,110 +1277231,7 @@
       "source_close_ms": 1793387700000
     }
   },
-  "pending": [
-    {
-      "id": "8115e9befc1215885520582f",
-      "asset_id": "b4a644e08bcf34c6454d269c",
-      "key": "MEXC:SPOT:AINUSDT",
-      "symbol": "AINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793387822276,
-      "price": 0.180845,
-      "level": 0.17208,
-      "invalid": 0.16529264831423304,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.17208,
-        "base_invalid": 0.16529264831423304,
-        "atr": 0.005115677905113083,
-        "rvol": 2.183544382634025,
-        "close_position": 0.6958333333333355,
-        "breakout": true,
-        "bar_close_ms": 1793381400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.340677663312097,
-        "score": 3.8793777159673604
-      },
-      "context": {
-        "atr": 0.007100399388306394,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0145905548189171,
-        "btc_hour_pct": -0.6821805825197425,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793381400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "82dbf786fdca4ff2b88a9d25",
-      "asset_id": "2fd1b314812035d9efdb7d65",
-      "key": "MEXC:SPOT:SENTUSDT",
-      "symbol": "SENTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793387822276,
-      "price": 0.019295,
-      "level": 0.01916,
-      "invalid": 0.01836449664760133,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01916,
-        "base_invalid": 0.01836449664760133,
-        "atr": 0.00023668901599113224,
-        "rvol": 3.5583375962254706,
-        "close_position": 0.9230769230769258,
-        "breakout": true,
-        "bar_close_ms": 1793382300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.6427061310782207,
-        "score": 5.481414519302397
-      },
-      "context": {
-        "atr": 0.00024797796456489527,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.6196096988101982,
-        "btc_hour_pct": -0.6821805825197425,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SENTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793382300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SENTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1278116,6 +1278013,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793386850236
+    },
+    {
+      "id": "8115e9befc1215885520582f",
+      "asset_id": "b4a644e08bcf34c6454d269c",
+      "key": "MEXC:SPOT:AINUSDT",
+      "symbol": "AINUSDT",
+      "phase": "expired",
+      "observed_ms": 1793387822276,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793387832522
     }
   ],
   "runs": [
@@ -1305743,8 +1305651,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "864879cac17fea6b506558f190123d23ff9790d3",
-    "previous_success_ms": 1793387541009,
+    "previous_commit": "a51e1e4d17f9af0cc01da5f1a4ff581c253f7b63",
+    "previous_success_ms": 1793387830932,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
