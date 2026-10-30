@@ -1145638,112 +1145638,7 @@
     "MEXC:SPOT:AKEUSDT": 1793330434853,
     "OKX:SPOT:EDGEUSDT": 1793331037245
   },
-  "pending": [
-    {
-      "id": "fad56b55f48673e3561d68ed",
-      "asset_id": "dbc1c5402ad8af48070adda9",
-      "key": "OKX:PERP:FOGOUSDT",
-      "symbol": "FOGOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793331037273,
-      "price": 0.0028075,
-      "level": 0.002743,
-      "invalid": 0.002739461084131215,
-      "target": 0.00298569033173757,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002743,
-        "base_invalid": 0.002538461084131215,
-        "atr": 5.0259439125234027e-05,
-        "rvol": 6.486005952629453,
-        "close_position": 0.7717391304347808,
-        "breakout": true,
-        "bar_close_ms": 1793326500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.043090638930156,
-        "score": 7.7717391304347805
-      },
-      "context": {
-        "atr": 4.412987492085446e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.9128742379980865,
-        "btc_hour_pct": 0.7424782424196641,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FOGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.002739461084131215,
-        "target": 0.00298569033173757,
-        "risk_pct": 2.4234698439460445,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.003041,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.002801,
-        "entry_zone_high": 0.002823064937460427
-      },
-      "reason": null,
-      "source_close_ms": 1793331000000
-    },
-    {
-      "id": "7f0dbed1ad088785f171c868",
-      "asset_id": "78933ae4feb37d3b641a9582",
-      "key": "OKX:SPOT:EDGEUSDT",
-      "symbol": "EDGEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793331037245,
-      "price": 0.32635000000000003,
-      "level": 0.3279,
-      "invalid": 0.3115370971486127,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3279,
-        "base_invalid": 0.3115370971486127,
-        "atr": 0.005086019009248853,
-        "rvol": 3.936914210124302,
-        "close_position": 0.9375000000000066,
-        "breakout": true,
-        "bar_close_ms": 1793329200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.204524033930256,
-        "score": 5.874414210124309
-      },
-      "context": {
-        "atr": 0.005058734023295873,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.4417672818866976,
-        "btc_hour_pct": 0.7627567520435585,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793329200000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1146262,6 +1146157,20 @@
       "phase": "radar",
       "observed_ms": 1793330434853,
       "delivered_ms": 1793330441775
+    },
+    {
+      "id": "fad56b55f48673e3561d68ed",
+      "asset_id": "dbc1c5402ad8af48070adda9",
+      "phase": "triggered",
+      "observed_ms": 1793331037273,
+      "delivered_ms": 1793331046611
+    },
+    {
+      "id": "7f0dbed1ad088785f171c868",
+      "asset_id": "78933ae4feb37d3b641a9582",
+      "phase": "cancelled",
+      "observed_ms": 1793331037245,
+      "delivered_ms": 1793331046611
     }
   ],
   "runs": [
@@ -1152844,7 +1152753,8 @@
         "outcomes": {},
         "source_close_ms": 1793331000000,
         "observation_lag_ms": 37273,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 9338
       }
     },
     "errors": [],
