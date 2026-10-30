@@ -1222363,55 +1222363,7 @@
     "MEXC:SPOT:FIGHTUSDT": 1793336183398,
     "MEXC:SPOT:PIPPINUSDT": 1793336489099
   },
-  "pending": [
-    {
-      "id": "1eca41f47d8a058636450b56",
-      "asset_id": "242f79a7afdc034e42927c72",
-      "key": "MEXC:SPOT:PIPPINUSDT",
-      "symbol": "PIPPINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793336489099,
-      "price": 0.013729,
-      "level": 0.013835,
-      "invalid": 0.013611102480571324,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.013835,
-        "base_invalid": 0.013611102480571324,
-        "atr": 0.00014598346285783247,
-        "rvol": 2.7830091281178473,
-        "close_position": 0.9111111111110991,
-        "breakout": true,
-        "bar_close_ms": 1793335500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8601244965214203,
-        "score": 4.694120239228946
-      },
-      "context": {
-        "atr": 0.00014820978453179476,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4722646870395808,
-        "btc_hour_pct": 0.05416654788037434,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PIPPINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793335500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1223070,6 +1223022,13 @@
       "phase": "expired",
       "observed_ms": 1793336183398,
       "delivered_ms": 1793336190061
+    },
+    {
+      "id": "1eca41f47d8a058636450b56",
+      "asset_id": "242f79a7afdc034e42927c72",
+      "phase": "cancelled",
+      "observed_ms": 1793336489099,
+      "delivered_ms": 1793336497265
     }
   ],
   "runs": [
