@@ -1062065,7 +1062065,9 @@
           "selected_for_candles": 30,
           "fresh_candidate_quotes": 1
         }
-      }
+      },
+      "finished_ms": 1793321384560,
+      "duration_ms": 24027
     }
   ],
   "measurements": {
@@ -1062700,13 +1062702,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793321318492,
+            "endpoint_ms": 1793321340000,
+            "endpoint_price": 1.549,
+            "return_pct": 1.8944875674253403,
+            "btc_excess_pct_points": 4.081421079389247,
+            "mae_pct": -1.5392711485330945,
+            "mfe_pct": 6.512301013024602,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 21508,
+            "measured_ms": 1793321383318,
+            "cost_scenarios_pct": {
+              "0.2": 1.6944875674253403,
+              "0.5": 1.3944875674253403,
+              "1": 0.8944875674253403
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793306700000,
         "observation_lag_ms": 218492,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 5967,
-        "last_measure_attempt_ms": 1793310549992
+        "last_measure_attempt_ms": 1793321383318
       },
       "XUVXYUSDT:radar": {
         "symbol": "XUVXYUSDT",
@@ -1063407,10 +1063431,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 0,
-      "attempted": 0,
-      "observed_ms": 1793321077464,
-      "unique_reads": 0
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793321383318,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
@@ -1063421,8 +1063445,8 @@
             "median_pct": -1.8232774390879392
           },
           "4": {
-            "known": 9,
-            "median_pct": -7.067669172932334
+            "known": 10,
+            "median_pct": -6.683139000969396
           },
           "12": {
             "known": 0,
