@@ -1027780,7 +1027780,9 @@
           "selected_for_candles": 30,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793365455964,
+      "duration_ms": 22842
     }
   ],
   "radar_admissions": [
@@ -1028211,7 +1028213,116 @@
         "notification_lag_ms": 5968
       }
     },
-    "errors": []
+    "errors": [],
+    "queue": {
+      "due": 0,
+      "attempted": 0,
+      "observed_ms": 1793365455964,
+      "unique_reads": 0
+    },
+    "summary": {
+      "radar": {
+        "market_event_references": 5,
+        "unique_symbol_labels": 3,
+        "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
+        "groups": {
+          "OKX:SPOT:radar": {
+            "event_references": 2,
+            "first_per_symbol": 2,
+            "hours": {
+              "1": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "4": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "12": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "24": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              }
+            }
+          },
+          "MEXC:SPOT:radar": {
+            "event_references": 1,
+            "first_per_symbol": 1,
+            "hours": {
+              "1": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "4": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "12": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "24": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              }
+            }
+          },
+          "MEXC:PERP:radar": {
+            "event_references": 1,
+            "first_per_symbol": 1,
+            "hours": {
+              "1": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "4": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "12": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "24": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              }
+            }
+          },
+          "OKX:PERP:radar": {
+            "event_references": 1,
+            "first_per_symbol": 1,
+            "hours": {
+              "1": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "4": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "12": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              },
+              "24": {
+                "known_first_symbols": 0,
+                "median_reference_return_pct": null
+              }
+            }
+          }
+        }
+      },
+      "triggered": {
+        "market_event_references": 0,
+        "unique_symbol_labels": 0,
+        "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
+        "groups": {}
+      }
+    }
   },
   "archive": {
     "source_branch": "scanner-state-coin-tarama-5-v3",
