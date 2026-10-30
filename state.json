@@ -1094974,7 +1094974,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793378369521,
+      "duration_ms": 24513
     }
   ],
   "radar_admissions": [
@@ -1096296,14 +1096298,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793377461909,
+            "endpoint_ms": 1793377500000,
+            "endpoint_price": 0.08887,
+            "return_pct": -0.3922887245012219,
+            "btc_excess_pct_points": 0.21293507613487916,
+            "mae_pct": -1.9166106254203008,
+            "mfe_pct": 0,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 38091,
+            "measured_ms": 1793378368091,
+            "cost_scenarios_pct": {
+              "0.2": -0.5922887245012218,
+              "0.5": -0.8922887245012219,
+              "1": -1.3922887245012219
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793373300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "BREVUSDT",
         "observation_lag_ms": 561909,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 5441
+        "notification_lag_ms": 5441,
+        "last_measure_attempt_ms": 1793378368091
       },
       "7c53e3ae9ad4ff16ebe5e56e:radar": {
         "symbol": "SAHARAUSDT",
@@ -1096561,24 +1096587,24 @@
     },
     "errors": [],
     "queue": {
-      "due": 5,
-      "attempted": 2,
-      "observed_ms": 1793378069933,
-      "unique_reads": 4
+      "due": 3,
+      "attempted": 1,
+      "observed_ms": 1793378368091,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "market_event_references": 29,
-        "unique_symbol_labels": 23,
+        "market_event_references": 30,
+        "unique_symbol_labels": 24,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 10,
-            "first_per_symbol": 10,
+            "event_references": 11,
+            "first_per_symbol": 11,
             "hours": {
               "1": {
-                "known_first_symbols": 7,
-                "median_reference_return_pct": 0.588846553515765
+                "known_first_symbols": 8,
+                "median_reference_return_pct": 0.30900904105193305
               },
               "4": {
                 "known_first_symbols": 0,
@@ -1103432,13 +1103458,35 @@
               "barriers": {
                 "status": "not_a_trade_entry"
               }
+            },
+            "12": {
+              "target_ms": 1793366404515,
+              "endpoint_ms": 1793366460000,
+              "endpoint_price": 0.073008,
+              "return_pct": -4.668137837379049,
+              "btc_excess_pct_points": -5.054426877980012,
+              "mae_pct": -8.595902484885665,
+              "mfe_pct": 0.8813966546100227,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 720,
+              "ignored_entry_fragment_ms": 55485,
+              "measured_ms": 1793378368656,
+              "cost_scenarios_pct": {
+                "0.2": -4.86813783737905,
+                "0.5": -5.168137837379049,
+                "1": -5.668137837379049
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
             }
           },
           "source_close_ms": 1793322900000,
           "observation_lag_ms": 304515,
           "interpretation": "early radar reference, not a trade entry",
           "notification_lag_ms": 6426,
-          "last_measure_attempt_ms": 1793337694997
+          "last_measure_attempt_ms": 1793378368656
         },
         "AKEUSDT:radar": {
           "symbol": "AKEUSDT",
@@ -1107447,7 +1107495,7 @@
       "queue": {
         "due": 36,
         "attempted": 1,
-        "observed_ms": 1793377467223,
+        "observed_ms": 1793378368656,
         "unique_reads": 2
       },
       "summary": {
@@ -1107463,8 +1107511,8 @@
               "median_pct": -0.3887397602739706
             },
             "12": {
-              "known": 31,
-              "median_pct": -1.7090454355981666
+              "known": 32,
+              "median_pct": -1.857038714568665
             },
             "24": {
               "known": 0,
