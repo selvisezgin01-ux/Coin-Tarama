@@ -1149646,147 +1149646,7 @@
     "MEXC:PERP:TAGUSDT": 1793363696070,
     "OKX:PERP:BILLUSDT": 1793364888127
   },
-  "pending": [
-    {
-      "id": "05de0f8f8d4cd5256d403c01",
-      "asset_id": "5c662c0ae46f1392a4dca6da",
-      "key": "OKX:PERP:BILLUSDT",
-      "symbol": "BILLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793364888127,
-      "price": 0.005462,
-      "level": 0.00563,
-      "invalid": 0.005349218366262809,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00563,
-        "base_invalid": 0.005349218366262809,
-        "atr": 7.854422491460425e-05,
-        "rvol": 2.9984751013219095,
-        "close_position": 0.6272727272727247,
-        "breakout": false,
-        "bar_close_ms": 1793342700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2512562814070418,
-        "score": 4.125747828594634
-      },
-      "context": {
-        "atr": 5.341947136088918e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.260903969020454,
-        "btc_hour_pct": -0.5830536535329722,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BILLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793342700000
-    },
-    {
-      "id": "fa82d8f50eb8c12028175857",
-      "asset_id": "63bf5d505e68f7319f7eff8b",
-      "key": "OKX:SPOT:SPACEUSDT",
-      "symbol": "SPACEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793364888558,
-      "price": 0.0034605,
-      "level": 0.003472,
-      "invalid": 0.003388341706428755,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003472,
-        "base_invalid": 0.003388341706428755,
-        "atr": 2.4388623808302093e-05,
-        "rvol": 9.231508338429622,
-        "close_position": 0.8333333333333316,
-        "breakout": false,
-        "bar_close_ms": 1793364300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8754012255617116,
-        "score": 7.333333333333331
-      },
-      "context": {
-        "atr": 2.4388623808302093e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4861095797524473,
-        "btc_hour_pct": -0.5885346258821644,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SPACEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793364300000
-    },
-    {
-      "id": "b2fb2a4007e8735783f6b430",
-      "asset_id": "fd513c5e4bc6a420185852b5",
-      "key": "MEXC:SPOT:BLESSUSDT",
-      "symbol": "BLESSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793364890177,
-      "price": 0.0135985,
-      "level": 0.013388,
-      "invalid": 0.012765756963518074,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.013388,
-        "base_invalid": 0.012765756963518074,
-        "atr": 0.0002549535765461692,
-        "rvol": 3.75195704519119,
-        "close_position": 0.7902621722846422,
-        "breakout": true,
-        "bar_close_ms": 1793364300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.510385529240434,
-        "score": 5.542219217475832
-      },
-      "context": {
-        "atr": 0.0002549535765461692,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.29995164871157165,
-        "btc_hour_pct": -0.5773751746024347,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BLESSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793364300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1151068,6 +1150928,27 @@
       "phase": "radar",
       "observed_ms": 1793364591380,
       "delivered_ms": 1793364598188
+    },
+    {
+      "id": "05de0f8f8d4cd5256d403c01",
+      "asset_id": "5c662c0ae46f1392a4dca6da",
+      "phase": "expired",
+      "observed_ms": 1793364888127,
+      "delivered_ms": 1793364896235
+    },
+    {
+      "id": "fa82d8f50eb8c12028175857",
+      "asset_id": "63bf5d505e68f7319f7eff8b",
+      "phase": "radar",
+      "observed_ms": 1793364888558,
+      "delivered_ms": 1793364896235
+    },
+    {
+      "id": "b2fb2a4007e8735783f6b430",
+      "asset_id": "fd513c5e4bc6a420185852b5",
+      "phase": "radar",
+      "observed_ms": 1793364890177,
+      "delivered_ms": 1793364896235
     }
   ],
   "runs": [
@@ -1166832,7 +1166713,8 @@
         "outcomes": {},
         "source_close_ms": 1793364300000,
         "observation_lag_ms": 588558,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7677
       },
       "BLESSUSDT:radar": {
         "symbol": "BLESSUSDT",
@@ -1166851,7 +1166733,8 @@
         "outcomes": {},
         "source_close_ms": 1793364300000,
         "observation_lag_ms": 590177,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6058
       }
     },
     "errors": [],
