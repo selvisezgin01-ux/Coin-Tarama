@@ -1231068,168 +1231068,7 @@
       "source_close_ms": 1793403900000
     }
   },
-  "pending": [
-    {
-      "id": "d41f097feaf10f3eff378226",
-      "asset_id": "53eccb3840beeddb6de9060e",
-      "key": "MEXC:SPOT:ARUSDT",
-      "symbol": "ARUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793404463621,
-      "price": 3.238,
-      "level": 3.225,
-      "invalid": 3.1800897545738556,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.225,
-        "base_invalid": 3.1800897545738556,
-        "atr": 0.019401636174294145,
-        "rvol": 6.1983632018748445,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793403900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8082064034814929,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.019401636174294145,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4314207707039941,
-        "btc_hour_pct": 0.3214023158706558,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793403900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d510bca56d11656826f8dc91",
-      "asset_id": "8e9aa2e718459b0188fe7336",
-      "key": "OKX:SPOT:COREUSDT",
-      "symbol": "COREUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793404465295,
-      "price": 0.015525,
-      "level": 0.01549,
-      "invalid": 0.015304655052623416,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01549,
-        "base_invalid": 0.015304655052623416,
-        "atr": 0.00010229964917723053,
-        "rvol": 5.745694251297374,
-        "close_position": 0.777777777777767,
-        "breakout": true,
-        "bar_close_ms": 1793403900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.25856496444731647,
-        "score": 7.523472029075141
-      },
-      "context": {
-        "atr": 0.00010229964917723053,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.20660459112997742,
-        "btc_hour_pct": 0.31524798551711974,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:COREUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793403900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COREUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "610fcae6d95b8d3dd68a150c",
-      "asset_id": "870ad7210dd354baaea0fb1d",
-      "key": "MEXC:PERP:CHZUSDT",
-      "symbol": "CHZUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793404464006,
-      "price": 0.012545,
-      "level": 0.0125,
-      "invalid": 0.012369552503816784,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0125,
-        "base_invalid": 0.012369552503816784,
-        "atr": 6.96499745547735e-05,
-        "rvol": 4.05640441402046,
-        "close_position": 0.8333333333333429,
-        "breakout": true,
-        "bar_close_ms": 1793403900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5613472333600766,
-        "score": 5.889737747353803
-      },
-      "context": {
-        "atr": 6.96499745547735e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.08165304283933583,
-        "btc_hour_pct": 0.3218982081695465,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CHZUSDT",
-          "change_pct": -0.3554433993656958,
-          "old_ms": 1793400851190,
-          "current_ms": 1793404459170,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793403900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1232605,6 +1232444,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793403874869
+    },
+    {
+      "id": "d41f097feaf10f3eff378226",
+      "asset_id": "53eccb3840beeddb6de9060e",
+      "key": "MEXC:SPOT:ARUSDT",
+      "symbol": "ARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793404463621,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793404474750
+    },
+    {
+      "id": "d510bca56d11656826f8dc91",
+      "asset_id": "8e9aa2e718459b0188fe7336",
+      "key": "OKX:SPOT:COREUSDT",
+      "symbol": "COREUSDT",
+      "phase": "radar",
+      "observed_ms": 1793404465295,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793404474750
+    },
+    {
+      "id": "610fcae6d95b8d3dd68a150c",
+      "asset_id": "870ad7210dd354baaea0fb1d",
+      "key": "MEXC:PERP:CHZUSDT",
+      "symbol": "CHZUSDT",
+      "phase": "radar",
+      "observed_ms": 1793404464006,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793404474750
     }
   ],
   "runs": [
@@ -1243501,7 +1243373,8 @@
         "entry_seq": 0,
         "cohort": "ARUSDT",
         "observation_lag_ms": 563621,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11129
       },
       "8e9aa2e718459b0188fe7336:radar": {
         "symbol": "COREUSDT",
@@ -1243523,7 +1243396,8 @@
         "entry_seq": 0,
         "cohort": "COREUSDT",
         "observation_lag_ms": 565295,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9455
       },
       "870ad7210dd354baaea0fb1d:radar": {
         "symbol": "CHZUSDT",
@@ -1243545,7 +1243419,8 @@
         "entry_seq": 0,
         "cohort": "CHZUSDT",
         "observation_lag_ms": 564006,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10744
       }
     },
     "errors": [],
@@ -1265907,8 +1265782,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ee8e1a3a0f0bde93a28b317db7b6262e995216d2",
-    "previous_success_ms": 1793404194303,
+    "previous_commit": "3c53612bd1d1cd14dfc89fb2937d932e54da618e",
+    "previous_success_ms": 1793404473408,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
