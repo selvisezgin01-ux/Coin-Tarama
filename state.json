@@ -1391488,55 +1391488,7 @@
     "MEXC:PERP:SOPHUSDT": 1793353101650,
     "OKX:SPOT:LSKUSDT": 1793353705459
   },
-  "pending": [
-    {
-      "id": "70aa7a39cf048dc13137fe94",
-      "asset_id": "76752d96153a228fc7dc119b",
-      "key": "OKX:SPOT:LDOUSDT",
-      "symbol": "LDOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793354302407,
-      "price": 0.3311,
-      "level": 0.33,
-      "invalid": 0.32427691376220724,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.33,
-        "base_invalid": 0.32427691376220724,
-        "atr": 0.0028205749186181682,
-        "rvol": 2.247971340969898,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793353500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.382488479262678,
-        "score": 3.747971340969898
-      },
-      "context": {
-        "atr": 0.0028205749186181682,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.051429354590537546,
-        "btc_hour_pct": -0.23542199488492122,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793353500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1392601,6 +1392553,13 @@
       "phase": "radar",
       "observed_ms": 1793354002043,
       "delivered_ms": 1793354009455
+    },
+    {
+      "id": "70aa7a39cf048dc13137fe94",
+      "asset_id": "76752d96153a228fc7dc119b",
+      "phase": "radar",
+      "observed_ms": 1793354302407,
+      "delivered_ms": 1793354310874
     }
   ],
   "runs": [
@@ -1405410,7 +1405369,8 @@
         "outcomes": {},
         "source_close_ms": 1793353500000,
         "observation_lag_ms": 802407,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8467
       }
     },
     "errors": [],
