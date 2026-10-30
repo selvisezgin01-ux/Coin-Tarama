@@ -1352413,112 +1352413,7 @@
       "source_close_ms": 1793397600000
     }
   },
-  "pending": [
-    {
-      "id": "8d636503c92b886dc2cd3a47",
-      "asset_id": "cb1d79e4d78047ed68a8ffb1",
-      "key": "OKX:SPOT:VIRTUALUSDT",
-      "symbol": "VIRTUALUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793397791985,
-      "price": 0.59975,
-      "level": 0.5978,
-      "invalid": 0.5841524519754481,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5978,
-        "base_invalid": 0.5841524519754481,
-        "atr": 0.004316986830346303,
-        "rvol": 2.154321035850214,
-        "close_position": 0.7142857142857086,
-        "breakout": false,
-        "bar_close_ms": 1793380500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.1682085786375076,
-        "score": 3.3686067501359225
-      },
-      "context": {
-        "atr": 0.0037637929756986093,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9409652739908014,
-        "btc_hour_pct": -0.28417847708949173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VIRTUALUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793380500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VIRTUALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "de5c6d68fbd9abfba98e4e50",
-      "asset_id": "9a46fc5eeede31f302e160bb",
-      "key": "MEXC:SPOT:ATOMUSDT",
-      "symbol": "ATOMUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793397789863,
-      "price": 1.5455,
-      "level": 1.52,
-      "invalid": 1.4946841555413024,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.52,
-        "base_invalid": 1.4946841555413024,
-        "atr": 0.008772296391317639,
-        "rvol": 12.55803554168912,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793392200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8609271523178696,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.009181695381864046,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6886653202950677,
-        "btc_hour_pct": -0.2975310308556911,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ATOMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793392200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATOMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1353630,6 +1353525,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793397194933
+    },
+    {
+      "id": "8d636503c92b886dc2cd3a47",
+      "asset_id": "cb1d79e4d78047ed68a8ffb1",
+      "key": "OKX:SPOT:VIRTUALUSDT",
+      "symbol": "VIRTUALUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793397791985,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793397803152
+    },
+    {
+      "id": "de5c6d68fbd9abfba98e4e50",
+      "asset_id": "9a46fc5eeede31f302e160bb",
+      "key": "MEXC:SPOT:ATOMUSDT",
+      "symbol": "ATOMUSDT",
+      "phase": "expired",
+      "observed_ms": 1793397789863,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793397803152
     }
   ],
   "runs": [
@@ -1384576,8 +1384493,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5b23c653e93eadbc66d0cf4fc27392e3dbcf6471",
-    "previous_success_ms": 1793397508450,
+    "previous_commit": "e1f9cc16592baa97825baa31963278209ef915e5",
+    "previous_success_ms": 1793397802200,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
