@@ -1094971,149 +1094971,7 @@
     "MEXC:PERP:PARTIUSDT": 1793325003850,
     "MEXC:SPOT:CTUSDT": 1793325003274
   },
-  "pending": [
-    {
-      "id": "a27a863581e6dd4fbbce2058",
-      "asset_id": "37bafe4cb558c31d96aac958",
-      "key": "MEXC:PERP:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793325003850,
-      "price": 0.05858,
-      "level": 0.0641,
-      "invalid": 0.048721983793768846,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0641,
-        "base_invalid": 0.048721983793768846,
-        "atr": 0.004453441374874393,
-        "rvol": 2.2722984497894485,
-        "close_position": 0.9123287671232875,
-        "breakout": false,
-        "bar_close_ms": 1793303100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -5.050825921219825,
-        "score": 3.684627216912736
-      },
-      "context": {
-        "atr": 0.003044559131974614,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.20169721401729346,
-        "btc_hour_pct": -0.9714428632810135,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PARTIUSDT",
-          "change_pct": 6.7068806441692,
-          "old_ms": 1793321359850,
-          "current_ms": 1793325001786,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0247,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793303100000
-    },
-    {
-      "id": "84e3a6f5897c0cd2f7dac1e1",
-      "asset_id": "a128bb7a742ddfd50db7a209",
-      "key": "MEXC:SPOT:CTUSDT",
-      "symbol": "CTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793325003274,
-      "price": 0.131,
-      "level": 0.1324,
-      "invalid": 0.12605108597596146,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1324,
-        "base_invalid": 0.12605108597596146,
-        "atr": 0.0023260934935904138,
-        "rvol": 2.6274350022097734,
-        "close_position": 0.9767441860465141,
-        "breakout": true,
-        "bar_close_ms": 1793322000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.833078101071984,
-        "score": 4.604179188256287
-      },
-      "context": {
-        "atr": 0.0022884822735870463,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.761583160230886,
-        "btc_hour_pct": -0.9285050591589017,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793322000000
-    },
-    {
-      "id": "04166705cd2b97185bccfed4",
-      "asset_id": "4ec3aed3571a4cf4061c7285",
-      "key": "OKX:PERP:USOUSDT",
-      "symbol": "USOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793325002470,
-      "price": 169.85,
-      "level": 168.2,
-      "invalid": 165.57325399858686,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 168.2,
-        "base_invalid": 165.57325399858686,
-        "atr": 0.9116400094210493,
-        "rvol": 12.712115446145095,
-        "close_position": 0.8475177304964511,
-        "breakout": true,
-        "bar_close_ms": 1793324700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1552044053390942,
-        "score": 7.847517730496451
-      },
-      "context": {
-        "atr": 0.9116400094210493,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8557242593441483,
-        "btc_hour_pct": -0.9456577085917073,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:USOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793324700000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1095527,6 +1095385,27 @@
       "phase": "cancelled",
       "observed_ms": 1793324401246,
       "delivered_ms": 1793324407334
+    },
+    {
+      "id": "a27a863581e6dd4fbbce2058",
+      "asset_id": "37bafe4cb558c31d96aac958",
+      "phase": "expired",
+      "observed_ms": 1793325003850,
+      "delivered_ms": 1793325010184
+    },
+    {
+      "id": "84e3a6f5897c0cd2f7dac1e1",
+      "asset_id": "a128bb7a742ddfd50db7a209",
+      "phase": "cancelled",
+      "observed_ms": 1793325003274,
+      "delivered_ms": 1793325010184
+    },
+    {
+      "id": "04166705cd2b97185bccfed4",
+      "asset_id": "4ec3aed3571a4cf4061c7285",
+      "phase": "radar",
+      "observed_ms": 1793325002470,
+      "delivered_ms": 1793325010184
     }
   ],
   "runs": [
@@ -1100653,7 +1100532,8 @@
         "outcomes": {},
         "source_close_ms": 1793324700000,
         "observation_lag_ms": 302470,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7714
       }
     },
     "errors": [],
