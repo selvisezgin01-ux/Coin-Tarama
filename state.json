@@ -1161124,7 +1161124,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793331951224,
+      "duration_ms": 25735
     }
   ],
   "measurements": {
@@ -1163343,11 +1163345,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793331602020,
+            "endpoint_ms": 1793331660000,
+            "endpoint_price": 0.03594,
+            "return_pct": 2.2038959192378638,
+            "btc_excess_pct_points": 1.539961392513045,
+            "mae_pct": -0.04265605004977191,
+            "mfe_pct": 3.0854542869330093,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 57980,
+            "measured_ms": 1793331950728,
+            "cost_scenarios_pct": {
+              "0.2": 2.0038959192378636,
+              "0.5": 1.7038959192378638,
+              "1": 1.2038959192378638
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793327400000,
         "observation_lag_ms": 602020,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 6334
+        "notification_lag_ms": 6334,
+        "last_measure_attempt_ms": 1793331950728
       },
       "STONKUSDT:radar": {
         "symbol": "STONKUSDT",
@@ -1163472,18 +1163498,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
-      "attempted": 2,
-      "observed_ms": 1793331641504,
-      "unique_reads": 4
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793331950728,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 43,
+        "unique_symbol_labels": 44,
         "hours": {
           "1": {
-            "known": 38,
-            "median_pct": -0.726003126018937
+            "known": 39,
+            "median_pct": -0.7086285952480176
           },
           "4": {
             "known": 24,
