@@ -1113062,164 +1113062,7 @@
       "source_close_ms": 1793368800000
     }
   },
-  "pending": [
-    {
-      "id": "f1969aaf56c68d465cd62fbc",
-      "asset_id": "c0263c4b86af0541b1fd158a",
-      "key": "OKX:SPOT:PROVEUSDT",
-      "symbol": "PROVEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793369618661,
-      "price": 0.1955,
-      "level": 0.1965,
-      "invalid": 0.1935282897258405,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1965,
-        "base_invalid": 0.1935282897258405,
-        "atr": 0.001144735161063518,
-        "rvol": 7.8546194755457694,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793368800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6704486848891245,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.001144735161063518,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0791963496953882,
-        "btc_hour_pct": -0.4087476648062638,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PROVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ee8fd875d023cca9ac573e42",
-      "asset_id": "d5a9510362ef05c288110e8d",
-      "key": "MEXC:PERP:BEAMXUSDT",
-      "symbol": "BEAMXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793369621465,
-      "price": 0.0052475,
-      "level": 0.00509,
-      "invalid": 0.004528004154845637,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00509,
-        "base_invalid": 0.004528004154845637,
-        "atr": 0.00015997230102908713,
-        "rvol": 3.1933294128136755,
-        "close_position": 0.7709923664122132,
-        "breakout": true,
-        "bar_close_ms": 1793368800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 11.62046908315566,
-        "score": 4.964321779225889
-      },
-      "context": {
-        "atr": 0.00015997230102908713,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 11.994208648409,
-        "btc_hour_pct": -0.3737395652533393,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BEAMXUSDT",
-          "change_pct": 27.76551315500253,
-          "old_ms": 1793366032883,
-          "current_ms": 1793369618947,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEAMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f8bcb60a2d97c9cdf31e2303",
-      "asset_id": "b890c236fd04fba8c274f013",
-      "key": "OKX:SPOT:LITUSDT",
-      "symbol": "LITUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793369618661,
-      "price": 2.8186,
-      "level": 2.828,
-      "invalid": 2.721637554297795,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.828,
-        "base_invalid": 2.721637554297795,
-        "atr": 0.03974963801469898,
-        "rvol": 2.0238429354382417,
-        "close_position": 0.9386106623586427,
-        "breakout": false,
-        "bar_close_ms": 1793368800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.1243243243243217,
-        "score": 3.4624535977968844
-      },
-      "context": {
-        "atr": 0.03974963801469898,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5330719891305855,
-        "btc_hour_pct": -0.4087476648062638,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1113374,6 +1113217,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793369330815
+    },
+    {
+      "id": "f1969aaf56c68d465cd62fbc",
+      "asset_id": "c0263c4b86af0541b1fd158a",
+      "key": "OKX:SPOT:PROVEUSDT",
+      "symbol": "PROVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793369618661,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369628341
+    },
+    {
+      "id": "ee8fd875d023cca9ac573e42",
+      "asset_id": "d5a9510362ef05c288110e8d",
+      "key": "MEXC:PERP:BEAMXUSDT",
+      "symbol": "BEAMXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793369621465,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369628341
+    },
+    {
+      "id": "f8bcb60a2d97c9cdf31e2303",
+      "asset_id": "b890c236fd04fba8c274f013",
+      "key": "OKX:SPOT:LITUSDT",
+      "symbol": "LITUSDT",
+      "phase": "radar",
+      "observed_ms": 1793369618661,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793369628341
     }
   ],
   "runs": [
@@ -1114692,7 +1114568,8 @@
         "entry_seq": 0,
         "cohort": "PROVEUSDT",
         "observation_lag_ms": 818661,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9680
       },
       "d5a9510362ef05c288110e8d:radar": {
         "symbol": "BEAMXUSDT",
@@ -1114714,7 +1114591,8 @@
         "entry_seq": 0,
         "cohort": "BEAMXUSDT",
         "observation_lag_ms": 821465,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6876
       },
       "b890c236fd04fba8c274f013:radar": {
         "symbol": "LITUSDT",
@@ -1114736,7 +1114614,8 @@
         "entry_seq": 0,
         "cohort": "LITUSDT",
         "observation_lag_ms": 818661,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9680
       }
     },
     "errors": [],
