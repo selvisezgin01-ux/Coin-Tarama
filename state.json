@@ -1353953,116 +1353953,7 @@
       "source_close_ms": 1793394900000
     }
   },
-  "pending": [
-    {
-      "id": "279492de928daf6a122f76e0",
-      "asset_id": "6e0539b4373053cd397953ce",
-      "key": "OKX:SPOT:KMNOUSDT",
-      "symbol": "KMNOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793397185779,
-      "price": 0.033065,
-      "level": 0.03297,
-      "invalid": 0.03196263450021289,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03297,
-        "base_invalid": 0.03196263450021289,
-        "atr": 0.0002491033319140778,
-        "rvol": 3.1538127360208112,
-        "close_position": 0.7666666666666659,
-        "breakout": true,
-        "bar_close_ms": 1793396700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0723785957315277,
-        "score": 4.920479402687477
-      },
-      "context": {
-        "atr": 0.0002491033319140778,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7115144692330988,
-        "btc_hour_pct": 0.000780358887064736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KMNOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793396700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KMNOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "36bda7f3b79a9adea00b2fa2",
-      "asset_id": "421f9a98e39240464f6cf7e3",
-      "key": "MEXC:PERP:SPELLUSDT",
-      "symbol": "SPELLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793397184782,
-      "price": 7.825e-05,
-      "level": 7.85e-05,
-      "invalid": 7.53192013337052e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.85e-05,
-        "base_invalid": 7.53192013337052e-05,
-        "atr": 5.386577752986883e-07,
-        "rvol": 3.0353594162094164,
-        "close_position": 0.7499999999999958,
-        "breakout": false,
-        "bar_close_ms": 1793396700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.8181818181818077,
-        "score": 4.285359416209412
-      },
-      "context": {
-        "atr": 5.386577752986883e-07,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4582633888967411,
-        "btc_hour_pct": -0.014693835090962004,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SPELLUSDT",
-          "change_pct": -4.664928830303561,
-          "old_ms": 1793393504705,
-          "current_ms": 1793397183606,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.051199999999999996,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793396700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPELLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1355152,6 +1355043,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793396899937
+    },
+    {
+      "id": "279492de928daf6a122f76e0",
+      "asset_id": "6e0539b4373053cd397953ce",
+      "key": "OKX:SPOT:KMNOUSDT",
+      "symbol": "KMNOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793397185779,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793397194932
+    },
+    {
+      "id": "36bda7f3b79a9adea00b2fa2",
+      "asset_id": "421f9a98e39240464f6cf7e3",
+      "key": "MEXC:PERP:SPELLUSDT",
+      "symbol": "SPELLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793397184782,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793397194933
     }
   ],
   "runs": [
@@ -1363747,7 +1363660,8 @@
         "entry_seq": 0,
         "cohort": "KMNOUSDT",
         "observation_lag_ms": 485779,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9153
       },
       "421f9a98e39240464f6cf7e3:radar": {
         "symbol": "SPELLUSDT",
@@ -1363769,7 +1363683,8 @@
         "entry_seq": 0,
         "cohort": "SPELLUSDT",
         "observation_lag_ms": 484782,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10151
       }
     },
     "errors": [],
@@ -1385924,8 +1385839,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "73f5ef7169a81738b93df935e8f90c6da4c5cda7",
-    "previous_success_ms": 1793396915962,
+    "previous_commit": "81947f64a0fb4bc89498513465da0be5ea4be81d",
+    "previous_success_ms": 1793397193882,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
