@@ -20844,40 +20844,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "3b18d662f741376de156845b1b74",
-      "mint": null,
-      "kind": "KAPSAM BOŞLUĞU",
-      "observed_ms": 1793372220611,
-      "text": "Son döngü başlangıcından 36.7dk geçti. Bu aralıkta bütün hareketlerin görüldüğü iddia edilmiyor.",
-      "details": {}
-    },
-    {
-      "id": "14f52126823e50df1ad7b23aa52d",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793372220813,
-      "text": "Son kontrol %+1.44; fiyat $0.0003651. Gözlem aralığı 36.7dk.",
-      "details": {}
-    },
-    {
-      "id": "c779de18cf6d3ed79d932d177e0d",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "ALIM",
-      "observed_ms": 1793372221442,
-      "text": "ALIM: $612.07 · işlem başlatıcı `DSYwYUg7ZeDd96bAaGb7WMfT3apsnxo38B3YczDaWPmW` · bildirim eşiği $164",
-      "details": {
-        "tx": "4vhD1YuA3SxjEboqEfYxnE1rTFuMyYUESkPmgWVEgrkbt4Uu3hh6ax1b6ePjUT16hbS6JUT5j3gKn2geXKA3GZku",
-        "wallet": "DSYwYUg7ZeDd96bAaGb7WMfT3apsnxo38B3YczDaWPmW",
-        "side": "buy",
-        "usd": 612.0695305643346,
-        "block_ms": 1793371852000,
-        "provider_row_id": "solana_463325198_4vhD1YuA3SxjEboqEfYxnE1rTFuMyYUESkPmgWVEgrkbt4Uu3hh6ax1b6ePjUT16hbS6JUT5j3gKn2geXKA3GZku_410_1793371858",
-        "first_buyer_seen_by_this_watch": true
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -20944,6 +20911,24 @@
       "issue": 211,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/211",
       "delivered_ms": 1793369390255
+    },
+    {
+      "id": "3b18d662f741376de156845b1b74",
+      "issue": 214,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/214",
+      "delivered_ms": 1793372259761
+    },
+    {
+      "id": "14f52126823e50df1ad7b23aa52d",
+      "issue": 214,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/214",
+      "delivered_ms": 1793372259761
+    },
+    {
+      "id": "c779de18cf6d3ed79d932d177e0d",
+      "issue": 214,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/214",
+      "delivered_ms": 1793372259761
     }
   ],
   "provider_backoff": {
