@@ -1053031,55 +1053031,7 @@
     "MEXC:PERP:SOLVUSDT": 1793315973706,
     "MEXC:PERP:CAPUSDT": 1793316873522
   },
-  "pending": [
-    {
-      "id": "46fc809692faa7c21e946712",
-      "asset_id": "06f980df1fe27420cc3226e6",
-      "key": "OKX:PERP:SAMSUNGUSDT",
-      "symbol": "SAMSUNGUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793319267927,
-      "price": 167.79000000000002,
-      "level": 166.13,
-      "invalid": 162.5410539902714,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 166.13,
-        "base_invalid": 162.5410539902714,
-        "atr": 1.3929733981907113,
-        "rvol": 5.8690038456568185,
-        "close_position": 0.9957983193277349,
-        "breakout": true,
-        "bar_close_ms": 1793318400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9438841004951524,
-        "score": 7.864802164984553
-      },
-      "context": {
-        "atr": 1.3929733981907113,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.2321131685136506,
-        "btc_hour_pct": -1.2882290680184982,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SAMSUNGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793318400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1053374,6 +1053326,13 @@
       "phase": "radar",
       "observed_ms": 1793318673863,
       "delivered_ms": 1793318681773
+    },
+    {
+      "id": "46fc809692faa7c21e946712",
+      "asset_id": "06f980df1fe27420cc3226e6",
+      "phase": "radar",
+      "observed_ms": 1793319267927,
+      "delivered_ms": 1793319276122
     }
   ],
   "runs": [
@@ -1057198,7 +1057157,8 @@
         "outcomes": {},
         "source_close_ms": 1793318400000,
         "observation_lag_ms": 867927,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8195
       }
     },
     "errors": [],
