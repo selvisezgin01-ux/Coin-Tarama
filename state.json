@@ -1109096,106 +1109096,7 @@
     "MEXC:SPOT:CTUSDT": 1793325003274,
     "OKX:PERP:APRUSDT": 1793326802836
   },
-  "pending": [
-    {
-      "id": "2804bfcfd3527b3c5b76f206",
-      "asset_id": "8d458a27b0f7d4a469870364",
-      "key": "MEXC:PERP:RLCUSDT",
-      "symbol": "RLCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793327705593,
-      "price": 0.50475,
-      "level": 0.4951,
-      "invalid": 0.4605490439915584,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4951,
-        "base_invalid": 0.4605490439915584,
-        "atr": 0.00833970672294415,
-        "rvol": 5.28079537659224,
-        "close_position": 0.8780487804878006,
-        "breakout": true,
-        "bar_close_ms": 1793327400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.437749317656926,
-        "score": 7.158844157080041
-      },
-      "context": {
-        "atr": 0.00833970672294415,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2610319875007039,
-        "btc_hour_pct": -0.5558930229726977,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RLCUSDT",
-          "change_pct": -1.5291354857870254,
-          "old_ms": 1793324088228,
-          "current_ms": 1793327702092,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793327400000
-    },
-    {
-      "id": "3ad4087736954e6f53aa1e1d",
-      "asset_id": "9f3777ec326eee7431d09b50",
-      "key": "MEXC:SPOT:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793327704368,
-      "price": 4.7355e-06,
-      "level": 4.68e-06,
-      "invalid": 4.283010986833132e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.68e-06,
-        "base_invalid": 4.283010986833132e-06,
-        "atr": 1.399267544457892e-07,
-        "rvol": 2.358153974073181,
-        "close_position": 0.8175675675675683,
-        "breakout": true,
-        "bar_close_ms": 1793327400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.360210341805426,
-        "score": 4.175721541640749
-      },
-      "context": {
-        "atr": 1.399267544457892e-07,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.8126556018946305,
-        "btc_hour_pct": -0.5697423877646601,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793327400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1109651,6 +1109552,20 @@
       "phase": "radar",
       "observed_ms": 1793326802836,
       "delivered_ms": 1793326808981
+    },
+    {
+      "id": "2804bfcfd3527b3c5b76f206",
+      "asset_id": "8d458a27b0f7d4a469870364",
+      "phase": "radar",
+      "observed_ms": 1793327705593,
+      "delivered_ms": 1793327711884
+    },
+    {
+      "id": "3ad4087736954e6f53aa1e1d",
+      "asset_id": "9f3777ec326eee7431d09b50",
+      "phase": "radar",
+      "observed_ms": 1793327704368,
+      "delivered_ms": 1793327711884
     }
   ],
   "runs": [
@@ -1115419,7 +1115334,8 @@
         "outcomes": {},
         "source_close_ms": 1793327400000,
         "observation_lag_ms": 305593,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6291
       },
       "PEPEUSDT:radar": {
         "symbol": "PEPEUSDT",
@@ -1115438,7 +1115354,8 @@
         "outcomes": {},
         "source_close_ms": 1793327400000,
         "observation_lag_ms": 304368,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7516
       }
     },
     "errors": [],
