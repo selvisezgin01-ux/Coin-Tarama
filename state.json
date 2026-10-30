@@ -1117107,114 +1117107,7 @@
       "source_close_ms": 1793379600000
     }
   },
-  "pending": [
-    {
-      "id": "628185160e9306dd84976e59",
-      "asset_id": "acbd1666ec785e9fd1b02631",
-      "key": "MEXC:PERP:BREVUSDT",
-      "symbol": "BREVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793379897915,
-      "price": 0.086615,
-      "level": 0.08728,
-      "invalid": 0.08491756893933351,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08728,
-        "base_invalid": 0.08491756893933351,
-        "atr": 0.0008828737377765877,
-        "rvol": 2.1903776985416386,
-        "close_position": 0.7674418604651176,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9264311530838194,
-        "score": 3.957819559006756
-      },
-      "context": {
-        "atr": 0.0009217358621275334,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.6818340947012391,
-        "btc_hour_pct": -0.33707227912420645,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BREVUSDT",
-          "change_pct": -0.75279093441879,
-          "old_ms": 1793376245560,
-          "current_ms": 1793379892738,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0011,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BREVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "479225e1581514ae42646780",
-      "asset_id": "1d1c9deb2a84884dc880ff75",
-      "key": "OKX:PERP:GRTUSDT",
-      "symbol": "GRTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793379894304,
-      "price": 0.020714999999999997,
-      "level": 0.02061,
-      "invalid": 0.019450556630136208,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02061,
-        "base_invalid": 0.019450556630136208,
-        "atr": 0.00026295579909194246,
-        "rvol": 17.50480384714703,
-        "close_position": 0.8714285714285716,
-        "breakout": true,
-        "bar_close_ms": 1793376900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7954879843060443,
-        "score": 7.871428571428572
-      },
-      "context": {
-        "atr": 0.00028195009173736493,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.8101508923570209,
-        "btc_hour_pct": -0.3445915372031316,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GRTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793376900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1117710,6 +1117603,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793378964940
+    },
+    {
+      "id": "479225e1581514ae42646780",
+      "asset_id": "1d1c9deb2a84884dc880ff75",
+      "key": "OKX:PERP:GRTUSDT",
+      "symbol": "GRTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793379894304,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793379904653
     }
   ],
   "runs": [
