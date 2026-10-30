@@ -1354361,112 +1354361,7 @@
       "source_close_ms": 1793394900000
     }
   },
-  "pending": [
-    {
-      "id": "f79e082be38286406d33b9dd",
-      "asset_id": "f8c9180cb0407dc45adf8d4c",
-      "key": "OKX:SPOT:BIOUSDT",
-      "symbol": "BIOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793396890710,
-      "price": 0.021605,
-      "level": 0.0214,
-      "invalid": 0.020860142403633083,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0214,
-        "base_invalid": 0.020860142403633083,
-        "atr": 0.00013238397577944525,
-        "rvol": 6.879717618351431,
-        "close_position": 0.8461538461538544,
-        "breakout": true,
-        "bar_close_ms": 1793396700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4622641509433931,
-        "score": 7.846153846153855
-      },
-      "context": {
-        "atr": 0.00013238397577944525,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.37711288627118034,
-        "btc_hour_pct": 0.000780358887064736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BIOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793396700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "760170b0a91705aafd4399d2",
-      "asset_id": "6f0ad3c28042e2c8135ac702",
-      "key": "OKX:PERP:BIOUSDT",
-      "symbol": "BIOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793396886883,
-      "price": 0.021580000000000002,
-      "level": 0.02139,
-      "invalid": 0.020786290762095646,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02139,
-        "base_invalid": 0.020786290762095646,
-        "atr": 0.00015806158602902398,
-        "rvol": 2.250071117390125,
-        "close_position": 0.9375000000000027,
-        "breakout": true,
-        "bar_close_ms": 1793396700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8465909090909172,
-        "score": 4.187571117390128
-      },
-      "context": {
-        "atr": 0.00015806158602902398,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.48151389880488615,
-        "btc_hour_pct": -0.007804756218443565,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BIOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793396700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1355534,6 +1355429,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793396594738
+    },
+    {
+      "id": "f79e082be38286406d33b9dd",
+      "asset_id": "f8c9180cb0407dc45adf8d4c",
+      "key": "OKX:SPOT:BIOUSDT",
+      "symbol": "BIOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793396890710,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793396899937
+    },
+    {
+      "id": "760170b0a91705aafd4399d2",
+      "asset_id": "6f0ad3c28042e2c8135ac702",
+      "key": "OKX:PERP:BIOUSDT",
+      "symbol": "BIOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793396886883,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793396899937
     }
   ],
   "runs": [
@@ -1363983,7 +1363900,8 @@
         "entry_seq": 0,
         "cohort": "BIOUSDT",
         "observation_lag_ms": 190710,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9227
       },
       "6f0ad3c28042e2c8135ac702:radar": {
         "symbol": "BIOUSDT",
@@ -1364005,7 +1363923,8 @@
         "entry_seq": 0,
         "cohort": "BIOUSDT",
         "observation_lag_ms": 186883,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13054
       }
     },
     "errors": [],
@@ -1386163,8 +1386082,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fd96f87be146ffe33f98906f0de9c745c98ff8b4",
-    "previous_success_ms": 1793396611523,
+    "previous_commit": "cb2d99a83889ec158389eccc180cbfe6941f7c1f",
+    "previous_success_ms": 1793396898886,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
