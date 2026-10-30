@@ -1045499,53 +1045499,7 @@
     "OKX:SPOT:SOPHUSDT": 1793319572107,
     "OKX:PERP:OLUSDT": 1793319870706
   },
-  "pending": [
-    {
-      "id": "b87c17476824ce4cc9b7b175",
-      "asset_id": "825012f9df08b0c79dc76f9a",
-      "key": "OKX:SPOT:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793320171839,
-      "price": 0.11995,
-      "level": 0.12,
-      "invalid": 0.11632778825975858,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12,
-        "base_invalid": 0.11632778825975858,
-        "atr": 0.001148078268276226,
-        "rvol": 10.866113221844682,
-        "close_position": 0.6666666666666686,
-        "breakout": true,
-        "bar_close_ms": 1793319300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4180602006689016,
-        "score": 7.666666666666669
-      },
-      "context": {
-        "atr": 0.001148078268276226,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.6079771558321299,
-        "btc_hour_pct": -1.268706587553925,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793319300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1045868,6 +1045822,13 @@
       "phase": "cancelled",
       "observed_ms": 1793319870706,
       "delivered_ms": 1793319879596
+    },
+    {
+      "id": "b87c17476824ce4cc9b7b175",
+      "asset_id": "825012f9df08b0c79dc76f9a",
+      "phase": "radar",
+      "observed_ms": 1793320171839,
+      "delivered_ms": 1793320178662
     }
   ],
   "runs": [
@@ -1049874,7 +1049835,8 @@
         "outcomes": {},
         "source_close_ms": 1793319300000,
         "observation_lag_ms": 871839,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6823
       }
     },
     "errors": [],
