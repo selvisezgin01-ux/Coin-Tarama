@@ -1,6 +1,6 @@
 {
   "version": "meme-v7",
-  "rules_fingerprint": "88cc705267e44bbc8e675c2243ba0115f5d39527691039bdef726444e5f8b01b",
+  "rules_fingerprint": "2c5bbdf4805306e2b774e70bc15a6fef5a7e1bc6eb236aafbccf536e070095af",
   "ledger": {
     "solana:6f1Jit9Wy4y8aqnb6unb3MKskfv3yxykcthFcEGWpump": {
       "chain": "solana",
@@ -167184,6 +167184,13 @@
       "to": "88cc705267e44bbc8e675c2243ba0115f5d39527691039bdef726444e5f8b01b",
       "observed_ms": 1793391704131,
       "reason": "same-pool radar endpoint measurement only; signal conditions unchanged",
+      "references_repriced": false
+    },
+    {
+      "from": "88cc705267e44bbc8e675c2243ba0115f5d39527691039bdef726444e5f8b01b",
+      "to": "2c5bbdf4805306e2b774e70bc15a6fef5a7e1bc6eb236aafbccf536e070095af",
+      "observed_ms": 1793392174648,
+      "reason": "same-pool measurements and authenticated feed freshness; signal conditions unchanged",
       "references_repriced": false
     }
   ],
