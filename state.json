@@ -1048180,155 +1048180,7 @@
     "MEXC:PERP:MEGAUSDT": 1793320472897,
     "MEXC:SPOT:BEATUSDT": 1793320472486
   },
-  "pending": [
-    {
-      "id": "2ea44eb93350826fcb328fba",
-      "asset_id": "ea966fd726f1bcbce840a774",
-      "key": "MEXC:PERP:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793320472897,
-      "price": 0.60695,
-      "level": 0.6152,
-      "invalid": 0.5756257395694051,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6152,
-        "base_invalid": 0.5756257395694051,
-        "atr": 0.007161736203965682,
-        "rvol": 8.774334446886517,
-        "close_position": 0.9634146341463409,
-        "breakout": true,
-        "bar_close_ms": 1793310300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.117607185222851,
-        "score": 7.963414634146341
-      },
-      "context": {
-        "atr": 0.009790164446682126,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.0045656311340254,
-        "btc_hour_pct": -1.2787364326558248,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RUNEUSDT",
-          "change_pct": 2.6998989279246377,
-          "old_ms": 1793316859192,
-          "current_ms": 1793320468349,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793310300000
-    },
-    {
-      "id": "58a98509526320968b44e0d1",
-      "asset_id": "d4b89c2900ec12e167339e5b",
-      "key": "MEXC:PERP:MEGAUSDT",
-      "symbol": "MEGAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793320472897,
-      "price": 0.044300000000000006,
-      "level": 0.04508,
-      "invalid": 0.0429447581145796,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04508,
-        "base_invalid": 0.0429447581145796,
-        "atr": 0.0007016125694693189,
-        "rvol": 4.49839831993788,
-        "close_position": 0.8333333333333343,
-        "breakout": true,
-        "bar_close_ms": 1793314800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.113051470588225,
-        "score": 6.331731653271214
-      },
-      "context": {
-        "atr": 0.0007518161550948936,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.4705263245119347,
-        "btc_hour_pct": -1.2787364326558248,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MEGAUSDT",
-          "change_pct": -5.872735665985617,
-          "old_ms": 1793316859140,
-          "current_ms": 1793320468317,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793314800000
-    },
-    {
-      "id": "4c53af7065e9910502bf7680",
-      "asset_id": "d5514f8ddc566a965cea5214",
-      "key": "MEXC:SPOT:BEATUSDT",
-      "symbol": "BEATUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793320472486,
-      "price": 0.09840499999999999,
-      "level": 0.10257,
-      "invalid": 0.0980348752791029,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10257,
-        "base_invalid": 0.0980348752791029,
-        "atr": 0.002300831472647307,
-        "rvol": 2.916827925346308,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793318400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8432539682539764,
-        "score": 4.416827925346308
-      },
-      "context": {
-        "atr": 0.002757898543122366,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.1303134716579852,
-        "btc_hour_pct": -1.2870595034040089,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BEATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793318400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1048658,6 +1048510,27 @@
       "phase": "radar",
       "observed_ms": 1793320171839,
       "delivered_ms": 1793320178662
+    },
+    {
+      "id": "2ea44eb93350826fcb328fba",
+      "asset_id": "ea966fd726f1bcbce840a774",
+      "phase": "cancelled",
+      "observed_ms": 1793320472897,
+      "delivered_ms": 1793320479376
+    },
+    {
+      "id": "58a98509526320968b44e0d1",
+      "asset_id": "d4b89c2900ec12e167339e5b",
+      "phase": "cancelled",
+      "observed_ms": 1793320472897,
+      "delivered_ms": 1793320479376
+    },
+    {
+      "id": "4c53af7065e9910502bf7680",
+      "asset_id": "d5514f8ddc566a965cea5214",
+      "phase": "cancelled",
+      "observed_ms": 1793320472486,
+      "delivered_ms": 1793320479376
     }
   ],
   "runs": [
