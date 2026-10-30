@@ -1292895,5 +1292895,18 @@
       "reason": "Authorized Turkish display-text encoding correction; conditions unchanged",
       "references_repriced": false
     }
-  ]
+  ],
+  "runtime_policy": {
+    "version": "v4-publication-recovery-v1",
+    "push_attempts": 4,
+    "push_budget_seconds": 120,
+    "retry_delays_seconds": [
+      5,
+      15,
+      30
+    ],
+    "maximum_child_restarts": 1,
+    "restart_delay_seconds": 20,
+    "original_session_deadline_preserved": true
+  }
 }
