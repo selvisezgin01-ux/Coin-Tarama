@@ -1204231,7 +1204231,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793384102548,
+      "duration_ms": 20377
     }
   ],
   "radar_admissions": [
@@ -1205359,6 +1205361,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793383724683,
+            "endpoint_ms": 1793383740000,
+            "endpoint_price": 0.4715,
+            "return_pct": -3.063322368421062,
+            "btc_excess_pct_points": -3.2639744063481357,
+            "mae_pct": -3.289473684210531,
+            "mfe_pct": 0.5139802631578982,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 15317,
+            "measured_ms": 1793384100597,
+            "cost_scenarios_pct": {
+              "0.2": -3.263322368421062,
+              "0.5": -3.563322368421062,
+              "1": -4.063322368421062
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793368800000,
@@ -1205368,7 +1205392,7 @@
         "observation_lag_ms": 524683,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 6132,
-        "last_measure_attempt_ms": 1793374168480
+        "last_measure_attempt_ms": 1793384100597
       },
       "a0b1278f8a75c4888bf4423a:radar": {
         "symbol": "HUMAUSDT",
@@ -1205475,6 +1205499,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793383723799,
+            "endpoint_ms": 1793383740000,
+            "endpoint_price": 0.1108,
+            "return_pct": 0.30780372985694804,
+            "btc_excess_pct_points": 0.15551923514598442,
+            "mae_pct": -1.5028064457722312,
+            "mfe_pct": 2.8426579757378168,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 16201,
+            "measured_ms": 1793384100597,
+            "cost_scenarios_pct": {
+              "0.2": 0.10780372985694803,
+              "0.5": -0.19219627014305196,
+              "1": -0.692196270143052
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793368800000,
@@ -1205484,7 +1205530,7 @@
         "observation_lag_ms": 523799,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 7016,
-        "last_measure_attempt_ms": 1793374168480
+        "last_measure_attempt_ms": 1793384100597
       },
       "c0263c4b86af0541b1fd158a:radar": {
         "symbol": "PROVEUSDT",
@@ -1206583,10 +1206629,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 3,
-      "attempted": 1,
-      "observed_ms": 1793383802453,
-      "unique_reads": 2
+      "due": 5,
+      "attempted": 2,
+      "observed_ms": 1793384100597,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1206603,8 +1206649,8 @@
                 "median_reference_return_pct": 0.029171528588101125
               },
               "4": {
-                "known_first_symbols": 3,
-                "median_reference_return_pct": -0.6481422062503905
+                "known_first_symbols": 4,
+                "median_reference_return_pct": -0.17016923819672125
               },
               "12": {
                 "known_first_symbols": 0,
@@ -1206647,8 +1206693,8 @@
                 "median_reference_return_pct": -0.5181331347155316
               },
               "4": {
-                "known_first_symbols": 2,
-                "median_reference_return_pct": 0.5994857325937242
+                "known_first_symbols": 3,
+                "median_reference_return_pct": -0.13544018058689877
               },
               "12": {
                 "known_first_symbols": 0,
