@@ -196,18 +196,16 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793306743191,
-        "feature_cutoff_ms": 1793304000000,
+        "observed_ms": 1793321763678,
+        "feature_cutoff_ms": 1793318400000,
         "universe_count": 462,
-        "prefilter_count": 51,
-        "analyzed_count": 43,
+        "prefilter_count": 37,
+        "analyzed_count": 28,
         "candidates": []
       }
     },
     "MEXC": {
-      "active": [
-        "RADUSDT"
-      ],
+      "active": [],
       "last_alert": {
         "GRASSUSDT": 1793133773397,
         "GBCKUSDT": 1792959544552,
@@ -380,53 +378,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793306793875,
-        "feature_cutoff_ms": 1793304000000,
+        "observed_ms": 1793321792903,
+        "feature_cutoff_ms": 1793318400000,
         "universe_count": 1247,
-        "prefilter_count": 212,
-        "analyzed_count": 208,
-        "candidates": [
-          {
-            "exchange": "MEXC",
-            "symbol": "RADUSDT",
-            "observed_ms": 1793306793875,
-            "feature_cutoff_ms": 1793304000000,
-            "mid_price": 0.26895,
-            "spread_pct": 1.0039040713887264,
-            "return24_pct": 4.191842900302123,
-            "relative24_pct_points": 5.098465936309671,
-            "quote_volume24": 84458.993,
-            "liquidity_band": "thin",
-            "breakout_level": 0.2699,
-            "breakout_open_ms": 1793289600000.0,
-            "breakout_volume_ratio": 3.3080224539198655,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.25646662767975087,
-            "atr": 0.004933489280996402,
-            "close": 0.2759,
-            "paper_controls": [
-              {
-                "symbol": "MCNUSDT",
-                "entry_price": 0.1006
-              },
-              {
-                "symbol": "CAUSDT",
-                "entry_price": 0.24403
-              },
-              {
-                "symbol": "APTMUSDT",
-                "entry_price": 0.050805
-              }
-            ],
-            "paper_btc_price": 78922.16500000001
-          }
-        ]
+        "prefilter_count": 126,
+        "analyzed_count": 126,
+        "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793306793947,
+  "updated_ms": 1793321792998,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -8501,6 +8463,17 @@
             "control_excess_pct_points": -5.156139471336319,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.04426,
+            "return_pct": -13.300685602350637,
+            "btc_excess_pct_points": -10.497977541312842,
+            "control_excess_pct_points": -9.174725249509896,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -8543,6 +8516,17 @@
             "return_pct": -6.362883689552601,
             "btc_excess_pct_points": -5.025961324974936,
             "control_excess_pct_points": -2.1483243025794296,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.014527,
+            "return_pct": -10.907362546380062,
+            "btc_excess_pct_points": -8.104654485342266,
+            "control_excess_pct_points": -2.3898264426370677,
             "complete": true,
             "controls_count": 3
           }
@@ -8589,6 +8573,17 @@
             "control_excess_pct_points": -1.9795903917777413,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.00716,
+            "return_pct": -10.174382135240235,
+            "btc_excess_pct_points": -7.371674074202439,
+            "control_excess_pct_points": -4.202587114637835,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -8631,6 +8626,17 @@
             "return_pct": -2.756749035852024,
             "btc_excess_pct_points": -1.4198266712743601,
             "control_excess_pct_points": 0.6242357610619642,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.3209,
+            "return_pct": -8.327381802599621,
+            "btc_excess_pct_points": -5.524673741561826,
+            "control_excess_pct_points": -2.768044384855129,
             "complete": true,
             "controls_count": 3
           }
@@ -8677,6 +8683,17 @@
             "control_excess_pct_points": -0.1472085518061883,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.034568,
+            "return_pct": -5.378698710754648,
+            "btc_excess_pct_points": -2.5759906497168528,
+            "control_excess_pct_points": 1.7255526961657441,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -8719,6 +8736,17 @@
             "return_pct": -5.500168029573205,
             "btc_excess_pct_points": -4.163245664995541,
             "control_excess_pct_points": -2.6386452906871583,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.004032,
+            "return_pct": -9.667301445054344,
+            "btc_excess_pct_points": -6.8645933840165485,
+            "control_excess_pct_points": -3.058546548103225,
             "complete": true,
             "controls_count": 3
           }
@@ -8765,6 +8793,17 @@
             "control_excess_pct_points": -1.4693072580872713,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.4992,
+            "return_pct": -10.272310595847923,
+            "btc_excess_pct_points": -7.469602534810128,
+            "control_excess_pct_points": -1.1675709820386686,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -8807,6 +8846,17 @@
             "return_pct": -5.58781258982467,
             "btc_excess_pct_points": -4.250890225247007,
             "control_excess_pct_points": -1.845947080063271,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.1538,
+            "return_pct": -11.583788444955445,
+            "btc_excess_pct_points": -8.78108038391765,
+            "control_excess_pct_points": -1.6840249580762912,
             "complete": true,
             "controls_count": 3
           }
@@ -8853,6 +8903,17 @@
             "control_excess_pct_points": -0.7334953030723734,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 2.88e-06,
+            "return_pct": -9.262759924385621,
+            "btc_excess_pct_points": -6.460051863347826,
+            "control_excess_pct_points": 0.10603721733728477,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -8895,6 +8956,17 @@
             "return_pct": -4.556962025316458,
             "btc_excess_pct_points": -3.2200396607387938,
             "control_excess_pct_points": -1.0215192111039828,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 3.195,
+            "return_pct": -10.126582278481012,
+            "btc_excess_pct_points": -7.323874217443216,
+            "control_excess_pct_points": -3.874740902015284,
             "complete": true,
             "controls_count": 3
           }
@@ -8941,6 +9013,17 @@
             "control_excess_pct_points": 0.3528170168074385,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793306805123,
+            "endpoint_ms": 1793306820000,
+            "endpoint_delay_ms": 14877,
+            "endpoint_price": 0.00719,
+            "return_pct": -8.652013721255237,
+            "btc_excess_pct_points": -5.849305660217442,
+            "control_excess_pct_points": -0.4355808555237779,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -8983,6 +9066,17 @@
             "return_pct": -2.8546332894159088,
             "btc_excess_pct_points": -1.498651566414877,
             "control_excess_pct_points": -1.6294767416348055,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793321718729,
+            "endpoint_ms": 1793321760000,
+            "endpoint_delay_ms": 41271,
+            "endpoint_price": 0.5913,
+            "return_pct": -13.438735177865613,
+            "btc_excess_pct_points": -8.658867244161328,
+            "control_excess_pct_points": -0.8332355862511243,
             "complete": true,
             "controls_count": 3
           }
@@ -9238,7 +9332,19 @@
             "price": 0.14715
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793307370724,
+            "endpoint_ms": 1793307420000,
+            "endpoint_delay_ms": 49276,
+            "endpoint_price": 0.1461,
+            "return_pct": -0.7135575942915362,
+            "btc_excess_pct_points": 0.6159357260085319,
+            "control_excess_pct_points": -0.5060495769363293,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:PIUSDT": {
         "symbol": "PIUSDT",
@@ -9270,7 +9376,19 @@
             "price": 0.07875
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321725957,
+            "endpoint_ms": 1793321760000,
+            "endpoint_delay_ms": 34043,
+            "endpoint_price": 0.07669,
+            "return_pct": -2.615873015873027,
+            "btc_excess_pct_points": 0.8711805597391487,
+            "control_excess_pct_points": 4.367242095113089,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:SONICUSDT": {
         "symbol": "SONICUSDT",
@@ -9302,7 +9420,19 @@
             "price": 0.022205000000000003
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793321725957,
+            "endpoint_ms": 1793321760000,
+            "endpoint_delay_ms": 34043,
+            "endpoint_price": 0.01984,
+            "return_pct": -10.650754334609335,
+            "btc_excess_pct_points": -7.163700758997159,
+            "control_excess_pct_points": -6.923015125433362,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:EGLDUSDT": {
         "symbol": "EGLDUSDT",
@@ -10138,6 +10268,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793306793947
+    "asof_ms": 1793321792998
   }
 }
