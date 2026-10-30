@@ -6,8 +6,8 @@
   "pending": [],
   "audit": [],
   "latest": {
-    "observed_ms": 1793348575393,
-    "source_commit": "d77497f514f6ca853eb0d5c4bc58bc532a018f39",
+    "observed_ms": 1793350721560,
+    "source_commit": "9f3208ec2587ab1cd28f82ae130720086a20f123",
     "coverage": {
       "delivered_candidates_in_window": 0,
       "unresolved_references": 0,
