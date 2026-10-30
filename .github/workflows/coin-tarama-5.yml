@@ -38,12 +38,12 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
       - name: Validate independent markets, early radar, entries and measurements
-        run: python -m unittest test_coin5 test_coin5_v2 test_coin5_v3 test_coin5_v4 test_notification_style -q
+        run: python -m unittest test_coin5 test_coin5_v2 test_coin5_v3 test_coin5_v4 test_notification_style test_coin5_v4_persistence -q
       - name: Run bounded checkpointed five-minute V4 session
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
-        run: python -u coin5_v4_worker.py --minutes "$COIN5_SESSION_MINUTES" --channel "$NOTIFICATION_CHANNEL"
+        run: python -u coin5_v4_reliable_worker.py --minutes "$COIN5_SESSION_MINUTES" --channel "$NOTIFICATION_CHANNEL"
       - name: Preserve report and coverage
         if: always()
         uses: actions/upload-artifact@v7
@@ -52,5 +52,9 @@ jobs:
           path: |
             cloud_output_coin5_v4/report.md
             cloud_output_coin5_v4/state.json
+            cloud_output_coin5_v4/publication_health.json
+            cloud_output_coin5_v4/publication_journal.json
+            cloud_output_coin5_v4/recovery_state.json
+            cloud_output_coin5_v4/parent.txt
           if-no-files-found: ignore
           retention-days: 14
