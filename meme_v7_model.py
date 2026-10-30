@@ -45,6 +45,21 @@ def first_base(raw,a,record,now,cfg):
     out={'stage':None,'reason':'awaiting_actual_eligible_observation','metrics':{},'first_base':anchor,
          'scope':'selected_pool_since_real_v7_eligibility_not_token_lifetime','cutoff_ms':None,'last_close':None}
     if start is None:return out
+    # A later calm base must not erase a KNOWN earlier dump in the selected pool.
+    # Growth alone is allowed; severe peak-to-later-close loss is a separate negative gate.
+    history=rules.available_candles(raw,now,include_open=True,step_ms=STEP)
+    peak=0.;worst=0.
+    for b in history:
+        peak=max(peak,b['high']);worst=max(worst,(1-b['close']/peak)*100)
+    out['metrics']['max_observed_pool_peak_to_later_close_drawdown_pct']=worst
+    if worst>r['severe_drawdown_pct']:
+        out['reason']='severe_dump_in_available_pool_history';out['latch_dump']=True;return out
+    closed_history=rules.available_candles(raw,now,step_ms=STEP)
+    birth=a.get('pool_created_ms')
+    if birth is None or not closed_history or closed_history[0]['open_ms']!=int(birth)//STEP*STEP:
+        out['reason']='selected_pool_initial_history_unknown';return out
+    if any(b['open_ms']-a0['open_ms']!=STEP for a0,b in zip(closed_history,closed_history[1:])):
+        out['reason']='selected_pool_history_gap';return out
     bars=rules.available_candles(raw,now,step_ms=STEP)
     bars=[b for b in bars if b['open_ms']>=start]
     if not bars:out['reason']='no_closed_bar_after_actual_eligibility';return out

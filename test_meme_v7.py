@@ -13,7 +13,7 @@ CFG=v.config();START=1800000000000;NOW=START+900000
 MINT='B'*40;POOL='D'*40
 def asset(**changes):
     return {'chain':'solana','mint':MINT,'pool':POOL,'symbol':'FIXTURE_NOT_LIVE','price_usd':102.,'price_observed_ms':NOW,
-        'observed_ms':NOW,'pool_created_ms':START-60000,'liquidity_usd':20000.,'market_cap_usd':100000.,
+        'observed_ms':NOW,'pool_created_ms':START,'liquidity_usd':20000.,'market_cap_usd':100000.,
         'volume5_usd':1000.,'buys5':20,'sells5':5,**changes}
 def bars():return [[START//1000,100,101,99,100,100],[(START+300000)//1000,100,101,99.5,100.5,100],[(START+600000)//1000,100.5,102.3,100,102,1000]]
 def setup():return m.first_base(bars(),asset(),{'eligible_since_ms':START},NOW,CFG)
@@ -33,11 +33,22 @@ class ModelTests(unittest.TestCase):
         s=setup();self.assertEqual(s['stage'],'first_breakout');self.assertEqual(s['first_base']['end_ms'],START+600000)
     def test_open_signal_bar_is_not_entry(self):self.assertIsNone(m.first_base(bars(),asset(),{'eligible_since_ms':START},NOW-1,CFG)['stage'])
     def test_future_real_eligibility_does_not_backfill(self):self.assertIsNone(m.first_base(bars(),asset(),{'eligible_since_ms':NOW},NOW,CFG)['stage'])
-    def test_missing_first_eligible_bar_unknown(self):self.assertEqual(m.first_base(bars()[1:],asset(),{'eligible_since_ms':START},NOW,CFG)['reason'],'first_eligible_interval_history_missing')
+    def test_missing_first_eligible_bar_unknown(self):
+        result=m.first_base(bars()[1:],asset(),{'eligible_since_ms':START},NOW,CFG)
+        self.assertIsNone(result['stage']);self.assertIn(result['reason'],('first_eligible_interval_history_missing','selected_pool_initial_history_unknown'))
     def test_gap_unknown(self):self.assertIsNone(m.first_base([bars()[0],bars()[2]],asset(),{'eligible_since_ms':START},NOW,CFG)['stage'])
     def test_no_lifetime_25pct_ban(self):
-        a=asset(pool_created_ms=START-3600000);s=m.first_base(bars(),a,{'eligible_since_ms':START,'previous_launch_gain_pct':500},NOW,CFG)
+        a=asset(pool_created_ms=START-3600000)
+        history=[[(START-3600000+i*300000)//1000,20+i*6.5,21+i*6.5,19+i*6.5,20.5+i*6.5,100] for i in range(12)]
+        s=m.first_base(history+bars(),a,{'eligible_since_ms':START,'previous_launch_gain_pct':500},NOW,CFG)
         self.assertIsNotNone(s['stage'])
+    def test_known_earlier_dump_cannot_be_reset_by_later_quiet_base(self):
+        a=asset(pool_created_ms=START-600000)
+        old=[[(START-600000)//1000,150,200,140,180,100],[(START-300000)//1000,180,181,90,100,100]]
+        out=m.first_base(old+bars(),a,{'eligible_since_ms':START},NOW,CFG)
+        self.assertTrue(out['latch_dump']);self.assertEqual(out['reason'],'severe_dump_in_available_pool_history')
+    def test_missing_launch_history_not_certified_clean(self):
+        self.assertEqual(m.first_base(bars(),asset(pool_created_ms=START-300000),{'eligible_since_ms':START},NOW,CFG)['reason'],'selected_pool_initial_history_unknown')
     def test_dump_latches(self):
         raw=bars();raw[0][2]=200;self.assertTrue(m.first_base(raw,asset(),{'eligible_since_ms':START},NOW,CFG)['latch_dump'])
     def test_base_never_switches_pool(self):

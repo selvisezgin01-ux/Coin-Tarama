@@ -278,7 +278,7 @@ def render(s):
         '🟡 Erken radar: giriş değildir. 🟢🎯 Otomatik giriş ölçütleri: manuel harita/kontrat kontrolü bekler. 🔵 15dk güçlenme: aynı girişin devamı.',
         'Beş ağ korunur: Solana, Ethereum, BNB Chain, Robinhood ve HyperEVM. Yeni havuz yaşı tokenin tüm yaşamı değildir.',
         'MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden sonraki 2tam5dk taban ve ayrı kapalı5dk hacim mumu aranır. İlk haber için bu mumlar beklenmez.',
-        'İlk fiyattan %25 yükseliş yasağı V7 koşulu değildir. Gerçek uygunluk sonrası gözlenen sert düşüş, ilk taban kaybı, tabandan uzama ve güvenlik engelleri ayrı değerlendirilir.',
+        'İlk fiyattan %25 yükseliş yasağı V7 koşulu değildir. Seçilen havuzun erişilen geçmişindeki sert düşüş, ilk taban kaybı, tabandan uzama ve güvenlik engelleri ayrı değerlendirilir. Başlangıç/ara geçmiş eksikse giriş teyitsizdir.',
         'İlk likit taban geçmiş MCAP varsayımıyla geriye taşınmaz. Bilinmeyen risk/akış/kotasyon yeşil giriş olmaz. Eski V6 kayıtları yeni V7 başarısı sayılmaz.','',
         '## Keşif ve kapsam','',json.dumps(s.get('last_scan',{}),ensure_ascii=False,indent=2),'',
         'Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.',
