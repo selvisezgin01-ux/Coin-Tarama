@@ -1342011,7 +1342011,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 8
         }
-      }
+      },
+      "finished_ms": 1793395108037,
+      "duration_ms": 33365
     }
   ],
   "radar_admissions": [
@@ -1346103,18 +1346105,18 @@
     "queue": {
       "due": 0,
       "attempted": 0,
-      "observed_ms": 1793394800649,
+      "observed_ms": 1793395108037,
       "unique_reads": 0
     },
     "summary": {
       "radar": {
-        "market_event_references": 64,
+        "market_event_references": 67,
         "unique_symbol_labels": 47,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 21,
-            "first_per_symbol": 21,
+            "event_references": 22,
+            "first_per_symbol": 22,
             "hours": {
               "1": {
                 "known_first_symbols": 19,
@@ -1346135,8 +1346137,8 @@
             }
           },
           "MEXC:SPOT:radar": {
-            "event_references": 15,
-            "first_per_symbol": 15,
+            "event_references": 16,
+            "first_per_symbol": 16,
             "hours": {
               "1": {
                 "known_first_symbols": 12,
@@ -1346157,8 +1346159,8 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 18,
-            "first_per_symbol": 18,
+            "event_references": 19,
+            "first_per_symbol": 19,
             "hours": {
               "1": {
                 "known_first_symbols": 16,
@@ -1368213,8 +1368215,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6322a9e98e2f4113c39791af918fa9cbac593d3f",
-    "previous_success_ms": 1793395099085,
+    "previous_commit": "b35f442d69a0bdac1e6a1214866eefb3efe1f673",
+    "previous_success_ms": 1793395107998,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
