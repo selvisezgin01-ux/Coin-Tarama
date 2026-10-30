@@ -1,4 +1,4 @@
-name: Coin Tarama Meme — ilk oluşum
+name: Coin Tarama Meme — V7 erken radar ve giriş
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 125
     env:
       PYTHONUTF8: '1'
-      SCANNER_STATE_BRANCH: scanner-state-meme-v6
+      SCANNER_STATE_BRANCH: scanner-state-meme-v7
       MEME_SESSION_MINUTES: ${{ inputs.session_minutes || '110' }}
       MEME_RPC_SOLANA: ${{ secrets.MEME_RPC_SOLANA }}
       MEME_RPC_ETHEREUM: ${{ secrets.MEME_RPC_ETHEREUM }}
@@ -45,19 +45,24 @@ jobs:
         run: python -m unittest test_meme_v5 -q
       - name: Validate first base, buy pressure, cap and V5 archive preservation
         run: python -m unittest test_meme_v6 -q
-      - name: Run bounded five-minute observation session
+      - name: Validate V7 identity retention, closed bases, risk gates and idempotent delivery
+        run: python -m unittest test_meme_v7 -q
+      - name: Run bounded V7 session using continuous discovery feed
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
           GH_RUN_CREATED_AT: ${{ github.event.workflow_run.created_at || '' }}
-        run: python -u meme_v6.py worker --minutes "$MEME_SESSION_MINUTES"
+        run: python -u meme_v7.py worker --minutes "$MEME_SESSION_MINUTES"
       - name: Preserve report and coverage
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: coin-tarama-meme-v6-${{ github.run_id }}-${{ github.run_attempt }}
+          name: coin-tarama-meme-v7-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
-            cloud_output_meme_v6/report.md
-            cloud_output_meme_v6/summary.json
+            cloud_output_meme_v7/report.md
+            cloud_output_meme_v7/summary.json
+            cloud_output_meme_v7/publication_health.json
+            cloud_output_meme_v7/publication_journal.json
+            cloud_output_meme_v7/recovery_state.json
           if-no-files-found: ignore
           retention-days: 14

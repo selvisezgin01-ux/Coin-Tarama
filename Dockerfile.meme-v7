@@ -1,0 +1,5 @@
+FROM python:3.12-slim
+WORKDIR /app
+COPY meme_v7_config.json meme_v7_collector.py meme_v7_feed_publisher.py meme_v7_service.py meme_v7_persistence.py meme_sources.py meme_rules.py ./
+VOLUME ["/data"]
+ENTRYPOINT ["python", "-u", "meme_v7_service.py", "--data-dir", "/data", "--publish"]
