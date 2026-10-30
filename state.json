@@ -1182528,7 +1182528,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793382902578,
+      "duration_ms": 20407
     }
   ],
   "radar_admissions": [
@@ -1184828,10 +1184830,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 1,
-      "attempted": 1,
-      "observed_ms": 1793382609294,
-      "unique_reads": 2
+      "due": 0,
+      "attempted": 0,
+      "observed_ms": 1793382901692,
+      "unique_reads": 0
     },
     "summary": {
       "radar": {
@@ -1192205,13 +1192207,35 @@
               "barriers": {
                 "status": "not_a_trade_entry"
               }
+            },
+            "12": {
+              "target_ms": 1793370904368,
+              "endpoint_ms": 1793370960000,
+              "endpoint_price": 5.103e-06,
+              "return_pct": 7.760532150776056,
+              "btc_excess_pct_points": 8.322654823592524,
+              "mae_pct": -1.0030619786717376,
+              "mfe_pct": 11.920599725477787,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 720,
+              "ignored_entry_fragment_ms": 55632,
+              "measured_ms": 1793382901693,
+              "cost_scenarios_pct": {
+                "0.2": 7.560532150776056,
+                "0.5": 7.260532150776056,
+                "1": 6.760532150776056
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
             }
           },
           "source_close_ms": 1793327400000,
           "observation_lag_ms": 304368,
           "interpretation": "early radar reference, not a trade entry",
           "notification_lag_ms": 7516,
-          "last_measure_attempt_ms": 1793342247459
+          "last_measure_attempt_ms": 1793382901693
         },
         "ORDERUSDT:radar": {
           "symbol": "ORDERUSDT",
@@ -1195822,9 +1195846,9 @@
       },
       "errors": [],
       "queue": {
-        "due": 41,
+        "due": 44,
         "attempted": 1,
-        "observed_ms": 1793382008002,
+        "observed_ms": 1793382901693,
         "unique_reads": 2
       },
       "summary": {
@@ -1195840,8 +1195864,8 @@
               "median_pct": -0.3887397602739706
             },
             "12": {
-              "known": 36,
-              "median_pct": -1.5108418738302487
+              "known": 37,
+              "median_pct": -1.3126383120623308
             },
             "24": {
               "known": 0,
