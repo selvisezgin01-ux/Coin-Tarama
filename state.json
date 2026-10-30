@@ -1406929,53 +1406929,7 @@
     "OKX:SPOT:LSKUSDT": 1793353705459,
     "MEXC:PERP:NOMUSDT": 1793355547028
   },
-  "pending": [
-    {
-      "id": "7ef2ef7be0aef02a2a789afd",
-      "asset_id": "521802a40ef51b5b5e8345bd",
-      "key": "OKX:PERP:WETUSDT",
-      "symbol": "WETUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793356447533,
-      "price": 0.054185,
-      "level": 0.05358,
-      "invalid": 0.05265280953433048,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05358,
-        "base_invalid": 0.05265280953433048,
-        "atr": 0.0005146031044634974,
-        "rvol": 10.374011447368975,
-        "close_position": 0.6978417266187064,
-        "breakout": true,
-        "bar_close_ms": 1793356200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7286734310409502,
-        "score": 7.697841726618706
-      },
-      "context": {
-        "atr": 0.0005146031044634974,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.17054429814933325,
-        "btc_hour_pct": -0.4470862464885039,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793356200000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1408068,6 +1408022,13 @@
       "phase": "radar",
       "observed_ms": 1793355547762,
       "delivered_ms": 1793355555329
+    },
+    {
+      "id": "7ef2ef7be0aef02a2a789afd",
+      "asset_id": "521802a40ef51b5b5e8345bd",
+      "phase": "radar",
+      "observed_ms": 1793356447533,
+      "delivered_ms": 1793356455270
     }
   ],
   "runs": [
