@@ -1364612,7 +1364612,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793350715309,
+      "duration_ms": 22964
     }
   ],
   "measurements": {
@@ -1368189,13 +1368191,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793349991416,
+            "endpoint_ms": 1793350020000,
+            "endpoint_price": 0.01964,
+            "return_pct": -1.1326453561540384,
+            "btc_excess_pct_points": -0.5558618169480778,
+            "mae_pct": -1.6863830858293571,
+            "mfe_pct": 2.240120815504665,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 28584,
+            "measured_ms": 1793350714122,
+            "cost_scenarios_pct": {
+              "0.2": -1.3326453561540383,
+              "0.5": -1.6326453561540384,
+              "1": -2.1326453561540384
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793335500000,
         "observation_lag_ms": 91416,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 6127,
-        "last_measure_attempt_ms": 1793339495918
+        "last_measure_attempt_ms": 1793350714122
       },
       "PIPPINUSDT:radar": {
         "symbol": "PIPPINUSDT",
@@ -1369063,11 +1369087,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793350633467,
+            "endpoint_ms": 1793350680000,
+            "endpoint_price": 0.01489,
+            "return_pct": -0.7002334111370523,
+            "btc_excess_pct_points": -0.6382653974414509,
+            "mae_pct": -0.9669889963321188,
+            "mfe_pct": 0.2334111370456693,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 46533,
+            "measured_ms": 1793350714122,
+            "cost_scenarios_pct": {
+              "0.2": -0.9002334111370522,
+              "0.5": -1.2002334111370523,
+              "1": -1.7002334111370523
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793346300000,
         "observation_lag_ms": 733467,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 10577
+        "notification_lag_ms": 10577,
+        "last_measure_attempt_ms": 1793350714122
       },
       "LSKUSDT:radar": {
         "symbol": "LSKUSDT",
@@ -1369192,22 +1369240,22 @@
     },
     "errors": [],
     "queue": {
-      "due": 4,
+      "due": 3,
       "attempted": 2,
-      "observed_ms": 1793350414951,
+      "observed_ms": 1793350714122,
       "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 73,
+        "unique_symbol_labels": 74,
         "hours": {
           "1": {
-            "known": 67,
-            "median_pct": -0.20121489132732817
+            "known": 68,
+            "median_pct": -0.2184721548809776
           },
           "4": {
-            "known": 49,
-            "median_pct": -0.3014684430613701
+            "known": 50,
+            "median_pct": -0.31908438988086374
           },
           "12": {
             "known": 10,
