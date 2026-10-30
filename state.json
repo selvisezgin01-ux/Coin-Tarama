@@ -1057671,108 +1057671,7 @@
       "source_close_ms": 1793376900000
     }
   },
-  "pending": [
-    {
-      "id": "9211ec966d5bbb3a17bdf49e",
-      "asset_id": "e48a16c584cc98d274f9b506",
-      "key": "OKX:SPOT:BREVUSDT",
-      "symbol": "BREVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793377159886,
-      "price": 0.0889,
-      "level": 0.08743,
-      "invalid": 0.08512488916078949,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08743,
-        "base_invalid": 0.08512488916078949,
-        "atr": 0.0007674055947367227,
-        "rvol": 12.064274666054866,
-        "close_position": 0.7921348314606694,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.860465116279065,
-        "score": 7.792134831460669
-      },
-      "context": {
-        "atr": 0.0008819976188602734,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8585475015004285,
-        "btc_hour_pct": 0.49435320934569926,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BREVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BREVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "32f3c5a0088606b3b4c23dbc",
-      "asset_id": "1d057f9a7b4c5b7ac2acae4c",
-      "key": "OKX:PERP:BREVUSDT",
-      "symbol": "BREVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793377158105,
-      "price": 0.08876,
-      "level": 0.08737,
-      "invalid": 0.08500794364513173,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08737,
-        "base_invalid": 0.08500794364513173,
-        "atr": 0.0009470423657885081,
-        "rvol": 3.0123241157075125,
-        "close_position": 0.8108108108108096,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.113339552238803,
-        "score": 4.823134926518322
-      },
-      "context": {
-        "atr": 0.0010034972758616388,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9543838967747797,
-        "btc_hour_pct": 0.4799247664495576,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BREVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BREVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1058147,6 +1058046,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793376269285
+    },
+    {
+      "id": "9211ec966d5bbb3a17bdf49e",
+      "asset_id": "e48a16c584cc98d274f9b506",
+      "key": "OKX:SPOT:BREVUSDT",
+      "symbol": "BREVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793377159886,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793377166012
+    },
+    {
+      "id": "32f3c5a0088606b3b4c23dbc",
+      "asset_id": "1d057f9a7b4c5b7ac2acae4c",
+      "key": "OKX:PERP:BREVUSDT",
+      "symbol": "BREVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793377158105,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793377166012
     }
   ],
   "runs": [
