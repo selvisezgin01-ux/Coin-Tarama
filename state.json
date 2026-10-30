@@ -1315171,112 +1315171,7 @@
     "MEXC:SPOT:LIGHTUSDT": 1793344641504,
     "OKX:PERP:UBUSDT": 1793345540258
   },
-  "pending": [
-    {
-      "id": "b197ec2f6941fb33afd8dd9b",
-      "asset_id": "10d34eb06c781c812accf91a",
-      "key": "OKX:PERP:UBUSDT",
-      "symbol": "UBUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793345540258,
-      "price": 0.112815,
-      "level": 0.11047,
-      "invalid": 0.10507055676603447,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11047,
-        "base_invalid": 0.10507055676603447,
-        "atr": 0.0012629548931036064,
-        "rvol": 4.794220507777982,
-        "close_position": 0.859060402684563,
-        "breakout": true,
-        "bar_close_ms": 1793339100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.9723983588213274,
-        "score": 6.653280910462545
-      },
-      "context": {
-        "atr": 0.001230601924465053,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.6893224638988347,
-        "btc_hour_pct": 0.12674481110563907,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:UBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793339100000
-    },
-    {
-      "id": "704813f938592b80f766ba9a",
-      "asset_id": "b86ef7233b53d51c1f042b6a",
-      "key": "OKX:PERP:ATHUSDT",
-      "symbol": "ATHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793345540258,
-      "price": 0.005272000000000001,
-      "level": 0.005196,
-      "invalid": 0.0051915506281903934,
-      "target": 0.005511978743619215,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005196,
-        "base_invalid": 0.005024550628190394,
-        "atr": 5.632914539737794e-05,
-        "rvol": 3.758997877798437,
-        "close_position": 0.9066666666666653,
-        "breakout": true,
-        "bar_close_ms": 1793341800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.244778450126872,
-        "score": 5.665664544465102
-      },
-      "context": {
-        "atr": 5.298866316727612e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7835865729099565,
-        "btc_hour_pct": 0.12674481110563907,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.0051915506281903934,
-        "target": 0.005511978743619215,
-        "risk_pct": 1.5259744273445979,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.005682,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.005246,
-        "entry_zone_high": 0.005272494331583638
-      },
-      "reason": null,
-      "source_close_ms": 1793345400000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1316103,6 +1315998,20 @@
       "phase": "radar",
       "observed_ms": 1793345236885,
       "delivered_ms": 1793345245338
+    },
+    {
+      "id": "b197ec2f6941fb33afd8dd9b",
+      "asset_id": "10d34eb06c781c812accf91a",
+      "phase": "expired",
+      "observed_ms": 1793345540258,
+      "delivered_ms": 1793345548486
+    },
+    {
+      "id": "704813f938592b80f766ba9a",
+      "asset_id": "b86ef7233b53d51c1f042b6a",
+      "phase": "triggered",
+      "observed_ms": 1793345540258,
+      "delivered_ms": 1793345548486
     }
   ],
   "runs": [
@@ -1326287,7 +1326196,8 @@
         "outcomes": {},
         "source_close_ms": 1793345400000,
         "observation_lag_ms": 140258,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 8228
       }
     },
     "errors": [],
