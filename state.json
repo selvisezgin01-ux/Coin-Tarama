@@ -46332,21 +46332,6 @@
         "pool_age_over_24h_identity_preserved"
       ]
     },
-    "hyperevm:0x4df183fcbbba894a54c8059cce6f3736cda2a2ba": {
-      "chain": "hyperevm",
-      "mint": "0x4df183fcbbba894a54c8059cce6f3736cda2a2ba",
-      "first_seen_ms": 1793393016884,
-      "pools": {
-        "0xa8c2d16b3ada8921ad1f9a28b2a7feacaf6c20a2": {
-          "created_ms": 1793299860000,
-          "first_seen_ms": 1793393016884
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:6D9RHrQveei9x67qy84jSZY8tAE2CUvtyX4RJbHfpump": {
       "chain": "solana",
       "mint": "6D9RHrQveei9x67qy84jSZY8tAE2CUvtyX4RJbHfpump",
@@ -143201,7 +143186,8 @@
       "requests": {
         "api.github.com:ok": 1,
         "api.dexscreener.com:ok": 9
-      }
+      },
+      "finished_ms": 1793393464393
     }
   ],
   "archive": {
@@ -217283,8 +217269,8 @@
     }
   },
   "publication": {
-    "commit": "4d33843dd9b20444a593052f134e7829426800c5",
-    "success_ms": 1793393407113,
+    "commit": "4025848da9423c56fd5843540c2b9cf50b052934",
+    "success_ms": 1793393464385,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793394001745,
@@ -217654,6 +217640,15 @@
       "archived_ms": 1793393404505,
       "keys": [
         "hyperevm:0xf6febf6767fac2d6054f2ad6dbbffbc6bc322d3e"
+      ],
+      "count": 1,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "4025848da9423c56fd5843540c2b9cf50b052934",
+      "archived_ms": 1793393464392,
+      "keys": [
+        "hyperevm:0x4df183fcbbba894a54c8059cce6f3736cda2a2ba"
       ],
       "count": 1,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
