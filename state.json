@@ -1026053,58 +1026053,7 @@
       "source_close_ms": 1793376000000
     }
   },
-  "pending": [
-    {
-      "id": "52467dfe7b8028d1b4b501f7",
-      "asset_id": "c0263c4b86af0541b1fd158a",
-      "key": "OKX:SPOT:PROVEUSDT",
-      "symbol": "PROVEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793376263434,
-      "price": 0.199,
-      "level": 0.1965,
-      "invalid": 0.1935282897258405,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1965,
-        "base_invalid": 0.1935282897258405,
-        "atr": 0.001144735161063518,
-        "rvol": 7.8546194755457694,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793368800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6704486848891245,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.0012972329543074793,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.3460566161593301,
-        "btc_hour_pct": 0.49435320934569926,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PROVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1026468,6 +1026417,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793375364963
+    },
+    {
+      "id": "52467dfe7b8028d1b4b501f7",
+      "asset_id": "c0263c4b86af0541b1fd158a",
+      "key": "OKX:SPOT:PROVEUSDT",
+      "symbol": "PROVEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793376263434,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793376269285
     }
   ],
   "runs": [
