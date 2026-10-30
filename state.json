@@ -429,50 +429,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "4d633b77a692aff7979702ff",
-      "created_ms": 1793378988312,
-      "candidates": [
-        {
-          "exchange": "OKX",
-          "symbol": "KNCUSDT",
-          "observed_ms": 1793378963212,
-          "feature_cutoff_ms": 1793376000000,
-          "mid_price": 0.12027499999999999,
-          "spread_pct": 0.40739970900021144,
-          "return24_pct": 2.33947656315745,
-          "relative24_pct_points": 7.454045349674798,
-          "quote_volume24": 16194.403211116372,
-          "liquidity_band": "thin",
-          "breakout_level": 0.12089,
-          "breakout_open_ms": 1793361600000.0,
-          "breakout_volume_ratio": 6.502223492074524,
-          "strength_score": 75,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.11047038146062309,
-          "atr": 0.002438474157507625,
-          "close": 0.12161,
-          "paper_controls": [
-            {
-              "symbol": "XDKNGUSDT",
-              "entry_price": 20.34
-            },
-            {
-              "symbol": "XBXUSDT",
-              "entry_price": 119.81
-            },
-            {
-              "symbol": "ZENTUSDT",
-              "entry_price": 0.0017065000000000001
-            }
-          ],
-          "paper_btc_price": 77215.85,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793378988312,
   "paper": {
     "version": "github-paper-v1",
