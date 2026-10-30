@@ -1102279,112 +1102279,7 @@
       "source_close_ms": 1793378700000
     }
   },
-  "pending": [
-    {
-      "id": "57ed0809a2a1ee82d8bc932e",
-      "asset_id": "b890c236fd04fba8c274f013",
-      "key": "OKX:SPOT:LITUSDT",
-      "symbol": "LITUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793378958888,
-      "price": 2.79145,
-      "level": 2.828,
-      "invalid": 2.721637554297795,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.828,
-        "base_invalid": 2.721637554297795,
-        "atr": 0.03974963801469898,
-        "rvol": 2.0238429354382417,
-        "close_position": 0.9386106623586427,
-        "breakout": false,
-        "bar_close_ms": 1793368800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.1243243243243217,
-        "score": 3.4624535977968844
-      },
-      "context": {
-        "atr": 0.04283218048555275,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.7586286956726704,
-        "btc_hour_pct": 0.49435320934569926,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793368800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "205205def7e024bc42842421",
-      "asset_id": "706bbd36dc82b66a09995321",
-      "key": "OKX:SPOT:TUSDT",
-      "symbol": "TUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793378958888,
-      "price": 0.004469,
-      "level": 0.004484,
-      "invalid": 0.00439602168026063,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004484,
-        "base_invalid": 0.00439602168026063,
-        "atr": 2.6522131595802395e-05,
-        "rvol": 5.876248029545967,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9711952823769483,
-        "score": 7.876248029545967
-      },
-      "context": {
-        "atr": 3.0292620693282166e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7099286818229134,
-        "btc_hour_pct": 0.49435320934569926,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:TUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1102858,6 +1102753,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793378363811
+    },
+    {
+      "id": "57ed0809a2a1ee82d8bc932e",
+      "asset_id": "b890c236fd04fba8c274f013",
+      "key": "OKX:SPOT:LITUSDT",
+      "symbol": "LITUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793378958888,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793378964940
+    },
+    {
+      "id": "205205def7e024bc42842421",
+      "asset_id": "706bbd36dc82b66a09995321",
+      "key": "OKX:SPOT:TUSDT",
+      "symbol": "TUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793378958888,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793378964940
     }
   ],
   "runs": [
