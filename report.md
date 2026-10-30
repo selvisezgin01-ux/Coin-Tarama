@@ -4,7 +4,7 @@ Solana: 1 ve SPSC. Yaş/mcap/yeni token filtresi yok. Alım önerisi değildir. 
 Kontrol hedefi 5 dakika; GitHub oturumları ve kaynaklar gecikebilir. Sayım oranı USD alım hacmi değildir. Transfer alım değildir. İlişki aynı sahiplik değildir.
 
 Son gözlem: 30.10.2026 13:06:54 TR
-Döngü: 166 · doğrulanmış Issue gönderimi: 83
+Döngü: 166 · doğrulanmış Issue gönderimi: 84
 
 ## 1 — 1 coin can change your life
 
