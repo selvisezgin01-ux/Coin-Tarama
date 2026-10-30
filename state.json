@@ -1037540,164 +1037540,7 @@
       "source_close_ms": 1793370600000
     }
   },
-  "pending": [
-    {
-      "id": "2b8b796a71ef20d1003b4d9c",
-      "asset_id": "a3ff797ba6b1e1b2d696e341",
-      "key": "MEXC:SPOT:WLDUSDT",
-      "symbol": "WLDUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793373561775,
-      "price": 0.4141,
-      "level": 0.409,
-      "invalid": 0.3946882939740218,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.409,
-        "base_invalid": 0.3946882939740218,
-        "atr": 0.004078040173188105,
-        "rvol": 13.957438945362355,
-        "close_position": 0.8840579710144968,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.1132312327391443,
-        "score": 7.884057971014497
-      },
-      "context": {
-        "atr": 0.004078040173188105,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2564033575383604,
-        "btc_hour_pct": 0.12169736909657392,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f58adb0212b29356dd8756d2",
-      "asset_id": "dcf0980d426302acf19e0b83",
-      "key": "OKX:PERP:ZETAUSDT",
-      "symbol": "ZETAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793373561546,
-      "price": 0.03757,
-      "level": 0.03701,
-      "invalid": 0.036310404962671634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03701,
-        "base_invalid": 0.036310404962671634,
-        "atr": 0.000263966915522436,
-        "rvol": 3.8954708562644136,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.998624484181578,
-        "score": 5.895470856264414
-      },
-      "context": {
-        "atr": 0.000263966915522436,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5916487102792578,
-        "btc_hour_pct": 0.09010749370219617,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZETAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZETAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6faa6380bdb0089310e3700b",
-      "asset_id": "726a6bd20348a35a1fe5c702",
-      "key": "MEXC:SPOT:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793373561775,
-      "price": 4.42085,
-      "level": 4.3535,
-      "invalid": 4.21146975303474,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.3535,
-        "base_invalid": 4.21146975303474,
-        "atr": 0.04686831310173613,
-        "rvol": 3.307102955846097,
-        "close_position": 0.8962264150943468,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.1738177705520565,
-        "score": 5.203329370940444
-      },
-      "context": {
-        "atr": 0.04686831310173613,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.631983805157299,
-        "btc_hour_pct": 0.12169736909657392,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1037940,6 +1037783,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793373266153
+    },
+    {
+      "id": "2b8b796a71ef20d1003b4d9c",
+      "asset_id": "a3ff797ba6b1e1b2d696e341",
+      "key": "MEXC:SPOT:WLDUSDT",
+      "symbol": "WLDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793373561775,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373569449
+    },
+    {
+      "id": "f58adb0212b29356dd8756d2",
+      "asset_id": "dcf0980d426302acf19e0b83",
+      "key": "OKX:PERP:ZETAUSDT",
+      "symbol": "ZETAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793373561546,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373569449
+    },
+    {
+      "id": "6faa6380bdb0089310e3700b",
+      "asset_id": "726a6bd20348a35a1fe5c702",
+      "key": "MEXC:SPOT:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793373561775,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793373569449
     }
   ],
   "runs": [
@@ -1039591,7 +1039467,8 @@
         "entry_seq": 0,
         "cohort": "WLDUSDT",
         "observation_lag_ms": 261775,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7674
       },
       "dcf0980d426302acf19e0b83:radar": {
         "symbol": "ZETAUSDT",
@@ -1039613,7 +1039490,8 @@
         "entry_seq": 0,
         "cohort": "ZETAUSDT",
         "observation_lag_ms": 261546,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7903
       },
       "726a6bd20348a35a1fe5c702:radar": {
         "symbol": "NEARUSDT",
@@ -1039635,7 +1039513,8 @@
         "entry_seq": 0,
         "cohort": "NEARUSDT",
         "observation_lag_ms": 261775,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7674
       }
     },
     "errors": [],
