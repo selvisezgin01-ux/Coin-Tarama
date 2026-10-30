@@ -1205069,55 +1205069,7 @@
     "MEXC:PERP:RLCUSDT": 1793334638961,
     "MEXC:SPOT:EVAAUSDT": 1793334637802
   },
-  "pending": [
-    {
-      "id": "27715091b68a4bf0bd18dad4",
-      "asset_id": "2fcddabf86537a48acd21413",
-      "key": "MEXC:SPOT:FARTCOINUSDT",
-      "symbol": "FARTCOINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793335282432,
-      "price": 0.11923,
-      "level": 0.11801,
-      "invalid": 0.11376425488213789,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11801,
-        "base_invalid": 0.11376425488213789,
-        "atr": 0.0015716341190807495,
-        "rvol": 6.927791799127495,
-        "close_position": 0.7868852459016308,
-        "breakout": true,
-        "bar_close_ms": 1793334600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.223277288962456,
-        "score": 7.7868852459016304
-      },
-      "context": {
-        "atr": 0.0015716341190807495,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.323137315051004,
-        "btc_hour_pct": 1.031240082925966,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FARTCOINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793334600000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1205741,6 +1205693,13 @@
       "phase": "radar",
       "observed_ms": 1793334936218,
       "delivered_ms": 1793334944583
+    },
+    {
+      "id": "27715091b68a4bf0bd18dad4",
+      "asset_id": "2fcddabf86537a48acd21413",
+      "phase": "radar",
+      "observed_ms": 1793335282432,
+      "delivered_ms": 1793335289528
     }
   ],
   "runs": [
@@ -1213343,7 +1213302,8 @@
         "outcomes": {},
         "source_close_ms": 1793334600000,
         "observation_lag_ms": 682432,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7096
       }
     },
     "errors": [],
