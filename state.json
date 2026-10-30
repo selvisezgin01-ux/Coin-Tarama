@@ -1205030,60 +1205030,7 @@
       "source_close_ms": 1793384100000
     }
   },
-  "pending": [
-    {
-      "id": "d74b737a1f1a9dfcd26579fc",
-      "asset_id": "7c53e3ae9ad4ff16ebe5e56e",
-      "key": "OKX:SPOT:SAHARAUSDT",
-      "symbol": "SAHARAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793384396225,
-      "price": 0.0074555,
-      "level": 0.007477,
-      "invalid": 0.007367034753497438,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007477,
-        "base_invalid": 0.007367034753497438,
-        "atr": 3.976831001708044e-05,
-        "rvol": 7.205246892573364,
-        "close_position": 0.7666666666666653,
-        "breakout": true,
-        "bar_close_ms": 1793373300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3622875640679766,
-        "score": 7.766666666666666
-      },
-      "context": {
-        "atr": 3.4515783492470023e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.0066883774066273105,
-        "btc_hour_pct": -0.21961620193309273,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SAHARAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793373300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SAHARAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1205689,6 +1205636,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793382604537
+    },
+    {
+      "id": "d74b737a1f1a9dfcd26579fc",
+      "asset_id": "7c53e3ae9ad4ff16ebe5e56e",
+      "key": "OKX:SPOT:SAHARAUSDT",
+      "symbol": "SAHARAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793384396225,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793384404074
     }
   ],
   "runs": [
