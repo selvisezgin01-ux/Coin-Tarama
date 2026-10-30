@@ -1218490,7 +1218490,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793384705639,
+      "duration_ms": 23467
     }
   ],
   "radar_admissions": [
@@ -1220692,14 +1220694,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793384691724,
+            "endpoint_ms": 1793384700000,
+            "endpoint_price": 0.01938,
+            "return_pct": 1.4394137660298512,
+            "btc_excess_pct_points": 1.7288183741172802,
+            "mae_pct": -0.34022507197066787,
+            "mfe_pct": 2.904998691442051,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 8276,
+            "measured_ms": 1793384704493,
+            "cost_scenarios_pct": {
+              "0.2": 1.2394137660298512,
+              "0.5": 0.9394137660298512,
+              "1": 0.43941376602985116
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793380500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "SENTUSDT",
         "observation_lag_ms": 591724,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8661
+        "notification_lag_ms": 8661,
+        "last_measure_attempt_ms": 1793384704493
       },
       "5181bde04790758156a7aa10:radar": {
         "symbol": "VIRTUALUSDT",
@@ -1220930,10 +1220956,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 3,
-      "attempted": 2,
-      "observed_ms": 1793384409293,
-      "unique_reads": 3
+      "due": 4,
+      "attempted": 1,
+      "observed_ms": 1793384704493,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
@@ -1220990,8 +1221016,8 @@
             "first_per_symbol": 10,
             "hours": {
               "1": {
-                "known_first_symbols": 8,
-                "median_reference_return_pct": -0.5181331347155316
+                "known_first_symbols": 9,
+                "median_reference_return_pct": -0.3593083314619383
               },
               "4": {
                 "known_first_symbols": 3,
@@ -1228417,13 +1228443,35 @@
               "barriers": {
                 "status": "not_a_trade_entry"
               }
+            },
+            "12": {
+              "target_ms": 1793371202020,
+              "endpoint_ms": 1793371260000,
+              "endpoint_price": 0.03525,
+              "return_pct": 0.24171761694866678,
+              "btc_excess_pct_points": 0.6534744655278479,
+              "mae_pct": -2.9717048201336693,
+              "mfe_pct": 3.0854542869330093,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 720,
+              "ignored_entry_fragment_ms": 57980,
+              "measured_ms": 1793384705062,
+              "cost_scenarios_pct": {
+                "0.2": 0.04171761694866677,
+                "0.5": -0.2582823830513332,
+                "1": -0.7582823830513332
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
             }
           },
           "source_close_ms": 1793327400000,
           "observation_lag_ms": 602020,
           "interpretation": "early radar reference, not a trade entry",
           "notification_lag_ms": 6334,
-          "last_measure_attempt_ms": 1793342854271
+          "last_measure_attempt_ms": 1793384705062
         },
         "STONKUSDT:radar": {
           "symbol": "STONKUSDT",
@@ -1231968,9 +1232016,9 @@
       },
       "errors": [],
       "queue": {
-        "due": 43,
+        "due": 44,
         "attempted": 1,
-        "observed_ms": 1793383803668,
+        "observed_ms": 1793384705062,
         "unique_reads": 2
       },
       "summary": {
@@ -1231986,8 +1232034,8 @@
               "median_pct": -0.3887397602739706
             },
             "12": {
-              "known": 38,
-              "median_pct": -1.5108418738302487
+              "known": 39,
+              "median_pct": -1.3126383120623308
             },
             "24": {
               "known": 0,
