@@ -1038563,7 +1038563,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 9
         }
-      }
+      },
+      "finished_ms": 1793373574985,
+      "duration_ms": 29979
     }
   ],
   "radar_admissions": [
@@ -1039230,14 +1039232,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793369345237,
+            "endpoint_ms": 1793369400000,
+            "endpoint_price": 0.2522,
+            "return_pct": -1.1368090944727571,
+            "btc_excess_pct_points": -0.6769916968017209,
+            "mae_pct": -1.4896119168953281,
+            "mfe_pct": 0.03920031360249432,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 54763,
+            "measured_ms": 1793373574102,
+            "cost_scenarios_pct": {
+              "0.2": -1.336809094472757,
+              "0.5": -1.6368090944727571,
+              "1": -2.136809094472757
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793365200000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "JUPUSDT",
         "observation_lag_ms": 545237,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 5680
+        "notification_lag_ms": 5680,
+        "last_measure_attempt_ms": 1793373574102
       },
       "b60f1a31cdd9a50ae0cb468e:radar": {
         "symbol": "4USDT",
@@ -1039300,14 +1039326,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793369345237,
+            "endpoint_ms": 1793369400000,
+            "endpoint_price": 0.1185,
+            "return_pct": -0.2525252525252597,
+            "btc_excess_pct_points": 0.20729214514577654,
+            "mae_pct": -0.2525252525252597,
+            "mfe_pct": 0,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 54763,
+            "measured_ms": 1793373574102,
+            "cost_scenarios_pct": {
+              "0.2": -0.4525252525252597,
+              "0.5": -0.7525252525252597,
+              "1": -1.2525252525252597
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793365200000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "IBVMUSDT",
         "observation_lag_ms": 545237,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 5680
+        "notification_lag_ms": 5680,
+        "last_measure_attempt_ms": 1793373574102
       },
       "9db6a16d4fd3d61a3c519845:radar": {
         "symbol": "BRUSDT",
@@ -1039519,15 +1039569,15 @@
     },
     "errors": [],
     "queue": {
-      "due": 10,
+      "due": 8,
       "attempted": 2,
-      "observed_ms": 1793373270661,
-      "unique_reads": 4
+      "observed_ms": 1793373574102,
+      "unique_reads": 3
     },
     "summary": {
       "radar": {
-        "market_event_references": 15,
-        "unique_symbol_labels": 12,
+        "market_event_references": 18,
+        "unique_symbol_labels": 15,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
@@ -1039553,12 +1039603,12 @@
             }
           },
           "MEXC:SPOT:radar": {
-            "event_references": 3,
-            "first_per_symbol": 3,
+            "event_references": 5,
+            "first_per_symbol": 5,
             "hours": {
               "1": {
-                "known_first_symbols": 1,
-                "median_reference_return_pct": -0.07302468234262616
+                "known_first_symbols": 3,
+                "median_reference_return_pct": -0.2525252525252597
               },
               "4": {
                 "known_first_symbols": 0,
@@ -1039597,8 +1039647,8 @@
             }
           },
           "OKX:PERP:radar": {
-            "event_references": 2,
-            "first_per_symbol": 2,
+            "event_references": 3,
+            "first_per_symbol": 3,
             "hours": {
               "1": {
                 "known_first_symbols": 2,
