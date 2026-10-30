@@ -1219025,64 +1219025,7 @@
       "source_close_ms": 1793403900000
     }
   },
-  "pending": [
-    {
-      "id": "6af4fdd530fe96d2b7795d33",
-      "asset_id": "753f623d511cba099b7af500",
-      "key": "MEXC:PERP:WIFUSDT",
-      "symbol": "WIFUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793404166944,
-      "price": 0.17875,
-      "level": 0.1757,
-      "invalid": 0.17208756042373743,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1757,
-        "base_invalid": 0.17208756042373743,
-        "atr": 0.0014162638417504244,
-        "rvol": 4.15185835326807,
-        "close_position": 0.7058823529411726,
-        "breakout": true,
-        "bar_close_ms": 1793394900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5139920045688084,
-        "score": 5.857740706209242
-      },
-      "context": {
-        "atr": 0.0013365914181543738,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8099637046770969,
-        "btc_hour_pct": 0.3218982081695465,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:WIFUSDT",
-          "change_pct": -2.070765157083476,
-          "old_ms": 1793400471219,
-          "current_ms": 1793404165046,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793394900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WIFUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1253596,8 +1253539,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2d7f343824e13d094c4def105522279856070184",
-    "previous_success_ms": 1793403894405,
+    "previous_commit": "f69456f5d15f859f44a3916fda09de2853b9052e",
+    "previous_success_ms": 1793404177579,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
