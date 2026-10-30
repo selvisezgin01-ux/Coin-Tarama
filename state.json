@@ -1263341,104 +1263341,7 @@
     "OKX:SPOT:XLMUSDT": 1793340087304,
     "MEXC:PERP:UAIUSDT": 1793340988504
   },
-  "pending": [
-    {
-      "id": "c9884e3fbb628b71c229199e",
-      "asset_id": "b5ed7626db2fb05cf0d82722",
-      "key": "MEXC:PERP:UAIUSDT",
-      "symbol": "UAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793340988504,
-      "price": 0.27155,
-      "level": 0.2669,
-      "invalid": 0.25733698322402354,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2669,
-        "base_invalid": 0.25733698322402354,
-        "atr": 0.0044201118398431395,
-        "rvol": 2.848007444652074,
-        "close_position": 0.9814814814814733,
-        "breakout": true,
-        "bar_close_ms": 1793338200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7830045523520521,
-        "score": 4.829488926133547
-      },
-      "context": {
-        "atr": 0.004612428506452272,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.683291510844187,
-        "btc_hour_pct": 0.36760100719608335,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:UAIUSDT",
-          "change_pct": 5.156999049896527,
-          "old_ms": 1793337371057,
-          "current_ms": 1793340985904,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793338200000
-    },
-    {
-      "id": "58ee000da1cb4053791057ec",
-      "asset_id": "284954f28d4a5732fd0a3cc4",
-      "key": "MEXC:SPOT:REZUSDT",
-      "symbol": "REZUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793340988411,
-      "price": 0.0041165,
-      "level": 0.004104,
-      "invalid": 0.0037675763704551413,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004104,
-        "base_invalid": 0.0037675763704551413,
-        "atr": 5.6157530299055574e-05,
-        "rvol": 9.055114750887542,
-        "close_position": 0.9777777777777747,
-        "breakout": true,
-        "bar_close_ms": 1793340900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1779141104294455,
-        "score": 7.977777777777774
-      },
-      "context": {
-        "atr": 5.6157530299055574e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4331731039538775,
-        "btc_hour_pct": 0.3695309521302592,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:REZUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793340900000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1264167,6 +1264070,20 @@
       "phase": "cancelled",
       "observed_ms": 1793340087304,
       "delivered_ms": 1793340095794
+    },
+    {
+      "id": "c9884e3fbb628b71c229199e",
+      "asset_id": "b5ed7626db2fb05cf0d82722",
+      "phase": "cancelled",
+      "observed_ms": 1793340988504,
+      "delivered_ms": 1793340996376
+    },
+    {
+      "id": "58ee000da1cb4053791057ec",
+      "asset_id": "284954f28d4a5732fd0a3cc4",
+      "phase": "radar",
+      "observed_ms": 1793340988411,
+      "delivered_ms": 1793340996376
     }
   ],
   "runs": [
@@ -1273157,7 +1273074,8 @@
         "outcomes": {},
         "source_close_ms": 1793340900000,
         "observation_lag_ms": 88411,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7965
       }
     },
     "errors": [],
