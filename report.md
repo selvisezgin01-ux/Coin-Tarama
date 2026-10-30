@@ -94,7 +94,7 @@ Kimlik defteri: 2557 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | Nvidia `EvtC6mrRGQjoitubeGwk8LSirf1C2Rz8GjH7vxompump` | solana | 31.10.2026 02:26 | 219440.0 | Bekliyor |
+| 🟡 ERKEN RADAR | Nvidia `EvtC6mrRGQjoitubeGwk8LSirf1C2Rz8GjH7vxompump` | solana | 31.10.2026 02:26 | 219440.0 | Bayat/iptal — gönderilmedi |
 | 🟡 ERKEN RADAR | RUMP `0xdea7d89d05a13adcdf538a06f2aebf2655a984f3` | robinhood | 31.10.2026 02:23 | 152552.0 | Bayat/iptal — gönderilmedi |
 | 🟡 ERKEN RADAR | SAFU `0x450bb044c0e292342ce3e60bceee8baca328be47` | robinhood | 31.10.2026 02:22 | 85388.0 | [Issue #285](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/285) |
 | 🟡 ERKEN RADAR | TOKEN `0x7f478b25af4357008e81aa2bfc8122782f0da740` | bnb | 31.10.2026 01:30 | 323226.0 | [Issue #277](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/277) |
