@@ -1316202,7 +1316202,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793390836498,
+      "duration_ms": 28277
     }
   ],
   "radar_admissions": [
@@ -1319618,10 +1319620,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 2,
-      "attempted": 2,
-      "observed_ms": 1793390548221,
-      "unique_reads": 3
+      "due": 0,
+      "attempted": 0,
+      "observed_ms": 1793390836497,
+      "unique_reads": 0
     },
     "summary": {
       "radar": {
@@ -1341612,8 +1341614,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0974cea6dbe08ec3d935c8839bce499ad56cd22c",
-    "previous_success_ms": 1793390828780,
+    "previous_commit": "78fc7b98bb476e660672f6404fad4790c4b2bbff",
+    "previous_success_ms": 1793390836462,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
