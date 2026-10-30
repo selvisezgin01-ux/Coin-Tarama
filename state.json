@@ -27426,42 +27426,6 @@
         }
       ]
     },
-    "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b": {
-      "chain": "hyperevm",
-      "mint": "0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
-      "first_seen_ms": 1793308634185,
-      "pools": {
-        "0xf343cbb242c49fe796b533034ddfbcf8924e8bee": {
-          "created_ms": 1793307660000,
-          "first_seen_ms": 1793308634185
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793394001281,
-      "decision": {
-        "at_ms": 1793394001632,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "pool": "0xf343cbb242c49fe796b533034ddfbcf8924e8bee"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391321700,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "liquidity",
-            "market_cap_not_50k_500k"
-          ],
-          "pool": "0xf343cbb242c49fe796b533034ddfbcf8924e8bee"
-        }
-      ]
-    },
     "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
       "chain": "hyperevm",
       "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
@@ -128866,279 +128830,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 36441.0,
         "pool_age_minutes": 274.6478833333333
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b": {
-      "first_seen_ms": 1793391321700,
-      "observations": [
-        {
-          "ms": 1793391321698,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391381776,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391441633,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391501574,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391561587,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391621599,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391746614,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391813706,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391848688,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391908689,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793391968677,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392028772,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392088696,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392148690,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392180082,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392240135,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392300107,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392360102,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392420153,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392480118,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392540093,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392600150,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392660150,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392720137,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392780131,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392840139,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392900110,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793392960172,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393057831,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393101740,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393161659,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393221634,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393281698,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393341629,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393401644,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393461652,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393521628,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393581577,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393641612,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393701637,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393761612,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393821639,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393881652,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793393941617,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        },
-        {
-          "ms": 1793394001628,
-          "price": 5.166e-06,
-          "liquidity": 5185.04
-        }
-      ],
-      "latest": {
-        "chain": "hyperevm",
-        "mint": "0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
-        "pool": "0xf343cbb242c49fe796b533034ddfbcf8924e8bee",
-        "symbol": "NOCEX",
-        "dex": "prjx",
-        "price_usd": 5.166e-06,
-        "price_observed_ms": 1793394001628,
-        "observed_ms": 1793394001628,
-        "liquidity_usd": 5185.04,
-        "market_cap_usd": 5166.0,
-        "fdv_usd": 5166.0,
-        "pool_created_ms": 1793307660000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 5166.0,
-        "pool_age_minutes": 1439.0272
       },
       "activity": {
         "passed": false,
@@ -369205,7 +368896,8 @@
       "requests": {
         "api.github.com:ok": 1,
         "api.dexscreener.com:ok": 9
-      }
+      },
+      "finished_ms": 1793401312506
     }
   ],
   "archive": {
@@ -443287,8 +442979,8 @@
     }
   },
   "publication": {
-    "commit": "1e23cfe4f1a7a0072b9da1e728f986e0861e401e",
-    "success_ms": 1793401255780,
+    "commit": "801a26c77b35106eb87e27e8a2303e189558ae9d",
+    "success_ms": 1793401312491,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793401501451,
@@ -444162,6 +443854,15 @@
         "hyperevm:0xb52dcf9a4873187453028d0e6929c5c01586a9db"
       ],
       "count": 10,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "801a26c77b35106eb87e27e8a2303e189558ae9d",
+      "archived_ms": 1793401312504,
+      "keys": [
+        "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b"
+      ],
+      "count": 1,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
