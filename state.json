@@ -1129238,220 +1129238,7 @@
       "source_close_ms": 1793401200000
     }
   },
-  "pending": [
-    {
-      "id": "947d1b906f400eec7fced825",
-      "asset_id": "10662493de5d8588a4c70d39",
-      "key": "OKX:SPOT:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793401471383,
-      "price": 0.09432499999999999,
-      "level": 0.0948,
-      "invalid": 0.09246031632835604,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0948,
-        "base_invalid": 0.09246031632835604,
-        "atr": 0.0006645578109597652,
-        "rvol": 11.206449676224873,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793398500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.5558419243986386,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0007274219190145958,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.10333868269873925,
-        "btc_hour_pct": 0.31524798551711974,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793398500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a98523da569a26611b1b8554",
-      "asset_id": "f434d56b644a8bb771dcd910",
-      "key": "OKX:PERP:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793401465781,
-      "price": 0.0943,
-      "level": 0.09477,
-      "invalid": 0.09235497545710569,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09477,
-        "base_invalid": 0.09235497545710569,
-        "atr": 0.0007001636192953932,
-        "rvol": 2.4129108547145273,
-        "close_position": 0.9752066115702461,
-        "breakout": true,
-        "bar_close_ms": 1793398500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.6327100795185743,
-        "score": 4.388117466284774
-      },
-      "context": {
-        "atr": 0.0007500871346721087,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.11602566036752471,
-        "btc_hour_pct": 0.3068248971705989,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793398500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9c3ba37ff30594cc3effe751",
-      "asset_id": "1cec28af7767a9208dbb2156",
-      "key": "MEXC:SPOT:IOUSDT",
-      "symbol": "IOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793401469568,
-      "price": 0.137525,
-      "level": 0.13638,
-      "invalid": 0.13654278204231682,
-      "target": 0.14155231091536638,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13638,
-        "base_invalid": 0.1345627820423168,
-        "atr": 0.0009147863845545764,
-        "rvol": 6.9315460707069825,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793399400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8317385543942235,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.000867185598362404,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.111495239340221,
-        "btc_hour_pct": 0.3214023158706558,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.13654278204231682,
-        "target": 0.14155231091536638,
-        "risk_pct": 0.7142104764102455,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.14683,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.13715,
-        "entry_zone_high": 0.1375835927991812
-      },
-      "reason": null,
-      "source_close_ms": 1793401200000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "IOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2736287015c654812fcc02c7",
-      "asset_id": "ee4b2d886a399e32cdcab1b9",
-      "key": "MEXC:SPOT:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793401469568,
-      "price": 0.09437999999999999,
-      "level": 0.09549,
-      "invalid": 0.0927547081117227,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09549,
-        "base_invalid": 0.0927547081117227,
-        "atr": 0.000635279255181977,
-        "rvol": 2.7181412748790224,
-        "close_position": 0.8255813953488402,
-        "breakout": true,
-        "bar_close_ms": 1793399400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1106491845219066,
-        "score": 4.543722670227862
-      },
-      "context": {
-        "atr": 0.0006702809378530709,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.20486454703920742,
-        "btc_hour_pct": 0.3214023158706558,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793399400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1130717,6 +1130504,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793400872553
+    },
+    {
+      "id": "947d1b906f400eec7fced825",
+      "asset_id": "10662493de5d8588a4c70d39",
+      "key": "OKX:SPOT:POLUSDT",
+      "symbol": "POLUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793401471383,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793401479988
+    },
+    {
+      "id": "9c3ba37ff30594cc3effe751",
+      "asset_id": "1cec28af7767a9208dbb2156",
+      "key": "MEXC:SPOT:IOUSDT",
+      "symbol": "IOUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793401469568,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793401479988
     }
   ],
   "runs": [
@@ -1140731,7 +1140540,8 @@
         "entry_seq": 1,
         "cohort": "IOUSDT",
         "observation_lag_ms": 269568,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 10420
       }
     },
     "errors": [],
@@ -1162988,8 +1162798,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6a1c3850d54d446ca5bc6d21a9dbde12be4fb81b",
-    "previous_success_ms": 1793401190069,
+    "previous_commit": "1a5f0476132077e51238a26809e6b1cb9d19448d",
+    "previous_success_ms": 1793401478718,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
