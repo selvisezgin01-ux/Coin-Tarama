@@ -1460952,7 +1460952,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793361005734,
+      "duration_ms": 27369
     }
   ],
   "measurements": {
@@ -1466673,11 +1466675,43 @@
         "stop": 1.4904820232099412,
         "target": 1.6265891035801179,
         "risk_pct": 2.4687691344814455,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793360948825,
+            "endpoint_ms": 1793361000000,
+            "endpoint_price": 1.279994,
+            "return_pct": -16.242270368601176,
+            "btc_excess_pct_points": -16.014428888436317,
+            "mae_pct": -18.26404748038556,
+            "mfe_pct": 1.7785513771013228,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 51175,
+            "measured_ms": 1793361004538,
+            "cost_scenarios_pct": {
+              "0.2": -16.442270368601175,
+              "0.5": -16.742270368601176,
+              "1": -17.242270368601176
+            },
+            "barriers": {
+              "status": "stop_first",
+              "at_ms": 1793359320000,
+              "exit_price": 1.4904820232099412,
+              "net_r_scenarios": {
+                "0.2": -1.081012030329845,
+                "0.5": -1.2025300758246147,
+                "1": -1.4050601516492311
+              },
+              "hypothetical_not_fill": true
+            }
+          }
+        },
         "source_close_ms": 1793357100000,
         "observation_lag_ms": 248825,
         "interpretation": "hypothetical confirmed entry, not an order fill",
-        "notification_lag_ms": 6521
+        "notification_lag_ms": 6521,
+        "last_measure_attempt_ms": 1793361004538
       },
       "POLUSDT:radar": {
         "symbol": "POLUSDT",
@@ -1466693,11 +1466727,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793360946378,
+            "endpoint_ms": 1793361000000,
+            "endpoint_price": 0.09191,
+            "return_pct": 0.38774507126864144,
+            "btc_excess_pct_points": 0.6251780375312488,
+            "mae_pct": -0.2894435039047627,
+            "mfe_pct": 1.3052263666648578,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 53622,
+            "measured_ms": 1793361004538,
+            "cost_scenarios_pct": {
+              "0.2": 0.18774507126864143,
+              "0.5": -0.11225492873135856,
+              "1": -0.6122549287313586
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793357100000,
         "observation_lag_ms": 246378,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8968
+        "notification_lag_ms": 8968,
+        "last_measure_attempt_ms": 1793361004538
       },
       "MEYUSDT:radar": {
         "symbol": "MEYUSDT",
@@ -1466822,18 +1466880,18 @@
     },
     "errors": [],
     "queue": {
-      "due": 1,
-      "attempted": 1,
-      "observed_ms": 1793360698962,
-      "unique_reads": 2
+      "due": 3,
+      "attempted": 2,
+      "observed_ms": 1793361004538,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "unique_symbol_labels": 85,
+        "unique_symbol_labels": 86,
         "hours": {
           "1": {
-            "known": 79,
-            "median_pct": -0.04506534474990609
+            "known": 80,
+            "median_pct": -0.03808477190839765
           },
           "4": {
             "known": 66,
@@ -1466853,8 +1466911,8 @@
         "unique_symbol_labels": 4,
         "hours": {
           "1": {
-            "known": 3,
-            "median_pct": -0.8726625111309061
+            "known": 4,
+            "median_pct": -1.6028714680085543
           },
           "4": {
             "known": 3,
