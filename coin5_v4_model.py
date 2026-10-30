@@ -87,7 +87,7 @@ def radar(bs,cfg):
     if b['c']-ema[-1]>cfg['maximum_radar_ema_extension_atr']*a or hour>cfg['maximum_recent_gain_pct']:reasons.append('already_extended')
     return {'valid':not reasons,'reasons':reasons,'level':level,'base_invalid':min(x['l'] for x in bs[-9:-1])-.15*a,
         'atr':a,'rvol':rvol,'close_position':where,'breakout':breakout,'bar_close_ms':b['t']+900000,
-        'kind':'hacimli kÄ±rÄ±lÄ±m' if breakout else 'erken dÃ¶nÃ¼ÅŸ / hacimlenme','recent_hour_pct':hour,
+        'kind':'hacimli kırılım' if breakout else 'erken dönüş / hacimlenme','recent_hour_pct':hour,
         'score':min(rvol,6)+where+(1 if breakout else .5)}
 
 def context(series,btc):
@@ -99,7 +99,7 @@ def context(series,btc):
     if f:
         e=core.ema([b['c'] for b in f]);c['trend4h_support']=f[-1]['c']>=e[-1]
     else:c['trend4h_support']=None
-    if c['trend4h_support'] is False:c['support_warnings'].append('4s trend henÃ¼z teyitsiz')
+    if c['trend4h_support'] is False:c['support_warnings'].append('4s trend henüz teyitsiz')
     return c
 
 def oi_support(q,history):
@@ -133,20 +133,20 @@ def retest_transition(a,row,stamp,cfg):
     if row['quote']['price']<=a['invalid']:
         a.update(phase='cancelled',reason='destek kaybedildi');return 'cancelled'
     deadline=a.get('triggered_ms',a['created_ms'])+(cfg['trigger_watch_hours'] if a['phase']=='triggered' else cfg['setup_hours'])*3600000
-    if stamp>=deadline:a.update(phase='expired',reason='izleme sÃ¼resi doldu');return 'expired'
+    if stamp>=deadline:a.update(phase='expired',reason='izleme süresi doldu');return 'expired'
     if a['phase']=='triggered':return None
     bs=row['series']['15m'];level=a['level'];atr=a['atr']
     for i,b in enumerate(bs):
         close=b['t']+900000
         if close>stamp or close<=max(a['created_ms'],a.get('last_evaluated_close_ms',0)):continue
         a['last_evaluated_close_ms']=close
-        if b['l']<=a['invalid']:a.update(phase='cancelled',reason='sonraki kapalÄ± mum desteÄŸe dokundu');return 'cancelled'
+        if b['l']<=a['invalid']:a.update(phase='cancelled',reason='sonraki kapalı mum desteğe dokundu');return 'cancelled'
         if not a.get('break_close_ms'):
             med=median(x['v'] for x in bs[max(0,i-20):i]) if i>=20 else 0
             if med>0 and b['c']>level and b['v']>=cfg['radar_volume_ratio']*med and b['c']>b['o']:
                 a.update(break_close_ms=close,break_volume=b['v'])
             continue
-        if b['c']<level-.3*atr:a.update(phase='cancelled',reason='kÄ±rÄ±lÄ±m tutunamadÄ±');return 'cancelled'
+        if b['c']<level-.3*atr:a.update(phase='cancelled',reason='kırılım tutunamadı');return 'cancelled'
         if not a.get('retest_close_ms'):
             if close>a['break_close_ms'] and level-.3*atr<=b['l']<=level+.5*atr and b['c']>=level and b['v']<=a['break_volume']:
                 a.update(retest_close_ms=close,retest_low=b['l'],retest_high=b['h'])
@@ -202,9 +202,9 @@ def transition(a,row,stamp,cfg):
     if a['phase'] in ('cancelled','expired'):return None
     if a['phase']=='triggered':
         if row['quote']['price']<=a['invalid']:
-            a.update(phase='cancelled',reason='giriÅŸ geÃ§ersizliÄŸi kaybedildi');return 'cancelled'
+            a.update(phase='cancelled',reason='giriş geçersizliği kaybedildi');return 'cancelled'
         if stamp>=a['first_triggered_ms']+cfg['trigger_watch_hours']*3600000:
-            a.update(phase='expired',reason='giriÅŸ takip sÃ¼resi doldu');return 'expired'
+            a.update(phase='expired',reason='giriş takip süresi doldu');return 'expired'
         if len(a['entry_history'])>=cfg['maximum_entries_per_asset'] or stamp-a['triggered_ms']<cfg['reentry_minimum_minutes']*60000:return None
         p=continuation(a,row,stamp,cfg)
         if p:

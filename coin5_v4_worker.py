@@ -12,8 +12,18 @@ def restore():
         scan.cloud.git('fetch','--no-tags','origin','refs/heads/scanner-state-coin-tarama-5-v3')
         sha=scan.cloud.git('rev-parse','FETCH_HEAD').stdout.strip()
         old=json.loads(scan.cloud.git('show',sha+':state.json').stdout);s=model.migrate(old,sha,scan.now_ms())
-    if s['rules_fingerprint']!=model.fingerprint():raise ValueError('V4 rules changed without new experiment')
+    return validate_state(s)
+def validate_state(s):
+    current=model.fingerprint()
+    previous='9827746f05ad8df4bb7eaaebdfc768271ebd9fa18381eeaf5d93cc564abef469'
+    if s.get('version')=='coin-tarama-5-v4' and s.get('rules_fingerprint')==previous:
+        s.setdefault('presentation_migrations',[]).append({'from_fingerprint':previous,'to_fingerprint':current,
+            'observed_ms':scan.now_ms(),'reason':'Authorized Turkish display-text encoding correction; conditions unchanged',
+            'references_repriced':False})
+        s['rules_fingerprint']=current
+    if s.get('version')!='coin-tarama-5-v4' or s['rules_fingerprint']!=current:raise ValueError('Unapproved V4 rules/state change')
     return s
+
 def checkpoint(s):
     scan.render(s);scan.cloud.save(scan.STATE,s);scan.cloud.push_state()
 def worker(minutes,channel):

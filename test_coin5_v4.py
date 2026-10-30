@@ -203,6 +203,20 @@ class TrendAndNotification(unittest.TestCase):
         self.assertFalse(p['title'].startswith('🟢🎯'));self.assertIn('yeni giriş teyidi değildir',p['body'])
 
 class PreservationAndStudy(unittest.TestCase):
+    def test_approved_text_fix_retains_all_live_references(self):
+        import coin5_v4_worker as worker
+        s=m.new_state();s['rules_fingerprint']='9827746f05ad8df4bb7eaaebdfc768271ebd9fa18381eeaf5d93cc564abef469'
+        s['assets']={'a':{'initial_price':.0013615,'created_ms':STAMP}}
+        s['measurements']['cases']={'x':{'entry_price':123.,'stop':120.,'outcomes':{}}}
+        s['delivery']=[{'id':'already-sent'}];old=deepcopy(s)
+        worker.validate_state(s)
+        for k in ('assets','measurements','delivery','pending','runs'):self.assertEqual(old[k],s[k])
+        self.assertEqual(s['rules_fingerprint'],m.fingerprint());self.assertEqual(len(s['presentation_migrations']),1)
+        worker.validate_state(s);self.assertEqual(len(s['presentation_migrations']),1)
+    def test_unapproved_changed_state_is_not_migrated(self):
+        import coin5_v4_worker as worker
+        s=m.new_state();s['rules_fingerprint']='unapproved'
+        with self.assertRaises(ValueError):worker.validate_state(s)
     def test_migration_preserves_legacy_and_does_not_replay_messages(self):
         old=previous.new_state();old['assets']={'a':{'key':'OKX:SPOT:SOPHUSDT','radar':{'bar_close_ms':STAMP}}}
         old['measurements']['cases']={'x':{'entry_price':.00123}};old['delivery']=[{'id':'sent'}];old['pending']=[{'id':'unsent'}]
