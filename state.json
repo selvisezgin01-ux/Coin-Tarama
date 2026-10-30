@@ -1316973,7 +1316973,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793344947582,
+      "duration_ms": 20092
     }
   ],
   "measurements": {
@@ -1319720,13 +1319722,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793344834853,
+            "endpoint_ms": 1793344860000,
+            "endpoint_price": 0.025767,
+            "return_pct": 1.8297502371166674,
+            "btc_excess_pct_points": 0.4734553267025543,
+            "mae_pct": -0.11065444198545826,
+            "mfe_pct": 2.5015807777426513,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 25147,
+            "measured_ms": 1793344946406,
+            "cost_scenarios_pct": {
+              "0.2": 1.6297502371166674,
+              "0.5": 1.3297502371166674,
+              "1": 0.8297502371166674
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793330100000,
         "observation_lag_ms": 334853,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 6922,
-        "last_measure_attempt_ms": 1793334342949
+        "last_measure_attempt_ms": 1793344946406
       },
       "FOGOUSDT:triggered": {
         "symbol": "FOGOUSDT",
@@ -1320498,11 +1320522,35 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793344883251,
+            "endpoint_ms": 1793344920000,
+            "endpoint_price": 0.007779,
+            "return_pct": -0.866573212692745,
+            "btc_excess_pct_points": -0.6465927807749683,
+            "mae_pct": -0.9940104498534441,
+            "mfe_pct": 0.1784121320249854,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 36749,
+            "measured_ms": 1793344946406,
+            "cost_scenarios_pct": {
+              "0.2": -1.066573212692745,
+              "0.5": -1.366573212692745,
+              "1": -1.866573212692745
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793340900000,
         "observation_lag_ms": 383251,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8065
+        "notification_lag_ms": 8065,
+        "last_measure_attempt_ms": 1793344946406
       },
       "FARTCOINUSDT:triggered": {
         "symbol": "FARTCOINUSDT",
@@ -1320627,22 +1320675,22 @@
     },
     "errors": [],
     "queue": {
-      "due": 1,
-      "attempted": 1,
-      "observed_ms": 1793344653460,
-      "unique_reads": 2
+      "due": 2,
+      "attempted": 2,
+      "observed_ms": 1793344946406,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
         "unique_symbol_labels": 64,
         "hours": {
           "1": {
-            "known": 58,
-            "median_pct": -0.03808477190839765
+            "known": 59,
+            "median_pct": -0.04506534474990609
           },
           "4": {
-            "known": 41,
-            "median_pct": -0.46486679778295903
+            "known": 42,
+            "median_pct": -0.45282299081527144
           },
           "12": {
             "known": 0,
