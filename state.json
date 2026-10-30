@@ -1182981,106 +1182981,7 @@
     "MEXC:PERP:ORDERUSDT": 1793333739018,
     "MEXC:SPOT:STONKUSDT": 1793333738313
   },
-  "pending": [
-    {
-      "id": "c7dc6006c53dccf480373af2",
-      "asset_id": "ee837c89a42a29cc41361e5e",
-      "key": "MEXC:PERP:ORDERUSDT",
-      "symbol": "ORDERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793333739018,
-      "price": 0.03544,
-      "level": 0.03503,
-      "invalid": 0.032941710316809675,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03503,
-        "base_invalid": 0.032941710316809675,
-        "atr": 0.0005885978879354959,
-        "rvol": 3.4490750889286668,
-        "close_position": 0.9146341463414628,
-        "breakout": true,
-        "bar_close_ms": 1793327400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9124891335844607,
-        "score": 5.36370923527013
-      },
-      "context": {
-        "atr": 0.0006234796464878685,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.248591598271609,
-        "btc_hour_pct": 1.051630427759509,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ORDERUSDT",
-          "change_pct": -3.5244790081089272,
-          "old_ms": 1793330123188,
-          "current_ms": 1793333734462,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793327400000
-    },
-    {
-      "id": "ad3d636e43c5132e7575742a",
-      "asset_id": "277d7e72e540e828129c1b3b",
-      "key": "MEXC:SPOT:STONKUSDT",
-      "symbol": "STONKUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793333738313,
-      "price": 0.136439,
-      "level": 0.131789,
-      "invalid": 0.1177892766422334,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.131789,
-        "base_invalid": 0.1177892766422334,
-        "atr": 0.0029514890517773804,
-        "rvol": 4.844194637857392,
-        "close_position": 0.8658995352954202,
-        "breakout": true,
-        "bar_close_ms": 1793328300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.801176820394049,
-        "score": 6.710094173152812
-      },
-      "context": {
-        "atr": 0.002535705085645604,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.1221574486079975,
-        "btc_hour_pct": 1.031240082925966,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STONKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793328300000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1183662,6 +1183563,20 @@
       "phase": "radar",
       "observed_ms": 1793333435632,
       "delivered_ms": 1793333442322
+    },
+    {
+      "id": "c7dc6006c53dccf480373af2",
+      "asset_id": "ee837c89a42a29cc41361e5e",
+      "phase": "expired",
+      "observed_ms": 1793333739018,
+      "delivered_ms": 1793333745579
+    },
+    {
+      "id": "ad3d636e43c5132e7575742a",
+      "asset_id": "277d7e72e540e828129c1b3b",
+      "phase": "expired",
+      "observed_ms": 1793333738313,
+      "delivered_ms": 1793333745579
     }
   ],
   "runs": [
