@@ -1465384,7 +1465384,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793360699497,
+      "duration_ms": 21132
     }
   ],
   "measurements": {
@@ -1470489,13 +1470491,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793360536887,
+            "endpoint_ms": 1793360580000,
+            "endpoint_price": 0.0001061,
+            "return_pct": 1.5797032072762285,
+            "btc_excess_pct_points": 2.5774921928747863,
+            "mae_pct": -1.483963618956441,
+            "mfe_pct": 2.2498803255146083,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 43113,
+            "measured_ms": 1793360698962,
+            "cost_scenarios_pct": {
+              "0.2": 1.3797032072762285,
+              "0.5": 1.0797032072762285,
+              "1": 0.5797032072762285
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793345400000,
         "observation_lag_ms": 736887,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 8160,
-        "last_measure_attempt_ms": 1793349813156
+        "last_measure_attempt_ms": 1793360698962
       },
       "SYRUPUSDT:radar": {
         "symbol": "SYRUPUSDT",
@@ -1471212,10 +1471236,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 0,
-      "attempted": 0,
-      "observed_ms": 1793360358444,
-      "unique_reads": 0
+      "due": 1,
+      "attempted": 1,
+      "observed_ms": 1793360698962,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
@@ -1471226,8 +1471250,8 @@
             "median_pct": -0.04506534474990609
           },
           "4": {
-            "known": 65,
-            "median_pct": -0.33670033670035737
+            "known": 66,
+            "median_pct": -0.31908438988086374
           },
           "12": {
             "known": 24,
