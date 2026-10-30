@@ -185,5 +185,11 @@ class OperationalTests(unittest.TestCase):
     def test_meme_publication_cannot_target_coin5(self):
         import meme_v7_persistence as persistence
         self.assertEqual(persistence.BRANCH,'scanner-state-meme-v7')
+    def test_radar_endpoint_never_mix_pools(self):
+        s=v.new_state();a=asset();v.reference(s,a,'early_radar',{})
+        other=asset(pool='E'*40,price_usd=200,price_observed_ms=NOW+900000)
+        v.measure_references(s,{'latest':other},CFG)
+        out=s['entries'][m.key(a)]['references']['early_radar']['outcomes']['15']
+        self.assertIsNone(out['return_pct']);self.assertEqual(out['status'],'original_pool_quote_unknown')
 
 if __name__=='__main__':unittest.main()

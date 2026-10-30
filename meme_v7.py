@@ -39,7 +39,22 @@ def bind():
     if os.environ.setdefault('SCANNER_STATE_BRANCH',BRANCH)!=BRANCH:raise ValueError('Independent V7 branch required')
     cloud.OUT=OUT;cloud.STATE=STATE;cloud.fingerprint=fingerprint;cloud.new_state=new_state
 def restore():
-    bind();cloud.pull_state();s=json.loads(STATE.read_text(encoding='utf-8'))
+    bind()
+    # A pre-entry bootstrap measurement fix keeps all original radar references.
+    prior_fp='6d60299ed5430c49ea33bfc25f6915594e599935b95e641f2e5f51bebe4c5915'
+    original=cloud.fingerprint
+    def compatible_fingerprint():return prior_fp
+    try:cloud.pull_state()
+    except RuntimeError as exc:
+        if 'Stored state uses different rules' not in str(exc):raise
+        cloud.fingerprint=compatible_fingerprint
+        try:cloud.pull_state()
+        finally:cloud.fingerprint=original
+    s=json.loads(STATE.read_text(encoding='utf-8'))
+    if s.get('rules_fingerprint')==prior_fp:
+        if s.get('cases') or any(e['phase']!='early_radar' for e in s['events'].values()):raise ValueError('Bootstrap fix requires no actual entries')
+        s['rules_fingerprint']=fingerprint();s.setdefault('bootstrap_migrations',[]).append({'from':prior_fp,'to':fingerprint(),
+            'observed_ms':now_ms(),'reason':'same-pool radar endpoint measurement only; signal conditions unchanged','references_repriced':False})
     if not (OUT/'parent.txt').read_text(encoding='ascii').strip():
         cloud.git('fetch','--no-tags','origin','refs/heads/'+ARCHIVE_BRANCH);sha=cloud.git('rev-parse','FETCH_HEAD').stdout.strip()
         s=seed(json.loads(cloud.git('show',sha+':state.json').stdout),sha)
@@ -89,6 +104,18 @@ def reference(s,a,phase,details):
     ref=e['references'].setdefault(phase,{'observed_ms':a['price_observed_ms'],'price':a['price_usd'],'pool':a['pool'],
         'stage':phase,'outcomes':{},'experiment':'meme-v7','details':deepcopy(details)})
     return ref
+
+def measure_references(s,rec,cfg):
+    a=rec['latest'];entry=s['entries'].get(model.key(a));stamp=a['price_observed_ms']
+    if not entry:return
+    for ref in entry['references'].values():
+        for h in cfg['measurement']['horizons_minutes']:
+            target=ref['observed_ms']+h*60000
+            if str(h) in ref['outcomes'] or stamp<target:continue
+            lag=stamp-target;matching_pool=a['pool']==ref['pool'];valid=matching_pool and lag<=cfg['measurement']['max_endpoint_observation_delay_minutes']*60000
+            ref['outcomes'][str(h)]={'observed_ms':stamp,'delay_ms':lag,'pool':a['pool'],'original_pool':ref['pool'],
+                'return_pct':(a['price_usd']/ref['price']-1)*100 if valid else None,
+                'status':'actual_same_pool_observation' if valid else ('original_pool_quote_unknown' if not matching_pool else 'missed_target_window')}
 
 def handle_market(s,a,rec,cfg,stamp):
     k=model.key(a);gate=rec['market'];act=rec['activity'];sec=rec.get('security',{})
@@ -192,7 +219,7 @@ def scan(s,cfg):
                 s['ledger'][chain+':'+mint].update(status='quote_unknown',reasons=['no_exact_token_pool_quote'])
         except Exception as exc:errors.append(chain+': '+str(exc));groups[chain]={'requested_quotes':len(requested),'error':str(exc)}
     for a in quotes:
-        rec=remember(s,a,cfg,now_ms());legacy.measure_entries(s,rec,cfg);handle_market(s,a,rec,cfg,now_ms())
+        rec=remember(s,a,cfg,now_ms());measure_references(s,rec,cfg);handle_market(s,a,rec,cfg,now_ms())
     targets=[r for r in s['assets'].values() if r.get('market',{}).get('passed') and 0<=now_ms()-r['latest']['price_observed_ms']<=120000 and not r.get('dump_disqualified')]
     targets.sort(key=lambda r:(0 if model.key(r['latest']) in s['receipts'].get('entry_keys',[]) else 1,r.get('last_candle_attempt_ms',0),r['first_seen_ms']))
     evaluated=0
