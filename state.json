@@ -1254416,102 +1254416,7 @@
     "MEXC:SPOT:PIPPINUSDT": 1793336489099,
     "OKX:PERP:OPGUSDT": 1793338286627
   },
-  "pending": [
-    {
-      "id": "d0f2caf9204bbaf5741a9152",
-      "asset_id": "0e87e1833c49140349e020d3",
-      "key": "OKX:SPOT:GRASSUSDT",
-      "symbol": "GRASSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793339481318,
-      "price": 0.59555,
-      "level": 0.5795,
-      "invalid": 0.5589645422297933,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5795,
-        "base_invalid": 0.5589645422297933,
-        "atr": 0.008236385134711645,
-        "rvol": 26.411364704144805,
-        "close_position": 0.9813664596273313,
-        "breakout": true,
-        "bar_close_ms": 1793339100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.010790114862516,
-        "score": 7.981366459627331
-      },
-      "context": {
-        "atr": 0.008236385134711645,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.7994407519048341,
-        "btc_hour_pct": 0.0538191115372344,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRASSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793339100000
-    },
-    {
-      "id": "a0b6c577ad645553070edd79",
-      "asset_id": "10d34eb06c781c812accf91a",
-      "key": "OKX:PERP:UBUSDT",
-      "symbol": "UBUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793339484774,
-      "price": 0.111685,
-      "level": 0.11047,
-      "invalid": 0.10507055676603447,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11047,
-        "base_invalid": 0.10507055676603447,
-        "atr": 0.0012629548931036064,
-        "rvol": 4.794220507777982,
-        "close_position": 0.859060402684563,
-        "breakout": true,
-        "bar_close_ms": 1793339100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.9723983588213274,
-        "score": 6.653280910462545
-      },
-      "context": {
-        "atr": 0.0012629548931036064,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.0160081538079586,
-        "btc_hour_pct": 0.03196926858148874,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:UBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793339100000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1255212,6 +1255117,20 @@
       "phase": "radar",
       "observed_ms": 1793338882628,
       "delivered_ms": 1793338889210
+    },
+    {
+      "id": "d0f2caf9204bbaf5741a9152",
+      "asset_id": "0e87e1833c49140349e020d3",
+      "phase": "radar",
+      "observed_ms": 1793339481318,
+      "delivered_ms": 1793339491208
+    },
+    {
+      "id": "a0b6c577ad645553070edd79",
+      "asset_id": "10d34eb06c781c812accf91a",
+      "phase": "radar",
+      "observed_ms": 1793339484774,
+      "delivered_ms": 1793339491208
     }
   ],
   "runs": [
@@ -1263848,7 +1263767,8 @@
         "outcomes": {},
         "source_close_ms": 1793339100000,
         "observation_lag_ms": 381318,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9890
       },
       "UBUSDT:radar": {
         "symbol": "UBUSDT",
@@ -1263867,7 +1263787,8 @@
         "outcomes": {},
         "source_close_ms": 1793339100000,
         "observation_lag_ms": 384774,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6434
       }
     },
     "errors": [],
