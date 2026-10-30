@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 125
     env:
       PYTHONUTF8: '1'
-      SCANNER_STATE_BRANCH: scanner-state-1-coin
+      SCANNER_STATE_BRANCH: scanner-state-1-coin-v2
       ONE_COIN_SESSION_MINUTES: ${{ inputs.session_minutes || '110' }}
     steps:
       - uses: actions/checkout@v7
@@ -36,18 +36,18 @@ jobs:
           cache: pip
       - name: Install existing runtime dependencies
         run: python -m pip install -r requirements.txt
-      - name: Validate mint identity, transfers, cursor and notification isolation
-        run: python -m unittest test_one_coin -q
+      - name: Validate meaningful swaps, quiet accumulation, holders and migration
+        run: python -m unittest test_one_coin_v2 -q
       - name: Run independent five-minute 1 coin session
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
-        run: python -u one_coin_worker.py --minutes "$ONE_COIN_SESSION_MINUTES" --channel github_issue
+        run: python -u one_coin_v2_worker.py --minutes "$ONE_COIN_SESSION_MINUTES" --channel github_issue
       - name: Preserve observation evidence
         if: always()
         uses: actions/upload-artifact@v7
         with:
           name: one-coin-${{ github.run_id }}-${{ github.run_attempt }}
-          path: cloud_output_1_coin/
+          path: cloud_output_1_coin_v2/
           retention-days: 14
           if-no-files-found: ignore
