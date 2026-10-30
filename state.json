@@ -1051311,7 +1051311,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793320486243,
+      "duration_ms": 25711
     }
   ],
   "measurements": {
@@ -1051748,13 +1051750,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793320417807,
+            "endpoint_ms": 1793320440000,
+            "endpoint_price": 8.612,
+            "return_pct": -12.404007526827032,
+            "btc_excess_pct_points": -8.497196663825811,
+            "mae_pct": -14.4586278797742,
+            "mfe_pct": 1.001881706758878,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 22193,
+            "measured_ms": 1793320483768,
+            "cost_scenarios_pct": {
+              "0.2": -12.604007526827031,
+              "0.5": -12.904007526827032,
+              "1": -13.404007526827032
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793305800000,
         "observation_lag_ms": 217807,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 6270,
-        "last_measure_attempt_ms": 1793309649644
+        "last_measure_attempt_ms": 1793320483768
       },
       "SNDKUSDT:radar": {
         "symbol": "SNDKUSDT",
@@ -1051792,13 +1051816,35 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793320418489,
+            "endpoint_ms": 1793320440000,
+            "endpoint_price": 1283.1,
+            "return_pct": -6.298608829006458,
+            "btc_excess_pct_points": -2.389437429083696,
+            "mae_pct": -7.401321795012228,
+            "mfe_pct": 0.5951728922481525,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 21511,
+            "measured_ms": 1793320483768,
+            "cost_scenarios_pct": {
+              "0.2": -6.498608829006458,
+              "0.5": -6.798608829006458,
+              "1": -7.298608829006458
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793305800000,
         "observation_lag_ms": 218489,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 5588,
-        "last_measure_attempt_ms": 1793309649644
+        "last_measure_attempt_ms": 1793320483768
       },
       "SNXXUSDT:radar": {
         "symbol": "SNXXUSDT",
@@ -1052587,10 +1052633,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 0,
-      "attempted": 0,
-      "observed_ms": 1793320182853,
-      "unique_reads": 0
+      "due": 3,
+      "attempted": 2,
+      "observed_ms": 1793320483768,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1052601,8 +1052647,8 @@
             "median_pct": -1.8232774390879392
           },
           "4": {
-            "known": 6,
-            "median_pct": -6.116203241853518
+            "known": 8,
+            "median_pct": -6.683139000969396
           },
           "12": {
             "known": 0,
