@@ -1134042,55 +1134042,7 @@
     "OKX:SPOT:XUVXYUSDT": 1793329238978,
     "MEXC:SPOT:PEPEUSDT": 1793329241065
   },
-  "pending": [
-    {
-      "id": "5efa1b08549a793402a5e215",
-      "asset_id": "78933ae4feb37d3b641a9582",
-      "key": "OKX:SPOT:EDGEUSDT",
-      "symbol": "EDGEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793329832853,
-      "price": 0.33135000000000003,
-      "level": 0.3279,
-      "invalid": 0.3115370971486127,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3279,
-        "base_invalid": 0.3115370971486127,
-        "atr": 0.005086019009248853,
-        "rvol": 3.936914210124302,
-        "close_position": 0.9375000000000066,
-        "breakout": true,
-        "bar_close_ms": 1793329200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.204524033930256,
-        "score": 5.874414210124309
-      },
-      "context": {
-        "atr": 0.005086019009248853,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.4417672818866976,
-        "btc_hour_pct": 0.7627567520435585,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:EDGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793329200000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1134588,6 +1134540,13 @@
       "phase": "cancelled",
       "observed_ms": 1793329241065,
       "delivered_ms": 1793329247566
+    },
+    {
+      "id": "5efa1b08549a793402a5e215",
+      "asset_id": "78933ae4feb37d3b641a9582",
+      "phase": "radar",
+      "observed_ms": 1793329832853,
+      "delivered_ms": 1793329841457
     }
   ],
   "runs": [
@@ -1140906,7 +1140865,8 @@
         "outcomes": {},
         "source_close_ms": 1793329200000,
         "observation_lag_ms": 632853,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8604
       }
     },
     "errors": [],
