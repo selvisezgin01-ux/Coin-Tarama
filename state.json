@@ -1213386,102 +1213386,7 @@
     "MEXC:SPOT:EVAAUSDT": 1793334637802,
     "OKX:SPOT:BOMEUSDT": 1793335587205
   },
-  "pending": [
-    {
-      "id": "9f3db84c52cfca8d1eec10fe",
-      "asset_id": "7eb378f8ab1d0bb1d6fc302f",
-      "key": "OKX:SPOT:BOMEUSDT",
-      "symbol": "BOMEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793335587205,
-      "price": 0.0006181,
-      "level": 0.0006164,
-      "invalid": 0.0005762523655996296,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0006164,
-        "base_invalid": 0.0005762523655996296,
-        "atr": 8.317562669135785e-06,
-        "rvol": 2.9193088026701646,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793333700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.5355227882037488,
-        "score": 4.919308802670164
-      },
-      "context": {
-        "atr": 7.809748719244838e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.531410070331863,
-        "btc_hour_pct": 1.0322140681788161,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BOMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793333700000
-    },
-    {
-      "id": "b387bc903bec5ad74a6ad5b7",
-      "asset_id": "c9a24f42e81027429df47e08",
-      "key": "MEXC:SPOT:MONUSDT",
-      "symbol": "MONUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793335591416,
-      "price": 0.019865,
-      "level": 0.01961,
-      "invalid": 0.018827925667094333,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01961,
-        "base_invalid": 0.018827925667094333,
-        "atr": 0.00021382888603777519,
-        "rvol": 3.6399457837972187,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793335500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.957753735188028,
-        "score": 5.639945783797218
-      },
-      "context": {
-        "atr": 0.00021382888603777519,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.0904530387671594,
-        "btc_hour_pct": 1.031240082925966,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793335500000
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "063dcaadcbe5c9633d6b101b",
@@ -1214112,6 +1214017,20 @@
       "phase": "radar",
       "observed_ms": 1793335282432,
       "delivered_ms": 1793335289528
+    },
+    {
+      "id": "9f3db84c52cfca8d1eec10fe",
+      "asset_id": "7eb378f8ab1d0bb1d6fc302f",
+      "phase": "cancelled",
+      "observed_ms": 1793335587205,
+      "delivered_ms": 1793335597543
+    },
+    {
+      "id": "b387bc903bec5ad74a6ad5b7",
+      "asset_id": "c9a24f42e81027429df47e08",
+      "phase": "radar",
+      "observed_ms": 1793335591416,
+      "delivered_ms": 1793335597543
     }
   ],
   "runs": [
@@ -1221802,7 +1221721,8 @@
         "outcomes": {},
         "source_close_ms": 1793335500000,
         "observation_lag_ms": 91416,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 6127
       }
     },
     "errors": [],
