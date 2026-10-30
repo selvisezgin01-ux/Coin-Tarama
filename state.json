@@ -906438,7 +906438,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793374169595,
+      "duration_ms": 24589
     }
   ],
   "radar_admissions": [
@@ -907266,14 +907268,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793372924683,
+            "endpoint_ms": 1793372940000,
+            "endpoint_price": 0.4808,
+            "return_pct": -1.1513157894736836,
+            "btc_excess_pct_points": -1.983609270198683,
+            "mae_pct": -1.398026315789469,
+            "mfe_pct": 0.04111842105263275,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 15317,
+            "measured_ms": 1793374168480,
+            "cost_scenarios_pct": {
+              "0.2": -1.3513157894736836,
+              "0.5": -1.6513157894736836,
+              "1": -2.1513157894736836
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793368800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "BRUSDT",
         "observation_lag_ms": 524683,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 6132
+        "notification_lag_ms": 6132,
+        "last_measure_attempt_ms": 1793374168480
       },
       "a0b1278f8a75c4888bf4423a:radar": {
         "symbol": "HUMAUSDT",
@@ -907336,14 +907362,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793372923799,
+            "endpoint_ms": 1793372940000,
+            "endpoint_price": 0.11201,
+            "return_pct": 1.4032228861126095,
+            "btc_excess_pct_points": 0.5889391849694725,
+            "mae_pct": -1.5028064457722312,
+            "mfe_pct": 1.4032228861126095,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 16201,
+            "measured_ms": 1793374168480,
+            "cost_scenarios_pct": {
+              "0.2": 1.2032228861126095,
+              "0.5": 0.9032228861126095,
+              "1": 0.4032228861126095
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793368800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ARKMUSDT",
         "observation_lag_ms": 523799,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 7016
+        "notification_lag_ms": 7016,
+        "last_measure_attempt_ms": 1793374168480
       },
       "c0263c4b86af0541b1fd158a:radar": {
         "symbol": "PROVEUSDT",
@@ -907600,14 +907650,14 @@
     },
     "errors": [],
     "queue": {
-      "due": 6,
-      "attempted": 1,
-      "observed_ms": 1793373871118,
-      "unique_reads": 2
+      "due": 5,
+      "attempted": 2,
+      "observed_ms": 1793374168480,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 22,
+        "market_event_references": 23,
         "unique_symbol_labels": 18,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
@@ -907616,8 +907666,8 @@
             "first_per_symbol": 9,
             "hours": {
               "1": {
-                "known_first_symbols": 3,
-                "median_reference_return_pct": 0.029171528588101125
+                "known_first_symbols": 4,
+                "median_reference_return_pct": 0.30900904105193305
               },
               "4": {
                 "known_first_symbols": 0,
@@ -907656,12 +907706,12 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 4,
-            "first_per_symbol": 4,
+            "event_references": 5,
+            "first_per_symbol": 5,
             "hours": {
               "1": {
-                "known_first_symbols": 2,
-                "median_reference_return_pct": -1.175019784781739
+                "known_first_symbols": 3,
+                "median_reference_return_pct": -1.1513157894736836
               },
               "4": {
                 "known_first_symbols": 0,
