@@ -196,18 +196,16 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793350514723,
-        "feature_cutoff_ms": 1793347200000,
+        "observed_ms": 1793364928476,
+        "feature_cutoff_ms": 1793361600000,
         "universe_count": 462,
-        "prefilter_count": 69,
-        "analyzed_count": 60,
+        "prefilter_count": 47,
+        "analyzed_count": 39,
         "candidates": []
       }
     },
     "MEXC": {
-      "active": [
-        "XRBUSDT"
-      ],
+      "active": [],
       "last_alert": {
         "GRASSUSDT": 1793133773397,
         "GBCKUSDT": 1792959544552,
@@ -382,53 +380,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793350557741,
-        "feature_cutoff_ms": 1793347200000,
+        "observed_ms": 1793364965190,
+        "feature_cutoff_ms": 1793361600000,
         "universe_count": 1247,
-        "prefilter_count": 200,
-        "analyzed_count": 196,
-        "candidates": [
-          {
-            "exchange": "MEXC",
-            "symbol": "XRBUSDT",
-            "observed_ms": 1793350557741,
-            "feature_cutoff_ms": 1793347200000,
-            "mid_price": 1.6517499999999998,
-            "spread_pct": 0.7083396397759979,
-            "return24_pct": 2.7050448777468317,
-            "relative24_pct_points": 4.820872379272457,
-            "quote_volume24": 139541.5313,
-            "liquidity_band": "main",
-            "breakout_level": 1.6449,
-            "breakout_open_ms": 1793332800000.0,
-            "breakout_volume_ratio": 2.0027886799445302,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 1.5605056321297357,
-            "atr": 0.04717747148105737,
-            "close": 1.6592,
-            "paper_controls": [
-              {
-                "symbol": "HGPTUSDT",
-                "entry_price": 0.0014529500000000002
-              },
-              {
-                "symbol": "VTHOUSDT",
-                "entry_price": 0.00056945
-              },
-              {
-                "symbol": "SANDUSDT",
-                "entry_price": 0.04632
-              }
-            ],
-            "paper_btc_price": 78041.715
-          }
-        ]
+        "prefilter_count": 160,
+        "analyzed_count": 151,
+        "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793350557805,
+  "updated_ms": 1793364965249,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -6886,6 +6848,17 @@
             "control_excess_pct_points": -8.861044881530688,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793350620490,
+            "endpoint_ms": 1793350680000,
+            "endpoint_delay_ms": 59510,
+            "endpoint_price": 0.06643,
+            "return_pct": -15.413509900044552,
+            "btc_excess_pct_points": -11.178722810811225,
+            "control_excess_pct_points": -7.356387192005064,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -6939,6 +6912,17 @@
             "return_pct": -0.8119330353600795,
             "btc_excess_pct_points": 0.9291757833121195,
             "control_excess_pct_points": 3.0250311248647965,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793350620490,
+            "endpoint_ms": 1793350680000,
+            "endpoint_delay_ms": 59510,
+            "endpoint_price": 0.00182,
+            "return_pct": -3.7317182830393203,
+            "btc_excess_pct_points": 0.503068806194007,
+            "control_excess_pct_points": 1.7893133632123637,
             "complete": true,
             "controls_count": 3
           }
@@ -6996,6 +6980,17 @@
             "control_excess_pct_points": -3.221650930489306,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793364939689,
+            "endpoint_ms": 1793364960000,
+            "endpoint_delay_ms": 20311,
+            "endpoint_price": 700.09,
+            "return_pct": -7.378350488185637,
+            "btc_excess_pct_points": -3.109769868139523,
+            "control_excess_pct_points": -4.089508125802322,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -7050,6 +7045,17 @@
             "btc_excess_pct_points": 2.709109741711857,
             "control_excess_pct_points": 2.3914140101511494,
             "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793364939689,
+            "endpoint_ms": 1793364960000,
+            "endpoint_delay_ms": 20311,
+            "endpoint_price": null,
+            "return_pct": null,
+            "btc_excess_pct_points": null,
+            "control_excess_pct_points": null,
+            "complete": false,
             "controls_count": 3
           }
         }
@@ -7106,6 +7112,17 @@
             "control_excess_pct_points": 0.4532751378250044,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793364939689,
+            "endpoint_ms": 1793364960000,
+            "endpoint_delay_ms": 20311,
+            "endpoint_price": 0.0003551,
+            "return_pct": -7.489904910772438,
+            "btc_excess_pct_points": -3.221324290726324,
+            "control_excess_pct_points": -0.3000552867122863,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -7159,6 +7176,17 @@
             "return_pct": -1.008064516129037,
             "btc_excess_pct_points": -0.0540378925044549,
             "control_excess_pct_points": -0.1937322685720111,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793364939689,
+            "endpoint_ms": 1793364960000,
+            "endpoint_delay_ms": 20311,
+            "endpoint_price": 4.825e-06,
+            "return_pct": -2.7217741935483764,
+            "btc_excess_pct_points": 1.5468064264977377,
+            "control_excess_pct_points": 2.082786067037956,
             "complete": true,
             "controls_count": 3
           }
@@ -9625,6 +9653,17 @@
             "control_excess_pct_points": -0.5060495769363293,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793350570724,
+            "endpoint_ms": 1793350620000,
+            "endpoint_delay_ms": 49276,
+            "endpoint_price": 0.1435,
+            "return_pct": -2.4804621134896454,
+            "btc_excess_pct_points": 0.02077490268179716,
+            "control_excess_pct_points": 0.222240589213063,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -9669,6 +9708,17 @@
             "control_excess_pct_points": 4.367242095113089,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793364925957,
+            "endpoint_ms": 1793364960000,
+            "endpoint_delay_ms": 34043,
+            "endpoint_price": 0.07751,
+            "return_pct": -1.574603174603184,
+            "btc_excess_pct_points": 1.787999792344297,
+            "control_excess_pct_points": 2.344566776916923,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -9711,6 +9761,17 @@
             "return_pct": -10.650754334609335,
             "btc_excess_pct_points": -7.163700758997159,
             "control_excess_pct_points": -6.923015125433362,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793364925957,
+            "endpoint_ms": 1793364960000,
+            "endpoint_delay_ms": 34043,
+            "endpoint_price": 0.02053,
+            "return_pct": -7.543346093222258,
+            "btc_excess_pct_points": -4.180743126274777,
+            "control_excess_pct_points": -4.887143255914683,
             "complete": true,
             "controls_count": 3
           }
@@ -10894,6 +10955,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793350557805
+    "asof_ms": 1793364965249
   }
 }
