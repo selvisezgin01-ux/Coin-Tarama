@@ -1349322,60 +1349322,7 @@
       "source_close_ms": 1793394900000
     }
   },
-  "pending": [
-    {
-      "id": "4148e31b17273bbdbfc650a3",
-      "asset_id": "a9c2d3e40855240f562f030c",
-      "key": "OKX:SPOT:NFTUSDT",
-      "symbol": "NFTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793396585495,
-      "price": 2.345e-07,
-      "level": 2.35e-07,
-      "invalid": 2.3254791064097356e-07,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.35e-07,
-        "base_invalid": 2.3254791064097356e-07,
-        "atr": 1.013929060176324e-09,
-        "rvol": 7.133524448758348,
-        "close_position": 0.9285714285714232,
-        "breakout": false,
-        "bar_close_ms": 1793395800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.213310580204773,
-        "score": 7.4285714285714235
-      },
-      "context": {
-        "atr": 1.013929060176324e-09,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.16994093859479253,
-        "btc_hour_pct": 0.000780358887064736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NFTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793395800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NFTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1350432,6 +1350379,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793395100214
+    },
+    {
+      "id": "4148e31b17273bbdbfc650a3",
+      "asset_id": "a9c2d3e40855240f562f030c",
+      "key": "OKX:SPOT:NFTUSDT",
+      "symbol": "NFTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793396585495,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793396594738
     }
   ],
   "runs": [
@@ -1358786,7 +1358744,8 @@
         "entry_seq": 0,
         "cohort": "NFTUSDT",
         "observation_lag_ms": 785495,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9243
       }
     },
     "errors": [],
@@ -1380920,8 +1380879,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0317d3a9ce55fbe5d6155b34a07382b583e1b4d4",
-    "previous_success_ms": 1793396311212,
+    "previous_commit": "cd570fb7bb2019da478e9d4cf55beb511fe5dbfe",
+    "previous_success_ms": 1793396593688,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
