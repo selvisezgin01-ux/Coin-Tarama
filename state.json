@@ -178967,7 +178967,7 @@
   },
   "last_api_requests": {
     "api.geckoterminal.com:ok": 19,
-    "api.dexscreener.com:ok": 12,
+    "api.dexscreener.com:ok": 18,
     "gecko:reserved_for_buy_pressure": 2
   },
   "followup_watch": {
@@ -178976,7 +178976,7 @@
     "tokens": {},
     "pending": [],
     "last_run": {
-      "observed_ms": 1793376559817,
+      "observed_ms": 1793376859588,
       "active_targets": 0,
       "checked": 0,
       "errors": [],
@@ -178988,6 +178988,72 @@
     "version": 1,
     "fingerprint": "5d70a52fa73540cb9a7a4a9d43a4e9a2c38f9694090e06510fedb34c7fe77759",
     "tokens": {
+      "bnb:0x644b4e0eb613c6700b89bb3dca9b2b6b73aa34f5": {
+        "chain": "bnb",
+        "mint": "0x644b4e0eb613c6700b89bb3dca9b2b6b73aa34f5",
+        "symbol": "PIRA",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376559817,
+        "latest_observation_status": "unavailable"
+      },
+      "robinhood:0xb3cca984dad6ec1a0a113b1fead1c03e2d06de20": {
+        "chain": "robinhood",
+        "mint": "0xb3cca984dad6ec1a0a113b1fead1c03e2d06de20",
+        "symbol": "ELYSDEX",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376559817,
+        "latest_observation_status": "unavailable"
+      },
+      "solana:98GCmtp9Bn5gdkcEzmnJ6mNM7pTDKemSgazPLtgM8pjJ": {
+        "chain": "solana",
+        "mint": "98GCmtp9Bn5gdkcEzmnJ6mNM7pTDKemSgazPLtgM8pjJ",
+        "symbol": "pCAT",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376559817,
+        "latest_observation_status": "unavailable"
+      },
+      "solana:8F2CRSivGY7mnQwLyw2LV9kwczq1Ysbua3kFn6e5pump": {
+        "chain": "solana",
+        "mint": "8F2CRSivGY7mnQwLyw2LV9kwczq1Ysbua3kFn6e5pump",
+        "symbol": "s",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376559817,
+        "latest_observation_status": "unavailable"
+      },
+      "robinhood:0x4404924301a07244410cd296432944ddfa82a238": {
+        "chain": "robinhood",
+        "mint": "0x4404924301a07244410cd296432944ddfa82a238",
+        "symbol": "EXTINCT",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376559817,
+        "latest_observation_status": "unavailable"
+      },
+      "robinhood:0x81679bf72913040904b1dfddea2d3099ae9d2459": {
+        "chain": "robinhood",
+        "mint": "0x81679bf72913040904b1dfddea2d3099ae9d2459",
+        "symbol": "GHOSTPATCH",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376559817,
+        "latest_observation_status": "unavailable"
+      },
       "solana:GJJ5yRUZ6g4h1FSNM2aaEkLnswinRrM2PSDjTBp3pump": {
         "chain": "solana",
         "mint": "GJJ5yRUZ6g4h1FSNM2aaEkLnswinRrM2PSDjTBp3pump",
@@ -179003,17 +179069,6 @@
         "chain": "solana",
         "mint": "5PJowqHycYfxQTjNRjqxv5PraWxZVeDwaGvckdpppump",
         "symbol": "BIGGIE",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0x9f0fb77b10504f6d29688a151c5f9cfe0f9b7777": {
-        "chain": "bnb",
-        "mint": "0x9f0fb77b10504f6d29688a151c5f9cfe0f9b7777",
-        "symbol": "TRF",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
@@ -179043,10 +179098,10 @@
         "last_attempt_ms": 1793376246129,
         "latest_observation_status": "unavailable"
       },
-      "bnb:0x77466d47997316f40644892d5f98ae2bee8c7777": {
+      "bnb:0xa82388ebba5150f08666bd33d79ef7cab9186415": {
         "chain": "bnb",
-        "mint": "0x77466d47997316f40644892d5f98ae2bee8c7777",
-        "symbol": "SPACECAT",
+        "mint": "0xa82388ebba5150f08666bd33d79ef7cab9186415",
+        "symbol": "QP",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
@@ -179054,10 +179109,10 @@
         "last_attempt_ms": 1793376246129,
         "latest_observation_status": "unavailable"
       },
-      "bnb:0x3d24b7831ef0d1f00b6212023ca51800f713c14c": {
+      "bnb:0x71c35c8c0cefb600112f7d0d7e57e506679e84fb": {
         "chain": "bnb",
-        "mint": "0x3d24b7831ef0d1f00b6212023ca51800f713c14c",
-        "symbol": "SAFU",
+        "mint": "0x71c35c8c0cefb600112f7d0d7e57e506679e84fb",
+        "symbol": "TOKEN",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
@@ -179428,6 +179483,17 @@
         "last_attempt_ms": 1793375102090,
         "latest_observation_status": "unavailable"
       },
+      "ethereum:0xfd9e2efc21f518d0b4a928f2e8f7b9fcc9e2d8b1": {
+        "chain": "ethereum",
+        "mint": "0xfd9e2efc21f518d0b4a928f2e8f7b9fcc9e2d8b1",
+        "symbol": "HousePerps",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793374803947,
+        "latest_observation_status": "unavailable"
+      },
       "robinhood:0x20844acb86c519acebe701cc9257a45e99927a22": {
         "chain": "robinhood",
         "mint": "0x20844acb86c519acebe701cc9257a45e99927a22",
@@ -179553,6 +179619,17 @@
         "chain": "bnb",
         "mint": "0x87cb2af4c2e29e2d83af82cc965e2704dd828a98",
         "symbol": "Pi",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793374204969,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0x7ed6f44316e67d62ef267c1fc65bc3d197ecc4aa": {
+        "chain": "bnb",
+        "mint": "0x7ed6f44316e67d62ef267c1fc65bc3d197ecc4aa",
+        "symbol": "WINC",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
@@ -179707,6 +179784,50 @@
         "chain": "ethereum",
         "mint": "0xf690c02534a7156f295d33d74d1be3deffb366ea",
         "symbol": "BULL",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793373903079,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0x7c907d1ce734b73e9236dcd06cefcb6346857777": {
+        "chain": "bnb",
+        "mint": "0x7c907d1ce734b73e9236dcd06cefcb6346857777",
+        "symbol": "SAFU",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793373903079,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0xa8ded503a7ef41c6ffd3af4edfc63df3d686ffff": {
+        "chain": "bnb",
+        "mint": "0xa8ded503a7ef41c6ffd3af4edfc63df3d686ffff",
+        "symbol": "AKASHA",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793373903079,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0x7f5c6611f57e09d32e9336ff021083b5941dffff": {
+        "chain": "bnb",
+        "mint": "0x7f5c6611f57e09d32e9336ff021083b5941dffff",
+        "symbol": "TOKEN",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793373903079,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0x50264e9918c53892cf4824129e2ce7db6ed6ffff": {
+        "chain": "bnb",
+        "mint": "0x50264e9918c53892cf4824129e2ce7db6ed6ffff",
+        "symbol": "TOKEN",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
@@ -212079,125 +212200,37 @@
         "last_attempt_ms": 1793342937045,
         "latest_observation_status": "unavailable"
       },
-      "bnb:0x43fe022c677d02af0e6cdf355eec15a9b6396beb": {
+      "bnb:0x9f0fb77b10504f6d29688a151c5f9cfe0f9b7777": {
         "chain": "bnb",
-        "mint": "0x43fe022c677d02af0e6cdf355eec15a9b6396beb",
-        "symbol": "CRAWLER",
+        "mint": "0x9f0fb77b10504f6d29688a151c5f9cfe0f9b7777",
+        "symbol": "TRF",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
+        "last_attempt_ms": 1793376246129,
         "latest_observation_status": "unavailable"
       },
-      "bnb:0xe17910f87774b909fbfb45a3882de5c1f036e847": {
+      "bnb:0x77466d47997316f40644892d5f98ae2bee8c7777": {
         "chain": "bnb",
-        "mint": "0xe17910f87774b909fbfb45a3882de5c1f036e847",
-        "symbol": "TOKEN",
+        "mint": "0x77466d47997316f40644892d5f98ae2bee8c7777",
+        "symbol": "SPACECAT",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
+        "last_attempt_ms": 1793376246129,
         "latest_observation_status": "unavailable"
       },
-      "bnb:0x398f7e5e8dcaa41e47fed2ffbdf52a0ea62e7777": {
+      "bnb:0x3d24b7831ef0d1f00b6212023ca51800f713c14c": {
         "chain": "bnb",
-        "mint": "0x398f7e5e8dcaa41e47fed2ffbdf52a0ea62e7777",
-        "symbol": "TraderTrai",
+        "mint": "0x3d24b7831ef0d1f00b6212023ca51800f713c14c",
+        "symbol": "SAFU",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "robinhood:0xce823ef1d434603a0624b2eab2683d9195e98efa": {
-        "chain": "robinhood",
-        "mint": "0xce823ef1d434603a0624b2eab2683d9195e98efa",
-        "symbol": "GTA6",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "robinhood:0x74e3f71d0b783a9dd869c845cb32ee1aa2b2051d": {
-        "chain": "robinhood",
-        "mint": "0x74e3f71d0b783a9dd869c845cb32ee1aa2b2051d",
-        "symbol": "WOFL",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "robinhood:0x0ab6091e5b88c8910960973f3e963a31c626e613": {
-        "chain": "robinhood",
-        "mint": "0x0ab6091e5b88c8910960973f3e963a31c626e613",
-        "symbol": "Monkeys",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0x1a2b78bf6a8c6fef57bfeb099c93dfe729850d47": {
-        "chain": "bnb",
-        "mint": "0x1a2b78bf6a8c6fef57bfeb099c93dfe729850d47",
-        "symbol": "BLACK",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0xb643ab193bce4d3d0b469091a737c5c7c61dbe38": {
-        "chain": "bnb",
-        "mint": "0xb643ab193bce4d3d0b469091a737c5c7c61dbe38",
-        "symbol": "LVLMR",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "robinhood:0xda6d7a91087df7792f8d2cf6f5ebe4e229db44d6": {
-        "chain": "robinhood",
-        "mint": "0xda6d7a91087df7792f8d2cf6f5ebe4e229db44d6",
-        "symbol": "SIC",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "robinhood:0x95ef2251ffcbd402c9ee9e406b76456b1d7ef6ea": {
-        "chain": "robinhood",
-        "mint": "0x95ef2251ffcbd402c9ee9e406b76456b1d7ef6ea",
-        "symbol": "BOTTOM",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
-        "latest_observation_status": "unavailable"
-      },
-      "robinhood:0xbb31973eaa6438c362cfa1a5afe3eb010d880087": {
-        "chain": "robinhood",
-        "mint": "0xbb31973eaa6438c362cfa1a5afe3eb010d880087",
-        "symbol": "coinput",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793342937045,
+        "last_attempt_ms": 1793376246129,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x69878c40f3af4ca7247dfbc3054021ed4da8ffff": {
@@ -212301,7 +212334,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x78350d137a9f69645538f0d10ab085614aa47777": {
@@ -212334,18 +212367,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0x7c907d1ce734b73e9236dcd06cefcb6346857777": {
-        "chain": "bnb",
-        "mint": "0x7c907d1ce734b73e9236dcd06cefcb6346857777",
-        "symbol": "SAFU",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x9558a9254890b2a8b057a789f413631b9084f4a3": {
@@ -212389,7 +212411,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xb30fe1cf884b48a22a50d22a9282004f2c5e9406": {
@@ -212403,17 +212425,6 @@
         "last_attempt_ms": 1793375921416,
         "latest_observation_status": "unavailable"
       },
-      "ethereum:0xfd9e2efc21f518d0b4a928f2e8f7b9fcc9e2d8b1": {
-        "chain": "ethereum",
-        "mint": "0xfd9e2efc21f518d0b4a928f2e8f7b9fcc9e2d8b1",
-        "symbol": "HousePerps",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374803947,
-        "latest_observation_status": "unavailable"
-      },
       "hyperevm:0x0cdd92155ca6a3a97534f7a0b861bd1268c9a5e8": {
         "chain": "hyperevm",
         "mint": "0x0cdd92155ca6a3a97534f7a0b861bd1268c9a5e8",
@@ -212422,7 +212433,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xa62e5fac3d3a5f7221ebcd901e7762408bb43f28": {
@@ -212433,7 +212444,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xc0da3ebdec8cd635570e625e577f1e22ed263e7a": {
@@ -212444,7 +212455,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x1c5ce83d9f6543a94288e589619dc414e999ee82": {
@@ -212466,7 +212477,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374803947,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xc9d82cd54968fac6068643f4e2ea3a7400decade": {
@@ -212543,7 +212554,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xca161e2a48e838d3e41292b27598491de3a90999": {
@@ -212554,7 +212565,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x82e82c0ecee6f6c5192ffc1a909e98af6aa446ea": {
@@ -212598,7 +212609,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x84adaa0287b7c8e01099dab1073da4e04718a75c": {
@@ -212620,7 +212631,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xd759d478938cc691b9715952ecfba4db1a4e4698": {
@@ -212631,7 +212642,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xb52dcf9a4873187453028d0e6929c5c01586a9db": {
@@ -212642,7 +212653,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xec6d86e32d636455b2e6b8c421b79d99fe3cdca3": {
@@ -212675,7 +212686,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xd6e3accbd4cc43131b89864a3f502d4be65c3fff": {
@@ -212686,7 +212697,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xcedbea37c8872c4171259cdfd5255cb8923cf8e7": {
@@ -212838,7 +212849,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x4b559f2e978b8adb6c55d92d176a1a1f46379732": {
@@ -212860,7 +212871,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x5a85b0ab9dcb9212254f1e370215fdb88f1f2795": {
@@ -212882,7 +212893,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xd8c01b69de235ea043fc1a1c32bc8c25dc620dee": {
@@ -212937,7 +212948,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xda32040dda21ce88496f08aba7d2b85bf8704699": {
@@ -213025,7 +213036,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x0c1f3412a44ff99e40bf14e06e5ea321ae7b3938": {
@@ -213047,7 +213058,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e": {
@@ -213058,7 +213069,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
@@ -213069,7 +213080,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
@@ -213080,7 +213091,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x430792cb87e397d29f9306e0457bd01c7e12e817": {
@@ -213091,7 +213102,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374803947,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x385a8c6a5369b1d72dc9ef982034091f702c93a5": {
@@ -213102,7 +213113,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x9a7442f665092b808efa8158a564ed98b3918ecb": {
@@ -213234,7 +213245,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xc83135cec8aef86574e10efeff9c503d29e754cd": {
@@ -213289,7 +213300,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xcdf7028ceab81fa0c6971208e83fa7872994bee5": {
@@ -213459,7 +213470,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xb9e4e21e26f1ff9dd7cd4a0164594f61a4c24d1c": {
@@ -213470,7 +213481,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x1bbe973bef3a977fc51cbed703e8ffdefe001fed": {
@@ -213569,7 +213580,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x0b38210ea11411557c13457d4da7dc6ea731b88a": {
@@ -213624,7 +213635,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "provider_observed",
         "first_links": [
           "https://x.com/kntqonhype"
@@ -213633,7 +213644,7 @@
           "https://x.com/kntqonhype"
         ],
         "first_observed_ms": 1793350675903,
-        "last_observed_ms": 1793376247605,
+        "last_observed_ms": 1793376861082,
         "source_pool": "0xaff775792827a7892fb203f7c33fa92f957f4232"
       },
       "ethereum:0xeb964a1a6fab73b8c72a0d15c7337fa4804f484d": {
@@ -213732,7 +213743,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x9a65f56daf5d6b75ef841bbaf29da1b2503d315d": {
@@ -213743,7 +213754,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x41765f0fcddc276309195166c7a62ae522fa09ef": {
@@ -213754,7 +213765,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x914a9a2d5aa5455662d81585cd8fc4f9207c38e1": {
@@ -213864,7 +213875,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0xc54c84323e7698add6fd9fbf09b9fab3f74c51d7": {
@@ -214007,7 +214018,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x49dfe3ef95da5f77071dbe3f24d6767ceccd5422": {
@@ -214106,7 +214117,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x255666049ece3dafafce0bf85ded99726d36ff47": {
@@ -214117,7 +214128,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374803947,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x7163957aeae1d4a52908fd91e75c62d90101dd26": {
@@ -214183,7 +214194,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x7b80a6ad4102325f5eb7c1d16f21d8a591484a63": {
@@ -214271,7 +214282,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374501928,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x8e816bf5aa29bd5a382f3223be0aa08aebf613d5": {
@@ -214337,18 +214348,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0x644b4e0eb613c6700b89bb3dca9b2b6b73aa34f5": {
-        "chain": "bnb",
-        "mint": "0x644b4e0eb613c6700b89bb3dca9b2b6b73aa34f5",
-        "symbol": "PIRA",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:E18kqAHyFbnysyw34DoymHmJYo1dTcwetfu68Ddvpump": {
@@ -214359,7 +214359,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:e2W5a7D1jQV8JrthTsogrvhXLyY887DbDoeCWcSAtJc": {
@@ -214370,7 +214370,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:DnHLhr4R9wtE6JRadkbRn3778A92CTgCMPaTsVNhwdiv": {
@@ -214381,7 +214381,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "ethereum:0x97f5a2e1aea2806cbb6801d12176b9b30cdf63db": {
@@ -214410,17 +214410,6 @@
         "chain": "bnb",
         "mint": "0x4fa36014a6231307c16a8f5524de2b7bb78350e3",
         "symbol": "flapAgent",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0xa82388ebba5150f08666bd33d79ef7cab9186415": {
-        "chain": "bnb",
-        "mint": "0xa82388ebba5150f08666bd33d79ef7cab9186415",
-        "symbol": "QP",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
@@ -214469,7 +214458,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xbc21e9fcc35c57efa11e30e2a498b5645b037777": {
@@ -214513,51 +214502,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0xa8ded503a7ef41c6ffd3af4edfc63df3d686ffff": {
-        "chain": "bnb",
-        "mint": "0xa8ded503a7ef41c6ffd3af4edfc63df3d686ffff",
-        "symbol": "AKASHA",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0x7f5c6611f57e09d32e9336ff021083b5941dffff": {
-        "chain": "bnb",
-        "mint": "0x7f5c6611f57e09d32e9336ff021083b5941dffff",
-        "symbol": "TOKEN",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0x50264e9918c53892cf4824129e2ce7db6ed6ffff": {
-        "chain": "bnb",
-        "mint": "0x50264e9918c53892cf4824129e2ce7db6ed6ffff",
-        "symbol": "TOKEN",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
-        "latest_observation_status": "unavailable"
-      },
-      "bnb:0x7ed6f44316e67d62ef267c1fc65bc3d197ecc4aa": {
-        "chain": "bnb",
-        "mint": "0x7ed6f44316e67d62ef267c1fc65bc3d197ecc4aa",
-        "symbol": "WINC",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x8021c1d0368dabd7b2d041bf4bfd8af167587777": {
@@ -214579,7 +214524,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xc6f72c2cbd9ea88a3161c6b84849d69099a4d72b": {
@@ -214590,7 +214535,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xb37db92334a80c7b3df53a1ae29533bb4106557f": {
@@ -214601,7 +214546,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x4e1a4fe786734b27dbe143b569039f41bfa233b7": {
@@ -214612,7 +214557,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x4e55825c2debf831d8cb42be198516940aaf46c5": {
@@ -214623,7 +214568,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x607627015c5f7cc8de38b8729e8d3203e3417e8c": {
@@ -214645,7 +214590,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x454b2bd6f9b09df693c2f109ff1b32950596109a": {
@@ -214681,17 +214626,6 @@
         "last_attempt_ms": 1793376559817,
         "latest_observation_status": "unavailable"
       },
-      "robinhood:0xb3cca984dad6ec1a0a113b1fead1c03e2d06de20": {
-        "chain": "robinhood",
-        "mint": "0xb3cca984dad6ec1a0a113b1fead1c03e2d06de20",
-        "symbol": "ELYSDEX",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
-        "latest_observation_status": "unavailable"
-      },
       "robinhood:0x40d1296823f7cf3a54b3c6fac02f3bf044c00087": {
         "chain": "robinhood",
         "mint": "0x40d1296823f7cf3a54b3c6fac02f3bf044c00087",
@@ -214700,7 +214634,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xcf71e499d00675d1e5e1641709ddf0cb5b38f6b9": {
@@ -214744,7 +214678,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:8J5ySgqtcNUwuNvaT3DGiiE6ccrnJceCpnfCsTJDpump": {
@@ -214810,7 +214744,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xb8e5d1646d9e8195425a920a08470ff71e92a902": {
@@ -214821,7 +214755,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x7805d0c0dc350fe3400304f7327df1b18dbbd036": {
@@ -214832,7 +214766,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xcce4af4d30b13115699ee09de40962aababb6359": {
@@ -214843,7 +214777,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xd9b5b90573b5569eaf14d7e9e5362ddbb5bbcca6": {
@@ -214854,7 +214788,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x9ac9329f0a7d38deadcf4ee52d017ecbc3bb0087": {
@@ -214865,7 +214799,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x32a5b451eb17b513b9b1085ff5da3c3602e4f29c": {
@@ -214876,7 +214810,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:8FRbMfhr9VPQg6V1oteUM9pAANZ8iwJuh6ERHEhoVFZ7": {
@@ -214909,7 +214843,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:4qoLPftfPSv4pG9ZaKKicyAs1BR9YkQfU51DrMKRbAgb": {
@@ -214920,7 +214854,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:GdKrdxbJgrafHsXAb5Hv2gbbW5ypYFt1HPeLdY6Vpump": {
@@ -214931,7 +214865,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:H8rgPLQFroHZA2MBtDdDmjyDDwMLF7y8G5MKWyUQ1jDx": {
@@ -214942,7 +214876,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:CwRAfyGW6rvD8pFaT2Yh9gxi2HJBYrizSeRYQytepump": {
@@ -214997,7 +214931,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:6jWbqHVgGSjQuWXyefR7cvsKuKxwcL2fovSBuaCTocAF": {
@@ -217741,8 +217675,17 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373602213,
-        "latest_observation_status": "unavailable"
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "provider_observed",
+        "first_links": [
+          "https://x.com/cryptotrollcoin"
+        ],
+        "current_links": [
+          "https://x.com/cryptotrollcoin"
+        ],
+        "first_observed_ms": 1793376859671,
+        "last_observed_ms": 1793376859671,
+        "source_pool": "EZ1uGYMQkNuTuX49sLJagdzWMdmiSbBYpWT2RU25AfXw"
       },
       "solana:8Uko9Z9WMdFfFxTsJXy6c8ERvVvqixLv4oMHwbcWnvww": {
         "chain": "solana",
@@ -217752,7 +217695,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373602213,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:5dK3btL1YwaE18wNSh4vUGNNpDUdQtbXn9PT8C9Upump": {
@@ -217763,7 +217706,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373602213,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:BX92qKQq5Li17mejErvy1Mm3NW9QFtF17LbakmXD69WS": {
@@ -217774,7 +217717,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373602213,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xa1c7c3e8451e622c3dfbd17f8b0f8f939485ffff": {
@@ -217895,7 +217838,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373602213,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0x8bfb5f080137225cf4a4583835d0338d60341130": {
@@ -217928,7 +217871,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:JA2zJ8sm41rpufGVYPbuZiKYTsQciFGMNgTR6T7Eqt5y": {
@@ -217939,7 +217882,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:62x8gxkesQdQ8KtMw1cmxrvYbiswG3XsaYcGoFNSpump": {
@@ -217950,7 +217893,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "solana:3uLztD9AH6UNnuMC5cpVw1wE4icsadJ9Y52LtCRaw7GV": {
@@ -217961,7 +217904,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x40c581eb056e400e7b5ca9132ad76f8c5c7ef6ed": {
@@ -218005,7 +217948,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x26f4d07f58179caa1a60920f36edd496406d8722": {
@@ -218016,7 +217959,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x48ad0538ce9062caa309831cd6221ed63abfffff": {
@@ -218027,7 +217970,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xa07462072d8630b91c311ad1e324e1a40df1ffff": {
@@ -218038,7 +217981,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xfbb7adc47edaa1ff7425e209a37faf04035d7777": {
@@ -218049,7 +217992,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x204965acc86b8d5388c1dfd62e41318e31a9ffff": {
@@ -218060,7 +218003,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x741f53d25212dc52f406e3d34c48bde704607777": {
@@ -218071,7 +218014,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xfd5977889c9f7fc22b4943c159d42a964f107777": {
@@ -218082,7 +218025,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xfb5552f25a515e1c97451b9e51e0f0c488e59fc7": {
@@ -218115,7 +218058,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793373903079,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "robinhood:0xaf148a3344208d16fb04fd061bf8557cd89cf502": {
@@ -218201,7 +218144,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0x247442fac55649d83d88604e8fb866d7b7b6ffff": {
@@ -218212,7 +218155,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xaf575c95695aefabcd89284f6d4b0845be1affff": {
@@ -218223,7 +218166,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xc1db907bd977ef427698eaf179528d283e0fffff": {
@@ -218245,7 +218188,7 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793374204969,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       },
       "bnb:0xdf4ce6d1979836907b054369b7dac91164fa1794": {
@@ -219821,17 +219764,6 @@
         "last_attempt_ms": 1793376246129,
         "latest_observation_status": "unavailable"
       },
-      "bnb:0x71c35c8c0cefb600112f7d0d7e57e506679e84fb": {
-        "chain": "bnb",
-        "mint": "0x71c35c8c0cefb600112f7d0d7e57e506679e84fb",
-        "symbol": "TOKEN",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376246129,
-        "latest_observation_status": "unavailable"
-      },
       "bnb:0xd7312409dae4d9e2563cca25f686eb5936d13101": {
         "chain": "bnb",
         "mint": "0xd7312409dae4d9e2563cca25f686eb5936d13101",
@@ -220041,28 +219973,6 @@
         "last_attempt_ms": 1793376559817,
         "latest_observation_status": "unavailable"
       },
-      "solana:98GCmtp9Bn5gdkcEzmnJ6mNM7pTDKemSgazPLtgM8pjJ": {
-        "chain": "solana",
-        "mint": "98GCmtp9Bn5gdkcEzmnJ6mNM7pTDKemSgazPLtgM8pjJ",
-        "symbol": "pCAT",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
-        "latest_observation_status": "unavailable"
-      },
-      "solana:8F2CRSivGY7mnQwLyw2LV9kwczq1Ysbua3kFn6e5pump": {
-        "chain": "solana",
-        "mint": "8F2CRSivGY7mnQwLyw2LV9kwczq1Ysbua3kFn6e5pump",
-        "symbol": "s",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
-        "latest_observation_status": "unavailable"
-      },
       "bnb:0x697838728824618d3743648cf2e32927f4b316ea": {
         "chain": "bnb",
         "mint": "0x697838728824618d3743648cf2e32927f4b316ea",
@@ -220151,32 +220061,10 @@
         "last_attempt_ms": 1793376559817,
         "latest_observation_status": "unavailable"
       },
-      "robinhood:0x4404924301a07244410cd296432944ddfa82a238": {
-        "chain": "robinhood",
-        "mint": "0x4404924301a07244410cd296432944ddfa82a238",
-        "symbol": "EXTINCT",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
-        "latest_observation_status": "unavailable"
-      },
       "robinhood:0xd6e66f3c8811b9ad584d64ae4250b287cd37bccf": {
         "chain": "robinhood",
         "mint": "0xd6e66f3c8811b9ad584d64ae4250b287cd37bccf",
         "symbol": "TXSCOPE",
-        "observed_link_changes": 0,
-        "events": [],
-        "historical_username_change_count": null,
-        "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
-        "latest_observation_status": "unavailable"
-      },
-      "robinhood:0x81679bf72913040904b1dfddea2d3099ae9d2459": {
-        "chain": "robinhood",
-        "mint": "0x81679bf72913040904b1dfddea2d3099ae9d2459",
-        "symbol": "GHOSTPATCH",
         "observed_link_changes": 0,
         "events": [],
         "historical_username_change_count": null,
@@ -220203,13 +220091,123 @@
         "events": [],
         "historical_username_change_count": null,
         "x_account_identity_verified": false,
-        "last_attempt_ms": 1793376559817,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "solana:12nxdJ17p8YfMdc3avnt4s3wwwDUPFCBwVHLnTwovNcD": {
+        "chain": "solana",
+        "mint": "12nxdJ17p8YfMdc3avnt4s3wwwDUPFCBwVHLnTwovNcD",
+        "symbol": "SPACECAT",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "solana:2hD8882QAjb2pDXX3sYmAgSeVbpRfnmPUcPSjVYfeCcw": {
+        "chain": "solana",
+        "mint": "2hD8882QAjb2pDXX3sYmAgSeVbpRfnmPUcPSjVYfeCcw",
+        "symbol": "pCAT",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0x7ba4503dc635b5307cd1fec8a2188dd622d2ffff": {
+        "chain": "bnb",
+        "mint": "0x7ba4503dc635b5307cd1fec8a2188dd622d2ffff",
+        "symbol": "RAPTOP",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0x7f59ab111f2ca6f216cce61456a13b67cb2effff": {
+        "chain": "bnb",
+        "mint": "0x7f59ab111f2ca6f216cce61456a13b67cb2effff",
+        "symbol": "ZcashPad",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0xf6826d7105022c1483cd109c429d5bf87a25ffff": {
+        "chain": "bnb",
+        "mint": "0xf6826d7105022c1483cd109c429d5bf87a25ffff",
+        "symbol": "ABBY",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0x262743e920ff370280498f9ebf61b0236e41b1a2": {
+        "chain": "bnb",
+        "mint": "0x262743e920ff370280498f9ebf61b0236e41b1a2",
+        "symbol": "ELON",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "bnb:0xbe9f9eb1b0fb7d616e3ef6f929cda81a011effff": {
+        "chain": "bnb",
+        "mint": "0xbe9f9eb1b0fb7d616e3ef6f929cda81a011effff",
+        "symbol": "EVILJEAN",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "robinhood:0xa4a53592431b0372ae36d366698b45c0bbcf9a30": {
+        "chain": "robinhood",
+        "mint": "0xa4a53592431b0372ae36d366698b45c0bbcf9a30",
+        "symbol": "MoonCoin",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "robinhood:0x7bcab4e2283da1bed02f7261e3e2984c5709abf2": {
+        "chain": "robinhood",
+        "mint": "0x7bcab4e2283da1bed02f7261e3e2984c5709abf2",
+        "symbol": "LEDGER",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
+        "latest_observation_status": "unavailable"
+      },
+      "robinhood:0xfb0cd733261dc84eee33a814c74fe8ae13ee22a8": {
+        "chain": "robinhood",
+        "mint": "0xfb0cd733261dc84eee33a814c74fe8ae13ee22a8",
+        "symbol": "CHAMPS",
+        "observed_link_changes": 0,
+        "events": [],
+        "historical_username_change_count": null,
+        "x_account_identity_verified": false,
+        "last_attempt_ms": 1793376859588,
         "latest_observation_status": "unavailable"
       }
     },
     "pending": [],
     "last_run": {
-      "observed_ms": 1793376561603,
+      "observed_ms": 1793376861372,
       "requested_tokens": 100,
       "usable_x_observations": 2,
       "errors": [],
