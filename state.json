@@ -1348568,7 +1348568,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 8
         }
-      }
+      },
+      "finished_ms": 1793396006472,
+      "duration_ms": 31800
     }
   ],
   "radar_admissions": [
@@ -1351317,6 +1351319,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793395492019,
+            "endpoint_ms": 1793395500000,
+            "endpoint_price": 0.5994,
+            "return_pct": 0.6718172657037336,
+            "btc_excess_pct_points": 1.1741847524732618,
+            "mae_pct": -1.6459523009741406,
+            "mfe_pct": 0.7557944239166892,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 7981,
+            "measured_ms": 1793396005141,
+            "cost_scenarios_pct": {
+              "0.2": 0.47181726570373356,
+              "0.5": 0.17181726570373357,
+              "1": -0.32818273429626643
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793380500000,
@@ -1351326,7 +1351350,7 @@
         "observation_lag_ms": 592019,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 8366,
-        "last_measure_attempt_ms": 1793385008131
+        "last_measure_attempt_ms": 1793396005141
       },
       "cb1d79e4d78047ed68a8ffb1:radar": {
         "symbol": "VIRTUALUSDT",
@@ -1352419,14 +1352443,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793395921649,
+            "endpoint_ms": 1793395980000,
+            "endpoint_price": 1.547,
+            "return_pct": 1.6759776536312776,
+            "btc_excess_pct_points": 1.7667575117275125,
+            "mae_pct": 0,
+            "mfe_pct": 1.7417022674991678,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 58351,
+            "measured_ms": 1793396005141,
+            "cost_scenarios_pct": {
+              "0.2": 1.4759776536312776,
+              "0.5": 1.1759776536312776,
+              "1": 0.6759776536312776
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793392200000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ATOMUSDT",
         "observation_lag_ms": 121649,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 10743
+        "notification_lag_ms": 10743,
+        "last_measure_attempt_ms": 1793396005141
       },
       "a3847e9aa5ae16deb531f0af:radar": {
         "symbol": "CAPUSDT",
@@ -1352680,10 +1352728,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 3,
-      "attempted": 1,
-      "observed_ms": 1793395700739,
-      "unique_reads": 2
+      "due": 5,
+      "attempted": 2,
+      "observed_ms": 1793396005141,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1352718,12 +1352766,12 @@
             "first_per_symbol": 16,
             "hours": {
               "1": {
-                "known_first_symbols": 12,
-                "median_reference_return_pct": -0.476428494305392
+                "known_first_symbols": 13,
+                "median_reference_return_pct": -0.2525252525252597
               },
               "4": {
-                "known_first_symbols": 6,
-                "median_reference_return_pct": -1.540067395649125
+                "known_first_symbols": 7,
+                "median_reference_return_pct": -0.5488043904351314
               },
               "12": {
                 "known_first_symbols": 0,
@@ -1374804,8 +1374852,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "aa8a8075300a888d597d64675d681f0f08218a7f",
-    "previous_success_ms": 1793395997520,
+    "previous_commit": "cbdc18c2489bc00d629c908b94d1e87c347af4e0",
+    "previous_success_ms": 1793396005103,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
