@@ -1385122,130 +1385122,7 @@
       "source_close_ms": 1793401200000
     }
   },
-  "pending": [
-    {
-      "id": "ecd151800e4425e950f3fcb4",
-      "asset_id": "1cec28af7767a9208dbb2156",
-      "key": "MEXC:SPOT:IOUSDT",
-      "symbol": "IOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793419954898,
-      "price": 0.13629000000000002,
-      "level": 0.13638,
-      "invalid": 0.13654278204231682,
-      "target": 0.14155231091536638,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13638,
-        "base_invalid": 0.1345627820423168,
-        "atr": 0.0009147863845545764,
-        "rvol": 6.9315460707069825,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793399400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8317385543942235,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0006570691321161045,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.22376945915639768,
-        "btc_hour_pct": -0.35473569897014334,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.13654278204231682,
-        "target": 0.14155231091536638,
-        "risk_pct": 0.7142104764102455,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.14683,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.13715,
-        "entry_zone_high": 0.1375835927991812
-      },
-      "reason": "giriş geçersizliği kaybedildi",
-      "source_close_ms": 1793401200000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "IOUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793412000000,
-        "closed_price": 0.13726,
-        "ema20_1h": 0.1359321235258839,
-        "atr14_1h": 0.002021647269124041,
-        "structure_floor": 0.13654278204231682,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "b050483b46c9daad63bfb45c",
-      "asset_id": "7f5dfdbd2780153793a9be80",
-      "key": "OKX:PERP:NMRUSDT",
-      "symbol": "NMRUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793419954875,
-      "price": 9.434000000000001,
-      "level": 9.481,
-      "invalid": 9.31058476916182,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 9.481,
-        "base_invalid": 9.31058476916182,
-        "atr": 0.056101538921195196,
-        "rvol": 7.879103674416154,
-        "close_position": 0.7368421052631628,
-        "breakout": false,
-        "bar_close_ms": 1793419200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.874666666666668,
-        "score": 7.236842105263163
-      },
-      "context": {
-        "atr": 0.056101538921195196,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2321067444092448,
-        "btc_hour_pct": -0.3574400777425768,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793419200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1387358,6 +1387235,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793419374196
+    },
+    {
+      "id": "ecd151800e4425e950f3fcb4",
+      "asset_id": "1cec28af7767a9208dbb2156",
+      "key": "MEXC:SPOT:IOUSDT",
+      "symbol": "IOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793419954898,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793419964554
+    },
+    {
+      "id": "b050483b46c9daad63bfb45c",
+      "asset_id": "7f5dfdbd2780153793a9be80",
+      "key": "OKX:PERP:NMRUSDT",
+      "symbol": "NMRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793419954875,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793419964554
     }
   ],
   "runs": [
@@ -1403246,7 +1403145,8 @@
         "entry_seq": 0,
         "cohort": "NMRUSDT",
         "observation_lag_ms": 754875,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9679
       }
     },
     "errors": [],
@@ -1425993,8 +1425893,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6415f0e2546626ba79d05bf2507b744b7e01cdf0",
-    "previous_success_ms": 1793419679925,
+    "previous_commit": "db8c9ce0b39844ece6d8c3210781b4f41a86668f",
+    "previous_success_ms": 1793419963308,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
