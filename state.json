@@ -1516987,170 +1516987,7 @@
       "source_close_ms": 1793478600000
     }
   },
-  "pending": [
-    {
-      "id": "f8d9c8268ed17c32019db5e1",
-      "asset_id": "afea467cf0b04bcc70cb587c",
-      "key": "MEXC:PERP:REUSDT",
-      "symbol": "REUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793478723108,
-      "price": 0.3641,
-      "level": 0.3623,
-      "invalid": 0.3471798275731812,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3623,
-        "base_invalid": 0.3471798275731812,
-        "atr": 0.0034678161787918852,
-        "rvol": 3.986113806847233,
-        "close_position": 0.9499999999999963,
-        "breakout": true,
-        "bar_close_ms": 1793463300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.266211604095549,
-        "score": 5.93611380684723
-      },
-      "context": {
-        "atr": 0.0032086078080240388,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.2970233462134662,
-        "btc_hour_pct": -0.05542458454118604,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:REUSDT",
-          "change_pct": -0.027682733725320485,
-          "old_ms": 1793475105262,
-          "current_ms": 1793478721276,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793463300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "REUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "01c00469e952f40e76094e6c",
-      "asset_id": "6014b76af365eb2779e5cd9d",
-      "key": "MEXC:SPOT:GLMRUSDT",
-      "symbol": "GLMRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793478722516,
-      "price": 0.0082585,
-      "level": 0.00829,
-      "invalid": 0.00799651474725856,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00829,
-        "base_invalid": 0.00799651474725856,
-        "atr": 8.32350182762727e-05,
-        "rvol": 3.550063420351467,
-        "close_position": 0.8509090909090927,
-        "breakout": false,
-        "bar_close_ms": 1793478600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.131086606368493,
-        "score": 4.9009725112605595
-      },
-      "context": {
-        "atr": 8.32350182762727e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.0030933815701526,
-        "btc_hour_pct": -0.07098069250393024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GLMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793478600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "91a864a1297046c61b850601",
-      "asset_id": "08f2495ed6565968f4cb261c",
-      "key": "MEXC:PERP:HANAUSDT",
-      "symbol": "HANAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793478723108,
-      "price": 0.015795,
-      "level": 0.01588,
-      "invalid": 0.015401069459133002,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01588,
-        "base_invalid": 0.015401069459133002,
-        "atr": 0.00019287027244665084,
-        "rvol": 2.0759648092560594,
-        "close_position": 0.6818181818181785,
-        "breakout": false,
-        "bar_close_ms": 1793478600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8354755784061751,
-        "score": 3.257782991074238
-      },
-      "context": {
-        "atr": 0.00019287027244665084,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.6566870197707972,
-        "btc_hour_pct": -0.05542458454118604,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HANAUSDT",
-          "change_pct": 1.364482215596774,
-          "old_ms": 1793475105120,
-          "current_ms": 1793478721134,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.015899999999999997,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793478600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HANAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1521683,6 +1521520,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793478132156
+    },
+    {
+      "id": "01c00469e952f40e76094e6c",
+      "asset_id": "6014b76af365eb2779e5cd9d",
+      "key": "MEXC:SPOT:GLMRUSDT",
+      "symbol": "GLMRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793478722516,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793478733371
+    },
+    {
+      "id": "91a864a1297046c61b850601",
+      "asset_id": "08f2495ed6565968f4cb261c",
+      "key": "MEXC:PERP:HANAUSDT",
+      "symbol": "HANAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793478723108,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793478733371
     }
   ],
   "runs": [
@@ -1556795,7 +1556654,8 @@
         "entry_seq": 0,
         "cohort": "GLMRUSDT",
         "observation_lag_ms": 122516,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10855
       },
       "08f2495ed6565968f4cb261c:radar": {
         "symbol": "HANAUSDT",
@@ -1556817,7 +1556677,8 @@
         "entry_seq": 0,
         "cohort": "HANAUSDT",
         "observation_lag_ms": 123108,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10263
       }
     },
     "errors": [],
@@ -1582116,8 +1581977,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4c5e7e8495a2f3fb38333f6643e52575e2bd291b",
-    "previous_success_ms": 1793478445003,
+    "previous_commit": "466a19ded6306dd5403ce315e06d6bc84e0ef0c8",
+    "previous_success_ms": 1793478732118,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
