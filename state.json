@@ -1466269,162 +1466269,7 @@
       "source_close_ms": 1793453400000
     }
   },
-  "pending": [
-    {
-      "id": "e4b713931b13a547ebe229b7",
-      "asset_id": "c03869c73b6a593ae84b140e",
-      "key": "OKX:PERP:XDPUSDT",
-      "symbol": "XDPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793454878851,
-      "price": 0.017665,
-      "level": 0.01764,
-      "invalid": 0.017334764109602576,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01764,
-        "base_invalid": 0.017334764109602576,
-        "atr": 0.00010157260264949942,
-        "rvol": 29.501285013088218,
-        "close_position": 0.6666666666666602,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3979533826037329,
-        "score": 7.66666666666666
-      },
-      "context": {
-        "atr": 0.00010157260264949942,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.587441438081604,
-        "btc_hour_pct": -0.09398956702914019,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:XDPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "75ad63e7b4ce3329128b9699",
-      "asset_id": "320fd7af5c008b7582bedb7b",
-      "key": "OKX:SPOT:XDPUSDT",
-      "symbol": "XDPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793454876725,
-      "price": 0.0176725,
-      "level": 0.01765,
-      "invalid": 0.01736401583940449,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01765,
-        "base_invalid": 0.01736401583940449,
-        "atr": 9.322773730340073e-05,
-        "rvol": 10.816360132558577,
-        "close_position": 0.6564417177914186,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3864075463120953,
-        "score": 7.656441717791418
-      },
-      "context": {
-        "atr": 9.322773730340073e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.44424405793878075,
-        "btc_hour_pct": -0.08353529624091083,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XDPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "626f363eeee402576530c2e7",
-      "asset_id": "c0dc5addcd53bd20e7be9573",
-      "key": "OKX:PERP:GLMUSDT",
-      "symbol": "GLMUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793454878851,
-      "price": 0.11671,
-      "level": 0.11671,
-      "invalid": 0.11354207153962882,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11671,
-        "base_invalid": 0.11354207153962882,
-        "atr": 0.000919523069141253,
-        "rvol": 2.70597259534741,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6072980017376226,
-        "score": 4.70597259534741
-      },
-      "context": {
-        "atr": 0.000919523069141253,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4180863751666384,
-        "btc_hour_pct": -0.09398956702914019,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GLMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1470000,6 +1469845,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793454592461
+    },
+    {
+      "id": "e4b713931b13a547ebe229b7",
+      "asset_id": "c03869c73b6a593ae84b140e",
+      "key": "OKX:PERP:XDPUSDT",
+      "symbol": "XDPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793454878851,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793454889043
+    },
+    {
+      "id": "75ad63e7b4ce3329128b9699",
+      "asset_id": "320fd7af5c008b7582bedb7b",
+      "key": "OKX:SPOT:XDPUSDT",
+      "symbol": "XDPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793454876725,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793454889044
+    },
+    {
+      "id": "626f363eeee402576530c2e7",
+      "asset_id": "c0dc5addcd53bd20e7be9573",
+      "key": "OKX:PERP:GLMUSDT",
+      "symbol": "GLMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793454878851,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793454889044
     }
   ],
   "runs": [
@@ -1497146,7 +1497024,8 @@
         "entry_seq": 0,
         "cohort": "XDPUSDT",
         "observation_lag_ms": 578851,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10192
       },
       "320fd7af5c008b7582bedb7b:radar": {
         "symbol": "XDPUSDT",
@@ -1497168,7 +1497047,8 @@
         "entry_seq": 0,
         "cohort": "XDPUSDT",
         "observation_lag_ms": 576725,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12319
       },
       "c0dc5addcd53bd20e7be9573:radar": {
         "symbol": "GLMUSDT",
@@ -1497190,7 +1497070,8 @@
         "entry_seq": 0,
         "cohort": "GLMUSDT",
         "observation_lag_ms": 578851,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10193
       }
     },
     "errors": [],
@@ -1521416,8 +1521297,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "071b0d1882b222db3badb0afa5633a474a509aef",
-    "previous_success_ms": 1793454609290,
+    "previous_commit": "c1c1bc87621a8a727a2b093e1dc579beb6cfe07a",
+    "previous_success_ms": 1793454887541,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
