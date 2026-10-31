@@ -1408390,60 +1408390,7 @@
       "source_close_ms": 1793432700000
     }
   },
-  "pending": [
-    {
-      "id": "b98ddc69c4ee6035313c6cfa",
-      "asset_id": "ad610e62c81701bba6b083d4",
-      "key": "OKX:PERP:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793432749603,
-      "price": 0.10814499999999999,
-      "level": 0.1083,
-      "invalid": 0.10737633705938551,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1083,
-        "base_invalid": 0.10737633705938551,
-        "atr": 0.00042441960409658416,
-        "rvol": 2.3321654693305454,
-        "close_position": 0.9545454545454517,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.46283439785244074,
-        "score": 4.286710923875997
-      },
-      "context": {
-        "atr": 0.000450875216787012,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.031206617473089615,
-        "btc_hour_pct": 0.15477069329499216,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1411073,6 +1411020,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793432154173
+    },
+    {
+      "id": "b98ddc69c4ee6035313c6cfa",
+      "asset_id": "ad610e62c81701bba6b083d4",
+      "key": "OKX:PERP:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793432749603,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793432759450
     }
   ],
   "runs": [
@@ -1454390,8 +1454348,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "26eca47987eccafb08e9dd790b6016d027e36b5f",
-    "previous_success_ms": 1793432469080,
+    "previous_commit": "0f4d0eb54841839c6889463cee8223cdb214b2df",
+    "previous_success_ms": 1793432758018,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
