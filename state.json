@@ -1414664,7 +1414664,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 9
         }
-      }
+      },
+      "finished_ms": 1793428861097,
+      "duration_ms": 24612
     }
   ],
   "radar_admissions": [
@@ -1419291,6 +1419293,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "12": {
+            "target_ms": 1793428192528,
+            "endpoint_ms": 1793428200000,
+            "endpoint_price": 0.085348,
+            "return_pct": 15.641428648853694,
+            "btc_excess_pct_points": 15.191733150705366,
+            "mae_pct": -2.3941791772803755,
+            "mfe_pct": 23.586797463552102,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 720,
+            "ignored_entry_fragment_ms": 7472,
+            "measured_ms": 1793428859180,
+            "cost_scenarios_pct": {
+              "0.2": 15.441428648853694,
+              "0.5": 15.141428648853694,
+              "1": 14.641428648853694
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793384100000,
@@ -1419300,7 +1419324,7 @@
         "observation_lag_ms": 892528,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 7151,
-        "last_measure_attempt_ms": 1793399898894
+        "last_measure_attempt_ms": 1793428859180
       },
       "79c06dec63d865d560e283a4:radar": {
         "symbol": "PARTIUSDT",
@@ -1419451,6 +1419475,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "12": {
+            "target_ms": 1793428495805,
+            "endpoint_ms": 1793428500000,
+            "endpoint_price": 3.029,
+            "return_pct": 1.4740368509212676,
+            "btc_excess_pct_points": 0.8406914201762206,
+            "mae_pct": -3.115577889447252,
+            "mfe_pct": 3.4505862646566188,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 720,
+            "ignored_entry_fragment_ms": 4195,
+            "measured_ms": 1793428859180,
+            "cost_scenarios_pct": {
+              "0.2": 1.2740368509212676,
+              "0.5": 0.9740368509212676,
+              "1": 0.47403685092126757
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793385000000,
@@ -1419460,7 +1419506,7 @@
         "observation_lag_ms": 295805,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 9017,
-        "last_measure_attempt_ms": 1793400504343
+        "last_measure_attempt_ms": 1793428859180
       },
       "ad711eef54eb1f1df2949607:radar": {
         "symbol": "GWEIUSDT",
@@ -1424624,10 +1424670,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 30,
-      "attempted": 1,
-      "observed_ms": 1793428558988,
-      "unique_reads": 2
+      "due": 29,
+      "attempted": 2,
+      "observed_ms": 1793428859180,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1424670,8 +1424716,8 @@
                 "median_reference_return_pct": -0.0856894437364919
               },
               "12": {
-                "known_first_symbols": 9,
-                "median_reference_return_pct": -1.0077258985555893
+                "known_first_symbols": 11,
+                "median_reference_return_pct": 0.07302468234264836
               },
               "24": {
                 "known_first_symbols": 0,
@@ -1447702,8 +1447748,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c5a671fc97093073739be0d0dac0017522316c7f",
-    "previous_success_ms": 1793428852561,
+    "previous_commit": "2bb687169c50e3f497b197496ee547eb669977b9",
+    "previous_success_ms": 1793428859150,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
