@@ -1471256,60 +1471256,7 @@
       "source_close_ms": 1793454300000
     }
   },
-  "pending": [
-    {
-      "id": "cc1c35650e88f9c06895d60c",
-      "asset_id": "032821f653154dc00cf4c0df",
-      "key": "OKX:PERP:UPUSDT",
-      "symbol": "UPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793455482845,
-      "price": 0.12835,
-      "level": 0.1203,
-      "invalid": 0.11852984524081421,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1203,
-        "base_invalid": 0.11852984524081421,
-        "atr": 0.0011343650612385726,
-        "rvol": 29.715324851237032,
-        "close_position": 0.8421052631578901,
-        "breakout": false,
-        "bar_close_ms": 1793433600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5025125628140614,
-        "score": 7.34210526315789
-      },
-      "context": {
-        "atr": 0.0021754296140770535,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.19161665193656585,
-        "btc_hour_pct": -0.037295664282233076,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:UPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793433600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1474918,6 +1474865,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793454889044
+    },
+    {
+      "id": "cc1c35650e88f9c06895d60c",
+      "asset_id": "032821f653154dc00cf4c0df",
+      "key": "OKX:PERP:UPUSDT",
+      "symbol": "UPUSDT",
+      "phase": "expired",
+      "observed_ms": 1793455482845,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793455494764
     }
   ],
   "runs": [
@@ -1526552,8 +1526510,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5bdfe11c0921ca05842588a0852d74fa0bd81767",
-    "previous_success_ms": 1793455203483,
+    "previous_commit": "b1f3eb81a3b8f6e4bd22d431de1ba68f01c32f57",
+    "previous_success_ms": 1793455493283,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
