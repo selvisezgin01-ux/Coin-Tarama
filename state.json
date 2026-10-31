@@ -538225,36 +538225,6 @@
         }
       ]
     },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793462522692,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793462522692
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793462522692,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793462522692
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:79wHdE7uAkB1A27WoeP38aMEiWG7YYcQRD4bgevhpump": {
       "chain": "solana",
       "mint": "79wHdE7uAkB1A27WoeP38aMEiWG7YYcQRD4bgevhpump",
@@ -1997167,7 +1997137,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793462607319
     }
   ],
   "archive": {
@@ -2071249,8 +2071220,8 @@
     }
   },
   "publication": {
-    "commit": "0f4d687367801b669a71cd08c09afd8839f2b5ac",
-    "success_ms": 1793462522648,
+    "commit": "4c58501f38d29b1aee227d8349e3352a3a99cf8b",
+    "success_ms": 1793462607265,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793458401823,
@@ -2079658,6 +2079629,16 @@
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
       ],
       "count": 3,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "4c58501f38d29b1aee227d8349e3352a3a99cf8b",
+      "archived_ms": 1793462607308,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
+      ],
+      "count": 2,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
