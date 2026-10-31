@@ -1374380,110 +1374380,7 @@
       "source_close_ms": 1793414700000
     }
   },
-  "pending": [
-    {
-      "id": "282ab9bc42dc9e3d87e1948e",
-      "asset_id": "352043de96d0fafcf47339be",
-      "key": "OKX:PERP:RLSUSDT",
-      "symbol": "RLSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793415763711,
-      "price": 0.002202,
-      "level": 0.002169,
-      "invalid": 0.002151885365207477,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002169,
-        "base_invalid": 0.002151885365207477,
-        "atr": 1.4097565283484715e-05,
-        "rvol": 21.636949960389913,
-        "close_position": 0.7647058823529465,
-        "breakout": true,
-        "bar_close_ms": 1793415600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.388888888888884,
-        "score": 7.7647058823529465
-      },
-      "context": {
-        "atr": 1.4097565283484715e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3275980574283253,
-        "btc_hour_pct": 0.06129083146055869,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RLSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793415600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8379df111ba25fd29d7fae14",
-      "asset_id": "e4f0d2325dfd43e6a7a3f3e8",
-      "key": "OKX:SPOT:SPKUSDT",
-      "symbol": "SPKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793415762781,
-      "price": 0.02006,
-      "level": 0.01978,
-      "invalid": 0.01901703608307844,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01978,
-        "base_invalid": 0.01901703608307844,
-        "atr": 0.00021975944614373533,
-        "rvol": 4.308727509861094,
-        "close_position": 0.9142857142857177,
-        "breakout": true,
-        "bar_close_ms": 1793415600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.842159916926269,
-        "score": 6.223013224146811
-      },
-      "context": {
-        "atr": 0.00021975944614373533,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.7817823437685583,
-        "btc_hour_pct": 0.06037757315771053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SPKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793415600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1376387,6 +1376284,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793415165792
+    },
+    {
+      "id": "282ab9bc42dc9e3d87e1948e",
+      "asset_id": "352043de96d0fafcf47339be",
+      "key": "OKX:PERP:RLSUSDT",
+      "symbol": "RLSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793415763711,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793415772455
+    },
+    {
+      "id": "8379df111ba25fd29d7fae14",
+      "asset_id": "e4f0d2325dfd43e6a7a3f3e8",
+      "key": "OKX:SPOT:SPKUSDT",
+      "symbol": "SPKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793415762781,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793415772455
     }
   ],
   "runs": [
@@ -1390857,7 +1390776,8 @@
         "entry_seq": 0,
         "cohort": "RLSUSDT",
         "observation_lag_ms": 163711,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8744
       },
       "e4f0d2325dfd43e6a7a3f3e8:radar": {
         "symbol": "SPKUSDT",
@@ -1390879,7 +1390799,8 @@
         "entry_seq": 0,
         "cohort": "SPKUSDT",
         "observation_lag_ms": 162781,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9674
       }
     },
     "errors": [],
@@ -1413518,8 +1413439,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6f0447fda588fa4ef4f88484951f585ed12e0021",
-    "previous_success_ms": 1793415480662,
+    "previous_commit": "80fc5ef12c691fd6c0175cdbab8a9725e01f93c1",
+    "previous_success_ms": 1793415771286,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
