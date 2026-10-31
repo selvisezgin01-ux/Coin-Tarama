@@ -1520767,62 +1520767,7 @@
       "source_close_ms": 1793478600000
     }
   },
-  "pending": [
-    {
-      "id": "42e143eed520463aece86790",
-      "asset_id": "40b292ffa99733090b6efa72",
-      "key": "MEXC:PERP:LAUSDT",
-      "symbol": "LAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793479018909,
-      "price": 0.056395,
-      "level": 0.05614,
-      "invalid": 0.05452180024133361,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05614,
-        "base_invalid": 0.05452180024133361,
-        "atr": 0.00032133172444261213,
-        "rvol": 2.0775145946074365,
-        "close_position": 0.9047619047619063,
-        "breakout": true,
-        "bar_close_ms": 1793478600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4820169889752322,
-        "score": 3.982276499369343
-      },
-      "context": {
-        "atr": 0.00032133172444261213,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.23560476472136438,
-        "btc_hour_pct": -0.05542458454118604,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LAUSDT",
-          "change_pct": 1.939605579133219,
-          "old_ms": 1793475405725,
-          "current_ms": 1793479016866,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793478600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1525377,6 +1525322,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793478733371
+    },
+    {
+      "id": "42e143eed520463aece86790",
+      "asset_id": "40b292ffa99733090b6efa72",
+      "key": "MEXC:PERP:LAUSDT",
+      "symbol": "LAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793479018909,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793479029301
     }
   ],
   "runs": [
@@ -1560653,7 +1560609,8 @@
         "entry_seq": 0,
         "cohort": "LAUSDT",
         "observation_lag_ms": 418909,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10392
       }
     },
     "errors": [],
@@ -1585950,8 +1585907,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "97d4143b062022de30c164d8815b35351b25c381",
-    "previous_success_ms": 1793478753810,
+    "previous_commit": "30bd05ba3cf419c0902a9d67042250e7b94ded30",
+    "previous_success_ms": 1793479028153,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
