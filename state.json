@@ -1507510,60 +1507510,7 @@
       "source_close_ms": 1793480400000
     }
   },
-  "pending": [
-    {
-      "id": "9a93bfd7aed01ebaf742b4d9",
-      "asset_id": "993ea4fbb3e6d78d5b87e3f1",
-      "key": "MEXC:SPOT:HBARUSDT",
-      "symbol": "HBARUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793482780818,
-      "price": 0.072335,
-      "level": 0.07264,
-      "invalid": 0.07201109742665952,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07264,
-        "base_invalid": 0.07201109742665952,
-        "atr": 0.0001926838222699133,
-        "rvol": 3.074635723565688,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793482200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2491694352159568,
-        "score": 4.574635723565688
-      },
-      "context": {
-        "atr": 0.0001926838222699133,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.46113716548806805,
-        "btc_hour_pct": -0.008411239428385286,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HBARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793482200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HBARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1512272,6 +1512219,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793482495806
+    },
+    {
+      "id": "9a93bfd7aed01ebaf742b4d9",
+      "asset_id": "993ea4fbb3e6d78d5b87e3f1",
+      "key": "MEXC:SPOT:HBARUSDT",
+      "symbol": "HBARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793482780818,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793482792782
     }
   ],
   "runs": [
@@ -1548900,7 +1548858,8 @@
         "entry_seq": 0,
         "cohort": "HBARUSDT",
         "observation_lag_ms": 580818,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11964
       }
     },
     "errors": [],
@@ -1574297,8 +1574256,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0cf8e70a25d0f740fc8f4aff8001889b4cd27aa7",
-    "previous_success_ms": 1793482514021,
+    "previous_commit": "cb3401415cf9dcd16e5f0fec5cff304a27db333b",
+    "previous_success_ms": 1793482791279,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
