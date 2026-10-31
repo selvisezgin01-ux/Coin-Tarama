@@ -1386133,62 +1386133,7 @@
       "source_close_ms": 1793418300000
     }
   },
-  "pending": [
-    {
-      "id": "3233c13a693bde172e59af58",
-      "asset_id": "421f9a98e39240464f6cf7e3",
-      "key": "MEXC:PERP:SPELLUSDT",
-      "symbol": "SPELLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793419058960,
-      "price": 8.265e-05,
-      "level": 7.85e-05,
-      "invalid": 7.53192013337052e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.85e-05,
-        "base_invalid": 7.53192013337052e-05,
-        "atr": 5.386577752986883e-07,
-        "rvol": 3.0353594162094164,
-        "close_position": 0.7499999999999958,
-        "breakout": false,
-        "bar_close_ms": 1793396700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.8181818181818077,
-        "score": 4.285359416209412
-      },
-      "context": {
-        "atr": 5.721094148597584e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.0320998470634168,
-        "btc_hour_pct": 0.0564900909658439,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SPELLUSDT",
-          "change_pct": -2.275108245280155,
-          "old_ms": 1793415444563,
-          "current_ms": 1793419056657,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.034499999999999996,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793396700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPELLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1388257,6 +1388202,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793418767244
+    },
+    {
+      "id": "3233c13a693bde172e59af58",
+      "asset_id": "421f9a98e39240464f6cf7e3",
+      "key": "MEXC:PERP:SPELLUSDT",
+      "symbol": "SPELLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793419058960,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793419068016
     }
   ],
   "runs": [
@@ -1426538,8 +1426494,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "db81ff4fe7def55a7e70a432c79932a864d9ab6c",
-    "previous_success_ms": 1793418783408,
+    "previous_commit": "d9058b5597f0202192ef15c213725f17c1fbe845",
+    "previous_success_ms": 1793419066838,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
