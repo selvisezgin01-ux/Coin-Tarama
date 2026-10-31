@@ -1250313,112 +1250313,7 @@
       "source_close_ms": 1793403900000
     }
   },
-  "pending": [
-    {
-      "id": "ef5f6a63c51ef847161b7707",
-      "asset_id": "0fc4b233db189d9514f60c68",
-      "key": "MEXC:PERP:SPKUSDT",
-      "symbol": "SPKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793405662439,
-      "price": 0.018924999999999997,
-      "level": 0.01883,
-      "invalid": 0.018288566780930236,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01883,
-        "base_invalid": 0.018288566780930236,
-        "atr": 0.0001428881271317681,
-        "rvol": 3.8784931159937086,
-        "close_position": 0.7692307692307548,
-        "breakout": true,
-        "bar_close_ms": 1793404800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6403415154749181,
-        "score": 5.647723885224464
-      },
-      "context": {
-        "atr": 0.0001428881271317681,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.1251108122493516,
-        "btc_hour_pct": 0.5152307032255665,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SPKUSDT",
-          "change_pct": -2.8994293561502404,
-          "old_ms": 1793402050650,
-          "current_ms": 1793405659590,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793404800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c6a0c86dc4029d8841ce5ee2",
-      "asset_id": "694f8a786753043e3d5a8ef3",
-      "key": "OKX:PERP:SPKUSDT",
-      "symbol": "SPKUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793405662039,
-      "price": 0.01893,
-      "level": 0.01883,
-      "invalid": 0.018277354371004473,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01883,
-        "base_invalid": 0.018277354371004473,
-        "atr": 0.000150970859970176,
-        "rvol": 3.367355101110191,
-        "close_position": 0.6428571428571358,
-        "breakout": true,
-        "bar_close_ms": 1793404800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6948156066274525,
-        "score": 5.010212243967327
-      },
-      "context": {
-        "atr": 0.000150970859970176,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.18045312348566878,
-        "btc_hour_pct": 0.5143624831417837,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SPKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793404800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1251838,6 +1251733,28 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793405083563
+    },
+    {
+      "id": "ef5f6a63c51ef847161b7707",
+      "asset_id": "0fc4b233db189d9514f60c68",
+      "key": "MEXC:PERP:SPKUSDT",
+      "symbol": "SPKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793405662439,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793405671521
+    },
+    {
+      "id": "c6a0c86dc4029d8841ce5ee2",
+      "asset_id": "694f8a786753043e3d5a8ef3",
+      "key": "OKX:PERP:SPKUSDT",
+      "symbol": "SPKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793405662039,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793405671521
     }
   ],
   "runs": [
@@ -1263111,7 +1263028,8 @@
         "entry_seq": 0,
         "cohort": "SPKUSDT",
         "observation_lag_ms": 862439,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9082
       },
       "694f8a786753043e3d5a8ef3:radar": {
         "symbol": "SPKUSDT",
@@ -1263133,7 +1263051,8 @@
         "entry_seq": 0,
         "cohort": "SPKUSDT",
         "observation_lag_ms": 862039,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9482
       }
     },
     "errors": [],
@@ -1285510,8 +1285429,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3509d855e9cc0cd1c0318da01e3fba1f5fcc275d",
-    "previous_success_ms": 1793405386054,
+    "previous_commit": "a22053f9526c11ad8e68d492ff056b466104c317",
+    "previous_success_ms": 1793405670400,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
