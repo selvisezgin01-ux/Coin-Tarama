@@ -8494,50 +8494,6 @@
         }
       ]
     },
-    "ethereum:0x41e5560054824ea6b0732e656e3ad64e20e94e45": {
-      "chain": "ethereum",
-      "mint": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
-      "first_seen_ms": 1793332373035,
-      "pools": {
-        "0x421d795e868cabe416412d1d8bcd3f765dfe1bf77c8a9a5e562063cd621b8226": {
-          "created_ms": 1793331839000,
-          "first_seen_ms": 1793332373035
-        },
-        "0x123fca7e8272a8e9c3bb7113c259abc4901e792b": {
-          "created_ms": 1590267844000,
-          "first_seen_ms": 1793391321699
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793391319288,
-      "decision": {
-        "at_ms": 1793391321699,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "pool_age",
-          "liquidity",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "pool": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391321699,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "pool_age",
-            "liquidity",
-            "market_cap_not_50k_500k",
-            "liquidity_to_cap"
-          ],
-          "pool": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b"
-        }
-      ]
-    },
     "ethereum:0xf16b8fbac6e3e6b57c50797b77ccf067f3a9acdd": {
       "chain": "ethereum",
       "mint": "0xf16b8fbac6e3e6b57c50797b77ccf067f3a9acdd",
@@ -263635,171 +263591,6 @@
           "pool": "0x09334fa76afb973bf3b3ca3cbab5e17555b92d0f"
         }
       ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
-      "chain": "hyperevm",
-      "mint": "0x31538bc41c9a171707db639e0830f5f15184cfff",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0x48d015286f368870e0f0e00c3e28801dec5098b6": {
-          "created_ms": 1793309400000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e": {
-      "chain": "hyperevm",
-      "mint": "0xee31509a163002f82ae8fc1f31687aa0a3af771e",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0xf26f89b9273757856a827444e629d92688ec818c": {
-          "created_ms": 1793308080000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b": {
-      "chain": "hyperevm",
-      "mint": "0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0xf343cbb242c49fe796b533034ddfbcf8924e8bee": {
-          "created_ms": 1793307660000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x19e45e20e5602792a22f986aa7318a54305af761": {
-      "chain": "hyperevm",
-      "mint": "0x19e45e20e5602792a22f986aa7318a54305af761",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0x4f9b93382a8955c4540a1c1b84f4595562779f74": {
-          "created_ms": 1793302500000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x4df183fcbbba894a54c8059cce6f3736cda2a2ba": {
-      "chain": "hyperevm",
-      "mint": "0x4df183fcbbba894a54c8059cce6f3736cda2a2ba",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0xa8c2d16b3ada8921ad1f9a28b2a7feacaf6c20a2": {
-          "created_ms": 1793299860000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xf6febf6767fac2d6054f2ad6dbbffbc6bc322d3e": {
-      "chain": "hyperevm",
-      "mint": "0xf6febf6767fac2d6054f2ad6dbbffbc6bc322d3e",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0x8cf71eb42b6c2854fccbdd295b40fc796bd484ec": {
-          "created_ms": 1793299800000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x38af9b01d0c545114ca0cd54095ddba5c703f1e4": {
-      "chain": "hyperevm",
-      "mint": "0x38af9b01d0c545114ca0cd54095ddba5c703f1e4",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0x7570b6b9dca100cd5bd205a653a4fa79f98876ba": {
-          "created_ms": 1793299260000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xe30b9334f3ed975d2eef388913c894aaf61ae322": {
-      "chain": "hyperevm",
-      "mint": "0xe30b9334f3ed975d2eef388913c894aaf61ae322",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0x70416323c6fb6a02986ee3c7c43b5bf71fae2ca0": {
-          "created_ms": 1793298540000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xd6e3accbd4cc43131b89864a3f502d4be65c3fff": {
-      "chain": "hyperevm",
-      "mint": "0xd6e3accbd4cc43131b89864a3f502d4be65c3fff",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0xc174a1bc0bd8ed02e6d4133bd322137760d3bc9a": {
-          "created_ms": 1793297520000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x89627f633f2e9a0942220ffff9905db76b6c8aa5": {
-      "chain": "hyperevm",
-      "mint": "0x89627f633f2e9a0942220ffff9905db76b6c8aa5",
-      "first_seen_ms": 1793425401553,
-      "pools": {
-        "0xc135c8651a463a1c5f9a3bdba3bed150fbe95320": {
-          "created_ms": 1793297340000,
-          "first_seen_ms": 1793425401553
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
     }
   },
   "assets": {
@@ -274967,61 +274758,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 49682.0,
         "pool_age_minutes": 584.7306
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "ethereum:0x41e5560054824ea6b0732e656e3ad64e20e94e45": {
-      "first_seen_ms": 1793391321699,
-      "observations": [
-        {
-          "ms": 1793391319573,
-          "price": 0.02149,
-          "liquidity": 3529.02
-        }
-      ],
-      "latest": {
-        "chain": "ethereum",
-        "mint": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
-        "pool": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
-        "symbol": "CVC",
-        "dex": "uniswap",
-        "price_usd": 0.02149,
-        "price_observed_ms": 1793391319573,
-        "observed_ms": 1793391319573,
-        "liquidity_usd": 3529.02,
-        "market_cap_usd": 21496938.0,
-        "fdv_usd": 21496938.0,
-        "pool_created_ms": 1590267844000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "liquidity",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 21496938.0,
-        "pool_age_minutes": 3385391.2949833334
       },
       "activity": {
         "passed": false,
@@ -1057995,7 +1057731,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793425488204
     }
   ],
   "archive": {
@@ -1132077,8 +1131814,8 @@
     }
   },
   "publication": {
-    "commit": "5edd15d13f53597e6e0f30cc3af633b66c66f139",
-    "success_ms": 1793425401517,
+    "commit": "cbd610c19283747ee19b3a545973c808552f56c9",
+    "success_ms": 1793425488161,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793410502494,
@@ -1136368,6 +1136105,26 @@
         "hyperevm:0x89627f633f2e9a0942220ffff9905db76b6c8aa5"
       ],
       "count": 11,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "cbd610c19283747ee19b3a545973c808552f56c9",
+      "archived_ms": 1793425488196,
+      "keys": [
+        "ethereum:0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
+        "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
+        "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e",
+        "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
+        "hyperevm:0x19e45e20e5602792a22f986aa7318a54305af761",
+        "hyperevm:0x4df183fcbbba894a54c8059cce6f3736cda2a2ba",
+        "hyperevm:0xf6febf6767fac2d6054f2ad6dbbffbc6bc322d3e",
+        "hyperevm:0x38af9b01d0c545114ca0cd54095ddba5c703f1e4",
+        "hyperevm:0xe30b9334f3ed975d2eef388913c894aaf61ae322",
+        "hyperevm:0xd6e3accbd4cc43131b89864a3f502d4be65c3fff",
+        "hyperevm:0x89627f633f2e9a0942220ffff9905db76b6c8aa5"
+      ],
+      "count": 12,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
