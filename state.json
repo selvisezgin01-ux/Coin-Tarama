@@ -1451475,164 +1451475,7 @@
       "source_close_ms": 1793448900000
     }
   },
-  "pending": [
-    {
-      "id": "e5c1cdd9c664ac3a51cc7e31",
-      "asset_id": "89703807141697fa240733ed",
-      "key": "OKX:PERP:RSRUSDT",
-      "symbol": "RSRUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793449041027,
-      "price": 0.0014195,
-      "level": 0.001424,
-      "invalid": 0.0013616186564239484,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001424,
-        "base_invalid": 0.0013616186564239484,
-        "atr": 1.587562384034337e-05,
-        "rvol": 4.894073633533445,
-        "close_position": 0.9302325581395308,
-        "breakout": true,
-        "bar_close_ms": 1793429100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.659498207885293,
-        "score": 6.824306191672976
-      },
-      "context": {
-        "atr": 2.798360277473997e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.9089311954671562,
-        "btc_hour_pct": 0.26396889251993905,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RSRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793429100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RSRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ed76aa6e4a2a53619cdeab66",
-      "asset_id": "2998c0811ad44587c98e6430",
-      "key": "OKX:PERP:OLUSDT",
-      "symbol": "OLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793449041027,
-      "price": 0.0064954999999999995,
-      "level": 0.006427,
-      "invalid": 0.006186853449921378,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006427,
-        "base_invalid": 0.006186853449921378,
-        "atr": 7.431033385748179e-05,
-        "rvol": 11.753874564313964,
-        "close_position": 0.7741935483870948,
-        "breakout": true,
-        "bar_close_ms": 1793443500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.6345024599269795,
-        "score": 7.774193548387094
-      },
-      "context": {
-        "atr": 7.792767979844985e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5397886902520854,
-        "btc_hour_pct": 0.26396889251993905,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793443500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "720f833b911a11562284329e",
-      "asset_id": "731f01db88900b44a1b5474a",
-      "key": "OKX:PERP:NEOUSDT",
-      "symbol": "NEOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793449041027,
-      "price": 1.9860000000000002,
-      "level": 1.984,
-      "invalid": 1.9762844913294322,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.984,
-        "base_invalid": 1.9762844913294322,
-        "atr": 0.004770057803785401,
-        "rvol": 8.198198107825128,
-        "close_position": 0.6249999999999861,
-        "breakout": true,
-        "bar_close_ms": 1793446200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4044489383215444,
-        "score": 7.624999999999986
-      },
-      "context": {
-        "atr": 0.005365382160415237,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.29214839767217615,
-        "btc_hour_pct": 0.26396889251993905,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NEOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793446200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1454900,6 +1454743,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793448447866
+    },
+    {
+      "id": "e5c1cdd9c664ac3a51cc7e31",
+      "asset_id": "89703807141697fa240733ed",
+      "key": "OKX:PERP:RSRUSDT",
+      "symbol": "RSRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793449041027,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793449052758
+    },
+    {
+      "id": "ed76aa6e4a2a53619cdeab66",
+      "asset_id": "2998c0811ad44587c98e6430",
+      "key": "OKX:PERP:OLUSDT",
+      "symbol": "OLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793449041027,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793449052758
+    },
+    {
+      "id": "720f833b911a11562284329e",
+      "asset_id": "731f01db88900b44a1b5474a",
+      "key": "OKX:PERP:NEOUSDT",
+      "symbol": "NEOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793449041027,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793449052758
     }
   ],
   "runs": [
@@ -1504081,8 +1503957,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e723f6b5bb98f1dfc11536c431eb40325fb7d1c7",
-    "previous_success_ms": 1793448767849,
+    "previous_commit": "c7bec5597a593026238cd0d5ba2b7891d71c0510",
+    "previous_success_ms": 1793449051484,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
