@@ -1333640,172 +1333640,7 @@
       "source_close_ms": 1793410200000
     }
   },
-  "pending": [
-    {
-      "id": "f120a1f14d0b093118ea2391",
-      "asset_id": "fb6a616c2d201776ef819e5b",
-      "key": "MEXC:PERP:IMXUSDT",
-      "symbol": "IMXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793410273872,
-      "price": 0.12614999999999998,
-      "level": 0.1264,
-      "invalid": 0.12364879441681373,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1264,
-        "base_invalid": 0.12364879441681373,
-        "atr": 0.0010080372212418085,
-        "rvol": 5.497675576784636,
-        "close_position": 0.8666666666666629,
-        "breakout": true,
-        "bar_close_ms": 1793407500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8737092930897417,
-        "score": 7.364342243451299
-      },
-      "context": {
-        "atr": 0.0010982642877787174,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7194391278925192,
-        "btc_hour_pct": 0.2694232428314347,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:IMXUSDT",
-          "change_pct": -1.0384899044812212,
-          "old_ms": 1793406549303,
-          "current_ms": 1793410269229,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0021,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c93c7f134a79c34ee19cca73",
-      "asset_id": "0d94f2be1f4a76ad5693422e",
-      "key": "OKX:PERP:IMXUSDT",
-      "symbol": "IMXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793410273924,
-      "price": 0.12602000000000002,
-      "level": 0.12712,
-      "invalid": 0.12363157922583157,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12712,
-        "base_invalid": 0.12363157922583157,
-        "atr": 0.0011228051611228659,
-        "rvol": 2.7606396365206063,
-        "close_position": 0.855614973262037,
-        "breakout": true,
-        "bar_close_ms": 1793408400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9500159184973054,
-        "score": 4.616254609782644
-      },
-      "context": {
-        "atr": 0.0011470353208320743,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.6823117309775704,
-        "btc_hour_pct": 0.267704187519735,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:IMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793408400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1435ea7595150966df92459e",
-      "asset_id": "36fe235aa2c8bedc3e2d661e",
-      "key": "MEXC:PERP:ELSAUSDT",
-      "symbol": "ELSAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793410273872,
-      "price": 0.068665,
-      "level": 0.06881,
-      "invalid": 0.06774532672135895,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06881,
-        "base_invalid": 0.06774532672135895,
-        "atr": 0.000497821857606982,
-        "rvol": 2.2996486870880877,
-        "close_position": 0.831168831168841,
-        "breakout": true,
-        "bar_close_ms": 1793409300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.353538325731951,
-        "score": 4.1308175182569284
-      },
-      "context": {
-        "atr": 0.0005126955124106332,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8665685967492842,
-        "btc_hour_pct": 0.2694232428314347,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ELSAUSDT",
-          "change_pct": 0.416499915794577,
-          "old_ms": 1793406549590,
-          "current_ms": 1793410269581,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0174,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793409300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ELSAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1335478,6 +1335313,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793409680203
+    },
+    {
+      "id": "f120a1f14d0b093118ea2391",
+      "asset_id": "fb6a616c2d201776ef819e5b",
+      "key": "MEXC:PERP:IMXUSDT",
+      "symbol": "IMXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793410273872,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793410283336
+    },
+    {
+      "id": "1435ea7595150966df92459e",
+      "asset_id": "36fe235aa2c8bedc3e2d661e",
+      "key": "MEXC:PERP:ELSAUSDT",
+      "symbol": "ELSAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793410273872,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793410283336
     }
   ],
   "runs": [
@@ -1370689,8 +1370546,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "eefb2b4d7a48eda7b80dbb9f8fa3c1bcda3fc1c3",
-    "previous_success_ms": 1793409997840,
+    "previous_commit": "466d771e132f04270448cc4fa00df714c639d0a6",
+    "previous_success_ms": 1793410282176,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
