@@ -1404386,112 +1404386,7 @@
       "source_close_ms": 1793433600000
     }
   },
-  "pending": [
-    {
-      "id": "3a284b4b70e31d8aebfe58e5",
-      "asset_id": "7f5dfdbd2780153793a9be80",
-      "key": "OKX:PERP:NMRUSDT",
-      "symbol": "NMRUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793433657059,
-      "price": 9.458,
-      "level": 9.481,
-      "invalid": 9.31058476916182,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 9.481,
-        "base_invalid": 9.31058476916182,
-        "atr": 0.056101538921195196,
-        "rvol": 7.879103674416154,
-        "close_position": 0.7368421052631628,
-        "breakout": false,
-        "bar_close_ms": 1793419200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.874666666666668,
-        "score": 7.236842105263163
-      },
-      "context": {
-        "atr": 0.06387120559176827,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5005562778954475,
-        "btc_hour_pct": -0.04344986777533588,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793419200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aa556060f6ead04585820f38",
-      "asset_id": "032821f653154dc00cf4c0df",
-      "key": "OKX:PERP:UPUSDT",
-      "symbol": "UPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793433657059,
-      "price": 0.11995,
-      "level": 0.1203,
-      "invalid": 0.11852984524081421,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1203,
-        "base_invalid": 0.11852984524081421,
-        "atr": 0.0011343650612385726,
-        "rvol": 29.715324851237032,
-        "close_position": 0.8421052631578901,
-        "breakout": false,
-        "bar_close_ms": 1793433600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5025125628140614,
-        "score": 7.34210526315789
-      },
-      "context": {
-        "atr": 0.0011343650612385726,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5459624305893973,
-        "btc_hour_pct": -0.04344986777533588,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:UPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793433600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1407132,6 +1407027,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793432759450
+    },
+    {
+      "id": "3a284b4b70e31d8aebfe58e5",
+      "asset_id": "7f5dfdbd2780153793a9be80",
+      "key": "OKX:PERP:NMRUSDT",
+      "symbol": "NMRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793433657059,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793433665635
+    },
+    {
+      "id": "aa556060f6ead04585820f38",
+      "asset_id": "032821f653154dc00cf4c0df",
+      "key": "OKX:PERP:UPUSDT",
+      "symbol": "UPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793433657059,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793433665635
     }
   ],
   "runs": [
@@ -1427510,7 +1427427,8 @@
         "entry_seq": 0,
         "cohort": "UPUSDT",
         "observation_lag_ms": 57059,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8576
       }
     },
     "errors": [],
@@ -1450753,8 +1450671,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fe7e206dbad8d615a99bd7b90141ee2bb5becc71",
-    "previous_success_ms": 1793433367420,
+    "previous_commit": "e1ff76084762183bfabfb6b5339a6f3cb239848b",
+    "previous_success_ms": 1793433664218,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
