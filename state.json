@@ -1407589,112 +1407589,7 @@
       "source_close_ms": 1793429100000
     }
   },
-  "pending": [
-    {
-      "id": "75c180b42ccc682da463061a",
-      "asset_id": "e07b46ec0ab21782bb1d392e",
-      "key": "OKX:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793429445836,
-      "price": 0.30385,
-      "level": 0.289,
-      "invalid": 0.2850366719369613,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.289,
-        "base_invalid": 0.2850366719369613,
-        "atr": 0.0017555204202579571,
-        "rvol": 21.433442698719464,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793407500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7739130434782702,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0024648287804489672,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4385200266284084,
-        "btc_hour_pct": 0.0946355881666694,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0d64321c04bf773bfed7ec45",
-      "asset_id": "99d9e3fc9814ceb856e116af",
-      "key": "MEXC:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793429444553,
-      "price": 0.30385,
-      "level": 0.289,
-      "invalid": 0.2851417974845654,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.289,
-        "base_invalid": 0.2851417974845654,
-        "atr": 0.0017213501028972907,
-        "rvol": 3.4074522524696023,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793407500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7745302713987554,
-        "score": 5.407452252469602
-      },
-      "context": {
-        "atr": 0.002270865194685376,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4648167881701193,
-        "btc_hour_pct": 0.10109532900697271,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:STXUSDT",
-          "change_pct": -1.7701178163929354,
-          "old_ms": 1793425748499,
-          "current_ms": 1793429440435,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1410181,6 +1410076,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793429160618
+    },
+    {
+      "id": "75c180b42ccc682da463061a",
+      "asset_id": "e07b46ec0ab21782bb1d392e",
+      "key": "OKX:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "expired",
+      "observed_ms": 1793429445836,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793429456064
+    },
+    {
+      "id": "0d64321c04bf773bfed7ec45",
+      "asset_id": "99d9e3fc9814ceb856e116af",
+      "key": "MEXC:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "expired",
+      "observed_ms": 1793429444553,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793429456064
     }
   ],
   "runs": [
@@ -1452272,8 +1452189,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "17e1b49e381d7a93b6787877512492f98210ba24",
-    "previous_success_ms": 1793429174398,
+    "previous_commit": "6cd9f3097759b432e01ce2a5657516ae422057ed",
+    "previous_success_ms": 1793429454671,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
