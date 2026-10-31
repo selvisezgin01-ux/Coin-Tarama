@@ -1430669,112 +1430669,7 @@
       "source_close_ms": 1793442600000
     }
   },
-  "pending": [
-    {
-      "id": "f57c531f17bae3bc7fcf71b3",
-      "asset_id": "cdf7da14a0ac576217598d01",
-      "key": "OKX:SPOT:THETAUSDT",
-      "symbol": "THETAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793443496098,
-      "price": 0.16065000000000002,
-      "level": 0.1602,
-      "invalid": 0.15904011783493407,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1602,
-        "base_invalid": 0.15904011783493407,
-        "atr": 0.0003992144337726972,
-        "rvol": 2.344762602116097,
-        "close_position": 0.666666666666605,
-        "breakout": true,
-        "bar_close_ms": 1793442600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3126954346466482,
-        "score": 4.0114292687827025
-      },
-      "context": {
-        "atr": 0.0003992144337726972,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.13528806917024738,
-        "btc_hour_pct": 0.13528806917024738,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:THETAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793442600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "THETAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9e6c6f2dffe64165571afa2c",
-      "asset_id": "f690a60790381bdb6acb868f",
-      "key": "OKX:PERP:GPSUSDT",
-      "symbol": "GPSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793443495082,
-      "price": 0.0077145,
-      "level": 0.007689,
-      "invalid": 0.007586200896741945,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007689,
-        "base_invalid": 0.007586200896741945,
-        "atr": 4.532735505370051e-05,
-        "rvol": 2.1874235130468085,
-        "close_position": 0.7289719626168197,
-        "breakout": true,
-        "bar_close_ms": 1793442600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9425317449927917,
-        "score": 3.916395475663628
-      },
-      "context": {
-        "atr": 4.532735505370051e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6728014915111324,
-        "btc_hour_pct": 0.13622250970246608,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GPSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793442600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GPSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1433800,6 +1433695,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793442911774
+    },
+    {
+      "id": "f57c531f17bae3bc7fcf71b3",
+      "asset_id": "cdf7da14a0ac576217598d01",
+      "key": "OKX:SPOT:THETAUSDT",
+      "symbol": "THETAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793443496098,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793443514284
+    },
+    {
+      "id": "9e6c6f2dffe64165571afa2c",
+      "asset_id": "f690a60790381bdb6acb868f",
+      "key": "OKX:PERP:GPSUSDT",
+      "symbol": "GPSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793443495082,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793443514284
     }
   ],
   "runs": [
@@ -1457266,7 +1457183,8 @@
         "entry_seq": 0,
         "cohort": "THETAUSDT",
         "observation_lag_ms": 896098,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 18186
       },
       "f690a60790381bdb6acb868f:radar": {
         "symbol": "GPSUSDT",
@@ -1457288,7 +1457206,8 @@
         "entry_seq": 0,
         "cohort": "GPSUSDT",
         "observation_lag_ms": 895082,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 19202
       }
     },
     "errors": [],
@@ -1481021,8 +1480940,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d2b37659ecbe02c45544b6d96f1c45058b723efa",
-    "previous_success_ms": 1793443222921,
+    "previous_commit": "9f717915d180acf0a43b2d07a9deb0c72e682994",
+    "previous_success_ms": 1793443512863,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
