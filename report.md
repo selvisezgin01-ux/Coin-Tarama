@@ -88,13 +88,13 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 14170 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 14168 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | SHELLZERO `0x45a92fa959b2417a3c1469b1a70e218329df1109` | robinhood | 31.10.2026 20:05 | 91089.0 | Bekliyor |
+| 🟡 ERKEN RADAR | SHELLZERO `0x45a92fa959b2417a3c1469b1a70e218329df1109` | robinhood | 31.10.2026 20:05 | 91089.0 | [Issue #590](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/590) |
 | 🟡 ERKEN RADAR | GTA6 `0x604ad9327839ae0a2215a1ad1a65d27d2e1899da` | bnb | 31.10.2026 20:01 | 135289.0 | [Issue #587](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/587) |
 | 🟡 ERKEN RADAR | SKELLY `0xfedcb1513b389b1c4d243f85c56557e86de0905f` | ethereum | 31.10.2026 19:45 | 91915.0 | [Issue #580](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/580) |
 | 🟡 ERKEN RADAR | CASH `0xd77f22ffc3d342fba8c0299cfefeb24ee33cddda` | bnb | 31.10.2026 19:30 | 132555.0 | [Issue #575](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/575) |
@@ -2494,10 +2494,8 @@ Kimlik defteri: 14170 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `hyperevm:0x000000000000780555bd0bca3791f89f9542c2d6` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x06328078fa42460f3dfb6a86b484fd09eb1162be` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x06d1a22cb3a036b9e5c8bdedc8d12b2255b5963c` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
-| `hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x16a23e530f247a1eb81de7724ca33c246bcfdafc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x18cef5ac0744fc835bda41e72544154a34867980` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
-| `hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x389ff560781bd54034e9ad829a965f1b78253b9f` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x5ccde4afec441515466648f9cd94413211d1cfec` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x5ed157b152ef86f96e092299f806fb704c6746dc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
