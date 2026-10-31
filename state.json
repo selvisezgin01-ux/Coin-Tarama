@@ -1513702,112 +1513702,7 @@
       "source_close_ms": 1793484900000
     }
   },
-  "pending": [
-    {
-      "id": "d6318451428c97f8b04b04ec",
-      "asset_id": "ccfec628d0f7f0e8a5519e4b",
-      "key": "MEXC:SPOT:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793485186137,
-      "price": 0.06906999999999999,
-      "level": 0.06547,
-      "invalid": 0.06400652848503613,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06547,
-        "base_invalid": 0.06400652848503613,
-        "atr": 0.0006231434330925331,
-        "rvol": 2.81064213595771,
-        "close_position": 0.9028340080971643,
-        "breakout": true,
-        "bar_close_ms": 1793463300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.829524397776396,
-        "score": 4.713476144054875
-      },
-      "context": {
-        "atr": 0.0005797422038720557,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.37673421355895,
-        "btc_hour_pct": 0.15222785642046155,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZAMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793463300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "96e1bc472593eafc782953b6",
-      "asset_id": "7f9ef2fe75a28fe8435264f1",
-      "key": "MEXC:SPOT:ZORAUSDT",
-      "symbol": "ZORAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793485186137,
-      "price": 0.006037000000000001,
-      "level": 0.006034,
-      "invalid": 0.005964916204859075,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006034,
-        "base_invalid": 0.005964916204859075,
-        "atr": 2.7225300939500985e-05,
-        "rvol": 8.38495929429807,
-        "close_position": 0.6388888888888892,
-        "breakout": true,
-        "bar_close_ms": 1793480400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7579105976895937,
-        "score": 7.638888888888889
-      },
-      "context": {
-        "atr": 2.699742416492517e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3825667836991786,
-        "btc_hour_pct": 0.15222785642046155,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZORAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793480400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZORAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1518571,6 +1518466,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793484594281
+    },
+    {
+      "id": "96e1bc472593eafc782953b6",
+      "asset_id": "7f9ef2fe75a28fe8435264f1",
+      "key": "MEXC:SPOT:ZORAUSDT",
+      "symbol": "ZORAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793485186137,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793485197048
     }
   ],
   "runs": [
@@ -1581437,8 +1581343,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cfcfc0ff268065a18ec4c3e240eaae725d4a8fc6",
-    "previous_success_ms": 1793484914707,
+    "previous_commit": "49ea2282f1a6b553a1ad591e803b293a479dba1e",
+    "previous_success_ms": 1793485195691,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
