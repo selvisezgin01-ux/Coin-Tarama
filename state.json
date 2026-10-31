@@ -1409913,60 +1409913,7 @@
       "source_close_ms": 1793434500000
     }
   },
-  "pending": [
-    {
-      "id": "037b7f82dd2ab099bca5a4f6",
-      "asset_id": "4f68eb9e26066d16794fa513",
-      "key": "MEXC:SPOT:RLCUSDT",
-      "symbol": "RLCUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793435266115,
-      "price": 0.47025,
-      "level": 0.4663,
-      "invalid": 0.4561619660528397,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4663,
-        "base_invalid": 0.4561619660528397,
-        "atr": 0.004253559647735262,
-        "rvol": 7.443590539284306,
-        "close_position": 0.6901408450704252,
-        "breakout": true,
-        "bar_close_ms": 1793434500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3405405405405357,
-        "score": 7.690140845070426
-      },
-      "context": {
-        "atr": 0.004253559647735262,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6368198777018774,
-        "btc_hour_pct": -0.05126359923735002,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RLCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793434500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1412695,6 +1412642,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793434683619
+    },
+    {
+      "id": "037b7f82dd2ab099bca5a4f6",
+      "asset_id": "4f68eb9e26066d16794fa513",
+      "key": "MEXC:SPOT:RLCUSDT",
+      "symbol": "RLCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793435266115,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793435280908
     }
   ],
   "runs": [
@@ -1433496,7 +1433454,8 @@
         "entry_seq": 0,
         "cohort": "RLCUSDT",
         "observation_lag_ms": 766115,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14793
       }
     },
     "errors": [],
@@ -1456802,8 +1456761,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1d297c1766cc55ec9fee0d2e66654f34989296a1",
-    "previous_success_ms": 1793435000452,
+    "previous_commit": "34a1a7238200cbc037807760ba9baeab4c34f782",
+    "previous_success_ms": 1793435279645,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
