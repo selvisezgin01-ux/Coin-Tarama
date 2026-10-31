@@ -1400410,162 +1400410,7 @@
       "source_close_ms": 1793426400000
     }
   },
-  "pending": [
-    {
-      "id": "bfa01d0c0c583402e068d309",
-      "asset_id": "fb08206b09b876affcc4da5e",
-      "key": "OKX:SPOT:TIAUSDT",
-      "symbol": "TIAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793427947222,
-      "price": 0.47885,
-      "level": 0.4717,
-      "invalid": 0.45905714298633266,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4717,
-        "base_invalid": 0.45905714298633266,
-        "atr": 0.0036190467577823745,
-        "rvol": 21.36158567860787,
-        "close_position": 0.9390243902439027,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.975420439844778,
-        "score": 7.939024390243903
-      },
-      "context": {
-        "atr": 0.0036190467577823745,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2711473623178815,
-        "btc_hour_pct": 0.08514973133120218,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:TIAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5c40a3c51fa68441fee99d15",
-      "asset_id": "db23f3c8633c5635a46f627c",
-      "key": "OKX:PERP:DOSUSDT",
-      "symbol": "DOSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793427946180,
-      "price": 0.2137,
-      "level": 0.211,
-      "invalid": 0.2064542096291539,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.211,
-        "base_invalid": 0.2064542096291539,
-        "atr": 0.002305269138974149,
-        "rvol": 4.715338442212084,
-        "close_position": 0.7499999999999986,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.55791505791505,
-        "score": 6.465338442212082
-      },
-      "context": {
-        "atr": 0.002305269138974149,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5794135211255824,
-        "btc_hour_pct": 0.0946355881666694,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DOSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f1d0b85772179b64ff8105b3",
-      "asset_id": "b0c1cefb681bc293046424e4",
-      "key": "MEXC:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793427944486,
-      "price": 1.71,
-      "level": 1.7133,
-      "invalid": 1.683896382556186,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7133,
-        "base_invalid": 1.683896382556186,
-        "atr": 0.015357449625426758,
-        "rvol": 4.764089019335759,
-        "close_position": 0.8794642857142803,
-        "breakout": false,
-        "bar_close_ms": 1793427300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3050032259956481,
-        "score": 6.143553305050039
-      },
-      "context": {
-        "atr": 0.015357449625426758,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7409848786338658,
-        "btc_hour_pct": 0.08305149438903037,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1402953,6 +1402798,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793427658539
+    },
+    {
+      "id": "bfa01d0c0c583402e068d309",
+      "asset_id": "fb08206b09b876affcc4da5e",
+      "key": "OKX:SPOT:TIAUSDT",
+      "symbol": "TIAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793427947222,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427955597
+    },
+    {
+      "id": "5c40a3c51fa68441fee99d15",
+      "asset_id": "db23f3c8633c5635a46f627c",
+      "key": "OKX:PERP:DOSUSDT",
+      "symbol": "DOSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793427946180,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427955597
+    },
+    {
+      "id": "f1d0b85772179b64ff8105b3",
+      "asset_id": "b0c1cefb681bc293046424e4",
+      "key": "MEXC:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793427944486,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427955597
     }
   ],
   "runs": [
@@ -1421388,7 +1421266,8 @@
         "entry_seq": 0,
         "cohort": "TIAUSDT",
         "observation_lag_ms": 647222,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8375
       },
       "db23f3c8633c5635a46f627c:radar": {
         "symbol": "DOSUSDT",
@@ -1421410,7 +1421289,8 @@
         "entry_seq": 0,
         "cohort": "DOSUSDT",
         "observation_lag_ms": 646180,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9417
       },
       "b0c1cefb681bc293046424e4:radar": {
         "symbol": "ZROUSDT",
@@ -1421432,7 +1421312,8 @@
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 644486,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11111
       }
     },
     "errors": [],
@@ -1444479,8 +1444360,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3b6d4f12d60b0bc5b2f525768649ac2a2944a3b2",
-    "previous_success_ms": 1793427677346,
+    "previous_commit": "bab82be65765fa94f67584a2530b4ff46bb08e89",
+    "previous_success_ms": 1793427954273,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
