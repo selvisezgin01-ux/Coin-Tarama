@@ -88,13 +88,13 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 8632 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 8631 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | Jesus `0x3a4529ecfe6bf62fa9608a17a96ed9b3f0744926` | robinhood | 31.10.2026 12:01 | 71939.0 | Bekliyor |
+| 🟡 ERKEN RADAR | Jesus `0x3a4529ecfe6bf62fa9608a17a96ed9b3f0744926` | robinhood | 31.10.2026 12:01 | 71939.0 | [Issue #403](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/403) |
 | 🟡 ERKEN RADAR | NVIDIA `sZ8KtrJQL4FBTHeRbdni32befEt4iMH3AEXCxRwpump` | solana | 31.10.2026 11:58 | 132848.0 | [Issue #402](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/402) |
 | 🟡 ERKEN RADAR | OVER `BEoba59Expa7jv7S5LyYVKHWuS5rvoyjCLmArq7Hpump` | solana | 31.10.2026 11:57 | 52913.0 | [Issue #401](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/401) |
 | 🟡 ERKEN RADAR | PLCOURT `39A7Qvqz5FY1uhsVEYh6SCcmt4je6GvcKjN6nR28pump` | solana | 31.10.2026 11:57 | 68731.0 | [Issue #400](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/400) |
@@ -1737,7 +1737,6 @@ Kimlik defteri: 8632 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `hyperevm:0x06d1a22cb3a036b9e5c8bdedc8d12b2255b5963c` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x16a23e530f247a1eb81de7724ca33c246bcfdafc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x18cef5ac0744fc835bda41e72544154a34867980` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
-| `hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x389ff560781bd54034e9ad829a965f1b78253b9f` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x5ccde4afec441515466648f9cd94413211d1cfec` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x656a3feb07aad5cb04b06e40e459e6974ddea19a` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
