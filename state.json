@@ -1478838,60 +1478838,7 @@
       "source_close_ms": 1793457000000
     }
   },
-  "pending": [
-    {
-      "id": "ccb48553ca3bd90ac3425479",
-      "asset_id": "43611c266b22abc5aed4c494",
-      "key": "OKX:SPOT:SHIBUSDT",
-      "symbol": "SHIBUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793458775491,
-      "price": 4.7155e-06,
-      "level": 4.724e-06,
-      "invalid": 4.699633852649759e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.724e-06,
-        "base_invalid": 4.699633852649759e-06,
-        "atr": 9.107649001608359e-09,
-        "rvol": 3.45911150985874,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793457900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.1912858660998884,
-        "score": 4.95911150985874
-      },
-      "context": {
-        "atr": 9.107649001608359e-09,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.0622902201604103,
-        "btc_hour_pct": -0.04386689236612895,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SHIBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793457900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SHIBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1482643,6 +1482590,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793458488857
+    },
+    {
+      "id": "ccb48553ca3bd90ac3425479",
+      "asset_id": "43611c266b22abc5aed4c494",
+      "key": "OKX:SPOT:SHIBUSDT",
+      "symbol": "SHIBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793458775491,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793458788025
     }
   ],
   "runs": [
@@ -1511027,7 +1510985,8 @@
         "entry_seq": 0,
         "cohort": "SHIBUSDT",
         "observation_lag_ms": 875491,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12534
       }
     },
     "errors": [],
@@ -1535484,8 +1535443,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fbeacdd17b2315376c7871ec66eb0ec5fb4e68ed",
-    "previous_success_ms": 1793458505877,
+    "previous_commit": "339128a230f0c448cf8f6d54935364f2b94e6545",
+    "previous_success_ms": 1793458786589,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
