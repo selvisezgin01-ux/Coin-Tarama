@@ -1477961,168 +1477961,7 @@
       "source_close_ms": 1793457000000
     }
   },
-  "pending": [
-    {
-      "id": "7b0096bb8991ffc1ab9143b3",
-      "asset_id": "0e66fb53f18d4e6993a54331",
-      "key": "OKX:PERP:CELOUSDT",
-      "symbol": "CELOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793459080447,
-      "price": 0.076105,
-      "level": 0.0762,
-      "invalid": 0.07467485178632442,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0762,
-        "base_invalid": 0.07467485178632442,
-        "atr": 0.0006343214245038675,
-        "rvol": 5.117061985165456,
-        "close_position": 0.9203539823008794,
-        "breakout": true,
-        "bar_close_ms": 1793457000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.169572740582981,
-        "score": 7.037415967466336
-      },
-      "context": {
-        "atr": 0.0007351290325614899,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.25045630896003424,
-        "btc_hour_pct": -0.11851278079009209,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CELOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793457000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CELOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2e9f198febe2c777b00adc84",
-      "asset_id": "61862bd789d7e3a60e0829e0",
-      "key": "MEXC:SPOT:ARBUSDT",
-      "symbol": "ARBUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793459080791,
-      "price": 0.16345500000000002,
-      "level": 0.16252,
-      "invalid": 0.16125982921968235,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.16252,
-        "base_invalid": 0.16125982921968235,
-        "atr": 0.0006011385354509662,
-        "rvol": 4.266929512605523,
-        "close_position": 0.9726027397260003,
-        "breakout": true,
-        "bar_close_ms": 1793458800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.083725538766389,
-        "score": 6.239532252331523
-      },
-      "context": {
-        "atr": 0.0006011385354509662,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1941503224506267,
-        "btc_hour_pct": -0.11042478368423758,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ARBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793458800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ec1b2be9df40f70d118c7016",
-      "asset_id": "afac2a3983832875366af0ba",
-      "key": "MEXC:PERP:CTUSDT",
-      "symbol": "CTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793459079449,
-      "price": 0.140735,
-      "level": 0.14037,
-      "invalid": 0.13783483716463146,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.14037,
-        "base_invalid": 0.13783483716463146,
-        "atr": 0.0011677522357902525,
-        "rvol": 2.780923702415807,
-        "close_position": 0.623762376237626,
-        "breakout": true,
-        "bar_close_ms": 1793458800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0646716063592576,
-        "score": 4.404686078653433
-      },
-      "context": {
-        "atr": 0.0011677522357902525,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.186642973419505,
-        "btc_hour_pct": -0.12197136706024736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CTUSDT",
-          "change_pct": -0.02849547820108489,
-          "old_ms": 1793455466290,
-          "current_ms": 1793459076318,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793458800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1481885,6 +1481724,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793458788025
+    },
+    {
+      "id": "7b0096bb8991ffc1ab9143b3",
+      "asset_id": "0e66fb53f18d4e6993a54331",
+      "key": "OKX:PERP:CELOUSDT",
+      "symbol": "CELOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793459080447,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793459094848
+    },
+    {
+      "id": "2e9f198febe2c777b00adc84",
+      "asset_id": "61862bd789d7e3a60e0829e0",
+      "key": "MEXC:SPOT:ARBUSDT",
+      "symbol": "ARBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793459080791,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793459094848
+    },
+    {
+      "id": "ec1b2be9df40f70d118c7016",
+      "asset_id": "afac2a3983832875366af0ba",
+      "key": "MEXC:PERP:CTUSDT",
+      "symbol": "CTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793459079449,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793459094848
     }
   ],
   "runs": [
@@ -1510398,7 +1510270,8 @@
         "entry_seq": 0,
         "cohort": "ARBUSDT",
         "observation_lag_ms": 280791,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14057
       },
       "afac2a3983832875366af0ba:radar": {
         "symbol": "CTUSDT",
@@ -1510420,7 +1510293,8 @@
         "entry_seq": 0,
         "cohort": "CTUSDT",
         "observation_lag_ms": 279449,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15399
       }
     },
     "errors": [],
@@ -1534927,8 +1534801,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "90614a5a972cff445357d97335ca8fc03cdde7b1",
-    "previous_success_ms": 1793458806155,
+    "previous_commit": "ec58492f769cbd6e0d20e2fac74f1e8bde67453b",
+    "previous_success_ms": 1793459093551,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
