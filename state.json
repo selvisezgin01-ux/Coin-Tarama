@@ -1509706,266 +1509706,7 @@
       "source_close_ms": 1793480400000
     }
   },
-  "pending": [
-    {
-      "id": "8fd25c5763d75570603a0221",
-      "asset_id": "c19b0448f121602f383690b4",
-      "key": "OKX:PERP:MORPHOUSDT",
-      "symbol": "MORPHOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793480816806,
-      "price": 2.3929,
-      "level": 2.2243,
-      "invalid": 2.1642309891824913,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.2243,
-        "base_invalid": 2.1642309891824913,
-        "atr": 0.01779340545005758,
-        "rvol": 6.458472434516385,
-        "close_position": 0.8971428571428562,
-        "breakout": true,
-        "bar_close_ms": 1793458800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6416425470332952,
-        "score": 7.897142857142856
-      },
-      "context": {
-        "atr": 0.029589839818874013,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0088304285809424,
-        "btc_hour_pct": -0.0300513710776662,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MORPHOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793458800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MORPHOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7e369b15d49d0341544a074f",
-      "asset_id": "61862bd789d7e3a60e0829e0",
-      "key": "MEXC:SPOT:ARBUSDT",
-      "symbol": "ARBUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793480816866,
-      "price": 0.16375499999999998,
-      "level": 0.16252,
-      "invalid": 0.16125982921968235,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.16252,
-        "base_invalid": 0.16125982921968235,
-        "atr": 0.0006011385354509662,
-        "rvol": 4.266929512605523,
-        "close_position": 0.9726027397260003,
-        "breakout": true,
-        "bar_close_ms": 1793458800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.083725538766389,
-        "score": 6.239532252331523
-      },
-      "context": {
-        "atr": 0.0006099372255754697,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.17963364510318325,
-        "btc_hour_pct": -0.008411239428385286,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ARBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793458800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "36e46e88f0f0ec62497e9d24",
-      "asset_id": "68b2a90f648130c1043834a5",
-      "key": "OKX:PERP:AEONUSDT",
-      "symbol": "AEONUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793480816806,
-      "price": 0.023594999999999998,
-      "level": 0.02432,
-      "invalid": 0.02361494940957506,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02432,
-        "base_invalid": 0.02361494940957506,
-        "atr": 0.00023367060283292884,
-        "rvol": 3.3488686058531068,
-        "close_position": 0.8723404255319196,
-        "breakout": false,
-        "bar_close_ms": 1793469600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.45738045738046296,
-        "score": 4.721209031385026
-      },
-      "context": {
-        "atr": 0.00016804266550058455,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.597826402049173,
-        "btc_hour_pct": -0.0300513710776662,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AEONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793469600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "85be3e2da4c1f452d910e962",
-      "asset_id": "fdd959070afdd769b1a714ab",
-      "key": "OKX:SPOT:AEONUSDT",
-      "symbol": "AEONUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793480815101,
-      "price": 0.023655,
-      "level": 0.02441,
-      "invalid": 0.02377080064655074,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02441,
-        "base_invalid": 0.02377080064655074,
-        "atr": 0.00019466235632840362,
-        "rvol": 2.9873398364236485,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793469600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3311258278145601,
-        "score": 4.487339836423649
-      },
-      "context": {
-        "atr": 0.00010696910358826717,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.18598416810761131,
-        "btc_hour_pct": -0.022696967117752376,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AEONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793469600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "61186de41ddd68733c8fad3b",
-      "asset_id": "7f9ef2fe75a28fe8435264f1",
-      "key": "MEXC:SPOT:ZORAUSDT",
-      "symbol": "ZORAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793480816866,
-      "price": 0.006086,
-      "level": 0.006034,
-      "invalid": 0.005964916204859075,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006034,
-        "base_invalid": 0.005964916204859075,
-        "atr": 2.7225300939500985e-05,
-        "rvol": 8.38495929429807,
-        "close_position": 0.6388888888888892,
-        "breakout": true,
-        "bar_close_ms": 1793480400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7579105976895937,
-        "score": 7.638888888888889
-      },
-      "context": {
-        "atr": 2.7225300939500985e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.766321837117979,
-        "btc_hour_pct": -0.008411239428385286,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZORAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793480400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZORAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1514586,6 +1514327,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793480533994
+    },
+    {
+      "id": "7e369b15d49d0341544a074f",
+      "asset_id": "61862bd789d7e3a60e0829e0",
+      "key": "MEXC:SPOT:ARBUSDT",
+      "symbol": "ARBUSDT",
+      "phase": "expired",
+      "observed_ms": 1793480816866,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793480829326
+    },
+    {
+      "id": "36e46e88f0f0ec62497e9d24",
+      "asset_id": "68b2a90f648130c1043834a5",
+      "key": "OKX:PERP:AEONUSDT",
+      "symbol": "AEONUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793480816806,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793480829326
+    },
+    {
+      "id": "61186de41ddd68733c8fad3b",
+      "asset_id": "7f9ef2fe75a28fe8435264f1",
+      "key": "MEXC:SPOT:ZORAUSDT",
+      "symbol": "ZORAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793480816866,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793480829326
     }
   ],
   "runs": [
@@ -1550563,7 +1550337,8 @@
         "entry_seq": 0,
         "cohort": "ZORAUSDT",
         "observation_lag_ms": 416866,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12460
       }
     },
     "errors": [],
@@ -1575908,8 +1575683,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b04958dab06ff65857fcf26d2d22deb63c12ee41",
-    "previous_success_ms": 1793480554920,
+    "previous_commit": "12a2502cece2b72ca84edcb8a9905b53da28e3b6",
+    "previous_success_ms": 1793480827741,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
