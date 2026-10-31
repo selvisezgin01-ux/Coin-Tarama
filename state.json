@@ -1494691,110 +1494691,7 @@
       "source_close_ms": 1793461500000
     }
   },
-  "pending": [
-    {
-      "id": "479ce41ab890087de6640dd3",
-      "asset_id": "dca64d0a6afd12b07ec471c5",
-      "key": "OKX:SPOT:REUSDT",
-      "symbol": "REUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793462835886,
-      "price": 0.364175,
-      "level": 0.36033,
-      "invalid": 0.34678500366594184,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.36033,
-        "base_invalid": 0.34678500366594184,
-        "atr": 0.0034333088937211604,
-        "rvol": 5.914542863418954,
-        "close_position": 0.789473684210531,
-        "breakout": true,
-        "bar_close_ms": 1793462400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.126875696687348,
-        "score": 7.704016547629485
-      },
-      "context": {
-        "atr": 0.0034333088937211604,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.8941225016619,
-        "btc_hour_pct": 0.232753195025448,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:REUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793462400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "REUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "26af97a688423bef300ce68e",
-      "asset_id": "92fc396d0e4488dc7e76a5df",
-      "key": "OKX:SPOT:CTUSDT",
-      "symbol": "CTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793462835886,
-      "price": 0.14397500000000002,
-      "level": 0.14232,
-      "invalid": 0.1381399754623171,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.14232,
-        "base_invalid": 0.1381399754623171,
-        "atr": 0.0014001635845526394,
-        "rvol": 5.179779362776671,
-        "close_position": 0.8703703703703689,
-        "breakout": true,
-        "bar_close_ms": 1793462400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9992163567713837,
-        "score": 7.050149733147039
-      },
-      "context": {
-        "atr": 0.0014001635845526394,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.7664631617459357,
-        "btc_hour_pct": 0.232753195025448,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793462400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1498711,6 +1498608,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793462557363
+    },
+    {
+      "id": "479ce41ab890087de6640dd3",
+      "asset_id": "dca64d0a6afd12b07ec471c5",
+      "key": "OKX:SPOT:REUSDT",
+      "symbol": "REUSDT",
+      "phase": "radar",
+      "observed_ms": 1793462835886,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793462845940
+    },
+    {
+      "id": "26af97a688423bef300ce68e",
+      "asset_id": "92fc396d0e4488dc7e76a5df",
+      "key": "OKX:SPOT:CTUSDT",
+      "symbol": "CTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793462835886,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793462845941
     }
   ],
   "runs": [
@@ -1528488,7 +1528407,8 @@
         "entry_seq": 0,
         "cohort": "REUSDT",
         "observation_lag_ms": 435886,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10054
       },
       "92fc396d0e4488dc7e76a5df:radar": {
         "symbol": "CTUSDT",
@@ -1528510,7 +1528430,8 @@
         "entry_seq": 0,
         "cohort": "CTUSDT",
         "observation_lag_ms": 435886,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10055
       }
     },
     "errors": [],
@@ -1553311,8 +1553232,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5d1d59e78c2ace0db3852ad0110d276e4af876fc",
-    "previous_success_ms": 1793462580576,
+    "previous_commit": "fd2b5dd376693f5e9d0d31600ade9d5a4a2ea541",
+    "previous_success_ms": 1793462845094,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
