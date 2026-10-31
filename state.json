@@ -1420097,114 +1420097,7 @@
       "source_close_ms": 1793440800000
     }
   },
-  "pending": [
-    {
-      "id": "dde089659385296e1f4b332d",
-      "asset_id": "7d705627c9a569eac4d36889",
-      "key": "OKX:SPOT:HBARUSDT",
-      "symbol": "HBARUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793441103260,
-      "price": 0.072265,
-      "level": 0.07198,
-      "invalid": 0.0712858085626796,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07198,
-        "base_invalid": 0.0712858085626796,
-        "atr": 0.00022794291546929216,
-        "rvol": 4.877976749206579,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793435400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7979840403191885,
-        "score": 6.877976749206579
-      },
-      "context": {
-        "atr": 0.0002217610417642923,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.0446427266775018,
-        "btc_hour_pct": 0.13528806917024738,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:HBARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HBARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ab0747d1a6ea8849c1a828e5",
-      "asset_id": "f11c701bb483daa31acd43f8",
-      "key": "MEXC:PERP:UAIUSDT",
-      "symbol": "UAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793441101143,
-      "price": 0.29585,
-      "level": 0.2866,
-      "invalid": 0.2704504933514051,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2866,
-        "base_invalid": 0.2704504933514051,
-        "atr": 0.004330044323966271,
-        "rvol": 81.32957334695666,
-        "close_position": 0.923076923076922,
-        "breakout": true,
-        "bar_close_ms": 1793440800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.712626995645854,
-        "score": 7.923076923076922
-      },
-      "context": {
-        "atr": 0.004330044323966271,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 6.565835963995892,
-        "btc_hour_pct": 0.1467910316499621,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:UAIUSDT",
-          "change_pct": 14.948242505518294,
-          "old_ms": 1793437359285,
-          "current_ms": 1793441098307,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.012,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793440800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1423186,6 +1423079,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793440082946
+    },
+    {
+      "id": "dde089659385296e1f4b332d",
+      "asset_id": "7d705627c9a569eac4d36889",
+      "key": "OKX:SPOT:HBARUSDT",
+      "symbol": "HBARUSDT",
+      "phase": "expired",
+      "observed_ms": 1793441103260,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793441112908
+    },
+    {
+      "id": "ab0747d1a6ea8849c1a828e5",
+      "asset_id": "f11c701bb483daa31acd43f8",
+      "key": "MEXC:PERP:UAIUSDT",
+      "symbol": "UAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793441101143,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793441112908
     }
   ],
   "runs": [
@@ -1445950,7 +1445865,8 @@
         "entry_seq": 0,
         "cohort": "UAIUSDT",
         "observation_lag_ms": 301143,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11765
       }
     },
     "errors": [],
@@ -1469550,8 +1469466,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "98286ebbe69ed41988f8eed7288c7b9dd7a560ac",
-    "previous_success_ms": 1793441087066,
+    "previous_commit": "63d432a8ade9b3cadc54671bba1bddbc2386a36d",
+    "previous_success_ms": 1793441111712,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
