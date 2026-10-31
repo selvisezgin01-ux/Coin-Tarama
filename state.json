@@ -1514213,58 +1514213,7 @@
       "source_close_ms": 1793475900000
     }
   },
-  "pending": [
-    {
-      "id": "82a9795cc09bf54cb54beb63",
-      "asset_id": "6f4d0cc8e510b00aae3df4ea",
-      "key": "OKX:PERP:LITUSDT",
-      "symbol": "LITUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793476020917,
-      "price": 3.0736,
-      "level": 2.9777,
-      "invalid": 2.8803489009884204,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.9777,
-        "base_invalid": 2.8803489009884204,
-        "atr": 0.03367399341053066,
-        "rvol": 2.9883636386033308,
-        "close_position": 0.9632107023411413,
-        "breakout": true,
-        "bar_close_ms": 1793470500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2791953557445668,
-        "score": 4.951574340944472
-      },
-      "context": {
-        "atr": 0.03998900026930989,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.204903434974481,
-        "btc_hour_pct": -0.10572485268058873,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793470500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1518665,6 +1518614,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793475134067
+    },
+    {
+      "id": "82a9795cc09bf54cb54beb63",
+      "asset_id": "6f4d0cc8e510b00aae3df4ea",
+      "key": "OKX:PERP:LITUSDT",
+      "symbol": "LITUSDT",
+      "phase": "expired",
+      "observed_ms": 1793476020917,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793476034028
     }
   ],
   "runs": [
@@ -1578129,8 +1578089,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cb1d31193c469d8d508bd2db95d8790b071069a8",
-    "previous_success_ms": 1793475750119,
+    "previous_commit": "9b739cc7ad2161f5e778d9f106618a0fd0f8c08e",
+    "previous_success_ms": 1793476032492,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
