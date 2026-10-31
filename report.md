@@ -94,7 +94,7 @@ Kimlik defteri: 16028 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | GOAT `0x794280812c2d14ea9ccf1aa2190e94b19a1b2c75` | robinhood | 31.10.2026 22:50 | 83157.0 | Bekliyor |
+| 🟡 ERKEN RADAR | GOAT `0x794280812c2d14ea9ccf1aa2190e94b19a1b2c75` | robinhood | 31.10.2026 22:50 | 83157.0 | [Issue #657](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/657) |
 | 🟡 ERKEN RADAR | paws `0x181d4651a36caa21a1bd8b5a42c560221e77bcb8` | robinhood | 31.10.2026 22:38 | 237113.0 | [Issue #653](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/653) |
 | 🟡 ERKEN RADAR | DOG `0x1e2327f8ff839e185a6bffe960aa218d473b1bff` | bnb | 31.10.2026 22:32 | 219380.0 | [Issue #650](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/650) |
 | 🟡 ERKEN RADAR | Halloween `EHiUXcZtmdrsw3ZF9LAPkVFTQijPUxewhs3dozhT1cAa` | solana | 31.10.2026 22:23 | 204150.0 | Bayat/iptal — gönderilmedi |
