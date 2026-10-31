@@ -1512730,60 +1512730,7 @@
       "source_close_ms": 1793468700000
     }
   },
-  "pending": [
-    {
-      "id": "2b23d610f880284df6b4ee4e",
-      "asset_id": "68b2a90f648130c1043834a5",
-      "key": "OKX:PERP:AEONUSDT",
-      "symbol": "AEONUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793470183413,
-      "price": 0.024105,
-      "level": 0.02432,
-      "invalid": 0.02361494940957506,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02432,
-        "base_invalid": 0.02361494940957506,
-        "atr": 0.00023367060283292884,
-        "rvol": 3.3488686058531068,
-        "close_position": 0.8723404255319196,
-        "breakout": false,
-        "bar_close_ms": 1793469600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.45738045738046296,
-        "score": 4.721209031385026
-      },
-      "context": {
-        "atr": 0.00023367060283292884,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3347646008680982,
-        "btc_hour_pct": 0.12261585651236473,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AEONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793469600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1516931,6 +1516878,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793469899621
+    },
+    {
+      "id": "2b23d610f880284df6b4ee4e",
+      "asset_id": "68b2a90f648130c1043834a5",
+      "key": "OKX:PERP:AEONUSDT",
+      "symbol": "AEONUSDT",
+      "phase": "radar",
+      "observed_ms": 1793470183413,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793470194758
     }
   ],
   "runs": [
@@ -1549043,7 +1549001,8 @@
         "entry_seq": 0,
         "cohort": "AEONUSDT",
         "observation_lag_ms": 583413,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11345
       }
     },
     "errors": [],
@@ -1574140,8 +1574099,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "78ac13a0a155bb506ad669b994da5df1b8ff481b",
-    "previous_success_ms": 1793469918374,
+    "previous_commit": "87bd11be130f67e4f96abb93e36c1e24a0b721b1",
+    "previous_success_ms": 1793470193714,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
