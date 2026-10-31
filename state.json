@@ -1386862,58 +1386862,7 @@
       "source_close_ms": 1793401200000
     }
   },
-  "pending": [
-    {
-      "id": "e0515487d43a44f711d5d8ce",
-      "asset_id": "2058d3199274e45a05746985",
-      "key": "MEXC:SPOT:BULLAUSDT",
-      "symbol": "BULLAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793421262742,
-      "price": 0.0819365,
-      "level": 0.080636,
-      "invalid": 0.07566911785785936,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.080636,
-        "base_invalid": 0.07566911785785936,
-        "atr": 0.001305880947604306,
-        "rvol": 29.733954481832132,
-        "close_position": 0.9268376068376047,
-        "breakout": true,
-        "bar_close_ms": 1793421000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9901744535792965,
-        "score": 7.926837606837605
-      },
-      "context": {
-        "atr": 0.001305880947604306,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5782294913421526,
-        "btc_hour_pct": -0.35473569897014334,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BULLAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793421000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BULLAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1389059,6 +1389008,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793420270185
+    },
+    {
+      "id": "e0515487d43a44f711d5d8ce",
+      "asset_id": "2058d3199274e45a05746985",
+      "key": "MEXC:SPOT:BULLAUSDT",
+      "symbol": "BULLAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793421262742,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793421274510
     }
   ],
   "runs": [
@@ -1405337,7 +1405297,8 @@
         "entry_seq": 0,
         "cohort": "BULLAUSDT",
         "observation_lag_ms": 262742,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11768
       }
     },
     "errors": [],
@@ -1428130,8 +1428091,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e444722c412cc6b31d7624540949f5f781e791d5",
-    "previous_success_ms": 1793420986870,
+    "previous_commit": "4d674eafe97bf35af6b081c36fdbebe1c20c1437",
+    "previous_success_ms": 1793421273087,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
