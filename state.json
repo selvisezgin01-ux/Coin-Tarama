@@ -1433410,58 +1433410,7 @@
       "source_close_ms": 1793444400000
     }
   },
-  "pending": [
-    {
-      "id": "a05c10146d7636e9c423d9a4",
-      "asset_id": "05f69a5a02b89b1b2e0de697",
-      "key": "MEXC:SPOT:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793444994549,
-      "price": 0.01421,
-      "level": 0.01444,
-      "invalid": 0.01323357282673171,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01444,
-        "base_invalid": 0.01323357282673171,
-        "atr": 0.00017618115512192957,
-        "rvol": 10.069077106344588,
-        "close_position": 0.6521739130434763,
-        "breakout": false,
-        "bar_close_ms": 1793422800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9852216748768461,
-        "score": 7.152173913043477
-      },
-      "context": {
-        "atr": 0.00018219365058661714,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.0602866153163313,
-        "btc_hour_pct": -0.07023686407253704,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LYNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793422800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1436597,6 +1436546,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793444715114
+    },
+    {
+      "id": "a05c10146d7636e9c423d9a4",
+      "asset_id": "05f69a5a02b89b1b2e0de697",
+      "key": "MEXC:SPOT:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "expired",
+      "observed_ms": 1793444994549,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793445007182
     }
   ],
   "runs": [
@@ -1484403,8 +1484363,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6d11b3be91d961347caf95097ac8999af4eaf66c",
-    "previous_success_ms": 1793444735360,
+    "previous_commit": "65997ac62e0e47f13667c4c0700fa6f15d8fd429",
+    "previous_success_ms": 1793445006013,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
