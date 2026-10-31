@@ -1302914,166 +1302914,7 @@
       "source_close_ms": 1793407500000
     }
   },
-  "pending": [
-    {
-      "id": "422b1230c82259b0d861cb5d",
-      "asset_id": "fb6a616c2d201776ef819e5b",
-      "key": "MEXC:PERP:IMXUSDT",
-      "symbol": "IMXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793408167132,
-      "price": 0.12764999999999999,
-      "level": 0.1264,
-      "invalid": 0.12364879441681373,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1264,
-        "base_invalid": 0.12364879441681373,
-        "atr": 0.0010080372212418085,
-        "rvol": 5.497675576784636,
-        "close_position": 0.8666666666666629,
-        "breakout": true,
-        "bar_close_ms": 1793407500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8737092930897417,
-        "score": 7.364342243451299
-      },
-      "context": {
-        "atr": 0.0010080372212418085,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8557370387099139,
-        "btc_hour_pct": 0.5152307032255665,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:IMXUSDT",
-          "change_pct": -1.4687537890598956,
-          "old_ms": 1793404451267,
-          "current_ms": 1793408164019,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0026,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "20f8b98246581b145a7d4666",
-      "asset_id": "8fa09f7ccae2a41d1fb1a997",
-      "key": "OKX:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793408169841,
-      "price": 0.78125,
-      "level": 0.78,
-      "invalid": 0.7715602238403886,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.78,
-        "base_invalid": 0.7715602238403886,
-        "atr": 0.003598507730742582,
-        "rvol": 3.8327095127252786,
-        "close_position": 0.9090909090909183,
-        "breakout": false,
-        "bar_close_ms": 1793407500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6198347107438051,
-        "score": 5.241800421816197
-      },
-      "context": {
-        "atr": 0.003598507730742582,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.9258851168866378,
-        "btc_hour_pct": 0.5143624831417837,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DGAIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "11c8125b0363c61d49842831",
-      "asset_id": "fdc070cc0e1a041352198632",
-      "key": "OKX:PERP:REUSDT",
-      "symbol": "REUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793408169841,
-      "price": 0.38363,
-      "level": 0.37882,
-      "invalid": 0.3721364877651549,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.37882,
-        "base_invalid": 0.3721364877651549,
-        "atr": 0.0024234148989671638,
-        "rvol": 2.2370936804748944,
-        "close_position": 0.9501661129568163,
-        "breakout": true,
-        "bar_close_ms": 1793407500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5931372549019551,
-        "score": 4.187259793431711
-      },
-      "context": {
-        "atr": 0.0024234148989671638,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.1428439869888498,
-        "btc_hour_pct": 0.5143624831417837,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:REUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "REUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1304625,6 +1304466,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793407587041
+    },
+    {
+      "id": "422b1230c82259b0d861cb5d",
+      "asset_id": "fb6a616c2d201776ef819e5b",
+      "key": "MEXC:PERP:IMXUSDT",
+      "symbol": "IMXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793408167132,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793408179238
+    },
+    {
+      "id": "20f8b98246581b145a7d4666",
+      "asset_id": "8fa09f7ccae2a41d1fb1a997",
+      "key": "OKX:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793408169841,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793408179238
+    },
+    {
+      "id": "11c8125b0363c61d49842831",
+      "asset_id": "fdc070cc0e1a041352198632",
+      "key": "OKX:PERP:REUSDT",
+      "symbol": "REUSDT",
+      "phase": "radar",
+      "observed_ms": 1793408169841,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793408179238
     }
   ],
   "runs": [
@@ -1316611,7 +1316485,8 @@
         "entry_seq": 0,
         "cohort": "IMXUSDT",
         "observation_lag_ms": 667132,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12106
       },
       "8fa09f7ccae2a41d1fb1a997:radar": {
         "symbol": "DGAIUSDT",
@@ -1316633,7 +1316508,8 @@
         "entry_seq": 0,
         "cohort": "DGAIUSDT",
         "observation_lag_ms": 669841,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9397
       },
       "fdc070cc0e1a041352198632:radar": {
         "symbol": "REUSDT",
@@ -1316655,7 +1316531,8 @@
         "entry_seq": 0,
         "cohort": "REUSDT",
         "observation_lag_ms": 669841,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9397
       }
     },
     "errors": [],
@@ -1339099,8 +1338976,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e67d41e81ab4ef5b6ba359560463a6942a10f6f0",
-    "previous_success_ms": 1793407898280,
+    "previous_commit": "ba18a638bb2e0e7cf2509d5df29bfef7c73b00bd",
+    "previous_success_ms": 1793408178086,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
