@@ -1434986,266 +1434986,7 @@
       "source_close_ms": 1793443500000
     }
   },
-  "pending": [
-    {
-      "id": "28a0dbffea4ee03d703a46e9",
-      "asset_id": "df95615d2d99aeb66f5999ae",
-      "key": "OKX:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793443800528,
-      "price": 1.7420499999999999,
-      "level": 1.7283,
-      "invalid": 1.6731087772342599,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7283,
-        "base_invalid": 1.6731087772342599,
-        "atr": 0.01527481843826699,
-        "rvol": 4.8053295548268435,
-        "close_position": 0.8879310344827523,
-        "breakout": false,
-        "bar_close_ms": 1793435400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.38260050620990693,
-        "score": 6.193260589309596
-      },
-      "context": {
-        "atr": 0.01591926165413047,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2962424256513829,
-        "btc_hour_pct": 0.13528806917024738,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "71ee480c5b7dc257158e136d",
-      "asset_id": "7e4ed211a88edb85c8e6a371",
-      "key": "OKX:PERP:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793443799497,
-      "price": 1.7416,
-      "level": 1.7274,
-      "invalid": 1.6732670018796432,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7274,
-        "base_invalid": 1.6732670018796432,
-        "atr": 0.0155533208023788,
-        "rvol": 4.339273309553145,
-        "close_position": 0.9112627986348147,
-        "breakout": true,
-        "bar_close_ms": 1793437200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.823153409090917,
-        "score": 6.25053610818796
-      },
-      "context": {
-        "atr": 0.015187165692745362,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.30123791739704586,
-        "btc_hour_pct": 0.13622250970246608,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793437200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5bd6479b4f262b5f015a21b4",
-      "asset_id": "2998c0811ad44587c98e6430",
-      "key": "OKX:PERP:OLUSDT",
-      "symbol": "OLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793443799497,
-      "price": 0.0064965000000000005,
-      "level": 0.006427,
-      "invalid": 0.006186853449921378,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006427,
-        "base_invalid": 0.006186853449921378,
-        "atr": 7.431033385748179e-05,
-        "rvol": 11.753874564313964,
-        "close_position": 0.7741935483870948,
-        "breakout": true,
-        "bar_close_ms": 1793443500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.6345024599269795,
-        "score": 7.774193548387094
-      },
-      "context": {
-        "atr": 7.431033385748179e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.538801598301375,
-        "btc_hour_pct": 0.13622250970246608,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793443500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "eba720b077b035b131dce466",
-      "asset_id": "61ab98d483d704efc6f33624",
-      "key": "MEXC:PERP:POWRUSDT",
-      "symbol": "POWRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793443801043,
-      "price": 0.057510000000000006,
-      "level": 0.05717,
-      "invalid": 0.05547007255393791,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05717,
-        "base_invalid": 0.05547007255393791,
-        "atr": 0.00039951630708061185,
-        "rvol": 4.723728421527672,
-        "close_position": 0.6470588235294058,
-        "breakout": true,
-        "bar_close_ms": 1793443500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5439219165927387,
-        "score": 6.370787245057078
-      },
-      "context": {
-        "atr": 0.00039951630708061185,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6923448369449359,
-        "btc_hour_pct": 0.1467910316499621,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:POWRUSDT",
-          "change_pct": 9.020291529550128,
-          "old_ms": 1793440056776,
-          "current_ms": 1793443797861,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0112,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793443500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POWRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7e172515152877fb92f1cc7f",
-      "asset_id": "f34435bd42953548beb5e76c",
-      "key": "OKX:SPOT:OLUSDT",
-      "symbol": "OLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793443800528,
-      "price": 0.006506,
-      "level": 0.006425,
-      "invalid": 0.006199093311353648,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006425,
-        "base_invalid": 0.006199093311353648,
-        "atr": 6.604459097568093e-05,
-        "rvol": 2.6841039142356378,
-        "close_position": 0.8380952380952414,
-        "breakout": true,
-        "bar_close_ms": 1793443500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.6791376030437464,
-        "score": 4.522199152330879
-      },
-      "context": {
-        "atr": 6.604459097568093e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5243000904179063,
-        "btc_hour_pct": 0.13528806917024738,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793443500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1438293,6 +1438034,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793443514284
+    },
+    {
+      "id": "28a0dbffea4ee03d703a46e9",
+      "asset_id": "df95615d2d99aeb66f5999ae",
+      "key": "OKX:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "expired",
+      "observed_ms": 1793443800528,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793443811898
+    },
+    {
+      "id": "5bd6479b4f262b5f015a21b4",
+      "asset_id": "2998c0811ad44587c98e6430",
+      "key": "OKX:PERP:OLUSDT",
+      "symbol": "OLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793443799497,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793443811898
+    },
+    {
+      "id": "eba720b077b035b131dce466",
+      "asset_id": "61ab98d483d704efc6f33624",
+      "key": "MEXC:PERP:POWRUSDT",
+      "symbol": "POWRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793443801043,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793443811898
+    },
+    {
+      "id": "7e172515152877fb92f1cc7f",
+      "asset_id": "f34435bd42953548beb5e76c",
+      "key": "OKX:SPOT:OLUSDT",
+      "symbol": "OLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793443800528,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793443811898
     }
   ],
   "runs": [
@@ -1461905,7 +1461690,8 @@
         "entry_seq": 0,
         "cohort": "OLUSDT",
         "observation_lag_ms": 299497,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12401
       },
       "61ab98d483d704efc6f33624:radar": {
         "symbol": "POWRUSDT",
@@ -1461927,7 +1461713,8 @@
         "entry_seq": 0,
         "cohort": "POWRUSDT",
         "observation_lag_ms": 301043,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10855
       },
       "f34435bd42953548beb5e76c:radar": {
         "symbol": "OLUSDT",
@@ -1461949,7 +1461736,8 @@
         "entry_seq": 0,
         "cohort": "OLUSDT",
         "observation_lag_ms": 300528,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11370
       }
     },
     "errors": [],
@@ -1485688,8 +1485476,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1aa492b69cdb51b2d6044a0f492fcbb3efe96580",
-    "previous_success_ms": 1793443531269,
+    "previous_commit": "1bd193a6a3f5b362b4bbc368d08296e1c71aab5a",
+    "previous_success_ms": 1793443810718,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
