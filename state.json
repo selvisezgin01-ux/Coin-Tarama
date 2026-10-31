@@ -672790,21 +672790,6 @@
         }
       ]
     },
-    "ethereum:0x3a2e4a74be0cdf7388537aa3616297f6785ad38b": {
-      "chain": "ethereum",
-      "mint": "0x3a2e4a74be0cdf7388537aa3616297f6785ad38b",
-      "first_seen_ms": 1793390563788,
-      "pools": {
-        "0x291d5d1c417e715c7fc3c24db94ed0eb3ba2952b88668d7442a31fdc6d26e64d": {
-          "created_ms": 1793389115000,
-          "first_seen_ms": 1793390563788
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "robinhood:0xc00a40c09696705cba5ac636070b00413161f00d": {
       "chain": "robinhood",
       "mint": "0xc00a40c09696705cba5ac636070b00413161f00d",
@@ -2358788,6 +2358773,16 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/700",
       "issue_created_at": "2026-10-31T21:37:38Z",
       "recorded_ms": 1793482658677
+    },
+    "265fb189b9295c4d0f6374cc": {
+      "event_id": "265fb189b9295c4d0f6374cc",
+      "key": "bnb:0xf2e5bf065061026f337a906f6b8aa4b41266ac40",
+      "phase": "early_radar",
+      "observed_ms": 1793482811746,
+      "issue_number": 703,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/703",
+      "issue_created_at": "2026-10-31T21:41:00Z",
+      "recorded_ms": 1793482860817
     }
   },
   "cases": {},
@@ -2408312,7 +2408307,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793482863337
     }
   ],
   "archive": {
@@ -2482394,8 +2482390,8 @@
     }
   },
   "publication": {
-    "commit": "1f6901a317ecdd3d62adbfeef8cd454becedbef6",
-    "success_ms": 1793482772252,
+    "commit": "844806a2213bc79b8996ce2fd0d97d49ea4f589a",
+    "success_ms": 1793482859708,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
@@ -2492193,6 +2492189,15 @@
         "robinhood:0x3f139b12744cae94ca67569b5121bcccc1b9d72b"
       ],
       "count": 9,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "844806a2213bc79b8996ce2fd0d97d49ea4f589a",
+      "archived_ms": 1793482859764,
+      "keys": [
+        "ethereum:0x3a2e4a74be0cdf7388537aa3616297f6785ad38b"
+      ],
+      "count": 1,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
