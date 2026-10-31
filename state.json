@@ -1393566,62 +1393566,7 @@
       "source_close_ms": 1793422800000
     }
   },
-  "pending": [
-    {
-      "id": "ad225ef527f8d7234e497585",
-      "asset_id": "7ee2f5b6b51c2b9032311dd4",
-      "key": "MEXC:PERP:SOMIUSDT",
-      "symbol": "SOMIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793423661363,
-      "price": 0.19855,
-      "level": 0.198,
-      "invalid": 0.19487459792729703,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.198,
-        "base_invalid": 0.19487459792729703,
-        "atr": 0.0015026804846863878,
-        "rvol": 3.5906758029639074,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793422800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9197751660705134,
-        "score": 5.090675802963908
-      },
-      "context": {
-        "atr": 0.0015026804846863878,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8894373663388855,
-        "btc_hour_pct": 0.030337799731627868,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOMIUSDT",
-          "change_pct": -0.584163939224891,
-          "old_ms": 1793419947557,
-          "current_ms": 1793423659664,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793422800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOMIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1395822,6 +1395767,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793423371734
+    },
+    {
+      "id": "ad225ef527f8d7234e497585",
+      "asset_id": "7ee2f5b6b51c2b9032311dd4",
+      "key": "MEXC:PERP:SOMIUSDT",
+      "symbol": "SOMIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793423661363,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793423671285
     }
   ],
   "runs": [
@@ -1412859,7 +1412815,8 @@
         "entry_seq": 0,
         "cohort": "SOMIUSDT",
         "observation_lag_ms": 861363,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9922
       }
     },
     "errors": [],
@@ -1435744,8 +1435701,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d6dc676de005a46da9ff3f89a29fd7ed5b6caab5",
-    "previous_success_ms": 1793423388750,
+    "previous_commit": "62d32f47516fe634feea18ff87b71f20e96ec492",
+    "previous_success_ms": 1793423669909,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
