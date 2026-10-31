@@ -1506742,164 +1506742,7 @@
       "source_close_ms": 1793480400000
     }
   },
-  "pending": [
-    {
-      "id": "27cca2b88bb5545e053821f9",
-      "asset_id": "3a595102c1b9b449a24b6448",
-      "key": "MEXC:PERP:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793480522983,
-      "price": 0.12995,
-      "level": 0.1296,
-      "invalid": 0.12717190947442372,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1296,
-        "base_invalid": 0.12717190947442372,
-        "atr": 0.001520603503841984,
-        "rvol": 4.303331529032284,
-        "close_position": 0.7391304347826009,
-        "breakout": false,
-        "bar_close_ms": 1793474100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5439005439005218,
-        "score": 5.542461963814885
-      },
-      "context": {
-        "atr": 0.001386129845197661,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.09819200374260317,
-        "btc_hour_pct": -0.02115040127727008,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NESUSDT",
-          "change_pct": -1.2036314340878262,
-          "old_ms": 1793476906583,
-          "current_ms": 1793480520360,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793474100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NESUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fbafcb8db8ab1fbcc3df3727",
-      "asset_id": "cefa282ffa11456b979b6af0",
-      "key": "OKX:SPOT:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793480522637,
-      "price": 0.1301,
-      "level": 0.13,
-      "invalid": 0.1271826592277411,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13,
-        "base_invalid": 0.1271826592277411,
-        "atr": 0.001448938481726066,
-        "rvol": 2.339870065007419,
-        "close_position": 0.7222222222222213,
-        "breakout": true,
-        "bar_close_ms": 1793475000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6949806949806847,
-        "score": 4.062092287229641
-      },
-      "context": {
-        "atr": 0.0013498711768707172,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.13091286391143653,
-        "btc_hour_pct": -0.022696967117752376,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793475000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NESUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f31f63d9ca7700ef17d965ac",
-      "asset_id": "6bf586f5de95940a33073f10",
-      "key": "OKX:PERP:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793480523953,
-      "price": 0.026494999999999998,
-      "level": 0.02658,
-      "invalid": 0.026305752693089976,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02658,
-        "base_invalid": 0.026305752693089976,
-        "atr": 9.49820460668213e-05,
-        "rvol": 45.32625435223083,
-        "close_position": 0.6585365853658511,
-        "breakout": true,
-        "bar_close_ms": 1793477700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6053726825576922,
-        "score": 7.658536585365852
-      },
-      "context": {
-        "atr": 8.541031695433804e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7899297905305525,
-        "btc_hour_pct": -0.0300513710776662,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793477700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STABLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1511498,6 +1511341,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793480228723
+    },
+    {
+      "id": "27cca2b88bb5545e053821f9",
+      "asset_id": "3a595102c1b9b449a24b6448",
+      "key": "MEXC:PERP:NESUSDT",
+      "symbol": "NESUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793480522983,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793480533994
+    },
+    {
+      "id": "f31f63d9ca7700ef17d965ac",
+      "asset_id": "6bf586f5de95940a33073f10",
+      "key": "OKX:PERP:STABLEUSDT",
+      "symbol": "STABLEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793480523953,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793480533994
     }
   ],
   "runs": [
@@ -1572658,8 +1572523,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "38cbdad71e544202e928670abdbe202b7cf8b0c2",
-    "previous_success_ms": 1793480251720,
+    "previous_commit": "de23dd2781b5b77fb3e1cbed5fdf2a9b780fac96",
+    "previous_success_ms": 1793480532680,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
