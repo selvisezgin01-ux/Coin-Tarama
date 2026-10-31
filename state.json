@@ -1515747,64 +1515747,7 @@
       "source_close_ms": 1793489400000
     }
   },
-  "pending": [
-    {
-      "id": "c92c241f50aa7bb2d71b75e2",
-      "asset_id": "b0201dc6b8f31322b8a1db69",
-      "key": "MEXC:PERP:1000RATSUSDT",
-      "symbol": "1000RATSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793490447639,
-      "price": 0.015245,
-      "level": 0.01523,
-      "invalid": 0.014995974069389267,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01523,
-        "base_invalid": 0.014995974069389267,
-        "atr": 9.35062040715542e-05,
-        "rvol": 4.791700220696516,
-        "close_position": 0.6999999999999983,
-        "breakout": false,
-        "bar_close_ms": 1793490300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6622516556291425,
-        "score": 5.991700220696514
-      },
-      "context": {
-        "atr": 9.35062040715542e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3584217298548742,
-        "btc_hour_pct": -0.17067879924566043,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:1000RATSUSDT",
-          "change_pct": 10.415108923035564,
-          "old_ms": 1793486970436,
-          "current_ms": 1793490446400,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793490300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "1000RATSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1520865,6 +1520808,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793490155513
+    },
+    {
+      "id": "c92c241f50aa7bb2d71b75e2",
+      "asset_id": "b0201dc6b8f31322b8a1db69",
+      "key": "MEXC:PERP:1000RATSUSDT",
+      "symbol": "1000RATSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793490447639,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793490458177
     }
   ],
   "runs": [
@@ -1560109,7 +1560063,8 @@
         "entry_seq": 0,
         "cohort": "1000RATSUSDT",
         "observation_lag_ms": 147639,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10538
       }
     },
     "errors": [],
@@ -1585702,8 +1585657,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cf42e89d8210aab0da4de45c3bcc0cdb6b702aa9",
-    "previous_success_ms": 1793490178111,
+    "previous_commit": "c6e3f74459a4ea057955dc825683a7171a3b6abf",
+    "previous_success_ms": 1793490457072,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
