@@ -487463,66 +487463,6 @@
       ],
       "last_quote_attempt_ms": 1793455257915
     },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793455309115,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793455309115
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793455309115,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793455309115
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
-      "chain": "hyperevm",
-      "mint": "0x31538bc41c9a171707db639e0830f5f15184cfff",
-      "first_seen_ms": 1793455309115,
-      "pools": {
-        "0x48d015286f368870e0f0e00c3e28801dec5098b6": {
-          "created_ms": 1793309400000,
-          "first_seen_ms": 1793455309115
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e": {
-      "chain": "hyperevm",
-      "mint": "0xee31509a163002f82ae8fc1f31687aa0a3af771e",
-      "first_seen_ms": 1793455309115,
-      "pools": {
-        "0xf26f89b9273757856a827444e629d92688ec818c": {
-          "created_ms": 1793308080000,
-          "first_seen_ms": 1793455309115
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:D9owD9yWULPKmKpvJrpzXpTAozfyp617N784ZQ75hnE2": {
       "chain": "solana",
       "mint": "D9owD9yWULPKmKpvJrpzXpTAozfyp617N784ZQ75hnE2",
@@ -1786678,6 +1786618,16 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/514",
       "issue_created_at": "2026-10-31T13:57:05Z",
       "recorded_ms": 1793455025693
+    },
+    "147eef990f808571e98cd807": {
+      "event_id": "147eef990f808571e98cd807",
+      "key": "solana:5YREyyZig2rjst2rZv5e5UtNqP5FrWSjCdPNMcm7pump",
+      "phase": "early_radar",
+      "observed_ms": 1793455347344,
+      "issue_number": 516,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/516",
+      "issue_created_at": "2026-10-31T14:03:14Z",
+      "recorded_ms": 1793455394351
     }
   },
   "cases": {},
@@ -1822827,7 +1822777,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793455395742
     }
   ],
   "archive": {
@@ -1896909,8 +1896860,8 @@
     }
   },
   "publication": {
-    "commit": "e1442cc4321ff3fcf4bc0b8d664466f00835e8af",
-    "success_ms": 1793455309072,
+    "commit": "4c3a849f93504a2fbfcf67bbe87f39f598de5f83",
+    "success_ms": 1793455392956,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793428232282,
@@ -1904655,6 +1904606,18 @@
         "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e"
       ],
       "count": 5,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "4c3a849f93504a2fbfcf67bbe87f39f598de5f83",
+      "archived_ms": 1793455393003,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
+        "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
+        "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e"
+      ],
+      "count": 4,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
