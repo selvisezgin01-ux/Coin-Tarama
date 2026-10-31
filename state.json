@@ -1413619,112 +1413619,7 @@
       "source_close_ms": 1793435400000
     }
   },
-  "pending": [
-    {
-      "id": "dbd99d4a880a144aee0cb35a",
-      "asset_id": "a633fb525c12b8edce8081da",
-      "key": "MEXC:PERP:BULLAUSDT",
-      "symbol": "BULLAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793435867437,
-      "price": 0.07533000000000001,
-      "level": 0.0778,
-      "invalid": 0.07555500503689212,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0778,
-        "base_invalid": 0.07555500503689212,
-        "atr": 0.0010999664207191836,
-        "rvol": 2.641028810486072,
-        "close_position": 0.9242424242424254,
-        "breakout": true,
-        "bar_close_ms": 1793415600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1007861837865516,
-        "score": 4.565271234728497
-      },
-      "context": {
-        "atr": 0.002085121645157701,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.599243146932694,
-        "btc_hour_pct": -0.0444728289114904,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BULLAUSDT",
-          "change_pct": -3.1467497621425866,
-          "old_ms": 1793432135099,
-          "current_ms": 1793435863086,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793415600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BULLAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e4671b25981cfa9b0cf325ca",
-      "asset_id": "df95615d2d99aeb66f5999ae",
-      "key": "OKX:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793435868361,
-      "price": 1.70995,
-      "level": 1.7283,
-      "invalid": 1.6731087772342599,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7283,
-        "base_invalid": 1.6731087772342599,
-        "atr": 0.01527481843826699,
-        "rvol": 4.8053295548268435,
-        "close_position": 0.8879310344827523,
-        "breakout": false,
-        "bar_close_ms": 1793435400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.38260050620990693,
-        "score": 6.193260589309596
-      },
-      "context": {
-        "atr": 0.01527481843826699,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.035887569141325,
-        "btc_hour_pct": -0.03012309096527277,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1416508,6 +1416403,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793435583118
+    },
+    {
+      "id": "dbd99d4a880a144aee0cb35a",
+      "asset_id": "a633fb525c12b8edce8081da",
+      "key": "MEXC:PERP:BULLAUSDT",
+      "symbol": "BULLAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793435867437,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793435878691
+    },
+    {
+      "id": "e4671b25981cfa9b0cf325ca",
+      "asset_id": "df95615d2d99aeb66f5999ae",
+      "key": "OKX:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793435868361,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793435878691
     }
   ],
   "runs": [
@@ -1437572,7 +1437489,8 @@
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 468361,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10330
       }
     },
     "errors": [],
@@ -1460877,8 +1460795,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a07e6edbc5ab8bfe02186cb76a482a55dd9c2464",
-    "previous_success_ms": 1793435600147,
+    "previous_commit": "e9c66966ae0d77b260b7dd2f6c5ba54c34f4d947",
+    "previous_success_ms": 1793435877404,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
