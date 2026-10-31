@@ -1515240,60 +1515240,7 @@
       "source_close_ms": 1793484900000
     }
   },
-  "pending": [
-    {
-      "id": "3df3220d096eb31dcf30f8d4",
-      "asset_id": "0da60b8bfdaa921684952f64",
-      "key": "MEXC:SPOT:SPCMUSDT",
-      "symbol": "SPCMUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793486679138,
-      "price": 0.0008315,
-      "level": 0.0008187,
-      "invalid": 0.0008133101942683882,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0008187,
-        "base_invalid": 0.0008133101942683882,
-        "atr": 3.9320382107454205e-06,
-        "rvol": 4.434947185429861,
-        "close_position": 0.9875776397515525,
-        "breakout": true,
-        "bar_close_ms": 1793485800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.096615988229522,
-        "score": 6.422524825181414
-      },
-      "context": {
-        "atr": 3.9320382107454205e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.007203097712471518,
-        "btc_hour_pct": 0.15222785642046155,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SPCMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793485800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPCMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1520112,6 +1520059,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793486391597
+    },
+    {
+      "id": "3df3220d096eb31dcf30f8d4",
+      "asset_id": "0da60b8bfdaa921684952f64",
+      "key": "MEXC:SPOT:SPCMUSDT",
+      "symbol": "SPCMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793486679138,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793486691540
     }
   ],
   "runs": [
@@ -1558081,7 +1558039,8 @@
         "entry_seq": 0,
         "cohort": "SPCMUSDT",
         "observation_lag_ms": 879138,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12402
       }
     },
     "errors": [],
@@ -1583584,8 +1583543,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cdb2f28d779ab0c8c4862318400335044ff61eee",
-    "previous_success_ms": 1793486410809,
+    "previous_commit": "aa77ad009a5370c84ea46a0be5e1ea99127a3b40",
+    "previous_success_ms": 1793486690191,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
