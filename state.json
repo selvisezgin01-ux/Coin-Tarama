@@ -1394221,58 +1394221,7 @@
       "source_close_ms": 1793423700000
     }
   },
-  "pending": [
-    {
-      "id": "a5a7d44a359fc8dcc740836b",
-      "asset_id": "ef0fa36e2779b1be8c40006d",
-      "key": "OKX:SPOT:FLOKIUSDT",
-      "symbol": "FLOKIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793424259124,
-      "price": 2.378e-05,
-      "level": 2.42e-05,
-      "invalid": 2.3799178688364747e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.42e-05,
-        "base_invalid": 2.3799178688364747e-05,
-        "atr": 1.3880874423500747e-07,
-        "rvol": 3.9362637776916816,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793416500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6691760769552468,
-        "score": 5.436263777691682
-      },
-      "context": {
-        "atr": 1.192514264049867e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.1726885629198103,
-        "btc_hour_pct": 0.050960270439537325,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLOKIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793416500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOKIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1396528,6 +1396477,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793423975301
+    },
+    {
+      "id": "a5a7d44a359fc8dcc740836b",
+      "asset_id": "ef0fa36e2779b1be8c40006d",
+      "key": "OKX:SPOT:FLOKIUSDT",
+      "symbol": "FLOKIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793424259124,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793424271729
     }
   ],
   "runs": [
@@ -1436729,8 +1436689,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "92efad0a9960863387f24e10ac3fb7aa12e08ddf",
-    "previous_success_ms": 1793423995289,
+    "previous_commit": "2d9d17af3ae7f6e5b344a37b86dabba59bcd0235",
+    "previous_success_ms": 1793424270375,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
