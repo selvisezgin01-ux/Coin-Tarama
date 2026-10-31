@@ -1390450,58 +1390450,7 @@
       "source_close_ms": 1793422800000
     }
   },
-  "pending": [
-    {
-      "id": "671273d0dd1f7591acc3d0a0",
-      "asset_id": "3292462cb1ba8ca37a8bd597",
-      "key": "OKX:PERP:FLOKIUSDT",
-      "symbol": "FLOKIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793423067454,
-      "price": 2.3805e-05,
-      "level": 2.425e-05,
-      "invalid": 2.3765078059618543e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.425e-05,
-        "base_invalid": 2.3765078059618543e-05,
-        "atr": 1.6614626920972182e-07,
-        "rvol": 2.933175357180861,
-        "close_position": 0.9047619047619055,
-        "breakout": false,
-        "bar_close_ms": 1793416500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6278777731268281,
-        "score": 4.337937261942766
-      },
-      "context": {
-        "atr": 1.463733251863274e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.161932165021029,
-        "btc_hour_pct": 0.04020387254075608,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FLOKIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793416500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOKIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1392669,6 +1392618,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793421868878
+    },
+    {
+      "id": "671273d0dd1f7591acc3d0a0",
+      "asset_id": "3292462cb1ba8ca37a8bd597",
+      "key": "OKX:PERP:FLOKIUSDT",
+      "symbol": "FLOKIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793423067454,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793423077421
     }
   ],
   "runs": [
@@ -1432305,8 +1432265,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b5e75fe922fac7622892c00597c4bb7135045b47",
-    "previous_success_ms": 1793422785948,
+    "previous_commit": "aa9c0063dbc80d990059af34b9f0deffe6799f08",
+    "previous_success_ms": 1793423075965,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
