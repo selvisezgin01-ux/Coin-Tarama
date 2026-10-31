@@ -521649,51 +521649,6 @@
           "pool": "0xd6b9aa335d9c9030a7fe8f71d45bd9aa3a2d176d"
         }
       ]
-    },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793460370515,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793460370515
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793460370515,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793460370515
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
-      "chain": "hyperevm",
-      "mint": "0x31538bc41c9a171707db639e0830f5f15184cfff",
-      "first_seen_ms": 1793460370515,
-      "pools": {
-        "0x48d015286f368870e0f0e00c3e28801dec5098b6": {
-          "created_ms": 1793309400000,
-          "first_seen_ms": 1793460370515
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
     }
   },
   "assets": {
@@ -1901059,6 +1901014,16 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/548",
       "issue_created_at": "2026-10-31T15:26:00Z",
       "recorded_ms": 1793460360262
+    },
+    "fa867a274b6fccfe0d10a538": {
+      "event_id": "fa867a274b6fccfe0d10a538",
+      "key": "solana:KbzMKpYB1APQZGuFKYpbf1eYWbDpdDMeDYDTdMgpump",
+      "phase": "early_radar",
+      "observed_ms": 1793460408795,
+      "issue_number": 549,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/549",
+      "issue_created_at": "2026-10-31T15:27:35Z",
+      "recorded_ms": 1793460456185
     }
   },
   "cases": {},
@@ -1939939,7 +1939904,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793460457939
     }
   ],
   "archive": {
@@ -2014021,8 +2013987,8 @@
     }
   },
   "publication": {
-    "commit": "de405647482e7e4b60ae8125e4fac88cdd9d5b95",
-    "success_ms": 1793460370469,
+    "commit": "ea0ead3e2f8b0db3d7f20aaa059970598c600ba2",
+    "success_ms": 1793460454880,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793458401823,
@@ -2022234,6 +2022200,17 @@
         "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e"
       ],
       "count": 4,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "ea0ead3e2f8b0db3d7f20aaa059970598c600ba2",
+      "archived_ms": 1793460454923,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
+        "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff"
+      ],
+      "count": 3,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
