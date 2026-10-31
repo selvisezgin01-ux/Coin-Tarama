@@ -1326661,270 +1326661,7 @@
       "source_close_ms": 1793409300000
     }
   },
-  "pending": [
-    {
-      "id": "030cbbedf3bf2442a721f0ac",
-      "asset_id": "52a04ea0dc9b2c7ed06c7e86",
-      "key": "MEXC:SPOT:UAIUSDT",
-      "symbol": "UAIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793409373107,
-      "price": 0.26865,
-      "level": 0.2709,
-      "invalid": 0.25906810365091376,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2709,
-        "base_invalid": 0.25906810365091376,
-        "atr": 0.0028793089939084062,
-        "rvol": 2.165183306426033,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793388600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.746268656716409,
-        "score": 3.665183306426033
-      },
-      "context": {
-        "atr": 0.0022901940824568874,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5459171133688434,
-        "btc_hour_pct": 0.27040941724338907,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:UAIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793388600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d94473a7d6d525d809f835cd",
-      "asset_id": "53eccb3840beeddb6de9060e",
-      "key": "MEXC:SPOT:ARUSDT",
-      "symbol": "ARUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793409373107,
-      "price": 3.214,
-      "level": 3.225,
-      "invalid": 3.1800897545738556,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.225,
-        "base_invalid": 3.1800897545738556,
-        "atr": 0.019401636174294145,
-        "rvol": 6.1983632018748445,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793403900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8082064034814929,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0184715296300452,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3942100981471297,
-        "btc_hour_pct": 0.27040941724338907,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793403900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b754f3bad9c8e50f18d87cb1",
-      "asset_id": "8e9aa2e718459b0188fe7336",
-      "key": "OKX:SPOT:COREUSDT",
-      "symbol": "COREUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793409373933,
-      "price": 0.015515000000000001,
-      "level": 0.01549,
-      "invalid": 0.015304655052623416,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01549,
-        "base_invalid": 0.015304655052623416,
-        "atr": 0.00010229964917723053,
-        "rvol": 5.745694251297374,
-        "close_position": 0.777777777777767,
-        "breakout": true,
-        "bar_close_ms": 1793403900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.25856496444731647,
-        "score": 7.523472029075141
-      },
-      "context": {
-        "atr": 9.928361008326686e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.20350929198884593,
-        "btc_hour_pct": 0.26802542102111193,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:COREUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793403900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COREUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "38294ccdf6ac696374037b85",
-      "asset_id": "edce958b6488f25676224f4a",
-      "key": "OKX:SPOT:IMXUSDT",
-      "symbol": "IMXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793409373933,
-      "price": 0.12725,
-      "level": 0.1273,
-      "invalid": 0.12386379990149692,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1273,
-        "base_invalid": 0.12386379990149692,
-        "atr": 0.0009080006566872592,
-        "rvol": 16.789119226765703,
-        "close_position": 0.6666666666666666,
-        "breakout": true,
-        "bar_close_ms": 1793408400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4285714285714235,
-        "score": 7.666666666666667
-      },
-      "context": {
-        "atr": 0.0009148692851088793,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1605460075503116,
-        "btc_hour_pct": 0.26802542102111193,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:IMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793408400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a3aa775a31855427fe6a32eb",
-      "asset_id": "36fe235aa2c8bedc3e2d661e",
-      "key": "MEXC:PERP:ELSAUSDT",
-      "symbol": "ELSAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793409374106,
-      "price": 0.068965,
-      "level": 0.06881,
-      "invalid": 0.06774532672135895,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06881,
-        "base_invalid": 0.06774532672135895,
-        "atr": 0.000497821857606982,
-        "rvol": 2.2996486870880877,
-        "close_position": 0.831168831168841,
-        "breakout": true,
-        "bar_close_ms": 1793409300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.353538325731951,
-        "score": 4.1308175182569284
-      },
-      "context": {
-        "atr": 0.000497821857606982,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8665685967492842,
-        "btc_hour_pct": 0.2694232428314347,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ELSAUSDT",
-          "change_pct": 1.4116627225211342,
-          "old_ms": 1793405649591,
-          "current_ms": 1793409369483,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0171,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793409300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ELSAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1328542,6 +1328279,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793408487397
+    },
+    {
+      "id": "030cbbedf3bf2442a721f0ac",
+      "asset_id": "52a04ea0dc9b2c7ed06c7e86",
+      "key": "MEXC:SPOT:UAIUSDT",
+      "symbol": "UAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793409373107,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793409383976
+    },
+    {
+      "id": "d94473a7d6d525d809f835cd",
+      "asset_id": "53eccb3840beeddb6de9060e",
+      "key": "MEXC:SPOT:ARUSDT",
+      "symbol": "ARUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793409373107,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793409383976
+    },
+    {
+      "id": "b754f3bad9c8e50f18d87cb1",
+      "asset_id": "8e9aa2e718459b0188fe7336",
+      "key": "OKX:SPOT:COREUSDT",
+      "symbol": "COREUSDT",
+      "phase": "expired",
+      "observed_ms": 1793409373933,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793409383976
+    },
+    {
+      "id": "a3aa775a31855427fe6a32eb",
+      "asset_id": "36fe235aa2c8bedc3e2d661e",
+      "key": "MEXC:PERP:ELSAUSDT",
+      "symbol": "ELSAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793409374106,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793409383976
     }
   ],
   "runs": [
@@ -1340997,7 +1340778,8 @@
         "entry_seq": 0,
         "cohort": "ELSAUSDT",
         "observation_lag_ms": 74106,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9870
       }
     },
     "errors": [],
@@ -1363457,8 +1363239,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b56eb851677287968482dc05539af82aba36268e",
-    "previous_success_ms": 1793409096961,
+    "previous_commit": "8f3123f1083687696b4ad1bc5e37b6b13cf88cde",
+    "previous_success_ms": 1793409382484,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
