@@ -1393133,60 +1393133,7 @@
       "source_close_ms": 1793424600000
     }
   },
-  "pending": [
-    {
-      "id": "0fb3a28515be3162f973524d",
-      "asset_id": "27b4b4139e914d0786b053e0",
-      "key": "OKX:PERP:JELLYJELLYUSDT",
-      "symbol": "JELLYJELLYUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793425459007,
-      "price": 0.043235,
-      "level": 0.04324,
-      "invalid": 0.04194659612776138,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04324,
-        "base_invalid": 0.04194659612776138,
-        "atr": 0.00035602581492415923,
-        "rvol": 2.8202384370728413,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793424600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6159250585479956,
-        "score": 4.820238437072842
-      },
-      "context": {
-        "atr": 0.00035602581492415923,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8961257154742164,
-        "btc_hour_pct": 0.04020387254075608,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:JELLYJELLYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793424600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JELLYJELLYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1395475,6 +1395422,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793424874556
+    },
+    {
+      "id": "0fb3a28515be3162f973524d",
+      "asset_id": "27b4b4139e914d0786b053e0",
+      "key": "OKX:PERP:JELLYJELLYUSDT",
+      "symbol": "JELLYJELLYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793425459007,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793425469679
     }
   ],
   "runs": [
@@ -1413136,7 +1413094,8 @@
         "entry_seq": 0,
         "cohort": "JELLYJELLYUSDT",
         "observation_lag_ms": 859007,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10672
       }
     },
     "errors": [],
@@ -1436085,8 +1436044,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a4d872776b34125628627a2e2d2a181948b1a69e",
-    "previous_success_ms": 1793425187943,
+    "previous_commit": "10b0f6dc42f44e5d71813061b34ab32bce1b1e8b",
+    "previous_success_ms": 1793425468209,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
