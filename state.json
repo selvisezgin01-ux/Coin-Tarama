@@ -1381527,160 +1381527,7 @@
       "source_close_ms": 1793418300000
     }
   },
-  "pending": [
-    {
-      "id": "c418d88e82b6c1fec01313c8",
-      "asset_id": "f8c9180cb0407dc45adf8d4c",
-      "key": "OKX:SPOT:BIOUSDT",
-      "symbol": "BIOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793418755891,
-      "price": 0.021714999999999998,
-      "level": 0.0214,
-      "invalid": 0.020860142403633083,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0214,
-        "base_invalid": 0.020860142403633083,
-        "atr": 0.00013238397577944525,
-        "rvol": 6.879717618351431,
-        "close_position": 0.8461538461538544,
-        "breakout": true,
-        "bar_close_ms": 1793396700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4622641509433931,
-        "score": 7.846153846153855
-      },
-      "context": {
-        "atr": 0.00011219106605122219,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.15191075393575781,
-        "btc_hour_pct": 0.06037757315771053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BIOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793396700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "578939c3d2e2b76cba87a9eb",
-      "asset_id": "6f0ad3c28042e2c8135ac702",
-      "key": "OKX:PERP:BIOUSDT",
-      "symbol": "BIOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793418755881,
-      "price": 0.02169,
-      "level": 0.02139,
-      "invalid": 0.020786290762095646,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02139,
-        "base_invalid": 0.020786290762095646,
-        "atr": 0.00015806158602902398,
-        "rvol": 2.250071117390125,
-        "close_position": 0.9375000000000027,
-        "breakout": true,
-        "bar_close_ms": 1793396700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8465909090909172,
-        "score": 4.187571117390128
-      },
-      "context": {
-        "atr": 0.00012370963145954452,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.427758994538896,
-        "btc_hour_pct": 0.06129083146055869,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BIOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793396700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3fc2ba39a14f59b12c542db6",
-      "asset_id": "3a67fda65a08d9e06a189dc6",
-      "key": "MEXC:SPOT:BLESSUSDT",
-      "symbol": "BLESSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793418757579,
-      "price": 0.010195,
-      "level": 0.00968,
-      "invalid": 0.009114896780898015,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00968,
-        "base_invalid": 0.009114896780898015,
-        "atr": 0.00026735479401322553,
-        "rvol": 8.195712292257586,
-        "close_position": 0.6523031203566124,
-        "breakout": true,
-        "bar_close_ms": 1793418300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.307979120059671,
-        "score": 7.6523031203566125
-      },
-      "context": {
-        "atr": 0.00026735479401322553,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.4729745412596316,
-        "btc_hour_pct": 0.04559181327701278,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BLESSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793418300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BLESSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1383716,6 +1383563,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793418470862
+    },
+    {
+      "id": "c418d88e82b6c1fec01313c8",
+      "asset_id": "f8c9180cb0407dc45adf8d4c",
+      "key": "OKX:SPOT:BIOUSDT",
+      "symbol": "BIOUSDT",
+      "phase": "expired",
+      "observed_ms": 1793418755891,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793418767244
+    },
+    {
+      "id": "578939c3d2e2b76cba87a9eb",
+      "asset_id": "6f0ad3c28042e2c8135ac702",
+      "key": "OKX:PERP:BIOUSDT",
+      "symbol": "BIOUSDT",
+      "phase": "expired",
+      "observed_ms": 1793418755881,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793418767244
+    },
+    {
+      "id": "3fc2ba39a14f59b12c542db6",
+      "asset_id": "3a67fda65a08d9e06a189dc6",
+      "key": "MEXC:SPOT:BLESSUSDT",
+      "symbol": "BLESSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793418757579,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793418767244
     }
   ],
   "runs": [
@@ -1399187,7 +1399067,8 @@
         "entry_seq": 0,
         "cohort": "BLESSUSDT",
         "observation_lag_ms": 457579,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9665
       }
     },
     "errors": [],
@@ -1421908,8 +1421789,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "80475e187e86ea18caadc475329102c9af5d8843",
-    "previous_success_ms": 1793418488314,
+    "previous_commit": "10394a31b4a48a97bb78b87a61eb233c9488adfc",
+    "previous_success_ms": 1793418765981,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
