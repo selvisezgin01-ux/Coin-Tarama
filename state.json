@@ -1532678,8 +1532678,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "bd230e7153f2c4ef946dcad472d5e7e85ded3f06",
-    "previous_success_ms": 1793455511824,
+    "previous_commit": "6323b1ca117b69db831025046034945003c18649",
+    "previous_success_ms": 1793455785862,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
