@@ -9172,48 +9172,6 @@
         }
       ]
     },
-    "ethereum:0x320623b8e4ff03373931769a31fc52a4e78b5d70": {
-      "chain": "ethereum",
-      "mint": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-      "first_seen_ms": 1793355877657,
-      "pools": {
-        "0x9b21ec7761bb1ca21b7096897199805f931001b7": {
-          "created_ms": 1793355563000,
-          "first_seen_ms": 1793355877657
-        },
-        "0x32d9259e6792b2150fd50395d971864647fa27b2": {
-          "created_ms": 1645746215000,
-          "first_seen_ms": 1793391381777
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793391379292,
-      "decision": {
-        "at_ms": 1793391381777,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "pool_age",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "pool": "0x32d9259e6792b2150fd50395d971864647fa27b2"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391381777,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "pool_age",
-            "market_cap_not_50k_500k",
-            "liquidity_to_cap"
-          ],
-          "pool": "0x32d9259e6792b2150fd50395d971864647fa27b2"
-        }
-      ]
-    },
     "ethereum:0x71d24baeb0a033ec5f90ff65c4210545af378d97": {
       "chain": "ethereum",
       "mint": "0x71d24baeb0a033ec5f90ff65c4210545af378d97",
@@ -438357,81 +438315,6 @@
       ],
       "last_quote_attempt_ms": 1793449125564
     },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793449085258,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793449085258
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793449085258,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793449085258
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
-      "chain": "hyperevm",
-      "mint": "0x31538bc41c9a171707db639e0830f5f15184cfff",
-      "first_seen_ms": 1793449085258,
-      "pools": {
-        "0x48d015286f368870e0f0e00c3e28801dec5098b6": {
-          "created_ms": 1793309400000,
-          "first_seen_ms": 1793449085258
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e": {
-      "chain": "hyperevm",
-      "mint": "0xee31509a163002f82ae8fc1f31687aa0a3af771e",
-      "first_seen_ms": 1793449085258,
-      "pools": {
-        "0xf26f89b9273757856a827444e629d92688ec818c": {
-          "created_ms": 1793308080000,
-          "first_seen_ms": 1793449085258
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b": {
-      "chain": "hyperevm",
-      "mint": "0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
-      "first_seen_ms": 1793449085258,
-      "pools": {
-        "0xf343cbb242c49fe796b533034ddfbcf8924e8bee": {
-          "created_ms": 1793307660000,
-          "first_seen_ms": 1793449085258
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:Fe9biYeuPCgEnBT68RfJcZYXFW93YahU7YhaFnuGpump": {
       "chain": "solana",
       "mint": "Fe9biYeuPCgEnBT68RfJcZYXFW93YahU7YhaFnuGpump",
@@ -486947,60 +486830,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 6.44,
         "pool_age_minutes": 1055.8098
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "ethereum:0x320623b8e4ff03373931769a31fc52a4e78b5d70": {
-      "first_seen_ms": 1793391381777,
-      "observations": [
-        {
-          "ms": 1793391379644,
-          "price": 0.001395,
-          "liquidity": 115679.51
-        }
-      ],
-      "latest": {
-        "chain": "ethereum",
-        "mint": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-        "pool": "0x32d9259e6792b2150fd50395d971864647fa27b2",
-        "symbol": "RSR",
-        "dex": "uniswap",
-        "price_usd": 0.001395,
-        "price_observed_ms": 1793391379644,
-        "observed_ms": 1793391379644,
-        "liquidity_usd": 115679.51,
-        "market_cap_usd": 139393881.0,
-        "fdv_usd": 139393881.0,
-        "pool_created_ms": 1645746215000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 139393881.0,
-        "pool_age_minutes": 2460752.7796166665
       },
       "activity": {
         "passed": false,
@@ -1633619,6 +1633448,16 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/472",
       "issue_created_at": "2026-10-31T12:14:40Z",
       "recorded_ms": 1793448881004
+    },
+    "d072c82e1856490422247576": {
+      "event_id": "d072c82e1856490422247576",
+      "key": "robinhood:0x9461223833b1cc9a6d3103601d8aafcfa622c53c",
+      "phase": "early_radar",
+      "observed_ms": 1793449125882,
+      "issue_number": 475,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/475",
+      "issue_created_at": "2026-10-31T12:19:32Z",
+      "recorded_ms": 1793449172791
     }
   },
   "cases": {},
@@ -1666824,7 +1666663,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793449174359
     }
   ],
   "archive": {
@@ -1740906,8 +1740746,8 @@
     }
   },
   "publication": {
-    "commit": "0ddedfe436eb3fdd770eea37890cbcedd0e29d2a",
-    "success_ms": 1793449085222,
+    "commit": "933b351f275aa8cc982606c83a79fd14c585b727",
+    "success_ms": 1793449171352,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793428232282,
@@ -1747956,6 +1747796,20 @@
         "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b"
       ],
       "count": 5,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "933b351f275aa8cc982606c83a79fd14c585b727",
+      "archived_ms": 1793449171386,
+      "keys": [
+        "ethereum:0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
+        "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
+        "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e",
+        "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b"
+      ],
+      "count": 6,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
