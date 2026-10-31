@@ -1373386,7 +1373386,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793413896449,
+      "duration_ms": 36284
     }
   ],
   "radar_admissions": [
@@ -1375271,6 +1375273,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "12": {
+            "target_ms": 1793412818661,
+            "endpoint_ms": 1793412840000,
+            "endpoint_price": 0.2056,
+            "return_pct": 5.166240409207168,
+            "btc_excess_pct_points": 4.4191686375826045,
+            "mae_pct": -0.3069053708440017,
+            "mfe_pct": 5.575447570332481,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 720,
+            "ignored_entry_fragment_ms": 21339,
+            "measured_ms": 1793413893122,
+            "cost_scenarios_pct": {
+              "0.2": 4.966240409207168,
+              "0.5": 4.666240409207168,
+              "1": 4.166240409207168
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793368800000,
@@ -1375280,7 +1375304,7 @@
         "observation_lag_ms": 818661,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 9680,
-        "last_measure_attempt_ms": 1793384409293
+        "last_measure_attempt_ms": 1793413893122
       },
       "d5a9510362ef05c288110e8d:radar": {
         "symbol": "BEAMXUSDT",
@@ -1380699,20 +1380723,20 @@
     },
     "errors": [],
     "queue": {
-      "due": 17,
-      "attempted": 2,
-      "observed_ms": 1793413586207,
-      "unique_reads": 4
+      "due": 16,
+      "attempted": 1,
+      "observed_ms": 1793413893122,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "market_event_references": 105,
-        "unique_symbol_labels": 74,
+        "market_event_references": 107,
+        "unique_symbol_labels": 75,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 36,
-            "first_per_symbol": 36,
+            "event_references": 37,
+            "first_per_symbol": 37,
             "hours": {
               "1": {
                 "known_first_symbols": 33,
@@ -1380723,8 +1380747,8 @@
                 "median_reference_return_pct": -0.2715500947218452
               },
               "12": {
-                "known_first_symbols": 4,
-                "median_reference_return_pct": 1.7220894018880661
+                "known_first_symbols": 5,
+                "median_reference_return_pct": 3.648379503892807
               },
               "24": {
                 "known_first_symbols": 0,
@@ -1380777,8 +1380801,8 @@
             }
           },
           "OKX:PERP:radar": {
-            "event_references": 19,
-            "first_per_symbol": 19,
+            "event_references": 20,
+            "first_per_symbol": 20,
             "hours": {
               "1": {
                 "known_first_symbols": 18,
@@ -1386449,13 +1386473,35 @@
               "barriers": {
                 "status": "not_a_trade_entry"
               }
+            },
+            "24": {
+              "target_ms": 1793396636718,
+              "endpoint_ms": 1793396640000,
+              "endpoint_price": 0.016179,
+              "return_pct": -1.9068117743353596,
+              "btc_excess_pct_points": 1.1980980824081722,
+              "mae_pct": -3.3316154848879953,
+              "mfe_pct": 5.071694910116098,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 1440,
+              "ignored_entry_fragment_ms": 3282,
+              "measured_ms": 1793413895978,
+              "cost_scenarios_pct": {
+                "0.2": -2.10681177433536,
+                "0.5": -2.4068117743353596,
+                "1": -2.9068117743353596
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
             }
           },
           "source_close_ms": 1793309400000,
           "observation_lag_ms": 836718,
           "interpretation": "early radar reference, not a trade entry",
           "notification_lag_ms": 4692,
-          "last_measure_attempt_ms": 1793354014856
+          "last_measure_attempt_ms": 1793413895978
         },
         "JP225USDT:radar": {
           "symbol": "JP225USDT",
@@ -1392496,7 +1392542,7 @@
       "queue": {
         "due": 65,
         "attempted": 1,
-        "observed_ms": 1793412994333,
+        "observed_ms": 1793413895978,
         "unique_reads": 2
       },
       "summary": {
@@ -1392516,8 +1392562,8 @@
               "median_pct": -0.5628881987577605
             },
             "24": {
-              "known": 14,
-              "median_pct": -12.342449990086601
+              "known": 15,
+              "median_pct": -11.784841075794628
             }
           }
         },
@@ -1403294,8 +1403340,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5f485c7a9ade1447d91fbcc8d5c1b4b0fd8ad6d0",
-    "previous_success_ms": 1793413884181,
+    "previous_commit": "cb99da14517031dc63dd05db5c5721878502469c",
+    "previous_success_ms": 1793413893086,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
