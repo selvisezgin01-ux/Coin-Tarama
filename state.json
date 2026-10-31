@@ -38853,32 +38853,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "f0e4169afb146d72effa7b2b0e25",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793436915330,
-      "text": "Son kontrol %-3.29; fiyat $0.000191. Gözlem aralığı 5.0dk.",
-      "details": {}
-    },
-    {
-      "id": "762007e5b4b428fa990fa25aefe9",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793436927379,
-      "text": "SATIŞ: $745.13 · işlem başlatıcı `8px2g2FA3hTutpMZ7oozppTW6amSim6ygLGuuLru3VE2` · bildirim eşiği $100",
-      "details": {
-        "tx": "2918ksR27H3StPTutjx714nL8SBLZboccyKZhGxkCBi7TmQrUc618VKvnFz5bqcWYGtGgYqy33Fdx2LWj5Dy2MPF",
-        "wallet": "8px2g2FA3hTutpMZ7oozppTW6amSim6ygLGuuLru3VE2",
-        "side": "sell",
-        "usd": 745.1344197715977,
-        "block_ms": 1793436663000,
-        "provider_row_id": "solana_463627562_2918ksR27H3StPTutjx714nL8SBLZboccyKZhGxkCBi7TmQrUc618VKvnFz5bqcWYGtGgYqy33Fdx2LWj5Dy2MPF_1_1793436748",
-        "first_buyer_seen_by_this_watch": false
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -39005,6 +38980,18 @@
       "issue": 290,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/290",
       "delivered_ms": 1793403231770
+    },
+    {
+      "id": "f0e4169afb146d72effa7b2b0e25",
+      "issue": 399,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/399",
+      "delivered_ms": 1793436959265
+    },
+    {
+      "id": "762007e5b4b428fa990fa25aefe9",
+      "issue": 399,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/399",
+      "delivered_ms": 1793436959265
     }
   ],
   "provider_backoff": {
