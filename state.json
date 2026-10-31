@@ -2264685,7 +2264685,9 @@
         "security_status": "not_entry_security_may_be_pending",
         "manual_wallet_map": "required",
         "buy_volume_verified": false
-      }
+      },
+      "notification_expired_ms": 1793474676408,
+      "notification_expiry_reason": "new_risk_before_delivery"
     }
   },
   "receipts": {
@@ -2311812,7 +2311814,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793474676409
     }
   ],
   "archive": {
@@ -2385894,8 +2385897,8 @@
     }
   },
   "publication": {
-    "commit": "55fab031f33a09fe189e2067228408659596dddb",
-    "success_ms": 1793474587730,
+    "commit": "cf3910c0799bd6c8e4b611369ed1a8b3308257ef",
+    "success_ms": 1793474675722,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
