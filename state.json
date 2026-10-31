@@ -1506279,162 +1506279,7 @@
       "source_close_ms": 1793480400000
     }
   },
-  "pending": [
-    {
-      "id": "84a13e439628bf388ddbf5c9",
-      "asset_id": "8ae3a6979e5f87aaa7d365c1",
-      "key": "OKX:PERP:RLSUSDT",
-      "symbol": "RLSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793482483210,
-      "price": 0.002341,
-      "level": 0.002278,
-      "invalid": 0.002251898054638834,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002278,
-        "base_invalid": 0.002251898054638834,
-        "atr": 2.067963574110795e-05,
-        "rvol": 7.407948928057931,
-        "close_position": 0.7187500000000026,
-        "breakout": true,
-        "bar_close_ms": 1793475900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.058667842964267,
-        "score": 7.718750000000003
-      },
-      "context": {
-        "atr": 2.8213618233252317e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.6410174285189103,
-        "btc_hour_pct": -0.0300513710776662,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RLSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793475900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "045954e3fa268f5421842e3d",
-      "asset_id": "705187a7bc638745b0e035a7",
-      "key": "MEXC:SPOT:FARTCOINUSDT",
-      "symbol": "FARTCOINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793482484567,
-      "price": 0.12092,
-      "level": 0.12101,
-      "invalid": 0.12018081374508516,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12101,
-        "base_invalid": 0.12018081374508516,
-        "atr": 0.0003945750327655982,
-        "rvol": 4.1871358593359576,
-        "close_position": 0.9687499999999688,
-        "breakout": false,
-        "bar_close_ms": 1793482200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.523386225803768,
-        "score": 5.6558858593359265
-      },
-      "context": {
-        "atr": 0.0003945750327655982,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.12457453182799227,
-        "btc_hour_pct": -0.008411239428385286,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FARTCOINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793482200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FARTCOINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "924335445ff9883551ac50b2",
-      "asset_id": "d3f53c0c08b2366faba65e56",
-      "key": "OKX:SPOT:KAITOUSDT",
-      "symbol": "KAITOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793482483899,
-      "price": 0.2404,
-      "level": 0.2409,
-      "invalid": 0.23910613601823338,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2409,
-        "base_invalid": 0.23910613601823338,
-        "atr": 0.0006257598784440701,
-        "rvol": 3.3162581840433902,
-        "close_position": 0.8571428571428741,
-        "breakout": false,
-        "bar_close_ms": 1793482200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3754693366708528,
-        "score": 4.673401041186264
-      },
-      "context": {
-        "atr": 0.0006257598784440701,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3148505564332882,
-        "btc_hour_pct": -0.022696967117752376,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KAITOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793482200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KAITOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1511110,6 +1510955,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793482190526
+    },
+    {
+      "id": "84a13e439628bf388ddbf5c9",
+      "asset_id": "8ae3a6979e5f87aaa7d365c1",
+      "key": "OKX:PERP:RLSUSDT",
+      "symbol": "RLSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793482483210,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793482495805
+    },
+    {
+      "id": "045954e3fa268f5421842e3d",
+      "asset_id": "705187a7bc638745b0e035a7",
+      "key": "MEXC:SPOT:FARTCOINUSDT",
+      "symbol": "FARTCOINUSDT",
+      "phase": "radar",
+      "observed_ms": 1793482484567,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793482495806
+    },
+    {
+      "id": "924335445ff9883551ac50b2",
+      "asset_id": "d3f53c0c08b2366faba65e56",
+      "key": "OKX:SPOT:KAITOUSDT",
+      "symbol": "KAITOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793482483899,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793482495806
     }
   ],
   "runs": [
@@ -1547596,7 +1547474,8 @@
         "entry_seq": 0,
         "cohort": "FARTCOINUSDT",
         "observation_lag_ms": 284567,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11239
       },
       "d3f53c0c08b2366faba65e56:radar": {
         "symbol": "KAITOUSDT",
@@ -1547618,7 +1547497,8 @@
         "entry_seq": 0,
         "cohort": "KAITOUSDT",
         "observation_lag_ms": 283899,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11907
       }
     },
     "errors": [],
@@ -1573014,8 +1572894,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c8e87130eb69316aaadb052308773c122e83b97f",
-    "previous_success_ms": 1793482208519,
+    "previous_commit": "c8769a7eed7cf5727817f8577236be2d0227fced",
+    "previous_success_ms": 1793482494434,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
