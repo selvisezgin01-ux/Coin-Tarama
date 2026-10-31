@@ -94,7 +94,7 @@ Kimlik defteri: 14117 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | GTA6 `0x604ad9327839ae0a2215a1ad1a65d27d2e1899da` | bnb | 31.10.2026 20:01 | 135289.0 | Bekliyor |
+| 🟡 ERKEN RADAR | GTA6 `0x604ad9327839ae0a2215a1ad1a65d27d2e1899da` | bnb | 31.10.2026 20:01 | 135289.0 | [Issue #587](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/587) |
 | 🟡 ERKEN RADAR | SKELLY `0xfedcb1513b389b1c4d243f85c56557e86de0905f` | ethereum | 31.10.2026 19:45 | 91915.0 | [Issue #580](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/580) |
 | 🟡 ERKEN RADAR | CASH `0xd77f22ffc3d342fba8c0299cfefeb24ee33cddda` | bnb | 31.10.2026 19:30 | 132555.0 | [Issue #575](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/575) |
 | 🟡 ERKEN RADAR | CATS `0x1f70cd258242070652fdbc3b9c56a5da0c775f73` | bnb | 31.10.2026 19:26 | 236445.0 | [Issue #572](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/572) |
