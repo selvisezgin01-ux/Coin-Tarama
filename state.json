@@ -1448634,162 +1448634,7 @@
       "source_close_ms": 1793447100000
     }
   },
-  "pending": [
-    {
-      "id": "51cba17a6955f6599c4c66a9",
-      "asset_id": "a8bb9e638d6801151b50d918",
-      "key": "MEXC:SPOT:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793447400474,
-      "price": 1.2633,
-      "level": 1.2381,
-      "invalid": 1.1651739458823624,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.2381,
-        "base_invalid": 1.1651739458823624,
-        "atr": 0.0275070274509174,
-        "rvol": 11.411453497910955,
-        "close_position": 0.6305418719211789,
-        "breakout": false,
-        "bar_close_ms": 1793431800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.2349228013307076,
-        "score": 7.130541871921179
-      },
-      "context": {
-        "atr": 0.024736856206367876,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.684607332101553,
-        "btc_hour_pct": -0.07023686407253704,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EVAAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EVAAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9f925d473c798ec3c3d9fb5a",
-      "asset_id": "8f3d8cfca6bec1f7df1d7ee6",
-      "key": "OKX:SPOT:AVNTUSDT",
-      "symbol": "AVNTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793447404609,
-      "price": 0.09456,
-      "level": 0.09399,
-      "invalid": 0.09307608067805172,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09399,
-        "base_invalid": 0.09307608067805172,
-        "atr": 0.00035946214632194995,
-        "rvol": 9.944187919409767,
-        "close_position": 0.7121212121212159,
-        "breakout": true,
-        "bar_close_ms": 1793447100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3207344572103485,
-        "score": 7.712121212121216
-      },
-      "context": {
-        "atr": 0.00035946214632194995,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.05605034965122657,
-        "btc_hour_pct": -0.06677766138689645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AVNTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793447100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVNTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3590ff6cdfa08d122068a2b9",
-      "asset_id": "8c36f7c4c192c979f232406f",
-      "key": "OKX:SPOT:METUSDT",
-      "symbol": "METUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793447404609,
-      "price": 0.28215,
-      "level": 0.2817,
-      "invalid": 0.27834796858175803,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2817,
-        "base_invalid": 0.27834796858175803,
-        "atr": 0.0010135427882797781,
-        "rvol": 3.898235242330548,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793447100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2135231316725994,
-        "score": 5.398235242330548
-      },
-      "context": {
-        "atr": 0.0010135427882797781,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.42494385049864913,
-        "btc_hour_pct": -0.06677766138689645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:METUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793447100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "METUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1452002,6 +1451847,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793447108382
+    },
+    {
+      "id": "51cba17a6955f6599c4c66a9",
+      "asset_id": "a8bb9e638d6801151b50d918",
+      "key": "MEXC:SPOT:EVAAUSDT",
+      "symbol": "EVAAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793447400474,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793447414719
+    },
+    {
+      "id": "9f925d473c798ec3c3d9fb5a",
+      "asset_id": "8f3d8cfca6bec1f7df1d7ee6",
+      "key": "OKX:SPOT:AVNTUSDT",
+      "symbol": "AVNTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793447404609,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793447414720
+    },
+    {
+      "id": "3590ff6cdfa08d122068a2b9",
+      "asset_id": "8c36f7c4c192c979f232406f",
+      "key": "OKX:SPOT:METUSDT",
+      "symbol": "METUSDT",
+      "phase": "radar",
+      "observed_ms": 1793447404609,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793447414720
     }
   ],
   "runs": [
@@ -1476791,7 +1476669,8 @@
         "entry_seq": 0,
         "cohort": "AVNTUSDT",
         "observation_lag_ms": 304609,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10111
       },
       "8c36f7c4c192c979f232406f:radar": {
         "symbol": "METUSDT",
@@ -1476813,7 +1476692,8 @@
         "entry_seq": 0,
         "cohort": "METUSDT",
         "observation_lag_ms": 304609,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10111
       }
     },
     "errors": [],
@@ -1500685,8 +1500565,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f704a28c69484721bf6122ba54cea3365fd1d122",
-    "previous_success_ms": 1793447125996,
+    "previous_commit": "32e532343661916f7b600ef919e993ae406a2084",
+    "previous_success_ms": 1793447413588,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
