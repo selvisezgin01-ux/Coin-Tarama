@@ -1478314,58 +1478314,7 @@
       "source_close_ms": 1793457000000
     }
   },
-  "pending": [
-    {
-      "id": "9d2f9a43d895728b032f6a66",
-      "asset_id": "5a722be4209d7b8e9cd268d5",
-      "key": "OKX:SPOT:MORPHOUSDT",
-      "symbol": "MORPHOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793458477749,
-      "price": 2.2351,
-      "level": 2.223,
-      "invalid": 2.1662501268250005,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.223,
-        "base_invalid": 2.1662501268250005,
-        "atr": 0.015665821166663436,
-        "rvol": 2.212652156368652,
-        "close_position": 0.8888888888888888,
-        "breakout": true,
-        "bar_close_ms": 1793457900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.22088987062163223,
-        "score": 4.101541045257541
-      },
-      "context": {
-        "atr": 0.015665821166663436,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.16155122677070644,
-        "btc_hour_pct": -0.04386689236612895,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MORPHOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793457900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MORPHOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1482106,6 +1482055,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793457886477
+    },
+    {
+      "id": "9d2f9a43d895728b032f6a66",
+      "asset_id": "5a722be4209d7b8e9cd268d5",
+      "key": "OKX:SPOT:MORPHOUSDT",
+      "symbol": "MORPHOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793458477749,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793458488857
     }
   ],
   "runs": [
@@ -1510371,7 +1510331,8 @@
         "entry_seq": 0,
         "cohort": "MORPHOUSDT",
         "observation_lag_ms": 577749,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11108
       }
     },
     "errors": [],
@@ -1534828,8 +1534789,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "466fcbd42012f05522c634bdb8832784dafab931",
-    "previous_success_ms": 1793458206659,
+    "previous_commit": "be2c763d61c4b2ba7ebb6dec3387eaafe805a0ae",
+    "previous_success_ms": 1793458487271,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
