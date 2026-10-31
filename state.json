@@ -1518048,114 +1518048,7 @@
       "source_close_ms": 1793471400000
     }
   },
-  "pending": [
-    {
-      "id": "c2f03d5378d81627e8d65642",
-      "asset_id": "019d794ed2a13867f99d5d3b",
-      "key": "MEXC:SPOT:DATAUSDT",
-      "symbol": "DATAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793472587818,
-      "price": 0.13140000000000002,
-      "level": 0.1307,
-      "invalid": 0.12890565338040494,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1307,
-        "base_invalid": 0.12890565338040494,
-        "atr": 0.0006289774639670861,
-        "rvol": 5.595011473650792,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793450700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7710100231302919,
-        "score": 7.095011473650792
-      },
-      "context": {
-        "atr": 0.0006615419979161438,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.033393144285653875,
-        "btc_hour_pct": 0.10892184519200043,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DATAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793450700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DATAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ec66bdcdae11dbb338fcfbc4",
-      "asset_id": "1449a898aeed11b9d34debdd",
-      "key": "MEXC:PERP:ESPORTSUSDT",
-      "symbol": "ESPORTSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793472588906,
-      "price": 0.0097235,
-      "level": 0.009389,
-      "invalid": 0.008375291196235654,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.009389,
-        "base_invalid": 0.008375291196235654,
-        "atr": 0.0002580586917623055,
-        "rvol": 5.395689246497536,
-        "close_position": 0.6910420475319917,
-        "breakout": true,
-        "bar_close_ms": 1793472300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.445158431198773,
-        "score": 7.086731294029528
-      },
-      "context": {
-        "atr": 0.0002580586917623055,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.76066943360316,
-        "btc_hour_pct": 0.11124273474083513,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ESPORTSUSDT",
-          "change_pct": 17.355690020366655,
-          "old_ms": 1793468973044,
-          "current_ms": 1793472586968,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0342,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793472300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ESPORTSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1522402,6 +1522295,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793471993764
+    },
+    {
+      "id": "c2f03d5378d81627e8d65642",
+      "asset_id": "019d794ed2a13867f99d5d3b",
+      "key": "MEXC:SPOT:DATAUSDT",
+      "symbol": "DATAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793472587818,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793472598853
+    },
+    {
+      "id": "ec66bdcdae11dbb338fcfbc4",
+      "asset_id": "1449a898aeed11b9d34debdd",
+      "key": "MEXC:PERP:ESPORTSUSDT",
+      "symbol": "ESPORTSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793472588906,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793472598854
     }
   ],
   "runs": [
@@ -1555438,7 +1555353,8 @@
         "entry_seq": 0,
         "cohort": "ESPORTSUSDT",
         "observation_lag_ms": 288906,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9948
       },
       "e8587303ef353a1aa9a92af5:radar": {
         "symbol": "LITUSDT",
@@ -1580609,8 +1580525,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8061a738b268d6d43c5057fb60c0f3083cee1359",
-    "previous_success_ms": 1793472311117,
+    "previous_commit": "5ec0bf7a0031c6b13530d1a4149acfbdc33101d8",
+    "previous_success_ms": 1793472597923,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
