@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 31.10.2026 15:36:29 TR · V2 döngüsü 306
+Son gözlem: 31.10.2026 15:41:37 TR · V2 döngüsü 307
 
 ## Bildirim kuralları
 
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 31.10.2026 15:36:11 TR
+Son zincir okuması: 31.10.2026 15:41:19 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -35,7 +35,7 @@ Son zincir okuması: 31.10.2026 15:36:11 TR
 |[GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1](https://solscan.io/account/GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1)|18632853.848854|+0.000000|
 |[HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj](https://solscan.io/account/HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj)|18600880.793574|+0.000000|
 |[AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN](https://solscan.io/account/AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN)|18385703.106597|+0.000000|
-|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17921785.445069|+6076.801286|
+|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17921785.445069|+0.000000|
 |[4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb](https://solscan.io/account/4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb)|13902460.752094|+0.000000|
 |[5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe](https://solscan.io/account/5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe)|13429775.275641|+0.000000|
 |[6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM](https://solscan.io/account/6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM)|12000069.420000|+0.000000|
@@ -64,7 +64,7 @@ V2de sessiz kaydedilen küçük işlem 48, anlamlı tek işlem 6.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 31.10.2026 15:36:11 TR
+Son zincir okuması: 31.10.2026 15:41:19 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -100,14 +100,14 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "errors": [
         "api.mainnet.solana.com: RPC error -32015"
       ],
-      "detail_queue": 260,
+      "detail_queue": 278,
       "full_chain_coverage": false,
-      "checked_ms": 1793450189216
+      "checked_ms": 1793450497901
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793450171314,
+      "observed_ms": 1793450479998,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -119,18 +119,20 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434
   },
   "timing": {
-    "intervals": 305,
+    "intervals": 306,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
     "full_chain_coverage": false
   },
-  "detail_queue": 260
+  "detail_queue": 278
 }
 ```
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+31.10.2026 15:41:22 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 31.10.2026 15:36:13 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -209,6 +211,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 31.10.2026 13:50:50 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 31.10.2026 13:45:59 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-31.10.2026 13:45:34 TR · **ALIM** · ALIM: $224.68 · işlem başlatıcı `EciGzv86MdB6zLHkoLPLiAyU37BQmpJyY7yQb7SPG9zS` · bildirim eşiği $160
 
