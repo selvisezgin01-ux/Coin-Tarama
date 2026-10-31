@@ -1395544,7 +1395544,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793419382618,
+      "duration_ms": 35122
     }
   ],
   "radar_admissions": [
@@ -1403644,14 +1403646,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793419362781,
+            "endpoint_ms": 1793419380000,
+            "endpoint_price": null,
+            "return_pct": null,
+            "btc_excess_pct_points": null,
+            "mae_pct": null,
+            "mfe_pct": null,
+            "path_complete": false,
+            "complete": false,
+            "minute_bars": 59,
+            "ignored_entry_fragment_ms": 17219,
+            "measured_ms": 1793419381121,
+            "cost_scenarios_pct": {
+              "0.2": null,
+              "0.5": null,
+              "1": null
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793415600000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "SPKUSDT",
         "observation_lag_ms": 162781,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9674
+        "notification_lag_ms": 9674,
+        "last_measure_attempt_ms": 1793419381121
       },
       "a633fb525c12b8edce8081da:radar": {
         "symbol": "BULLAUSDT",
@@ -1403841,19 +1403867,19 @@
     "errors": [],
     "queue": {
       "due": 18,
-      "attempted": 2,
-      "observed_ms": 1793419075051,
-      "unique_reads": 4
+      "attempted": 1,
+      "observed_ms": 1793419381121,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "market_event_references": 116,
-        "unique_symbol_labels": 80,
+        "market_event_references": 118,
+        "unique_symbol_labels": 82,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 40,
-            "first_per_symbol": 40,
+            "event_references": 42,
+            "first_per_symbol": 42,
             "hours": {
               "1": {
                 "known_first_symbols": 37,
@@ -1413552,13 +1413578,35 @@
               "barriers": {
                 "status": "not_a_trade_entry"
               }
+            },
+            "12": {
+              "target_ms": 1793384188411,
+              "endpoint_ms": 1793384220000,
+              "endpoint_price": 0.004132,
+              "return_pct": 0.37653346289323597,
+              "btc_excess_pct_points": 2.4083363529419644,
+              "mae_pct": -0.6437507591400604,
+              "mfe_pct": 4.311915462164451,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 720,
+              "ignored_entry_fragment_ms": 31589,
+              "measured_ms": 1793419381679,
+              "cost_scenarios_pct": {
+                "0.2": 0.17653346289323596,
+                "0.5": -0.12346653710676403,
+                "1": -0.623466537106764
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
             }
           },
           "source_close_ms": 1793340900000,
           "observation_lag_ms": 88411,
           "interpretation": "early radar reference, not a trade entry",
           "notification_lag_ms": 7965,
-          "last_measure_attempt_ms": 1793355559690
+          "last_measure_attempt_ms": 1793419381679
         },
         "GLMRUSDT:radar": {
           "symbol": "GLMRUSDT",
@@ -1415769,7 +1415817,7 @@
       "queue": {
         "due": 69,
         "attempted": 1,
-        "observed_ms": 1793418478492,
+        "observed_ms": 1793419381679,
         "unique_reads": 2
       },
       "summary": {
@@ -1415785,8 +1415833,8 @@
               "median_pct": -0.3887397602739706
             },
             "12": {
-              "known": 57,
-              "median_pct": -0.17303532804614496
+              "known": 58,
+              "median_pct": -0.04924198374190447
             },
             "24": {
               "known": 18,
@@ -1426560,8 +1426608,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f4c9d6f3449365ad43ae91bae13f83ba09c8f51d",
-    "previous_success_ms": 1793419372963,
+    "previous_commit": "ec4aa7652245520d1aa0aafcaa64b191823cfaae",
+    "previous_success_ms": 1793419381084,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
