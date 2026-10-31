@@ -10289,48 +10289,6 @@
         }
       ]
     },
-    "ethereum:0xa35923162c49cf95e6bf26623385eb431ad920d3": {
-      "chain": "ethereum",
-      "mint": "0xa35923162c49cf95e6bf26623385eb431ad920d3",
-      "first_seen_ms": 1793340129150,
-      "pools": {
-        "0x68809eb21b774bdea4c52e32d8d4b3ed56ad140c": {
-          "created_ms": 1793339807000,
-          "first_seen_ms": 1793340129150
-        },
-        "0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810": {
-          "created_ms": 1682969567000,
-          "first_seen_ms": 1793391321699
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793391319288,
-      "decision": {
-        "at_ms": 1793391321699,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "pool_age",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "pool": "0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391321699,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "pool_age",
-            "market_cap_not_50k_500k",
-            "liquidity_to_cap"
-          ],
-          "pool": "0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810"
-        }
-      ]
-    },
     "ethereum:0x3e311906706153c8f3e2d1878f5271fdaac8b8f0": {
       "chain": "ethereum",
       "mint": "0x3e311906706153c8f3e2d1878f5271fdaac8b8f0",
@@ -318728,81 +318686,6 @@
       ],
       "last_quote_attempt_ms": 1793433295205
     },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793433345066,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793433345066
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
-      "chain": "hyperevm",
-      "mint": "0x31538bc41c9a171707db639e0830f5f15184cfff",
-      "first_seen_ms": 1793433345066,
-      "pools": {
-        "0x48d015286f368870e0f0e00c3e28801dec5098b6": {
-          "created_ms": 1793309400000,
-          "first_seen_ms": 1793433345066
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e": {
-      "chain": "hyperevm",
-      "mint": "0xee31509a163002f82ae8fc1f31687aa0a3af771e",
-      "first_seen_ms": 1793433345066,
-      "pools": {
-        "0xf26f89b9273757856a827444e629d92688ec818c": {
-          "created_ms": 1793308080000,
-          "first_seen_ms": 1793433345066
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b": {
-      "chain": "hyperevm",
-      "mint": "0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
-      "first_seen_ms": 1793433345066,
-      "pools": {
-        "0xf343cbb242c49fe796b533034ddfbcf8924e8bee": {
-          "created_ms": 1793307660000,
-          "first_seen_ms": 1793433345066
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x19e45e20e5602792a22f986aa7318a54305af761": {
-      "chain": "hyperevm",
-      "mint": "0x19e45e20e5602792a22f986aa7318a54305af761",
-      "first_seen_ms": 1793433345066,
-      "pools": {
-        "0x4f9b93382a8955c4540a1c1b84f4595562779f74": {
-          "created_ms": 1793302500000,
-          "first_seen_ms": 1793433345066
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:BnJbu1ye1ru4KA9kiMBQgFReyzMVogYCYiGq7d4QuTKM": {
       "chain": "solana",
       "mint": "BnJbu1ye1ru4KA9kiMBQgFReyzMVogYCYiGq7d4QuTKM",
@@ -331473,60 +331356,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 42661604.0,
         "pool_age_minutes": 504113.1783166667
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "ethereum:0xa35923162c49cf95e6bf26623385eb431ad920d3": {
-      "first_seen_ms": 1793391321699,
-      "observations": [
-        {
-          "ms": 1793391319910,
-          "price": 0.0007672,
-          "liquidity": 122814.79
-        }
-      ],
-      "latest": {
-        "chain": "ethereum",
-        "mint": "0xa35923162c49cf95e6bf26623385eb431ad920d3",
-        "pool": "0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810",
-        "symbol": "TURBO",
-        "dex": "uniswap",
-        "price_usd": 0.0007672,
-        "price_observed_ms": 1793391319910,
-        "observed_ms": 1793391319910,
-        "liquidity_usd": 122814.79,
-        "market_cap_usd": 52941793.0,
-        "fdv_usd": 52941793.0,
-        "pool_created_ms": 1682969567000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 52941793.0,
-        "pool_age_minutes": 1840362.5783166667
       },
       "activity": {
         "passed": false,
@@ -1237812,6 +1237641,16 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/385",
       "issue_created_at": "2026-10-31T07:51:06Z",
       "recorded_ms": 1793433066453
+    },
+    "3879fe5fe660e1c963afa4ef": {
+      "event_id": "3879fe5fe660e1c963afa4ef",
+      "key": "bnb:0xd35c2d5007c4ed38a276b90d4ecd3ccf6c29a7ec",
+      "phase": "early_radar",
+      "observed_ms": 1793433384661,
+      "issue_number": 386,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/386",
+      "issue_created_at": "2026-10-31T07:57:09Z",
+      "recorded_ms": 1793433430153
     }
   },
   "cases": {},
@@ -1263381,7 +1263220,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793433431069
     }
   ],
   "archive": {
@@ -1337463,8 +1337303,8 @@
     }
   },
   "publication": {
-    "commit": "74d1b8ed615a516b27bbbaf01c7b6ad85b712ce2",
-    "success_ms": 1793433345038,
+    "commit": "8d41443e597d58026c9f056d54c63618edab1806",
+    "success_ms": 1793433428700,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793428232282,
@@ -1342670,6 +1342510,20 @@
       "archived_ms": 1793433338037,
       "keys": [
         "ethereum:0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
+        "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
+        "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e",
+        "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
+        "hyperevm:0x19e45e20e5602792a22f986aa7318a54305af761"
+      ],
+      "count": 6,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "8d41443e597d58026c9f056d54c63618edab1806",
+      "archived_ms": 1793433428728,
+      "keys": [
+        "ethereum:0xa35923162c49cf95e6bf26623385eb431ad920d3",
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
         "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
         "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e",
