@@ -528990,36 +528990,6 @@
           "pool": "0x04efecdb26936581699b14bff26946817e53988c"
         }
       ]
-    },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793461304177,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793461304177
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793461304177,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793461304177
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
     }
   },
   "assets": {
@@ -1963431,7 +1963401,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793461388636
     }
   ],
   "archive": {
@@ -2037513,8 +2037484,8 @@
     }
   },
   "publication": {
-    "commit": "ef460e3da608d955be22d9fbb99a7e951ce41e79",
-    "success_ms": 1793461304132,
+    "commit": "11e6f9bde519086c5d47d70991563f8a8e5ffdea",
+    "success_ms": 1793461388582,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793458401823,
@@ -2045811,6 +2045782,16 @@
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
       ],
       "count": 3,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "11e6f9bde519086c5d47d70991563f8a8e5ffdea",
+      "archived_ms": 1793461388625,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
+      ],
+      "count": 2,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
