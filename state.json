@@ -443,50 +443,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "34360e7f197a9fbc22ee5e48",
-      "created_ms": 1793479241258,
-      "candidates": [
-        {
-          "exchange": "OKX",
-          "symbol": "SDUSDT",
-          "observed_ms": 1793479098258,
-          "feature_cutoff_ms": 1793476800000,
-          "mid_price": 0.12105,
-          "spread_pct": 0.9417596034696423,
-          "return24_pct": 7.508228805266448,
-          "relative24_pct_points": 6.655426601532954,
-          "quote_volume24": 20312.46136124341,
-          "liquidity_band": "thin",
-          "breakout_level": 0.12053,
-          "breakout_open_ms": 1793462400000.0,
-          "breakout_volume_ratio": 2.6622319237457885,
-          "strength_score": 75,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.11117291356078181,
-          "atr": 0.0028283457568727666,
-          "close": 0.12085,
-          "paper_controls": [
-            {
-              "symbol": "OMIUSDT",
-              "entry_price": 0.0002588
-            },
-            {
-              "symbol": "CATIUSDT",
-              "entry_price": 0.04192
-            },
-            {
-              "symbol": "UMAUSDT",
-              "entry_price": 0.33765
-            }
-          ],
-          "paper_btc_price": 77559.75,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793479241258,
   "paper": {
     "version": "github-paper-v1",
