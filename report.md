@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 31.10.2026 12:00:51 TR · V2 döngüsü 263
+Son gözlem: 31.10.2026 12:06:27 TR · V2 döngüsü 264
 
 ## Bildirim kuralları
 
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 31.10.2026 12:00:28 TR
+Son zincir okuması: 31.10.2026 12:05:35 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 31.10.2026 12:00:28 TR
+Son zincir okuması: 31.10.2026 12:05:35 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -100,12 +100,12 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "errors": [],
       "detail_queue": 0,
       "full_chain_coverage": false,
-      "checked_ms": 1793437251212
+      "checked_ms": 1793437587238
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793437228734,
+      "observed_ms": 1793437535883,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -115,7 +115,7 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434
   },
   "timing": {
-    "intervals": 262,
+    "intervals": 263,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
