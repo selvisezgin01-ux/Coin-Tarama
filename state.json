@@ -1390612,60 +1390612,7 @@
       "source_close_ms": 1793421000000
     }
   },
-  "pending": [
-    {
-      "id": "acbc480caebc7c2474b49d58",
-      "asset_id": "df89908c674890f38584ea6d",
-      "key": "OKX:SPOT:ENJUSDT",
-      "symbol": "ENJUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793421857740,
-      "price": 0.024059999999999998,
-      "level": 0.02431,
-      "invalid": 0.024066872657255496,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02431,
-        "base_invalid": 0.024066872657255496,
-        "atr": 8.751561829669709e-05,
-        "rvol": 4.37090538333012,
-        "close_position": 0.8461538461538503,
-        "breakout": false,
-        "bar_close_ms": 1793419200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.08264462809917106,
-        "score": 5.71705922948397
-      },
-      "context": {
-        "atr": 8.720633217144563e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2719080269756313,
-        "btc_hour_pct": -0.3545526550748024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ENJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793419200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ENJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1392822,6 +1392769,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793421274510
+    },
+    {
+      "id": "acbc480caebc7c2474b49d58",
+      "asset_id": "df89908c674890f38584ea6d",
+      "key": "OKX:SPOT:ENJUSDT",
+      "symbol": "ENJUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793421857740,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793421868878
     }
   ],
   "runs": [
@@ -1432102,8 +1432060,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "830f34d9f1c3dcb6076a521b0a385cdb6dd69d1b",
-    "previous_success_ms": 1793421588417,
+    "previous_commit": "d493de1dad832e3a3e009bba978a524b50b27bc3",
+    "previous_success_ms": 1793421867423,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
