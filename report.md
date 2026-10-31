@@ -88,7 +88,7 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 16848 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 16842 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
@@ -553,7 +553,6 @@ Kimlik defteri: 16848 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `bnb:0x20eaa9d561a927db8f6ad7309a74c0b12f7c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x215f0f93bff701827aeac109986a40a3c0397777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x217d872878ef5b95252a6aa3e9e1f4cdba864444` | market_rejected_or_unknown | liquidity, market_cap_usd |
-| `bnb:0x217e91e177008e6ad702c7b35bca32927ff17777` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x218d924983bba64f7a1744f87712ddf6d0a12007` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x219a8ca1bf3bb5a9484c5ca743c727ca3bf4f9b1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x21aeddf21ee854f20cb497b0430437c4ab367777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -676,7 +675,6 @@ Kimlik defteri: 16848 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `bnb:0x2e1bf0d7222b80eea3ac23beff9507b94a2cffff` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x2e2ba725725d0bce329b7777b7bd64a053357777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2e2eb13ed2a421fd30a174b477b8107f94c07777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x2e622c6b9d3a182476083f315cfc483f10c9843a` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x2e6ea5da59ee2228d1f7d20ca4a991f11ddbffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2ea77db3a390bc388dd948332dd285c39a6b6c26` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2eb14b08cb6ac84dfbab2aa49fccb9e978c97c8b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1501,7 +1499,6 @@ Kimlik defteri: 16848 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `bnb:0x880445122e6a42e77a977f55f355c08208077059` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8816bfe6478e8d8a06eb7b754cc849942a45ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x88520de9dc3750d021df3626d6e829660aaaffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x88711a1d64334dd3fb928433d3444a9dce767777` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x887663fa0cfc355319407f08079eff5804cfffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x887877df8b187b220a431509de3b7fead1f1e23b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8882703a0bc070a8136a3037aec5715abe887777` | archived_age | pool_age_over_24h_identity_preserved |
@@ -2656,7 +2653,6 @@ Kimlik defteri: 16848 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `ethereum:0x356b6bbc1831a8058a6fa7d052941bce2afc0136` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `ethereum:0x35ab4836771d99a81b2816d885e856e0af65d8e5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `ethereum:0x374842321d5ff6d9fb46586261dbdc1cd490fc52` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `ethereum:0x3a2e4a74be0cdf7388537aa3616297f6785ad38b` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0x3b3bf1b0c5c27352acdb0b4ddd0b3792c159f8ad` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `ethereum:0x3b50805453023a91a8bf641e279401a0b23fa6f9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `ethereum:0x3b8f56244d3004cf6546c583afe877f4b8124336` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3175,7 +3171,6 @@ Kimlik defteri: 16848 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `robinhood:0x180f1565207bb33d60efa6449e11c5b7ef592bff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x181d4651a36caa21a1bd8b5a42c560221e77bcb8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x182e0e1e4d098372fe83e3c8f3e1d0913bb28020` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x183e54c5c041f665e750a78567e2b2791b1925f9` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x187ebf5a4051d31ae3a4e1b05d067d74652c1111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x18ade599144831d0d7c82736987740b152d7a5ae` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x18b47df6aac7f41583d17af013d9e8421c509083` | archived_age | pool_age_over_24h_identity_preserved |
@@ -5295,7 +5290,6 @@ Kimlik defteri: 16848 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `robinhood:0xbacd75bb021cff9d73b1998355019a8444cf6574` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbad78d317c51aab5d8e5b1665799f689c7e90e47` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0xbad8140bb65cc86434f1dac3e812382bd7f92d64` | archived_age | pool_age_over_24h_identity_preserved |
-| `robinhood:0xbb6726b2b7ecf6b97853c91ad6a27b6f09f78147` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0xbb6af3bb4b4965d8a89129c2734ac6bcd49886f2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbb7d6b0c125f73b1b7fdd2bbca59dcc425f31111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbb88d45a6751f72b4d022158b5457ba74efd1111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
