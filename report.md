@@ -2,23 +2,22 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 462, ön eleme 277, incelenen 270, aday 2. Gözlem 31.10.2026 03:58 TR; mum kesimi 31.10.2026 03:00 TR.
+OKX: evren 462, ön eleme 211, incelenen 205, aday 3. Gözlem 31.10.2026 07:46 TR; mum kesimi 31.10.2026 07:00 TR.
 
-MEXC: evren 1240, ön eleme 765, incelenen 744, aday 1. Gözlem 31.10.2026 04:01 TR; mum kesimi 31.10.2026 03:00 TR.
+MEXC: evren 1240, ön eleme 618, incelenen 604, aday 1. Gözlem 31.10.2026 07:48 TR; mum kesimi 31.10.2026 07:00 TR.
 
 ## Bu döngüde yeni gelenler
 
-GLMUSDT · OKX  
-Fiyat 0.11201 | 24s %8.87 | hacim 4.83x | makas %0.30  
-düşük hacim; ilk kırılım kapanışı; sonraki mum teyidi yok
+Yeni aday yok.
 
 ## Güncel aday listesi
 
 | Coin | Borsa | 24s % | Hacim USDT | Hacim katı | Makas % |
 |---|---|---:|---:|---:|---:|
-| XPLUSDT | OKX | 12.06 | 5411612 | 1.41 | 0.012 |
-| GLMUSDT | OKX | 8.87 | 40898 | 4.83 | 0.304 |
-| XPLUSDT | MEXC | 12.18 | 1362914 | 2.94 | 0.024 |
+| AGLDUSDT | OKX | 10.05 | 283800 | 3.75 | 0.264 |
+| XPLUSDT | OKX | 6.45 | 4652708 | 1.41 | 0.037 |
+| GLMUSDT | OKX | 10.25 | 38362 | 4.83 | 0.329 |
+| XPLUSDT | MEXC | 6.56 | 1203429 | 2.94 | 0.025 |
 
 Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada görünürse borsa etiketi korunur. Bildirimler önceki başarılı taramaya göre yeni girişlerde oluşur; tekrar girişler için 48 saat bildirim beklemesi vardır. Sürekli listede kalan coin her dört saatte tekrar bildirilmez. Bu döngüdeki yokluk yalnız başarılı bir taramadan sonra değerlendirilir.
 
