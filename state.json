@@ -1512669,114 +1512669,7 @@
       "source_close_ms": 1793467800000
     }
   },
-  "pending": [
-    {
-      "id": "ccef80ea2e2c52b08759c607",
-      "asset_id": "dca64d0a6afd12b07ec471c5",
-      "key": "OKX:SPOT:REUSDT",
-      "symbol": "REUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793468085963,
-      "price": 0.37238499999999997,
-      "level": 0.36033,
-      "invalid": 0.34678500366594184,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.36033,
-        "base_invalid": 0.34678500366594184,
-        "atr": 0.0034333088937211604,
-        "rvol": 5.914542863418954,
-        "close_position": 0.789473684210531,
-        "breakout": true,
-        "bar_close_ms": 1793462400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.126875696687348,
-        "score": 7.704016547629485
-      },
-      "context": {
-        "atr": 0.0043394622906571525,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.2515320034489426,
-        "btc_hour_pct": 0.010572705400591076,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:REUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793462400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "REUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a0844897250402b886b5eee0",
-      "asset_id": "31e723784ccd674aa4b22250",
-      "key": "MEXC:PERP:RAREUSDT",
-      "symbol": "RAREUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793468086982,
-      "price": 0.013475,
-      "level": 0.01322,
-      "invalid": 0.01283826806388148,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01322,
-        "base_invalid": 0.01283826806388148,
-        "atr": 0.00014487957412346935,
-        "rvol": 6.214302171599102,
-        "close_position": 0.7666666666666645,
-        "breakout": true,
-        "bar_close_ms": 1793465100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3882896764252592,
-        "score": 7.766666666666665
-      },
-      "context": {
-        "atr": 0.00019488507849038075,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.472916221837853,
-        "btc_hour_pct": 0.02320780916991172,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RAREUSDT",
-          "change_pct": 9.885472816677176,
-          "old_ms": 1793464620506,
-          "current_ms": 1793468082330,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0084,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793465100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RAREUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1516847,6 +1516740,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793467642122
+    },
+    {
+      "id": "ccef80ea2e2c52b08759c607",
+      "asset_id": "dca64d0a6afd12b07ec471c5",
+      "key": "OKX:SPOT:REUSDT",
+      "symbol": "REUSDT",
+      "phase": "expired",
+      "observed_ms": 1793468085963,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793468096973
+    },
+    {
+      "id": "a0844897250402b886b5eee0",
+      "asset_id": "31e723784ccd674aa4b22250",
+      "key": "MEXC:PERP:RAREUSDT",
+      "symbol": "RAREUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793468086982,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793468096973
     }
   ],
   "runs": [
@@ -1573345,8 +1573260,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8a601874db6117258365190dcc1d28637fc043eb",
-    "previous_success_ms": 1793468073284,
+    "previous_commit": "54b64757f8b7f9a93d0f883d8d81f75e1368b1a1",
+    "previous_success_ms": 1793468095841,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
