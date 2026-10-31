@@ -2089074,6 +2089074,16 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/590",
       "issue_created_at": "2026-10-31T17:06:44Z",
       "recorded_ms": 1793466404410
+    },
+    "2ac99ffae5da2b50eaf5afe7": {
+      "event_id": "2ac99ffae5da2b50eaf5afe7",
+      "key": "robinhood:0x9bdb6f8770295c317c6207d4222346352e8c2be7",
+      "phase": "early_radar",
+      "observed_ms": 1793467343127,
+      "issue_number": 596,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/596",
+      "issue_created_at": "2026-10-31T17:22:35Z",
+      "recorded_ms": 1793467355302
     }
   },
   "cases": {},
@@ -2131414,7 +2131424,8 @@
       "requests": {
         "api.github.com:ok": 1,
         "api.dexscreener.com:ok": 9
-      }
+      },
+      "finished_ms": 1793467357390
     }
   ],
   "archive": {
@@ -2205496,8 +2205507,8 @@
     }
   },
   "publication": {
-    "commit": "a70f4474b27378b36d3a1c8a120cb053117a3a80",
-    "success_ms": 1793467304315,
+    "commit": "27c4c3f5ed77f5ebdad869d742ccebd9d1740bbe",
+    "success_ms": 1793467353765,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
