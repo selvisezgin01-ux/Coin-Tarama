@@ -1514428,168 +1514428,7 @@
       "source_close_ms": 1793489400000
     }
   },
-  "pending": [
-    {
-      "id": "aa71912adbc6d3079a478c86",
-      "asset_id": "d92057c6c695b4d4ae0f71a3",
-      "key": "OKX:PERP:DATAUSDT",
-      "symbol": "DATAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793489546339,
-      "price": 0.13055,
-      "level": 0.1323,
-      "invalid": 0.13040730148411492,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1323,
-        "base_invalid": 0.13040730148411492,
-        "atr": 0.0006179901059005136,
-        "rvol": 3.027620324427645,
-        "close_position": 0.8181818181818113,
-        "breakout": false,
-        "bar_close_ms": 1793477700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.07604562737641984,
-        "score": 4.345802142609456
-      },
-      "context": {
-        "atr": 0.0006596262387935592,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2176869111269908,
-        "btc_hour_pct": -0.1616757595862106,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DATAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793477700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DATAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7a654bb4d2c8b9a7cceb5d70",
-      "asset_id": "1f93e7567f4f49c15a7eccf8",
-      "key": "OKX:PERP:INITUSDT",
-      "symbol": "INITUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793489546339,
-      "price": 0.181525,
-      "level": 0.17792,
-      "invalid": 0.17198989272827914,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.17792,
-        "base_invalid": 0.17198989272827914,
-        "atr": 0.0026673818114722994,
-        "rvol": 6.824660582334084,
-        "close_position": 0.8027638190954788,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.680807622504534,
-        "score": 7.802763819095479
-      },
-      "context": {
-        "atr": 0.0026673818114722994,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.169682210827494,
-        "btc_hour_pct": -0.1616757595862106,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:INITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f65074bd3a0d3c94715b9b3c",
-      "asset_id": "4245e871a3ab9dd58a103f27",
-      "key": "MEXC:PERP:INITUSDT",
-      "symbol": "INITUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793489546759,
-      "price": 0.181635,
-      "level": 0.17794,
-      "invalid": 0.17214752851890658,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.17794,
-        "base_invalid": 0.17214752851890658,
-        "atr": 0.0025498098739561467,
-        "rvol": 5.51956194398603,
-        "close_position": 0.8075916230366496,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.5809394299960218,
-        "score": 7.3271535670226795
-      },
-      "context": {
-        "atr": 0.0025498098739561467,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.09713754018248,
-        "btc_hour_pct": -0.17067879924566043,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:INITUSDT",
-          "change_pct": -0.9793488810380335,
-          "old_ms": 1793486071280,
-          "current_ms": 1793489545382,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1519562,6 +1519401,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793489254324
+    },
+    {
+      "id": "aa71912adbc6d3079a478c86",
+      "asset_id": "d92057c6c695b4d4ae0f71a3",
+      "key": "OKX:PERP:DATAUSDT",
+      "symbol": "DATAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793489546339,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793489558664
+    },
+    {
+      "id": "7a654bb4d2c8b9a7cceb5d70",
+      "asset_id": "1f93e7567f4f49c15a7eccf8",
+      "key": "OKX:PERP:INITUSDT",
+      "symbol": "INITUSDT",
+      "phase": "radar",
+      "observed_ms": 1793489546339,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793489558664
+    },
+    {
+      "id": "f65074bd3a0d3c94715b9b3c",
+      "asset_id": "4245e871a3ab9dd58a103f27",
+      "key": "MEXC:PERP:INITUSDT",
+      "symbol": "INITUSDT",
+      "phase": "radar",
+      "observed_ms": 1793489546759,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793489558664
     }
   ],
   "runs": [
@@ -1558379,7 +1558251,8 @@
         "entry_seq": 0,
         "cohort": "INITUSDT",
         "observation_lag_ms": 146339,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12325
       },
       "4245e871a3ab9dd58a103f27:radar": {
         "symbol": "INITUSDT",
@@ -1558401,7 +1558274,8 @@
         "entry_seq": 0,
         "cohort": "INITUSDT",
         "observation_lag_ms": 146759,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11905
       }
     },
     "errors": [],
@@ -1583972,8 +1583846,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "afeea6e6eb7d0e8e503d3a73d7b1fa634de79b3b",
-    "previous_success_ms": 1793489274785,
+    "previous_commit": "7b67d84cddd69fac0a338e568c16691ad4d903c9",
+    "previous_success_ms": 1793489557154,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
