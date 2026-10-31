@@ -1462120,216 +1462120,7 @@
       "source_close_ms": 1793452500000
     }
   },
-  "pending": [
-    {
-      "id": "408e39388c22fd160be561a7",
-      "asset_id": "53cd5e8f1a410cfda2d8aed2",
-      "key": "OKX:SPOT:GRTUSDT",
-      "symbol": "GRTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793452640086,
-      "price": 0.02046,
-      "level": 0.02041,
-      "invalid": 0.020240020384874463,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02041,
-        "base_invalid": 0.020240020384874463,
-        "atr": 6.653076750357454e-05,
-        "rvol": 11.429104569313576,
-        "close_position": 0.7142857142857284,
-        "breakout": true,
-        "bar_close_ms": 1793442600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7874015748031482,
-        "score": 7.714285714285729
-      },
-      "context": {
-        "atr": 6.985522638073809e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2090049280399353,
-        "btc_hour_pct": -0.08353529624091083,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793442600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "de3220b65787c20428e1f042",
-      "asset_id": "f15786fec1fc154958046e30",
-      "key": "OKX:PERP:BLENDUSDT",
-      "symbol": "BLENDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793452638167,
-      "price": 0.0525,
-      "level": 0.05329,
-      "invalid": 0.05246597090023303,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05329,
-        "base_invalid": 0.05246597090023303,
-        "atr": 0.0004268606651131385,
-        "rvol": 2.59148784575041,
-        "close_position": 0.9833333333333397,
-        "breakout": false,
-        "bar_close_ms": 1793446200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5105900151285869,
-        "score": 4.07482117908375
-      },
-      "context": {
-        "atr": 0.00035294774789388023,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5478831911358562,
-        "btc_hour_pct": -0.09398956702914019,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BLENDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793446200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BLENDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "dac5ce3cecefcd1b151340cd",
-      "asset_id": "e4c18aa330481ec63530f47e",
-      "key": "MEXC:PERP:AWEUSDT",
-      "symbol": "AWEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793452638525,
-      "price": 0.07393,
-      "level": 0.07367,
-      "invalid": 0.07172619030041553,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07367,
-        "base_invalid": 0.07172619030041553,
-        "atr": 0.0004920646638964067,
-        "rvol": 6.161749662209921,
-        "close_position": 0.6818181818181761,
-        "breakout": false,
-        "bar_close_ms": 1793448000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9879253567508295,
-        "score": 7.181818181818176
-      },
-      "context": {
-        "atr": 0.0004951212171828922,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.12751316276476965,
-        "btc_hour_pct": -0.08675229319955458,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AWEUSDT",
-          "change_pct": 0.24156339604068933,
-          "old_ms": 1793449024739,
-          "current_ms": 1793452633641,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793448000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AWEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bb0c82d65c38c42ff4785194",
-      "asset_id": "564927fb8966bdbca0c494a4",
-      "key": "OKX:SPOT:CROUSDT",
-      "symbol": "CROUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793452640086,
-      "price": 0.051504999999999995,
-      "level": 0.05161,
-      "invalid": 0.05099374055426857,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05161,
-        "base_invalid": 0.05099374055426857,
-        "atr": 0.00017506297154288604,
-        "rvol": 3.667401884239536,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793450700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.2914319020788758,
-        "score": 5.667401884239537
-      },
-      "context": {
-        "atr": 0.00016480562746878775,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4726403546066682,
-        "btc_hour_pct": -0.08353529624091083,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793450700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1465795,6 +1465586,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793451756613
+    },
+    {
+      "id": "408e39388c22fd160be561a7",
+      "asset_id": "53cd5e8f1a410cfda2d8aed2",
+      "key": "OKX:SPOT:GRTUSDT",
+      "symbol": "GRTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793452640086,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793452649615
+    },
+    {
+      "id": "de3220b65787c20428e1f042",
+      "asset_id": "f15786fec1fc154958046e30",
+      "key": "OKX:PERP:BLENDUSDT",
+      "symbol": "BLENDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793452638167,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793452649615
+    },
+    {
+      "id": "dac5ce3cecefcd1b151340cd",
+      "asset_id": "e4c18aa330481ec63530f47e",
+      "key": "MEXC:PERP:AWEUSDT",
+      "symbol": "AWEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793452638525,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793452649615
+    },
+    {
+      "id": "bb0c82d65c38c42ff4785194",
+      "asset_id": "564927fb8966bdbca0c494a4",
+      "key": "OKX:SPOT:CROUSDT",
+      "symbol": "CROUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793452640086,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793452649615
     }
   ],
   "runs": [
@@ -1516301,8 +1516136,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "51c1bdaa81e3a22d38966991a2380516caaa51ca",
-    "previous_success_ms": 1793452362003,
+    "previous_commit": "1b2b3390f43abe12d33c98c3da60a054c6456900",
+    "previous_success_ms": 1793452648362,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
