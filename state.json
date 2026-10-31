@@ -10001,22 +10001,6 @@
       ],
       "last_quote_attempt_ms": 1793468982605
     },
-    "bnb:0xb44579780570fb9a4e20163d2bdda8a5cb7effff": {
-      "chain": "bnb",
-      "mint": "0xb44579780570fb9a4e20163d2bdda8a5cb7effff",
-      "first_seen_ms": 1793384920229,
-      "pools": {
-        "0xb44579780570fb9a4e20163d2bdda8a5cb7effff": {
-          "created_ms": 1793384093000,
-          "first_seen_ms": 1793384920229
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793468790406
-    },
     "bnb:0xd080487d5ff4058ac24e60120306b40d006cbbf7": {
       "chain": "bnb",
       "mint": "0xd080487d5ff4058ac24e60120306b40d006cbbf7",
@@ -14775,22 +14759,6 @@
           "pool": "0xd9dbc35862d1c41170ae47fb0d72a2edfaffafe3c10ff9ee4234fde300d91fe2"
         }
       ]
-    },
-    "robinhood:0x28d55642d8cddbbb7e0d01d922ff48b4f8528489": {
-      "chain": "robinhood",
-      "mint": "0x28d55642d8cddbbb7e0d01d922ff48b4f8528489",
-      "first_seen_ms": 1793384933212,
-      "pools": {
-        "0xf37e960d9157ac3485720ad2ac8c2e923329cc9d": {
-          "created_ms": 1793384092000,
-          "first_seen_ms": 1793384933212
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793467642817
     },
     "robinhood:0x96bf56b5e05b3da2a7203357d75b784e4477078a": {
       "chain": "robinhood",
@@ -2383983,7 +2383951,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793477788442
     }
   ],
   "archive": {
@@ -2458065,8 +2458034,8 @@
     }
   },
   "publication": {
-    "commit": "2137554f318b54f28d636caa4d99fbc760dbdaa2",
-    "success_ms": 1793477700337,
+    "commit": "a654b2cdb6975cd6fc6fce9854ecf751419fef8a",
+    "success_ms": 1793477788364,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
@@ -2467070,6 +2467039,16 @@
         "robinhood:0x08f9d1a93305edc3cf01b5221253f4274ec50742"
       ],
       "count": 4,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "a654b2cdb6975cd6fc6fce9854ecf751419fef8a",
+      "archived_ms": 1793477788424,
+      "keys": [
+        "bnb:0xb44579780570fb9a4e20163d2bdda8a5cb7effff",
+        "robinhood:0x28d55642d8cddbbb7e0d01d922ff48b4f8528489"
+      ],
+      "count": 2,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
