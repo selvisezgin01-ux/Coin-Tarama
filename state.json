@@ -1395338,224 +1395338,7 @@
       "source_close_ms": 1793422800000
     }
   },
-  "pending": [
-    {
-      "id": "0893233e858b28bafc9d464c",
-      "asset_id": "45b5dfa235ba47212466c310",
-      "key": "OKX:SPOT:AGLDUSDT",
-      "symbol": "AGLDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793423964675,
-      "price": 0.19014999999999999,
-      "level": 0.1877,
-      "invalid": 0.1877385263183341,
-      "target": 0.1978251973633318,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1877,
-        "base_invalid": 0.18383852631833408,
-        "atr": 0.0010764912111061273,
-        "rvol": 10.154441271213619,
-        "close_position": 0.9444444444444504,
-        "breakout": true,
-        "bar_close_ms": 1793417400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.31982942430703876,
-        "score": 7.94444444444445
-      },
-      "context": {
-        "atr": 0.0014250302097275072,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.250751611075951,
-        "btc_hour_pct": 0.050960270439537325,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AGLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.1877385263183341,
-        "target": 0.1978251973633318,
-        "risk_pct": 1.2681954676128782,
-        "planning_cost_pct": 0.5,
-        "resistance": null,
-        "target_kind": "projected_2R_resistance_unknown",
-        "entry_zone_low": 0.1895,
-        "entry_zone_high": 0.19021251510486376
-      },
-      "reason": null,
-      "source_close_ms": 1793423700000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "AGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "81890b93ad67498d59150d0f",
-      "asset_id": "d001793845f6153cbed560df",
-      "key": "OKX:PERP:LAYERUSDT",
-      "symbol": "LAYERUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793423963716,
-      "price": 0.060535000000000005,
-      "level": 0.06126,
-      "invalid": 0.06059825587808588,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06126,
-        "base_invalid": 0.06059825587808588,
-        "atr": 0.00027829414609416,
-        "rvol": 4.291979454525725,
-        "close_position": 0.9189189189189133,
-        "breakout": false,
-        "bar_close_ms": 1793420100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.11496140581377379,
-        "score": 5.710898373444638
-      },
-      "context": {
-        "atr": 0.0002851602256518268,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.17154519580457883,
-        "btc_hour_pct": 0.04020387254075608,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LAYERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793420100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LAYERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "edaf6788c893e499b8660ee7",
-      "asset_id": "be19a8adeb4647840e772c90",
-      "key": "OKX:PERP:RESOLVUSDT",
-      "symbol": "RESOLVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793423963716,
-      "price": 0.015505,
-      "level": 0.01564,
-      "invalid": 0.015343846241246822,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01564,
-        "base_invalid": 0.015343846241246822,
-        "atr": 0.00010769172502119115,
-        "rvol": 9.3782009158553,
-        "close_position": 0.7142857142857179,
-        "breakout": false,
-        "bar_close_ms": 1793423700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5829015544041471,
-        "score": 7.214285714285718
-      },
-      "context": {
-        "atr": 0.00010769172502119115,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.7494237306967744,
-        "btc_hour_pct": 0.04020387254075608,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RESOLVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793423700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RESOLVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "818460e246250fcdecb287af",
-      "asset_id": "788c044257da5d8a33a4ddfb",
-      "key": "OKX:SPOT:ZORAUSDT",
-      "symbol": "ZORAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793423964675,
-      "price": 0.006236,
-      "level": 0.006322,
-      "invalid": 0.006129261138478523,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006322,
-        "base_invalid": 0.006129261138478523,
-        "atr": 5.8259076809847795e-05,
-        "rvol": 6.173613366629611,
-        "close_position": 0.646153846153848,
-        "breakout": false,
-        "bar_close_ms": 1793423700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.5591947595462443,
-        "score": 7.146153846153848
-      },
-      "context": {
-        "atr": 5.8259076809847795e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.2898983235368755,
-        "btc_hour_pct": 0.050960270439537325,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZORAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793423700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZORAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1397767,6 +1397550,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793423671285
+    },
+    {
+      "id": "0893233e858b28bafc9d464c",
+      "asset_id": "45b5dfa235ba47212466c310",
+      "key": "OKX:SPOT:AGLDUSDT",
+      "symbol": "AGLDUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793423964675,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793423975301
+    },
+    {
+      "id": "81890b93ad67498d59150d0f",
+      "asset_id": "d001793845f6153cbed560df",
+      "key": "OKX:PERP:LAYERUSDT",
+      "symbol": "LAYERUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793423963716,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793423975301
+    },
+    {
+      "id": "edaf6788c893e499b8660ee7",
+      "asset_id": "be19a8adeb4647840e772c90",
+      "key": "OKX:PERP:RESOLVUSDT",
+      "symbol": "RESOLVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793423963716,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793423975301
+    },
+    {
+      "id": "818460e246250fcdecb287af",
+      "asset_id": "788c044257da5d8a33a4ddfb",
+      "key": "OKX:SPOT:ZORAUSDT",
+      "symbol": "ZORAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793423964675,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793423975301
     }
   ],
   "runs": [
@@ -1414925,7 +1414752,8 @@
         "entry_seq": 1,
         "cohort": "AGLDUSDT",
         "observation_lag_ms": 264675,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 10626
       },
       "be19a8adeb4647840e772c90:radar": {
         "symbol": "RESOLVUSDT",
@@ -1414947,7 +1414775,8 @@
         "entry_seq": 0,
         "cohort": "RESOLVUSDT",
         "observation_lag_ms": 263716,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11585
       },
       "788c044257da5d8a33a4ddfb:radar": {
         "symbol": "ZORAUSDT",
@@ -1414969,7 +1414798,8 @@
         "entry_seq": 0,
         "cohort": "ZORAUSDT",
         "observation_lag_ms": 264675,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10626
       }
     },
     "errors": [],
@@ -1437860,8 +1437690,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0f72467fab6a0fd43ed90ac87134fc3b7e9f0520",
-    "previous_success_ms": 1793423688256,
+    "previous_commit": "c5f7d80c99f0d9397bec13f5ea28c72e23c29855",
+    "previous_success_ms": 1793423973849,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
