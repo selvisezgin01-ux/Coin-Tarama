@@ -1429524,110 +1429524,7 @@
       "source_close_ms": 1793442600000
     }
   },
-  "pending": [
-    {
-      "id": "3df20347df1c27233462df5e",
-      "asset_id": "de59ecd299326a5618b087c3",
-      "key": "OKX:SPOT:SKYUSDT",
-      "symbol": "SKYUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793442901648,
-      "price": 0.069025,
-      "level": 0.06796,
-      "invalid": 0.06726781303726226,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06796,
-        "base_invalid": 0.06726781303726226,
-        "atr": 0.00028124641825155613,
-        "rvol": 2.582476915024338,
-        "close_position": 0.6666666666666281,
-        "breakout": false,
-        "bar_close_ms": 1793435400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.11823825007388766,
-        "score": 3.7491435816909657
-      },
-      "context": {
-        "atr": 0.0002897977557364272,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4228787933444389,
-        "btc_hour_pct": 0.13528806917024738,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SKYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SKYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "573019bfd74bd4e5462d4359",
-      "asset_id": "53cd5e8f1a410cfda2d8aed2",
-      "key": "OKX:SPOT:GRTUSDT",
-      "symbol": "GRTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793442901648,
-      "price": 0.02051,
-      "level": 0.02041,
-      "invalid": 0.020240020384874463,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02041,
-        "base_invalid": 0.020240020384874463,
-        "atr": 6.653076750357454e-05,
-        "rvol": 11.429104569313576,
-        "close_position": 0.7142857142857284,
-        "breakout": true,
-        "bar_close_ms": 1793442600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7874015748031482,
-        "score": 7.714285714285729
-      },
-      "context": {
-        "atr": 6.653076750357454e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1605699189954457,
-        "btc_hour_pct": 0.13528806917024738,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793442600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1432631,6 +1432528,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793441112908
+    },
+    {
+      "id": "3df20347df1c27233462df5e",
+      "asset_id": "de59ecd299326a5618b087c3",
+      "key": "OKX:SPOT:SKYUSDT",
+      "symbol": "SKYUSDT",
+      "phase": "expired",
+      "observed_ms": 1793442901648,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793442911774
+    },
+    {
+      "id": "573019bfd74bd4e5462d4359",
+      "asset_id": "53cd5e8f1a410cfda2d8aed2",
+      "key": "OKX:SPOT:GRTUSDT",
+      "symbol": "GRTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793442901648,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793442911774
     }
   ],
   "runs": [
@@ -1455910,7 +1455829,8 @@
         "entry_seq": 0,
         "cohort": "GRTUSDT",
         "observation_lag_ms": 301648,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10126
       }
     },
     "errors": [],
@@ -1479598,8 +1479518,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "83e09ca7f68d4ccbf5498477f0d71858bda8d8f5",
-    "previous_success_ms": 1793442623491,
+    "previous_commit": "f373df45b4d5890f0ada9a7d48a0a89186f08ba1",
+    "previous_success_ms": 1793442910533,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
