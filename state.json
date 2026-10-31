@@ -1342344,110 +1342344,7 @@
       "source_close_ms": 1793411100000
     }
   },
-  "pending": [
-    {
-      "id": "4467fc72e686a47d2c9522a9",
-      "asset_id": "06718096c3291ccf4ba54cfc",
-      "key": "OKX:SPOT:CVXUSDT",
-      "symbol": "CVXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793411469499,
-      "price": 2.0389999999999997,
-      "level": 1.987,
-      "invalid": 1.952522539014148,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.987,
-        "base_invalid": 1.952522539014148,
-        "atr": 0.01651640657234608,
-        "rvol": 5.097653762527602,
-        "close_position": 0.8800000000000039,
-        "breakout": false,
-        "bar_close_ms": 1793389500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9664292980671396,
-        "score": 6.477653762527606
-      },
-      "context": {
-        "atr": 0.014528133985609554,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.1709989692227927,
-        "btc_hour_pct": 0.26802542102111193,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CVXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793389500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CVXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ab216cc66bab745f78178dac",
-      "asset_id": "65b544571a602c370d4a953b",
-      "key": "OKX:SPOT:WCTUSDT",
-      "symbol": "WCTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793411469499,
-      "price": 0.035885,
-      "level": 0.03593,
-      "invalid": 0.03515343441978036,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03593,
-        "base_invalid": 0.03515343441978036,
-        "atr": 0.00024377053479760435,
-        "rvol": 12.041781453153346,
-        "close_position": 0.9666666666666678,
-        "breakout": true,
-        "bar_close_ms": 1793411100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.36282444878592557,
-        "score": 7.966666666666668
-      },
-      "context": {
-        "atr": 0.00024377053479760435,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0373094257439375,
-        "btc_hour_pct": 0.26802542102111193,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WCTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793411100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WCTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1344153,6 +1344050,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793410580426
+    },
+    {
+      "id": "4467fc72e686a47d2c9522a9",
+      "asset_id": "06718096c3291ccf4ba54cfc",
+      "key": "OKX:SPOT:CVXUSDT",
+      "symbol": "CVXUSDT",
+      "phase": "expired",
+      "observed_ms": 1793411469499,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793411480140
+    },
+    {
+      "id": "ab216cc66bab745f78178dac",
+      "asset_id": "65b544571a602c370d4a953b",
+      "key": "OKX:SPOT:WCTUSDT",
+      "symbol": "WCTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793411469499,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793411480140
     }
   ],
   "runs": [
@@ -1357218,7 +1357137,8 @@
         "entry_seq": 0,
         "cohort": "WCTUSDT",
         "observation_lag_ms": 369499,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10641
       }
     },
     "errors": [],
@@ -1379741,8 +1379661,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "34822c96eff65b3966b634181c69adcf8886e062",
-    "previous_success_ms": 1793411201883,
+    "previous_commit": "884c1fd5044019eee2a70a7fc203516c2b578b78",
+    "previous_success_ms": 1793411478794,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
