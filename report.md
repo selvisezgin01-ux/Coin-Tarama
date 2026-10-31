@@ -2,22 +2,27 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 462, ön eleme 211, incelenen 205, aday 3. Gözlem 31.10.2026 07:46 TR; mum kesimi 31.10.2026 07:00 TR.
+OKX: evren 462, ön eleme 200, incelenen 193, aday 2. Gözlem 31.10.2026 11:45 TR; mum kesimi 31.10.2026 11:00 TR.
 
-MEXC: evren 1240, ön eleme 618, incelenen 604, aday 1. Gözlem 31.10.2026 07:48 TR; mum kesimi 31.10.2026 07:00 TR.
+MEXC: evren 1241, ön eleme 585, incelenen 570, aday 1. Gözlem 31.10.2026 11:47 TR; mum kesimi 31.10.2026 11:00 TR.
 
 ## Bu döngüde yeni gelenler
 
-Yeni aday yok.
+WOOUSDT · OKX  
+Fiyat 0.011425 | 24s %11.91 | hacim 7.39x | makas %0.44  
+Kapalı mum tarama koşulları sağlandı
+
+REALTOKENUSDT · MEXC  
+Fiyat 0.0014825 | 24s %11.79 | hacim 1.82x | makas %1.15  
+düşük hacim; makas teyidi gerekli; ilk kırılım kapanışı; sonraki mum teyidi yok
 
 ## Güncel aday listesi
 
 | Coin | Borsa | 24s % | Hacim USDT | Hacim katı | Makas % |
 |---|---|---:|---:|---:|---:|
-| AGLDUSDT | OKX | 10.05 | 283800 | 3.75 | 0.264 |
-| XPLUSDT | OKX | 6.45 | 4652708 | 1.41 | 0.037 |
-| GLMUSDT | OKX | 10.25 | 38362 | 4.83 | 0.329 |
-| XPLUSDT | MEXC | 6.56 | 1203429 | 2.94 | 0.025 |
+| WOOUSDT | OKX | 11.91 | 224983 | 7.39 | 0.438 |
+| GLMUSDT | OKX | 8.83 | 49268 | 4.83 | 0.272 |
+| REALTOKENUSDT | MEXC | 11.79 | 17781 | 1.82 | 1.147 |
 
 Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada görünürse borsa etiketi korunur. Bildirimler önceki başarılı taramaya göre yeni girişlerde oluşur; tekrar girişler için 48 saat bildirim beklemesi vardır. Sürekli listede kalan coin her dört saatte tekrar bildirilmez. Bu döngüdeki yokluk yalnız başarılı bir taramadan sonra değerlendirilir.
 
@@ -25,16 +30,16 @@ Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada gö
 
 Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedilir. Aynı coin grup değiştirse de yeni bağımsız örnek sayılmaz. Hedef saatten sonraki ilk dakika kapanışı kullanılır; gecikme 60 saniyeden küçüktür. Ücret/kayma dahil net kâr değildir. Henüz oluşmamış veya eksik ölçümler boş kalır.
 
-179 borsa kaydı, 145 farklı sembol. Ortak semboller iki bağımsız başarı gibi toplanmaz.
+181 borsa kaydı, 147 farklı sembol. Ortak semboller iki bağımsız başarı gibi toplanmaz.
 
 | Borsa | Süre | Ölçülen | Medyan % | BTC üstü puan | Kontrol üstü puan | Kontrol ölçülen |
 |---|---:|---:|---:|---:|---:|---:|
-| MEXC | 12s | 84/84 | -1.04 | -1.00 | -0.58 | 84 |
-| MEXC | 24s | 83/84 | -2.48 | -1.10 | -1.14 | 83 |
-| MEXC | 48s | 68/84 | -5.66 | -2.34 | -0.89 | 68 |
-| OKX | 12s | 93/95 | -0.22 | -0.23 | 0.26 | 93 |
-| OKX | 24s | 93/95 | -0.77 | -0.51 | 0.04 | 93 |
-| OKX | 48s | 79/95 | -1.29 | -1.07 | 0.99 | 79 |
+| MEXC | 12s | 84/85 | -1.04 | -1.00 | -0.58 | 84 |
+| MEXC | 24s | 83/85 | -2.48 | -1.10 | -1.14 | 83 |
+| MEXC | 48s | 68/85 | -5.66 | -2.34 | -0.89 | 68 |
+| OKX | 12s | 94/96 | -0.28 | -0.23 | 0.19 | 94 |
+| OKX | 24s | 93/96 | -0.77 | -0.51 | 0.04 | 93 |
+| OKX | 48s | 79/96 | -1.29 | -1.07 | 0.99 | 79 |
 
 | Coin | Borsa | İlk grup | Gerçek gözlem TR | Referans fiyat | 12s % | 24s % | 48s % |
 |---|---|---|---|---:|---:|---:|---:|
@@ -99,6 +104,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | PUMPUSDT | MEXC | Yeni kırılım | 28.10.2026 23:46 | 0.0044635 | -5.50 | -9.67 | -8.86 |
 | PYTHUSDT | MEXC | Yeni kırılım | 26.10.2026 17:49 | 0.07572 | -3.14 | -4.37 | -5.63 |
 | RADUSDT | MEXC | Yeni kırılım | 29.10.2026 23:46 | 0.26895 | -18.39 | -18.01 | — |
+| REALTOKENUSDT | MEXC | Yeni kırılım | 31.10.2026 11:47 | 0.0014825 | — | — | — |
 | RECALLUSDT | MEXC | Yeni kırılım | 28.10.2026 15:57 | 0.03972 | -1.56 | -3.17 | -14.38 |
 | REZUSDT | MEXC | Yeni kırılım | 26.10.2026 03:56 | 0.0047665 | -5.23 | -2.57 | 7.65 |
 | SHIBUSDT | MEXC | Yeni kırılım | 28.10.2026 15:57 | 4.959e-06 | 0.02 | -0.91 | -2.64 |
@@ -150,7 +156,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | GRASSUSDT | OKX | Yeni kırılım | 27.10.2026 23:40 | 0.73955 | -1.40 | -6.70 | -17.56 |
 | HYPEUSDT | OKX | Yeni kırılım | 27.10.2026 23:40 | 81.0605 | 0.69 | -0.38 | 13.25 |
 | INJUSDT | OKX | Yeni kırılım | 27.10.2026 19:50 | 8.1195 | -0.95 | -5.09 | -0.13 |
-| KNCUSDT | OKX | Yeni kırılım | 30.10.2026 19:49 | 0.120275 | — | — | — |
+| KNCUSDT | OKX | Yeni kırılım | 30.10.2026 19:49 | 0.120275 | -0.35 | — | — |
 | LINKUSDT | OKX | Yeni kırılım | 28.10.2026 11:54 | 11.821 | -0.16 | -3.36 | -6.51 |
 | MORPHOUSDT | OKX | Yeni kırılım | 29.10.2026 19:56 | 2.2646 | -11.19 | -8.29 | — |
 | NIGHTUSDT | OKX | Yeni kırılım | 26.10.2026 19:48 | 0.0396045 | -1.11 | -0.69 | 0.95 |
@@ -175,6 +181,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | TRUMPUSDT | OKX | Yeni kırılım | 28.10.2026 23:44 | 1.7275 | -3.50 | -9.18 | -9.52 |
 | UNIUSDT | OKX | Yeni kırılım | 29.10.2026 19:56 | 7.3765 | -7.82 | -5.42 | — |
 | WETUSDT | OKX | Yeni kırılım | 28.10.2026 23:44 | 0.052755 | 0.45 | -3.90 | -1.77 |
+| WOOUSDT | OKX | Yeni kırılım | 31.10.2026 11:45 | 0.011425 | — | — | — |
 | WUSDT | OKX | Yeni kırılım | 27.10.2026 19:50 | 0.0127675 | 0.63 | -0.64 | -2.28 |
 | XAAOIUSDT | OKX | Yeni kırılım | 27.10.2026 03:45 | 73.855 | -0.35 | 4.03 | 10.46 |
 | XAMATUSDT | OKX | Yeni kırılım | 28.10.2026 07:47 | 401.765 | 3.26 | 1.06 | 0.49 |
