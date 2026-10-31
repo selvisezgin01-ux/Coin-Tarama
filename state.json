@@ -488256,66 +488256,6 @@
         }
       ]
     },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793455403444,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793455403444
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793455403444,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793455403444
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
-      "chain": "hyperevm",
-      "mint": "0x31538bc41c9a171707db639e0830f5f15184cfff",
-      "first_seen_ms": 1793455403444,
-      "pools": {
-        "0x48d015286f368870e0f0e00c3e28801dec5098b6": {
-          "created_ms": 1793309400000,
-          "first_seen_ms": 1793455403444
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e": {
-      "chain": "hyperevm",
-      "mint": "0xee31509a163002f82ae8fc1f31687aa0a3af771e",
-      "first_seen_ms": 1793455403444,
-      "pools": {
-        "0xf26f89b9273757856a827444e629d92688ec818c": {
-          "created_ms": 1793308080000,
-          "first_seen_ms": 1793455403444
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:2Ksf37Fko6HMR7PNLXLgLstwXyu9QzBEgVypPB7Mpump": {
       "chain": "solana",
       "mint": "2Ksf37Fko6HMR7PNLXLgLstwXyu9QzBEgVypPB7Mpump",
@@ -1825919,7 +1825859,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793455487310
     }
   ],
   "archive": {
@@ -1900001,8 +1899942,8 @@
     }
   },
   "publication": {
-    "commit": "468e2a8455fc8c65dffbaf1b44f26ccfbba2d3eb",
-    "success_ms": 1793455403403,
+    "commit": "8049c2b17b1f191c5417736999674d5cfc413e1a",
+    "success_ms": 1793455487259,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793428232282,
@@ -1907752,6 +1907693,18 @@
     {
       "source_state_sha": "4c3a849f93504a2fbfcf67bbe87f39f598de5f83",
       "archived_ms": 1793455393003,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
+        "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
+        "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e"
+      ],
+      "count": 4,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "8049c2b17b1f191c5417736999674d5cfc413e1a",
+      "archived_ms": 1793455487300,
       "keys": [
         "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
