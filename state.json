@@ -1432502,268 +1432502,7 @@
       "source_close_ms": 1793444400000
     }
   },
-  "pending": [
-    {
-      "id": "7efae8a89f9f16757749306c",
-      "asset_id": "fb08206b09b876affcc4da5e",
-      "key": "OKX:SPOT:TIAUSDT",
-      "symbol": "TIAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793444704954,
-      "price": 0.47175,
-      "level": 0.4717,
-      "invalid": 0.45905714298633266,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4717,
-        "base_invalid": 0.45905714298633266,
-        "atr": 0.0036190467577823745,
-        "rvol": 21.36158567860787,
-        "close_position": 0.9390243902439027,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.975420439844778,
-        "score": 7.939024390243903
-      },
-      "context": {
-        "atr": 0.0029431841902833648,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5432349595638875,
-        "btc_hour_pct": -0.06677766138689645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:TIAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b96b0c9490573d97c6fe3c50",
-      "asset_id": "2590686b20671b022be6beb0",
-      "key": "OKX:SPOT:BABYUSDT",
-      "symbol": "BABYUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793444704954,
-      "price": 0.012240999999999998,
-      "level": 0.012193,
-      "invalid": 0.012045481327231529,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.012193,
-        "base_invalid": 0.012045481327231529,
-        "atr": 5.012448512313836e-05,
-        "rvol": 2.3036975843027085,
-        "close_position": 0.9577464788732226,
-        "breakout": true,
-        "bar_close_ms": 1793439000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8433236874741512,
-        "score": 4.261444063175931
-      },
-      "context": {
-        "atr": 4.252438965429671e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2552250190271943,
-        "btc_hour_pct": -0.06677766138689645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BABYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793439000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BABYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e9537769d2f5e2ba5b220752",
-      "asset_id": "4b05165f5a62ce558f156da6",
-      "key": "MEXC:SPOT:GRVTUSDT",
-      "symbol": "GRVTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793444702723,
-      "price": 0.21855,
-      "level": 0.2175,
-      "invalid": 0.21503960949420706,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2175,
-        "base_invalid": 0.21503960949420706,
-        "atr": 0.0010692700386196643,
-        "rvol": 3.463749742670008,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793439900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2064965197215782,
-        "score": 5.463749742670008
-      },
-      "context": {
-        "atr": 0.0014246372638254065,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.33978591497074717,
-        "btc_hour_pct": -0.07023686407253704,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GRVTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793439900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRVTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0315ba0680a05718b89d8c2f",
-      "asset_id": "95239608795db36b1c1e06f1",
-      "key": "OKX:SPOT:GRVTUSDT",
-      "symbol": "GRVTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793444704954,
-      "price": 0.21848499999999998,
-      "level": 0.21757,
-      "invalid": 0.21495800082715757,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.21757,
-        "base_invalid": 0.21495800082715757,
-        "atr": 0.001079994485616182,
-        "rvol": 5.649342516389645,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793439900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2578324437224397,
-        "score": 7.649342516389645
-      },
-      "context": {
-        "atr": 0.0014783844113168579,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.22978224371393852,
-        "btc_hour_pct": -0.06677766138689645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRVTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793439900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRVTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6df96db4c026ce2ff2cedbc2",
-      "asset_id": "c919912286ff56893963238c",
-      "key": "OKX:SPOT:OFCUSDT",
-      "symbol": "OFCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793444704954,
-      "price": 0.006317,
-      "level": 0.006232,
-      "invalid": 0.006154035518593207,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006232,
-        "base_invalid": 0.006154035518593207,
-        "atr": 3.9763209378618995e-05,
-        "rvol": 16.97063932860757,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793444400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4301783705608084,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 3.9763209378618995e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4969560319477049,
-        "btc_hour_pct": -0.06677766138689645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OFCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793444400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OFCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1435855,6 +1435594,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793443811898
+    },
+    {
+      "id": "7efae8a89f9f16757749306c",
+      "asset_id": "fb08206b09b876affcc4da5e",
+      "key": "OKX:SPOT:TIAUSDT",
+      "symbol": "TIAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793444704954,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793444715114
+    },
+    {
+      "id": "b96b0c9490573d97c6fe3c50",
+      "asset_id": "2590686b20671b022be6beb0",
+      "key": "OKX:SPOT:BABYUSDT",
+      "symbol": "BABYUSDT",
+      "phase": "expired",
+      "observed_ms": 1793444704954,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793444715114
+    },
+    {
+      "id": "e9537769d2f5e2ba5b220752",
+      "asset_id": "4b05165f5a62ce558f156da6",
+      "key": "MEXC:SPOT:GRVTUSDT",
+      "symbol": "GRVTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793444702723,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793444715114
+    },
+    {
+      "id": "6df96db4c026ce2ff2cedbc2",
+      "asset_id": "c919912286ff56893963238c",
+      "key": "OKX:SPOT:OFCUSDT",
+      "symbol": "OFCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793444704954,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793444715114
     }
   ],
   "runs": [
@@ -1459790,7 +1459573,8 @@
         "entry_seq": 0,
         "cohort": "OFCUSDT",
         "observation_lag_ms": 304954,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10160
       }
     },
     "errors": [],
@@ -1483568,8 +1483352,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "09664489aaceac60c6d37912faef78384741e63a",
-    "previous_success_ms": 1793444425501,
+    "previous_commit": "3b873f69b0df0474a53d1165ef0e1ca65bb4954d",
+    "previous_success_ms": 1793444714014,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
