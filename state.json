@@ -1396088,118 +1396088,7 @@
       "source_close_ms": 1793424600000
     }
   },
-  "pending": [
-    {
-      "id": "bcb78e66a0c7fafd92a3be32",
-      "asset_id": "45b5dfa235ba47212466c310",
-      "key": "OKX:SPOT:AGLDUSDT",
-      "symbol": "AGLDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793424862746,
-      "price": 0.18735,
-      "level": 0.1877,
-      "invalid": 0.1877385263183341,
-      "target": 0.1978251973633318,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1877,
-        "base_invalid": 0.18383852631833408,
-        "atr": 0.0010764912111061273,
-        "rvol": 10.154441271213619,
-        "close_position": 0.9444444444444504,
-        "breakout": true,
-        "bar_close_ms": 1793417400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.31982942430703876,
-        "score": 7.94444444444445
-      },
-      "context": {
-        "atr": 0.0014038404486057066,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.250751611075951,
-        "btc_hour_pct": 0.050960270439537325,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AGLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.1877385263183341,
-        "target": 0.1978251973633318,
-        "risk_pct": 1.2681954676128782,
-        "planning_cost_pct": 0.5,
-        "resistance": null,
-        "target_kind": "projected_2R_resistance_unknown",
-        "entry_zone_low": 0.1895,
-        "entry_zone_high": 0.19021251510486376
-      },
-      "reason": "giriş geçersizliği kaybedildi",
-      "source_close_ms": 1793423700000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "AGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": true
-    },
-    {
-      "id": "3d42a2d191e81f616e1a0c7f",
-      "asset_id": "c59284cbaed3d46a98ca3f2c",
-      "key": "OKX:SPOT:MASKUSDT",
-      "symbol": "MASKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793424862746,
-      "price": 0.3842,
-      "level": 0.3868,
-      "invalid": 0.3829346017751783,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3868,
-        "base_invalid": 0.3829346017751783,
-        "atr": 0.001102654832144635,
-        "rvol": 5.206858820627892,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793419200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3112840466926059,
-        "score": 6.706858820627892
-      },
-      "context": {
-        "atr": 0.0012361130510916325,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.6198767431573993,
-        "btc_hour_pct": 0.050960270439537325,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MASKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793419200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MASKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1398466,6 +1398355,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793424271729
+    },
+    {
+      "id": "bcb78e66a0c7fafd92a3be32",
+      "asset_id": "45b5dfa235ba47212466c310",
+      "key": "OKX:SPOT:AGLDUSDT",
+      "symbol": "AGLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793424862746,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793424874556
+    },
+    {
+      "id": "3d42a2d191e81f616e1a0c7f",
+      "asset_id": "c59284cbaed3d46a98ca3f2c",
+      "key": "OKX:SPOT:MASKUSDT",
+      "symbol": "MASKUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793424862746,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793424874556
     }
   ],
   "runs": [
@@ -1438870,8 +1438781,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1041b605d85be90ae52fe0ad72aa19a2b50863ce",
-    "previous_success_ms": 1793424586123,
+    "previous_commit": "e5a20b5469254e61de421cf18cfbc31e0e1f7c00",
+    "previous_success_ms": 1793424871809,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
