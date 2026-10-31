@@ -1461385,112 +1461385,7 @@
       "source_close_ms": 1793448900000
     }
   },
-  "pending": [
-    {
-      "id": "f9962bfaf38abe9431d03b0c",
-      "asset_id": "4995a5e8f060f4516a0fcc6a",
-      "key": "OKX:SPOT:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793450239523,
-      "price": 4.407,
-      "level": 4.347,
-      "invalid": 4.30432073076221,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.347,
-        "base_invalid": 4.30432073076221,
-        "atr": 0.024528461585267943,
-        "rvol": 6.178561122744704,
-        "close_position": 0.772727272727277,
-        "breakout": true,
-        "bar_close_ms": 1793449800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5990730011587573,
-        "score": 7.772727272727277
-      },
-      "context": {
-        "atr": 0.024528461585267943,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.15509558735731233,
-        "btc_hour_pct": 0.26186063223962996,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793449800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1c4302cd22b82436556b4733",
-      "asset_id": "8fca8e7265c29413d4722cd9",
-      "key": "OKX:PERP:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793450238151,
-      "price": 4.406499999999999,
-      "level": 4.348,
-      "invalid": 4.304308687397557,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.348,
-        "base_invalid": 4.304308687397557,
-        "atr": 0.024608750682947125,
-        "rvol": 5.4547952080066535,
-        "close_position": 0.72727272727272,
-        "breakout": true,
-        "bar_close_ms": 1793449800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5527230590961505,
-        "score": 7.182067935279374
-      },
-      "context": {
-        "atr": 0.024608750682947125,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1530839341714385,
-        "btc_hour_pct": 0.26396889251993905,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793449800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1464813,6 +1464708,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793449347724
+    },
+    {
+      "id": "f9962bfaf38abe9431d03b0c",
+      "asset_id": "4995a5e8f060f4516a0fcc6a",
+      "key": "OKX:SPOT:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793450239523,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793450250335
+    },
+    {
+      "id": "1c4302cd22b82436556b4733",
+      "asset_id": "8fca8e7265c29413d4722cd9",
+      "key": "OKX:PERP:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793450238151,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793450250335
     }
   ],
   "runs": [
@@ -1490415,7 +1490332,8 @@
         "entry_seq": 0,
         "cohort": "NEARUSDT",
         "observation_lag_ms": 439523,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10812
       },
       "8fca8e7265c29413d4722cd9:radar": {
         "symbol": "NEARUSDT",
@@ -1490437,7 +1490355,8 @@
         "entry_seq": 0,
         "cohort": "NEARUSDT",
         "observation_lag_ms": 438151,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12184
       }
     },
     "errors": [],
@@ -1514418,8 +1514337,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f2714141e80a50840a069360bff55a89e9e93a58",
-    "previous_success_ms": 1793449970248,
+    "previous_commit": "33e87971bfef8731fa2a74f76c68c7b7cb96a6e9",
+    "previous_success_ms": 1793450249055,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
