@@ -1961862,7 +1961862,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793461295487
     }
   ],
   "archive": {
@@ -2035944,8 +2035945,8 @@
     }
   },
   "publication": {
-    "commit": "8988d22eb5cd5647b31e8e6dacb60e0009350d9d",
-    "success_ms": 1793461210901,
+    "commit": "e3e33ae16f6e5f21c470b3e6b73bfc4595ad894f",
+    "success_ms": 1793461295434,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793458401823,
