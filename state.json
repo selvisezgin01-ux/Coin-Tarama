@@ -1342930,398 +1342930,7 @@
       "source_close_ms": 1793412000000
     }
   },
-  "pending": [
-    {
-      "id": "5943e9898c04edf28d9f7dc3",
-      "asset_id": "1cec28af7767a9208dbb2156",
-      "key": "MEXC:SPOT:IOUSDT",
-      "symbol": "IOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_weakening",
-      "observed_ms": 1793412073449,
-      "price": 0.137065,
-      "level": 0.13638,
-      "invalid": 0.13654278204231682,
-      "target": 0.14155231091536638,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13638,
-        "base_invalid": 0.1345627820423168,
-        "atr": 0.0009147863845545764,
-        "rvol": 6.9315460707069825,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793399400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8317385543942235,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0007398353874546703,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5250399339273515,
-        "btc_hour_pct": -0.1982350552235279,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.13654278204231682,
-        "target": 0.14155231091536638,
-        "risk_pct": 0.7142104764102455,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.14683,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.13715,
-        "entry_zone_high": 0.1375835927991812
-      },
-      "reason": null,
-      "source_close_ms": 1793412000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "IOUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793412000000,
-        "closed_price": 0.13726,
-        "ema20_1h": 0.1359321235258839,
-        "atr14_1h": 0.002021647269124041,
-        "structure_floor": 0.13654278204231682,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "5da129fb304d42f9d0b42f25",
-      "asset_id": "8fa09f7ccae2a41d1fb1a997",
-      "key": "OKX:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793412076306,
-      "price": 0.7813,
-      "level": 0.78,
-      "invalid": 0.7715602238403886,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.78,
-        "base_invalid": 0.7715602238403886,
-        "atr": 0.003598507730742582,
-        "rvol": 3.8327095127252786,
-        "close_position": 0.9090909090909183,
-        "breakout": false,
-        "bar_close_ms": 1793407500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6198347107438051,
-        "score": 5.241800421816197
-      },
-      "context": {
-        "atr": 0.003894877935381984,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.47247309731680565,
-        "btc_hour_pct": -0.2032423280860285,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DGAIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b620d9c2c81eed6e921cebd1",
-      "asset_id": "fdc070cc0e1a041352198632",
-      "key": "OKX:PERP:REUSDT",
-      "symbol": "REUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793412076306,
-      "price": 0.380135,
-      "level": 0.37882,
-      "invalid": 0.3721364877651549,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.37882,
-        "base_invalid": 0.3721364877651549,
-        "atr": 0.0024234148989671638,
-        "rvol": 2.2370936804748944,
-        "close_position": 0.9501661129568163,
-        "breakout": true,
-        "bar_close_ms": 1793407500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5931372549019551,
-        "score": 4.187259793431711
-      },
-      "context": {
-        "atr": 0.0025405073595930554,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.9213769414321171,
-        "btc_hour_pct": -0.2032423280860285,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:REUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793407500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "REUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4eb56df86b46dd2a29e27bd7",
-      "asset_id": "9618c37b865cac664d3aa4f7",
-      "key": "MEXC:PERP:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793412075161,
-      "price": 0.6651,
-      "level": 0.66,
-      "invalid": 0.658600823403747,
-      "target": 0.688074853192506,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.66,
-        "base_invalid": 0.640300823403747,
-        "atr": 0.004661177308352986,
-        "rvol": 8.65153293421752,
-        "close_position": 0.7380952380952394,
-        "breakout": true,
-        "bar_close_ms": 1793409300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8501387604070274,
-        "score": 7.738095238095239
-      },
-      "context": {
-        "atr": 0.004865823504893667,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.2738031172758402,
-        "btc_hour_pct": -0.21013498173413359,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RUNEUSDT",
-          "change_pct": -2.665794080092443,
-          "old_ms": 1793408458962,
-          "current_ms": 1793412071052,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.658600823403747,
-        "target": 0.688074853192506,
-        "risk_pct": 0.977172845625167,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.6935,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.6648,
-        "entry_zone_high": 0.6672329117524468
-      },
-      "reason": null,
-      "source_close_ms": 1793412000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "RUNEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7ceb128d9c6b97ed5f90c717",
-      "asset_id": "65b544571a602c370d4a953b",
-      "key": "OKX:SPOT:WCTUSDT",
-      "symbol": "WCTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793412074966,
-      "price": 0.035775,
-      "level": 0.03593,
-      "invalid": 0.03515343441978036,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03593,
-        "base_invalid": 0.03515343441978036,
-        "atr": 0.00024377053479760435,
-        "rvol": 12.041781453153346,
-        "close_position": 0.9666666666666678,
-        "breakout": true,
-        "bar_close_ms": 1793411100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.36282444878592557,
-        "score": 7.966666666666668
-      },
-      "context": {
-        "atr": 0.0002392479235166581,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4391495029997139,
-        "btc_hour_pct": -0.21505986714537295,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WCTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793411100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WCTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "24f648aa1806bedaf4066e88",
-      "asset_id": "dd961387b18f4a59d92cb702",
-      "key": "OKX:PERP:METISUSDT",
-      "symbol": "METISUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793412076306,
-      "price": 2.9175,
-      "level": 2.918,
-      "invalid": 2.874238320403314,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.918,
-        "base_invalid": 2.874238320403314,
-        "atr": 0.01841119731123727,
-        "rvol": 4.074377143201863,
-        "close_position": 0.9354838709677484,
-        "breakout": false,
-        "bar_close_ms": 1793412000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4133654839820977,
-        "score": 5.509861014169611
-      },
-      "context": {
-        "atr": 0.01841119731123727,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6166078120681262,
-        "btc_hour_pct": -0.2032423280860285,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:METISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793412000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "METISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9299b6a81784952d6c9b740a",
-      "asset_id": "f61e3b08331c64baba7beb87",
-      "key": "OKX:SPOT:PROSUSDT",
-      "symbol": "PROSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793412074966,
-      "price": 0.5627500000000001,
-      "level": 0.5732,
-      "invalid": 0.5586202339000798,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5732,
-        "base_invalid": 0.5586202339000798,
-        "atr": 0.00319844066613513,
-        "rvol": 2.8471425423065932,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793412000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.347142542306593
-      },
-      "context": {
-        "atr": 0.00319844066613513,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.21505986714537295,
-        "btc_hour_pct": -0.21505986714537295,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PROSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793412000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1345049,6 +1344658,83 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793411480140
+    },
+    {
+      "id": "5943e9898c04edf28d9f7dc3",
+      "asset_id": "1cec28af7767a9208dbb2156",
+      "key": "MEXC:SPOT:IOUSDT",
+      "symbol": "IOUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793412073449,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793412085900
+    },
+    {
+      "id": "5da129fb304d42f9d0b42f25",
+      "asset_id": "8fa09f7ccae2a41d1fb1a997",
+      "key": "OKX:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793412076306,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793412085900
+    },
+    {
+      "id": "b620d9c2c81eed6e921cebd1",
+      "asset_id": "fdc070cc0e1a041352198632",
+      "key": "OKX:PERP:REUSDT",
+      "symbol": "REUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793412076306,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793412085900
+    },
+    {
+      "id": "4eb56df86b46dd2a29e27bd7",
+      "asset_id": "9618c37b865cac664d3aa4f7",
+      "key": "MEXC:PERP:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793412075161,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793412085900
+    },
+    {
+      "id": "7ceb128d9c6b97ed5f90c717",
+      "asset_id": "65b544571a602c370d4a953b",
+      "key": "OKX:SPOT:WCTUSDT",
+      "symbol": "WCTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793412074966,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793412085900
+    },
+    {
+      "id": "24f648aa1806bedaf4066e88",
+      "asset_id": "dd961387b18f4a59d92cb702",
+      "key": "OKX:PERP:METISUSDT",
+      "symbol": "METISUSDT",
+      "phase": "radar",
+      "observed_ms": 1793412076306,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793412085900
+    },
+    {
+      "id": "9299b6a81784952d6c9b740a",
+      "asset_id": "f61e3b08331c64baba7beb87",
+      "key": "OKX:SPOT:PROSUSDT",
+      "symbol": "PROSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793412074966,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793412085900
     }
   ],
   "runs": [
@@ -1358325,7 +1358011,8 @@
         "entry_seq": 1,
         "cohort": "RUNEUSDT",
         "observation_lag_ms": 75161,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 10739
       },
       "dd961387b18f4a59d92cb702:radar": {
         "symbol": "METISUSDT",
@@ -1358347,7 +1358034,8 @@
         "entry_seq": 0,
         "cohort": "METISUSDT",
         "observation_lag_ms": 76306,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9594
       },
       "f61e3b08331c64baba7beb87:radar": {
         "symbol": "PROSUSDT",
@@ -1358369,7 +1358057,8 @@
         "entry_seq": 0,
         "cohort": "PROSUSDT",
         "observation_lag_ms": 74966,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10934
       }
     },
     "errors": [],
@@ -1380898,8 +1380587,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1a54f641ab6415e3676fb527638465743de268f5",
-    "previous_success_ms": 1793411795208,
+    "previous_commit": "e8a0967f3adec19bdde618bd87b01a8abcaf8b95",
+    "previous_success_ms": 1793412084669,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
