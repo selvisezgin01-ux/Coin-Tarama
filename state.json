@@ -1416530,7 +1416530,9 @@
           "selected_for_candles": 36,
           "fresh_candidate_quotes": 9
         }
-      }
+      },
+      "finished_ms": 1793433676411,
+      "duration_ms": 39924
     }
   ],
   "radar_admissions": [
@@ -1422004,6 +1422006,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "12": {
+            "target_ms": 1793432821108,
+            "endpoint_ms": 1793432880000,
+            "endpoint_price": 1.995,
+            "return_pct": 0.1506024096385561,
+            "btc_excess_pct_points": -0.5623295891705293,
+            "mae_pct": -1.3052208835341417,
+            "mfe_pct": 3.6144578313253017,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 720,
+            "ignored_entry_fragment_ms": 58892,
+            "measured_ms": 1793433672179,
+            "cost_scenarios_pct": {
+              "0.2": -0.04939759036144392,
+              "0.5": -0.3493975903614439,
+              "1": -0.8493975903614439
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793389500000,
@@ -1422013,7 +1422037,7 @@
         "observation_lag_ms": 121108,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 13783,
-        "last_measure_attempt_ms": 1793404185484
+        "last_measure_attempt_ms": 1793433672179
       },
       "375971a2c03154ef6c3dc846:radar": {
         "symbol": "NIULAIUSDT",
@@ -1424820,6 +1424844,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793420370190,
+            "endpoint_ms": 1793420400000,
+            "endpoint_price": 0.005231,
+            "return_pct": -1.515579403181777,
+            "btc_excess_pct_points": -1.3571872355484516,
+            "mae_pct": -2.2121811164454552,
+            "mfe_pct": 0.5553986632777841,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 29810,
+            "measured_ms": 1793433672179,
+            "cost_scenarios_pct": {
+              "0.2": -1.715579403181777,
+              "0.5": -2.015579403181777,
+              "1": -2.515579403181777
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793405700000,
@@ -1424829,7 +1424875,7 @@
         "observation_lag_ms": 270190,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 9256,
-        "last_measure_attempt_ms": 1793409687662
+        "last_measure_attempt_ms": 1793433672179
       },
       "e07b46ec0ab21782bb1d392e:radar": {
         "symbol": "STXUSDT",
@@ -1427433,15 +1427479,15 @@
     },
     "errors": [],
     "queue": {
-      "due": 29,
+      "due": 27,
       "attempted": 2,
-      "observed_ms": 1793433359203,
+      "observed_ms": 1793433672179,
       "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 147,
-        "unique_symbol_labels": 100,
+        "market_event_references": 148,
+        "unique_symbol_labels": 101,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
@@ -1427453,12 +1427499,12 @@
                 "median_reference_return_pct": -0.16103059581320522
               },
               "4": {
-                "known_first_symbols": 31,
-                "median_reference_return_pct": -0.22457891453524503
+                "known_first_symbols": 32,
+                "median_reference_return_pct": -0.2957498016085802
               },
               "12": {
-                "known_first_symbols": 17,
-                "median_reference_return_pct": -0.20420070011667457
+                "known_first_symbols": 18,
+                "median_reference_return_pct": -0.14055766244160384
               },
               "24": {
                 "known_first_symbols": 0,
@@ -1427511,8 +1427557,8 @@
             }
           },
           "OKX:PERP:radar": {
-            "event_references": 33,
-            "first_per_symbol": 33,
+            "event_references": 34,
+            "first_per_symbol": 34,
             "hours": {
               "1": {
                 "known_first_symbols": 30,
@@ -1450671,8 +1450717,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e1ff76084762183bfabfb6b5339a6f3cb239848b",
-    "previous_success_ms": 1793433664218,
+    "previous_commit": "134a03ee417767f62928b9d0c842dbf0decd7ceb",
+    "previous_success_ms": 1793433672146,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
