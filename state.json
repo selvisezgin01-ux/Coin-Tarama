@@ -1416969,216 +1416969,7 @@
       "source_close_ms": 1793437200000
     }
   },
-  "pending": [
-    {
-      "id": "5decaec02f8fd64763cf1c42",
-      "asset_id": "352043de96d0fafcf47339be",
-      "key": "OKX:PERP:RLSUSDT",
-      "symbol": "RLSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793437375164,
-      "price": 0.0022475,
-      "level": 0.002169,
-      "invalid": 0.002151885365207477,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002169,
-        "base_invalid": 0.002151885365207477,
-        "atr": 1.4097565283484715e-05,
-        "rvol": 21.636949960389913,
-        "close_position": 0.7647058823529465,
-        "breakout": true,
-        "bar_close_ms": 1793415600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.388888888888884,
-        "score": 7.7647058823529465
-      },
-      "context": {
-        "atr": 2.572468713544116e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.929936436049883,
-        "btc_hour_pct": 0.004010510123952926,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RLSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793415600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c580cad668ac6878c69cc70d",
-      "asset_id": "ee7e5226b986c6bf897d7c65",
-      "key": "MEXC:SPOT:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793437376532,
-      "price": 0.065355,
-      "level": 0.06551,
-      "invalid": 0.05979225196358803,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06551,
-        "base_invalid": 0.05979225196358803,
-        "atr": 0.0014516535760797614,
-        "rvol": 2.6590833840084755,
-        "close_position": 0.7815533980582555,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3425925925926174,
-        "score": 4.440636782066731
-      },
-      "context": {
-        "atr": 0.0012766229133910107,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3919733249452828,
-        "btc_hour_pct": 0.009300739609297004,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZAMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5e6a5940126ce203fe6fc6d8",
-      "asset_id": "dd2c2090ded4a80d6eaba43e",
-      "key": "OKX:PERP:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793437375164,
-      "price": 0.055165,
-      "level": 0.05555,
-      "invalid": 0.051927198351777185,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05555,
-        "base_invalid": 0.051927198351777185,
-        "atr": 0.0011520109881520918,
-        "rvol": 2.852276606021305,
-        "close_position": 0.7613636363636379,
-        "breakout": true,
-        "bar_close_ms": 1793435400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1990104452996206,
-        "score": 4.6136402423849425
-      },
-      "context": {
-        "atr": 0.0011814416549939296,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.0285098150792935,
-        "btc_hour_pct": 0.004010510123952926,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:APRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "51794784ba1645911e6257a4",
-      "asset_id": "c4cd85a5d8c0822887d82d12",
-      "key": "MEXC:PERP:TACUSDT",
-      "symbol": "TACUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793437374768,
-      "price": 0.0011755,
-      "level": 0.001156,
-      "invalid": 0.001108974574920623,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001156,
-        "base_invalid": 0.001108974574920623,
-        "atr": 1.3502833862513385e-05,
-        "rvol": 6.460910208642326,
-        "close_position": 0.689655172413791,
-        "breakout": true,
-        "bar_close_ms": 1793437200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.452359750667845,
-        "score": 7.689655172413791
-      },
-      "context": {
-        "atr": 1.3502833862513385e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.446410156662961,
-        "btc_hour_pct": 0.005949594004883707,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TACUSDT",
-          "change_pct": 20.69846803460058,
-          "old_ms": 1793433633495,
-          "current_ms": 1793437371560,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.025,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793437200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TACUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1420028,6 +1419819,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793436779421
+    },
+    {
+      "id": "5decaec02f8fd64763cf1c42",
+      "asset_id": "352043de96d0fafcf47339be",
+      "key": "OKX:PERP:RLSUSDT",
+      "symbol": "RLSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793437375164,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793437386437
+    },
+    {
+      "id": "c580cad668ac6878c69cc70d",
+      "asset_id": "ee7e5226b986c6bf897d7c65",
+      "key": "MEXC:SPOT:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793437376532,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793437386438
+    },
+    {
+      "id": "5e6a5940126ce203fe6fc6d8",
+      "asset_id": "dd2c2090ded4a80d6eaba43e",
+      "key": "OKX:PERP:APRUSDT",
+      "symbol": "APRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793437375164,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793437386438
+    },
+    {
+      "id": "51794784ba1645911e6257a4",
+      "asset_id": "c4cd85a5d8c0822887d82d12",
+      "key": "MEXC:PERP:TACUSDT",
+      "symbol": "TACUSDT",
+      "phase": "radar",
+      "observed_ms": 1793437374768,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793437386438
     }
   ],
   "runs": [
@@ -1441560,7 +1441395,8 @@
         "entry_seq": 0,
         "cohort": "TACUSDT",
         "observation_lag_ms": 174768,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11670
       },
       "7e4ed211a88edb85c8e6a371:radar": {
         "symbol": "ZROUSDT",
@@ -1464983,8 +1464819,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7279c29202aae453827d7e4ed2b59ea114cb194a",
-    "previous_success_ms": 1793437097060,
+    "previous_commit": "72db6820571fddd1e9a548d45f3cb11f01e9639c",
+    "previous_success_ms": 1793437385056,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
