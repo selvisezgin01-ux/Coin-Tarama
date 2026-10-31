@@ -1332568,62 +1332568,7 @@
       "source_close_ms": 1793409300000
     }
   },
-  "pending": [
-    {
-      "id": "f423cc79ca16a74ef040ff18",
-      "asset_id": "9618c37b865cac664d3aa4f7",
-      "key": "MEXC:PERP:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793409670941,
-      "price": 0.6621,
-      "level": 0.66,
-      "invalid": 0.640300823403747,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.66,
-        "base_invalid": 0.640300823403747,
-        "atr": 0.004661177308352986,
-        "rvol": 8.65153293421752,
-        "close_position": 0.7380952380952394,
-        "breakout": true,
-        "bar_close_ms": 1793409300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8501387604070274,
-        "score": 7.738095238095239
-      },
-      "context": {
-        "atr": 0.004661177308352986,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.2422226001425063,
-        "btc_hour_pct": 0.2694232428314347,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RUNEUSDT",
-          "change_pct": -4.539489226617843,
-          "old_ms": 1793405952013,
-          "current_ms": 1793409668907,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793409300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RUNEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1334285,6 +1334230,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793409383976
+    },
+    {
+      "id": "f423cc79ca16a74ef040ff18",
+      "asset_id": "9618c37b865cac664d3aa4f7",
+      "key": "MEXC:PERP:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793409670941,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793409680203
     }
   ],
   "runs": [
@@ -1346835,7 +1346791,8 @@
         "entry_seq": 0,
         "cohort": "RUNEUSDT",
         "observation_lag_ms": 370941,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9262
       }
     },
     "errors": [],
@@ -1369318,8 +1369275,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "18f6f0040407cabf3cfd99ded33e8eb0fb27d349",
-    "previous_success_ms": 1793409400269,
+    "previous_commit": "6077947febb9046c77a0414f449ec7aee1459871",
+    "previous_success_ms": 1793409679130,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
