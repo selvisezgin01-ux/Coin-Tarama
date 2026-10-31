@@ -1382413,60 +1382413,7 @@
       "source_close_ms": 1793401200000
     }
   },
-  "pending": [
-    {
-      "id": "fdbfcb7ad6e7ef946b864614",
-      "asset_id": "d001793845f6153cbed560df",
-      "key": "OKX:PERP:LAYERUSDT",
-      "symbol": "LAYERUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793420261648,
-      "price": 0.06093,
-      "level": 0.06126,
-      "invalid": 0.06059825587808588,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06126,
-        "base_invalid": 0.06059825587808588,
-        "atr": 0.00027829414609416,
-        "rvol": 4.291979454525725,
-        "close_position": 0.9189189189189133,
-        "breakout": false,
-        "bar_close_ms": 1793420100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.11496140581377379,
-        "score": 5.710898373444638
-      },
-      "context": {
-        "atr": 0.00027829414609416,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.03016139994843625,
-        "btc_hour_pct": -0.3574400777425768,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LAYERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793420100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LAYERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1384601,6 +1384548,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793419964554
+    },
+    {
+      "id": "fdbfcb7ad6e7ef946b864614",
+      "asset_id": "d001793845f6153cbed560df",
+      "key": "OKX:PERP:LAYERUSDT",
+      "symbol": "LAYERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793420261648,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793420270185
     }
   ],
   "runs": [
@@ -1400606,7 +1400564,8 @@
         "entry_seq": 0,
         "cohort": "LAYERUSDT",
         "observation_lag_ms": 161648,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8537
       }
     },
     "errors": [],
@@ -1423355,8 +1423314,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "dafa0d458f483c4f3dc97f61358011b8bf069ff9",
-    "previous_success_ms": 1793419979604,
+    "previous_commit": "eb2757c0b04f9d09c295dec29b0bbd2558ac21cc",
+    "previous_success_ms": 1793420269048,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
