@@ -42377,32 +42377,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "4461fd07da794456bccf3e531dc5",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "ALIM",
-      "observed_ms": 1793445657733,
-      "text": "ALIM: $295.98 · işlem başlatıcı `2hoyna7esZhRH5prcHStnQeF84Nn884V3jsDSwgAaxBv` · bildirim eşiği $160",
-      "details": {
-        "tx": "ABniTimBwuy3FZuGHrWTbrvHzNHWT4sTPh34jQ3zNJEpyJXuxi45titC2oupzRXuQQ1LWe1z3EpUUmo5SyjTzYM",
-        "wallet": "2hoyna7esZhRH5prcHStnQeF84Nn884V3jsDSwgAaxBv",
-        "side": "buy",
-        "usd": 295.97998267341734,
-        "block_ms": 1793445357000,
-        "provider_row_id": "solana_463668248_ABniTimBwuy3FZuGHrWTbrvHzNHWT4sTPh34jQ3zNJEpyJXuxi45titC2oupzRXuQQ1LWe1z3EpUUmo5SyjTzYM_818_1793445413",
-        "first_buyer_seen_by_this_watch": true
-      }
-    },
-    {
-      "id": "c9040173454c04e6eaf44f590dd6",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793445675075,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -42775,6 +42750,18 @@
       "issue": 449,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/449",
       "delivered_ms": 1793445399673
+    },
+    {
+      "id": "4461fd07da794456bccf3e531dc5",
+      "issue": 452,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/452",
+      "delivered_ms": 1793445692881
+    },
+    {
+      "id": "c9040173454c04e6eaf44f590dd6",
+      "issue": 452,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/452",
+      "delivered_ms": 1793445692881
     }
   ],
   "provider_backoff": {
