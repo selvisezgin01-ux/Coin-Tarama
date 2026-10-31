@@ -55015,24 +55015,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "435138e7cb41385ed84e96c3f4e3",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793478483648,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    },
-    {
-      "id": "2b0c5b5ee09e828b6bcc68098d47",
-      "mint": null,
-      "kind": "VERİ ERİŞİMİ",
-      "observed_ms": 1793478517024,
-      "text": "rpc_wallets: 2LoNg8b8wYneseTQ4FYEVQxSJWp12tsLE799oUdYPDHB: api.mainnet.solana.com: RPC error -32019",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -56167,6 +56150,18 @@
       "issue": 670,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/670",
       "delivered_ms": 1793478220266
+    },
+    {
+      "id": "435138e7cb41385ed84e96c3f4e3",
+      "issue": 672,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/672",
+      "delivered_ms": 1793478519852
+    },
+    {
+      "id": "2b0c5b5ee09e828b6bcc68098d47",
+      "issue": 672,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/672",
+      "delivered_ms": 1793478519852
     }
   ],
   "provider_backoff": {
