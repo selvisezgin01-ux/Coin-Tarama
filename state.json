@@ -10271,48 +10271,6 @@
         }
       ]
     },
-    "ethereum:0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7": {
-      "chain": "ethereum",
-      "mint": "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
-      "first_seen_ms": 1793339528992,
-      "pools": {
-        "0xb6d6a4eb7a0804f2ab1acd787fa791f943890a98": {
-          "created_ms": 1793339123000,
-          "first_seen_ms": 1793339528992
-        },
-        "0xea631cdaf5033944c5c7b2982fe7626e8e6d12f6368652b1731936009388a4c6": {
-          "created_ms": 1755049607000,
-          "first_seen_ms": 1793391321699
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793391319288,
-      "decision": {
-        "at_ms": 1793391321699,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "pool_age",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "pool": "0xea631cdaf5033944c5c7b2982fe7626e8e6d12f6368652b1731936009388a4c6"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391321699,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "pool_age",
-            "market_cap_not_50k_500k",
-            "liquidity_to_cap"
-          ],
-          "pool": "0xea631cdaf5033944c5c7b2982fe7626e8e6d12f6368652b1731936009388a4c6"
-        }
-      ]
-    },
     "ethereum:0x9eb2a83e6120436f36e2347706af60aad1e14e24": {
       "chain": "ethereum",
       "mint": "0x9eb2a83e6120436f36e2347706af60aad1e14e24",
@@ -326490,60 +326448,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 42661604.0,
         "pool_age_minutes": 504113.1783166667
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "ethereum:0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7": {
-      "first_seen_ms": 1793391321699,
-      "observations": [
-        {
-          "ms": 1793391319910,
-          "price": 0.003857,
-          "liquidity": 67936.58
-        }
-      ],
-      "latest": {
-        "chain": "ethereum",
-        "mint": "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
-        "pool": "0xea631cdaf5033944c5c7b2982fe7626e8e6d12f6368652b1731936009388a4c6",
-        "symbol": "SKL",
-        "dex": "uniswap",
-        "price_usd": 0.003857,
-        "price_observed_ms": 1793391319910,
-        "observed_ms": 1793391319910,
-        "liquidity_usd": 67936.58,
-        "market_cap_usd": 24822152.0,
-        "fdv_usd": 24822152.0,
-        "pool_created_ms": 1755049607000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "pool_age",
-          "market_cap_not_50k_500k",
-          "liquidity_to_cap"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 24822152.0,
-        "pool_age_minutes": 639028.5783166667
       },
       "activity": {
         "passed": false,
@@ -1246071,7 +1245975,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793432790625
     }
   ],
   "archive": {
@@ -1320153,8 +1320058,8 @@
     }
   },
   "publication": {
-    "commit": "b865e709da6fcfc515ef081bdf67f289f36ae831",
-    "success_ms": 1793432707797,
+    "commit": "98ecafc6fec3d9c671d05ea7869f317f6679bbcd",
+    "success_ms": 1793432790592,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793428232282,
@@ -1325291,6 +1325196,15 @@
         "hyperevm:0x19e45e20e5602792a22f986aa7318a54305af761"
       ],
       "count": 5,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "98ecafc6fec3d9c671d05ea7869f317f6679bbcd",
+      "archived_ms": 1793432790619,
+      "keys": [
+        "ethereum:0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7"
+      ],
+      "count": 1,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
