@@ -534243,36 +534243,6 @@
         }
       ]
     },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793461960233,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793461960233
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793461960233,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793461960233
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:ghdHrXAxSgQkUYM86GjQhNNyYgSMQmC4J9r2Xcqpump": {
       "chain": "solana",
       "mint": "ghdHrXAxSgQkUYM86GjQhNNyYgSMQmC4J9r2Xcqpump",
@@ -1983636,7 +1983606,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793462044559
     }
   ],
   "archive": {
@@ -2057718,8 +2057689,8 @@
     }
   },
   "publication": {
-    "commit": "aed9f73672069260f8aae68e8c0d2b42bb4d2a02",
-    "success_ms": 1793461960190,
+    "commit": "38778b7138867adc41e71e87c76b7da5a8d70bd4",
+    "success_ms": 1793462044506,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793458401823,
@@ -2066071,6 +2066042,16 @@
     {
       "source_state_sha": "c0e51b73808f32d9de37f7d9a06d0cef6649f8ac",
       "archived_ms": 1793461951708,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
+      ],
+      "count": 2,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "38778b7138867adc41e71e87c76b7da5a8d70bd4",
+      "archived_ms": 1793462044549,
       "keys": [
         "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
