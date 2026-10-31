@@ -1241058,78 +1241058,7 @@
       "source_close_ms": 1793403900000
     }
   },
-  "pending": [
-    {
-      "id": "8470590de98c91af497cb75d",
-      "asset_id": "1cec28af7767a9208dbb2156",
-      "key": "MEXC:SPOT:IOUSDT",
-      "symbol": "IOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_continuing",
-      "observed_ms": 1793405070283,
-      "price": 0.13805,
-      "level": 0.13638,
-      "invalid": 0.13654278204231682,
-      "target": 0.14155231091536638,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13638,
-        "base_invalid": 0.1345627820423168,
-        "atr": 0.0009147863845545764,
-        "rvol": 6.9315460707069825,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793399400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8317385543942235,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0008045401965759553,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.003990562217781601,
-        "btc_hour_pct": 0.5130122776569657,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.13654278204231682,
-        "target": 0.14155231091536638,
-        "risk_pct": 0.7142104764102455,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.14683,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.13715,
-        "entry_zone_high": 0.1375835927991812
-      },
-      "reason": null,
-      "source_close_ms": 1793404800000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "IOUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793404800000,
-        "closed_price": 0.13804,
-        "ema20_1h": 0.1355317711481667,
-        "atr14_1h": 0.0021668158918637906,
-        "structure_floor": 0.13654278204231682,
-        "new_entry": false
-      },
-      "was_triggered": true
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1242538,6 +1242467,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793404474750
+    },
+    {
+      "id": "8470590de98c91af497cb75d",
+      "asset_id": "1cec28af7767a9208dbb2156",
+      "key": "MEXC:SPOT:IOUSDT",
+      "symbol": "IOUSDT",
+      "phase": "trend_continuing",
+      "observed_ms": 1793405070283,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793405083563
     }
   ],
   "runs": [
@@ -1275960,8 +1275900,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "86a7bbfdf0cf3f4219af9bc9934d49143942cac0",
-    "previous_success_ms": 1793404789795,
+    "previous_commit": "396d64b04a73fc45607619dad1486adc26de05d6",
+    "previous_success_ms": 1793405082310,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
