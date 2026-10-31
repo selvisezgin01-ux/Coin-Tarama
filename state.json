@@ -1512083,62 +1512083,7 @@
       "source_close_ms": 1793484900000
     }
   },
-  "pending": [
-    {
-      "id": "e03dbcebe6d7eb2737434c0e",
-      "asset_id": "a06be4935e41545e2cbd71ab",
-      "key": "MEXC:PERP:SYRUPUSDT",
-      "symbol": "SYRUPUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793486380253,
-      "price": 0.16135,
-      "level": 0.1605,
-      "invalid": 0.15798089735567236,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1605,
-        "base_invalid": 0.15798089735567236,
-        "atr": 0.0007940176288508908,
-        "rvol": 2.1981682543326064,
-        "close_position": 0.9166666666666763,
-        "breakout": true,
-        "bar_close_ms": 1793485800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6870705808869504,
-        "score": 4.114834920999282
-      },
-      "context": {
-        "atr": 0.0007940176288508908,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4256916988275128,
-        "btc_hour_pct": 0.1389256161034913,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SYRUPUSDT",
-          "change_pct": -0.20555819535774678,
-          "old_ms": 1793482767580,
-          "current_ms": 1793486378447,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793485800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SYRUPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1516946,6 +1516891,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793486096632
+    },
+    {
+      "id": "e03dbcebe6d7eb2737434c0e",
+      "asset_id": "a06be4935e41545e2cbd71ab",
+      "key": "MEXC:PERP:SYRUPUSDT",
+      "symbol": "SYRUPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793486380253,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793486391597
     }
   ],
   "runs": [
@@ -1554820,7 +1554776,8 @@
         "entry_seq": 0,
         "cohort": "SYRUPUSDT",
         "observation_lag_ms": 580253,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11344
       }
     },
     "errors": [],
@@ -1580301,8 +1580258,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "70ae9c655ab61502792a3a6ec1aeb5f7c78e7882",
-    "previous_success_ms": 1793486114800,
+    "previous_commit": "3ceda97d3d28a79d7cd0be9d587462d59f3e0831",
+    "previous_success_ms": 1793486389943,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
