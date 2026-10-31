@@ -94,7 +94,7 @@ Kimlik defteri: 15514 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | OnlyCats `4xFp4RHxPSqBrgmCq772fTW9jgJypm7rxrFvJv5Mpump` | solana | 31.10.2026 22:08 | 371086.0 | Bekliyor |
+| 🟡 ERKEN RADAR | OnlyCats `4xFp4RHxPSqBrgmCq772fTW9jgJypm7rxrFvJv5Mpump` | solana | 31.10.2026 22:08 | 371086.0 | [Issue #642](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/642) |
 | 🟡 ERKEN RADAR | SHRP `0x9a0bdd525576c1eb3c06ee23902f382121774945` | robinhood | 31.10.2026 22:07 | 75078.0 | [Issue #640](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/640) |
 | 🟡 ERKEN RADAR | Jesus `0x59203b7aecff20aa4a3bdd038e1b0907c013d3c3` | robinhood | 31.10.2026 21:49 | 77561.0 | [Issue #635](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/635) |
 | 🟡 ERKEN RADAR | TRACER `28dYWwEA6w8WFY2Uiakidujkq6ZPDzBDsGGZ1tM2pump` | solana | 31.10.2026 21:38 | 77342.0 | Bayat/iptal — gönderilmedi |
