@@ -1453621,112 +1453621,7 @@
       "source_close_ms": 1793448900000
     }
   },
-  "pending": [
-    {
-      "id": "f09d6e9dcd9af00cf16b7fce",
-      "asset_id": "7748be78f48ac280b5966293",
-      "key": "MEXC:PERP:MAGMAUSDT",
-      "symbol": "MAGMAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793449338068,
-      "price": 0.41841,
-      "level": 0.38297,
-      "invalid": 0.3704292753451194,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.38297,
-        "base_invalid": 0.3704292753451194,
-        "atr": 0.005138164365870797,
-        "rvol": 3.5539101968643476,
-        "close_position": 0.8994652406417113,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.7075592568866167,
-        "score": 5.453375437506059
-      },
-      "context": {
-        "atr": 0.0071284259063468716,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.04330289133023246,
-        "btc_hour_pct": 0.25951065182665545,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MAGMAUSDT",
-          "change_pct": 0.30828148486263807,
-          "old_ms": 1793445585058,
-          "current_ms": 1793449334017,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0211,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f7e31eed2c9daa5a0dfee6f1",
-      "asset_id": "87f82c899b37f9174c9586b3",
-      "key": "MEXC:SPOT:MAGMAUSDT",
-      "symbol": "MAGMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793449332454,
-      "price": 0.417805,
-      "level": 0.38193,
-      "invalid": 0.37096056523765897,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.38193,
-        "base_invalid": 0.37096056523765897,
-        "atr": 0.004329565082273674,
-        "rvol": 2.5675063523036945,
-        "close_position": 0.7903043968432948,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.585092436525139,
-        "score": 4.3578107491469895
-      },
-      "context": {
-        "atr": 0.006437226773099485,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2098726184696309,
-        "btc_hour_pct": 0.2531234914084246,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MAGMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1457027,6 +1456922,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793449052758
+    },
+    {
+      "id": "f09d6e9dcd9af00cf16b7fce",
+      "asset_id": "7748be78f48ac280b5966293",
+      "key": "MEXC:PERP:MAGMAUSDT",
+      "symbol": "MAGMAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793449338068,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793449347724
+    },
+    {
+      "id": "f7e31eed2c9daa5a0dfee6f1",
+      "asset_id": "87f82c899b37f9174c9586b3",
+      "key": "MEXC:SPOT:MAGMAUSDT",
+      "symbol": "MAGMAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793449332454,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793449347724
     }
   ],
   "runs": [
@@ -1506289,8 +1506206,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8b5a1c9e105e8d24d458ac9f1f3973b89b9dfcba",
-    "previous_success_ms": 1793449072438,
+    "previous_commit": "c6e5780682936827a5a70e87e74594a34e9a1b95",
+    "previous_success_ms": 1793449346567,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
