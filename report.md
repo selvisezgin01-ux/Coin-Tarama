@@ -94,8 +94,8 @@ Kimlik defteri: 2959 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | iCoin `0x9c5b04cd5c6a09f91db2b618a7b2820545cdb78b` | robinhood | 31.10.2026 03:38 | 70273.0 | Bekliyor |
-| 🟡 ERKEN RADAR | Intbear `JBkdP28eFnga8USyJGW4mFyymgYx7kp6oCm9CTE6moon` | solana | 31.10.2026 03:38 | 85184.0 | Bekliyor |
+| 🟡 ERKEN RADAR | iCoin `0x9c5b04cd5c6a09f91db2b618a7b2820545cdb78b` | robinhood | 31.10.2026 03:38 | 70273.0 | [Issue #303](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/303) |
+| 🟡 ERKEN RADAR | Intbear `JBkdP28eFnga8USyJGW4mFyymgYx7kp6oCm9CTE6moon` | solana | 31.10.2026 03:38 | 85184.0 | [Issue #302](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/302) |
 | 🟡 ERKEN RADAR | iCat `BUzMivuf5PqkB4tzrcvW7wVda5tuUbgWRzsZWmnwpump` | solana | 31.10.2026 03:37 | 142437.0 | [Issue #300](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/300) |
 | 🟡 ERKEN RADAR | MOOF `0x56aa92212fb219d04bb77e23589f29d6337d26c6` | robinhood | 31.10.2026 03:34 | 57433.0 | [Issue #299](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/299) |
 | 🟡 ERKEN RADAR | VIK `0xfa9725076a70aa9fe177626821a8b88ccbfc1c20` | bnb | 31.10.2026 03:33 | 232475.0 | [Issue #298](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/298) |

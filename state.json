@@ -505058,6 +505058,26 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/300",
       "issue_created_at": "2026-10-31T00:38:11Z",
       "recorded_ms": 1793407091262
+    },
+    "7438caa85df590b3d0c1248d": {
+      "event_id": "7438caa85df590b3d0c1248d",
+      "key": "solana:JBkdP28eFnga8USyJGW4mFyymgYx7kp6oCm9CTE6moon",
+      "phase": "early_radar",
+      "observed_ms": 1793407134164,
+      "issue_number": 302,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/302",
+      "issue_created_at": "2026-10-31T00:39:37Z",
+      "recorded_ms": 1793407177624
+    },
+    "812d22110e90848520f578bf": {
+      "event_id": "812d22110e90848520f578bf",
+      "key": "robinhood:0x9c5b04cd5c6a09f91db2b618a7b2820545cdb78b",
+      "phase": "early_radar",
+      "observed_ms": 1793407136252,
+      "issue_number": 303,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/303",
+      "issue_created_at": "2026-10-31T00:39:38Z",
+      "recorded_ms": 1793407178643
     }
   },
   "cases": {},
@@ -516454,7 +516474,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793407179051
     }
   ],
   "archive": {
@@ -590536,8 +590557,8 @@
     }
   },
   "publication": {
-    "commit": "78784c22f022efdd0cda2a96c543ccd6572cc762",
-    "success_ms": 1793407096103,
+    "commit": "23de34ec747b5d8cf6d3f722d487014d6c551525",
+    "success_ms": 1793407176439,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793406699721,
