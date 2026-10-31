@@ -1421511,216 +1421511,7 @@
       "source_close_ms": 1793439900000
     }
   },
-  "pending": [
-    {
-      "id": "9a03188fa24a77b9aba50baa",
-      "asset_id": "51ba6f7b037f57214da37ad2",
-      "key": "OKX:SPOT:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793440073124,
-      "price": 0.108935,
-      "level": 0.10824,
-      "invalid": 0.1074747861511647,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10824,
-        "base_invalid": 0.1074747861511647,
-        "atr": 0.00030142565890209984,
-        "rvol": 8.437112941153186,
-        "close_position": 0.8870967741935466,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6675319859076545,
-        "score": 7.887096774193546
-      },
-      "context": {
-        "atr": 0.000387450950138347,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9824417967190135,
-        "btc_hour_pct": -0.012285647776943964,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7a0a659f0419da1b623c5a57",
-      "asset_id": "4f68eb9e26066d16794fa513",
-      "key": "MEXC:SPOT:RLCUSDT",
-      "symbol": "RLCUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793440072211,
-      "price": 0.47819999999999996,
-      "level": 0.4663,
-      "invalid": 0.4561619660528397,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4663,
-        "base_invalid": 0.4561619660528397,
-        "atr": 0.004253559647735262,
-        "rvol": 7.443590539284306,
-        "close_position": 0.6901408450704252,
-        "breakout": true,
-        "bar_close_ms": 1793434500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3405405405405357,
-        "score": 7.690140845070426
-      },
-      "context": {
-        "atr": 0.00480239333973683,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.297728152154388,
-        "btc_hour_pct": 0.009300739609297004,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RLCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793434500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f9c06cc30440bc9a791ab09d",
-      "asset_id": "4b05165f5a62ce558f156da6",
-      "key": "MEXC:SPOT:GRVTUSDT",
-      "symbol": "GRVTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793440072211,
-      "price": 0.21775,
-      "level": 0.2175,
-      "invalid": 0.21503960949420706,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2175,
-        "base_invalid": 0.21503960949420706,
-        "atr": 0.0010692700386196643,
-        "rvol": 3.463749742670008,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793439900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2064965197215782,
-        "score": 5.463749742670008
-      },
-      "context": {
-        "atr": 0.0010692700386196643,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.12952387862301684,
-        "btc_hour_pct": 0.009300739609297004,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GRVTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793439900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRVTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "dc5031bff13e0d6d3a3ce3dd",
-      "asset_id": "ab00f331a65d0685dc07bc41",
-      "key": "OKX:SPOT:APTUSDT",
-      "symbol": "APTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793440073124,
-      "price": 0.6356999999999999,
-      "level": 0.6359,
-      "invalid": 0.6300593522690794,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6359,
-        "base_invalid": 0.6300593522690794,
-        "atr": 0.0029376515394702904,
-        "rvol": 2.931520966593719,
-        "close_position": 0.6666666666666755,
-        "breakout": false,
-        "bar_close_ms": 1793439900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6969744970695579,
-        "score": 4.098187633260395
-      },
-      "context": {
-        "atr": 0.0029376515394702904,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.035032964210435225,
-        "btc_hour_pct": -0.012285647776943964,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:APTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793439900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1424658,6 +1424449,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793439779268
+    },
+    {
+      "id": "9a03188fa24a77b9aba50baa",
+      "asset_id": "51ba6f7b037f57214da37ad2",
+      "key": "OKX:SPOT:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793440073124,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793440082946
+    },
+    {
+      "id": "7a0a659f0419da1b623c5a57",
+      "asset_id": "4f68eb9e26066d16794fa513",
+      "key": "MEXC:SPOT:RLCUSDT",
+      "symbol": "RLCUSDT",
+      "phase": "expired",
+      "observed_ms": 1793440072211,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793440082946
+    },
+    {
+      "id": "f9c06cc30440bc9a791ab09d",
+      "asset_id": "4b05165f5a62ce558f156da6",
+      "key": "MEXC:SPOT:GRVTUSDT",
+      "symbol": "GRVTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793440072211,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793440082946
+    },
+    {
+      "id": "dc5031bff13e0d6d3a3ce3dd",
+      "asset_id": "ab00f331a65d0685dc07bc41",
+      "key": "OKX:SPOT:APTUSDT",
+      "symbol": "APTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793440073124,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793440082946
     }
   ],
   "runs": [
@@ -1447070,7 +1446905,8 @@
         "entry_seq": 0,
         "cohort": "GRVTUSDT",
         "observation_lag_ms": 172211,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10735
       },
       "ab00f331a65d0685dc07bc41:radar": {
         "symbol": "APTUSDT",
@@ -1447092,7 +1446928,8 @@
         "entry_seq": 0,
         "cohort": "APTUSDT",
         "observation_lag_ms": 173124,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9822
       }
     },
     "errors": [],
@@ -1470634,8 +1470471,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d897ded704ba40b1a14d2d8ac64e58147690de1c",
-    "previous_success_ms": 1793439797320,
+    "previous_commit": "d3904f0875917f960b5446a166dc0064c0ad9a6d",
+    "previous_success_ms": 1793440081879,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
