@@ -1512672,112 +1512672,7 @@
       "source_close_ms": 1793484900000
     }
   },
-  "pending": [
-    {
-      "id": "795f0f33484d379b136878f6",
-      "asset_id": "fe30dbedbcdc1c0c3cd3b4cb",
-      "key": "OKX:SPOT:FLUIDUSDT",
-      "symbol": "FLUIDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793486086012,
-      "price": 1.81195,
-      "level": 1.8002,
-      "invalid": 1.7808675709794535,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.8002,
-        "base_invalid": 1.7808675709794535,
-        "atr": 0.008216193470310846,
-        "rvol": 2.416409966400429,
-        "close_position": 0.8305084745762715,
-        "breakout": true,
-        "bar_close_ms": 1793485800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7519634601459435,
-        "score": 4.2469184409767005
-      },
-      "context": {
-        "atr": 0.008216193470310846,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.28092006191131613,
-        "btc_hour_pct": 0.13376192183762736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLUIDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793485800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLUIDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1422e683f130e953758cf3fe",
-      "asset_id": "87b93ec81277abd893d1d0f3",
-      "key": "OKX:SPOT:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793486086012,
-      "price": 0.022995,
-      "level": 0.02318,
-      "invalid": 0.022638895728668906,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02318,
-        "base_invalid": 0.022638895728668906,
-        "atr": 0.00020736180887395602,
-        "rvol": 2.7185990286629327,
-        "close_position": 0.8461538461538524,
-        "breakout": false,
-        "bar_close_ms": 1793485800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3935286401399285,
-        "score": 4.064752874816785
-      },
-      "context": {
-        "atr": 0.00020736180887395602,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.6922034802791863,
-        "btc_hour_pct": 0.13376192183762736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793485800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1517563,6 +1517458,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793485791126
+    },
+    {
+      "id": "795f0f33484d379b136878f6",
+      "asset_id": "fe30dbedbcdc1c0c3cd3b4cb",
+      "key": "OKX:SPOT:FLUIDUSDT",
+      "symbol": "FLUIDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793486086012,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793486096632
+    },
+    {
+      "id": "1422e683f130e953758cf3fe",
+      "asset_id": "87b93ec81277abd893d1d0f3",
+      "key": "OKX:SPOT:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793486086012,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793486096632
     }
   ],
   "runs": [
@@ -1555295,7 +1555212,8 @@
         "entry_seq": 0,
         "cohort": "FLUIDUSDT",
         "observation_lag_ms": 286012,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10620
       },
       "87b93ec81277abd893d1d0f3:radar": {
         "symbol": "IRYSUSDT",
@@ -1555317,7 +1555235,8 @@
         "entry_seq": 0,
         "cohort": "IRYSUSDT",
         "observation_lag_ms": 286012,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10620
       }
     },
     "errors": [],
@@ -1580799,8 +1580718,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "00c014b89c674c86afad6e59f20859fe4c9308e2",
-    "previous_success_ms": 1793485809393,
+    "previous_commit": "652ccd1972b07078387e325026029e4d2fefa5ca",
+    "previous_success_ms": 1793486095307,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
