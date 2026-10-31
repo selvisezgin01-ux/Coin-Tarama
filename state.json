@@ -6879,22 +6879,6 @@
         }
       ]
     },
-    "bnb:0xdb64d7144a5d1266f2ee83e7a4b98d5f8cddffff": {
-      "chain": "bnb",
-      "mint": "0xdb64d7144a5d1266f2ee83e7a4b98d5f8cddffff",
-      "first_seen_ms": 1793386720681,
-      "pools": {
-        "0xdb64d7144a5d1266f2ee83e7a4b98d5f8cddffff": {
-          "created_ms": 1793385664000,
-          "first_seen_ms": 1793386720681
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793469274067
-    },
     "bnb:0x155570bb2c6a2407697afbdf2e6f2130c1e67777": {
       "chain": "bnb",
       "mint": "0x155570bb2c6a2407697afbdf2e6f2130c1e67777",
@@ -6976,22 +6960,6 @@
         "pool_age_over_24h_identity_preserved"
       ],
       "last_quote_attempt_ms": 1793469466805
-    },
-    "bnb:0x000fc84e4525d43ba81aa2e82375b00be6174444": {
-      "chain": "bnb",
-      "mint": "0x000fc84e4525d43ba81aa2e82375b00be6174444",
-      "first_seen_ms": 1793386720681,
-      "pools": {
-        "0x000fc84e4525d43ba81aa2e82375b00be6174444": {
-          "created_ms": 1793385644000,
-          "first_seen_ms": 1793386720681
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793468982605
     },
     "bnb:0xd080487d5ff4058ac24e60120306b40d006cbbf7": {
       "chain": "bnb",
@@ -13607,78 +13575,6 @@
             "market_cap_not_50k_500k"
           ],
           "pool": "0x51b8cc291f9bd0b8582a527b5b017017b50f8e4fc6cb799a9bf12d1e6e037e21"
-        }
-      ]
-    },
-    "robinhood:0x3a1a5d71ddc27fcc8448f44f0cad1a940619bd55": {
-      "chain": "robinhood",
-      "mint": "0x3a1a5d71ddc27fcc8448f44f0cad1a940619bd55",
-      "first_seen_ms": 1793386733327,
-      "pools": {
-        "0x4d8a9fbf2f8bc6b5253b39d374471a25cb0522dcbcbe55ddc4281ec04691ea3b": {
-          "created_ms": 1793385646000,
-          "first_seen_ms": 1793386733327
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793464919905,
-      "decision": {
-        "at_ms": 1793464920909,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "pool": "0x4d8a9fbf2f8bc6b5253b39d374471a25cb0522dcbcbe55ddc4281ec04691ea3b"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391441636,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "liquidity",
-            "market_cap_not_50k_500k"
-          ],
-          "pool": "0x4d8a9fbf2f8bc6b5253b39d374471a25cb0522dcbcbe55ddc4281ec04691ea3b"
-        }
-      ]
-    },
-    "robinhood:0x5648dfa3f8a82db163af41f0d4e637290166a98c": {
-      "chain": "robinhood",
-      "mint": "0x5648dfa3f8a82db163af41f0d4e637290166a98c",
-      "first_seen_ms": 1793386733327,
-      "pools": {
-        "0xbc6afd60d8936e294c83ab810e9c84b658aa8b31499474acd18cab715f7e1656": {
-          "created_ms": 1793385638000,
-          "first_seen_ms": 1793386733327
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793464919905,
-      "decision": {
-        "at_ms": 1793464920909,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "pool": "0xbc6afd60d8936e294c83ab810e9c84b658aa8b31499474acd18cab715f7e1656"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391441636,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "liquidity",
-            "market_cap_not_50k_500k"
-          ],
-          "pool": "0xbc6afd60d8936e294c83ab810e9c84b658aa8b31499474acd18cab715f7e1656"
         }
       ]
     },
@@ -723308,452 +723204,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 8.0,
         "pool_age_minutes": 1417.2701833333333
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "robinhood:0x3a1a5d71ddc27fcc8448f44f0cad1a940619bd55": {
-      "first_seen_ms": 1793391441636,
-      "observations": [
-        {
-          "ms": 1793391441277,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793391813369,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793392148343,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793392479756,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793392899744,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793393461292,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793394001281,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793394623015,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793395282981,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793396138458,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793397016079,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793397780731,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793398918298,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793400026312,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793400948461,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793401586084,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793402532485,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793403890797,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793404934535,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793406159417,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793407643891,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793409252739,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793410746109,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793413106752,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793415740130,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793418663780,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793422150826,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793426145328,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793429758592,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793434388370,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793439414233,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793444867219,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793451271019,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793457821243,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793464920628,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        }
-      ],
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x3a1a5d71ddc27fcc8448f44f0cad1a940619bd55",
-        "pool": "0x4d8a9fbf2f8bc6b5253b39d374471a25cb0522dcbcbe55ddc4281ec04691ea3b",
-        "symbol": "MCFH",
-        "dex": "uniswap",
-        "price_usd": 8.942e-06,
-        "price_observed_ms": 1793464920628,
-        "observed_ms": 1793464920628,
-        "liquidity_usd": 8942.06,
-        "market_cap_usd": 8942.0,
-        "fdv_usd": 8942.0,
-        "pool_created_ms": 1793385646000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 8942.0,
-        "pool_age_minutes": 1321.2484833333333
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "robinhood:0x5648dfa3f8a82db163af41f0d4e637290166a98c": {
-      "first_seen_ms": 1793391441636,
-      "observations": [
-        {
-          "ms": 1793391441277,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793391813369,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793392148343,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793392479756,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793392899744,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793393461292,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793394001281,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793394623015,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793395282981,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793396138458,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793397016079,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793397840423,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793399083379,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793400146347,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793401008485,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793401669930,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793402629973,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793403950772,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793404994542,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793406219023,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793407727899,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793409312765,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793410833360,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793413193254,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793415828244,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793418752714,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793422241554,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793426236221,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793429758592,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793434388370,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793439414233,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793444867219,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793451271019,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793457821243,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        },
-        {
-          "ms": 1793464920628,
-          "price": 8.942e-06,
-          "liquidity": 8942.06
-        }
-      ],
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x5648dfa3f8a82db163af41f0d4e637290166a98c",
-        "pool": "0xbc6afd60d8936e294c83ab810e9c84b658aa8b31499474acd18cab715f7e1656",
-        "symbol": "MCFC",
-        "dex": "uniswap",
-        "price_usd": 8.942e-06,
-        "price_observed_ms": 1793464920628,
-        "observed_ms": 1793464920628,
-        "liquidity_usd": 8942.06,
-        "market_cap_usd": 8942.0,
-        "fdv_usd": 8942.0,
-        "pool_created_ms": 1793385638000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 8942.0,
-        "pool_age_minutes": 1321.3818166666667
       },
       "activity": {
         "passed": false,
@@ -2393440,7 +2392890,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793479307973
     }
   ],
   "archive": {
@@ -2467522,8 +2466973,8 @@
     }
   },
   "publication": {
-    "commit": "d31d26c9f18c0cce07e24b470a310c33f617fdc0",
-    "success_ms": 1793479219813,
+    "commit": "06af58602e75fffe554bc3ebb654a3b0cdb56b06",
+    "success_ms": 1793479307890,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
@@ -2476757,6 +2476208,18 @@
         "robinhood:0x449483f003cb7b795828d11f27d64407a612c8ce"
       ],
       "count": 12,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "06af58602e75fffe554bc3ebb654a3b0cdb56b06",
+      "archived_ms": 1793479307954,
+      "keys": [
+        "bnb:0xdb64d7144a5d1266f2ee83e7a4b98d5f8cddffff",
+        "bnb:0x000fc84e4525d43ba81aa2e82375b00be6174444",
+        "robinhood:0x3a1a5d71ddc27fcc8448f44f0cad1a940619bd55",
+        "robinhood:0x5648dfa3f8a82db163af41f0d4e637290166a98c"
+      ],
+      "count": 4,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
