@@ -1518730,60 +1518730,7 @@
       "source_close_ms": 1793468700000
     }
   },
-  "pending": [
-    {
-      "id": "25de84fe9a3448f8a1ffa3d0",
-      "asset_id": "8c36f7c4c192c979f232406f",
-      "key": "OKX:SPOT:METUSDT",
-      "symbol": "METUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793469282940,
-      "price": 0.2885,
-      "level": 0.2817,
-      "invalid": 0.27834796858175803,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2817,
-        "base_invalid": 0.27834796858175803,
-        "atr": 0.0010135427882797781,
-        "rvol": 3.898235242330548,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793447100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2135231316725994,
-        "score": 5.398235242330548
-      },
-      "context": {
-        "atr": 0.0013126180473632856,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.05863144684854493,
-        "btc_hour_pct": 0.010572705400591076,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:METUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793447100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "METUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1522909,6 +1522856,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793468999188
+    },
+    {
+      "id": "25de84fe9a3448f8a1ffa3d0",
+      "asset_id": "8c36f7c4c192c979f232406f",
+      "key": "OKX:SPOT:METUSDT",
+      "symbol": "METUSDT",
+      "phase": "expired",
+      "observed_ms": 1793469282940,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793469292642
     }
   ],
   "runs": [
@@ -1579795,8 +1579753,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ef5645c735fc0379e0f9f54be2d218d99a917133",
-    "previous_success_ms": 1793469022508,
+    "previous_commit": "427e1b6560ddb53789847c6ff788f224f28b1628",
+    "previous_success_ms": 1793469291715,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
