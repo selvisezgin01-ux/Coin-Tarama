@@ -540368,36 +540368,6 @@
         "no_exact_token_pool_quote"
       ],
       "last_quote_attempt_ms": 1793462749425
-    },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793462709323,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793462709323
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793462709323,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793462709323
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
     }
   },
   "assets": {
@@ -1962029,6 +1961999,16 @@
       "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/561",
       "issue_created_at": "2026-10-31T15:58:45Z",
       "recorded_ms": 1793462325651
+    },
+    "559892300e92f9c45a4bb0a6": {
+      "event_id": "559892300e92f9c45a4bb0a6",
+      "key": "hyperevm:0x836ef9293eaddbfdf2ca524c76e8276a5caf9c38",
+      "phase": "early_radar",
+      "observed_ms": 1793462750498,
+      "issue_number": 564,
+      "issue_url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/564",
+      "issue_created_at": "2026-10-31T16:06:34Z",
+      "recorded_ms": 1793462795046
     }
   },
   "cases": {},
@@ -2002059,7 +2002039,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793462796913
     }
   ],
   "archive": {
@@ -2076141,8 +2076122,8 @@
     }
   },
   "publication": {
-    "commit": "c520095f55f1d054e0d017e0d23dc56d9bf3e2be",
-    "success_ms": 1793462709279,
+    "commit": "9ed126dce8dbb204c90256717ebe4b89e01deb8a",
+    "success_ms": 1793462793956,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793458401823,
@@ -2084555,6 +2084536,16 @@
     {
       "source_state_sha": "4c58501f38d29b1aee227d8349e3352a3a99cf8b",
       "archived_ms": 1793462607308,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
+      ],
+      "count": 2,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "9ed126dce8dbb204c90256717ebe4b89e01deb8a",
+      "archived_ms": 1793462793999,
       "keys": [
         "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
