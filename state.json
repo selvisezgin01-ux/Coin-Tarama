@@ -1442619,60 +1442619,7 @@
       "source_close_ms": 1793445300000
     }
   },
-  "pending": [
-    {
-      "id": "f462bda1bff95c4267f1a5f7",
-      "asset_id": "9ce3430f7d1170a2aa3e0048",
-      "key": "OKX:SPOT:CSPRUSDT",
-      "symbol": "CSPRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793446503241,
-      "price": 0.0022319999999999996,
-      "level": 0.002176,
-      "invalid": 0.0021368611790618,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002176,
-        "base_invalid": 0.0021368611790618,
-        "atr": 2.0925472921333405e-05,
-        "rvol": 6.589587707609357,
-        "close_position": 0.8243243243243251,
-        "breakout": true,
-        "bar_close_ms": 1793446200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0162412993039567,
-        "score": 7.8243243243243255
-      },
-      "context": {
-        "atr": 2.0925472921333405e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.29890393808140736,
-        "btc_hour_pct": -0.06677766138689645,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CSPRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793446200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CSPRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1445852,6 +1445799,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793445612929
+    },
+    {
+      "id": "f462bda1bff95c4267f1a5f7",
+      "asset_id": "9ce3430f7d1170a2aa3e0048",
+      "key": "OKX:SPOT:CSPRUSDT",
+      "symbol": "CSPRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793446503241,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793446513433
     }
   ],
   "runs": [
@@ -1470308,7 +1470266,8 @@
         "entry_seq": 0,
         "cohort": "CSPRUSDT",
         "observation_lag_ms": 303241,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10192
       }
     },
     "errors": [],
@@ -1494152,8 +1494111,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ba1e6943e895cea48da032cd6a955359fabf9583",
-    "previous_success_ms": 1793446225135,
+    "previous_commit": "5c471ef6563bade1ff09d1d86e13b828b9a1ade7",
+    "previous_success_ms": 1793446512160,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
