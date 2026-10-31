@@ -1514367,164 +1514367,7 @@
       "source_close_ms": 1793477700000
     }
   },
-  "pending": [
-    {
-      "id": "87f38a79066a99a5332a7a75",
-      "asset_id": "6bf586f5de95940a33073f10",
-      "key": "OKX:PERP:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793478120217,
-      "price": 0.026605,
-      "level": 0.02658,
-      "invalid": 0.026305752693089976,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02658,
-        "base_invalid": 0.026305752693089976,
-        "atr": 9.49820460668213e-05,
-        "rvol": 45.32625435223083,
-        "close_position": 0.6585365853658511,
-        "breakout": true,
-        "bar_close_ms": 1793477700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6053726825576922,
-        "score": 7.658536585365852
-      },
-      "context": {
-        "atr": 9.49820460668213e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6672084688880697,
-        "btc_hour_pct": -0.04950220632882196,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793477700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STABLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a125ab7ee5a8c6842d1a6eb1",
-      "asset_id": "d92057c6c695b4d4ae0f71a3",
-      "key": "OKX:PERP:DATAUSDT",
-      "symbol": "DATAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793478120217,
-      "price": 0.13155,
-      "level": 0.1323,
-      "invalid": 0.13040730148411492,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1323,
-        "base_invalid": 0.13040730148411492,
-        "atr": 0.0006179901059005136,
-        "rvol": 3.027620324427645,
-        "close_position": 0.8181818181818113,
-        "breakout": false,
-        "bar_close_ms": 1793477700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.07604562737641984,
-        "score": 4.345802142609456
-      },
-      "context": {
-        "atr": 0.0006179901059005136,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.48362802977172104,
-        "btc_hour_pct": -0.04950220632882196,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DATAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793477700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DATAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1fbace41332a998e475b41ca",
-      "asset_id": "194a056e28742ce5711d6cf0",
-      "key": "OKX:SPOT:DATAUSDT",
-      "symbol": "DATAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793478118601,
-      "price": 0.13175,
-      "level": 0.1325,
-      "invalid": 0.13060536387290916,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1325,
-        "base_invalid": 0.13060536387290916,
-        "atr": 0.0006309075139389713,
-        "rvol": 2.680199197369861,
-        "close_position": 0.7500000000000058,
-        "breakout": false,
-        "bar_close_ms": 1793477700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.07598784194529085,
-        "score": 3.9301991973698667
-      },
-      "context": {
-        "atr": 0.0006309075139389713,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.48181122417894073,
-        "btc_hour_pct": -0.05091328114829041,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DATAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793477700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DATAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1519024,6 +1518867,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793477834221
+    },
+    {
+      "id": "87f38a79066a99a5332a7a75",
+      "asset_id": "6bf586f5de95940a33073f10",
+      "key": "OKX:PERP:STABLEUSDT",
+      "symbol": "STABLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793478120217,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793478132156
+    },
+    {
+      "id": "a125ab7ee5a8c6842d1a6eb1",
+      "asset_id": "d92057c6c695b4d4ae0f71a3",
+      "key": "OKX:PERP:DATAUSDT",
+      "symbol": "DATAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793478120217,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793478132156
+    },
+    {
+      "id": "1fbace41332a998e475b41ca",
+      "asset_id": "194a056e28742ce5711d6cf0",
+      "key": "OKX:SPOT:DATAUSDT",
+      "symbol": "DATAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793478118601,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793478132156
     }
   ],
   "runs": [
@@ -1553895,7 +1553771,8 @@
         "entry_seq": 0,
         "cohort": "STABLEUSDT",
         "observation_lag_ms": 420217,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11939
       },
       "d92057c6c695b4d4ae0f71a3:radar": {
         "symbol": "DATAUSDT",
@@ -1553917,7 +1553794,8 @@
         "entry_seq": 0,
         "cohort": "DATAUSDT",
         "observation_lag_ms": 420217,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11939
       },
       "194a056e28742ce5711d6cf0:radar": {
         "symbol": "DATAUSDT",
@@ -1553939,7 +1553817,8 @@
         "entry_seq": 0,
         "cohort": "DATAUSDT",
         "observation_lag_ms": 418601,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13555
       }
     },
     "errors": [],
@@ -1579218,8 +1579097,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ca97a09ae79f1a6e592cc0cdb436f65483b0cf24",
-    "previous_success_ms": 1793477851972,
+    "previous_commit": "28a912d3112b9313249929f0c72f5a87905d2d4c",
+    "previous_success_ms": 1793478130938,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
