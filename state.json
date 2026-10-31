@@ -1471933,58 +1471933,7 @@
       "source_close_ms": 1793456100000
     }
   },
-  "pending": [
-    {
-      "id": "d9905d69a4cf3b00c004e652",
-      "asset_id": "ed05ef785d112a48da2c9297",
-      "key": "MEXC:SPOT:UPCUSDT",
-      "symbol": "UPCUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793456677047,
-      "price": 0.1217,
-      "level": 0.12,
-      "invalid": 0.11655669660675529,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12,
-        "base_invalid": 0.11655669660675529,
-        "atr": 0.0009553559549647323,
-        "rvol": 2.0424414905124544,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793456100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1903959561920816,
-        "score": 4.042441490512454
-      },
-      "context": {
-        "atr": 0.0009553559549647323,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7921820439715455,
-        "btc_hour_pct": -0.034606286395788555,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:UPCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793456100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UPCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1475670,6 +1475619,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793456391543
+    },
+    {
+      "id": "d9905d69a4cf3b00c004e652",
+      "asset_id": "ed05ef785d112a48da2c9297",
+      "key": "MEXC:SPOT:UPCUSDT",
+      "symbol": "UPCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793456677047,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793456687046
     }
   ],
   "runs": [
@@ -1503389,7 +1503349,8 @@
         "entry_seq": 0,
         "cohort": "UPCUSDT",
         "observation_lag_ms": 577047,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9999
       }
     },
     "errors": [],
@@ -1527740,8 +1527701,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "94a2607cda4deb8a9ff6001f230d6e8b404c73fd",
-    "previous_success_ms": 1793456417762,
+    "previous_commit": "5d71d2d27f3b4e1f7f45411a9fdb160f774b4949",
+    "previous_success_ms": 1793456685581,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
