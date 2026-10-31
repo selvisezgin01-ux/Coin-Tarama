@@ -1386018,162 +1386018,7 @@
       "source_close_ms": 1793418300000
     }
   },
-  "pending": [
-    {
-      "id": "c2785afe54dced4d8ea41a28",
-      "asset_id": "f61e3b08331c64baba7beb87",
-      "key": "OKX:SPOT:PROSUSDT",
-      "symbol": "PROSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793419364142,
-      "price": 0.5569999999999999,
-      "level": 0.5732,
-      "invalid": 0.5586202339000798,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5732,
-        "base_invalid": 0.5586202339000798,
-        "atr": 0.00319844066613513,
-        "rvol": 2.8471425423065932,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793412000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.347142542306593
-      },
-      "context": {
-        "atr": 0.0034649787723181583,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.44530514798242216,
-        "btc_hour_pct": -0.3545526550748024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PROSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793412000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e311032020f0b6061c325bff",
-      "asset_id": "c59284cbaed3d46a98ca3f2c",
-      "key": "OKX:SPOT:MASKUSDT",
-      "symbol": "MASKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793419364142,
-      "price": 0.38734999999999997,
-      "level": 0.3868,
-      "invalid": 0.3829346017751783,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3868,
-        "base_invalid": 0.3829346017751783,
-        "atr": 0.001102654832144635,
-        "rvol": 5.206858820627892,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793419200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3112840466926059,
-        "score": 6.706858820627892
-      },
-      "context": {
-        "atr": 0.001102654832144635,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6658367017674083,
-        "btc_hour_pct": -0.3545526550748024,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MASKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793419200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MASKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ef89f7939c29ae584d7495ef",
-      "asset_id": "df89908c674890f38584ea6d",
-      "key": "OKX:SPOT:ENJUSDT",
-      "symbol": "ENJUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793419364142,
-      "price": 0.02417,
-      "level": 0.02431,
-      "invalid": 0.024066872657255496,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02431,
-        "base_invalid": 0.024066872657255496,
-        "atr": 8.751561829669709e-05,
-        "rvol": 4.37090538333012,
-        "close_position": 0.8461538461538503,
-        "breakout": false,
-        "bar_close_ms": 1793419200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.08264462809917106,
-        "score": 5.71705922948397
-      },
-      "context": {
-        "atr": 8.751561829669709e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2719080269756313,
-        "btc_hour_pct": -0.3545526550748024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ENJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793419200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ENJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1388253,6 +1388098,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793419068016
+    },
+    {
+      "id": "c2785afe54dced4d8ea41a28",
+      "asset_id": "f61e3b08331c64baba7beb87",
+      "key": "OKX:SPOT:PROSUSDT",
+      "symbol": "PROSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793419364142,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793419374196
+    },
+    {
+      "id": "e311032020f0b6061c325bff",
+      "asset_id": "c59284cbaed3d46a98ca3f2c",
+      "key": "OKX:SPOT:MASKUSDT",
+      "symbol": "MASKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793419364142,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793419374196
+    },
+    {
+      "id": "ef89f7939c29ae584d7495ef",
+      "asset_id": "df89908c674890f38584ea6d",
+      "key": "OKX:SPOT:ENJUSDT",
+      "symbol": "ENJUSDT",
+      "phase": "radar",
+      "observed_ms": 1793419364142,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793419374196
     }
   ],
   "runs": [
@@ -1403933,7 +1403811,8 @@
         "entry_seq": 0,
         "cohort": "MASKUSDT",
         "observation_lag_ms": 164142,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10054
       },
       "df89908c674890f38584ea6d:radar": {
         "symbol": "ENJUSDT",
@@ -1403955,7 +1403834,8 @@
         "entry_seq": 0,
         "cohort": "ENJUSDT",
         "observation_lag_ms": 164142,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10054
       }
     },
     "errors": [],
@@ -1426680,8 +1426560,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2d7ab8b293a326c66287c961398b5eb445eef8ab",
-    "previous_success_ms": 1793419083255,
+    "previous_commit": "f4c9d6f3449365ad43ae91bae13f83ba09c8f51d",
+    "previous_success_ms": 1793419372963,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
