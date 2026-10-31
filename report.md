@@ -94,7 +94,7 @@ Kimlik defteri: 4260 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | Nutinu `0x7e1e26dc227280f65e0b80e1c263025072a8311d` | robinhood | 31.10.2026 05:41 | 110660.0 | Bekliyor |
+| 🟡 ERKEN RADAR | Nutinu `0x7e1e26dc227280f65e0b80e1c263025072a8311d` | robinhood | 31.10.2026 05:41 | 110660.0 | [Issue #326](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/326) |
 | 🟡 ERKEN RADAR | HACKCOIN `0xf07b65b725552583b203758811c1b5bf3c0a2bed` | robinhood | 31.10.2026 05:40 | 57740.0 | [Issue #325](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/325) |
 | 🟡 ERKEN RADAR | PENFOX `EGFd15w3yRFfwKgGUsNutJ6onjJLLqRRZs7pJpjFbonk` | solana | 31.10.2026 05:38 | 79390.0 | [Issue #324](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/324) |
 | 🟡 ERKEN RADAR | SAFU `0xfea26b1efc6556163e829f370e95f293b03fd010` | bnb | 31.10.2026 05:34 | 75167.0 | [Issue #323](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/323) |
