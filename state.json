@@ -1514928,64 +1514928,7 @@
       "source_close_ms": 1793466000000
     }
   },
-  "pending": [
-    {
-      "id": "0d2fada96fecabc0abd68d10",
-      "asset_id": "34b72bea1c7199aa2c10d320",
-      "key": "MEXC:PERP:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793467037917,
-      "price": 0.06822500000000001,
-      "level": 0.06892,
-      "invalid": 0.06436442211106747,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06892,
-        "base_invalid": 0.06436442211106747,
-        "atr": 0.0007038525928835641,
-        "rvol": 7.557324671922519,
-        "close_position": 0.6744186046511598,
-        "breakout": false,
-        "bar_close_ms": 1793466900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.0980857694019797,
-        "score": 7.1744186046511595
-      },
-      "context": {
-        "atr": 0.0007038525928835641,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.596979336097772,
-        "btc_hour_pct": 0.02320780916991172,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZAMAUSDT",
-          "change_pct": 11.236617273752447,
-          "old_ms": 1793463421076,
-          "current_ms": 1793467033147,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793466900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1519023,6 +1518966,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793466151998
+    },
+    {
+      "id": "0d2fada96fecabc0abd68d10",
+      "asset_id": "34b72bea1c7199aa2c10d320",
+      "key": "MEXC:PERP:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793467037917,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793467047981
     }
   ],
   "runs": [
@@ -1550182,7 +1550136,8 @@
         "entry_seq": 0,
         "cohort": "ZAMAUSDT",
         "observation_lag_ms": 137917,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10064
       }
     },
     "errors": [],
@@ -1575192,8 +1575147,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a7e5c21ebb534a615fae40ef91476e4ba79fd0f7",
-    "previous_success_ms": 1793466759033,
+    "previous_commit": "20899d7f31ef5d72ecf368837052853654403692",
+    "previous_success_ms": 1793467046932,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
