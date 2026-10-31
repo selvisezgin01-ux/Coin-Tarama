@@ -533165,36 +533165,6 @@
         "no_exact_token_pool_quote"
       ],
       "last_quote_attempt_ms": 1793461813570
-    },
-    "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503": {
-      "chain": "hyperevm",
-      "mint": "0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
-      "first_seen_ms": 1793461773783,
-      "pools": {
-        "0xaff775792827a7892fb203f7c33fa92f957f4232": {
-          "created_ms": 1793343720000,
-          "first_seen_ms": 1793461773783
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793461773783,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793461773783
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
     }
   },
   "assets": {
@@ -1977737,7 +1977707,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793461858359
     }
   ],
   "archive": {
@@ -2051819,8 +2051790,8 @@
     }
   },
   "publication": {
-    "commit": "cbdab4dfdc68b7e0fb44a7cb82e5aebc198af3a5",
-    "success_ms": 1793461773740,
+    "commit": "af5073dfbcfbab3f26938102e9d824ac5ee83c20",
+    "success_ms": 1793461858306,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793458401823,
@@ -2060152,6 +2060123,16 @@
     {
       "source_state_sha": "e90a4b0b20499ae33a60262f6185494eb6178cf8",
       "archived_ms": 1793461671758,
+      "keys": [
+        "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
+      ],
+      "count": 2,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "af5073dfbcfbab3f26938102e9d824ac5ee83c20",
+      "archived_ms": 1793461858349,
       "keys": [
         "hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503",
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff"
