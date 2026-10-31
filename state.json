@@ -1407628,160 +1407628,7 @@
       "source_close_ms": 1793430000000
     }
   },
-  "pending": [
-    {
-      "id": "5013d7c4b00a49533ab12e7a",
-      "asset_id": "27b4b4139e914d0786b053e0",
-      "key": "OKX:PERP:JELLYJELLYUSDT",
-      "symbol": "JELLYJELLYUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793430052646,
-      "price": 0.043355,
-      "level": 0.04324,
-      "invalid": 0.04194659612776138,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04324,
-        "base_invalid": 0.04194659612776138,
-        "atr": 0.00035602581492415923,
-        "rvol": 2.8202384370728413,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793424600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6159250585479956,
-        "score": 4.820238437072842
-      },
-      "context": {
-        "atr": 0.0003395862063496406,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1459464013152445,
-        "btc_hour_pct": 0.15477069329499216,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:JELLYJELLYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793424600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JELLYJELLYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "76b5b2e6962476cf2c83d732",
-      "asset_id": "9c6dabf177f2ef502bd2e244",
-      "key": "OKX:SPOT:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793430052097,
-      "price": 0.02896,
-      "level": 0.02907,
-      "invalid": 0.028637258296355734,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02907,
-        "base_invalid": 0.028637258296355734,
-        "atr": 0.00021827802429510637,
-        "rvol": 2.158288570669162,
-        "close_position": 0.6170212765957469,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.003807545863622,
-        "score": 3.775309847264909
-      },
-      "context": {
-        "atr": 0.00020510321171643284,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.14935733190526435,
-        "btc_hour_pct": 0.16238496113250012,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "986de1bb39f9358a36bf2ac3",
-      "asset_id": "b0c1cefb681bc293046424e4",
-      "key": "MEXC:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793430053995,
-      "price": 1.70525,
-      "level": 1.7133,
-      "invalid": 1.683896382556186,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7133,
-        "base_invalid": 1.683896382556186,
-        "atr": 0.015357449625426758,
-        "rvol": 4.764089019335759,
-        "close_position": 0.8794642857142803,
-        "breakout": false,
-        "bar_close_ms": 1793427300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3050032259956481,
-        "score": 6.143553305050039
-      },
-      "context": {
-        "atr": 0.01586671057480079,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7555966698118866,
-        "btc_hour_pct": 0.1609665139146621,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1410290,6 +1410137,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793429456064
+    },
+    {
+      "id": "5013d7c4b00a49533ab12e7a",
+      "asset_id": "27b4b4139e914d0786b053e0",
+      "key": "OKX:PERP:JELLYJELLYUSDT",
+      "symbol": "JELLYJELLYUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793430052646,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793430062395
+    },
+    {
+      "id": "76b5b2e6962476cf2c83d732",
+      "asset_id": "9c6dabf177f2ef502bd2e244",
+      "key": "OKX:SPOT:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793430052097,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793430062395
+    },
+    {
+      "id": "986de1bb39f9358a36bf2ac3",
+      "asset_id": "b0c1cefb681bc293046424e4",
+      "key": "MEXC:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793430053995,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793430062395
     }
   ],
   "runs": [
@@ -1452556,8 +1452436,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "abf477fc01a29341354a3fea118aef6bf4539b46",
-    "previous_success_ms": 1793429767842,
+    "previous_commit": "3a99d16f8c394a5ffcd644715360f70d8ce6ba52",
+    "previous_success_ms": 1793430061014,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
