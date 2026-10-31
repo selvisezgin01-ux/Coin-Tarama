@@ -2226,22 +2226,6 @@
       ],
       "last_quote_attempt_ms": 1793469755396
     },
-    "bnb:0x7bee8ae37cfe46ec8d74ac4727012a6c37dcffff": {
-      "chain": "bnb",
-      "mint": "0x7bee8ae37cfe46ec8d74ac4727012a6c37dcffff",
-      "first_seen_ms": 1793389378321,
-      "pools": {
-        "0x7bee8ae37cfe46ec8d74ac4727012a6c37dcffff": {
-          "created_ms": 1793388347000,
-          "first_seen_ms": 1793389378321
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793468308488
-    },
     "bnb:0x3e342a68712cf60725ad0877c3f7b8c5979bffff": {
       "chain": "bnb",
       "mint": "0x3e342a68712cf60725ad0877c3f7b8c5979bffff",
@@ -5740,42 +5724,6 @@
         }
       ]
     },
-    "robinhood:0x0ba11760ad2dd242a35b06197f69f1214db31616": {
-      "chain": "robinhood",
-      "mint": "0x0ba11760ad2dd242a35b06197f69f1214db31616",
-      "first_seen_ms": 1793388791201,
-      "pools": {
-        "0x7191ca9a7f621c71fccb542ffd0069e158abb9d1836aa1fedc7596c66f324c25": {
-          "created_ms": 1793388271000,
-          "first_seen_ms": 1793388791201
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793470150153,
-      "decision": {
-        "at_ms": 1793470151186,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "pool": "0x7191ca9a7f621c71fccb542ffd0069e158abb9d1836aa1fedc7596c66f324c25"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391561590,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "liquidity",
-            "market_cap_not_50k_500k"
-          ],
-          "pool": "0x7191ca9a7f621c71fccb542ffd0069e158abb9d1836aa1fedc7596c66f324c25"
-        }
-      ]
-    },
     "robinhood:0xa5ec23a6cb6d84cdb253834a67b2971e8b851fb4": {
       "chain": "robinhood",
       "mint": "0xa5ec23a6cb6d84cdb253834a67b2971e8b851fb4",
@@ -6447,44 +6395,6 @@
             "market_cap_not_50k_500k"
           ],
           "pool": "0xf2d1731076fe613e6d592ac31b447576e5fc70cd24bc17c34d17a00a41cd8f13"
-        }
-      ]
-    },
-    "robinhood:0x86f0c41c9be5394fecdb5d0276b46a0cf85201ab": {
-      "chain": "robinhood",
-      "mint": "0x86f0c41c9be5394fecdb5d0276b46a0cf85201ab",
-      "first_seen_ms": 1793389091235,
-      "pools": {
-        "0x5e4cf6d6a2d64019119381f8b24227b0d9f5b6ba": {
-          "created_ms": 1793388344000,
-          "first_seen_ms": 1793389091235
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793470440680,
-      "decision": {
-        "at_ms": 1793470441729,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "liquidity",
-          "liquidity_usd",
-          "market_cap_usd"
-        ],
-        "pool": "0x5e4cf6d6a2d64019119381f8b24227b0d9f5b6ba"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391561590,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "liquidity",
-            "liquidity_usd",
-            "market_cap_usd"
-          ],
-          "pool": "0x5e4cf6d6a2d64019119381f8b24227b0d9f5b6ba"
         }
       ]
     },
@@ -713589,229 +713499,6 @@
         "independent_buyers_verified": false
       }
     },
-    "robinhood:0x0ba11760ad2dd242a35b06197f69f1214db31616": {
-      "first_seen_ms": 1793391561590,
-      "observations": [
-        {
-          "ms": 1793391561235,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793391908323,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793392239773,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793392659789,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793393161323,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793393701259,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793394322953,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793394982997,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793395809073,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793396618554,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793397480730,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793398389363,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793399666372,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793400708133,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793401368116,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793402232450,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793403530780,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793404694202,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793405859342,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793407136599,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793408832752,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793410296815,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793412500318,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793415038069,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793417861256,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793421148767,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793424889791,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793428379229,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793432931394,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793437685223,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793443070562,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793449126247,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793455810101,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793462469935,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        },
-        {
-          "ms": 1793470150820,
-          "price": 2.23e-06,
-          "liquidity": 2230.33
-        }
-      ],
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x0ba11760ad2dd242a35b06197f69f1214db31616",
-        "pool": "0x7191ca9a7f621c71fccb542ffd0069e158abb9d1836aa1fedc7596c66f324c25",
-        "symbol": "GIGATRUMP",
-        "dex": "uniswap",
-        "price_usd": 2.23e-06,
-        "price_observed_ms": 1793470150820,
-        "observed_ms": 1793470150820,
-        "liquidity_usd": 2230.33,
-        "market_cap_usd": 2230.0,
-        "fdv_usd": 2230.0,
-        "pool_created_ms": 1793388271000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity",
-          "market_cap_not_50k_500k"
-        ],
-        "unknown": [],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 2230.0,
-        "pool_age_minutes": 1364.6697666666666
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
     "robinhood:0x189b14fd8068003041625642f9ffc3d7adab0938": {
       "first_seen_ms": 1793391561590,
       "observations": [
@@ -714020,231 +713707,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 2244.0,
         "pool_age_minutes": 1361.9197666666666
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "robinhood:0x86f0c41c9be5394fecdb5d0276b46a0cf85201ab": {
-      "first_seen_ms": 1793391561590,
-      "observations": [
-        {
-          "ms": 1793391561235,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793391908323,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793392239773,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793392659789,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793393161323,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793393701259,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793394322953,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793394982997,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793395809073,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793396618554,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793397480730,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793398389363,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793399666372,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793400708497,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793401368116,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793402232450,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793403530780,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793404694538,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793405859342,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793407136599,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793408892752,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793410297150,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793412500318,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793415038069,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793417949409,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793421239514,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793425072890,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793428655280,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793433205322,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793437961120,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793443354106,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793449418406,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793456084562,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793462750129,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        },
-        {
-          "ms": 1793470441405,
-          "price": 7.157e-13,
-          "liquidity": 0.0
-        }
-      ],
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x86f0c41c9be5394fecdb5d0276b46a0cf85201ab",
-        "pool": "0x5e4cf6d6a2d64019119381f8b24227b0d9f5b6ba",
-        "symbol": "CUMROCKET",
-        "dex": "uniswap",
-        "price_usd": 7.157e-13,
-        "price_observed_ms": 1793470441405,
-        "observed_ms": 1793470441405,
-        "liquidity_usd": 0.0,
-        "market_cap_usd": null,
-        "fdv_usd": null,
-        "pool_created_ms": 1793388344000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "liquidity"
-        ],
-        "unknown": [
-          "liquidity_usd",
-          "market_cap_usd"
-        ],
-        "valuation_kind": "market_cap_unknown",
-        "valuation_usd": null,
-        "pool_age_minutes": 1368.2954833333333
       },
       "activity": {
         "passed": false,
@@ -2402773,7 +2402235,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793481961227
     }
   ],
   "archive": {
@@ -2476855,8 +2476318,8 @@
     }
   },
   "publication": {
-    "commit": "08b79a8a56591410b1a6c4b0d4e86f5861f2ea27",
-    "success_ms": 1793481873984,
+    "commit": "0a43587d7f64f4594d466838f816c83c53d232f8",
+    "success_ms": 1793481961148,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
@@ -2486529,6 +2485992,17 @@
         "robinhood:0x3f4d80cda19086155d8a0e73fb5bb88be1683c8c"
       ],
       "count": 11,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "0a43587d7f64f4594d466838f816c83c53d232f8",
+      "archived_ms": 1793481961209,
+      "keys": [
+        "bnb:0x7bee8ae37cfe46ec8d74ac4727012a6c37dcffff",
+        "robinhood:0x0ba11760ad2dd242a35b06197f69f1214db31616",
+        "robinhood:0x86f0c41c9be5394fecdb5d0276b46a0cf85201ab"
+      ],
+      "count": 3,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
