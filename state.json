@@ -1419874,112 +1419874,7 @@
       "source_close_ms": 1793439000000
     }
   },
-  "pending": [
-    {
-      "id": "f5dedd5d1109ae807482c5e7",
-      "asset_id": "e3b3d60b0767891e0c3053ec",
-      "key": "OKX:SPOT:BATUSDT",
-      "symbol": "BATUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793439768715,
-      "price": 0.130415,
-      "level": 0.12942,
-      "invalid": 0.12840221308028751,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12942,
-        "base_invalid": 0.12840221308028751,
-        "atr": 0.0006519127980832631,
-        "rvol": 3.324973535322603,
-        "close_position": 0.8722222222222329,
-        "breakout": true,
-        "bar_close_ms": 1793439000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6887159533073959,
-        "score": 5.197195757544836
-      },
-      "context": {
-        "atr": 0.0006519127980832631,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4001832428118468,
-        "btc_hour_pct": -0.012285647776943964,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793439000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "141c2ebb424028f80714364c",
-      "asset_id": "2590686b20671b022be6beb0",
-      "key": "OKX:SPOT:BABYUSDT",
-      "symbol": "BABYUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793439768715,
-      "price": 0.0121925,
-      "level": 0.012193,
-      "invalid": 0.012045481327231529,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.012193,
-        "base_invalid": 0.012045481327231529,
-        "atr": 5.012448512313836e-05,
-        "rvol": 2.3036975843027085,
-        "close_position": 0.9577464788732226,
-        "breakout": true,
-        "bar_close_ms": 1793439000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8433236874741512,
-        "score": 4.261444063175931
-      },
-      "context": {
-        "atr": 5.012448512313836e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.36011173473345925,
-        "btc_hour_pct": -0.012285647776943964,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BABYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793439000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BABYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1422895,6 +1422790,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793439182409
+    },
+    {
+      "id": "f5dedd5d1109ae807482c5e7",
+      "asset_id": "e3b3d60b0767891e0c3053ec",
+      "key": "OKX:SPOT:BATUSDT",
+      "symbol": "BATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793439768715,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793439779268
+    },
+    {
+      "id": "141c2ebb424028f80714364c",
+      "asset_id": "2590686b20671b022be6beb0",
+      "key": "OKX:SPOT:BABYUSDT",
+      "symbol": "BABYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793439768715,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793439779268
     }
   ],
   "runs": [
@@ -1445163,7 +1445080,8 @@
         "entry_seq": 0,
         "cohort": "BATUSDT",
         "observation_lag_ms": 768715,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10553
       },
       "2590686b20671b022be6beb0:radar": {
         "symbol": "BABYUSDT",
@@ -1445185,7 +1445103,8 @@
         "entry_seq": 0,
         "cohort": "BABYUSDT",
         "observation_lag_ms": 768715,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10553
       }
     },
     "errors": [],
@@ -1468728,8 +1468647,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5bfd0d8cb039d80604837a1b26bfa4f2a1a65988",
-    "previous_success_ms": 1793439497587,
+    "previous_commit": "2745af60aae395f661328141e40c9f64dcccdf42",
+    "previous_success_ms": 1793439777867,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
