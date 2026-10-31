@@ -1514434,58 +1514434,7 @@
       "source_close_ms": 1793466000000
     }
   },
-  "pending": [
-    {
-      "id": "7617048d7536cbc5447e3f5b",
-      "asset_id": "155564c58e29e46f0fa1d2e1",
-      "key": "MEXC:SPOT:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793467631153,
-      "price": 0.030905000000000002,
-      "level": 0.03098,
-      "invalid": 0.02980989639849737,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03098,
-        "base_invalid": 0.02980989639849737,
-        "atr": 0.00026735734335087857,
-        "rvol": 2.962212076006901,
-        "close_position": 0.8461538461538524,
-        "breakout": false,
-        "bar_close_ms": 1793466900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6548788474132206,
-        "score": 4.308365922160753
-      },
-      "context": {
-        "atr": 0.00026735734335087857,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.2174390505138355,
-        "btc_hour_pct": 0.023120135084520044,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793466900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1518545,6 +1518494,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793467345596
+    },
+    {
+      "id": "7617048d7536cbc5447e3f5b",
+      "asset_id": "155564c58e29e46f0fa1d2e1",
+      "key": "MEXC:SPOT:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793467631153,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793467642122
     }
   ],
   "runs": [
@@ -1549924,7 +1549884,8 @@
         "entry_seq": 0,
         "cohort": "MERLUSDT",
         "observation_lag_ms": 731153,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10969
       }
     },
     "errors": [],
@@ -1574957,8 +1574918,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ea7a04b7c4b1576e698f8af769ffbc47115facc5",
-    "previous_success_ms": 1793467365954,
+    "previous_commit": "c0402027d7d4f8810756370dd3c502be51db0b52",
+    "previous_success_ms": 1793467641180,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
