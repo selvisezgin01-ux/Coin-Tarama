@@ -1314019,168 +1314019,7 @@
       "source_close_ms": 1793408400000
     }
   },
-  "pending": [
-    {
-      "id": "1a4bd4ad98e9c9e7135f87b1",
-      "asset_id": "321eb0e924c5f0a0a917e9be",
-      "key": "MEXC:PERP:SIRENUSDT",
-      "symbol": "SIRENUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793408476102,
-      "price": 0.023055,
-      "level": 0.02239,
-      "invalid": 0.021935859896478036,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02239,
-        "base_invalid": 0.021935859896478036,
-        "atr": 0.0002276006901464226,
-        "rvol": 5.458911738128885,
-        "close_position": 0.844827586206897,
-        "breakout": true,
-        "bar_close_ms": 1793386800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6903690369036957,
-        "score": 7.3037393243357815
-      },
-      "context": {
-        "atr": 0.0001512724437235398,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.13910178323108813,
-        "btc_hour_pct": 0.2694232428314347,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SIRENUSDT",
-          "change_pct": -0.015879158122655834,
-          "old_ms": 1793404751209,
-          "current_ms": 1793408473236,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0101,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793386800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SIRENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "44350f7eac1146e0f7fd509e",
-      "asset_id": "a9c2d3e40855240f562f030c",
-      "key": "OKX:SPOT:NFTUSDT",
-      "symbol": "NFTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793408476303,
-      "price": 2.347e-07,
-      "level": 2.35e-07,
-      "invalid": 2.3254791064097356e-07,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.35e-07,
-        "base_invalid": 2.3254791064097356e-07,
-        "atr": 1.013929060176324e-09,
-        "rvol": 7.133524448758348,
-        "close_position": 0.9285714285714232,
-        "breakout": false,
-        "bar_close_ms": 1793395800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.213310580204773,
-        "score": 7.4285714285714235
-      },
-      "context": {
-        "atr": 1.5068530406901086e-09,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.395957190743923,
-        "btc_hour_pct": 0.26802542102111193,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NFTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793395800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NFTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5d4464c7826834c6ec23bb71",
-      "asset_id": "dcdaec326a3746466ceaa637",
-      "key": "OKX:SPOT:ROBOUSDT",
-      "symbol": "ROBOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793408476303,
-      "price": 0.0053005,
-      "level": 0.005292,
-      "invalid": 0.0052088861320477645,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005292,
-        "base_invalid": 0.0052088861320477645,
-        "atr": 2.7425786348234746e-05,
-        "rvol": 9.820223132450728,
-        "close_position": 0.8000000000000069,
-        "breakout": true,
-        "bar_close_ms": 1793405700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4743833017077703,
-        "score": 7.800000000000007
-      },
-      "context": {
-        "atr": 2.6902772301029017e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2632838768915846,
-        "btc_hour_pct": 0.26802542102111193,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ROBOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793405700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ROBOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1315765,6 +1315604,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793408179238
+    },
+    {
+      "id": "1a4bd4ad98e9c9e7135f87b1",
+      "asset_id": "321eb0e924c5f0a0a917e9be",
+      "key": "MEXC:PERP:SIRENUSDT",
+      "symbol": "SIRENUSDT",
+      "phase": "expired",
+      "observed_ms": 1793408476102,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793408487397
+    },
+    {
+      "id": "44350f7eac1146e0f7fd509e",
+      "asset_id": "a9c2d3e40855240f562f030c",
+      "key": "OKX:SPOT:NFTUSDT",
+      "symbol": "NFTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793408476303,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793408487397
+    },
+    {
+      "id": "5d4464c7826834c6ec23bb71",
+      "asset_id": "dcdaec326a3746466ceaa637",
+      "key": "OKX:SPOT:ROBOUSDT",
+      "symbol": "ROBOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793408476303,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793408487397
     }
   ],
   "runs": [
@@ -1350365,8 +1350237,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8919249e0bab3e7338ea80ca70351d173615311e",
-    "previous_success_ms": 1793408195743,
+    "previous_commit": "f609c0726f2aa873890cc5c7a773b4287d6963d2",
+    "previous_success_ms": 1793408486190,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
