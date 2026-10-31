@@ -1481965,60 +1481965,7 @@
       "source_close_ms": 1793457000000
     }
   },
-  "pending": [
-    {
-      "id": "128b31b4278051d50bd2eeff",
-      "asset_id": "5c1dd6d1d38c7a9032049d0e",
-      "key": "OKX:SPOT:DYDXUSDT",
-      "symbol": "DYDXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793460280130,
-      "price": 0.10667,
-      "level": 0.10613,
-      "invalid": 0.10516339307634134,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10613,
-        "base_invalid": 0.10516339307634134,
-        "atr": 0.0004440461577244128,
-        "rvol": 5.902123909559829,
-        "close_position": 0.7187499999999983,
-        "breakout": true,
-        "bar_close_ms": 1793459700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3397187883363184,
-        "score": 7.620873909559827
-      },
-      "context": {
-        "atr": 0.0004440461577244128,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3493914057371872,
-        "btc_hour_pct": -0.12275212589643036,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DYDXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793459700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DYDXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1485814,6 +1485761,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793459094848
+    },
+    {
+      "id": "128b31b4278051d50bd2eeff",
+      "asset_id": "5c1dd6d1d38c7a9032049d0e",
+      "key": "OKX:SPOT:DYDXUSDT",
+      "symbol": "DYDXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793460280130,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793460290063
     }
   ],
   "runs": [
@@ -1514711,7 +1514669,8 @@
         "entry_seq": 0,
         "cohort": "DYDXUSDT",
         "observation_lag_ms": 580130,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9933
       }
     },
     "errors": [],
@@ -1539313,8 +1539272,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e3aa32947fd4d34b9ad5fcdfe6b3387c8b8901a0",
-    "previous_success_ms": 1793460010738,
+    "previous_commit": "8fb2f01c189960c92bd172b720dd7f83644845d2",
+    "previous_success_ms": 1793460288765,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
