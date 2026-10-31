@@ -1511510,112 +1511510,7 @@
       "source_close_ms": 1793480400000
     }
   },
-  "pending": [
-    {
-      "id": "57b8c19a2182227144a47cb9",
-      "asset_id": "3a7b8ad470d69853ab2c340b",
-      "key": "OKX:SPOT:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793483384921,
-      "price": 0.068855,
-      "level": 0.06492,
-      "invalid": 0.06402118845150559,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06492,
-        "base_invalid": 0.06402118845150559,
-        "atr": 0.00045874365662939854,
-        "rvol": 6.452055603676973,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9788688626476194,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0006202327834169138,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2558954082488074,
-        "btc_hour_pct": -0.022696967117752376,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZAMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "25b00e5f1e5ee60f545f1213",
-      "asset_id": "80ca382ed9668a784a7693b1",
-      "key": "OKX:PERP:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793483383199,
-      "price": 0.068875,
-      "level": 0.06487,
-      "invalid": 0.06401005436227537,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06487,
-        "base_invalid": 0.06401005436227537,
-        "atr": 0.0004663042514974645,
-        "rvol": 2.2462352563729335,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1035125893689823,
-        "score": 4.246235256372934
-      },
-      "context": {
-        "atr": 0.0006750495431347226,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.292481981803161,
-        "btc_hour_pct": -0.0300513710776662,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZAMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1516335,6 +1516230,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793482792782
+    },
+    {
+      "id": "57b8c19a2182227144a47cb9",
+      "asset_id": "3a7b8ad470d69853ab2c340b",
+      "key": "OKX:SPOT:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793483384921,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793483395879
+    },
+    {
+      "id": "25b00e5f1e5ee60f545f1213",
+      "asset_id": "80ca382ed9668a784a7693b1",
+      "key": "OKX:PERP:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793483383199,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793483395879
     }
   ],
   "runs": [
@@ -1578529,8 +1578446,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7ed6c0d5b2e626d265ea9b846b0e10c3bbf92172",
-    "previous_success_ms": 1793483108171,
+    "previous_commit": "c822d76aa13290b92910800e8714e6f7cdb7e6b7",
+    "previous_success_ms": 1793483394501,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
