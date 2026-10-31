@@ -1468916,114 +1468916,7 @@
       "source_close_ms": 1793450700000
     }
   },
-  "pending": [
-    {
-      "id": "2a72ac8a16a7b1f20d8d6701",
-      "asset_id": "564927fb8966bdbca0c494a4",
-      "key": "OKX:SPOT:CROUSDT",
-      "symbol": "CROUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793451134782,
-      "price": 0.051585000000000006,
-      "level": 0.05161,
-      "invalid": 0.05099374055426857,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05161,
-        "base_invalid": 0.05099374055426857,
-        "atr": 0.00017506297154288604,
-        "rvol": 3.667401884239536,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793450700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.2914319020788758,
-        "score": 5.667401884239537
-      },
-      "context": {
-        "atr": 0.00017506297154288604,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.06692885836048212,
-        "btc_hour_pct": 0.26186063223962996,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793450700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "35c7afcbd99b6081bf79487b",
-      "asset_id": "b4bb1ed14fcf3235abe30733",
-      "key": "MEXC:PERP:EGLDUSDT",
-      "symbol": "EGLDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793451136178,
-      "price": 3.4124999999999996,
-      "level": 3.415,
-      "invalid": 3.3250374455959553,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.415,
-        "base_invalid": 3.3250374455959553,
-        "atr": 0.019750362693630043,
-        "rvol": 2.7633185135890694,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793450700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.14658457930225577,
-        "score": 4.26331851358907
-      },
-      "context": {
-        "atr": 0.019750362693630043,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.48631273719481616,
-        "btc_hour_pct": 0.25951065182665545,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:EGLDUSDT",
-          "change_pct": -3.2696050350410566,
-          "old_ms": 1793447386299,
-          "current_ms": 1793451132268,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0073999999999999995,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793450700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1472434,6 +1472327,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793450852967
+    },
+    {
+      "id": "2a72ac8a16a7b1f20d8d6701",
+      "asset_id": "564927fb8966bdbca0c494a4",
+      "key": "OKX:SPOT:CROUSDT",
+      "symbol": "CROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793451134782,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793451146140
+    },
+    {
+      "id": "35c7afcbd99b6081bf79487b",
+      "asset_id": "b4bb1ed14fcf3235abe30733",
+      "key": "MEXC:PERP:EGLDUSDT",
+      "symbol": "EGLDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793451136178,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793451146141
     }
   ],
   "runs": [
@@ -1498415,7 +1498330,8 @@
         "entry_seq": 0,
         "cohort": "CROUSDT",
         "observation_lag_ms": 434782,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11358
       },
       "b4bb1ed14fcf3235abe30733:radar": {
         "symbol": "EGLDUSDT",
@@ -1498437,7 +1498353,8 @@
         "entry_seq": 0,
         "cohort": "EGLDUSDT",
         "observation_lag_ms": 436178,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9963
       }
     },
     "errors": [],
@@ -1522486,8 +1522403,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "db6e82a17a1a16937a858d86df9df1f5ec272a6b",
-    "previous_success_ms": 1793450869946,
+    "previous_commit": "d21ab50ab0a19d20c0a87ccd9cc7fbc5166b7872",
+    "previous_success_ms": 1793451144852,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
