@@ -19649,6 +19649,43 @@
           "dex": "raydium",
           "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
           "observed_ms": 1793461900315
+        },
+        {
+          "pool": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
+          "price": 0.0003616,
+          "liquidity": 163662.47,
+          "market_cap": 361662.0,
+          "volume": {
+            "h24": 11753.86,
+            "h6": 10031.38,
+            "h1": 0,
+            "m5": 0
+          },
+          "price_change": {
+            "h6": -0.77,
+            "h24": -1.64
+          },
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h6": {
+              "buys": 46,
+              "sells": 28
+            },
+            "h24": {
+              "buys": 68,
+              "sells": 47
+            }
+          },
+          "dex": "raydium",
+          "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "observed_ms": 1793462200269
         }
       ],
       "seen_trades": {
@@ -22155,12 +22192,12 @@
           "market_cap": 361662.0,
           "volume": {
             "h24": 11753.86,
-            "h6": 10061.44,
+            "h6": 10031.38,
             "h1": 0,
             "m5": 0
           },
           "price_change": {
-            "h6": -0.7,
+            "h6": -0.77,
             "h24": -1.64
           },
           "txns": {
@@ -22173,7 +22210,7 @@
               "sells": 0
             },
             "h6": {
-              "buys": 48,
+              "buys": 46,
               "sells": 28
             },
             "h24": {
@@ -22192,12 +22229,12 @@
         "market_cap": 361662.0,
         "volume": {
           "h24": 11753.86,
-          "h6": 10061.44,
+          "h6": 10031.38,
           "h1": 0,
           "m5": 0
         },
         "price_change": {
-          "h6": -0.7,
+          "h6": -0.77,
           "h24": -1.64
         },
         "txns": {
@@ -22210,7 +22247,7 @@
             "sells": 0
           },
           "h6": {
-            "buys": 48,
+            "buys": 46,
             "sells": 28
           },
           "h24": {
@@ -22220,7 +22257,7 @@
         },
         "dex": "raydium",
         "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-        "observed_ms": 1793461900315
+        "observed_ms": 1793462200269
       },
       "trade_baseline_ms": 1793305159924,
       "buyer_first_seen": {
@@ -22305,7 +22342,7 @@
         "2NdPiUv4XXczFEqA5XQ3BAJ1TfZ2fskKfRoTTFvZZgmN": 1793449557774
       },
       "flow15_sample": {
-        "observed_ms": 1793461901175,
+        "observed_ms": 1793462200620,
         "buy_usd": 0,
         "sell_usd": 0,
         "net_usd": 0,
@@ -22324,7 +22361,7 @@
         ],
         "new_trades": 0
       },
-      "last_trade_check_ms": 1793461901175,
+      "last_trade_check_ms": 1793462200620,
       "security_snapshot": {
         "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
         "token": {
@@ -23072,8 +23109,8 @@
           }
         },
         "missing": [],
-        "observed_ms": 1793461913768,
-        "slot": 463745557,
+        "observed_ms": 1793462213741,
+        "slot": 463746958,
         "complete_owner_balances": false,
         "coverage": "known token-account cohort; not a live global top20 ranking"
       },
@@ -42534,6 +42571,43 @@
           "dex": "raydium",
           "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
           "observed_ms": 1793461901175
+        },
+        {
+          "pool": "6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5",
+          "price": 0.000197,
+          "liquidity": 92939.05,
+          "market_cap": 197002.0,
+          "volume": {
+            "h24": 2398.9,
+            "h6": 876.73,
+            "h1": 0,
+            "m5": 0
+          },
+          "price_change": {
+            "h6": -0.18,
+            "h24": -0.42
+          },
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h6": {
+              "buys": 8,
+              "sells": 19
+            },
+            "h24": {
+              "buys": 13,
+              "sells": 28
+            }
+          },
+          "dex": "raydium",
+          "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "observed_ms": 1793462200620
         }
       ],
       "seen_trades": {
@@ -43481,14 +43555,14 @@
           "liquidity": 92939.05,
           "market_cap": 197002.0,
           "volume": {
-            "h24": 2399.19,
+            "h24": 2398.9,
             "h6": 876.73,
             "h1": 0,
             "m5": 0
           },
           "price_change": {
             "h6": -0.18,
-            "h24": -0.43
+            "h24": -0.42
           },
           "txns": {
             "m5": {
@@ -43505,7 +43579,7 @@
             },
             "h24": {
               "buys": 13,
-              "sells": 29
+              "sells": 28
             }
           },
           "dex": "raydium",
@@ -43518,14 +43592,14 @@
         "liquidity": 92939.05,
         "market_cap": 197002.0,
         "volume": {
-          "h24": 2399.19,
+          "h24": 2398.9,
           "h6": 876.73,
           "h1": 0,
           "m5": 0
         },
         "price_change": {
           "h6": -0.18,
-          "h24": -0.43
+          "h24": -0.42
         },
         "txns": {
           "m5": {
@@ -43542,12 +43616,12 @@
           },
           "h24": {
             "buys": 13,
-            "sells": 29
+            "sells": 28
           }
         },
         "dex": "raydium",
         "quote_mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-        "observed_ms": 1793461901175
+        "observed_ms": 1793462200620
       },
       "trade_baseline_ms": 1793305172877,
       "buyer_first_seen": {
@@ -43574,7 +43648,7 @@
         "JC6RNWAYcgQWmw2eWz7kEVCRHWm17chmWhhqirQ25WaB": 1793449270883
       },
       "flow15_sample": {
-        "observed_ms": 1793461913632,
+        "observed_ms": 1793462213611,
         "buy_usd": 0,
         "sell_usd": 0,
         "net_usd": 0,
@@ -43584,8 +43658,8 @@
         "coverage": [
           {
             "pool": "6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5",
-            "returned": 44,
-            "oldest_ms": 1793375762000,
+            "returned": 43,
+            "oldest_ms": 1793378696000,
             "invalid": 0,
             "possibly_truncated": false,
             "full_chain_coverage": false
@@ -43593,7 +43667,7 @@
         ],
         "new_trades": 0
       },
-      "last_trade_check_ms": 1793461913632,
+      "last_trade_check_ms": 1793462213611,
       "security_snapshot": {
         "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
         "token": {
@@ -44199,8 +44273,8 @@
           }
         },
         "missing": [],
-        "observed_ms": 1793461913768,
-        "slot": 463745557,
+        "observed_ms": 1793462213741,
+        "slot": 463746958,
         "complete_owner_balances": false,
         "coverage": "known token-account cohort; not a live global top20 ranking"
       },
@@ -44223,7 +44297,7 @@
       "pending_head": null,
       "seen_signatures": [],
       "baseline_ms": 1793305173395,
-      "last_checked_ms": 1793461925033,
+      "last_checked_ms": 1793462225505,
       "baseline_ready": true
     },
     "2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS": {
@@ -44236,7 +44310,7 @@
       "pending_head": null,
       "seen_signatures": [],
       "baseline_ms": 1793305173470,
-      "last_checked_ms": 1793461926945,
+      "last_checked_ms": 1793462227605,
       "baseline_ready": true
     },
     "APofi4CtfeYD3gPxDRxGBvDDcSpdCoELobkDeiJvodMq": {
@@ -44256,7 +44330,7 @@
         "4fAmE8qfMPPkTPr4UuLfpBRwewSRJTMLE8w98oqE1BRpNFm8EqGSBJotNTYb2m8tJ358ZVc6MQ2JEdWyo9WUKZyv"
       ],
       "baseline_ms": 1793356978326,
-      "last_checked_ms": 1793461917029,
+      "last_checked_ms": 1793462217286,
       "baseline_ready": true
     },
     "8PswEHRycsUmiQE9kxdWgKBq8WrkPLD885bmp16SP7nA": {
@@ -44324,7 +44398,7 @@
         "vMnvFht3EoFTS2gf9Us9Pea3jbzpchh1iR67ZkMHJeNZKyVnSeRqMBG1HTfpijPf4hoENwaP8SE5DJA7XiBW74u"
       ],
       "baseline_ms": 1793356980666,
-      "last_checked_ms": 1793461918748,
+      "last_checked_ms": 1793462219146,
       "baseline_ready": true
     },
     "GLqWPXuhD37zwPwu9zAit5bEnGdLvYSucRqmGBUsSyvS": {
@@ -44343,7 +44417,7 @@
         "5PCSjbCcqsRfyPgbpR6robrApRqA6FFf5cTxDaXCwVvLwiCSqHmuG13SvjTSWTHmN29wU3qb9CaLcVq7pUR88dYj"
       ],
       "baseline_ms": 1793356982650,
-      "last_checked_ms": 1793461920917,
+      "last_checked_ms": 1793462221226,
       "baseline_ready": true
     },
     "AWDRoaiDWfSJtD78dphC4QNDm4BRHpHwRtn9Mynh46WB": {
@@ -44363,7 +44437,7 @@
         "5yhT8FfvRaRTbujU1MfHdXyvBP62aFejzCQ4TNPHrjcVZUiKb4YMCFCdMjPesXA5PA9ajjeEWMHLGMg88Evj1yov"
       ],
       "baseline_ms": 1793356984699,
-      "last_checked_ms": 1793461923033,
+      "last_checked_ms": 1793462223282,
       "baseline_ready": true
     },
     "8px2g2FA3hTutpMZ7oozppTW6amSim6ygLGuuLru3VE2": {
@@ -44438,7 +44512,7 @@
       "dynamic": true,
       "identity_verified": false,
       "source": "sampled swap",
-      "cursor": "32ActqUyHXLLukgxuYD9AQzCPu7G5oGUYaW6ZmtcoJARcTXCWGeGQvbHrWfav3GxUyJ6z7WkBZjRgPCFSFjqGYYD",
+      "cursor": "4NLKbcA7Nbv6S7mY9bBk6R6bbYS4khUEdfkCfhQ1N5AnFJuLK3B2okqhCuguftiDxKXHK6ZhRFgYGCJfH6HZe111",
       "before": null,
       "pending_head": null,
       "seen_signatures": [
@@ -44576,7 +44650,9 @@
         "3YL2weCZXnH7NMveJZwVGa3chSbVdRmA12suvKyVWJg1BufjqXSf4wkRhrvzwA1zZcumhnFtyDci5qJr88S2ZS3c",
         "3Yo2qxa4XVHNzPahQ8KfMAvwYjsKBHXNoTdupzU6fXbCmWBvjboM6z8oJmgZzbfSXBGhHMgVLn1Vv9wXJBQzMHMx",
         "3bJXuJzWLajRXfkkp5nSEHaCFeXNALGfsw1pEK6FafsWbD8isJQM45m9W3YMWLdyY6YYAZf5smqvTqy6JD8SP6RA",
+        "3cmxdwtxjM8wyFJrHHEBU2KTGCA2a1vkNcqPuEDaqQBeRXSp1ex7rUrZHxKXFsHurHQmzsRsi2EXAS9FB7PKekbe",
         "3dfLunukQ5YAQgzvXsQbXmatcCFD1CAaS6GPtfVrQyW7s8T6Ldw4bwNpzBUr3VyzkL6rXqvsLL9pa1xPyYrgJiSV",
+        "3e27TqyfKWDvagZcFMt5HxPzMUNDgo4Byy4RSW4gjqUivgvxTan2Ekw4hA3iey3Vg7ESeX2EAapzovG6QwNB9cEk",
         "3e9M8Um5nkMJzJ7NPaBwRyfbZL6YXEvBiZGjNj39p7G91ADy141wo5Bf1bEdPQwr3xyeJprDj4FRjeHrBdLnwjNx",
         "3gCbNXi755uRSULZTZazSP9ZzfwsHgvy2XiqSdi5VM4XniMF8gfiN5Z4Gy91jEDbaqNc9tPdXhNmT2xfxvGmvRx5",
         "3gmZBfDxEfUmZz4ec9vs3JCProDyQo1NUR2fPY3sDmWSqYKQkAgdVDGBWJXF8mj6WtT9ZCGVqGsyJH9wYssCxYYY",
@@ -44593,6 +44669,7 @@
         "3pRNAoVhTJtYM8pX33y1cxyYJZEGqbpRJ1AeLdxzXWFsaRiSJPiWz7iM1bgrJ6wLfmbamgkQW2CmmuHpcajrdki9",
         "3qz9s7EV2DUfVTuzGim1gS8yggetgWShk8QVArnFjn4z67c1vPX2sSyFkyb22K5GfZthy1khiWmjv6gkQhMYAfZM",
         "3r6HwXzhrpTq3J4MhvtDZ4uvvKfP9PUg6rVfUVh1QtWDqv4kPCdhh68p3ME7ZtSBC4bFwdRnDfvHRMNRZZrwib96",
+        "3r8FanqHjK1bcoX9p5pJ6euejrPJZGBZrdqfdeyHjh8g6j4fZ5KJA5myTFGisTKZoMHpQigrrMfbgSxmZCxTBXRD",
         "3rt7ahR3hQdURNb6aLDLMBS5gCschK9ovNFtJDpDzTsh1RSALWqHsQdueDNUhHnQ97yfo9z43LgH5t45wKp6bnKc",
         "3spy19A2i6iZEz4aMkvDmZ4GJJ99A5a5s75ThU4TTBf1q9WwgBP4Xz2AAbpv5DiZEMcv9gdX28catuDCBKAiV3ta",
         "3teVDegsJTTNyT5K1BwnoSZuXddihqUvAuFtzUo1zZvABqe2qQddVSimRW1yxh6MM8k5B4ZhspGdUZrtDMYrY9H3",
@@ -44611,6 +44688,7 @@
         "442vLWsbBcp4uB2MK2eZYDmyPL8o75MwR6NSNfe7uQaSGYuFcsQ63TebxDzGBHmCa5YwABrdGBrgdpuYxvbNAecn",
         "44J4qUnhBXfb6eg6YU6gy8wXbZoKZrU3hwPKEKoG8kt3CJWWEiP9Vwc52qWkLJ7LNSooZgTs64rGTZUqi2UBtimK",
         "45BQMvqVsQFhvQuxVWpqgf5W5HEdswzv51FaeSb2GrQHvZaZE1BKGFTsDa4GNXMNVDTWfZ71Mocs9i4nkXbBXfvT",
+        "45HYdb96b7k41ARfgNyGJHguMxkxMStQuwzPYKhZxJPwnZxvvpNQqyWVnxWkYmb2qgJRgGd1R9ut1Fyjdw4ohrxi",
         "45R6NXy4uHREUH5x7EdxC2RPJpknzQGLVSrwqvSVyTxMhFRZVf3PDnNZ2JzpxoRusKPa9dQYGNGRoqo2PdEoFZV5",
         "482paNToB7tQG2kFR4b1YeijrJdsrz7R2nFvPAstBAwYxA3n9hr7LMBVwvZnFeg3VkHjokkNvJX6ERGxmGNLDnyF",
         "48xskuiLbjnG1tCkQXmgUqu2QfbeKdEb84zn5nB8oRrv6Zw7zLpoGpavNuHZfKUAqe1RsxyM91QadvgXgUxfni25",
@@ -44625,10 +44703,12 @@
         "4HLyTwxnpT7R8j1KN1cdZT7r2TJBeUNReVzA5gJCr1LoLsx8Wobx3RG7wPa1T4VrbYp56vwUnvDR13vCnubXy2su",
         "4HebbrtYg3i5evRoKaQ1yXog6wye7AE15XTen5yE2ESPaZbLEtCjDUwY2uotA9JjDciyrmW5JF97zR4jr81eDrSD",
         "4L2SzbUGVCid3ZRrMQfsveNGNbMHRqVrN1n7jQhs1TTkJPEdNoVweWBP6PwGbZFUXsgK3cdUN8mQ55k4ZkrXmjJm",
+        "4L8oNc8E2yjMU8uDaVZPJ7Wiegi839AHGunz3f7bA1GCfkev2CHFTGFmA4n4bXERMcMk28m8SdMMtaDPfc1SA2hM",
         "4LEjNWE72oMWww1bULDnzB1F9ZGbvuX4srZauYPCi68iibbevX4V4y76JYkk8nm95VrGHZcFDef2qid4TsZZQadk",
         "4LYvKavhd884w1vE2tYQkRXZ6sQr9C7bFaBjP7P4KdGTS6zLfX1Vqtr9oFTHdrUFdEjfqLBfBmFyVsCJDRmDvtBG",
         "4MP2uEHN6EKYF979i7EwFDaxTCgDsx84WRJYnZ2g3CVqkVQ6CV1R1YrBGJanFLDKVGDaXzTgNnzaiUksm3JYu7v2",
         "4MciVJtmDxRnY8JYKbVSFkGYuWFgfapH8rHqHtMaDxghDr3uCRraDHrtst7Dr8HncxnTM2TRSQQAiPY2MzkHKzhC",
+        "4NLKbcA7Nbv6S7mY9bBk6R6bbYS4khUEdfkCfhQ1N5AnFJuLK3B2okqhCuguftiDxKXHK6ZhRFgYGCJfH6HZe111",
         "4No6hetYhAjSVxy391bkRJpeWBz38ErxaHfmMgHVJqAigU2qA5okGFdSJxm19FvXMgW4rwR57J2CVFdtcHqYUaHP",
         "4PQypFhiqhYzidQfmgWmHZ9jm9XfL3K5EaDwP7cjT6H1f7DZqgctfSnB9EKTQUVNjtWxW4a28YmDESHDfMknrbgC",
         "4PoiHXnwzwowmFirKSGtcoG1kcxRJmVoL3jHv3AGM3wXQishTp3dMTk1SFNy2kTioYS2wjx7oMi9B5V32K2w2SBK",
@@ -44648,6 +44728,7 @@
         "4b1DjTjgHJQPzjkVaskgydWmHrmXrzf1rBqdGUyL5nx8QPDCwovvaruT1pw19DZEExxQ4qUyzi5dh4nc91e6zNk6",
         "4b5UyP61vTB89BZLWWvJKhx6iYft3vxtbb2JtvSanAQkynsFG44Pda3ZCdLkZe3uwGjQPJ64Tux3mwDGk7FrfsZ8",
         "4brpMck1vcLS1JckLjfjMCjugs7BhLHV4idpttX7v1SkyZpgLgbjKUzeFqKRPKaZunGPvrSYPYc5EyxXuZdutvSs",
+        "4c19GR6RLq5tSsBFwrTtyUBWf4FoGXxyXh5d7pqhzuc1V1r5N5QF9NDcSntxQ2EZ1gm8EnDFRZvDSEGNuav8Cgv7",
         "4cY69yQCptzxpwKnutZSvYsT4wLR76APciGWdzwSdKFG5SaKLyULQRpJFN94tc1VwSAba6evjoGhQQeEJZAvZdVt",
         "4dG2j4s47mSxHXcu1AUSMwvrPc9ERb4Ues8nw8PCyidvgk8d9TdQRr33fr61q9BHHUoANHR2Zd8MGBXtWLiRQkJh",
         "4eB1wo3gaQyWLjA2AonhU58yUy8VCMmjnXQZAJVkZeYZGLH4F69pGNCpSjsndiJvxyMhxaJGviUiAjEYqPt9HAQg",
@@ -44656,6 +44737,7 @@
         "4eg3TriWoNJnzAhaevaFvKDrV93Q9Hzqcx6mFckQ3TZnhmvJwf43cHRxiTmKFP5XDCCjbG9kWdf2C4kY9hq8Aq2x",
         "4eyNYC1pbzCJ9CLwwhnKiJT4r2JJxF6GrzKiKLgVXJUQdcccxFzTNvHJkhRVHrkkY1JAatRTXfGnjcoCGYWhQTqF",
         "4fDcEoQ5Dy49Pfqeg7dLD4YrLK6KjaVhoyDWPFh2hRzGshLkg8LKt5EAF7CUNC1vFR7wJaPACCfpsHUkZnbHdZ78",
+        "4fj2eo7ddURM8bPuf3vsJ6X2xowSzsVALaFmvVtRLyzVQ3LWLiPrkPUGwNbhdnbeGFaamqSZMaqS9m1F4GZKGngk",
         "4fn6ztBQnj3uLBENCoA729J573S7QJxtndZz5VQ9JCq1aVVbaYrqdb5eFHUqZfu3wpxiupcTCasQAy1g2Pb9u76p",
         "4gHZmS2eb6tFXsdQNhnQtwDQWAoyW81Radz4BscpE38pAbW4VLxbskJvV9711P8WsxsHUZBrbRCQznwRBmFAu6Nc",
         "4gfYqPz6Q4t2VRvssqedvijb54W7Lc4vRfupM5QiZFGFYfz6GpjuauYqR4ZB2nMnMCbjQoaiShmF1iAgAqRzdYzR",
@@ -44677,6 +44759,7 @@
         "4sahMpLzyJecx8sd4iKE3SScaVcHaG7fAEVCDrwsrnPYjwNHj1mkSbCuXoDfqZnUUscVWe9VBJfEthUaANkA8dCk",
         "4szbWj2gNwUjbwF1z94wUXk277rtUXXK7qnqDg8NcPg1k5hXJRd8ji3UsJJCt4YSnJUVz37Lsh9mDDBbva3PZmsX",
         "4tVbZpAEJC4BAUiLqJE1KKWtsdukXSVykvarrsBLeB8hepo58b26fGbWAFeUdYpa9GBHxeDvLJFkjA8kyuzbtJXZ",
+        "4tZht8gBTfYvgHZUoczwVkzUkVyXD6bA1w46T3dhEmHkdgdLD3jxoEj9yG41Ta6Ukui6JPUoxUfXmbnrt2bpjnYu",
         "4uYe95CqzKiWBjo8QGVgiNfYuW5Vcc8irg5jpjPDZGmkjfB4MQjnpUGjQkocF74beKoCSQH6oRY3qyubANPSpZr9",
         "4upe825zSJKCxzi7puQvDHKENDrFPQx13fuZMeVVbHF2y6ezuviKeb6ZPa2drxS3yPuBzfCmJuhWnmFCXmWpfe9C",
         "4v7jZ5nrwSDDr3YUpxJp2fvzFHqLx5B6a4K6ybVPid73JsccTLUps48uLPVzzb7hJ8xGhjgHiA9EPBsQ8pXf3pb2",
@@ -44687,6 +44770,7 @@
         "4xePv4FGKj8rPMyvtryABNmKJNx92GNTFVghYo5hZy5nPwhq1f1VFBocWAwgbsAHWwuK1cdvuZA6iLBAoFKzVYmC",
         "4znky3Rn7ZusGgeYCxXpxkD39hyjE7wcogfWfdUuzCW7UDHfmnjK2tifv7kQyWv4imNYJ8ippWg5Y6gekJPHxpds",
         "4zxDmNRiXmkLUmZGj2V1fPryTzNigu1FWZDhqeTEGCXmaCkWpeSTpjmJDrwsazpfScUEi7Jq5YUEhUuCTAib32Rc",
+        "51YTDfmVVSNbMSr87dvTebyxs8Dd5A55Mu3VAU7Aqn2dpLwriaeaQMjgquKyGjZ4f6UqCWaeTFWSSiwpVHnxh3kz",
         "51hux1QsFGM7BVFRE3nvVjUHm2FKv7GqvyiVUy8h4JA4Pww7j93U5Db1RcRexMUYVPN6dmwB7fb559js6fGY5NhT",
         "51msFVjJpMLtB6aEbAcS997AcsbA27un2bT4JFC8hT8yk8mUXL9F9a7Z8BY5YvgjeJX7ZCDQRY4YSY4FbnzajLXD",
         "51xrqcfL5iqutrwG7JAcqcgP3P2tNg5aVA1ZjYVHRYe1GNDzKWBvENHrXiKMgsspVfuZDfZCH2bmhUZL89YLrx7u",
@@ -44700,6 +44784,7 @@
         "56G5pvYY9bKZhpityDo85itQtoFMA3mQPdEAo6sg5H3F2HzPfMpupCuHjBAJiD2BS51RwN19M4aXFWwS9V5GLomr",
         "57pJhKw1tMa6s1xZ1qq1kgbbL9rSG4rESb14BrPy68BkKS3SD6PwGtHRt8xfrMqZUYwtTzVeRPG1eUrKPkqbRyoM",
         "5Bnx8FjQUdpVgT2VLKp7gV45vM7GRFtDSAMwEpt3U3SrK58MbnWaZTsmFXzUWncsRS8X8iW4Hgcci5BSXTEEePMh",
+        "5C4YNuax58fyJLan7SjynsNZyWw9eL1PzPtS4ym4jz9K8rb8HD3Egbgh4Xv4AWJz3HiFfve89in9NvGPcdHbN3NS",
         "5EYT4jFV6fsVDTDfAVWhqvY8kz2jCrnTLXHKGM1hR33iBSG5RCpxAYpFGCMxSjQcHocD8y83kKsXGNaoyEjGXQ8K",
         "5EpthPPvjk9FyhghAopF9XMTSqEDcMunoZnnSf55cZWRbKSEgDz9raxpzSFiQ5fy2MW42D8VKS1P1YUCo6RWwkis",
         "5F2iWPGLkMwVJuxDyWwJmkF4F4wKV3cFR1A6DziKm7De12NVn3H5nShLuewFSr2qmC6o7mUpssrd5H8HoxUF5qct",
@@ -44712,6 +44797,7 @@
         "5K6ioarvQiSLLir5p4y95eMKTFNHz1xskACnzy6nbbas9azomkyQCNJQqkjgV81gfEvv2huJfErxEL4QkEQq5CyA",
         "5KGGqhwR1yZRiN4EF6SDipLUybcCjcjmdRhmt9ToAsXsFx9Lb8pn7397i8KcSHgzAY9Bvjg2qb5SxTYJ8qjm4xde",
         "5KYESiJY1gC4bm6rE72RJKJJGt1wPQtpkViDjns4cvVC56NRwx5amTs42wKfSb1jgvS2JhpHJ3qVyFNAicmr5tnz",
+        "5LGKs35re7hxM69M1pwnnDJz93vRSkWPfSayCcb8ocgupf8FKBcAh4WE85UTSrpA6ccTe5mWfcAhFQ1JS19pEFxW",
         "5LTiwPjWunu4LsT8nVxu758zmBcgWbyR4j7QyeV1Q45nvX7GrPhUCTn5gms1E5GJBCWvsuTpqQ9LJqXGgwezavfW",
         "5N9SaqTP3BfCYzPVNWRoyohZzsy8RV6bgTqPvtENm6EBKC2H4TcXgmnbLpCxdbxPCRoBNUrynerCJdC7sAGWupSs",
         "5NWpnkrLnqY3puHWi6g8PiaYL53Niatvy2rGmY1y6dFgKhcRTVWnh9Fjdc1fAh6X6CkSU8qB8nMAJuxpEpQUaMyL",
@@ -44729,6 +44815,7 @@
         "5VGQ7wAKhQ6ihEWm8s7rNz2AaYw7cqMr9Lv8W12xxnW8S7LkdJfDx39D97tNxKsFqiksp42VDDj7NTxJZiD1Hjyk",
         "5WzEwfNjYpGKQzKsVYSQcw5KYB5Bv1XbpQKpkLBwE7QKKcnczoNV46UP2qPJhCzD6Pf3WLjLAbB45D2cwfA7gUv",
         "5XUZQhVeQzaCoi38fztorNe8k9HCTvnXYfYkLMUa7vBMACtFXJDW5w6QYRGnCRBYvMzrvBnCi6UqwDswKYqCRoFq",
+        "5XXtnxLmz6kPWJw68ojdPsX6v8hWNtLeaES4h8i8Jp92GXotTK6fakrgShYJytSxmVBAkghFHUyR78zYxMYf3E3k",
         "5Xu2bdSkRMeCrfscVejeZWsDtVDQZwKckWSGGgLTUDythwNreWvfA9R7QzhUsrVKK9semvJty6EJhqvSkFETciY8",
         "5YKaMZ3C3CkmJcBTWimfoNKgk5mt2dSg9QVpp3Cqb5eNnLTFXw5WuruxCJ3Kky31AFgsFpMeDyeeTpcmnYc7rfxL",
         "5Z2Kt6mArx3nsfvAXyZ5Rz5KekE9EFzWuxYVXySmFqDkLpbsNv4sNYTfXbVUR4FGpQ2UCxcnE71J1GDbofK8ZqYB",
@@ -44761,6 +44848,7 @@
         "5pgGnNoYhibPMigetp5td5Rzt8GdGZ3dvBCJmgH5u4efgHSbUpECXhN6Cu12Y8YbaRkALw35BqBPDdaozTEUDnqW",
         "5q5c25SMH1nCDvcDN3Zkh1RFRt97P6jzwQv9hGeJdJdp91fnuEksEL9VKoXB9bkqppfhs62XwkQzHSYrgJR7GMSJ",
         "5qD18Td83gDiBSRk2QVYAUbVcQyz7ebwE2nHUWKnsuPR5MuXWcX52Lix4T2NxYYdpgskX8ScWrU5GAZoLWn6eg3c",
+        "5qGjFzUDZRA3Jp6KoBmww4ZanomVk8JDMys9ktN7BE1QFhuHPVNva343VgmMrMt5YNGoND31baheV2UNfc8m1fyg",
         "5r6u2Fetgdyksoo4r8TMiob2FPiDocx2cjBqMshd9kYBL8JVUK8Vg1KjxGTLnq4Dxpe331fpTAfZ52uozzhuHnAr",
         "5rzUbPE54Y1C166sVMCabhWLcWUxEvX4RAkjKBCwGJRNm1ctLmWsFVHitbURrfGNMqW2NsxuHijMLjHcMLbqDkTt",
         "5sGJk9psaPQJ8vuZQALhEvZrhPDpB6oy1bm5KHueezMNpd6ZevBwXCkDnmNGaXAKw8QuWL7ssQETXdErQ2WNYHWn",
@@ -44768,6 +44856,7 @@
         "5swuuXpkVDmNyo2yUvvxjFqdwn2cWpAiKrQNimJQJUXud2EL7tpsJFRVY2wDPBekmkKvM97CbjG5bki5xqvLQ3ZR",
         "5tQqHAtZWGQ6jL1t87b6wjiyNereJAMuEiScqBxjcRgg3cUQBqWnX2HP4XSXdhDscefJHWYQtAeg3G1HsFaii8Xe",
         "5tic6YWXRoBjEefrEQz8avYGQFYCa9BhyN3dAn47FA4Zf6DfQSDLfspkmGnW96Ch1ZuSfT7j1fCSvV6yi6jie4As",
+        "5uoRqDby9THkeszsf1rfuCNMb5nu7R7EEtEoKWnohNzdrrWmrsUXyC17hb2d3XxyXzTGADxWCYbrJwjy6pUYUeMA",
         "5uuH2K6sUzrs4M5CBbvb4KPiAYqF3nJfX8s1HcSNg1h7TdWrax8MPnFheRYkbmBLwxgthweKnLD82MECGG22Liv",
         "5uv1TX4eNFFfPxQ2qWJHCXVGY1kxqjmRPerk4bcosrNqrBBu3aar9hRNyfxoaQvnM6rPWznsgx2dUychqnDrBZhV",
         "5wkfJBrzgyLjsYP6b1hafjJ9EMUdVeemVHEmCJZJKzy2JJEb8HKgbrhNfX2eXWN5FuEQR9phfevud6rLaK4uJVKw",
@@ -44785,6 +44874,7 @@
         "62YTFevbaNjXuUwLvTJNkzurUJVoAaWzn6YTNos9qvtDKq7b6M1k3MnWrPHoJF7Hv7a4ZJvqxTRQwCHSSXUoCwqP",
         "63HgPhen5vf5nshJJAk34aFGwWxSZ7oF3cjxQv93khUsxEqCkGqFXg5Df2QeBMFCE92siTr84MFsvsDfz2gRf9V7",
         "66H1emTfVGaQWHRPVc1afcm9pe3TDZK2aF2bHjJ4SUjYUx7hs6tUqsZ9tq3st4UwyxEVvzrLNDAkVUUTk1yMmhpX",
+        "67jqtWXQUSyyaHrw4e9qheVxdGnUVPnhBtmN8zKAPvUZwyPEpYq31XSXGmUZuKLJnuroTVNkE4YfcSjx82Hjfu2q",
         "67m8E6VP8rvM9uvu9b4VnpwYm5KbMpdEJLSi8DqkbPTFRi6UrKPnNUUTysqVvGoC2JSvJxnT1sSjks7PQAJqDFbX",
         "6XtnePLNnG3gs7AatgN3ZqRL8y8ostFWZi1mwCEDsodhuhsPQ2ySgAgQAHU8Hwiziv9LCznQnP5vo86P7Hn6m4D",
         "6h887xvXTUfCVNxFg8Qih2VXuD7vEwju5RCmKk4FYfnKFkJgPEjLnGK8ttoxxePs39Mgu64VZXmohnUrWK68xq2",
@@ -44863,7 +44953,7 @@
         "zWWHEaAkSqaR8swLzyABiiJZMfLbjHUSC7DTycD8ryU5Larzasg8kosbJGPZ2zdpzfvoejTk9bxjyHgcH8rEkcJ"
       ],
       "baseline_ms": 1793442674279,
-      "last_checked_ms": 1793461365814,
+      "last_checked_ms": 1793462227713,
       "baseline_ready": true
     },
     "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS": {
@@ -44872,7 +44962,7 @@
       "dynamic": true,
       "identity_verified": false,
       "source": "sampled swap",
-      "cursor": "4YNUQFWVQ9FbrKqVQTVKxwnq8L9NQD9hmfewMtrehMk5vPKA5ckpunggztJXesYvkd6YuiF79BWdaut5zzLfaoG7",
+      "cursor": "Vf2JPPqnZvWXLTNYxPzdNnEdXTqiUUHgRMvUrSRLqv5U3ZJmiUwPzvMetmjmwtGLHdQKLTDNPAqqBNsmYQRUjnT",
       "before": null,
       "pending_head": null,
       "seen_signatures": [
@@ -44998,6 +45088,7 @@
         "3Q2BBNRX6bG6Fwy324hqQfZt8UUMQpKQQjo5rHFjvj3rLgjLZkmBS9aSDCgnZgWnb2Tjzqn1Vke3MPVZLsEZcsLK",
         "3Qcz9AwZzAXedXM2uk135r6uyMvHwrnxR8m4QoJAp8CKpcMiGc2BYKrHRmbxnGXnyW9HhKkkrCEszF9Evefw8R41",
         "3TCHpT3uAzWKwe2iRujYaPvHbQt63DcE4q8CQXa3QMogPHumcCA4J15up57y284PZ1D2NXDgYGB4b55iXVCv6YWg",
+        "3Tj2SzWdFdR8HQVs7yZr8sbJLXDTbvTmQ9AJcANyiy34z688AZCpqUf3fChps78PU6TCkwBarmBca54tXds6bSCj",
         "3URDyECUzxhpeddujitZDUQDD6c68Petz42bh18H5SkaTt4kNu7aHtxs6VxjBCbyhkgpNnhZGQhVn2GKLkuwTqKC",
         "3UqCRdd97L4YPDydwipyTpt4L3qMB5cFH1MXtfWTih8t6g4ds2MgzUf89v4GYVuEZjgWNegyWuvnUT34PrPQMVVn",
         "3UxJqZmdoCzxgwuxy3Dba8dhk6a9kHhz8RbnsULpD3S8Yk2dGDVErvnd8M4JuPoDC1iRMXvjkbXLEmaqFrDZ73zh",
@@ -45026,6 +45117,7 @@
         "3oage8qxX8a1Rt8FUWCaYThsZXVcU6qF1qQ9sN1ajXL81pQGmjAD2nCbhqFQUwM6SrKEAHAQAv2vXwdNkhd1mpj2",
         "3qH2MPGuKMpq5Gz8JbBCBDiUFHihHHTBGYUVE45VdeYSzcGoReCuoT4yQF3tVqPHFaWB2BM1xGthSkVqVqn1uone",
         "3s3z86HjVodawZGyBD1zkHhMJj5qTQrimrzVAW3aeuHp6pPDR9uYaFjsRuPwZE6YFNfimcnvkg65WJYQSGiUYacD",
+        "3s85jBTEjftVzgRJF4CEYqngHhfUKMz7gJqLhWq4rRw7xmMi7nrjj1nBsknffqkf7dKezTweMdN1m23nKkqb1XqG",
         "3sNmFUCSZM2z4ASqZXniWPufo2U5vrArmyyiBbDKD94FMcAr15Hx6zPbrve2BqMhKGNpz9ZrDxeDX5m9dh8HQfWZ",
         "3sWRdMdRhKEe6V7FQypWaWFjqtgWMUYRP4tCaAJnj3ZkiedQd2hrcYBMPZxuYmHQof4qJmxZPWdWqys2ca8jQniN",
         "3tHGaV6YamVXDMcJqMWQJDFvc85U7XJF23UztHu5nCMR4nDuXgHGusSN1cv5MvL2tXLrGXvWt3HAFUMrW9rpE3Rr",
@@ -45119,11 +45211,13 @@
         "4sWUMMC93NkWMihoVAXWjZGNDGeQBSrWTgeBrPorxopgYswDw4q6p5pr1N3DqsMw2mqtfqqZ1spHM7dsW7YRb61g",
         "4uUD1yyYdT8MRhSwEA3K1CfYk32pHqdiJYirPKFZ5DVgb3zKTqfiZHzjZJhNu6qB9CN2b3qPAZmssJAb2yUr5nxt",
         "4uqyVnBVkxpDLd8sjBrm9dacikCdL9tjdTDucmuTwhRZrbsRCjeU76eGEpxXUi4oMsX3a3KjWUvUZjBKLSUbGYGs",
+        "4uyTqAJXA1wjUNkawfbPL9PobUu4HVFYJ2C5itm6VrkPhVq6h33RmiCzK9dcdgGkKPfFyLxk2v8BoF1wY8YziZ57",
         "4v1wFGuJA1pXC6y38Z7rpP7RfemjkGyyXAsV3gSgMPnzcGwQKp3EpLEvJUKpC4mx55GBqHVigG1thvnUNUTFzFyR",
         "4vKj8dS26UEtpvwvY3LfjPWv1aNutUADYWVteh63XqAUoBYWiNJfcmfPjoMnD5tTxT324NTJprzAy1wkX1yHxKc2",
         "4vNcnY6fCqaYA9Ua4LYp3LzvMTVxs72TM8hCTSu316Q9hkLEtLAKxfJKBPgPmNc8uQcogdx4MZmHQ5gAD94YUZ3K",
         "4vbrLTD6cFWE3Fmo3Hptrk3AUmUqipqEPsU1P1U7MYzu2JAdrp15BewMJaizMRVv3VTNJ44RVN54ZzXtYJnee2Do",
         "4wsF1arLdhc6rY3nCyGRGESVkTk7zCHiftSYRJM5BznFHYkoA1KS9YVpxXy6ptaHrnJosRNYkMvokVDRLuJ7zsW1",
+        "4xCqfYCrZv9GmLwzniVNLNbbeVoroA2LirUWUfrQ9e5VcF91sTJrPC2MsQPSyeLL2jje2c5pvng8YRLyyi7s3Lua",
         "4xSo83dwBj2TPhXPFgPbvk11zvw7UiW79KXPms7d3G7NhwgH5RZY3L45o2gpWsm1nt5B5NY7x6wTMJ5QqGz1fL1H",
         "4yWyXQrXnrBTohm87zYp7UjbWKSUKyoAwxZEb2pWEHrNvZGddMxi9sXgXoAqLqxzk5Ho3TuNmWUTzLGNGYQeJz2n",
         "4yifE6xSRagQkUFDZQqcVfnUph6dez5ZdLicgud68APu7Zrmj1rSZyCf3q18Xc3eBQCekuTwRYXoRCDTCvtfG1Cz",
@@ -45188,6 +45282,7 @@
         "5bUkAKck5cRWS2UqdwzHsKj2vTVFQ92UE2FeMEofxU7yNATYt96CHyXP6BR6DS24LKKe4KRgxGwhk2tJuBsi3rRD",
         "5bbxJxvpcSojSgePcCRiqxyfJ5Htz8XUsxQoEm54xKX47ay5JoKYgszgzJXg6Yd7k9A1S2yr8BCxsSnVJ2qtS1rR",
         "5boZ4uLKoa1Spc4qfJnN2qcGXY5Y2EtvJ3FaZZn8TbKqiKDK9dXt4cSAUawUkUVn6kgWTEtwFo5NioY56wKKch7o",
+        "5cEsoUUaTn89cYkTFyY3fawcPQjsTJFNnRdNT7nyhWBHTSoK5MHGEZnkqsu1qYQni31puPFsqZuNo5BXTXzuunF9",
         "5cHpk5KfHVNARLCvqv1t1s5dXrUHagiVpAVBMtMy98DXXwSmC1m6qnP4ErTBToYE2GnvQ69gqC2JQ5qhPvE2AWzq",
         "5cK6yzFup6N26ArvMsp2it2nbVfBxwjhq3JbaKbuc56ebxDUFDDnuNn1esK7jwfpTFaZYsWynSrWgZtF4C3VTwmh",
         "5doH8iXCXFN5qGEv848NuUTKmMDxX1qMmN9nE6nzceduFTvXbcRvdgkdnZx7GKhAWS93UiLaGPcvDVM6BxKbN9oJ",
@@ -45217,6 +45312,7 @@
         "5ruaXWeK7VwFw6nEx75HdVoMdbct2EYMvKYbTJMMxzkM1njC8v4BCycALakGxixdStCRdoY2e5zTy6dfFS3hmRff",
         "5suSGpu2aEPUxBkwhVo67x3fMaTTPdbCNcizxqtXpDqqDipmcySHTniRKDF5sNBDvJeqEgEy5qc6Ag9uYTThg5Gu",
         "5vLCdnyVz48w3hmUErLn7LC5gmJscx7g4tPowUd9uiyqveQuMCsZNNNEHV49B24nVCiLFpxknHCLdwJeKPxeLmxx",
+        "5wvTpwdoV2gygzUmPTtorKrpBRHxRUk2AzQKW4YkvXjXChd7C1j7iswF51JLPVPSg4byd3W4wy8r2FoSWbgfZgfm",
         "5xYPMuUdWDqjQeiapXLtztutpJXhbsAChaZ5dRAfaEZD7eoUm7XZzGrB6nQGFSfHrNAnv3jkiMWwZA2uujYEvc5y",
         "5y92NFWvYWJx5hd8eFEeDB1FK7p1mYKrUKKZZHc5D9MhDXEu4HY4cwqwyQbbNRPJD1sQdyyaFFYuGmd8HZCAgksb",
         "61SZfdvYDdjrScATfQMvvEMfxj4bvknyYn29FcK5kXqDfBFEVzL2o7LGRRKdYBtQ8eV5D7c1ZXaQB5WLNJdW3F3u",
@@ -45235,18 +45331,22 @@
         "7J8CAiqmBBhXpHW9fJf4wk8KnxCQf6zaspDu5XPcdVqVgDjyyEXMYBXLcXvp7B8FV6eNs9CNHgAa3wWaJjSwhsJ",
         "7ji4B7rLz3YDtZBKokFtk3MPrdfZ3fWi4VzyXMc24wVNvqMpr9nktrtwWJGmL2ph5wiphmsdfszyFwWJMGFMTLw",
         "8QRt4zRBM2zFUJqQRLYzKVb169NNckTsNS841TcRxmLbDP8zdTfxS1W5vRe1E1PCG44UMQZYaUpwrncF2CA7xH6",
+        "9yjNb98KAhZRug4c1EwmiLyL4EV13wUAH4TWa7r9u3XCsTyGcRDp2zkCcy63DiNoUtLqkrVeQDWNVGhTfXCJMWF",
         "AQ4jw6LfXoJLcCtqvDAc2yiaXqTHjNggYaBVNGK3HDgVrmZLifQuFLxzfLPbeGiKVaKKTTQMF8Q5kMZrKNutXVS",
         "AYGWAfs4cBTCB7grVuaqHD2quTZxfxamXh5GJcUJJourt7FbFaLv9jEQErMspBcJLFDNRw8KGe8v279SbRdEsay",
         "ApktMo3LtjZWpfNNAvE63E7M1NqxUpAnbG7SBRAvT9SGMcBS5xUtaN93LsPigt9MJF4ZMxZUzyvVv3Ra7RfGJNb",
+        "ArESq87bj8yWmJkLXNnS37a5GRs1VL6hnQn6kurM27B65W5mQe95iH5FWVkghVxgvp47HEKbryqVZniSwr7TeMv",
         "C1gnn6ir68CFCDi5x5Bww2HNBYBunty3YqTweP6Qov5oNrMneKKoMwLPHR3LzcrZQeasa4nwKBtgSZ7CW3PDNNH",
         "CFgYesPdEsatA3aj6eRecxgCpS3aUFTMwKzp8ZP7a2CXYabi1zW2Fa4GqsLmxrZwXzTu4JWmFwB3rShUrAxrVMQ",
         "DjwLVpYF3jWHq2znMpnvD2JvfRcuWkEFpxizL56uNFjv8coixFN8eypcvAEmpZsvRRVTau9jNPfQDNxDES5TLUM",
+        "EJudvs9bxUu5QRdTGhhHfEkzMFJnZ7ZeYeYkQVxx17RF32h1wMvtR8uoBVQYz2xSao2zU29Xi1oFjapxccvoEMA",
         "F7YPPUdtEhj4bDV5ptgfSnKCJYfGE6uC2BMgEXT7HE3B9951LAkYu9yKcTXmWb9BRxCGhfbBHS6WAkRcwYKXGMm",
         "F8kXXJ3Pd5Sw3uF9GTMt6KnSnnp4CNej7Q2T75kNaFszPNQDkeR53WHJsPJsUVAsWDmBdrWPkxptDiQ7zYSyN1d",
         "FLf6LXpkc5V3hWLScFiLHDDjNQqjNLvdqRpeVcTV9ZYg3FKV6Tkh6PCuRPNb1kUdkytrjvnUEXaX2vSufQQdyvw",
         "GUGAcqaEUENDciDuJKhKa7ZNZTVLkTfN6C8pNK62PD281gzxMQPtQmd61n4LaT2KiCWim1QLDHkqW8HLCXgdpLB",
         "GbcixA5TUm4G5KEK7w8uQwLjWqgPrpvGGhua24MoHg5TmsTdDH6LsksXxjydYR4xexdTkfsBHxg4wvzjTUj5VRG",
         "H3QdPgGkqn4pYE5JSGXTKahF5oXJDMPobbmKVBhZfB7rn3a3kSARm6iZYbRL91AGeCRPP8TGnCjJLaDV7mD9Puk",
+        "HWoWP5gUzcCSNkwvgRtETxjen9RVFKpvFFg8hSetBYja7GX3Dy7742NuBST8a1zhfCK3fmNUexj2kefyrx9CbVL",
         "J1ypwgXNB5nwUvxpUZMQZYv8H8fopvPdsTNNTU9RFahVrdcZ3rLisdkjo4yFcKpLwLsCzufowht2DGZjVa2nCDB",
         "KHf4toZKCY3EC2eYz4huvsZnXCjAJRFuunxcNUjhMcdMwmCxeaJG46X7yofFPUWY7DAdRxUuGDoQk64cL8U6y5f",
         "Kqgh2VjwDiaKrXA9GxL5znAyM1bSxyJTCbTyK3MK9NbgxFvMn6YsNnW9DuCSmUNaKje636GQTZT4aAEtDHsBTmu",
@@ -45267,8 +45367,10 @@
         "TpgCq2Gh9boVBXKEJQwQwHW9CEvj95hWkAn2zjmq46XyVx8eVp6qyqkByVVY5GvFWdENwgDL6VTysceCuUJwLx1",
         "UdQSN5aS3n6fo9dxEU1EGmaotP73Ebo2NofohAiuU2LC82N22dUxsaQrQd8aWfEqW6mn6rCdfQ51ch7diQYW8zH",
         "VJ8WqrbggjXdT3NDar7x1Dx76sjzE8ob2Yhn6dDuXEhBsYuBd55WyGhWe3CYYxgVUk4hAzCroz2PRTybZVjCG5i",
+        "Vf2JPPqnZvWXLTNYxPzdNnEdXTqiUUHgRMvUrSRLqv5U3ZJmiUwPzvMetmjmwtGLHdQKLTDNPAqqBNsmYQRUjnT",
         "W2CEMPenjGHazV6jJV2umBwwwaf6gVz2JUnopLbSphdpjS3xxqc7XZqpnTLZQHJT3P5uJrzm5DaMKPfFwNHrwAc",
         "WY2VArSRvYiBFP1erHwHnsqYZCxv5R9d8qm4LU5fnKB6g28x1yKczvf22FNnMzkBNbBVtecLQLa9PaAZXEwPwE9",
+        "WbYA6LNZSoxGqiFAEB2FtRckjioqfXFP19BgwNTXMv5gm2Nm8EE63e5swApMEb8D436zrkH1xYKMpEmrdYWkNS5",
         "WcVas24sxnnKm6xAZ9usanLRswRAY7XiYuRyWGpwJJi6YyfaFRELgTY47UznAFPvagE689N3Z9261tX3MrPGkRv",
         "WkMnpPVWQYKn63vZ3fMhYKFhwsNpsgTqBTVJo59uVFJoy9wNshbhi5R6qZh9nLsLqSZSNUtNmo2HCWf7vjwqPxY",
         "WmpTi2dtqWZJkud9HzATvn6hvrKTWPAMsFXdJB61K5xBy4F4Dj832yZz5xVxshjapi9WXZaxdyv91a7Rj6N6boU",
@@ -45280,6 +45382,8 @@
         "ZzuDYfmx3rynbzmNAoTxVgNJP3a9C14C3yxMYuGih4FUCwb4evg97pVTVbfe1RruEwFGoPbauadshggPeyYqrii",
         "afaHgBgttjYBDnfERbQZgMjjGMpMBn4iJT84Cge8FLCyUpHz6bNjwpwkGJmUmg62NM8nTRTM1Dgo1NhUNDES4tT",
         "ayUNgCjZqg3S5eNAo59i9MiekPQndVVmK3mqkkNP52QPncXSCjpsYSSjCK4AqX1DimGcGzA4JqZo6gXg52jNyr5",
+        "aytcdQPuavYHpRCDoeUzC2XPFZdgfzmsoNWaGQTGgFwuLxmV5rtYPkMBVhiseGMe6t7tT5TYkhErK17hqrK2RHT",
+        "b2p7bym2mvdxAXCnGJXPuh2xSPPeUE973vHoFwnzmxpPNEvwYCt36hFj27wTwLJjFkD6983B9nXoGHCJHXybMKS",
         "baKfn1sYCfMttvkojHByRDqGciZTCsxHEp2FLiDzAecCERCTP2ZpgEzDmbvRM3KBtDPErCY1Hwo2jyJ7uyDjTmX",
         "c5C6gdR7GuMBDN8RGrsp2zsLN2nxDFQrqW5AVrXuAiPTBqfc4rsR3fnzu49RSz216vzWtr5vG8vcd5pu5Cis1NC",
         "cUhDCCDqbRo8A2qnd3Mowxz6cTFBZD8yPNpBvq2kXP6QFcq4NsuNNTWcaEcXe2A5UpAGZjAGJ45ie2WVijz8TrV",
@@ -45309,7 +45413,7 @@
         "zmnVaXLePFNRxyn6ZsJ82AHgMovCR2CxBcKz7niGdVyRvfcXbqRdVss4JJAyrEXMHyCvYEJrQU3XZVcePeC8Xq2"
       ],
       "baseline_ms": 1793443265152,
-      "last_checked_ms": 1793461646986,
+      "last_checked_ms": 1793462229726,
       "baseline_ready": true
     },
     "5rkSwEceTC6TxtQwzMVdsdmG4xs7u3iZMH3isU8tssdh": {
@@ -47497,6 +47601,11 @@
       "started_ms": 1793461900156,
       "session_id": "41210993704",
       "finished_ms": 1793461932744
+    },
+    {
+      "started_ms": 1793462200156,
+      "session_id": "41210993704",
+      "finished_ms": 1793462231701
     }
   ],
   "events": [
@@ -48977,9 +49086,26 @@
       "observed_ms": 1793461917029,
       "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
       "details": {}
+    },
+    {
+      "id": "5917002a287c925aa0b2fa69b903",
+      "mint": null,
+      "kind": "ERİŞİM DÜZELDİ",
+      "observed_ms": 1793462217286,
+      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
+      "details": {}
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "id": "5917002a287c925aa0b2fa69b903",
+      "mint": null,
+      "kind": "ERİŞİM DÜZELDİ",
+      "observed_ms": 1793462217286,
+      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
+      "details": {}
+    }
+  ],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -59491,6 +59617,276 @@
       "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
       "identity_verified": false,
       "monitored_owner": "5rkSwEceTC6TxtQwzMVdsdmG4xs7u3iZMH3isU8tssdh"
+    },
+    {
+      "signature": "4NLKbcA7Nbv6S7mY9bBk6R6bbYS4khUEdfkCfhQ1N5AnFJuLK3B2okqhCuguftiDxKXHK6ZhRFgYGCJfH6HZe111",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462211000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "3cmxdwtxjM8wyFJrHHEBU2KTGCA2a1vkNcqPuEDaqQBeRXSp1ex7rUrZHxKXFsHurHQmzsRsi2EXAS9FB7PKekbe",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462146000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "3e27TqyfKWDvagZcFMt5HxPzMUNDgo4Byy4RSW4gjqUivgvxTan2Ekw4hA3iey3Vg7ESeX2EAapzovG6QwNB9cEk",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462104000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "5LGKs35re7hxM69M1pwnnDJz93vRSkWPfSayCcb8ocgupf8FKBcAh4WE85UTSrpA6ccTe5mWfcAhFQ1JS19pEFxW",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462060000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "4L8oNc8E2yjMU8uDaVZPJ7Wiegi839AHGunz3f7bA1GCfkev2CHFTGFmA4n4bXERMcMk28m8SdMMtaDPfc1SA2hM",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462060000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "51YTDfmVVSNbMSr87dvTebyxs8Dd5A55Mu3VAU7Aqn2dpLwriaeaQMjgquKyGjZ4f6UqCWaeTFWSSiwpVHnxh3kz",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462060000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "5C4YNuax58fyJLan7SjynsNZyWw9eL1PzPtS4ym4jz9K8rb8HD3Egbgh4Xv4AWJz3HiFfve89in9NvGPcdHbN3NS",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461871000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "4fj2eo7ddURM8bPuf3vsJ6X2xowSzsVALaFmvVtRLyzVQ3LWLiPrkPUGwNbhdnbeGFaamqSZMaqS9m1F4GZKGngk",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461808000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "45HYdb96b7k41ARfgNyGJHguMxkxMStQuwzPYKhZxJPwnZxvvpNQqyWVnxWkYmb2qgJRgGd1R9ut1Fyjdw4ohrxi",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461808000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "4c19GR6RLq5tSsBFwrTtyUBWf4FoGXxyXh5d7pqhzuc1V1r5N5QF9NDcSntxQ2EZ1gm8EnDFRZvDSEGNuav8Cgv7",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461808000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "3r8FanqHjK1bcoX9p5pJ6euejrPJZGBZrdqfdeyHjh8g6j4fZ5KJA5myTFGisTKZoMHpQigrrMfbgSxmZCxTBXRD",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461728000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "5qGjFzUDZRA3Jp6KoBmww4ZanomVk8JDMys9ktN7BE1QFhuHPVNva343VgmMrMt5YNGoND31baheV2UNfc8m1fyg",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461728000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "5uoRqDby9THkeszsf1rfuCNMb5nu7R7EEtEoKWnohNzdrrWmrsUXyC17hb2d3XxyXzTGADxWCYbrJwjy6pUYUeMA",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461728000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "4tZht8gBTfYvgHZUoczwVkzUkVyXD6bA1w46T3dhEmHkdgdLD3jxoEj9yG41Ta6Ukui6JPUoxUfXmbnrt2bpjnYu",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461641000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "5XXtnxLmz6kPWJw68ojdPsX6v8hWNtLeaES4h8i8Jp92GXotTK6fakrgShYJytSxmVBAkghFHUyR78zYxMYf3E3k",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461535000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "67jqtWXQUSyyaHrw4e9qheVxdGnUVPnhBtmN8zKAPvUZwyPEpYq31XSXGmUZuKLJnuroTVNkE4YfcSjx82Hjfu2q",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461473000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    {
+      "signature": "Vf2JPPqnZvWXLTNYxPzdNnEdXTqiUUHgRMvUrSRLqv5U3ZJmiUwPzvMetmjmwtGLHdQKLTDNPAqqBNsmYQRUjnT",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462201000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "b2p7bym2mvdxAXCnGJXPuh2xSPPeUE973vHoFwnzmxpPNEvwYCt36hFj27wTwLJjFkD6983B9nXoGHCJHXybMKS",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462138000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "5wvTpwdoV2gygzUmPTtorKrpBRHxRUk2AzQKW4YkvXjXChd7C1j7iswF51JLPVPSg4byd3W4wy8r2FoSWbgfZgfm",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462138000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "9yjNb98KAhZRug4c1EwmiLyL4EV13wUAH4TWa7r9u3XCsTyGcRDp2zkCcy63DiNoUtLqkrVeQDWNVGhTfXCJMWF",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462138000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "4xCqfYCrZv9GmLwzniVNLNbbeVoroA2LirUWUfrQ9e5VcF91sTJrPC2MsQPSyeLL2jje2c5pvng8YRLyyi7s3Lua",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462050000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "3Tj2SzWdFdR8HQVs7yZr8sbJLXDTbvTmQ9AJcANyiy34z688AZCpqUf3fChps78PU6TCkwBarmBca54tXds6bSCj",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461929000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "WbYA6LNZSoxGqiFAEB2FtRckjioqfXFP19BgwNTXMv5gm2Nm8EE63e5swApMEb8D436zrkH1xYKMpEmrdYWkNS5",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461929000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "4uyTqAJXA1wjUNkawfbPL9PobUu4HVFYJ2C5itm6VrkPhVq6h33RmiCzK9dcdgGkKPfFyLxk2v8BoF1wY8YziZ57",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461929000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "5cEsoUUaTn89cYkTFyY3fawcPQjsTJFNnRdNT7nyhWBHTSoK5MHGEZnkqsu1qYQni31puPFsqZuNo5BXTXzuunF9",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "HWoWP5gUzcCSNkwvgRtETxjen9RVFKpvFFg8hSetBYja7GX3Dy7742NuBST8a1zhfCK3fmNUexj2kefyrx9CbVL",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "aytcdQPuavYHpRCDoeUzC2XPFZdgfzmsoNWaGQTGgFwuLxmV5rtYPkMBVhiseGMe6t7tT5TYkhErK17hqrK2RHT",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "3s85jBTEjftVzgRJF4CEYqngHhfUKMz7gJqLhWq4rRw7xmMi7nrjj1nBsknffqkf7dKezTweMdN1m23nKkqb1XqG",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "ArESq87bj8yWmJkLXNnS37a5GRs1VL6hnQn6kurM27B65W5mQe95iH5FWVkghVxgvp47HEKbryqVZniSwr7TeMv",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461861000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    {
+      "signature": "EJudvs9bxUu5QRdTGhhHfEkzMFJnZ7ZeYeYkQVxx17RF32h1wMvtR8uoBVQYz2xSao2zU29Xi1oFjapxccvoEMA",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461730000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
     }
   ],
   "coverage": {
@@ -59503,23 +59899,23 @@
       "errors": [
         "api.mainnet.solana.com: RPC error -32015"
       ],
-      "detail_queue": 1079,
+      "detail_queue": 1109,
       "full_chain_coverage": false,
-      "checked_ms": 1793461932743
+      "checked_ms": 1793462231700
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793461913768,
+      "observed_ms": 1793462213741,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
   },
-  "wallet_rotation": 1036,
+  "wallet_rotation": 1038,
   "startup_recorded": true,
-  "updated_ms": 1793461932744,
+  "updated_ms": 1793462231700,
   "latest": {
-    "observed_ms": 1793461900161,
+    "observed_ms": 1793462200161,
     "tokens": {
       "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk": {
         "market": "observed",
@@ -59537,12 +59933,12 @@
       },
       "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk": {
         "market": "observed",
-        "trades": 44,
+        "trades": 43,
         "trade_coverage": [
           {
             "pool": "6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5",
-            "returned": 44,
-            "oldest_ms": 1793375762000,
+            "returned": 43,
+            "oldest_ms": 1793378696000,
             "invalid": 0,
             "possibly_truncated": false,
             "full_chain_coverage": false
@@ -61425,7 +61821,7 @@
     }
   },
   "timing": {
-    "intervals": 344,
+    "intervals": 345,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
@@ -71151,6 +71547,276 @@
       "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
       "identity_verified": false,
       "monitored_owner": "5rkSwEceTC6TxtQwzMVdsdmG4xs7u3iZMH3isU8tssdh"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:4NLKbcA7Nbv6S7mY9bBk6R6bbYS4khUEdfkCfhQ1N5AnFJuLK3B2okqhCuguftiDxKXHK6ZhRFgYGCJfH6HZe111": {
+      "signature": "4NLKbcA7Nbv6S7mY9bBk6R6bbYS4khUEdfkCfhQ1N5AnFJuLK3B2okqhCuguftiDxKXHK6ZhRFgYGCJfH6HZe111",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462211000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:3cmxdwtxjM8wyFJrHHEBU2KTGCA2a1vkNcqPuEDaqQBeRXSp1ex7rUrZHxKXFsHurHQmzsRsi2EXAS9FB7PKekbe": {
+      "signature": "3cmxdwtxjM8wyFJrHHEBU2KTGCA2a1vkNcqPuEDaqQBeRXSp1ex7rUrZHxKXFsHurHQmzsRsi2EXAS9FB7PKekbe",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462146000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:3e27TqyfKWDvagZcFMt5HxPzMUNDgo4Byy4RSW4gjqUivgvxTan2Ekw4hA3iey3Vg7ESeX2EAapzovG6QwNB9cEk": {
+      "signature": "3e27TqyfKWDvagZcFMt5HxPzMUNDgo4Byy4RSW4gjqUivgvxTan2Ekw4hA3iey3Vg7ESeX2EAapzovG6QwNB9cEk",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462104000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:5LGKs35re7hxM69M1pwnnDJz93vRSkWPfSayCcb8ocgupf8FKBcAh4WE85UTSrpA6ccTe5mWfcAhFQ1JS19pEFxW": {
+      "signature": "5LGKs35re7hxM69M1pwnnDJz93vRSkWPfSayCcb8ocgupf8FKBcAh4WE85UTSrpA6ccTe5mWfcAhFQ1JS19pEFxW",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462060000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:4L8oNc8E2yjMU8uDaVZPJ7Wiegi839AHGunz3f7bA1GCfkev2CHFTGFmA4n4bXERMcMk28m8SdMMtaDPfc1SA2hM": {
+      "signature": "4L8oNc8E2yjMU8uDaVZPJ7Wiegi839AHGunz3f7bA1GCfkev2CHFTGFmA4n4bXERMcMk28m8SdMMtaDPfc1SA2hM",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462060000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:51YTDfmVVSNbMSr87dvTebyxs8Dd5A55Mu3VAU7Aqn2dpLwriaeaQMjgquKyGjZ4f6UqCWaeTFWSSiwpVHnxh3kz": {
+      "signature": "51YTDfmVVSNbMSr87dvTebyxs8Dd5A55Mu3VAU7Aqn2dpLwriaeaQMjgquKyGjZ4f6UqCWaeTFWSSiwpVHnxh3kz",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793462060000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:5C4YNuax58fyJLan7SjynsNZyWw9eL1PzPtS4ym4jz9K8rb8HD3Egbgh4Xv4AWJz3HiFfve89in9NvGPcdHbN3NS": {
+      "signature": "5C4YNuax58fyJLan7SjynsNZyWw9eL1PzPtS4ym4jz9K8rb8HD3Egbgh4Xv4AWJz3HiFfve89in9NvGPcdHbN3NS",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461871000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:4fj2eo7ddURM8bPuf3vsJ6X2xowSzsVALaFmvVtRLyzVQ3LWLiPrkPUGwNbhdnbeGFaamqSZMaqS9m1F4GZKGngk": {
+      "signature": "4fj2eo7ddURM8bPuf3vsJ6X2xowSzsVALaFmvVtRLyzVQ3LWLiPrkPUGwNbhdnbeGFaamqSZMaqS9m1F4GZKGngk",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461808000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:45HYdb96b7k41ARfgNyGJHguMxkxMStQuwzPYKhZxJPwnZxvvpNQqyWVnxWkYmb2qgJRgGd1R9ut1Fyjdw4ohrxi": {
+      "signature": "45HYdb96b7k41ARfgNyGJHguMxkxMStQuwzPYKhZxJPwnZxvvpNQqyWVnxWkYmb2qgJRgGd1R9ut1Fyjdw4ohrxi",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461808000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:4c19GR6RLq5tSsBFwrTtyUBWf4FoGXxyXh5d7pqhzuc1V1r5N5QF9NDcSntxQ2EZ1gm8EnDFRZvDSEGNuav8Cgv7": {
+      "signature": "4c19GR6RLq5tSsBFwrTtyUBWf4FoGXxyXh5d7pqhzuc1V1r5N5QF9NDcSntxQ2EZ1gm8EnDFRZvDSEGNuav8Cgv7",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461808000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:3r8FanqHjK1bcoX9p5pJ6euejrPJZGBZrdqfdeyHjh8g6j4fZ5KJA5myTFGisTKZoMHpQigrrMfbgSxmZCxTBXRD": {
+      "signature": "3r8FanqHjK1bcoX9p5pJ6euejrPJZGBZrdqfdeyHjh8g6j4fZ5KJA5myTFGisTKZoMHpQigrrMfbgSxmZCxTBXRD",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461728000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:5qGjFzUDZRA3Jp6KoBmww4ZanomVk8JDMys9ktN7BE1QFhuHPVNva343VgmMrMt5YNGoND31baheV2UNfc8m1fyg": {
+      "signature": "5qGjFzUDZRA3Jp6KoBmww4ZanomVk8JDMys9ktN7BE1QFhuHPVNva343VgmMrMt5YNGoND31baheV2UNfc8m1fyg",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461728000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:5uoRqDby9THkeszsf1rfuCNMb5nu7R7EEtEoKWnohNzdrrWmrsUXyC17hb2d3XxyXzTGADxWCYbrJwjy6pUYUeMA": {
+      "signature": "5uoRqDby9THkeszsf1rfuCNMb5nu7R7EEtEoKWnohNzdrrWmrsUXyC17hb2d3XxyXzTGADxWCYbrJwjy6pUYUeMA",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461728000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:4tZht8gBTfYvgHZUoczwVkzUkVyXD6bA1w46T3dhEmHkdgdLD3jxoEj9yG41Ta6Ukui6JPUoxUfXmbnrt2bpjnYu": {
+      "signature": "4tZht8gBTfYvgHZUoczwVkzUkVyXD6bA1w46T3dhEmHkdgdLD3jxoEj9yG41Ta6Ukui6JPUoxUfXmbnrt2bpjnYu",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461641000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:5XXtnxLmz6kPWJw68ojdPsX6v8hWNtLeaES4h8i8Jp92GXotTK6fakrgShYJytSxmVBAkghFHUyR78zYxMYf3E3k": {
+      "signature": "5XXtnxLmz6kPWJw68ojdPsX6v8hWNtLeaES4h8i8Jp92GXotTK6fakrgShYJytSxmVBAkghFHUyR78zYxMYf3E3k",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461535000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF:67jqtWXQUSyyaHrw4e9qheVxdGnUVPnhBtmN8zKAPvUZwyPEpYq31XSXGmUZuKLJnuroTVNkE4YfcSjx82Hjfu2q": {
+      "signature": "67jqtWXQUSyyaHrw4e9qheVxdGnUVPnhBtmN8zKAPvUZwyPEpYq31XSXGmUZuKLJnuroTVNkE4YfcSjx82Hjfu2q",
+      "wallet": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF",
+      "block_ms": 1793461473000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:Vf2JPPqnZvWXLTNYxPzdNnEdXTqiUUHgRMvUrSRLqv5U3ZJmiUwPzvMetmjmwtGLHdQKLTDNPAqqBNsmYQRUjnT": {
+      "signature": "Vf2JPPqnZvWXLTNYxPzdNnEdXTqiUUHgRMvUrSRLqv5U3ZJmiUwPzvMetmjmwtGLHdQKLTDNPAqqBNsmYQRUjnT",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462201000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:b2p7bym2mvdxAXCnGJXPuh2xSPPeUE973vHoFwnzmxpPNEvwYCt36hFj27wTwLJjFkD6983B9nXoGHCJHXybMKS": {
+      "signature": "b2p7bym2mvdxAXCnGJXPuh2xSPPeUE973vHoFwnzmxpPNEvwYCt36hFj27wTwLJjFkD6983B9nXoGHCJHXybMKS",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462138000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:5wvTpwdoV2gygzUmPTtorKrpBRHxRUk2AzQKW4YkvXjXChd7C1j7iswF51JLPVPSg4byd3W4wy8r2FoSWbgfZgfm": {
+      "signature": "5wvTpwdoV2gygzUmPTtorKrpBRHxRUk2AzQKW4YkvXjXChd7C1j7iswF51JLPVPSg4byd3W4wy8r2FoSWbgfZgfm",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462138000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:9yjNb98KAhZRug4c1EwmiLyL4EV13wUAH4TWa7r9u3XCsTyGcRDp2zkCcy63DiNoUtLqkrVeQDWNVGhTfXCJMWF": {
+      "signature": "9yjNb98KAhZRug4c1EwmiLyL4EV13wUAH4TWa7r9u3XCsTyGcRDp2zkCcy63DiNoUtLqkrVeQDWNVGhTfXCJMWF",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462138000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:4xCqfYCrZv9GmLwzniVNLNbbeVoroA2LirUWUfrQ9e5VcF91sTJrPC2MsQPSyeLL2jje2c5pvng8YRLyyi7s3Lua": {
+      "signature": "4xCqfYCrZv9GmLwzniVNLNbbeVoroA2LirUWUfrQ9e5VcF91sTJrPC2MsQPSyeLL2jje2c5pvng8YRLyyi7s3Lua",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793462050000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:3Tj2SzWdFdR8HQVs7yZr8sbJLXDTbvTmQ9AJcANyiy34z688AZCpqUf3fChps78PU6TCkwBarmBca54tXds6bSCj": {
+      "signature": "3Tj2SzWdFdR8HQVs7yZr8sbJLXDTbvTmQ9AJcANyiy34z688AZCpqUf3fChps78PU6TCkwBarmBca54tXds6bSCj",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461929000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:WbYA6LNZSoxGqiFAEB2FtRckjioqfXFP19BgwNTXMv5gm2Nm8EE63e5swApMEb8D436zrkH1xYKMpEmrdYWkNS5": {
+      "signature": "WbYA6LNZSoxGqiFAEB2FtRckjioqfXFP19BgwNTXMv5gm2Nm8EE63e5swApMEb8D436zrkH1xYKMpEmrdYWkNS5",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461929000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:4uyTqAJXA1wjUNkawfbPL9PobUu4HVFYJ2C5itm6VrkPhVq6h33RmiCzK9dcdgGkKPfFyLxk2v8BoF1wY8YziZ57": {
+      "signature": "4uyTqAJXA1wjUNkawfbPL9PobUu4HVFYJ2C5itm6VrkPhVq6h33RmiCzK9dcdgGkKPfFyLxk2v8BoF1wY8YziZ57",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461929000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:5cEsoUUaTn89cYkTFyY3fawcPQjsTJFNnRdNT7nyhWBHTSoK5MHGEZnkqsu1qYQni31puPFsqZuNo5BXTXzuunF9": {
+      "signature": "5cEsoUUaTn89cYkTFyY3fawcPQjsTJFNnRdNT7nyhWBHTSoK5MHGEZnkqsu1qYQni31puPFsqZuNo5BXTXzuunF9",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:HWoWP5gUzcCSNkwvgRtETxjen9RVFKpvFFg8hSetBYja7GX3Dy7742NuBST8a1zhfCK3fmNUexj2kefyrx9CbVL": {
+      "signature": "HWoWP5gUzcCSNkwvgRtETxjen9RVFKpvFFg8hSetBYja7GX3Dy7742NuBST8a1zhfCK3fmNUexj2kefyrx9CbVL",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:aytcdQPuavYHpRCDoeUzC2XPFZdgfzmsoNWaGQTGgFwuLxmV5rtYPkMBVhiseGMe6t7tT5TYkhErK17hqrK2RHT": {
+      "signature": "aytcdQPuavYHpRCDoeUzC2XPFZdgfzmsoNWaGQTGgFwuLxmV5rtYPkMBVhiseGMe6t7tT5TYkhErK17hqrK2RHT",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:3s85jBTEjftVzgRJF4CEYqngHhfUKMz7gJqLhWq4rRw7xmMi7nrjj1nBsknffqkf7dKezTweMdN1m23nKkqb1XqG": {
+      "signature": "3s85jBTEjftVzgRJF4CEYqngHhfUKMz7gJqLhWq4rRw7xmMi7nrjj1nBsknffqkf7dKezTweMdN1m23nKkqb1XqG",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461866000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:ArESq87bj8yWmJkLXNnS37a5GRs1VL6hnQn6kurM27B65W5mQe95iH5FWVkghVxgvp47HEKbryqVZniSwr7TeMv": {
+      "signature": "ArESq87bj8yWmJkLXNnS37a5GRs1VL6hnQn6kurM27B65W5mQe95iH5FWVkghVxgvp47HEKbryqVZniSwr7TeMv",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461861000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
+    },
+    "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS:EJudvs9bxUu5QRdTGhhHfEkzMFJnZ7ZeYeYkQVxx17RF32h1wMvtR8uoBVQYz2xSao2zU29Xi1oFjapxccvoEMA": {
+      "signature": "EJudvs9bxUu5QRdTGhhHfEkzMFJnZ7ZeYeYkQVxx17RF32h1wMvtR8uoBVQYz2xSao2zU29Xi1oFjapxccvoEMA",
+      "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "block_ms": 1793461730000,
+      "failed": false,
+      "label": "Büyük örnek işlemin başlatıcısı; servet/kimlik bilinmiyor",
+      "identity_verified": false,
+      "monitored_owner": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS"
     }
   }
 }
