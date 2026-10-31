@@ -94,7 +94,7 @@ Kimlik defteri: 9449 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | FUN `FcZuu76twm89BKVN6WoWhFwfCmAVFPx24NkT8hKvpump` | solana | 31.10.2026 13:12 | 95710.0 | Bekliyor |
+| 🟡 ERKEN RADAR | FUN `FcZuu76twm89BKVN6WoWhFwfCmAVFPx24NkT8hKvpump` | solana | 31.10.2026 13:12 | 95710.0 | [Issue #426](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/426) |
 | 🟡 ERKEN RADAR | GATO `0x337b861884a66e0f2b5afac163ff269fdb627fdd` | robinhood | 31.10.2026 13:09 | 107838.0 | [Issue #424](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/424) |
 | 🟡 ERKEN RADAR | UKRADAR `FuwF9LBJwfuU7Dv6EcRyXF4mVWfD7HtsH2TaZshgbonk` | solana | 31.10.2026 13:01 | 109864.0 | [Issue #421](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/421) |
 | 🟡 ERKEN RADAR | PURR `0xfd93e4682bf1d6acb83d914cefecff0b920c36d7` | robinhood | 31.10.2026 12:58 | 79364.0 | [Issue #419](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/419) |
