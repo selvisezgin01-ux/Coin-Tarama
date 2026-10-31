@@ -1518551,108 +1518551,7 @@
       "source_close_ms": 1793471400000
     }
   },
-  "pending": [
-    {
-      "id": "dc46f59311c5431eb24cfb48",
-      "asset_id": "4995a5e8f060f4516a0fcc6a",
-      "key": "OKX:SPOT:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793471982078,
-      "price": 4.510999999999999,
-      "level": 4.347,
-      "invalid": 4.30432073076221,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.347,
-        "base_invalid": 4.30432073076221,
-        "atr": 0.024528461585267943,
-        "rvol": 6.178561122744704,
-        "close_position": 0.772727272727277,
-        "breakout": true,
-        "bar_close_ms": 1793449800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5990730011587573,
-        "score": 7.772727272727277
-      },
-      "context": {
-        "atr": 0.034015557002170356,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.32597409662097343,
-        "btc_hour_pct": 0.12685905237319606,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793449800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "46bc4cdafc204db57520312b",
-      "asset_id": "8fca8e7265c29413d4722cd9",
-      "key": "OKX:PERP:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793471983742,
-      "price": 4.5105,
-      "level": 4.348,
-      "invalid": 4.304308687397557,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.348,
-        "base_invalid": 4.304308687397557,
-        "atr": 0.024608750682947125,
-        "rvol": 5.4547952080066535,
-        "close_position": 0.72727272727272,
-        "breakout": true,
-        "bar_close_ms": 1793449800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5527230590961505,
-        "score": 7.182067935279374
-      },
-      "context": {
-        "atr": 0.03394054647483485,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.29960700695483844,
-        "btc_hour_pct": 0.12261585651236473,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793449800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1522877,6 +1522776,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793471697970
+    },
+    {
+      "id": "dc46f59311c5431eb24cfb48",
+      "asset_id": "4995a5e8f060f4516a0fcc6a",
+      "key": "OKX:SPOT:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "expired",
+      "observed_ms": 1793471982078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793471993763
+    },
+    {
+      "id": "46bc4cdafc204db57520312b",
+      "asset_id": "8fca8e7265c29413d4722cd9",
+      "key": "OKX:PERP:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "expired",
+      "observed_ms": 1793471983742,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793471993764
     }
   ],
   "runs": [
@@ -1580797,8 +1580718,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "692a12c4bc1299de6b2953656fa892ac0499fa0e",
-    "previous_success_ms": 1793471720908,
+    "previous_commit": "06e76ef04d9798ce9020af2142d2fc1a25a0f00f",
+    "previous_success_ms": 1793471992760,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
