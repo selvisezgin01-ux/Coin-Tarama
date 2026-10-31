@@ -41408,70 +41408,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "7831981bd79b6f55fee72c602107",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793443233663,
-      "text": "Son kontrol %-3.15; fiyat $0.0003439. Gözlem aralığı 5.0dk.",
-      "details": {}
-    },
-    {
-      "id": "3108af8dbe234c567decf57c1523",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793443234134,
-      "text": "SATIŞ: $1480.22 · işlem başlatıcı `H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS` · bildirim eşiği $160",
-      "details": {
-        "tx": "4k2AMieou765nNu6VdH6aY3duaXA3ArTeecrVEeFquTRBph5XyWyzSBWq4d518WCJUS6dketzHdEqkz2JJvV4dSp",
-        "wallet": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
-        "side": "sell",
-        "usd": 1480.2220529346607,
-        "block_ms": 1793442968000,
-        "provider_row_id": "solana_463657058_4k2AMieou765nNu6VdH6aY3duaXA3ArTeecrVEeFquTRBph5XyWyzSBWq4d518WCJUS6dketzHdEqkz2JJvV4dSp_37_1793442974",
-        "first_buyer_seen_by_this_watch": false
-      }
-    },
-    {
-      "id": "7380d12335b08c0108a6b03209f0",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793443246972,
-      "text": "SATIŞ: $147.55 · işlem başlatıcı `Jd97uyw9wb6PxV2jawAjS7aU6XUMHbcfn4En8xRP7Mg` · bildirim eşiği $100",
-      "details": {
-        "tx": "49uR64DCJgxw83yM6oNseuCEQt4SqvnKYQEWSFkoQ18VVFFi6phxWgVbZutxJFiJBh9n4NH1DnziWCHpCRG467wU",
-        "wallet": "Jd97uyw9wb6PxV2jawAjS7aU6XUMHbcfn4En8xRP7Mg",
-        "side": "sell",
-        "usd": 147.54893377233932,
-        "block_ms": 1793442968000,
-        "provider_row_id": "solana_463657058_49uR64DCJgxw83yM6oNseuCEQt4SqvnKYQEWSFkoQ18VVFFi6phxWgVbZutxJFiJBh9n4NH1DnziWCHpCRG467wU_8_1793442973",
-        "first_buyer_seen_by_this_watch": false
-      }
-    },
-    {
-      "id": "00c91537511ffab3ba370f686645",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "HOLDER BAKİYE AZALIŞI",
-      "observed_ms": 1793443247673,
-      "text": "`7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX` · aynı izlenen token hesaplarında -4270540.820000token; güncel fiyatla yaklaşık $1469. Token transferi olabilir; otomatik alım/satım yorumu yok.",
-      "details": {
-        "owner": "7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX",
-        "amount": 13523379.297121,
-        "change_tokens": -4270540.82,
-        "same_accounts_compared": 1,
-        "slot": 463658367
-      }
-    },
-    {
-      "id": "3f4c5fdbf3eb3941a780d56ca8b0",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793443252081,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -41754,6 +41691,36 @@
       "issue": 432,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/432",
       "delivered_ms": 1793442977223
+    },
+    {
+      "id": "7831981bd79b6f55fee72c602107",
+      "issue": 433,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/433",
+      "delivered_ms": 1793443271642
+    },
+    {
+      "id": "3108af8dbe234c567decf57c1523",
+      "issue": 433,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/433",
+      "delivered_ms": 1793443271642
+    },
+    {
+      "id": "7380d12335b08c0108a6b03209f0",
+      "issue": 433,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/433",
+      "delivered_ms": 1793443271642
+    },
+    {
+      "id": "00c91537511ffab3ba370f686645",
+      "issue": 433,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/433",
+      "delivered_ms": 1793443271642
+    },
+    {
+      "id": "3f4c5fdbf3eb3941a780d56ca8b0",
+      "issue": 433,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/433",
+      "delivered_ms": 1793443271642
     }
   ],
   "provider_backoff": {
