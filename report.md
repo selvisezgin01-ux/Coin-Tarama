@@ -88,13 +88,13 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 14807 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 14806 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | ELO `0xa818c8332746ec079786432e97cb1120fc40df1c` | bnb | 31.10.2026 21:07 | 253780.0 | Bekliyor |
+| 🟡 ERKEN RADAR | ELO `0xa818c8332746ec079786432e97cb1120fc40df1c` | bnb | 31.10.2026 21:07 | 253780.0 | [Issue #617](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/617) |
 | 🟡 ERKEN RADAR | SHOR `0x7e2810d93340c53238215a2186fbc8ec8a9d209c` | bnb | 31.10.2026 21:02 | 136341.0 | [Issue #614](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/614) |
 | 🟡 ERKEN RADAR | BABY `0xddefdaac44afd990069bbfc865bf34c8b1c0a3f0` | bnb | 31.10.2026 20:49 | 385360.0 | [Issue #609](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/609) |
 | 🟡 ERKEN RADAR | A-RSI `0x9e4c0d5cdb5855486058be7cc895dfa66a7ace7e` | robinhood | 31.10.2026 20:36 | 53264.0 | [Issue #603](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/603) |
@@ -2517,7 +2517,6 @@ Kimlik defteri: 14807 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `ethereum:0x93a2db22b7c736b341c32ff666307f4a9ed910f5` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0x93e4db0f22ff854b99293f5cffe4f6f0b640edc6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `ethereum:0x93e7022e7da4fcd2fe57c9d070e3281c769cf061` | market_rejected_or_unknown | market_cap_not_50k_500k |
-| `ethereum:0x9401efa3d5fd9a725c18aaedf849d0ff94c1d68a` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0x948bf04764023cc7e7960d986a578cada74a345f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `ethereum:0x952159bba08d6f573109de05dabc35d4b0b69f0b` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `ethereum:0x955ea4c2f70d6e263ea14a63bc33cc538fb54300` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
