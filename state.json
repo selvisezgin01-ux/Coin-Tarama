@@ -1508282,62 +1508282,7 @@
       "source_close_ms": 1793464200000
     }
   },
-  "pending": [
-    {
-      "id": "87555ae3af3a2e5afa418469",
-      "asset_id": "31e723784ccd674aa4b22250",
-      "key": "MEXC:PERP:RAREUSDT",
-      "symbol": "RAREUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793465534512,
-      "price": 0.013385000000000001,
-      "level": 0.01322,
-      "invalid": 0.01283826806388148,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01322,
-        "base_invalid": 0.01283826806388148,
-        "atr": 0.00014487957412346935,
-        "rvol": 6.214302171599102,
-        "close_position": 0.7666666666666645,
-        "breakout": true,
-        "bar_close_ms": 1793465100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3882896764252592,
-        "score": 7.766666666666665
-      },
-      "context": {
-        "atr": 0.00014487957412346935,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.9984809763184055,
-        "btc_hour_pct": 0.229250207087639,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RAREUSDT",
-          "change_pct": 9.465908622866582,
-          "old_ms": 1793461920533,
-          "current_ms": 1793465529467,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0028,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793465100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RAREUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1512331,6 +1512276,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793465250092
+    },
+    {
+      "id": "87555ae3af3a2e5afa418469",
+      "asset_id": "31e723784ccd674aa4b22250",
+      "key": "MEXC:PERP:RAREUSDT",
+      "symbol": "RAREUSDT",
+      "phase": "radar",
+      "observed_ms": 1793465534512,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793465544757
     }
   ],
   "runs": [
@@ -1543004,7 +1542960,8 @@
         "entry_seq": 0,
         "cohort": "RAREUSDT",
         "observation_lag_ms": 434512,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10245
       }
     },
     "errors": [],
@@ -1567995,8 +1567952,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "729bb18f1fa76b42e27f5bffd46f4f44be74a075",
-    "previous_success_ms": 1793465268538,
+    "previous_commit": "aa9c22ed3cc85683b6c844909f9075e18e09a97a",
+    "previous_success_ms": 1793465543883,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
