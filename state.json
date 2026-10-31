@@ -1510948,62 +1510948,7 @@
       "source_close_ms": 1793474100000
     }
   },
-  "pending": [
-    {
-      "id": "c0cbc929de051ef711bfd98a",
-      "asset_id": "3a595102c1b9b449a24b6448",
-      "key": "MEXC:PERP:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793474820485,
-      "price": 0.13005,
-      "level": 0.1296,
-      "invalid": 0.12717190947442372,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1296,
-        "base_invalid": 0.12717190947442372,
-        "atr": 0.001520603503841984,
-        "rvol": 4.303331529032284,
-        "close_position": 0.7391304347826009,
-        "breakout": false,
-        "bar_close_ms": 1793474100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5439005439005218,
-        "score": 5.542461963814885
-      },
-      "context": {
-        "atr": 0.001520603503841984,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.26143320759753896,
-        "btc_hour_pct": -0.10493868490583091,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NESUSDT",
-          "change_pct": 6.02665378068441,
-          "old_ms": 1793471069630,
-          "current_ms": 1793474817603,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793474100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NESUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1515327,6 +1515272,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793474400931
+    },
+    {
+      "id": "c0cbc929de051ef711bfd98a",
+      "asset_id": "3a595102c1b9b449a24b6448",
+      "key": "MEXC:PERP:NESUSDT",
+      "symbol": "NESUSDT",
+      "phase": "radar",
+      "observed_ms": 1793474820485,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793474830571
     }
   ],
   "runs": [
@@ -1549161,7 +1549117,8 @@
         "entry_seq": 0,
         "cohort": "NESUSDT",
         "observation_lag_ms": 720485,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10086
       }
     },
     "errors": [],
@@ -1574370,8 +1574327,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a607ea089bac59eb11d5d7b6fabaa60daa6a8618",
-    "previous_success_ms": 1793474808018,
+    "previous_commit": "933575c3ab3e5b6bab68e37c1566ff2cad60cfff",
+    "previous_success_ms": 1793474829344,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
