@@ -1495494,220 +1495494,7 @@
       "source_close_ms": 1793461500000
     }
   },
-  "pending": [
-    {
-      "id": "0e9fe74c6039621449b4ea3f",
-      "asset_id": "f98f7443c7690edc9b395ef5",
-      "key": "OKX:SPOT:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793462229155,
-      "price": 0.63805,
-      "level": 0.6296,
-      "invalid": 0.6207252284459394,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6296,
-        "base_invalid": 0.6207252284459394,
-        "atr": 0.003831810360404245,
-        "rvol": 7.812808704631003,
-        "close_position": 0.9358974358974432,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4386189258312143,
-        "score": 7.935897435897443
-      },
-      "context": {
-        "atr": 0.003831810360404245,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7319217315392645,
-        "btc_hour_pct": -0.12275212589643036,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ETHFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b5d69e6c899a347beaa7065b",
-      "asset_id": "08d2ff537b0fec9874cf386f",
-      "key": "MEXC:SPOT:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793462231933,
-      "price": 0.6382,
-      "level": 0.6296,
-      "invalid": 0.6205441799537356,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6296,
-        "base_invalid": 0.6205441799537356,
-        "atr": 0.003705466975095884,
-        "rvol": 9.172132414523412,
-        "close_position": 0.9358974358974432,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3899984023006962,
-        "score": 7.935897435897443
-      },
-      "context": {
-        "atr": 0.003705466975095884,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6713222195816604,
-        "btc_hour_pct": -0.11042478368423758,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ETHFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5841216eca0789bf9d86208e",
-      "asset_id": "7341122f83ac0866d290d7a4",
-      "key": "MEXC:PERP:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793462235326,
-      "price": 0.63655,
-      "level": 0.629,
-      "invalid": 0.6200498307026805,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.629,
-        "base_invalid": 0.6200498307026805,
-        "atr": 0.003667795315463758,
-        "rvol": 7.722601433947942,
-        "close_position": 0.921052631578942,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3420674229110086,
-        "score": 7.921052631578942
-      },
-      "context": {
-        "atr": 0.003667795315463758,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7316296375559972,
-        "btc_hour_pct": -0.12197136706024736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ETHFIUSDT",
-          "change_pct": -0.2045496861499907,
-          "old_ms": 1793458763177,
-          "current_ms": 1793462233051,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f02a263207e142071b2f2534",
-      "asset_id": "9f8f58e24af04b311eda70c5",
-      "key": "OKX:PERP:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793462231791,
-      "price": 0.63705,
-      "level": 0.6292,
-      "invalid": 0.6200349551104344,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6292,
-        "base_invalid": 0.6200349551104344,
-        "atr": 0.0037669659304378064,
-        "rvol": 4.758846809144891,
-        "close_position": 0.9249999999999945,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3742409715564063,
-        "score": 6.683846809144885
-      },
-      "context": {
-        "atr": 0.0037669659304378064,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6960837738913428,
-        "btc_hour_pct": -0.11851278079009209,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ETHFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1499569,6 +1499356,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793461651668
+    },
+    {
+      "id": "0e9fe74c6039621449b4ea3f",
+      "asset_id": "f98f7443c7690edc9b395ef5",
+      "key": "OKX:SPOT:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793462229155,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793462245303
+    },
+    {
+      "id": "b5d69e6c899a347beaa7065b",
+      "asset_id": "08d2ff537b0fec9874cf386f",
+      "key": "MEXC:SPOT:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793462231933,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793462245304
+    },
+    {
+      "id": "5841216eca0789bf9d86208e",
+      "asset_id": "7341122f83ac0866d290d7a4",
+      "key": "MEXC:PERP:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793462235326,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793462245304
+    },
+    {
+      "id": "f02a263207e142071b2f2534",
+      "asset_id": "9f8f58e24af04b311eda70c5",
+      "key": "OKX:PERP:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793462231791,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793462245304
     }
   ],
   "runs": [
@@ -1529061,7 +1528892,8 @@
         "entry_seq": 0,
         "cohort": "ETHFIUSDT",
         "observation_lag_ms": 729155,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 16148
       },
       "08d2ff537b0fec9874cf386f:radar": {
         "symbol": "ETHFIUSDT",
@@ -1529083,7 +1528915,8 @@
         "entry_seq": 0,
         "cohort": "ETHFIUSDT",
         "observation_lag_ms": 731933,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13371
       },
       "7341122f83ac0866d290d7a4:radar": {
         "symbol": "ETHFIUSDT",
@@ -1529105,7 +1528938,8 @@
         "entry_seq": 0,
         "cohort": "ETHFIUSDT",
         "observation_lag_ms": 735326,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9978
       },
       "9f8f58e24af04b311eda70c5:radar": {
         "symbol": "ETHFIUSDT",
@@ -1529127,7 +1528961,8 @@
         "entry_seq": 0,
         "cohort": "ETHFIUSDT",
         "observation_lag_ms": 731791,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13513
       }
     },
     "errors": [],
@@ -1553864,8 +1553699,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "543b408e0a78104df6a4ed3387ca5308b51a7abc",
-    "previous_success_ms": 1793461968418,
+    "previous_commit": "24e664799ba4ff96c65a950bc25dca6e1b58e395",
+    "previous_success_ms": 1793462244306,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
