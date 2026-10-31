@@ -1512804,60 +1512804,7 @@
       "source_close_ms": 1793468700000
     }
   },
-  "pending": [
-    {
-      "id": "65729da3ae01146edc00ad9a",
-      "asset_id": "202ab6c0c336a26bb81a65bc",
-      "key": "MEXC:SPOT:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793469889600,
-      "price": 1.1196585,
-      "level": 1.128748,
-      "invalid": 1.0835127715747954,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.128748,
-        "base_invalid": 1.0835127715747954,
-        "atr": 0.019381522834696404,
-        "rvol": 2.8106263113612027,
-        "close_position": 0.8533061437001005,
-        "breakout": false,
-        "bar_close_ms": 1793469600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.262344492289059,
-        "score": 4.163932455061303
-      },
-      "context": {
-        "atr": 0.019381522834696404,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.1534226470970586,
-        "btc_hour_pct": 0.10892184519200043,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793469600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1516994,6 +1516941,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793469292642
+    },
+    {
+      "id": "65729da3ae01146edc00ad9a",
+      "asset_id": "202ab6c0c336a26bb81a65bc",
+      "key": "MEXC:SPOT:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793469889600,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793469899621
     }
   ],
   "runs": [
@@ -1549011,7 +1548969,8 @@
         "entry_seq": 0,
         "cohort": "BTWUSDT",
         "observation_lag_ms": 289600,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10021
       }
     },
     "errors": [],
@@ -1574084,8 +1574043,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f36e84c5e0d36ad631f59aa311b53122dc4d8817",
-    "previous_success_ms": 1793469620178,
+    "previous_commit": "914060d9207e1afd9201ffb0a911c5f74b980816",
+    "previous_success_ms": 1793469898620,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
