@@ -1526348,7 +1526348,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793465553886,
+      "duration_ms": 29450
     }
   ],
   "radar_admissions": [
@@ -1542657,14 +1542659,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793465241857,
+            "endpoint_ms": 1793465280000,
+            "endpoint_price": 0.06751,
+            "return_pct": 3.392296500497749,
+            "btc_excess_pct_points": 3.379593748127263,
+            "mae_pct": -0.6355769967072544,
+            "mfe_pct": 5.322000153151096,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 38143,
+            "measured_ms": 1793465552819,
+            "cost_scenarios_pct": {
+              "0.2": 3.192296500497749,
+              "0.5": 2.892296500497749,
+              "1": 2.392296500497749
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793461500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ZAMAUSDT",
         "observation_lag_ms": 141857,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9811
+        "notification_lag_ms": 9811,
+        "last_measure_attempt_ms": 1793465552819
       },
       "80ca382ed9668a784a7693b1:radar": {
         "symbol": "ZAMAUSDT",
@@ -1542680,14 +1542706,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793465236902,
+            "endpoint_ms": 1793465280000,
+            "endpoint_price": 0.06754,
+            "return_pct": 3.462009803921573,
+            "btc_excess_pct_points": 3.4383401268417657,
+            "mae_pct": -0.597426470588236,
+            "mfe_pct": 5.468749999999978,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 43098,
+            "measured_ms": 1793465552819,
+            "cost_scenarios_pct": {
+              "0.2": 3.262009803921573,
+              "0.5": 2.962009803921573,
+              "1": 2.462009803921573
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793461500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ZAMAUSDT",
         "observation_lag_ms": 136902,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 14766
+        "notification_lag_ms": 14766,
+        "last_measure_attempt_ms": 1793465552819
       },
       "f98f7443c7690edc9b395ef5:radar": {
         "symbol": "ETHFIUSDT",
@@ -1542966,15 +1543016,15 @@
     },
     "errors": [],
     "queue": {
-      "due": 82,
-      "attempted": 1,
-      "observed_ms": 1793465257950,
-      "unique_reads": 2
+      "due": 86,
+      "attempted": 2,
+      "observed_ms": 1793465552819,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 213,
-        "unique_symbol_labels": 137,
+        "market_event_references": 214,
+        "unique_symbol_labels": 138,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
@@ -1543022,8 +1543072,8 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 44,
-            "first_per_symbol": 44,
+            "event_references": 45,
+            "first_per_symbol": 45,
             "hours": {
               "1": {
                 "known_first_symbols": 41,
@@ -1567952,8 +1568002,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "aa9c22ed3cc85683b6c844909f9075e18e09a97a",
-    "previous_success_ms": 1793465543883,
+    "previous_commit": "f5d256b8d636f145928e78ff339bb880b5b78e12",
+    "previous_success_ms": 1793465552778,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
