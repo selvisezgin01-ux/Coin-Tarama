@@ -1510327,108 +1510327,7 @@
       "source_close_ms": 1793466000000
     }
   },
-  "pending": [
-    {
-      "id": "1f4e9488485066b15e622c5f",
-      "asset_id": "92fc396d0e4488dc7e76a5df",
-      "key": "OKX:SPOT:CTUSDT",
-      "symbol": "CTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793466141373,
-      "price": 0.14121499999999998,
-      "level": 0.14232,
-      "invalid": 0.1381399754623171,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.14232,
-        "base_invalid": 0.1381399754623171,
-        "atr": 0.0014001635845526394,
-        "rvol": 5.179779362776671,
-        "close_position": 0.8703703703703689,
-        "breakout": true,
-        "bar_close_ms": 1793462400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9992163567713837,
-        "score": 7.050149733147039
-      },
-      "context": {
-        "atr": 0.0015171985019245841,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.161630943054471,
-        "btc_hour_pct": 0.010572705400591076,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793462400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ac46f7b639062cacaefaf9ad",
-      "asset_id": "ea4a460737b0821668efe96b",
-      "key": "MEXC:SPOT:HANAUSDT",
-      "symbol": "HANAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793466141669,
-      "price": 0.015828000000000002,
-      "level": 0.015818,
-      "invalid": 0.015326170232519105,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.015818,
-        "base_invalid": 0.015326170232519105,
-        "atr": 0.00028553178320597333,
-        "rvol": 3.6083693343588483,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793466000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1755921730175043,
-        "score": 5.608369334358848
-      },
-      "context": {
-        "atr": 0.00028553178320597333,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.1524720379329843,
-        "btc_hour_pct": 0.023120135084520044,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HANAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793466000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HANAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1514444,6 +1514343,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793465844464
+    },
+    {
+      "id": "1f4e9488485066b15e622c5f",
+      "asset_id": "92fc396d0e4488dc7e76a5df",
+      "key": "OKX:SPOT:CTUSDT",
+      "symbol": "CTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793466141373,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793466151998
+    },
+    {
+      "id": "ac46f7b639062cacaefaf9ad",
+      "asset_id": "ea4a460737b0821668efe96b",
+      "key": "MEXC:SPOT:HANAUSDT",
+      "symbol": "HANAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793466141669,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793466151998
     }
   ],
   "runs": [
@@ -1545324,7 +1545245,8 @@
         "entry_seq": 0,
         "cohort": "HANAUSDT",
         "observation_lag_ms": 141669,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10329
       }
     },
     "errors": [],
@@ -1570315,8 +1570237,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6c064c44605bf3bfe67713596cdde99b15fd4198",
-    "previous_success_ms": 1793465867532,
+    "previous_commit": "fe1a94289b1ca8187c9c3b8d368808784bc3c6d9",
+    "previous_success_ms": 1793466150967,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
