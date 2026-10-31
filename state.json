@@ -1495911,7 +1495911,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793457300497,
+      "duration_ms": 33488
     }
   ],
   "radar_admissions": [
@@ -1507822,6 +1507824,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793437761699,
+            "endpoint_ms": 1793437800000,
+            "endpoint_price": 0.22595,
+            "return_pct": -1.8334274666550687,
+            "btc_excess_pct_points": -2.0127543340392684,
+            "mae_pct": -4.844245557631311,
+            "mfe_pct": 0.18247382369553922,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 38301,
+            "measured_ms": 1793457299283,
+            "cost_scenarios_pct": {
+              "0.2": -2.033427466655069,
+              "0.5": -2.3334274666550687,
+              "1": -2.8334274666550687
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793422800000,
@@ -1507831,7 +1507855,7 @@
         "observation_lag_ms": 561699,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 10035,
-        "last_measure_attempt_ms": 1793427276738
+        "last_measure_attempt_ms": 1793457299283
       },
       "7ee2f5b6b51c2b9032311dd4:radar": {
         "symbol": "SOMIUSDT",
@@ -1507869,6 +1507893,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793438061363,
+            "endpoint_ms": 1793438100000,
+            "endpoint_price": 0.19,
+            "return_pct": -4.30622009569378,
+            "btc_excess_pct_points": -4.567594074246217,
+            "mae_pct": -4.30622009569378,
+            "mfe_pct": 0.6799294887937402,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 38637,
+            "measured_ms": 1793457299283,
+            "cost_scenarios_pct": {
+              "0.2": -4.50622009569378,
+              "0.5": -4.80622009569378,
+              "1": -5.30622009569378
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793422800000,
@@ -1507878,7 +1507924,7 @@
         "observation_lag_ms": 861363,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 9922,
-        "last_measure_attempt_ms": 1793427962152
+        "last_measure_attempt_ms": 1793457299283
       },
       "45b5dfa235ba47212466c310:triggered:1": {
         "symbol": "AGLDUSDT",
@@ -1510921,10 +1510967,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 64,
-      "attempted": 1,
-      "observed_ms": 1793456991993,
-      "unique_reads": 2
+      "due": 65,
+      "attempted": 2,
+      "observed_ms": 1793457299283,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1510985,8 +1511031,8 @@
                 "median_reference_return_pct": -0.21025157688681073
               },
               "4": {
-                "known_first_symbols": 28,
-                "median_reference_return_pct": 0.7704063127147109
+                "known_first_symbols": 30,
+                "median_reference_return_pct": 0.3342104780905464
               },
               "12": {
                 "known_first_symbols": 21,
@@ -1535331,8 +1535377,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e170a6dcc23638c3bce1b6e11a0c04c5f14bf3b7",
-    "previous_success_ms": 1793457289817,
+    "previous_commit": "1f7e26ea603618d6ed912524d49472843c6626e7",
+    "previous_success_ms": 1793457299247,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
