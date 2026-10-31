@@ -1479310,160 +1479310,7 @@
       "source_close_ms": 1793457000000
     }
   },
-  "pending": [
-    {
-      "id": "24adb955cc78a4389e92118c",
-      "asset_id": "9ce3430f7d1170a2aa3e0048",
-      "key": "OKX:SPOT:CSPRUSDT",
-      "symbol": "CSPRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793457281366,
-      "price": 0.002171,
-      "level": 0.002176,
-      "invalid": 0.0021368611790618,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002176,
-        "base_invalid": 0.0021368611790618,
-        "atr": 2.0925472921333405e-05,
-        "rvol": 6.589587707609357,
-        "close_position": 0.8243243243243251,
-        "breakout": true,
-        "bar_close_ms": 1793446200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0162412993039567,
-        "score": 7.8243243243243255
-      },
-      "context": {
-        "atr": 2.9057310783168927e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5406654817345924,
-        "btc_hour_pct": -0.04386689236612895,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CSPRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793446200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CSPRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b64eaac13f8acdb146ae0ff1",
-      "asset_id": "ae65b5b6c238e2bf9b98f763",
-      "key": "MEXC:SPOT:4USDT",
-      "symbol": "4USDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793457279446,
-      "price": 0.01124,
-      "level": 0.01127,
-      "invalid": 0.011138443063780692,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01127,
-        "base_invalid": 0.011138443063780692,
-        "atr": 7.704624146205189e-05,
-        "rvol": 3.8042989659857844,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5342831700801298,
-        "score": 5.804298965985785
-      },
-      "context": {
-        "atr": 7.547252488866126e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3911125252549552,
-        "btc_hour_pct": -0.034606286395788555,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:4USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "4USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8b978da71496652f6174060d",
-      "asset_id": "c0dc5addcd53bd20e7be9573",
-      "key": "OKX:PERP:GLMUSDT",
-      "symbol": "GLMUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793457279435,
-      "price": 0.11596000000000001,
-      "level": 0.11671,
-      "invalid": 0.11354207153962882,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11671,
-        "base_invalid": 0.11354207153962882,
-        "atr": 0.000919523069141253,
-        "rvol": 2.70597259534741,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6072980017376226,
-        "score": 4.70597259534741
-      },
-      "context": {
-        "atr": 0.0009925623528462151,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1104241800762749,
-        "btc_hour_pct": -0.037295664282233076,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GLMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1483160,6 +1483007,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793456687046
+    },
+    {
+      "id": "24adb955cc78a4389e92118c",
+      "asset_id": "9ce3430f7d1170a2aa3e0048",
+      "key": "OKX:SPOT:CSPRUSDT",
+      "symbol": "CSPRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793457281366,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793457291585
+    },
+    {
+      "id": "b64eaac13f8acdb146ae0ff1",
+      "asset_id": "ae65b5b6c238e2bf9b98f763",
+      "key": "MEXC:SPOT:4USDT",
+      "symbol": "4USDT",
+      "phase": "cancelled",
+      "observed_ms": 1793457279446,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793457291586
+    },
+    {
+      "id": "8b978da71496652f6174060d",
+      "asset_id": "c0dc5addcd53bd20e7be9573",
+      "key": "OKX:PERP:GLMUSDT",
+      "symbol": "GLMUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793457279435,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793457291586
     }
   ],
   "runs": [
@@ -1535451,8 +1535331,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8f30ce765f2f6aabdce3757a9a6099b9f93e6a4c",
-    "previous_success_ms": 1793457001378,
+    "previous_commit": "e170a6dcc23638c3bce1b6e11a0c04c5f14bf3b7",
+    "previous_success_ms": 1793457289817,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
