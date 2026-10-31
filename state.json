@@ -1515357,60 +1515357,7 @@
       "source_close_ms": 1793486700000
     }
   },
-  "pending": [
-    {
-      "id": "f86b17142d00f6ac94290db6",
-      "asset_id": "d812fbce6aad2b1e1c4d8a4f",
-      "key": "OKX:SPOT:ORDIUSDT",
-      "symbol": "ORDIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793486984583,
-      "price": 3.4935,
-      "level": 3.511,
-      "invalid": 3.4878234144309923,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.511,
-        "base_invalid": 3.4878234144309923,
-        "atr": 0.007843903793382978,
-        "rvol": 8.38466093467739,
-        "close_position": 0.6428571428571451,
-        "breakout": false,
-        "bar_close_ms": 1793481300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3437410484101955,
-        "score": 7.142857142857145
-      },
-      "context": {
-        "atr": 0.010412476910002947,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.0480476361233384,
-        "btc_hour_pct": 0.13376192183762736,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ORDIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793481300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ORDIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1520240,6 +1520187,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793486691540
+    },
+    {
+      "id": "f86b17142d00f6ac94290db6",
+      "asset_id": "d812fbce6aad2b1e1c4d8a4f",
+      "key": "OKX:SPOT:ORDIUSDT",
+      "symbol": "ORDIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793486984583,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793486995603
     }
   ],
   "runs": [
@@ -1583799,8 +1583757,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "80bb2a1818b3f79ab6f25eaac2f6d96c1be9a878",
-    "previous_success_ms": 1793486710332,
+    "previous_commit": "84503cb53ff8ef7a4a2d92d519dbb0b201e4997f",
+    "previous_success_ms": 1793486994220,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
