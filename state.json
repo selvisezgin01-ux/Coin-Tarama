@@ -1509351,218 +1509351,7 @@
       "source_close_ms": 1793474100000
     }
   },
-  "pending": [
-    {
-      "id": "876090f4a1e1a04bd61c7729",
-      "asset_id": "e8587303ef353a1aa9a92af5",
-      "key": "MEXC:PERP:LITUSDT",
-      "symbol": "LITUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793474390898,
-      "price": 2.98685,
-      "level": 3.0065,
-      "invalid": 2.88150308930994,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.0065,
-        "base_invalid": 2.88150308930994,
-        "atr": 0.03197940460040081,
-        "rvol": 3.0191384916137998,
-        "close_position": 0.7493796526054605,
-        "breakout": true,
-        "bar_close_ms": 1793472300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.820945945945951,
-        "score": 4.768518144219261
-      },
-      "context": {
-        "atr": 0.03314607423423691,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.1194049865349895,
-        "btc_hour_pct": -0.10493868490583091,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LITUSDT",
-          "change_pct": -7.921749120482868,
-          "old_ms": 1793470771996,
-          "current_ms": 1793474387161,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793472300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "dc09667137eabf8d5093869e",
-      "asset_id": "488edae9eb560e88659d68a1",
-      "key": "MEXC:PERP:TAGUSDT",
-      "symbol": "TAGUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793474390898,
-      "price": 0.0007707,
-      "level": 0.0007609,
-      "invalid": 0.0007320338269157376,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0007609,
-        "base_invalid": 0.0007320338269157376,
-        "atr": 7.774487228416655e-06,
-        "rvol": 7.7366844722387675,
-        "close_position": 0.9180327868852445,
-        "breakout": true,
-        "bar_close_ms": 1793474100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7740429505135547,
-        "score": 7.918032786885244
-      },
-      "context": {
-        "atr": 7.774487228416655e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7239349072479704,
-        "btc_hour_pct": -0.10493868490583091,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TAGUSDT",
-          "change_pct": 0.3477879946613749,
-          "old_ms": 1793470772300,
-          "current_ms": 1793474387421,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0073,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793474100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TAGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "02bedc3f10610d09b61a0803",
-      "asset_id": "681c60ce69e78b01acc26ded",
-      "key": "MEXC:SPOT:UNIUSDT",
-      "symbol": "UNIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793474387910,
-      "price": 7.111000000000001,
-      "level": 7.138,
-      "invalid": 6.984056605065582,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.138,
-        "base_invalid": 6.984056605065582,
-        "atr": 0.03295596622944917,
-        "rvol": 10.51705987764105,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793474100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.1265288907633888,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.03295596622944917,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.27668357366891216,
-        "btc_hour_pct": -0.10750269110862964,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:UNIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793474100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UNIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "812d0e8d6acd2cfd2f8c47d8",
-      "asset_id": "21369a96f0e80de9645997a8",
-      "key": "OKX:SPOT:LINKUSDT",
-      "symbol": "LINKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793474386170,
-      "price": 11.84,
-      "level": 11.794,
-      "invalid": 11.614423177587193,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 11.794,
-        "base_invalid": 11.614423177587193,
-        "atr": 0.05051214941871075,
-        "rvol": 4.625199908072253,
-        "close_position": 0.919540229885061,
-        "breakout": true,
-        "bar_close_ms": 1793474100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8787646105281155,
-        "score": 6.544740137957314
-      },
-      "context": {
-        "atr": 0.05051214941871075,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7651516018516324,
-        "btc_hour_pct": -0.10545317827382883,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LINKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793474100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LINKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1513853,6 +1513642,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793473501511
+    },
+    {
+      "id": "dc09667137eabf8d5093869e",
+      "asset_id": "488edae9eb560e88659d68a1",
+      "key": "MEXC:PERP:TAGUSDT",
+      "symbol": "TAGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793474390898,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793474400931
+    },
+    {
+      "id": "02bedc3f10610d09b61a0803",
+      "asset_id": "681c60ce69e78b01acc26ded",
+      "key": "MEXC:SPOT:UNIUSDT",
+      "symbol": "UNIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793474387910,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793474400931
+    },
+    {
+      "id": "812d0e8d6acd2cfd2f8c47d8",
+      "asset_id": "21369a96f0e80de9645997a8",
+      "key": "OKX:SPOT:LINKUSDT",
+      "symbol": "LINKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793474386170,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793474400931
     }
   ],
   "runs": [
@@ -1547546,7 +1547368,8 @@
         "entry_seq": 0,
         "cohort": "TAGUSDT",
         "observation_lag_ms": 290898,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10033
       },
       "681c60ce69e78b01acc26ded:radar": {
         "symbol": "UNIUSDT",
@@ -1547568,7 +1547391,8 @@
         "entry_seq": 0,
         "cohort": "UNIUSDT",
         "observation_lag_ms": 287910,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13021
       },
       "21369a96f0e80de9645997a8:radar": {
         "symbol": "LINKUSDT",
@@ -1547590,7 +1547414,8 @@
         "entry_seq": 0,
         "cohort": "LINKUSDT",
         "observation_lag_ms": 286170,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14761
       }
     },
     "errors": [],
@@ -1572780,8 +1572605,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2b0324da6e2eeb225655d6a18e8d996dfe88d7df",
-    "previous_success_ms": 1793474111594,
+    "previous_commit": "e7987812100a9bd757fe2614b185059f5d8d4621",
+    "previous_success_ms": 1793474399972,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
