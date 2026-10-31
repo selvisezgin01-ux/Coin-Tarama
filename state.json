@@ -1512825,58 +1512825,7 @@
       "source_close_ms": 1793487600000
     }
   },
-  "pending": [
-    {
-      "id": "007693b614cb83c197ef9a83",
-      "asset_id": "92f9ff2089692d8ce86c3458",
-      "key": "MEXC:SPOT:ALEOUSDT",
-      "symbol": "ALEOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793488343653,
-      "price": 0.032195,
-      "level": 0.03132,
-      "invalid": 0.031039202616552703,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03132,
-        "base_invalid": 0.031039202616552703,
-        "atr": 0.00027198255631530295,
-        "rvol": 2.226076381085451,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793487600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.564102564102577,
-        "score": 4.226076381085451
-      },
-      "context": {
-        "atr": 0.00027198255631530295,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.7209298454023423,
-        "btc_hour_pct": -0.1568272812997651,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ALEOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793487600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALEOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1517783,6 +1517732,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793487899239
+    },
+    {
+      "id": "007693b614cb83c197ef9a83",
+      "asset_id": "92f9ff2089692d8ce86c3458",
+      "key": "MEXC:SPOT:ALEOUSDT",
+      "symbol": "ALEOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793488343653,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793488354035
     }
   ],
   "runs": [
@@ -1556263,7 +1556223,8 @@
         "entry_seq": 0,
         "cohort": "ALEOUSDT",
         "observation_lag_ms": 743653,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10382
       }
     },
     "errors": [],
@@ -1581786,8 +1581747,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6db0a6922967ef21d1360b6fad5cdc3798cdba48",
-    "previous_success_ms": 1793488334248,
+    "previous_commit": "419837be459d2d14699e4e14875ab65ed08d752b",
+    "previous_success_ms": 1793488352906,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
