@@ -1529118,7 +1529118,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793466452103,
+      "duration_ms": 27667
     }
   ],
   "radar_admissions": [
@@ -1545616,14 +1545618,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793465831933,
+            "endpoint_ms": 1793465880000,
+            "endpoint_price": 0.6434,
+            "return_pct": 0.8147916013788725,
+            "btc_excess_pct_points": 0.8102721508176813,
+            "mae_pct": -0.2663741773738737,
+            "mfe_pct": 1.2065183328110463,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 48067,
+            "measured_ms": 1793466451008,
+            "cost_scenarios_pct": {
+              "0.2": 0.6147916013788726,
+              "0.5": 0.3147916013788725,
+              "1": -0.18520839862112748
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793461500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ETHFIUSDT",
         "observation_lag_ms": 731933,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13371
+        "notification_lag_ms": 13371,
+        "last_measure_attempt_ms": 1793466451008
       },
       "7341122f83ac0866d290d7a4:radar": {
         "symbol": "ETHFIUSDT",
@@ -1545662,14 +1545688,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793465831791,
+            "endpoint_ms": 1793465880000,
+            "endpoint_price": 0.6431,
+            "return_pct": 0.9496899772388323,
+            "btc_excess_pct_points": 0.931571710737833,
+            "mae_pct": -0.16482222745467512,
+            "mfe_pct": 1.373518562122289,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 48209,
+            "measured_ms": 1793466451008,
+            "cost_scenarios_pct": {
+              "0.2": 0.7496899772388324,
+              "0.5": 0.4496899772388323,
+              "1": -0.050310022761167694
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793461500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ETHFIUSDT",
         "observation_lag_ms": 731791,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13513
+        "notification_lag_ms": 13513,
+        "last_measure_attempt_ms": 1793466451008
       },
       "3c2d7785639971ec386b396f:radar": {
         "symbol": "AGLDUSDT",
@@ -1545880,9 +1545930,9 @@
     "errors": [],
     "queue": {
       "due": 88,
-      "attempted": 1,
-      "observed_ms": 1793466160202,
-      "unique_reads": 2
+      "attempted": 2,
+      "observed_ms": 1793466451008,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1545917,8 +1545967,8 @@
             "first_per_symbol": 39,
             "hours": {
               "1": {
-                "known_first_symbols": 37,
-                "median_reference_return_pct": -0.045418885998604885
+                "known_first_symbols": 38,
+                "median_reference_return_pct": 0.013513691509270398
               },
               "4": {
                 "known_first_symbols": 26,
@@ -1545961,8 +1546011,8 @@
             "first_per_symbol": 48,
             "hours": {
               "1": {
-                "known_first_symbols": 46,
-                "median_reference_return_pct": -0.3053195317397783
+                "known_first_symbols": 47,
+                "median_reference_return_pct": -0.23628248884222103
               },
               "4": {
                 "known_first_symbols": 28,
@@ -1570880,8 +1570930,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ab444592f82b1659bf7a4f92cbd08386ecf31bc7",
-    "previous_success_ms": 1793466442502,
+    "previous_commit": "0e2467dd5dd89962417de9424dc89c68f0d80085",
+    "previous_success_ms": 1793466450967,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
