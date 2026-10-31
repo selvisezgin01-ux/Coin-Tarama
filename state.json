@@ -1412811,60 +1412811,7 @@
       "source_close_ms": 1793435400000
     }
   },
-  "pending": [
-    {
-      "id": "7c1f03c1698befb8ffbdc341",
-      "asset_id": "7d705627c9a569eac4d36889",
-      "key": "OKX:SPOT:HBARUSDT",
-      "symbol": "HBARUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793436167443,
-      "price": 0.07216,
-      "level": 0.07198,
-      "invalid": 0.0712858085626796,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07198,
-        "base_invalid": 0.0712858085626796,
-        "atr": 0.00022794291546929216,
-        "rvol": 4.877976749206579,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793435400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7979840403191885,
-        "score": 6.877976749206579
-      },
-      "context": {
-        "atr": 0.00022794291546929216,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3793826606774853,
-        "btc_hour_pct": -0.03012309096527277,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:HBARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HBARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1415670,6 +1415617,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793435878691
+    },
+    {
+      "id": "7c1f03c1698befb8ffbdc341",
+      "asset_id": "7d705627c9a569eac4d36889",
+      "key": "OKX:SPOT:HBARUSDT",
+      "symbol": "HBARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793436167443,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793436179283
     }
   ],
   "runs": [
@@ -1436829,7 +1436787,8 @@
         "entry_seq": 0,
         "cohort": "HBARUSDT",
         "observation_lag_ms": 767443,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11840
       }
     },
     "errors": [],
@@ -1460181,8 +1460140,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "edb83cc3f59623cd63f5bab6b1fd0870459c76b8",
-    "previous_success_ms": 1793435897018,
+    "previous_commit": "078dcdc5a2300b358fee6b29ff0d707d4312dc56",
+    "previous_success_ms": 1793436178193,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
