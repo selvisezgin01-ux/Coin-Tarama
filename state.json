@@ -1375628,262 +1375628,7 @@
       "source_close_ms": 1793416500000
     }
   },
-  "pending": [
-    {
-      "id": "7f314e407aeadb9dcddccab7",
-      "asset_id": "3bd561c4a14904155f765be0",
-      "key": "OKX:SPOT:RENDERUSDT",
-      "symbol": "RENDERUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793416661483,
-      "price": 1.597,
-      "level": 1.554,
-      "invalid": 1.5263323910826463,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.554,
-        "base_invalid": 1.5263323910826463,
-        "atr": 0.011117392782358375,
-        "rvol": 2.200789984085583,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793394000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.06459948320411968,
-        "score": 3.700789984085583
-      },
-      "context": {
-        "atr": 0.010345447095596386,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6818816129339655,
-        "btc_hour_pct": 0.06037757315771053,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:RENDERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793394000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RENDERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e011ec063cf3817a9e59ee31",
-      "asset_id": "dd961387b18f4a59d92cb702",
-      "key": "OKX:PERP:METISUSDT",
-      "symbol": "METISUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793416661319,
-      "price": 2.886,
-      "level": 2.918,
-      "invalid": 2.874238320403314,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.918,
-        "base_invalid": 2.874238320403314,
-        "atr": 0.01841119731123727,
-        "rvol": 4.074377143201863,
-        "close_position": 0.9354838709677484,
-        "breakout": false,
-        "bar_close_ms": 1793412000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4133654839820977,
-        "score": 5.509861014169611
-      },
-      "context": {
-        "atr": 0.018271037186819748,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.4335035244279704,
-        "btc_hour_pct": 0.06129083146055869,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:METISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793412000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "METISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e1a3f20328929cfeb5096304",
-      "asset_id": "e4f0d2325dfd43e6a7a3f3e8",
-      "key": "OKX:SPOT:SPKUSDT",
-      "symbol": "SPKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793416661483,
-      "price": 0.019565,
-      "level": 0.01978,
-      "invalid": 0.01901703608307844,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01978,
-        "base_invalid": 0.01901703608307844,
-        "atr": 0.00021975944614373533,
-        "rvol": 4.308727509861094,
-        "close_position": 0.9142857142857177,
-        "breakout": true,
-        "bar_close_ms": 1793415600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.842159916926269,
-        "score": 6.223013224146811
-      },
-      "context": {
-        "atr": 0.00027044092277638156,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.7817823437685583,
-        "btc_hour_pct": 0.06037757315771053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SPKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793415600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3fefec545b15dbcb471fe3a2",
-      "asset_id": "ef0fa36e2779b1be8c40006d",
-      "key": "OKX:SPOT:FLOKIUSDT",
-      "symbol": "FLOKIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793416661483,
-      "price": 2.408e-05,
-      "level": 2.42e-05,
-      "invalid": 2.3799178688364747e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.42e-05,
-        "base_invalid": 2.3799178688364747e-05,
-        "atr": 1.3880874423500747e-07,
-        "rvol": 3.9362637776916816,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793416500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6691760769552468,
-        "score": 5.436263777691682
-      },
-      "context": {
-        "atr": 1.3880874423500747e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.2687109064910542,
-        "btc_hour_pct": 0.06037757315771053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLOKIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793416500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOKIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a1618a773fb2f1aa1fbfbb13",
-      "asset_id": "3292462cb1ba8ca37a8bd597",
-      "key": "OKX:PERP:FLOKIUSDT",
-      "symbol": "FLOKIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793416661319,
-      "price": 2.404e-05,
-      "level": 2.425e-05,
-      "invalid": 2.3765078059618543e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.425e-05,
-        "base_invalid": 2.3765078059618543e-05,
-        "atr": 1.6614626920972182e-07,
-        "rvol": 2.933175357180861,
-        "close_position": 0.9047619047619055,
-        "breakout": false,
-        "bar_close_ms": 1793416500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6278777731268281,
-        "score": 4.337937261942766
-      },
-      "context": {
-        "atr": 1.6614626920972182e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.4779574981272239,
-        "btc_hour_pct": 0.06129083146055869,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FLOKIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793416500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOKIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1377831,6 +1377576,50 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793416367033
+    },
+    {
+      "id": "e011ec063cf3817a9e59ee31",
+      "asset_id": "dd961387b18f4a59d92cb702",
+      "key": "OKX:PERP:METISUSDT",
+      "symbol": "METISUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793416661319,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793416670239
+    },
+    {
+      "id": "e1a3f20328929cfeb5096304",
+      "asset_id": "e4f0d2325dfd43e6a7a3f3e8",
+      "key": "OKX:SPOT:SPKUSDT",
+      "symbol": "SPKUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793416661483,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793416670239
+    },
+    {
+      "id": "3fefec545b15dbcb471fe3a2",
+      "asset_id": "ef0fa36e2779b1be8c40006d",
+      "key": "OKX:SPOT:FLOKIUSDT",
+      "symbol": "FLOKIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793416661483,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793416670239
+    },
+    {
+      "id": "a1618a773fb2f1aa1fbfbb13",
+      "asset_id": "3292462cb1ba8ca37a8bd597",
+      "key": "OKX:PERP:FLOKIUSDT",
+      "symbol": "FLOKIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793416661319,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793416670239
     }
   ],
   "runs": [
@@ -1392644,7 +1392433,8 @@
         "entry_seq": 0,
         "cohort": "FLOKIUSDT",
         "observation_lag_ms": 161483,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8756
       },
       "3292462cb1ba8ca37a8bd597:radar": {
         "symbol": "FLOKIUSDT",
@@ -1392666,7 +1392456,8 @@
         "entry_seq": 0,
         "cohort": "FLOKIUSDT",
         "observation_lag_ms": 161319,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8920
       }
     },
     "errors": [],
@@ -1415329,8 +1415120,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d616fd5161c46e2cb9857c337198aeca0897654c",
-    "previous_success_ms": 1793416381695,
+    "previous_commit": "75e30e33afd6b80ab5ddc1aa2d31f3c50779fa10",
+    "previous_success_ms": 1793416668917,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
