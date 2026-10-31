@@ -1433638,166 +1433638,7 @@
       "source_close_ms": 1793445300000
     }
   },
-  "pending": [
-    {
-      "id": "d971c039e1d4a9527bf3c156",
-      "asset_id": "3e9414b980042bde6ace0ed8",
-      "key": "MEXC:SPOT:QNTUSDT",
-      "symbol": "QNTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793445600047,
-      "price": 197.26,
-      "level": 195.73,
-      "invalid": 191.7826711296398,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 195.73,
-        "base_invalid": 191.7826711296398,
-        "atr": 1.1821924690681211,
-        "rvol": 6.3783067301409515,
-        "close_position": 0.8770053475935886,
-        "breakout": true,
-        "bar_close_ms": 1793439000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.016066338429656,
-        "score": 7.877005347593588
-      },
-      "context": {
-        "atr": 1.174139498687974,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4353243088293879,
-        "btc_hour_pct": -0.07023686407253704,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:QNTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793439000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "QNTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fd148cc98217eee556482839",
-      "asset_id": "f11c701bb483daa31acd43f8",
-      "key": "MEXC:PERP:UAIUSDT",
-      "symbol": "UAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793445600715,
-      "price": 0.28725,
-      "level": 0.2866,
-      "invalid": 0.2704504933514051,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2866,
-        "base_invalid": 0.2704504933514051,
-        "atr": 0.004330044323966271,
-        "rvol": 81.32957334695666,
-        "close_position": 0.923076923076922,
-        "breakout": true,
-        "bar_close_ms": 1793440800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.712626995645854,
-        "score": 7.923076923076922
-      },
-      "context": {
-        "atr": 0.005396972542292668,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.14277714592761948,
-        "btc_hour_pct": -0.07477306568278719,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:UAIUSDT",
-          "change_pct": -14.134100876218902,
-          "old_ms": 1793441984129,
-          "current_ms": 1793445597274,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0089,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793440800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "92faf1165a66674c737d4d49",
-      "asset_id": "f690a60790381bdb6acb868f",
-      "key": "OKX:PERP:GPSUSDT",
-      "symbol": "GPSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793445602895,
-      "price": 0.007677,
-      "level": 0.007689,
-      "invalid": 0.007586200896741945,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007689,
-        "base_invalid": 0.007586200896741945,
-        "atr": 4.532735505370051e-05,
-        "rvol": 2.1874235130468085,
-        "close_position": 0.7289719626168197,
-        "breakout": true,
-        "bar_close_ms": 1793442600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9425317449927917,
-        "score": 3.916395475663628
-      },
-      "context": {
-        "atr": 4.282721688566404e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3379394767405794,
-        "btc_hour_pct": -0.061623687266887384,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GPSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793442600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GPSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1436944,6 +1436785,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793445007182
+    },
+    {
+      "id": "d971c039e1d4a9527bf3c156",
+      "asset_id": "3e9414b980042bde6ace0ed8",
+      "key": "MEXC:SPOT:QNTUSDT",
+      "symbol": "QNTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793445600047,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793445612929
+    },
+    {
+      "id": "fd148cc98217eee556482839",
+      "asset_id": "f11c701bb483daa31acd43f8",
+      "key": "MEXC:PERP:UAIUSDT",
+      "symbol": "UAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793445600715,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793445612929
+    },
+    {
+      "id": "92faf1165a66674c737d4d49",
+      "asset_id": "f690a60790381bdb6acb868f",
+      "key": "OKX:PERP:GPSUSDT",
+      "symbol": "GPSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793445602895,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793445612929
     }
   ],
   "runs": [
@@ -1484927,8 +1484801,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7fd80c2999b80a495552d8e1ceafc54349e518a3",
-    "previous_success_ms": 1793445324216,
+    "previous_commit": "1b45619f435845510ba0ca5c192ff3a0779f8589",
+    "previous_success_ms": 1793445611698,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
