@@ -1398278,164 +1398278,7 @@
       "source_close_ms": 1793424600000
     }
   },
-  "pending": [
-    {
-      "id": "cc561631087d7de0aaa8b395",
-      "asset_id": "5e29891b863b8317be1dd30c",
-      "key": "OKX:PERP:RECALLUSDT",
-      "symbol": "RECALLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793425764058,
-      "price": 0.033085,
-      "level": 0.03115,
-      "invalid": 0.029249867186653213,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03115,
-        "base_invalid": 0.029249867186653213,
-        "atr": 0.0008008854223119181,
-        "rvol": 13.446942036609904,
-        "close_position": 0.6853932584269675,
-        "breakout": true,
-        "bar_close_ms": 1793403000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 10.0762346702022,
-        "score": 7.685393258426967
-      },
-      "context": {
-        "atr": 0.0005408019864383085,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.327593901866254,
-        "btc_hour_pct": 0.04020387254075608,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RECALLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793403000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RECALLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "451425bd94562133aec0c2dd",
-      "asset_id": "0ac1090173149f11ea056bb5",
-      "key": "OKX:PERP:AGLDUSDT",
-      "symbol": "AGLDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793425764058,
-      "price": 0.1874,
-      "level": 0.188,
-      "invalid": 0.18390433322389055,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.188,
-        "base_invalid": 0.18390433322389055,
-        "atr": 0.001304445174063116,
-        "rvol": 2.88317733157102,
-        "close_position": 0.7000000000000055,
-        "breakout": false,
-        "bar_close_ms": 1793417400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5888650963597586,
-        "score": 4.083177331571026
-      },
-      "context": {
-        "atr": 0.001830881411300284,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.0318531418518129,
-        "btc_hour_pct": 0.04020387254075608,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AGLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793417400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3b453e39b4afa07ad7eced27",
-      "asset_id": "7ee2f5b6b51c2b9032311dd4",
-      "key": "MEXC:PERP:SOMIUSDT",
-      "symbol": "SOMIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793425764364,
-      "price": 0.19475,
-      "level": 0.198,
-      "invalid": 0.19487459792729703,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.198,
-        "base_invalid": 0.19487459792729703,
-        "atr": 0.0015026804846863878,
-        "rvol": 3.5906758029639074,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793422800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9197751660705134,
-        "score": 5.090675802963908
-      },
-      "context": {
-        "atr": 0.00168408712332029,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8894373663388855,
-        "btc_hour_pct": 0.030337799731627868,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOMIUSDT",
-          "change_pct": -4.170628788779274,
-          "old_ms": 1793422150417,
-          "current_ms": 1793425760525,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0039,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793422800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOMIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1400735,6 +1400578,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793425469679
+    },
+    {
+      "id": "cc561631087d7de0aaa8b395",
+      "asset_id": "5e29891b863b8317be1dd30c",
+      "key": "OKX:PERP:RECALLUSDT",
+      "symbol": "RECALLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793425764058,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793425774372
+    },
+    {
+      "id": "451425bd94562133aec0c2dd",
+      "asset_id": "0ac1090173149f11ea056bb5",
+      "key": "OKX:PERP:AGLDUSDT",
+      "symbol": "AGLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793425764058,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793425774372
+    },
+    {
+      "id": "3b453e39b4afa07ad7eced27",
+      "asset_id": "7ee2f5b6b51c2b9032311dd4",
+      "key": "MEXC:PERP:SOMIUSDT",
+      "symbol": "SOMIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793425764364,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793425774372
     }
   ],
   "runs": [
@@ -1441437,8 +1441313,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2ee079a28d6006e07014658675e1c9324be71cb6",
-    "previous_success_ms": 1793425489419,
+    "previous_commit": "e63ca928c5fcd22cbde8b1f0c4627e116f3a5b03",
+    "previous_success_ms": 1793425772817,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
