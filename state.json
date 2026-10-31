@@ -1509746,68 +1509746,7 @@
       "source_close_ms": 1793480400000
     }
   },
-  "pending": [
-    {
-      "id": "532a5905b75b8b378bd29abe",
-      "asset_id": "7197765fd6abc160012a8e5b",
-      "key": "MEXC:SPOT:AIOTUSDT",
-      "symbol": "AIOTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793484288360,
-      "price": 0.0873525,
-      "level": 0.086454,
-      "invalid": 0.08623261939942285,
-      "target": 0.09090254870115429,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.086454,
-        "base_invalid": 0.08371861939942285,
-        "atr": 0.001542537337180965,
-        "rvol": 3.42037467492953,
-        "close_position": 0.6710182767624044,
-        "breakout": true,
-        "bar_close_ms": 1793481300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8330751537342316,
-        "score": 5.091392951691934
-      },
-      "context": {
-        "atr": 0.0014225361828576128,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.472807331718796,
-        "btc_hour_pct": 0.15222785642046155,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AIOTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.08623261939942285,
-        "target": 0.09090254870115429,
-        "risk_pct": 1.2820246708189775,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.091855,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.087218,
-        "entry_zone_high": 0.08792926809142881
-      },
-      "reason": null,
-      "source_close_ms": 1793484000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "AIOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1514549,6 +1514488,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793483395879
+    },
+    {
+      "id": "532a5905b75b8b378bd29abe",
+      "asset_id": "7197765fd6abc160012a8e5b",
+      "key": "MEXC:SPOT:AIOTUSDT",
+      "symbol": "AIOTUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793484288360,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793484298902
     }
   ],
   "runs": [
@@ -1551600,7 +1551550,8 @@
         "entry_seq": 1,
         "cohort": "AIOTUSDT",
         "observation_lag_ms": 288360,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 10542
       }
     },
     "errors": [],
@@ -1577031,8 +1576982,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5692a0ce09827010979bd379f24dadd5b53c4c5d",
-    "previous_success_ms": 1793484013947,
+    "previous_commit": "68b02020cd9d1b992a7fb94bd961f39a512d9021",
+    "previous_success_ms": 1793484297567,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
