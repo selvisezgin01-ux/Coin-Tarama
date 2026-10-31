@@ -1515468,110 +1515468,7 @@
       "source_close_ms": 1793488500000
     }
   },
-  "pending": [
-    {
-      "id": "2f37c9f57461daf5dd0f176e",
-      "asset_id": "155564c58e29e46f0fa1d2e1",
-      "key": "MEXC:SPOT:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793489242081,
-      "price": 0.03015,
-      "level": 0.03098,
-      "invalid": 0.02980989639849737,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03098,
-        "base_invalid": 0.02980989639849737,
-        "atr": 0.00026735734335087857,
-        "rvol": 2.962212076006901,
-        "close_position": 0.8461538461538524,
-        "breakout": false,
-        "bar_close_ms": 1793466900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6548788474132206,
-        "score": 4.308365922160753
-      },
-      "context": {
-        "atr": 0.00018711696193751494,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.00846197489857703,
-        "btc_hour_pct": -0.1568272812997651,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793466900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2168a2ff813c7cf66ffb0d18",
-      "asset_id": "194a056e28742ce5711d6cf0",
-      "key": "OKX:SPOT:DATAUSDT",
-      "symbol": "DATAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793489240571,
-      "price": 0.13055,
-      "level": 0.1325,
-      "invalid": 0.13060536387290916,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1325,
-        "base_invalid": 0.13060536387290916,
-        "atr": 0.0006309075139389713,
-        "rvol": 2.680199197369861,
-        "close_position": 0.7500000000000058,
-        "breakout": false,
-        "bar_close_ms": 1793477700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.07598784194529085,
-        "score": 3.9301991973698667
-      },
-      "context": {
-        "atr": 0.0007120454353216568,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.456174086367922,
-        "btc_hour_pct": -0.14942773043752355,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DATAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793477700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DATAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1520522,6 +1520419,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793488659299
+    },
+    {
+      "id": "2f37c9f57461daf5dd0f176e",
+      "asset_id": "155564c58e29e46f0fa1d2e1",
+      "key": "MEXC:SPOT:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793489242081,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793489254324
+    },
+    {
+      "id": "2168a2ff813c7cf66ffb0d18",
+      "asset_id": "194a056e28742ce5711d6cf0",
+      "key": "OKX:SPOT:DATAUSDT",
+      "symbol": "DATAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793489240571,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793489254324
     }
   ],
   "runs": [
@@ -1584791,8 +1584710,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a0ed58c17c40524319f1bf0efb25951aded1867b",
-    "previous_success_ms": 1793488977697,
+    "previous_commit": "65def0ece4530b0c5c8d0e86e7836534f196a579",
+    "previous_success_ms": 1793489252900,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
