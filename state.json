@@ -1473678,322 +1473678,7 @@
       "source_close_ms": 1793456100000
     }
   },
-  "pending": [
-    {
-      "id": "524c0e5e02e1bfd84959bc40",
-      "asset_id": "ab00f331a65d0685dc07bc41",
-      "key": "OKX:SPOT:APTUSDT",
-      "symbol": "APTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793456381163,
-      "price": 0.6366499999999999,
-      "level": 0.6359,
-      "invalid": 0.6300593522690794,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6359,
-        "base_invalid": 0.6300593522690794,
-        "atr": 0.0029376515394702904,
-        "rvol": 2.931520966593719,
-        "close_position": 0.6666666666666755,
-        "breakout": false,
-        "bar_close_ms": 1793439900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6969744970695579,
-        "score": 4.098187633260395
-      },
-      "context": {
-        "atr": 0.002747901104179611,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.48688552724048817,
-        "btc_hour_pct": -0.04386689236612895,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:APTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793439900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "74ec283dbf81e0b82ab8de7c",
-      "asset_id": "b4bb1ed14fcf3235abe30733",
-      "key": "MEXC:PERP:EGLDUSDT",
-      "symbol": "EGLDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793456378557,
-      "price": 3.4065000000000003,
-      "level": 3.415,
-      "invalid": 3.3250374455959553,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.415,
-        "base_invalid": 3.3250374455959553,
-        "atr": 0.019750362693630043,
-        "rvol": 2.7633185135890694,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793450700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.14658457930225577,
-        "score": 4.26331851358907
-      },
-      "context": {
-        "atr": 0.020359893237896002,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.599863533419509,
-        "btc_hour_pct": -0.04218815918998198,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:EGLDUSDT",
-          "change_pct": 5.199800850557956,
-          "old_ms": 1793452923428,
-          "current_ms": 1793456377365,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0059,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793450700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bde38ed5697cb2ce026a1099",
-      "asset_id": "bf4e6644df3d6cb5816b6a43",
-      "key": "MEXC:PERP:LSKUSDT",
-      "symbol": "LSKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793456378557,
-      "price": 0.292235,
-      "level": 0.29438,
-      "invalid": 0.2574965517462209,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.29438,
-        "base_invalid": 0.2574965517462209,
-        "atr": 0.012822988358527201,
-        "rvol": 7.40385866742656,
-        "close_position": 0.706673842841766,
-        "breakout": true,
-        "bar_close_ms": 1793453400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.959379070013027,
-        "score": 7.7066738428417665
-      },
-      "context": {
-        "atr": 0.013593482714363895,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 9.517690787190146,
-        "btc_hour_pct": -0.04218815918998198,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LSKUSDT",
-          "change_pct": -28.717142307235555,
-          "old_ms": 1793452923043,
-          "current_ms": 1793456376992,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.1946,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793453400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LSKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aa6d3dd062c8c0a3f91806be",
-      "asset_id": "96358feaffc9fbca79f9c20d",
-      "key": "OKX:SPOT:LSKUSDT",
-      "symbol": "LSKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793456381163,
-      "price": 0.29113,
-      "level": 0.29498,
-      "invalid": 0.2604922599945411,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.29498,
-        "base_invalid": 0.2604922599945411,
-        "atr": 0.01318493336972575,
-        "rvol": 3.0202504470160614,
-        "close_position": 0.6862464183381083,
-        "breakout": true,
-        "bar_close_ms": 1793453400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.316642638630054,
-        "score": 4.70649686535417
-      },
-      "context": {
-        "atr": 0.014084421764776736,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 9.597701700625706,
-        "btc_hour_pct": -0.04386689236612895,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LSKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793453400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LSKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a09feb24f0d35d1141df2798",
-      "asset_id": "c03869c73b6a593ae84b140e",
-      "key": "OKX:PERP:XDPUSDT",
-      "symbol": "XDPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793456379094,
-      "price": 0.017544999999999998,
-      "level": 0.01764,
-      "invalid": 0.017334764109602576,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01764,
-        "base_invalid": 0.017334764109602576,
-        "atr": 0.00010157260264949942,
-        "rvol": 29.501285013088218,
-        "close_position": 0.6666666666666602,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3979533826037329,
-        "score": 7.66666666666666
-      },
-      "context": {
-        "atr": 0.00010884605779694858,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0664551840078085,
-        "btc_hour_pct": -0.037295664282233076,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:XDPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "492ea246be5a90f5875d7527",
-      "asset_id": "320fd7af5c008b7582bedb7b",
-      "key": "OKX:SPOT:XDPUSDT",
-      "symbol": "XDPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793456381163,
-      "price": 0.0175525,
-      "level": 0.01765,
-      "invalid": 0.01736401583940449,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01765,
-        "base_invalid": 0.01736401583940449,
-        "atr": 9.322773730340073e-05,
-        "rvol": 10.816360132558577,
-        "close_position": 0.6564417177914186,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3864075463120953,
-        "score": 7.656441717791418
-      },
-      "context": {
-        "atr": 0.000100695565399899,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.779832205008768,
-        "btc_hour_pct": -0.04386689236612895,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XDPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1477613,6 +1477298,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793455494764
+    },
+    {
+      "id": "524c0e5e02e1bfd84959bc40",
+      "asset_id": "ab00f331a65d0685dc07bc41",
+      "key": "OKX:SPOT:APTUSDT",
+      "symbol": "APTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793456381163,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793456391543
+    },
+    {
+      "id": "74ec283dbf81e0b82ab8de7c",
+      "asset_id": "b4bb1ed14fcf3235abe30733",
+      "key": "MEXC:PERP:EGLDUSDT",
+      "symbol": "EGLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793456378557,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793456391543
+    },
+    {
+      "id": "bde38ed5697cb2ce026a1099",
+      "asset_id": "bf4e6644df3d6cb5816b6a43",
+      "key": "MEXC:PERP:LSKUSDT",
+      "symbol": "LSKUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793456378557,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793456391543
+    },
+    {
+      "id": "aa6d3dd062c8c0a3f91806be",
+      "asset_id": "96358feaffc9fbca79f9c20d",
+      "key": "OKX:SPOT:LSKUSDT",
+      "symbol": "LSKUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793456381163,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793456391543
+    },
+    {
+      "id": "a09feb24f0d35d1141df2798",
+      "asset_id": "c03869c73b6a593ae84b140e",
+      "key": "OKX:PERP:XDPUSDT",
+      "symbol": "XDPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793456379094,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793456391543
+    },
+    {
+      "id": "492ea246be5a90f5875d7527",
+      "asset_id": "320fd7af5c008b7582bedb7b",
+      "key": "OKX:SPOT:XDPUSDT",
+      "symbol": "XDPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793456381163,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793456391543
     }
   ],
   "runs": [
@@ -1529562,8 +1529313,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9f0509f5913a77ac10c9b3ed8b459b2c04368fa2",
-    "previous_success_ms": 1793456104999,
+    "previous_commit": "6c420e7e612e35a3eeab636b50a16f28fd9ebfea",
+    "previous_success_ms": 1793456389957,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
