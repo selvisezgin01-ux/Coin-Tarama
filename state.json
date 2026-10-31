@@ -6771,38 +6771,6 @@
       ],
       "last_quote_attempt_ms": 1793468982605
     },
-    "bnb:0xed9acd12dc82957a935be4cc0e8d514735d1ffff": {
-      "chain": "bnb",
-      "mint": "0xed9acd12dc82957a935be4cc0e8d514735d1ffff",
-      "first_seen_ms": 1793386420328,
-      "pools": {
-        "0xed9acd12dc82957a935be4cc0e8d514735d1ffff": {
-          "created_ms": 1793385338000,
-          "first_seen_ms": 1793386420328
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793467822095
-    },
-    "bnb:0xf82a5063873c63c137a153872d0d75c9600dffff": {
-      "chain": "bnb",
-      "mint": "0xf82a5063873c63c137a153872d0d75c9600dffff",
-      "first_seen_ms": 1793386420328,
-      "pools": {
-        "0xf82a5063873c63c137a153872d0d75c9600dffff": {
-          "created_ms": 1793385337000,
-          "first_seen_ms": 1793386420328
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793468886344
-    },
     "bnb:0x0dee012c2f5871c01b5fccc547d1caa30cfaffff": {
       "chain": "bnb",
       "mint": "0x0dee012c2f5871c01b5fccc547d1caa30cfaffff",
@@ -6810,22 +6778,6 @@
       "pools": {
         "0x0dee012c2f5871c01b5fccc547d1caa30cfaffff": {
           "created_ms": 1793385450000,
-          "first_seen_ms": 1793386420328
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793467762088
-    },
-    "bnb:0x8d44d337f7e4a5d49873ca063d0d03305587ffff": {
-      "chain": "bnb",
-      "mint": "0x8d44d337f7e4a5d49873ca063d0d03305587ffff",
-      "first_seen_ms": 1793386420328,
-      "pools": {
-        "0x8d44d337f7e4a5d49873ca063d0d03305587ffff": {
-          "created_ms": 1793385340000,
           "first_seen_ms": 1793386420328
         }
       },
@@ -12883,40 +12835,6 @@
         "pool_age_over_24h_identity_preserved"
       ],
       "last_quote_attempt_ms": 1793469756108
-    },
-    "robinhood:0xe00811800fbb3b6e8b82ff9f547030669bce592e": {
-      "chain": "robinhood",
-      "mint": "0xe00811800fbb3b6e8b82ff9f547030669bce592e",
-      "first_seen_ms": 1793385833118,
-      "pools": {
-        "0xd00847673e306a5bda1c59fd60b9614d82bc560e349024b4199bbffffee8eeea": {
-          "created_ms": 1793385361000,
-          "first_seen_ms": 1793385833118
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793471711646,
-      "decision": {
-        "at_ms": 1793471712695,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "liquidity_usd"
-        ],
-        "pool": "0xd00847673e306a5bda1c59fd60b9614d82bc560e349024b4199bbffffee8eeea"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391381778,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "liquidity_usd"
-          ],
-          "pool": "0xd00847673e306a5bda1c59fd60b9614d82bc560e349024b4199bbffffee8eeea"
-        }
-      ]
     },
     "robinhood:0x0846d4d1f5c6cbbe9bec47774256fdd684167b6d": {
       "chain": "robinhood",
@@ -695649,233 +695567,6 @@
         "valuation_kind": "market_cap_provider_reported",
         "valuation_usd": 45170.0,
         "pool_age_minutes": 1433.647
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "robinhood:0xe00811800fbb3b6e8b82ff9f547030669bce592e": {
-      "first_seen_ms": 1793391381778,
-      "observations": [
-        {
-          "ms": 1793391381394,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793391746279,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793392088345,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793392419791,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793392899744,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793393401283,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793393941247,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793394562948,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793395222978,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793396078526,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793396858500,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793397720414,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793398806317,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793399966343,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793400888472,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793401488154,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793402412461,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793403770776,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793404874211,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793406039401,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793407391007,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793409072743,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793410477154,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793412847161,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793415388007,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793418305556,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793421693613,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793425591465,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793429113185,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793433662869,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793438513772,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793444014872,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793450196406,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793456913710,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793463784244,
-          "price": 5.231e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793471712348,
-          "price": 5.231e-05,
-          "liquidity": null
-        }
-      ],
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0xe00811800fbb3b6e8b82ff9f547030669bce592e",
-        "pool": "0xd00847673e306a5bda1c59fd60b9614d82bc560e349024b4199bbffffee8eeea",
-        "symbol": "LOUD",
-        "dex": "uniswap",
-        "price_usd": 5.231e-05,
-        "price_observed_ms": 1793471712348,
-        "observed_ms": 1793471712348,
-        "liquidity_usd": null,
-        "market_cap_usd": 52319.0,
-        "fdv_usd": 52319.0,
-        "pool_created_ms": 1793385361000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [],
-        "unknown": [
-          "liquidity_usd"
-        ],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 52319.0,
-        "pool_age_minutes": 1439.1949166666666
       },
       "activity": {
         "passed": false,
@@ -2390820,7 +2390511,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793479002350
     }
   ],
   "archive": {
@@ -2464902,8 +2464594,8 @@
     }
   },
   "publication": {
-    "commit": "c75816a0f3e04309bef1811705bd06b79844f18a",
-    "success_ms": 1793478914060,
+    "commit": "807e58de4b418837184606b1e31d7bbbee460339",
+    "success_ms": 1793479002264,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
@@ -2474092,6 +2473784,18 @@
         "robinhood:0x7396a951f2a7beea02bd888d169ade82c3210087"
       ],
       "count": 28,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "807e58de4b418837184606b1e31d7bbbee460339",
+      "archived_ms": 1793479002330,
+      "keys": [
+        "bnb:0xed9acd12dc82957a935be4cc0e8d514735d1ffff",
+        "bnb:0xf82a5063873c63c137a153872d0d75c9600dffff",
+        "bnb:0x8d44d337f7e4a5d49873ca063d0d03305587ffff",
+        "robinhood:0xe00811800fbb3b6e8b82ff9f547030669bce592e"
+      ],
+      "count": 4,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
