@@ -94,7 +94,7 @@ Kimlik defteri: 10464 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | Wojak `0xa0dcba5929c363d5f4550c0fdcbbdc869e7a0e05` | robinhood | 31.10.2026 14:41 | 85313.0 | Bekliyor |
+| 🟡 ERKEN RADAR | Wojak `0xa0dcba5929c363d5f4550c0fdcbbdc869e7a0e05` | robinhood | 31.10.2026 14:41 | 85313.0 | [Issue #458](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/458) |
 | 🟡 ERKEN RADAR | VAMPCAT `0xb98e38a10997e52444b802f8ddebb8e29bba05bb` | robinhood | 31.10.2026 14:17 | 342548.0 | [Issue #450](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/450) |
 | 🟡 ERKEN RADAR | SB `0x6107686a33f30cd7677a5f75c7509c7a61756fbd` | bnb | 31.10.2026 14:10 | 93778.0 | [Issue #448](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/448) |
 | 🟡 ERKEN RADAR | Garrett `7H69zC4jZXBqrHQYT2KZUoatSizMJpp26V7H3SAkpump` | solana | 31.10.2026 14:07 | 341721.0 | [Issue #445](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/445) |
