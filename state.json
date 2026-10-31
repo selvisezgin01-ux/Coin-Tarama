@@ -1399400,266 +1399400,7 @@
       "source_close_ms": 1793426400000
     }
   },
-  "pending": [
-    {
-      "id": "68b59dd1f14d3b16bab4eb28",
-      "asset_id": "0fc4b233db189d9514f60c68",
-      "key": "MEXC:PERP:SPKUSDT",
-      "symbol": "SPKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793427649903,
-      "price": 0.019275,
-      "level": 0.01883,
-      "invalid": 0.018288566780930236,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01883,
-        "base_invalid": 0.018288566780930236,
-        "atr": 0.0001428881271317681,
-        "rvol": 3.8784931159937086,
-        "close_position": 0.7692307692307548,
-        "breakout": true,
-        "bar_close_ms": 1793404800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6403415154749181,
-        "score": 5.647723885224464
-      },
-      "context": {
-        "atr": 0.00039606329089875636,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3561911031538143,
-        "btc_hour_pct": 0.10109532900697271,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SPKUSDT",
-          "change_pct": 27.49305007384446,
-          "old_ms": 1793423949163,
-          "current_ms": 1793427647138,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0378,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793404800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "074267976ccbda127e3584bd",
-      "asset_id": "694f8a786753043e3d5a8ef3",
-      "key": "OKX:PERP:SPKUSDT",
-      "symbol": "SPKUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793427649941,
-      "price": 0.019285,
-      "level": 0.01883,
-      "invalid": 0.018277354371004473,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01883,
-        "base_invalid": 0.018277354371004473,
-        "atr": 0.000150970859970176,
-        "rvol": 3.367355101110191,
-        "close_position": 0.6428571428571358,
-        "breakout": true,
-        "bar_close_ms": 1793404800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6948156066274525,
-        "score": 5.010212243967327
-      },
-      "context": {
-        "atr": 0.00046013981699805296,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.412144924138703,
-        "btc_hour_pct": 0.0946355881666694,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SPKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793404800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "25d6bcd1aaf2e65eb1c863f3",
-      "asset_id": "7748be78f48ac280b5966293",
-      "key": "MEXC:PERP:MAGMAUSDT",
-      "symbol": "MAGMAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793427649903,
-      "price": 0.39139999999999997,
-      "level": 0.38297,
-      "invalid": 0.3704292753451194,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.38297,
-        "base_invalid": 0.3704292753451194,
-        "atr": 0.005138164365870797,
-        "rvol": 3.5539101968643476,
-        "close_position": 0.8994652406417113,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.7075592568866167,
-        "score": 5.453375437506059
-      },
-      "context": {
-        "atr": 0.005138164365870797,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.9116790792373495,
-        "btc_hour_pct": 0.10109532900697271,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MAGMAUSDT",
-          "change_pct": 0.4781928452678441,
-          "old_ms": 1793423948953,
-          "current_ms": 1793427646991,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0336,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "861e3d78f0f14637caccbc08",
-      "asset_id": "87f82c899b37f9174c9586b3",
-      "key": "MEXC:SPOT:MAGMAUSDT",
-      "symbol": "MAGMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793427648948,
-      "price": 0.39078500000000005,
-      "level": 0.38193,
-      "invalid": 0.37096056523765897,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.38193,
-        "base_invalid": 0.37096056523765897,
-        "atr": 0.004329565082273674,
-        "rvol": 2.5675063523036945,
-        "close_position": 0.7903043968432948,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.585092436525139,
-        "score": 4.3578107491469895
-      },
-      "context": {
-        "atr": 0.004329565082273674,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.181972447075431,
-        "btc_hour_pct": 0.08305149438903037,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MAGMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fce4d7b21a2fc522ce6cc409",
-      "asset_id": "9c6dabf177f2ef502bd2e244",
-      "key": "OKX:SPOT:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793427649272,
-      "price": 0.02919,
-      "level": 0.02907,
-      "invalid": 0.028637258296355734,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02907,
-        "base_invalid": 0.028637258296355734,
-        "atr": 0.00021827802429510637,
-        "rvol": 2.158288570669162,
-        "close_position": 0.6170212765957469,
-        "breakout": true,
-        "bar_close_ms": 1793427300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.003807545863622,
-        "score": 3.775309847264909
-      },
-      "context": {
-        "atr": 0.00021827802429510637,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.19272453056529137,
-        "btc_hour_pct": 0.08514973133120218,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793427300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1401992,6 +1401733,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793425774372
+    },
+    {
+      "id": "68b59dd1f14d3b16bab4eb28",
+      "asset_id": "0fc4b233db189d9514f60c68",
+      "key": "MEXC:PERP:SPKUSDT",
+      "symbol": "SPKUSDT",
+      "phase": "expired",
+      "observed_ms": 1793427649903,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427658539
+    },
+    {
+      "id": "074267976ccbda127e3584bd",
+      "asset_id": "694f8a786753043e3d5a8ef3",
+      "key": "OKX:PERP:SPKUSDT",
+      "symbol": "SPKUSDT",
+      "phase": "expired",
+      "observed_ms": 1793427649941,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427658539
+    },
+    {
+      "id": "25d6bcd1aaf2e65eb1c863f3",
+      "asset_id": "7748be78f48ac280b5966293",
+      "key": "MEXC:PERP:MAGMAUSDT",
+      "symbol": "MAGMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793427649903,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427658539
+    },
+    {
+      "id": "861e3d78f0f14637caccbc08",
+      "asset_id": "87f82c899b37f9174c9586b3",
+      "key": "MEXC:SPOT:MAGMAUSDT",
+      "symbol": "MAGMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793427648948,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427658539
+    },
+    {
+      "id": "fce4d7b21a2fc522ce6cc409",
+      "asset_id": "9c6dabf177f2ef502bd2e244",
+      "key": "OKX:SPOT:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793427649272,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793427658539
     }
   ],
   "runs": [
@@ -1420270,7 +1420066,8 @@
         "entry_seq": 0,
         "cohort": "MAGMAUSDT",
         "observation_lag_ms": 349903,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8636
       },
       "87f82c899b37f9174c9586b3:radar": {
         "symbol": "MAGMAUSDT",
@@ -1420292,7 +1420089,8 @@
         "entry_seq": 0,
         "cohort": "MAGMAUSDT",
         "observation_lag_ms": 348948,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9591
       },
       "9c6dabf177f2ef502bd2e244:radar": {
         "symbol": "MERLUSDT",
@@ -1420314,7 +1420112,8 @@
         "entry_seq": 0,
         "cohort": "MERLUSDT",
         "observation_lag_ms": 349272,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9267
       }
     },
     "errors": [],
@@ -1443335,8 +1443134,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "de02d3cd271622a9956eff4ce6ef1778c40cf505",
-    "previous_success_ms": 1793427636459,
+    "previous_commit": "0b157ff1cec6bc54cc5322ab1d99298bb468b2c8",
+    "previous_success_ms": 1793427657076,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
