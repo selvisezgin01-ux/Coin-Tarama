@@ -151848,201 +151848,6 @@
         }
       ]
     },
-    "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff": {
-      "chain": "hyperevm",
-      "mint": "0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0x6cb196396e349c91e5543db7d5d01dbe667faad7": {
-          "created_ms": 1793309700000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff": {
-      "chain": "hyperevm",
-      "mint": "0x31538bc41c9a171707db639e0830f5f15184cfff",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0x48d015286f368870e0f0e00c3e28801dec5098b6": {
-          "created_ms": 1793309400000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e": {
-      "chain": "hyperevm",
-      "mint": "0xee31509a163002f82ae8fc1f31687aa0a3af771e",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0xf26f89b9273757856a827444e629d92688ec818c": {
-          "created_ms": 1793308080000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b": {
-      "chain": "hyperevm",
-      "mint": "0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0xf343cbb242c49fe796b533034ddfbcf8924e8bee": {
-          "created_ms": 1793307660000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x19e45e20e5602792a22f986aa7318a54305af761": {
-      "chain": "hyperevm",
-      "mint": "0x19e45e20e5602792a22f986aa7318a54305af761",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0x4f9b93382a8955c4540a1c1b84f4595562779f74": {
-          "created_ms": 1793302500000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x4df183fcbbba894a54c8059cce6f3736cda2a2ba": {
-      "chain": "hyperevm",
-      "mint": "0x4df183fcbbba894a54c8059cce6f3736cda2a2ba",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0xa8c2d16b3ada8921ad1f9a28b2a7feacaf6c20a2": {
-          "created_ms": 1793299860000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xf6febf6767fac2d6054f2ad6dbbffbc6bc322d3e": {
-      "chain": "hyperevm",
-      "mint": "0xf6febf6767fac2d6054f2ad6dbbffbc6bc322d3e",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0x8cf71eb42b6c2854fccbdd295b40fc796bd484ec": {
-          "created_ms": 1793299800000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x38af9b01d0c545114ca0cd54095ddba5c703f1e4": {
-      "chain": "hyperevm",
-      "mint": "0x38af9b01d0c545114ca0cd54095ddba5c703f1e4",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0x7570b6b9dca100cd5bd205a653a4fa79f98876ba": {
-          "created_ms": 1793299260000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xe30b9334f3ed975d2eef388913c894aaf61ae322": {
-      "chain": "hyperevm",
-      "mint": "0xe30b9334f3ed975d2eef388913c894aaf61ae322",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0x70416323c6fb6a02986ee3c7c43b5bf71fae2ca0": {
-          "created_ms": 1793298540000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xd6e3accbd4cc43131b89864a3f502d4be65c3fff": {
-      "chain": "hyperevm",
-      "mint": "0xd6e3accbd4cc43131b89864a3f502d4be65c3fff",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0xc174a1bc0bd8ed02e6d4133bd322137760d3bc9a": {
-          "created_ms": 1793297520000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x89627f633f2e9a0942220ffff9905db76b6c8aa5": {
-      "chain": "hyperevm",
-      "mint": "0x89627f633f2e9a0942220ffff9905db76b6c8aa5",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0xc135c8651a463a1c5f9a3bdba3bed150fbe95320": {
-          "created_ms": 1793297340000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0x33f278391b0209880226bda0b5d11d7517b11091": {
-      "chain": "hyperevm",
-      "mint": "0x33f278391b0209880226bda0b5d11d7517b11091",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0xd91c557e652f9c80bdb6d1c8b8b8be855b859837": {
-          "created_ms": 1793297160000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
-    "hyperevm:0xb3106704454db1a8377e0418fadb6f0522c1ac87": {
-      "chain": "hyperevm",
-      "mint": "0xb3106704454db1a8377e0418fadb6f0522c1ac87",
-      "first_seen_ms": 1793411986543,
-      "pools": {
-        "0x065bcd84ed88a554a4cb98c3aed735c25f106d7e": {
-          "created_ms": 1793295600000,
-          "first_seen_ms": 1793411986543
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ]
-    },
     "solana:BDjoxkkMrHKaw2rooebSAUzcv2pkGTEJVUhUD7mMpump": {
       "chain": "solana",
       "mint": "BDjoxkkMrHKaw2rooebSAUzcv2pkGTEJVUhUD7mMpump",
@@ -661419,7 +661224,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793412067434
     }
   ],
   "archive": {
@@ -735501,8 +735307,8 @@
     }
   },
   "publication": {
-    "commit": "2039e46c147f793b7636eed9f0e47e7e26ba7841",
-    "success_ms": 1793411986520,
+    "commit": "29d0b0b9f04767da4cd395c82c7fa7b2467a30d2",
+    "success_ms": 1793412067408,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793410502494,
@@ -737248,6 +737054,27 @@
     {
       "source_state_sha": "ad2017cffee0e8b481e58bc306f9c616f408662b",
       "archived_ms": 1793411981926,
+      "keys": [
+        "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
+        "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
+        "hyperevm:0xee31509a163002f82ae8fc1f31687aa0a3af771e",
+        "hyperevm:0xd53dc73ddbc8bfa122e81c87a1a09abde4e93d1b",
+        "hyperevm:0x19e45e20e5602792a22f986aa7318a54305af761",
+        "hyperevm:0x4df183fcbbba894a54c8059cce6f3736cda2a2ba",
+        "hyperevm:0xf6febf6767fac2d6054f2ad6dbbffbc6bc322d3e",
+        "hyperevm:0x38af9b01d0c545114ca0cd54095ddba5c703f1e4",
+        "hyperevm:0xe30b9334f3ed975d2eef388913c894aaf61ae322",
+        "hyperevm:0xd6e3accbd4cc43131b89864a3f502d4be65c3fff",
+        "hyperevm:0x89627f633f2e9a0942220ffff9905db76b6c8aa5",
+        "hyperevm:0x33f278391b0209880226bda0b5d11d7517b11091",
+        "hyperevm:0xb3106704454db1a8377e0418fadb6f0522c1ac87"
+      ],
+      "count": 13,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "29d0b0b9f04767da4cd395c82c7fa7b2467a30d2",
+      "archived_ms": 1793412067430,
       "keys": [
         "hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff",
         "hyperevm:0x31538bc41c9a171707db639e0830f5f15184cfff",
