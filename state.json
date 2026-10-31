@@ -4620,42 +4620,6 @@
         }
       ]
     },
-    "robinhood:0x89c5c1f8fedc75062d4530e90274c4c2301cd6d8": {
-      "chain": "robinhood",
-      "mint": "0x89c5c1f8fedc75062d4530e90274c4c2301cd6d8",
-      "first_seen_ms": 1793389091235,
-      "pools": {
-        "0x4699b9d0f5b9a37abbfdb7afbd5e3d1a6fa97ced485d4d8c57bface33707ff6c": {
-          "created_ms": 1793388681000,
-          "first_seen_ms": 1793389091235
-        }
-      },
-      "status": "archived_age",
-      "reasons": [
-        "pool_age_over_24h_identity_preserved"
-      ],
-      "last_quote_attempt_ms": 1793470440680,
-      "decision": {
-        "at_ms": 1793470441729,
-        "stage": "market_rejected_or_unknown",
-        "reasons": [
-          "market_cap_not_50k_500k",
-          "liquidity_usd"
-        ],
-        "pool": "0x4699b9d0f5b9a37abbfdb7afbd5e3d1a6fa97ced485d4d8c57bface33707ff6c"
-      },
-      "decision_history": [
-        {
-          "at_ms": 1793391561590,
-          "stage": "market_rejected_or_unknown",
-          "reasons": [
-            "market_cap_not_50k_500k",
-            "liquidity_usd"
-          ],
-          "pool": "0x4699b9d0f5b9a37abbfdb7afbd5e3d1a6fa97ced485d4d8c57bface33707ff6c"
-        }
-      ]
-    },
     "robinhood:0x8340642f25d0735e40c4c481d208e16775adc48b": {
       "chain": "robinhood",
       "mint": "0x8340642f25d0735e40c4c481d208e16775adc48b",
@@ -707829,230 +707793,6 @@
         "valuation_kind": "market_cap_unknown",
         "valuation_usd": null,
         "pool_age_minutes": 1346.7436
-      },
-      "activity": {
-        "passed": false,
-        "reasons": [
-          "activity_volume5_insufficient_or_unknown",
-          "activity_trades5_insufficient_or_unknown"
-        ],
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "buy_count_fraction": null,
-        "buy_volume_verified": false,
-        "independent_buyers_verified": false
-      }
-    },
-    "robinhood:0x89c5c1f8fedc75062d4530e90274c4c2301cd6d8": {
-      "first_seen_ms": 1793391561590,
-      "observations": [
-        {
-          "ms": 1793391561235,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793391908323,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793392239773,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793392659789,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793393161323,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793393701259,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793394322953,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793394982997,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793395809073,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793396618554,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793397480730,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793398389363,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793399666372,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793400708497,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793401368116,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793402232450,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793403530780,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793404694538,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793405859342,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793407136599,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793408892752,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793410297150,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793412500318,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793415038069,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793417949409,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793421239514,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793425072890,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793428655640,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793433205322,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793437961120,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793443354106,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793449418406,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793456084562,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793462750129,
-          "price": 7.206e-05,
-          "liquidity": null
-        },
-        {
-          "ms": 1793470441405,
-          "price": 7.206e-05,
-          "liquidity": null
-        }
-      ],
-      "latest": {
-        "chain": "robinhood",
-        "mint": "0x89c5c1f8fedc75062d4530e90274c4c2301cd6d8",
-        "pool": "0x4699b9d0f5b9a37abbfdb7afbd5e3d1a6fa97ced485d4d8c57bface33707ff6c",
-        "symbol": "minecat",
-        "dex": "uniswap",
-        "price_usd": 7.206e-05,
-        "price_observed_ms": 1793470441405,
-        "observed_ms": 1793470441405,
-        "liquidity_usd": null,
-        "market_cap_usd": 16460.0,
-        "fdv_usd": 16460.0,
-        "pool_created_ms": 1793388681000.0,
-        "volume5_usd": 0.0,
-        "buys5": 0.0,
-        "sells5": 0.0,
-        "source": "dexscreener_exact_chain_mint_pool",
-        "pool_age_is_token_age": false
-      },
-      "market": {
-        "passed": false,
-        "failed": [
-          "market_cap_not_50k_500k"
-        ],
-        "unknown": [
-          "liquidity_usd"
-        ],
-        "valuation_kind": "market_cap_provider_reported",
-        "valuation_usd": 16460.0,
-        "pool_age_minutes": 1362.6788166666668
       },
       "activity": {
         "passed": false,
@@ -2401902,7 +2401642,8 @@
         "api.geckoterminal.com:ok": 7,
         "api.dexscreener.com:ok": 9,
         "gecko:reserved_for_buy_pressure": 1
-      }
+      },
+      "finished_ms": 1793482360995
     }
   ],
   "archive": {
@@ -2475984,8 +2475725,8 @@
     }
   },
   "publication": {
-    "commit": "2520e5c48b44d9b965f09f77bf5b1c55572ae80b",
-    "success_ms": 1793482273587,
+    "commit": "220188198aeb9f24d923e2befebf5efe8fd087f2",
+    "success_ms": 1793482360917,
     "attempts": 1
   },
   "provider_backoff_until_ms": 1793467860230,
@@ -2485714,6 +2485455,15 @@
         "bnb:0x9bb0d52bb538a29a1e088f5e30ed9e06e88b65e6"
       ],
       "count": 7,
+      "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
+    },
+    {
+      "source_state_sha": "220188198aeb9f24d923e2befebf5efe8fd087f2",
+      "archived_ms": 1793482360977,
+      "keys": [
+        "robinhood:0x89c5c1f8fedc75062d4530e90274c4c2301cd6d8"
+      ],
+      "count": 1,
       "note": "Full identity/decision history retained in immutable ancestor state.json and local collector SQLite."
     }
   ]
