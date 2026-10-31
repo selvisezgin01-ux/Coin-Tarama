@@ -1506825,110 +1506825,7 @@
       "source_close_ms": 1793480400000
     }
   },
-  "pending": [
-    {
-      "id": "39b9297d53992e2d88e7200b",
-      "asset_id": "d812fbce6aad2b1e1c4d8a4f",
-      "key": "OKX:SPOT:ORDIUSDT",
-      "symbol": "ORDIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793482179137,
-      "price": 3.508,
-      "level": 3.511,
-      "invalid": 3.4878234144309923,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.511,
-        "base_invalid": 3.4878234144309923,
-        "atr": 0.007843903793382978,
-        "rvol": 8.38466093467739,
-        "close_position": 0.6428571428571451,
-        "breakout": false,
-        "bar_close_ms": 1793481300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3437410484101955,
-        "score": 7.142857142857145
-      },
-      "context": {
-        "atr": 0.007843903793382978,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1944199207525421,
-        "btc_hour_pct": -0.022696967117752376,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ORDIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793481300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ORDIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ba1236cfb08795d7d0927129",
-      "asset_id": "7197765fd6abc160012a8e5b",
-      "key": "MEXC:SPOT:AIOTUSDT",
-      "symbol": "AIOTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793482179472,
-      "price": 0.0866395,
-      "level": 0.086454,
-      "invalid": 0.08371861939942285,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.086454,
-        "base_invalid": 0.08371861939942285,
-        "atr": 0.001542537337180965,
-        "rvol": 3.42037467492953,
-        "close_position": 0.6710182767624044,
-        "breakout": true,
-        "bar_close_ms": 1793481300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8330751537342316,
-        "score": 5.091392951691934
-      },
-      "context": {
-        "atr": 0.001542537337180965,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8959221853967136,
-        "btc_hour_pct": -0.008411239428385286,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AIOTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793481300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AIOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1511582,6 +1511479,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793480829326
+    },
+    {
+      "id": "39b9297d53992e2d88e7200b",
+      "asset_id": "d812fbce6aad2b1e1c4d8a4f",
+      "key": "OKX:SPOT:ORDIUSDT",
+      "symbol": "ORDIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793482179137,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793482190526
+    },
+    {
+      "id": "ba1236cfb08795d7d0927129",
+      "asset_id": "7197765fd6abc160012a8e5b",
+      "key": "MEXC:SPOT:AIOTUSDT",
+      "symbol": "AIOTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793482179472,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793482190526
     }
   ],
   "runs": [
@@ -1547922,7 +1547841,8 @@
         "entry_seq": 0,
         "cohort": "ORDIUSDT",
         "observation_lag_ms": 879137,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11389
       },
       "7197765fd6abc160012a8e5b:radar": {
         "symbol": "AIOTUSDT",
@@ -1547944,7 +1547864,8 @@
         "entry_seq": 0,
         "cohort": "AIOTUSDT",
         "observation_lag_ms": 879472,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11054
       }
     },
     "errors": [],
@@ -1573337,8 +1573258,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e827df569d5376a51fbfbaeb788818162e0d9a5b",
-    "previous_success_ms": 1793481909347,
+    "previous_commit": "c2e3ca60d6ddef011df184dfee4187ee635a89f5",
+    "previous_success_ms": 1793482188937,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
