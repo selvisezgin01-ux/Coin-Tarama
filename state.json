@@ -1389968,114 +1389968,7 @@
       "source_close_ms": 1793422800000
     }
   },
-  "pending": [
-    {
-      "id": "4c6fa1ca12e633d2b5aaad6f",
-      "asset_id": "05f69a5a02b89b1b2e0de697",
-      "key": "MEXC:SPOT:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793423358913,
-      "price": 0.01439,
-      "level": 0.01444,
-      "invalid": 0.01323357282673171,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01444,
-        "base_invalid": 0.01323357282673171,
-        "atr": 0.00017618115512192957,
-        "rvol": 10.069077106344588,
-        "close_position": 0.6521739130434763,
-        "breakout": false,
-        "bar_close_ms": 1793422800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9852216748768461,
-        "score": 7.152173913043477
-      },
-      "context": {
-        "atr": 0.00017618115512192957,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.938736342069113,
-        "btc_hour_pct": 0.04648533280773304,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LYNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793422800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6f99c595a2d3bac70132b46d",
-      "asset_id": "8ff7ebdcfb2c6c9ad91137d6",
-      "key": "MEXC:PERP:GTCUSDT",
-      "symbol": "GTCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793423361699,
-      "price": 0.23016999999999999,
-      "level": 0.22312,
-      "invalid": 0.21168754616204966,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.22312,
-        "base_invalid": 0.21168754616204966,
-        "atr": 0.004349692253002381,
-        "rvol": 2.199549989712334,
-        "close_position": 0.7249544626593809,
-        "breakout": true,
-        "bar_close_ms": 1793422800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.413561336930184,
-        "score": 3.924504452371715
-      },
-      "context": {
-        "atr": 0.004349692253002381,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 5.383223537198556,
-        "btc_hour_pct": 0.030337799731627868,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GTCUSDT",
-          "change_pct": -0.027737542191397235,
-          "old_ms": 1793419646364,
-          "current_ms": 1793423358199,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.2285,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793422800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GTCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1392254,6 +1392147,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793423077421
+    },
+    {
+      "id": "4c6fa1ca12e633d2b5aaad6f",
+      "asset_id": "05f69a5a02b89b1b2e0de697",
+      "key": "MEXC:SPOT:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793423358913,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793423371733
+    },
+    {
+      "id": "6f99c595a2d3bac70132b46d",
+      "asset_id": "8ff7ebdcfb2c6c9ad91137d6",
+      "key": "MEXC:PERP:GTCUSDT",
+      "symbol": "GTCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793423361699,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793423371734
     }
   ],
   "runs": [
@@ -1409151,7 +1409066,8 @@
         "entry_seq": 0,
         "cohort": "LYNUSDT",
         "observation_lag_ms": 558913,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12820
       },
       "8ff7ebdcfb2c6c9ad91137d6:radar": {
         "symbol": "GTCUSDT",
@@ -1409173,7 +1409089,8 @@
         "entry_seq": 0,
         "cohort": "GTCUSDT",
         "observation_lag_ms": 561699,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10035
       }
     },
     "errors": [],
@@ -1432058,8 +1431975,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6dc22ea10eb1af79cd402099567cad4d96b68513",
-    "previous_success_ms": 1793423097127,
+    "previous_commit": "a3583f743e1b959f879a12894a5a485bbf0b3fe1",
+    "previous_success_ms": 1793423370346,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
