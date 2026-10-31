@@ -1404973,372 +1404973,7 @@
       "source_close_ms": 1793431800000
     }
   },
-  "pending": [
-    {
-      "id": "ac5ea08d878dd6749e83af61",
-      "asset_id": "051d70454acab1de8f7e5344",
-      "key": "OKX:SPOT:NMRUSDT",
-      "symbol": "NMRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793431852312,
-      "price": 9.475999999999999,
-      "level": 9.499,
-      "invalid": 9.295135175915476,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 9.499,
-        "base_invalid": 9.295135175915476,
-        "atr": 0.05243216056350246,
-        "rvol": 3.8759733448027034,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793421000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.220556745182022,
-        "score": 5.375973344802704
-      },
-      "context": {
-        "atr": 0.05668258827770152,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.39388375944944265,
-        "btc_hour_pct": 0.16238496113250012,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793421000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1f50c648698f3870d5efe640",
-      "asset_id": "51ba6f7b037f57214da37ad2",
-      "key": "OKX:SPOT:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793431852312,
-      "price": 0.108585,
-      "level": 0.10824,
-      "invalid": 0.1074747861511647,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10824,
-        "base_invalid": 0.1074747861511647,
-        "atr": 0.00030142565890209984,
-        "rvol": 8.437112941153186,
-        "close_position": 0.8870967741935466,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6675319859076545,
-        "score": 7.887096774193546
-      },
-      "context": {
-        "atr": 0.00030142565890209984,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.18992358698544098,
-        "btc_hour_pct": 0.16238496113250012,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bd50259030da9fb5bba6cdc6",
-      "asset_id": "f05130af316bb4cb105ba398",
-      "key": "OKX:PERP:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793431850604,
-      "price": 0.06592,
-      "level": 0.06544,
-      "invalid": 0.05961925467675303,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06544,
-        "base_invalid": 0.05961925467675303,
-        "atr": 0.001538302154979794,
-        "rvol": 6.083548174396835,
-        "close_position": 0.7000000000000006,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2962962962963065,
-        "score": 7.700000000000001
-      },
-      "context": {
-        "atr": 0.001538302154979794,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -4.830298449354419,
-        "btc_hour_pct": 0.15477069329499216,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZAMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7bd252ce0378cc0e52681cb0",
-      "asset_id": "13fc5d484e6d3dfd4ba504c2",
-      "key": "OKX:SPOT:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793431852312,
-      "price": 0.06589500000000001,
-      "level": 0.06559,
-      "invalid": 0.059704583816744684,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06559,
-        "base_invalid": 0.059704583816744684,
-        "atr": 0.0015027745550354194,
-        "rvol": 18.308482023083435,
-        "close_position": 0.6679841897233179,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1403914316535424,
-        "score": 7.667984189723318
-      },
-      "context": {
-        "atr": 0.0015027745550354194,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -4.812096304555802,
-        "btc_hour_pct": 0.16238496113250012,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZAMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "24fc55b2c05e7faec18b60df",
-      "asset_id": "413d1acadfc3b0c5546036f7",
-      "key": "OKX:SPOT:ASTERUSDT",
-      "symbol": "ASTERUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793431852312,
-      "price": 0.69135,
-      "level": 0.69,
-      "invalid": 0.6834862639556892,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.69,
-        "base_invalid": 0.6834862639556892,
-        "atr": 0.0020915736287380215,
-        "rvol": 2.672261714161606,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3628973726230278,
-        "score": 4.672261714161606
-      },
-      "context": {
-        "atr": 0.0020915736287380215,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3773670447026589,
-        "btc_hour_pct": 0.16238496113250012,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ASTERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ASTERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b17b4742adf87fc5650d165d",
-      "asset_id": "ee7e5226b986c6bf897d7c65",
-      "key": "MEXC:SPOT:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793431850085,
-      "price": 0.065855,
-      "level": 0.06551,
-      "invalid": 0.05979225196358803,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06551,
-        "base_invalid": 0.05979225196358803,
-        "atr": 0.0014516535760797614,
-        "rvol": 2.6590833840084755,
-        "close_position": 0.7815533980582555,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3425925925926174,
-        "score": 4.440636782066731
-      },
-      "context": {
-        "atr": 0.0014516535760797614,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -4.730606576512475,
-        "btc_hour_pct": 0.1609665139146621,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZAMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "45c50034e853a6af3af5f2bf",
-      "asset_id": "ad610e62c81701bba6b083d4",
-      "key": "OKX:PERP:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793431850604,
-      "price": 0.10849500000000001,
-      "level": 0.1083,
-      "invalid": 0.10737633705938551,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1083,
-        "base_invalid": 0.10737633705938551,
-        "atr": 0.00042441960409658416,
-        "rvol": 2.3321654693305454,
-        "close_position": 0.9545454545454517,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.46283439785244074,
-        "score": 4.286710923875997
-      },
-      "context": {
-        "atr": 0.00042441960409658416,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.031206617473089615,
-        "btc_hour_pct": 0.15477069329499216,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1407891,6 +1407526,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793431553143
+    },
+    {
+      "id": "1f50c648698f3870d5efe640",
+      "asset_id": "51ba6f7b037f57214da37ad2",
+      "key": "OKX:SPOT:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793431852312,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793431860552
+    },
+    {
+      "id": "bd50259030da9fb5bba6cdc6",
+      "asset_id": "f05130af316bb4cb105ba398",
+      "key": "OKX:PERP:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793431850604,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793431860552
+    },
+    {
+      "id": "7bd252ce0378cc0e52681cb0",
+      "asset_id": "13fc5d484e6d3dfd4ba504c2",
+      "key": "OKX:SPOT:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793431852312,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793431860552
+    },
+    {
+      "id": "24fc55b2c05e7faec18b60df",
+      "asset_id": "413d1acadfc3b0c5546036f7",
+      "key": "OKX:SPOT:ASTERUSDT",
+      "symbol": "ASTERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793431852312,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793431860552
+    },
+    {
+      "id": "b17b4742adf87fc5650d165d",
+      "asset_id": "ee7e5226b986c6bf897d7c65",
+      "key": "MEXC:SPOT:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793431850085,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793431860552
+    },
+    {
+      "id": "45c50034e853a6af3af5f2bf",
+      "asset_id": "ad610e62c81701bba6b083d4",
+      "key": "OKX:PERP:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793431850604,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793431860552
     }
   ],
   "runs": [
@@ -1427602,7 +1427303,8 @@
         "entry_seq": 0,
         "cohort": "KITEUSDT",
         "observation_lag_ms": 52312,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8240
       },
       "f05130af316bb4cb105ba398:radar": {
         "symbol": "ZAMAUSDT",
@@ -1427624,7 +1427326,8 @@
         "entry_seq": 0,
         "cohort": "ZAMAUSDT",
         "observation_lag_ms": 50604,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9948
       },
       "13fc5d484e6d3dfd4ba504c2:radar": {
         "symbol": "ZAMAUSDT",
@@ -1427646,7 +1427349,8 @@
         "entry_seq": 0,
         "cohort": "ZAMAUSDT",
         "observation_lag_ms": 52312,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8240
       },
       "413d1acadfc3b0c5546036f7:radar": {
         "symbol": "ASTERUSDT",
@@ -1427668,7 +1427372,8 @@
         "entry_seq": 0,
         "cohort": "ASTERUSDT",
         "observation_lag_ms": 52312,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8240
       },
       "ee7e5226b986c6bf897d7c65:radar": {
         "symbol": "ZAMAUSDT",
@@ -1427690,7 +1427395,8 @@
         "entry_seq": 0,
         "cohort": "ZAMAUSDT",
         "observation_lag_ms": 50085,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10467
       },
       "ad610e62c81701bba6b083d4:radar": {
         "symbol": "KITEUSDT",
@@ -1427712,7 +1427418,8 @@
         "entry_seq": 0,
         "cohort": "KITEUSDT",
         "observation_lag_ms": 50604,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9948
       }
     },
     "errors": [],
@@ -1450897,8 +1450604,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "470c177c1db4a939d45d4f9c460423175c49d443",
-    "previous_success_ms": 1793431567336,
+    "previous_commit": "70edbba082dde57838a5d2e626a1e442e3ef2509",
+    "previous_success_ms": 1793431859161,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
