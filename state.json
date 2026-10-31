@@ -1412053,210 +1412053,7 @@
       "source_close_ms": 1793435400000
     }
   },
-  "pending": [
-    {
-      "id": "64327d799560680d0930bfda",
-      "asset_id": "3a67fda65a08d9e06a189dc6",
-      "key": "MEXC:SPOT:BLESSUSDT",
-      "symbol": "BLESSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793435572615,
-      "price": 0.0100555,
-      "level": 0.00968,
-      "invalid": 0.009114896780898015,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00968,
-        "base_invalid": 0.009114896780898015,
-        "atr": 0.00026735479401322553,
-        "rvol": 8.195712292257586,
-        "close_position": 0.6523031203566124,
-        "breakout": true,
-        "bar_close_ms": 1793418300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.307979120059671,
-        "score": 7.6523031203566125
-      },
-      "context": {
-        "atr": 0.00021323277060913805,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.3279088972647402,
-        "btc_hour_pct": -0.05126359923735002,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BLESSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793418300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BLESSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1d829923cbf585d91d65f312",
-      "asset_id": "2058d3199274e45a05746985",
-      "key": "MEXC:SPOT:BULLAUSDT",
-      "symbol": "BULLAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793435572615,
-      "price": 0.0765955,
-      "level": 0.080636,
-      "invalid": 0.07566911785785936,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.080636,
-        "base_invalid": 0.07566911785785936,
-        "atr": 0.001305880947604306,
-        "rvol": 29.733954481832132,
-        "close_position": 0.9268376068376047,
-        "breakout": true,
-        "bar_close_ms": 1793421000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9901744535792965,
-        "score": 7.926837606837605
-      },
-      "context": {
-        "atr": 0.0023097793216659604,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.087276309605701,
-        "btc_hour_pct": -0.05126359923735002,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BULLAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793421000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BULLAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "85b1db7728d90aa143ccc57d",
-      "asset_id": "dd2c2090ded4a80d6eaba43e",
-      "key": "OKX:PERP:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793435572448,
-      "price": 0.055895,
-      "level": 0.05555,
-      "invalid": 0.051927198351777185,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05555,
-        "base_invalid": 0.051927198351777185,
-        "atr": 0.0011520109881520918,
-        "rvol": 2.852276606021305,
-        "close_position": 0.7613636363636379,
-        "breakout": true,
-        "bar_close_ms": 1793435400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1990104452996206,
-        "score": 4.6136402423849425
-      },
-      "context": {
-        "atr": 0.0011520109881520918,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9383044539050811,
-        "btc_hour_pct": -0.04344986777533588,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:APRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cdd5030b2a87553192af602d",
-      "asset_id": "de59ecd299326a5618b087c3",
-      "key": "OKX:SPOT:SKYUSDT",
-      "symbol": "SKYUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793435573123,
-      "price": 0.06792000000000001,
-      "level": 0.06796,
-      "invalid": 0.06726781303726226,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06796,
-        "base_invalid": 0.06726781303726226,
-        "atr": 0.00028124641825155613,
-        "rvol": 2.582476915024338,
-        "close_position": 0.6666666666666281,
-        "breakout": false,
-        "bar_close_ms": 1793435400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.11823825007388766,
-        "score": 3.7491435816909657
-      },
-      "context": {
-        "atr": 0.00028124641825155613,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.08936479712641221,
-        "btc_hour_pct": -0.03012309096527277,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SKYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793435400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SKYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1414996,6 +1414793,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793435280908
+    },
+    {
+      "id": "64327d799560680d0930bfda",
+      "asset_id": "3a67fda65a08d9e06a189dc6",
+      "key": "MEXC:SPOT:BLESSUSDT",
+      "symbol": "BLESSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793435572615,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793435583118
+    },
+    {
+      "id": "1d829923cbf585d91d65f312",
+      "asset_id": "2058d3199274e45a05746985",
+      "key": "MEXC:SPOT:BULLAUSDT",
+      "symbol": "BULLAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793435572615,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793435583118
+    },
+    {
+      "id": "85b1db7728d90aa143ccc57d",
+      "asset_id": "dd2c2090ded4a80d6eaba43e",
+      "key": "OKX:PERP:APRUSDT",
+      "symbol": "APRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793435572448,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793435583118
+    },
+    {
+      "id": "cdd5030b2a87553192af602d",
+      "asset_id": "de59ecd299326a5618b087c3",
+      "key": "OKX:SPOT:SKYUSDT",
+      "symbol": "SKYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793435573123,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793435583118
     }
   ],
   "runs": [
@@ -1435918,7 +1435759,8 @@
         "entry_seq": 0,
         "cohort": "APRUSDT",
         "observation_lag_ms": 172448,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10670
       },
       "de59ecd299326a5618b087c3:radar": {
         "symbol": "SKYUSDT",
@@ -1435940,7 +1435782,8 @@
         "entry_seq": 0,
         "cohort": "SKYUSDT",
         "observation_lag_ms": 173123,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9995
       }
     },
     "errors": [],
@@ -1459248,8 +1459091,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "81ec03f84b2069581c5fa352e6ed1ef79372b85b",
-    "previous_success_ms": 1793435297851,
+    "previous_commit": "c151279ed6afd7e8b3fbf94931b89bde437cffd6",
+    "previous_success_ms": 1793435581975,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
