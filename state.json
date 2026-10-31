@@ -1415950,112 +1415950,7 @@
       "source_close_ms": 1793436300000
     }
   },
-  "pending": [
-    {
-      "id": "b1182a990819299fb8acd3c9",
-      "asset_id": "be19a8adeb4647840e772c90",
-      "key": "OKX:PERP:RESOLVUSDT",
-      "symbol": "RESOLVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793436472098,
-      "price": 0.015365,
-      "level": 0.01564,
-      "invalid": 0.015343846241246822,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01564,
-        "base_invalid": 0.015343846241246822,
-        "atr": 0.00010769172502119115,
-        "rvol": 9.3782009158553,
-        "close_position": 0.7142857142857179,
-        "breakout": false,
-        "bar_close_ms": 1793423700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5829015544041471,
-        "score": 7.214285714285718
-      },
-      "context": {
-        "atr": 9.279484483932725e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.1729393767829333,
-        "btc_hour_pct": -0.04344986777533588,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RESOLVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793423700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RESOLVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "12acf3184cad65d8f9a9b659",
-      "asset_id": "413d1acadfc3b0c5546036f7",
-      "key": "OKX:SPOT:ASTERUSDT",
-      "symbol": "ASTERUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793436472441,
-      "price": 0.6895,
-      "level": 0.69,
-      "invalid": 0.6834862639556892,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.69,
-        "base_invalid": 0.6834862639556892,
-        "atr": 0.0020915736287380215,
-        "rvol": 2.672261714161606,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793431800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3628973726230278,
-        "score": 4.672261714161606
-      },
-      "context": {
-        "atr": 0.00224876002997965,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1752188541689903,
-        "btc_hour_pct": -0.03012309096527277,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ASTERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ASTERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1418872,6 +1418767,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793436179283
+    },
+    {
+      "id": "b1182a990819299fb8acd3c9",
+      "asset_id": "be19a8adeb4647840e772c90",
+      "key": "OKX:PERP:RESOLVUSDT",
+      "symbol": "RESOLVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793436472098,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793436484025
+    },
+    {
+      "id": "12acf3184cad65d8f9a9b659",
+      "asset_id": "413d1acadfc3b0c5546036f7",
+      "key": "OKX:SPOT:ASTERUSDT",
+      "symbol": "ASTERUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793436472441,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793436484025
     }
   ],
   "runs": [
@@ -1463473,8 +1463390,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1797595f6fb1312eb4f42cf0144fd447a1d6f48d",
-    "previous_success_ms": 1793436196260,
+    "previous_commit": "aac7996b0c6918e4369401343c5e18020b32950c",
+    "previous_success_ms": 1793436482931,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
