@@ -1411114,60 +1411114,7 @@
       "source_close_ms": 1793436300000
     }
   },
-  "pending": [
-    {
-      "id": "1fac4e1f83a22852b6200ed6",
-      "asset_id": "f812b39811096d285644cde0",
-      "key": "OKX:SPOT:RESOLVUSDT",
-      "symbol": "RESOLVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793437067700,
-      "price": 0.015355,
-      "level": 0.01564,
-      "invalid": 0.015366235668395638,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01564,
-        "base_invalid": 0.015366235668395638,
-        "atr": 9.176221069574174e-05,
-        "rvol": 60.00455464742239,
-        "close_position": 0.7368421052631607,
-        "breakout": false,
-        "bar_close_ms": 1793423700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7115135834411479,
-        "score": 7.236842105263161
-      },
-      "context": {
-        "atr": 7.329340446224189e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.9948608936599657,
-        "btc_hour_pct": -0.03012309096527277,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:RESOLVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793423700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RESOLVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1458816,8 +1458763,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "966d9af9a3fef66bc4c66294ae3b4a26b2404257",
-    "previous_success_ms": 1793436802068,
+    "previous_commit": "a02644c6823414a9e33fa94577370f6fea638ce6",
+    "previous_success_ms": 1793437076464,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
