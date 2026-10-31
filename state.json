@@ -1404875,58 +1404875,7 @@
       "source_close_ms": 1793431800000
     }
   },
-  "pending": [
-    {
-      "id": "bbd7df58fe0c2166f8c6a6ac",
-      "asset_id": "a8bb9e638d6801151b50d918",
-      "key": "MEXC:SPOT:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793432143167,
-      "price": 1.21095,
-      "level": 1.2381,
-      "invalid": 1.1651739458823624,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.2381,
-        "base_invalid": 1.1651739458823624,
-        "atr": 0.0275070274509174,
-        "rvol": 11.411453497910955,
-        "close_position": 0.6305418719211789,
-        "breakout": false,
-        "bar_close_ms": 1793431800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.2349228013307076,
-        "score": 7.130541871921179
-      },
-      "context": {
-        "atr": 0.0275070274509174,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.028066730689714,
-        "btc_hour_pct": 0.1609665139146621,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EVAAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793431800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EVAAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1407545,6 +1407494,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793431860552
+    },
+    {
+      "id": "bbd7df58fe0c2166f8c6a6ac",
+      "asset_id": "a8bb9e638d6801151b50d918",
+      "key": "MEXC:SPOT:EVAAUSDT",
+      "symbol": "EVAAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793432143167,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793432154173
     }
   ],
   "runs": [
@@ -1427490,7 +1427450,8 @@
         "entry_seq": 0,
         "cohort": "EVAAUSDT",
         "observation_lag_ms": 343167,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11006
       }
     },
     "errors": [],
@@ -1450666,8 +1450627,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5e8c02288bb063922c51472e8212465ee78236e8",
-    "previous_success_ms": 1793431874430,
+    "previous_commit": "896de3eaf09037fc53373542ca2161d7ac8cf5eb",
+    "previous_success_ms": 1793432152597,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
