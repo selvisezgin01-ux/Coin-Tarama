@@ -1404072,110 +1404072,7 @@
       "source_close_ms": 1793433600000
     }
   },
-  "pending": [
-    {
-      "id": "220c390d52abbcaeede83a34",
-      "asset_id": "41c3994f9f53786534d4d87f",
-      "key": "MEXC:SPOT:WOOUSDT",
-      "symbol": "WOOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793434368226,
-      "price": 0.011525,
-      "level": 0.01177,
-      "invalid": 0.010929399209741399,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01177,
-        "base_invalid": 0.010929399209741399,
-        "atr": 0.00020400526839066632,
-        "rvol": 3.966491487121203,
-        "close_position": 0.6499999999999978,
-        "breakout": false,
-        "bar_close_ms": 1793412000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.34482758620690834,
-        "score": 5.116491487121201
-      },
-      "context": {
-        "atr": 0.0001500428931519813,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.05126359923735002,
-        "btc_hour_pct": -0.05126359923735002,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WOOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793412000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WOOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "22933de563c00faa0aeb45c5",
-      "asset_id": "662e83906882700ece6211ca",
-      "key": "OKX:PERP:BSBUSDT",
-      "symbol": "BSBUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793434364956,
-      "price": 0.09539,
-      "level": 0.09676,
-      "invalid": 0.09545335320565393,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09676,
-        "base_invalid": 0.09545335320565393,
-        "atr": 0.0004443119623070744,
-        "rvol": 2.585536147772293,
-        "close_position": 0.6470588235294101,
-        "breakout": false,
-        "bar_close_ms": 1793430900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.35266051239499774,
-        "score": 3.732594971301703
-      },
-      "context": {
-        "atr": 0.00045926828277071313,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.9605869814121148,
-        "btc_hour_pct": -0.04344986777533588,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BSBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793430900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BSBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1406838,6 +1406735,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793433665635
+    },
+    {
+      "id": "220c390d52abbcaeede83a34",
+      "asset_id": "41c3994f9f53786534d4d87f",
+      "key": "MEXC:SPOT:WOOUSDT",
+      "symbol": "WOOUSDT",
+      "phase": "expired",
+      "observed_ms": 1793434368226,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793434377963
+    },
+    {
+      "id": "22933de563c00faa0aeb45c5",
+      "asset_id": "662e83906882700ece6211ca",
+      "key": "OKX:PERP:BSBUSDT",
+      "symbol": "BSBUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793434364956,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793434377963
     }
   ],
   "runs": [
@@ -1450628,8 +1450547,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "baf34f8eb1c4b7d0958a6c3fd0e51e416b743ed9",
-    "previous_success_ms": 1793434359332,
+    "previous_commit": "827492fe63678ed811880468b61c97dd9522bada",
+    "previous_success_ms": 1793434376944,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
