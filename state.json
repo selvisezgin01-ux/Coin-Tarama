@@ -1256514,268 +1256514,7 @@
       "source_close_ms": 1793405700000
     }
   },
-  "pending": [
-    {
-      "id": "5e8e8cd386f008f7a8fc039c",
-      "asset_id": "e51327fef7f0dd216c7b1b7c",
-      "key": "OKX:SPOT:SANDUSDT",
-      "symbol": "SANDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793405970190,
-      "price": 0.046935000000000004,
-      "level": 0.04646,
-      "invalid": 0.045459785592631245,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04646,
-        "base_invalid": 0.045459785592631245,
-        "atr": 0.00033476271579168835,
-        "rvol": 7.223370884332615,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793400300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7788836001731081,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0003048101439660257,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.04321150547106356,
-        "btc_hour_pct": 0.5130572151108792,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SANDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793400300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SANDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4c07317674e75b8047b765da",
-      "asset_id": "4a8888c46d6433666f026b33",
-      "key": "MEXC:SPOT:SANDUSDT",
-      "symbol": "SANDUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793405969582,
-      "price": 0.046945,
-      "level": 0.04648,
-      "invalid": 0.045456730923553616,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04648,
-        "base_invalid": 0.045456730923553616,
-        "atr": 0.0003551271763092201,
-        "rvol": 3.629873493714502,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793400300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6695464362850956,
-        "score": 5.629873493714502
-      },
-      "context": {
-        "atr": 0.0003150974553260227,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.21519504725200367,
-        "btc_hour_pct": 0.5130122776569657,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SANDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793400300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SANDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b44ad18239d2feba06eec6bc",
-      "asset_id": "30e5e0a7d7666f3a80f7dd2b",
-      "key": "MEXC:SPOT:QUSDT",
-      "symbol": "QUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793405969582,
-      "price": 0.047535,
-      "level": 0.047736,
-      "invalid": 0.045000648256989934,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.047736,
-        "base_invalid": 0.045000648256989934,
-        "atr": 0.0010490116200671017,
-        "rvol": 7.536372636575144,
-        "close_position": 0.6330548926014328,
-        "breakout": true,
-        "bar_close_ms": 1793401200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6495249585281275,
-        "score": 7.633054892601432
-      },
-      "context": {
-        "atr": 0.0011171455328576932,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.0352615058852663,
-        "btc_hour_pct": 0.5130122776569657,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:QUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793401200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "QUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "225a2e8f040a3796cf55d0b2",
-      "asset_id": "870ad7210dd354baaea0fb1d",
-      "key": "MEXC:PERP:CHZUSDT",
-      "symbol": "CHZUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793405966745,
-      "price": 0.012525,
-      "level": 0.0125,
-      "invalid": 0.012369552503816784,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0125,
-        "base_invalid": 0.012369552503816784,
-        "atr": 6.96499745547735e-05,
-        "rvol": 4.05640441402046,
-        "close_position": 0.8333333333333429,
-        "breakout": true,
-        "bar_close_ms": 1793403900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5613472333600766,
-        "score": 5.889737747353803
-      },
-      "context": {
-        "atr": 6.561791081425649e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2082419655847323,
-        "btc_hour_pct": 0.5152307032255665,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CHZUSDT",
-          "change_pct": -0.6541913760354845,
-          "old_ms": 1793402349268,
-          "current_ms": 1793405962344,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793403900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2caf2fe71f25cadf019bdb88",
-      "asset_id": "dcdaec326a3746466ceaa637",
-      "key": "OKX:SPOT:ROBOUSDT",
-      "symbol": "ROBOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793405970190,
-      "price": 0.0053115,
-      "level": 0.005292,
-      "invalid": 0.0052088861320477645,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005292,
-        "base_invalid": 0.0052088861320477645,
-        "atr": 2.7425786348234746e-05,
-        "rvol": 9.820223132450728,
-        "close_position": 0.8000000000000069,
-        "breakout": true,
-        "bar_close_ms": 1793405700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4743833017077703,
-        "score": 7.800000000000007
-      },
-      "context": {
-        "atr": 2.7425786348234746e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.11707453971059323,
-        "btc_hour_pct": 0.5130572151108792,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ROBOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793405700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ROBOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1258217,6 +1257956,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793405671521
+    },
+    {
+      "id": "5e8e8cd386f008f7a8fc039c",
+      "asset_id": "e51327fef7f0dd216c7b1b7c",
+      "key": "OKX:SPOT:SANDUSDT",
+      "symbol": "SANDUSDT",
+      "phase": "expired",
+      "observed_ms": 1793405970190,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793405979446
+    },
+    {
+      "id": "4c07317674e75b8047b765da",
+      "asset_id": "4a8888c46d6433666f026b33",
+      "key": "MEXC:SPOT:SANDUSDT",
+      "symbol": "SANDUSDT",
+      "phase": "expired",
+      "observed_ms": 1793405969582,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793405979446
+    },
+    {
+      "id": "b44ad18239d2feba06eec6bc",
+      "asset_id": "30e5e0a7d7666f3a80f7dd2b",
+      "key": "MEXC:SPOT:QUSDT",
+      "symbol": "QUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793405969582,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793405979446
+    },
+    {
+      "id": "225a2e8f040a3796cf55d0b2",
+      "asset_id": "870ad7210dd354baaea0fb1d",
+      "key": "MEXC:PERP:CHZUSDT",
+      "symbol": "CHZUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793405966745,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793405979446
+    },
+    {
+      "id": "2caf2fe71f25cadf019bdb88",
+      "asset_id": "dcdaec326a3746466ceaa637",
+      "key": "OKX:SPOT:ROBOUSDT",
+      "symbol": "ROBOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793405970190,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793405979446
     }
   ],
   "runs": [
@@ -1269608,7 +1269402,8 @@
         "entry_seq": 0,
         "cohort": "ROBOUSDT",
         "observation_lag_ms": 270190,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9256
       }
     },
     "errors": [],
@@ -1292015,8 +1291810,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4afe7e24cc1922377c03396f686bf85cf17daeaf",
-    "previous_success_ms": 1793405691652,
+    "previous_commit": "98511f688f0c02d869f8fcccc0476181323c88f7",
+    "previous_success_ms": 1793405978030,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
