@@ -1516363,60 +1516363,7 @@
       "source_close_ms": 1793471400000
     }
   },
-  "pending": [
-    {
-      "id": "3f06f03356c2e5b205ffc23a",
-      "asset_id": "79d3bc8e7ab4ee9f4881e238",
-      "key": "MEXC:SPOT:MEYUSDT",
-      "symbol": "MEYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793471687140,
-      "price": 0.044094999999999995,
-      "level": 0.0443,
-      "invalid": 0.0431513216737127,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0443,
-        "base_invalid": 0.0431513216737127,
-        "atr": 0.00039118884191529805,
-        "rvol": 2.3422385513529225,
-        "close_position": 0.8496240601503766,
-        "breakout": true,
-        "bar_close_ms": 1793467800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3569794050343207,
-        "score": 4.191862611503299
-      },
-      "context": {
-        "atr": 0.0005898330002036604,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7114974802409968,
-        "btc_hour_pct": 0.10892184519200043,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MEYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793467800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1520630,6 +1520577,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793471393563
+    },
+    {
+      "id": "3f06f03356c2e5b205ffc23a",
+      "asset_id": "79d3bc8e7ab4ee9f4881e238",
+      "key": "MEXC:SPOT:MEYUSDT",
+      "symbol": "MEYUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793471687140,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793471697970
     }
   ],
   "runs": [
@@ -1578465,8 +1578423,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ce44c1deeafb394802d1e82a01b4a2d312350b63",
-    "previous_success_ms": 1793471416828,
+    "previous_commit": "f612dd82db5211fb2bba59b7942f654cb34fffd0",
+    "previous_success_ms": 1793471697022,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
