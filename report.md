@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 31.10.2026 16:16:51 TR · V2 döngüsü 314
+Son gözlem: 31.10.2026 16:21:56 TR · V2 döngüsü 315
 
 ## Bildirim kuralları
 
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 31.10.2026 16:16:31 TR
+Son zincir okuması: 31.10.2026 16:21:38 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -59,12 +59,12 @@ V2de sessiz kaydedilen küçük işlem 54, anlamlı tek işlem 6.
 
 ### Sessiz birikim
 
-60dk: örnek alım $420, satış $123, net $297, fiyat bandı %1.85; 6başlatıcı adres.
+Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 31.10.2026 16:16:31 TR
+Son zincir okuması: 31.10.2026 16:21:38 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -102,12 +102,12 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       ],
       "detail_queue": 390,
       "full_chain_coverage": false,
-      "checked_ms": 1793452611723
+      "checked_ms": 1793452916938
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793452591379,
+      "observed_ms": 1793452898925,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -119,7 +119,7 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434
   },
   "timing": {
-    "intervals": 313,
+    "intervals": 314,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
@@ -131,6 +131,8 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+31.10.2026 16:21:41 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 31.10.2026 16:16:34 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -209,6 +211,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 31.10.2026 14:21:15 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 31.10.2026 14:20:57 TR · **ALIM** · ALIM: $295.98 · işlem başlatıcı `2hoyna7esZhRH5prcHStnQeF84Nn884V3jsDSwgAaxBv` · bildirim eşiği $160
-
-31.10.2026 14:16:22 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
