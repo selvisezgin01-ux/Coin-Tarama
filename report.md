@@ -94,7 +94,7 @@ Kimlik defteri: 8382 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | WV `0x86f413e132e432dc283c770f493ba6c015256cc2` | bnb | 31.10.2026 11:38 | 255158.0 | Bekliyor |
+| 🟡 ERKEN RADAR | WV `0x86f413e132e432dc283c770f493ba6c015256cc2` | bnb | 31.10.2026 11:38 | 255158.0 | [Issue #394](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/394) |
 | 🟡 ERKEN RADAR | Goonoor `0x4d1625216d9ea02e72f37eb2404089c678ce19c8` | robinhood | 31.10.2026 10:59 | 58797.0 | [Issue #387](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/387) |
 | 🟡 ERKEN RADAR | CHAI `0xd35c2d5007c4ed38a276b90d4ecd3ccf6c29a7ec` | bnb | 31.10.2026 10:56 | 177775.0 | [Issue #386](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/386) |
 | 🟡 ERKEN RADAR | RICH `0xd6066cde997dd7841da39053d18c00b72cb84080` | bnb | 31.10.2026 10:50 | 338766.0 | [Issue #385](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/385) |
