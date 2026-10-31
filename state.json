@@ -1516165,168 +1516165,7 @@
       "source_close_ms": 1793489400000
     }
   },
-  "pending": [
-    {
-      "id": "f572bf122916c1306fad13e0",
-      "asset_id": "f7da0242921c69d4655b4e85",
-      "key": "MEXC:SPOT:JCTUSDT",
-      "symbol": "JCTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793490143118,
-      "price": 0.004824,
-      "level": 0.004826,
-      "invalid": 0.004718768125472882,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004826,
-        "base_invalid": 0.004718768125472882,
-        "atr": 5.48791635141197e-05,
-        "rvol": 7.623945038073536,
-        "close_position": 0.8227848101265809,
-        "breakout": false,
-        "bar_close_ms": 1793489400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.5177065767284947,
-        "score": 7.322784810126581
-      },
-      "context": {
-        "atr": 5.48791635141197e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.1584128022075313,
-        "btc_hour_pct": -0.1568272812997651,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:JCTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JCTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "000df5cc3b84b1f61d38e25c",
-      "asset_id": "0627667da1198b85f024d5c9",
-      "key": "MEXC:PERP:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793490144265,
-      "price": 0.023184999999999997,
-      "level": 0.02295,
-      "invalid": 0.022610203815529924,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02295,
-        "base_invalid": 0.022610203815529924,
-        "atr": 0.00019864122980051702,
-        "rvol": 4.82441601455869,
-        "close_position": 0.8709677419354882,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0471204188481797,
-        "score": 6.695383756494178
-      },
-      "context": {
-        "atr": 0.00019864122980051702,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9639798129080779,
-        "btc_hour_pct": -0.17067879924566043,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:IRYSUSDT",
-          "change_pct": 2.444554940332222,
-          "old_ms": 1793486668117,
-          "current_ms": 1793490141111,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 9.999999999999999e-05,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6db0300f391137ffceccbeb2",
-      "asset_id": "74a72068e1bb0db73919a63b",
-      "key": "OKX:PERP:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793490143365,
-      "price": 0.023205,
-      "level": 0.02297,
-      "invalid": 0.02261911131752614,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02297,
-        "base_invalid": 0.02261911131752614,
-        "atr": 0.00020592454982572148,
-        "rvol": 3.2964152270589744,
-        "close_position": 0.903225806451606,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1338857392062751,
-        "score": 5.199641033510581
-      },
-      "context": {
-        "atr": 0.00020592454982572148,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9549767732486281,
-        "btc_hour_pct": -0.1616757595862106,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1521354,6 +1521193,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793489854517
+    },
+    {
+      "id": "f572bf122916c1306fad13e0",
+      "asset_id": "f7da0242921c69d4655b4e85",
+      "key": "MEXC:SPOT:JCTUSDT",
+      "symbol": "JCTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793490143118,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793490155513
+    },
+    {
+      "id": "000df5cc3b84b1f61d38e25c",
+      "asset_id": "0627667da1198b85f024d5c9",
+      "key": "MEXC:PERP:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793490144265,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793490155513
+    },
+    {
+      "id": "6db0300f391137ffceccbeb2",
+      "asset_id": "74a72068e1bb0db73919a63b",
+      "key": "OKX:PERP:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793490143365,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793490155513
     }
   ],
   "runs": [
@@ -1560457,7 +1560329,8 @@
         "entry_seq": 0,
         "cohort": "JCTUSDT",
         "observation_lag_ms": 743118,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12395
       },
       "0627667da1198b85f024d5c9:radar": {
         "symbol": "IRYSUSDT",
@@ -1560479,7 +1560352,8 @@
         "entry_seq": 0,
         "cohort": "IRYSUSDT",
         "observation_lag_ms": 744265,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11248
       },
       "74a72068e1bb0db73919a63b:radar": {
         "symbol": "IRYSUSDT",
@@ -1560501,7 +1560375,8 @@
         "entry_seq": 0,
         "cohort": "IRYSUSDT",
         "observation_lag_ms": 743365,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12148
       }
     },
     "errors": [],
@@ -1586076,8 +1585951,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "48bfe3af7eff51bf74ad1326699c777bc0bd70e1",
-    "previous_success_ms": 1793489872540,
+    "previous_commit": "d9799676012099ec47ef33ed3eac9ee823233118",
+    "previous_success_ms": 1793490153679,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
