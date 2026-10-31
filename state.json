@@ -1442646,114 +1442646,7 @@
       "source_close_ms": 1793448000000
     }
   },
-  "pending": [
-    {
-      "id": "b17549e92124549a5d09c4c6",
-      "asset_id": "23c1d5f3c582321a1bcfb388",
-      "key": "OKX:PERP:GRVTUSDT",
-      "symbol": "GRVTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793448145667,
-      "price": 0.21744999999999998,
-      "level": 0.2172,
-      "invalid": 0.21489684078525184,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2172,
-        "base_invalid": 0.21489684078525184,
-        "atr": 0.0010210614316542674,
-        "rvol": 2.441080195023499,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793439900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1659234485321468,
-        "score": 4.441080195023499
-      },
-      "context": {
-        "atr": 0.0013042420916686264,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.45200778446637946,
-        "btc_hour_pct": 0.26396889251993905,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GRVTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793439900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRVTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "07979728634bfc6051da6b23",
-      "asset_id": "61ab98d483d704efc6f33624",
-      "key": "MEXC:PERP:POWRUSDT",
-      "symbol": "POWRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793448140665,
-      "price": 0.056635,
-      "level": 0.05717,
-      "invalid": 0.05547007255393791,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05717,
-        "base_invalid": 0.05547007255393791,
-        "atr": 0.00039951630708061185,
-        "rvol": 4.723728421527672,
-        "close_position": 0.6470588235294058,
-        "breakout": true,
-        "bar_close_ms": 1793443500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5439219165927387,
-        "score": 6.370787245057078
-      },
-      "context": {
-        "atr": 0.0006197890837768434,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.126407799622676,
-        "btc_hour_pct": 0.25951065182665545,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:POWRUSDT",
-          "change_pct": -4.778918901702811,
-          "old_ms": 1793444682803,
-          "current_ms": 1793448136500,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.034999999999999996,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793443500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POWRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1445999,6 +1445892,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793447414720
+    },
+    {
+      "id": "07979728634bfc6051da6b23",
+      "asset_id": "61ab98d483d704efc6f33624",
+      "key": "MEXC:PERP:POWRUSDT",
+      "symbol": "POWRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793448140665,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793448156071
     }
   ],
   "runs": [
@@ -1494852,8 +1494756,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6912915d9444ce043070fb1b84088d2397810a13",
-    "previous_success_ms": 1793447868826,
+    "previous_commit": "baf7b437bb8806a8e1b3c9b08622164294d447dd",
+    "previous_success_ms": 1793448154905,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
