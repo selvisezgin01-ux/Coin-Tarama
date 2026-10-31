@@ -1515515,168 +1515515,7 @@
       "source_close_ms": 1793488500000
     }
   },
-  "pending": [
-    {
-      "id": "e6b478a9ff435988d086fbbb",
-      "asset_id": "34b72bea1c7199aa2c10d320",
-      "key": "MEXC:PERP:ZAMAUSDT",
-      "symbol": "ZAMAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793488647932,
-      "price": 0.06898499999999999,
-      "level": 0.06892,
-      "invalid": 0.06436442211106747,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06892,
-        "base_invalid": 0.06436442211106747,
-        "atr": 0.0007038525928835641,
-        "rvol": 7.557324671922519,
-        "close_position": 0.6744186046511598,
-        "breakout": false,
-        "bar_close_ms": 1793466900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.0980857694019797,
-        "score": 7.1744186046511595
-      },
-      "context": {
-        "atr": 0.0004936070549552993,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.24900282159370235,
-        "btc_hour_pct": -0.17067879924566043,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZAMAUSDT",
-          "change_pct": 1.7209167606983433,
-          "old_ms": 1793485170156,
-          "current_ms": 1793488645036,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0042,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793466900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZAMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "11912b88f7f775487df566e2",
-      "asset_id": "d3f53c0c08b2366faba65e56",
-      "key": "OKX:SPOT:KAITOUSDT",
-      "symbol": "KAITOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793488648393,
-      "price": 0.2394,
-      "level": 0.2409,
-      "invalid": 0.23910613601823338,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2409,
-        "base_invalid": 0.23910613601823338,
-        "atr": 0.0006257598784440701,
-        "rvol": 3.3162581840433902,
-        "close_position": 0.8571428571428741,
-        "breakout": false,
-        "bar_close_ms": 1793482200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3754693366708528,
-        "score": 4.673401041186264
-      },
-      "context": {
-        "atr": 0.0006501315419246118,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2668920031178468,
-        "btc_hour_pct": -0.14942773043752355,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KAITOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793482200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KAITOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b4086cc880642906a5fd45c5",
-      "asset_id": "fe30dbedbcdc1c0c3cd3b4cb",
-      "key": "OKX:SPOT:FLUIDUSDT",
-      "symbol": "FLUIDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793488648393,
-      "price": 1.79595,
-      "level": 1.8002,
-      "invalid": 1.7808675709794535,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.8002,
-        "base_invalid": 1.7808675709794535,
-        "atr": 0.008216193470310846,
-        "rvol": 2.416409966400429,
-        "close_position": 0.8305084745762715,
-        "breakout": true,
-        "bar_close_ms": 1793485800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7519634601459435,
-        "score": 4.2469184409767005
-      },
-      "context": {
-        "atr": 0.008699458974155024,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.997689352179798,
-        "btc_hour_pct": -0.14942773043752355,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLUIDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793485800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLUIDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1520594,6 +1520433,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793488354035
+    },
+    {
+      "id": "e6b478a9ff435988d086fbbb",
+      "asset_id": "34b72bea1c7199aa2c10d320",
+      "key": "MEXC:PERP:ZAMAUSDT",
+      "symbol": "ZAMAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793488647932,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793488659298
+    },
+    {
+      "id": "11912b88f7f775487df566e2",
+      "asset_id": "d3f53c0c08b2366faba65e56",
+      "key": "OKX:SPOT:KAITOUSDT",
+      "symbol": "KAITOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793488648393,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793488659299
+    },
+    {
+      "id": "b4086cc880642906a5fd45c5",
+      "asset_id": "fe30dbedbcdc1c0c3cd3b4cb",
+      "key": "OKX:SPOT:FLUIDUSDT",
+      "symbol": "FLUIDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793488648393,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793488659299
     }
   ],
   "runs": [
@@ -1584692,8 +1584564,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5904c33f74a016f33aadfb53544aa22918695f57",
-    "previous_success_ms": 1793488377123,
+    "previous_commit": "3033c6e46c6ef659ca59cca66969ef3164899726",
+    "previous_success_ms": 1793488657864,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
