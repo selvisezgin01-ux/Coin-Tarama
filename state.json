@@ -1382025,112 +1382025,7 @@
       "source_close_ms": 1793418300000
     }
   },
-  "pending": [
-    {
-      "id": "6b41969da0148eb871d1be21",
-      "asset_id": "c7d89d9bd6b312e1ef870908",
-      "key": "OKX:SPOT:CELOUSDT",
-      "symbol": "CELOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793418459643,
-      "price": 0.075455,
-      "level": 0.07497,
-      "invalid": 0.0737347948848242,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07497,
-        "base_invalid": 0.0737347948848242,
-        "atr": 0.00043470076783867545,
-        "rvol": 26.060602576545342,
-        "close_position": 0.8148148148148192,
-        "breakout": false,
-        "bar_close_ms": 1793413800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.1208642808912872,
-        "score": 7.314814814814819
-      },
-      "context": {
-        "atr": 0.0004286730459663166,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5714498037809221,
-        "btc_hour_pct": 0.06037757315771053,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CELOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793413800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CELOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0c6a13e56b7c23c768b81d4f",
-      "asset_id": "d51fb0217a90d8b37865a690",
-      "key": "OKX:PERP:CELOUSDT",
-      "symbol": "CELOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793418462338,
-      "price": 0.075095,
-      "level": 0.07472,
-      "invalid": 0.07343917544293245,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07472,
-        "base_invalid": 0.07343917544293245,
-        "atr": 0.00047216371378372044,
-        "rvol": 5.263329805433042,
-        "close_position": 0.9506172839506196,
-        "breakout": false,
-        "bar_close_ms": 1793413800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.195489743241418,
-        "score": 6.7139470893836615
-      },
-      "context": {
-        "atr": 0.0004883580592367368,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3746343920561177,
-        "btc_hour_pct": 0.06129083146055869,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CELOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793413800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CELOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1384144,6 +1384039,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793417572102
+    },
+    {
+      "id": "6b41969da0148eb871d1be21",
+      "asset_id": "c7d89d9bd6b312e1ef870908",
+      "key": "OKX:SPOT:CELOUSDT",
+      "symbol": "CELOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793418459643,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793418470862
+    },
+    {
+      "id": "0c6a13e56b7c23c768b81d4f",
+      "asset_id": "d51fb0217a90d8b37865a690",
+      "key": "OKX:PERP:CELOUSDT",
+      "symbol": "CELOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793418462338,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793418470862
     }
   ],
   "runs": [
@@ -1422224,8 +1422141,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "593c37c3799b13d63ff5ca93fedc491a0d79e38a",
-    "previous_success_ms": 1793418184643,
+    "previous_commit": "7a90c5d5a1aeaa469664e923a6ba8d588ea92a68",
+    "previous_success_ms": 1793418469640,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
