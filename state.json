@@ -1417085,114 +1417085,7 @@
       "source_close_ms": 1793439000000
     }
   },
-  "pending": [
-    {
-      "id": "990e37894f81fb45b1bc1352",
-      "asset_id": "c4cd85a5d8c0822887d82d12",
-      "key": "MEXC:PERP:TACUSDT",
-      "symbol": "TACUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793439171525,
-      "price": 0.001163,
-      "level": 0.001156,
-      "invalid": 0.001108974574920623,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001156,
-        "base_invalid": 0.001108974574920623,
-        "atr": 1.3502833862513385e-05,
-        "rvol": 6.460910208642326,
-        "close_position": 0.689655172413791,
-        "breakout": true,
-        "bar_close_ms": 1793437200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.452359750667845,
-        "score": 7.689655172413791
-      },
-      "context": {
-        "atr": 1.510550098743581e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.446410156662961,
-        "btc_hour_pct": 0.005949594004883707,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TACUSDT",
-          "change_pct": 19.124719850351557,
-          "old_ms": 1793435558574,
-          "current_ms": 1793439167637,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.025500000000000002,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793437200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TACUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f7475f61d2d85bb48e8ab0b6",
-      "asset_id": "3e9414b980042bde6ace0ed8",
-      "key": "MEXC:SPOT:QNTUSDT",
-      "symbol": "QNTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793439171430,
-      "price": 197.125,
-      "level": 195.73,
-      "invalid": 191.7826711296398,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 195.73,
-        "base_invalid": 191.7826711296398,
-        "atr": 1.1821924690681211,
-        "rvol": 6.3783067301409515,
-        "close_position": 0.8770053475935886,
-        "breakout": true,
-        "bar_close_ms": 1793439000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.016066338429656,
-        "score": 7.877005347593588
-      },
-      "context": {
-        "atr": 1.1821924690681211,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6607247109698289,
-        "btc_hour_pct": 0.009300739609297004,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:QNTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793439000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "QNTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1420086,6 +1419979,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793437386438
+    },
+    {
+      "id": "990e37894f81fb45b1bc1352",
+      "asset_id": "c4cd85a5d8c0822887d82d12",
+      "key": "MEXC:PERP:TACUSDT",
+      "symbol": "TACUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793439171525,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793439182409
+    },
+    {
+      "id": "f7475f61d2d85bb48e8ab0b6",
+      "asset_id": "3e9414b980042bde6ace0ed8",
+      "key": "MEXC:SPOT:QNTUSDT",
+      "symbol": "QNTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793439171430,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793439182409
     }
   ],
   "runs": [
@@ -1442163,7 +1442078,8 @@
         "entry_seq": 0,
         "cohort": "QNTUSDT",
         "observation_lag_ms": 171430,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10979
       }
     },
     "errors": [],
@@ -1465661,8 +1465577,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8ffa2c84c1754ac0852d54a1e5900467cdc0ffb3",
-    "previous_success_ms": 1793438894977,
+    "previous_commit": "c18e7a0c5d8aaf1be33924968e25d21f58ba1ef9",
+    "previous_success_ms": 1793439181278,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
