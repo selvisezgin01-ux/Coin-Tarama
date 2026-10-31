@@ -88,7 +88,7 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 13076 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 13073 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
@@ -2172,7 +2172,6 @@ Kimlik defteri: 13076 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `ethereum:0x4575682f412816a321925b866709a10d705ce87d` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `ethereum:0x4639635744ffc1a4dcc5cf923e7c927969a564f8` | market_rejected_or_unknown | liquidity, liquidity_to_cap |
 | `ethereum:0x468c8cffe4171b10586f59459d11d42f8ce2a8db` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
-| `ethereum:0x47d8982457d52d3d59b87fe4913a07deb764c4e5` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0x48c3ad446d572e209857e8e1c8b19d39a7ffea42` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `ethereum:0x48c4deb0bb05f9976f5d20ffd1a681f9569332b5` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `ethereum:0x495a19c7f6b071924bfadb4528fee630ab3ff136` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2336,10 +2335,8 @@ Kimlik defteri: 13076 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 | `hyperevm:0x000000000000780555bd0bca3791f89f9542c2d6` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x06328078fa42460f3dfb6a86b484fd09eb1162be` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x06d1a22cb3a036b9e5c8bdedc8d12b2255b5963c` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
-| `hyperevm:0x074a60499539bdd3d85c5b28deea6067d9f1ffff` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x16a23e530f247a1eb81de7724ca33c246bcfdafc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x18cef5ac0744fc835bda41e72544154a34867980` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
-| `hyperevm:0x18f6dd58ddf682c3f197e02cc6917ed1c2417503` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x389ff560781bd54034e9ad829a965f1b78253b9f` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x5ccde4afec441515466648f9cd94413211d1cfec` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `hyperevm:0x5ed157b152ef86f96e092299f806fb704c6746dc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
