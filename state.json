@@ -1511694,264 +1511694,7 @@
       "source_close_ms": 1793476800000
     }
   },
-  "pending": [
-    {
-      "id": "b2c15e4b54eac8764291a04b",
-      "asset_id": "f98f7443c7690edc9b395ef5",
-      "key": "OKX:SPOT:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793476925997,
-      "price": 0.631,
-      "level": 0.6296,
-      "invalid": 0.6207252284459394,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6296,
-        "base_invalid": 0.6207252284459394,
-        "atr": 0.003831810360404245,
-        "rvol": 7.812808704631003,
-        "close_position": 0.9358974358974432,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4386189258312143,
-        "score": 7.935897435897443
-      },
-      "context": {
-        "atr": 0.0036032224306905775,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.6272131973251271,
-        "btc_hour_pct": -0.05091328114829041,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ETHFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4bd9b99778335e02f439518c",
-      "asset_id": "08d2ff537b0fec9874cf386f",
-      "key": "MEXC:SPOT:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793476926237,
-      "price": 0.63105,
-      "level": 0.6296,
-      "invalid": 0.6205441799537356,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6296,
-        "base_invalid": 0.6205441799537356,
-        "atr": 0.003705466975095884,
-        "rvol": 9.172132414523412,
-        "close_position": 0.9358974358974432,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3899984023006962,
-        "score": 7.935897435897443
-      },
-      "context": {
-        "atr": 0.0035782449286189846,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5127075864044262,
-        "btc_hour_pct": -0.07098069250393024,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ETHFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f9526e631203acbd2ab2acf4",
-      "asset_id": "7341122f83ac0866d290d7a4",
-      "key": "MEXC:PERP:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793476928692,
-      "price": 0.63045,
-      "level": 0.629,
-      "invalid": 0.6200498307026805,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.629,
-        "base_invalid": 0.6200498307026805,
-        "atr": 0.003667795315463758,
-        "rvol": 7.722601433947942,
-        "close_position": 0.921052631578942,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3420674229110086,
-        "score": 7.921052631578942
-      },
-      "context": {
-        "atr": 0.003504034953508079,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.48170021798645823,
-        "btc_hour_pct": -0.05542458454118604,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ETHFIUSDT",
-          "change_pct": 1.003344876637735,
-          "old_ms": 1793473471260,
-          "current_ms": 1793476923987,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "caf38ade3ecdf953c92b28b7",
-      "asset_id": "9f8f58e24af04b311eda70c5",
-      "key": "OKX:PERP:ETHFIUSDT",
-      "symbol": "ETHFIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793476925396,
-      "price": 0.63085,
-      "level": 0.6292,
-      "invalid": 0.6200349551104344,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6292,
-        "base_invalid": 0.6200349551104344,
-        "atr": 0.0037669659304378064,
-        "rvol": 4.758846809144891,
-        "close_position": 0.9249999999999945,
-        "breakout": true,
-        "bar_close_ms": 1793461500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3742409715564063,
-        "score": 6.683846809144885
-      },
-      "context": {
-        "atr": 0.0036777001130487404,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5031584600220351,
-        "btc_hour_pct": -0.04950220632882196,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ETHFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793461500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "09716e793dfe217ba41959c0",
-      "asset_id": "5feb611093de0c40df5e6ec1",
-      "key": "MEXC:SPOT:BULLAUSDT",
-      "symbol": "BULLAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793476926237,
-      "price": 0.071545,
-      "level": 0.071567,
-      "invalid": 0.0701726497360001,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.071567,
-        "base_invalid": 0.0701726497360001,
-        "atr": 0.0010356684266659866,
-        "rvol": 2.9881220990366657,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793475000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0010196278358316,
-        "score": 4.988122099036666
-      },
-      "context": {
-        "atr": 0.0009767141658454574,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5904941238267902,
-        "btc_hour_pct": -0.07098069250393024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BULLAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793475000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BULLAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1516374,6 +1516117,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793476330771
+    },
+    {
+      "id": "b2c15e4b54eac8764291a04b",
+      "asset_id": "f98f7443c7690edc9b395ef5",
+      "key": "OKX:SPOT:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793476925997,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793476939031
+    },
+    {
+      "id": "4bd9b99778335e02f439518c",
+      "asset_id": "08d2ff537b0fec9874cf386f",
+      "key": "MEXC:SPOT:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793476926237,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793476939031
+    },
+    {
+      "id": "f9526e631203acbd2ab2acf4",
+      "asset_id": "7341122f83ac0866d290d7a4",
+      "key": "MEXC:PERP:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793476928692,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793476939031
+    },
+    {
+      "id": "caf38ade3ecdf953c92b28b7",
+      "asset_id": "9f8f58e24af04b311eda70c5",
+      "key": "OKX:PERP:ETHFIUSDT",
+      "symbol": "ETHFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793476925396,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793476939031
+    },
+    {
+      "id": "09716e793dfe217ba41959c0",
+      "asset_id": "5feb611093de0c40df5e6ec1",
+      "key": "MEXC:SPOT:BULLAUSDT",
+      "symbol": "BULLAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793476926237,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793476939031
     }
   ],
   "runs": [
@@ -1576128,8 +1575926,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3f78efb3c0589fc01e6d91ca811f5598b645275a",
-    "previous_success_ms": 1793476649520,
+    "previous_commit": "cd3929ff2ce2fcd6e53388fd272c8620e7e2833c",
+    "previous_success_ms": 1793476937806,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
