@@ -505,50 +505,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "b64149de30c97ed1f35eb2a9",
-      "created_ms": 1793408483931,
-      "candidates": [
-        {
-          "exchange": "OKX",
-          "symbol": "GLMUSDT",
-          "observed_ms": 1793408329304,
-          "feature_cutoff_ms": 1793404800000,
-          "mid_price": 0.11201,
-          "spread_pct": 0.30354432639943485,
-          "return24_pct": 8.866321648276543,
-          "relative24_pct_points": 9.765084839366589,
-          "quote_volume24": 40898.40874349366,
-          "liquidity_band": "thin",
-          "breakout_level": 0.1109,
-          "breakout_open_ms": 1793390400000.0,
-          "breakout_volume_ratio": 4.833871646781976,
-          "strength_score": 75,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.10540161071759412,
-          "atr": 0.00239355712962351,
-          "close": 0.11149,
-          "paper_controls": [
-            {
-              "symbol": "QTUMUSDT",
-              "entry_price": 0.7911999999999999
-            },
-            {
-              "symbol": "XSMCIUSDT",
-              "entry_price": 33.055
-            },
-            {
-              "symbol": "CATUSDT",
-              "entry_price": 1.6355e-06
-            }
-          ],
-          "paper_btc_price": 77509.95,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793408483931,
   "paper": {
     "version": "github-paper-v1",
