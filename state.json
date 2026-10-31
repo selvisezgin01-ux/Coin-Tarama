@@ -1511382,62 +1511382,7 @@
       "source_close_ms": 1793466000000
     }
   },
-  "pending": [
-    {
-      "id": "66a174724277ff26220bd2af",
-      "asset_id": "9c3b88781d67a84b49fd7334",
-      "key": "MEXC:PERP:AGLDUSDT",
-      "symbol": "AGLDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793467335455,
-      "price": 0.19240000000000002,
-      "level": 0.1901,
-      "invalid": 0.18499670248814337,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1901,
-        "base_invalid": 0.18499670248814337,
-        "atr": 0.002021983412377411,
-        "rvol": 2.066698593194225,
-        "close_position": 0.8846153846153862,
-        "breakout": true,
-        "bar_close_ms": 1793466900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.859723698193405,
-        "score": 3.9513139778096114
-      },
-      "context": {
-        "atr": 0.002021983412377411,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.13510353647652185,
-        "btc_hour_pct": 0.02320780916991172,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AGLDUSDT",
-          "change_pct": 1.320283474409334,
-          "old_ms": 1793463722488,
-          "current_ms": 1793467334494,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.00030000000000000003,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793466900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1515486,6 +1515431,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793467047981
+    },
+    {
+      "id": "66a174724277ff26220bd2af",
+      "asset_id": "9c3b88781d67a84b49fd7334",
+      "key": "MEXC:PERP:AGLDUSDT",
+      "symbol": "AGLDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793467335455,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793467345596
     }
   ],
   "runs": [
@@ -1546740,7 +1546696,8 @@
         "entry_seq": 0,
         "cohort": "AGLDUSDT",
         "observation_lag_ms": 435455,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10141
       }
     },
     "errors": [],
@@ -1571773,8 +1571730,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e06e9794403979ada4614a0ef8548e320799ce93",
-    "previous_success_ms": 1793467065615,
+    "previous_commit": "9d68dad0320192139aca2471c596774369bbf62f",
+    "previous_success_ms": 1793467344581,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
