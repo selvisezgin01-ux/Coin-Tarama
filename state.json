@@ -1466151,112 +1466151,7 @@
       "source_close_ms": 1793453400000
     }
   },
-  "pending": [
-    {
-      "id": "d04f46e7f620a1a71584dba1",
-      "asset_id": "82e96fea3078e0d56baf5cf4",
-      "key": "OKX:SPOT:CPUSDT",
-      "symbol": "CPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793454582528,
-      "price": 0.0080635,
-      "level": 0.008091,
-      "invalid": 0.007997126275819923,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.008091,
-        "base_invalid": 0.007997126275819923,
-        "atr": 3.249149453384881e-05,
-        "rvol": 9.758440524205454,
-        "close_position": 0.9444444444443909,
-        "breakout": false,
-        "bar_close_ms": 1793454300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.4460966542751077,
-        "score": 7.444444444444391
-      },
-      "context": {
-        "atr": 3.249149453384881e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1457243509672801,
-        "btc_hour_pct": -0.08353529624091083,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2b88d9f633a16f3649c6b2fb",
-      "asset_id": "ae65b5b6c238e2bf9b98f763",
-      "key": "MEXC:SPOT:4USDT",
-      "symbol": "4USDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793454580643,
-      "price": 0.01133,
-      "level": 0.01127,
-      "invalid": 0.011138443063780692,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01127,
-        "base_invalid": 0.011138443063780692,
-        "atr": 7.704624146205189e-05,
-        "rvol": 3.8042989659857844,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793454300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5342831700801298,
-        "score": 5.804298965985785
-      },
-      "context": {
-        "atr": 7.704624146205189e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7113711057444627,
-        "btc_hour_pct": -0.0835684151615057,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:4USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793454300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "4USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1469810,6 +1469705,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793454144511
+    },
+    {
+      "id": "d04f46e7f620a1a71584dba1",
+      "asset_id": "82e96fea3078e0d56baf5cf4",
+      "key": "OKX:SPOT:CPUSDT",
+      "symbol": "CPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793454582528,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793454592460
+    },
+    {
+      "id": "2b88d9f633a16f3649c6b2fb",
+      "asset_id": "ae65b5b6c238e2bf9b98f763",
+      "key": "MEXC:SPOT:4USDT",
+      "symbol": "4USDT",
+      "phase": "radar",
+      "observed_ms": 1793454580643,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793454592461
     }
   ],
   "runs": [
@@ -1496810,7 +1496727,8 @@
         "entry_seq": 0,
         "cohort": "CPUSDT",
         "observation_lag_ms": 282528,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9932
       },
       "ae65b5b6c238e2bf9b98f763:radar": {
         "symbol": "4USDT",
@@ -1496832,7 +1496750,8 @@
         "entry_seq": 0,
         "cohort": "4USDT",
         "observation_lag_ms": 280643,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11818
       }
     },
     "errors": [],
@@ -1521059,8 +1520978,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "324a967bde5423d9127d0e815d814fb440f0948b",
-    "previous_success_ms": 1793454566973,
+    "previous_commit": "8fb9881ea10b04aec0f50089e52dcf44a5dcfff6",
+    "previous_success_ms": 1793454590987,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
