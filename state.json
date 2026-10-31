@@ -1443336,62 +1443336,7 @@
       "source_close_ms": 1793448000000
     }
   },
-  "pending": [
-    {
-      "id": "2bb56fcbf562d356e6618410",
-      "asset_id": "e4c18aa330481ec63530f47e",
-      "key": "MEXC:PERP:AWEUSDT",
-      "symbol": "AWEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793448437650,
-      "price": 0.073605,
-      "level": 0.07367,
-      "invalid": 0.07172619030041553,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07367,
-        "base_invalid": 0.07172619030041553,
-        "atr": 0.0004920646638964067,
-        "rvol": 6.161749662209921,
-        "close_position": 0.6818181818181761,
-        "breakout": false,
-        "bar_close_ms": 1793448000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9879253567508295,
-        "score": 7.181818181818176
-      },
-      "context": {
-        "atr": 0.0004920646638964067,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.728414704924174,
-        "btc_hour_pct": 0.25951065182665545,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AWEUSDT",
-          "change_pct": 1.1004971550416798,
-          "old_ms": 1793444983782,
-          "current_ms": 1793448433536,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793448000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AWEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1446648,6 +1446593,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793448156071
+    },
+    {
+      "id": "2bb56fcbf562d356e6618410",
+      "asset_id": "e4c18aa330481ec63530f47e",
+      "key": "MEXC:PERP:AWEUSDT",
+      "symbol": "AWEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793448437650,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793448447866
     }
   ],
   "runs": [
@@ -1471735,7 +1471691,8 @@
         "entry_seq": 0,
         "cohort": "AWEUSDT",
         "observation_lag_ms": 437650,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10216
       }
     },
     "errors": [],
@@ -1495622,8 +1495579,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "77a1184324185a7ef27afef61c786f1291e80fee",
-    "previous_success_ms": 1793448173566,
+    "previous_commit": "5db5ccb5a9a1af1241adf0c29acf66c4be72bffc",
+    "previous_success_ms": 1793448446699,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
