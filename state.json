@@ -1495663,58 +1495663,7 @@
       "source_close_ms": 1793461500000
     }
   },
-  "pending": [
-    {
-      "id": "6761fd61f57922d87639b72a",
-      "asset_id": "3c2d7785639971ec386b396f",
-      "key": "OKX:PERP:AGLDUSDT",
-      "symbol": "AGLDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793462541276,
-      "price": 0.18845,
-      "level": 0.1883,
-      "invalid": 0.18347833055926702,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1883,
-        "base_invalid": 0.18347833055926702,
-        "atr": 0.002144462938219753,
-        "rvol": 3.662923561639923,
-        "close_position": 0.7142857142857086,
-        "breakout": true,
-        "bar_close_ms": 1793462400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9407008086253397,
-        "score": 5.377209275925631
-      },
-      "context": {
-        "atr": 0.002144462938219753,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.7152851985943407,
-        "btc_hour_pct": 0.22541561003099897,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AGLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793462400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1499620,6 +1499569,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793462245304
+    },
+    {
+      "id": "6761fd61f57922d87639b72a",
+      "asset_id": "3c2d7785639971ec386b396f",
+      "key": "OKX:PERP:AGLDUSDT",
+      "symbol": "AGLDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793462541276,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793462557363
     }
   ],
   "runs": [
@@ -1529298,7 +1529258,8 @@
         "entry_seq": 0,
         "cohort": "AGLDUSDT",
         "observation_lag_ms": 141276,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 16087
       }
     },
     "errors": [],
@@ -1554029,8 +1553990,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6c2ad7f346bf7e771a32f9b3d0f4f3fa51143c62",
-    "previous_success_ms": 1793462262471,
+    "previous_commit": "86daa3e416bb9236d444603f01324f4cc5c4797c",
+    "previous_success_ms": 1793462556429,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
