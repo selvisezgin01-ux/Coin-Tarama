@@ -1500432,116 +1500432,7 @@
       "source_close_ms": 1793463300000
     }
   },
-  "pending": [
-    {
-      "id": "d901d1900b3e7e4f0ff33560",
-      "asset_id": "cc74dbc9894dcabf1909dd94",
-      "key": "MEXC:PERP:ORDERUSDT",
-      "symbol": "ORDERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793464035840,
-      "price": 0.036215,
-      "level": 0.03531,
-      "invalid": 0.034817012464619226,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03531,
-        "base_invalid": 0.034817012464619226,
-        "atr": 0.00035325023587182754,
-        "rvol": 13.956900422599292,
-        "close_position": 0.6510067114093975,
-        "breakout": true,
-        "bar_close_ms": 1793463300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.8758542141230192,
-        "score": 7.651006711409398
-      },
-      "context": {
-        "atr": 0.00035325023587182754,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7441251149850725,
-        "btc_hour_pct": 0.229250207087639,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ORDERUSDT",
-          "change_pct": 5.119681161722589,
-          "old_ms": 1793460564144,
-          "current_ms": 1793464034294,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793463300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ORDERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d61589da431ab112a48d93e0",
-      "asset_id": "1ca8d5afaeca362269ffc297",
-      "key": "OKX:PERP:ORDERUSDT",
-      "symbol": "ORDERUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793464036066,
-      "price": 0.036165,
-      "level": 0.03531,
-      "invalid": 0.034773967460948914,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03531,
-        "base_invalid": 0.034773967460948914,
-        "atr": 0.00037355026034057413,
-        "rvol": 9.448614389318939,
-        "close_position": 0.6470588235294134,
-        "breakout": true,
-        "bar_close_ms": 1793463300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.993158494868875,
-        "score": 7.647058823529413
-      },
-      "context": {
-        "atr": 0.00037355026034057413,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7487964243529488,
-        "btc_hour_pct": 0.22541561003099897,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ORDERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793463300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ORDERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1504491,6 +1504382,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793463450630
+    },
+    {
+      "id": "d901d1900b3e7e4f0ff33560",
+      "asset_id": "cc74dbc9894dcabf1909dd94",
+      "key": "MEXC:PERP:ORDERUSDT",
+      "symbol": "ORDERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793464035840,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793464047178
+    },
+    {
+      "id": "d61589da431ab112a48d93e0",
+      "asset_id": "1ca8d5afaeca362269ffc297",
+      "key": "OKX:PERP:ORDERUSDT",
+      "symbol": "ORDERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793464036066,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793464047179
     }
   ],
   "runs": [
@@ -1534692,7 +1534605,8 @@
         "entry_seq": 0,
         "cohort": "ORDERUSDT",
         "observation_lag_ms": 735840,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11338
       },
       "1ca8d5afaeca362269ffc297:radar": {
         "symbol": "ORDERUSDT",
@@ -1534714,7 +1534628,8 @@
         "entry_seq": 0,
         "cohort": "ORDERUSDT",
         "observation_lag_ms": 736066,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11113
       },
       "afea467cf0b04bcc70cb587c:radar": {
         "symbol": "REUSDT",
@@ -1559600,8 +1559515,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a4cde4b6fd15e752e78b6f6d45244d8c6427eca0",
-    "previous_success_ms": 1793463762204,
+    "previous_commit": "44e5856878a739ad465b52192ce751980ed5bdfb",
+    "previous_success_ms": 1793464045636,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
