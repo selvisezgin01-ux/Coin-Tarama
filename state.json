@@ -1463574,64 +1463574,7 @@
       "source_close_ms": 1793452500000
     }
   },
-  "pending": [
-    {
-      "id": "9b6fb8f418e64884e1502df4",
-      "asset_id": "b8797c64340acd6fec5a6f03",
-      "key": "MEXC:PERP:JCTUSDT",
-      "symbol": "JCTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793452935797,
-      "price": 0.0059275,
-      "level": 0.005831,
-      "invalid": 0.005245585822511852,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005831,
-        "base_invalid": 0.005245585822511852,
-        "atr": 0.00019609451658765542,
-        "rvol": 2.3180041140662406,
-        "close_position": 0.9978354978354975,
-        "breakout": true,
-        "bar_close_ms": 1793452500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.78591288229844,
-        "score": 4.315839611901739
-      },
-      "context": {
-        "atr": 0.00019609451658765542,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 6.998516999081906,
-        "btc_hour_pct": -0.08675229319955458,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:JCTUSDT",
-          "change_pct": 3.425234277485112,
-          "old_ms": 1793449326090,
-          "current_ms": 1793452934223,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0578,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793452500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JCTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1467141,6 +1467084,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793452649615
+    },
+    {
+      "id": "9b6fb8f418e64884e1502df4",
+      "asset_id": "b8797c64340acd6fec5a6f03",
+      "key": "MEXC:PERP:JCTUSDT",
+      "symbol": "JCTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793452935797,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793452945678
     }
   ],
   "runs": [
@@ -1493662,7 +1493616,8 @@
         "entry_seq": 0,
         "cohort": "JCTUSDT",
         "observation_lag_ms": 435797,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9881
       }
     },
     "errors": [],
@@ -1517765,8 +1517720,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7b5d4b3656cb9405fefcec149794375f8a10bafb",
-    "previous_success_ms": 1793452671043,
+    "previous_commit": "4c594127116ca2dd451859ef852fe8a1ebc920e0",
+    "previous_success_ms": 1793452944375,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
