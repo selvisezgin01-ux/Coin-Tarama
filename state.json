@@ -1591659,62 +1591659,7 @@
       "source_close_ms": 1793533500000
     }
   },
-  "pending": [
-    {
-      "id": "0b582fb0be66f6441d08a6c4",
-      "asset_id": "2866fa26e9eab84219811849",
-      "key": "MEXC:PERP:MOVRUSDT",
-      "symbol": "MOVRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793533591387,
-      "price": 1.08555,
-      "level": 1.091,
-      "invalid": 1.06222379529162,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.091,
-        "base_invalid": 1.06222379529162,
-        "atr": 0.005841364722532807,
-        "rvol": 2.636136018781411,
-        "close_position": 0.9102564102564205,
-        "breakout": true,
-        "bar_close_ms": 1793532600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4154870940882747,
-        "score": 4.546392429037832
-      },
-      "context": {
-        "atr": 0.0064600953840311375,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.2758834947814046,
-        "btc_hour_pct": -0.1088589405847884,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MOVRUSDT",
-          "change_pct": 3.6096642651626487,
-          "old_ms": 1793529977241,
-          "current_ms": 1793533590045,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793532600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOVRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1598491,6 +1598436,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793532702630
+    },
+    {
+      "id": "0b582fb0be66f6441d08a6c4",
+      "asset_id": "2866fa26e9eab84219811849",
+      "key": "MEXC:PERP:MOVRUSDT",
+      "symbol": "MOVRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793533591387,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793533603393
     }
   ],
   "runs": [
@@ -1679557,8 +1679513,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "701a92fbe24ce1b125165eac9d558d9a071367ce",
-    "previous_success_ms": 1793533314132,
+    "previous_commit": "21cba90a31eb07608f35fa34145189f5df6a2e1e",
+    "previous_success_ms": 1793533602088,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
