@@ -1530635,320 +1530635,7 @@
       "source_close_ms": 1793505600000
     }
   },
-  "pending": [
-    {
-      "id": "5d38702cffb5998e8d7b7249",
-      "asset_id": "3e0359aa995fba52ac57cf8f",
-      "key": "OKX:SPOT:AAVEUSDT",
-      "symbol": "AAVEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793505703138,
-      "price": 137.195,
-      "level": 135.73,
-      "invalid": 133.48225681245592,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 135.73,
-        "base_invalid": 133.48225681245592,
-        "atr": 0.7182879169606536,
-        "rvol": 8.686893086840122,
-        "close_position": 0.9805194805194797,
-        "breakout": true,
-        "bar_close_ms": 1793500200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7437961099932897,
-        "score": 7.9805194805194795
-      },
-      "context": {
-        "atr": 0.8053915231944074,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.643407880382485,
-        "btc_hour_pct": 0.07953647480958281,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AAVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793500200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f7f25d8c5ca8c1f41a085ac3",
-      "asset_id": "8d1a8c1642d782d24c8e55c0",
-      "key": "OKX:PERP:AAVEUSDT",
-      "symbol": "AAVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793505705777,
-      "price": 137.125,
-      "level": 135.7,
-      "invalid": 133.4500337740269,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 135.7,
-        "base_invalid": 133.4500337740269,
-        "atr": 0.7331081731540038,
-        "rvol": 3.900101327178788,
-        "close_position": 0.961290322580644,
-        "breakout": true,
-        "bar_close_ms": 1793500200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7070443533358182,
-        "score": 5.861391649759431
-      },
-      "context": {
-        "atr": 0.8232529048248894,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6313330952619989,
-        "btc_hour_pct": 0.07736859247089445,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AAVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793500200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "04d0ded41e38084f65e496d9",
-      "asset_id": "bd899a098ff00345df22d46b",
-      "key": "MEXC:SPOT:BANKUSDT",
-      "symbol": "BANKUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793505706628,
-      "price": 0.02611,
-      "level": 0.02614,
-      "invalid": 0.025830954014077267,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02614,
-        "base_invalid": 0.025830954014077267,
-        "atr": 0.000126973239484887,
-        "rvol": 8.635656777833603,
-        "close_position": 0.7812499999999987,
-        "breakout": true,
-        "bar_close_ms": 1793504700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0814986481266775,
-        "score": 7.781249999999998
-      },
-      "context": {
-        "atr": 0.00013370177763355606,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4496641466826601,
-        "btc_hour_pct": 0.09045931010747132,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BANKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793504700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BANKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a75d89f3f83515670bb58568",
-      "asset_id": "55599cdd364c192c97067ab6",
-      "key": "MEXC:PERP:JCTUSDT",
-      "symbol": "JCTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793505703458,
-      "price": 0.0047815,
-      "level": 0.004759,
-      "invalid": 0.004644811946122842,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004759,
-        "base_invalid": 0.004644811946122842,
-        "atr": 6.792035918105571e-05,
-        "rvol": 3.4396844838399083,
-        "close_position": 0.608108108108108,
-        "breakout": true,
-        "bar_close_ms": 1793505600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7206512425021367,
-        "score": 5.047792591948016
-      },
-      "context": {
-        "atr": 6.792035918105571e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.639431008237736,
-        "btc_hour_pct": 0.08122023426440084,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:JCTUSDT",
-          "change_pct": 8.332651956444504,
-          "old_ms": 1793502083208,
-          "current_ms": 1793505700097,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793505600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JCTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ac414fa596459abae1c79b7e",
-      "asset_id": "36a760dd8899d6a6f3f976e9",
-      "key": "MEXC:PERP:GUNUSDT",
-      "symbol": "GUNUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793505703458,
-      "price": 0.002216,
-      "level": 0.002185,
-      "invalid": 0.0021236459196712536,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002185,
-        "base_invalid": 0.0021236459196712536,
-        "atr": 2.236053552497725e-05,
-        "rvol": 3.127618620612704,
-        "close_position": 0.7631578947368439,
-        "breakout": true,
-        "bar_close_ms": 1793505600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.46282527881041,
-        "score": 4.890776515349548
-      },
-      "context": {
-        "atr": 2.236053552497725e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.381605044546009,
-        "btc_hour_pct": 0.08122023426440084,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GUNUSDT",
-          "change_pct": -0.2329278680672231,
-          "old_ms": 1793502083372,
-          "current_ms": 1793505700267,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793505600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GUNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9869d21dd900e7edf0bc5ac4",
-      "asset_id": "abeb741d93eae1c2aa022cd5",
-      "key": "MEXC:SPOT:XPLUSDT",
-      "symbol": "XPLUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793505706628,
-      "price": 0.083475,
-      "level": 0.08326,
-      "invalid": 0.08154672441933652,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08326,
-        "base_invalid": 0.08154672441933652,
-        "atr": 0.0004885038710898413,
-        "rvol": 3.0379526702644455,
-        "close_position": 0.6862745098039322,
-        "breakout": true,
-        "bar_close_ms": 1793505600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1527727217570671,
-        "score": 4.724227180068378
-      },
-      "context": {
-        "atr": 0.0004885038710898413,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0623134116495958,
-        "btc_hour_pct": 0.09045931010747132,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XPLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793505600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XPLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1536614,6 +1536301,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793504811493
+    },
+    {
+      "id": "5d38702cffb5998e8d7b7249",
+      "asset_id": "3e0359aa995fba52ac57cf8f",
+      "key": "OKX:SPOT:AAVEUSDT",
+      "symbol": "AAVEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793505703138,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793505715765
+    },
+    {
+      "id": "f7f25d8c5ca8c1f41a085ac3",
+      "asset_id": "8d1a8c1642d782d24c8e55c0",
+      "key": "OKX:PERP:AAVEUSDT",
+      "symbol": "AAVEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793505705777,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793505715765
+    },
+    {
+      "id": "04d0ded41e38084f65e496d9",
+      "asset_id": "bd899a098ff00345df22d46b",
+      "key": "MEXC:SPOT:BANKUSDT",
+      "symbol": "BANKUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793505706628,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793505715765
+    },
+    {
+      "id": "a75d89f3f83515670bb58568",
+      "asset_id": "55599cdd364c192c97067ab6",
+      "key": "MEXC:PERP:JCTUSDT",
+      "symbol": "JCTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793505703458,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793505715765
+    },
+    {
+      "id": "ac414fa596459abae1c79b7e",
+      "asset_id": "36a760dd8899d6a6f3f976e9",
+      "key": "MEXC:PERP:GUNUSDT",
+      "symbol": "GUNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793505703458,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793505715765
+    },
+    {
+      "id": "9869d21dd900e7edf0bc5ac4",
+      "asset_id": "abeb741d93eae1c2aa022cd5",
+      "key": "MEXC:SPOT:XPLUSDT",
+      "symbol": "XPLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793505706628,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793505715765
     }
   ],
   "runs": [
@@ -1581392,7 +1581145,8 @@
         "entry_seq": 0,
         "cohort": "JCTUSDT",
         "observation_lag_ms": 103458,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12307
       },
       "36a760dd8899d6a6f3f976e9:radar": {
         "symbol": "GUNUSDT",
@@ -1581414,7 +1581168,8 @@
         "entry_seq": 0,
         "cohort": "GUNUSDT",
         "observation_lag_ms": 103458,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12307
       },
       "abeb741d93eae1c2aa022cd5:radar": {
         "symbol": "XPLUSDT",
@@ -1581436,7 +1581191,8 @@
         "entry_seq": 0,
         "cohort": "XPLUSDT",
         "observation_lag_ms": 106628,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9137
       }
     },
     "errors": [],
@@ -1607422,8 +1607178,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1fccee9478db77ca2da38d36ea9c29e4f511b3b6",
-    "previous_success_ms": 1793505428015,
+    "previous_commit": "949e5d2ce63d690249bb81c14cc311ecd030a4db",
+    "previous_success_ms": 1793505714684,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
