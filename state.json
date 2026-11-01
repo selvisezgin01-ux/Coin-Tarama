@@ -1593789,184 +1593789,7 @@
       "source_close_ms": 1793558700000
     }
   },
-  "pending": [
-    {
-      "id": "fdb9fc21b94b0233070433ae",
-      "asset_id": "6abebc48eb00cedb18f36800",
-      "key": "OKX:PERP:1INCHUSDT",
-      "symbol": "1INCHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793558789101,
-      "price": 0.082035,
-      "level": 0.08214,
-      "invalid": 0.08204347908951516,
-      "target": 0.08513294182096967,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08214,
-        "base_invalid": 0.08039347908951515,
-        "atr": 0.0003768060698989241,
-        "rvol": 3.5504893882331334,
-        "close_position": 0.8292682926829565,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5506607929515406,
-        "score": 5.37975768091609
-      },
-      "context": {
-        "atr": 0.0004326151758862698,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.05505966728273082,
-        "btc_hour_pct": -0.21125191727119352,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:1INCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.08204347908951516,
-        "target": 0.08513294182096967,
-        "risk_pct": 0.7458515732940185,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.0891,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.08258,
-        "entry_zone_high": 0.08277264942827664
-      },
-      "reason": "giriş geçersizliği kaybedildi",
-      "source_close_ms": 1793518200000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "1INCHUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793548800000,
-        "closed_price": 0.08316,
-        "ema20_1h": 0.08242846527203307,
-        "atr14_1h": 0.0009623260185783223,
-        "structure_floor": 0.08204347908951516,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "e306ad714b41e82106ff87ea",
-      "asset_id": "dc74e77ed624f14bb45ba8a8",
-      "key": "MEXC:PERP:BASEDUSDT",
-      "symbol": "BASEDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793558790491,
-      "price": 0.05334,
-      "level": 0.05307,
-      "invalid": 0.05117432279229731,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05307,
-        "base_invalid": 0.05117432279229731,
-        "atr": 0.00037118138468454864,
-        "rvol": 4.1856250301246165,
-        "close_position": 0.6847826086956551,
-        "breakout": true,
-        "bar_close_ms": 1793553300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.7614500097446824,
-        "score": 5.8704076388202715
-      },
-      "context": {
-        "atr": 0.00045250862952859897,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9630534125383061,
-        "btc_hour_pct": -0.20790899116771566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BASEDUSDT",
-          "change_pct": -0.6201303172405748,
-          "old_ms": 1793555325581,
-          "current_ms": 1793558786278,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793553300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BASEDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c85ff1c0ab483211a4f550be",
-      "asset_id": "97e69bd3c02791df87db8f85",
-      "key": "MEXC:SPOT:ULTIMAUSDT",
-      "symbol": "ULTIMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793558790448,
-      "price": 1211.275,
-      "level": 1214.16,
-      "invalid": 1202.8812109654618,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1214.16,
-        "base_invalid": 1202.8812109654618,
-        "atr": 5.458593563588177,
-        "rvol": 2.7693267768627687,
-        "close_position": 0.942148760330539,
-        "breakout": false,
-        "bar_close_ms": 1793556000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3099839634962853,
-        "score": 4.211475537193308
-      },
-      "context": {
-        "atr": 5.475718889488719,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5340576982154954,
-        "btc_hour_pct": -0.2240737347192101,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ULTIMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793556000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ULTIMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1601711,6 +1601534,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793557901478
+    },
+    {
+      "id": "fdb9fc21b94b0233070433ae",
+      "asset_id": "6abebc48eb00cedb18f36800",
+      "key": "OKX:PERP:1INCHUSDT",
+      "symbol": "1INCHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793558789101,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793558801068
+    },
+    {
+      "id": "c85ff1c0ab483211a4f550be",
+      "asset_id": "97e69bd3c02791df87db8f85",
+      "key": "MEXC:SPOT:ULTIMAUSDT",
+      "symbol": "ULTIMAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793558790448,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793558801068
     }
   ],
   "runs": [
@@ -1691655,8 +1691500,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1c76bf1dbc4340e835997f3712130d94aba83539",
-    "previous_success_ms": 1793558520937,
+    "previous_commit": "ccccfc69f1f80ad77aea7d1f0eb5b5e098b333e5",
+    "previous_success_ms": 1793558799931,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
