@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 01.11.2026 22:39:08 TR · V2 döngüsü 677
+Son gözlem: 01.11.2026 22:44:09 TR · V2 döngüsü 678
 
 ## Bildirim kuralları
 
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 22:38:26 TR
+Son zincir okuması: 01.11.2026 22:43:36 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 22:38:26 TR
+Son zincir okuması: 01.11.2026 22:43:36 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -98,16 +98,16 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "selected": 8,
       "total_tracked": 15,
       "errors": [
-        "api.mainnet.solana.com: RPC error -32015"
+        "GLqWPXuhD37zwPwu9zAit5bEnGdLvYSucRqmGBUsSyvS: api.mainnet.solana.com: RPC error -32019"
       ],
-      "detail_queue": 7973,
+      "detail_queue": 7994,
       "full_chain_coverage": false,
-      "checked_ms": 1793561948637
+      "checked_ms": 1793562249231
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793561906837,
+      "observed_ms": 1793562216268,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -115,25 +115,29 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
   "alerts": {
     "token:4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk": "token:4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk:api.geckoterminal.com: erişim beklemesi sürüyor",
     "token:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk": "token:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk:api.geckoterminal.com: erişim beklemesi sürüyor",
-    "rpc_wallets": "rpc_wallets:api.mainnet.solana.com: RPC error -32015"
+    "rpc_wallets": "rpc_wallets:GLqWPXuhD37zwPwu9zAit5bEnGdLvYSucRqmGBUsSyvS: api.mainnet.solana.com: RPC error -32019"
   },
   "provider_backoff": {
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434,
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 676,
+    "intervals": 677,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
     "full_chain_coverage": false
   },
-  "detail_queue": 7973
+  "detail_queue": 7994
 }
 ```
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+01.11.2026 22:44:09 TR · **VERİ ERİŞİMİ** · rpc_wallets: GLqWPXuhD37zwPwu9zAit5bEnGdLvYSucRqmGBUsSyvS: api.mainnet.solana.com: RPC error -32019
+
+01.11.2026 22:43:42 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 22:38:34 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -210,8 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 01.11.2026 20:43:00 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 20:42:42 TR · **FİYAT** · Son kontrol %+1.60; fiyat $0.0001964. Gözlem aralığı 5.0dk.
-
-01.11.2026 20:42:42 TR · **ALIM** · ALIM: $396.92 · işlem başlatıcı `7CKQGG3Fzq4TMVfhVE5R8uydfck8gPCTiUWYhmkhqkVA` · bildirim eşiği $165
-
-01.11.2026 20:42:42 TR · **ALIM** · ALIM: $297.70 · işlem başlatıcı `66wniJpXzCF3DT4R9nuHWpdwNwLNUeTN1jLJLNkzCFJf` · bildirim eşiği $165
 
