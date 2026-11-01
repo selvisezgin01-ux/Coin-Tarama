@@ -1595451,58 +1595451,7 @@
       "source_close_ms": 1793556900000
     }
   },
-  "pending": [
-    {
-      "id": "78c10cb933d4aaefdddb1aae",
-      "asset_id": "1b5d432b5b249326af275f05",
-      "key": "OKX:SPOT:LDOUSDT",
-      "symbol": "LDOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793556988180,
-      "price": 0.34104999999999996,
-      "level": 0.3407,
-      "invalid": 0.33621278834269436,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3407,
-        "base_invalid": 0.33621278834269436,
-        "atr": 0.0012480777153706798,
-        "rvol": 13.848378357244309,
-        "close_position": 0.7714285714285809,
-        "breakout": true,
-        "bar_close_ms": 1793539800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7497034400949074,
-        "score": 7.771428571428581
-      },
-      "context": {
-        "atr": 0.0016504711028299671,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5477645920643037,
-        "btc_hour_pct": -0.20936994491880245,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793539800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1603170,6 +1603119,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793556695053
+    },
+    {
+      "id": "78c10cb933d4aaefdddb1aae",
+      "asset_id": "1b5d432b5b249326af275f05",
+      "key": "OKX:SPOT:LDOUSDT",
+      "symbol": "LDOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793556988180,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793557000242
     }
   ],
   "runs": [
@@ -1692500,8 +1692460,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "557ceb4a3729b8d2875d2068ed3591369eb4acaa",
-    "previous_success_ms": 1793556721105,
+    "previous_commit": "5f2544c55c4184a3ddb9e3731414ac35b583d283",
+    "previous_success_ms": 1793556999058,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
