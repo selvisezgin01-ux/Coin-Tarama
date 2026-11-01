@@ -1598525,216 +1598525,7 @@
       "source_close_ms": 1793553300000
     }
   },
-  "pending": [
-    {
-      "id": "93ab438cd346a887d33dde5f",
-      "asset_id": "ce64f81a91e7e246f1bafcc2",
-      "key": "OKX:PERP:LUNAUSDT",
-      "symbol": "LUNAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793553538783,
-      "price": 0.039790000000000006,
-      "level": 0.03992,
-      "invalid": 0.03952272638141401,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03992,
-        "base_invalid": 0.03952272638141401,
-        "atr": 0.00011515745723991779,
-        "rvol": 8.06689939520797,
-        "close_position": 0.9333333333333148,
-        "breakout": false,
-        "bar_close_ms": 1793537100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.352289884247603,
-        "score": 7.433333333333315
-      },
-      "context": {
-        "atr": 0.00011541725793053766,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3342288000773408,
-        "btc_hour_pct": 0.20938485500867632,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LUNAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793537100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LUNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "497584724ed33fcde3c8bf3d",
-      "asset_id": "d80d9eccf49a73d0d64606ba",
-      "key": "OKX:SPOT:MEGAUSDT",
-      "symbol": "MEGAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793553539467,
-      "price": 0.04346,
-      "level": 0.04386,
-      "invalid": 0.04354079894724549,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04386,
-        "base_invalid": 0.04354079894724549,
-        "atr": 0.00026134035169672517,
-        "rvol": 5.101400142360792,
-        "close_position": 0.9791666666666674,
-        "breakout": true,
-        "bar_close_ms": 1793547900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.127659574468077,
-        "score": 7.080566809027459
-      },
-      "context": {
-        "atr": 0.0002747179558542853,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8124940480337628,
-        "btc_hour_pct": 0.2009425191549452,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MEGAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793547900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEGAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "df597a62e21ccba9fbfb691d",
-      "asset_id": "f19c732d55454679789d6289",
-      "key": "OKX:SPOT:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793553539467,
-      "price": 0.0015,
-      "level": 0.001468,
-      "invalid": 0.0013965883282159985,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001468,
-        "base_invalid": 0.0013965883282159985,
-        "atr": 2.941114522667592e-05,
-        "rvol": 3.5623560317961376,
-        "close_position": 0.9508196721311482,
-        "breakout": true,
-        "bar_close_ms": 1793553300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.649548924358093,
-        "score": 5.513175703927286
-      },
-      "context": {
-        "atr": 2.941114522667592e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.0661029353905134,
-        "btc_hour_pct": 0.2009425191549452,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793553300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOPHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f33f337d92912767a99fa73d",
-      "asset_id": "a03fb3e5d0881a211db26f8b",
-      "key": "MEXC:SPOT:BDXUSDT",
-      "symbol": "BDXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793553540886,
-      "price": 0.072255,
-      "level": 0.07222,
-      "invalid": 0.07141934232892061,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07222,
-        "base_invalid": 0.07141934232892061,
-        "atr": 0.0003377178071960034,
-        "rvol": 3.7076895482127252,
-        "close_position": 0.6000000000000062,
-        "breakout": false,
-        "bar_close_ms": 1793553300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2224384818573677,
-        "score": 4.807689548212731
-      },
-      "context": {
-        "atr": 0.0003377178071960034,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.07169879134030221,
-        "btc_hour_pct": 0.20700800910562478,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BDXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793553300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BDXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1606270,6 +1606061,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793552652291
+    },
+    {
+      "id": "93ab438cd346a887d33dde5f",
+      "asset_id": "ce64f81a91e7e246f1bafcc2",
+      "key": "OKX:PERP:LUNAUSDT",
+      "symbol": "LUNAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793553538783,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793553551242
+    },
+    {
+      "id": "497584724ed33fcde3c8bf3d",
+      "asset_id": "d80d9eccf49a73d0d64606ba",
+      "key": "OKX:SPOT:MEGAUSDT",
+      "symbol": "MEGAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793553539467,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793553551242
+    },
+    {
+      "id": "df597a62e21ccba9fbfb691d",
+      "asset_id": "f19c732d55454679789d6289",
+      "key": "OKX:SPOT:SOPHUSDT",
+      "symbol": "SOPHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793553539467,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793553551242
+    },
+    {
+      "id": "f33f337d92912767a99fa73d",
+      "asset_id": "a03fb3e5d0881a211db26f8b",
+      "key": "MEXC:SPOT:BDXUSDT",
+      "symbol": "BDXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793553540886,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793553551242
     }
   ],
   "runs": [
@@ -1668441,7 +1668276,8 @@
         "entry_seq": 0,
         "cohort": "SOPHUSDT",
         "observation_lag_ms": 239467,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11775
       },
       "a03fb3e5d0881a211db26f8b:radar": {
         "symbol": "BDXUSDT",
@@ -1668463,7 +1668299,8 @@
         "entry_seq": 0,
         "cohort": "BDXUSDT",
         "observation_lag_ms": 240886,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10356
       }
     },
     "errors": [],
@@ -1694499,8 +1694336,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a0a28212c96b61138cdbaefc5038a5db21234353",
-    "previous_success_ms": 1793553267651,
+    "previous_commit": "dee5716ec3693a68c6821c498d1bd3beee8ff45a",
+    "previous_success_ms": 1793553550070,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
