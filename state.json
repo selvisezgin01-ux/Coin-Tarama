@@ -1568374,162 +1568374,7 @@
       "source_close_ms": 1793523600000
     }
   },
-  "pending": [
-    {
-      "id": "35cfd895a80f8c9743bac38c",
-      "asset_id": "546ecb24a0b821a3e08afba3",
-      "key": "MEXC:PERP:AAVEUSDT",
-      "symbol": "AAVEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793524163411,
-      "price": 136.865,
-      "level": 136.54,
-      "invalid": 133.46835596349803,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 136.54,
-        "base_invalid": 133.46835596349803,
-        "atr": 0.7442935766799659,
-        "rvol": 2.2270641757625302,
-        "close_position": 0.9370078740157387,
-        "breakout": true,
-        "bar_close_ms": 1793502000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7161961367013312,
-        "score": 4.1640720497782695
-      },
-      "context": {
-        "atr": 0.794088093425319,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5742264485538939,
-        "btc_hour_pct": 0.37123964269627496,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AAVEUSDT",
-          "change_pct": -6.994797627771343,
-          "old_ms": 1793520646061,
-          "current_ms": 1793524160016,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.003,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793502000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a519fe911a10f43b92ce7c2c",
-      "asset_id": "6cecb789b6a53ab5d532f771",
-      "key": "OKX:SPOT:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793524166133,
-      "price": 23.4,
-      "level": 23.41,
-      "invalid": 23.172435485938372,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 23.41,
-        "base_invalid": 23.172435485938372,
-        "atr": 0.11709676041087046,
-        "rvol": 7.921248030494936,
-        "close_position": 0.8235294117647182,
-        "breakout": true,
-        "bar_close_ms": 1793523600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6008583690987113,
-        "score": 7.823529411764718
-      },
-      "context": {
-        "atr": 0.11709676041087046,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.19517286840886605,
-        "btc_hour_pct": 0.4056855006898452,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793523600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1307a34cde618e6453e9c766",
-      "asset_id": "818bacd85fcc4706542be2f7",
-      "key": "MEXC:SPOT:HYPEUSDT",
-      "symbol": "HYPEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793524166673,
-      "price": 88.22999999999999,
-      "level": 88.13,
-      "invalid": 87.11267024945975,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 88.13,
-        "base_invalid": 87.11267024945975,
-        "atr": 0.31553167026823814,
-        "rvol": 4.792170208863216,
-        "close_position": 0.9666666666666492,
-        "breakout": true,
-        "bar_close_ms": 1793523600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8454244259111121,
-        "score": 6.758836875529865
-      },
-      "context": {
-        "atr": 0.31553167026823814,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.45287018578625826,
-        "btc_hour_pct": 0.39255424012485385,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HYPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793523600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HYPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1574910,6 +1574755,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793522981070
+    },
+    {
+      "id": "a519fe911a10f43b92ce7c2c",
+      "asset_id": "6cecb789b6a53ab5d532f771",
+      "key": "OKX:SPOT:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793524166133,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793524177046
+    },
+    {
+      "id": "1307a34cde618e6453e9c766",
+      "asset_id": "818bacd85fcc4706542be2f7",
+      "key": "MEXC:SPOT:HYPEUSDT",
+      "symbol": "HYPEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793524166673,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793524177046
     }
   ],
   "runs": [
@@ -1626613,7 +1626480,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 566133,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10913
       },
       "818bacd85fcc4706542be2f7:radar": {
         "symbol": "HYPEUSDT",
@@ -1626635,7 +1626503,8 @@
         "entry_seq": 0,
         "cohort": "HYPEUSDT",
         "observation_lag_ms": 566673,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10373
       }
     },
     "errors": [],
@@ -1652661,8 +1652530,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "03ae230ea33a6f7e5af2fe51c1a39a53a336e1e6",
-    "previous_success_ms": 1793523903694,
+    "previous_commit": "f8e2b3e11bb08b6007561bdfc206b2ea3a50e80a",
+    "previous_success_ms": 1793524176239,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
