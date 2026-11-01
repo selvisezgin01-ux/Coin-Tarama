@@ -1523564,344 +1523564,7 @@
       "source_close_ms": 1793498400000
     }
   },
-  "pending": [
-    {
-      "id": "196dd0a2f9fb42c957d713ef",
-      "asset_id": "08f2495ed6565968f4cb261c",
-      "key": "MEXC:PERP:HANAUSDT",
-      "symbol": "HANAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793498687510,
-      "price": 0.015495,
-      "level": 0.01588,
-      "invalid": 0.015401069459133002,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01588,
-        "base_invalid": 0.015401069459133002,
-        "atr": 0.00019287027244665084,
-        "rvol": 2.0759648092560594,
-        "close_position": 0.6818181818181785,
-        "breakout": false,
-        "bar_close_ms": 1793478600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8354755784061751,
-        "score": 3.257782991074238
-      },
-      "context": {
-        "atr": 0.0001871943713351395,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.321171561345691,
-        "btc_hour_pct": 0.04971574443533022,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HANAUSDT",
-          "change_pct": -2.4493863488552314,
-          "old_ms": 1793495071043,
-          "current_ms": 1793498685989,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793478600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HANAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e28f1f0516f59b44e9233743",
-      "asset_id": "1f93e7567f4f49c15a7eccf8",
-      "key": "OKX:PERP:INITUSDT",
-      "symbol": "INITUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793498687878,
-      "price": 0.17506,
-      "level": 0.17792,
-      "invalid": 0.17198989272827914,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.17792,
-        "base_invalid": 0.17198989272827914,
-        "atr": 0.0026673818114722994,
-        "rvol": 6.824660582334084,
-        "close_position": 0.8027638190954788,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.680807622504534,
-        "score": 7.802763819095479
-      },
-      "context": {
-        "atr": 0.0032655474706912574,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -3.7559471026709645,
-        "btc_hour_pct": 0.05204106606895298,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:INITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aad378a000bff8889f8b6049",
-      "asset_id": "4245e871a3ab9dd58a103f27",
-      "key": "MEXC:PERP:INITUSDT",
-      "symbol": "INITUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793498687510,
-      "price": 0.17516,
-      "level": 0.17794,
-      "invalid": 0.17214752851890658,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.17794,
-        "base_invalid": 0.17214752851890658,
-        "atr": 0.0025498098739561467,
-        "rvol": 5.51956194398603,
-        "close_position": 0.8075916230366496,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.5809394299960218,
-        "score": 7.3271535670226795
-      },
-      "context": {
-        "atr": 0.0030946167817191396,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -3.467305961173872,
-        "btc_hour_pct": 0.04971574443533022,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:INITUSDT",
-          "change_pct": -10.978242928447612,
-          "old_ms": 1793495071042,
-          "current_ms": 1793498685973,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "025328cd1a8b9eb50714596f",
-      "asset_id": "53a83792502d9b3e586b57f5",
-      "key": "MEXC:SPOT:FILUSDT",
-      "symbol": "FILUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793498689142,
-      "price": 0.878,
-      "level": 0.8737,
-      "invalid": 0.8666495232427858,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.8737,
-        "base_invalid": 0.8666495232427858,
-        "atr": 0.0030031783814278884,
-        "rvol": 5.931274892603544,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5627655909038687,
-        "score": 7.931274892603544
-      },
-      "context": {
-        "atr": 0.0032208809160183542,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3825740360398955,
-        "btc_hour_pct": 0.052465897166831255,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FILUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793493000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FILUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e12acc3a4566db840a7584e5",
-      "asset_id": "379e9ce3e298dac342dc082d",
-      "key": "OKX:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_weakening",
-      "observed_ms": 1793498687878,
-      "price": 0.30901500000000004,
-      "level": 0.30485,
-      "invalid": 0.305430121874828,
-      "target": 0.3214832812503442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.30485,
-        "base_invalid": 0.300260121874828,
-        "atr": 0.0021325208344800542,
-        "rvol": 2.8939350909032564,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9926272790674604,
-        "score": 4.893935090903256
-      },
-      "context": {
-        "atr": 0.0024286613937429054,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.577299919355112,
-        "btc_hour_pct": 0.05204106606895298,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.305430121874828,
-        "target": 0.3214832812503442,
-        "risk_pct": 1.2304163905030319,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.32328,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.30861,
-        "entry_zone_high": 0.3098757066083311
-      },
-      "reason": null,
-      "source_close_ms": 1793498400000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "TRXUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793498400000,
-        "closed_price": 0.3086,
-        "ema20_1h": 0.31221234524729174,
-        "atr14_1h": 0.0043464725206744425,
-        "structure_floor": 0.305430121874828,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "0f53a1551d2cdb8dcec4767a",
-      "asset_id": "73a8aa3677d3281786ae1624",
-      "key": "OKX:SPOT:INJUSDT",
-      "symbol": "INJUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793498688226,
-      "price": 7.3105,
-      "level": 7.273,
-      "invalid": 7.187101027506389,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.273,
-        "base_invalid": 7.187101027506389,
-        "atr": 0.03932648329073226,
-        "rvol": 6.903088805532095,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793495700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.857894008578941,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.04073988276217049,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.16857073592608796,
-        "btc_hour_pct": 0.06568584392785404,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:INJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793495700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1529259,6 +1528922,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793498093582
+    },
+    {
+      "id": "196dd0a2f9fb42c957d713ef",
+      "asset_id": "08f2495ed6565968f4cb261c",
+      "key": "MEXC:PERP:HANAUSDT",
+      "symbol": "HANAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793498687510,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793498698903
+    },
+    {
+      "id": "e28f1f0516f59b44e9233743",
+      "asset_id": "1f93e7567f4f49c15a7eccf8",
+      "key": "OKX:PERP:INITUSDT",
+      "symbol": "INITUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793498687878,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793498698903
+    },
+    {
+      "id": "aad378a000bff8889f8b6049",
+      "asset_id": "4245e871a3ab9dd58a103f27",
+      "key": "MEXC:PERP:INITUSDT",
+      "symbol": "INITUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793498687510,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793498698903
+    },
+    {
+      "id": "025328cd1a8b9eb50714596f",
+      "asset_id": "53a83792502d9b3e586b57f5",
+      "key": "MEXC:SPOT:FILUSDT",
+      "symbol": "FILUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793498689142,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793498698903
+    },
+    {
+      "id": "e12acc3a4566db840a7584e5",
+      "asset_id": "379e9ce3e298dac342dc082d",
+      "key": "OKX:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793498687878,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793498698903
+    },
+    {
+      "id": "0f53a1551d2cdb8dcec4767a",
+      "asset_id": "73a8aa3677d3281786ae1624",
+      "key": "OKX:SPOT:INJUSDT",
+      "symbol": "INJUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793498688226,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793498698903
     }
   ],
   "runs": [
@@ -1597245,8 +1596974,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0c477986fa41a1a5b9dfef362a8e5501f07d6ec6",
-    "previous_success_ms": 1793498416587,
+    "previous_commit": "b7add4d4a9714d3d322921afe1c265a3adf10e76",
+    "previous_success_ms": 1793498698042,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
