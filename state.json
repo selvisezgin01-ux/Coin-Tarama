@@ -1592150,114 +1592150,7 @@
       "source_close_ms": 1793560500000
     }
   },
-  "pending": [
-    {
-      "id": "6342793c6446ff2a36bcbeb5",
-      "asset_id": "f39e2449f629300113b1c6f2",
-      "key": "MEXC:PERP:NIULAIUSDT",
-      "symbol": "NIULAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793560592985,
-      "price": 0.06808,
-      "level": 0.0687,
-      "invalid": 0.06625748570856198,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0687,
-        "base_invalid": 0.06625748570856198,
-        "atr": 0.0012834286095868206,
-        "rvol": 6.2276530433797905,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793557800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.870948733058353,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0012422180759233403,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.317586324680343,
-        "btc_hour_pct": -0.12290134408913245,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NIULAIUSDT",
-          "change_pct": 16.424692860115343,
-          "old_ms": 1793556975971,
-          "current_ms": 1793560590992,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793557800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIULAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0c416f54a0cb1e95e9ded9a7",
-      "asset_id": "c852bfd3741a5268506fbf70",
-      "key": "OKX:PERP:POPCATUSDT",
-      "symbol": "POPCATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793560589426,
-      "price": 0.040305,
-      "level": 0.04069,
-      "invalid": 0.04011556522748259,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04069,
-        "base_invalid": 0.04011556522748259,
-        "atr": 0.00016289848344941746,
-        "rvol": 6.864478375727213,
-        "close_position": 0.7333333333333457,
-        "breakout": true,
-        "bar_close_ms": 1793559600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.092624782716678,
-        "score": 7.733333333333346
-      },
-      "context": {
-        "atr": 0.0001820974130272203,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.211432903752141,
-        "btc_hour_pct": -0.11880812103546301,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:POPCATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793559600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POPCATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1600090,6 +1599983,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793560297422
+    },
+    {
+      "id": "6342793c6446ff2a36bcbeb5",
+      "asset_id": "f39e2449f629300113b1c6f2",
+      "key": "MEXC:PERP:NIULAIUSDT",
+      "symbol": "NIULAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793560592985,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793560603248
+    },
+    {
+      "id": "0c416f54a0cb1e95e9ded9a7",
+      "asset_id": "c852bfd3741a5268506fbf70",
+      "key": "OKX:PERP:POPCATUSDT",
+      "symbol": "POPCATUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793560589426,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793560603249
     }
   ],
   "runs": [
@@ -1690653,8 +1690568,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c903001afac2b1fb5de5e88dfa38681fbf543d27",
-    "previous_success_ms": 1793560319966,
+    "previous_commit": "1ad91a3c6ecf237cafc94431e4d65197493ad554",
+    "previous_success_ms": 1793560602045,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
