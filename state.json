@@ -1566542,62 +1566542,7 @@
       "source_close_ms": 1793523600000
     }
   },
-  "pending": [
-    {
-      "id": "68841e38cbc767b861a16ca7",
-      "asset_id": "7236d5e54625b22022b8eb26",
-      "key": "MEXC:PERP:GUSDT",
-      "symbol": "GUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793523871500,
-      "price": 0.0040675,
-      "level": 0.004091,
-      "invalid": 0.003641882749168737,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004091,
-        "base_invalid": 0.003641882749168737,
-        "atr": 0.00011411500554175266,
-        "rvol": 6.120542708670872,
-        "close_position": 0.8364312267658002,
-        "breakout": true,
-        "bar_close_ms": 1793520900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 11.97239182373242,
-        "score": 7.8364312267658
-      },
-      "context": {
-        "atr": 0.0001236044257488809,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.14934615157200515,
-        "btc_hour_pct": 0.37123964269627496,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GUSDT",
-          "change_pct": 27.070381070187665,
-          "old_ms": 1793520345937,
-          "current_ms": 1793523869167,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.42119999999999996,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793520900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1650548,8 +1650493,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0b2656715a2a13e72b4504dabee79b66ac6bf408",
-    "previous_success_ms": 1793523597132,
+    "previous_commit": "24d7d031acfc1ae319b7b23b3eda70e7a19456d2",
+    "previous_success_ms": 1793523882725,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
