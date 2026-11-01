@@ -1596982,112 +1596982,7 @@
       "source_close_ms": 1793548800000
     }
   },
-  "pending": [
-    {
-      "id": "10de52ec3ea6a2e514ef7851",
-      "asset_id": "34893f068411683d61376d03",
-      "key": "OKX:SPOT:AEONUSDT",
-      "symbol": "AEONUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793550837777,
-      "price": 0.02528,
-      "level": 0.02485,
-      "invalid": 0.023897727130632398,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02485,
-        "base_invalid": 0.023897727130632398,
-        "atr": 0.00041515246245068166,
-        "rvol": 8.594104888084795,
-        "close_position": 0.6901408450704224,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.06976744186045,
-        "score": 7.690140845070422
-      },
-      "context": {
-        "atr": 0.00048762357181845626,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.2282227466595796,
-        "btc_hour_pct": -0.08110622224386521,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AEONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "191c6c72db805b0ce31b6153",
-      "asset_id": "57e6c9d04bc9ef04386a29d7",
-      "key": "OKX:PERP:AEONUSDT",
-      "symbol": "AEONUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793550839469,
-      "price": 0.025145,
-      "level": 0.02486,
-      "invalid": 0.023766077740899557,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02486,
-        "base_invalid": 0.023766077740899557,
-        "atr": 0.0004928150606696234,
-        "rvol": 7.636787654628103,
-        "close_position": 0.6645161290322581,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.906899418121368,
-        "score": 7.664516129032258
-      },
-      "context": {
-        "atr": 0.0005689988845681201,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.5142669322573687,
-        "btc_hour_pct": -0.0840937234803385,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AEONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1604513,6 +1604408,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793549950297
+    },
+    {
+      "id": "10de52ec3ea6a2e514ef7851",
+      "asset_id": "34893f068411683d61376d03",
+      "key": "OKX:SPOT:AEONUSDT",
+      "symbol": "AEONUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793550837777,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793550849590
+    },
+    {
+      "id": "191c6c72db805b0ce31b6153",
+      "asset_id": "57e6c9d04bc9ef04386a29d7",
+      "key": "OKX:PERP:AEONUSDT",
+      "symbol": "AEONUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793550839469,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793550849590
     }
   ],
   "runs": [
@@ -1691564,8 +1691481,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "68bcbf3ac8883f283f6f9968b58e47d5c9b7b38a",
-    "previous_success_ms": 1793550566876,
+    "previous_commit": "72a47d7edb960f9a7b6297d4947d0704a3bdf397",
+    "previous_success_ms": 1793550848303,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
