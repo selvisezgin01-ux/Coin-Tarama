@@ -1344890,162 +1344890,7 @@
       "source_close_ms": 1793573100000
     }
   },
-  "pending": [
-    {
-      "id": "4d3f2002e749ed06a37d4ccf",
-      "asset_id": "6d0d69fb8f2ef3f5c1e0683c",
-      "key": "MEXC:SPOT:MOODENGUSDT",
-      "symbol": "MOODENGUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793575049948,
-      "price": 0.035519999999999996,
-      "level": 0.0355,
-      "invalid": 0.03508743282429472,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0355,
-        "base_invalid": 0.03508743282429472,
-        "atr": 0.0001504478380352362,
-        "rvol": 36.06132344600229,
-        "close_position": 0.958333333333349,
-        "breakout": true,
-        "bar_close_ms": 1793574900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.45223289994347216,
-        "score": 7.958333333333349
-      },
-      "context": {
-        "atr": 0.0001504478380352362,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.1967927505548639,
-        "btc_hour_pct": -0.08561334941687981,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MOODENGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOODENGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "40e7c8d3600175deba79ad5c",
-      "asset_id": "18eae3ebbb2c560e1a3f8fa6",
-      "key": "OKX:SPOT:PENGUUSDT",
-      "symbol": "PENGUUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793575051965,
-      "price": 0.007273,
-      "level": 0.007248,
-      "invalid": 0.007161922285434539,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007248,
-        "base_invalid": 0.007161922285434539,
-        "atr": 3.3851430436403695e-05,
-        "rvol": 14.098847020787751,
-        "close_position": 0.8399999999999965,
-        "breakout": true,
-        "bar_close_ms": 1793574900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7884908009406555,
-        "score": 7.839999999999996
-      },
-      "context": {
-        "atr": 3.3851430436403695e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.40518019573992925,
-        "btc_hour_pct": -0.07857930667887203,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PENGUUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PENGUUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "92c1060fd202b5af49540e78",
-      "asset_id": "4c18113dcd92f3e1f5630627",
-      "key": "OKX:SPOT:ZBCNUSDT",
-      "symbol": "ZBCNUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793575051965,
-      "price": 0.00209095,
-      "level": 0.0020886,
-      "invalid": 0.002052595091250792,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0020886,
-        "base_invalid": 0.002052595091250792,
-        "atr": 2.4032724994720016e-05,
-        "rvol": 4.979761954728283,
-        "close_position": 0.7095435684647275,
-        "breakout": true,
-        "bar_close_ms": 1793574900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.48049202383240175,
-        "score": 6.689305523193011
-      },
-      "context": {
-        "atr": 2.4032724994720016e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.1703800507480535,
-        "btc_hour_pct": -0.07857930667887203,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZBCNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZBCNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1353351,6 +1353196,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793574752788
+    },
+    {
+      "id": "4d3f2002e749ed06a37d4ccf",
+      "asset_id": "6d0d69fb8f2ef3f5c1e0683c",
+      "key": "MEXC:SPOT:MOODENGUSDT",
+      "symbol": "MOODENGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793575049948,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793575062185
+    },
+    {
+      "id": "40e7c8d3600175deba79ad5c",
+      "asset_id": "18eae3ebbb2c560e1a3f8fa6",
+      "key": "OKX:SPOT:PENGUUSDT",
+      "symbol": "PENGUUSDT",
+      "phase": "radar",
+      "observed_ms": 1793575051965,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793575062185
+    },
+    {
+      "id": "92c1060fd202b5af49540e78",
+      "asset_id": "4c18113dcd92f3e1f5630627",
+      "key": "OKX:SPOT:ZBCNUSDT",
+      "symbol": "ZBCNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793575051965,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793575062185
     }
   ],
   "runs": [
@@ -1422851,7 +1422729,8 @@
         "entry_seq": 0,
         "cohort": "MOODENGUSDT",
         "observation_lag_ms": 149948,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12237
       },
       "18eae3ebbb2c560e1a3f8fa6:radar": {
         "symbol": "PENGUUSDT",
@@ -1422873,7 +1422752,8 @@
         "entry_seq": 0,
         "cohort": "PENGUUSDT",
         "observation_lag_ms": 151965,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10220
       },
       "4c18113dcd92f3e1f5630627:radar": {
         "symbol": "ZBCNUSDT",
@@ -1422895,7 +1422775,8 @@
         "entry_seq": 0,
         "cohort": "ZBCNUSDT",
         "observation_lag_ms": 151965,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10220
       }
     },
     "errors": [],
@@ -1448938,8 +1448819,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cb0d5afa4e17eb6c8a9bd6653039179b7273a1ec",
-    "previous_success_ms": 1793574774242,
+    "previous_commit": "854a7a369776fd94af99d66f0fd99d312997d030",
+    "previous_success_ms": 1793575060913,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
