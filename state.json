@@ -1521539,264 +1521539,7 @@
       "source_close_ms": 1793502000000
     }
   },
-  "pending": [
-    {
-      "id": "6f082c0e06623825a3d63354",
-      "asset_id": "1df22a06b89cfb26c87fbcf4",
-      "key": "OKX:SPOT:BETHUSDT",
-      "symbol": "BETHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793502101951,
-      "price": 2263.95,
-      "level": 2263.1,
-      "invalid": 2251.6101810569207,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2263.1,
-        "base_invalid": 2251.6101810569207,
-        "atr": 2.5987929538617323,
-        "rvol": 15.45705914896471,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793496600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5011530956182231,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 3.243829935830455,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.28209307838885644,
-        "btc_hour_pct": 0.008881074687261403,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BETHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793496600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BETHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ef30c19d76b8d1d5ab30423f",
-      "asset_id": "4a6a2cb630e9a5a8771e2172",
-      "key": "OKX:PERP:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793502102888,
-      "price": 1.10025,
-      "level": 1.1072,
-      "invalid": 1.0441561861462325,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.1072,
-        "base_invalid": 1.0441561861462325,
-        "atr": 0.018292092358449443,
-        "rvol": 3.1493798423932713,
-        "close_position": 0.6464968152866264,
-        "breakout": true,
-        "bar_close_ms": 1793500200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.618417347226145,
-        "score": 4.795876657679898
-      },
-      "context": {
-        "atr": 0.020297828225276225,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.12946886524999313,
-        "btc_hour_pct": 0.01120103410008344,
-        "trend4h_support": null,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793500200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "658cd9ff30220fbb5ddff6db",
-      "asset_id": "9cf3a6094dacf226321b507b",
-      "key": "OKX:PERP:PONSUSDT",
-      "symbol": "PONSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793502102888,
-      "price": 0.2358,
-      "level": 0.2377,
-      "invalid": 0.23028193862609994,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2377,
-        "base_invalid": 0.23028193862609994,
-        "atr": 0.0021204091593337933,
-        "rvol": 3.341149625113574,
-        "close_position": 0.8444444444444484,
-        "breakout": false,
-        "bar_close_ms": 1793502000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.6855940695580225
-      },
-      "context": {
-        "atr": 0.0021204091593337933,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.01120103410008344,
-        "btc_hour_pct": 0.01120103410008344,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PONSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793502000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PONSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bb50c4f721fedb4f8b99af6d",
-      "asset_id": "4115e6b50d987be03e3576bf",
-      "key": "MEXC:SPOT:RLSUSDT",
-      "symbol": "RLSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793502101616,
-      "price": 0.0023935,
-      "level": 0.00238,
-      "invalid": 0.002281591140510677,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00238,
-        "base_invalid": 0.002281591140510677,
-        "atr": 2.9392396595485798e-05,
-        "rvol": 2.612910325346218,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793502000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.002556455048987,
-        "score": 4.612910325346218
-      },
-      "context": {
-        "atr": 2.9392396595485798e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.000999006700277,
-        "btc_hour_pct": 0.0015574483487101887,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RLSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793502000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fa1591faf16113a9890ca81e",
-      "asset_id": "de446695e69e0e6a54808043",
-      "key": "MEXC:SPOT:PENDLEUSDT",
-      "symbol": "PENDLEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793502101616,
-      "price": 1.883,
-      "level": 1.88,
-      "invalid": 1.8430627939417696,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.88,
-        "base_invalid": 1.8430627939417696,
-        "atr": 0.012914707054868633,
-        "rvol": 2.6005692642000433,
-        "close_position": 0.8571428571428549,
-        "breakout": true,
-        "bar_close_ms": 1793502000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4268943436499306,
-        "score": 4.457712121342898
-      },
-      "context": {
-        "atr": 0.012914707054868633,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.42533689530122043,
-        "btc_hour_pct": 0.0015574483487101887,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PENDLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793502000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PENDLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1527352,6 +1527095,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793501396910
+    },
+    {
+      "id": "6f082c0e06623825a3d63354",
+      "asset_id": "1df22a06b89cfb26c87fbcf4",
+      "key": "OKX:SPOT:BETHUSDT",
+      "symbol": "BETHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793502101951,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793502112169
+    },
+    {
+      "id": "ef30c19d76b8d1d5ab30423f",
+      "asset_id": "4a6a2cb630e9a5a8771e2172",
+      "key": "OKX:PERP:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793502102888,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793502112169
+    },
+    {
+      "id": "658cd9ff30220fbb5ddff6db",
+      "asset_id": "9cf3a6094dacf226321b507b",
+      "key": "OKX:PERP:PONSUSDT",
+      "symbol": "PONSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793502102888,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793502112169
+    },
+    {
+      "id": "bb50c4f721fedb4f8b99af6d",
+      "asset_id": "4115e6b50d987be03e3576bf",
+      "key": "MEXC:SPOT:RLSUSDT",
+      "symbol": "RLSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793502101616,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793502112169
+    },
+    {
+      "id": "fa1591faf16113a9890ca81e",
+      "asset_id": "de446695e69e0e6a54808043",
+      "key": "MEXC:SPOT:PENDLEUSDT",
+      "symbol": "PENDLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793502101616,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793502112169
     }
   ],
   "runs": [
@@ -1570758,7 +1570556,8 @@
         "entry_seq": 0,
         "cohort": "PONSUSDT",
         "observation_lag_ms": 102888,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9281
       },
       "4115e6b50d987be03e3576bf:radar": {
         "symbol": "RLSUSDT",
@@ -1570780,7 +1570579,8 @@
         "entry_seq": 0,
         "cohort": "RLSUSDT",
         "observation_lag_ms": 101616,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10553
       },
       "de446695e69e0e6a54808043:radar": {
         "symbol": "PENDLEUSDT",
@@ -1570802,7 +1570602,8 @@
         "entry_seq": 0,
         "cohort": "PENDLEUSDT",
         "observation_lag_ms": 101616,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10553
       }
     },
     "errors": [],
@@ -1596696,8 +1596497,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c216f57900696399599b4194ee8f9dfd5a3d3440",
-    "previous_success_ms": 1793501821483,
+    "previous_commit": "586ba57e27fde84709cd8b051530f529e8b6e5e8",
+    "previous_success_ms": 1793502111305,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
