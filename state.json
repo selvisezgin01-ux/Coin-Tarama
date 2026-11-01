@@ -1593007,114 +1593007,7 @@
       "source_close_ms": 1793555100000
     }
   },
-  "pending": [
-    {
-      "id": "254ef32ef9e9b39080f772bc",
-      "asset_id": "abcacfaee134f2ba4f9605f4",
-      "key": "MEXC:PERP:ONUSDT",
-      "symbol": "ONUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793556092710,
-      "price": 0.20545,
-      "level": 0.1958,
-      "invalid": 0.1766797508992733,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1958,
-        "base_invalid": 0.1766797508992733,
-        "atr": 0.005468327338178075,
-        "rvol": 13.012072206433382,
-        "close_position": 0.8067632850241544,
-        "breakout": true,
-        "bar_close_ms": 1793556000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 9.66029723991506,
-        "score": 7.806763285024155
-      },
-      "context": {
-        "atr": 0.005468327338178075,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 9.868206231082777,
-        "btc_hour_pct": -0.20790899116771566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ONUSDT",
-          "change_pct": 8.196870753515405,
-          "old_ms": 1793552625097,
-          "current_ms": 1793556089094,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793556000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5d71473241c2934bfd76f7c7",
-      "asset_id": "31630a21db29d24807706e7a",
-      "key": "OKX:PERP:SYRUPUSDT",
-      "symbol": "SYRUPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793556091987,
-      "price": 0.1618,
-      "level": 0.1606,
-      "invalid": 0.15961109806980653,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1606,
-        "base_invalid": 0.15961109806980653,
-        "atr": 0.0005926795346231863,
-        "rvol": 6.436646906781928,
-        "close_position": 0.7647058823529355,
-        "breakout": true,
-        "bar_close_ms": 1793556000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1249999999999982,
-        "score": 7.764705882352936
-      },
-      "context": {
-        "atr": 0.0005926795346231863,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3362519172711917,
-        "btc_hour_pct": -0.21125191727119352,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SYRUPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793556000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SYRUPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1600738,6 +1600631,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793555352883
+    },
+    {
+      "id": "254ef32ef9e9b39080f772bc",
+      "asset_id": "abcacfaee134f2ba4f9605f4",
+      "key": "MEXC:PERP:ONUSDT",
+      "symbol": "ONUSDT",
+      "phase": "radar",
+      "observed_ms": 1793556092710,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793556102961
+    },
+    {
+      "id": "5d71473241c2934bfd76f7c7",
+      "asset_id": "31630a21db29d24807706e7a",
+      "key": "OKX:PERP:SYRUPUSDT",
+      "symbol": "SYRUPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793556091987,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793556102961
     }
   ],
   "runs": [
@@ -1663710,7 +1663625,8 @@
         "entry_seq": 0,
         "cohort": "ONUSDT",
         "observation_lag_ms": 92710,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10251
       },
       "31630a21db29d24807706e7a:radar": {
         "symbol": "SYRUPUSDT",
@@ -1663732,7 +1663648,8 @@
         "entry_seq": 0,
         "cohort": "SYRUPUSDT",
         "observation_lag_ms": 91987,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10974
       }
     },
     "errors": [],
@@ -1689755,8 +1689672,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "994bd38519fa4e55528de08162c7655158b00036",
-    "previous_success_ms": 1793555815333,
+    "previous_commit": "443690f9eabb25c534c76461ee2bd2b6d81c9242",
+    "previous_success_ms": 1793556101815,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
