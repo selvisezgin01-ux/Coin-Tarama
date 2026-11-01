@@ -1594819,112 +1594819,7 @@
       "source_close_ms": 1793552400000
     }
   },
-  "pending": [
-    {
-      "id": "f93de8b3addcf00b802f791d",
-      "asset_id": "674923de66fefb53392d6978",
-      "key": "OKX:PERP:MEGAUSDT",
-      "symbol": "MEGAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793552642188,
-      "price": 0.043745,
-      "level": 0.04381,
-      "invalid": 0.04352069235241394,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04381,
-        "base_invalid": 0.04352069235241394,
-        "atr": 0.0002620509839070905,
-        "rvol": 7.6223775308263715,
-        "close_position": 0.9489795918367333,
-        "breakout": true,
-        "bar_close_ms": 1793547900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1071919377004145,
-        "score": 7.948979591836733
-      },
-      "context": {
-        "atr": 0.00026799194644414206,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.7762782790449618,
-        "btc_hour_pct": 0.20938485500867632,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MEGAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793547900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEGAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "36be8abe724bc23c37e12367",
-      "asset_id": "dc00418da9b998febd94247d",
-      "key": "OKX:SPOT:CFGUSDT",
-      "symbol": "CFGUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793552640485,
-      "price": 0.09511,
-      "level": 0.09501,
-      "invalid": 0.0939785428698555,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09501,
-        "base_invalid": 0.0939785428698555,
-        "atr": 0.00040971420096327986,
-        "rvol": 19.30372555221538,
-        "close_position": 0.8648648648648672,
-        "breakout": true,
-        "bar_close_ms": 1793552400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.773305084745779,
-        "score": 7.864864864864868
-      },
-      "context": {
-        "atr": 0.00040971420096327986,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5723625655908338,
-        "btc_hour_pct": 0.2009425191549452,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CFGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793552400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CFGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1602438,6 +1602333,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793552344905
+    },
+    {
+      "id": "f93de8b3addcf00b802f791d",
+      "asset_id": "674923de66fefb53392d6978",
+      "key": "OKX:PERP:MEGAUSDT",
+      "symbol": "MEGAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793552642188,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793552652291
+    },
+    {
+      "id": "36be8abe724bc23c37e12367",
+      "asset_id": "dc00418da9b998febd94247d",
+      "key": "OKX:SPOT:CFGUSDT",
+      "symbol": "CFGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793552640485,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793552652291
     }
   ],
   "runs": [
@@ -1664202,7 +1664119,8 @@
         "entry_seq": 0,
         "cohort": "CFGUSDT",
         "observation_lag_ms": 240485,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11806
       }
     },
     "errors": [],
@@ -1690226,8 +1690144,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cc6bc612812d8a1c5deff82c793534c406e82eed",
-    "previous_success_ms": 1793552363161,
+    "previous_commit": "ed5735ebed1e79666149da2810d0733413f5ba8b",
+    "previous_success_ms": 1793552650970,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
