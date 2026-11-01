@@ -1552331,7 +1552331,9 @@
           "selected_for_candles": 36,
           "fresh_candidate_quotes": 10
         }
-      }
+      },
+      "finished_ms": 1793498105681,
+      "duration_ms": 32331
     }
   ],
   "radar_admissions": [
@@ -1570244,6 +1570246,50 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793457896098,
+            "endpoint_ms": 1793457900000,
+            "endpoint_price": 0.1615,
+            "return_pct": 0.5291005291005124,
+            "btc_excess_pct_points": 0.47209266098171554,
+            "mae_pct": -0.15561780267664416,
+            "mfe_pct": 0.902583255524414,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 3902,
+            "measured_ms": 1793498101905,
+            "cost_scenarios_pct": {
+              "0.2": 0.3291005291005124,
+              "0.5": 0.029100529100512418,
+              "1": -0.4708994708994876
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          },
+          "12": {
+            "target_ms": 1793486696098,
+            "endpoint_ms": 1793486700000,
+            "endpoint_price": 0.1592,
+            "return_pct": -0.9025832555244362,
+            "btc_excess_pct_points": -1.1252561175195464,
+            "mae_pct": -1.0270774976657404,
+            "mfe_pct": 1.8985371926548478,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 720,
+            "ignored_entry_fragment_ms": 3902,
+            "measured_ms": 1793498101905,
+            "cost_scenarios_pct": {
+              "0.2": -1.1025832555244361,
+              "0.5": -1.4025832555244362,
+              "1": -1.9025832555244362
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793442600000,
@@ -1570253,7 +1570299,7 @@
         "observation_lag_ms": 896098,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 18186,
-        "last_measure_attempt_ms": 1793447116790
+        "last_measure_attempt_ms": 1793498101905
       },
       "f690a60790381bdb6acb868f:radar": {
         "symbol": "GPSUSDT",
@@ -1575395,14 +1575441,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793497942941,
+            "endpoint_ms": 1793497980000,
+            "endpoint_price": 2.253,
+            "return_pct": -0.7051564565888069,
+            "btc_excess_pct_points": -0.7197791743658422,
+            "mae_pct": -0.7051564565888069,
+            "mfe_pct": 0.17628911414719894,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 37059,
+            "measured_ms": 1793498101905,
+            "cost_scenarios_pct": {
+              "0.2": -0.9051564565888068,
+              "0.5": -1.2051564565888069,
+              "1": -1.7051564565888069
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793493900000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "SSVUSDT",
         "observation_lag_ms": 442941,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11741
+        "notification_lag_ms": 11741,
+        "last_measure_attempt_ms": 1793498101905
       },
       "73a8aa3677d3281786ae1624:radar": {
         "symbol": "INJUSDT",
@@ -1575592,30 +1575662,30 @@
     "queue": {
       "due": 132,
       "attempted": 2,
-      "observed_ms": 1793497806347,
-      "unique_reads": 3
+      "observed_ms": 1793498101905,
+      "unique_reads": 5
     },
     "summary": {
       "radar": {
-        "market_event_references": 278,
-        "unique_symbol_labels": 173,
+        "market_event_references": 279,
+        "unique_symbol_labels": 174,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 96,
-            "first_per_symbol": 93,
+            "event_references": 97,
+            "first_per_symbol": 94,
             "hours": {
               "1": {
                 "known_first_symbols": 91,
                 "median_reference_return_pct": -0.08467400508044287
               },
               "4": {
-                "known_first_symbols": 59,
-                "median_reference_return_pct": -0.22457891453524503
+                "known_first_symbols": 60,
+                "median_reference_return_pct": -0.21889926536996507
               },
               "12": {
-                "known_first_symbols": 51,
-                "median_reference_return_pct": -0.35343258005784417
+                "known_first_symbols": 52,
+                "median_reference_return_pct": -0.3669000579589021
               },
               "24": {
                 "known_first_symbols": 25,
@@ -1575672,8 +1575742,8 @@
             "first_per_symbol": 61,
             "hours": {
               "1": {
-                "known_first_symbols": 58,
-                "median_reference_return_pct": -0.23499780299545692
+                "known_first_symbols": 59,
+                "median_reference_return_pct": -0.23628248884222103
               },
               "4": {
                 "known_first_symbols": 38,
@@ -1601382,8 +1601452,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "be9847e3601bfc00ec61d4ba0dfe89cfe70fd66a",
-    "previous_success_ms": 1793498092652,
+    "previous_commit": "bfb159be79305559a52f8a31e773afda6c71d487",
+    "previous_success_ms": 1793498101865,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
