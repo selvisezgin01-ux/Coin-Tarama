@@ -1547079,316 +1547079,7 @@
       "source_close_ms": 1793515500000
     }
   },
-  "pending": [
-    {
-      "id": "205a222103bc184030c27185",
-      "asset_id": "af45dccb8e626ea604ce8486",
-      "key": "OKX:PERP:AEVOUSDT",
-      "symbol": "AEVOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793515561177,
-      "price": 0.020475,
-      "level": 0.02046,
-      "invalid": 0.02025067690516869,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02046,
-        "base_invalid": 0.02025067690516869,
-        "atr": 6.215396554207614e-05,
-        "rvol": 5.239773570499459,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793504700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6407097092163694,
-        "score": 6.739773570499459
-      },
-      "context": {
-        "atr": 6.887571520930521e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.22393070098929435,
-        "btc_hour_pct": 0.11870268129166028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AEVOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793504700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEVOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bf0080623f9ef9e9c47accd6",
-      "asset_id": "5b230f629ccae08605ea8ac1",
-      "key": "MEXC:SPOT:AKEUSDT",
-      "symbol": "AKEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793515559943,
-      "price": 0.0095128,
-      "level": 0.0096937,
-      "invalid": 0.008635765583369875,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0096937,
-        "base_invalid": 0.008635765583369875,
-        "atr": 0.0003755627775341675,
-        "rvol": 5.081272341353138,
-        "close_position": 0.8251424501424509,
-        "breakout": true,
-        "bar_close_ms": 1793509200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.226699086576227,
-        "score": 6.906414791495589
-      },
-      "context": {
-        "atr": 0.0003919655595305685,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.885885617440807,
-        "btc_hour_pct": 0.1235059381860859,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793509200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AKEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f37936eb68413bab9cd0b4d0",
-      "asset_id": "d2964ad057f31638c8560c63",
-      "key": "OKX:PERP:YFIUSDT",
-      "symbol": "YFIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793515561177,
-      "price": 2022.5,
-      "level": 1967.0,
-      "invalid": 1929.5487887420752,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1967.0,
-        "base_invalid": 1929.5487887420752,
-        "atr": 9.674741719498007,
-        "rvol": 6.763080057086933,
-        "close_position": 0.7692307692307693,
-        "breakout": true,
-        "bar_close_ms": 1793509200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7668711656441785,
-        "score": 7.769230769230769
-      },
-      "context": {
-        "atr": 13.594007866935058,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.9107240056692731,
-        "btc_hour_pct": 0.11870268129166028,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:YFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793509200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "YFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cdee5dd2700e847c8c1e41ff",
-      "asset_id": "462a769ebcccafa45db9007d",
-      "key": "OKX:SPOT:YFIUSDT",
-      "symbol": "YFIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793515561210,
-      "price": 2024.5,
-      "level": 1967.0,
-      "invalid": 1931.7542343258633,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1967.0,
-        "base_invalid": 1931.7542343258633,
-        "atr": 8.305104494244137,
-        "rvol": 2.1929291881565107,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793509200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8171603677221695,
-        "score": 4.19292918815651
-      },
-      "context": {
-        "atr": 12.032895915695125,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.6957834547259631,
-        "btc_hour_pct": 0.12792475196097275,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:YFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793509200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "YFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5991936818da402ed5bba24f",
-      "asset_id": "708f52d1cfb868d40ea0fb8b",
-      "key": "OKX:SPOT:AVNTUSDT",
-      "symbol": "AVNTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793515561210,
-      "price": 0.09290000000000001,
-      "level": 0.09336,
-      "invalid": 0.09277037298424667,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09336,
-        "base_invalid": 0.09277037298424667,
-        "atr": 0.0003308467716888642,
-        "rvol": 3.534928897523916,
-        "close_position": 0.9130434782608708,
-        "breakout": true,
-        "bar_close_ms": 1793511900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7102884201463544,
-        "score": 5.447972375784786
-      },
-      "context": {
-        "atr": 0.00035373186967446415,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6355982074970346,
-        "btc_hour_pct": 0.12792475196097275,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AVNTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793511900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVNTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "faa71c6ffd5c9a68ce4fd104",
-      "asset_id": "bf326405523af199324b516a",
-      "key": "OKX:PERP:IOTAUSDT",
-      "symbol": "IOTAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793515561177,
-      "price": 0.039845,
-      "level": 0.03977,
-      "invalid": 0.03955209366063973,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03977,
-        "base_invalid": 0.03955209366063973,
-        "atr": 0.00011937559573515953,
-        "rvol": 2.8812125907689845,
-        "close_position": 0.8333333333333205,
-        "breakout": true,
-        "bar_close_ms": 1793512800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5808080808080707,
-        "score": 4.714545924102305
-      },
-      "context": {
-        "atr": 0.0001231292919191359,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4621053995164104,
-        "btc_hour_pct": 0.11870268129166028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:IOTAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793512800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IOTAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1553417,6 +1553108,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793514881571
+    },
+    {
+      "id": "205a222103bc184030c27185",
+      "asset_id": "af45dccb8e626ea604ce8486",
+      "key": "OKX:PERP:AEVOUSDT",
+      "symbol": "AEVOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793515561177,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793515569934
+    },
+    {
+      "id": "bf0080623f9ef9e9c47accd6",
+      "asset_id": "5b230f629ccae08605ea8ac1",
+      "key": "MEXC:SPOT:AKEUSDT",
+      "symbol": "AKEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793515559943,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793515569934
+    },
+    {
+      "id": "f37936eb68413bab9cd0b4d0",
+      "asset_id": "d2964ad057f31638c8560c63",
+      "key": "OKX:PERP:YFIUSDT",
+      "symbol": "YFIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793515561177,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793515569934
+    },
+    {
+      "id": "cdee5dd2700e847c8c1e41ff",
+      "asset_id": "462a769ebcccafa45db9007d",
+      "key": "OKX:SPOT:YFIUSDT",
+      "symbol": "YFIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793515561210,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793515569934
+    },
+    {
+      "id": "5991936818da402ed5bba24f",
+      "asset_id": "708f52d1cfb868d40ea0fb8b",
+      "key": "OKX:SPOT:AVNTUSDT",
+      "symbol": "AVNTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793515561210,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793515569934
+    },
+    {
+      "id": "faa71c6ffd5c9a68ce4fd104",
+      "asset_id": "bf326405523af199324b516a",
+      "key": "OKX:PERP:IOTAUSDT",
+      "symbol": "IOTAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793515561177,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793515569934
     }
   ],
   "runs": [
@@ -1627827,8 +1627584,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f26835c3c1631ef50f8089b67bcef81e7fbce60d",
-    "previous_success_ms": 1793515285618,
+    "previous_commit": "8530c19aeaa0a2e3fd1f476d65eb51c073e90db1",
+    "previous_success_ms": 1793515568770,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
