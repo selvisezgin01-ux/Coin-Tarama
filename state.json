@@ -1531425,268 +1531425,7 @@
       "source_close_ms": 1793504700000
     }
   },
-  "pending": [
-    {
-      "id": "e4b0413edd020a50309b6792",
-      "asset_id": "78a1d9b7eb7e7a35bb98aa6c",
-      "key": "MEXC:SPOT:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793504802523,
-      "price": 0.30655,
-      "level": 0.3081,
-      "invalid": 0.2997451518620722,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3081,
-        "base_invalid": 0.2997451518620722,
-        "atr": 0.002365654252852012,
-        "rvol": 3.8392743917297807,
-        "close_position": 0.6250000000000115,
-        "breakout": false,
-        "bar_close_ms": 1793496600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.06512536633018762,
-        "score": 4.964274391729792
-      },
-      "context": {
-        "atr": 0.0017091399746265463,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2586051532773137,
-        "btc_hour_pct": 0.0015574483487101887,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793496600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "96d86a3acf758f81edc131e1",
-      "asset_id": "00c385efbe363edcf9518a73",
-      "key": "OKX:SPOT:CVCUSDT",
-      "symbol": "CVCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793504801127,
-      "price": 0.023855,
-      "level": 0.02418,
-      "invalid": 0.02300125547097133,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02418,
-        "base_invalid": 0.02300125547097133,
-        "atr": 0.0003249635268578193,
-        "rvol": 29.905647636993997,
-        "close_position": 0.7666666666666704,
-        "breakout": true,
-        "bar_close_ms": 1793499300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.370307167235498,
-        "score": 7.76666666666667
-      },
-      "context": {
-        "atr": 0.0005994611875620512,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 5.895641538378071,
-        "btc_hour_pct": 0.008881074687261403,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CVCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793499300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CVCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5a5860f1c256cd3e5b4cb114",
-      "asset_id": "d852a607f0ee003cedb07ecc",
-      "key": "MEXC:PERP:CVCUSDT",
-      "symbol": "CVCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793504800537,
-      "price": 0.023905000000000003,
-      "level": 0.02402,
-      "invalid": 0.02301748987162524,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02402,
-        "base_invalid": 0.02301748987162524,
-        "atr": 0.00028340085583173784,
-        "rvol": 5.271085798965634,
-        "close_position": 0.7346938775510176,
-        "breakout": true,
-        "bar_close_ms": 1793499300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.990175138829554,
-        "score": 7.005779676516652
-      },
-      "context": {
-        "atr": 0.0004919377926108809,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 5.2326155530960206,
-        "btc_hour_pct": 0.012873326467555124,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CVCUSDT",
-          "change_pct": 16.21676299705679,
-          "old_ms": 1793501069362,
-          "current_ms": 1793504799376,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.1606,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793499300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CVCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d38b0745e2845fe819924772",
-      "asset_id": "bd899a098ff00345df22d46b",
-      "key": "MEXC:SPOT:BANKUSDT",
-      "symbol": "BANKUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793504802523,
-      "price": 0.026225,
-      "level": 0.02614,
-      "invalid": 0.025830954014077267,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02614,
-        "base_invalid": 0.025830954014077267,
-        "atr": 0.000126973239484887,
-        "rvol": 8.635656777833603,
-        "close_position": 0.7812499999999987,
-        "breakout": true,
-        "bar_close_ms": 1793504700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0814986481266775,
-        "score": 7.781249999999998
-      },
-      "context": {
-        "atr": 0.000126973239484887,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5387792442044348,
-        "btc_hour_pct": 0.0015574483487101887,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BANKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793504700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BANKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b9bbcaa29762a4eaa72c9203",
-      "asset_id": "af45dccb8e626ea604ce8486",
-      "key": "OKX:PERP:AEVOUSDT",
-      "symbol": "AEVOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793504801445,
-      "price": 0.020455,
-      "level": 0.02046,
-      "invalid": 0.02025067690516869,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02046,
-        "base_invalid": 0.02025067690516869,
-        "atr": 6.215396554207614e-05,
-        "rvol": 5.239773570499459,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793504700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6407097092163694,
-        "score": 6.739773570499459
-      },
-      "context": {
-        "atr": 6.215396554207614e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5498885953145738,
-        "btc_hour_pct": 0.01120103410008344,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AEVOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793504700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEVOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1537308,6 +1537047,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793503607593
+    },
+    {
+      "id": "96d86a3acf758f81edc131e1",
+      "asset_id": "00c385efbe363edcf9518a73",
+      "key": "OKX:SPOT:CVCUSDT",
+      "symbol": "CVCUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793504801127,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793504811492
+    },
+    {
+      "id": "5a5860f1c256cd3e5b4cb114",
+      "asset_id": "d852a607f0ee003cedb07ecc",
+      "key": "MEXC:PERP:CVCUSDT",
+      "symbol": "CVCUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793504800537,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793504811493
+    },
+    {
+      "id": "d38b0745e2845fe819924772",
+      "asset_id": "bd899a098ff00345df22d46b",
+      "key": "MEXC:SPOT:BANKUSDT",
+      "symbol": "BANKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793504802523,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793504811493
+    },
+    {
+      "id": "b9bbcaa29762a4eaa72c9203",
+      "asset_id": "af45dccb8e626ea604ce8486",
+      "key": "OKX:PERP:AEVOUSDT",
+      "symbol": "AEVOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793504801445,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793504811493
     }
   ],
   "runs": [
@@ -1581760,7 +1581543,8 @@
         "entry_seq": 0,
         "cohort": "BANKUSDT",
         "observation_lag_ms": 102523,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8970
       },
       "af45dccb8e626ea604ce8486:radar": {
         "symbol": "AEVOUSDT",
@@ -1581782,7 +1581566,8 @@
         "entry_seq": 0,
         "cohort": "AEVOUSDT",
         "observation_lag_ms": 101445,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10048
       }
     },
     "errors": [],
@@ -1607748,8 +1607533,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "426a52012b0f61cc859eca3d067699bdfae363ef",
-    "previous_success_ms": 1793504521887,
+    "previous_commit": "b396b7c95dc80d4e6f36b290579c64f4c627c781",
+    "previous_success_ms": 1793504810481,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
