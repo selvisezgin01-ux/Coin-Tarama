@@ -1602921,114 +1602921,7 @@
       "source_close_ms": 1793545200000
     }
   },
-  "pending": [
-    {
-      "id": "2e0e32fb91834e41c9814b54",
-      "asset_id": "16fc40151bc36b4f616ca38d",
-      "key": "OKX:SPOT:ZENUSDT",
-      "symbol": "ZENUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793545546383,
-      "price": 5.391,
-      "level": 5.387,
-      "invalid": 5.339049954486218,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 5.387,
-        "base_invalid": 5.339049954486218,
-        "atr": 0.013000303425214176,
-        "rvol": 58.74786748175739,
-        "close_position": 0.7499999999999722,
-        "breakout": false,
-        "bar_close_ms": 1793545200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.20461309523807092,
-        "score": 7.2499999999999725
-      },
-      "context": {
-        "atr": 0.013000303425214176,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1762883682640881,
-        "btc_hour_pct": 0.028324726973982806,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793545200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a7b44396efe0d4109be5cc39",
-      "asset_id": "f77ea6a154c9b16bc81f675e",
-      "key": "MEXC:PERP:ASTERUSDT",
-      "symbol": "ASTERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793545547144,
-      "price": 0.69965,
-      "level": 0.7002,
-      "invalid": 0.6964780129712642,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.7002,
-        "base_invalid": 0.6964780129712642,
-        "atr": 0.001479913524904861,
-        "rvol": 5.14329439731023,
-        "close_position": 0.6315789473684057,
-        "breakout": false,
-        "bar_close_ms": 1793545200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.12873694750392684,
-        "score": 6.274873344678635
-      },
-      "context": {
-        "atr": 0.001479913524904861,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.1077109830019074,
-        "btc_hour_pct": 0.021025964502019434,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ASTERUSDT",
-          "change_pct": -0.10881345152649047,
-          "old_ms": 1793541770063,
-          "current_ms": 1793545543187,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793545200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ASTERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1610234,6 +1610127,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793545265919
+    },
+    {
+      "id": "2e0e32fb91834e41c9814b54",
+      "asset_id": "16fc40151bc36b4f616ca38d",
+      "key": "OKX:SPOT:ZENUSDT",
+      "symbol": "ZENUSDT",
+      "phase": "radar",
+      "observed_ms": 1793545546383,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793545558634
+    },
+    {
+      "id": "a7b44396efe0d4109be5cc39",
+      "asset_id": "f77ea6a154c9b16bc81f675e",
+      "key": "MEXC:PERP:ASTERUSDT",
+      "symbol": "ASTERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793545547144,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793545558635
     }
   ],
   "runs": [
@@ -1669465,7 +1669380,8 @@
         "entry_seq": 0,
         "cohort": "ZENUSDT",
         "observation_lag_ms": 346383,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12251
       },
       "f77ea6a154c9b16bc81f675e:radar": {
         "symbol": "ASTERUSDT",
@@ -1669487,7 +1669403,8 @@
         "entry_seq": 0,
         "cohort": "ASTERUSDT",
         "observation_lag_ms": 347144,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11491
       }
     },
     "errors": [],
@@ -1695515,8 +1695432,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "38b00e2147386f12cf6df002315c82682bb7adfa",
-    "previous_success_ms": 1793545290403,
+    "previous_commit": "561143195028c464aef85b6dc5653bec74b56e5e",
+    "previous_success_ms": 1793545557536,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
