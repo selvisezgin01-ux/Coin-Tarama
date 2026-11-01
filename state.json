@@ -1553829,7 +1553829,9 @@
           "selected_for_candles": 36,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793506619320,
+      "duration_ms": 31690
     }
   ],
   "radar_admissions": [
@@ -1578715,13 +1578717,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793505997756,
+            "endpoint_ms": 1793506020000,
+            "endpoint_price": 136.79,
+            "return_pct": -0.5235982837611841,
+            "btc_excess_pct_points": -0.5015311107719245,
+            "mae_pct": -0.5526870773034598,
+            "mfe_pct": 0.9817467820522285,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 22244,
+            "measured_ms": 1793506618245,
+            "cost_scenarios_pct": {
+              "0.2": -0.7235982837611841,
+              "0.5": -1.0235982837611841,
+              "1": -1.5235982837611841
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793502000000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "AAVEUSDT",
         "observation_lag_ms": 397756,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793506618245
       },
       "145eaecfb2a94f8ce8cd3121:radar": {
         "symbol": "BRETTUSDT",
@@ -1578953,10 +1578979,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 140,
-      "attempted": 2,
-      "observed_ms": 1793506312324,
-      "unique_reads": 4
+      "due": 139,
+      "attempted": 1,
+      "observed_ms": 1793506618245,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
@@ -1579013,8 +1579039,8 @@
             "first_per_symbol": 61,
             "hours": {
               "1": {
-                "known_first_symbols": 58,
-                "median_reference_return_pct": -0.20476707979454334
+                "known_first_symbols": 59,
+                "median_reference_return_pct": -0.21025157688681073
               },
               "4": {
                 "known_first_symbols": 35,
@@ -1592795,13 +1592821,35 @@
               "barriers": {
                 "status": "not_a_trade_entry"
               }
+            },
+            "24": {
+              "target_ms": 1793444343612,
+              "endpoint_ms": 1793444400000,
+              "endpoint_price": 54.87,
+              "return_pct": -1.5431544948860676,
+              "btc_excess_pct_points": -1.0684643361693835,
+              "mae_pct": -2.1711824869908525,
+              "mfe_pct": 0.6818589628566185,
+              "path_complete": true,
+              "complete": true,
+              "minute_bars": 1440,
+              "ignored_entry_fragment_ms": 56388,
+              "measured_ms": 1793506618785,
+              "cost_scenarios_pct": {
+                "0.2": -1.7431544948860676,
+                "0.5": -2.0431544948860676,
+                "1": -2.5431544948860676
+              },
+              "barriers": {
+                "status": "not_a_trade_entry"
+              }
             }
           },
           "source_close_ms": 1793357100000,
           "observation_lag_ms": 843612,
           "interpretation": "early radar reference, not a trade entry",
           "notification_lag_ms": 7258,
-          "last_measure_attempt_ms": 1793444114605
+          "last_measure_attempt_ms": 1793506618785
         },
         "SSVUSDT:radar": {
           "symbol": "SSVUSDT",
@@ -1594158,9 +1594206,9 @@
       },
       "errors": [],
       "queue": {
-        "due": 2,
+        "due": 1,
         "attempted": 1,
-        "observed_ms": 1793505723838,
+        "observed_ms": 1793506618785,
         "unique_reads": 2
       },
       "summary": {
@@ -1594180,8 +1594228,8 @@
               "median_pct": -0.4489883789384752
             },
             "24": {
-              "known": 93,
-              "median_pct": 0.2494026089340906
+              "known": 94,
+              "median_pct": 0.2350765804052357
             }
           }
         },
@@ -1604947,8 +1604995,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8730b99913dfc7bab3402d681f89008cd7dfc382",
-    "previous_success_ms": 1793506609512,
+    "previous_commit": "abcf0841340e928e1c9d7c6f63f0054e7b484cd0",
+    "previous_success_ms": 1793506618203,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
