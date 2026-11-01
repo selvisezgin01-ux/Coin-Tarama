@@ -1595521,64 +1595521,7 @@
       "source_close_ms": 1793550600000
     }
   },
-  "pending": [
-    {
-      "id": "b02df442dcaa18812485d65e",
-      "asset_id": "e16a946fcd6326885bd03117",
-      "key": "MEXC:PERP:CAPUSDT",
-      "symbol": "CAPUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793552038161,
-      "price": 0.070765,
-      "level": 0.07276,
-      "invalid": 0.06631029424681463,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07276,
-        "base_invalid": 0.06631029424681463,
-        "atr": 0.001131371687902429,
-        "rvol": 2.2382744282198637,
-        "close_position": 0.9875776397515577,
-        "breakout": false,
-        "bar_close_ms": 1793551500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 4.850468680255915,
-        "score": 3.725852067971421
-      },
-      "context": {
-        "atr": 0.001131371687902429,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -3.229871566512288,
-        "btc_hour_pct": -0.08472707882565267,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CAPUSDT",
-          "change_pct": 8.082434182132058,
-          "old_ms": 1793548533282,
-          "current_ms": 1793552036250,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793551500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CAPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1603070,6 +1603013,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793551751612
+    },
+    {
+      "id": "b02df442dcaa18812485d65e",
+      "asset_id": "e16a946fcd6326885bd03117",
+      "key": "MEXC:PERP:CAPUSDT",
+      "symbol": "CAPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793552038161,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793552047954
     }
   ],
   "runs": [
@@ -1664603,7 +1664557,8 @@
         "entry_seq": 0,
         "cohort": "CAPUSDT",
         "observation_lag_ms": 538161,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9793
       }
     },
     "errors": [],
@@ -1690626,8 +1690581,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e9e5ad60fb4a98745ba73b7afa736f0b13659e98",
-    "previous_success_ms": 1793551768765,
+    "previous_commit": "7954f2bc4f59887db538b06373d2e64dbe83a6de",
+    "previous_success_ms": 1793552046813,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
