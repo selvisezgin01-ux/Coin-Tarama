@@ -1575369,112 +1575369,7 @@
       "source_close_ms": 1793527200000
     }
   },
-  "pending": [
-    {
-      "id": "4cbcd2fc7b4ecc92b3f6e45b",
-      "asset_id": "d69835c0519584a9d0349685",
-      "key": "MEXC:PERP:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793527472102,
-      "price": 0.060835,
-      "level": 0.05923,
-      "invalid": 0.05541779287293716,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05923,
-        "base_invalid": 0.05541779287293716,
-        "atr": 0.0010813808470855712,
-        "rvol": 11.203548507929098,
-        "close_position": 0.7771084337349387,
-        "breakout": true,
-        "bar_close_ms": 1793521800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.05268559698939,
-        "score": 7.777108433734939
-      },
-      "context": {
-        "atr": 0.0014118114399728268,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.33490366128907656,
-        "btc_hour_pct": -0.17221232104365214,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:APRUSDT",
-          "change_pct": -18.550284841560373,
-          "old_ms": 1793523854135,
-          "current_ms": 1793527470112,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.06,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793521800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cbb0654ccc366f770cb4dfcd",
-      "asset_id": "179a245a56bff5cf73167fd6",
-      "key": "MEXC:SPOT:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793527471727,
-      "price": 0.06069,
-      "level": 0.05896,
-      "invalid": 0.055198163615473965,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05896,
-        "base_invalid": 0.055198163615473965,
-        "atr": 0.0012122425635069085,
-        "rvol": 10.05659198934836,
-        "close_position": 0.7684887459807075,
-        "breakout": true,
-        "bar_close_ms": 1793521800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1324161650902784,
-        "score": 7.768488745980708
-      },
-      "context": {
-        "atr": 0.0015409220854322753,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.12189995115211572,
-        "btc_hour_pct": -0.15720036078351596,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:APRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793521800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1582020,6 +1581915,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793526580119
+    },
+    {
+      "id": "4cbcd2fc7b4ecc92b3f6e45b",
+      "asset_id": "d69835c0519584a9d0349685",
+      "key": "MEXC:PERP:APRUSDT",
+      "symbol": "APRUSDT",
+      "phase": "expired",
+      "observed_ms": 1793527472102,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793527482626
+    },
+    {
+      "id": "cbb0654ccc366f770cb4dfcd",
+      "asset_id": "179a245a56bff5cf73167fd6",
+      "key": "MEXC:SPOT:APRUSDT",
+      "symbol": "APRUSDT",
+      "phase": "expired",
+      "observed_ms": 1793527471727,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793527482626
     }
   ],
   "runs": [
@@ -1660850,8 +1660767,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7d5e4af666b9ceb66f32c9f2068a6a19f328a678",
-    "previous_success_ms": 1793527198673,
+    "previous_commit": "14695aa1ea098444ef51b120c18eed5b76c271dd",
+    "previous_success_ms": 1793527481696,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
