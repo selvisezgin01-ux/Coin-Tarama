@@ -1550400,70 +1550400,7 @@
       "source_close_ms": 1793516400000
     }
   },
-  "pending": [
-    {
-      "id": "f8d06d92da0d34d299e66ed1",
-      "asset_id": "6abebc48eb00cedb18f36800",
-      "key": "OKX:PERP:1INCHUSDT",
-      "symbol": "1INCHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793518260459,
-      "price": 0.08266,
-      "level": 0.08214,
-      "invalid": 0.08204347908951516,
-      "target": 0.08513294182096967,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08214,
-        "base_invalid": 0.08039347908951515,
-        "atr": 0.0003768060698989241,
-        "rvol": 3.5504893882331334,
-        "close_position": 0.8292682926829565,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5506607929515406,
-        "score": 5.37975768091609
-      },
-      "context": {
-        "atr": 0.00038529885655328545,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4272176410278439,
-        "btc_hour_pct": 0.1234431519236967,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:1INCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.08204347908951516,
-        "target": 0.08513294182096967,
-        "risk_pct": 0.7458515732940185,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.0891,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.08258,
-        "entry_zone_high": 0.08277264942827664
-      },
-      "reason": null,
-      "source_close_ms": 1793518200000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "1INCHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1556646,6 +1556583,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793517667099
+    },
+    {
+      "id": "f8d06d92da0d34d299e66ed1",
+      "asset_id": "6abebc48eb00cedb18f36800",
+      "key": "OKX:PERP:1INCHUSDT",
+      "symbol": "1INCHUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793518260459,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793518270888
     }
   ],
   "runs": [
@@ -1606061,7 +1606009,8 @@
         "entry_seq": 1,
         "cohort": "1INCHUSDT",
         "observation_lag_ms": 60459,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 10429
       }
     },
     "errors": [],
@@ -1632086,8 +1632035,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "304f3a83c3964a1c6960f92d3ff58e4e62666724",
-    "previous_success_ms": 1793517988133,
+    "previous_commit": "51150197362485b61d2d65ca83b0930104ed889c",
+    "previous_success_ms": 1793518269682,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
