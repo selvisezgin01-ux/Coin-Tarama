@@ -1595664,164 +1595664,7 @@
       "source_close_ms": 1793536200000
     }
   },
-  "pending": [
-    {
-      "id": "99a055bb33db98de2871bdfb",
-      "asset_id": "ef37aed46de46f8879692d97",
-      "key": "OKX:PERP:MANAUSDT",
-      "symbol": "MANAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793539679074,
-      "price": 0.075115,
-      "level": 0.07474,
-      "invalid": 0.07395238443304232,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07474,
-        "base_invalid": 0.07395238443304232,
-        "atr": 0.00025077044638450774,
-        "rvol": 4.599146231760413,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793538900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.536984830178544,
-        "score": 6.599146231760413
-      },
-      "context": {
-        "atr": 0.00025077044638450774,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06669575988141885,
-        "btc_hour_pct": -0.09355221214406573,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MANAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793538900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MANAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "70a2cb37857a5cd21b61a362",
-      "asset_id": "3b8e6a74472c74deaae89add",
-      "key": "MEXC:PERP:PYTHUSDT",
-      "symbol": "PYTHUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793539683081,
-      "price": 0.06722500000000001,
-      "level": 0.06733,
-      "invalid": 0.06623473449366946,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06733,
-        "base_invalid": 0.06623473449366946,
-        "atr": 0.00043510337553690577,
-        "rvol": 4.176599079419158,
-        "close_position": 0.7962962962962977,
-        "breakout": false,
-        "bar_close_ms": 1793538900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.014907573047096001,
-        "score": 5.4728953757154555
-      },
-      "context": {
-        "atr": 0.00043510337553690577,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.05231166811583421,
-        "btc_hour_pct": -0.0825197925583332,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PYTHUSDT",
-          "change_pct": 15.218814057667252,
-          "old_ms": 1793536072053,
-          "current_ms": 1793539679277,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793538900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PYTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f7a90d4e8f0120c1fb38edee",
-      "asset_id": "acb22c18a643def9e85ed6f1",
-      "key": "OKX:SPOT:FILUSDT",
-      "symbol": "FILUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793539684550,
-      "price": 0.8842,
-      "level": 0.8808,
-      "invalid": 0.8705834625348685,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.8808,
-        "base_invalid": 0.8705834625348685,
-        "atr": 0.0034435831008766344,
-        "rvol": 2.7454569375403444,
-        "close_position": 0.967213114754102,
-        "breakout": true,
-        "bar_close_ms": 1793538900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6947608200455591,
-        "score": 4.712670052294446
-      },
-      "context": {
-        "atr": 0.0034435831008766344,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.18584554264363673,
-        "btc_hour_pct": -0.0947915931785892,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FILUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793538900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FILUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1602763,6 +1602606,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793538202460
+    },
+    {
+      "id": "99a055bb33db98de2871bdfb",
+      "asset_id": "ef37aed46de46f8879692d97",
+      "key": "OKX:PERP:MANAUSDT",
+      "symbol": "MANAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793539679074,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793539696181
+    },
+    {
+      "id": "70a2cb37857a5cd21b61a362",
+      "asset_id": "3b8e6a74472c74deaae89add",
+      "key": "MEXC:PERP:PYTHUSDT",
+      "symbol": "PYTHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793539683081,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793539696181
+    },
+    {
+      "id": "f7a90d4e8f0120c1fb38edee",
+      "asset_id": "acb22c18a643def9e85ed6f1",
+      "key": "OKX:SPOT:FILUSDT",
+      "symbol": "FILUSDT",
+      "phase": "radar",
+      "observed_ms": 1793539684550,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793539696181
     }
   ],
   "runs": [
@@ -1659995,7 +1659871,8 @@
         "entry_seq": 0,
         "cohort": "MANAUSDT",
         "observation_lag_ms": 779074,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 17107
       },
       "3b8e6a74472c74deaae89add:radar": {
         "symbol": "PYTHUSDT",
@@ -1660017,7 +1659894,8 @@
         "entry_seq": 0,
         "cohort": "PYTHUSDT",
         "observation_lag_ms": 783081,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13100
       },
       "acb22c18a643def9e85ed6f1:radar": {
         "symbol": "FILUSDT",
@@ -1660039,7 +1659917,8 @@
         "entry_seq": 0,
         "cohort": "FILUSDT",
         "observation_lag_ms": 784550,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11631
       }
     },
     "errors": [],
@@ -1686073,8 +1685952,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fdfa2896cf8eb63302b024e21d14217437e07d29",
-    "previous_success_ms": 1793539419541,
+    "previous_commit": "807b28b6d48e90ed5d34756f68af9090d6462012",
+    "previous_success_ms": 1793539695175,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
