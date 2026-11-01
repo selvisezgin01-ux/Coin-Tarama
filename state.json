@@ -1592671,60 +1592671,7 @@
       "source_close_ms": 1793558700000
     }
   },
-  "pending": [
-    {
-      "id": "7086c0d1e3390baf2be050d5",
-      "asset_id": "30b7a4af152ed092eabcb619",
-      "key": "OKX:PERP:CNPYUSDT",
-      "symbol": "CNPYUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793559084540,
-      "price": 0.18835000000000002,
-      "level": 0.1838,
-      "invalid": 0.17976994749603087,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1838,
-        "base_invalid": 0.17976994749603087,
-        "atr": 0.0015336833597941418,
-        "rvol": 50.36409628376027,
-        "close_position": 0.6984126984127008,
-        "breakout": true,
-        "bar_close_ms": 1793558700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.469162995594721,
-        "score": 7.698412698412701
-      },
-      "context": {
-        "atr": 0.0015336833597941418,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7628238974146107,
-        "btc_hour_pct": -0.21125191727119352,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CNPYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793558700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CNPYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1600491,6 +1600438,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793558801068
+    },
+    {
+      "id": "7086c0d1e3390baf2be050d5",
+      "asset_id": "30b7a4af152ed092eabcb619",
+      "key": "OKX:PERP:CNPYUSDT",
+      "symbol": "CNPYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793559084540,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793559096755
     }
   ],
   "runs": [
@@ -1664528,7 +1664486,8 @@
         "entry_seq": 0,
         "cohort": "CNPYUSDT",
         "observation_lag_ms": 384540,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12215
       }
     },
     "errors": [],
@@ -1690552,8 +1690511,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "492afad4f0885e88bed6425481e7595708ec5220",
-    "previous_success_ms": 1793558828978,
+    "previous_commit": "93a298ecc5a9db83cf1f8fe5a005797a5436969e",
+    "previous_success_ms": 1793559095708,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
