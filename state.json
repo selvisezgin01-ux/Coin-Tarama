@@ -1585452,62 +1585452,7 @@
       "source_close_ms": 1793534400000
     }
   },
-  "pending": [
-    {
-      "id": "8de43a6fc50a6819dac0cfb0",
-      "asset_id": "11090bf88dd63f24a834149c",
-      "key": "MEXC:PERP:AINUSDT",
-      "symbol": "AINUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793535485535,
-      "price": 0.26576999999999995,
-      "level": 0.27747,
-      "invalid": 0.26721324227585375,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.27747,
-        "base_invalid": 0.26721324227585375,
-        "atr": 0.006645051494308502,
-        "rvol": 2.8700724500346046,
-        "close_position": 0.775768535262203,
-        "breakout": true,
-        "bar_close_ms": 1793534400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.914389799635675,
-        "score": 4.6458409852968074
-      },
-      "context": {
-        "atr": 0.007221404331376881,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.013110659353335,
-        "btc_hour_pct": -0.09872085971766031,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AINUSDT",
-          "change_pct": 2.491608761162367,
-          "old_ms": 1793531777994,
-          "current_ms": 1793535482945,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0378,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793534400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1592350,6 +1592295,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793534507114
+    },
+    {
+      "id": "8de43a6fc50a6819dac0cfb0",
+      "asset_id": "11090bf88dd63f24a834149c",
+      "key": "MEXC:PERP:AINUSDT",
+      "symbol": "AINUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793535485535,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793535497459
     }
   ],
   "runs": [
@@ -1674041,8 +1673997,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "51181b848774e160c0d0d09558ddef9f6ccc6a73",
-    "previous_success_ms": 1793535472723,
+    "previous_commit": "01bb32d2796d6cfad336053664a15ef2356212df",
+    "previous_success_ms": 1793535496363,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
