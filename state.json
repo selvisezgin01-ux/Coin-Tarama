@@ -1622083,8 +1622083,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6bd65f2d31857a24478f4657416a811f9f6644d2",
-    "previous_success_ms": 1793516782264,
+    "previous_commit": "5172110654441d16a4525f69e41e495342aaa56e",
+    "previous_success_ms": 1793517064313,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
