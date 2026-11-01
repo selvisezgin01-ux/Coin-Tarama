@@ -1591420,160 +1591420,7 @@
       "source_close_ms": 1793530800000
     }
   },
-  "pending": [
-    {
-      "id": "2b5574dd80189932a3e4e9f9",
-      "asset_id": "bbb453e2ceca7ce389fb1188",
-      "key": "OKX:PERP:ENSOUSDT",
-      "symbol": "ENSOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793531791939,
-      "price": 0.5520499999999999,
-      "level": 0.5504,
-      "invalid": 0.5425724347963322,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5504,
-        "base_invalid": 0.5425724347963322,
-        "atr": 0.0028504346911185463,
-        "rvol": 4.242306072742667,
-        "close_position": 0.8039215686274506,
-        "breakout": true,
-        "bar_close_ms": 1793531700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1330409356725024,
-        "score": 6.046227641370118
-      },
-      "context": {
-        "atr": 0.0028504346911185463,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.831301094418635,
-        "btc_hour_pct": -0.09735614029019457,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ENSOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793531700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ENSOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6f2cc098bbb83e973044b72c",
-      "asset_id": "af364757fa2c89cf10754342",
-      "key": "MEXC:SPOT:XPINUSDT",
-      "symbol": "XPINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793531791377,
-      "price": 0.000842,
-      "level": 0.0008419,
-      "invalid": 0.0008083762209773518,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0008419,
-        "base_invalid": 0.0008083762209773518,
-        "atr": 9.491860150987077e-06,
-        "rvol": 3.107015677923147,
-        "close_position": 0.9322033898305067,
-        "breakout": false,
-        "bar_close_ms": 1793531700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9357005758157344,
-        "score": 4.5392190677536535
-      },
-      "context": {
-        "atr": 9.491860150987077e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.801260548792726,
-        "btc_hour_pct": -0.11542250282954303,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XPINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793531700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XPINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "03557a6e0e08fe07e0a2f504",
-      "asset_id": "444940449004ce9dae4222a7",
-      "key": "OKX:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793531791939,
-      "price": 0.1886,
-      "level": 0.1871,
-      "invalid": 0.17883221175575212,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1871,
-        "base_invalid": 0.17883221175575212,
-        "atr": 0.0031185882949857457,
-        "rvol": 2.9690116686176684,
-        "close_position": 0.7407407407407379,
-        "breakout": false,
-        "bar_close_ms": 1793531700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 3.028634361233462,
-        "score": 4.209752409358407
-      },
-      "context": {
-        "atr": 0.0031185882949857457,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3638759640787312,
-        "btc_hour_pct": -0.09735614029019457,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DNAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793531700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1598273,6 +1598120,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793531497578
+    },
+    {
+      "id": "2b5574dd80189932a3e4e9f9",
+      "asset_id": "bbb453e2ceca7ce389fb1188",
+      "key": "OKX:PERP:ENSOUSDT",
+      "symbol": "ENSOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793531791939,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793531802782
+    },
+    {
+      "id": "6f2cc098bbb83e973044b72c",
+      "asset_id": "af364757fa2c89cf10754342",
+      "key": "MEXC:SPOT:XPINUSDT",
+      "symbol": "XPINUSDT",
+      "phase": "radar",
+      "observed_ms": 1793531791377,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793531802782
+    },
+    {
+      "id": "03557a6e0e08fe07e0a2f504",
+      "asset_id": "444940449004ce9dae4222a7",
+      "key": "OKX:PERP:DNAUSDT",
+      "symbol": "DNAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793531791939,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793531802782
     }
   ],
   "runs": [
@@ -1652633,7 +1652513,8 @@
         "entry_seq": 0,
         "cohort": "ENSOUSDT",
         "observation_lag_ms": 91939,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10843
       },
       "af364757fa2c89cf10754342:radar": {
         "symbol": "XPINUSDT",
@@ -1652655,7 +1652536,8 @@
         "entry_seq": 0,
         "cohort": "XPINUSDT",
         "observation_lag_ms": 91377,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11405
       },
       "444940449004ce9dae4222a7:radar": {
         "symbol": "DNAUSDT",
@@ -1652677,7 +1652559,8 @@
         "entry_seq": 0,
         "cohort": "DNAUSDT",
         "observation_lag_ms": 91939,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10843
       }
     },
     "errors": [],
@@ -1678709,8 +1678592,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "41cf7ab5ac04dad245d73104073eb417e8591a16",
-    "previous_success_ms": 1793531514317,
+    "previous_commit": "f1a42316aac5461bac54e2eb9f6a7f261ba643a6",
+    "previous_success_ms": 1793531801462,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
