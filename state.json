@@ -1517641,112 +1517641,7 @@
       "source_close_ms": 1793500200000
     }
   },
-  "pending": [
-    {
-      "id": "9786da54b9b01f4272e6b9d5",
-      "asset_id": "6014b76af365eb2779e5cd9d",
-      "key": "MEXC:SPOT:GLMRUSDT",
-      "symbol": "GLMRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793500486366,
-      "price": 0.008105999999999999,
-      "level": 0.00829,
-      "invalid": 0.00799651474725856,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00829,
-        "base_invalid": 0.00799651474725856,
-        "atr": 8.32350182762727e-05,
-        "rvol": 3.550063420351467,
-        "close_position": 0.8509090909090927,
-        "breakout": false,
-        "bar_close_ms": 1793478600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.131086606368493,
-        "score": 4.9009725112605595
-      },
-      "context": {
-        "atr": 5.150233152604639e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.12658572422055148,
-        "btc_hour_pct": 0.052465897166831255,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GLMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793478600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9da7284465bec39e268e8268",
-      "asset_id": "c914de0352635a4960e77d23",
-      "key": "MEXC:SPOT:ETHUSDT",
-      "symbol": "ETHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793500486366,
-      "price": 2265.255,
-      "level": 2267.3,
-      "invalid": 2252.6574105269483,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2267.3,
-        "base_invalid": 2252.6574105269483,
-        "atr": 3.8172631536772323,
-        "rvol": 3.3087804581195637,
-        "close_position": 0.8219178082191795,
-        "breakout": true,
-        "bar_close_ms": 1793497500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5140215880212295,
-        "score": 5.130698266338743
-      },
-      "context": {
-        "atr": 4.187388670245297,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.30430906934406643,
-        "btc_hour_pct": 0.052465897166831255,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ETHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793497500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1523214,6 +1523109,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793499894683
+    },
+    {
+      "id": "9786da54b9b01f4272e6b9d5",
+      "asset_id": "6014b76af365eb2779e5cd9d",
+      "key": "MEXC:SPOT:GLMRUSDT",
+      "symbol": "GLMRUSDT",
+      "phase": "expired",
+      "observed_ms": 1793500486366,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793500496434
+    },
+    {
+      "id": "9da7284465bec39e268e8268",
+      "asset_id": "c914de0352635a4960e77d23",
+      "key": "MEXC:SPOT:ETHUSDT",
+      "symbol": "ETHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793500486366,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793500496434
     }
   ],
   "runs": [
@@ -1591886,8 +1591803,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f365605b4bc679d6e3a0edf6164ac4ba1e6aa8ba",
-    "previous_success_ms": 1793500210011,
+    "previous_commit": "70864ead4f4d518c6c0be298caaca0847a2f2900",
+    "previous_success_ms": 1793500495420,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
