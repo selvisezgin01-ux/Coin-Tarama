@@ -485,50 +485,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "67aca1c2a59cb2ca27fa4d43",
-      "created_ms": 1793508888945,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "BXEUSDT",
-          "observed_ms": 1793508888856,
-          "feature_cutoff_ms": 1793505600000,
-          "mid_price": 0.0018645,
-          "spread_pct": 0.6972378653794578,
-          "return24_pct": 7.501442585112539,
-          "relative24_pct_points": 6.669543143844203,
-          "quote_volume24": 14619.143136999997,
-          "liquidity_band": "thin",
-          "breakout_level": 0.0018,
-          "breakout_open_ms": 1793491200000.0,
-          "breakout_volume_ratio": 2.1280109234489175,
-          "strength_score": 75,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.0017197479586113413,
-          "atr": 3.7008165554634816e-05,
-          "close": 0.001863,
-          "paper_controls": [
-            {
-              "symbol": "SINGULARRYUSDT",
-              "entry_price": 0.00751
-            },
-            {
-              "symbol": "WOLFTONUSDT",
-              "entry_price": 0.0004393
-            },
-            {
-              "symbol": "BATTERYUSDT",
-              "entry_price": 0.0002876
-            }
-          ],
-          "paper_btc_price": 77806.005,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793508888945,
   "paper": {
     "version": "github-paper-v1",
