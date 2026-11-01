@@ -1607267,110 +1607267,7 @@
       "source_close_ms": 1793540700000
     }
   },
-  "pending": [
-    {
-      "id": "ed3d2d4e3e7c6f8abdaa2f2b",
-      "asset_id": "2e00851585e7ff5ccdebe7b1",
-      "key": "MEXC:SPOT:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793540888220,
-      "price": 0.0013765000000000001,
-      "level": 0.001372,
-      "invalid": 0.0013279567886025807,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001372,
-        "base_invalid": 0.0013279567886025807,
-        "atr": 2.0288075982795284e-05,
-        "rvol": 14.968813856141473,
-        "close_position": 0.6938775510204118,
-        "breakout": false,
-        "bar_close_ms": 1793535300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.2583271650629335,
-        "score": 7.193877551020412
-      },
-      "context": {
-        "atr": 1.9574925852074412e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.932922286833394,
-        "btc_hour_pct": -0.08517653664861236,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793535300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOPHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e8cdd75f040de5f425e868d6",
-      "asset_id": "acb22c18a643def9e85ed6f1",
-      "key": "OKX:SPOT:FILUSDT",
-      "symbol": "FILUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793540886166,
-      "price": 0.88255,
-      "level": 0.8808,
-      "invalid": 0.8705834625348685,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.8808,
-        "base_invalid": 0.8705834625348685,
-        "atr": 0.0034435831008766344,
-        "rvol": 2.7454569375403444,
-        "close_position": 0.967213114754102,
-        "breakout": true,
-        "bar_close_ms": 1793538900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6947608200455591,
-        "score": 4.712670052294446
-      },
-      "context": {
-        "atr": 0.0033213419061547517,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.18584554264363673,
-        "btc_hour_pct": -0.0947915931785892,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FILUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793538900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FILUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1614356,6 +1614253,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793539998376
+    },
+    {
+      "id": "ed3d2d4e3e7c6f8abdaa2f2b",
+      "asset_id": "2e00851585e7ff5ccdebe7b1",
+      "key": "MEXC:SPOT:SOPHUSDT",
+      "symbol": "SOPHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793540888220,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793540899075
+    },
+    {
+      "id": "e8cdd75f040de5f425e868d6",
+      "asset_id": "acb22c18a643def9e85ed6f1",
+      "key": "OKX:SPOT:FILUSDT",
+      "symbol": "FILUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793540886166,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793540899075
     }
   ],
   "runs": [
@@ -1698028,8 +1697947,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "029467ffd06e53d1b72abb28806ca8e747c16688",
-    "previous_success_ms": 1793540612494,
+    "previous_commit": "9b867e27fb403cdae79e116f183f3299d7022db6",
+    "previous_success_ms": 1793540897886,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
