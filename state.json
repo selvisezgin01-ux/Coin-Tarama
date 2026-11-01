@@ -1552057,60 +1552057,7 @@
       "source_close_ms": 1793516400000
     }
   },
-  "pending": [
-    {
-      "id": "c459ac6685e9b2f27da0d521",
-      "asset_id": "58da3f83f268c02ed4097ebb",
-      "key": "OKX:PERP:LABUSDT",
-      "symbol": "LABUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793518555311,
-      "price": 0.04549,
-      "level": 0.04491,
-      "invalid": 0.043999997483085224,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04491,
-        "base_invalid": 0.043999997483085224,
-        "atr": 0.0002666834460985131,
-        "rvol": 5.409258751206577,
-        "close_position": 0.7499999999999942,
-        "breakout": true,
-        "bar_close_ms": 1793518200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.075344010827873,
-        "score": 7.159258751206572
-      },
-      "context": {
-        "atr": 0.0002666834460985131,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9659803614671336,
-        "btc_hour_pct": 0.1234431519236967,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LABUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793518200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LABUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1558304,6 +1558251,17 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793518270888
+    },
+    {
+      "id": "c459ac6685e9b2f27da0d521",
+      "asset_id": "58da3f83f268c02ed4097ebb",
+      "key": "OKX:PERP:LABUSDT",
+      "symbol": "LABUSDT",
+      "phase": "radar",
+      "observed_ms": 1793518555311,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793518566729
     }
   ],
   "runs": [
@@ -1607856,7 +1607814,8 @@
         "entry_seq": 0,
         "cohort": "LABUSDT",
         "observation_lag_ms": 355311,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11418
       }
     },
     "errors": [],
@@ -1633882,8 +1633841,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "97eef0e88d7c78591b2def54fac7977533fb6781",
-    "previous_success_ms": 1793518291397,
+    "previous_commit": "7c8bc7d9a27483ed83fcd1c8e3a1ac0fd770b89b",
+    "previous_success_ms": 1793518565371,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
