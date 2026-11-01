@@ -1519192,264 +1519192,7 @@
       "source_close_ms": 1793500200000
     }
   },
-  "pending": [
-    {
-      "id": "cdc0c5e20dfa8602027f0e2a",
-      "asset_id": "40b292ffa99733090b6efa72",
-      "key": "MEXC:PERP:LAUSDT",
-      "symbol": "LAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793500781912,
-      "price": 0.05747,
-      "level": 0.05614,
-      "invalid": 0.05452180024133361,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05614,
-        "base_invalid": 0.05452180024133361,
-        "atr": 0.00032133172444261213,
-        "rvol": 2.0775145946074365,
-        "close_position": 0.9047619047619063,
-        "breakout": true,
-        "bar_close_ms": 1793478600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4820169889752322,
-        "score": 3.982276499369343
-      },
-      "context": {
-        "atr": 0.0006388864835020312,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.219306387710184,
-        "btc_hour_pct": 0.04971574443533022,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LAUSDT",
-          "change_pct": -3.853192667038141,
-          "old_ms": 1793497172177,
-          "current_ms": 1793500780120,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793478600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c2d772a82403c821e7af0c00",
-      "asset_id": "4239e6ad47e2dbe9b8dd7cd5",
-      "key": "OKX:PERP:ARXUSDT",
-      "symbol": "ARXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793500784436,
-      "price": 0.21515,
-      "level": 0.2173,
-      "invalid": 0.2157903010283801,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2173,
-        "base_invalid": 0.2157903010283801,
-        "atr": 0.0007313264774660401,
-        "rvol": 2.0059184722525405,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793497500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.27700831024930483,
-        "score": 3.5059184722525405
-      },
-      "context": {
-        "atr": 0.0008759834038842408,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6876722950036385,
-        "btc_hour_pct": 0.05204106606895298,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ARXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793497500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9033ecaadee83e868371dd9d",
-      "asset_id": "3e0359aa995fba52ac57cf8f",
-      "key": "OKX:SPOT:AAVEUSDT",
-      "symbol": "AAVEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793500782726,
-      "price": 136.305,
-      "level": 135.73,
-      "invalid": 133.48225681245592,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 135.73,
-        "base_invalid": 133.48225681245592,
-        "atr": 0.7182879169606536,
-        "rvol": 8.686893086840122,
-        "close_position": 0.9805194805194797,
-        "breakout": true,
-        "bar_close_ms": 1793500200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7437961099932897,
-        "score": 7.9805194805194795
-      },
-      "context": {
-        "atr": 0.7182879169606536,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.442117904858641,
-        "btc_hour_pct": 0.06568584392785404,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AAVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793500200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e4523afafb97b2772344c060",
-      "asset_id": "8d1a8c1642d782d24c8e55c0",
-      "key": "OKX:PERP:AAVEUSDT",
-      "symbol": "AAVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793500784436,
-      "price": 136.235,
-      "level": 135.7,
-      "invalid": 133.4500337740269,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 135.7,
-        "base_invalid": 133.4500337740269,
-        "atr": 0.7331081731540038,
-        "rvol": 3.900101327178788,
-        "close_position": 0.961290322580644,
-        "breakout": true,
-        "bar_close_ms": 1793500200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7070443533358182,
-        "score": 5.861391649759431
-      },
-      "context": {
-        "atr": 0.7331081731540038,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5084970505229824,
-        "btc_hour_pct": 0.05204106606895298,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AAVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793500200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8701cd3aa38891bc727857df",
-      "asset_id": "4a6a2cb630e9a5a8771e2172",
-      "key": "OKX:PERP:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793500784436,
-      "price": 1.1316,
-      "level": 1.1072,
-      "invalid": 1.0441561861462325,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.1072,
-        "base_invalid": 1.0441561861462325,
-        "atr": 0.018292092358449443,
-        "rvol": 3.1493798423932713,
-        "close_position": 0.6464968152866264,
-        "breakout": true,
-        "bar_close_ms": 1793500200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.618417347226145,
-        "score": 4.795876657679898
-      },
-      "context": {
-        "atr": 0.018292092358449443,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.9108833640833174,
-        "btc_hour_pct": 0.05204106606895298,
-        "trend4h_support": null,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793500200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1524939,6 +1524682,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793500496434
+    },
+    {
+      "id": "cdc0c5e20dfa8602027f0e2a",
+      "asset_id": "40b292ffa99733090b6efa72",
+      "key": "MEXC:PERP:LAUSDT",
+      "symbol": "LAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793500781912,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793500794186
+    },
+    {
+      "id": "c2d772a82403c821e7af0c00",
+      "asset_id": "4239e6ad47e2dbe9b8dd7cd5",
+      "key": "OKX:PERP:ARXUSDT",
+      "symbol": "ARXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793500784436,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793500794187
+    },
+    {
+      "id": "9033ecaadee83e868371dd9d",
+      "asset_id": "3e0359aa995fba52ac57cf8f",
+      "key": "OKX:SPOT:AAVEUSDT",
+      "symbol": "AAVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793500782726,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793500794187
+    },
+    {
+      "id": "e4523afafb97b2772344c060",
+      "asset_id": "8d1a8c1642d782d24c8e55c0",
+      "key": "OKX:PERP:AAVEUSDT",
+      "symbol": "AAVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793500784436,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793500794187
+    },
+    {
+      "id": "8701cd3aa38891bc727857df",
+      "asset_id": "4a6a2cb630e9a5a8771e2172",
+      "key": "OKX:PERP:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793500784436,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793500794187
     }
   ],
   "runs": [
@@ -1567878,7 +1567676,8 @@
         "entry_seq": 0,
         "cohort": "AAVEUSDT",
         "observation_lag_ms": 582726,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11461
       },
       "8d1a8c1642d782d24c8e55c0:radar": {
         "symbol": "AAVEUSDT",
@@ -1567900,7 +1567699,8 @@
         "entry_seq": 0,
         "cohort": "AAVEUSDT",
         "observation_lag_ms": 584436,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9751
       },
       "4a6a2cb630e9a5a8771e2172:radar": {
         "symbol": "BTWUSDT",
@@ -1567922,7 +1567722,8 @@
         "entry_seq": 0,
         "cohort": "BTWUSDT",
         "observation_lag_ms": 584436,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9751
       }
     },
     "errors": [],
@@ -1593789,8 +1593590,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "bb3b3bffae3b1231a8637012b71a1c57f96db5bd",
-    "previous_success_ms": 1793500514309,
+    "previous_commit": "bdefdceb00010bc8a24cf554d797cca68968bf52",
+    "previous_success_ms": 1793500793335,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
