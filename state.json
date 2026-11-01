@@ -1230734,7 +1230734,9 @@
           "selected_for_candles": null,
           "fresh_candidate_quotes": null
         }
-      }
+      },
+      "finished_ms": 1793577453924,
+      "duration_ms": 26271
     }
   ],
   "radar_admissions": [
@@ -1270863,14 +1270865,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793577145020,
+            "endpoint_ms": 1793577180000,
+            "endpoint_price": 0.5095,
+            "return_pct": -0.5562603688884615,
+            "btc_excess_pct_points": -1.1941198033544764,
+            "mae_pct": -0.868546891773192,
+            "mfe_pct": 0.5757782765687613,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 34980,
+            "measured_ms": 1793577453362,
+            "cost_scenarios_pct": {
+              "0.2": -0.7562603688884615,
+              "0.5": -1.0562603688884615,
+              "1": -1.5562603688884615
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793573100000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "PROSUSDT",
         "observation_lag_ms": 445020,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9822
+        "notification_lag_ms": 9822,
+        "last_measure_attempt_ms": 1793577453362
       },
       "b7f7bd5e9851423d226f6a66:radar": {
         "symbol": "CPUSDT",
@@ -1271080,19 +1271106,19 @@
     },
     "errors": [],
     "queue": {
-      "due": 160,
-      "attempted": 2,
-      "observed_ms": 1793577154614,
-      "unique_reads": 5
+      "due": 159,
+      "attempted": 1,
+      "observed_ms": 1793577453362,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "market_event_references": 419,
+        "market_event_references": 420,
         "unique_symbol_labels": 238,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 125,
+            "event_references": 126,
             "first_per_symbol": 114,
             "hours": {
               "1": {
@@ -1271162,8 +1271188,8 @@
             "first_per_symbol": 97,
             "hours": {
               "1": {
-                "known_first_symbols": 94,
-                "median_reference_return_pct": -0.2885276844042328
+                "known_first_symbols": 95,
+                "median_reference_return_pct": -0.33813845880049653
               },
               "4": {
                 "known_first_symbols": 68,
@@ -1286309,7 +1286335,7 @@
       "queue": {
         "due": 0,
         "attempted": 0,
-        "observed_ms": 1793576555895,
+        "observed_ms": 1793577453924,
         "unique_reads": 0
       },
       "summary": {
@@ -1297107,8 +1297133,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "964f79b3dc4539558d7a1db03a05ec77db7dd366",
-    "previous_success_ms": 1793577446325,
+    "previous_commit": "8740d7767d426f54f9d00dc1ceb9426b0964bd81",
+    "previous_success_ms": 1793577453334,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
