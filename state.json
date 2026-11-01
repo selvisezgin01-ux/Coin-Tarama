@@ -1597133,58 +1597133,7 @@
       "source_close_ms": 1793556900000
     }
   },
-  "pending": [
-    {
-      "id": "2e88258db09a71fcdf4e5302",
-      "asset_id": "47375fc0359ce22a4b106554",
-      "key": "MEXC:SPOT:DEFIUSDT",
-      "symbol": "DEFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793557285729,
-      "price": 0.00010835,
-      "level": 0.000108,
-      "invalid": 0.00010594948060218294,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000108,
-        "base_invalid": 0.00010594948060218294,
-        "atr": 1.0034626521137655e-06,
-        "rvol": 5.850905390606638,
-        "close_position": 0.6666666666666817,
-        "breakout": true,
-        "bar_close_ms": 1793556900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3707136237256714,
-        "score": 7.51757205727332
-      },
-      "context": {
-        "atr": 1.0034626521137655e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5028841436411358,
-        "btc_hour_pct": -0.2240737347192101,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DEFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793556900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DEFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1604863,6 +1604812,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793557000242
+    },
+    {
+      "id": "2e88258db09a71fcdf4e5302",
+      "asset_id": "47375fc0359ce22a4b106554",
+      "key": "MEXC:SPOT:DEFIUSDT",
+      "symbol": "DEFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793557285729,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793557296801
     }
   ],
   "runs": [
@@ -1668310,7 +1668270,8 @@
         "entry_seq": 0,
         "cohort": "DEFIUSDT",
         "observation_lag_ms": 385729,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11072
       }
     },
     "errors": [],
@@ -1694334,8 +1694295,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d74eafea6510a95b1f884646f1f517346c998d1b",
-    "previous_success_ms": 1793557025486,
+    "previous_commit": "6c150e597418e3d9e373bf75dd12fb53c7699708",
+    "previous_success_ms": 1793557295697,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
