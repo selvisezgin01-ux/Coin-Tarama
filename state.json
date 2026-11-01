@@ -1633507,7 +1633507,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793553856194,
+      "duration_ms": 29881
     }
   ],
   "radar_admissions": [
@@ -1668752,14 +1668754,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793553540136,
+            "endpoint_ms": 1793553600000,
+            "endpoint_price": 0.02432,
+            "return_pct": -4.063116370808673,
+            "btc_excess_pct_points": -4.142153464397436,
+            "mae_pct": -5.285996055226827,
+            "mfe_pct": 1.8145956607495073,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 59864,
+            "measured_ms": 1793553854964,
+            "cost_scenarios_pct": {
+              "0.2": -4.263116370808673,
+              "0.5": -4.563116370808673,
+              "1": -5.063116370808673
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793549700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "AEONUSDT",
         "observation_lag_ms": 240136,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 10161
+        "notification_lag_ms": 10161,
+        "last_measure_attempt_ms": 1793553854964
       },
       "42efa1d169dc1b1001f97c18:radar": {
         "symbol": "LYNUSDT",
@@ -1668775,14 +1668801,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793553539507,
+            "endpoint_ms": 1793553540000,
+            "endpoint_price": 0.01763,
+            "return_pct": 12.904258725584361,
+            "btc_excess_pct_points": 12.860616041886153,
+            "mae_pct": -0.7364713416586621,
+            "mfe_pct": 15.14569324367594,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 493,
+            "measured_ms": 1793553854964,
+            "cost_scenarios_pct": {
+              "0.2": 12.704258725584362,
+              "0.5": 12.404258725584361,
+              "1": 11.904258725584361
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793549700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "LYNUSDT",
         "observation_lag_ms": 239507,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 10790
+        "notification_lag_ms": 10790,
+        "last_measure_attempt_ms": 1793553854964
       },
       "6a7eff4bc3ffa83569cdcbfa:radar": {
         "symbol": "GRVTUSDT",
@@ -1668992,10 +1669042,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 159,
-      "attempted": 1,
-      "observed_ms": 1793553559391,
-      "unique_reads": 2
+      "due": 161,
+      "attempted": 2,
+      "observed_ms": 1793553854964,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1669052,8 +1669102,8 @@
             "first_per_symbol": 78,
             "hours": {
               "1": {
-                "known_first_symbols": 74,
-                "median_reference_return_pct": -0.20476707979454334
+                "known_first_symbols": 75,
+                "median_reference_return_pct": -0.19928258270227595
               },
               "4": {
                 "known_first_symbols": 56,
@@ -1695010,8 +1695060,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8e571c3ac258dba2e34e79c5a94eea9e7e6b4423",
-    "previous_success_ms": 1793553846496,
+    "previous_commit": "c6fd91edbf8d357bcc084f592b828e2d4d79e8de",
+    "previous_success_ms": 1793553854926,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
