@@ -1234301,58 +1234301,7 @@
       "source_close_ms": 1793564100000
     }
   },
-  "pending": [
-    {
-      "id": "0e54bcafd0f2f5e614c58191",
-      "asset_id": "6d2ceb68388511903a04695b",
-      "key": "MEXC:SPOT:UNIUSDT",
-      "symbol": "UNIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793566730057,
-      "price": 7.1665,
-      "level": 7.148,
-      "invalid": 7.057398542331182,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.148,
-        "base_invalid": 7.057398542331182,
-        "atr": 0.037343051125452234,
-        "rvol": 14.63646111687914,
-        "close_position": 0.6388888888888964,
-        "breakout": true,
-        "bar_close_ms": 1793565900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7179054054054168,
-        "score": 7.638888888888896
-      },
-      "context": {
-        "atr": 0.037343051125452234,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.19011989024816378,
-        "btc_hour_pct": -0.10569608273444109,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:UNIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793565900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UNIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1242350,6 +1242299,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793566441100
+    },
+    {
+      "id": "0e54bcafd0f2f5e614c58191",
+      "asset_id": "6d2ceb68388511903a04695b",
+      "key": "MEXC:SPOT:UNIUSDT",
+      "symbol": "UNIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793566730057,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793566742220
     }
   ],
   "runs": [
@@ -1308984,7 +1308944,8 @@
         "entry_seq": 0,
         "cohort": "UNIUSDT",
         "observation_lag_ms": 830057,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12163
       }
     },
     "errors": [],
@@ -1335012,8 +1334973,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "43a9adc7266d948c4098c4d3eb5ff674536a1365",
-    "previous_success_ms": 1793566457320,
+    "previous_commit": "9f586e93f6dd1986ecc1bc74c1d61d4308bd2136",
+    "previous_success_ms": 1793566740686,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
