@@ -1537017,64 +1537017,7 @@
       "source_close_ms": 1793510100000
     }
   },
-  "pending": [
-    {
-      "id": "9cfa5c86486dd08e7f6cf489",
-      "asset_id": "429cc81c8fa07990ad9f6adb",
-      "key": "MEXC:PERP:RAYUSDT",
-      "symbol": "RAYUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793510368559,
-      "price": 1.63435,
-      "level": 1.6351,
-      "invalid": 1.6216245374794462,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.6351,
-        "base_invalid": 1.6216245374794462,
-        "atr": 0.005836416803691644,
-        "rvol": 11.384227950355884,
-        "close_position": 0.8148148148148301,
-        "breakout": true,
-        "bar_close_ms": 1793507400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.33721643163704407,
-        "score": 7.81481481481483
-      },
-      "context": {
-        "atr": 0.005438756360517681,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.38313897553925447,
-        "btc_hour_pct": 0.021992692252781332,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RAYUSDT",
-          "change_pct": 2.8697591253706856,
-          "old_ms": 1793506885317,
-          "current_ms": 1793510367266,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793507400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RAYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1542982,6 +1542925,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793509778995
+    },
+    {
+      "id": "9cfa5c86486dd08e7f6cf489",
+      "asset_id": "429cc81c8fa07990ad9f6adb",
+      "key": "MEXC:PERP:RAYUSDT",
+      "symbol": "RAYUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793510368559,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793510380863
     }
   ],
   "runs": [
@@ -1615452,8 +1615406,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3dab063556db9fae1b8edacfd96be6c82f6248c1",
-    "previous_success_ms": 1793510095122,
+    "previous_commit": "b7b1abc1d6698f337de43b1ffffbfbeca5b89217",
+    "previous_success_ms": 1793510379563,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
