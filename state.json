@@ -449,50 +449,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "18912a3d399a5323e6641455",
-      "created_ms": 1793537518483,
-      "candidates": [
-        {
-          "exchange": "OKX",
-          "symbol": "WINUSDT",
-          "observed_ms": 1793537411768,
-          "feature_cutoff_ms": 1793534400000,
-          "mid_price": 6.998e-05,
-          "spread_pct": 0.6573306659045329,
-          "return24_pct": 9.22790119620942,
-          "relative24_pct_points": 8.727076156246548,
-          "quote_volume24": 219182.82543635,
-          "liquidity_band": "main",
-          "breakout_level": 6.84e-05,
-          "breakout_open_ms": 1793491200000.0,
-          "breakout_volume_ratio": 5.0504037188458595,
-          "strength_score": 100,
-          "breakout_age_bars": 2.0,
-          "invalidation_level": 6.674691436465645e-05,
-          "atr": 2.0523425413742394e-06,
-          "close": 7.031e-05,
-          "paper_controls": [
-            {
-              "symbol": "ZBCNUSDT",
-              "entry_price": 0.0020302999999999996
-            },
-            {
-              "symbol": "BOMEUSDT",
-              "entry_price": 0.0006147500000000001
-            },
-            {
-              "symbol": "BIOUSDT",
-              "entry_price": 0.023305
-            }
-          ],
-          "paper_btc_price": 77880.65,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793537518483,
   "paper": {
     "version": "github-paper-v1",
