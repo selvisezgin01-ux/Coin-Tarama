@@ -1326085,160 +1326085,7 @@
       "source_close_ms": 1793573100000
     }
   },
-  "pending": [
-    {
-      "id": "c396719bd34be0e26ab3b890",
-      "asset_id": "ea1ebe4b28ad64ffa195c0f4",
-      "key": "OKX:SPOT:BASEDUSDT",
-      "symbol": "BASEDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793573543406,
-      "price": 0.052975,
-      "level": 0.05165,
-      "invalid": 0.05116282240497862,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05165,
-        "base_invalid": 0.05116282240497862,
-        "atr": 0.00024785063347590664,
-        "rvol": 28.311922198615857,
-        "close_position": 0.8269230769230772,
-        "breakout": true,
-        "bar_close_ms": 1793551500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5408621025940983,
-        "score": 7.8269230769230775
-      },
-      "context": {
-        "atr": 0.0004768619569227829,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5226793624177106,
-        "btc_hour_pct": -0.018100778975360665,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BASEDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793551500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BASEDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "66747bc68ce2a7089776a192",
-      "asset_id": "306f4c6e578e2cb27d8490b2",
-      "key": "OKX:PERP:BASEDUSDT",
-      "symbol": "BASEDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793573545020,
-      "price": 0.052985000000000004,
-      "level": 0.05168,
-      "invalid": 0.05107722197515741,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05168,
-        "base_invalid": 0.05107722197515741,
-        "atr": 0.00028518683228389224,
-        "rvol": 8.21321616370874,
-        "close_position": 0.7706422018348623,
-        "breakout": true,
-        "bar_close_ms": 1793551500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3653208503998426,
-        "score": 7.770642201834862
-      },
-      "context": {
-        "atr": 0.0004968048838468861,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.616251633016629,
-        "btc_hour_pct": -0.01733716548902864,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BASEDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793551500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BASEDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2c653d8ff0a30cebd9ed8ead",
-      "asset_id": "2371301c6021c83dd7268d76",
-      "key": "OKX:PERP:PROSUSDT",
-      "symbol": "PROSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793573545020,
-      "price": 0.51235,
-      "level": 0.5095,
-      "invalid": 0.5006978996458883,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5095,
-        "base_invalid": 0.5006978996458883,
-        "atr": 0.002680669027411469,
-        "rvol": 5.3311141619896825,
-        "close_position": 0.8378378378378273,
-        "breakout": true,
-        "bar_close_ms": 1793573100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8285657920694467,
-        "score": 7.1689519998275095
-      },
-      "context": {
-        "atr": 0.002680669027411469,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.05680046462083199,
-        "btc_hour_pct": -0.01733716548902864,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PROSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793573100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1334500,6 +1334347,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793572954110
+    },
+    {
+      "id": "c396719bd34be0e26ab3b890",
+      "asset_id": "ea1ebe4b28ad64ffa195c0f4",
+      "key": "OKX:SPOT:BASEDUSDT",
+      "symbol": "BASEDUSDT",
+      "phase": "expired",
+      "observed_ms": 1793573543406,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793573554841
+    },
+    {
+      "id": "66747bc68ce2a7089776a192",
+      "asset_id": "306f4c6e578e2cb27d8490b2",
+      "key": "OKX:PERP:BASEDUSDT",
+      "symbol": "BASEDUSDT",
+      "phase": "expired",
+      "observed_ms": 1793573545020,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793573554842
+    },
+    {
+      "id": "2c653d8ff0a30cebd9ed8ead",
+      "asset_id": "2371301c6021c83dd7268d76",
+      "key": "OKX:PERP:PROSUSDT",
+      "symbol": "PROSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793573545020,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793573554842
     }
   ],
   "runs": [
@@ -1403528,7 +1403408,8 @@
         "entry_seq": 0,
         "cohort": "PROSUSDT",
         "observation_lag_ms": 445020,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9822
       }
     },
     "errors": [],
@@ -1429551,8 +1429432,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "40d87db4ac67526719075c13ab05ef2be912b95b",
-    "previous_success_ms": 1793573275587,
+    "previous_commit": "4ba48700c7bff53205e3a015f6e8bcf4cc1a13a9",
+    "previous_success_ms": 1793573553876,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
