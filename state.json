@@ -447,50 +447,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "e7c2d0c5f947ec6c2575a27c",
-      "created_ms": 1793523213237,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "NIGHTUSDT",
-          "observed_ms": 1793523213128,
-          "feature_cutoff_ms": 1793520000000,
-          "mid_price": 0.041565000000000005,
-          "spread_pct": 0.02405870323590295,
-          "return24_pct": 6.044511886697035,
-          "relative24_pct_points": 5.259162090925229,
-          "quote_volume24": 121046.37357000001,
-          "liquidity_band": "main",
-          "breakout_level": 0.04186,
-          "breakout_open_ms": 1793505600000.0,
-          "breakout_volume_ratio": 1.3612037894433406,
-          "strength_score": 80,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 0.04012943308472848,
-          "atr": 0.0012422676610860525,
-          "close": 0.04193,
-          "paper_controls": [
-            {
-              "symbol": "FARTCOINUSDT",
-              "entry_price": 0.121805
-            },
-            {
-              "symbol": "ARBUSDT",
-              "entry_price": 0.164655
-            },
-            {
-              "symbol": "MERLUSDT",
-              "entry_price": 0.030315
-            }
-          ],
-          "paper_btc_price": 78151.315,
-          "arrival": "reentry"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793523213237,
   "paper": {
     "version": "github-paper-v1",
