@@ -1512856,230 +1512856,7 @@
       "source_close_ms": 1793492100000
     }
   },
-  "pending": [
-    {
-      "id": "9dc569858e4db009a3807b0d",
-      "asset_id": "7197765fd6abc160012a8e5b",
-      "key": "MEXC:SPOT:AIOTUSDT",
-      "symbol": "AIOTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793492249055,
-      "price": 0.0861435,
-      "level": 0.086454,
-      "invalid": 0.08623261939942285,
-      "target": 0.09090254870115429,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.086454,
-        "base_invalid": 0.08371861939942285,
-        "atr": 0.001542537337180965,
-        "rvol": 3.42037467492953,
-        "close_position": 0.6710182767624044,
-        "breakout": true,
-        "bar_close_ms": 1793481300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8330751537342316,
-        "score": 5.091392951691934
-      },
-      "context": {
-        "atr": 0.0014154522920592782,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6816289242650431,
-        "btc_hour_pct": 0.019185844124236517,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AIOTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.08623261939942285,
-        "target": 0.09090254870115429,
-        "risk_pct": 1.2820246708189775,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.091855,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.087218,
-        "entry_zone_high": 0.08792926809142881
-      },
-      "reason": "giriş geçersizliği kaybedildi",
-      "source_close_ms": 1793484000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "AIOTUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793487600000,
-        "closed_price": 0.087755,
-        "ema20_1h": 0.08307816918331701,
-        "atr14_1h": 0.0031188565438523275,
-        "structure_floor": 0.08623261939942285,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "8ff6bd8abe7c81cd07723477",
-      "asset_id": "87b93ec81277abd893d1d0f3",
-      "key": "OKX:SPOT:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793492247374,
-      "price": 0.02259,
-      "level": 0.02318,
-      "invalid": 0.022638895728668906,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02318,
-        "base_invalid": 0.022638895728668906,
-        "atr": 0.00020736180887395602,
-        "rvol": 2.7185990286629327,
-        "close_position": 0.8461538461538524,
-        "breakout": false,
-        "bar_close_ms": 1793485800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3935286401399285,
-        "score": 4.064752874816785
-      },
-      "context": {
-        "atr": 0.00025158834619771944,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2853470164869707,
-        "btc_hour_pct": 0.024124829868332753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793485800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6f27520ceb995c2776e9083d",
-      "asset_id": "bef2eee5f2c25d631ba4b5f0",
-      "key": "MEXC:SPOT:WETUSDT",
-      "symbol": "WETUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793492249055,
-      "price": 0.060725,
-      "level": 0.05883,
-      "invalid": 0.05769998795380526,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05883,
-        "base_invalid": 0.05769998795380526,
-        "atr": 0.0006667469746315954,
-        "rvol": 4.6101240942678166,
-        "close_position": 0.7558139534883699,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7823479005998344,
-        "score": 6.365938047756186
-      },
-      "context": {
-        "atr": 0.0007914676782498187,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.0191834604321057,
-        "btc_hour_pct": 0.019185844124236517,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WETUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2cb42230dd556df2ec19b9e3",
-      "asset_id": "09e7f079948d0ddd4440fbb7",
-      "key": "OKX:PERP:MOVEUSDT",
-      "symbol": "MOVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793492249073,
-      "price": 0.006339,
-      "level": 0.006326,
-      "invalid": 0.006252598207730699,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006326,
-        "base_invalid": 0.006252598207730699,
-        "atr": 2.2678615128674013e-05,
-        "rvol": 17.124957757176823,
-        "close_position": 0.7647058823529431,
-        "breakout": true,
-        "bar_close_ms": 1793492100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0368479821343035,
-        "score": 7.764705882352943
-      },
-      "context": {
-        "atr": 2.2678615128674013e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.49826430840100855,
-        "btc_hour_pct": 0.028387463064039054,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MOVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793492100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1518184,6 +1517961,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793491953623
+    },
+    {
+      "id": "9dc569858e4db009a3807b0d",
+      "asset_id": "7197765fd6abc160012a8e5b",
+      "key": "MEXC:SPOT:AIOTUSDT",
+      "symbol": "AIOTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793492249055,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793492259546
+    },
+    {
+      "id": "8ff6bd8abe7c81cd07723477",
+      "asset_id": "87b93ec81277abd893d1d0f3",
+      "key": "OKX:SPOT:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793492247374,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793492259546
+    },
+    {
+      "id": "6f27520ceb995c2776e9083d",
+      "asset_id": "bef2eee5f2c25d631ba4b5f0",
+      "key": "MEXC:SPOT:WETUSDT",
+      "symbol": "WETUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793492249055,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793492259546
+    },
+    {
+      "id": "2cb42230dd556df2ec19b9e3",
+      "asset_id": "09e7f079948d0ddd4440fbb7",
+      "key": "OKX:PERP:MOVEUSDT",
+      "symbol": "MOVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793492249073,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793492259546
     }
   ],
   "runs": [
@@ -1558106,7 +1557927,8 @@
         "entry_seq": 0,
         "cohort": "MOVEUSDT",
         "observation_lag_ms": 149073,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10473
       },
       "d675762dc9805459d2807396:radar": {
         "symbol": "WETUSDT",
@@ -1583775,8 +1583597,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "02e46379eaa7548515817fe2b5529530d369abbe",
-    "previous_success_ms": 1793491979192,
+    "previous_commit": "05a545a080b4ccdd1f9340b56d4b865a5c990caa",
+    "previous_success_ms": 1793492258356,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
