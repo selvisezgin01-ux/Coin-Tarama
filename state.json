@@ -1367601,112 +1367601,7 @@
       "source_close_ms": 1793575800000
     }
   },
-  "pending": [
-    {
-      "id": "eedf17fbad830dc7d39a9079",
-      "asset_id": "ad397afccb9244369690b7fe",
-      "key": "OKX:SPOT:SUIUSDT",
-      "symbol": "SUIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793575941785,
-      "price": 0.89825,
-      "level": 0.8995,
-      "invalid": 0.8855118445043946,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.8995,
-        "base_invalid": 0.8855118445043946,
-        "atr": 0.0032543699707029508,
-        "rvol": 11.3751378234325,
-        "close_position": 0.81818181818182,
-        "breakout": false,
-        "bar_close_ms": 1793565900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5723905723905798,
-        "score": 7.31818181818182
-      },
-      "context": {
-        "atr": 0.0038438317788671568,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.46780784764762773,
-        "btc_hour_pct": -0.07857930667887203,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SUIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793565900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "87916f5134ac280b0c808e8e",
-      "asset_id": "2371301c6021c83dd7268d76",
-      "key": "OKX:PERP:PROSUSDT",
-      "symbol": "PROSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793575941440,
-      "price": 0.5098499999999999,
-      "level": 0.5095,
-      "invalid": 0.5006978996458883,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5095,
-        "base_invalid": 0.5006978996458883,
-        "atr": 0.002680669027411469,
-        "rvol": 5.3311141619896825,
-        "close_position": 0.8378378378378273,
-        "breakout": true,
-        "bar_close_ms": 1793573100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8285657920694467,
-        "score": 7.1689519998275095
-      },
-      "context": {
-        "atr": 0.003068636359345157,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2300428512392547,
-        "btc_hour_pct": -0.08605863033194217,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PROSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793573100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1376067,6 +1375962,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793575360726
+    },
+    {
+      "id": "eedf17fbad830dc7d39a9079",
+      "asset_id": "ad397afccb9244369690b7fe",
+      "key": "OKX:SPOT:SUIUSDT",
+      "symbol": "SUIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793575941785,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793575950315
+    },
+    {
+      "id": "87916f5134ac280b0c808e8e",
+      "asset_id": "2371301c6021c83dd7268d76",
+      "key": "OKX:PERP:PROSUSDT",
+      "symbol": "PROSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793575941440,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793575950316
     }
   ],
   "runs": [
@@ -1472079,8 +1471996,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6436556ad0c4d077f44ed7a11af27f356d2d6de7",
-    "previous_success_ms": 1793575927627,
+    "previous_commit": "b7e2e0151effad74b3803d630ce8b72984801840",
+    "previous_success_ms": 1793575949096,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
