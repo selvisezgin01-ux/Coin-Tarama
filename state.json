@@ -1588010,7 +1588010,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793521576515,
+      "duration_ms": 28892
     }
   ],
   "radar_admissions": [
@@ -1610790,7 +1610792,7 @@
         "observation_lag_ms": 735326,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 9978,
-        "last_measure_attempt_ms": 1793466749755
+        "last_measure_attempt_ms": 1793521574822
       },
       "9f8f58e24af04b311eda70c5:radar": {
         "symbol": "ETHFIUSDT",
@@ -1616393,14 +1616395,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793521258294,
+            "endpoint_ms": 1793521260000,
+            "endpoint_price": 0.005665,
+            "return_pct": -6.61831368993655,
+            "btc_excess_pct_points": -6.735304566087841,
+            "mae_pct": -7.327124371548677,
+            "mfe_pct": 4.0468144729250755,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 1706,
+            "measured_ms": 1793521574822,
+            "cost_scenarios_pct": {
+              "0.2": -6.81831368993655,
+              "0.5": -7.11831368993655,
+              "1": -7.61831368993655
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793517300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "BEAMXUSDT",
         "observation_lag_ms": 358294,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8805
+        "notification_lag_ms": 8805,
+        "last_measure_attempt_ms": 1793521574822
       },
       "6abebc48eb00cedb18f36800:triggered:1": {
         "symbol": "1INCHUSDT",
@@ -1616609,21 +1616635,27 @@
         "notification_lag_ms": 13472
       }
     },
-    "errors": [],
+    "errors": [
+      {
+        "key": "MEXC:PERP:ETHFIUSDT",
+        "phase": "radar",
+        "error": "MEXC PERP public connection/response error"
+      }
+    ],
     "queue": {
-      "due": 145,
-      "attempted": 1,
-      "observed_ms": 1793521274234,
+      "due": 144,
+      "attempted": 2,
+      "observed_ms": 1793521574822,
       "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "market_event_references": 324,
+        "market_event_references": 325,
         "unique_symbol_labels": 193,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 106,
+            "event_references": 107,
             "first_per_symbol": 101,
             "hours": {
               "1": {
@@ -1616649,8 +1616681,8 @@
             "first_per_symbol": 69,
             "hours": {
               "1": {
-                "known_first_symbols": 67,
-                "median_reference_return_pct": 0.014327247559431378
+                "known_first_symbols": 68,
+                "median_reference_return_pct": 0.0011503946756918904
               },
               "4": {
                 "known_first_symbols": 38,
@@ -1642636,8 +1642668,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "068eef61d6b6352e138c93d671800dfc996150de",
-    "previous_success_ms": 1793521566714,
+    "previous_commit": "5cff77db5b11df2a480f4bcab67bcf1d2bd762c8",
+    "previous_success_ms": 1793521574788,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
