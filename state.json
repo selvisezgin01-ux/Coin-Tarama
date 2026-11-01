@@ -1593025,60 +1593025,7 @@
       "source_close_ms": 1793556000000
     }
   },
-  "pending": [
-    {
-      "id": "face971b6b0607cd540e77b6",
-      "asset_id": "a03fb3e5d0881a211db26f8b",
-      "key": "MEXC:SPOT:BDXUSDT",
-      "symbol": "BDXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793556385646,
-      "price": 0.071245,
-      "level": 0.07222,
-      "invalid": 0.07141934232892061,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07222,
-        "base_invalid": 0.07141934232892061,
-        "atr": 0.0003377178071960034,
-        "rvol": 3.7076895482127252,
-        "close_position": 0.6000000000000062,
-        "breakout": false,
-        "bar_close_ms": 1793553300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2224384818573677,
-        "score": 4.807689548212731
-      },
-      "context": {
-        "atr": 0.0003432250892030924,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.17892793287389575,
-        "btc_hour_pct": -0.2240737347192101,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BDXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793553300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BDXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1600724,6 +1600671,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793556102961
+    },
+    {
+      "id": "face971b6b0607cd540e77b6",
+      "asset_id": "a03fb3e5d0881a211db26f8b",
+      "key": "MEXC:SPOT:BDXUSDT",
+      "symbol": "BDXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793556385646,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793556395690
     }
   ],
   "runs": [
@@ -1689849,8 +1689807,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "42b227d01315ffdee552436ed6b6af4d1919ff89",
-    "previous_success_ms": 1793556121496,
+    "previous_commit": "4aea2f1f0ee95683495c9b0fa4a3acd2f786e7f7",
+    "previous_success_ms": 1793556394555,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
