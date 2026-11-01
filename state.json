@@ -1599746,7 +1599746,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793525384818,
+      "duration_ms": 28423
     }
   ],
   "radar_admissions": [
@@ -1615717,6 +1615719,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793514049903,
+            "endpoint_ms": 1793514060000,
+            "endpoint_price": 0.45471,
+            "return_pct": 16.17526826775677,
+            "btc_excess_pct_points": 15.304942023261447,
+            "mae_pct": -0.01788451711802752,
+            "mfe_pct": 19.701073071027086,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 10097,
+            "measured_ms": 1793525383748,
+            "cost_scenarios_pct": {
+              "0.2": 15.975268267756771,
+              "0.5": 15.67526826775677,
+              "1": 15.17526826775677
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793427300000,
@@ -1615726,7 +1615750,7 @@
         "observation_lag_ms": 349903,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 8636,
-        "last_measure_attempt_ms": 1793471103038
+        "last_measure_attempt_ms": 1793525383748
       },
       "87f82c899b37f9174c9586b3:radar": {
         "symbol": "MAGMAUSDT",
@@ -1629019,14 +1629043,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793525154372,
+            "endpoint_ms": 1793525160000,
+            "endpoint_price": 0.07652,
+            "return_pct": 1.5460155265078601,
+            "btc_excess_pct_points": 1.4269003272929792,
+            "mae_pct": -0.09952889655631125,
+            "mfe_pct": 1.599097604671229,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 5628,
+            "measured_ms": 1793525383748,
+            "cost_scenarios_pct": {
+              "0.2": 1.3460155265078602,
+              "0.5": 1.0460155265078601,
+              "1": 0.5460155265078601
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793520900000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "CELOUSDT",
         "observation_lag_ms": 654372,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13472
+        "notification_lag_ms": 13472,
+        "last_measure_attempt_ms": 1793525383748
       },
       "d69835c0519584a9d0349685:radar": {
         "symbol": "APRUSDT",
@@ -1629193,9 +1629241,9 @@
     "errors": [],
     "queue": {
       "due": 148,
-      "attempted": 1,
-      "observed_ms": 1793525085362,
-      "unique_reads": 2
+      "attempted": 2,
+      "observed_ms": 1793525383748,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1629264,8 +1629312,8 @@
                 "median_reference_return_pct": -1.2184115523465655
               },
               "24": {
-                "known_first_symbols": 25,
-                "median_reference_return_pct": -0.37565740045079066
+                "known_first_symbols": 26,
+                "median_reference_return_pct": -0.36282074604148673
               }
             }
           },
@@ -1655210,8 +1655258,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1989b50d3fb46eb4e3002f5d9bf940406140bb08",
-    "previous_success_ms": 1793525374117,
+    "previous_commit": "c4524706c4d421c71d2d200474dfbb1829a84006",
+    "previous_success_ms": 1793525383701,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
