@@ -445,50 +445,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "9a6347b2e7fde535da547173",
-      "created_ms": 1793495148754,
-      "candidates": [
-        {
-          "exchange": "OKX",
-          "symbol": "ZROUSDT",
-          "observed_ms": 1793495046775,
-          "feature_cutoff_ms": 1793491200000,
-          "mid_price": 1.8460999999999999,
-          "spread_pct": 0.05416824657386447,
-          "return24_pct": 8.445926185880559,
-          "relative24_pct_points": 8.153452500104152,
-          "quote_volume24": 10639768.1190027,
-          "liquidity_band": "main",
-          "breakout_level": 1.8177,
-          "breakout_open_ms": 1793476800000.0,
-          "breakout_volume_ratio": 2.827738322966034,
-          "strength_score": 75,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 1.68687795456599,
-          "atr": 0.08528818173603955,
-          "close": 1.8541,
-          "paper_controls": [
-            {
-              "symbol": "LITUSDT",
-              "entry_price": 3.1394
-            },
-            {
-              "symbol": "STXUSDT",
-              "entry_price": 0.32289999999999996
-            },
-            {
-              "symbol": "ZAMAUSDT",
-              "entry_price": 0.069655
-            }
-          ],
-          "paper_btc_price": 77671.55,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793495148754,
   "paper": {
     "version": "github-paper-v1",
