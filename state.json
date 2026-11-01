@@ -1599603,62 +1599603,7 @@
       "source_close_ms": 1793548800000
     }
   },
-  "pending": [
-    {
-      "id": "ffa20bc74bcfae5ad3084fba",
-      "asset_id": "6a7eff4bc3ffa83569cdcbfa",
-      "key": "MEXC:PERP:GRVTUSDT",
-      "symbol": "GRVTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793551138196,
-      "price": 0.228265,
-      "level": 0.22724,
-      "invalid": 0.22379180297981602,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.22724,
-        "base_invalid": 0.22379180297981602,
-        "atr": 0.0013213134678932536,
-        "rvol": 2.142286648414594,
-        "close_position": 0.8596491228070113,
-        "breakout": true,
-        "bar_close_ms": 1793550600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3309358866875556,
-        "score": 4.001935771221605
-      },
-      "context": {
-        "atr": 0.0013213134678932536,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4891176045333401,
-        "btc_hour_pct": -0.08472707882565267,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GRVTUSDT",
-          "change_pct": -1.2494143151466464,
-          "old_ms": 1793547636236,
-          "current_ms": 1793551137117,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793550600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRVTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1607106,6 +1607051,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793550849590
+    },
+    {
+      "id": "ffa20bc74bcfae5ad3084fba",
+      "asset_id": "6a7eff4bc3ffa83569cdcbfa",
+      "key": "MEXC:PERP:GRVTUSDT",
+      "symbol": "GRVTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793551138196,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793551147832
     }
   ],
   "runs": [
@@ -1668250,7 +1668206,8 @@
         "entry_seq": 0,
         "cohort": "GRVTUSDT",
         "observation_lag_ms": 538196,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9636
       }
     },
     "errors": [],
@@ -1694275,8 +1694232,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "84f53362560964d7755292f81a9ea5f459b7ecb8",
-    "previous_success_ms": 1793550868793,
+    "previous_commit": "2c538d4c156f01066f215597a10846d67d480de0",
+    "previous_success_ms": 1793551146570,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
