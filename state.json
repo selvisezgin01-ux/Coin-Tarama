@@ -1545501,110 +1545501,7 @@
       "source_close_ms": 1793512800000
     }
   },
-  "pending": [
-    {
-      "id": "2c50ba9517d108eb5cdaaa34",
-      "asset_id": "1f9653b43cd72752f5e4c488",
-      "key": "OKX:PERP:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793513071370,
-      "price": 0.04296,
-      "level": 0.04253,
-      "invalid": 0.04157788630879263,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04253,
-        "base_invalid": 0.04157788630879263,
-        "atr": 0.0002807579413824153,
-        "rvol": 5.668470808278054,
-        "close_position": 0.7592592592592621,
-        "breakout": true,
-        "bar_close_ms": 1793508300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9917355371900971,
-        "score": 7.427730067537317
-      },
-      "context": {
-        "atr": 0.00027096783593339824,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06834431426596677,
-        "btc_hour_pct": 0.11870268129166028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793508300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aac2951c2a271a4fd400f966",
-      "asset_id": "4877b5283f3a7d6e4f66b6a9",
-      "key": "MEXC:SPOT:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793513071394,
-      "price": 0.041690000000000005,
-      "level": 0.04159,
-      "invalid": 0.040985672405190396,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04159,
-        "base_invalid": 0.040985672405190396,
-        "atr": 0.00022885063206402068,
-        "rvol": 4.422439569590383,
-        "close_position": 0.6551724137931001,
-        "breakout": false,
-        "bar_close_ms": 1793512800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4837929366231286,
-        "score": 5.577611983383482
-      },
-      "context": {
-        "atr": 0.00022885063206402068,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.3602869984370427,
-        "btc_hour_pct": 0.1235059381860859,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793512800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1551556,6 +1551453,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793512478531
+    },
+    {
+      "id": "2c50ba9517d108eb5cdaaa34",
+      "asset_id": "1f9653b43cd72752f5e4c488",
+      "key": "OKX:PERP:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793513071370,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793513082103
+    },
+    {
+      "id": "aac2951c2a271a4fd400f966",
+      "asset_id": "4877b5283f3a7d6e4f66b6a9",
+      "key": "MEXC:SPOT:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793513071394,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793513082103
     }
   ],
   "runs": [
@@ -1599078,7 +1598997,8 @@
         "entry_seq": 0,
         "cohort": "NIGHTUSDT",
         "observation_lag_ms": 271394,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10709
       }
     },
     "errors": [],
@@ -1625102,8 +1625022,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d3b5d80a3864de7612955d4c7a3bf7d4ce76f63a",
-    "previous_success_ms": 1793512795351,
+    "previous_commit": "3e475d8addd25e811b36317f1ccae0a8e40d05d2",
+    "previous_success_ms": 1793513080847,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
