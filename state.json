@@ -1285603,60 +1285603,7 @@
       "source_close_ms": 1793564100000
     }
   },
-  "pending": [
-    {
-      "id": "289db6b60f52b5778227f7b0",
-      "asset_id": "575981ec64de6402c440d420",
-      "key": "OKX:PERP:FUSDT",
-      "symbol": "FUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793570245560,
-      "price": 0.0028095,
-      "level": 0.00281,
-      "invalid": 0.0027885858258004724,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00281,
-        "base_invalid": 0.0027885858258004724,
-        "atr": 9.427827996851017e-06,
-        "rvol": 4.570396929275422,
-        "close_position": 0.888888888888921,
-        "breakout": false,
-        "bar_close_ms": 1793569500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.035625222657653666,
-        "score": 5.959285818164343
-      },
-      "context": {
-        "atr": 9.427827996851017e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.20027609703329174,
-        "btc_hour_pct": 0.12897484926144287,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1293731,6 +1293678,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793569955146
+    },
+    {
+      "id": "289db6b60f52b5778227f7b0",
+      "asset_id": "575981ec64de6402c440d420",
+      "key": "OKX:PERP:FUSDT",
+      "symbol": "FUSDT",
+      "phase": "radar",
+      "observed_ms": 1793570245560,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793570255897
     }
   ],
   "runs": [
@@ -1361679,7 +1361637,8 @@
         "entry_seq": 0,
         "cohort": "FUSDT",
         "observation_lag_ms": 745560,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10337
       }
     },
     "errors": [],
@@ -1387713,8 +1387672,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "585ade68cdc60fce9b3eb49ac30294c0432aec79",
-    "previous_success_ms": 1793569971291,
+    "previous_commit": "0826cd78b32a41db326b8a7943f3b2eded68da00",
+    "previous_success_ms": 1793570254811,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
