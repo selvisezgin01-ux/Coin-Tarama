@@ -1559551,60 +1559551,7 @@
       "source_close_ms": 1793520900000
     }
   },
-  "pending": [
-    {
-      "id": "12ee08e083d1bb55ee65041d",
-      "asset_id": "4de8446b94571de2d0492a05",
-      "key": "OKX:SPOT:CELOUSDT",
-      "symbol": "CELOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793521554372,
-      "price": 0.075355,
-      "level": 0.07505,
-      "invalid": 0.07418588681871288,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07505,
-        "base_invalid": 0.07418588681871288,
-        "atr": 0.0002940878752474546,
-        "rvol": 45.56965488829395,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793520900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7480630510285913,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0002940878752474546,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5947386942842248,
-        "btc_hour_pct": -0.071178484860146,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CELOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793520900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CELOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1565897,6 +1565844,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793521266887
+    },
+    {
+      "id": "12ee08e083d1bb55ee65041d",
+      "asset_id": "4de8446b94571de2d0492a05",
+      "key": "OKX:SPOT:CELOUSDT",
+      "symbol": "CELOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793521554372,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793521567844
     }
   ],
   "runs": [
@@ -1616647,7 +1616605,8 @@
         "entry_seq": 0,
         "cohort": "CELOUSDT",
         "observation_lag_ms": 654372,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13472
       }
     },
     "errors": [],
@@ -1642677,8 +1642636,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "71142f7ad5ad0c12092109731424e14901368ec4",
-    "previous_success_ms": 1793521281862,
+    "previous_commit": "068eef61d6b6352e138c93d671800dfc996150de",
+    "previous_success_ms": 1793521566714,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
