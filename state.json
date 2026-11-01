@@ -1570910,60 +1570910,7 @@
       "source_close_ms": 1793523600000
     }
   },
-  "pending": [
-    {
-      "id": "e1153905ce35b32ad950cc59",
-      "asset_id": "4768194ee7cb0b2cfe6ef1e8",
-      "key": "MEXC:SPOT:LDOUSDT",
-      "symbol": "LDOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793524466000,
-      "price": 0.33835000000000004,
-      "level": 0.3384,
-      "invalid": 0.3346350515703307,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3384,
-        "base_invalid": 0.3346350515703307,
-        "atr": 0.0010996561977952798,
-        "rvol": 6.6627631163926795,
-        "close_position": 0.7000000000000333,
-        "breakout": true,
-        "bar_close_ms": 1793523600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.2962962962963056,
-        "score": 7.700000000000033
-      },
-      "context": {
-        "atr": 0.0010996561977952798,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09625794382854824,
-        "btc_hour_pct": 0.39255424012485385,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793523600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1577366,6 +1577313,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793524177046
+    },
+    {
+      "id": "e1153905ce35b32ad950cc59",
+      "asset_id": "4768194ee7cb0b2cfe6ef1e8",
+      "key": "MEXC:SPOT:LDOUSDT",
+      "symbol": "LDOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793524466000,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793524475973
     }
   ],
   "runs": [
@@ -1629187,7 +1629145,8 @@
         "entry_seq": 0,
         "cohort": "LDOUSDT",
         "observation_lag_ms": 866000,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9973
       }
     },
     "errors": [],
@@ -1655214,8 +1655173,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c283cdec52f9fa753449470591e831f6b43894ec",
-    "previous_success_ms": 1793524194555,
+    "previous_commit": "dc85d501339142bf786abcb95287aa9d646c972c",
+    "previous_success_ms": 1793524475037,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
