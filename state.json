@@ -71724,83 +71724,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "dc55c14d0cb2c5bc6433013e15ff",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "ALIM",
-      "observed_ms": 1793525134632,
-      "text": "ALIM: $191.65 · işlem başlatıcı `AjXSyqgfwKdfepyavnp67DvGEKxNS2NU9oyAq6k5FBcs` · bildirim eşiği $162",
-      "details": {
-        "tx": "4jTHASrkbR8NJashXjnHUj5BC2N3LoV2YuHBfNb2ZzowvocKTuqnLeUqNak6cX7DhwhhxWzpAaTAj4pQAL6TKgWo",
-        "wallet": "AjXSyqgfwKdfepyavnp67DvGEKxNS2NU9oyAq6k5FBcs",
-        "side": "buy",
-        "usd": 191.65207466398192,
-        "block_ms": 1793525010000,
-        "provider_row_id": "solana_464040237_4jTHASrkbR8NJashXjnHUj5BC2N3LoV2YuHBfNb2ZzowvocKTuqnLeUqNak6cX7DhwhhxWzpAaTAj4pQAL6TKgWo_12_1793525018",
-        "first_buyer_seen_by_this_watch": false
-      }
-    },
-    {
-      "id": "6d7307b57801834175fce2b341ba",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793525150587,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    },
-    {
-      "id": "01a2055c758cf3001fac1bede0f0",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "SESSİZ BİRİKİM",
-      "observed_ms": 1793525166848,
-      "text": "15dk örneğinde net alım $337; alım payı %74.6; 6alım/4başlatıcı. Gözlenen fiyat bandı %0.86. Bağımsız kişi/gerçek balina veya yükseliş garantisi değil.",
-      "details": {
-        "minutes": 15,
-        "buy_usd": 511.59703910254063,
-        "sell_usd": 174.47205407367466,
-        "net_usd": 337.124985028866,
-        "buy_fraction": 0.7456931731672367,
-        "buy_trades": 6,
-        "price_band_pct": 0.8561643835616417,
-        "initiators": 4,
-        "accounts": {
-          "AjXSyqgfwKdfepyavnp67DvGEKxNS2NU9oyAq6k5FBcs": {
-            "buy_usd": 481.7326794617114,
-            "sell_usd": 0.0,
-            "buys": 3,
-            "net_usd": 481.7326794617114
-          },
-          "6AGp6zbGNuyZpmzeswv9KCNU15Rf37UQDqDqFAeHmS8d": {
-            "buy_usd": 24.839837055596046,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 24.839837055596046
-          },
-          "FUEL3Te8gvaohxwQMapfMTeJVHh2z1BL9fvTCcHZeYEh": {
-            "buy_usd": 4.103333283773117,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 4.103333283773117
-          },
-          "3nMNd89AxwHUa1AFvQGqohRkxFEQsTsgiEyEyqXFHyyH": {
-            "buy_usd": 0.9211893014599919,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 0.9211893014599919
-          },
-          "GS2uWHtXeEogVz5Utk2cnZDSffeeScRyahqueLV6sttz": {
-            "buy_usd": 0.0,
-            "sell_usd": 174.47205407367466,
-            "buys": 0,
-            "net_usd": -174.47205407367466
-          }
-        },
-        "source": "observed selected-pool swap sample",
-        "complete_chain_coverage": false
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -73931,6 +73855,24 @@
       "issue": 986,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/986",
       "delivered_ms": 1793524877304
+    },
+    {
+      "id": "dc55c14d0cb2c5bc6433013e15ff",
+      "issue": 989,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/989",
+      "delivered_ms": 1793525170105
+    },
+    {
+      "id": "6d7307b57801834175fce2b341ba",
+      "issue": 989,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/989",
+      "delivered_ms": 1793525170105
+    },
+    {
+      "id": "01a2055c758cf3001fac1bede0f0",
+      "issue": 989,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/989",
+      "delivered_ms": 1793525170105
     }
   ],
   "provider_backoff": {
