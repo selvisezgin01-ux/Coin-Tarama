@@ -1546033,112 +1546033,7 @@
       "source_close_ms": 1793514600000
     }
   },
-  "pending": [
-    {
-      "id": "5dd9c5ffa1f224baed528f5b",
-      "asset_id": "bfbadd0ad9c5a94b5dd65f9e",
-      "key": "OKX:PERP:LDOUSDT",
-      "symbol": "LDOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793514870685,
-      "price": 0.33565,
-      "level": 0.3367,
-      "invalid": 0.3323233753880478,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3367,
-        "base_invalid": 0.3323233753880478,
-        "atr": 0.001177497413014899,
-        "rvol": 4.620218555823049,
-        "close_position": 0.8888888888888717,
-        "breakout": true,
-        "bar_close_ms": 1793513700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9248210023866221,
-        "score": 6.509107444711921
-      },
-      "context": {
-        "atr": 0.0012795911444399308,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4189317273104898,
-        "btc_hour_pct": 0.11870268129166028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793513700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "31f72560f5766df15df57113",
-      "asset_id": "affd4789c995e3fd8e572ff9",
-      "key": "OKX:PERP:AZTECUSDT",
-      "symbol": "AZTECUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793514870685,
-      "price": 0.01499,
-      "level": 0.01487,
-      "invalid": 0.014707710979282492,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01487,
-        "base_invalid": 0.014707710979282492,
-        "atr": 8.192680478338863e-05,
-        "rvol": 21.612376625437143,
-        "close_position": 0.7499999999999984,
-        "breakout": true,
-        "bar_close_ms": 1793514600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5625,
-        "score": 7.749999999999998
-      },
-      "context": {
-        "atr": 8.192680478338863e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.08496330648839479,
-        "btc_hour_pct": 0.11870268129166028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AZTECUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793514600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AZTECUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1552145,6 +1552040,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793513981603
+    },
+    {
+      "id": "5dd9c5ffa1f224baed528f5b",
+      "asset_id": "bfbadd0ad9c5a94b5dd65f9e",
+      "key": "OKX:PERP:LDOUSDT",
+      "symbol": "LDOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793514870685,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793514881571
+    },
+    {
+      "id": "31f72560f5766df15df57113",
+      "asset_id": "affd4789c995e3fd8e572ff9",
+      "key": "OKX:PERP:AZTECUSDT",
+      "symbol": "AZTECUSDT",
+      "phase": "radar",
+      "observed_ms": 1793514870685,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793514881571
     }
   ],
   "runs": [
@@ -1600352,7 +1600269,8 @@
         "entry_seq": 0,
         "cohort": "AZTECUSDT",
         "observation_lag_ms": 270685,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10886
       }
     },
     "errors": [],
@@ -1626378,8 +1626296,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fdba6b51be0404aafff4d3c05d959179f0fcb8fb",
-    "previous_success_ms": 1793514598566,
+    "previous_commit": "452c4f226e8124edd9fbe0c762457b6dd9e95350",
+    "previous_success_ms": 1793514880514,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
