@@ -212,19 +212,16 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793551181520,
-        "feature_cutoff_ms": 1793548800000,
+        "observed_ms": 1793565512603,
+        "feature_cutoff_ms": 1793563200000,
         "universe_count": 462,
-        "prefilter_count": 109,
-        "analyzed_count": 107,
+        "prefilter_count": 117,
+        "analyzed_count": 115,
         "candidates": []
       }
     },
     "MEXC": {
-      "active": [
-        "OKBUSDT",
-        "MOVRUSDT"
-      ],
+      "active": [],
       "last_alert": {
         "GRASSUSDT": 1793133773397,
         "GBCKUSDT": 1792959544552,
@@ -407,88 +404,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793551282178,
-        "feature_cutoff_ms": 1793548800000,
+        "observed_ms": 1793565606895,
+        "feature_cutoff_ms": 1793563200000,
         "universe_count": 1225,
-        "prefilter_count": 420,
-        "analyzed_count": 406,
-        "candidates": [
-          {
-            "exchange": "MEXC",
-            "symbol": "OKBUSDT",
-            "observed_ms": 1793551282178,
-            "feature_cutoff_ms": 1793548800000,
-            "mid_price": 113.967,
-            "spread_pct": 0.12459747119779928,
-            "return24_pct": 3.45487537351834,
-            "relative24_pct_points": 2.8990637155802856,
-            "quote_volume24": 110705.668,
-            "liquidity_band": "main",
-            "breakout_level": 114.594,
-            "breakout_open_ms": 1793534400000.0,
-            "breakout_volume_ratio": 2.147682801462585,
-            "strength_score": 100,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 110.13789562799442,
-            "atr": 1.6364174880223052,
-            "close": 114.598,
-            "paper_controls": [
-              {
-                "symbol": "BZZUSDT",
-                "entry_price": 0.044274999999999995
-              },
-              {
-                "symbol": "ELUSDT",
-                "entry_price": 0.00149
-              },
-              {
-                "symbol": "APTMUSDT",
-                "entry_price": 0.050375
-              }
-            ],
-            "paper_btc_price": 78077.025
-          },
-          {
-            "exchange": "MEXC",
-            "symbol": "MOVRUSDT",
-            "observed_ms": 1793551282178,
-            "feature_cutoff_ms": 1793548800000,
-            "mid_price": 1.1147,
-            "spread_pct": 0.305014802188936,
-            "return24_pct": 5.302177177177181,
-            "relative24_pct_points": 4.746365519239126,
-            "quote_volume24": 114395.57810000006,
-            "liquidity_band": "main",
-            "breakout_level": 1.1125,
-            "breakout_open_ms": 1793534400000.0,
-            "breakout_volume_ratio": 2.1720963327347724,
-            "strength_score": 75,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 1.048247583657461,
-            "atr": 0.03460966537015608,
-            "close": 1.1221,
-            "paper_controls": [
-              {
-                "symbol": "BATUSDT",
-                "entry_price": 0.137545
-              },
-              {
-                "symbol": "JASMYUSDT",
-                "entry_price": 0.0038155000000000003
-              },
-              {
-                "symbol": "GOMININGUSDT",
-                "entry_price": 0.4042
-              }
-            ],
-            "paper_btc_price": 78077.025
-          }
-        ]
+        "prefilter_count": 414,
+        "analyzed_count": 402,
+        "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793551282279,
+  "updated_ms": 1793565606991,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12226,6 +12152,17 @@
             "control_excess_pct_points": 2.5325371837356947,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793551763212,
+            "endpoint_ms": 1793551800000,
+            "endpoint_delay_ms": 36788,
+            "endpoint_price": 0.12063,
+            "return_pct": 0.2951569320307712,
+            "btc_excess_pct_points": -0.8655503579880541,
+            "control_excess_pct_points": -0.1722497952874935,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12600,6 +12537,17 @@
             "control_excess_pct_points": -5.409966388250398,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793565498258,
+            "endpoint_ms": 1793565540000,
+            "endpoint_delay_ms": 41742,
+            "endpoint_price": 0.11354,
+            "return_pct": -6.204047914085087,
+            "btc_excess_pct_points": -6.592071341184824,
+            "control_excess_pct_points": -5.044851623513214,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12677,7 +12625,19 @@
             "price": 0.0018645
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793552088856,
+            "endpoint_ms": 1793552100000,
+            "endpoint_delay_ms": 11144,
+            "endpoint_price": 0.001776,
+            "return_pct": -4.74658085277555,
+            "btc_excess_pct_points": -5.163753023483952,
+            "control_excess_pct_points": -4.885662911190014,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:WINUSDT": {
         "symbol": "WINUSDT",
@@ -12745,6 +12705,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793551282279
+    "asof_ms": 1793565606991
   }
 }
