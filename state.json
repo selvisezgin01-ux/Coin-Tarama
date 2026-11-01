@@ -1589925,112 +1589925,7 @@
       "source_close_ms": 1793529900000
     }
   },
-  "pending": [
-    {
-      "id": "be94a2e197094c2030443ce6",
-      "asset_id": "1fbdc86aff17887bd7ecb3a5",
-      "key": "OKX:PERP:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793530585814,
-      "price": 0.026445,
-      "level": 0.02629,
-      "invalid": 0.02618915663452546,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02629,
-        "base_invalid": 0.02618915663452546,
-        "atr": 7.22891031636069e-05,
-        "rvol": 24.082464727900952,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793529900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8390541571319687,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 7.22891031636069e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.05252457054920612,
-        "btc_hour_pct": -0.16663640014221714,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793529900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STABLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7e66296c1fbb68b705db87a0",
-      "asset_id": "29aad1d61ac9a635c7836a66",
-      "key": "MEXC:SPOT:DEFIUSDT",
-      "symbol": "DEFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793530582420,
-      "price": 0.00010425,
-      "level": 0.0001043,
-      "invalid": 0.00010261409648949316,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0001043,
-        "base_invalid": 0.00010261409648949316,
-        "atr": 5.726900700456214e-07,
-        "rvol": 3.7307069686134215,
-        "close_position": 0.6363636363636397,
-        "breakout": false,
-        "bar_close_ms": 1793529900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.871248789932233,
-        "score": 4.867070604977061
-      },
-      "context": {
-        "atr": 5.726900700456214e-07,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.03678606016702668,
-        "btc_hour_pct": -0.15720036078351596,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DEFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793529900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DEFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1596675,6 +1596570,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793530001124
+    },
+    {
+      "id": "be94a2e197094c2030443ce6",
+      "asset_id": "1fbdc86aff17887bd7ecb3a5",
+      "key": "OKX:PERP:STABLEUSDT",
+      "symbol": "STABLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793530585814,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793530596510
+    },
+    {
+      "id": "7e66296c1fbb68b705db87a0",
+      "asset_id": "29aad1d61ac9a635c7836a66",
+      "key": "MEXC:SPOT:DEFIUSDT",
+      "symbol": "DEFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793530582420,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793530596510
     }
   ],
   "runs": [
@@ -1650581,7 +1650498,8 @@
         "entry_seq": 0,
         "cohort": "STABLEUSDT",
         "observation_lag_ms": 685814,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10696
       },
       "29aad1d61ac9a635c7836a66:radar": {
         "symbol": "DEFIUSDT",
@@ -1650603,7 +1650521,8 @@
         "entry_seq": 0,
         "cohort": "DEFIUSDT",
         "observation_lag_ms": 682420,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14090
       }
     },
     "errors": [],
@@ -1676628,8 +1676547,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8c08b21c2fc70a0bd621f1926d78b99b85d6becb",
-    "previous_success_ms": 1793530314590,
+    "previous_commit": "ca5a45134f5adb9c340dc7b1a75a32250a5e937f",
+    "previous_success_ms": 1793530595102,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
