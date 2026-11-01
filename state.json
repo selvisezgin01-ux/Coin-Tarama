@@ -1680313,8 +1680313,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fa316ceb1124fb221a276858c2b1745302dd9569",
-    "previous_success_ms": 1793532723283,
+    "previous_commit": "667493afb47cc548814d63715fca6bef097dd8be",
+    "previous_success_ms": 1793532997290,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
