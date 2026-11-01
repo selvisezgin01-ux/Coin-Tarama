@@ -1604294,114 +1604294,7 @@
       "source_close_ms": 1793546100000
     }
   },
-  "pending": [
-    {
-      "id": "5dc091b78a8e9958d568449c",
-      "asset_id": "791d573b2ba54fc317fc4115",
-      "key": "MEXC:PERP:EGLDUSDT",
-      "symbol": "EGLDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793546149999,
-      "price": 3.4635,
-      "level": 3.464,
-      "invalid": 3.4059800249210332,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.464,
-        "base_invalid": 3.4059800249210332,
-        "atr": 0.013466500526445406,
-        "rvol": 2.3416180548835697,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793543400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6086956521739184,
-        "score": 4.34161805488357
-      },
-      "context": {
-        "atr": 0.012951791792938696,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.41337890083248396,
-        "btc_hour_pct": 0.021025964502019434,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:EGLDUSDT",
-          "change_pct": -1.1619761032597986,
-          "old_ms": 1793542534421,
-          "current_ms": 1793546145297,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793543400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8a2e53a1d96ffc5f14c710ec",
-      "asset_id": "7b0716bf494226c4c85df415",
-      "key": "MEXC:SPOT:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793546149179,
-      "price": 0.13124999999999998,
-      "level": 0.1333,
-      "invalid": 0.13003656518930504,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1333,
-        "base_invalid": 0.13003656518930504,
-        "atr": 0.001089565404633076,
-        "rvol": 13.560390934971458,
-        "close_position": 0.8499999999999889,
-        "breakout": true,
-        "bar_close_ms": 1793544300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9841029523088629,
-        "score": 7.849999999999989
-      },
-      "context": {
-        "atr": 0.0011463751195895705,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.33507012134819103,
-        "btc_hour_pct": 0.04143590274818809,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AXISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793544300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1611629,6 +1611522,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793545558635
+    },
+    {
+      "id": "5dc091b78a8e9958d568449c",
+      "asset_id": "791d573b2ba54fc317fc4115",
+      "key": "MEXC:PERP:EGLDUSDT",
+      "symbol": "EGLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793546149999,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793546161521
+    },
+    {
+      "id": "8a2e53a1d96ffc5f14c710ec",
+      "asset_id": "7b0716bf494226c4c85df415",
+      "key": "MEXC:SPOT:AXISUSDT",
+      "symbol": "AXISUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793546149179,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793546161521
     }
   ],
   "runs": [
@@ -1697109,8 +1697024,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "12c2ae5acac4fb35f682c7b967dd6e611bc89299",
-    "previous_success_ms": 1793545883911,
+    "previous_commit": "678cbc88dd2b254416abb24c376c7b2f817ba15b",
+    "previous_success_ms": 1793546160416,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
