@@ -1589544,60 +1589544,7 @@
       "source_close_ms": 1793559600000
     }
   },
-  "pending": [
-    {
-      "id": "953ba36f4305d814fb1cf7fa",
-      "asset_id": "c852bfd3741a5268506fbf70",
-      "key": "OKX:PERP:POPCATUSDT",
-      "symbol": "POPCATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793560283978,
-      "price": 0.040690000000000004,
-      "level": 0.04069,
-      "invalid": 0.04011556522748259,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04069,
-        "base_invalid": 0.04011556522748259,
-        "atr": 0.00016289848344941746,
-        "rvol": 6.864478375727213,
-        "close_position": 0.7333333333333457,
-        "breakout": true,
-        "bar_close_ms": 1793559600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.092624782716678,
-        "score": 7.733333333333346
-      },
-      "context": {
-        "atr": 0.00016289848344941746,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.211432903752141,
-        "btc_hour_pct": -0.11880812103546301,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:POPCATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793559600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POPCATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1597419,6 +1597366,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793559998897
+    },
+    {
+      "id": "953ba36f4305d814fb1cf7fa",
+      "asset_id": "c852bfd3741a5268506fbf70",
+      "key": "OKX:PERP:POPCATUSDT",
+      "symbol": "POPCATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793560283978,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793560297422
     }
   ],
   "runs": [
@@ -1661871,7 +1661829,8 @@
         "entry_seq": 0,
         "cohort": "POPCATUSDT",
         "observation_lag_ms": 683978,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13444
       }
     },
     "errors": [],
@@ -1687894,8 +1687853,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a75d9361dabef8bd43a8f08e8a18ce6441251362",
-    "previous_success_ms": 1793560016687,
+    "previous_commit": "9d84c7dbcce09b28cf51ec8fc67296359ba771bf",
+    "previous_success_ms": 1793560296124,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
