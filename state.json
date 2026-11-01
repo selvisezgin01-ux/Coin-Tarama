@@ -1605998,60 +1605998,7 @@
       "source_close_ms": 1793547900000
     }
   },
-  "pending": [
-    {
-      "id": "f27ccf15de1ce5ff0905ee09",
-      "asset_id": "a86c7295fbd4090964bb2423",
-      "key": "MEXC:SPOT:JASMYUSDT",
-      "symbol": "JASMYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793548246340,
-      "price": 0.003842,
-      "level": 0.003827,
-      "invalid": 0.003773753950955878,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003827,
-        "base_invalid": 0.003773753950955878,
-        "atr": 2.164032696081222e-05,
-        "rvol": 12.6125105492068,
-        "close_position": 0.8181818181818206,
-        "breakout": false,
-        "bar_close_ms": 1793547900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8963880833113613,
-        "score": 7.31818181818182
-      },
-      "context": {
-        "atr": 2.164032696081222e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5660948744166006,
-        "btc_hour_pct": 0.04143590274818809,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:JASMYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793547900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JASMYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1613378,6 +1613325,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793547962401
+    },
+    {
+      "id": "f27ccf15de1ce5ff0905ee09",
+      "asset_id": "a86c7295fbd4090964bb2423",
+      "key": "MEXC:SPOT:JASMYUSDT",
+      "symbol": "JASMYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793548246340,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793548258081
     }
   ],
   "runs": [
@@ -1673613,7 +1673571,8 @@
         "entry_seq": 0,
         "cohort": "JASMYUSDT",
         "observation_lag_ms": 346340,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11741
       }
     },
     "errors": [],
@@ -1699641,8 +1699600,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "818b7a580cb41cdbf887dfc4f271a561c5ba3d8b",
-    "previous_success_ms": 1793547981588,
+    "previous_commit": "cff36903fcd49af026e4401615e62747f4948303",
+    "previous_success_ms": 1793548256855,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
