@@ -1542357,114 +1542357,7 @@
       "source_close_ms": 1793511000000
     }
   },
-  "pending": [
-    {
-      "id": "ad3a1dfb0f2dfef2f9e6d857",
-      "asset_id": "409a4e4c23c9433e2918cc90",
-      "key": "MEXC:SPOT:AAVEUSDT",
-      "symbol": "AAVEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793511270209,
-      "price": 140.655,
-      "level": 136.5,
-      "invalid": 133.53908387368892,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 136.5,
-        "base_invalid": 133.53908387368892,
-        "atr": 0.6727741754070823,
-        "rvol": 3.097016210365779,
-        "close_position": 0.981308411214944,
-        "breakout": true,
-        "bar_close_ms": 1793502000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5671420083184895,
-        "score": 5.078324621580723
-      },
-      "context": {
-        "atr": 0.927632252887265,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5631318328281676,
-        "btc_hour_pct": 0.008834573195581896,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AAVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793502000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7b296bf896a833b09d1fe2bb",
-      "asset_id": "153970c23580b54bf40a4dad",
-      "key": "MEXC:PERP:GTCUSDT",
-      "symbol": "GTCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793511270347,
-      "price": 0.23107,
-      "level": 0.22518,
-      "invalid": 0.219395898479918,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.22518,
-        "base_invalid": 0.219395898479918,
-        "atr": 0.002560676800546775,
-        "rvol": 7.363102897735531,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793511000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.229283629014157,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.002560676800546775,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3924151665793083,
-        "btc_hour_pct": 0.021992692252781332,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GTCUSDT",
-          "change_pct": -0.08576991354075636,
-          "old_ms": 1793507787106,
-          "current_ms": 1793511267278,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.1858,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793511000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GTCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1548383,6 +1548276,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793510380863
+    },
+    {
+      "id": "7b296bf896a833b09d1fe2bb",
+      "asset_id": "153970c23580b54bf40a4dad",
+      "key": "MEXC:PERP:GTCUSDT",
+      "symbol": "GTCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793511270347,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793511281003
     }
   ],
   "runs": [
@@ -1595194,7 +1595098,8 @@
         "entry_seq": 0,
         "cohort": "GTCUSDT",
         "observation_lag_ms": 270347,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10656
       }
     },
     "errors": [],
@@ -1621219,8 +1621124,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8e097ac2edda635435591300ae53c3334c39306c",
-    "previous_success_ms": 1793510995855,
+    "previous_commit": "dddda93360b22f6c7aea8a7b734d39f43aff6531",
+    "previous_success_ms": 1793511279790,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
