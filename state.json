@@ -1514316,216 +1514316,7 @@
       "source_close_ms": 1793493900000
     }
   },
-  "pending": [
-    {
-      "id": "3d1b0f2652c6f619d6a7097a",
-      "asset_id": "09e7f079948d0ddd4440fbb7",
-      "key": "OKX:PERP:MOVEUSDT",
-      "symbol": "MOVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793494046344,
-      "price": 0.006321,
-      "level": 0.006326,
-      "invalid": 0.006252598207730699,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006326,
-        "base_invalid": 0.006252598207730699,
-        "atr": 2.2678615128674013e-05,
-        "rvol": 17.124957757176823,
-        "close_position": 0.7647058823529431,
-        "breakout": true,
-        "bar_close_ms": 1793492100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0368479821343035,
-        "score": 7.764705882352943
-      },
-      "context": {
-        "atr": 2.5598434132200994e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.49826430840100855,
-        "btc_hour_pct": 0.028387463064039054,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MOVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793492100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "547d3b1266605d090b043714",
-      "asset_id": "8e76e507a84520214a3403b4",
-      "key": "OKX:SPOT:MOVEUSDT",
-      "symbol": "MOVEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793494047961,
-      "price": 0.006325000000000001,
-      "level": 0.00632,
-      "invalid": 0.00625933795508361,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00632,
-        "base_invalid": 0.00625933795508361,
-        "atr": 1.7746966109269966e-05,
-        "rvol": 12.255658833725832,
-        "close_position": 0.9574468085106512,
-        "breakout": true,
-        "bar_close_ms": 1793492100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.194267515923575,
-        "score": 7.957446808510651
-      },
-      "context": {
-        "atr": 2.292171730020206e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5496717911071203,
-        "btc_hour_pct": 0.024124829868332753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MOVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793492100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "01f6645a558dd57d8523a283",
-      "asset_id": "5df4a42a9d24ac0cdd23e977",
-      "key": "OKX:SPOT:TRUMPUSDT",
-      "symbol": "TRUMPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793494047961,
-      "price": 1.5795,
-      "level": 1.582,
-      "invalid": 1.5723588344085535,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.582,
-        "base_invalid": 1.5723588344085535,
-        "atr": 0.004274437276309276,
-        "rvol": 3.038932508095542,
-        "close_position": 0.6000000000000089,
-        "breakout": false,
-        "bar_close_ms": 1793493900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.19023462270133518,
-        "score": 4.138932508095551
-      },
-      "context": {
-        "atr": 0.004274437276309276,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.024124829868332753,
-        "btc_hour_pct": 0.024124829868332753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:TRUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793493900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d76029867930e9f3e7973ce3",
-      "asset_id": "ec2d8a39e413814f35e5377e",
-      "key": "OKX:SPOT:ATHUSDT",
-      "symbol": "ATHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793494047961,
-      "price": 0.0050585000000000005,
-      "level": 0.005052,
-      "invalid": 0.004995215552726171,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005052,
-        "base_invalid": 0.004995215552726171,
-        "atr": 2.5229648492191213e-05,
-        "rvol": 2.168291975816987,
-        "close_position": 0.6176470588235219,
-        "breakout": false,
-        "bar_close_ms": 1793493900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6177760063770465,
-        "score": 3.285939034640509
-      },
-      "context": {
-        "atr": 2.5229648492191213e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.21525278832437156,
-        "btc_hour_pct": 0.024124829868332753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ATHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793493900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1519718,6 +1519509,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793493456523
+    },
+    {
+      "id": "3d1b0f2652c6f619d6a7097a",
+      "asset_id": "09e7f079948d0ddd4440fbb7",
+      "key": "OKX:PERP:MOVEUSDT",
+      "symbol": "MOVEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793494046344,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793494059090
+    },
+    {
+      "id": "01f6645a558dd57d8523a283",
+      "asset_id": "5df4a42a9d24ac0cdd23e977",
+      "key": "OKX:SPOT:TRUMPUSDT",
+      "symbol": "TRUMPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793494047961,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793494059090
+    },
+    {
+      "id": "d76029867930e9f3e7973ce3",
+      "asset_id": "ec2d8a39e413814f35e5377e",
+      "key": "OKX:SPOT:ATHUSDT",
+      "symbol": "ATHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793494047961,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793494059090
     }
   ],
   "runs": [
@@ -1560313,7 +1560137,8 @@
         "entry_seq": 0,
         "cohort": "TRUMPUSDT",
         "observation_lag_ms": 147961,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11129
       },
       "ec2d8a39e413814f35e5377e:radar": {
         "symbol": "ATHUSDT",
@@ -1560335,7 +1560160,8 @@
         "entry_seq": 0,
         "cohort": "ATHUSDT",
         "observation_lag_ms": 147961,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11129
       }
     },
     "errors": [],
@@ -1586014,8 +1585840,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "86c9605e4c1d000409b264c6efdc0d711df0db61",
-    "previous_success_ms": 1793493771676,
+    "previous_commit": "5e596ce1c1092076ae9e5db3ddccecfdc29d2e3b",
+    "previous_success_ms": 1793494057385,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
