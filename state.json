@@ -88674,32 +88674,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "a85cefb5b244b1e9d4bb96d75c94",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "SATIŞ",
-      "observed_ms": 1793558294510,
-      "text": "SATIŞ: $248.59 · işlem başlatıcı `DSYwYUg7ZeDd96bAaGb7WMfT3apsnxo38B3YczDaWPmW` · bildirim eşiği $166",
-      "details": {
-        "tx": "2zpkcPdbBuQ1sNrAM8wnZTEUQnyoVvct9UkVdSe8u65Lkug5dMtYtfkvF5qqeKcdbnk8BSr5RqEjcb1LpUg4mRc7",
-        "wallet": "DSYwYUg7ZeDd96bAaGb7WMfT3apsnxo38B3YczDaWPmW",
-        "side": "sell",
-        "usd": 248.58568467467958,
-        "block_ms": 1793558185000,
-        "provider_row_id": "solana_464195124_2zpkcPdbBuQ1sNrAM8wnZTEUQnyoVvct9UkVdSe8u65Lkug5dMtYtfkvF5qqeKcdbnk8BSr5RqEjcb1LpUg4mRc7_31_1793558190",
-        "first_buyer_seen_by_this_watch": false
-      }
-    },
-    {
-      "id": "6acc3ae7ffb395396aea362c4c81",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793558317101,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -91868,6 +91843,18 @@
       "issue": 1185,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1185",
       "delivered_ms": 1793558030027
+    },
+    {
+      "id": "a85cefb5b244b1e9d4bb96d75c94",
+      "issue": 1186,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1186",
+      "delivered_ms": 1793558336897
+    },
+    {
+      "id": "6acc3ae7ffb395396aea362c4c81",
+      "issue": 1186,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1186",
+      "delivered_ms": 1793558336897
     }
   ],
   "provider_backoff": {
