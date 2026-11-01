@@ -3,9 +3,7 @@
   "rules_fingerprint": "64e60a7c7b760f06ba03ba7826698f22a3f1606511ebeb403f8a0d49a0a3bee5",
   "venues": {
     "OKX": {
-      "active": [
-        "ZROUSDT"
-      ],
+      "active": [],
       "last_alert": {
         "CHIPUSDT": 1793026195761,
         "PYTHUSDT": 1793026195761,
@@ -212,53 +210,17 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793508777797,
-        "feature_cutoff_ms": 1793505600000,
+        "observed_ms": 1793523084893,
+        "feature_cutoff_ms": 1793520000000,
         "universe_count": 462,
-        "prefilter_count": 199,
-        "analyzed_count": 197,
-        "candidates": [
-          {
-            "exchange": "OKX",
-            "symbol": "ZROUSDT",
-            "observed_ms": 1793508777797,
-            "feature_cutoff_ms": 1793505600000,
-            "mid_price": 1.86145,
-            "spread_pct": 0.08058234172285351,
-            "return24_pct": 10.002356267672008,
-            "relative24_pct_points": 9.168449145034096,
-            "quote_volume24": 10245242.7751987,
-            "liquidity_band": "main",
-            "breakout_level": 1.8177,
-            "breakout_open_ms": 1793476800000.0,
-            "breakout_volume_ratio": 2.827738322966034,
-            "strength_score": 75,
-            "breakout_age_bars": 1.0,
-            "invalidation_level": 1.7409723863222024,
-            "atr": 0.0837104547111902,
-            "close": 1.8674,
-            "paper_controls": [
-              {
-                "symbol": "LITUSDT",
-                "entry_price": 3.1855
-              },
-              {
-                "symbol": "UNIUSDT",
-                "entry_price": 7.1265
-              },
-              {
-                "symbol": "STXUSDT",
-                "entry_price": 0.32355
-              }
-            ],
-            "paper_btc_price": 77826.55
-          }
-        ]
+        "prefilter_count": 236,
+        "analyzed_count": 234,
+        "candidates": []
       }
     },
     "MEXC": {
       "active": [
-        "BXEUSDT"
+        "NIGHTUSDT"
       ],
       "last_alert": {
         "GRASSUSDT": 1793133773397,
@@ -272,7 +234,7 @@
         "CLANKERUSDT": 1793033378596,
         "TRIAUSDT": 1793033378596,
         "SPXUSDT": 1793033378596,
-        "NIGHTUSDT": 1793033378596,
+        "NIGHTUSDT": 1793523213237,
         "SYMMUSDT": 1793047118535,
         "APTMUSDT": 1793075891547,
         "TRUTHUSDT": 1793090747555,
@@ -440,53 +402,96 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793508888856,
-        "feature_cutoff_ms": 1793505600000,
-        "universe_count": 1237,
-        "prefilter_count": 546,
-        "analyzed_count": 534,
+        "observed_ms": 1793523213128,
+        "feature_cutoff_ms": 1793520000000,
+        "universe_count": 1239,
+        "prefilter_count": 632,
+        "analyzed_count": 618,
         "candidates": [
           {
             "exchange": "MEXC",
-            "symbol": "BXEUSDT",
-            "observed_ms": 1793508888856,
-            "feature_cutoff_ms": 1793505600000,
-            "mid_price": 0.0018645,
-            "spread_pct": 0.6972378653794578,
-            "return24_pct": 7.501442585112539,
-            "relative24_pct_points": 6.669543143844203,
-            "quote_volume24": 14619.143136999997,
-            "liquidity_band": "thin",
-            "breakout_level": 0.0018,
-            "breakout_open_ms": 1793491200000.0,
-            "breakout_volume_ratio": 2.1280109234489175,
-            "strength_score": 75,
+            "symbol": "NIGHTUSDT",
+            "observed_ms": 1793523213128,
+            "feature_cutoff_ms": 1793520000000,
+            "mid_price": 0.041565000000000005,
+            "spread_pct": 0.02405870323590295,
+            "return24_pct": 6.044511886697035,
+            "relative24_pct_points": 5.259162090925229,
+            "quote_volume24": 121046.37357000001,
+            "liquidity_band": "main",
+            "breakout_level": 0.04186,
+            "breakout_open_ms": 1793505600000.0,
+            "breakout_volume_ratio": 1.3612037894433406,
+            "strength_score": 80,
             "breakout_age_bars": 0.0,
-            "invalidation_level": 0.0017197479586113413,
-            "atr": 3.7008165554634816e-05,
-            "close": 0.001863,
+            "invalidation_level": 0.04012943308472848,
+            "atr": 0.0012422676610860525,
+            "close": 0.04193,
             "paper_controls": [
               {
-                "symbol": "SINGULARRYUSDT",
-                "entry_price": 0.00751
+                "symbol": "FARTCOINUSDT",
+                "entry_price": 0.121805
               },
               {
-                "symbol": "WOLFTONUSDT",
-                "entry_price": 0.0004393
+                "symbol": "ARBUSDT",
+                "entry_price": 0.164655
               },
               {
-                "symbol": "BATTERYUSDT",
-                "entry_price": 0.0002876
+                "symbol": "MERLUSDT",
+                "entry_price": 0.030315
               }
             ],
-            "paper_btc_price": 77806.005
+            "paper_btc_price": 78151.315
           }
         ]
       }
     }
   },
-  "pending": [],
-  "updated_ms": 1793508888945,
+  "pending": [
+    {
+      "id": "e7c2d0c5f947ec6c2575a27c",
+      "created_ms": 1793523213237,
+      "candidates": [
+        {
+          "exchange": "MEXC",
+          "symbol": "NIGHTUSDT",
+          "observed_ms": 1793523213128,
+          "feature_cutoff_ms": 1793520000000,
+          "mid_price": 0.041565000000000005,
+          "spread_pct": 0.02405870323590295,
+          "return24_pct": 6.044511886697035,
+          "relative24_pct_points": 5.259162090925229,
+          "quote_volume24": 121046.37357000001,
+          "liquidity_band": "main",
+          "breakout_level": 0.04186,
+          "breakout_open_ms": 1793505600000.0,
+          "breakout_volume_ratio": 1.3612037894433406,
+          "strength_score": 80,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 0.04012943308472848,
+          "atr": 0.0012422676610860525,
+          "close": 0.04193,
+          "paper_controls": [
+            {
+              "symbol": "FARTCOINUSDT",
+              "entry_price": 0.121805
+            },
+            {
+              "symbol": "ARBUSDT",
+              "entry_price": 0.164655
+            },
+            {
+              "symbol": "MERLUSDT",
+              "entry_price": 0.030315
+            }
+          ],
+          "paper_btc_price": 78151.315,
+          "arrival": "reentry"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1793523213237,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12312,6 +12317,17 @@
             "control_excess_pct_points": 0.83248209237341,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793522740742,
+            "endpoint_ms": 1793522760000,
+            "endpoint_delay_ms": 19258,
+            "endpoint_price": 0.01153,
+            "return_pct": 0.919037199124717,
+            "btc_excess_pct_points": -0.25115016673402657,
+            "control_excess_pct_points": 0.7459269856221029,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12354,6 +12370,17 @@
             "return_pct": 2.057335581787534,
             "btc_excess_pct_points": 1.7283404292006255,
             "control_excess_pct_points": 1.7812795372018853,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793522862178,
+            "endpoint_ms": 1793522880000,
+            "endpoint_delay_ms": 17822,
+            "endpoint_price": 0.001515,
+            "return_pct": 2.1922428330522825,
+            "btc_excess_pct_points": 1.0490065159215245,
+            "control_excess_pct_points": -1.8444257434360845,
             "complete": true,
             "controls_count": 3
           }
@@ -12521,7 +12548,19 @@
             "price": 0.12105
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793522298258,
+            "endpoint_ms": 1793522340000,
+            "endpoint_delay_ms": 41742,
+            "endpoint_price": 0.11479,
+            "return_pct": -5.171416769929782,
+            "btc_excess_pct_points": -5.88499565588545,
+            "control_excess_pct_points": -5.409966388250398,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "OKX:ZROUSDT": {
         "symbol": "ZROUSDT",
@@ -12589,6 +12628,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793508888945
+    "asof_ms": 1793523213237
   }
 }
