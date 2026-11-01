@@ -1522885,114 +1522885,7 @@
       "source_close_ms": 1793496600000
     }
   },
-  "pending": [
-    {
-      "id": "2057105fcaea9089b56a897a",
-      "asset_id": "b0201dc6b8f31322b8a1db69",
-      "key": "MEXC:PERP:1000RATSUSDT",
-      "symbol": "1000RATSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793496886423,
-      "price": 0.01517,
-      "level": 0.01523,
-      "invalid": 0.014995974069389267,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01523,
-        "base_invalid": 0.014995974069389267,
-        "atr": 9.35062040715542e-05,
-        "rvol": 4.791700220696516,
-        "close_position": 0.6999999999999983,
-        "breakout": false,
-        "bar_close_ms": 1793490300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6622516556291425,
-        "score": 5.991700220696514
-      },
-      "context": {
-        "atr": 8.610405739777786e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5450171605074439,
-        "btc_hour_pct": 0.15311644202278263,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:1000RATSUSDT",
-          "change_pct": 0.4104589037057238,
-          "old_ms": 1793493431532,
-          "current_ms": 1793496885366,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793490300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "1000RATSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a4cf07c9114ae55778c416df",
-      "asset_id": "7a002d9893e781d3a89426d5",
-      "key": "OKX:PERP:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793496886430,
-      "price": 4.4704999999999995,
-      "level": 4.445,
-      "invalid": 4.408174200024224,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.445,
-        "base_invalid": 4.408174200024224,
-        "atr": 0.02550533317184022,
-        "rvol": 3.54571921029538,
-        "close_position": 0.7435897435897529,
-        "breakout": true,
-        "bar_close_ms": 1793496600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4282172639170634,
-        "score": 5.289308953885133
-      },
-      "context": {
-        "atr": 0.02550533317184022,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.27736779524609734,
-        "btc_hour_pct": 0.14189703435198986,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793496600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1528262,6 +1528155,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793496293933
+    },
+    {
+      "id": "2057105fcaea9089b56a897a",
+      "asset_id": "b0201dc6b8f31322b8a1db69",
+      "key": "MEXC:PERP:1000RATSUSDT",
+      "symbol": "1000RATSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793496886423,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793496896622
+    },
+    {
+      "id": "a4cf07c9114ae55778c416df",
+      "asset_id": "7a002d9893e781d3a89426d5",
+      "key": "OKX:PERP:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793496886430,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793496896622
     }
   ],
   "runs": [
@@ -1569721,7 +1569636,8 @@
         "entry_seq": 0,
         "cohort": "NEARUSDT",
         "observation_lag_ms": 286430,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10192
       },
       "78a1d9b7eb7e7a35bb98aa6c:radar": {
         "symbol": "TRXUSDT",
@@ -1595497,8 +1595413,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b750ef1530a9b531ba53b51320f3151c9993c87a",
-    "previous_success_ms": 1793496610093,
+    "previous_commit": "4f3301773ce9538e752e96f4adfa4361783d27f7",
+    "previous_success_ms": 1793496895501,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
