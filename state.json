@@ -1530104,68 +1530104,7 @@
       "source_close_ms": 1793505600000
     }
   },
-  "pending": [
-    {
-      "id": "4673e684f1cb038d6141cd37",
-      "asset_id": "4115e6b50d987be03e3576bf",
-      "key": "MEXC:SPOT:RLSUSDT",
-      "symbol": "RLSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793506295607,
-      "price": 0.0024194999999999998,
-      "level": 0.00238,
-      "invalid": 0.0023825911405106768,
-      "target": 0.002529610218978646,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00238,
-        "base_invalid": 0.002281591140510677,
-        "atr": 2.9392396595485798e-05,
-        "rvol": 2.612910325346218,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793502000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.002556455048987,
-        "score": 4.612910325346218
-      },
-      "context": {
-        "atr": 3.7270479324066495e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1209024275700585,
-        "btc_hour_pct": 0.09045931010747132,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RLSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.0023825911405106768,
-        "target": 0.002529610218978646,
-        "risk_pct": 1.525474663745527,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.002751,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.002417,
-        "entry_zone_high": 0.002435635239662033
-      },
-      "reason": null,
-      "source_close_ms": 1793505600000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "RLSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1535897,6 +1535836,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793505715765
+    },
+    {
+      "id": "4673e684f1cb038d6141cd37",
+      "asset_id": "4115e6b50d987be03e3576bf",
+      "key": "MEXC:SPOT:RLSUSDT",
+      "symbol": "RLSUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793506295607,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793506304859
     }
   ],
   "runs": [
@@ -1580910,7 +1580860,8 @@
         "entry_seq": 1,
         "cohort": "RLSUSDT",
         "observation_lag_ms": 695607,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 9252
       }
     },
     "errors": [],
@@ -1606910,8 +1606861,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "67a718e966545e76135023e3d58da1d117e0573b",
-    "previous_success_ms": 1793506022476,
+    "previous_commit": "287652300efa0af56d48f8b0ee01a36e00aac3a7",
+    "previous_success_ms": 1793506303997,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
