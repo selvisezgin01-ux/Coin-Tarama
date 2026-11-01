@@ -1584461,168 +1584461,7 @@
       "source_close_ms": 1793534400000
     }
   },
-  "pending": [
-    {
-      "id": "be51f71dabe5bdf7504a2a88",
-      "asset_id": "1fc171c578b0d196c0523374",
-      "key": "OKX:PERP:AZTECUSDT",
-      "symbol": "AZTECUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793534496368,
-      "price": 0.01524,
-      "level": 0.01494,
-      "invalid": 0.014765241799585004,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01494,
-        "base_invalid": 0.014765241799585004,
-        "atr": 9.838800276663164e-05,
-        "rvol": 27.470835239557843,
-        "close_position": 0.7547169811320761,
-        "breakout": true,
-        "bar_close_ms": 1793528100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.352150537634401,
-        "score": 7.754716981132076
-      },
-      "context": {
-        "atr": 0.00012618114958629005,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.9629635355798749,
-        "btc_hour_pct": -0.08142288739663162,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AZTECUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793528100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AZTECUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "566d53a9d557103b4673f4e7",
-      "asset_id": "bfc796fd38aa119be6c998ae",
-      "key": "MEXC:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793534492678,
-      "price": 0.18725,
-      "level": 0.1888,
-      "invalid": 0.17977344140312854,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1888,
-        "base_invalid": 0.17977344140312854,
-        "atr": 0.0028437239791430464,
-        "rvol": 6.434120103290177,
-        "close_position": 0.953488372093022,
-        "breakout": true,
-        "bar_close_ms": 1793533500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.923659989171634,
-        "score": 7.953488372093022
-      },
-      "context": {
-        "atr": 0.0030320663253641162,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.183319558199225,
-        "btc_hour_pct": -0.09872085971766031,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DNAUSDT",
-          "change_pct": 3.538180228817822,
-          "old_ms": 1793530877166,
-          "current_ms": 1793534491187,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0524,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793533500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a1d774e6ebf3f233709e493e",
-      "asset_id": "11090bf88dd63f24a834149c",
-      "key": "MEXC:PERP:AINUSDT",
-      "symbol": "AINUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793534492678,
-      "price": 0.283585,
-      "level": 0.27747,
-      "invalid": 0.26721324227585375,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.27747,
-        "base_invalid": 0.26721324227585375,
-        "atr": 0.006645051494308502,
-        "rvol": 2.8700724500346046,
-        "close_position": 0.775768535262203,
-        "breakout": true,
-        "bar_close_ms": 1793534400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.914389799635675,
-        "score": 4.6458409852968074
-      },
-      "context": {
-        "atr": 0.006645051494308502,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.013110659353335,
-        "btc_hour_pct": -0.09872085971766031,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AINUSDT",
-          "change_pct": 2.1363475086271677,
-          "old_ms": 1793530876859,
-          "current_ms": 1793534490921,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0415,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793534400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1591443,6 +1591282,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793534197943
+    },
+    {
+      "id": "be51f71dabe5bdf7504a2a88",
+      "asset_id": "1fc171c578b0d196c0523374",
+      "key": "OKX:PERP:AZTECUSDT",
+      "symbol": "AZTECUSDT",
+      "phase": "expired",
+      "observed_ms": 1793534496368,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793534507114
+    },
+    {
+      "id": "a1d774e6ebf3f233709e493e",
+      "asset_id": "11090bf88dd63f24a834149c",
+      "key": "MEXC:PERP:AINUSDT",
+      "symbol": "AINUSDT",
+      "phase": "radar",
+      "observed_ms": 1793534492678,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793534507114
     }
   ],
   "runs": [
@@ -1646857,7 +1646718,8 @@
         "entry_seq": 0,
         "cohort": "AINUSDT",
         "observation_lag_ms": 92678,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14436
       }
     },
     "errors": [],
@@ -1672885,8 +1672747,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "efc3f7f63462af9e8190419216224cc982ccb1e2",
-    "previous_success_ms": 1793534215698,
+    "previous_commit": "418bb6bf884ea12e71b71e9684e09afc7bc24fbc",
+    "previous_success_ms": 1793534505724,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
