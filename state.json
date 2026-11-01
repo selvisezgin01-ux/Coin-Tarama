@@ -1597322,60 +1597322,7 @@
       "source_close_ms": 1793536200000
     }
   },
-  "pending": [
-    {
-      "id": "6aec49a768462d0d30a4d233",
-      "asset_id": "1b5d432b5b249326af275f05",
-      "key": "OKX:SPOT:LDOUSDT",
-      "symbol": "LDOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793539986052,
-      "price": 0.3426,
-      "level": 0.3407,
-      "invalid": 0.33621278834269436,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3407,
-        "base_invalid": 0.33621278834269436,
-        "atr": 0.0012480777153706798,
-        "rvol": 13.848378357244309,
-        "close_position": 0.7714285714285809,
-        "breakout": true,
-        "bar_close_ms": 1793539800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7497034400949074,
-        "score": 7.771428571428581
-      },
-      "context": {
-        "atr": 0.0012480777153706798,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.47986268322596226,
-        "btc_hour_pct": -0.0947915931785892,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793539800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1604350,6 +1604297,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793539696181
+    },
+    {
+      "id": "6aec49a768462d0d30a4d233",
+      "asset_id": "1b5d432b5b249326af275f05",
+      "key": "OKX:SPOT:LDOUSDT",
+      "symbol": "LDOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793539986052,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793539998376
     }
   ],
   "runs": [
@@ -1661721,7 +1661679,8 @@
         "entry_seq": 0,
         "cohort": "LDOUSDT",
         "observation_lag_ms": 186052,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12324
       }
     },
     "errors": [],
@@ -1687752,8 +1687711,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f9f941cc52a7b3c468847a021cbf445531d649f5",
-    "previous_success_ms": 1793539720551,
+    "previous_commit": "d7a05113385e912b8b4be070636d90ff998f190f",
+    "previous_success_ms": 1793539997232,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
