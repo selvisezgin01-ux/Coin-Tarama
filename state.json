@@ -1382045,64 +1382045,7 @@
       "source_close_ms": 1793576700000
     }
   },
-  "pending": [
-    {
-      "id": "0061b3fa2265b3ed82c78d2a",
-      "asset_id": "e10c8c511dae37027a1074cf",
-      "key": "MEXC:PERP:QUSDT",
-      "symbol": "QUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793576841795,
-      "price": 0.029515,
-      "level": 0.02946,
-      "invalid": 0.02791066397729223,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02946,
-        "base_invalid": 0.02791066397729223,
-        "atr": 0.0005289068180518122,
-        "rvol": 2.0798996210816756,
-        "close_position": 0.7525773195876287,
-        "breakout": false,
-        "bar_close_ms": 1793560500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.683861972812829,
-        "score": 3.3324769406693044
-      },
-      "context": {
-        "atr": 0.0007125662398962467,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.128339136104295,
-        "btc_hour_pct": -0.08156124928714314,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:QUSDT",
-          "change_pct": -3.5249928808048447,
-          "old_ms": 1793573232120,
-          "current_ms": 1793576837014,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.09179999999999999,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793560500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "QUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1390485,6 +1390428,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793575950316
+    },
+    {
+      "id": "0061b3fa2265b3ed82c78d2a",
+      "asset_id": "e10c8c511dae37027a1074cf",
+      "key": "MEXC:PERP:QUSDT",
+      "symbol": "QUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793576841795,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793576853435
     }
   ],
   "runs": [
@@ -1486787,8 +1486741,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2c41c7ab5e3450dc10c6d8bc76606ab9c85e0549",
-    "previous_success_ms": 1793576562723,
+    "previous_commit": "c96869c1fd4111b07f0c6fcf1b602c3ef0151ec9",
+    "previous_success_ms": 1793576852242,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
