@@ -1557499,60 +1557499,7 @@
       "source_close_ms": 1793519100000
     }
   },
-  "pending": [
-    {
-      "id": "dec017216e6ee673d534ea61",
-      "asset_id": "d38f3169081bd3563290c5d8",
-      "key": "OKX:SPOT:ETHUSDT",
-      "symbol": "ETHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793520656078,
-      "price": 2268.435,
-      "level": 2273.37,
-      "invalid": 2264.5018282625865,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2273.37,
-        "base_invalid": 2264.5018282625865,
-        "atr": 3.32114491608946,
-        "rvol": 2.245634976679174,
-        "close_position": 0.9384615384614173,
-        "breakout": false,
-        "bar_close_ms": 1793520000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.014541480675256402,
-        "score": 3.6840965151405913
-      },
-      "context": {
-        "atr": 3.32114491608946,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.0857199655354024,
-        "btc_hour_pct": -0.071178484860146,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ETHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793520000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1563812,6 +1563759,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793520367807
+    },
+    {
+      "id": "dec017216e6ee673d534ea61",
+      "asset_id": "d38f3169081bd3563290c5d8",
+      "key": "OKX:SPOT:ETHUSDT",
+      "symbol": "ETHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793520656078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793520665665
     }
   ],
   "runs": [
@@ -1614198,7 +1614156,8 @@
         "entry_seq": 0,
         "cohort": "ETHUSDT",
         "observation_lag_ms": 656078,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9587
       }
     },
     "errors": [],
@@ -1640222,8 +1640181,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b8ed517851a9ed78c2ba3dee6bb01dbb4673c8c2",
-    "previous_success_ms": 1793520382433,
+    "previous_commit": "71fdef8fe903805cc7c84dd7006afb8c583205d3",
+    "previous_success_ms": 1793520664247,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
