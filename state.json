@@ -1573338,160 +1573338,7 @@
       "source_close_ms": 1793527200000
     }
   },
-  "pending": [
-    {
-      "id": "32df69a252ad42e538ff7246",
-      "asset_id": "72825416a4836f8c6b7eaa4b",
-      "key": "MEXC:SPOT:IDOLUSDT",
-      "symbol": "IDOLUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793528067746,
-      "price": 0.020603,
-      "level": 0.020286,
-      "invalid": 0.018771857087070888,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.020286,
-        "base_invalid": 0.018771857087070888,
-        "atr": 0.0005142860861940781,
-        "rvol": 7.346874793543349,
-        "close_position": 0.7186574531095784,
-        "breakout": true,
-        "bar_close_ms": 1793527200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.330827067669188,
-        "score": 7.718657453109579
-      },
-      "context": {
-        "atr": 0.0005142860861940781,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 7.488027428452703,
-        "btc_hour_pct": -0.15720036078351596,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IDOLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793527200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IDOLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2001ee57a6ec2a3e74d07beb",
-      "asset_id": "5c38bfef0c8566164e0084f6",
-      "key": "MEXC:SPOT:CRVUSDT",
-      "symbol": "CRVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793528067746,
-      "price": 0.28500000000000003,
-      "level": 0.2864,
-      "invalid": 0.2829211595867377,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2864,
-        "base_invalid": 0.2829211595867377,
-        "atr": 0.0011922694217490293,
-        "rvol": 6.220428267690327,
-        "close_position": 0.8666666666666815,
-        "breakout": false,
-        "bar_close_ms": 1793527200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.070175438596487,
-        "score": 7.366666666666681
-      },
-      "context": {
-        "atr": 0.0011922694217490293,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.08702492218702895,
-        "btc_hour_pct": -0.15720036078351596,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CRVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793527200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CRVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "daea04fd7c60cdf6b0533639",
-      "asset_id": "9c42ce0f8e2570211bc09b7f",
-      "key": "OKX:SPOT:WINUSDT",
-      "symbol": "WINUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793528066248,
-      "price": 6.9695e-05,
-      "level": 7.078e-05,
-      "invalid": 6.927161080295502e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.078e-05,
-        "base_invalid": 6.927161080295502e-05,
-        "atr": 5.892613136331955e-07,
-        "rvol": 3.378842117060313,
-        "close_position": 0.8666666666666486,
-        "breakout": false,
-        "bar_close_ms": 1793527200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.7395818517991759,
-        "score": 4.745508783726962
-      },
-      "context": {
-        "atr": 5.892613136331955e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5799317781735147,
-        "btc_hour_pct": -0.1596500736256612,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793527200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1580059,6 +1579906,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793527482626
+    },
+    {
+      "id": "32df69a252ad42e538ff7246",
+      "asset_id": "72825416a4836f8c6b7eaa4b",
+      "key": "MEXC:SPOT:IDOLUSDT",
+      "symbol": "IDOLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793528067746,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793528078194
+    },
+    {
+      "id": "2001ee57a6ec2a3e74d07beb",
+      "asset_id": "5c38bfef0c8566164e0084f6",
+      "key": "MEXC:SPOT:CRVUSDT",
+      "symbol": "CRVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793528067746,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793528078194
+    },
+    {
+      "id": "daea04fd7c60cdf6b0533639",
+      "asset_id": "9c42ce0f8e2570211bc09b7f",
+      "key": "OKX:SPOT:WINUSDT",
+      "symbol": "WINUSDT",
+      "phase": "radar",
+      "observed_ms": 1793528066248,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793528078194
     }
   ],
   "runs": [
@@ -1633055,7 +1632935,8 @@
         "entry_seq": 0,
         "cohort": "IDOLUSDT",
         "observation_lag_ms": 867746,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10448
       },
       "5c38bfef0c8566164e0084f6:radar": {
         "symbol": "CRVUSDT",
@@ -1633077,7 +1632958,8 @@
         "entry_seq": 0,
         "cohort": "CRVUSDT",
         "observation_lag_ms": 867746,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10448
       },
       "9c42ce0f8e2570211bc09b7f:radar": {
         "symbol": "WINUSDT",
@@ -1633099,7 +1632981,8 @@
         "entry_seq": 0,
         "cohort": "WINUSDT",
         "observation_lag_ms": 866248,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11946
       }
     },
     "errors": [],
@@ -1659130,8 +1659013,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c57844345736433233aa73fb4b686cb5326dcd67",
-    "previous_success_ms": 1793527793050,
+    "previous_commit": "47cc688990e4e04dc2d8988b2e1391cc8ead7993",
+    "previous_success_ms": 1793528077289,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
