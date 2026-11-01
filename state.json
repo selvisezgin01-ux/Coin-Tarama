@@ -1301618,164 +1301618,7 @@
       "source_close_ms": 1793571300000
     }
   },
-  "pending": [
-    {
-      "id": "fd000bd4bbb6875ae8d8b8bb",
-      "asset_id": "55c3fc47fd7d3cbf5fba3238",
-      "key": "OKX:SPOT:1INCHUSDT",
-      "symbol": "1INCHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793571449868,
-      "price": 0.08143,
-      "level": 0.08197,
-      "invalid": 0.08128690435174288,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08197,
-        "base_invalid": 0.08128690435174288,
-        "atr": 0.00035397098838073815,
-        "rvol": 54.881791034163435,
-        "close_position": 0.9117647058823464,
-        "breakout": true,
-        "bar_close_ms": 1793569500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5135730007336692,
-        "score": 7.911764705882346
-      },
-      "context": {
-        "atr": 0.00034702232207295197,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.09138769726045881,
-        "btc_hour_pct": -0.018100778975360665,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:1INCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "1INCHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "178b34747fd33a54c1368b8b",
-      "asset_id": "0382e7c86dcc5a3994856d71",
-      "key": "OKX:PERP:1INCHUSDT",
-      "symbol": "1INCHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793571449099,
-      "price": 0.0813,
-      "level": 0.0819,
-      "invalid": 0.08115715780843326,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0819,
-        "base_invalid": 0.08115715780843326,
-        "atr": 0.00041894794377829973,
-        "rvol": 3.044604838700425,
-        "close_position": 0.9047619047618984,
-        "breakout": true,
-        "bar_close_ms": 1793569500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5510653930933307,
-        "score": 4.949366743462324
-      },
-      "context": {
-        "atr": 0.0004103827256482692,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06621302081649683,
-        "btc_hour_pct": -0.01733716548902864,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:1INCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "1INCHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2cce9e19621c2659719629e3",
-      "asset_id": "f061e976f539b2ea2209bdac",
-      "key": "OKX:PERP:AKEUSDT",
-      "symbol": "AKEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793571449099,
-      "price": 0.009085,
-      "level": 0.00919,
-      "invalid": 0.00878693076691614,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00919,
-        "base_invalid": 0.00878693076691614,
-        "atr": 0.00015379488722573942,
-        "rvol": 2.2138222580921583,
-        "close_position": 0.7727272727272738,
-        "breakout": true,
-        "bar_close_ms": 1793569500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.36241610738255,
-        "score": 3.986549530819432
-      },
-      "context": {
-        "atr": 0.00016074796384292833,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.151415377779532,
-        "btc_hour_pct": -0.01733716548902864,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AKEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1309905,6 +1309748,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793570561841
+    },
+    {
+      "id": "fd000bd4bbb6875ae8d8b8bb",
+      "asset_id": "55c3fc47fd7d3cbf5fba3238",
+      "key": "OKX:SPOT:1INCHUSDT",
+      "symbol": "1INCHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793571449868,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793571459376
+    },
+    {
+      "id": "178b34747fd33a54c1368b8b",
+      "asset_id": "0382e7c86dcc5a3994856d71",
+      "key": "OKX:PERP:1INCHUSDT",
+      "symbol": "1INCHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793571449099,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793571459376
+    },
+    {
+      "id": "2cce9e19621c2659719629e3",
+      "asset_id": "f061e976f539b2ea2209bdac",
+      "key": "OKX:PERP:AKEUSDT",
+      "symbol": "AKEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793571449099,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793571459376
     }
   ],
   "runs": [
@@ -1404227,8 +1404103,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3da262e0c38302b3a1eff93d9fd9c24bac3e329c",
-    "previous_success_ms": 1793571167427,
+    "previous_commit": "008af8d1c4e0b1933da8975f7f048f78f3ee6b8a",
+    "previous_success_ms": 1793571458229,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
