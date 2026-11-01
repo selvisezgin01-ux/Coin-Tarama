@@ -1528232,60 +1528232,7 @@
       "source_close_ms": 1793497500000
     }
   },
-  "pending": [
-    {
-      "id": "ad237f45c8eee8539256b2ec",
-      "asset_id": "360fe13b17a3621237f4387d",
-      "key": "OKX:SPOT:FLRUSDT",
-      "symbol": "FLRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793498081239,
-      "price": 0.0060475,
-      "level": 0.006074,
-      "invalid": 0.0060039949292308974,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006074,
-        "base_invalid": 0.0060039949292308974,
-        "atr": 1.3367138460684781e-05,
-        "rvol": 3.881831038894724,
-        "close_position": 0.7142857142856789,
-        "breakout": false,
-        "bar_close_ms": 1793497500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.01652892561982977,
-        "score": 5.096116753180403
-      },
-      "context": {
-        "atr": 1.3367138460684781e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.009599027210005495,
-        "btc_hour_pct": 0.1420055151279076,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793497500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1533632,6 +1533579,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793497798176
+    },
+    {
+      "id": "ad237f45c8eee8539256b2ec",
+      "asset_id": "360fe13b17a3621237f4387d",
+      "key": "OKX:SPOT:FLRUSDT",
+      "symbol": "FLRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793498081239,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793498093582
     }
   ],
   "runs": [
@@ -1575626,7 +1575584,8 @@
         "entry_seq": 0,
         "cohort": "FLRUSDT",
         "observation_lag_ms": 581239,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12343
       }
     },
     "errors": [],
@@ -1601423,8 +1601382,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e87eaa5c42420be1024dd43f16da2f59b7dbfca6",
-    "previous_success_ms": 1793497815458,
+    "previous_commit": "be9847e3601bfc00ec61d4ba0dfe89cfe70fd66a",
+    "previous_success_ms": 1793498092652,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
