@@ -1582787,8 +1582787,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c5861bd6ff085d273c0166eef15b60ff77558680",
-    "previous_success_ms": 1793492580951,
+    "previous_commit": "255481be28656722c50048665865e8739917ca1b",
+    "previous_success_ms": 1793492852266,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
