@@ -1597782,196 +1597782,7 @@
       "source_close_ms": 1793548800000
     }
   },
-  "pending": [
-    {
-      "id": "adf66e21468151c1c321afdf",
-      "asset_id": "379e9ce3e298dac342dc082d",
-      "key": "OKX:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_continuing",
-      "observed_ms": 1793549046283,
-      "price": 0.31281499999999995,
-      "level": 0.30485,
-      "invalid": 0.305430121874828,
-      "target": 0.3214832812503442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.30485,
-        "base_invalid": 0.300260121874828,
-        "atr": 0.0021325208344800542,
-        "rvol": 2.8939350909032564,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9926272790674604,
-        "score": 4.893935090903256
-      },
-      "context": {
-        "atr": 0.0006379935478644297,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5888357263737709,
-        "btc_hour_pct": -0.0840937234803385,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.305430121874828,
-        "target": 0.3214832812503442,
-        "risk_pct": 1.2304163905030319,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.32328,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.30861,
-        "entry_zone_high": 0.3098757066083311
-      },
-      "reason": null,
-      "source_close_ms": 1793548800000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "TRXUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793548800000,
-        "closed_price": 0.31262,
-        "ema20_1h": 0.311084953132558,
-        "atr14_1h": 0.002582516923760817,
-        "structure_floor": 0.31043,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "8ca09dbe4ad7668e6fd75030",
-      "asset_id": "6abebc48eb00cedb18f36800",
-      "key": "OKX:PERP:1INCHUSDT",
-      "symbol": "1INCHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_weakening",
-      "observed_ms": 1793549046283,
-      "price": 0.08324000000000001,
-      "level": 0.08214,
-      "invalid": 0.08204347908951516,
-      "target": 0.08513294182096967,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08214,
-        "base_invalid": 0.08039347908951515,
-        "atr": 0.0003768060698989241,
-        "rvol": 3.5504893882331334,
-        "close_position": 0.8292682926829565,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5506607929515406,
-        "score": 5.37975768091609
-      },
-      "context": {
-        "atr": 0.0005308428939014062,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.2682194437794503,
-        "btc_hour_pct": -0.0840937234803385,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:1INCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.08204347908951516,
-        "target": 0.08513294182096967,
-        "risk_pct": 0.7458515732940185,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.0891,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.08258,
-        "entry_zone_high": 0.08277264942827664
-      },
-      "reason": null,
-      "source_close_ms": 1793548800000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "1INCHUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793548800000,
-        "closed_price": 0.08316,
-        "ema20_1h": 0.08242846527203307,
-        "atr14_1h": 0.0009623260185783223,
-        "structure_floor": 0.08204347908951516,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "b25b5cbf8727dba41d0111f3",
-      "asset_id": "a4c6945136df7b62c922afc2",
-      "key": "OKX:PERP:EGLDUSDT",
-      "symbol": "EGLDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793549046283,
-      "price": 3.4530000000000003,
-      "level": 3.463,
-      "invalid": 3.405939387171969,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.463,
-        "base_invalid": 3.405939387171969,
-        "atr": 0.013737418853539119,
-        "rvol": 3.8135369334417,
-        "close_position": 0.8695652173913001,
-        "breakout": true,
-        "bar_close_ms": 1793543400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6092254134029584,
-        "score": 5.683102150833
-      },
-      "context": {
-        "atr": 0.013922575378330748,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.31983010802573153,
-        "btc_hour_pct": -0.0840937234803385,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:EGLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793543400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EGLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1605309,6 +1605120,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793548258081
+    },
+    {
+      "id": "adf66e21468151c1c321afdf",
+      "asset_id": "379e9ce3e298dac342dc082d",
+      "key": "OKX:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "trend_continuing",
+      "observed_ms": 1793549046283,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793549056032
+    },
+    {
+      "id": "8ca09dbe4ad7668e6fd75030",
+      "asset_id": "6abebc48eb00cedb18f36800",
+      "key": "OKX:PERP:1INCHUSDT",
+      "symbol": "1INCHUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793549046283,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793549056032
+    },
+    {
+      "id": "b25b5cbf8727dba41d0111f3",
+      "asset_id": "a4c6945136df7b62c922afc2",
+      "key": "OKX:PERP:EGLDUSDT",
+      "symbol": "EGLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793549046283,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793549056032
     }
   ],
   "runs": [
@@ -1691742,8 +1691586,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2a1ba1d4ccc4c7edae3422d0c3bc9bcc0f2f1798",
-    "previous_success_ms": 1793549026274,
+    "previous_commit": "157cbafae5a2c9571811c835790d809f94ecf660",
+    "previous_success_ms": 1793549054922,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
