@@ -1571541,58 +1571541,7 @@
       "source_close_ms": 1793524500000
     }
   },
-  "pending": [
-    {
-      "id": "de8a04022bf731855cb622c0",
-      "asset_id": "818bacd85fcc4706542be2f7",
-      "key": "MEXC:SPOT:HYPEUSDT",
-      "symbol": "HYPEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793524770731,
-      "price": 87.69,
-      "level": 88.13,
-      "invalid": 87.11267024945975,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 88.13,
-        "base_invalid": 87.11267024945975,
-        "atr": 0.31553167026823814,
-        "rvol": 4.792170208863216,
-        "close_position": 0.9666666666666492,
-        "breakout": true,
-        "bar_close_ms": 1793523600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8454244259111121,
-        "score": 6.758836875529865
-      },
-      "context": {
-        "atr": 0.3144276697355584,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.45287018578625826,
-        "btc_hour_pct": 0.39255424012485385,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HYPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793523600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HYPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1578006,6 +1577955,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793524475973
+    },
+    {
+      "id": "de8a04022bf731855cb622c0",
+      "asset_id": "818bacd85fcc4706542be2f7",
+      "key": "MEXC:SPOT:HYPEUSDT",
+      "symbol": "HYPEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793524770731,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793524781808
     }
   ],
   "runs": [
@@ -1655948,8 +1655908,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "244b131f7a6fc610fb4324857ca4ae5f7a7ed91e",
-    "previous_success_ms": 1793524494393,
+    "previous_commit": "b7b664f914f96527ff1c5df4c5d29fda05519bf2",
+    "previous_success_ms": 1793524780967,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
