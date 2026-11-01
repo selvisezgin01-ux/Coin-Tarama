@@ -1349625,112 +1349625,7 @@
       "source_close_ms": 1793573100000
     }
   },
-  "pending": [
-    {
-      "id": "7efa50dd5d420b4a4605c00b",
-      "asset_id": "fdd6f8bb3a203cdcb477b257",
-      "key": "OKX:PERP:BNBUSDT",
-      "symbol": "BNBUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793575350701,
-      "price": 709.245,
-      "level": 708.49,
-      "invalid": 703.9534429490637,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 708.49,
-        "base_invalid": 703.9534429490637,
-        "atr": 1.4437136729084177,
-        "rvol": 4.453816662936714,
-        "close_position": 0.7573770491803212,
-        "breakout": false,
-        "bar_close_ms": 1793574900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2689846537176521,
-        "score": 5.711193712117035
-      },
-      "context": {
-        "atr": 1.4437136729084177,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.11466510595665724,
-        "btc_hour_pct": -0.08605863033194217,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BNBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BNBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3e70886b36053d0033e9280f",
-      "asset_id": "54b816f794df54cfee97bc42",
-      "key": "MEXC:SPOT:BNBUSDT",
-      "symbol": "BNBUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793575346591,
-      "price": 709.575,
-      "level": 708.91,
-      "invalid": 704.6228863547759,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 708.91,
-        "base_invalid": 704.6228863547759,
-        "atr": 1.314090968160999,
-        "rvol": 2.6058243436879374,
-        "close_position": 0.8376383763837458,
-        "breakout": false,
-        "bar_close_ms": 1793574900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.28865745981434543,
-        "score": 3.9434627200716834
-      },
-      "context": {
-        "atr": 1.314090968160999,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.10369496884713447,
-        "btc_hour_pct": -0.08561334941687981,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BNBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BNBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1358069,6 +1357964,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793575062185
+    },
+    {
+      "id": "7efa50dd5d420b4a4605c00b",
+      "asset_id": "fdd6f8bb3a203cdcb477b257",
+      "key": "OKX:PERP:BNBUSDT",
+      "symbol": "BNBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793575350701,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793575360726
+    },
+    {
+      "id": "3e70886b36053d0033e9280f",
+      "asset_id": "54b816f794df54cfee97bc42",
+      "key": "MEXC:SPOT:BNBUSDT",
+      "symbol": "BNBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793575346591,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793575360726
     }
   ],
   "runs": [
@@ -1427782,7 +1427699,8 @@
         "entry_seq": 0,
         "cohort": "BNBUSDT",
         "observation_lag_ms": 450701,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10025
       },
       "d73e9c609aa2eacb89783b91:radar": {
         "symbol": "ZBCNUSDT",
@@ -1427826,7 +1427744,8 @@
         "entry_seq": 0,
         "cohort": "BNBUSDT",
         "observation_lag_ms": 446591,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14135
       }
     },
     "errors": [],
@@ -1453872,8 +1453791,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8c0940df1b9cde4baf3d7bdc2626589a30e03f1b",
-    "previous_success_ms": 1793575082697,
+    "previous_commit": "9224215a86748ae06e226add361070da29b80989",
+    "previous_success_ms": 1793575359474,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
