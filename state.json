@@ -1215957,164 +1215957,7 @@
       "source_close_ms": 1793564100000
     }
   },
-  "pending": [
-    {
-      "id": "ccd10829006a8698da842277",
-      "asset_id": "ad397afccb9244369690b7fe",
-      "key": "OKX:SPOT:SUIUSDT",
-      "symbol": "SUIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793566134941,
-      "price": 0.89645,
-      "level": 0.8995,
-      "invalid": 0.8855118445043946,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.8995,
-        "base_invalid": 0.8855118445043946,
-        "atr": 0.0032543699707029508,
-        "rvol": 11.3751378234325,
-        "close_position": 0.81818181818182,
-        "breakout": false,
-        "bar_close_ms": 1793565900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5723905723905798,
-        "score": 7.31818181818182
-      },
-      "context": {
-        "atr": 0.0032543699707029508,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.17497298968577324,
-        "btc_hour_pct": -0.09348338615315921,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SUIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793565900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "441f6520406333f02ddac696",
-      "asset_id": "2668a9543394671f7b69f994",
-      "key": "OKX:PERP:SIGNUSDT",
-      "symbol": "SIGNUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793566135216,
-      "price": 0.010291,
-      "level": 0.010307,
-      "invalid": 0.010205454154953919,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.010307,
-        "base_invalid": 0.010205454154953919,
-        "atr": 3.0305633640543476e-05,
-        "rvol": 5.087647589042876,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793565900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6943086250733366,
-        "score": 6.587647589042876
-      },
-      "context": {
-        "atr": 3.0305633640543476e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3234225076278019,
-        "btc_hour_pct": -0.10417710364528654,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SIGNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793565900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SIGNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aee7c741c90d42054301e838",
-      "asset_id": "15e9d9e9136e2946f2e8d141",
-      "key": "OKX:SPOT:PENDLEUSDT",
-      "symbol": "PENDLEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793566134941,
-      "price": 1.8475000000000001,
-      "level": 1.84,
-      "invalid": 1.8171029437137003,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.84,
-        "base_invalid": 1.8171029437137003,
-        "atr": 0.005980375241998558,
-        "rvol": 2.9977275737026807,
-        "close_position": 0.8333333333333518,
-        "breakout": true,
-        "bar_close_ms": 1793565900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9304871373837065,
-        "score": 4.831060907036033
-      },
-      "context": {
-        "atr": 0.005980375241998558,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.07018273495976723,
-        "btc_hour_pct": -0.09348338615315921,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PENDLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793565900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PENDLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1224068,6 +1223911,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793565841497
+    },
+    {
+      "id": "ccd10829006a8698da842277",
+      "asset_id": "ad397afccb9244369690b7fe",
+      "key": "OKX:SPOT:SUIUSDT",
+      "symbol": "SUIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793566134941,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793566144665
+    },
+    {
+      "id": "441f6520406333f02ddac696",
+      "asset_id": "2668a9543394671f7b69f994",
+      "key": "OKX:PERP:SIGNUSDT",
+      "symbol": "SIGNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793566135216,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793566144666
+    },
+    {
+      "id": "aee7c741c90d42054301e838",
+      "asset_id": "15e9d9e9136e2946f2e8d141",
+      "key": "OKX:SPOT:PENDLEUSDT",
+      "symbol": "PENDLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793566134941,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793566144666
     }
   ],
   "runs": [
@@ -1290426,7 +1290302,8 @@
         "entry_seq": 0,
         "cohort": "SUIUSDT",
         "observation_lag_ms": 234941,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9724
       },
       "2668a9543394671f7b69f994:radar": {
         "symbol": "SIGNUSDT",
@@ -1290448,7 +1290325,8 @@
         "entry_seq": 0,
         "cohort": "SIGNUSDT",
         "observation_lag_ms": 235216,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9450
       },
       "15e9d9e9136e2946f2e8d141:radar": {
         "symbol": "PENDLEUSDT",
@@ -1290470,7 +1290348,8 @@
         "entry_seq": 0,
         "cohort": "PENDLEUSDT",
         "observation_lag_ms": 234941,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9725
       }
     },
     "errors": [],
@@ -1316500,8 +1316379,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2ea93fa2b2067079a414ec7524223b22c2e6b29d",
-    "previous_success_ms": 1793565862953,
+    "previous_commit": "c703e356fa332ab7580ff1df964972591411a083",
+    "previous_success_ms": 1793566143159,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
