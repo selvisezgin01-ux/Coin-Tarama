@@ -1601073,116 +1601073,7 @@
       "source_close_ms": 1793542500000
     }
   },
-  "pending": [
-    {
-      "id": "61be498369f417c9f2e9cde6",
-      "asset_id": "74d5e99c068bd4aad0422ba9",
-      "key": "MEXC:PERP:FOGOUSDT",
-      "symbol": "FOGOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793542551199,
-      "price": 0.0026215,
-      "level": 0.002626,
-      "invalid": 0.0025748658781571104,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002626,
-        "base_invalid": 0.0025748658781571104,
-        "atr": 2.0894145619263725e-05,
-        "rvol": 2.517755065016811,
-        "close_position": 0.711340206185564,
-        "breakout": true,
-        "bar_close_ms": 1793535300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0396306271642803,
-        "score": 4.229095271202375
-      },
-      "context": {
-        "atr": 2.772238940134224e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.7243372917660214,
-        "btc_hour_pct": 0.1829008276776234,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FOGOUSDT",
-          "change_pct": -0.296378421659238,
-          "old_ms": 1793539070505,
-          "current_ms": 1793542549470,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793535300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FOGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1e8b0ede42a1ee4302823eff",
-      "asset_id": "10a882e979cf9182ed2d6d47",
-      "key": "OKX:PERP:ROBOUSDT",
-      "symbol": "ROBOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793542551814,
-      "price": 0.005136,
-      "level": 0.005041,
-      "invalid": 0.004967829760324669,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005041,
-        "base_invalid": 0.004967829760324669,
-        "atr": 2.7801597835544057e-05,
-        "rvol": 3.1632424238544736,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793536200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.21991203518592073,
-        "score": 4.663242423854474
-      },
-      "context": {
-        "atr": 2.8853725489667954e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5344453712135877,
-        "btc_hour_pct": 0.17533380859713343,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ROBOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793536200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ROBOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1608212,6 +1608103,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793541803328
+    },
+    {
+      "id": "61be498369f417c9f2e9cde6",
+      "asset_id": "74d5e99c068bd4aad0422ba9",
+      "key": "MEXC:PERP:FOGOUSDT",
+      "symbol": "FOGOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793542551199,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793542562933
+    },
+    {
+      "id": "1e8b0ede42a1ee4302823eff",
+      "asset_id": "10a882e979cf9182ed2d6d47",
+      "key": "OKX:PERP:ROBOUSDT",
+      "symbol": "ROBOUSDT",
+      "phase": "expired",
+      "observed_ms": 1793542551814,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793542562933
     }
   ],
   "runs": [
@@ -1692382,8 +1692295,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9b76cc7dec1df5e77173ca93d63f1e7be2846d53",
-    "previous_success_ms": 1793542276637,
+    "previous_commit": "6fafd58da93cca57a36b611902ad42b9ed177d62",
+    "previous_success_ms": 1793542561817,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
