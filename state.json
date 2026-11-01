@@ -1541566,116 +1541566,7 @@
       "source_close_ms": 1793511000000
     }
   },
-  "pending": [
-    {
-      "id": "1d22f49ccfcfb1c767e9b6b5",
-      "asset_id": "f678273bd5100e61687d3c26",
-      "key": "MEXC:PERP:ACEUSDT",
-      "symbol": "ACEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793512467708,
-      "price": 0.136775,
-      "level": 0.13688,
-      "invalid": 0.13551874249851747,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13688,
-        "base_invalid": 0.13551874249851747,
-        "atr": 0.0005417166765500689,
-        "rvol": 5.853976709903921,
-        "close_position": 0.9857142857143106,
-        "breakout": false,
-        "bar_close_ms": 1793511900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.31524926686217203,
-        "score": 7.3396909956182315
-      },
-      "context": {
-        "atr": 0.0005417166765500689,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1474239253076215,
-        "btc_hour_pct": 0.021992692252781332,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ACEUSDT",
-          "change_pct": 0.226011757624911,
-          "old_ms": 1793508853437,
-          "current_ms": 1793512466342,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793511900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "250ef235dca4ec7ea97faf8f",
-      "asset_id": "708f52d1cfb868d40ea0fb8b",
-      "key": "OKX:SPOT:AVNTUSDT",
-      "symbol": "AVNTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793512466607,
-      "price": 0.093755,
-      "level": 0.09336,
-      "invalid": 0.09277037298424667,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09336,
-        "base_invalid": 0.09277037298424667,
-        "atr": 0.0003308467716888642,
-        "rvol": 3.534928897523916,
-        "close_position": 0.9130434782608708,
-        "breakout": true,
-        "bar_close_ms": 1793511900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7102884201463544,
-        "score": 5.447972375784786
-      },
-      "context": {
-        "atr": 0.0003308467716888642,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09849643829101806,
-        "btc_hour_pct": 0.023276150304774035,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AVNTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793511900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVNTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1547605,6 +1547496,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793511281003
+    },
+    {
+      "id": "1d22f49ccfcfb1c767e9b6b5",
+      "asset_id": "f678273bd5100e61687d3c26",
+      "key": "MEXC:PERP:ACEUSDT",
+      "symbol": "ACEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793512467708,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793512478531
+    },
+    {
+      "id": "250ef235dca4ec7ea97faf8f",
+      "asset_id": "708f52d1cfb868d40ea0fb8b",
+      "key": "OKX:SPOT:AVNTUSDT",
+      "symbol": "AVNTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793512466607,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793512478531
     }
   ],
   "runs": [
@@ -1594867,7 +1594780,8 @@
         "entry_seq": 0,
         "cohort": "ACEUSDT",
         "observation_lag_ms": 567708,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10823
       },
       "708f52d1cfb868d40ea0fb8b:radar": {
         "symbol": "AVNTUSDT",
@@ -1594889,7 +1594803,8 @@
         "entry_seq": 0,
         "cohort": "AVNTUSDT",
         "observation_lag_ms": 566607,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11924
       }
     },
     "errors": [],
@@ -1620917,8 +1620832,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a07c1958c4005a141ed4c84833ca2c34654a0bf6",
-    "previous_success_ms": 1793512203372,
+    "previous_commit": "9e48ad024b0d10bb4da11325f4d67155514dc5b3",
+    "previous_success_ms": 1793512477362,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
