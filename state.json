@@ -1528088,60 +1528088,7 @@
       "source_close_ms": 1793506500000
     }
   },
-  "pending": [
-    {
-      "id": "e41c1781e44542ac958a8fc2",
-      "asset_id": "5df4a42a9d24ac0cdd23e977",
-      "key": "OKX:SPOT:TRUMPUSDT",
-      "symbol": "TRUMPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793506600128,
-      "price": 1.5885,
-      "level": 1.582,
-      "invalid": 1.5723588344085535,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.582,
-        "base_invalid": 1.5723588344085535,
-        "atr": 0.004274437276309276,
-        "rvol": 3.038932508095542,
-        "close_position": 0.6000000000000089,
-        "breakout": false,
-        "bar_close_ms": 1793493900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.19023462270133518,
-        "score": 4.138932508095551
-      },
-      "context": {
-        "atr": 0.004643265975379543,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4261525264546373,
-        "btc_hour_pct": 0.07953647480958281,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:TRUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793493900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1533884,6 +1533831,17 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793506304859
+    },
+    {
+      "id": "e41c1781e44542ac958a8fc2",
+      "asset_id": "5df4a42a9d24ac0cdd23e977",
+      "key": "OKX:SPOT:TRUMPUSDT",
+      "symbol": "TRUMPUSDT",
+      "phase": "expired",
+      "observed_ms": 1793506600128,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793506610560
     }
   ],
   "runs": [
@@ -1604989,8 +1604947,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "48c21f8212beeae2c06c106ac21dca47f9e56197",
-    "previous_success_ms": 1793506320807,
+    "previous_commit": "8730b99913dfc7bab3402d681f89008cd7dfc382",
+    "previous_success_ms": 1793506609512,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
