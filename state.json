@@ -1526087,60 +1526087,7 @@
       "source_close_ms": 1793496600000
     }
   },
-  "pending": [
-    {
-      "id": "9bf077651934f688984e65eb",
-      "asset_id": "1df22a06b89cfb26c87fbcf4",
-      "key": "OKX:SPOT:BETHUSDT",
-      "symbol": "BETHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793497183933,
-      "price": 2268.45,
-      "level": 2263.1,
-      "invalid": 2251.6101810569207,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2263.1,
-        "base_invalid": 2251.6101810569207,
-        "atr": 2.5987929538617323,
-        "rvol": 15.45705914896471,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793496600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5011530956182231,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 2.5987929538617323,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1950831036958256,
-        "btc_hour_pct": 0.1420055151279076,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BETHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793496600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BETHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1531432,6 +1531379,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793496896622
+    },
+    {
+      "id": "9bf077651934f688984e65eb",
+      "asset_id": "1df22a06b89cfb26c87fbcf4",
+      "key": "OKX:SPOT:BETHUSDT",
+      "symbol": "BETHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793497183933,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793497193952
     }
   ],
   "runs": [
@@ -1573030,7 +1572988,8 @@
         "entry_seq": 0,
         "cohort": "BETHUSDT",
         "observation_lag_ms": 583933,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10019
       }
     },
     "errors": [],
@@ -1598783,8 +1598742,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e68b9b300f831ddf990b99795ebb55c012168763",
-    "previous_success_ms": 1793496914408,
+    "previous_commit": "e96569dd78b3a70131c4ced0b7479664980361fb",
+    "previous_success_ms": 1793497193042,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
