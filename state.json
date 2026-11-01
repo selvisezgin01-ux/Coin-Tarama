@@ -1588597,166 +1588597,7 @@
       "source_close_ms": 1793534400000
     }
   },
-  "pending": [
-    {
-      "id": "dcac1f097a5487ae76ad69e4",
-      "asset_id": "2e00851585e7ff5ccdebe7b1",
-      "key": "MEXC:SPOT:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793536080900,
-      "price": 0.0013615,
-      "level": 0.001372,
-      "invalid": 0.0013279567886025807,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001372,
-        "base_invalid": 0.0013279567886025807,
-        "atr": 2.0288075982795284e-05,
-        "rvol": 14.968813856141473,
-        "close_position": 0.6938775510204118,
-        "breakout": false,
-        "bar_close_ms": 1793535300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.2583271650629335,
-        "score": 7.193877551020412
-      },
-      "context": {
-        "atr": 2.0288075982795284e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2742336593060335,
-        "btc_hour_pct": -0.09395485321237462,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793535300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOPHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8943ade759837019eb0e2a6b",
-      "asset_id": "b936ca1a76de0a66b5269fa4",
-      "key": "OKX:PERP:PIEVERSEUSDT",
-      "symbol": "PIEVERSEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793536080611,
-      "price": 1.06305,
-      "level": 1.0538,
-      "invalid": 1.0394295038050223,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.0538,
-        "base_invalid": 1.0394295038050223,
-        "atr": 0.0051366412998517935,
-        "rvol": 3.849109414370914,
-        "close_position": 0.7067669172932339,
-        "breakout": true,
-        "bar_close_ms": 1793535300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4348574708245465,
-        "score": 5.555876331664148
-      },
-      "context": {
-        "atr": 0.0051366412998517935,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5115509699812115,
-        "btc_hour_pct": -0.08142288739663162,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PIEVERSEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793535300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PIEVERSEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4a853150d0cc1c3e9840e8ba",
-      "asset_id": "74d5e99c068bd4aad0422ba9",
-      "key": "MEXC:PERP:FOGOUSDT",
-      "symbol": "FOGOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793536081452,
-      "price": 0.0026925,
-      "level": 0.002626,
-      "invalid": 0.0025748658781571104,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002626,
-        "base_invalid": 0.0025748658781571104,
-        "atr": 2.0894145619263725e-05,
-        "rvol": 2.517755065016811,
-        "close_position": 0.711340206185564,
-        "breakout": true,
-        "bar_close_ms": 1793535300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0396306271642803,
-        "score": 4.229095271202375
-      },
-      "context": {
-        "atr": 2.0894145619263725e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2905857868089945,
-        "btc_hour_pct": -0.09872085971766031,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FOGOUSDT",
-          "change_pct": 0.3616227345874634,
-          "old_ms": 1793532375478,
-          "current_ms": 1793536079504,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793535300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FOGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1595610,6 +1595451,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793535497459
+    },
+    {
+      "id": "dcac1f097a5487ae76ad69e4",
+      "asset_id": "2e00851585e7ff5ccdebe7b1",
+      "key": "MEXC:SPOT:SOPHUSDT",
+      "symbol": "SOPHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793536080900,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793536092356
+    },
+    {
+      "id": "8943ade759837019eb0e2a6b",
+      "asset_id": "b936ca1a76de0a66b5269fa4",
+      "key": "OKX:PERP:PIEVERSEUSDT",
+      "symbol": "PIEVERSEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793536080611,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793536092356
+    },
+    {
+      "id": "4a853150d0cc1c3e9840e8ba",
+      "asset_id": "74d5e99c068bd4aad0422ba9",
+      "key": "MEXC:PERP:FOGOUSDT",
+      "symbol": "FOGOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793536081452,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793536092357
     }
   ],
   "runs": [
@@ -1651517,7 +1651391,8 @@
         "entry_seq": 0,
         "cohort": "SOPHUSDT",
         "observation_lag_ms": 780900,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11456
       },
       "b936ca1a76de0a66b5269fa4:radar": {
         "symbol": "PIEVERSEUSDT",
@@ -1651539,7 +1651414,8 @@
         "entry_seq": 0,
         "cohort": "PIEVERSEUSDT",
         "observation_lag_ms": 780611,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11745
       },
       "74d5e99c068bd4aad0422ba9:radar": {
         "symbol": "FOGOUSDT",
@@ -1651561,7 +1651437,8 @@
         "entry_seq": 0,
         "cohort": "FOGOUSDT",
         "observation_lag_ms": 781452,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10905
       }
     },
     "errors": [],
@@ -1677589,8 +1677466,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0ef99753a7677c9eb901750d5cfd890c2d776339",
-    "previous_success_ms": 1793535813850,
+    "previous_commit": "24d9bdffde58035473613cb3fa67442b972654c1",
+    "previous_success_ms": 1793536091318,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
