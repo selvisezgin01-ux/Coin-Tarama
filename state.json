@@ -1547659,268 +1547659,7 @@
       "source_close_ms": 1793516400000
     }
   },
-  "pending": [
-    {
-      "id": "afd0dd85333dd544ba631543",
-      "asset_id": "360fe13b17a3621237f4387d",
-      "key": "OKX:SPOT:FLRUSDT",
-      "symbol": "FLRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793516462116,
-      "price": 0.0060775,
-      "level": 0.006074,
-      "invalid": 0.0060039949292308974,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006074,
-        "base_invalid": 0.0060039949292308974,
-        "atr": 1.3367138460684781e-05,
-        "rvol": 3.881831038894724,
-        "close_position": 0.7142857142856789,
-        "breakout": false,
-        "bar_close_ms": 1793497500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.01652892561982977,
-        "score": 5.096116753180403
-      },
-      "context": {
-        "atr": 1.2041791950709725e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.2678820229812806,
-        "btc_hour_pct": 0.11992871047101783,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793497500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0bf6242e4397b2646f66b2aa",
-      "asset_id": "153970c23580b54bf40a4dad",
-      "key": "MEXC:PERP:GTCUSDT",
-      "symbol": "GTCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793516467064,
-      "price": 0.225335,
-      "level": 0.22518,
-      "invalid": 0.219395898479918,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.22518,
-        "base_invalid": 0.219395898479918,
-        "atr": 0.002560676800546775,
-        "rvol": 7.363102897735531,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793511000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.229283629014157,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.003020162526441711,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -3.4153035182518665,
-        "btc_hour_pct": 0.12648377669000066,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GTCUSDT",
-          "change_pct": -0.42426266039256033,
-          "old_ms": 1793512753320,
-          "current_ms": 1793516464142,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.1083,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793511000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GTCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "52b85b7080c14d3c622f3330",
-      "asset_id": "affd4789c995e3fd8e572ff9",
-      "key": "OKX:PERP:AZTECUSDT",
-      "symbol": "AZTECUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793516462242,
-      "price": 0.01494,
-      "level": 0.01487,
-      "invalid": 0.014707710979282492,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01487,
-        "base_invalid": 0.014707710979282492,
-        "atr": 8.192680478338863e-05,
-        "rvol": 21.612376625437143,
-        "close_position": 0.7499999999999984,
-        "breakout": true,
-        "bar_close_ms": 1793514600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5625,
-        "score": 7.749999999999998
-      },
-      "context": {
-        "atr": 8.489415873538821e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.231570398211801,
-        "btc_hour_pct": 0.1234431519236967,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AZTECUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793514600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AZTECUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a435cac4bb9e15b4ef4a4f59",
-      "asset_id": "e39d04a9b6b790cb4b1c2dcb",
-      "key": "OKX:SPOT:LINKUSDT",
-      "symbol": "LINKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793516462116,
-      "price": 11.750499999999999,
-      "level": 11.689,
-      "invalid": 11.580905392156561,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 11.689,
-        "base_invalid": 11.580905392156561,
-        "atr": 0.05396405228959322,
-        "rvol": 4.700542461399685,
-        "close_position": 0.8421052631578898,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7884813164209747,
-        "score": 6.542647724557575
-      },
-      "context": {
-        "atr": 0.05396405228959322,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6685526059499569,
-        "btc_hour_pct": 0.11992871047101783,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LINKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793516400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LINKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4115104f4f82d3d6c09230df",
-      "asset_id": "0fdd03b5f39e74eea51bcf0a",
-      "key": "OKX:SPOT:MEGAUSDT",
-      "symbol": "MEGAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793516462116,
-      "price": 0.044770000000000004,
-      "level": 0.04464,
-      "invalid": 0.04412870848600664,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04464,
-        "base_invalid": 0.04412870848600664,
-        "atr": 0.00020861009328906907,
-        "rvol": 2.3987667721694956,
-        "close_position": 0.8275862068965459,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7886435331230235,
-        "score": 4.226352979066041
-      },
-      "context": {
-        "atr": 0.00020861009328906907,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6687148226520057,
-        "btc_hour_pct": 0.11992871047101783,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MEGAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793516400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEGAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1554015,6 +1553754,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793515569934
+    },
+    {
+      "id": "afd0dd85333dd544ba631543",
+      "asset_id": "360fe13b17a3621237f4387d",
+      "key": "OKX:SPOT:FLRUSDT",
+      "symbol": "FLRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793516462116,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793516476225
+    },
+    {
+      "id": "0bf6242e4397b2646f66b2aa",
+      "asset_id": "153970c23580b54bf40a4dad",
+      "key": "MEXC:PERP:GTCUSDT",
+      "symbol": "GTCUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793516467064,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793516476225
+    },
+    {
+      "id": "52b85b7080c14d3c622f3330",
+      "asset_id": "affd4789c995e3fd8e572ff9",
+      "key": "OKX:PERP:AZTECUSDT",
+      "symbol": "AZTECUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793516462242,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793516476225
+    },
+    {
+      "id": "a435cac4bb9e15b4ef4a4f59",
+      "asset_id": "e39d04a9b6b790cb4b1c2dcb",
+      "key": "OKX:SPOT:LINKUSDT",
+      "symbol": "LINKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793516462116,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793516476225
+    },
+    {
+      "id": "4115104f4f82d3d6c09230df",
+      "asset_id": "0fdd03b5f39e74eea51bcf0a",
+      "key": "OKX:SPOT:MEGAUSDT",
+      "symbol": "MEGAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793516462116,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793516476225
     }
   ],
   "runs": [
@@ -1602703,7 +1602497,8 @@
         "entry_seq": 0,
         "cohort": "LINKUSDT",
         "observation_lag_ms": 62116,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14109
       },
       "0fdd03b5f39e74eea51bcf0a:radar": {
         "symbol": "MEGAUSDT",
@@ -1602725,7 +1602520,8 @@
         "entry_seq": 0,
         "cohort": "MEGAUSDT",
         "observation_lag_ms": 62116,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14109
       }
     },
     "errors": [],
@@ -1628751,8 +1628547,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "90000fe3fbb8077bb06f7044ddd3989606b4f136",
-    "previous_success_ms": 1793516178307,
+    "previous_commit": "ad48bc331b98953fa4334acf89652b1f3d2c5385",
+    "previous_success_ms": 1793516474942,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
