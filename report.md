@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 01.11.2026 17:52:46 TR · V2 döngüsü 620
+Son gözlem: 01.11.2026 17:57:38 TR · V2 döngüsü 621
 
 ## Bildirim kuralları
 
@@ -15,8 +15,8 @@ CA:
 ```text
 GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk
 ```
-Fiyat $0.0003518; likidite $161442.13; tek swap bildirim eşiği $161.
-V2de sessiz kaydedilen küçük işlem 179, anlamlı tek işlem 35.
+Fiyat $0.0003398; likidite $158682.89; tek swap bildirim eşiği $159.
+V2de sessiz kaydedilen küçük işlem 191, anlamlı tek işlem 37.
 [Solscan](https://solscan.io/token/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) · [DexScreener](https://dexscreener.com/solana/6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk)
 
 ### Sessiz birikim
@@ -26,16 +26,16 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 17:52:28 TR
+Son zincir okuması: 01.11.2026 17:57:20 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
 |[HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4](https://solscan.io/account/HoFagBugVanDBkaeU7bvTRnx88TVhnk4N7XzVCx7LNH4)|31794122.153175|+0.000000|
-|[7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX](https://solscan.io/account/7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX)|21105882.760085|+0.000000|
 |[GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1](https://solscan.io/account/GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1)|18632853.848854|+0.000000|
 |[HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj](https://solscan.io/account/HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj)|18600880.793574|+0.000000|
 |[AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN](https://solscan.io/account/AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN)|18385703.106597|+0.000000|
 |[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17921785.445069|+0.000000|
+|[7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX](https://solscan.io/account/7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX)|16251529.730085|-4854353.030000|
 |[4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb](https://solscan.io/account/4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb)|13902460.752094|+0.000000|
 |[5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe](https://solscan.io/account/5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe)|13429775.275641|+0.000000|
 |[6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM](https://solscan.io/account/6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM)|12000069.420000|+0.000000|
@@ -53,8 +53,8 @@ CA:
 ```text
 4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk
 ```
-Fiyat $0.0001943; likidite $92312.75; tek swap bildirim eşiği $100.
-V2de sessiz kaydedilen küçük işlem 79, anlamlı tek işlem 8.
+Fiyat $0.0001923; likidite $91856.56; tek swap bildirim eşiği $100.
+V2de sessiz kaydedilen küçük işlem 82, anlamlı tek işlem 9.
 [Solscan](https://solscan.io/token/4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk) · [DexScreener](https://dexscreener.com/solana/6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5)
 
 ### Sessiz birikim
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 17:52:28 TR
+Son zincir okuması: 01.11.2026 17:57:20 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -96,18 +96,18 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "related_ownership_verified": false,
     "wallets": {
       "selected": 8,
-      "total_tracked": 13,
+      "total_tracked": 14,
       "errors": [
         "api.mainnet.solana.com: RPC error -32015"
       ],
-      "detail_queue": 5682,
+      "detail_queue": 5701,
       "full_chain_coverage": false,
-      "checked_ms": 1793544766719
+      "checked_ms": 1793545058763
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793544748633,
+      "observed_ms": 1793545040668,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -122,18 +122,32 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 619,
+    "intervals": 620,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
     "full_chain_coverage": false
   },
-  "detail_queue": 5682
+  "detail_queue": 5701
 }
 ```
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+01.11.2026 17:57:22 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
+
+01.11.2026 17:57:20 TR · **HOLDER BAKİYE AZALIŞI** · `7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX` · aynı izlenen token hesaplarında -4854353.030000token; güncel fiyatla yaklaşık $1650. Token transferi olabilir; otomatik alım/satım yorumu yok.
+
+01.11.2026 17:57:20 TR · **SATIŞ** · SATIŞ: $148.51 · işlem başlatıcı `Jd97uyw9wb6PxV2jawAjS7aU6XUMHbcfn4En8xRP7Mg` · bildirim eşiği $100
+
+01.11.2026 17:57:07 TR · **FİYAT** · Son kontrol %-1.03; fiyat $0.0001923. Gözlem aralığı 5.0dk.
+
+01.11.2026 17:57:07 TR · **SATIŞ** · SATIŞ: $286.67 · işlem başlatıcı `Hj1SFJ5LdoZjDBKaMZRCz3DUJjY5YGwTD7La4utDKjbp` · bildirim eşiği $159
+
+01.11.2026 17:57:07 TR · **SATIŞ** · SATIŞ: $1660.65 · işlem başlatıcı `7CKQGG3Fzq4TMVfhVE5R8uydfck8gPCTiUWYhmkhqkVA` · bildirim eşiği $159
+
+01.11.2026 17:57:07 TR · **FİYAT** · Son kontrol %-3.41; fiyat $0.0003398. Gözlem aralığı 5.0dk.
 
 01.11.2026 17:52:30 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -200,18 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 01.11.2026 15:46:27 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 15:41:23 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 15:36:23 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 15:31:48 TR · **VERİ ERİŞİMİ** · rpc_wallets: 8PswEHRycsUmiQE9kxdWgKBq8WrkPLD885bmp16SP7nA: api.mainnet.solana.com: RPC error -32019
-
-01.11.2026 15:31:34 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 15:26:27 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 15:21:25 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 15:16:27 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 15:11:27 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
