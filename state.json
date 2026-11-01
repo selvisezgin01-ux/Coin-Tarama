@@ -1592766,60 +1592766,7 @@
       "source_close_ms": 1793536200000
     }
   },
-  "pending": [
-    {
-      "id": "61f8ac8693adf02d1e3e2bdf",
-      "asset_id": "ce64f81a91e7e246f1bafcc2",
-      "key": "OKX:PERP:LUNAUSDT",
-      "symbol": "LUNAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793537883497,
-      "price": 0.039900000000000005,
-      "level": 0.03992,
-      "invalid": 0.03952272638141401,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03992,
-        "base_invalid": 0.03952272638141401,
-        "atr": 0.00011515745723991779,
-        "rvol": 8.06689939520797,
-        "close_position": 0.9333333333333148,
-        "breakout": false,
-        "bar_close_ms": 1793537100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.352289884247603,
-        "score": 7.433333333333315
-      },
-      "context": {
-        "atr": 0.00011515745723991779,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3444288160101783,
-        "btc_hour_pct": -0.08142288739663162,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LUNAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793537100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LUNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1599728,6 +1599675,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793536397778
+    },
+    {
+      "id": "61f8ac8693adf02d1e3e2bdf",
+      "asset_id": "ce64f81a91e7e246f1bafcc2",
+      "key": "OKX:PERP:LUNAUSDT",
+      "symbol": "LUNAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793537883497,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793537894514
     }
   ],
   "runs": [
@@ -1656297,7 +1656255,8 @@
         "entry_seq": 0,
         "cohort": "LUNAUSDT",
         "observation_lag_ms": 783497,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11017
       }
     },
     "errors": [],
@@ -1682330,8 +1682289,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4386c0c28326cb2c8e430931a519e988d313943b",
-    "previous_success_ms": 1793537617940,
+    "previous_commit": "a73c22a3eaddc01f0815fbb1cf9b4b77b943c910",
+    "previous_success_ms": 1793537893478,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
