@@ -1520138,108 +1520138,7 @@
       "source_close_ms": 1793499300000
     }
   },
-  "pending": [
-    {
-      "id": "057893271e79925290a2b63c",
-      "asset_id": "92f9ff2089692d8ce86c3458",
-      "key": "MEXC:SPOT:ALEOUSDT",
-      "symbol": "ALEOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793499586591,
-      "price": 0.0316,
-      "level": 0.03132,
-      "invalid": 0.031039202616552703,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03132,
-        "base_invalid": 0.031039202616552703,
-        "atr": 0.00027198255631530295,
-        "rvol": 2.226076381085451,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793487600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.564102564102577,
-        "score": 4.226076381085451
-      },
-      "context": {
-        "atr": 0.0002705943563622441,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6169634939711788,
-        "btc_hour_pct": 0.052465897166831255,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ALEOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793487600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALEOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9dde4d9a0c0291695de9d436",
-      "asset_id": "7a002d9893e781d3a89426d5",
-      "key": "OKX:PERP:NEARUSDT",
-      "symbol": "NEARUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793499586144,
-      "price": 4.4485,
-      "level": 4.445,
-      "invalid": 4.408174200024224,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.445,
-        "base_invalid": 4.408174200024224,
-        "atr": 0.02550533317184022,
-        "rvol": 3.54571921029538,
-        "close_position": 0.7435897435897529,
-        "breakout": true,
-        "bar_close_ms": 1793496600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4282172639170634,
-        "score": 5.289308953885133
-      },
-      "context": {
-        "atr": 0.026861077073359753,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8749315769335464,
-        "btc_hour_pct": 0.05204106606895298,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NEARUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793496600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1525663,6 +1525562,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793498698903
+    },
+    {
+      "id": "057893271e79925290a2b63c",
+      "asset_id": "92f9ff2089692d8ce86c3458",
+      "key": "MEXC:SPOT:ALEOUSDT",
+      "symbol": "ALEOUSDT",
+      "phase": "expired",
+      "observed_ms": 1793499586591,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793499596611
+    },
+    {
+      "id": "9dde4d9a0c0291695de9d436",
+      "asset_id": "7a002d9893e781d3a89426d5",
+      "key": "OKX:PERP:NEARUSDT",
+      "symbol": "NEARUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793499586144,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793499596611
     }
   ],
   "runs": [
@@ -1593975,8 +1593896,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "507426be26a8c614413d4bdf87122b431b765f7f",
-    "previous_success_ms": 1793499311369,
+    "previous_commit": "0d55aad4d51a303d897ca9feda439b654d8a99cb",
+    "previous_success_ms": 1793499595679,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
