@@ -1100732,58 +1100732,7 @@
       "source_close_ms": 1793560500000
     }
   },
-  "pending": [
-    {
-      "id": "0b419fc7f4bce41d70744642",
-      "asset_id": "77ca8e9d0c671b023712a9f7",
-      "key": "OKX:SPOT:WOOUSDT",
-      "symbol": "WOOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793561785455,
-      "price": 0.01166,
-      "level": 0.01165,
-      "invalid": 0.011551438310912732,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01165,
-        "base_invalid": 0.011551438310912732,
-        "atr": 5.7077927248462016e-05,
-        "rvol": 3.296579698171285,
-        "close_position": 0.6999999999999983,
-        "breakout": true,
-        "bar_close_ms": 1793561400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6908462867012188,
-        "score": 4.996579698171283
-      },
-      "context": {
-        "atr": 5.7077927248462016e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.3021320549344786,
-        "btc_hour_pct": -0.12927120791632607,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WOOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793561400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WOOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1108649,6 +1108598,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793560896979
+    },
+    {
+      "id": "0b419fc7f4bce41d70744642",
+      "asset_id": "77ca8e9d0c671b023712a9f7",
+      "key": "OKX:SPOT:WOOUSDT",
+      "symbol": "WOOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793561785455,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793561801057
     }
   ],
   "runs": [
@@ -1173647,7 +1173607,8 @@
         "entry_seq": 0,
         "cohort": "WOOUSDT",
         "observation_lag_ms": 385455,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15602
       }
     },
     "errors": [],
@@ -1199670,8 +1199631,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0959d981888d95368880c9b35384cc13d681a87c",
-    "previous_success_ms": 1793561515125,
+    "previous_commit": "57c2456f347f5ae0a540f8513ed5bf4db792e21c",
+    "previous_success_ms": 1793561799806,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
