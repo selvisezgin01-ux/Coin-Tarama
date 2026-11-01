@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 01.11.2026 20:13:35 TR · V2 döngüsü 648
+Son gözlem: 01.11.2026 20:18:23 TR · V2 döngüsü 649
 
 ## Bildirim kuralları
 
@@ -15,8 +15,8 @@ CA:
 ```text
 GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk
 ```
-Fiyat $0.000321; likidite $154241.88; tek swap bildirim eşiği $154.
-V2de sessiz kaydedilen küçük işlem 263, anlamlı tek işlem 45.
+Fiyat $0.0003209; likidite $154218.16; tek swap bildirim eşiği $154.
+V2de sessiz kaydedilen küçük işlem 264, anlamlı tek işlem 45.
 [Solscan](https://solscan.io/token/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) · [DexScreener](https://dexscreener.com/solana/6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk)
 
 ### Sessiz birikim
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 20:13:02 TR
+Son zincir okuması: 01.11.2026 20:17:54 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 20:13:02 TR
+Son zincir okuması: 01.11.2026 20:17:54 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -102,12 +102,12 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       ],
       "detail_queue": 6961,
       "full_chain_coverage": false,
-      "checked_ms": 1793553215354
+      "checked_ms": 1793553503127
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793553182741,
+      "observed_ms": 1793553474951,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -122,7 +122,7 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 647,
+    "intervals": 648,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
@@ -134,6 +134,8 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+01.11.2026 20:17:58 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 20:13:08 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -212,6 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 01.11.2026 18:07:28 TR · **HOLDER BAKİYE AZALIŞI** · `7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX` · aynı izlenen token hesaplarında -9588402.540000token; güncel fiyatla yaklaşık $3014. Token transferi olabilir; otomatik alım/satım yorumu yok.
 
 01.11.2026 18:07:08 TR · **FİYAT** · Son kontrol %-1.82; fiyat $0.0001888. Gözlem aralığı 5.0dk.
-
-01.11.2026 18:07:07 TR · **FİYAT** · Son kontrol %-7.50; fiyat $0.0003143. Gözlem aralığı 5.0dk.
 
