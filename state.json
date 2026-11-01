@@ -1530697,58 +1530697,7 @@
       "source_close_ms": 1793507400000
     }
   },
-  "pending": [
-    {
-      "id": "cabbcc1790b8e6a0c19be05c",
-      "asset_id": "abeb741d93eae1c2aa022cd5",
-      "key": "MEXC:SPOT:XPLUSDT",
-      "symbol": "XPLUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793507798208,
-      "price": 0.07033,
-      "level": 0.08326,
-      "invalid": 0.08154672441933652,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08326,
-        "base_invalid": 0.08154672441933652,
-        "atr": 0.0004885038710898413,
-        "rvol": 3.0379526702644455,
-        "close_position": 0.6862745098039322,
-        "breakout": true,
-        "bar_close_ms": 1793505600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1527727217570671,
-        "score": 4.724227180068378
-      },
-      "context": {
-        "atr": 0.0006607140450245983,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0623134116495958,
-        "btc_hour_pct": 0.09045931010747132,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XPLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793505600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XPLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1536546,6 +1536495,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793507514802
+    },
+    {
+      "id": "cabbcc1790b8e6a0c19be05c",
+      "asset_id": "abeb741d93eae1c2aa022cd5",
+      "key": "MEXC:SPOT:XPLUSDT",
+      "symbol": "XPLUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793507798208,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793507808857
     }
   ],
   "runs": [
@@ -1608064,8 +1608024,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0879d59335a8d14aa104329aa065c2f7214271e2",
-    "previous_success_ms": 1793507530498,
+    "previous_commit": "771db55a8a368885ac63942777a204a5e4629ae8",
+    "previous_success_ms": 1793507807881,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
