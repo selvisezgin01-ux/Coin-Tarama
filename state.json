@@ -1592963,120 +1592963,7 @@
       "source_close_ms": 1793536200000
     }
   },
-  "pending": [
-    {
-      "id": "203f4071823b9ad1d92ae633",
-      "asset_id": "444940449004ce9dae4222a7",
-      "key": "OKX:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793538191415,
-      "price": 0.19119999999999998,
-      "level": 0.1871,
-      "invalid": 0.18573221175575214,
-      "target": 0.20500357648849565,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1871,
-        "base_invalid": 0.17883221175575212,
-        "atr": 0.0031185882949857457,
-        "rvol": 2.9690116686176684,
-        "close_position": 0.7407407407407379,
-        "breakout": false,
-        "bar_close_ms": 1793531700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 3.028634361233462,
-        "score": 4.209752409358407
-      },
-      "context": {
-        "atr": 0.0036271682557580246,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.5600401478008905,
-        "btc_hour_pct": -0.09355221214406573,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DNAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.18573221175575214,
-        "target": 0.20500357648849565,
-        "risk_pct": 2.859721885066865,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.2115,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.1894,
-        "entry_zone_high": 0.19121358412787903
-      },
-      "reason": null,
-      "source_close_ms": 1793538000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9d713e6af31b0be68939113f",
-      "asset_id": "e0c9ee7d81e46ec3720a53de",
-      "key": "MEXC:SPOT:RSRUSDT",
-      "symbol": "RSRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793538188123,
-      "price": 0.001536,
-      "level": 0.001518,
-      "invalid": 0.0014854758849863244,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001518,
-        "base_invalid": 0.0014854758849863244,
-        "atr": 1.6827433424502936e-05,
-        "rvol": 4.888163740459118,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793538000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8555334658714395,
-        "score": 6.888163740459118
-      },
-      "context": {
-        "atr": 1.6827433424502936e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.9407100025200519,
-        "btc_hour_pct": -0.08517653664861236,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RSRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793538000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RSRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1599996,6 +1599883,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793537894514
+    },
+    {
+      "id": "203f4071823b9ad1d92ae633",
+      "asset_id": "444940449004ce9dae4222a7",
+      "key": "OKX:PERP:DNAUSDT",
+      "symbol": "DNAUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793538191415,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793538202459
+    },
+    {
+      "id": "9d713e6af31b0be68939113f",
+      "asset_id": "e0c9ee7d81e46ec3720a53de",
+      "key": "MEXC:SPOT:RSRUSDT",
+      "symbol": "RSRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793538188123,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793538202460
     }
   ],
   "runs": [
@@ -1656660,7 +1656569,8 @@
         "entry_seq": 1,
         "cohort": "DNAUSDT",
         "observation_lag_ms": 191415,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 11044
       },
       "e0c9ee7d81e46ec3720a53de:radar": {
         "symbol": "RSRUSDT",
@@ -1656682,7 +1656592,8 @@
         "entry_seq": 0,
         "cohort": "RSRUSDT",
         "observation_lag_ms": 188123,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14337
       }
     },
     "errors": [],
@@ -1682713,8 +1682624,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c8545869d1364531b77bf4b06344e3bd345b15dd",
-    "previous_success_ms": 1793537912850,
+    "previous_commit": "c9fc22ec539d2c1c8cc259ae9d07002d0421f949",
+    "previous_success_ms": 1793538201404,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
