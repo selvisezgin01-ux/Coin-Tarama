@@ -1593990,276 +1593990,7 @@
       "source_close_ms": 1793557800000
     }
   },
-  "pending": [
-    {
-      "id": "05b2fe1c87db59f27590a774",
-      "asset_id": "b936ca1a76de0a66b5269fa4",
-      "key": "OKX:PERP:PIEVERSEUSDT",
-      "symbol": "PIEVERSEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793557890965,
-      "price": 1.06055,
-      "level": 1.0538,
-      "invalid": 1.0394295038050223,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.0538,
-        "base_invalid": 1.0394295038050223,
-        "atr": 0.0051366412998517935,
-        "rvol": 3.849109414370914,
-        "close_position": 0.7067669172932339,
-        "breakout": true,
-        "bar_close_ms": 1793535300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4348574708245465,
-        "score": 5.555876331664148
-      },
-      "context": {
-        "atr": 0.008993484926636002,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.23932603293653765,
-        "btc_hour_pct": -0.21125191727119352,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PIEVERSEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793535300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PIEVERSEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3081d93f53ca132fb594d925",
-      "asset_id": "2601623730572f6fa3402a57",
-      "key": "MEXC:PERP:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793557890042,
-      "price": 1.07585,
-      "level": 1.1193,
-      "invalid": 1.076929312244864,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.1193,
-        "base_invalid": 1.076929312244864,
-        "atr": 0.014471251700905904,
-        "rvol": 2.1349685593919694,
-        "close_position": 0.614718614718617,
-        "breakout": false,
-        "bar_close_ms": 1793547000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.984660875993339,
-        "score": 3.249687174110586
-      },
-      "context": {
-        "atr": 0.01379812220408652,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5838143730325651,
-        "btc_hour_pct": -0.20790899116771566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BTWUSDT",
-          "change_pct": 0.7749816091560779,
-          "old_ms": 1793554424934,
-          "current_ms": 1793557885864,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0006000000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793547000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "78bf90a209f6afab966409e1",
-      "asset_id": "cbecd04327fbfc35ac1be178",
-      "key": "MEXC:SPOT:ZIGUSDT",
-      "symbol": "ZIGUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793557890402,
-      "price": 0.041832999999999995,
-      "level": 0.042204,
-      "invalid": 0.041768670694016526,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.042204,
-        "base_invalid": 0.041768670694016526,
-        "atr": 0.00018219537322315088,
-        "rvol": 4.658828002830231,
-        "close_position": 0.9627118644067899,
-        "breakout": false,
-        "bar_close_ms": 1793547900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.21670278379730679,
-        "score": 6.121539867237021
-      },
-      "context": {
-        "atr": 0.00016027833916086435,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.03479058712750893,
-        "btc_hour_pct": -0.2240737347192101,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZIGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793547900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZIGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7703d1f42b41102f2e5064b8",
-      "asset_id": "abcacfaee134f2ba4f9605f4",
-      "key": "MEXC:PERP:ONUSDT",
-      "symbol": "ONUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793557890042,
-      "price": 0.18619999999999998,
-      "level": 0.1958,
-      "invalid": 0.1766797508992733,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1958,
-        "base_invalid": 0.1766797508992733,
-        "atr": 0.005468327338178075,
-        "rvol": 13.012072206433382,
-        "close_position": 0.8067632850241544,
-        "breakout": true,
-        "bar_close_ms": 1793556000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 9.66029723991506,
-        "score": 7.806763285024155
-      },
-      "context": {
-        "atr": 0.00671583124073669,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 9.868206231082777,
-        "btc_hour_pct": -0.20790899116771566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ONUSDT",
-          "change_pct": -3.1205062322048893,
-          "old_ms": 1793554425112,
-          "current_ms": 1793557885996,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793556000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f1055426e70b8ae5fffec246",
-      "asset_id": "f39e2449f629300113b1c6f2",
-      "key": "MEXC:PERP:NIULAIUSDT",
-      "symbol": "NIULAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793557890042,
-      "price": 0.068845,
-      "level": 0.0687,
-      "invalid": 0.06625748570856198,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0687,
-        "base_invalid": 0.06625748570856198,
-        "atr": 0.0012834286095868206,
-        "rvol": 6.2276530433797905,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793557800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.870948733058353,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0012834286095868206,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7824827309313331,
-        "btc_hour_pct": -0.20790899116771566,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NIULAIUSDT",
-          "change_pct": 16.151593381289373,
-          "old_ms": 1793554424998,
-          "current_ms": 1793557885932,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793557800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIULAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1601949,6 +1601680,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793557296801
+    },
+    {
+      "id": "05b2fe1c87db59f27590a774",
+      "asset_id": "b936ca1a76de0a66b5269fa4",
+      "key": "OKX:PERP:PIEVERSEUSDT",
+      "symbol": "PIEVERSEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793557890965,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793557901478
+    },
+    {
+      "id": "3081d93f53ca132fb594d925",
+      "asset_id": "2601623730572f6fa3402a57",
+      "key": "MEXC:PERP:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793557890042,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793557901478
+    },
+    {
+      "id": "78bf90a209f6afab966409e1",
+      "asset_id": "cbecd04327fbfc35ac1be178",
+      "key": "MEXC:SPOT:ZIGUSDT",
+      "symbol": "ZIGUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793557890402,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793557901478
+    },
+    {
+      "id": "7703d1f42b41102f2e5064b8",
+      "asset_id": "abcacfaee134f2ba4f9605f4",
+      "key": "MEXC:PERP:ONUSDT",
+      "symbol": "ONUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793557890042,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793557901478
+    },
+    {
+      "id": "f1055426e70b8ae5fffec246",
+      "asset_id": "f39e2449f629300113b1c6f2",
+      "key": "MEXC:PERP:NIULAIUSDT",
+      "symbol": "NIULAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793557890042,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793557901478
     }
   ],
   "runs": [
@@ -1665583,7 +1665369,8 @@
         "entry_seq": 0,
         "cohort": "NIULAIUSDT",
         "observation_lag_ms": 90042,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11436
       }
     },
     "errors": [],
@@ -1691612,8 +1691399,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5588f955475b6af55b710f9d12e2b910ae6a29fb",
-    "previous_success_ms": 1793557613458,
+    "previous_commit": "46a32dbe5b87c46151e2ef2e8ae3563d6a383e97",
+    "previous_success_ms": 1793557900314,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
