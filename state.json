@@ -1589675,170 +1589675,7 @@
       "source_close_ms": 1793533500000
     }
   },
-  "pending": [
-    {
-      "id": "8192f0e87fc5c8b48392a15e",
-      "asset_id": "f678273bd5100e61687d3c26",
-      "key": "MEXC:PERP:ACEUSDT",
-      "symbol": "ACEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793534187497,
-      "price": 0.140265,
-      "level": 0.13688,
-      "invalid": 0.13551874249851747,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13688,
-        "base_invalid": 0.13551874249851747,
-        "atr": 0.0005417166765500689,
-        "rvol": 5.853976709903921,
-        "close_position": 0.9857142857143106,
-        "breakout": false,
-        "bar_close_ms": 1793511900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.31524926686217203,
-        "score": 7.3396909956182315
-      },
-      "context": {
-        "atr": 0.0005007337941882743,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.38578650216472,
-        "btc_hour_pct": -0.1088589405847884,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ACEUSDT",
-          "change_pct": 0.17740898517835113,
-          "old_ms": 1793530576185,
-          "current_ms": 1793534183362,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793511900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5a1bc7d5b1dc9592381fb73a",
-      "asset_id": "f9628b91899b5c2de4471576",
-      "key": "OKX:PERP:FLOCKUSDT",
-      "symbol": "FLOCKUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793534185820,
-      "price": 0.04153,
-      "level": 0.04225,
-      "invalid": 0.03749473419549155,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04225,
-        "base_invalid": 0.03749473419549155,
-        "atr": 0.0010351053633897032,
-        "rvol": 17.16568740255361,
-        "close_position": 0.6885245901639343,
-        "breakout": false,
-        "bar_close_ms": 1793533500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.6593075765178,
-        "score": 7.188524590163935
-      },
-      "context": {
-        "atr": 0.0010351053633897032,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.228075094538564,
-        "btc_hour_pct": -0.09735614029019457,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FLOCKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793533500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOCKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "09fbfba86f91e6dd977cbc13",
-      "asset_id": "77be1cbceee61e1dc3dd0914",
-      "key": "MEXC:PERP:FLOCKUSDT",
-      "symbol": "FLOCKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793534187497,
-      "price": 0.041505,
-      "level": 0.04216,
-      "invalid": 0.03747505361650196,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04216,
-        "base_invalid": 0.03747505361650196,
-        "atr": 0.0009663092233202362,
-        "rvol": 6.163734522426507,
-        "close_position": 0.6770833333333333,
-        "breakout": false,
-        "bar_close_ms": 1793533500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.8147775823071264,
-        "score": 7.177083333333333
-      },
-      "context": {
-        "atr": 0.0009663092233202362,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.09000089972571,
-        "btc_hour_pct": -0.1088589405847884,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FLOCKUSDT",
-          "change_pct": -4.352521483806249,
-          "old_ms": 1793530576164,
-          "current_ms": 1793534183279,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.05330000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793533500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOCKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1596626,6 +1596463,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793533603393
+    },
+    {
+      "id": "8192f0e87fc5c8b48392a15e",
+      "asset_id": "f678273bd5100e61687d3c26",
+      "key": "MEXC:PERP:ACEUSDT",
+      "symbol": "ACEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793534187497,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793534197942
+    },
+    {
+      "id": "5a1bc7d5b1dc9592381fb73a",
+      "asset_id": "f9628b91899b5c2de4471576",
+      "key": "OKX:PERP:FLOCKUSDT",
+      "symbol": "FLOCKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793534185820,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793534197943
+    },
+    {
+      "id": "09fbfba86f91e6dd977cbc13",
+      "asset_id": "77be1cbceee61e1dc3dd0914",
+      "key": "MEXC:PERP:FLOCKUSDT",
+      "symbol": "FLOCKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793534187497,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793534197943
     }
   ],
   "runs": [
@@ -1651902,7 +1651772,8 @@
         "entry_seq": 0,
         "cohort": "FLOCKUSDT",
         "observation_lag_ms": 685820,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12123
       },
       "77be1cbceee61e1dc3dd0914:radar": {
         "symbol": "FLOCKUSDT",
@@ -1651924,7 +1651795,8 @@
         "entry_seq": 0,
         "cohort": "FLOCKUSDT",
         "observation_lag_ms": 687497,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10446
       }
     },
     "errors": [],
@@ -1677949,8 +1677821,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0672cdc2c7b6b677435152ea578870de0967a522",
-    "previous_success_ms": 1793533917503,
+    "previous_commit": "196542c570e39d72abce03677df5d2dd253aa493",
+    "previous_success_ms": 1793534196557,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
