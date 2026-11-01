@@ -1590065,218 +1590065,7 @@
       "source_close_ms": 1793559600000
     }
   },
-  "pending": [
-    {
-      "id": "3bbdfe8dabcc50f84a2e957e",
-      "asset_id": "a86c7295fbd4090964bb2423",
-      "key": "MEXC:SPOT:JASMYUSDT",
-      "symbol": "JASMYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793559691011,
-      "price": 0.0037645,
-      "level": 0.003827,
-      "invalid": 0.003773753950955878,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003827,
-        "base_invalid": 0.003773753950955878,
-        "atr": 2.164032696081222e-05,
-        "rvol": 12.6125105492068,
-        "close_position": 0.8181818181818206,
-        "breakout": false,
-        "bar_close_ms": 1793547900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8963880833113613,
-        "score": 7.31818181818182
-      },
-      "context": {
-        "atr": 2.1605722137927944e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.7717611208409081,
-        "btc_hour_pct": -0.12133055239261781,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:JASMYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793547900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JASMYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b45f151788d959e69b665c38",
-      "asset_id": "868917656baffb47cf7ee0ee",
-      "key": "MEXC:SPOT:BASEDUSDT",
-      "symbol": "BASEDUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793559691011,
-      "price": 0.052915000000000004,
-      "level": 0.05295,
-      "invalid": 0.05115592433771843,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05295,
-        "base_invalid": 0.05115592433771843,
-        "atr": 0.0003605044152104555,
-        "rvol": 4.862594021000199,
-        "close_position": 0.6099999999999989,
-        "breakout": true,
-        "bar_close_ms": 1793553300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6682926829268325,
-        "score": 6.472594021000198
-      },
-      "context": {
-        "atr": 0.0004216755202318073,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.29274812255561944,
-        "btc_hour_pct": -0.12133055239261781,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BASEDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793553300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BASEDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b0624e03b59c47d3c59066de",
-      "asset_id": "31630a21db29d24807706e7a",
-      "key": "OKX:PERP:SYRUPUSDT",
-      "symbol": "SYRUPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793559690649,
-      "price": 0.1599,
-      "level": 0.1606,
-      "invalid": 0.15961109806980653,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1606,
-        "base_invalid": 0.15961109806980653,
-        "atr": 0.0005926795346231863,
-        "rvol": 6.436646906781928,
-        "close_position": 0.7647058823529355,
-        "breakout": true,
-        "bar_close_ms": 1793556000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1249999999999982,
-        "score": 7.764705882352936
-      },
-      "context": {
-        "atr": 0.001041918977994716,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.1172858221042192,
-        "btc_hour_pct": -0.11880812103546301,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SYRUPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793556000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SYRUPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "927005a2d04f741f0184334b",
-      "asset_id": "5e46515fb9f77d9e3009179c",
-      "key": "MEXC:PERP:ARIAUSDT",
-      "symbol": "ARIAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793559693583,
-      "price": 0.087835,
-      "level": 0.08598,
-      "invalid": 0.08359775366718582,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08598,
-        "base_invalid": 0.08359775366718582,
-        "atr": 0.0008816422187612453,
-        "rvol": 3.2891678214576587,
-        "close_position": 0.9240506329113954,
-        "breakout": true,
-        "bar_close_ms": 1793559600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.3606460040375374,
-        "score": 5.213218454369054
-      },
-      "context": {
-        "atr": 0.0008816422187612453,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.48354734812667,
-        "btc_hour_pct": -0.12290134408913245,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ARIAUSDT",
-          "change_pct": 4.639115920340742,
-          "old_ms": 1793556075335,
-          "current_ms": 1793559689226,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793559600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1598054,6 +1597843,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793559096755
+    },
+    {
+      "id": "3bbdfe8dabcc50f84a2e957e",
+      "asset_id": "a86c7295fbd4090964bb2423",
+      "key": "MEXC:SPOT:JASMYUSDT",
+      "symbol": "JASMYUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793559691011,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793559704410
+    },
+    {
+      "id": "b0624e03b59c47d3c59066de",
+      "asset_id": "31630a21db29d24807706e7a",
+      "key": "OKX:PERP:SYRUPUSDT",
+      "symbol": "SYRUPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793559690649,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793559704410
+    },
+    {
+      "id": "927005a2d04f741f0184334b",
+      "asset_id": "5e46515fb9f77d9e3009179c",
+      "key": "MEXC:PERP:ARIAUSDT",
+      "symbol": "ARIAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793559693583,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793559704410
     }
   ],
   "runs": [
@@ -1662274,7 +1662096,8 @@
         "entry_seq": 0,
         "cohort": "ARIAUSDT",
         "observation_lag_ms": 93583,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10827
       }
     },
     "errors": [],
@@ -1688297,8 +1688120,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a990b7e67083cad1a0c308d26d7c0c34d7857330",
-    "previous_success_ms": 1793559419688,
+    "previous_commit": "9ff3b18e42a08a33e9af9697148827572cb1872d",
+    "previous_success_ms": 1793559703200,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
