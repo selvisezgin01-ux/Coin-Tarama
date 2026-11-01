@@ -1548910,58 +1548910,7 @@
       "source_close_ms": 1793516400000
     }
   },
-  "pending": [
-    {
-      "id": "0714af56cb1023a6a8c0c04a",
-      "asset_id": "7672181b6b2478ff4af98480",
-      "key": "MEXC:SPOT:BEAMXUSDT",
-      "symbol": "BEAMXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793517658294,
-      "price": 0.006066500000000001,
-      "level": 0.005847,
-      "invalid": 0.005069737374815659,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005847,
-        "base_invalid": 0.005069737374815659,
-        "atr": 0.0001884175012289416,
-        "rvol": 26.679275125004832,
-        "close_position": 0.6921119592875308,
-        "breakout": true,
-        "bar_close_ms": 1793517300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 9.400938289426186,
-        "score": 7.692111959287531
-      },
-      "context": {
-        "atr": 0.0001884175012289416,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 7.850550499567865,
-        "btc_hour_pct": 0.13014734749969836,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BEAMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793517300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEAMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1555133,6 +1555082,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793517374406
+    },
+    {
+      "id": "0714af56cb1023a6a8c0c04a",
+      "asset_id": "7672181b6b2478ff4af98480",
+      "key": "MEXC:SPOT:BEAMXUSDT",
+      "symbol": "BEAMXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793517658294,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793517667099
     }
   ],
   "runs": [
@@ -1604347,7 +1604307,8 @@
         "entry_seq": 0,
         "cohort": "BEAMXUSDT",
         "observation_lag_ms": 358294,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8805
       }
     },
     "errors": [],
@@ -1630380,8 +1630341,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2491c3ab70ded9efb8bc1f7ba0dfea85b216ba3f",
-    "previous_success_ms": 1793517389951,
+    "previous_commit": "50dc631d780946765015fd03859a1ea3a276a9cd",
+    "previous_success_ms": 1793517665977,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
