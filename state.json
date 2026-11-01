@@ -1572775,7 +1572775,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793515278723,
+      "duration_ms": 31102
     }
   ],
   "radar_admissions": [
@@ -1583894,6 +1583896,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793488768725,
+            "endpoint_ms": 1793488800000,
+            "endpoint_price": 0.08037,
+            "return_pct": 0.2744853399875291,
+            "btc_excess_pct_points": -0.3423013061044422,
+            "mae_pct": -1.784154709918906,
+            "mfe_pct": 2.6699937616968317,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 31275,
+            "measured_ms": 1793515272842,
+            "cost_scenarios_pct": {
+              "0.2": 0.0744853399875291,
+              "0.5": -0.2255146600124709,
+              "1": -0.7255146600124709
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793402100000,
@@ -1583903,7 +1583927,7 @@
         "observation_lag_ms": 268725,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 8369,
-        "last_measure_attempt_ms": 1793459692956
+        "last_measure_attempt_ms": 1793515272842
       },
       "5e29891b863b8317be1dd30c:radar": {
         "symbol": "RECALLUSDT",
@@ -1599701,14 +1599725,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793514870347,
+            "endpoint_ms": 1793514900000,
+            "endpoint_price": 0.22648,
+            "return_pct": -1.986411044272307,
+            "btc_excess_pct_points": -2.105701928380288,
+            "mae_pct": -1.9993941229930257,
+            "mfe_pct": 1.661834076253954,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 29653,
+            "measured_ms": 1793515272842,
+            "cost_scenarios_pct": {
+              "0.2": -2.1864110442723073,
+              "0.5": -2.486411044272307,
+              "1": -2.986411044272307
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793511000000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "GTCUSDT",
         "observation_lag_ms": 270347,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 10656
+        "notification_lag_ms": 10656,
+        "last_measure_attempt_ms": 1793515272842
       },
       "f678273bd5100e61687d3c26:radar": {
         "symbol": "ACEUSDT",
@@ -1599851,10 +1599899,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 137,
-      "attempted": 1,
-      "observed_ms": 1793514890229,
-      "unique_reads": 3
+      "due": 140,
+      "attempted": 2,
+      "observed_ms": 1793515272842,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1599879,8 +1599927,8 @@
                 "median_reference_return_pct": -0.3803675358599601
               },
               "24": {
-                "known_first_symbols": 30,
-                "median_reference_return_pct": -0.4999243913503648
+                "known_first_symbols": 31,
+                "median_reference_return_pct": -0.47058823529412264
               }
             }
           },
@@ -1625870,8 +1625918,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f503a07c75014ab1d1a17f22820e059a5cf15a3b",
-    "previous_success_ms": 1793515266049,
+    "previous_commit": "b733610c122f26d15a78c141007a3176a18f62f7",
+    "previous_success_ms": 1793515272810,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
