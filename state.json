@@ -1148382,182 +1148382,7 @@
       "source_close_ms": 1793562300000
     }
   },
-  "pending": [
-    {
-      "id": "ae24e6321ad9688cb1064ad2",
-      "asset_id": "379e9ce3e298dac342dc082d",
-      "key": "OKX:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_weakening",
-      "observed_ms": 1793563437265,
-      "price": 0.31266499999999997,
-      "level": 0.30485,
-      "invalid": 0.305430121874828,
-      "target": 0.3214832812503442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.30485,
-        "base_invalid": 0.300260121874828,
-        "atr": 0.0021325208344800542,
-        "rvol": 2.8939350909032564,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9926272790674604,
-        "score": 4.893935090903256
-      },
-      "context": {
-        "atr": 0.000496367685520225,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.11603800502608674,
-        "btc_hour_pct": -0.10417710364528654,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.305430121874828,
-        "target": 0.3214832812503442,
-        "risk_pct": 1.2304163905030319,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.32328,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.30861,
-        "entry_zone_high": 0.3098757066083311
-      },
-      "reason": null,
-      "source_close_ms": 1793563200000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "TRXUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793563200000,
-        "closed_price": 0.31264,
-        "ema20_1h": 0.3117071328800583,
-        "atr14_1h": 0.0021304765462597753,
-        "structure_floor": 0.31043,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "6fa2c9143b5247c7ac50e7f1",
-      "asset_id": "9a0fad54affa83f8212af3b3",
-      "key": "MEXC:PERP:TRUMPOFFICIALUSDT",
-      "symbol": "TRUMPOFFICIALUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793563438335,
-      "price": 1.6935,
-      "level": 1.61,
-      "invalid": 1.5879638808598124,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.61,
-        "base_invalid": 1.5879638808598124,
-        "atr": 0.006907460934583642,
-        "rvol": 9.16888950567493,
-        "close_position": 0.8,
-        "breakout": true,
-        "bar_close_ms": 1793541600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1271133375078346,
-        "score": 7.8
-      },
-      "context": {
-        "atr": 0.02192468231430587,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5180763695407209,
-        "btc_hour_pct": -0.10558373548062994,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TRUMPOFFICIALUSDT",
-          "change_pct": -11.645431193694556,
-          "old_ms": 1793559974288,
-          "current_ms": 1793563437046,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793541600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPOFFICIALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ea1ab7f5f2d8b1e4487632a7",
-      "asset_id": "47375fc0359ce22a4b106554",
-      "key": "MEXC:SPOT:DEFIUSDT",
-      "symbol": "DEFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793563435835,
-      "price": 0.00010875,
-      "level": 0.000108,
-      "invalid": 0.00010594948060218294,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000108,
-        "base_invalid": 0.00010594948060218294,
-        "atr": 1.0034626521137655e-06,
-        "rvol": 5.850905390606638,
-        "close_position": 0.6666666666666817,
-        "breakout": true,
-        "bar_close_ms": 1793556900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3707136237256714,
-        "score": 7.51757205727332
-      },
-      "context": {
-        "atr": 9.476394301750785e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.171056684793236,
-        "btc_hour_pct": -0.10569608273444109,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DEFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793556900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DEFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1156445,6 +1156270,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793562545254
+    },
+    {
+      "id": "ae24e6321ad9688cb1064ad2",
+      "asset_id": "379e9ce3e298dac342dc082d",
+      "key": "OKX:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793563437265,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793563447833
+    },
+    {
+      "id": "6fa2c9143b5247c7ac50e7f1",
+      "asset_id": "9a0fad54affa83f8212af3b3",
+      "key": "MEXC:PERP:TRUMPOFFICIALUSDT",
+      "symbol": "TRUMPOFFICIALUSDT",
+      "phase": "expired",
+      "observed_ms": 1793563438335,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793563447834
+    },
+    {
+      "id": "ea1ab7f5f2d8b1e4487632a7",
+      "asset_id": "47375fc0359ce22a4b106554",
+      "key": "MEXC:SPOT:DEFIUSDT",
+      "symbol": "DEFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793563435835,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793563447834
     }
   ],
   "runs": [
@@ -1247937,8 +1247795,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1bf0a47bf6fbe1f5754ba5702ae4e4887e00f269",
-    "previous_success_ms": 1793563162704,
+    "previous_commit": "47591c8b0ecc350d878003ec055c320ec247a653",
+    "previous_success_ms": 1793563446291,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
