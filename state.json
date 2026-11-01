@@ -1551390,60 +1551390,7 @@
       "source_close_ms": 1793519100000
     }
   },
-  "pending": [
-    {
-      "id": "8e92f54036b7d3fb723e6da2",
-      "asset_id": "0fdd03b5f39e74eea51bcf0a",
-      "key": "OKX:SPOT:MEGAUSDT",
-      "symbol": "MEGAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793519162308,
-      "price": 0.0445,
-      "level": 0.04464,
-      "invalid": 0.04412870848600664,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04464,
-        "base_invalid": 0.04412870848600664,
-        "atr": 0.00020861009328906907,
-        "rvol": 2.3987667721694956,
-        "close_position": 0.8275862068965459,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7886435331230235,
-        "score": 4.226352979066041
-      },
-      "context": {
-        "atr": 0.00020933837025474702,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6687148226520057,
-        "btc_hour_pct": 0.11992871047101783,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MEGAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793516400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEGAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1557648,6 +1557595,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793518566729
+    },
+    {
+      "id": "8e92f54036b7d3fb723e6da2",
+      "asset_id": "0fdd03b5f39e74eea51bcf0a",
+      "key": "OKX:SPOT:MEGAUSDT",
+      "symbol": "MEGAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793519162308,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793519175890
     }
   ],
   "runs": [
@@ -1633409,8 +1633367,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a04d388a5a942ef7740267b088caa3a25df4055d",
-    "previous_success_ms": 1793518881903,
+    "previous_commit": "566c31acf53873a3cca3579e1dae0e1a267ad7e7",
+    "previous_success_ms": 1793519174592,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
