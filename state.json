@@ -1592541,110 +1592541,7 @@
       "source_close_ms": 1793536200000
     }
   },
-  "pending": [
-    {
-      "id": "ab01e5a89832ebff4f794cd8",
-      "asset_id": "af364757fa2c89cf10754342",
-      "key": "MEXC:SPOT:XPINUSDT",
-      "symbol": "XPINUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793536384772,
-      "price": 0.00083475,
-      "level": 0.0008419,
-      "invalid": 0.0008083762209773518,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0008419,
-        "base_invalid": 0.0008083762209773518,
-        "atr": 9.491860150987077e-06,
-        "rvol": 3.107015677923147,
-        "close_position": 0.9322033898305067,
-        "breakout": false,
-        "bar_close_ms": 1793531700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9357005758157344,
-        "score": 4.5392190677536535
-      },
-      "context": {
-        "atr": 9.115338338131639e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.930474929694225,
-        "btc_hour_pct": -0.09395485321237462,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XPINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793531700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XPINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "09524e77f14634c4f51e23a1",
-      "asset_id": "10a882e979cf9182ed2d6d47",
-      "key": "OKX:PERP:ROBOUSDT",
-      "symbol": "ROBOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793536386216,
-      "price": 0.0050089999999999996,
-      "level": 0.005041,
-      "invalid": 0.004967829760324669,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005041,
-        "base_invalid": 0.004967829760324669,
-        "atr": 2.7801597835544057e-05,
-        "rvol": 3.1632424238544736,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793536200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.21991203518592073,
-        "score": 4.663242423854474
-      },
-      "context": {
-        "atr": 2.7801597835544057e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3768357298578051,
-        "btc_hour_pct": -0.08142288739663162,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ROBOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793536200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ROBOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1599531,6 +1599428,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793536092357
+    },
+    {
+      "id": "ab01e5a89832ebff4f794cd8",
+      "asset_id": "af364757fa2c89cf10754342",
+      "key": "MEXC:SPOT:XPINUSDT",
+      "symbol": "XPINUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793536384772,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793536397778
+    },
+    {
+      "id": "09524e77f14634c4f51e23a1",
+      "asset_id": "10a882e979cf9182ed2d6d47",
+      "key": "OKX:PERP:ROBOUSDT",
+      "symbol": "ROBOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793536386216,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793536397778
     }
   ],
   "runs": [
@@ -1655579,7 +1655498,8 @@
         "entry_seq": 0,
         "cohort": "ROBOUSDT",
         "observation_lag_ms": 186216,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11562
       }
     },
     "errors": [],
@@ -1681605,8 +1681525,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "04d743535a3efe7c07dd3085030a2c03c7d45d32",
-    "previous_success_ms": 1793536115475,
+    "previous_commit": "e6aa162c90f5379e93d76aa057dee64b5701ed5e",
+    "previous_success_ms": 1793536396612,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
