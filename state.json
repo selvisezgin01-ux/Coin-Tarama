@@ -1591357,60 +1591357,7 @@
       "source_close_ms": 1793530800000
     }
   },
-  "pending": [
-    {
-      "id": "a55fd622473903533a77110a",
-      "asset_id": "7b4d40cbfdfbc58ba284cff8",
-      "key": "MEXC:SPOT:ZBCNUSDT",
-      "symbol": "ZBCNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793531485163,
-      "price": 0.0020188999999999997,
-      "level": 0.002005,
-      "invalid": 0.001966994949265375,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002005,
-        "base_invalid": 0.001966994949265375,
-        "atr": 1.1367004897497883e-05,
-        "rvol": 2.712090053219927,
-        "close_position": 0.8734177215189692,
-        "breakout": false,
-        "bar_close_ms": 1793509200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2356480320882537,
-        "score": 4.085507774738897
-      },
-      "context": {
-        "atr": 9.275713440001043e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.04601936977383092,
-        "btc_hour_pct": -0.11542250282954303,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZBCNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793509200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZBCNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1598099,6 +1598046,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793530904827
+    },
+    {
+      "id": "a55fd622473903533a77110a",
+      "asset_id": "7b4d40cbfdfbc58ba284cff8",
+      "key": "MEXC:SPOT:ZBCNUSDT",
+      "symbol": "ZBCNUSDT",
+      "phase": "expired",
+      "observed_ms": 1793531485163,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793531497578
     }
   ],
   "runs": [
@@ -1678383,8 +1678341,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "02705783725aa0bc723408d7e52fcb174aac5d5c",
-    "previous_success_ms": 1793531214633,
+    "previous_commit": "1ff8a8a7b54c1539b8a84ee309ffb38be44a2582",
+    "previous_success_ms": 1793531496278,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
