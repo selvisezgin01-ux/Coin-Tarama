@@ -1522019,58 +1522019,7 @@
       "source_close_ms": 1793494800000
     }
   },
-  "pending": [
-    {
-      "id": "420d6ca67d444e65532a1ee7",
-      "asset_id": "d675762dc9805459d2807396",
-      "key": "OKX:PERP:WETUSDT",
-      "symbol": "WETUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793495090630,
-      "price": 0.059054999999999996,
-      "level": 0.05922,
-      "invalid": 0.057231498652250655,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05922,
-        "base_invalid": 0.057231498652250655,
-        "atr": 0.0009233423183289437,
-        "rvol": 4.812948732594126,
-        "close_position": 0.7631578947368424,
-        "breakout": true,
-        "bar_close_ms": 1793492100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7244323032269193,
-        "score": 6.576106627330969
-      },
-      "context": {
-        "atr": 0.001245742650555156,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.9059038255234686,
-        "btc_hour_pct": 0.14189703435198986,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793492100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WETUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1593909,8 +1593858,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e3d2c48a8652de9899f909036a337ccb92ed5bf2",
-    "previous_success_ms": 1793495073311,
+    "previous_commit": "cc0bfe835587a8f042c16de25772957a7cd80e14",
+    "previous_success_ms": 1793495099555,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
