@@ -1199513,110 +1199513,7 @@
       "source_close_ms": 1793564100000
     }
   },
-  "pending": [
-    {
-      "id": "d0a76599ca3567203e6928a3",
-      "asset_id": "96e601c8dc6fbffb6c1baf1b",
-      "key": "OKX:PERP:SOONUSDT",
-      "symbol": "SOONUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793565234271,
-      "price": 0.27425,
-      "level": 0.2736,
-      "invalid": 0.2707230488105808,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2736,
-        "base_invalid": 0.2707230488105808,
-        "atr": 0.001846341262794964,
-        "rvol": 3.599178934267961,
-        "close_position": 0.8333333333333295,
-        "breakout": true,
-        "bar_close_ms": 1793543400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4322438486962907,
-        "score": 5.4325122676012905
-      },
-      "context": {
-        "atr": 0.0032796894249475556,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.9352494196522065,
-        "btc_hour_pct": -0.10417710364528654,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SOONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793543400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6a7cab7266c242532daea276",
-      "asset_id": "77ca8e9d0c671b023712a9f7",
-      "key": "OKX:SPOT:WOOUSDT",
-      "symbol": "WOOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793565233240,
-      "price": 0.011635,
-      "level": 0.01165,
-      "invalid": 0.011551438310912732,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01165,
-        "base_invalid": 0.011551438310912732,
-        "atr": 5.7077927248462016e-05,
-        "rvol": 3.296579698171285,
-        "close_position": 0.6999999999999983,
-        "breakout": true,
-        "bar_close_ms": 1793561400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6908462867012188,
-        "score": 4.996579698171283
-      },
-      "context": {
-        "atr": 5.895454594669212e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5248897709676514,
-        "btc_hour_pct": -0.09348338615315921,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WOOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793561400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WOOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1207537,6 +1207434,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793563447834
+    },
+    {
+      "id": "d0a76599ca3567203e6928a3",
+      "asset_id": "96e601c8dc6fbffb6c1baf1b",
+      "key": "OKX:PERP:SOONUSDT",
+      "symbol": "SOONUSDT",
+      "phase": "expired",
+      "observed_ms": 1793565234271,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793565245135
+    },
+    {
+      "id": "6a7cab7266c242532daea276",
+      "asset_id": "77ca8e9d0c671b023712a9f7",
+      "key": "OKX:SPOT:WOOUSDT",
+      "symbol": "WOOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793565233240,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793565245135
     }
   ],
   "runs": [
@@ -1299566,8 +1299485,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "042ed3392552437af6cf400d1f36bd9122273fce",
-    "previous_success_ms": 1793564959282,
+    "previous_commit": "70bb1d36848acd9bfa43c739b3981e14365231f1",
+    "previous_success_ms": 1793565243612,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
