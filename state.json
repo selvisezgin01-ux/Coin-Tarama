@@ -1559389,60 +1559389,7 @@
       "source_close_ms": 1793520900000
     }
   },
-  "pending": [
-    {
-      "id": "448718d67cf061e03d659057",
-      "asset_id": "f75204afa9e55bbcde1e68e4",
-      "key": "OKX:PERP:ALLOUSDT",
-      "symbol": "ALLOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793521256679,
-      "price": 0.167255,
-      "level": 0.16705,
-      "invalid": 0.16444631769009832,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.16705,
-        "base_invalid": 0.16444631769009832,
-        "atr": 0.0007578820660112683,
-        "rvol": 2.1935720536601595,
-        "close_position": 0.8750000000000185,
-        "breakout": true,
-        "bar_close_ms": 1793520900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5408653846153966,
-        "score": 4.068572053660178
-      },
-      "context": {
-        "atr": 0.0007578820660112683,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6295598594543761,
-        "btc_hour_pct": -0.05093289302681159,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ALLOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793520900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALLOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1565724,6 +1565671,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793520972672
+    },
+    {
+      "id": "448718d67cf061e03d659057",
+      "asset_id": "f75204afa9e55bbcde1e68e4",
+      "key": "OKX:PERP:ALLOUSDT",
+      "symbol": "ALLOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793521256679,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793521266887
     }
   ],
   "runs": [
@@ -1616377,7 +1616335,8 @@
         "entry_seq": 0,
         "cohort": "ALLOUSDT",
         "observation_lag_ms": 356679,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10208
       }
     },
     "errors": [],
@@ -1642404,8 +1642363,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ca8aec460b3a13423731ed15d038cde421abd77d",
-    "previous_success_ms": 1793520988918,
+    "previous_commit": "856146dd37b30344743d283cf4e1f303e828fbfe",
+    "previous_success_ms": 1793521265752,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
