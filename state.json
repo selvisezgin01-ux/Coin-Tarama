@@ -1512698,60 +1512698,7 @@
       "source_close_ms": 1793493000000
     }
   },
-  "pending": [
-    {
-      "id": "af68d40d6f52bc88e3be31f2",
-      "asset_id": "379e9ce3e298dac342dc082d",
-      "key": "OKX:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793493442954,
-      "price": 0.30706999999999995,
-      "level": 0.30485,
-      "invalid": 0.300260121874828,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.30485,
-        "base_invalid": 0.300260121874828,
-        "atr": 0.0021325208344800542,
-        "rvol": 2.8939350909032564,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9926272790674604,
-        "score": 4.893935090903256
-      },
-      "context": {
-        "atr": 0.0021325208344800542,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5519474730991236,
-        "btc_hour_pct": 0.028387463064039054,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793493000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1517933,6 +1517880,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793493159836
+    },
+    {
+      "id": "af68d40d6f52bc88e3be31f2",
+      "asset_id": "379e9ce3e298dac342dc082d",
+      "key": "OKX:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793493442954,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793493456523
     }
   ],
   "runs": [
@@ -1558337,7 +1558295,8 @@
         "entry_seq": 0,
         "cohort": "TRXUSDT",
         "observation_lag_ms": 442954,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13569
       }
     },
     "errors": [],
@@ -1583995,8 +1583954,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5cb226a765bfa9ed3973fe301efca5bf2945b6eb",
-    "previous_success_ms": 1793493182808,
+    "previous_commit": "8d4842f57c9e01de3bf024812b21dc374e87cc0f",
+    "previous_success_ms": 1793493455335,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
