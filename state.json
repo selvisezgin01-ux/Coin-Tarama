@@ -80042,46 +80042,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "55e4d7cd379c6bd8d3fed18c3291",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793545627303,
-      "text": "Son kontrol %-7.50; fiyat $0.0003143. Gözlem aralığı 5.0dk.",
-      "details": {}
-    },
-    {
-      "id": "a481635cd97191b66c9eccd92ea2",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793545628314,
-      "text": "Son kontrol %-1.82; fiyat $0.0001888. Gözlem aralığı 5.0dk.",
-      "details": {}
-    },
-    {
-      "id": "6099048998b5942da2633c9195a0",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "HOLDER BAKİYE AZALIŞI",
-      "observed_ms": 1793545648653,
-      "text": "`7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX` · aynı izlenen token hesaplarında -9588402.540000token; güncel fiyatla yaklaşık $3014. Token transferi olabilir; otomatik alım/satım yorumu yok.",
-      "details": {
-        "owner": "7SR1GBkrBqRhQQqWyjDrHn19kfd3t2JnipP9rrnhGCyX",
-        "amount": 6663127.190085,
-        "change_tokens": -9588402.54,
-        "same_accounts_compared": 1,
-        "slot": 464136636
-      }
-    },
-    {
-      "id": "1ca4185509ffdf48e2e8851d92e0",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793545651360,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -82758,6 +82719,30 @@
       "issue": 1119,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1119",
       "delivered_ms": 1793545362161
+    },
+    {
+      "id": "55e4d7cd379c6bd8d3fed18c3291",
+      "issue": 1121,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1121",
+      "delivered_ms": 1793545671780
+    },
+    {
+      "id": "a481635cd97191b66c9eccd92ea2",
+      "issue": 1121,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1121",
+      "delivered_ms": 1793545671780
+    },
+    {
+      "id": "6099048998b5942da2633c9195a0",
+      "issue": 1121,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1121",
+      "delivered_ms": 1793545671780
+    },
+    {
+      "id": "1ca4185509ffdf48e2e8851d92e0",
+      "issue": 1121,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1121",
+      "delivered_ms": 1793545671780
     }
   ],
   "provider_backoff": {
