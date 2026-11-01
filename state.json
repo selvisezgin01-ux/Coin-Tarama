@@ -1211292,60 +1211292,7 @@
       "source_close_ms": 1793564100000
     }
   },
-  "pending": [
-    {
-      "id": "2123979911b63364bf5c60f5",
-      "asset_id": "fe516ed2395da9f8078b7817",
-      "key": "OKX:PERP:ATHUSDT",
-      "symbol": "ATHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793565831495,
-      "price": 0.0049525,
-      "level": 0.00496,
-      "invalid": 0.004892859568104057,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00496,
-        "base_invalid": 0.004892859568104057,
-        "atr": 2.7602879306289108e-05,
-        "rvol": 2.227964067036607,
-        "close_position": 0.7333333333333025,
-        "breakout": false,
-        "bar_close_ms": 1793565000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2023881805302441,
-        "score": 3.4612974003699097
-      },
-      "context": {
-        "atr": 2.7602879306289108e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06373220981314986,
-        "btc_hour_pct": -0.10417710364528654,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793565000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1219288,6 +1219235,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793565245135
+    },
+    {
+      "id": "2123979911b63364bf5c60f5",
+      "asset_id": "fe516ed2395da9f8078b7817",
+      "key": "OKX:PERP:ATHUSDT",
+      "symbol": "ATHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793565831495,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793565841497
     }
   ],
   "runs": [
@@ -1285479,7 +1285437,8 @@
         "entry_seq": 0,
         "cohort": "ATHUSDT",
         "observation_lag_ms": 831495,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10002
       }
     },
     "errors": [],
@@ -1311500,8 +1311459,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7c68f5dcecf8429af6c9088c00ad24a7c671eae1",
-    "previous_success_ms": 1793565553880,
+    "previous_commit": "fee43391b6ed1d82042f00eab1c4bb250562e9e1",
+    "previous_success_ms": 1793565840048,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
