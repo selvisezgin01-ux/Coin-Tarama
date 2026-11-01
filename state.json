@@ -73652,24 +73652,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "d73a30f7d8114ad32eed9612d996",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793530234057,
-      "text": "Son kontrol %+2.11; fiyat $0.0003579. Gözlem aralığı 5.0dk.",
-      "details": {}
-    },
-    {
-      "id": "cedbd896169bca1373907441497e",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793530249719,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -75938,6 +75921,18 @@
       "issue": 1020,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1020",
       "delivered_ms": 1793529968786
+    },
+    {
+      "id": "d73a30f7d8114ad32eed9612d996",
+      "issue": 1023,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1023",
+      "delivered_ms": 1793530269311
+    },
+    {
+      "id": "cedbd896169bca1373907441497e",
+      "issue": 1023,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1023",
+      "delivered_ms": 1793530269311
     }
   ],
   "provider_backoff": {
