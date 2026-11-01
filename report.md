@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 01.11.2026 13:41:14 TR · V2 döngüsü 570
+Son gözlem: 01.11.2026 13:46:05 TR · V2 döngüsü 571
 
 ## Bildirim kuralları
 
@@ -16,17 +16,17 @@ CA:
 GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk
 ```
 Fiyat $0.0003505; likidite $161137.35; tek swap bildirim eşiği $161.
-V2de sessiz kaydedilen küçük işlem 169, anlamlı tek işlem 31.
+V2de sessiz kaydedilen küçük işlem 171, anlamlı tek işlem 32.
 [Solscan](https://solscan.io/token/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) · [DexScreener](https://dexscreener.com/solana/6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk)
 
 ### Sessiz birikim
 
-Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
+60dk: örnek alım $997, satış $485, net $512, fiyat bandı %1.11; 2başlatıcı adres.
 
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 13:40:56 TR
+Son zincir okuması: 01.11.2026 13:45:47 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -54,7 +54,7 @@ CA:
 4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk
 ```
 Fiyat $0.0001956; likidite $92621.07; tek swap bildirim eşiği $100.
-V2de sessiz kaydedilen küçük işlem 74, anlamlı tek işlem 7.
+V2de sessiz kaydedilen küçük işlem 75, anlamlı tek işlem 7.
 [Solscan](https://solscan.io/token/4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk) · [DexScreener](https://dexscreener.com/solana/6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5)
 
 ### Sessiz birikim
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 13:40:56 TR
+Son zincir okuması: 01.11.2026 13:45:47 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -96,18 +96,18 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "related_ownership_verified": false,
     "wallets": {
       "selected": 8,
-      "total_tracked": 11,
+      "total_tracked": 12,
       "errors": [
         "api.mainnet.solana.com: RPC error -32015"
       ],
       "detail_queue": 4562,
       "full_chain_coverage": false,
-      "checked_ms": 1793529674509
+      "checked_ms": 1793529965564
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793529656325,
+      "observed_ms": 1793529947516,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -122,7 +122,7 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 569,
+    "intervals": 570,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
@@ -134,6 +134,12 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+01.11.2026 13:46:05 TR · **SESSİZ BİRİKİM** · 60dk örneğinde net alım $512; alım payı %67.3; 3alım/2başlatıcı. Gözlenen fiyat bandı %1.11. Bağımsız kişi/gerçek balina veya yükseliş garantisi değil.
+
+01.11.2026 13:45:49 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
+
+01.11.2026 13:45:34 TR · **BÜYÜK ALIM** · BÜYÜK ALIM: $880.89 · işlem başlatıcı `DSYwYUg7ZeDd96bAaGb7WMfT3apsnxo38B3YczDaWPmW` · bildirim eşiği $161
 
 01.11.2026 13:40:58 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -208,10 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 01.11.2026 11:35:20 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 11:30:20 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 11:25:29 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 11:20:20 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 11:15:21 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
