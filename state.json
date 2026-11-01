@@ -1555803,58 +1555803,7 @@
       "source_close_ms": 1793521800000
     }
   },
-  "pending": [
-    {
-      "id": "0da63bf63c4e791063306753",
-      "asset_id": "43cda2e0e8c13ecaf4179e24",
-      "key": "OKX:PERP:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793522072206,
-      "price": 0.0416065,
-      "level": 0.041715,
-      "invalid": 0.041243457308508445,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.041715,
-        "base_invalid": 0.041243457308508445,
-        "atr": 0.0002302846099437189,
-        "rvol": 2.230216919864307,
-        "close_position": 0.9383259911894568,
-        "breakout": true,
-        "bar_close_ms": 1793520000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7606027054349429,
-        "score": 4.1685429110537635
-      },
-      "context": {
-        "atr": 0.00022436982184328327,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8115355984617545,
-        "btc_hour_pct": -0.05093289302681159,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793520000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1562158,6 +1562107,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793521567844
+    },
+    {
+      "id": "0da63bf63c4e791063306753",
+      "asset_id": "43cda2e0e8c13ecaf4179e24",
+      "key": "OKX:PERP:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793522072206,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793522082352
     }
   ],
   "runs": [
@@ -1639013,8 +1638973,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "afbd4bd2ea2f284ca2dff5765c73cf708d4659cd",
-    "previous_success_ms": 1793522056353,
+    "previous_commit": "579184965ed2b8beae6d5e9d2c99ab0381dec34a",
+    "previous_success_ms": 1793522081488,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
