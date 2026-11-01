@@ -1583587,108 +1583587,7 @@
       "source_close_ms": 1793529000000
     }
   },
-  "pending": [
-    {
-      "id": "c8da18fff13708671f9ee975",
-      "asset_id": "58da3f83f268c02ed4097ebb",
-      "key": "OKX:PERP:LABUSDT",
-      "symbol": "LABUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793529090601,
-      "price": 0.044855,
-      "level": 0.04491,
-      "invalid": 0.043999997483085224,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04491,
-        "base_invalid": 0.043999997483085224,
-        "atr": 0.0002666834460985131,
-        "rvol": 5.409258751206577,
-        "close_position": 0.7499999999999942,
-        "breakout": true,
-        "bar_close_ms": 1793518200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.075344010827873,
-        "score": 7.159258751206572
-      },
-      "context": {
-        "atr": 0.00036918001673134687,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.213731698017284,
-        "btc_hour_pct": -0.16663640014221714,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LABUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793518200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LABUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ec68fd8648bd8f54d4f5e736",
-      "asset_id": "011e509897ed4ca7c4cca9b6",
-      "key": "MEXC:SPOT:WFIUSDT",
-      "symbol": "WFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793529090616,
-      "price": 2.03475,
-      "level": 2.0357,
-      "invalid": 2.019442422769915,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.0357,
-        "base_invalid": 2.019442422769915,
-        "atr": 0.003717181533901424,
-        "rvol": 9.818009854526123,
-        "close_position": 0.9487179487179546,
-        "breakout": true,
-        "bar_close_ms": 1793526300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5123152709359591,
-        "score": 7.948717948717954
-      },
-      "context": {
-        "atr": 0.0035433623293623156,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5261132973305105,
-        "btc_hour_pct": -0.15720036078351596,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793526300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1590300,6 +1590199,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793528799168
+    },
+    {
+      "id": "c8da18fff13708671f9ee975",
+      "asset_id": "58da3f83f268c02ed4097ebb",
+      "key": "OKX:PERP:LABUSDT",
+      "symbol": "LABUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793529090601,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793529101165
+    },
+    {
+      "id": "ec68fd8648bd8f54d4f5e736",
+      "asset_id": "011e509897ed4ca7c4cca9b6",
+      "key": "MEXC:SPOT:WFIUSDT",
+      "symbol": "WFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793529090616,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793529101166
     }
   ],
   "runs": [
@@ -1669665,8 +1669586,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "316d2eb9fde52c8937211dbb25eddc992b6848cd",
-    "previous_success_ms": 1793528816004,
+    "previous_commit": "5577dd4a98f1970ac8018ba273f764e14b011c51",
+    "previous_success_ms": 1793529099690,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
