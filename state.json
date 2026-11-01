@@ -1279271,164 +1279271,7 @@
       "source_close_ms": 1793564100000
     }
   },
-  "pending": [
-    {
-      "id": "1b6eb1c5aacc1593a141a542",
-      "asset_id": "ac84d5605f20920053795fc4",
-      "key": "OKX:SPOT:MINAUSDT",
-      "symbol": "MINAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793569945299,
-      "price": 0.05803,
-      "level": 0.05813,
-      "invalid": 0.05770019468290457,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05813,
-        "base_invalid": 0.05770019468290457,
-        "atr": 0.00019870211396952054,
-        "rvol": 27.787434159009265,
-        "close_position": 0.6249999999999963,
-        "breakout": false,
-        "bar_close_ms": 1793569500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.1378359751895264,
-        "score": 7.1249999999999964
-      },
-      "context": {
-        "atr": 0.00019870211396952054,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.24294759499151608,
-        "btc_hour_pct": 0.12236189301046974,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MINAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MINAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d0d6b67979aed3fe2c521888",
-      "asset_id": "689e9084b4ddb47a9ffb2160",
-      "key": "MEXC:SPOT:USELESSUSDT",
-      "symbol": "USELESSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793569945332,
-      "price": 0.13055250000000002,
-      "level": 0.128723,
-      "invalid": 0.12588403066827,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.128723,
-        "base_invalid": 0.12588403066827,
-        "atr": 0.0008397955448667244,
-        "rvol": 4.1748369585298155,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793569500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.469715428107321,
-        "score": 6.1748369585298155
-      },
-      "context": {
-        "atr": 0.0008397955448667244,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.021223949304371992,
-        "btc_hour_pct": 0.13617097202009987,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:USELESSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "USELESSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ef5a9a6acce4b131f10fe8f4",
-      "asset_id": "f061e976f539b2ea2209bdac",
-      "key": "OKX:PERP:AKEUSDT",
-      "symbol": "AKEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793569944964,
-      "price": 0.009305,
-      "level": 0.00919,
-      "invalid": 0.00878693076691614,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00919,
-        "base_invalid": 0.00878693076691614,
-        "atr": 0.00015379488722573942,
-        "rvol": 2.2138222580921583,
-        "close_position": 0.7727272727272738,
-        "breakout": true,
-        "bar_close_ms": 1793569500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.36241610738255,
-        "score": 3.986549530819432
-      },
-      "context": {
-        "atr": 0.00015379488722573942,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.7949015973191642,
-        "btc_hour_pct": 0.12897484926144287,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AKEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1287470,6 +1287313,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793569663165
+    },
+    {
+      "id": "1b6eb1c5aacc1593a141a542",
+      "asset_id": "ac84d5605f20920053795fc4",
+      "key": "OKX:SPOT:MINAUSDT",
+      "symbol": "MINAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793569945299,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793569955146
+    },
+    {
+      "id": "d0d6b67979aed3fe2c521888",
+      "asset_id": "689e9084b4ddb47a9ffb2160",
+      "key": "MEXC:SPOT:USELESSUSDT",
+      "symbol": "USELESSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793569945332,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793569955146
+    },
+    {
+      "id": "ef5a9a6acce4b131f10fe8f4",
+      "asset_id": "f061e976f539b2ea2209bdac",
+      "key": "OKX:PERP:AKEUSDT",
+      "symbol": "AKEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793569944964,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793569955146
     }
   ],
   "runs": [
@@ -1355253,7 +1355129,8 @@
         "entry_seq": 0,
         "cohort": "MINAUSDT",
         "observation_lag_ms": 445299,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9847
       },
       "689e9084b4ddb47a9ffb2160:radar": {
         "symbol": "USELESSUSDT",
@@ -1355275,7 +1355152,8 @@
         "entry_seq": 0,
         "cohort": "USELESSUSDT",
         "observation_lag_ms": 445332,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9814
       },
       "f061e976f539b2ea2209bdac:radar": {
         "symbol": "AKEUSDT",
@@ -1355297,7 +1355175,8 @@
         "entry_seq": 0,
         "cohort": "AKEUSDT",
         "observation_lag_ms": 444964,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10182
       }
     },
     "errors": [],
@@ -1381328,8 +1381207,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8c2fb6ffa2281ae1854922dc9eec4efe9b71a860",
-    "previous_success_ms": 1793569679883,
+    "previous_commit": "958448a137082c91d6306f7f930b8dc8701358c1",
+    "previous_success_ms": 1793569953752,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
