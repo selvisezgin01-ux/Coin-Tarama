@@ -1557465,210 +1557465,7 @@
       "source_close_ms": 1793522700000
     }
   },
-  "pending": [
-    {
-      "id": "07d064c8b1aa7c2c8b6b93b0",
-      "asset_id": "4877b5283f3a7d6e4f66b6a9",
-      "key": "MEXC:SPOT:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793522969634,
-      "price": 0.041655,
-      "level": 0.04159,
-      "invalid": 0.040985672405190396,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04159,
-        "base_invalid": 0.040985672405190396,
-        "atr": 0.00022885063206402068,
-        "rvol": 4.422439569590383,
-        "close_position": 0.6551724137931001,
-        "breakout": false,
-        "bar_close_ms": 1793512800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4837929366231286,
-        "score": 5.577611983383482
-      },
-      "context": {
-        "atr": 0.00023691252693130153,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.862696101879834,
-        "btc_hour_pct": -0.06942687111060053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793512800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a28e19d1e214081ff56fceb7",
-      "asset_id": "e39d04a9b6b790cb4b1c2dcb",
-      "key": "OKX:SPOT:LINKUSDT",
-      "symbol": "LINKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793522970260,
-      "price": 11.816500000000001,
-      "level": 11.689,
-      "invalid": 11.580905392156561,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 11.689,
-        "base_invalid": 11.580905392156561,
-        "atr": 0.05396405228959322,
-        "rvol": 4.700542461399685,
-        "close_position": 0.8421052631578898,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7884813164209747,
-        "score": 6.542647724557575
-      },
-      "context": {
-        "atr": 0.05321570075996796,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.13920569574451536,
-        "btc_hour_pct": -0.071178484860146,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LINKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793516400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LINKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bf6471c6b202ffdfaca7c63f",
-      "asset_id": "2dcd2b1757fb6b17db151f04",
-      "key": "MEXC:SPOT:GALAUSDT",
-      "symbol": "GALAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793522969634,
-      "price": 0.0017200000000000002,
-      "level": 0.001712,
-      "invalid": 0.0017031392229418037,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001712,
-        "base_invalid": 0.0017031392229418037,
-        "atr": 5.738513721309389e-06,
-        "rvol": 13.712650283015538,
-        "close_position": 0.7499999999999932,
-        "breakout": true,
-        "bar_close_ms": 1793517300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.17543859649122862,
-        "score": 7.749999999999993
-      },
-      "context": {
-        "atr": 5.35596856770691e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7130781291562416,
-        "btc_hour_pct": -0.06942687111060053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GALAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793517300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GALAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5d1c98b37c7d223a124de496",
-      "asset_id": "f75204afa9e55bbcde1e68e4",
-      "key": "OKX:PERP:ALLOUSDT",
-      "symbol": "ALLOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793522970592,
-      "price": 0.167215,
-      "level": 0.16705,
-      "invalid": 0.16444631769009832,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.16705,
-        "base_invalid": 0.16444631769009832,
-        "atr": 0.0007578820660112683,
-        "rvol": 2.1935720536601595,
-        "close_position": 0.8750000000000185,
-        "breakout": true,
-        "bar_close_ms": 1793520900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5408653846153966,
-        "score": 4.068572053660178
-      },
-      "context": {
-        "atr": 0.0007595987418557715,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6295598594543761,
-        "btc_hour_pct": -0.05093289302681159,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ALLOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793520900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALLOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1564005,6 +1563802,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793522376343
+    },
+    {
+      "id": "07d064c8b1aa7c2c8b6b93b0",
+      "asset_id": "4877b5283f3a7d6e4f66b6a9",
+      "key": "MEXC:SPOT:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793522969634,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793522981070
+    },
+    {
+      "id": "a28e19d1e214081ff56fceb7",
+      "asset_id": "e39d04a9b6b790cb4b1c2dcb",
+      "key": "OKX:SPOT:LINKUSDT",
+      "symbol": "LINKUSDT",
+      "phase": "expired",
+      "observed_ms": 1793522970260,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793522981070
+    },
+    {
+      "id": "bf6471c6b202ffdfaca7c63f",
+      "asset_id": "2dcd2b1757fb6b17db151f04",
+      "key": "MEXC:SPOT:GALAUSDT",
+      "symbol": "GALAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793522969634,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793522981070
+    },
+    {
+      "id": "5d1c98b37c7d223a124de496",
+      "asset_id": "f75204afa9e55bbcde1e68e4",
+      "key": "OKX:PERP:ALLOUSDT",
+      "symbol": "ALLOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793522970592,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793522981070
     }
   ],
   "runs": [
@@ -1641216,8 +1641057,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7abaa53d0c5103b2707d3ddb77474009793a5ee5",
-    "previous_success_ms": 1793522697256,
+    "previous_commit": "6918364e1ada46f2f06c4517554e128fdd3fa3f3",
+    "previous_success_ms": 1793522980225,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
