@@ -1560253,58 +1560253,7 @@
       "source_close_ms": 1793520900000
     }
   },
-  "pending": [
-    {
-      "id": "89c6a0e4cf0400d4369e3e5e",
-      "asset_id": "7672181b6b2478ff4af98480",
-      "key": "MEXC:SPOT:BEAMXUSDT",
-      "symbol": "BEAMXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793520960815,
-      "price": 0.0057145,
-      "level": 0.005847,
-      "invalid": 0.005069737374815659,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005847,
-        "base_invalid": 0.005069737374815659,
-        "atr": 0.0001884175012289416,
-        "rvol": 26.679275125004832,
-        "close_position": 0.6921119592875308,
-        "breakout": true,
-        "bar_close_ms": 1793517300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 9.400938289426186,
-        "score": 7.692111959287531
-      },
-      "context": {
-        "atr": 0.00021333624668961248,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.963204801670936,
-        "btc_hour_pct": -0.06942687111060053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BEAMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793517300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEAMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1566575,6 +1566524,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793520665665
+    },
+    {
+      "id": "89c6a0e4cf0400d4369e3e5e",
+      "asset_id": "7672181b6b2478ff4af98480",
+      "key": "MEXC:SPOT:BEAMXUSDT",
+      "symbol": "BEAMXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793520960815,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793520972672
     }
   ],
   "runs": [
@@ -1643115,8 +1643075,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8bd12b2a0b288da05666598a669ebc5966936c06",
-    "previous_success_ms": 1793520680632,
+    "previous_commit": "75ab1381951dc9d14e68559ecc7c0f97246f7212",
+    "previous_success_ms": 1793520971490,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
