@@ -1529274,226 +1529274,7 @@
       "source_close_ms": 1793497500000
     }
   },
-  "pending": [
-    {
-      "id": "3d793aeb0a13450ddf2ed10a",
-      "asset_id": "379e9ce3e298dac342dc082d",
-      "key": "OKX:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793497787522,
-      "price": 0.30923500000000004,
-      "level": 0.30485,
-      "invalid": 0.305430121874828,
-      "target": 0.3214832812503442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.30485,
-        "base_invalid": 0.300260121874828,
-        "atr": 0.0021325208344800542,
-        "rvol": 2.8939350909032564,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9926272790674604,
-        "score": 4.893935090903256
-      },
-      "context": {
-        "atr": 0.002531413216662222,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9692140767591173,
-        "btc_hour_pct": 0.14189703435198986,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.305430121874828,
-        "target": 0.3214832812503442,
-        "risk_pct": 1.2304163905030319,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.32328,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.30861,
-        "entry_zone_high": 0.3098757066083311
-      },
-      "reason": null,
-      "source_close_ms": 1793497500000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "TRXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b9a010aa04a863d91a208419",
-      "asset_id": "c1ffcd6540d103626cd6778e",
-      "key": "OKX:PERP:SSVUSDT",
-      "symbol": "SSVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793497787522,
-      "price": 2.2565,
-      "level": 2.261,
-      "invalid": 2.237784761582287,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.261,
-        "base_invalid": 2.237784761582287,
-        "atr": 0.008101589451419786,
-        "rvol": 3.430947310442035,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5330964015992867,
-        "score": 5.4309473104420345
-      },
-      "context": {
-        "atr": 0.008291392306151573,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7025474100924578,
-        "btc_hour_pct": 0.14189703435198986,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SSVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793493900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SSVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "99fde4d09205082a54c32d05",
-      "asset_id": "c914de0352635a4960e77d23",
-      "key": "MEXC:SPOT:ETHUSDT",
-      "symbol": "ETHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793497788524,
-      "price": 2268.4049999999997,
-      "level": 2267.3,
-      "invalid": 2252.6574105269483,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2267.3,
-        "base_invalid": 2252.6574105269483,
-        "atr": 3.8172631536772323,
-        "rvol": 3.3087804581195637,
-        "close_position": 0.8219178082191795,
-        "breakout": true,
-        "bar_close_ms": 1793497500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5140215880212295,
-        "score": 5.130698266338743
-      },
-      "context": {
-        "atr": 3.8172631536772323,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.12695161711264724,
-        "btc_hour_pct": 0.1683567051724788,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ETHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793497500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b32bbbb42476d2d2647f08da",
-      "asset_id": "4239e6ad47e2dbe9b8dd7cd5",
-      "key": "OKX:PERP:ARXUSDT",
-      "symbol": "ARXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793497787522,
-      "price": 0.21785,
-      "level": 0.2173,
-      "invalid": 0.2157903010283801,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2173,
-        "base_invalid": 0.2157903010283801,
-        "atr": 0.0007313264774660401,
-        "rvol": 2.0059184722525405,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793497500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.27700831024930483,
-        "score": 3.5059184722525405
-      },
-      "context": {
-        "atr": 0.0007313264774660401,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.23427578723882458,
-        "btc_hour_pct": 0.14189703435198986,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ARXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793497500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1534796,6 +1534577,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793497193952
+    },
+    {
+      "id": "3d793aeb0a13450ddf2ed10a",
+      "asset_id": "379e9ce3e298dac342dc082d",
+      "key": "OKX:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793497787522,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793497798175
+    },
+    {
+      "id": "b9a010aa04a863d91a208419",
+      "asset_id": "c1ffcd6540d103626cd6778e",
+      "key": "OKX:PERP:SSVUSDT",
+      "symbol": "SSVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793497787522,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793497798175
+    },
+    {
+      "id": "99fde4d09205082a54c32d05",
+      "asset_id": "c914de0352635a4960e77d23",
+      "key": "MEXC:SPOT:ETHUSDT",
+      "symbol": "ETHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793497788524,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793497798176
+    },
+    {
+      "id": "b32bbbb42476d2d2647f08da",
+      "asset_id": "4239e6ad47e2dbe9b8dd7cd5",
+      "key": "OKX:PERP:ARXUSDT",
+      "symbol": "ARXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793497787522,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793497798176
     }
   ],
   "runs": [
@@ -1576625,7 +1576450,8 @@
         "entry_seq": 1,
         "cohort": "TRXUSDT",
         "observation_lag_ms": 287522,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 10653
       },
       "c914de0352635a4960e77d23:radar": {
         "symbol": "ETHUSDT",
@@ -1576647,7 +1576473,8 @@
         "entry_seq": 0,
         "cohort": "ETHUSDT",
         "observation_lag_ms": 288524,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9652
       },
       "4239e6ad47e2dbe9b8dd7cd5:radar": {
         "symbol": "ARXUSDT",
@@ -1576669,7 +1576496,8 @@
         "entry_seq": 0,
         "cohort": "ARXUSDT",
         "observation_lag_ms": 287522,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10654
       }
     },
     "errors": [],
@@ -1602445,8 +1602273,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "72c2c168394939bcf2e20c60d104bcd08b868f9f",
-    "previous_success_ms": 1793497518541,
+    "previous_commit": "acb081b00ec8c152c694471c8885b087dcb8b1f2",
+    "previous_success_ms": 1793497797306,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
