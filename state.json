@@ -1520139,112 +1520139,7 @@
       "source_close_ms": 1793499300000
     }
   },
-  "pending": [
-    {
-      "id": "3ddf54bc9c8bfd865fceafd1",
-      "asset_id": "00c385efbe363edcf9518a73",
-      "key": "OKX:SPOT:CVCUSDT",
-      "symbol": "CVCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793499882316,
-      "price": 0.02435,
-      "level": 0.02418,
-      "invalid": 0.02300125547097133,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02418,
-        "base_invalid": 0.02300125547097133,
-        "atr": 0.0003249635268578193,
-        "rvol": 29.905647636993997,
-        "close_position": 0.7666666666666704,
-        "breakout": true,
-        "bar_close_ms": 1793499300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.370307167235498,
-        "score": 7.76666666666667
-      },
-      "context": {
-        "atr": 0.0003249635268578193,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6088504123959115,
-        "btc_hour_pct": 0.06568584392785404,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CVCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793499300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CVCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e31d186e898db07fcbe81e37",
-      "asset_id": "d852a607f0ee003cedb07ecc",
-      "key": "MEXC:PERP:CVCUSDT",
-      "symbol": "CVCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793499884849,
-      "price": 0.024305,
-      "level": 0.02402,
-      "invalid": 0.02301748987162524,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02402,
-        "base_invalid": 0.02301748987162524,
-        "atr": 0.00028340085583173784,
-        "rvol": 5.271085798965634,
-        "close_position": 0.7346938775510176,
-        "breakout": true,
-        "bar_close_ms": 1793499300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.990175138829554,
-        "score": 7.005779676516652
-      },
-      "context": {
-        "atr": 0.00028340085583173784,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8820928112614146,
-        "btc_hour_pct": 0.04971574443533022,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CVCUSDT",
-          "change_pct": 2.585259312688537,
-          "old_ms": 1793496271112,
-          "current_ms": 1793499883183,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0989,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793499300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CVCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1525690,6 +1525585,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793499596611
+    },
+    {
+      "id": "3ddf54bc9c8bfd865fceafd1",
+      "asset_id": "00c385efbe363edcf9518a73",
+      "key": "OKX:SPOT:CVCUSDT",
+      "symbol": "CVCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793499882316,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793499894682
+    },
+    {
+      "id": "e31d186e898db07fcbe81e37",
+      "asset_id": "d852a607f0ee003cedb07ecc",
+      "key": "MEXC:PERP:CVCUSDT",
+      "symbol": "CVCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793499884849,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793499894683
     }
   ],
   "runs": [
@@ -1568305,7 +1568222,8 @@
         "entry_seq": 0,
         "cohort": "CVCUSDT",
         "observation_lag_ms": 582316,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12366
       },
       "d852a607f0ee003cedb07ecc:radar": {
         "symbol": "CVCUSDT",
@@ -1568327,7 +1568245,8 @@
         "entry_seq": 0,
         "cohort": "CVCUSDT",
         "observation_lag_ms": 584849,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9834
       }
     },
     "errors": [],
@@ -1594166,8 +1594085,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5d5c864564f2fa034406d221b06f40c197f71ca5",
-    "previous_success_ms": 1793499614648,
+    "previous_commit": "f3fefc0fbe7238d1b101691148f0c463f23d1963",
+    "previous_success_ms": 1793499893773,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
