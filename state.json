@@ -1608396,114 +1608396,7 @@
       "source_close_ms": 1793540700000
     }
   },
-  "pending": [
-    {
-      "id": "0a467ff7b78bda94454c3117",
-      "asset_id": "9a0fad54affa83f8212af3b3",
-      "key": "MEXC:PERP:TRUMPOFFICIALUSDT",
-      "symbol": "TRUMPOFFICIALUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793541789515,
-      "price": 1.6185,
-      "level": 1.61,
-      "invalid": 1.5879638808598124,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.61,
-        "base_invalid": 1.5879638808598124,
-        "atr": 0.006907460934583642,
-        "rvol": 9.16888950567493,
-        "close_position": 0.8,
-        "breakout": true,
-        "bar_close_ms": 1793541600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1271133375078346,
-        "score": 7.8
-      },
-      "context": {
-        "atr": 0.006907460934583642,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9442125098302112,
-        "btc_hour_pct": 0.1829008276776234,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TRUMPOFFICIALUSDT",
-          "change_pct": 2.5406571514761334,
-          "old_ms": 1793538172183,
-          "current_ms": 1793541788157,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793541600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPOFFICIALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "029192e948d4639b66c7fa29",
-      "asset_id": "009153063e9b5a2ebf32f7ed",
-      "key": "MEXC:SPOT:CASHCATUSDT",
-      "symbol": "CASHCATUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793541789788,
-      "price": 0.09716,
-      "level": 0.09682,
-      "invalid": 0.09398020149332514,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09682,
-        "base_invalid": 0.09398020149332514,
-        "atr": 0.0007319900444990253,
-        "rvol": 6.859008509496922,
-        "close_position": 0.7647058823529385,
-        "breakout": true,
-        "bar_close_ms": 1793541600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8392012611665898,
-        "score": 7.7647058823529385
-      },
-      "context": {
-        "atr": 0.0007319900444990253,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.666969212931857,
-        "btc_hour_pct": 0.17223204823473282,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CASHCATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793541600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CASHCATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1615511,6 +1615404,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793540899075
+    },
+    {
+      "id": "0a467ff7b78bda94454c3117",
+      "asset_id": "9a0fad54affa83f8212af3b3",
+      "key": "MEXC:PERP:TRUMPOFFICIALUSDT",
+      "symbol": "TRUMPOFFICIALUSDT",
+      "phase": "radar",
+      "observed_ms": 1793541789515,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793541803328
+    },
+    {
+      "id": "029192e948d4639b66c7fa29",
+      "asset_id": "009153063e9b5a2ebf32f7ed",
+      "key": "MEXC:SPOT:CASHCATUSDT",
+      "symbol": "CASHCATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793541789788,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793541803328
     }
   ],
   "runs": [
@@ -1673435,7 +1673350,8 @@
         "entry_seq": 0,
         "cohort": "TRUMPOFFICIALUSDT",
         "observation_lag_ms": 189515,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13813
       },
       "009153063e9b5a2ebf32f7ed:radar": {
         "symbol": "CASHCATUSDT",
@@ -1673457,7 +1673373,8 @@
         "entry_seq": 0,
         "cohort": "CASHCATUSDT",
         "observation_lag_ms": 189788,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13540
       }
     },
     "errors": [],
@@ -1699490,8 +1699407,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "25e92501649811d0c4319f75ccc1f18ca289990c",
-    "previous_success_ms": 1793541514485,
+    "previous_commit": "b1b19bb043d5d6eb5177504335acb6af8d5555cb",
+    "previous_success_ms": 1793541802259,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
