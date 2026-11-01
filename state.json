@@ -1555309,158 +1555309,7 @@
       "source_close_ms": 1793519100000
     }
   },
-  "pending": [
-    {
-      "id": "f280cfaec7b00375045e1b4c",
-      "asset_id": "2592f3b67e88d68878d99285",
-      "key": "MEXC:SPOT:GUSDT",
-      "symbol": "GUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793520355786,
-      "price": 0.0040475,
-      "level": 0.003911,
-      "invalid": 0.003648325929017661,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003911,
-        "base_invalid": 0.003648325929017661,
-        "atr": 0.00010449380654892738,
-        "rvol": 7.430569724563029,
-        "close_position": 0.8057553956834524,
-        "breakout": true,
-        "bar_close_ms": 1793520000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.085106382978724,
-        "score": 7.805755395683453
-      },
-      "context": {
-        "atr": 0.00010449380654892738,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 8.154533254089325,
-        "btc_hour_pct": -0.06942687111060053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793520000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4411d182defa5ee62d4a6652",
-      "asset_id": "1396b446576c819806fdaab2",
-      "key": "OKX:SPOT:GUSDT",
-      "symbol": "GUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793520356354,
-      "price": 0.0040505,
-      "level": 0.00394,
-      "invalid": 0.0036497732489155004,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00394,
-        "base_invalid": 0.0036497732489155004,
-        "atr": 0.00011484500722999867,
-        "rvol": 4.382779723415605,
-        "close_position": 0.8322147651006719,
-        "breakout": true,
-        "bar_close_ms": 1793520000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.41518449694718,
-        "score": 6.214994488516277
-      },
-      "context": {
-        "atr": 0.00011484500722999867,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 8.486362981807327,
-        "btc_hour_pct": -0.071178484860146,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793520000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "851219a8d160c8c3df7b6d43",
-      "asset_id": "43cda2e0e8c13ecaf4179e24",
-      "key": "OKX:PERP:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793520359070,
-      "price": 0.041869500000000004,
-      "level": 0.041715,
-      "invalid": 0.041243457308508445,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.041715,
-        "base_invalid": 0.041243457308508445,
-        "atr": 0.0002302846099437189,
-        "rvol": 2.230216919864307,
-        "close_position": 0.9383259911894568,
-        "breakout": true,
-        "bar_close_ms": 1793520000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7606027054349429,
-        "score": 4.1685429110537635
-      },
-      "context": {
-        "atr": 0.0002302846099437189,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8115355984617545,
-        "btc_hour_pct": -0.05093289302681159,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793520000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1561687,6 +1561536,39 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793520073293
+    },
+    {
+      "id": "f280cfaec7b00375045e1b4c",
+      "asset_id": "2592f3b67e88d68878d99285",
+      "key": "MEXC:SPOT:GUSDT",
+      "symbol": "GUSDT",
+      "phase": "radar",
+      "observed_ms": 1793520355786,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793520367806
+    },
+    {
+      "id": "4411d182defa5ee62d4a6652",
+      "asset_id": "1396b446576c819806fdaab2",
+      "key": "OKX:SPOT:GUSDT",
+      "symbol": "GUSDT",
+      "phase": "radar",
+      "observed_ms": 1793520356354,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793520367807
+    },
+    {
+      "id": "851219a8d160c8c3df7b6d43",
+      "asset_id": "43cda2e0e8c13ecaf4179e24",
+      "key": "OKX:PERP:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793520359070,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793520367807
     }
   ],
   "runs": [
@@ -1611932,7 +1611814,8 @@
         "entry_seq": 0,
         "cohort": "GUSDT",
         "observation_lag_ms": 355786,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12020
       },
       "1396b446576c819806fdaab2:radar": {
         "symbol": "GUSDT",
@@ -1611954,7 +1611837,8 @@
         "entry_seq": 0,
         "cohort": "GUSDT",
         "observation_lag_ms": 356354,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11453
       },
       "43cda2e0e8c13ecaf4179e24:radar": {
         "symbol": "NIGHTUSDT",
@@ -1611976,7 +1611860,8 @@
         "entry_seq": 0,
         "cohort": "NIGHTUSDT",
         "observation_lag_ms": 359070,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8737
       }
     },
     "errors": [],
@@ -1638004,8 +1637889,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d1177cee26315379f39a6db8bf3815b56765b7f1",
-    "previous_success_ms": 1793520093842,
+    "previous_commit": "0ea108cc42ad43602975822cc9ccfc7797c3f5e4",
+    "previous_success_ms": 1793520366653,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
