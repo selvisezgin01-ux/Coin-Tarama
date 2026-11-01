@@ -3,7 +3,9 @@
   "rules_fingerprint": "64e60a7c7b760f06ba03ba7826698f22a3f1606511ebeb403f8a0d49a0a3bee5",
   "venues": {
     "OKX": {
-      "active": [],
+      "active": [
+        "WINUSDT"
+      ],
       "last_alert": {
         "CHIPUSDT": 1793026195761,
         "PYTHUSDT": 1793026195761,
@@ -104,7 +106,8 @@
         "MERLUSDT": 1793451069138,
         "ILVUSDT": 1793464944884,
         "SDUSDT": 1793479241258,
-        "ZROUSDT": 1793495148754
+        "ZROUSDT": 1793495148754,
+        "WINUSDT": 1793537518483
       },
       "ever_seen": [
         "AGLDUSDT",
@@ -163,6 +166,7 @@
         "TRUMPUSDT",
         "UNIUSDT",
         "WETUSDT",
+        "WINUSDT",
         "WOOUSDT",
         "WUSDT",
         "XAAOIUSDT",
@@ -210,18 +214,52 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793523084893,
-        "feature_cutoff_ms": 1793520000000,
+        "observed_ms": 1793537411768,
+        "feature_cutoff_ms": 1793534400000,
         "universe_count": 462,
-        "prefilter_count": 236,
-        "analyzed_count": 234,
-        "candidates": []
+        "prefilter_count": 177,
+        "analyzed_count": 175,
+        "candidates": [
+          {
+            "exchange": "OKX",
+            "symbol": "WINUSDT",
+            "observed_ms": 1793537411768,
+            "feature_cutoff_ms": 1793534400000,
+            "mid_price": 6.998e-05,
+            "spread_pct": 0.6573306659045329,
+            "return24_pct": 9.22790119620942,
+            "relative24_pct_points": 8.727076156246548,
+            "quote_volume24": 219182.82543635,
+            "liquidity_band": "main",
+            "breakout_level": 6.84e-05,
+            "breakout_open_ms": 1793491200000.0,
+            "breakout_volume_ratio": 5.0504037188458595,
+            "strength_score": 100,
+            "breakout_age_bars": 2.0,
+            "invalidation_level": 6.674691436465645e-05,
+            "atr": 2.0523425413742394e-06,
+            "close": 7.031e-05,
+            "paper_controls": [
+              {
+                "symbol": "ZBCNUSDT",
+                "entry_price": 0.0020302999999999996
+              },
+              {
+                "symbol": "BOMEUSDT",
+                "entry_price": 0.0006147500000000001
+              },
+              {
+                "symbol": "BIOUSDT",
+                "entry_price": 0.023305
+              }
+            ],
+            "paper_btc_price": 77880.65
+          }
+        ]
       }
     },
     "MEXC": {
-      "active": [
-        "NIGHTUSDT"
-      ],
+      "active": [],
       "last_alert": {
         "GRASSUSDT": 1793133773397,
         "GBCKUSDT": 1792959544552,
@@ -402,53 +440,60 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793523213128,
-        "feature_cutoff_ms": 1793520000000,
+        "observed_ms": 1793537518386,
+        "feature_cutoff_ms": 1793534400000,
         "universe_count": 1239,
-        "prefilter_count": 632,
-        "analyzed_count": 618,
-        "candidates": [
-          {
-            "exchange": "MEXC",
-            "symbol": "NIGHTUSDT",
-            "observed_ms": 1793523213128,
-            "feature_cutoff_ms": 1793520000000,
-            "mid_price": 0.041565000000000005,
-            "spread_pct": 0.02405870323590295,
-            "return24_pct": 6.044511886697035,
-            "relative24_pct_points": 5.259162090925229,
-            "quote_volume24": 121046.37357000001,
-            "liquidity_band": "main",
-            "breakout_level": 0.04186,
-            "breakout_open_ms": 1793505600000.0,
-            "breakout_volume_ratio": 1.3612037894433406,
-            "strength_score": 80,
-            "breakout_age_bars": 0.0,
-            "invalidation_level": 0.04012943308472848,
-            "atr": 0.0012422676610860525,
-            "close": 0.04193,
-            "paper_controls": [
-              {
-                "symbol": "FARTCOINUSDT",
-                "entry_price": 0.121805
-              },
-              {
-                "symbol": "ARBUSDT",
-                "entry_price": 0.164655
-              },
-              {
-                "symbol": "MERLUSDT",
-                "entry_price": 0.030315
-              }
-            ],
-            "paper_btc_price": 78151.315
-          }
-        ]
+        "prefilter_count": 506,
+        "analyzed_count": 493,
+        "candidates": []
       }
     }
   },
-  "pending": [],
-  "updated_ms": 1793523213237,
+  "pending": [
+    {
+      "id": "18912a3d399a5323e6641455",
+      "created_ms": 1793537518483,
+      "candidates": [
+        {
+          "exchange": "OKX",
+          "symbol": "WINUSDT",
+          "observed_ms": 1793537411768,
+          "feature_cutoff_ms": 1793534400000,
+          "mid_price": 6.998e-05,
+          "spread_pct": 0.6573306659045329,
+          "return24_pct": 9.22790119620942,
+          "relative24_pct_points": 8.727076156246548,
+          "quote_volume24": 219182.82543635,
+          "liquidity_band": "main",
+          "breakout_level": 6.84e-05,
+          "breakout_open_ms": 1793491200000.0,
+          "breakout_volume_ratio": 5.0504037188458595,
+          "strength_score": 100,
+          "breakout_age_bars": 2.0,
+          "invalidation_level": 6.674691436465645e-05,
+          "atr": 2.0523425413742394e-06,
+          "close": 7.031e-05,
+          "paper_controls": [
+            {
+              "symbol": "ZBCNUSDT",
+              "entry_price": 0.0020302999999999996
+            },
+            {
+              "symbol": "BOMEUSDT",
+              "entry_price": 0.0006147500000000001
+            },
+            {
+              "symbol": "BIOUSDT",
+              "entry_price": 0.023305
+            }
+          ],
+          "paper_btc_price": 77880.65,
+          "arrival": "new"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1793537518483,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12120,6 +12165,17 @@
             "control_excess_pct_points": -2.8875453484115243,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793523357741,
+            "endpoint_ms": 1793523360000,
+            "endpoint_delay_ms": 2259,
+            "endpoint_price": 1.603,
+            "return_pct": -2.9514151657333065,
+            "btc_excess_pct_points": -3.087246368315155,
+            "control_excess_pct_points": -2.907513155021213,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12384,6 +12440,17 @@
             "control_excess_pct_points": -1.7126062316017432,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793537332708,
+            "endpoint_ms": 1793537340000,
+            "endpoint_delay_ms": 7292,
+            "endpoint_price": 0.03021,
+            "return_pct": -1.7081503172279078,
+            "btc_excess_pct_points": -2.2071169600851093,
+            "control_excess_pct_points": -1.4192999417224295,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12582,9 +12649,41 @@
           }
         ],
         "outcomes": {}
+      },
+      "OKX:WINUSDT": {
+        "symbol": "WINUSDT",
+        "exchange": "OKX",
+        "observed_ms": 1793537411768,
+        "entry_price": 6.998e-05,
+        "btc_entry_price": 77880.65,
+        "controls": [
+          {
+            "symbol": "ZBCNUSDT",
+            "entry_price": 0.0020302999999999996
+          },
+          {
+            "symbol": "BOMEUSDT",
+            "entry_price": 0.0006147500000000001
+          },
+          {
+            "symbol": "BIOUSDT",
+            "entry_price": 0.023305
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793537411768,
+            "price": 6.998e-05
+          }
+        ],
+        "outcomes": {}
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793523213237
+    "asof_ms": 1793537518483
   }
 }
