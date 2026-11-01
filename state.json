@@ -1595019,60 +1595019,7 @@
       "source_close_ms": 1793556000000
     }
   },
-  "pending": [
-    {
-      "id": "439009e69d4e2a5759e64568",
-      "asset_id": "97e69bd3c02791df87db8f85",
-      "key": "MEXC:SPOT:ULTIMAUSDT",
-      "symbol": "ULTIMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793556684426,
-      "price": 1214.185,
-      "level": 1214.16,
-      "invalid": 1202.8812109654618,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1214.16,
-        "base_invalid": 1202.8812109654618,
-        "atr": 5.458593563588177,
-        "rvol": 2.7693267768627687,
-        "close_position": 0.942148760330539,
-        "breakout": false,
-        "bar_close_ms": 1793556000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3099839634962853,
-        "score": 4.211475537193308
-      },
-      "context": {
-        "atr": 5.458593563588177,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5340576982154954,
-        "btc_hour_pct": -0.2240737347192101,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ULTIMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793556000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ULTIMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1602729,6 +1602676,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793556395690
+    },
+    {
+      "id": "439009e69d4e2a5759e64568",
+      "asset_id": "97e69bd3c02791df87db8f85",
+      "key": "MEXC:SPOT:ULTIMAUSDT",
+      "symbol": "ULTIMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793556684426,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793556695053
     }
   ],
   "runs": [
@@ -1665929,7 +1665887,8 @@
         "entry_seq": 0,
         "cohort": "ULTIMAUSDT",
         "observation_lag_ms": 684426,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10627
       }
     },
     "errors": [],
@@ -1691952,8 +1691911,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "27bb7498b4a3b674456586b99b834c2fbfed9697",
-    "previous_success_ms": 1793556412534,
+    "previous_commit": "d954c7b5c6c73afee0853693c315435fcfbc3dab",
+    "previous_success_ms": 1793556693988,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
