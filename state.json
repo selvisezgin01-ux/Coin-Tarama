@@ -1571449,112 +1571449,7 @@
       "source_close_ms": 1793524500000
     }
   },
-  "pending": [
-    {
-      "id": "846601c87aff74d1e9e37e06",
-      "asset_id": "d7015c902596a7f87df98724",
-      "key": "OKX:PERP:CAPUSDT",
-      "symbol": "CAPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793525066176,
-      "price": 0.073615,
-      "level": 0.07332,
-      "invalid": 0.0712437234867919,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07332,
-        "base_invalid": 0.0712437234867919,
-        "atr": 0.0007085100880540653,
-        "rvol": 5.330883531679598,
-        "close_position": 0.6198830409356745,
-        "breakout": true,
-        "bar_close_ms": 1793524500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.377410468319562,
-        "score": 6.950766572615272
-      },
-      "context": {
-        "atr": 0.0007085100880540653,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.0804125698871347,
-        "btc_hour_pct": 0.36993299617487096,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CAPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793524500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CAPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a02274ffd58024da724893d4",
-      "asset_id": "e9f45bcb9fd47b5864bad264",
-      "key": "MEXC:SPOT:CAPUSDT",
-      "symbol": "CAPUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793525065047,
-      "price": 0.0737,
-      "level": 0.07329,
-      "invalid": 0.07130865361710517,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07329,
-        "base_invalid": 0.07130865361710517,
-        "atr": 0.0006089758859655817,
-        "rvol": 3.328861575954525,
-        "close_position": 0.8819444444444418,
-        "breakout": true,
-        "bar_close_ms": 1793524500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.597136169626867,
-        "score": 5.210806020398967
-      },
-      "context": {
-        "atr": 0.0006089758859655817,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.362102239578633,
-        "btc_hour_pct": 0.39255424012485385,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CAPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793524500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CAPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1577979,6 +1577874,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793524781808
+    },
+    {
+      "id": "846601c87aff74d1e9e37e06",
+      "asset_id": "d7015c902596a7f87df98724",
+      "key": "OKX:PERP:CAPUSDT",
+      "symbol": "CAPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793525066176,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793525076751
+    },
+    {
+      "id": "a02274ffd58024da724893d4",
+      "asset_id": "e9f45bcb9fd47b5864bad264",
+      "key": "MEXC:SPOT:CAPUSDT",
+      "symbol": "CAPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793525065047,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793525076751
     }
   ],
   "runs": [
@@ -1630011,7 +1629928,8 @@
         "entry_seq": 0,
         "cohort": "CAPUSDT",
         "observation_lag_ms": 566176,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10575
       },
       "e9f45bcb9fd47b5864bad264:radar": {
         "symbol": "CAPUSDT",
@@ -1630033,7 +1629951,8 @@
         "entry_seq": 0,
         "cohort": "CAPUSDT",
         "observation_lag_ms": 565047,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11704
       }
     },
     "errors": [],
@@ -1656061,8 +1655980,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0c6430604c6061acb6c6f592b2b10fb73acabdda",
-    "previous_success_ms": 1793524800083,
+    "previous_commit": "a8a179bebd7283de0912fbae647520f88cd85342",
+    "previous_success_ms": 1793525075854,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
