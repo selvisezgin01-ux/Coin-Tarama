@@ -1596544,168 +1596544,7 @@
       "source_close_ms": 1793555100000
     }
   },
-  "pending": [
-    {
-      "id": "dfe4875dc7d8054ec23356e7",
-      "asset_id": "dc00418da9b998febd94247d",
-      "key": "OKX:SPOT:CFGUSDT",
-      "symbol": "CFGUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793555338736,
-      "price": 0.094745,
-      "level": 0.09501,
-      "invalid": 0.0939785428698555,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09501,
-        "base_invalid": 0.0939785428698555,
-        "atr": 0.00040971420096327986,
-        "rvol": 19.30372555221538,
-        "close_position": 0.8648648648648672,
-        "breakout": true,
-        "bar_close_ms": 1793552400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.773305084745779,
-        "score": 7.864864864864868
-      },
-      "context": {
-        "atr": 0.0004395577376454765,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5723625655908338,
-        "btc_hour_pct": 0.2009425191549452,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CFGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793552400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CFGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6ece747cb434dc9395d4359f",
-      "asset_id": "f19c732d55454679789d6289",
-      "key": "OKX:SPOT:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793555338736,
-      "price": 0.001493,
-      "level": 0.001468,
-      "invalid": 0.0013965883282159985,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001468,
-        "base_invalid": 0.0013965883282159985,
-        "atr": 2.941114522667592e-05,
-        "rvol": 3.5623560317961376,
-        "close_position": 0.9508196721311482,
-        "breakout": true,
-        "bar_close_ms": 1793553300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.649548924358093,
-        "score": 5.513175703927286
-      },
-      "context": {
-        "atr": 2.981357277899871e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.0661029353905134,
-        "btc_hour_pct": 0.2009425191549452,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793553300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOPHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8f3204b1ba549d8f9d8b5892",
-      "asset_id": "e773b87f1d54c5a673b692a7",
-      "key": "MEXC:PERP:PROVEUSDT",
-      "symbol": "PROVEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793555343020,
-      "price": 0.20335,
-      "level": 0.2036,
-      "invalid": 0.20014139472502235,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2036,
-        "base_invalid": 0.20014139472502235,
-        "atr": 0.0010573684998510977,
-        "rvol": 2.033633646297487,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793555100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.44422507403749645,
-        "score": 3.533633646297487
-      },
-      "context": {
-        "atr": 0.0010573684998510977,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.38889012198293216,
-        "btc_hour_pct": 0.2078279287381024,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PROVEUSDT",
-          "change_pct": -0.8583034984685711,
-          "old_ms": 1793551725394,
-          "current_ms": 1793555340323,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793555100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1604296,6 +1604135,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793554449793
+    },
+    {
+      "id": "dfe4875dc7d8054ec23356e7",
+      "asset_id": "dc00418da9b998febd94247d",
+      "key": "OKX:SPOT:CFGUSDT",
+      "symbol": "CFGUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793555338736,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793555352883
+    },
+    {
+      "id": "6ece747cb434dc9395d4359f",
+      "asset_id": "f19c732d55454679789d6289",
+      "key": "OKX:SPOT:SOPHUSDT",
+      "symbol": "SOPHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793555338736,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793555352883
+    },
+    {
+      "id": "8f3204b1ba549d8f9d8b5892",
+      "asset_id": "e773b87f1d54c5a673b692a7",
+      "key": "MEXC:PERP:PROVEUSDT",
+      "symbol": "PROVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793555343020,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793555352883
     }
   ],
   "runs": [
@@ -1667077,7 +1666949,8 @@
         "entry_seq": 0,
         "cohort": "PROVEUSDT",
         "observation_lag_ms": 243020,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9863
       }
     },
     "errors": [],
@@ -1693100,8 +1692973,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fb202cc54c3375bada754dd2fba43ea31babef78",
-    "previous_success_ms": 1793555069462,
+    "previous_commit": "22e433c2c094eee8f976962c032265207102fad8",
+    "previous_success_ms": 1793555351688,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
