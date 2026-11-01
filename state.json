@@ -81314,121 +81314,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "9026ddcef53c40350978e812de3a",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793546527256,
-      "text": "Son kontrol %+3.30; fiyat $0.000326. Gözlem aralığı 5.0dk.",
-      "details": {}
-    },
-    {
-      "id": "b40cd5bcfc81a88cdb8b27eaf047",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "ALIM",
-      "observed_ms": 1793546527352,
-      "text": "ALIM: $179.75 · işlem başlatıcı `DtVW93ZP44qLvxgNbyDUcHhJFEYUxLD8qEEb5bXJKeWx` · bildirim eşiği $155",
-      "details": {
-        "tx": "4d94jvJhoFs7uVHh7WPsExr3kR6fsXK6rMFXmeUzB3Mym3Hr11y7K1h5p4QnbSvzVm1e3BUBbHQ51wNtbnomMgjg",
-        "wallet": "DtVW93ZP44qLvxgNbyDUcHhJFEYUxLD8qEEb5bXJKeWx",
-        "side": "buy",
-        "usd": 179.74704963211605,
-        "block_ms": 1793546412000,
-        "provider_row_id": "solana_464140192_4d94jvJhoFs7uVHh7WPsExr3kR6fsXK6rMFXmeUzB3Mym3Hr11y7K1h5p4QnbSvzVm1e3BUBbHQ51wNtbnomMgjg_53_1793546491",
-        "first_buyer_seen_by_this_watch": true
-      }
-    },
-    {
-      "id": "943079fc6836f2b6eb9450d5ea18",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793546542770,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    },
-    {
-      "id": "c05e56fe4fa2afdde4292ba47895",
-      "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-      "kind": "SESSİZ BİRİKİM",
-      "observed_ms": 1793546558752,
-      "text": "15dk örneğinde net alım $179; alım payı %90.1; 7alım/7başlatıcı. Gözlenen fiyat bandı %0.85. Bağımsız kişi/gerçek balina veya yükseliş garantisi değil.",
-      "details": {
-        "minutes": 15,
-        "buy_usd": 200.76748225359776,
-        "sell_usd": 22.180491872289345,
-        "net_usd": 178.58699038130842,
-        "buy_fraction": 0.9005127005111732,
-        "buy_trades": 7,
-        "price_band_pct": 0.8474576271186418,
-        "initiators": 7,
-        "accounts": {
-          "9P9eH6oFEvoFtySYK4DrjzTdhANGur5eHzvE8uLwgNXB": {
-            "buy_usd": 0.0,
-            "sell_usd": 0.23542802288806408,
-            "buys": 0,
-            "net_usd": -0.23542802288806408
-          },
-          "5Cw7BerZay7cRfu7PU7hPpbuVzjKQsePSEdeTqqVpuky": {
-            "buy_usd": 0.0,
-            "sell_usd": 0.12073810045971903,
-            "buys": 0,
-            "net_usd": -0.12073810045971903
-          },
-          "3AoQmpHaVTV3tcZqWAFrYgtCPqkMkdgxib9MjtvDRsom": {
-            "buy_usd": 78.22554171406072,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 78.22554171406072
-          },
-          "DtVW93ZP44qLvxgNbyDUcHhJFEYUxLD8qEEb5bXJKeWx": {
-            "buy_usd": 44.572244687365654,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 44.572244687365654
-          },
-          "Dk9vfrCwmwECom1U32goPyJmFx3hnrnEW5j1VtaxvboR": {
-            "buy_usd": 0.9492605971549752,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 0.9492605971549752
-          },
-          "Aud2Dfp4x2Dxcbmb6vYiLhSGSrfUZMA4nky1XPtVZmNa": {
-            "buy_usd": 23.37135039597479,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 23.37135039597479
-          },
-          "Jd97uyw9wb6PxV2jawAjS7aU6XUMHbcfn4En8xRP7Mg": {
-            "buy_usd": 4.795934061251011,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 4.795934061251011
-          },
-          "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq": {
-            "buy_usd": 20.696294636894347,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 20.696294636894347
-          },
-          "7wKyboz4ZPctvm6sGrGkjBmxqvFmdrVzarAJg5E8q6bB": {
-            "buy_usd": 0.0,
-            "sell_usd": 21.82432574894156,
-            "buys": 0,
-            "net_usd": -21.82432574894156
-          },
-          "8uqQzPUnEm5c9uzLMFvhoTXJyAWqt1wEoKU9MxpKnq3t": {
-            "buy_usd": 28.156856160896268,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 28.156856160896268
-          }
-        },
-        "source": "observed selected-pool swap sample",
-        "complete_chain_coverage": false
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -84171,6 +84057,30 @@
       "issue": 1126,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1126",
       "delivered_ms": 1793546264121
+    },
+    {
+      "id": "9026ddcef53c40350978e812de3a",
+      "issue": 1127,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1127",
+      "delivered_ms": 1793546562082
+    },
+    {
+      "id": "b40cd5bcfc81a88cdb8b27eaf047",
+      "issue": 1127,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1127",
+      "delivered_ms": 1793546562082
+    },
+    {
+      "id": "943079fc6836f2b6eb9450d5ea18",
+      "issue": 1127,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1127",
+      "delivered_ms": 1793546562082
+    },
+    {
+      "id": "c05e56fe4fa2afdde4292ba47895",
+      "issue": 1127,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1127",
+      "delivered_ms": 1793546562082
     }
   ],
   "provider_backoff": {
