@@ -1519458,60 +1519458,7 @@
       "source_close_ms": 1793491200000
     }
   },
-  "pending": [
-    {
-      "id": "6e856c8fe75a13d407c715f7",
-      "asset_id": "73a8aa3677d3281786ae1624",
-      "key": "OKX:SPOT:INJUSDT",
-      "symbol": "INJUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793495986499,
-      "price": 7.294499999999999,
-      "level": 7.273,
-      "invalid": 7.187101027506389,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.273,
-        "base_invalid": 7.187101027506389,
-        "atr": 0.03932648329073226,
-        "rvol": 6.903088805532095,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793495700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.857894008578941,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.03932648329073226,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.24532329936926,
-        "btc_hour_pct": 0.1420055151279076,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:INJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793495700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1524759,6 +1524706,17 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793495692306
+    },
+    {
+      "id": "6e856c8fe75a13d407c715f7",
+      "asset_id": "73a8aa3677d3281786ae1624",
+      "key": "OKX:SPOT:INJUSDT",
+      "symbol": "INJUSDT",
+      "phase": "radar",
+      "observed_ms": 1793495986499,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793495996707
     }
   ],
   "runs": [
@@ -1565935,7 +1565893,8 @@
         "entry_seq": 0,
         "cohort": "INJUSDT",
         "observation_lag_ms": 286499,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10208
       }
     },
     "errors": [],
@@ -1591661,8 +1591620,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ec5d00dd4dfe78727cc941f64f092850884d6b52",
-    "previous_success_ms": 1793495712140,
+    "previous_commit": "719f28f667d13813ee8576bfaca56c3af244f54a",
+    "previous_success_ms": 1793495995761,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
