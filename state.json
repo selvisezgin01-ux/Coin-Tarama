@@ -85203,56 +85203,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "f7d7cd4a8e9612eba246b7c59655",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "FİYAT",
-      "observed_ms": 1793554061233,
-      "text": "Son kontrol %+2.40; fiyat $0.0003286. Gözlem aralığı 5.0dk.",
-      "details": {}
-    },
-    {
-      "id": "72e264b05d953d2d36828e7bd3bb",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "ALIM",
-      "observed_ms": 1793554061860,
-      "text": "ALIM: $496.29 · işlem başlatıcı `3EKX2bfqj6hKNeM4yMxEDMZB4vGB9RmQcdovgQZb7GGQ` · bildirim eşiği $156",
-      "details": {
-        "tx": "624X87Lw4ei117gz39LVnfg5SYDr6BnUnvfuJ94Gn8exLeJJsiewC9qgotuEyYjJZRYu8uMd5G8baSsf1HgjxSuc",
-        "wallet": "3EKX2bfqj6hKNeM4yMxEDMZB4vGB9RmQcdovgQZb7GGQ",
-        "side": "buy",
-        "usd": 496.2921111625627,
-        "block_ms": 1793553963000,
-        "provider_row_id": "solana_464175426_624X87Lw4ei117gz39LVnfg5SYDr6BnUnvfuJ94Gn8exLeJJsiewC9qgotuEyYjJZRYu8uMd5G8baSsf1HgjxSuc_321_1793553966",
-        "first_buyer_seen_by_this_watch": true
-      }
-    },
-    {
-      "id": "4ded24e65eef1528289fa193e36a",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "ALIM",
-      "observed_ms": 1793554061860,
-      "text": "ALIM: $496.14 · işlem başlatıcı `3EKX2bfqj6hKNeM4yMxEDMZB4vGB9RmQcdovgQZb7GGQ` · bildirim eşiği $156",
-      "details": {
-        "tx": "3ZyJNGF6uqtU1qVXEz8FMgQbYJBafm6QSY6enLJt2CxgLUfX5zudejWGQq8hpRDFq5XvNYJNppVgD4FKeujCS5mZ",
-        "wallet": "3EKX2bfqj6hKNeM4yMxEDMZB4vGB9RmQcdovgQZb7GGQ",
-        "side": "buy",
-        "usd": 496.1430413444058,
-        "block_ms": 1793554008000,
-        "provider_row_id": "solana_464175638_3ZyJNGF6uqtU1qVXEz8FMgQbYJBafm6QSY6enLJt2CxgLUfX5zudejWGQq8hpRDFq5XvNYJNppVgD4FKeujCS5mZ_322_1793554013",
-        "first_buyer_seen_by_this_watch": false
-      }
-    },
-    {
-      "id": "64c8a3e5989a185bb1eebc3bc4a6",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793554088497,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -88181,6 +88132,30 @@
       "issue": 1163,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1163",
       "delivered_ms": 1793553801872
+    },
+    {
+      "id": "f7d7cd4a8e9612eba246b7c59655",
+      "issue": 1164,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1164",
+      "delivered_ms": 1793554119194
+    },
+    {
+      "id": "72e264b05d953d2d36828e7bd3bb",
+      "issue": 1164,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1164",
+      "delivered_ms": 1793554119194
+    },
+    {
+      "id": "4ded24e65eef1528289fa193e36a",
+      "issue": 1164,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1164",
+      "delivered_ms": 1793554119194
+    },
+    {
+      "id": "64c8a3e5989a185bb1eebc3bc4a6",
+      "issue": 1164,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1164",
+      "delivered_ms": 1793554119194
     }
   ],
   "provider_backoff": {
