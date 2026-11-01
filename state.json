@@ -1335051,60 +1335051,7 @@
       "source_close_ms": 1793573100000
     }
   },
-  "pending": [
-    {
-      "id": "286088c9c797e2169c8d5899",
-      "asset_id": "b7f7bd5e9851423d226f6a66",
-      "key": "OKX:PERP:CPUSDT",
-      "symbol": "CPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793574742542,
-      "price": 0.008043999999999999,
-      "level": 0.00806,
-      "invalid": 0.007977454035765814,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00806,
-        "base_invalid": 0.007977454035765814,
-        "atr": 3.0306428227903432e-05,
-        "rvol": 4.6631070879388865,
-        "close_position": 0.9499999999999523,
-        "breakout": false,
-        "bar_close_ms": 1793574000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.19917838914478292,
-        "score": 6.113107087938839
-      },
-      "context": {
-        "atr": 3.0306428227903432e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.11311975881284075,
-        "btc_hour_pct": -0.08605863033194217,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793574000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1343399,6 +1343346,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793573554842
+    },
+    {
+      "id": "286088c9c797e2169c8d5899",
+      "asset_id": "b7f7bd5e9851423d226f6a66",
+      "key": "OKX:PERP:CPUSDT",
+      "symbol": "CPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793574742542,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793574752788
     }
   ],
   "runs": [
@@ -1412798,7 +1412756,8 @@
         "entry_seq": 0,
         "cohort": "CPUSDT",
         "observation_lag_ms": 742542,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10246
       }
     },
     "errors": [],
@@ -1438821,8 +1438780,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "02e50c0309cc828191f22a1663722d2e0b6ee0fe",
-    "previous_success_ms": 1793574471066,
+    "previous_commit": "1c6710ef72aa61b72a8611a15da94be36a83b501",
+    "previous_success_ms": 1793574751642,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
