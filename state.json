@@ -1557396,112 +1557396,7 @@
       "source_close_ms": 1793521800000
     }
   },
-  "pending": [
-    {
-      "id": "35a675ac757634ade69c4236",
-      "asset_id": "d69835c0519584a9d0349685",
-      "key": "MEXC:PERP:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793522365431,
-      "price": 0.06049,
-      "level": 0.05923,
-      "invalid": 0.05541779287293716,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05923,
-        "base_invalid": 0.05541779287293716,
-        "atr": 0.0010813808470855712,
-        "rvol": 11.203548507929098,
-        "close_position": 0.7771084337349387,
-        "breakout": true,
-        "bar_close_ms": 1793521800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.05268559698939,
-        "score": 7.777108433734939
-      },
-      "context": {
-        "atr": 0.0010813808470855712,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9335785203185676,
-        "btc_hour_pct": -0.058993947990426676,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:APRUSDT",
-          "change_pct": 61.035079228815306,
-          "old_ms": 1793518844217,
-          "current_ms": 1793522363167,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0638,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793521800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c59f1ba70b638d151249196e",
-      "asset_id": "179a245a56bff5cf73167fd6",
-      "key": "MEXC:SPOT:APRUSDT",
-      "symbol": "APRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793522365759,
-      "price": 0.060235,
-      "level": 0.05896,
-      "invalid": 0.055198163615473965,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05896,
-        "base_invalid": 0.055198163615473965,
-        "atr": 0.0012122425635069085,
-        "rvol": 10.05659198934836,
-        "close_position": 0.7684887459807075,
-        "breakout": true,
-        "bar_close_ms": 1793521800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1324161650902784,
-        "score": 7.768488745980708
-      },
-      "context": {
-        "atr": 0.0012122425635069085,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7693393820467298,
-        "btc_hour_pct": -0.06942687111060053,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:APRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793521800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1563816,6 +1563711,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793522082352
+    },
+    {
+      "id": "35a675ac757634ade69c4236",
+      "asset_id": "d69835c0519584a9d0349685",
+      "key": "MEXC:PERP:APRUSDT",
+      "symbol": "APRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793522365431,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793522376343
+    },
+    {
+      "id": "c59f1ba70b638d151249196e",
+      "asset_id": "179a245a56bff5cf73167fd6",
+      "key": "MEXC:SPOT:APRUSDT",
+      "symbol": "APRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793522365759,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793522376343
     }
   ],
   "runs": [
@@ -1614781,7 +1614698,8 @@
         "entry_seq": 0,
         "cohort": "APRUSDT",
         "observation_lag_ms": 565431,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10912
       },
       "179a245a56bff5cf73167fd6:radar": {
         "symbol": "APRUSDT",
@@ -1614803,7 +1614721,8 @@
         "entry_seq": 0,
         "cohort": "APRUSDT",
         "observation_lag_ms": 565759,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10584
       }
     },
     "errors": [],
@@ -1640832,8 +1640751,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1bfa3e05ea849a9447430c40edd44fcb603e6394",
-    "previous_success_ms": 1793522103648,
+    "previous_commit": "a7a2791296840c5bf2adab77a3c0049ebfcfcf97",
+    "previous_success_ms": 1793522375418,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
