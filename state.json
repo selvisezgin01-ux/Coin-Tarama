@@ -1534800,60 +1534800,7 @@
       "source_close_ms": 1793508300000
     }
   },
-  "pending": [
-    {
-      "id": "4b54f812b7b79af088655b57",
-      "asset_id": "5b230f629ccae08605ea8ac1",
-      "key": "MEXC:SPOT:AKEUSDT",
-      "symbol": "AKEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793509469688,
-      "price": 0.00984665,
-      "level": 0.0096937,
-      "invalid": 0.008635765583369875,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0096937,
-        "base_invalid": 0.008635765583369875,
-        "atr": 0.0003755627775341675,
-        "rvol": 5.081272341353138,
-        "close_position": 0.8251424501424509,
-        "breakout": true,
-        "bar_close_ms": 1793509200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.226699086576227,
-        "score": 6.906414791495589
-      },
-      "context": {
-        "atr": 0.0003755627775341675,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 7.217864513380645,
-        "btc_hour_pct": 0.008834573195581896,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793509200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AKEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1540706,6 +1540653,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793508581491
+    },
+    {
+      "id": "4b54f812b7b79af088655b57",
+      "asset_id": "5b230f629ccae08605ea8ac1",
+      "key": "MEXC:SPOT:AKEUSDT",
+      "symbol": "AKEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793509469688,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793509481822
     }
   ],
   "runs": [
@@ -1586795,7 +1586753,8 @@
         "entry_seq": 0,
         "cohort": "AKEUSDT",
         "observation_lag_ms": 269688,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12134
       }
     },
     "errors": [],
@@ -1612818,8 +1612777,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8c41bf9c8a72333a505676be4dae8e0546ed5e2e",
-    "previous_success_ms": 1793509195095,
+    "previous_commit": "cde9c21d69c59888253023d43944edb7166d5d6a",
+    "previous_success_ms": 1793509480382,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
