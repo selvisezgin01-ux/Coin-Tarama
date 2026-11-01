@@ -1544599,60 +1544599,7 @@
       "source_close_ms": 1793516400000
     }
   },
-  "pending": [
-    {
-      "id": "f4a5c106a04674c91bce5b1c",
-      "asset_id": "6abebc48eb00cedb18f36800",
-      "key": "OKX:PERP:1INCHUSDT",
-      "symbol": "1INCHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793516757351,
-      "price": 0.08252000000000001,
-      "level": 0.08214,
-      "invalid": 0.08039347908951515,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08214,
-        "base_invalid": 0.08039347908951515,
-        "atr": 0.0003768060698989241,
-        "rvol": 3.5504893882331334,
-        "close_position": 0.8292682926829565,
-        "breakout": true,
-        "bar_close_ms": 1793516400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5506607929515406,
-        "score": 5.37975768091609
-      },
-      "context": {
-        "atr": 0.0003768060698989241,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4272176410278439,
-        "btc_hour_pct": 0.1234431519236967,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:1INCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793516400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "1INCHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1550802,6 +1550749,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793516476225
+    },
+    {
+      "id": "f4a5c106a04674c91bce5b1c",
+      "asset_id": "6abebc48eb00cedb18f36800",
+      "key": "OKX:PERP:1INCHUSDT",
+      "symbol": "1INCHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793516757351,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793516767728
     }
   ],
   "runs": [
@@ -1599650,7 +1599608,8 @@
         "entry_seq": 0,
         "cohort": "1INCHUSDT",
         "observation_lag_ms": 357351,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10377
       }
     },
     "errors": [],
@@ -1625674,8 +1625633,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8db83d4782e015da52449a480226b64dd8dbba31",
-    "previous_success_ms": 1793516495961,
+    "previous_commit": "a578cd0035fff10c6fd720ea350834600ad61fb7",
+    "previous_success_ms": 1793516766271,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
