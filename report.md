@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 01.11.2026 15:31:48 TR · V2 döngüsü 592
+Son gözlem: 01.11.2026 15:36:39 TR · V2 döngüsü 593
 
 ## Bildirim kuralları
 
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 15:31:29 TR
+Son zincir okuması: 01.11.2026 15:36:21 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 15:31:29 TR
+Son zincir okuması: 01.11.2026 15:36:21 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -98,16 +98,16 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "selected": 8,
       "total_tracked": 12,
       "errors": [
-        "8PswEHRycsUmiQE9kxdWgKBq8WrkPLD885bmp16SP7nA: api.mainnet.solana.com: RPC error -32019"
+        "api.mainnet.solana.com: RPC error -32015"
       ],
-      "detail_queue": 5015,
+      "detail_queue": 5030,
       "full_chain_coverage": false,
-      "checked_ms": 1793536308692
+      "checked_ms": 1793536599420
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793536289144,
+      "observed_ms": 1793536581173,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -115,25 +115,27 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
   "alerts": {
     "token:4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk": "token:4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk:api.geckoterminal.com: erişim beklemesi sürüyor",
     "token:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk": "token:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk:api.geckoterminal.com: erişim beklemesi sürüyor",
-    "rpc_wallets": "rpc_wallets:8PswEHRycsUmiQE9kxdWgKBq8WrkPLD885bmp16SP7nA: api.mainnet.solana.com: RPC error -32019"
+    "rpc_wallets": "rpc_wallets:api.mainnet.solana.com: RPC error -32015"
   },
   "provider_backoff": {
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434,
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 591,
+    "intervals": 592,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
     "full_chain_coverage": false
   },
-  "detail_queue": 5015
+  "detail_queue": 5030
 }
 ```
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+01.11.2026 15:36:23 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 15:31:48 TR · **VERİ ERİŞİMİ** · rpc_wallets: 8PswEHRycsUmiQE9kxdWgKBq8WrkPLD885bmp16SP7nA: api.mainnet.solana.com: RPC error -32019
 
@@ -212,6 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 01.11.2026 13:05:50 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 13:00:58 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-01.11.2026 12:55:50 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
