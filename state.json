@@ -1570605,58 +1570605,7 @@
       "source_close_ms": 1793524500000
     }
   },
-  "pending": [
-    {
-      "id": "00422c9146df7cab0215edaf",
-      "asset_id": "145eaecfb2a94f8ce8cd3121",
-      "key": "OKX:PERP:BRETTUSDT",
-      "symbol": "BRETTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793525364530,
-      "price": 0.004422000000000001,
-      "level": 0.004362,
-      "invalid": 0.004320070832787815,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004362,
-        "base_invalid": 0.004320070832787815,
-        "atr": 1.95277814145631e-05,
-        "rvol": 80.78790598859251,
-        "close_position": 0.7641509433962282,
-        "breakout": true,
-        "bar_close_ms": 1793502900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0318633110136375,
-        "score": 7.764150943396229
-      },
-      "context": {
-        "atr": 1.912912684962261e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7290800219885485,
-        "btc_hour_pct": 0.36993299617487096,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BRETTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793502900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRETTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1577103,6 +1577052,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793525076751
+    },
+    {
+      "id": "00422c9146df7cab0215edaf",
+      "asset_id": "145eaecfb2a94f8ce8cd3121",
+      "key": "OKX:PERP:BRETTUSDT",
+      "symbol": "BRETTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793525364530,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793525375248
     }
   ],
   "runs": [
@@ -1655250,8 +1655210,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f9af8b08965aaead0c5b9e37872ce74be28dc5c9",
-    "previous_success_ms": 1793525094629,
+    "previous_commit": "1989b50d3fb46eb4e3002f5d9bf940406140bb08",
+    "previous_success_ms": 1793525374117,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
