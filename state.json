@@ -1508722,112 +1508722,7 @@
       "source_close_ms": 1793493000000
     }
   },
-  "pending": [
-    {
-      "id": "9a5bda0e13f0075fb52d19fb",
-      "asset_id": "f7da0242921c69d4655b4e85",
-      "key": "MEXC:SPOT:JCTUSDT",
-      "symbol": "JCTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793493148256,
-      "price": 0.004824999999999999,
-      "level": 0.004826,
-      "invalid": 0.004718768125472882,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004826,
-        "base_invalid": 0.004718768125472882,
-        "atr": 5.48791635141197e-05,
-        "rvol": 7.623945038073536,
-        "close_position": 0.8227848101265809,
-        "breakout": false,
-        "bar_close_ms": 1793489400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.5177065767284947,
-        "score": 7.322784810126581
-      },
-      "context": {
-        "atr": 5.126305974919423e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.8579032187063147,
-        "btc_hour_pct": 0.019185844124236517,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:JCTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793489400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JCTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "803b00a8189ac963ec2f4b35",
-      "asset_id": "53a83792502d9b3e586b57f5",
-      "key": "MEXC:SPOT:FILUSDT",
-      "symbol": "FILUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793493148256,
-      "price": 0.877,
-      "level": 0.8737,
-      "invalid": 0.8666495232427858,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.8737,
-        "base_invalid": 0.8666495232427858,
-        "atr": 0.0030031783814278884,
-        "rvol": 5.931274892603544,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5627655909038687,
-        "score": 7.931274892603544
-      },
-      "context": {
-        "atr": 0.0030031783814278884,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.21064637835335187,
-        "btc_hour_pct": 0.019185844124236517,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FILUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793493000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FILUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1513987,6 +1513882,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793492554942
+    },
+    {
+      "id": "9a5bda0e13f0075fb52d19fb",
+      "asset_id": "f7da0242921c69d4655b4e85",
+      "key": "MEXC:SPOT:JCTUSDT",
+      "symbol": "JCTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793493148256,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793493159835
+    },
+    {
+      "id": "803b00a8189ac963ec2f4b35",
+      "asset_id": "53a83792502d9b3e586b57f5",
+      "key": "MEXC:SPOT:FILUSDT",
+      "symbol": "FILUSDT",
+      "phase": "radar",
+      "observed_ms": 1793493148256,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793493159836
     }
   ],
   "runs": [
@@ -1554276,7 +1554193,8 @@
         "entry_seq": 0,
         "cohort": "FILUSDT",
         "observation_lag_ms": 148256,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11580
       }
     },
     "errors": [],
@@ -1579940,8 +1579858,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fd87fdc74055893414656d260b8932aaec2e4bb7",
-    "previous_success_ms": 1793492875613,
+    "previous_commit": "9d86c5ed1c0a2e92b55de6073b720335da37f50f",
+    "previous_success_ms": 1793493158518,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
