@@ -1306658,164 +1306658,7 @@
       "source_close_ms": 1793571300000
     }
   },
-  "pending": [
-    {
-      "id": "86f4444160b9a11e92122342",
-      "asset_id": "3dc1a07663bbed13571392f6",
-      "key": "MEXC:SPOT:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793571742912,
-      "price": 0.01746,
-      "level": 0.01498,
-      "invalid": 0.014587335500270986,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01498,
-        "base_invalid": 0.014587335500270986,
-        "atr": 0.00028442999819342597,
-        "rvol": 9.290002870981843,
-        "close_position": 0.9607843137254918,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.749163879598672,
-        "score": 7.960784313725492
-      },
-      "context": {
-        "atr": 0.0006412906549798508,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -4.131811147996068,
-        "btc_hour_pct": -0.016418940499496326,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LYNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bb9b41b4dc656485c62f7780",
-      "asset_id": "42efa1d169dc1b1001f97c18",
-      "key": "MEXC:PERP:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793571744552,
-      "price": 0.017505,
-      "level": 0.01499,
-      "invalid": 0.014599672780083853,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01499,
-        "base_invalid": 0.014599672780083853,
-        "atr": 0.00026884813277432026,
-        "rvol": 3.5590983042850164,
-        "close_position": 0.9611650485436908,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.609218436873741,
-        "score": 5.5202633528287075
-      },
-      "context": {
-        "atr": 0.0006383420766084127,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -3.843437279516515,
-        "btc_hour_pct": -0.02183052832447352,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LYNUSDT",
-          "change_pct": -2.1970518605109124,
-          "old_ms": 1793568220921,
-          "current_ms": 1793571743122,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0271,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6644e832f46dbd2c3bd2ed26",
-      "asset_id": "ac84d5605f20920053795fc4",
-      "key": "OKX:SPOT:MINAUSDT",
-      "symbol": "MINAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793571744936,
-      "price": 0.05768,
-      "level": 0.05813,
-      "invalid": 0.05770019468290457,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05813,
-        "base_invalid": 0.05770019468290457,
-        "atr": 0.00019870211396952054,
-        "rvol": 27.787434159009265,
-        "close_position": 0.6249999999999963,
-        "breakout": false,
-        "bar_close_ms": 1793569500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.1378359751895264,
-        "score": 7.1249999999999964
-      },
-      "context": {
-        "atr": 0.00019043084640176026,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.19057404561902969,
-        "btc_hour_pct": -0.018100778975360665,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MINAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793569500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MINAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1314978,6 +1314821,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793571459376
+    },
+    {
+      "id": "86f4444160b9a11e92122342",
+      "asset_id": "3dc1a07663bbed13571392f6",
+      "key": "MEXC:SPOT:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "expired",
+      "observed_ms": 1793571742912,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793571754356
+    },
+    {
+      "id": "bb9b41b4dc656485c62f7780",
+      "asset_id": "42efa1d169dc1b1001f97c18",
+      "key": "MEXC:PERP:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "expired",
+      "observed_ms": 1793571744552,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793571754356
+    },
+    {
+      "id": "6644e832f46dbd2c3bd2ed26",
+      "asset_id": "ac84d5605f20920053795fc4",
+      "key": "OKX:SPOT:MINAUSDT",
+      "symbol": "MINAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793571744936,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793571754356
     }
   ],
   "runs": [
@@ -1409427,8 +1409303,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "aebe956b6900432a205d2b0d974da435e10a1862",
-    "previous_success_ms": 1793571476150,
+    "previous_commit": "4f21eb2db280f90ddf540242233e90ed51150e72",
+    "previous_success_ms": 1793571753354,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
