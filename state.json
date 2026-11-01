@@ -1600814,268 +1600814,7 @@
       "source_close_ms": 1793548800000
     }
   },
-  "pending": [
-    {
-      "id": "a427a6bd57baf9d000f6884d",
-      "asset_id": "5c38bfef0c8566164e0084f6",
-      "key": "MEXC:SPOT:CRVUSDT",
-      "symbol": "CRVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793549940536,
-      "price": 0.28385,
-      "level": 0.2864,
-      "invalid": 0.2829211595867377,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2864,
-        "base_invalid": 0.2829211595867377,
-        "atr": 0.0011922694217490293,
-        "rvol": 6.220428267690327,
-        "close_position": 0.8666666666666815,
-        "breakout": false,
-        "bar_close_ms": 1793527200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.070175438596487,
-        "score": 7.366666666666681
-      },
-      "context": {
-        "atr": 0.0012034589453052086,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6369254997686258,
-        "btc_hour_pct": -0.06384534816410437,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CRVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793527200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CRVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3bfe59d77b8828f058c45b32",
-      "asset_id": "3dc1a07663bbed13571392f6",
-      "key": "MEXC:SPOT:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793549940536,
-      "price": 0.015595000000000001,
-      "level": 0.01498,
-      "invalid": 0.014587335500270986,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01498,
-        "base_invalid": 0.014587335500270986,
-        "atr": 0.00028442999819342597,
-        "rvol": 9.290002870981843,
-        "close_position": 0.9607843137254918,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.749163879598672,
-        "score": 7.960784313725492
-      },
-      "context": {
-        "atr": 0.00028442999819342597,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.40785276504344825,
-        "btc_hour_pct": -0.06384534816410437,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LYNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d0b19adbbc09291bd162a8b0",
-      "asset_id": "34893f068411683d61376d03",
-      "key": "OKX:SPOT:AEONUSDT",
-      "symbol": "AEONUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793549938585,
-      "price": 0.025315,
-      "level": 0.02485,
-      "invalid": 0.023897727130632398,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02485,
-        "base_invalid": 0.023897727130632398,
-        "atr": 0.00041515246245068166,
-        "rvol": 8.594104888084795,
-        "close_position": 0.6901408450704224,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.06976744186045,
-        "score": 7.690140845070422
-      },
-      "context": {
-        "atr": 0.00041515246245068166,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.2282227466595796,
-        "btc_hour_pct": -0.08110622224386521,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AEONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "15966b46b4d57773fb366225",
-      "asset_id": "57e6c9d04bc9ef04386a29d7",
-      "key": "OKX:PERP:AEONUSDT",
-      "symbol": "AEONUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793549940136,
-      "price": 0.02535,
-      "level": 0.02486,
-      "invalid": 0.023766077740899557,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02486,
-        "base_invalid": 0.023766077740899557,
-        "atr": 0.0004928150606696234,
-        "rvol": 7.636787654628103,
-        "close_position": 0.6645161290322581,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.906899418121368,
-        "score": 7.664516129032258
-      },
-      "context": {
-        "atr": 0.0004928150606696234,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.5142669322573687,
-        "btc_hour_pct": -0.0840937234803385,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AEONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4f72ffedf3b1447e3e370d63",
-      "asset_id": "42efa1d169dc1b1001f97c18",
-      "key": "MEXC:PERP:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793549939507,
-      "price": 0.015615,
-      "level": 0.01499,
-      "invalid": 0.014599672780083853,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01499,
-        "base_invalid": 0.014599672780083853,
-        "atr": 0.00026884813277432026,
-        "rvol": 3.5590983042850164,
-        "close_position": 0.9611650485436908,
-        "breakout": true,
-        "bar_close_ms": 1793549700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.609218436873741,
-        "score": 5.5202633528287075
-      },
-      "context": {
-        "atr": 0.00026884813277432026,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.1849964545526328,
-        "btc_hour_pct": -0.08472707882565267,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LYNUSDT",
-          "change_pct": 2.3606908065207044,
-          "old_ms": 1793546434008,
-          "current_ms": 1793549938018,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793549700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1608446,6 +1608185,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793549056032
+    },
+    {
+      "id": "a427a6bd57baf9d000f6884d",
+      "asset_id": "5c38bfef0c8566164e0084f6",
+      "key": "MEXC:SPOT:CRVUSDT",
+      "symbol": "CRVUSDT",
+      "phase": "expired",
+      "observed_ms": 1793549940536,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793549950296
+    },
+    {
+      "id": "3bfe59d77b8828f058c45b32",
+      "asset_id": "3dc1a07663bbed13571392f6",
+      "key": "MEXC:SPOT:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793549940536,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793549950296
+    },
+    {
+      "id": "d0b19adbbc09291bd162a8b0",
+      "asset_id": "34893f068411683d61376d03",
+      "key": "OKX:SPOT:AEONUSDT",
+      "symbol": "AEONUSDT",
+      "phase": "radar",
+      "observed_ms": 1793549938585,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793549950297
+    },
+    {
+      "id": "15966b46b4d57773fb366225",
+      "asset_id": "57e6c9d04bc9ef04386a29d7",
+      "key": "OKX:PERP:AEONUSDT",
+      "symbol": "AEONUSDT",
+      "phase": "radar",
+      "observed_ms": 1793549940136,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793549950297
+    },
+    {
+      "id": "4f72ffedf3b1447e3e370d63",
+      "asset_id": "42efa1d169dc1b1001f97c18",
+      "key": "MEXC:PERP:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793549939507,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793549950297
     }
   ],
   "runs": [
@@ -1669142,7 +1668936,8 @@
         "entry_seq": 0,
         "cohort": "LYNUSDT",
         "observation_lag_ms": 240536,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9760
       },
       "34893f068411683d61376d03:radar": {
         "symbol": "AEONUSDT",
@@ -1669164,7 +1668959,8 @@
         "entry_seq": 0,
         "cohort": "AEONUSDT",
         "observation_lag_ms": 238585,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11712
       },
       "57e6c9d04bc9ef04386a29d7:radar": {
         "symbol": "AEONUSDT",
@@ -1669186,7 +1668982,8 @@
         "entry_seq": 0,
         "cohort": "AEONUSDT",
         "observation_lag_ms": 240136,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10161
       },
       "42efa1d169dc1b1001f97c18:radar": {
         "symbol": "LYNUSDT",
@@ -1669208,7 +1669005,8 @@
         "entry_seq": 0,
         "cohort": "LYNUSDT",
         "observation_lag_ms": 239507,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10790
       }
     },
     "errors": [],
@@ -1695239,8 +1695037,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7bfb3387bb04f187d8947c4d6099c07c4fa76c7b",
-    "previous_success_ms": 1793549667778,
+    "previous_commit": "660c15157f9b438b582cea3b8105097ab0694f3e",
+    "previous_success_ms": 1793549949132,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
