@@ -1520085,110 +1520085,7 @@
       "source_close_ms": 1793501100000
     }
   },
-  "pending": [
-    {
-      "id": "1f5d44f04537e705b5777d59",
-      "asset_id": "31efe4947a31e925671286db",
-      "key": "OKX:PERP:LAUSDT",
-      "symbol": "LAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793501386202,
-      "price": 0.05708,
-      "level": 0.05606,
-      "invalid": 0.05446597605117834,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05606,
-        "base_invalid": 0.05446597605117834,
-        "atr": 0.000360159658811051,
-        "rvol": 2.1541590075738335,
-        "close_position": 0.8695652173913039,
-        "breakout": true,
-        "bar_close_ms": 1793479500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0194734944103843,
-        "score": 4.023724224965138
-      },
-      "context": {
-        "atr": 0.0006721673824880807,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.2400575949945813,
-        "btc_hour_pct": 0.05204106606895298,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793479500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "393b55b18b62792b952dcab9",
-      "asset_id": "ec2d8a39e413814f35e5377e",
-      "key": "OKX:SPOT:ATHUSDT",
-      "symbol": "ATHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793501387013,
-      "price": 0.0049955,
-      "level": 0.005052,
-      "invalid": 0.004995215552726171,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005052,
-        "base_invalid": 0.004995215552726171,
-        "atr": 2.5229648492191213e-05,
-        "rvol": 2.168291975816987,
-        "close_position": 0.6176470588235219,
-        "breakout": false,
-        "bar_close_ms": 1793493900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6177760063770465,
-        "score": 3.285939034640509
-      },
-      "context": {
-        "atr": 2.6373343277371264e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3230606211996778,
-        "btc_hour_pct": 0.06568584392785404,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ATHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793493900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1525733,6 +1525630,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793500794187
+    },
+    {
+      "id": "393b55b18b62792b952dcab9",
+      "asset_id": "ec2d8a39e413814f35e5377e",
+      "key": "OKX:SPOT:ATHUSDT",
+      "symbol": "ATHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793501387013,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793501396910
     }
   ],
   "runs": [
@@ -1594758,8 +1594666,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a14a3d6d28d87ad23ee211d03e3637dd225d12b2",
-    "previous_success_ms": 1793501116192,
+    "previous_commit": "4e3f6bf2b7162e505a827f308b25386a4ef8f854",
+    "previous_success_ms": 1793501396068,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
