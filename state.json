@@ -1514293,68 +1514293,7 @@
       "source_close_ms": 1793489400000
     }
   },
-  "pending": [
-    {
-      "id": "59a46468b85468ffba55961d",
-      "asset_id": "9b0a05e83b0197bab989e23d",
-      "key": "OKX:SPOT:WETUSDT",
-      "symbol": "WETUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793491349513,
-      "price": 0.059455,
-      "level": 0.05887,
-      "invalid": 0.05875692260089447,
-      "target": 0.06174297979821106,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05887,
-        "base_invalid": 0.057636922600894466,
-        "atr": 0.0006871826607035681,
-        "rvol": 10.419365522375418,
-        "close_position": 0.8028169014084476,
-        "breakout": true,
-        "bar_close_ms": 1793489400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.799177518848527,
-        "score": 7.802816901408447
-      },
-      "context": {
-        "atr": 0.0006682802705130802,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.2614912553696964,
-        "btc_hour_pct": 0.024124829868332753,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.05875692260089447,
-        "target": 0.06174297979821106,
-        "risk_pct": 1.1741273216811567,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.06177,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.05941,
-        "entry_zone_high": 0.059744140135256536
-      },
-      "reason": null,
-      "source_close_ms": 1793491200000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "WETUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1519426,6 +1519365,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793490458177
+    },
+    {
+      "id": "59a46468b85468ffba55961d",
+      "asset_id": "9b0a05e83b0197bab989e23d",
+      "key": "OKX:SPOT:WETUSDT",
+      "symbol": "WETUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793491349513,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793491363746
     }
   ],
   "runs": [
@@ -1558961,7 +1558911,8 @@
         "entry_seq": 1,
         "cohort": "WETUSDT",
         "observation_lag_ms": 149513,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 14233
       }
     },
     "errors": [],
@@ -1584577,8 +1584528,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5c1518fe254f337898c1145a9ec2cd182a766634",
-    "previous_success_ms": 1793491074142,
+    "previous_commit": "9f8a8ee00cd7f1676adf5f3850607fd1c42f7281",
+    "previous_success_ms": 1793491362786,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
