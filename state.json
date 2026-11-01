@@ -1594797,60 +1594797,7 @@
       "source_close_ms": 1793550600000
     }
   },
-  "pending": [
-    {
-      "id": "0b98f8e73dc5b1fb1d9e5051",
-      "asset_id": "1fbdc86aff17887bd7ecb3a5",
-      "key": "OKX:PERP:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793552335067,
-      "price": 0.026605,
-      "level": 0.02629,
-      "invalid": 0.02618915663452546,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02629,
-        "base_invalid": 0.02618915663452546,
-        "atr": 7.22891031636069e-05,
-        "rvol": 24.082464727900952,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793529900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8390541571319687,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 8.27010417754113e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.33100061614229626,
-        "btc_hour_pct": -0.0840937234803385,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793529900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STABLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1602353,6 +1602300,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793552047954
+    },
+    {
+      "id": "0b98f8e73dc5b1fb1d9e5051",
+      "asset_id": "1fbdc86aff17887bd7ecb3a5",
+      "key": "OKX:PERP:STABLEUSDT",
+      "symbol": "STABLEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793552335067,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793552344905
     }
   ],
   "runs": [
@@ -1690000,8 +1689958,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "974eb0835814ee119b7ae3faf512215d51d6aa6e",
-    "previous_success_ms": 1793552064940,
+    "previous_commit": "efb3a823af7dd7c0c5e36c83b6408761227dacc9",
+    "previous_success_ms": 1793552343673,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
