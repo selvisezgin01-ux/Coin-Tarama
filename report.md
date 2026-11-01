@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 01.11.2026 19:38:20 TR · V2 döngüsü 641
+Son gözlem: 01.11.2026 19:43:13 TR · V2 döngüsü 642
 
 ## Bildirim kuralları
 
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 19:38:02 TR
+Son zincir okuması: 01.11.2026 19:42:54 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -34,7 +34,7 @@ Son zincir okuması: 01.11.2026 19:38:02 TR
 |[GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1](https://solscan.io/account/GGF82QnKtwch794EiYDAzgUf4BdHE4pPmFr8zZsFtCQ1)|18632853.848854|+0.000000|
 |[HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj](https://solscan.io/account/HwDAEXKut1FsdF3C5JxPSZrRLbjSsnxy5ixa2zfGVgdj)|18600880.793574|+0.000000|
 |[AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN](https://solscan.io/account/AEWUYPTkrDjWKRgJsH99D7CuUTwBoa7Ff3UqgRN9QxtN)|18385703.106597|+0.000000|
-|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17928268.894933|+6483.449864|
+|[HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ](https://solscan.io/account/HCGZE3Z3PkPR2kSGT8GweNigpg3ev7HhqQektseVCRPJ)|17928268.894933|+0.000000|
 |[4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb](https://solscan.io/account/4dUb6yiEABwumjbxq49pgejUbDUwEUveoE8v7mEBKQrb)|13902460.752094|+0.000000|
 |[5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe](https://solscan.io/account/5yCMdPWBXe7HSG48Wn8yzSU27VaneP5nLXvFEYF8nPCe)|13429775.275641|+0.000000|
 |[6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM](https://solscan.io/account/6sD9Ug4SvksR6BwRPH6cu8CPNzeHfjrDP2rHujTvpJaM)|12000069.420000|+0.000000|
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 01.11.2026 19:38:02 TR
+Son zincir okuması: 01.11.2026 19:42:54 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -100,14 +100,14 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "errors": [
         "api.mainnet.solana.com: RPC error -32015"
       ],
-      "detail_queue": 6632,
+      "detail_queue": 6675,
       "full_chain_coverage": false,
-      "checked_ms": 1793551100897
+      "checked_ms": 1793551393991
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793551082825,
+      "observed_ms": 1793551374874,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -122,18 +122,20 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 640,
+    "intervals": 641,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
     "full_chain_coverage": false
   },
-  "detail_queue": 6632
+  "detail_queue": 6675
 }
 ```
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+01.11.2026 19:42:57 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 01.11.2026 19:38:04 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -212,6 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 01.11.2026 17:57:20 TR · **SATIŞ** · SATIŞ: $148.51 · işlem başlatıcı `Jd97uyw9wb6PxV2jawAjS7aU6XUMHbcfn4En8xRP7Mg` · bildirim eşiği $100
 
 01.11.2026 17:57:07 TR · **FİYAT** · Son kontrol %-1.03; fiyat $0.0001923. Gözlem aralığı 5.0dk.
-
-01.11.2026 17:57:07 TR · **SATIŞ** · SATIŞ: $286.67 · işlem başlatıcı `Hj1SFJ5LdoZjDBKaMZRCz3DUJjY5YGwTD7La4utDKjbp` · bildirim eşiği $159
 
