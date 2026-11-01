@@ -1586173,60 +1586173,7 @@
       "source_close_ms": 1793529900000
     }
   },
-  "pending": [
-    {
-      "id": "b8eb438628208c76f1e87f7c",
-      "asset_id": "bf15acef0f7474fdd2c678cd",
-      "key": "MEXC:SPOT:KASUSDT",
-      "symbol": "KASUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793529989896,
-      "price": 0.033507999999999996,
-      "level": 0.033468,
-      "invalid": 0.03311794138355598,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.033468,
-        "base_invalid": 0.03311794138355598,
-        "atr": 0.0001337241096268347,
-        "rvol": 4.2875298214455535,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793526300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.13173652694611349,
-        "score": 5.7875298214455535
-      },
-      "context": {
-        "atr": 0.00013454786744376143,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2768712657947314,
-        "btc_hour_pct": -0.15720036078351596,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:KASUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793526300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KASUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1592860,6 +1592807,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793529101166
+    },
+    {
+      "id": "b8eb438628208c76f1e87f7c",
+      "asset_id": "bf15acef0f7474fdd2c678cd",
+      "key": "MEXC:SPOT:KASUSDT",
+      "symbol": "KASUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793529989896,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793530001124
     }
   ],
   "runs": [
@@ -1672536,8 +1672494,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d2c70823eb024008e989ef251cdfdb485ee3edfd",
-    "previous_success_ms": 1793529717585,
+    "previous_commit": "e502b9852ddea1617afeda9704dad5d7a4d4d8ee",
+    "previous_success_ms": 1793529999598,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
