@@ -1530011,374 +1530011,7 @@
       "source_close_ms": 1793508300000
     }
   },
-  "pending": [
-    {
-      "id": "e9a7ce69d9a764c741d7eaa3",
-      "asset_id": "0da60b8bfdaa921684952f64",
-      "key": "MEXC:SPOT:SPCMUSDT",
-      "symbol": "SPCMUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793508569683,
-      "price": 0.00082925,
-      "level": 0.0008187,
-      "invalid": 0.0008133101942683882,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0008187,
-        "base_invalid": 0.0008133101942683882,
-        "atr": 3.9320382107454205e-06,
-        "rvol": 4.434947185429861,
-        "close_position": 0.9875776397515525,
-        "breakout": true,
-        "bar_close_ms": 1793485800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.096615988229522,
-        "score": 6.422524825181414
-      },
-      "context": {
-        "atr": 1.8780072374076875e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.09045931010747132,
-        "btc_hour_pct": 0.09045931010747132,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SPCMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793485800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPCMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "917a1e0fde985727a9a86231",
-      "asset_id": "9cf3a6094dacf226321b507b",
-      "key": "OKX:PERP:PONSUSDT",
-      "symbol": "PONSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793508570014,
-      "price": 0.23815,
-      "level": 0.2377,
-      "invalid": 0.23028193862609994,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2377,
-        "base_invalid": 0.23028193862609994,
-        "atr": 0.0021204091593337933,
-        "rvol": 3.341149625113574,
-        "close_position": 0.8444444444444484,
-        "breakout": false,
-        "bar_close_ms": 1793502000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.6855940695580225
-      },
-      "context": {
-        "atr": 0.002591335625289544,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.648355427972038,
-        "btc_hour_pct": 0.07736859247089445,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PONSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793502000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PONSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "07d4394cd63dc63375278259",
-      "asset_id": "1b06bb2a8026bd547a8d0a6b",
-      "key": "MEXC:PERP:PONSUSDT",
-      "symbol": "PONSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793508569563,
-      "price": 0.23845,
-      "level": 0.2382,
-      "invalid": 0.23046448390292124,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2382,
-        "base_invalid": 0.23046448390292124,
-        "atr": 0.0022367739805251954,
-        "rvol": 5.276988399281838,
-        "close_position": 0.794117647058829,
-        "breakout": true,
-        "bar_close_ms": 1793503800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.2688172043010777,
-        "score": 7.071106046340667
-      },
-      "context": {
-        "atr": 0.002486187769216663,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.5984905271137393,
-        "btc_hour_pct": 0.08122023426440084,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PONSUSDT",
-          "change_pct": 1.1828202808949584,
-          "old_ms": 1793505083148,
-          "current_ms": 1793508564173,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0151,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793503800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PONSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "25a902daef69f1df146c5f86",
-      "asset_id": "c0daa9df45df13c85b609575",
-      "key": "OKX:SPOT:PONSUSDT",
-      "symbol": "PONSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793508570691,
-      "price": 0.238,
-      "level": 0.2376,
-      "invalid": 0.23006328406522128,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2376,
-        "base_invalid": 0.23006328406522128,
-        "atr": 0.0022447728985247497,
-        "rvol": 2.5140914604981144,
-        "close_position": 0.6923076923076895,
-        "breakout": true,
-        "bar_close_ms": 1793503800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.099440378820484,
-        "score": 4.206399152805804
-      },
-      "context": {
-        "atr": 0.002475598061872139,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.69113701197643,
-        "btc_hour_pct": 0.07953647480958281,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PONSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793503800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PONSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5ff248a48f68136140ff6e18",
-      "asset_id": "39cc34a61a928d801d3e3984",
-      "key": "MEXC:SPOT:PONSUSDT",
-      "symbol": "PONSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793508569683,
-      "price": 0.23793999999999998,
-      "level": 0.237586,
-      "invalid": 0.23044889241637834,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.237586,
-        "base_invalid": 0.23044889241637834,
-        "atr": 0.0019807172241444143,
-        "rvol": 2.3703688688644506,
-        "close_position": 0.8357664233576666,
-        "breakout": true,
-        "bar_close_ms": 1793503800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7986099193409997,
-        "score": 4.206135292222117
-      },
-      "context": {
-        "atr": 0.00217584321063805,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.629657966451271,
-        "btc_hour_pct": 0.09045931010747132,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PONSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793503800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PONSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ea8b6e565f425f052ae2fa50",
-      "asset_id": "1f9653b43cd72752f5e4c488",
-      "key": "OKX:PERP:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793508570014,
-      "price": 0.042935,
-      "level": 0.04253,
-      "invalid": 0.04157788630879263,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04253,
-        "base_invalid": 0.04157788630879263,
-        "atr": 0.0002807579413824153,
-        "rvol": 5.668470808278054,
-        "close_position": 0.7592592592592621,
-        "breakout": true,
-        "bar_close_ms": 1793508300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9917355371900971,
-        "score": 7.427730067537317
-      },
-      "context": {
-        "atr": 0.0002807579413824153,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.663195191571142,
-        "btc_hour_pct": 0.07736859247089445,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793508300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c82574d84d7dfd2caaacec40",
-      "asset_id": "5e65f25b5140261ee114876d",
-      "key": "MEXC:SPOT:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793508569683,
-      "price": 0.63295,
-      "level": 0.6272,
-      "invalid": 0.611685654230997,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6272,
-        "base_invalid": 0.611685654230997,
-        "atr": 0.008095638460019965,
-        "rvol": 5.503930941622533,
-        "close_position": 0.6162790697674453,
-        "breakout": true,
-        "bar_close_ms": 1793508300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3333333333333197,
-        "score": 7.120210011389979
-      },
-      "context": {
-        "atr": 0.008095638460019965,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2493465151352403,
-        "btc_hour_pct": 0.09045931010747132,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RUNEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793508300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RUNEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1536187,6 +1535820,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793507808857
+    },
+    {
+      "id": "e9a7ce69d9a764c741d7eaa3",
+      "asset_id": "0da60b8bfdaa921684952f64",
+      "key": "MEXC:SPOT:SPCMUSDT",
+      "symbol": "SPCMUSDT",
+      "phase": "expired",
+      "observed_ms": 1793508569683,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793508581490
+    },
+    {
+      "id": "917a1e0fde985727a9a86231",
+      "asset_id": "9cf3a6094dacf226321b507b",
+      "key": "OKX:PERP:PONSUSDT",
+      "symbol": "PONSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793508570014,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793508581491
+    },
+    {
+      "id": "ea8b6e565f425f052ae2fa50",
+      "asset_id": "1f9653b43cd72752f5e4c488",
+      "key": "OKX:PERP:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793508570014,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793508581491
+    },
+    {
+      "id": "c82574d84d7dfd2caaacec40",
+      "asset_id": "5e65f25b5140261ee114876d",
+      "key": "MEXC:SPOT:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793508569683,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793508581491
     }
   ],
   "runs": [
@@ -1581912,7 +1581589,8 @@
         "entry_seq": 0,
         "cohort": "CHIPUSDT",
         "observation_lag_ms": 270014,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11477
       },
       "5e65f25b5140261ee114876d:radar": {
         "symbol": "RUNEUSDT",
@@ -1581934,7 +1581612,8 @@
         "entry_seq": 0,
         "cohort": "RUNEUSDT",
         "observation_lag_ms": 269683,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11808
       }
     },
     "errors": [],
@@ -1607969,8 +1607648,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "069d4492f4a213a53277e67bef1aedd49490b650",
-    "previous_success_ms": 1793508556213,
+    "previous_commit": "efedea6b25a9cadb8690f0331b76dca19f75d531",
+    "previous_success_ms": 1793508580431,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
