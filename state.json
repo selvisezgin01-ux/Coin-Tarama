@@ -1441008,64 +1441008,7 @@
       "source_close_ms": 1793614500000
     }
   },
-  "pending": [
-    {
-      "id": "66a075d0fd54a2b8e7401f84",
-      "asset_id": "28f1a852676a22e25eec0bce",
-      "key": "MEXC:PERP:TOWNSUSDT",
-      "symbol": "TOWNSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793616448380,
-      "price": 0.0013540000000000002,
-      "level": 0.00136,
-      "invalid": 0.0013285392770478524,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00136,
-        "base_invalid": 0.0013285392770478524,
-        "atr": 9.738153014317738e-06,
-        "rvol": 9.04054550704516,
-        "close_position": 0.7368421052631591,
-        "breakout": false,
-        "bar_close_ms": 1793616300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6721433905900076,
-        "score": 7.236842105263159
-      },
-      "context": {
-        "atr": 9.738153014317738e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8099713285810828,
-        "btc_hour_pct": -0.21161680352498324,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TOWNSUSDT",
-          "change_pct": 56.79860987186491,
-          "old_ms": 1793612729713,
-          "current_ms": 1793616444690,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793616300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TOWNSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1450878,6 +1450821,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793615453937
+    },
+    {
+      "id": "66a075d0fd54a2b8e7401f84",
+      "asset_id": "28f1a852676a22e25eec0bce",
+      "key": "MEXC:PERP:TOWNSUSDT",
+      "symbol": "TOWNSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793616448380,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793616458314
     }
   ],
   "runs": [
@@ -1535149,7 +1535103,8 @@
         "entry_seq": 0,
         "cohort": "TOWNSUSDT",
         "observation_lag_ms": 148380,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9934
       }
     },
     "errors": [],
@@ -1561174,8 +1561129,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3e4a06d1288ac0cea9d9c8f7688b4ed9273651d7",
-    "previous_success_ms": 1793616435833,
+    "previous_commit": "fe8efdeffd1d6b0e8324ca4a0fafb93906d2ecd4",
+    "previous_success_ms": 1793616456979,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
