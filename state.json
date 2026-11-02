@@ -1396511,62 +1396511,7 @@
       "source_close_ms": 1793599200000
     }
   },
-  "pending": [
-    {
-      "id": "bf22a863afabe28cc26076e6",
-      "asset_id": "5efd13e6267c36ed62805063",
-      "key": "MEXC:PERP:BIRBUSDT",
-      "symbol": "BIRBUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793599252785,
-      "price": 0.084815,
-      "level": 0.08584,
-      "invalid": 0.0784935686226248,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08584,
-        "base_invalid": 0.0784935686226248,
-        "atr": 0.0016428758491680595,
-        "rvol": 2.996048196338558,
-        "close_position": 0.8870967741935476,
-        "breakout": false,
-        "bar_close_ms": 1793592900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.2260273972602773,
-        "score": 4.383144970532106
-      },
-      "context": {
-        "atr": 0.002108082052289707,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.1603542227396244,
-        "btc_hour_pct": -0.05014078972381819,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BIRBUSDT",
-          "change_pct": 16.027563842723946,
-          "old_ms": 1793595742992,
-          "current_ms": 1793599248201,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793592900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIRBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1405818,6 +1405763,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793598359309
+    },
+    {
+      "id": "bf22a863afabe28cc26076e6",
+      "asset_id": "5efd13e6267c36ed62805063",
+      "key": "MEXC:PERP:BIRBUSDT",
+      "symbol": "BIRBUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793599252785,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793599262565
     }
   ],
   "runs": [
@@ -1510158,8 +1510114,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fe1963e3ed0e6ac3c0e67fcd778f43e834640df6",
-    "previous_success_ms": 1793598977400,
+    "previous_commit": "dbf98edef452f2bc35b50f14802e71650cd4b2ef",
+    "previous_success_ms": 1793599261210,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
