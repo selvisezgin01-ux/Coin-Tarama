@@ -1438387,60 +1438387,7 @@
       "source_close_ms": 1793614500000
     }
   },
-  "pending": [
-    {
-      "id": "f9d4ab703600b2927996d184",
-      "asset_id": "c12bbbb1e79b9c01a2a4249a",
-      "key": "OKX:PERP:OFCUSDT",
-      "symbol": "OFCUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793615443676,
-      "price": 0.0059795000000000004,
-      "level": 0.005976,
-      "invalid": 0.00581359598271404,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005976,
-        "base_invalid": 0.00581359598271404,
-        "atr": 7.602678190640039e-05,
-        "rvol": 29.28494222180584,
-        "close_position": 0.8000000000000014,
-        "breakout": false,
-        "bar_close_ms": 1793615400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.5675583574714658,
-        "score": 7.300000000000002
-      },
-      "context": {
-        "atr": 7.602678190640039e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.24929158529874984,
-        "btc_hour_pct": -0.2101264851453566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OFCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793615400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OFCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1448242,6 +1448189,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793614555356
+    },
+    {
+      "id": "f9d4ab703600b2927996d184",
+      "asset_id": "c12bbbb1e79b9c01a2a4249a",
+      "key": "OKX:PERP:OFCUSDT",
+      "symbol": "OFCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793615443676,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793615453937
     }
   ],
   "runs": [
@@ -1532220,7 +1532178,8 @@
         "entry_seq": 0,
         "cohort": "OFCUSDT",
         "observation_lag_ms": 43676,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10261
       }
     },
     "errors": [],
@@ -1558249,8 +1558208,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "018e2d0b8c583929887ccb34678dc4aa57407961",
-    "previous_success_ms": 1793615167965,
+    "previous_commit": "95c2b09ef8c100c557b864e791befde294699802",
+    "previous_success_ms": 1793615453004,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
