@@ -1436764,60 +1436764,7 @@
       "source_close_ms": 1793613600000
     }
   },
-  "pending": [
-    {
-      "id": "cd91ab9c7f5495b27704a49d",
-      "asset_id": "478c9332e3e785fc0c35831d",
-      "key": "OKX:PERP:PENDLEUSDT",
-      "symbol": "PENDLEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793613939138,
-      "price": 1.8014999999999999,
-      "level": 1.825,
-      "invalid": 1.8015947683370912,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.825,
-        "base_invalid": 1.8015947683370912,
-        "atr": 0.009368211086057886,
-        "rvol": 3.6635833182776074,
-        "close_position": 0.9499999999999944,
-        "breakout": false,
-        "bar_close_ms": 1793608200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6633499170812573,
-        "score": 5.113583318277602
-      },
-      "context": {
-        "atr": 0.009100962715103187,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6140493390304758,
-        "btc_hour_pct": -0.2101264851453566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PENDLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PENDLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1446564,6 +1446511,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793613655091
+    },
+    {
+      "id": "cd91ab9c7f5495b27704a49d",
+      "asset_id": "478c9332e3e785fc0c35831d",
+      "key": "OKX:PERP:PENDLEUSDT",
+      "symbol": "PENDLEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793613939138,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793613952443
     }
   ],
   "runs": [
@@ -1555970,8 +1555928,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0f190b7488d5ab3d44736d01e078da83b2b47c02",
-    "previous_success_ms": 1793613673295,
+    "previous_commit": "cb0bd389c50cc4633adf69c0adb7235a723a845f",
+    "previous_success_ms": 1793613951387,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
