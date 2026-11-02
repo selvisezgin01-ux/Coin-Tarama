@@ -1402680,64 +1402680,7 @@
       "source_close_ms": 1793631600000
     }
   },
-  "pending": [
-    {
-      "id": "e56a56bbc83c983a791c5b2c",
-      "asset_id": "d982b016230216ad1999196c",
-      "key": "MEXC:PERP:AEON1USDT",
-      "symbol": "AEON1USDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793635079354,
-      "price": 0.02658,
-      "level": 0.02623,
-      "invalid": 0.024902930719026696,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02623,
-        "base_invalid": 0.024902930719026696,
-        "atr": 0.00038046187315536666,
-        "rvol": 7.099452104809446,
-        "close_position": 0.8928571428571407,
-        "breakout": true,
-        "bar_close_ms": 1793634300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.549050632911378,
-        "score": 7.892857142857141
-      },
-      "context": {
-        "atr": 0.00038046187315536666,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.12958836486844,
-        "btc_hour_pct": -0.10256133784142252,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AEON1USDT",
-          "change_pct": 8.09125921786129,
-          "old_ms": 1793631465497,
-          "current_ms": 1793635078155,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.00030000000000000003,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793634300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEON1USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1413199,6 +1413142,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793634790419
+    },
+    {
+      "id": "e56a56bbc83c983a791c5b2c",
+      "asset_id": "d982b016230216ad1999196c",
+      "key": "MEXC:PERP:AEON1USDT",
+      "symbol": "AEON1USDT",
+      "phase": "radar",
+      "observed_ms": 1793635079354,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793635090161
     }
   ],
   "runs": [
@@ -1504117,7 +1504071,8 @@
         "entry_seq": 0,
         "cohort": "AEON1USDT",
         "observation_lag_ms": 779354,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10807
       }
     },
     "errors": [],
@@ -1530143,8 +1530098,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fa95bb3c72a3322f6da261483e92795a0bc63cf3",
-    "previous_success_ms": 1793634808614,
+    "previous_commit": "18164062e7a1f19af640a4cb4c08a91f2cc8d8bf",
+    "previous_success_ms": 1793635089215,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
