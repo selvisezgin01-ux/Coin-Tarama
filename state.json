@@ -1415757,322 +1415757,7 @@
       "source_close_ms": 1793608200000
     }
   },
-  "pending": [
-    {
-      "id": "9d97b7403f00444fff5aa5d2",
-      "asset_id": "ae8e29e16c191cbf9bfb60fa",
-      "key": "MEXC:SPOT:SOLVUSDT",
-      "symbol": "SOLVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793608396353,
-      "price": 0.0052325,
-      "level": 0.00526,
-      "invalid": 0.005022846054298222,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00526,
-        "base_invalid": 0.005022846054298222,
-        "atr": 5.4359638011851256e-05,
-        "rvol": 2.302133217514187,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793604600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.421978881501775,
-        "score": 4.3021332175141875
-      },
-      "context": {
-        "atr": 5.0958332616090475e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.2360892134781087,
-        "btc_hour_pct": -0.07462691340194283,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SOLVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793604600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOLVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f1c742983ec7c53f5d9c4bc6",
-      "asset_id": "47012a261c0f377fc10a6787",
-      "key": "OKX:PERP:INJUSDT",
-      "symbol": "INJUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793608395317,
-      "price": 7.2405,
-      "level": 7.227,
-      "invalid": 7.114463882527094,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.227,
-        "base_invalid": 7.114463882527094,
-        "atr": 0.043574116486045415,
-        "rvol": 2.002695910615515,
-        "close_position": 0.9090909090909066,
-        "breakout": false,
-        "bar_close_ms": 1793604600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7815771109560332,
-        "score": 3.4117868197064216
-      },
-      "context": {
-        "atr": 0.04613663562008722,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0577443793936658,
-        "btc_hour_pct": -0.06681625657442014,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:INJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793604600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d1468a7f331da417540464e4",
-      "asset_id": "f1331ecbbf7ec8bc91b3d01f",
-      "key": "OKX:PERP:ACUUSDT",
-      "symbol": "ACUUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793608395317,
-      "price": 0.12938,
-      "level": 0.12514,
-      "invalid": 0.12329153913405268,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12514,
-        "base_invalid": 0.12329153913405268,
-        "atr": 0.0009897391063154299,
-        "rvol": 22.713636283543924,
-        "close_position": 0.8216318785578758,
-        "breakout": true,
-        "bar_close_ms": 1793608200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.16632958498504,
-        "score": 7.821631878557875
-      },
-      "context": {
-        "atr": 0.0009897391063154299,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7630597798904737,
-        "btc_hour_pct": -0.06681625657442014,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ACUUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACUUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cb3871cd0d20aff960b08fd6",
-      "asset_id": "478c9332e3e785fc0c35831d",
-      "key": "OKX:PERP:PENDLEUSDT",
-      "symbol": "PENDLEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793608395317,
-      "price": 1.8255,
-      "level": 1.825,
-      "invalid": 1.8015947683370912,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.825,
-        "base_invalid": 1.8015947683370912,
-        "atr": 0.009368211086057886,
-        "rvol": 3.6635833182776074,
-        "close_position": 0.9499999999999944,
-        "breakout": false,
-        "bar_close_ms": 1793608200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6633499170812573,
-        "score": 5.113583318277602
-      },
-      "context": {
-        "atr": 0.009368211086057886,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3192841295259652,
-        "btc_hour_pct": -0.06681625657442014,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PENDLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PENDLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "603c90c9c729a5b32cd2377c",
-      "asset_id": "a530d6d999ce9d6bc5ca675b",
-      "key": "MEXC:PERP:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793608396273,
-      "price": 0.5367500000000001,
-      "level": 0.5256,
-      "invalid": 0.5085588441491096,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5256,
-        "base_invalid": 0.5085588441491096,
-        "atr": 0.00894103900593622,
-        "rvol": 2.87187041348361,
-        "close_position": 0.818930041152265,
-        "breakout": true,
-        "bar_close_ms": 1793608200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.573498164960398,
-        "score": 4.690800454635875
-      },
-      "context": {
-        "atr": 0.00894103900593622,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7430504559519333,
-        "btc_hour_pct": -0.06565626831784854,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RUNEUSDT",
-          "change_pct": -4.914630682449883,
-          "old_ms": 1793604781049,
-          "current_ms": 1793608393027,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RUNEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c025c9ec4976724fe245340e",
-      "asset_id": "0f5891f3cc63e840a70a2bce",
-      "key": "MEXC:SPOT:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793608396353,
-      "price": 0.5376,
-      "level": 0.5266,
-      "invalid": 0.5092469989294475,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5266,
-        "base_invalid": 0.5092469989294475,
-        "atr": 0.009020007137017505,
-        "rvol": 2.5005184913783474,
-        "close_position": 0.7469879518072303,
-        "breakout": true,
-        "bar_close_ms": 1793608200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.373819163292846,
-        "score": 4.247506443185578
-      },
-      "context": {
-        "atr": 0.009020007137017505,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5921366410283966,
-        "btc_hour_pct": -0.07462691340194283,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RUNEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RUNEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1425599,6 +1425284,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793607507429
+    },
+    {
+      "id": "9d97b7403f00444fff5aa5d2",
+      "asset_id": "ae8e29e16c191cbf9bfb60fa",
+      "key": "MEXC:SPOT:SOLVUSDT",
+      "symbol": "SOLVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793608396353,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793608406866
+    },
+    {
+      "id": "f1c742983ec7c53f5d9c4bc6",
+      "asset_id": "47012a261c0f377fc10a6787",
+      "key": "OKX:PERP:INJUSDT",
+      "symbol": "INJUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793608395317,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793608406866
+    },
+    {
+      "id": "d1468a7f331da417540464e4",
+      "asset_id": "f1331ecbbf7ec8bc91b3d01f",
+      "key": "OKX:PERP:ACUUSDT",
+      "symbol": "ACUUSDT",
+      "phase": "radar",
+      "observed_ms": 1793608395317,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793608406866
+    },
+    {
+      "id": "cb3871cd0d20aff960b08fd6",
+      "asset_id": "478c9332e3e785fc0c35831d",
+      "key": "OKX:PERP:PENDLEUSDT",
+      "symbol": "PENDLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793608395317,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793608406866
+    },
+    {
+      "id": "603c90c9c729a5b32cd2377c",
+      "asset_id": "a530d6d999ce9d6bc5ca675b",
+      "key": "MEXC:PERP:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793608396273,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793608406866
+    },
+    {
+      "id": "c025c9ec4976724fe245340e",
+      "asset_id": "0f5891f3cc63e840a70a2bce",
+      "key": "MEXC:SPOT:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793608396353,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793608406866
     }
   ],
   "runs": [
@@ -1507052,7 +1506803,8 @@
         "entry_seq": 0,
         "cohort": "ACUUSDT",
         "observation_lag_ms": 195317,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11549
       },
       "478c9332e3e785fc0c35831d:radar": {
         "symbol": "PENDLEUSDT",
@@ -1507074,7 +1506826,8 @@
         "entry_seq": 0,
         "cohort": "PENDLEUSDT",
         "observation_lag_ms": 195317,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11549
       },
       "a530d6d999ce9d6bc5ca675b:radar": {
         "symbol": "RUNEUSDT",
@@ -1507096,7 +1506849,8 @@
         "entry_seq": 0,
         "cohort": "RUNEUSDT",
         "observation_lag_ms": 196273,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10593
       },
       "0f5891f3cc63e840a70a2bce:radar": {
         "symbol": "RUNEUSDT",
@@ -1507118,7 +1506872,8 @@
         "entry_seq": 0,
         "cohort": "RUNEUSDT",
         "observation_lag_ms": 196353,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10513
       }
     },
     "errors": [],
@@ -1533147,8 +1532902,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a7523e6e311254ec0f1dfbd523bee609a9999179",
-    "previous_success_ms": 1793608123621,
+    "previous_commit": "a30556085655a9ad5e6c2b3e2f369b7f23f30b20",
+    "previous_success_ms": 1793608405718,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
