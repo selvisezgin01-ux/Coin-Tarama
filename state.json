@@ -1453325,60 +1453325,7 @@
       "source_close_ms": 1793619900000
     }
   },
-  "pending": [
-    {
-      "id": "f4278a3da3d1217f260a1d91",
-      "asset_id": "7533b8ffdfa4b4c597718cc5",
-      "key": "OKX:PERP:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793620644593,
-      "price": 0.98915,
-      "level": 0.946,
-      "invalid": 0.8956196244688915,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.946,
-        "base_invalid": 0.8956196244688915,
-        "atr": 0.025202503540723186,
-        "rvol": 3.542165781196887,
-        "close_position": 0.7475961538461534,
-        "breakout": true,
-        "bar_close_ms": 1793619900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.538562377102907,
-        "score": 5.289761935043041
-      },
-      "context": {
-        "atr": 0.025202503540723186,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.430983181716483,
-        "btc_hour_pct": -0.1158577768891833,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793619900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1463312,6 +1463259,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793620058565
+    },
+    {
+      "id": "f4278a3da3d1217f260a1d91",
+      "asset_id": "7533b8ffdfa4b4c597718cc5",
+      "key": "OKX:PERP:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793620644593,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793620654193
     }
   ],
   "runs": [
@@ -1549150,7 +1549108,8 @@
         "entry_seq": 0,
         "cohort": "BTWUSDT",
         "observation_lag_ms": 744593,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9600
       }
     },
     "errors": [],
@@ -1575173,8 +1575132,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "427dc78abab1c969bcea1c93862f4618bec14fcb",
-    "previous_success_ms": 1793620374742,
+    "previous_commit": "1a1ac547c56e7402385744d85d18d78b0a8382c3",
+    "previous_success_ms": 1793620652996,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
