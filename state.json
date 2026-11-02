@@ -1386853,112 +1386853,7 @@
       "source_close_ms": 1793595600000
     }
   },
-  "pending": [
-    {
-      "id": "59a4bcc2dc9f3ba441392f41",
-      "asset_id": "af4499bd512abcefd933d3d7",
-      "key": "MEXC:PERP:HOTUSDT",
-      "symbol": "HOTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793595762355,
-      "price": 0.0003835,
-      "level": 0.0003824,
-      "invalid": 0.0003662346623355159,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0003824,
-        "base_invalid": 0.0003662346623355159,
-        "atr": 6.435584429893913e-06,
-        "rvol": 3.5030104788888488,
-        "close_position": 0.899280575539566,
-        "breakout": false,
-        "bar_close_ms": 1793578500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9338313767342621,
-        "score": 4.902291054428415
-      },
-      "context": {
-        "atr": 6.74914257325947e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.3827928055346383,
-        "btc_hour_pct": -0.27241473202583855,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HOTUSDT",
-          "change_pct": -4.456981592429454,
-          "old_ms": 1793592143926,
-          "current_ms": 1793595760007,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -1.0674,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793578500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e5da5ec9eb69e04e9d0e162a",
-      "asset_id": "75b41d4ae29d35ed351bfd35",
-      "key": "OKX:PERP:ETHUSDT",
-      "symbol": "ETHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793595759989,
-      "price": 2292.585,
-      "level": 2298.0,
-      "invalid": 2282.5979015035687,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2298.0,
-        "base_invalid": 2282.5979015035687,
-        "atr": 8.347323309541997,
-        "rvol": 6.705571223056296,
-        "close_position": 0.6101214574898784,
-        "breakout": true,
-        "bar_close_ms": 1793590200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5229811230377468,
-        "score": 7.610121457489878
-      },
-      "context": {
-        "atr": 8.19764283007382,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.4278138499092976,
-        "btc_hour_pct": -0.26583628353493705,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ETHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793590200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1396001,6 +1395896,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793594870176
+    },
+    {
+      "id": "59a4bcc2dc9f3ba441392f41",
+      "asset_id": "af4499bd512abcefd933d3d7",
+      "key": "MEXC:PERP:HOTUSDT",
+      "symbol": "HOTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793595762355,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793595772648
+    },
+    {
+      "id": "e5da5ec9eb69e04e9d0e162a",
+      "asset_id": "75b41d4ae29d35ed351bfd35",
+      "key": "OKX:PERP:ETHUSDT",
+      "symbol": "ETHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793595759989,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793595772648
     }
   ],
   "runs": [
@@ -1499100,8 +1499017,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0c216e16a8b3fd099f7be9336ec9a02f358aa01a",
-    "previous_success_ms": 1793595486521,
+    "previous_commit": "0c5079f1fd5f69efe0fc887f71a9d07b908cc310",
+    "previous_success_ms": 1793595771392,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
