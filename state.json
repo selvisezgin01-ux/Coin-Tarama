@@ -1309917,168 +1309917,7 @@
       "source_close_ms": 1793628900000
     }
   },
-  "pending": [
-    {
-      "id": "2194cdb03f3f94fb00b7645a",
-      "asset_id": "a666e1cea3265e45fa6f5143",
-      "key": "MEXC:PERP:AEROUSDT",
-      "symbol": "AEROUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793628968704,
-      "price": 0.6194,
-      "level": 0.6216,
-      "invalid": 0.6152973749496059,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6216,
-        "base_invalid": 0.6152973749496059,
-        "atr": 0.003350833669294418,
-        "rvol": 6.408262579877562,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793627100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.245954692556639,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.003701874993401109,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4524000854107646,
-        "btc_hour_pct": 0.16109684710456929,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AEROUSDT",
-          "change_pct": 1.4835840748355755,
-          "old_ms": 1793625352203,
-          "current_ms": 1793628965172,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0025,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793627100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6b1b4e643827fe7e07fb752d",
-      "asset_id": "40696832ce741a044d920c80",
-      "key": "MEXC:SPOT:AEROUSDT",
-      "symbol": "AEROUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793628965045,
-      "price": 0.6187499999999999,
-      "level": 0.6211,
-      "invalid": 0.6140176823958375,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6211,
-        "base_invalid": 0.6140176823958375,
-        "atr": 0.0038821173610834605,
-        "rvol": 6.444972768766221,
-        "close_position": 0.9821428571428591,
-        "breakout": true,
-        "bar_close_ms": 1793627100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9691487643353369,
-        "score": 7.982142857142859
-      },
-      "context": {
-        "atr": 0.004201248645856849,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5704265241704976,
-        "btc_hour_pct": 0.17415100901174707,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AEROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793627100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0fee1c4227e82f1839429f6a",
-      "asset_id": "1ab76ce67050ca093bd23fd7",
-      "key": "OKX:PERP:AEROUSDT",
-      "symbol": "AEROUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793628964758,
-      "price": 0.6202,
-      "level": 0.6225,
-      "invalid": 0.6158761600494598,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6225,
-        "base_invalid": 0.6158761600494598,
-        "atr": 0.003492266336934724,
-        "rvol": 2.2581064479806674,
-        "close_position": 0.9789473684210549,
-        "breakout": true,
-        "bar_close_ms": 1793627100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.805023345677025,
-        "score": 4.237053816401723
-      },
-      "context": {
-        "atr": 0.003832118779725964,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.37572171954041167,
-        "btc_hour_pct": 0.17231180721652972,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AEROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793627100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AEROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1320309,6 +1320148,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793628078882
+    },
+    {
+      "id": "2194cdb03f3f94fb00b7645a",
+      "asset_id": "a666e1cea3265e45fa6f5143",
+      "key": "MEXC:PERP:AEROUSDT",
+      "symbol": "AEROUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793628968704,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793628978439
+    },
+    {
+      "id": "6b1b4e643827fe7e07fb752d",
+      "asset_id": "40696832ce741a044d920c80",
+      "key": "MEXC:SPOT:AEROUSDT",
+      "symbol": "AEROUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793628965045,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793628978439
+    },
+    {
+      "id": "0fee1c4227e82f1839429f6a",
+      "asset_id": "1ab76ce67050ca093bd23fd7",
+      "key": "OKX:PERP:AEROUSDT",
+      "symbol": "AEROUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793628964758,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793628978439
     }
   ],
   "runs": [
@@ -1435141,8 +1435013,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5624c0c6d2ba29dbddd3e2f575d0ca3f052a5ea4",
-    "previous_success_ms": 1793628695817,
+    "previous_commit": "7592dbda5982e3b70bf90e45c9f390e1cf933e46",
+    "previous_success_ms": 1793628977030,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
