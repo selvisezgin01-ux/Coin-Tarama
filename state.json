@@ -1544840,8 +1544840,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f33d522164a50d6c43a9e5c4cfe02033a215e4a7",
-    "previous_success_ms": 1793610373561,
+    "previous_commit": "0dac360d7d65829e0804c431de84eeade8e40667",
+    "previous_success_ms": 1793610648889,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
