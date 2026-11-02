@@ -1390950,120 +1390950,7 @@
       "source_close_ms": 1793593800000
     }
   },
-  "pending": [
-    {
-      "id": "50418b0b911c7c3fa16e0cab",
-      "asset_id": "c99efce30254e9efcb926d71",
-      "key": "MEXC:PERP:BRUSDT",
-      "symbol": "BRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793594556692,
-      "price": 0.47495,
-      "level": 0.4722,
-      "invalid": 0.46581187195326745,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4722,
-        "base_invalid": 0.46581187195326745,
-        "atr": 0.003254186978216941,
-        "rvol": 3.8545624331477435,
-        "close_position": 0.9027777777777806,
-        "breakout": true,
-        "bar_close_ms": 1793593800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7754010695187006,
-        "score": 5.757340210925524
-      },
-      "context": {
-        "atr": 0.003254186978216941,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8329095289443145,
-        "btc_hour_pct": 0.21549415743058464,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BRUSDT",
-          "change_pct": -2.248390631180619,
-          "old_ms": 1793590942328,
-          "current_ms": 1793594554084,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793593800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1d5fdeac1ddb7e5fedf11222",
-      "asset_id": "5b83a84ecacb372d49ba7ffb",
-      "key": "MEXC:PERP:DOSUSDT",
-      "symbol": "DOSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793594556692,
-      "price": 0.20255,
-      "level": 0.2032,
-      "invalid": 0.19939336683207343,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2032,
-        "base_invalid": 0.19939336683207343,
-        "atr": 0.0013775544528438384,
-        "rvol": 2.5529328776778546,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793593800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.04950495049506065,
-        "score": 4.052932877677854
-      },
-      "context": {
-        "atr": 0.0013775544528438384,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.0099330849380306,
-        "btc_hour_pct": 0.21549415743058464,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DOSUSDT",
-          "change_pct": -0.3503438463714703,
-          "old_ms": 1793590942525,
-          "current_ms": 1793594554258,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793593800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1400062,6 +1399949,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793593969836
+    },
+    {
+      "id": "50418b0b911c7c3fa16e0cab",
+      "asset_id": "c99efce30254e9efcb926d71",
+      "key": "MEXC:PERP:BRUSDT",
+      "symbol": "BRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793594556692,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793594567278
+    },
+    {
+      "id": "1d5fdeac1ddb7e5fedf11222",
+      "asset_id": "5b83a84ecacb372d49ba7ffb",
+      "key": "MEXC:PERP:DOSUSDT",
+      "symbol": "DOSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793594556692,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793594567279
     }
   ],
   "runs": [
@@ -1476781,7 +1476690,8 @@
         "entry_seq": 0,
         "cohort": "BRUSDT",
         "observation_lag_ms": 756692,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10586
       },
       "5b83a84ecacb372d49ba7ffb:radar": {
         "symbol": "DOSUSDT",
@@ -1476803,7 +1476713,8 @@
         "entry_seq": 0,
         "cohort": "DOSUSDT",
         "observation_lag_ms": 756692,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10587
       }
     },
     "errors": [],
@@ -1502826,8 +1502737,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "74a1b6fd7d9f175e453f13313d9211369fbd56de",
-    "previous_success_ms": 1793594290680,
+    "previous_commit": "8973a22158689df8facfae325397119774b46e75",
+    "previous_success_ms": 1793594566019,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
