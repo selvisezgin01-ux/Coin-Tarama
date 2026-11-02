@@ -1493942,166 +1493942,7 @@
       "source_close_ms": 1793660400000
     }
   },
-  "pending": [
-    {
-      "id": "fb8d560c3f5e77e3e44e2815",
-      "asset_id": "9dfa22d9cf8d43d4b6b05328",
-      "key": "MEXC:SPOT:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793660569013,
-      "price": 1.48255,
-      "level": 1.3779,
-      "invalid": 1.3181502789364932,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.3779,
-        "base_invalid": 1.3181502789364932,
-        "atr": 0.028331473756712706,
-        "rvol": 2.209773642127761,
-        "close_position": 0.9278350515463906,
-        "breakout": true,
-        "bar_close_ms": 1793654100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.03232009466754,
-        "score": 4.137608693674151
-      },
-      "context": {
-        "atr": 0.0313438657396131,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.989551019411009,
-        "btc_hour_pct": 0.12513768268331837,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EVAAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793654100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EVAAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bbc350b3f2d85b1ad8c16793",
-      "asset_id": "a7fc98794644f9537f1c4307",
-      "key": "OKX:PERP:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793660568274,
-      "price": 0.045245,
-      "level": 0.04431,
-      "invalid": 0.043353835870388935,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04431,
-        "base_invalid": 0.043353835870388935,
-        "atr": 0.000507760864073793,
-        "rvol": 5.231716868703888,
-        "close_position": 0.7485714285714271,
-        "breakout": true,
-        "bar_close_ms": 1793655000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5674693321217736,
-        "score": 6.980288297275315
-      },
-      "context": {
-        "atr": 0.0004934432985156091,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7944271784495083,
-        "btc_hour_pct": 0.12013896029687832,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PARTIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793655000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "546cfe27f5e29165786fb733",
-      "asset_id": "68f1f3ec63ec313593555eaf",
-      "key": "MEXC:PERP:BOMEUSDT",
-      "symbol": "BOMEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793660569907,
-      "price": 0.00058445,
-      "level": 0.0005852,
-      "invalid": 0.0005704388276361739,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005852,
-        "base_invalid": 0.0005704388276361739,
-        "atr": 4.407815758839884e-06,
-        "rvol": 3.9737431866244286,
-        "close_position": 0.9189189189189324,
-        "breakout": true,
-        "bar_close_ms": 1793656800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0638224072146993,
-        "score": 5.892662105543361
-      },
-      "context": {
-        "atr": 4.274502746988316e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3839425251263684,
-        "btc_hour_pct": 0.11206487007113797,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BOMEUSDT",
-          "change_pct": -0.43702755694534634,
-          "old_ms": 1793656952256,
-          "current_ms": 1793660565253,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793656800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BOMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1505366,6 +1505207,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793660272795
+    },
+    {
+      "id": "fb8d560c3f5e77e3e44e2815",
+      "asset_id": "9dfa22d9cf8d43d4b6b05328",
+      "key": "MEXC:SPOT:EVAAUSDT",
+      "symbol": "EVAAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793660569013,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793660581655
+    },
+    {
+      "id": "bbc350b3f2d85b1ad8c16793",
+      "asset_id": "a7fc98794644f9537f1c4307",
+      "key": "OKX:PERP:PARTIUSDT",
+      "symbol": "PARTIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793660568274,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793660581656
+    },
+    {
+      "id": "546cfe27f5e29165786fb733",
+      "asset_id": "68f1f3ec63ec313593555eaf",
+      "key": "MEXC:PERP:BOMEUSDT",
+      "symbol": "BOMEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793660569907,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793660581656
     }
   ],
   "runs": [
@@ -1631328,8 +1631202,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6fbce4acedd9e64a5d509162634da9efd13983c8",
-    "previous_success_ms": 1793660291939,
+    "previous_commit": "9480ef9df4a180812cecace855a15184b9cbfb65",
+    "previous_success_ms": 1793660579843,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
