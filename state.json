@@ -1411128,274 +1411128,7 @@
       "source_close_ms": 1793605500000
     }
   },
-  "pending": [
-    {
-      "id": "f6d53027e78cbf5632b6b193",
-      "asset_id": "083d0e86f92c34c0879c94a7",
-      "key": "OKX:SPOT:PHAUSDT",
-      "symbol": "PHAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793605695011,
-      "price": 0.041215,
-      "level": 0.0412,
-      "invalid": 0.04056688168563216,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0412,
-        "base_invalid": 0.04056688168563216,
-        "atr": 0.00022078876245222018,
-        "rvol": 3.934359587862535,
-        "close_position": 0.7058823529411885,
-        "breakout": false,
-        "bar_close_ms": 1793590200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.14563106796116054,
-        "score": 5.140241940803723
-      },
-      "context": {
-        "atr": 0.0002732519696190653,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.796597666090626,
-        "btc_hour_pct": -0.2720321130592174,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PHAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793590200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PHAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6e320c1e822f761145715333",
-      "asset_id": "91c155528de4ba45b8332dc1",
-      "key": "MEXC:PERP:OGNUSDT",
-      "symbol": "OGNUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793605696068,
-      "price": 0.02752,
-      "level": 0.02696,
-      "invalid": 0.025205002353303183,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02696,
-        "base_invalid": 0.025205002353303183,
-        "atr": 0.0003666509779787849,
-        "rvol": 18.60380323114596,
-        "close_position": 0.8290598290598272,
-        "breakout": true,
-        "bar_close_ms": 1793600100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1730985387785617,
-        "score": 7.829059829059827
-      },
-      "context": {
-        "atr": 0.0005322192796775895,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 5.4338037083163755,
-        "btc_hour_pct": -0.26270104671942685,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:OGNUSDT",
-          "change_pct": 1.8663731785635074,
-          "old_ms": 1793602233234,
-          "current_ms": 1793605694102,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0013,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793600100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OGNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c1aaf282771a445ab5e6918d",
-      "asset_id": "4fb8a001b852adb3abe2eaec",
-      "key": "MEXC:SPOT:GHUBUSDT",
-      "symbol": "GHUBUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793605696177,
-      "price": 0.002219,
-      "level": 0.002221,
-      "invalid": 0.0021920708384762294,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002221,
-        "base_invalid": 0.0021920708384762294,
-        "atr": 1.9527743491803172e-05,
-        "rvol": 4.295209113813659,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793601000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2217194570135703,
-        "score": 6.295209113813659
-      },
-      "context": {
-        "atr": 1.8501085988897278e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1696060922004037,
-        "btc_hour_pct": -0.2613408787580651,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GHUBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793601000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GHUBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2eb3eee992d0d920367ad632",
-      "asset_id": "f160698526167ad5f9ad355d",
-      "key": "OKX:SPOT:NFTUSDT",
-      "symbol": "NFTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793605695011,
-      "price": 2.354e-07,
-      "level": 2.329e-07,
-      "invalid": 2.3267962536028182e-07,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.329e-07,
-        "base_invalid": 2.3267962536028182e-07,
-        "atr": 8.024975981211575e-10,
-        "rvol": 133.55289089471626,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793605500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1592958351223759,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 8.024975981211575e-10,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2720321130592174,
-        "btc_hour_pct": -0.2720321130592174,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NFTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793605500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NFTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4c351957c536a197770c60d8",
-      "asset_id": "d28b71679e514ce82707b1a9",
-      "key": "MEXC:PERP:BLESSUSDT",
-      "symbol": "BLESSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793605696068,
-      "price": 0.0104245,
-      "level": 0.010169,
-      "invalid": 0.009829817523251728,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.010169,
-        "base_invalid": 0.009829817523251728,
-        "atr": 0.00016121651165515083,
-        "rvol": 2.878822976040076,
-        "close_position": 0.9478527607361923,
-        "breakout": true,
-        "bar_close_ms": 1793605500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.686093765487141,
-        "score": 4.826675736776268
-      },
-      "context": {
-        "atr": 0.00016121651165515083,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5706797166057274,
-        "btc_hour_pct": -0.26270104671942685,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BLESSUSDT",
-          "change_pct": 2.6175022083916755,
-          "old_ms": 1793602233112,
-          "current_ms": 1793605694051,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793605500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BLESSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1420812,6 +1420545,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793605103999
+    },
+    {
+      "id": "f6d53027e78cbf5632b6b193",
+      "asset_id": "083d0e86f92c34c0879c94a7",
+      "key": "OKX:SPOT:PHAUSDT",
+      "symbol": "PHAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793605695011,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793605707131
+    },
+    {
+      "id": "6e320c1e822f761145715333",
+      "asset_id": "91c155528de4ba45b8332dc1",
+      "key": "MEXC:PERP:OGNUSDT",
+      "symbol": "OGNUSDT",
+      "phase": "expired",
+      "observed_ms": 1793605696068,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793605707132
+    },
+    {
+      "id": "c1aaf282771a445ab5e6918d",
+      "asset_id": "4fb8a001b852adb3abe2eaec",
+      "key": "MEXC:SPOT:GHUBUSDT",
+      "symbol": "GHUBUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793605696177,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793605707132
+    },
+    {
+      "id": "2eb3eee992d0d920367ad632",
+      "asset_id": "f160698526167ad5f9ad355d",
+      "key": "OKX:SPOT:NFTUSDT",
+      "symbol": "NFTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793605695011,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793605707132
+    },
+    {
+      "id": "4c351957c536a197770c60d8",
+      "asset_id": "d28b71679e514ce82707b1a9",
+      "key": "MEXC:PERP:BLESSUSDT",
+      "symbol": "BLESSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793605696068,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793605707132
     }
   ],
   "runs": [
@@ -1501234,7 +1501022,8 @@
         "entry_seq": 0,
         "cohort": "NFTUSDT",
         "observation_lag_ms": 195011,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12121
       },
       "d28b71679e514ce82707b1a9:radar": {
         "symbol": "BLESSUSDT",
@@ -1501256,7 +1501045,8 @@
         "entry_seq": 0,
         "cohort": "BLESSUSDT",
         "observation_lag_ms": 196068,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11064
       }
     },
     "errors": [],
@@ -1527281,8 +1527071,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d355c909b7b88604cbae726c58bab387b159dae8",
-    "previous_success_ms": 1793605424442,
+    "previous_commit": "910cadbaded18795223975b04da98cee92d0e1bc",
+    "previous_success_ms": 1793605705967,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
