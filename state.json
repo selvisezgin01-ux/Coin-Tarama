@@ -1352776,110 +1352776,7 @@
       "source_close_ms": 1793631600000
     }
   },
-  "pending": [
-    {
-      "id": "181d848c99dc7c7fce2a3862",
-      "asset_id": "21c4a26aace8569c9734a1f3",
-      "key": "MEXC:SPOT:ELSAUSDT",
-      "symbol": "ELSAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793631786094,
-      "price": 0.06427,
-      "level": 0.0648,
-      "invalid": 0.06229734671763623,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0648,
-        "base_invalid": 0.06229734671763623,
-        "atr": 0.00041768854909177274,
-        "rvol": 6.037105049026286,
-        "close_position": 0.7236842105263173,
-        "breakout": true,
-        "bar_close_ms": 1793630700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6521739130434856,
-        "score": 7.723684210526317
-      },
-      "context": {
-        "atr": 0.00043400435072565586,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.33343983242557496,
-        "btc_hour_pct": -0.09892582538789663,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ELSAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793630700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ELSAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1b5cc701080cd9034167c27a",
-      "asset_id": "d8eac50439448bde2f2bbe9f",
-      "key": "MEXC:SPOT:FIGHTUSDT",
-      "symbol": "FIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793631786094,
-      "price": 0.0044265,
-      "level": 0.004475,
-      "invalid": 0.0042951263391210375,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004475,
-        "base_invalid": 0.0042951263391210375,
-        "atr": 3.9157739193083206e-05,
-        "rvol": 4.286234316414268,
-        "close_position": 0.7169811320754673,
-        "breakout": false,
-        "bar_close_ms": 1793631600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6382493731479144,
-        "score": 5.503215448489736
-      },
-      "context": {
-        "atr": 3.9157739193083206e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.737175198535811,
-        "btc_hour_pct": -0.09892582538789663,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793631600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1363253,6 +1363150,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793631190190
+    },
+    {
+      "id": "181d848c99dc7c7fce2a3862",
+      "asset_id": "21c4a26aace8569c9734a1f3",
+      "key": "MEXC:SPOT:ELSAUSDT",
+      "symbol": "ELSAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793631786094,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793631796276
+    },
+    {
+      "id": "1b5cc701080cd9034167c27a",
+      "asset_id": "d8eac50439448bde2f2bbe9f",
+      "key": "MEXC:SPOT:FIGHTUSDT",
+      "symbol": "FIGHTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793631786094,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793631796276
     }
   ],
   "runs": [
@@ -1452987,7 +1452906,8 @@
         "entry_seq": 0,
         "cohort": "FIGHTUSDT",
         "observation_lag_ms": 186094,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10182
       }
     },
     "errors": [],
@@ -1479011,8 +1478931,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c727ffb747d28d440b170d4af0a49468935cb153",
-    "previous_success_ms": 1793631512068,
+    "previous_commit": "f30fdda14243895d4fc26ac0f15f55598aea1d3b",
+    "previous_success_ms": 1793631795307,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
