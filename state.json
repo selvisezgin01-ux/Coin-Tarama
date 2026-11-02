@@ -1430471,58 +1430471,7 @@
       "source_close_ms": 1793608200000
     }
   },
-  "pending": [
-    {
-      "id": "e3960b444d593c9d4878b1ce",
-      "asset_id": "63ffe0a6186f286172949110",
-      "key": "OKX:SPOT:ZBCNUSDT",
-      "symbol": "ZBCNUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793611239606,
-      "price": 0.0020803,
-      "level": 0.0020742,
-      "invalid": 0.002052055772401222,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0020742,
-        "base_invalid": 0.002052055772401222,
-        "atr": 1.2961517325183903e-05,
-        "rvol": 6.882480287323153,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793610900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0883296083956884,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 1.2961517325183903e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.42326927339363385,
-        "btc_hour_pct": 0.15683513106936608,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZBCNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793610900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZBCNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1440137,6 +1440086,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793609751015
+    },
+    {
+      "id": "e3960b444d593c9d4878b1ce",
+      "asset_id": "63ffe0a6186f286172949110",
+      "key": "OKX:SPOT:ZBCNUSDT",
+      "symbol": "ZBCNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793611239606,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793611249651
     }
   ],
   "runs": [
@@ -1522592,7 +1522552,8 @@
         "entry_seq": 0,
         "cohort": "ZBCNUSDT",
         "observation_lag_ms": 339606,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10045
       }
     },
     "errors": [],
@@ -1548616,8 +1548577,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1d9c13d80e80d83e03d0bf588f814973c189dbd4",
-    "previous_success_ms": 1793610972043,
+    "previous_commit": "387389b5085a56193373da3ea0fd42fdb079e212",
+    "previous_success_ms": 1793611248622,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
