@@ -1498731,58 +1498731,7 @@
       "source_close_ms": 1793661300000
     }
   },
-  "pending": [
-    {
-      "id": "af06018f4c009a23aed6214a",
-      "asset_id": "9369d755a43b005fa66b5a8e",
-      "key": "OKX:SPOT:CSPRUSDT",
-      "symbol": "CSPRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793661763177,
-      "price": 0.0022745,
-      "level": 0.00218,
-      "invalid": 0.0020731928933352987,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00218,
-        "base_invalid": 0.0020731928933352987,
-        "atr": 5.204737776467586e-05,
-        "rvol": 2.6685241834730893,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793661300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.960224613944786,
-        "score": 4.668524183473089
-      },
-      "context": {
-        "atr": 5.204737776467586e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3951753002725997,
-        "btc_hour_pct": 0.1185427697368624,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CSPRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793661300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CSPRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1510113,6 +1510062,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793661480199
+    },
+    {
+      "id": "af06018f4c009a23aed6214a",
+      "asset_id": "9369d755a43b005fa66b5a8e",
+      "key": "OKX:SPOT:CSPRUSDT",
+      "symbol": "CSPRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793661763177,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793661776731
     }
   ],
   "runs": [
@@ -1610555,7 +1610515,8 @@
         "entry_seq": 0,
         "cohort": "CSPRUSDT",
         "observation_lag_ms": 463177,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13554
       }
     },
     "errors": [],
@@ -1636579,8 +1636540,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0625a2dd1eddccb92b91ce6dba2aa92f6088f03c",
-    "previous_success_ms": 1793661505710,
+    "previous_commit": "5c381ab04ab3c7ccb5a777a2826c6093d9cfc400",
+    "previous_success_ms": 1793661775598,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
