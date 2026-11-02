@@ -1436642,60 +1436642,7 @@
       "source_close_ms": 1793612700000
     }
   },
-  "pending": [
-    {
-      "id": "6be77805451e2ca99c676398",
-      "asset_id": "3cf3e020e6d02b3f1e3cf167",
-      "key": "OKX:PERP:TRIAUSDT",
-      "symbol": "TRIAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793613643898,
-      "price": 0.002541,
-      "level": 0.002554,
-      "invalid": 0.0025193361106028225,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002554,
-        "base_invalid": 0.0025193361106028225,
-        "atr": 1.775926264784825e-05,
-        "rvol": 3.071254190301089,
-        "close_position": 0.8888888888888862,
-        "breakout": true,
-        "bar_close_ms": 1793612700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7078254030672415,
-        "score": 4.960143079189975
-      },
-      "context": {
-        "atr": 1.823326804343368e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.09220195684347399,
-        "btc_hour_pct": -0.2101264851453566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRIAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793612700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1446431,6 +1446378,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793612755134
+    },
+    {
+      "id": "6be77805451e2ca99c676398",
+      "asset_id": "3cf3e020e6d02b3f1e3cf167",
+      "key": "OKX:PERP:TRIAUSDT",
+      "symbol": "TRIAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793613643898,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793613655091
     }
   ],
   "runs": [
@@ -1555748,8 +1555706,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0949cb9c3c8d2c86da25defe7707a210bfe70879",
-    "previous_success_ms": 1793613370878,
+    "previous_commit": "4f62ea4dbaf25d9c940de27529ad0ded957282bf",
+    "previous_success_ms": 1793613654116,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
