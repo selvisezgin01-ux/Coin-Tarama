@@ -99412,16 +99412,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "e5f0609336a6acf0f0d41536d3b6",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793582716022,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -103166,6 +103157,12 @@
       "issue": 1302,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1302",
       "delivered_ms": 1793582428372
+    },
+    {
+      "id": "e5f0609336a6acf0f0d41536d3b6",
+      "issue": 1303,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1303",
+      "delivered_ms": 1793582735706
     }
   ],
   "provider_backoff": {
