@@ -1439671,116 +1439671,7 @@
       "source_close_ms": 1793637900000
     }
   },
-  "pending": [
-    {
-      "id": "f99ac86759813ad7fa6552b5",
-      "asset_id": "b2465cc198111a7792bb333b",
-      "key": "MEXC:PERP:VELVETUSDT",
-      "symbol": "VELVETUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793639107738,
-      "price": 0.051074999999999995,
-      "level": 0.05143,
-      "invalid": 0.0499838691725048,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05143,
-        "base_invalid": 0.0499838691725048,
-        "atr": 0.00044087218330128976,
-        "rvol": 5.278675627485813,
-        "close_position": 0.7659574468085119,
-        "breakout": true,
-        "bar_close_ms": 1793635200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9928966061562692,
-        "score": 7.0446330742943255
-      },
-      "context": {
-        "atr": 0.0004781338276505555,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5608939763776633,
-        "btc_hour_pct": -0.019489076437195774,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:VELVETUSDT",
-          "change_pct": -1.5389677490259546,
-          "old_ms": 1793635365147,
-          "current_ms": 1793639106271,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0173,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793635200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VELVETUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bd67eeae947f7b2a180b6fc4",
-      "asset_id": "c00eecd695f6142901fc6f26",
-      "key": "OKX:SPOT:MAGICUSDT",
-      "symbol": "MAGICUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793639107415,
-      "price": 0.07938,
-      "level": 0.08022,
-      "invalid": 0.07946338369124913,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08022,
-        "base_invalid": 0.07946338369124913,
-        "atr": 0.00031077539167249907,
-        "rvol": 2.1735279758230917,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793637900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.5111582096995471,
-        "score": 3.6735279758230917
-      },
-      "context": {
-        "atr": 0.0003091396518802582,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.29088822282707927,
-        "btc_hour_pct": -0.03508971097432312,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MAGICUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793637900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGICUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1450462,6 +1450353,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793638813792
+    },
+    {
+      "id": "f99ac86759813ad7fa6552b5",
+      "asset_id": "b2465cc198111a7792bb333b",
+      "key": "MEXC:PERP:VELVETUSDT",
+      "symbol": "VELVETUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793639107738,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793639122093
+    },
+    {
+      "id": "bd67eeae947f7b2a180b6fc4",
+      "asset_id": "c00eecd695f6142901fc6f26",
+      "key": "OKX:SPOT:MAGICUSDT",
+      "symbol": "MAGICUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793639107415,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793639122093
     }
   ],
   "runs": [
@@ -1568809,8 +1568722,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8b414b5081a61cfe760d09e4ecb26f09e3328625",
-    "previous_success_ms": 1793638838756,
+    "previous_commit": "6c9cd4d17f4f6787789411716933364a98dc28c3",
+    "previous_success_ms": 1793639120737,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
