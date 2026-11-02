@@ -1127099,224 +1127099,7 @@
       "source_close_ms": 1793621700000
     }
   },
-  "pending": [
-    {
-      "id": "087280d692140c32ad7ba100",
-      "asset_id": "5e4896e36865c93aad18f4ff",
-      "key": "OKX:PERP:SPACEUSDT",
-      "symbol": "SPACEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793621852925,
-      "price": 0.0034735,
-      "level": 0.003445,
-      "invalid": 0.003401287546692892,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003445,
-        "base_invalid": 0.003401287546692892,
-        "atr": 1.808302204738452e-05,
-        "rvol": 4.996508604716178,
-        "close_position": 0.8863636363636317,
-        "breakout": true,
-        "bar_close_ms": 1793619000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1137162954278912,
-        "score": 6.882872241079809
-      },
-      "context": {
-        "atr": 1.9271557977638807e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.982150776232682,
-        "btc_hour_pct": -0.1041876506839512,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SPACEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793619000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPACEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f3291a3d44db8a82c9c35a16",
-      "asset_id": "8ba851fed4726df70f107d00",
-      "key": "MEXC:PERP:NEOUSDT",
-      "symbol": "NEOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793621853793,
-      "price": 1.9605000000000001,
-      "level": 1.954,
-      "invalid": 1.9398517793362162,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.954,
-        "base_invalid": 1.9398517793362162,
-        "atr": 0.0076548044252262885,
-        "rvol": 32.06658365374775,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793621700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6680369989722656,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0076548044252262885,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.19909612432780222,
-        "btc_hour_pct": -0.10828092485252183,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NEOUSDT",
-          "change_pct": 0.4968199810221563,
-          "old_ms": 1793618235586,
-          "current_ms": 1793621851525,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793621700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3abc660d1838664b4f5c0f91",
-      "asset_id": "e568929ac68338933963a947",
-      "key": "MEXC:PERP:ARUSDT",
-      "symbol": "ARUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793621853793,
-      "price": 3.158,
-      "level": 3.149,
-      "invalid": 3.1192569749645256,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.149,
-        "base_invalid": 3.1192569749645256,
-        "atr": 0.018286833569828687,
-        "rvol": 22.960158485278143,
-        "close_position": 0.8888888888888853,
-        "breakout": true,
-        "bar_close_ms": 1793621700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.2865329512893977,
-        "score": 7.888888888888886
-      },
-      "context": {
-        "atr": 0.018286833569828687,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3321376565442402,
-        "btc_hour_pct": -0.10828092485252183,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ARUSDT",
-          "change_pct": 7.45393072954128,
-          "old_ms": 1793618235385,
-          "current_ms": 1793621851279,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793621700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "81aa7567d385584f2f970248",
-      "asset_id": "69e35c425cee7f54e11726a1",
-      "key": "OKX:PERP:NEOUSDT",
-      "symbol": "NEOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793621852925,
-      "price": 1.9605000000000001,
-      "level": 1.953,
-      "invalid": 1.9399955834086393,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.953,
-        "base_invalid": 1.9399955834086393,
-        "atr": 0.006696110609070984,
-        "rvol": 2.248779434701344,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793621700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6166495375128367,
-        "score": 4.248779434701344
-      },
-      "context": {
-        "atr": 0.006696110609070984,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.15195989029964663,
-        "btc_hour_pct": -0.1041876506839512,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NEOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793621700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1137272,6 +1137055,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793621556442
+    },
+    {
+      "id": "087280d692140c32ad7ba100",
+      "asset_id": "5e4896e36865c93aad18f4ff",
+      "key": "OKX:PERP:SPACEUSDT",
+      "symbol": "SPACEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793621852925,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793621861897
+    },
+    {
+      "id": "f3291a3d44db8a82c9c35a16",
+      "asset_id": "8ba851fed4726df70f107d00",
+      "key": "MEXC:PERP:NEOUSDT",
+      "symbol": "NEOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793621853793,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793621861898
+    },
+    {
+      "id": "3abc660d1838664b4f5c0f91",
+      "asset_id": "e568929ac68338933963a947",
+      "key": "MEXC:PERP:ARUSDT",
+      "symbol": "ARUSDT",
+      "phase": "radar",
+      "observed_ms": 1793621853793,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793621861898
+    },
+    {
+      "id": "81aa7567d385584f2f970248",
+      "asset_id": "69e35c425cee7f54e11726a1",
+      "key": "OKX:PERP:NEOUSDT",
+      "symbol": "NEOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793621852925,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793621861898
     }
   ],
   "runs": [
@@ -1223548,7 +1223375,8 @@
         "entry_seq": 0,
         "cohort": "NEOUSDT",
         "observation_lag_ms": 153793,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8105
       },
       "e568929ac68338933963a947:radar": {
         "symbol": "ARUSDT",
@@ -1223570,7 +1223398,8 @@
         "entry_seq": 0,
         "cohort": "ARUSDT",
         "observation_lag_ms": 153793,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8105
       },
       "69e35c425cee7f54e11726a1:radar": {
         "symbol": "NEOUSDT",
@@ -1223592,7 +1223421,8 @@
         "entry_seq": 0,
         "cohort": "NEOUSDT",
         "observation_lag_ms": 152925,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8973
       }
     },
     "errors": [],
@@ -1249640,8 +1249470,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1babebec32bc1c6e0b2673b64e980ac522cf7262",
-    "previous_success_ms": 1793621570994,
+    "previous_commit": "c62488a6a32fbb67db979ad593f2044ab68637cb",
+    "previous_success_ms": 1793621860630,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
