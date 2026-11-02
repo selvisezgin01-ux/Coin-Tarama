@@ -1460270,220 +1460270,7 @@
       "source_close_ms": 1793645100000
     }
   },
-  "pending": [
-    {
-      "id": "17e87c1d3533cf7276eb0e8c",
-      "asset_id": "92ee12ed266b0d465aa67b88",
-      "key": "OKX:SPOT:LATUSDT",
-      "symbol": "LATUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793645267660,
-      "price": 0.0004895500000000001,
-      "level": 0.0005071,
-      "invalid": 0.00047524050926408266,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005071,
-        "base_invalid": 0.00047524050926408266,
-        "atr": 7.729938239448937e-06,
-        "rvol": 20.197127696501006,
-        "close_position": 0.7213114754098375,
-        "breakout": false,
-        "bar_close_ms": 1793628000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 3.51457514988629,
-        "score": 7.221311475409838
-      },
-      "context": {
-        "atr": 1.5732489221120816e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 7.049329835042151,
-        "btc_hour_pct": -0.44458267301944465,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793628000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "730c0ec46104f10ba3e159b4",
-      "asset_id": "5bdf7edf389524e563c6d3b3",
-      "key": "MEXC:PERP:MAGMAUSDT",
-      "symbol": "MAGMAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793645270706,
-      "price": 0.46601499999999996,
-      "level": 0.47244,
-      "invalid": 0.4574533835059609,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.47244,
-        "base_invalid": 0.4574533835059609,
-        "atr": 0.0060441099602608584,
-        "rvol": 10.317709427573316,
-        "close_position": 0.7821590174531331,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.060200311785932,
-        "score": 7.782159017453133
-      },
-      "context": {
-        "atr": 0.006444791973222559,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9238301744438182,
-        "btc_hour_pct": -0.43917061042391126,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MAGMAUSDT",
-          "change_pct": 1.7834498462797388,
-          "old_ms": 1793641790070,
-          "current_ms": 1793645267139,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.019200000000000002,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "da7261de8ebcbb758d903e40",
-      "asset_id": "f23c9e1f60c00c876395fe5a",
-      "key": "OKX:PERP:API3USDT",
-      "symbol": "API3USDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793645268306,
-      "price": 0.22935,
-      "level": 0.2313,
-      "invalid": 0.22685128600163287,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2313,
-        "base_invalid": 0.22685128600163287,
-        "atr": 0.0016580933224474067,
-        "rvol": 12.68337363727398,
-        "close_position": 0.7199999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.999565406345071,
-        "score": 7.719999999999998
-      },
-      "context": {
-        "atr": 0.002005902377426052,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.021429382730953073,
-        "btc_hour_pct": -0.4557940446009434,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:API3USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "API3USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ee806ca2d5999cd8c5e2ef6c",
-      "asset_id": "75ef93e3c7004b571831a03e",
-      "key": "MEXC:PERP:API3USDT",
-      "symbol": "API3USDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793645270706,
-      "price": 0.22945,
-      "level": 0.2315,
-      "invalid": 0.22695630092650454,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2315,
-        "base_invalid": 0.22695630092650454,
-        "atr": 0.001624660489969828,
-        "rvol": 4.653385314223418,
-        "close_position": 0.7608695652173931,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9986973512809305,
-        "score": 6.414254879440811
-      },
-      "context": {
-        "atr": 0.0019782273863892023,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.08098543639012412,
-        "btc_hour_pct": -0.43917061042391126,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:API3USDT",
-          "change_pct": 0.1430277550749537,
-          "old_ms": 1793641790796,
-          "current_ms": 1793645267903,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "API3USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1471352,6 +1471139,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793644380468
+    },
+    {
+      "id": "17e87c1d3533cf7276eb0e8c",
+      "asset_id": "92ee12ed266b0d465aa67b88",
+      "key": "OKX:SPOT:LATUSDT",
+      "symbol": "LATUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793645267660,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793645283824
+    },
+    {
+      "id": "730c0ec46104f10ba3e159b4",
+      "asset_id": "5bdf7edf389524e563c6d3b3",
+      "key": "MEXC:PERP:MAGMAUSDT",
+      "symbol": "MAGMAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793645270706,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793645283824
+    },
+    {
+      "id": "da7261de8ebcbb758d903e40",
+      "asset_id": "f23c9e1f60c00c876395fe5a",
+      "key": "OKX:PERP:API3USDT",
+      "symbol": "API3USDT",
+      "phase": "cancelled",
+      "observed_ms": 1793645268306,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793645283825
+    },
+    {
+      "id": "ee806ca2d5999cd8c5e2ef6c",
+      "asset_id": "75ef93e3c7004b571831a03e",
+      "key": "MEXC:PERP:API3USDT",
+      "symbol": "API3USDT",
+      "phase": "cancelled",
+      "observed_ms": 1793645270706,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793645283825
     }
   ],
   "runs": [
@@ -1591829,8 +1591660,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f05711cdff3c05218fbc831353698171aa0d5a74",
-    "previous_success_ms": 1793644995114,
+    "previous_commit": "5686f61635e7ea3cc9c68f6c329648440494cf9c",
+    "previous_success_ms": 1793645282534,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
