@@ -1433282,280 +1433282,7 @@
       "source_close_ms": 1793612700000
     }
   },
-  "pending": [
-    {
-      "id": "b9ee982e53660201ea2a163d",
-      "asset_id": "41ab362d9a3d197d0ef613f6",
-      "key": "MEXC:PERP:GLMUSDT",
-      "symbol": "GLMUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793612744667,
-      "price": 0.10968,
-      "level": 0.10958,
-      "invalid": 0.10832167223821658,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10958,
-        "base_invalid": 0.10832167223821658,
-        "atr": 0.00045551841188943486,
-        "rvol": 36.79461378678083,
-        "close_position": 0.8589743589743608,
-        "breakout": true,
-        "bar_close_ms": 1793607300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.47627770653966284,
-        "score": 7.858974358974361
-      },
-      "context": {
-        "atr": 0.0005123869296274922,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3902563223989297,
-        "btc_hour_pct": 0.15944592221857068,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GLMUSDT",
-          "change_pct": 0.0,
-          "old_ms": 1793609281868,
-          "current_ms": 1793612741580,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793607300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3c674abbe323db1923c77509",
-      "asset_id": "2dc040e964295a8d437d527f",
-      "key": "MEXC:PERP:PENDLEUSDT",
-      "symbol": "PENDLEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793612744667,
-      "price": 1.80585,
-      "level": 1.8261,
-      "invalid": 1.802732091053415,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.8261,
-        "base_invalid": 1.802732091053415,
-        "atr": 0.009119392977233647,
-        "rvol": 4.132952527330192,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793608200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.502068965517255,
-        "score": 5.632952527330192
-      },
-      "context": {
-        "atr": 0.008723069738486692,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.521089653746909,
-        "btc_hour_pct": 0.15944592221857068,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PENDLEUSDT",
-          "change_pct": -0.17794871058938178,
-          "old_ms": 1793609281561,
-          "current_ms": 1793612741238,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PENDLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2a4824389cfa93365fa40df3",
-      "asset_id": "86d8be3b45a886faa9cc3775",
-      "key": "MEXC:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793612744667,
-      "price": 0.67805,
-      "level": 0.6811,
-      "invalid": 0.667213192020569,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6811,
-        "base_invalid": 0.667213192020569,
-        "atr": 0.005245386529540924,
-        "rvol": 4.057138825933516,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793611800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5160523186682706,
-        "score": 6.057138825933516
-      },
-      "context": {
-        "atr": 0.0054423608140329325,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9889507966479583,
-        "btc_hour_pct": 0.15944592221857068,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DGAIUSDT",
-          "change_pct": 1.7490214777350355,
-          "old_ms": 1793609281778,
-          "current_ms": 1793612741443,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0423,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793611800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7a59bdd4da0778bea251719a",
-      "asset_id": "f60592ee519035693b80bbcf",
-      "key": "OKX:PERP:ATUSDT",
-      "symbol": "ATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793612744258,
-      "price": 0.12415,
-      "level": 0.1246,
-      "invalid": 0.12148430235977611,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1246,
-        "base_invalid": 0.12148430235977611,
-        "atr": 0.0007713176014925808,
-        "rvol": 6.837278493880105,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793612700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.9704433497536922,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.0007713176014925808,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.25538412627619245,
-        "btc_hour_pct": 0.15178199750232046,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793612700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5652d11ad34ebbb3b813fe56",
-      "asset_id": "3cf3e020e6d02b3f1e3cf167",
-      "key": "OKX:PERP:TRIAUSDT",
-      "symbol": "TRIAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793612744258,
-      "price": 0.002561,
-      "level": 0.002554,
-      "invalid": 0.0025193361106028225,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002554,
-        "base_invalid": 0.0025193361106028225,
-        "atr": 1.775926264784825e-05,
-        "rvol": 3.071254190301089,
-        "close_position": 0.8888888888888862,
-        "breakout": true,
-        "bar_close_ms": 1793612700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7078254030672415,
-        "score": 4.960143079189975
-      },
-      "context": {
-        "atr": 1.775926264784825e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.03371824307492055,
-        "btc_hour_pct": 0.15178199750232046,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRIAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793612700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1443247,6 +1442974,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793612149807
+    },
+    {
+      "id": "b9ee982e53660201ea2a163d",
+      "asset_id": "41ab362d9a3d197d0ef613f6",
+      "key": "MEXC:PERP:GLMUSDT",
+      "symbol": "GLMUSDT",
+      "phase": "expired",
+      "observed_ms": 1793612744667,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793612755134
+    },
+    {
+      "id": "2a4824389cfa93365fa40df3",
+      "asset_id": "86d8be3b45a886faa9cc3775",
+      "key": "MEXC:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793612744667,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793612755134
+    },
+    {
+      "id": "7a59bdd4da0778bea251719a",
+      "asset_id": "f60592ee519035693b80bbcf",
+      "key": "OKX:PERP:ATUSDT",
+      "symbol": "ATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793612744258,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793612755134
+    },
+    {
+      "id": "5652d11ad34ebbb3b813fe56",
+      "asset_id": "3cf3e020e6d02b3f1e3cf167",
+      "key": "OKX:PERP:TRIAUSDT",
+      "symbol": "TRIAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793612744258,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793612755134
     }
   ],
   "runs": [
@@ -1526252,7 +1526023,8 @@
         "entry_seq": 0,
         "cohort": "ATUSDT",
         "observation_lag_ms": 44258,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10876
       },
       "3cf3e020e6d02b3f1e3cf167:radar": {
         "symbol": "TRIAUSDT",
@@ -1526274,7 +1526046,8 @@
         "entry_seq": 0,
         "cohort": "TRIAUSDT",
         "observation_lag_ms": 44258,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10876
       }
     },
     "errors": [],
@@ -1552300,8 +1552073,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e23196622604947070220935f89b02735b44af63",
-    "previous_success_ms": 1793612467318,
+    "previous_commit": "5e53a9ab7650f4ea7177c1de52a6f417a522137a",
+    "previous_success_ms": 1793612754155,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
