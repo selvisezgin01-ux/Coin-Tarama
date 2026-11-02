@@ -1325072,164 +1325072,7 @@
       "source_close_ms": 1793583000000
     }
   },
-  "pending": [
-    {
-      "id": "048f61398981ff862ccda8dc",
-      "asset_id": "093b917e1d344f20766f81be",
-      "key": "OKX:PERP:TRUTHUSDT",
-      "symbol": "TRUTHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793583025641,
-      "price": 0.0200875,
-      "level": 0.020103,
-      "invalid": 0.019976038819204168,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.020103,
-        "base_invalid": 0.019976038819204168,
-        "atr": 5.9741205305537866e-05,
-        "rvol": 3.9043538196290415,
-        "close_position": 0.7743902439024426,
-        "breakout": true,
-        "bar_close_ms": 1793579400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4487658937920802,
-        "score": 5.678744063531484
-      },
-      "context": {
-        "atr": 7.352646812104029e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0869174993881736,
-        "btc_hour_pct": -0.2728943271948059,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRUTHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793579400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3d691bf3ea2055137925cceb",
-      "asset_id": "9b81ed7c7f53017389822091",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793583024287,
-      "price": 0.08159,
-      "level": 0.08173,
-      "invalid": 0.08072707866257345,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08173,
-        "base_invalid": 0.08072707866257345,
-        "atr": 0.00028614224951027233,
-        "rvol": 9.206956083783044,
-        "close_position": 0.7358490566037726,
-        "breakout": false,
-        "bar_close_ms": 1793581200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.19634310958400736,
-        "score": 7.235849056603772
-      },
-      "context": {
-        "atr": 0.0003262318341855052,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06826422360041162,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793581200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "16803e5140116f0aab69cddd",
-      "asset_id": "34c9393d4fb3860de51a6d3e",
-      "key": "OKX:SPOT:BICOUSDT",
-      "symbol": "BICOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793583024287,
-      "price": 0.01581,
-      "level": 0.01576,
-      "invalid": 0.015590025447039071,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01576,
-        "base_invalid": 0.015590025447039071,
-        "atr": 6.649701973952536e-05,
-        "rvol": 6.085681275565252,
-        "close_position": 0.7142857142857284,
-        "breakout": true,
-        "bar_close_ms": 1793583000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1501597444089517,
-        "score": 7.714285714285729
-      },
-      "context": {
-        "atr": 6.649701973952536e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2455967484482402,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BICOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793583000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BICOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1333799,6 +1333642,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793582256070
+    },
+    {
+      "id": "048f61398981ff862ccda8dc",
+      "asset_id": "093b917e1d344f20766f81be",
+      "key": "OKX:PERP:TRUTHUSDT",
+      "symbol": "TRUTHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793583025641,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793583035633
+    },
+    {
+      "id": "3d691bf3ea2055137925cceb",
+      "asset_id": "9b81ed7c7f53017389822091",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793583024287,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793583035633
+    },
+    {
+      "id": "16803e5140116f0aab69cddd",
+      "asset_id": "34c9393d4fb3860de51a6d3e",
+      "key": "OKX:SPOT:BICOUSDT",
+      "symbol": "BICOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793583024287,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793583035634
     }
   ],
   "runs": [
@@ -1406204,7 +1406080,8 @@
         "entry_seq": 0,
         "cohort": "BICOUSDT",
         "observation_lag_ms": 24287,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11347
       }
     },
     "errors": [],
@@ -1432234,8 +1432111,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "973260f3334413d940e57e6df820f404d2c04203",
-    "previous_success_ms": 1793582751820,
+    "previous_commit": "37a58a9f3d850c837877f6e7071306fd849bb3bd",
+    "previous_success_ms": 1793583034403,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
