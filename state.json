@@ -1343036,60 +1343036,7 @@
       "source_close_ms": 1793585700000
     }
   },
-  "pending": [
-    {
-      "id": "59989ce5a9488cebbe602dde",
-      "asset_id": "2be6eac0c63c5541283da3c1",
-      "key": "OKX:SPOT:MONUSDT",
-      "symbol": "MONUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793586019185,
-      "price": 0.019255,
-      "level": 0.01931,
-      "invalid": 0.018995797451664593,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01931,
-        "base_invalid": 0.018995797451664593,
-        "atr": 9.468365556936855e-05,
-        "rvol": 7.226579148421324,
-        "close_position": 0.7857142857142716,
-        "breakout": false,
-        "bar_close_ms": 1793585700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.20887728459528798,
-        "score": 7.285714285714271
-      },
-      "context": {
-        "atr": 9.468365556936855e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.08653337447153131,
-        "btc_hour_pct": 0.3491384164883371,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793585700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1351835,6 +1351782,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793585733117
+    },
+    {
+      "id": "59989ce5a9488cebbe602dde",
+      "asset_id": "2be6eac0c63c5541283da3c1",
+      "key": "OKX:SPOT:MONUSDT",
+      "symbol": "MONUSDT",
+      "phase": "radar",
+      "observed_ms": 1793586019185,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793586029010
     }
   ],
   "runs": [
@@ -1425412,7 +1425370,8 @@
         "entry_seq": 0,
         "cohort": "MONUSDT",
         "observation_lag_ms": 319185,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9825
       }
     },
     "errors": [],
@@ -1451433,8 +1451392,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ae2aa08d321c156b0e9d74f1459409683fdd5e2e",
-    "previous_success_ms": 1793585750538,
+    "previous_commit": "f634ae26571886eea6ec6fa94bdf2662d92538f0",
+    "previous_success_ms": 1793586027948,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
