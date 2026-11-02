@@ -1494536,64 +1494536,7 @@
       "source_close_ms": 1793655900000
     }
   },
-  "pending": [
-    {
-      "id": "a101484e3f47f8ef6892e61b",
-      "asset_id": "0f2e1af68c889ebc813a604d",
-      "key": "MEXC:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793659668194,
-      "price": 0.67475,
-      "level": 0.6721,
-      "invalid": 0.6629558711364129,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6721,
-        "base_invalid": 0.6629558711364129,
-        "atr": 0.0042941924239140805,
-        "rvol": 3.508765356686581,
-        "close_position": 0.9482758620689523,
-        "breakout": true,
-        "bar_close_ms": 1793659500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8370702541105945,
-        "score": 5.457041218755533
-      },
-      "context": {
-        "atr": 0.0042941924239140805,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3215316176114591,
-        "btc_hour_pct": 0.08363044721446666,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DGAIUSDT",
-          "change_pct": 0.0,
-          "old_ms": 1793656176783,
-          "current_ms": 1793659666695,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0242,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793659500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1505836,6 +1505779,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793659076822
+    },
+    {
+      "id": "a101484e3f47f8ef6892e61b",
+      "asset_id": "0f2e1af68c889ebc813a604d",
+      "key": "MEXC:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793659668194,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793659679568
     }
   ],
   "runs": [
@@ -1605499,7 +1605453,8 @@
         "entry_seq": 0,
         "cohort": "DGAIUSDT",
         "observation_lag_ms": 168194,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11374
       }
     },
     "errors": [],
@@ -1631524,8 +1631479,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3ce0d229cfe2ea3b022f3d86727ff0d6469c7d88",
-    "previous_success_ms": 1793659392910,
+    "previous_commit": "cac2f165823286b37a324c29f44ddbbf59b15927",
+    "previous_success_ms": 1793659678150,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
