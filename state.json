@@ -1245228,162 +1245228,7 @@
       "source_close_ms": 1793578500000
     }
   },
-  "pending": [
-    {
-      "id": "a1b3e4d95071a1b04ce158ed",
-      "asset_id": "b7f7bd5e9851423d226f6a66",
-      "key": "OKX:PERP:CPUSDT",
-      "symbol": "CPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793578642308,
-      "price": 0.007963,
-      "level": 0.00806,
-      "invalid": 0.007977454035765814,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00806,
-        "base_invalid": 0.007977454035765814,
-        "atr": 3.0306428227903432e-05,
-        "rvol": 4.6631070879388865,
-        "close_position": 0.9499999999999523,
-        "breakout": false,
-        "bar_close_ms": 1793574000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.19917838914478292,
-        "score": 6.113107087938839
-      },
-      "context": {
-        "atr": 3.6167895619700664e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.1718672851782843,
-        "btc_hour_pct": 0.6708070382031028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793574000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fbea814476a438851da07c6f",
-      "asset_id": "6d0d69fb8f2ef3f5c1e0683c",
-      "key": "MEXC:SPOT:MOODENGUSDT",
-      "symbol": "MOODENGUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793578641336,
-      "price": 0.035405,
-      "level": 0.0355,
-      "invalid": 0.03508743282429472,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0355,
-        "base_invalid": 0.03508743282429472,
-        "atr": 0.0001504478380352362,
-        "rvol": 36.06132344600229,
-        "close_position": 0.958333333333349,
-        "breakout": true,
-        "bar_close_ms": 1793574900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.45223289994347216,
-        "score": 7.958333333333349
-      },
-      "context": {
-        "atr": 0.0001520706236289735,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.07904658149153754,
-        "btc_hour_pct": 0.6856093233512883,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MOODENGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOODENGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "763ff366e455a5655fba1ab1",
-      "asset_id": "7b4aab3b61676a89746a8de1",
-      "key": "OKX:SPOT:WINUSDT",
-      "symbol": "WINUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793578642897,
-      "price": 6.772e-05,
-      "level": 6.774e-05,
-      "invalid": 6.68538538242379e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 6.774e-05,
-        "base_invalid": 6.68538538242379e-05,
-        "atr": 3.0764117174729506e-07,
-        "rvol": 11.783116804159775,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793578500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.088252832438874,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 3.0764117174729506e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.11975748579597933,
-        "btc_hour_pct": 0.6689633637832149,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793578500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1253788,6 +1253633,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793577447495
+    },
+    {
+      "id": "a1b3e4d95071a1b04ce158ed",
+      "asset_id": "b7f7bd5e9851423d226f6a66",
+      "key": "OKX:PERP:CPUSDT",
+      "symbol": "CPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793578642308,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793578650522
+    },
+    {
+      "id": "fbea814476a438851da07c6f",
+      "asset_id": "6d0d69fb8f2ef3f5c1e0683c",
+      "key": "MEXC:SPOT:MOODENGUSDT",
+      "symbol": "MOODENGUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793578641336,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793578650523
+    },
+    {
+      "id": "763ff366e455a5655fba1ab1",
+      "asset_id": "7b4aab3b61676a89746a8de1",
+      "key": "OKX:SPOT:WINUSDT",
+      "symbol": "WINUSDT",
+      "phase": "radar",
+      "observed_ms": 1793578642897,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793578650523
     }
   ],
   "runs": [
@@ -1324698,7 +1324576,8 @@
         "entry_seq": 0,
         "cohort": "WINUSDT",
         "observation_lag_ms": 142897,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 7626
       }
     },
     "errors": [],
@@ -1350725,8 +1350604,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a552d22e3006e6717d462ed3fcfdb8afb2d3fe31",
-    "previous_success_ms": 1793578361063,
+    "previous_commit": "e0c77afa0201f0069261bdbbb61e8f9d8daf6401",
+    "previous_success_ms": 1793578649503,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
