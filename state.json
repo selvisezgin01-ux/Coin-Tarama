@@ -1477111,164 +1477111,7 @@
       "source_close_ms": 1793654100000
     }
   },
-  "pending": [
-    {
-      "id": "5f3b10d4fcdfb196c8307bf9",
-      "asset_id": "95db3b1e21942cb83475a803",
-      "key": "OKX:PERP:OUSDT",
-      "symbol": "OUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793654391413,
-      "price": 0.40215,
-      "level": 0.3885,
-      "invalid": 0.3831479690795649,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3885,
-        "base_invalid": 0.3831479690795649,
-        "atr": 0.002346872802900736,
-        "rvol": 3.6871565123312537,
-        "close_position": 0.9000000000000018,
-        "breakout": true,
-        "bar_close_ms": 1793647800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3709260217278807,
-        "score": 5.587156512331256
-      },
-      "context": {
-        "atr": 0.0031043735261405063,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5380688499526007,
-        "btc_hour_pct": -0.3886435625962692,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793647800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e4b75898da054ecb6fb7b502",
-      "asset_id": "9dfa22d9cf8d43d4b6b05328",
-      "key": "MEXC:SPOT:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793654393106,
-      "price": 1.3994499999999999,
-      "level": 1.3779,
-      "invalid": 1.3181502789364932,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.3779,
-        "base_invalid": 1.3181502789364932,
-        "atr": 0.028331473756712706,
-        "rvol": 2.209773642127761,
-        "close_position": 0.9278350515463906,
-        "breakout": true,
-        "bar_close_ms": 1793654100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.03232009466754,
-        "score": 4.137608693674151
-      },
-      "context": {
-        "atr": 0.028331473756712706,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.552214539261997,
-        "btc_hour_pct": -0.40478714725256104,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EVAAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793654100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EVAAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b8ecb87f6f716b44cfe40811",
-      "asset_id": "78b9063b8d1140b359d98a79",
-      "key": "MEXC:PERP:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793654391527,
-      "price": 1.40015,
-      "level": 1.376,
-      "invalid": 1.318841930649219,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.376,
-        "base_invalid": 1.318841930649219,
-        "atr": 0.028387129005207207,
-        "rvol": 2.1075259538909514,
-        "close_position": 0.8571428571428585,
-        "breakout": true,
-        "bar_close_ms": 1793654100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.664101235846972,
-        "score": 3.96466881103381
-      },
-      "context": {
-        "atr": 0.028387129005207207,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.45090515508161566,
-        "btc_hour_pct": -0.39186020711499125,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:EVAAUSDT",
-          "change_pct": 0.5713377429925837,
-          "old_ms": 1793650778023,
-          "current_ms": 1793654389071,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793654100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EVAAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1488324,6 +1488167,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793653505537
+    },
+    {
+      "id": "5f3b10d4fcdfb196c8307bf9",
+      "asset_id": "95db3b1e21942cb83475a803",
+      "key": "OKX:PERP:OUSDT",
+      "symbol": "OUSDT",
+      "phase": "expired",
+      "observed_ms": 1793654391413,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793654404424
+    },
+    {
+      "id": "e4b75898da054ecb6fb7b502",
+      "asset_id": "9dfa22d9cf8d43d4b6b05328",
+      "key": "MEXC:SPOT:EVAAUSDT",
+      "symbol": "EVAAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793654393106,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793654404424
+    },
+    {
+      "id": "b8ecb87f6f716b44cfe40811",
+      "asset_id": "78b9063b8d1140b359d98a79",
+      "key": "MEXC:PERP:EVAAUSDT",
+      "symbol": "EVAAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793654391527,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793654404425
     }
   ],
   "runs": [
@@ -1585994,7 +1585870,8 @@
         "entry_seq": 0,
         "cohort": "EVAAUSDT",
         "observation_lag_ms": 293106,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11318
       },
       "78b9063b8d1140b359d98a79:radar": {
         "symbol": "EVAAUSDT",
@@ -1586016,7 +1585893,8 @@
         "entry_seq": 0,
         "cohort": "EVAAUSDT",
         "observation_lag_ms": 291527,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12898
       }
     },
     "errors": [],
@@ -1612039,8 +1611917,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4cfca56f7ace8d2d65b9372ad230973bf34eaac8",
-    "previous_success_ms": 1793654120319,
+    "previous_commit": "4451d2222c02af521fb419f2f903dcda9d3c40ee",
+    "previous_success_ms": 1793654402792,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
