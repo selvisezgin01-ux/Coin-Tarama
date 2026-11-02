@@ -1353268,210 +1353268,7 @@
       "source_close_ms": 1793588400000
     }
   },
-  "pending": [
-    {
-      "id": "628ed77f041cb821653c9962",
-      "asset_id": "5ef7c5e70e9fe95a6ecf5b84",
-      "key": "MEXC:SPOT:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793588424259,
-      "price": 0.045285000000000006,
-      "level": 0.04527,
-      "invalid": 0.04355759106273651,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04527,
-        "base_invalid": 0.04355759106273651,
-        "atr": 0.00048272624842329506,
-        "rvol": 2.0137923022697004,
-        "close_position": 0.9090909090909044,
-        "breakout": true,
-        "bar_close_ms": 1793584800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.706459712394429,
-        "score": 3.9228832113606047
-      },
-      "context": {
-        "atr": 0.0006044082593551246,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.297264938852628,
-        "btc_hour_pct": 0.05152967649029172,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PARTIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793584800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0a4d7a0c362e25ea655b9f7f",
-      "asset_id": "9aebd2f576a2ad19b4a6c6fe",
-      "key": "OKX:PERP:BIGTIMEUSDT",
-      "symbol": "BIGTIMEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793588424628,
-      "price": 0.006817,
-      "level": 0.006752,
-      "invalid": 0.006667862007103086,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006752,
-        "base_invalid": 0.006667862007103086,
-        "atr": 4.758661931276297e-05,
-        "rvol": 10.712579042043771,
-        "close_position": 0.8628571428571393,
-        "breakout": true,
-        "bar_close_ms": 1793588400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8349992540653393,
-        "score": 7.862857142857139
-      },
-      "context": {
-        "atr": 4.758661931276297e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.7794932498468752,
-        "btc_hour_pct": 0.05550600421846408,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BIGTIMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793588400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIGTIMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "397e6586635001d3a1d4a379",
-      "asset_id": "6bbe5dc9c3d479c6e00cf237",
-      "key": "OKX:SPOT:BIGTIMEUSDT",
-      "symbol": "BIGTIMEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793588423609,
-      "price": 0.006822,
-      "level": 0.00675,
-      "invalid": 0.00667643807343535,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00675,
-        "base_invalid": 0.00667643807343535,
-        "atr": 4.374617709766884e-05,
-        "rvol": 13.887476663428135,
-        "close_position": 0.8418079096045233,
-        "breakout": true,
-        "bar_close_ms": 1793588400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8943914081145596,
-        "score": 7.8418079096045235
-      },
-      "context": {
-        "atr": 4.374617709766884e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.8378920713121971,
-        "btc_hour_pct": 0.05649933680236252,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BIGTIMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793588400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIGTIMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6643591b148646a9367143f6",
-      "asset_id": "def6253cd0b1f9284a93a529",
-      "key": "OKX:PERP:CASHCATUSDT",
-      "symbol": "CASHCATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793588424628,
-      "price": 0.09745000000000001,
-      "level": 0.0964,
-      "invalid": 0.09365206901655716,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0964,
-        "base_invalid": 0.09365206901655716,
-        "atr": 0.0009862065562855826,
-        "rvol": 2.1541771377478716,
-        "close_position": 0.8823529411764677,
-        "breakout": true,
-        "bar_close_ms": 1793588400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3157894736842044,
-        "score": 4.036530078924339
-      },
-      "context": {
-        "atr": 0.0009862065562855826,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.2602834694657403,
-        "btc_hour_pct": 0.05550600421846408,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CASHCATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793588400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CASHCATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1362272,6 +1362069,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793587228471
+    },
+    {
+      "id": "0a4d7a0c362e25ea655b9f7f",
+      "asset_id": "9aebd2f576a2ad19b4a6c6fe",
+      "key": "OKX:PERP:BIGTIMEUSDT",
+      "symbol": "BIGTIMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793588424628,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793588435415
+    },
+    {
+      "id": "397e6586635001d3a1d4a379",
+      "asset_id": "6bbe5dc9c3d479c6e00cf237",
+      "key": "OKX:SPOT:BIGTIMEUSDT",
+      "symbol": "BIGTIMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793588423609,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793588435415
+    },
+    {
+      "id": "6643591b148646a9367143f6",
+      "asset_id": "def6253cd0b1f9284a93a529",
+      "key": "OKX:PERP:CASHCATUSDT",
+      "symbol": "CASHCATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793588424628,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793588435415
     }
   ],
   "runs": [
@@ -1436716,7 +1436546,8 @@
         "entry_seq": 0,
         "cohort": "BIGTIMEUSDT",
         "observation_lag_ms": 24628,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10787
       },
       "6bbe5dc9c3d479c6e00cf237:radar": {
         "symbol": "BIGTIMEUSDT",
@@ -1436738,7 +1436569,8 @@
         "entry_seq": 0,
         "cohort": "BIGTIMEUSDT",
         "observation_lag_ms": 23609,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11806
       },
       "def6253cd0b1f9284a93a529:radar": {
         "symbol": "CASHCATUSDT",
@@ -1436760,7 +1436592,8 @@
         "entry_seq": 0,
         "cohort": "CASHCATUSDT",
         "observation_lag_ms": 24628,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10787
       }
     },
     "errors": [],
@@ -1462787,8 +1462620,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "eafe16ee096c5898257ee1729eb28dd2867811cc",
-    "previous_success_ms": 1793588143634,
+    "previous_commit": "0dacb8cbd3244dae48ce828e1346f737b4ed6bb0",
+    "previous_success_ms": 1793588434127,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
