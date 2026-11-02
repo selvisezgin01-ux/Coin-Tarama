@@ -1380794,108 +1380794,7 @@
       "source_close_ms": 1793590200000
     }
   },
-  "pending": [
-    {
-      "id": "7e493c6a8c2e43e2d8c58c34",
-      "asset_id": "9b2d2ec584f74eab468df9db",
-      "key": "MEXC:SPOT:ZECUSDT",
-      "symbol": "ZECUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793592162657,
-      "price": 1278.4250000000002,
-      "level": 1273.56,
-      "invalid": 1248.5121687187536,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1273.56,
-        "base_invalid": 1248.5121687187536,
-        "atr": 8.45220854164294,
-        "rvol": 5.044461454928466,
-        "close_position": 0.8117782909930821,
-        "breakout": true,
-        "bar_close_ms": 1793592000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7575000198992496,
-        "score": 6.856239745921548
-      },
-      "context": {
-        "atr": 8.45220854164294,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5284569917747959,
-        "btc_hour_pct": 0.22904302812445376,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZECUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793592000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZECUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e2a7f4e036d5c3862bb7fb94",
-      "asset_id": "e95b386c478f5a2730d16488",
-      "key": "OKX:PERP:HYPEUSDT",
-      "symbol": "HYPEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793592163393,
-      "price": 88.8215,
-      "level": 88.35,
-      "invalid": 87.44009222731583,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 88.35,
-        "base_invalid": 87.44009222731583,
-        "atr": 0.39938515122776824,
-        "rvol": 2.279098519802474,
-        "close_position": 0.8003802281368785,
-        "breakout": true,
-        "bar_close_ms": 1793592000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.912758102010125,
-        "score": 4.079478747939352
-      },
-      "context": {
-        "atr": 0.39938515122776824,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6974887730433865,
-        "btc_hour_pct": 0.21526932896673845,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:HYPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793592000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HYPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1389806,6 +1389705,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793590966744
+    },
+    {
+      "id": "7e493c6a8c2e43e2d8c58c34",
+      "asset_id": "9b2d2ec584f74eab468df9db",
+      "key": "MEXC:SPOT:ZECUSDT",
+      "symbol": "ZECUSDT",
+      "phase": "radar",
+      "observed_ms": 1793592162657,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793592173490
+    },
+    {
+      "id": "e2a7f4e036d5c3862bb7fb94",
+      "asset_id": "e95b386c478f5a2730d16488",
+      "key": "OKX:PERP:HYPEUSDT",
+      "symbol": "HYPEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793592163393,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793592173490
     }
   ],
   "runs": [
@@ -1465641,7 +1465562,8 @@
         "entry_seq": 0,
         "cohort": "ZECUSDT",
         "observation_lag_ms": 162657,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10833
       },
       "e95b386c478f5a2730d16488:radar": {
         "symbol": "HYPEUSDT",
@@ -1465663,7 +1465585,8 @@
         "entry_seq": 0,
         "cohort": "HYPEUSDT",
         "observation_lag_ms": 163393,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10097
       }
     },
     "errors": [],
@@ -1491690,8 +1491613,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0b71257d4cc8dcf5070b56c44df9660d417ebad3",
-    "previous_success_ms": 1793591886190,
+    "previous_commit": "5b95bea4d74cc4c33cd848e406ae21700019fbca",
+    "previous_success_ms": 1793592172347,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
