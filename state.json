@@ -1188185,60 +1188185,7 @@
       "source_close_ms": 1793623500000
     }
   },
-  "pending": [
-    {
-      "id": "6e0594a1921c991f7fa004f2",
-      "asset_id": "1bf7f2c3b53ddca6faed4955",
-      "key": "OKX:PERP:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793623861398,
-      "price": 0.019565,
-      "level": 0.01951,
-      "invalid": 0.019045519159614815,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01951,
-        "base_invalid": 0.019045519159614815,
-        "atr": 0.00016320560256791075,
-        "rvol": 2.8365576181589223,
-        "close_position": 0.7187500000000013,
-        "breakout": true,
-        "bar_close_ms": 1793623500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7616580310880758,
-        "score": 4.555307618158924
-      },
-      "context": {
-        "atr": 0.00016320560256791075,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5709241619463854,
-        "btc_hour_pct": -0.1041876506839512,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793623500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1198293,6 +1198240,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793623576059
+    },
+    {
+      "id": "6e0594a1921c991f7fa004f2",
+      "asset_id": "1bf7f2c3b53ddca6faed4955",
+      "key": "OKX:PERP:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793623861398,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793623872788
     }
   ],
   "runs": [
@@ -1285247,7 +1285205,8 @@
         "entry_seq": 0,
         "cohort": "IRYSUSDT",
         "observation_lag_ms": 361398,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11390
       }
     },
     "errors": [],
@@ -1311274,8 +1311233,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b9b2cfaa1b70893d8c1ca4868c8df803cbd1d8b5",
-    "previous_success_ms": 1793623591368,
+    "previous_commit": "061b935152ab6f5e9bbc4903bbe61d6e572df391",
+    "previous_success_ms": 1793623870877,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
