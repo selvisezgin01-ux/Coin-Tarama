@@ -103899,55 +103899,7 @@
       }
     }
   ],
-  "pending": [
-    {
-      "id": "2a832664093921e1294d321f29e1",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793592987082,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    },
-    {
-      "id": "552673fc3dd8302d19a120a0bb93",
-      "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
-      "kind": "SESSİZ BİRİKİM",
-      "observed_ms": 1793593026598,
-      "text": "60dk örneğinde net alım $312; alım payı %100.0; 3alım/3başlatıcı. Gözlenen fiyat bandı %0.74. Bağımsız kişi/gerçek balina veya yükseliş garantisi değil.",
-      "details": {
-        "minutes": 60,
-        "buy_usd": 311.6676265959843,
-        "sell_usd": 0,
-        "net_usd": 311.6676265959843,
-        "buy_fraction": 1.0,
-        "buy_trades": 3,
-        "price_band_pct": 0.7442116868798365,
-        "initiators": 3,
-        "accounts": {
-          "F5xCSyvqBGACWRVfvKf4r8u5Fisv7KdhDWjMh87ShW8o": {
-            "buy_usd": 82.33825925489325,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 82.33825925489325
-          },
-          "CHDF2MNtUkpmSJZfr4SfJ81w4SUnRaciZFKskAFBMusX": {
-            "buy_usd": 134.66322415353474,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 134.66322415353474
-          },
-          "CQsjpoEVyu3KS2wWLddDYpPrQK9o5v5wapjt8qZWQWFm": {
-            "buy_usd": 94.66614318755632,
-            "sell_usd": 0.0,
-            "buys": 1,
-            "net_usd": 94.66614318755632
-          }
-        },
-        "source": "observed selected-pool swap sample",
-        "complete_chain_coverage": false
-      }
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -107896,6 +107848,18 @@
       "issue": 1352,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1352",
       "delivered_ms": 1793592704099
+    },
+    {
+      "id": "2a832664093921e1294d321f29e1",
+      "issue": 1353,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1353",
+      "delivered_ms": 1793593031215
+    },
+    {
+      "id": "552673fc3dd8302d19a120a0bb93",
+      "issue": 1353,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1353",
+      "delivered_ms": 1793593031215
     }
   ],
   "provider_backoff": {
