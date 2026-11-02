@@ -1393728,58 +1393728,7 @@
       "source_close_ms": 1793597400000
     }
   },
-  "pending": [
-    {
-      "id": "90dea1a148b4f12f5248b23f",
-      "asset_id": "ba7d6bd435a7efbe91ce688a",
-      "key": "OKX:SPOT:DOTUSDT",
-      "symbol": "DOTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793597745605,
-      "price": 0.9574,
-      "level": 0.9665,
-      "invalid": 0.9519675725188427,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.9665,
-        "base_invalid": 0.9519675725188427,
-        "atr": 0.004882849874382206,
-        "rvol": 2.8880212786858106,
-        "close_position": 0.6874999999999978,
-        "breakout": false,
-        "bar_close_ms": 1793597400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.281162136832247,
-        "score": 4.075521278685809
-      },
-      "context": {
-        "atr": 0.004882849874382206,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.4185456457867831,
-        "btc_hour_pct": -0.26659916891269564,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DOTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793597400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1402976,6 +1402925,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793597459091
+    },
+    {
+      "id": "90dea1a148b4f12f5248b23f",
+      "asset_id": "ba7d6bd435a7efbe91ce688a",
+      "key": "OKX:SPOT:DOTUSDT",
+      "symbol": "DOTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793597745605,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793597754922
     }
   ],
   "runs": [
@@ -1480698,7 +1480658,8 @@
         "entry_seq": 0,
         "cohort": "DOTUSDT",
         "observation_lag_ms": 345605,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9317
       }
     },
     "errors": [],
@@ -1506722,8 +1506683,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6efd6b41abba195768992d089bb692d449b21dd5",
-    "previous_success_ms": 1793597475351,
+    "previous_commit": "07bb6fbd29053c828ddc97d565acba4cadc215e2",
+    "previous_success_ms": 1793597753741,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
