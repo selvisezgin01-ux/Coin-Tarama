@@ -365,7 +365,7 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 8096 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 8095 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
@@ -1478,7 +1478,6 @@ Kimlik defteri: 8096 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x0eba20e2e3f523d67dae11adfb9ebe2e3d605769` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0f0933ded73b132dcf3bb81d187036258d255f8f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0f6df4bd1084fdd361892c4c1696ac2c9661fe6a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x0f7dd1cef918f98c8d7f4406d4bccbbadf4a035c` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x0f875d83d6edd2d6c3fe96137ac3bb484d5fded8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0fbd274ec554848096a48ca7a2dbeb4b50f0c9fe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x105ee8074a544684bd9ef083d0377303e731fb69` | setup_wait_or_reject | closed_candles_stale |
