@@ -1407473,60 +1407473,7 @@
       "source_close_ms": 1793600100000
     }
   },
-  "pending": [
-    {
-      "id": "0db7c1a0304bd3f5fe8182e0",
-      "asset_id": "bdabe1712bf1bd75dfdf233f",
-      "key": "OKX:SPOT:IOTAUSDT",
-      "symbol": "IOTAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793601047836,
-      "price": 0.03921,
-      "level": 0.03933,
-      "invalid": 0.039036506833552934,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03933,
-        "base_invalid": 0.039036506833552934,
-        "atr": 0.0001566211096470821,
-        "rvol": 20.86093597363949,
-        "close_position": 0.6875000000000018,
-        "breakout": false,
-        "bar_close_ms": 1793601000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.12755102040815647,
-        "score": 7.187500000000002
-      },
-      "context": {
-        "atr": 0.0001566211096470821,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.20077778373592814,
-        "btc_hour_pct": -0.047442746679959846,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:IOTAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793601000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IOTAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1416866,6 +1416813,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793600455226
+    },
+    {
+      "id": "0db7c1a0304bd3f5fe8182e0",
+      "asset_id": "bdabe1712bf1bd75dfdf233f",
+      "key": "OKX:SPOT:IOTAUSDT",
+      "symbol": "IOTAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793601047836,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793601058833
     }
   ],
   "runs": [
@@ -1495786,7 +1495744,8 @@
         "entry_seq": 0,
         "cohort": "IOTAUSDT",
         "observation_lag_ms": 47836,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10997
       }
     },
     "errors": [],
@@ -1521813,8 +1521772,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1900232626982d9741be9503f9b5accdcf024c94",
-    "previous_success_ms": 1793600773405,
+    "previous_commit": "a4a820bf93961a0af8d65b664914ee3d0ff00756",
+    "previous_success_ms": 1793601057684,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
