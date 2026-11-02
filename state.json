@@ -1406653,58 +1406653,7 @@
       "source_close_ms": 1793601900000
     }
   },
-  "pending": [
-    {
-      "id": "e2916ec49ae136460433e301",
-      "asset_id": "def6253cd0b1f9284a93a529",
-      "key": "OKX:PERP:CASHCATUSDT",
-      "symbol": "CASHCATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793601948507,
-      "price": 0.098135,
-      "level": 0.0964,
-      "invalid": 0.09365206901655716,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0964,
-        "base_invalid": 0.09365206901655716,
-        "atr": 0.0009862065562855826,
-        "rvol": 2.1541771377478716,
-        "close_position": 0.8823529411764677,
-        "breakout": true,
-        "bar_close_ms": 1793588400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3157894736842044,
-        "score": 4.036530078924339
-      },
-      "context": {
-        "atr": 0.001160613956068669,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.6388828523244303,
-        "btc_hour_pct": -0.041340609620887925,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CASHCATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793588400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CASHCATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1416077,6 +1416026,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793601655528
+    },
+    {
+      "id": "e2916ec49ae136460433e301",
+      "asset_id": "def6253cd0b1f9284a93a529",
+      "key": "OKX:PERP:CASHCATUSDT",
+      "symbol": "CASHCATUSDT",
+      "phase": "expired",
+      "observed_ms": 1793601948507,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793601958694
     }
   ],
   "runs": [
@@ -1521335,8 +1521295,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9e8f31e61c4c10738de0f06b0404390650753580",
-    "previous_success_ms": 1793601679590,
+    "previous_commit": "11a0aa5584080a460e805510ad82d628c289272b",
+    "previous_success_ms": 1793601957536,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
