@@ -94,7 +94,7 @@ Kimlik defteri: 13165 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | SH `0x103261dc256712c45c5e85c4619ffdfb67f4e994` | robinhood | 03.11.2026 02:56 | 117256.0 | Bekliyor |
+| 🟡 ERKEN RADAR | SH `0x103261dc256712c45c5e85c4619ffdfb67f4e994` | robinhood | 03.11.2026 02:56 | 117256.0 | [Issue #1608](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1608) |
 | 🟡 ERKEN RADAR | Polarbear `0xfb50d1ea82044306dbeafc890b7ee4f039b041f5` | robinhood | 03.11.2026 02:51 | 83263.0 | [Issue #1606](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1606) |
 | 🟡 ERKEN RADAR | MAMESUKE `0xe767a927a5ada5b2ded48b85349fbcf32f15b1e3` | robinhood | 03.11.2026 02:49 | 373680.0 | [Issue #1605](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1605) |
 | 🟡 ERKEN RADAR | FRIED `0x94309962be23a8a07949388c3f33d9e01a6deb7c` | robinhood | 03.11.2026 02:42 | 56406.0 | [Issue #1604](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1604) |
