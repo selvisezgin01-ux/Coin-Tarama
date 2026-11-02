@@ -1169087,60 +1169087,7 @@
       "source_close_ms": 1793622600000
     }
   },
-  "pending": [
-    {
-      "id": "51262e9f8e09300fb384b2ad",
-      "asset_id": "bcca7f52345069706dcfeeb3",
-      "key": "MEXC:SPOT:ERAUSDT",
-      "symbol": "ERAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793623260673,
-      "price": 0.06445999999999999,
-      "level": 0.06394,
-      "invalid": 0.06212659537299674,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06394,
-        "base_invalid": 0.06212659537299674,
-        "atr": 0.0004893641800217335,
-        "rvol": 2.087771044178227,
-        "close_position": 0.6874999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793622600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8326787117046486,
-        "score": 3.7752710441782247
-      },
-      "context": {
-        "atr": 0.0004893641800217335,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7230302132046784,
-        "btc_hour_pct": -0.11667948717948295,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ERAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793622600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ERAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1179162,6 +1179109,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793622759095
+    },
+    {
+      "id": "51262e9f8e09300fb384b2ad",
+      "asset_id": "bcca7f52345069706dcfeeb3",
+      "key": "MEXC:SPOT:ERAUSDT",
+      "symbol": "ERAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793623260673,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793623273631
     }
   ],
   "runs": [
@@ -1265911,7 +1265869,8 @@
         "entry_seq": 0,
         "cohort": "ERAUSDT",
         "observation_lag_ms": 660673,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12958
       }
     },
     "errors": [],
@@ -1291936,8 +1291895,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b748b88b80a4de839cd43add367930fc717c35ec",
-    "previous_success_ms": 1793623252396,
+    "previous_commit": "432e571a77f2108cae35c5753a51e1d7acb6926e",
+    "previous_success_ms": 1793623271866,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
