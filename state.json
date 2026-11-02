@@ -1476972,60 +1476972,7 @@
       "source_close_ms": 1793652300000
     }
   },
-  "pending": [
-    {
-      "id": "551e24db3d9d25748228417d",
-      "asset_id": "7de4fd501ab5558450427ba8",
-      "key": "MEXC:SPOT:OSMOUSDT",
-      "symbol": "OSMOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793652592764,
-      "price": 0.045825000000000005,
-      "level": 0.0456,
-      "invalid": 0.04441568356495113,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0456,
-        "base_invalid": 0.04441568356495113,
-        "atr": 0.0005621095669924598,
-        "rvol": 2.477647735098845,
-        "close_position": 0.9180327868852435,
-        "breakout": true,
-        "bar_close_ms": 1793650500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6407982261640752,
-        "score": 4.395680521984088
-      },
-      "context": {
-        "atr": 0.0005287154774013707,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0597666955684648,
-        "btc_hour_pct": 0.10198486832786458,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OSMOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793650500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OSMOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1488059,6 +1488006,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793652299977
+    },
+    {
+      "id": "551e24db3d9d25748228417d",
+      "asset_id": "7de4fd501ab5558450427ba8",
+      "key": "MEXC:SPOT:OSMOUSDT",
+      "symbol": "OSMOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793652592764,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793652604996
     }
   ],
   "runs": [
@@ -1611118,8 +1611076,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1c2cea76111612514e7079a314947775c2269f3f",
-    "previous_success_ms": 1793652323973,
+    "previous_commit": "ff1eec366bd32a1b601770f3b4e940df2e062ca9",
+    "previous_success_ms": 1793652603523,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
