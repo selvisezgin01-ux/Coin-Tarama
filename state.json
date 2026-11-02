@@ -1277805,7 +1277805,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793625680855,
+      "duration_ms": 28430
     }
   ],
   "radar_admissions": [
@@ -1328128,14 +1328130,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793625453793,
+            "endpoint_ms": 1793625480000,
+            "endpoint_price": 1.944,
+            "return_pct": -0.8416220351951109,
+            "btc_excess_pct_points": -0.36066697112865365,
+            "mae_pct": -0.8416220351951109,
+            "mfe_pct": 0.07651109410864443,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 26207,
+            "measured_ms": 1793625679686,
+            "cost_scenarios_pct": {
+              "0.2": -1.0416220351951109,
+              "0.5": -1.341622035195111,
+              "1": -1.841622035195111
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793621700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "NEOUSDT",
         "observation_lag_ms": 153793,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8105
+        "notification_lag_ms": 8105,
+        "last_measure_attempt_ms": 1793625679686
       },
       "e568929ac68338933963a947:radar": {
         "symbol": "ARUSDT",
@@ -1328174,14 +1328200,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793625452925,
+            "endpoint_ms": 1793625480000,
+            "endpoint_price": 1.945,
+            "return_pct": -0.7906146391226776,
+            "btc_excess_pct_points": -0.32254931128140596,
+            "mae_pct": -0.8416220351951109,
+            "mfe_pct": 0.02550369803622221,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 27075,
+            "measured_ms": 1793625679686,
+            "cost_scenarios_pct": {
+              "0.2": -0.9906146391226776,
+              "0.5": -1.2906146391226776,
+              "1": -1.7906146391226776
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793621700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "NEOUSDT",
         "observation_lag_ms": 152925,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 8973
+        "notification_lag_ms": 8973,
+        "last_measure_attempt_ms": 1793625679686
       },
       "bcca7f52345069706dcfeeb3:radar": {
         "symbol": "ERAUSDT",
@@ -1328323,15 +1328373,15 @@
     },
     "errors": [],
     "queue": {
-      "due": 168,
-      "attempted": 1,
-      "observed_ms": 1793625384959,
-      "unique_reads": 2
+      "due": 171,
+      "attempted": 2,
+      "observed_ms": 1793625679686,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 507,
-        "unique_symbol_labels": 271,
+        "market_event_references": 508,
+        "unique_symbol_labels": 272,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
@@ -1328379,8 +1328429,8 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 112,
-            "first_per_symbol": 101,
+            "event_references": 113,
+            "first_per_symbol": 102,
             "hours": {
               "1": {
                 "known_first_symbols": 99,
@@ -1354341,8 +1354391,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d86aa7f878a739e31e5461c6d15ee375e1118c8c",
-    "previous_success_ms": 1793625670621,
+    "previous_commit": "e716f89182d66e7115e183b2dcab5cd39841211d",
+    "previous_success_ms": 1793625679652,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
