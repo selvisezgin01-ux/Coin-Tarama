@@ -1202205,166 +1202205,7 @@
       "source_close_ms": 1793624400000
     }
   },
-  "pending": [
-    {
-      "id": "3529339f03737e408fba62ae",
-      "asset_id": "f1331ecbbf7ec8bc91b3d01f",
-      "key": "OKX:PERP:ACUUSDT",
-      "symbol": "ACUUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793624467397,
-      "price": 0.125165,
-      "level": 0.12514,
-      "invalid": 0.12329153913405268,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12514,
-        "base_invalid": 0.12329153913405268,
-        "atr": 0.0009897391063154299,
-        "rvol": 22.713636283543924,
-        "close_position": 0.8216318785578758,
-        "breakout": true,
-        "bar_close_ms": 1793608200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.16632958498504,
-        "score": 7.821631878557875
-      },
-      "context": {
-        "atr": 0.0009483486276503562,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7791198122353182,
-        "btc_hour_pct": -0.11444336979852254,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ACUUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACUUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aa516c928cdf038ae0762b5a",
-      "asset_id": "69e35c425cee7f54e11726a1",
-      "key": "OKX:PERP:NEOUSDT",
-      "symbol": "NEOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793624467397,
-      "price": 1.9489999999999998,
-      "level": 1.953,
-      "invalid": 1.9399955834086393,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.953,
-        "base_invalid": 1.9399955834086393,
-        "atr": 0.006696110609070984,
-        "rvol": 2.248779434701344,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793621700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6166495375128367,
-        "score": 4.248779434701344
-      },
-      "context": {
-        "atr": 0.0071231078191968025,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.21716550641895926,
-        "btc_hour_pct": -0.11444336979852254,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NEOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793621700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NEOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c6ee8ba2f6d0681b614c11ed",
-      "asset_id": "a8224fcc9e1b95374dd7cd75",
-      "key": "MEXC:PERP:SOONNETWORKUSDT",
-      "symbol": "SOONNETWORKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793624466290,
-      "price": 0.26195,
-      "level": 0.2615,
-      "invalid": 0.2538261468365366,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2615,
-        "base_invalid": 0.2538261468365366,
-        "atr": 0.002492354423089329,
-        "rvol": 3.954618092066936,
-        "close_position": 0.8000000000000037,
-        "breakout": true,
-        "bar_close_ms": 1793624400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4740108611326797,
-        "score": 5.75461809206694
-      },
-      "context": {
-        "atr": 0.002492354423089329,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5789414425534165,
-        "btc_hour_pct": -0.10493058142073686,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOONNETWORKUSDT",
-          "change_pct": 6.1029051077370555,
-          "old_ms": 1793620634245,
-          "current_ms": 1793624465113,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793624400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOONNETWORKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1212430,6 +1212271,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793623872788
+    },
+    {
+      "id": "3529339f03737e408fba62ae",
+      "asset_id": "f1331ecbbf7ec8bc91b3d01f",
+      "key": "OKX:PERP:ACUUSDT",
+      "symbol": "ACUUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793624467397,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793624476925
+    },
+    {
+      "id": "aa516c928cdf038ae0762b5a",
+      "asset_id": "69e35c425cee7f54e11726a1",
+      "key": "OKX:PERP:NEOUSDT",
+      "symbol": "NEOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793624467397,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793624476925
+    },
+    {
+      "id": "c6ee8ba2f6d0681b614c11ed",
+      "asset_id": "a8224fcc9e1b95374dd7cd75",
+      "key": "MEXC:PERP:SOONNETWORKUSDT",
+      "symbol": "SOONNETWORKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793624466290,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793624476925
     }
   ],
   "runs": [
@@ -1299619,7 +1299493,8 @@
         "entry_seq": 0,
         "cohort": "SOONNETWORKUSDT",
         "observation_lag_ms": 66290,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10635
       },
       "2babebe17cc98c29f917ee43:radar": {
         "symbol": "DOSUSDT",
@@ -1325667,8 +1325542,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "53eb62d19548f6d25faa17483a3471d7012e073d",
-    "previous_success_ms": 1793624190652,
+    "previous_commit": "d55847de9195af1c6f0388aca71db0e39356758d",
+    "previous_success_ms": 1793624475070,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
