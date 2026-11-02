@@ -1433133,7 +1433133,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793595183509,
+      "duration_ms": 37964
     }
   ],
   "radar_admissions": [
@@ -1460693,6 +1460695,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793556881721,
+            "endpoint_ms": 1793556900000,
+            "endpoint_price": 0.02473,
+            "return_pct": 2.2534628902211917,
+            "btc_excess_pct_points": 1.887893960297271,
+            "mae_pct": -3.287161463717181,
+            "mfe_pct": 16.518503204465574,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 18279,
+            "measured_ms": 1793595172825,
+            "cost_scenarios_pct": {
+              "0.2": 2.0534628902211916,
+              "0.5": 1.7534628902211917,
+              "1": 1.2534628902211917
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793469600000,
@@ -1460701,7 +1460725,7 @@
         "cohort": "AEONUSDT",
         "observation_lag_ms": 881721,
         "interpretation": "early radar reference, not a trade entry",
-        "last_measure_attempt_ms": 1793529405140
+        "last_measure_attempt_ms": 1793595172825
       },
       "1e002ac577d0fe54e0f7f246:radar": {
         "symbol": "ALLOUSDT",
@@ -1460783,6 +1460807,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793557187323,
+            "endpoint_ms": 1793557200000,
+            "endpoint_price": 0.1653,
+            "return_pct": -1.5573355566804503,
+            "btc_excess_pct_points": -1.8659479337423512,
+            "mae_pct": -3.2308012982759093,
+            "mfe_pct": 1.3012536104576755,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 12677,
+            "measured_ms": 1793595172825,
+            "cost_scenarios_pct": {
+              "0.2": -1.7573355566804503,
+              "0.5": -2.0573355566804503,
+              "1": -2.5573355566804503
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793470500000,
@@ -1460792,7 +1460838,7 @@
         "observation_lag_ms": 287323,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 12741,
-        "last_measure_attempt_ms": 1793529706085
+        "last_measure_attempt_ms": 1793595172825
       },
       "44e26ca1d85147303589f6c3:radar": {
         "symbol": "IOTAUSDT",
@@ -1477304,10 +1477350,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 170,
-      "attempted": 1,
-      "observed_ms": 1793594878280,
-      "unique_reads": 2
+      "due": 175,
+      "attempted": 2,
+      "observed_ms": 1793595172825,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1477332,7 +1477378,7 @@
                 "median_reference_return_pct": -0.5033320321437995
               },
               "24": {
-                "known_first_symbols": 77,
+                "known_first_symbols": 79,
                 "median_reference_return_pct": -0.27349743179240216
               }
             }
@@ -1503318,8 +1503364,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "040b7e49c41fd82a50a4bf05f2d2e09aa6c7c940",
-    "previous_success_ms": 1793595164510,
+    "previous_commit": "1ad60065281bf59cbe24c23666eaec2ccf62f997",
+    "previous_success_ms": 1793595172788,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
