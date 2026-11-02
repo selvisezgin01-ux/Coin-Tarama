@@ -1391518,164 +1391518,7 @@
       "source_close_ms": 1793597400000
     }
   },
-  "pending": [
-    {
-      "id": "b7f917ada1f38654d96e0eed",
-      "asset_id": "7f1fb20cead7a59a9afac14b",
-      "key": "OKX:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793597449332,
-      "price": 0.32915,
-      "level": 0.33,
-      "invalid": 0.32188378269473145,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.33,
-        "base_invalid": 0.32188378269473145,
-        "atr": 0.002774782035123452,
-        "rvol": 3.210886162597983,
-        "close_position": 0.9423076923076985,
-        "breakout": true,
-        "bar_close_ms": 1793586600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1126760563380254,
-        "score": 5.153193854905681
-      },
-      "context": {
-        "atr": 0.002835553345106626,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.7555668080227238,
-        "btc_hour_pct": -0.26583628353493705,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793586600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "65d995a2dce5c0aaecb97526",
-      "asset_id": "608792bd8a2c83c25b3d73ec",
-      "key": "OKX:SPOT:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793597448520,
-      "price": 0.3294,
-      "level": 0.33,
-      "invalid": 0.32220994948018233,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.33,
-        "base_invalid": 0.32220994948018233,
-        "atr": 0.0026003367987844257,
-        "rvol": 2.1128195092149773,
-        "close_position": 0.9583333333333266,
-        "breakout": true,
-        "bar_close_ms": 1793586600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0508111417202324,
-        "score": 4.071152842548304
-      },
-      "context": {
-        "atr": 0.002647045838785583,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.8117856291870682,
-        "btc_hour_pct": -0.26659916891269564,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793586600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fee476311ca0599946412a96",
-      "asset_id": "74a868ce7a7a1de4b250d547",
-      "key": "MEXC:PERP:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793597449999,
-      "price": 1.3393,
-      "level": 1.3226,
-      "invalid": 1.2060938395889045,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.3226,
-        "base_invalid": 1.2060938395889045,
-        "atr": 0.026041069407303878,
-        "rvol": 5.686553821939947,
-        "close_position": 0.9804941482444726,
-        "breakout": true,
-        "bar_close_ms": 1793597400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.228562217923919,
-        "score": 7.66704797018442
-      },
-      "context": {
-        "atr": 0.026041069407303878,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.973550908544877,
-        "btc_hour_pct": -0.27241473202583855,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:EVAAUSDT",
-          "change_pct": -1.9009245004296682,
-          "old_ms": 1793593942035,
-          "current_ms": 1793597444988,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0142,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793597400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EVAAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1400839,6 +1400682,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793597155367
+    },
+    {
+      "id": "b7f917ada1f38654d96e0eed",
+      "asset_id": "7f1fb20cead7a59a9afac14b",
+      "key": "OKX:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793597449332,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793597459091
+    },
+    {
+      "id": "65d995a2dce5c0aaecb97526",
+      "asset_id": "608792bd8a2c83c25b3d73ec",
+      "key": "OKX:SPOT:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793597448520,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793597459091
+    },
+    {
+      "id": "fee476311ca0599946412a96",
+      "asset_id": "74a868ce7a7a1de4b250d547",
+      "key": "MEXC:PERP:EVAAUSDT",
+      "symbol": "EVAAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793597449999,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793597459091
     }
   ],
   "runs": [
@@ -1478444,7 +1478320,8 @@
         "entry_seq": 0,
         "cohort": "EVAAUSDT",
         "observation_lag_ms": 49999,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9092
       }
     },
     "errors": [],
@@ -1504473,8 +1504350,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7369d8702c970a80d3202f720e99c07821329cae",
-    "previous_success_ms": 1793597176599,
+    "previous_commit": "be2ea2bb2a64c8489cad316c252b492cbc115a60",
+    "previous_success_ms": 1793597457865,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
