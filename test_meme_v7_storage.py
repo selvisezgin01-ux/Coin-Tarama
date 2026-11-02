@@ -13,6 +13,16 @@ def state():
         'ledger':{},'assets':{},'runs':[]}
 
 class StorageTests(unittest.TestCase):
+    def test_collector_package_includes_new_transitive_storage_dependency(self):
+        root=Path(__file__).resolve().parent
+        copy_line=next(line for line in (root/'Dockerfile.meme-v7').read_text(encoding='utf-8').splitlines() if line.startswith('COPY '))
+        files=copy_line.split()[1:-1]
+        self.assertIn('meme_v7_storage.py',files)
+        with tempfile.TemporaryDirectory() as td:
+            import shutil,sys
+            for name in files:shutil.copyfile(root/name,Path(td)/name)
+            result=subprocess.run([sys.executable,'-c','import meme_v7_service'],cwd=td,capture_output=True)
+            self.assertEqual(result.returncode,0,result.stderr.decode(errors='replace'))
     def roundtrip(self,s,**kw):
         with tempfile.TemporaryDirectory() as td:
             files=storage.prepare(s,td,**kw);manifest=json.loads(files[0][0].read_bytes())

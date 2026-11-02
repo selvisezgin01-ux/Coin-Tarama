@@ -15,6 +15,8 @@ V6 keşif boşluğu ve ilk pump koşullarından sonra kullanıcı onayıyla aç�
 
 ## Arşiv
 
+2 Kasım operasyonel kayıt düzeltmesi: worker `python meme_v7_runtime.py worker --minutes 110` ile başlar. GitHub `state.json` artık kayıpsız, SHA-256 doğrulamalı parçaların manifestidir; boş/yeni bir tarama state'i değildir. Tam finansal kayıt yüklenmeden döngü başlamaz. Her parça 16 MiB yayın bütçesi altındadır. Eski tam JSON otomatik ve kayıpsız okunur; fiyatlar, gözlem saatleri, havuzlar ve gönderim makbuzları yeniden hesaplanmaz. Sinyal fingerprint'i değişmemiştir. Eski commit/SHA arşivleri korunur. Manuel okuyucular `meme_v7_storage.load` ile manifestin tüm parçalarını aynı commit'ten doğrulamalıdır.
+
 V6 eski dal ve SHA'sında korunur. V7 `archive` ve `legacy_v6` özgün referansları saklar; V6pump eleme latches'i yeni formül başarısı veya geriye dönük V7alarmı yapılmaz. Eski aday gönderilmez. Coin2/3/5,1coin ve Shortçu değişmez.
 
 ## Yerel servis ve sunucu
