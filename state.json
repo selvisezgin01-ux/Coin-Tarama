@@ -1461217,182 +1461217,7 @@
       "source_close_ms": 1793646000000
     }
   },
-  "pending": [
-    {
-      "id": "c236f444c3c6d1a262819806",
-      "asset_id": "4a9464d1b0629b2ef6330c4c",
-      "key": "MEXC:SPOT:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_weakening",
-      "observed_ms": 1793646168503,
-      "price": 0.5553,
-      "level": 0.543,
-      "invalid": 0.5436889261988973,
-      "target": 0.5939368976022054,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.543,
-        "base_invalid": 0.5298889261988973,
-        "atr": 0.008073825340684846,
-        "rvol": 2.3869837383356556,
-        "close_position": 0.7251908396946528,
-        "breakout": true,
-        "bar_close_ms": 1793629800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2242626599888506,
-        "score": 4.1121745780303085
-      },
-      "context": {
-        "atr": 0.006989088217009559,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.903927475807543,
-        "btc_hour_pct": -0.17459446414626045,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RUNEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.5436889261988973,
-        "target": 0.5939368976022054,
-        "risk_pct": 2.50355488229224,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.6319,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.555,
-        "entry_zone_high": 0.558992449024672
-      },
-      "reason": null,
-      "source_close_ms": 1793646000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "RUNEUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793646000000,
-        "closed_price": 0.5512,
-        "ema20_1h": 0.5466827944456365,
-        "atr14_1h": 0.01729703090736798,
-        "structure_floor": 0.5436889261988973,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "d2f07b0d37f8857f4dc23f3d",
-      "asset_id": "b51e5a2cbd512dfff1058e79",
-      "key": "MEXC:PERP:BEATUSDT",
-      "symbol": "BEATUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793646168741,
-      "price": 0.101295,
-      "level": 0.10168,
-      "invalid": 0.09914138692897723,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10168,
-        "base_invalid": 0.09914138692897723,
-        "atr": 0.001257420473485146,
-        "rvol": 4.944152836940836,
-        "close_position": 0.8496503496503498,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6463536463536395,
-        "score": 6.793803186591186
-      },
-      "context": {
-        "atr": 0.001291064853760256,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2127834349783253,
-        "btc_hour_pct": -0.16350293034594898,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BEATUSDT",
-          "change_pct": 6.550693492300952,
-          "old_ms": 1793642690991,
-          "current_ms": 1793646166083,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0138,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a4f44b1f4e15aae06e6bc082",
-      "asset_id": "ded79eaca6d557cdd1401517",
-      "key": "OKX:PERP:BEATUSDT",
-      "symbol": "BEATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793646168973,
-      "price": 0.10132,
-      "level": 0.10164,
-      "invalid": 0.09916169107393727,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10164,
-        "base_invalid": 0.09916169107393727,
-        "atr": 0.0012553928404181816,
-        "rvol": 3.0207229578394115,
-        "close_position": 0.8768656716417923,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.737383831318075,
-        "score": 4.897588629481204
-      },
-      "context": {
-        "atr": 0.0013019834615550902,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.18958094102873302,
-        "btc_hour_pct": -0.1600184656641246,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BEATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1472305,6 +1472130,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793645283825
+    },
+    {
+      "id": "c236f444c3c6d1a262819806",
+      "asset_id": "4a9464d1b0629b2ef6330c4c",
+      "key": "MEXC:SPOT:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793646168503,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793646179999
+    },
+    {
+      "id": "d2f07b0d37f8857f4dc23f3d",
+      "asset_id": "b51e5a2cbd512dfff1058e79",
+      "key": "MEXC:PERP:BEATUSDT",
+      "symbol": "BEATUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793646168741,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793646179999
+    },
+    {
+      "id": "a4f44b1f4e15aae06e6bc082",
+      "asset_id": "ded79eaca6d557cdd1401517",
+      "key": "OKX:PERP:BEATUSDT",
+      "symbol": "BEATUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793646168973,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793646179999
     }
   ],
   "runs": [
@@ -1593111,8 +1592969,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a5f00d4f5e8ccb1cc2b40d21a7f4759ea3c4ee76",
-    "previous_success_ms": 1793645904754,
+    "previous_commit": "9d491827b38c4a71c6d4c1f8c7fa5879bfff91b4",
+    "previous_success_ms": 1793646178840,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
