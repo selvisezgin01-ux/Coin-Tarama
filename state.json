@@ -1448127,60 +1448127,7 @@
       "source_close_ms": 1793639700000
     }
   },
-  "pending": [
-    {
-      "id": "57123034036852a8310eed3c",
-      "asset_id": "87b469b70ecfb8b61dd11461",
-      "key": "MEXC:SPOT:SMARTUSDT",
-      "symbol": "SMARTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793640006431,
-      "price": 0.0041455,
-      "level": 0.004129,
-      "invalid": 0.004100364794255262,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004129,
-        "base_invalid": 0.004100364794255262,
-        "atr": 1.7568038298254557e-05,
-        "rvol": 6.667820084152115,
-        "close_position": 0.8392857142857099,
-        "breakout": true,
-        "bar_close_ms": 1793637000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0716025328787016,
-        "score": 7.83928571428571
-      },
-      "context": {
-        "atr": 2.2140111527427814e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5144344300841661,
-        "btc_hour_pct": -0.030610542952080877,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SMARTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793637000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SMARTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1458895,6 +1458842,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793639714272
+    },
+    {
+      "id": "57123034036852a8310eed3c",
+      "asset_id": "87b469b70ecfb8b61dd11461",
+      "key": "MEXC:SPOT:SMARTUSDT",
+      "symbol": "SMARTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793640006431,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793640018121
     }
   ],
   "runs": [
@@ -1577520,8 +1577478,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a39b5675c6fb583ffa0c53db78603b1944acf337",
-    "previous_success_ms": 1793639734666,
+    "previous_commit": "84131aad95f7300452dd886cae4ce07882e65d6f",
+    "previous_success_ms": 1793640016789,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
