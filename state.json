@@ -1406515,60 +1406515,7 @@
       "source_close_ms": 1793600100000
     }
   },
-  "pending": [
-    {
-      "id": "1623ae471d6594cb2f0a3ba4",
-      "asset_id": "4fb8a001b852adb3abe2eaec",
-      "key": "MEXC:SPOT:GHUBUSDT",
-      "symbol": "GHUBUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793601345762,
-      "price": 0.0022484999999999996,
-      "level": 0.002221,
-      "invalid": 0.0021920708384762294,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002221,
-        "base_invalid": 0.0021920708384762294,
-        "atr": 1.9527743491803172e-05,
-        "rvol": 4.295209113813659,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793601000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2217194570135703,
-        "score": 6.295209113813659
-      },
-      "context": {
-        "atr": 1.9527743491803172e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.010470212267121859,
-        "btc_hour_pct": -0.05586285865841756,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GHUBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793601000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GHUBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1415919,6 +1415866,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793601058833
+    },
+    {
+      "id": "1623ae471d6594cb2f0a3ba4",
+      "asset_id": "4fb8a001b852adb3abe2eaec",
+      "key": "MEXC:SPOT:GHUBUSDT",
+      "symbol": "GHUBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793601345762,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793601355659
     }
   ],
   "runs": [
@@ -1494978,7 +1494936,8 @@
         "entry_seq": 0,
         "cohort": "GHUBUSDT",
         "observation_lag_ms": 345762,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9897
       }
     },
     "errors": [],
@@ -1521002,8 +1520961,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "500a320f5cbda42f0f4da11d57d91bd2b6d2e0f5",
-    "previous_success_ms": 1793601078031,
+    "previous_commit": "a04073c82a095baba82e7a20bf1234fc1f61e08c",
+    "previous_success_ms": 1793601354304,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
