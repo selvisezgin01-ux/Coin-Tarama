@@ -1340289,170 +1340289,7 @@
       "source_close_ms": 1793630700000
     }
   },
-  "pending": [
-    {
-      "id": "53c5574ccc633323a5b5e768",
-      "asset_id": "f0742acb562b33501e80f838",
-      "key": "MEXC:PERP:HAEDALUSDT",
-      "symbol": "HAEDALUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793630882592,
-      "price": 0.02674,
-      "level": 0.02685,
-      "invalid": 0.025542978039020992,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02685,
-        "base_invalid": 0.025542978039020992,
-        "atr": 0.0004468130731933889,
-        "rvol": 2.2183020503896156,
-        "close_position": 0.6666666666666666,
-        "breakout": false,
-        "bar_close_ms": 1793625300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.9163468917881907,
-        "score": 3.384968717056282
-      },
-      "context": {
-        "atr": 0.0005464914877885243,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 5.275723550345757,
-        "btc_hour_pct": 0.16109684710456929,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HAEDALUSDT",
-          "change_pct": -5.37037902145816,
-          "old_ms": 1793627151299,
-          "current_ms": 1793630878244,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0895,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793625300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HAEDALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "27d22ab5cf67671bad8f3317",
-      "asset_id": "354eddd5ff2ecd3d9e587ff0",
-      "key": "MEXC:PERP:ALTUSDT",
-      "symbol": "ALTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793630882592,
-      "price": 0.0056749999999999995,
-      "level": 0.005648,
-      "invalid": 0.005590475224611365,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005648,
-        "base_invalid": 0.005590475224611365,
-        "atr": 3.0165169257564016e-05,
-        "rvol": 3.2644189004345168,
-        "close_position": 0.8928571428571572,
-        "breakout": true,
-        "bar_close_ms": 1793625300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.42575838211815764,
-        "score": 5.157276043291674
-      },
-      "context": {
-        "atr": 3.594019913329943e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3800900439494557,
-        "btc_hour_pct": 0.16109684710456929,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ALTUSDT",
-          "change_pct": -0.1397206618596991,
-          "old_ms": 1793627151527,
-          "current_ms": 1793630878447,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0052,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793625300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "06ce2fe6bb653171cf5efbba",
-      "asset_id": "00f83f5aa809219d3f712e20",
-      "key": "OKX:PERP:OPGUSDT",
-      "symbol": "OPGUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793630883076,
-      "price": 0.119425,
-      "level": 0.11963,
-      "invalid": 0.11736477179113651,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11963,
-        "base_invalid": 0.11736477179113651,
-        "atr": 0.0007015213924232825,
-        "rvol": 11.648947269908964,
-        "close_position": 0.8518518518518465,
-        "breakout": false,
-        "bar_close_ms": 1793630700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.33644545378079815,
-        "score": 7.351851851851847
-      },
-      "context": {
-        "atr": 0.0007015213924232825,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.7772013308660286,
-        "btc_hour_pct": 0.17231180721652972,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OPGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793630700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OPGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1350782,6 +1350619,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793630589064
+    },
+    {
+      "id": "53c5574ccc633323a5b5e768",
+      "asset_id": "f0742acb562b33501e80f838",
+      "key": "MEXC:PERP:HAEDALUSDT",
+      "symbol": "HAEDALUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793630882592,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793630894383
+    },
+    {
+      "id": "27d22ab5cf67671bad8f3317",
+      "asset_id": "354eddd5ff2ecd3d9e587ff0",
+      "key": "MEXC:PERP:ALTUSDT",
+      "symbol": "ALTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793630882592,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793630894383
+    },
+    {
+      "id": "06ce2fe6bb653171cf5efbba",
+      "asset_id": "00f83f5aa809219d3f712e20",
+      "key": "OKX:PERP:OPGUSDT",
+      "symbol": "OPGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793630883076,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793630894383
     }
   ],
   "runs": [
@@ -1440212,7 +1440082,8 @@
         "entry_seq": 0,
         "cohort": "OPGUSDT",
         "observation_lag_ms": 183076,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11307
       }
     },
     "errors": [],
@@ -1466239,8 +1466110,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "51e9e13bdf9e4b7dfd5759c0c425ac756315b9f4",
-    "previous_success_ms": 1793630611541,
+    "previous_commit": "b24f3949ff398ad600e8134800b3aab070a5b7aa",
+    "previous_success_ms": 1793630893330,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
