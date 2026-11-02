@@ -1519582,7 +1519582,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793647686224,
+      "duration_ms": 30064
     }
   ],
   "radar_admissions": [
@@ -1574341,14 +1574343,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793647071922,
+            "endpoint_ms": 1793647080000,
+            "endpoint_price": 0.47066,
+            "return_pct": -1.8783747159505482,
+            "btc_excess_pct_points": -1.5541268421475518,
+            "mae_pct": -3.733816999186945,
+            "mfe_pct": 0.06254299831132126,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 8078,
+            "measured_ms": 1793647685226,
+            "cost_scenarios_pct": {
+              "0.2": -2.0783747159505483,
+              "0.5": -2.378374715950548,
+              "1": -2.878374715950548
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793643300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "MAGMAUSDT",
         "observation_lag_ms": 171922,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11212
+        "notification_lag_ms": 11212,
+        "last_measure_attempt_ms": 1793647685226
       },
       "f23c9e1f60c00c876395fe5a:radar": {
         "symbol": "API3USDT",
@@ -1574411,14 +1574437,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793647071922,
+            "endpoint_ms": 1793647080000,
+            "endpoint_price": 0.10209,
+            "return_pct": -1.5810276679841806,
+            "btc_excess_pct_points": -1.2567797941811842,
+            "mae_pct": -2.5257881037308194,
+            "mfe_pct": 1.205051576207472,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 8078,
+            "measured_ms": 1793647685226,
+            "cost_scenarios_pct": {
+              "0.2": -1.7810276679841806,
+              "0.5": -2.0810276679841806,
+              "1": -2.5810276679841806
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793643300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "BEATUSDT",
         "observation_lag_ms": 171922,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11213
+        "notification_lag_ms": 11213,
+        "last_measure_attempt_ms": 1793647685226
       },
       "75ef93e3c7004b571831a03e:radar": {
         "symbol": "API3USDT",
@@ -1574540,10 +1574590,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 170,
-      "attempted": 1,
-      "observed_ms": 1793647385736,
-      "unique_reads": 2
+      "due": 169,
+      "attempted": 2,
+      "observed_ms": 1793647685226,
+      "unique_reads": 3
     },
     "summary": {
       "radar": {
@@ -1574600,8 +1574650,8 @@
             "first_per_symbol": 110,
             "hours": {
               "1": {
-                "known_first_symbols": 108,
-                "median_reference_return_pct": -0.19632751218352507
+                "known_first_symbols": 109,
+                "median_reference_return_pct": -0.19768426998022504
               },
               "4": {
                 "known_first_symbols": 85,
@@ -1600552,8 +1600602,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4a4dbc77d29ac715ff695490ca30dd2d3387d040",
-    "previous_success_ms": 1793647676314,
+    "previous_commit": "5e043f2d931f3a36805e8fd76a6c6ef94c0ed323",
+    "previous_success_ms": 1793647685177,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
