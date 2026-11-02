@@ -1384501,116 +1384501,7 @@
       "source_close_ms": 1793590200000
     }
   },
-  "pending": [
-    {
-      "id": "a3ed5a979744585156078467",
-      "asset_id": "cc8c20036743ae8ab05d7b77",
-      "key": "MEXC:SPOT:UAIUSDT",
-      "symbol": "UAIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793593059167,
-      "price": 0.1684,
-      "level": 0.1634,
-      "invalid": 0.15197449646907413,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1634,
-        "base_invalid": 0.15197449646907413,
-        "atr": 0.0041700235395059695,
-        "rvol": 4.457139976261575,
-        "close_position": 0.714285714285715,
-        "breakout": true,
-        "bar_close_ms": 1793586600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.02274162981682,
-        "score": 6.171425690547291
-      },
-      "context": {
-        "atr": 0.004407775765351682,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.6159932914881168,
-        "btc_hour_pct": 0.22904302812445376,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:UAIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793586600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0c779cdcf6ad13b1b69849bb",
-      "asset_id": "444592d9fef971953fc16849",
-      "key": "MEXC:PERP:UAIUSDT",
-      "symbol": "UAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793593058503,
-      "price": 0.1681,
-      "level": 0.1634,
-      "invalid": 0.15125502160389268,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1634,
-        "base_invalid": 0.15125502160389268,
-        "atr": 0.004299855974048799,
-        "rvol": 3.8388563717869415,
-        "close_position": 0.7022900763358789,
-        "breakout": true,
-        "bar_close_ms": 1793586600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.580543272267848,
-        "score": 5.54114644812282
-      },
-      "context": {
-        "atr": 0.004546105935635672,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.8967568986949512,
-        "btc_hour_pct": 0.21549415743058464,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:UAIUSDT",
-          "change_pct": -1.9769277892604964,
-          "old_ms": 1793589443177,
-          "current_ms": 1793593055923,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793586600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1393543,6 +1393434,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793592173490
+    },
+    {
+      "id": "a3ed5a979744585156078467",
+      "asset_id": "cc8c20036743ae8ab05d7b77",
+      "key": "MEXC:SPOT:UAIUSDT",
+      "symbol": "UAIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793593059167,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793593069356
+    },
+    {
+      "id": "0c779cdcf6ad13b1b69849bb",
+      "asset_id": "444592d9fef971953fc16849",
+      "key": "MEXC:PERP:UAIUSDT",
+      "symbol": "UAIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793593058503,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793593069356
     }
   ],
   "runs": [
@@ -1495730,8 +1495643,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7d410d08b59bf7b69a4e61885bb1cdd52f4f8593",
-    "previous_success_ms": 1793592784790,
+    "previous_commit": "b8179aee39e3ef45cebc0d7ad554d0510bd5936b",
+    "previous_success_ms": 1793593068331,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
