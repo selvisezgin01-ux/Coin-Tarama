@@ -1480598,7 +1480598,9 @@
           "selected_for_candles": 30,
           "fresh_candidate_quotes": 0
         }
-      }
+      },
+      "finished_ms": 1793612159475,
+      "duration_ms": 29051
     }
   ],
   "radar_admissions": [
@@ -1528066,14 +1528068,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793611995317,
+            "endpoint_ms": 1793612040000,
+            "endpoint_price": 0.12952,
+            "return_pct": 0.1082083784201604,
+            "btc_excess_pct_points": 0.25951734493193657,
+            "mae_pct": -1.1671046529602602,
+            "mfe_pct": 0.9043128767970421,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 44683,
+            "measured_ms": 1793612158591,
+            "cost_scenarios_pct": {
+              "0.2": -0.09179162157983961,
+              "0.5": -0.3917916215798396,
+              "1": -0.8917916215798396
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793608200000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ACUUSDT",
         "observation_lag_ms": 195317,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11549
+        "notification_lag_ms": 11549,
+        "last_measure_attempt_ms": 1793612158591
       },
       "478c9332e3e785fc0c35831d:radar": {
         "symbol": "PENDLEUSDT",
@@ -1528089,14 +1528115,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793611995317,
+            "endpoint_ms": 1793612040000,
+            "endpoint_price": 1.808,
+            "return_pct": -0.9586414680909261,
+            "btc_excess_pct_points": -0.8073325015791499,
+            "mae_pct": -0.9586414680909261,
+            "mfe_pct": 0.46562585592988537,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 44683,
+            "measured_ms": 1793612158591,
+            "cost_scenarios_pct": {
+              "0.2": -1.158641468090926,
+              "0.5": -1.458641468090926,
+              "1": -1.958641468090926
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793608200000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "PENDLEUSDT",
         "observation_lag_ms": 195317,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11549
+        "notification_lag_ms": 11549,
+        "last_measure_attempt_ms": 1793612158591
       },
       "a530d6d999ce9d6bc5ca675b:radar": {
         "symbol": "RUNEUSDT",
@@ -1528261,14 +1528311,14 @@
     },
     "errors": [],
     "queue": {
-      "due": 175,
+      "due": 177,
       "attempted": 2,
-      "observed_ms": 1793611863201,
-      "unique_reads": 6
+      "observed_ms": 1793612158591,
+      "unique_reads": 3
     },
     "summary": {
       "radar": {
-        "market_event_references": 483,
+        "market_event_references": 484,
         "unique_symbol_labels": 262,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
@@ -1528317,8 +1528367,8 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 105,
-            "first_per_symbol": 96,
+            "event_references": 106,
+            "first_per_symbol": 97,
             "hours": {
               "1": {
                 "known_first_symbols": 94,
@@ -1528343,7 +1528393,7 @@
             "first_per_symbol": 113,
             "hours": {
               "1": {
-                "known_first_symbols": 110,
+                "known_first_symbols": 112,
                 "median_reference_return_pct": -0.23759969942509507
               },
               "4": {
@@ -1554277,8 +1554327,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ede7743a3c426a7266c5a7070766f15046840400",
-    "previous_success_ms": 1793612148694,
+    "previous_commit": "2bb249dcbc9693e6445b26777675c532b0a126f0",
+    "previous_success_ms": 1793612158551,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
