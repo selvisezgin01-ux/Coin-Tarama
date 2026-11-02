@@ -1490115,64 +1490115,7 @@
       "source_close_ms": 1793655900000
     }
   },
-  "pending": [
-    {
-      "id": "ec3730382c9f2a27e0b31879",
-      "asset_id": "4f42ee5bcbb701c208a923e6",
-      "key": "MEXC:PERP:BTRUSDT",
-      "symbol": "BTRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793658162947,
-      "price": 0.046704999999999997,
-      "level": 0.04683,
-      "invalid": 0.045928466245379856,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04683,
-        "base_invalid": 0.045928466245379856,
-        "atr": 0.0006102250308009618,
-        "rvol": 3.962308983840532,
-        "close_position": 0.9473684210526162,
-        "breakout": false,
-        "bar_close_ms": 1793657700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2791496671677107,
-        "score": 5.409677404893148
-      },
-      "context": {
-        "atr": 0.0006102250308009618,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9564562266750176,
-        "btc_hour_pct": 0.08363044721446666,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BTRUSDT",
-          "change_pct": 6.827526502213543,
-          "old_ms": 1793654679262,
-          "current_ms": 1793658161303,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0105,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793657700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1501371,6 +1501314,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793657275169
+    },
+    {
+      "id": "ec3730382c9f2a27e0b31879",
+      "asset_id": "4f42ee5bcbb701c208a923e6",
+      "key": "MEXC:PERP:BTRUSDT",
+      "symbol": "BTRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793658162947,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793658175132
     }
   ],
   "runs": [
@@ -1600480,7 +1600434,8 @@
         "entry_seq": 0,
         "cohort": "BTRUSDT",
         "observation_lag_ms": 462947,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12185
       }
     },
     "errors": [],
@@ -1626501,8 +1626456,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8808d1609a8cf89722300379d946a4ff404fc83a",
-    "previous_success_ms": 1793657903489,
+    "previous_commit": "8137453e2bff3d326a9f744341a5abc98abfc97c",
+    "previous_success_ms": 1793658174192,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
