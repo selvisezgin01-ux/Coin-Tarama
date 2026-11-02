@@ -1482195,112 +1482195,7 @@
       "source_close_ms": 1793654100000
     }
   },
-  "pending": [
-    {
-      "id": "1b36eeafce66fae7f3a44bf3",
-      "asset_id": "3061a31295674a75a4b61d28",
-      "key": "OKX:SPOT:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793654690267,
-      "price": 0.040067000000000005,
-      "level": 0.040221,
-      "invalid": 0.03953822658652765,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.040221,
-        "base_invalid": 0.03953822658652765,
-        "atr": 0.000278489423149009,
-        "rvol": 3.1073439809053998,
-        "close_position": 0.8638297872340387,
-        "breakout": false,
-        "bar_close_ms": 1793654100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5153478598053596,
-        "score": 4.471173768139439
-      },
-      "context": {
-        "atr": 0.000278489423149009,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09552397216899822,
-        "btc_hour_pct": -0.399253378023412,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793654100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "00fadb36e8a77f032c15432f",
-      "asset_id": "76c3ba67719360f662961b84",
-      "key": "MEXC:SPOT:PROPSUSDT",
-      "symbol": "PROPSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793654689770,
-      "price": 0.0055705,
-      "level": 0.005623,
-      "invalid": 0.005513565871849047,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005623,
-        "base_invalid": 0.005513565871849047,
-        "atr": 2.289418767302473e-05,
-        "rvol": 2.1311492132480203,
-        "close_position": 0.6969696969696835,
-        "breakout": false,
-        "bar_close_ms": 1793654100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.504959422903517,
-        "score": 3.328118910217704
-      },
-      "context": {
-        "atr": 2.289418767302473e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1829268504736978,
-        "btc_hour_pct": -0.40478714725256104,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PROPSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793654100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROPSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1493389,6 +1493284,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793654404425
+    },
+    {
+      "id": "1b36eeafce66fae7f3a44bf3",
+      "asset_id": "3061a31295674a75a4b61d28",
+      "key": "OKX:SPOT:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793654690267,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793654701104
+    },
+    {
+      "id": "00fadb36e8a77f032c15432f",
+      "asset_id": "76c3ba67719360f662961b84",
+      "key": "MEXC:SPOT:PROPSUSDT",
+      "symbol": "PROPSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793654689770,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793654701104
     }
   ],
   "runs": [
@@ -1591223,7 +1591140,8 @@
         "entry_seq": 0,
         "cohort": "NIGHTUSDT",
         "observation_lag_ms": 590267,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10837
       },
       "76c3ba67719360f662961b84:radar": {
         "symbol": "PROPSUSDT",
@@ -1591245,7 +1591163,8 @@
         "entry_seq": 0,
         "cohort": "PROPSUSDT",
         "observation_lag_ms": 589770,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11334
       }
     },
     "errors": [],
@@ -1617273,8 +1617192,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2dc136f99b7adccd5df723e9a41c951e87f3e6a1",
-    "previous_success_ms": 1793654430283,
+    "previous_commit": "c7d6c2e089eb9c107c2bcb4ddf7bbb27470ff45d",
+    "previous_success_ms": 1793654699612,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
