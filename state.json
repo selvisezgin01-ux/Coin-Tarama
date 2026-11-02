@@ -1354453,108 +1354453,7 @@
       "source_close_ms": 1793585700000
     }
   },
-  "pending": [
-    {
-      "id": "494d8f6e2eb5555dd0a9d4d7",
-      "asset_id": "7f1fb20cead7a59a9afac14b",
-      "key": "OKX:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793586919255,
-      "price": 0.33394999999999997,
-      "level": 0.33,
-      "invalid": 0.32188378269473145,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.33,
-        "base_invalid": 0.32188378269473145,
-        "atr": 0.002774782035123452,
-        "rvol": 3.210886162597983,
-        "close_position": 0.9423076923076985,
-        "breakout": true,
-        "bar_close_ms": 1793586600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1126760563380254,
-        "score": 5.153193854905681
-      },
-      "context": {
-        "atr": 0.002774782035123452,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5680919311355623,
-        "btc_hour_pct": 0.35200717075356547,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793586600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "69b4143783a0c4a23a8c1311",
-      "asset_id": "608792bd8a2c83c25b3d73ec",
-      "key": "OKX:SPOT:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793586919179,
-      "price": 0.33415,
-      "level": 0.33,
-      "invalid": 0.32220994948018233,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.33,
-        "base_invalid": 0.32220994948018233,
-        "atr": 0.0026003367987844257,
-        "rvol": 2.1128195092149773,
-        "close_position": 0.9583333333333266,
-        "breakout": true,
-        "bar_close_ms": 1793586600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0508111417202324,
-        "score": 4.071152842548304
-      },
-      "context": {
-        "atr": 0.0026003367987844257,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4454160389572257,
-        "btc_hour_pct": 0.3491384164883371,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793586600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1363311,6 +1363210,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793586029010
+    },
+    {
+      "id": "494d8f6e2eb5555dd0a9d4d7",
+      "asset_id": "7f1fb20cead7a59a9afac14b",
+      "key": "OKX:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793586919255,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793586929494
+    },
+    {
+      "id": "69b4143783a0c4a23a8c1311",
+      "asset_id": "608792bd8a2c83c25b3d73ec",
+      "key": "OKX:SPOT:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793586919179,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793586929495
     }
   ],
   "runs": [
@@ -1437159,7 +1437080,8 @@
         "entry_seq": 0,
         "cohort": "STXUSDT",
         "observation_lag_ms": 319255,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10239
       },
       "608792bd8a2c83c25b3d73ec:radar": {
         "symbol": "STXUSDT",
@@ -1437181,7 +1437103,8 @@
         "entry_seq": 0,
         "cohort": "STXUSDT",
         "observation_lag_ms": 319179,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10316
       }
     },
     "errors": [],
@@ -1463211,8 +1463134,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "15a637e703a7ee1fe64ae1a1c5dbc8213b196dc8",
-    "previous_success_ms": 1793586651109,
+    "previous_commit": "d0ba731227b2dc4b7ec052575f281dbb394024bd",
+    "previous_success_ms": 1793586928263,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
