@@ -1341671,186 +1341671,7 @@
       "source_close_ms": 1793497500000
     }
   },
-  "pending": [
-    {
-      "id": "7025e07a310f887099efb908",
-      "asset_id": "379e9ce3e298dac342dc082d",
-      "key": "OKX:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793584218156,
-      "price": 0.313485,
-      "level": 0.30485,
-      "invalid": 0.305430121874828,
-      "target": 0.3214832812503442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.30485,
-        "base_invalid": 0.300260121874828,
-        "atr": 0.0021325208344800542,
-        "rvol": 2.8939350909032564,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793493000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9926272790674604,
-        "score": 4.893935090903256
-      },
-      "context": {
-        "atr": 0.00038026748682778175,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2122011471916263,
-        "btc_hour_pct": -0.2728943271948059,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.305430121874828,
-        "target": 0.3214832812503442,
-        "risk_pct": 1.2304163905030319,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.32328,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.30861,
-        "entry_zone_high": 0.3098757066083311
-      },
-      "reason": "giriş takip süresi doldu",
-      "source_close_ms": 1793497500000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "TRXUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793570400000,
-        "closed_price": 0.31286,
-        "ema20_1h": 0.3118646009749481,
-        "atr14_1h": 0.0019148348892710461,
-        "structure_floor": 0.31235,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "b0e3420d32fa6ef27644ba69",
-      "asset_id": "5ba27818707731c70e6a7c04",
-      "key": "OKX:PERP:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793584218156,
-      "price": 0.0016185000000000001,
-      "level": 0.001584,
-      "invalid": 0.0014873389459576132,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001584,
-        "base_invalid": 0.0014873389459576132,
-        "atr": 3.107369361591294e-05,
-        "rvol": 4.62448106250286,
-        "close_position": 0.9333333333333317,
-        "breakout": true,
-        "bar_close_ms": 1793583900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.3781291172595465,
-        "score": 6.557814395836192
-      },
-      "context": {
-        "atr": 3.107369361591294e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.871828371165496,
-        "btc_hour_pct": -0.2728943271948059,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793583900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOPHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e427cffd8ee8771e72cfb833",
-      "asset_id": "3ce21365a99162d364cf07b9",
-      "key": "MEXC:PERP:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793584219251,
-      "price": 0.045704999999999996,
-      "level": 0.04478,
-      "invalid": 0.04370114430822693,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04478,
-        "base_invalid": 0.04370114430822693,
-        "atr": 0.000459037945153836,
-        "rvol": 2.561384544865416,
-        "close_position": 0.9476744186046513,
-        "breakout": true,
-        "bar_close_ms": 1793583900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3524089572494855,
-        "score": 4.509058963470067
-      },
-      "context": {
-        "atr": 0.000459037945153836,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.7248494665195171,
-        "btc_hour_pct": -0.26815437008622656,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PARTIUSDT",
-          "change_pct": -1.2065540941321173,
-          "old_ms": 1793580724192,
-          "current_ms": 1793584217015,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793583900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1350486,6 +1350307,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793583937005
+    },
+    {
+      "id": "7025e07a310f887099efb908",
+      "asset_id": "379e9ce3e298dac342dc082d",
+      "key": "OKX:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "expired",
+      "observed_ms": 1793584218156,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793584229999
+    },
+    {
+      "id": "b0e3420d32fa6ef27644ba69",
+      "asset_id": "5ba27818707731c70e6a7c04",
+      "key": "OKX:PERP:SOPHUSDT",
+      "symbol": "SOPHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793584218156,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793584229999
+    },
+    {
+      "id": "e427cffd8ee8771e72cfb833",
+      "asset_id": "3ce21365a99162d364cf07b9",
+      "key": "MEXC:PERP:PARTIUSDT",
+      "symbol": "PARTIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793584219251,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793584229999
     }
   ],
   "runs": [
@@ -1423349,7 +1423203,8 @@
         "entry_seq": 0,
         "cohort": "SOPHUSDT",
         "observation_lag_ms": 318156,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11843
       },
       "3ce21365a99162d364cf07b9:radar": {
         "symbol": "PARTIUSDT",
@@ -1423371,7 +1423226,8 @@
         "entry_seq": 0,
         "cohort": "PARTIUSDT",
         "observation_lag_ms": 319251,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10748
       }
     },
     "errors": [],
@@ -1449402,8 +1449258,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "36e4c82068d56784d6f71c92c66787daa8d6674e",
-    "previous_success_ms": 1793583958360,
+    "previous_commit": "045c63de8a2dc03627efbcdb54de17b14a0cd600",
+    "previous_success_ms": 1793584228839,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
