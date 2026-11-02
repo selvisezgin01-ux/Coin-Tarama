@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 02.11.2026 03:45:23 TR · V2 döngüsü 738
+Son gözlem: 02.11.2026 03:50:32 TR · V2 döngüsü 739
 
 ## Bildirim kuralları
 
@@ -15,8 +15,8 @@ CA:
 ```text
 GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk
 ```
-Fiyat $0.0003637; likidite $164197.36; tek swap bildirim eşiği $164.
-V2de sessiz kaydedilen küçük işlem 403, anlamlı tek işlem 70.
+Fiyat $0.0003636; likidite $164178.06; tek swap bildirim eşiği $164.
+V2de sessiz kaydedilen küçük işlem 404, anlamlı tek işlem 70.
 [Solscan](https://solscan.io/token/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) · [DexScreener](https://dexscreener.com/solana/6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk)
 
 ### Sessiz birikim
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 02.11.2026 03:45:04 TR
+Son zincir okuması: 02.11.2026 03:50:14 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -53,8 +53,8 @@ CA:
 ```text
 4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk
 ```
-Fiyat $0.0002001; likidite $93659.27; tek swap bildirim eşiği $100.
-V2de sessiz kaydedilen küçük işlem 157, anlamlı tek işlem 13.
+Fiyat $0.0001984; likidite $93280.2; tek swap bildirim eşiği $100.
+V2de sessiz kaydedilen küçük işlem 158, anlamlı tek işlem 14.
 [Solscan](https://solscan.io/token/4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk) · [DexScreener](https://dexscreener.com/solana/6MHj1z5BgC1UiTNEWrnJfbGtQPuPdh2qgdWkemGxT2c5)
 
 ### Sessiz birikim
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 02.11.2026 03:45:04 TR
+Son zincir okuması: 02.11.2026 03:50:14 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -100,14 +100,14 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "errors": [
         "api.mainnet.solana.com: RPC error -32015"
       ],
-      "detail_queue": 9999,
+      "detail_queue": 10001,
       "full_chain_coverage": false,
-      "checked_ms": 1793580323275
+      "checked_ms": 1793580632531
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793580304702,
+      "observed_ms": 1793580614116,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -122,18 +122,22 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 737,
+    "intervals": 738,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
     "full_chain_coverage": false
   },
-  "detail_queue": 9999
+  "detail_queue": 10001
 }
 ```
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+02.11.2026 03:50:16 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
+
+02.11.2026 03:50:05 TR · **SATIŞ** · SATIŞ: $198.20 · işlem başlatıcı `5U7Tpczz9LPWEg7b6etrf7ZG2R4xoDiwH7sCd2f33moZ` · bildirim eşiği $100
 
 02.11.2026 03:40:08 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
@@ -210,8 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 02.11.2026 01:03:47 TR · **SATIŞ** · SATIŞ: $284.24 · işlem başlatıcı `3GAxF35sy1CUHyutgK1qKWXAWmkZQMcJKiidHxMzgGoy` · bildirim eşiği $164
 
 02.11.2026 00:59:02 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-02.11.2026 00:54:03 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-02.11.2026 00:49:10 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
