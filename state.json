@@ -1282008,62 +1282008,7 @@
       "source_close_ms": 1793626200000
     }
   },
-  "pending": [
-    {
-      "id": "2cc08a34e804955dff15c3ed",
-      "asset_id": "c2d1d4612f2b82f511cb39f2",
-      "key": "MEXC:PERP:HOTUSDT",
-      "symbol": "HOTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793627465132,
-      "price": 0.00039755,
-      "level": 0.0003925,
-      "invalid": 0.0003757477851178675,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0003925,
-        "base_invalid": 0.0003757477851178675,
-        "atr": 6.3480992142168304e-06,
-        "rvol": 6.88474845641679,
-        "close_position": 0.8615384615384623,
-        "breakout": true,
-        "bar_close_ms": 1793627100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.906825849987027,
-        "score": 7.861538461538462
-      },
-      "context": {
-        "atr": 6.3480992142168304e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.9245508345852924,
-        "btc_hour_pct": -0.10493058142073686,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HOTUSDT",
-          "change_pct": -7.105267379522107,
-          "old_ms": 1793623852157,
-          "current_ms": 1793627462022,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -1.3193,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793627100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1292272,6 +1292217,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793627188058
+    },
+    {
+      "id": "2cc08a34e804955dff15c3ed",
+      "asset_id": "c2d1d4612f2b82f511cb39f2",
+      "key": "MEXC:PERP:HOTUSDT",
+      "symbol": "HOTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793627465132,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793627477675
     }
   ],
   "runs": [
@@ -1380586,7 +1380542,8 @@
         "entry_seq": 0,
         "cohort": "HOTUSDT",
         "observation_lag_ms": 365132,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12543
       }
     },
     "errors": [],
@@ -1406628,8 +1406585,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2355c182364ebacb83593636ff435a8c74d52cd7",
-    "previous_success_ms": 1793627204213,
+    "previous_commit": "b4b38e1984ea815e98ab57d38106215f6bbdbf79",
+    "previous_success_ms": 1793627476535,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
