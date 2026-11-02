@@ -1446035,114 +1446035,7 @@
       "source_close_ms": 1793614500000
     }
   },
-  "pending": [
-    {
-      "id": "ebb8b42643784056ed57f121",
-      "asset_id": "fec7e12e5b6999e14b1ba96b",
-      "key": "OKX:SPOT:OPUSDT",
-      "symbol": "OPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793618249074,
-      "price": 0.113465,
-      "level": 0.11315,
-      "invalid": 0.1118210082845634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11315,
-        "base_invalid": 0.1118210082845634,
-        "atr": 0.0005266114362439544,
-        "rvol": 3.007446991683645,
-        "close_position": 0.8928571428571358,
-        "breakout": true,
-        "bar_close_ms": 1793618100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6921029281277802,
-        "score": 4.9003041345407805
-      },
-      "context": {
-        "atr": 0.0005266114362439544,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6433312272223213,
-        "btc_hour_pct": -0.11874689362224577,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793618100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f43d201f93e447f0dd499cff",
-      "asset_id": "15f1d1f29b3addbd9b734fdf",
-      "key": "MEXC:PERP:COWUSDT",
-      "symbol": "COWUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793618250278,
-      "price": 0.11665,
-      "level": 0.1158,
-      "invalid": 0.11373370570684282,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1158,
-        "base_invalid": 0.11373370570684282,
-        "atr": 0.0011086286210478479,
-        "rvol": 3.1061563334311613,
-        "close_position": 0.7500000000000022,
-        "breakout": true,
-        "bar_close_ms": 1793618100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6920415224913601,
-        "score": 4.856156333431164
-      },
-      "context": {
-        "atr": 0.0011086286210478479,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8229522249554977,
-        "btc_hour_pct": -0.12365152565481097,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:COWUSDT",
-          "change_pct": -0.23243087300619525,
-          "old_ms": 1793614528343,
-          "current_ms": 1793618246367,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.050699999999999995,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793618100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1455988,6 +1455881,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793616755901
+    },
+    {
+      "id": "ebb8b42643784056ed57f121",
+      "asset_id": "fec7e12e5b6999e14b1ba96b",
+      "key": "OKX:SPOT:OPUSDT",
+      "symbol": "OPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793618249074,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793618260074
+    },
+    {
+      "id": "f43d201f93e447f0dd499cff",
+      "asset_id": "15f1d1f29b3addbd9b734fdf",
+      "key": "MEXC:PERP:COWUSDT",
+      "symbol": "COWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793618250278,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793618260074
     }
   ],
   "runs": [
@@ -1540942,7 +1540857,8 @@
         "entry_seq": 0,
         "cohort": "OPUSDT",
         "observation_lag_ms": 149074,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11000
       },
       "15f1d1f29b3addbd9b734fdf:radar": {
         "symbol": "COWUSDT",
@@ -1540964,7 +1540880,8 @@
         "entry_seq": 0,
         "cohort": "COWUSDT",
         "observation_lag_ms": 150278,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9796
       }
     },
     "errors": [],
@@ -1566987,8 +1566904,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "33d849440bfba897c7d3fa50e7b0680c60eac751",
-    "previous_success_ms": 1793617970270,
+    "previous_commit": "16f48290c07f5c117530bc6b071c9510e4950536",
+    "previous_success_ms": 1793618258825,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
