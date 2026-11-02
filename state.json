@@ -1455487,324 +1455487,7 @@
       "source_close_ms": 1793641500000
     }
   },
-  "pending": [
-    {
-      "id": "f6d55e031a59c67cdcbb2e0f",
-      "asset_id": "5bdf7edf389524e563c6d3b3",
-      "key": "MEXC:PERP:MAGMAUSDT",
-      "symbol": "MAGMAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793643471922,
-      "price": 0.47967000000000004,
-      "level": 0.47244,
-      "invalid": 0.4574533835059609,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.47244,
-        "base_invalid": 0.4574533835059609,
-        "atr": 0.0060441099602608584,
-        "rvol": 10.317709427573316,
-        "close_position": 0.7821590174531331,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.060200311785932,
-        "score": 7.782159017453133
-      },
-      "context": {
-        "atr": 0.0060441099602608584,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9238301744438182,
-        "btc_hour_pct": -0.43917061042391126,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MAGMAUSDT",
-          "change_pct": 2.4636083639612893,
-          "old_ms": 1793639989109,
-          "current_ms": 1793643467029,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0215,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9225369265b9871b530bda8a",
-      "asset_id": "f23c9e1f60c00c876395fe5a",
-      "key": "OKX:PERP:API3USDT",
-      "symbol": "API3USDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793643469353,
-      "price": 0.23285,
-      "level": 0.2313,
-      "invalid": 0.22685128600163287,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2313,
-        "base_invalid": 0.22685128600163287,
-        "atr": 0.0016580933224474067,
-        "rvol": 12.68337363727398,
-        "close_position": 0.7199999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.999565406345071,
-        "score": 7.719999999999998
-      },
-      "context": {
-        "atr": 0.0016580933224474067,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.021429382730953073,
-        "btc_hour_pct": -0.4557940446009434,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:API3USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "API3USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "20e074a64d06e20523923c5c",
-      "asset_id": "b51e5a2cbd512dfff1058e79",
-      "key": "MEXC:PERP:BEATUSDT",
-      "symbol": "BEATUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793643471922,
-      "price": 0.10372999999999999,
-      "level": 0.10168,
-      "invalid": 0.09914138692897723,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10168,
-        "base_invalid": 0.09914138692897723,
-        "atr": 0.001257420473485146,
-        "rvol": 4.944152836940836,
-        "close_position": 0.8496503496503498,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6463536463536395,
-        "score": 6.793803186591186
-      },
-      "context": {
-        "atr": 0.001257420473485146,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6762779014731102,
-        "btc_hour_pct": -0.43917061042391126,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BEATUSDT",
-          "change_pct": 4.054592332542661,
-          "old_ms": 1793639989103,
-          "current_ms": 1793643467028,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0166,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "88fe3e75fe42ba8a1a2a60d9",
-      "asset_id": "75ef93e3c7004b571831a03e",
-      "key": "MEXC:PERP:API3USDT",
-      "symbol": "API3USDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793643471922,
-      "price": 0.23299999999999998,
-      "level": 0.2315,
-      "invalid": 0.22695630092650454,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2315,
-        "base_invalid": 0.22695630092650454,
-        "atr": 0.001624660489969828,
-        "rvol": 4.653385314223418,
-        "close_position": 0.7608695652173931,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9986973512809305,
-        "score": 6.414254879440811
-      },
-      "context": {
-        "atr": 0.001624660489969828,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.08098543639012412,
-        "btc_hour_pct": -0.43917061042391126,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:API3USDT",
-          "change_pct": -3.2913695458697045,
-          "old_ms": 1793639989779,
-          "current_ms": 1793643467793,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "API3USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8f4ffb4f8f11c3354b78b842",
-      "asset_id": "06136a4461c3fec3d1b5f882",
-      "key": "MEXC:SPOT:BEATUSDT",
-      "symbol": "BEATUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793643469477,
-      "price": 0.10353,
-      "level": 0.10154,
-      "invalid": 0.09907493499740473,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10154,
-        "base_invalid": 0.09907493499740473,
-        "atr": 0.001167100017301829,
-        "rvol": 3.730266134132703,
-        "close_position": 0.9718875502008029,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8315326130452076,
-        "score": 5.702153684333506
-      },
-      "context": {
-        "atr": 0.001167100017301829,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6197090759822554,
-        "btc_hour_pct": -0.44212422988911815,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BEATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "896829f1543e6e2c99a5f20a",
-      "asset_id": "ded79eaca6d557cdd1401517",
-      "key": "OKX:PERP:BEATUSDT",
-      "symbol": "BEATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793643469353,
-      "price": 0.10369500000000001,
-      "level": 0.10164,
-      "invalid": 0.09916169107393727,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10164,
-        "base_invalid": 0.09916169107393727,
-        "atr": 0.0012553928404181816,
-        "rvol": 3.0207229578394115,
-        "close_position": 0.8768656716417923,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.737383831318075,
-        "score": 4.897588629481204
-      },
-      "context": {
-        "atr": 0.0012553928404181816,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7126602765709089,
-        "btc_hour_pct": -0.4557940446009434,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BEATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1466596,6 +1466279,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793642413549
+    },
+    {
+      "id": "f6d55e031a59c67cdcbb2e0f",
+      "asset_id": "5bdf7edf389524e563c6d3b3",
+      "key": "MEXC:PERP:MAGMAUSDT",
+      "symbol": "MAGMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793643471922,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793643483134
+    },
+    {
+      "id": "9225369265b9871b530bda8a",
+      "asset_id": "f23c9e1f60c00c876395fe5a",
+      "key": "OKX:PERP:API3USDT",
+      "symbol": "API3USDT",
+      "phase": "radar",
+      "observed_ms": 1793643469353,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793643483135
+    },
+    {
+      "id": "20e074a64d06e20523923c5c",
+      "asset_id": "b51e5a2cbd512dfff1058e79",
+      "key": "MEXC:PERP:BEATUSDT",
+      "symbol": "BEATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793643471922,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793643483135
+    },
+    {
+      "id": "88fe3e75fe42ba8a1a2a60d9",
+      "asset_id": "75ef93e3c7004b571831a03e",
+      "key": "MEXC:PERP:API3USDT",
+      "symbol": "API3USDT",
+      "phase": "radar",
+      "observed_ms": 1793643471922,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793643483135
+    },
+    {
+      "id": "8f4ffb4f8f11c3354b78b842",
+      "asset_id": "06136a4461c3fec3d1b5f882",
+      "key": "MEXC:SPOT:BEATUSDT",
+      "symbol": "BEATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793643469477,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793643483135
+    },
+    {
+      "id": "896829f1543e6e2c99a5f20a",
+      "asset_id": "ded79eaca6d557cdd1401517",
+      "key": "OKX:PERP:BEATUSDT",
+      "symbol": "BEATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793643469353,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793643483136
     }
   ],
   "runs": [
@@ -1560363,7 +1560112,8 @@
         "entry_seq": 0,
         "cohort": "MAGMAUSDT",
         "observation_lag_ms": 171922,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11212
       },
       "f23c9e1f60c00c876395fe5a:radar": {
         "symbol": "API3USDT",
@@ -1560385,7 +1560135,8 @@
         "entry_seq": 0,
         "cohort": "API3USDT",
         "observation_lag_ms": 169353,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13782
       },
       "b51e5a2cbd512dfff1058e79:radar": {
         "symbol": "BEATUSDT",
@@ -1560407,7 +1560158,8 @@
         "entry_seq": 0,
         "cohort": "BEATUSDT",
         "observation_lag_ms": 171922,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11213
       },
       "75ef93e3c7004b571831a03e:radar": {
         "symbol": "API3USDT",
@@ -1560429,7 +1560181,8 @@
         "entry_seq": 0,
         "cohort": "API3USDT",
         "observation_lag_ms": 171922,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11213
       },
       "06136a4461c3fec3d1b5f882:radar": {
         "symbol": "BEATUSDT",
@@ -1560451,7 +1560204,8 @@
         "entry_seq": 0,
         "cohort": "BEATUSDT",
         "observation_lag_ms": 169477,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13658
       },
       "ded79eaca6d557cdd1401517:radar": {
         "symbol": "BEATUSDT",
@@ -1560473,7 +1560227,8 @@
         "entry_seq": 0,
         "cohort": "BEATUSDT",
         "observation_lag_ms": 169353,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13783
       }
     },
     "errors": [],
@@ -1586509,8 +1586264,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0b3d1e2f0270187cc1c00bae7d68633e90e34405",
-    "previous_success_ms": 1793643456114,
+    "previous_commit": "205d314d2d4652c53842e2b46929acffc20eca64",
+    "previous_success_ms": 1793643482166,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
