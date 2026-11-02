@@ -2,9 +2,9 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 462, ön eleme 66, incelenen 59, aday 0. Gözlem 02.11.2026 20:03 TR; mum kesimi 02.11.2026 19:00 TR.
+OKX: evren 462, ön eleme 43, incelenen 37, aday 0. Gözlem 02.11.2026 23:45 TR; mum kesimi 02.11.2026 23:00 TR.
 
-MEXC: evren 1228, ön eleme 273, incelenen 259, aday 0. Gözlem 02.11.2026 20:05 TR; mum kesimi 02.11.2026 19:00 TR.
+MEXC: evren 1228, ön eleme 196, incelenen 186, aday 0. Gözlem 02.11.2026 23:46 TR; mum kesimi 02.11.2026 23:00 TR.
 
 ## Bu döngüde yeni gelenler
 
@@ -30,7 +30,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | MEXC | 48s | 86/94 | -4.83 | -2.08 | -0.97 | 86 |
 | OKX | 12s | 101/102 | -0.35 | -0.24 | 0.13 | 101 |
 | OKX | 24s | 101/102 | -0.97 | -0.58 | 0.04 | 101 |
-| OKX | 48s | 98/102 | -1.45 | -0.82 | 1.16 | 98 |
+| OKX | 48s | 99/102 | -1.48 | -0.87 | 1.07 | 99 |
 
 | Coin | Borsa | İlk grup | Gerçek gözlem TR | Referans fiyat | 12s % | 24s % | 48s % |
 |---|---|---|---|---:|---:|---:|---:|
@@ -176,7 +176,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | PYTHUSDT | OKX | Yeni kırılım | 26.10.2026 17:48 | 0.075445 | -2.75 | -3.90 | -5.36 |
 | RPLUSDT | OKX | Yeni kırılım | 29.10.2026 19:56 | 1.529 | -6.67 | -4.51 | -2.81 |
 | SCRUSDT | OKX | Yeni kırılım | 27.10.2026 19:50 | 0.020785 | 2.77 | 0.22 | 1.95 |
-| SDUSDT | OKX | Yeni kırılım | 31.10.2026 23:38 | 0.12105 | -5.17 | -6.20 | — |
+| SDUSDT | OKX | Yeni kırılım | 31.10.2026 23:38 | 0.12105 | -5.17 | -6.20 | -10.95 |
 | SHIBUSDT | OKX | Yeni kırılım | 28.10.2026 15:55 | 4.96e-06 | 0.06 | -1.01 | -2.72 |
 | SONICUSDT | OKX | Yeni kırılım | 29.10.2026 15:55 | 0.022205 | -10.65 | -7.54 | -1.91 |
 | SPACEUSDT | OKX | Yeni kırılım | 29.10.2026 19:56 | 0.003847 | -7.20 | -7.80 | -5.41 |

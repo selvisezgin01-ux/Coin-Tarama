@@ -214,11 +214,11 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793639033337,
-        "feature_cutoff_ms": 1793635200000,
+        "observed_ms": 1793652352833,
+        "feature_cutoff_ms": 1793649600000,
         "universe_count": 462,
-        "prefilter_count": 66,
-        "analyzed_count": 59,
+        "prefilter_count": 43,
+        "analyzed_count": 37,
         "candidates": []
       }
     },
@@ -418,17 +418,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793639101175,
-        "feature_cutoff_ms": 1793635200000,
+        "observed_ms": 1793652402425,
+        "feature_cutoff_ms": 1793649600000,
         "universe_count": 1228,
-        "prefilter_count": 273,
-        "analyzed_count": 259,
+        "prefilter_count": 196,
+        "analyzed_count": 186,
         "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793639101271,
+  "updated_ms": 1793652402499,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12628,6 +12628,17 @@
             "control_excess_pct_points": -5.044851623513214,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793651898258,
+            "endpoint_ms": 1793651940000,
+            "endpoint_delay_ms": 41742,
+            "endpoint_price": 0.1078,
+            "return_pct": -10.945890128046265,
+            "btc_excess_pct_points": -10.102604789968195,
+            "control_excess_pct_points": -5.7693634104890155,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -13101,6 +13112,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793639101271
+    "asof_ms": 1793652402499
   }
 }
