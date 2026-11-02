@@ -1501738,60 +1501738,7 @@
       "source_close_ms": 1793661300000
     }
   },
-  "pending": [
-    {
-      "id": "fd8b62c9d2949ea1396bb29a",
-      "asset_id": "fa455f417fc680ce58f702e9",
-      "key": "OKX:SPOT:CARDSUSDT",
-      "symbol": "CARDSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793662963527,
-      "price": 0.22,
-      "level": 0.2209,
-      "invalid": 0.2148259612994995,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2209,
-        "base_invalid": 0.2148259612994995,
-        "atr": 0.002493591336670163,
-        "rvol": 7.292001229919239,
-        "close_position": 0.7428571428571427,
-        "breakout": false,
-        "bar_close_ms": 1793662200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7305936073059405,
-        "score": 7.242857142857143
-      },
-      "context": {
-        "atr": 0.002493591336670163,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.9849358385923046,
-        "btc_hour_pct": 0.1185427697368624,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CARDSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793662200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CARDSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1513144,6 +1513091,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793662379808
+    },
+    {
+      "id": "fd8b62c9d2949ea1396bb29a",
+      "asset_id": "fa455f417fc680ce58f702e9",
+      "key": "OKX:SPOT:CARDSUSDT",
+      "symbol": "CARDSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793662963527,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793662975331
     }
   ],
   "runs": [
@@ -1614022,7 +1613980,8 @@
         "entry_seq": 0,
         "cohort": "CARDSUSDT",
         "observation_lag_ms": 763527,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11804
       }
     },
     "errors": [],
@@ -1640046,8 +1640005,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "94fe50b5c6dc742eec5d14c7a2c10a14482bd367",
-    "previous_success_ms": 1793662694290,
+    "previous_commit": "641b5fcbcba2deddab1db372304dcfa3125f78c5",
+    "previous_success_ms": 1793662974170,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
