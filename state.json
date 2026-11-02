@@ -1388597,158 +1388597,7 @@
       "source_close_ms": 1793593800000
     }
   },
-  "pending": [
-    {
-      "id": "ddabfb938bdc246a42b35690",
-      "asset_id": "9aebd2f576a2ad19b4a6c6fe",
-      "key": "OKX:PERP:BIGTIMEUSDT",
-      "symbol": "BIGTIMEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793593959300,
-      "price": 0.006777,
-      "level": 0.006752,
-      "invalid": 0.006667862007103086,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006752,
-        "base_invalid": 0.006667862007103086,
-        "atr": 4.758661931276297e-05,
-        "rvol": 10.712579042043771,
-        "close_position": 0.8628571428571393,
-        "breakout": true,
-        "bar_close_ms": 1793588400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8349992540653393,
-        "score": 7.862857142857139
-      },
-      "context": {
-        "atr": 5.1102545196218296e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.1802771111153012,
-        "btc_hour_pct": 0.21526932896673845,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BIGTIMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793588400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIGTIMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "09cf2cf0e8586f750574ec0e",
-      "asset_id": "6bbe5dc9c3d479c6e00cf237",
-      "key": "OKX:SPOT:BIGTIMEUSDT",
-      "symbol": "BIGTIMEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793593957940,
-      "price": 0.006787,
-      "level": 0.00675,
-      "invalid": 0.00667643807343535,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00675,
-        "base_invalid": 0.00667643807343535,
-        "atr": 4.374617709766884e-05,
-        "rvol": 13.887476663428135,
-        "close_position": 0.8418079096045233,
-        "breakout": true,
-        "bar_close_ms": 1793588400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8943914081145596,
-        "score": 7.8418079096045235
-      },
-      "context": {
-        "atr": 4.75583104965489e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.28409793513806125,
-        "btc_hour_pct": 0.21363299737546804,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BIGTIMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793588400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIGTIMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0d1ac7637afa6aef68b2731e",
-      "asset_id": "52ad137efa7b3f566b07f13a",
-      "key": "OKX:PERP:TRUSTUSDT",
-      "symbol": "TRUSTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793593959300,
-      "price": 0.054435,
-      "level": 0.05392,
-      "invalid": 0.05062551154315442,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05392,
-        "base_invalid": 0.05062551154315442,
-        "atr": 0.0006965897123038282,
-        "rvol": 29.582217385609056,
-        "close_position": 0.870229007633588,
-        "breakout": true,
-        "bar_close_ms": 1793593800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8681402439024515,
-        "score": 7.870229007633588
-      },
-      "context": {
-        "atr": 0.0006965897123038282,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.9920787264657949,
-        "btc_hour_pct": 0.21526932896673845,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRUSTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793593800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUSTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1397714,6 +1397563,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793593664311
+    },
+    {
+      "id": "ddabfb938bdc246a42b35690",
+      "asset_id": "9aebd2f576a2ad19b4a6c6fe",
+      "key": "OKX:PERP:BIGTIMEUSDT",
+      "symbol": "BIGTIMEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793593959300,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793593969836
+    },
+    {
+      "id": "09cf2cf0e8586f750574ec0e",
+      "asset_id": "6bbe5dc9c3d479c6e00cf237",
+      "key": "OKX:SPOT:BIGTIMEUSDT",
+      "symbol": "BIGTIMEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793593957940,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793593969836
+    },
+    {
+      "id": "0d1ac7637afa6aef68b2731e",
+      "asset_id": "52ad137efa7b3f566b07f13a",
+      "key": "OKX:PERP:TRUSTUSDT",
+      "symbol": "TRUSTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793593959300,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793593969836
     }
   ],
   "runs": [
@@ -1474204,7 +1474086,8 @@
         "entry_seq": 0,
         "cohort": "TRUSTUSDT",
         "observation_lag_ms": 159300,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10536
       }
     },
     "errors": [],
@@ -1500229,8 +1500112,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c386e2f833e491e3be39682c62fbb0e2e73470fb",
-    "previous_success_ms": 1793593683115,
+    "previous_commit": "d52057bf704711d264644439182a29c530bc9a7b",
+    "previous_success_ms": 1793593968754,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
