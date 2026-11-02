@@ -1446880,64 +1446880,7 @@
       "source_close_ms": 1793639700000
     }
   },
-  "pending": [
-    {
-      "id": "248b70568d7feac5cae6bd4a",
-      "asset_id": "64fa364074a039d1ea2b0d64",
-      "key": "MEXC:PERP:AGTUSDT",
-      "symbol": "AGTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793640602317,
-      "price": 0.028945,
-      "level": 0.03508,
-      "invalid": 0.02927473759480465,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03508,
-        "base_invalid": 0.02927473759480465,
-        "atr": 0.0010350827013023566,
-        "rvol": 8.2276879348882,
-        "close_position": 0.8482758620689669,
-        "breakout": false,
-        "bar_close_ms": 1793629800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -4.333630157316703,
-        "score": 7.3482758620689665
-      },
-      "context": {
-        "atr": 0.0008433663685335579,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.2592427597583065,
-        "btc_hour_pct": -0.019489076437195774,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AGTUSDT",
-          "change_pct": -1.948109145004695,
-          "old_ms": 1793636989119,
-          "current_ms": 1793640600992,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0169,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793629800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AGTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1457663,6 +1457606,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793640018121
+    },
+    {
+      "id": "248b70568d7feac5cae6bd4a",
+      "asset_id": "64fa364074a039d1ea2b0d64",
+      "key": "MEXC:PERP:AGTUSDT",
+      "symbol": "AGTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793640602317,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793640614078
     }
   ],
   "runs": [
@@ -1576474,8 +1576428,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e2794c4c2bc080675c6b1892e1e4473f60e01963",
-    "previous_success_ms": 1793640340600,
+    "previous_commit": "0400b83f446bd73195c41145de2512ae36ada031",
+    "previous_success_ms": 1793640612385,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
