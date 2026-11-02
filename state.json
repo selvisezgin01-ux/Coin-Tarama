@@ -1436281,218 +1436281,7 @@
       "source_close_ms": 1793611800000
     }
   },
-  "pending": [
-    {
-      "id": "09b9d7a24b5ab1695a185be8",
-      "asset_id": "a530d6d999ce9d6bc5ca675b",
-      "key": "MEXC:PERP:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793611844389,
-      "price": 0.5201,
-      "level": 0.5256,
-      "invalid": 0.5085588441491096,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5256,
-        "base_invalid": 0.5085588441491096,
-        "atr": 0.00894103900593622,
-        "rvol": 2.87187041348361,
-        "close_position": 0.818930041152265,
-        "breakout": true,
-        "bar_close_ms": 1793608200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.573498164960398,
-        "score": 4.690800454635875
-      },
-      "context": {
-        "atr": 0.009540539260746347,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3751790538029107,
-        "btc_hour_pct": 0.15944592221857068,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RUNEUSDT",
-          "change_pct": -8.046327847444113,
-          "old_ms": 1793608381060,
-          "current_ms": 1793611840146,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0025,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RUNEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "312b30fbcea3f48779d57237",
-      "asset_id": "0f5891f3cc63e840a70a2bce",
-      "key": "MEXC:SPOT:RUNEUSDT",
-      "symbol": "RUNEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793611841843,
-      "price": 0.52085,
-      "level": 0.5266,
-      "invalid": 0.5092469989294475,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5266,
-        "base_invalid": 0.5092469989294475,
-        "atr": 0.009020007137017505,
-        "rvol": 2.5005184913783474,
-        "close_position": 0.7469879518072303,
-        "breakout": true,
-        "bar_close_ms": 1793608200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.373819163292846,
-        "score": 4.247506443185578
-      },
-      "context": {
-        "atr": 0.009705380038112324,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5822830828445822,
-        "btc_hour_pct": 0.16168012144825994,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RUNEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793608200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RUNEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ba110d963d36319358645268",
-      "asset_id": "2ac46697efb03c3e991144b2",
-      "key": "OKX:PERP:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793611843222,
-      "price": 4.84905e-06,
-      "level": 4.8574e-06,
-      "invalid": 4.757050084723487e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.8574e-06,
-        "base_invalid": 4.757050084723487e-06,
-        "atr": 4.299943517675635e-08,
-        "rvol": 2.8339950130683658,
-        "close_position": 0.7262247838616802,
-        "breakout": true,
-        "bar_close_ms": 1793609100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8106893106893063,
-        "score": 4.5602197969300455
-      },
-      "context": {
-        "atr": 4.08694387955985e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9263683203338813,
-        "btc_hour_pct": 0.15178199750232046,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793609100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5972b6405a940beba2a8e4c1",
-      "asset_id": "63ffe0a6186f286172949110",
-      "key": "OKX:SPOT:ZBCNUSDT",
-      "symbol": "ZBCNUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793611843569,
-      "price": 0.0020656,
-      "level": 0.0020742,
-      "invalid": 0.002052055772401222,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0020742,
-        "base_invalid": 0.002052055772401222,
-        "atr": 1.2961517325183903e-05,
-        "rvol": 6.882480287323153,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793610900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0883296083956884,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 1.3409442366020623e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.42326927339363385,
-        "btc_hour_pct": 0.15683513106936608,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZBCNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793610900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZBCNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1446129,6 +1445918,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793611549655
+    },
+    {
+      "id": "09b9d7a24b5ab1695a185be8",
+      "asset_id": "a530d6d999ce9d6bc5ca675b",
+      "key": "MEXC:PERP:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793611844389,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793611854685
+    },
+    {
+      "id": "312b30fbcea3f48779d57237",
+      "asset_id": "0f5891f3cc63e840a70a2bce",
+      "key": "MEXC:SPOT:RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793611841843,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793611854685
+    },
+    {
+      "id": "ba110d963d36319358645268",
+      "asset_id": "2ac46697efb03c3e991144b2",
+      "key": "OKX:PERP:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793611843222,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793611854685
+    },
+    {
+      "id": "5972b6405a940beba2a8e4c1",
+      "asset_id": "63ffe0a6186f286172949110",
+      "key": "OKX:SPOT:ZBCNUSDT",
+      "symbol": "ZBCNUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793611843569,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793611854685
     }
   ],
   "runs": [
@@ -1554806,8 +1554639,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "97d2d53aac9406133422f7022b56cfd48c5ffe09",
-    "previous_success_ms": 1793611570308,
+    "previous_commit": "f73d5053a3524eecf74c1fe0171626b970f03881",
+    "previous_success_ms": 1793611853694,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
