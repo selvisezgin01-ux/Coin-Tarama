@@ -1446367,60 +1446367,7 @@
       "source_close_ms": 1793637900000
     }
   },
-  "pending": [
-    {
-      "id": "c963fbe01183cc8ea4e44447",
-      "asset_id": "7943ab7b2767763d564eb8f9",
-      "key": "OKX:SPOT:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793639703371,
-      "price": 0.0015585,
-      "level": 0.001547,
-      "invalid": 0.001465882000325446,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001547,
-        "base_invalid": 0.001465882000325446,
-        "atr": 3.411999783036006e-05,
-        "rvol": 2.2418585222843763,
-        "close_position": 0.6296296296296272,
-        "breakout": true,
-        "bar_close_ms": 1793639700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4294156270518563,
-        "score": 3.8714881519140034
-      },
-      "context": {
-        "atr": 3.411999783036006e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.297606625724004,
-        "btc_hour_pct": -0.03508971097432312,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793639700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOPHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1457124,6 +1457071,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793639122093
+    },
+    {
+      "id": "c963fbe01183cc8ea4e44447",
+      "asset_id": "7943ab7b2767763d564eb8f9",
+      "key": "OKX:SPOT:SOPHUSDT",
+      "symbol": "SOPHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793639703371,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793639714272
     }
   ],
   "runs": [
@@ -1549641,7 +1549599,8 @@
         "entry_seq": 0,
         "cohort": "SOPHUSDT",
         "observation_lag_ms": 3371,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10901
       }
     },
     "errors": [],
@@ -1575670,8 +1575629,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "75b41d6a579252dda3d3c1b9e5fb22b30c600f30",
-    "previous_success_ms": 1793639434903,
+    "previous_commit": "85d412a1a462b690afd815d2de8363e8a3a0c6bc",
+    "previous_success_ms": 1793639712691,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
