@@ -1345172,168 +1345172,7 @@
       "source_close_ms": 1793585700000
     }
   },
-  "pending": [
-    {
-      "id": "522d965cc157708c15a9b1f7",
-      "asset_id": "fe516ed2395da9f8078b7817",
-      "key": "OKX:PERP:ATHUSDT",
-      "symbol": "ATHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793585723250,
-      "price": 0.004987,
-      "level": 0.00496,
-      "invalid": 0.004892859568104057,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00496,
-        "base_invalid": 0.004892859568104057,
-        "atr": 2.7602879306289108e-05,
-        "rvol": 2.227964067036607,
-        "close_position": 0.7333333333333025,
-        "breakout": false,
-        "bar_close_ms": 1793565000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2023881805302441,
-        "score": 3.4612974003699097
-      },
-      "context": {
-        "atr": 2.757601499220788e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.00981715465051547,
-        "btc_hour_pct": 0.35200717075356547,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793565000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e43cc0096f0350673afd222a",
-      "asset_id": "8cecbfc80d32ccd8f4f9ad14",
-      "key": "OKX:PERP:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793585723250,
-      "price": 0.12630000000000002,
-      "level": 0.1275,
-      "invalid": 0.1216872813749453,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1275,
-        "base_invalid": 0.1216872813749453,
-        "atr": 0.0020847908336979566,
-        "rvol": 5.844101640496306,
-        "close_position": 0.7090909090909103,
-        "breakout": false,
-        "bar_close_ms": 1793580300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8702531645569556,
-        "score": 7.053192549587216
-      },
-      "context": {
-        "atr": 0.0022733397295835235,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.659699478445876,
-        "btc_hour_pct": 0.35200717075356547,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AXISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e48c98ff9e4522de41107cba",
-      "asset_id": "b4d55356650d2535158981ee",
-      "key": "MEXC:PERP:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793585723399,
-      "price": 0.12669999999999998,
-      "level": 0.1277,
-      "invalid": 0.12250964477877634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1277,
-        "base_invalid": 0.12250964477877634,
-        "atr": 0.001935701474824455,
-        "rvol": 4.158608502817075,
-        "close_position": 0.6800000000000023,
-        "breakout": false,
-        "bar_close_ms": 1793580300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6304176516942483,
-        "score": 5.3386085028170776
-      },
-      "context": {
-        "atr": 0.002167727787662866,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.9379835571880952,
-        "btc_hour_pct": 0.33660635749412915,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AXISUSDT",
-          "change_pct": 10.259419394688084,
-          "old_ms": 1793582228161,
-          "current_ms": 1793585722168,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0737,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1354046,6 +1353885,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793585129344
+    },
+    {
+      "id": "522d965cc157708c15a9b1f7",
+      "asset_id": "fe516ed2395da9f8078b7817",
+      "key": "OKX:PERP:ATHUSDT",
+      "symbol": "ATHUSDT",
+      "phase": "expired",
+      "observed_ms": 1793585723250,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793585733117
+    },
+    {
+      "id": "e43cc0096f0350673afd222a",
+      "asset_id": "8cecbfc80d32ccd8f4f9ad14",
+      "key": "OKX:PERP:AXISUSDT",
+      "symbol": "AXISUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793585723250,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793585733117
+    },
+    {
+      "id": "e48c98ff9e4522de41107cba",
+      "asset_id": "b4d55356650d2535158981ee",
+      "key": "MEXC:PERP:AXISUSDT",
+      "symbol": "AXISUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793585723399,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793585733117
     }
   ],
   "runs": [
@@ -1453559,8 +1453431,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0e389a30dcc7fd7d5eb0891a18ec09c708d186c1",
-    "previous_success_ms": 1793585453599,
+    "previous_commit": "0fc14c9746f0054c9246cc8baad2ee08466bd0f4",
+    "previous_success_ms": 1793585731978,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
