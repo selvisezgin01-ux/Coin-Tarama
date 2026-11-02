@@ -1399052,166 +1399052,7 @@
       "source_close_ms": 1793631600000
     }
   },
-  "pending": [
-    {
-      "id": "b7547479dccb44616cee3161",
-      "asset_id": "c2d1d4612f2b82f511cb39f2",
-      "key": "MEXC:PERP:HOTUSDT",
-      "symbol": "HOTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793634483193,
-      "price": 0.00042175000000000003,
-      "level": 0.0003925,
-      "invalid": 0.0003757477851178675,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0003925,
-        "base_invalid": 0.0003757477851178675,
-        "atr": 6.3480992142168304e-06,
-        "rvol": 6.88474845641679,
-        "close_position": 0.8615384615384623,
-        "breakout": true,
-        "bar_close_ms": 1793627100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.906825849987027,
-        "score": 7.861538461538462
-      },
-      "context": {
-        "atr": 1.0086837093992596e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 7.034005810393895,
-        "btc_hour_pct": -0.10256133784142252,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HOTUSDT",
-          "change_pct": 37.916852695606366,
-          "old_ms": 1793630866173,
-          "current_ms": 1793634481065,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -1.6282999999999999,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793627100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "dec69fc9783e9c9112fd378f",
-      "asset_id": "0059e84d30af986f3341c88a",
-      "key": "OKX:PERP:WCTUSDT",
-      "symbol": "WCTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793634483578,
-      "price": 0.033375,
-      "level": 0.03375,
-      "invalid": 0.03308300637969058,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03375,
-        "base_invalid": 0.03308300637969058,
-        "atr": 0.00017995746872943687,
-        "rvol": 49.70808637465327,
-        "close_position": 0.8666666666666698,
-        "breakout": false,
-        "bar_close_ms": 1793634300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5112781954887069,
-        "score": 7.36666666666667
-      },
-      "context": {
-        "atr": 0.00017995746872943687,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6346035890620882,
-        "btc_hour_pct": -0.0820282413350415,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WCTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793634300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WCTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c1c170b2386c2524772caa4f",
-      "asset_id": "222e88510c42615c94d02633",
-      "key": "OKX:PERP:PROVEUSDT",
-      "symbol": "PROVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793634483578,
-      "price": 0.193,
-      "level": 0.1952,
-      "invalid": 0.18960815045279292,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1952,
-        "base_invalid": 0.18960815045279292,
-        "atr": 0.0012789969813806177,
-        "rvol": 5.000534231024003,
-        "close_position": 0.8333333333333359,
-        "breakout": false,
-        "bar_close_ms": 1793634300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.20736132711249855,
-        "score": 6.333867564357338
-      },
-      "context": {
-        "atr": 0.0012789969813806177,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.286216723010425,
-        "btc_hour_pct": -0.0820282413350415,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PROVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793634300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1409629,6 +1409470,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793633594340
+    },
+    {
+      "id": "b7547479dccb44616cee3161",
+      "asset_id": "c2d1d4612f2b82f511cb39f2",
+      "key": "MEXC:PERP:HOTUSDT",
+      "symbol": "HOTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793634483193,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793634493593
+    },
+    {
+      "id": "dec69fc9783e9c9112fd378f",
+      "asset_id": "0059e84d30af986f3341c88a",
+      "key": "OKX:PERP:WCTUSDT",
+      "symbol": "WCTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793634483578,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793634493594
+    },
+    {
+      "id": "c1c170b2386c2524772caa4f",
+      "asset_id": "222e88510c42615c94d02633",
+      "key": "OKX:PERP:PROVEUSDT",
+      "symbol": "PROVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793634483578,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793634493594
     }
   ],
   "runs": [
@@ -1500310,7 +1500184,8 @@
         "entry_seq": 0,
         "cohort": "WCTUSDT",
         "observation_lag_ms": 183578,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10016
       },
       "222e88510c42615c94d02633:radar": {
         "symbol": "PROVEUSDT",
@@ -1500332,7 +1500207,8 @@
         "entry_seq": 0,
         "cohort": "PROVEUSDT",
         "observation_lag_ms": 183578,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10016
       }
     },
     "errors": [],
@@ -1526363,8 +1526239,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b83c0f53ece6d7b4a8b761a4e824913f129426d4",
-    "previous_success_ms": 1793634208064,
+    "previous_commit": "10964ff5cae7ca5fddc85bcb6af877fe7660085e",
+    "previous_success_ms": 1793634492500,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
