@@ -1397663,108 +1397663,7 @@
       "source_close_ms": 1793599200000
     }
   },
-  "pending": [
-    {
-      "id": "328cb4e03fcd75edb845de75",
-      "asset_id": "ba7d6bd435a7efbe91ce688a",
-      "key": "OKX:SPOT:DOTUSDT",
-      "symbol": "DOTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793599843479,
-      "price": 0.9509,
-      "level": 0.9665,
-      "invalid": 0.9519675725188427,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.9665,
-        "base_invalid": 0.9519675725188427,
-        "atr": 0.004882849874382206,
-        "rvol": 2.8880212786858106,
-        "close_position": 0.6874999999999978,
-        "breakout": false,
-        "bar_close_ms": 1793597400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.281162136832247,
-        "score": 4.075521278685809
-      },
-      "context": {
-        "atr": 0.004898335845572352,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.0056323567980798295,
-        "btc_hour_pct": -0.047442746679959846,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DOTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793597400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "422114774c2b8ecca19e47e6",
-      "asset_id": "41c133a34e189b22652d840e",
-      "key": "OKX:SPOT:XLMUSDT",
-      "symbol": "XLMUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793599843479,
-      "price": 0.16797499999999999,
-      "level": 0.17001,
-      "invalid": 0.16804826681509225,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.17001,
-        "base_invalid": 0.16804826681509225,
-        "atr": 0.0006115545660518469,
-        "rvol": 3.0137617970817248,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793598300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.17168906518263416,
-        "score": 4.513761797081725
-      },
-      "context": {
-        "atr": 0.0006355009003514883,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.08306683390970626,
-        "btc_hour_pct": -0.047442746679959846,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XLMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793598300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XLMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1407027,6 +1406926,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793599262565
+    },
+    {
+      "id": "328cb4e03fcd75edb845de75",
+      "asset_id": "ba7d6bd435a7efbe91ce688a",
+      "key": "OKX:SPOT:DOTUSDT",
+      "symbol": "DOTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793599843479,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793599855529
+    },
+    {
+      "id": "422114774c2b8ecca19e47e6",
+      "asset_id": "41c133a34e189b22652d840e",
+      "key": "OKX:SPOT:XLMUSDT",
+      "symbol": "XLMUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793599843479,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793599855530
     }
   ],
   "runs": [
@@ -1511514,8 +1511435,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "bd298a7f0ec8f64aa7b6bc61f5c437d035d37911",
-    "previous_success_ms": 1793599571267,
+    "previous_commit": "4f74d90be92cde094e7f4b3123f1ba06656abf0d",
+    "previous_success_ms": 1793599854270,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
