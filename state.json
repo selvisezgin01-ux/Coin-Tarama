@@ -1443221,112 +1443221,7 @@
       "source_close_ms": 1793614500000
     }
   },
-  "pending": [
-    {
-      "id": "4e27882648fc12aca789f5f8",
-      "asset_id": "04ff613467f3643157acea75",
-      "key": "OKX:PERP:ZORAUSDT",
-      "symbol": "ZORAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793616744430,
-      "price": 0.005771,
-      "level": 0.005714,
-      "invalid": 0.005622013082910718,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005714,
-        "base_invalid": 0.005622013082910718,
-        "atr": 3.324611392854742e-05,
-        "rvol": 4.718341822935469,
-        "close_position": 0.8552631578947398,
-        "breakout": true,
-        "bar_close_ms": 1793616300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4474845542806758,
-        "score": 6.573604980830209
-      },
-      "context": {
-        "atr": 3.324611392854742e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4573599016454377,
-        "btc_hour_pct": -0.2101264851453566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZORAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793616300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZORAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a87d84a8da7e2a6845d6ef77",
-      "asset_id": "9cda13111ee161bc29cdccdf",
-      "key": "OKX:SPOT:CCUSDT",
-      "symbol": "CCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793616744731,
-      "price": 0.095565,
-      "level": 0.09542,
-      "invalid": 0.0943445122964416,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09542,
-        "base_invalid": 0.0943445122964416,
-        "atr": 0.00036991802372267026,
-        "rvol": 2.4136752201984994,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793616300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5167141200042247,
-        "score": 3.9136752201984994
-      },
-      "context": {
-        "atr": 0.00036991802372267026,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.26202820384194636,
-        "btc_hour_pct": -0.21066087178831516,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793616300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1453150,6 +1453045,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793616458314
+    },
+    {
+      "id": "4e27882648fc12aca789f5f8",
+      "asset_id": "04ff613467f3643157acea75",
+      "key": "OKX:PERP:ZORAUSDT",
+      "symbol": "ZORAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793616744430,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793616755901
+    },
+    {
+      "id": "a87d84a8da7e2a6845d6ef77",
+      "asset_id": "9cda13111ee161bc29cdccdf",
+      "key": "OKX:SPOT:CCUSDT",
+      "symbol": "CCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793616744731,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793616755901
     }
   ],
   "runs": [
@@ -1537544,7 +1537461,8 @@
         "entry_seq": 0,
         "cohort": "ZORAUSDT",
         "observation_lag_ms": 444430,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11471
       },
       "9cda13111ee161bc29cdccdf:radar": {
         "symbol": "CCUSDT",
@@ -1537566,7 +1537484,8 @@
         "entry_seq": 0,
         "cohort": "CCUSDT",
         "observation_lag_ms": 444731,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11170
       }
     },
     "errors": [],
@@ -1563594,8 +1563513,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "39b6dad708249a53dd323726a0daf18713bcf3f5",
-    "previous_success_ms": 1793616474737,
+    "previous_commit": "edda6e65f7abd246c4195bbeb04e679b4c5d3d98",
+    "previous_success_ms": 1793616754596,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
