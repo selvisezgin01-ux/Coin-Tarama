@@ -1,6 +1,6 @@
 # Coin Tarama Meme — V7
 
-Son gözlem: 02.11.2026 20:40 TR
+Son gözlem: 02.11.2026 20:41 TR
 
 🟡 Erken radar: giriş değildir. 🟢🎯 Otomatik giriş ölçütleri: manuel harita/kontrat kontrolü bekler. 🔵 15dk güçlenme: aynı girişin devamı.
 Beş ağ korunur: Solana, Ethereum, BNB Chain, Robinhood ve HyperEVM. Yeni havuz yaşı tokenin tüm yaşamı değildir.
@@ -15,12 +15,6 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
     "mode": "bounded_fallback_collector_unavailable_or_stale",
     "errors": [],
     "pages": [
-      {
-        "chain": "bnb",
-        "page": 1,
-        "returned": 20,
-        "complete": false
-      },
       {
         "chain": "robinhood",
         "page": 1,
@@ -38,25 +32,31 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
         "page": 1,
         "returned": 20,
         "complete": false
+      },
+      {
+        "chain": "ethereum",
+        "page": 1,
+        "returned": 20,
+        "complete": false
       }
     ],
     "complete": false
   },
-  "started_ms": 1793641124405,
-  "scan_finished_ms": 1793641200160,
+  "started_ms": 1793641221766,
+  "scan_finished_ms": 1793641297637,
   "session_id": "41480789076",
   "errors": [
-    "robinhood:0x435a196fdceeba4f1d20889caab5dcb2ce66a8a1: gecko_request_reserved_for_buy_pressure"
+    "robinhood:0x23b5c07c6ae28b09ca3238332864cea029cd1310: gecko_request_reserved_for_buy_pressure"
   ],
   "discovery_mode": "bounded_fallback_collector_unavailable_or_stale",
   "candles_evaluated": 3,
   "selected_for_candles": 4,
-  "candles_budget_waiting": 13,
+  "candles_budget_waiting": 7,
   "groups": {
     "solana": {
       "requested_quotes": 60,
-      "fresh_quotes": 60,
-      "quote_unknown": 0
+      "fresh_quotes": 59,
+      "quote_unknown": 1
     },
     "ethereum": {
       "requested_quotes": 42,
@@ -65,13 +65,13 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
     },
     "bnb": {
       "requested_quotes": 60,
-      "fresh_quotes": 30,
-      "quote_unknown": 30
+      "fresh_quotes": 41,
+      "quote_unknown": 19
     },
     "robinhood": {
       "requested_quotes": 60,
-      "fresh_quotes": 34,
-      "quote_unknown": 26
+      "fresh_quotes": 36,
+      "quote_unknown": 24
     },
     "hyperevm": {
       "requested_quotes": 2,
@@ -88,7 +88,7 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 8581 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
@@ -383,19 +383,19 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Kontrat | Durum | Neden |
 |---|---|---|
-| `bnb:0x007dc4cd5daa6cfb9700f25697943d49880eebe7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x007dc4cd5daa6cfb9700f25697943d49880eebe7` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `bnb:0x01de66a1fe6ffdd7c77bfc7edd983f20e93081d3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x02b1298e78dbc96957ac658dcc2a458c0a67ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x02b1298e78dbc96957ac658dcc2a458c0a67ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x031e968073a6e183857fe845eec754c13bbd7777` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x0376640bdd675f37b99f9a0c3f6ba371c05a7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0390867ce011a8ce57f33b9d9ed2ded3b20cffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x039eb4c77d0c3ea4a72377650e89641593b32f00` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x043f5ba5e7d813bb0ff909d08657de7d26b9ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x045b4cc6327c7951e8d998db0f15c89b0e252198` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x043f5ba5e7d813bb0ff909d08657de7d26b9ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x045b4cc6327c7951e8d998db0f15c89b0e252198` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `bnb:0x048132c0321ffcae086f143284854c5eac09ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x04c81211adeabd9e9417bc63deb33489dfd17777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x056dc4754e605c882038a75713807eb61a3e7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x05cb880b5504c7d10882b168818a2b0a64d87777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x05cb880b5504c7d10882b168818a2b0a64d87777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x0723020b068b0bc4ee522f2128ff78f38e9005e1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x072c6a067377563ba0d65a600f53b6b34b3affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x076ce092b71b8f90de7bdb15510845355aa07777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -405,10 +405,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x0891d3020512e960595d46845e20a0e6cf9e99bb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x08da9c8577f1ad75057e261db7c1c1ff95dcffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0957d9a732de0fc72b5f5558dac4ee47c2cdffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x099f2009f6eef08f6016bf96f7ad1ae988a05947` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x099f2009f6eef08f6016bf96f7ad1ae988a05947` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x09e2c344fbe4514ad81aa48c8b497220f048ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0a11a44987aa56e93a54c32adbde05a395784953` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x0a5788308198a62e1f02edc07c13acf7397c08b0` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
+| `bnb:0x0a5788308198a62e1f02edc07c13acf7397c08b0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0a9f6514a63484f2237603df48af8f8927d016b2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0ad275b683d3246b2384b9321a48ed63b3487777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0b36817db05b059b93a4b3a84dbdaa248ab38eba` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -416,10 +416,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x0b4ea9e7cc50912703b725f228ae735716cdffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0b757f02bbfd3b6a58c1744ed1194ae744f17777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0b77b51b25f2153a3abc17ea54007962b734ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x0bd499de9eb86dc876e0b406112182bb76dc7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x0d6274c6fa771b2a883ab16618d4748b0053ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x0bd499de9eb86dc876e0b406112182bb76dc7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x0d6274c6fa771b2a883ab16618d4748b0053ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x0e2e1787a21a5fcce5e12c670ae193f626afffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x0e481d012ce2686741b5d430380a3463e137d0b3` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0x0e481d012ce2686741b5d430380a3463e137d0b3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0ef4f34179d98e4fd0d9c8fed7d7ddc64417ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0f071a8d6925f5116cf9660a242c7f580b6f7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x0f0f1ae66c588f1dac86f9b93329192c33db1319` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -440,7 +440,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x13bb4b2c9114cf37d1f83bf724003956cfe78edd` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0x13cfa7dd9041bca6ad9e09436b8968976d2a40a1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x1425021d57c7247247a9ecf90c40e849e200ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x143733ec4f12c93e48fcbec24ff23616f44fffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x143733ec4f12c93e48fcbec24ff23616f44fffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x145613e8924cb6bb39af80b695b3460f305cffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x147926a6000b442a276b31977f46a806f68cffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x14f6f2a8822cbbefdcec619c9e3b33c51732e8b5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -448,7 +448,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x16d06482b3d778f33b1679aa88e53a6363a6ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x16db41fed4befb6dc9c6607b85e286295dbcffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x17a9534a3ddea45d68144b2a089586a52563a6ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x18ca234b83cda3323d4e19b25dc5d048f63e7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x18ca234b83cda3323d4e19b25dc5d048f63e7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x18d001595dfda33c7d3382abf5c05db32db612ec` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x18dee899800130b225680a98ac8080f08f787777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x191382ece65fd45ca92012a2137b3ef771f5ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -462,7 +462,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x1a9088f4254ef27f3cd7329e39d8be4bb92b1bb3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x1aca5fadd7ca065b6a5487fd63a782dfbcd87777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x1af075ef99e3ca5ba6f9cb51ba58083e37e34f60` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x1b5c9f7940af478d1a32caddc1d5fb38815b9f0e` | candle_queue | waiting_closed_candles_and_security |
+| `bnb:0x1b5c9f7940af478d1a32caddc1d5fb38815b9f0e` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `bnb:0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x1bf08b8a52572afedd6c781adda5e277a7330122` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x1d2ea6f8fe8167bb6d17fb1862b32e2d13c05bc6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -478,7 +478,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x2037c4aa60b23f9c5f3b760372143f6fdb1e2681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x20753ef401582eb4acdfae61e495da20bb637777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x20ada90c8b62443b4146e67913799872d93cffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x20aecafe521e07d5b4eab44ec81e0df8c9cd7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x20aecafe521e07d5b4eab44ec81e0df8c9cd7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x20e595a9b059fcd509758a096cdafd246929ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x215ceea82b1b2f5c69a68f51a3b10bebb5bd7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x21fb1773baf8a27175211a1c3368e6f8c2560322` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -489,10 +489,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x22c9a15b80435fd075b569723be34dcd5af558b0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x22e05e6fc06bd3c70c87e68468dcbf3c3f9affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x233d91a0713155003fc4dce0afa871b508b3b715` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x2355b37be73bbc172e38f89dbfb0fdd7ec054444` | quote_unknown | no_exact_token_pool_quote |
-| `bnb:0x2383daa282e66af0a62a0826ed481df2277b74eb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x2355b37be73bbc172e38f89dbfb0fdd7ec054444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x2383daa282e66af0a62a0826ed481df2277b74eb` | market_rejected_or_unknown | liquidity, liquidity_to_cap |
 | `bnb:0x239bdde8d745312ab1bb8a1e5538088104e4ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x23aaeece68600602fdd4edbe5c39fc591ab5ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x23aaeece68600602fdd4edbe5c39fc591ab5ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x23cdf8043bae159ae4be904c8ddbac1d5432f60f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2487abdb9012fcf73aed06b4098d1cbdc11d7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x24c458a3ebe6b6e7cb0593ef600ca0340b3e0ed7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -522,19 +522,19 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x2dcc23d54ad00623f31b67f3c2fdacac7d27ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2dd465d29aa8066662f0771bad7ac9c8031dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2e2359ee27bf5d7b90abee29d8f50a0ebdc94444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x2e4d3f3b611deb672734bd4d147566afe36b6666` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x2e4d3f3b611deb672734bd4d147566afe36b6666` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `bnb:0x2e542dccc55764db179e1e435c2e6bbdbd95a95d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2ecd3adf01801607ee35991deedd646bee17ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2f1942d3b77990c0327162467d4f4ff79609ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2ff0fadd4b73742415aff69b70843431f9167777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x303961f1ddbe66a203d9e5520487232d6087ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x306e1373d3f00f648aeb831b538888f47293ffff` | quote_unknown | no_exact_token_pool_quote |
-| `bnb:0x308ddd8143e19134e3a328d996a402143945ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x306e1373d3f00f648aeb831b538888f47293ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x308ddd8143e19134e3a328d996a402143945ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x30ac669326b2e9019f95305150789b757216c435` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x30edca17d66577fc73f6f4b77c7697cb0088ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x30fecf269a793d88b5d1ceb8d4f73600d5bf16ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x31069e8c9bdaaba3ec6368a7ec03043d81e57777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x310cf792164aabb2059b3ca9027d14484b7b7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x310cf792164aabb2059b3ca9027d14484b7b7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x314a7dc98c25c762c2663932c6b20a08c5103008` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x316ae59d20e180e7068f4bc679e3a8b6b891db2c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x31a651ab0a04c71bc30b816bd67374ed5511dd0b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -546,17 +546,17 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x34b489d24b02b203b5929279b78a6b36fd677777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x3532f05895680e3ef8c7210a6a5d562a60cc3f51` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x3539610be777dd460734e15da1fb58f559330f7e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x3639faf798df5183284fd861ea7b90ed3a5c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x3639faf798df5183284fd861ea7b90ed3a5c7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x3652081ad49df89496a6712f133a05d1144cffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x3661e157d5ac388bba648905cf0f1e639a887777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x375c32edd0bb709a5f4382633c19273dd3f67777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x377ea1bfd7228db70a673cef54959ac6765a99ad` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x3785da20ba889174752a7b97649dac8fa6efd84b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x3785da20ba889174752a7b97649dac8fa6efd84b` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0x37a751ad0fab2e357fbdb94a72a8fb965feeffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x37b5f7ba5ba8f6b82a53ef9b5955f33fdde0ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x389781d9e3b4bde10eb4e00524d95cd53d07ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x38ab25ff85882dbd24a7fc63a033d0e749cf7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x39cf426d56a9df4404254974711fb067dc4a4444` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x39cf426d56a9df4404254974711fb067dc4a4444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x39f6c37752ac328bacd6180ced4d5015245f7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x39ffbc37fe7321c5dd068f72861d63fce5069898` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x3a2a98187c0915666fe77bec12ee365c4fabcede` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -565,9 +565,9 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x3b4ec52f542a13863f2c2c8ff6f04dddf87f1b50` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x3b51e1557339d57a0e3b2b4f00bb27b61be87777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x3c40a60a98b88426f5a8970073d425cf0efc0a27` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `bnb:0x3c40a60a98b88426f5a8970073d425cf0efc0a27` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x3ccd98c41760a299582b00e00cae355ce621ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x3e1908e80c377b0d0f2c843351032ac9cdcb7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x3e1908e80c377b0d0f2c843351032ac9cdcb7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x3e411dc22c7f87e1d31cff0929731a48d969ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x3e4a86c3ccb329d551eb5f8dfa3dfa29ac32ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x3f00bb267775bc700ad2e8548f38db281309e869` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -586,11 +586,11 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x453a38a67259a066dc18551d7ee44fc4c5aaffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x45c79111b92b0a3f31aa7fe4a1087b519122229f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x467e49a5cd2f73f463628e2016ab658e4979089d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x46a6859242a53e0185714e8918b92e8c8b6459f5` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0x46a6859242a53e0185714e8918b92e8c8b6459f5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x46fef3cac38772c7d9393a3aa7886137a2ab7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x48079e20fb921af8576eb14871ba0d1ece6927d8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x485922dd280af6f39421fa8afed2c191174affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x488b4317be16e3b7f6710365e61cd44846a2eeab` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0x488b4317be16e3b7f6710365e61cd44846a2eeab` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x488ef14716b00cab3b487c7cbb3d92fafbf3ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x48b6ac37c4bc59491f891b8ddc546f897b534444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4902c5ebc598265ed2212b559b042de8a5eeec3f` | archived_age | pool_age_over_24h_identity_preserved |
@@ -601,18 +601,18 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x4cce98e3827f4682a8f0f4a4269d8fab9260b919` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4ceef7b32b4ad0449c0a79fa06cd848323b77777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4d1fa9b41210d8ff9e871488186251e5f6727777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x4d2ace674d82470626eb8a264f9f0906fe737777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x4d2ace674d82470626eb8a264f9f0906fe737777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4d6a99cff5fed4b3a4abefdd57e0c64b2b76f15f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4d7be63ae8645dcc25886ee1fddbeba22e84ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x4dd840401af875a3ff8ef11ea715273f56c47777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x4de011ff0d0eaafeb85da571eda137e4d7fdffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x4dd840401af875a3ff8ef11ea715273f56c47777` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `bnb:0x4de011ff0d0eaafeb85da571eda137e4d7fdffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x4e2d25f5421d8b391efe2f712afe6a3056e1cfae` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4e5e411d4866654fb9b8e0944a08a150c5bfffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4e6c50c845f9d239ab617e1e9655b39e61477777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x4e80a9802f0109f4433ee124e0b3ffa17b047777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x4e80a9802f0109f4433ee124e0b3ffa17b047777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x4ee96f9b431297db3d38af2d53850aa1d207ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x4ef4aa6447fb7a52b3ff50adccadee2b58bc7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x4f5dbd7198cf9e8df3f055a6c0c73f364ef3ca49` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x4f5dbd7198cf9e8df3f055a6c0c73f364ef3ca49` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0x50218dead2968aa5aa8de4a6126c8dc406460274` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5054a91845ebe410d08a577b95dafa15cd64a3fa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x50b0deb82720b386ab08e8db7c3415138dc97777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -620,7 +620,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x512d715da5ba72f35d87505c11e14a78d603ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x51a8a39d733aafd3de5f9246737f6fbe30843d58` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x51cc2df2d6d6dced4d2635ad08df382f034cac93` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x52a150dd96e253a312346578645654b17a4e083a` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0x52a150dd96e253a312346578645654b17a4e083a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x52eee82e807c306ca034c3bd8f9a085a062c8888` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x52f8b921b45dabec775c6da66cd73a53a1c17777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x53880855bbbedce4860b0644035de04f2a467777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -635,10 +635,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x56734e5340de743d6be9a8eb2c793a280e16145e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x56cc896e42d2274cda9628cd62a297b6f50fffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x56ff9e1d745096e69dc1ff19e076d627c88c9257` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x575dc5992c7df93fcd6c65777ced4f19eb0f7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x575dc5992c7df93fcd6c65777ced4f19eb0f7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x5790a2c9196b721f1c5d1658b95f290440832236` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x57ea1a64d06834428ff6215a62fa64b1c4289795` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x57eb6d23652905c6c9f5ff5032f2ebe3571e5a5c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x57eb6d23652905c6c9f5ff5032f2ebe3571e5a5c` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `bnb:0x57f8968a5272bdc69f4dcc06d9ef33e9f1fa1e70` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x584e78818a79569064f0c0fe320603c7743bffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x58a18dfc1af90aeb219beed091aee256682b350a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -647,7 +647,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x59497dace3e6c1aeef05ed197f0cf9cf5d4c436e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5a3626398bd512d18dc2744097fa4c93a15f7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5a39796eadcfefeacea1fe97e0a5f917da17ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x5a6e986fcdefcd9db973e23ec5c59485a64e7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x5a6e986fcdefcd9db973e23ec5c59485a64e7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5ac4aa061b297b79d856d3e6ef7af84c6b3e7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5c1c05e016113f37d641240d97e5a4991ef51143` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5c3aed51f5740e5b9906b5497a4d032fbf4d181a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -657,12 +657,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x5cb67f993d780438d6c98814df4dfa014813ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5d0a19b24ab2eb9ac43a5c363d56b18014e2a429` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238` | archived_age | pool_age_over_24h_identity_preserved |
-| `bnb:0x5d9c76c01f96b5bbffecea69d61126a21341ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x5d9c76c01f96b5bbffecea69d61126a21341ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5e1c79e2c61c10009793410a57d9122ebe489b82` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x5e8b93fb34edbae530d14a7e8d9b44d340802681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x5e8b93fb34edbae530d14a7e8d9b44d340802681` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x5eba5a0f5bfada17bf050517a01d224a5ef8ff44` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5ef5bbb48e725706ff79594a23e045e52fe9a1c8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x5f4229c422d815f01a07acbd50cf9ee6747effff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x5f4229c422d815f01a07acbd50cf9ee6747effff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x5f6bfa71b9ee181620c4344e292017a9b52437a0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6062a5600a19c604d35db60199155ee11db0ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6104f18fa9ab19e365fe3815e394f95cbb0b3fc4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -677,7 +677,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x63fc0e5fe582bbe6df89e94c5142c09f26857777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x643520d322b62f039a1c09efb4a637b3a7dbffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x64e5b3b459ef8d7fd0733a70a2898ba9645458d5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x651ccbef15bbfa4670c24194949a3259052eabdc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0x651ccbef15bbfa4670c24194949a3259052eabdc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6544f3304e3475c51cd406966a4371cea19dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x65a95c2bc5c12e8e30e24d322ff386249c29a072` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x65bfd2ee14ab02e85f6ef71ace9a7354ed177777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -689,22 +689,22 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x66a6ab9e83b82100714b3f3e687dfb3d15d2ad62` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x66e013d447cef96939762910569b842b98c6ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x677a34a200c82e8ae891699d13bde42ccf7c17fd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x680761a3563a501bc53f335c9b362c700b0d7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x680761a3563a501bc53f335c9b362c700b0d7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x681034d30467e7ba111449e8bf5572c6da239aa8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x68d83dc163f8d7ac779e15d3eb46c2c1fb6b2088` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
+| `bnb:0x68d83dc163f8d7ac779e15d3eb46c2c1fb6b2088` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6994017b43538c404a144fcf17e87d489211ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x69f65542d6c25cee8382ca118633ee3f6c3191a7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6a8f04af689063a40822a8a0951f282ede03ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6b345b14f8458885bd412d7a0cedac450503ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6b64e0cf6789823953f4abcf2318a27b15eeffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6be6213c77746d90eb4829c2b7fcaeb6b24e7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x6cd13bb87463cea53396a6ad32653254b572ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x6d9aea01a5fa3e6800dd3ff63db9da605158ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x6cd13bb87463cea53396a6ad32653254b572ffff` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x6d9aea01a5fa3e6800dd3ff63db9da605158ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6dddc6ec757c6b96c44079fd45cd10e8d6e97777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x6e25e3c562701d70075f6cc1982e6916e2c17777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x6e2fe7e21592b605b7af953fbc5572fa19ffa013` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0x6e25e3c562701d70075f6cc1982e6916e2c17777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x6e2fe7e21592b605b7af953fbc5572fa19ffa013` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6e432d7813b295e536106e3d69016a74b1a8ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x6e57f17c3eb432c0559e6cabf6c3d8600bc9ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x6e57f17c3eb432c0559e6cabf6c3d8600bc9ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x6e8345e97c3943f59c138ab18e5a6fe72491c936` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6ea169104b680495a50005ffa7120a7b9c067777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x6eaaf9306a9a3d620a077b3fe05f240b8d97ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -717,13 +717,13 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x70a85bab67fa0343c2aeb9b5aeb008a08724b2d9` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x70f7269b34cdc6625cd2652160f9bac9779f1c10` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7125094545a366cdf03c8e55d6d3b8fddc0bffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x71df0db6deb6e2a2faf0fc3adc41544dba07ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x71df0db6deb6e2a2faf0fc3adc41544dba07ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x72292e74642d0cb0a69863d968a7ee84dcc8ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7247af5c8fbd340b92c23931a6743f781e58ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x726230a32d61ff61fb47ac7076718d31b3b8ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x73507d8080b41b7d3419baec96b1774a393939b8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x73597b4f275ed217171dd4fdc37c978291db7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x740fe59647af8582a21c8da42ad564f307e33094` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x73597b4f275ed217171dd4fdc37c978291db7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0x740fe59647af8582a21c8da42ad564f307e33094` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0x743ed458db9428e1bc15160a34452ce90ae44499` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7486661f800a81eeea4bf385a29f6628825d2681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x74f345e3317006fbb7b1f9a10ca197e371d27777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -733,9 +733,9 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x75b40768b0017129c9e95239faf4dcbfc5d7ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x75d8c1ac3fb6a9a6d1f6328ac17e46243ec089bc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x75dcf5ce0f20cfbc3535c1c047e669f9bd03ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x771983aa41b073b3effc36fbf0e689963c46ffff` | quote_unknown | no_exact_token_pool_quote |
-| `bnb:0x77ffd889fa91103f68eec858c98ca53738d27777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x78de58c75aa3d384bfd1b9d1f57f4ff309338638` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `bnb:0x771983aa41b073b3effc36fbf0e689963c46ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x77ffd889fa91103f68eec858c98ca53738d27777` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `bnb:0x78de58c75aa3d384bfd1b9d1f57f4ff309338638` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x798eeb1c7649e8677ac5f5af903a813c59ae7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x798fe4170d04b7aa9193e8e7376a5c2f74a7ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x79ae0dd9e7f2c9b738d4a828f272bdec17797777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -752,7 +752,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x7c71ab03af1cc3fdc39e814bc1c0bd30b2b9ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7d9f5dba4b11cb59da777c1d6269151cc9bb2c7c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7dcea3fc3b37f1179438d679bdc353fed210ab85` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x7dd7511c9596917244b74a78f175db16d4545c19` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `bnb:0x7dd7511c9596917244b74a78f175db16d4545c19` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7de1606230aa70802caecf1a3e90039a6265b1c4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7e2da878217eb995f9e5d36ed32c9cea52442681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x7e938c531d49b05ea5a95dd1a62de54ee52c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -762,12 +762,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x80aa6635b3b78910cb8663addf5260beb0cc12c9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x80dc112e8620923453845607c6256677ba3a4444` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x811d9ff5ff79f94c52547d86586e08a81a5b7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x814dafcfb2fc9bccf9cd14c5c0909a9789dbffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x814dafcfb2fc9bccf9cd14c5c0909a9789dbffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x81d331df2219b4681a17a3d90647daea839a8d1c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x81e2b1e9f8d26c99e4c1b32716ce5a71ab2fffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8209187ce9966ee2f3861b33cbc727de947fffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x820da39059a92388877d7dc61e86e741eb56001a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x825308858643c332a0616739bbdeb00b7f42c81b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x825308858643c332a0616739bbdeb00b7f42c81b` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0x8281edd3d9e25da54016052cac775a21fb9a80a9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x829068f5305722508dd9593d7be876ef0625ea12` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x82e49f61cdc12179b6876b2f03ead362d8bd7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -784,17 +784,17 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x86ef99de176331ede1608058d6d50c5276651caa` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x87109ac772a9546c1ae55dd8d794c68228486666` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x87752900251a153ea58724cdceff4afaa9737226` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x87757f1bf197d1fa7905a20427c4d1aec8307777` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `bnb:0x87757f1bf197d1fa7905a20427c4d1aec8307777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x87b8cf132998be5099c7c20124c854b4494341b9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x88187fcec1b5e11c2952706371ac653cb5adffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8832e3f3d28300aa4a5592c91ec033ccea327777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x883a1a72101bb5fc591c2be9b82046931236ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8882417a77780a92658bcc987b2defec3187ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x88d2230f463adcf2b61464569c672140b35eda65` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x88e2c5b8305946e334f413cc3ef76cbd00627777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x88e2c5b8305946e334f413cc3ef76cbd00627777` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `bnb:0x88e7d2f881322cb048d1b40c16d880e1a90effff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8a35f473a6718e6e217e7d9a9ea8be3ee19aef36` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x8a452b45680c4caedd291083cffc31d7e682a3e0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x8a452b45680c4caedd291083cffc31d7e682a3e0` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0x8abc6bae5454155d720802a6159ffe1b14627777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8ad1f9a78a708faec8ab9301189e6d0b79d9d276` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8ad31d9e57eeb92df92940a5c84ba8c5c7f07777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -802,7 +802,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x8beffc06243ed3e0b9c746f917d5e960c38dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8c55a6ab98506d89c2b418f390cef5bb2c4dca5b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8c7c6f1c88e0ee0066dbf46c1d8c2cc87a62ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x8dea3772479f11d088cbfccac3ccd5426f69c098` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `bnb:0x8dea3772479f11d088cbfccac3ccd5426f69c098` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8e2126d4dc3fd34868662fd5f911f3fdaf037777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8e99577501c49bc57ac8230e5c6c37f360b16a1e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8efc020d3c26e5063b484f2dbd5e5f7f1241ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -810,7 +810,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x8f2d316470b70febafc1d6103da55a1538267777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8f7245efa1a40260729a12d7b83a9d74aacfffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x8fde763e5cbb09398af1c7c29d6406ca2963cb30` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x8fef738d4a5c4cdc312cf53f949fb57e8a557777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x8fef738d4a5c4cdc312cf53f949fb57e8a557777` | candle_queue | waiting_closed_candles_and_security |
 | `bnb:0x902d827f3cd322536bcad72eeec51df9dcffffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x904ecca8cb06777bb32527d523bd0011a5127777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x90701dad0ac9abec1fc58e6a29af186ccd5f960e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -819,45 +819,45 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x9096637ce8c6c8c47926f012ea2ca0470b00ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x90fd06a6b4d204e4c6622954cd771a1d7dee7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x91ffdd12535d0b08ceb111b423229a9bb4a6dada` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x920070247693ffb1fa26b123f3506ea173154033` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0x920070247693ffb1fa26b123f3506ea173154033` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9260f5f1aa3552c6d113e7123a722cdcba798535` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x92cfcc089de59169e7ab6a3e64c932d1f624ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x93b2a45ee814547128f374f5fb95c3fb0dea7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x94a03f764c4edd4b8991e3a046ea33bc1e4fa474` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x94cf19e4a76d3a3650eab873343703f9af017777` | archived_age | pool_age_over_24h_identity_preserved |
-| `bnb:0x94f8631aaacae3d29f2fb657097e369bb1d74444` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x94f8631aaacae3d29f2fb657097e369bb1d74444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9517c04b1789002e59fe7c8b79ce85bf8f1f87ca` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x95c08092687a092379e0f42c21119cde97317777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x95e6d82e2797853080aac004c4e04a7f278bf79e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x960db78603d62a182af7c22a2305d01c81eaffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9647c5f75b2ec3b79421218cce28fb2acff688bd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x965767d213072c94d227d80c4d22ec4dc1377777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x966b66a7f9e3073c391d074254b27f06df62ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x966b66a7f9e3073c391d074254b27f06df62ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x966dfa261912a8d2670a405f76d1554ac99f1699` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x96a6854d299ec9c0e7715d2fa6d10e283850ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x978ca49c645aafa4a70b18d35e3c46042a44a72f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x97dc9376457e6960e86cc0c4986620fb9ebeffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9890d227803755db5a41731b25bd5c093690880f` | archived_age | pool_age_over_24h_identity_preserved |
-| `bnb:0x98cbc889576bbdb4de34e520f7bd477e18b0ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x98cbc889576bbdb4de34e520f7bd477e18b0ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x98d2e1c332b9cf5f8f595a1f16fe60de456819d0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x993704383e164cad1123d4b61648f04acd41b288` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x995ac3d552ae4f9e699ac320e5dd5569a42d6935` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9a13869c2c464fb93ef8c70b3223dce02f0dd12f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9a43b63be488e3090ee5b57297ed08e08b3a1fba` | archived_age | pool_age_over_24h_identity_preserved |
-| `bnb:0x9aa665256235fe360c3cf82b4564378935c3ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x9aa665256235fe360c3cf82b4564378935c3ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9b37c7f931718fd220008cb02d62b66f53fcffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9babfcb440848b1aa69768392f3c91f9255dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x9bd3e49bd7f6ab65ee3f0c606e96e6adf22dffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x9bd3e49bd7f6ab65ee3f0c606e96e6adf22dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9c20c6f3bce437dba4e136d0fc90b545c31fffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9c7c49ceee5735c30eb8be1fb61d9281bd9a7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9c8683a6f4a949ffb1b731d66a1ed5ecf562e0ce` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9c8a29b9b9866464bb34aae32fd94a1594b1f3ea` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x9d2e5a1c9c4ef1a979bb168bb8851a1fc063dcee` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x9d3de1ae4b904bb78ae82cd1f886b67be06e4444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x9d5b4312f8ab67510326a7d7d3fd915f4ed4b7fc` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `bnb:0x9d3de1ae4b904bb78ae82cd1f886b67be06e4444` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0x9d5b4312f8ab67510326a7d7d3fd915f4ed4b7fc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9d881cd613b946b1e6d2e78bfc1df168ebf07777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9d8a6789d3b0e4dc47b326d591d9eda44691ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x9d9aade1498662964d1c4cbe83d9d401caab2cef` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0x9d9aade1498662964d1c4cbe83d9d401caab2cef` | market_rejected_or_unknown | liquidity, liquidity_to_cap |
 | `bnb:0x9db3bc25b34d4e2a15cfd57bca2956696125ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9dc37866ce0805852b2e55fb6d01c538539d7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x9e0e9619b4f4ac59da5dbfdfc2dd9b1ed3cbffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -874,7 +874,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xa0375ff52232ad353e62b48d258b8b1e8d5da772` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa04c3ea3d40c5ab169a4a7c559409b9c679fffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa0ba118d24c37e91c5f2d2826a3d3066755affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xa0f94759eb18846397d6fe9225bd1e896b32cf89` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xa0f94759eb18846397d6fe9225bd1e896b32cf89` | candle_queue | waiting_closed_candles_and_security |
 | `bnb:0xa1a2c29e55d3487c78e626ecd328a038d9807777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa1e270d7649adeefffe629ee5b538d05fcd436d2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa226dfdd0e2168676ba13889e93c07ce3a0b4e37` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -889,12 +889,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xa3ca733d692647bf10822fdd599bc7aaff0f337c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa4a875f5567e1cbbeeff1f20b13cde3877047ec1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa513565ceae999f840139337739ff2050b6fb62d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xa557ab6f499276b6abbdced38c88330fbba9ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xa557ab6f499276b6abbdced38c88330fbba9ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xa56c116d2b8b7a06208019cf96cc3b863c48f6aa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa5f701279f3786b523ebb4f8df620e93e5217777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa60d0c7b2fdb71275c82bb6e4b04579259571451` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xa60d275288f1028f4296e59d22c65675b930d982` | quote_unknown | no_exact_token_pool_quote |
-| `bnb:0xa6815022da1b8c0959211f491172099d8e8cffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xa60d275288f1028f4296e59d22c65675b930d982` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xa6815022da1b8c0959211f491172099d8e8cffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xa68d476e0a31c777654189569f52c5f85ec92681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa6f7f2aec4aa11595f43755a852608d2063f7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa72673eb513a87a2f6110a0bb697ab329813ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -915,7 +915,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xab9d73e837e36192c02209a0b75a91e66a0b79d5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xabf2753ae556e1d175c337b981954f7a9bd0ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xac20fe64d836ee0eaf954a21f242ac9e73ddcb0c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xac2419eec3cc3fc6ac0627672096fe248142e312` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xac2419eec3cc3fc6ac0627672096fe248142e312` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0xac345f35adf8cc09751f430e8e83b83b0a8b7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xac771ad329c47414d02ae315d6020834853777c9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xacd0bd5c97bf8e874c8d5f1f97848097543a7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -923,27 +923,27 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xad094274951f329c68ba9dea8a97b5fbda61f415` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xad0e91e0b4d5a879ea6994fba0527683c66290b8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xad7003bb8aceeb69a9ce84ee61987608b054ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xae145197ad2f73b20737c57730384d45cba81a1c` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `bnb:0xae145197ad2f73b20737c57730384d45cba81a1c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xae2f8ca5c3d87aada10e3cbb9c26931a41a9ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xae9add35c5287a853de06a38fffaecbffd9187f2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xaeeae772d13dfd444c9322d3e3096b0ee8e8ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xaf02dac1d518546ecfcd04803d4e4921f65c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xaf4ae6a6c70b0160d3e1254520c57e56aa4e2158` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xaf8b73a2d762b5d5803612fe1042d6b9b4a5ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xaf8b73a2d762b5d5803612fe1042d6b9b4a5ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xaf8d9500081d456510187f1cca0a0a73baacffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xafcc2c88faed9c91f15b8cb815f127883095ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xb037bd82a4f7f42522aef9e37e3419c3ae4dffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xb037bd82a4f7f42522aef9e37e3419c3ae4dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb0963423b4ac24a8bf6787915e82eb0cac2c72b2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb0d4356469f7f4a4723c15933b710da7f63e6320` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xb1e705f2c3e05908503d9bd1c4480ddbb65f2fec` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xb24896cfa9c79da00795e37841ca3de5073c671b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xb1e705f2c3e05908503d9bd1c4480ddbb65f2fec` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
+| `bnb:0xb24896cfa9c79da00795e37841ca3de5073c671b` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0xb2fb3a8c57c58aa65273286037e6cd4fc368db3e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb33f565eef02f32ca52cf040bd6ba9bc7847ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb3d58d711e1e91f6b3681eda298d3620e6b7b6ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xb3d8905e9d21c6fe26e4c23ad31d0a78cc1a7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xb3d8905e9d21c6fe26e4c23ad31d0a78cc1a7777` | candle_queue | waiting_closed_candles_and_security |
 | `bnb:0xb3fece3f69a04a3b74a504a32d239e213badda13` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb520a4eab0f25f8f00ebaf9e2cefd20b4349629d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xb52c91d8ef46d04336535abad22988676d8affff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xb52c91d8ef46d04336535abad22988676d8affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb552becd52f3467384159f3070449d80103f8888` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0xb5905b343bdb6fa936ac990447d8ac01760b7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb6b54116c0fc2e80a7cd0a7aa319903b898c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -953,7 +953,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xb88d9c2416f8ea25faf5eb87807528dda2b45e68` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb94e64a2630d231b381018829890b979c1f7924d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xb95a5d43332a23962d280aa821dd66fc7bf97777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xb95fd44e763c91a172c87ec0111c80ccbde95764` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xb95fd44e763c91a172c87ec0111c80ccbde95764` | market_rejected_or_unknown | liquidity, liquidity_to_cap |
 | `bnb:0xb9ed706fec2ccaa6bcb0ed40c6b61f50474c1a1e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xba77e2c13395cb7211496c2c7bfc5a16585d42c7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xbabd85f352889e56b760b2faafc64bcf26ed4444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -977,7 +977,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xc2473caedb4002e4d21352ab8d5a549a4ea28763` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc2717c4dcffe1dd8bb5822f96773a799d8eca01f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc28549c65fd741375232cc17414e3cf16d72ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xc328567eac803a5a85738a2f4b238b579e1605d0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xc328567eac803a5a85738a2f4b238b579e1605d0` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `bnb:0xc3c679c0e66afcaa1cffb0423b41516aba87e389` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc3e25084e1206a6cfdb95ab46ad767f1f2a736ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc420e89a8b0810da7a1807c27ed6cf355becb43e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1000,28 +1000,28 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xcad80b2a21e350cbeffbd43e203e703b9423ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcb33efae92af64d485ec4e7c8da63c131ebaffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcb771d3f81466f1320f47b616e8efe4ffb20ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xcbc9f0501d73fba358437d777dd4d18eaeafffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xcbc9f0501d73fba358437d777dd4d18eaeafffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xcc39720a0b7f23fbfb1d785fcbade20fe6ccffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcc61ca239e343e877e0a4617225218a9e637523e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xcc7ff461af28acddd84f49fc40e4e675b72affff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xcc7ff461af28acddd84f49fc40e4e675b72affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcced0858eef884a37daa3f8c2e7a85ce4ccd7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcd5c86d087e885b4783da0870d46bb8f3dcaa351` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xce6a70fa85e6448e65d4e18ce9ce77041033ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xceeac0d365a6b52497236518761341a05bd72681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcf6a024f1ff863ac6a58094099e341c4c4247777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xcf72bdfee327ebc68e5b7a3defb8119295d4ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xcf72bdfee327ebc68e5b7a3defb8119295d4ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcfdb47f8700a64c88f3f4c6b41489a8e71667777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xcfe105287e386cdb5dac2c88d8ad5b4294a7ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd0049d5c0b955a1ae54292629906a18f26968b45` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd014d143f598b61fcec6b55cec79bf55d9dbffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd03a8f471758712461757c79f0afec2d6d8dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd06ef4bc420e804cc450767917569ca264c499f5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xd0bae2d23aaac5e93ba4f02568f4c4232a823199` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap, liquidity_usd |
+| `bnb:0xd0bae2d23aaac5e93ba4f02568f4c4232a823199` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd1fd8853edc001dc49ae1b8665bf79dc32544444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd2272a9f9585483c732b742d80e7999c69757777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd2a61d3558b9d021252f018fd333f3198fccffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd2b4a6b0fff11d4dfa758a4a6fac448a9584ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xd2dad269ed167efe2c5e8c135e795ddc1c4affff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xd2dad269ed167efe2c5e8c135e795ddc1c4affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd387c41bb77e5d5c52305c71b27a40b1d92f6554` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd47b5522df1b75318ea14222eac67987cf1e3789` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd497bacab347f7d48c6addb42a8a4b8980baffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1029,14 +1029,14 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xd4db6f1d34cfe66277ad6887346d0c168d9e7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd4fbeb3a6f7cdda2624b4c82a7bdfe4ed9c47777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd5eecde7ff0cd3e89980b0c5189e344b85c5ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xd65fb7f099c5d699f7eec41406402ec497beffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xd65fb7f099c5d699f7eec41406402ec497beffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd67761df2b76ee251d48816691f5ff7728d94daa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd6e8406742de7cbe039f573fff155b81caddbde6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd71288bbd460f097106a0ef928b86c250ec5efdb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd731a584994d4c77ed481b2b15fae54439fbffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd7e5e422898aa9f0f5998183e2741562ff18d64c` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0xd7f3e8d8252f7fcced37f6ad9f517291435bf416` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xd99f1a6eb464b754d44be9b36d11107f914b3ef4` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
+| `bnb:0xd99f1a6eb464b754d44be9b36d11107f914b3ef4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xda4249b4c34b11c9fedff078b003202fc2a6ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xda465eed5ba3fd0c9699ae9b5ed393fb400d7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xda855dd398c43f4a088c6bd689985c684cdcffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1046,14 +1046,14 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xdc9f6fa760012f4abd0fb0ac1ff3cf9c66ce1801` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xdcefb67ba203cdc4ab8bf6f4dafc72c97ac98501` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xdd07c42a65845cecd6ad6945821b5c1f4fc9ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xdd646ce4f8e8a86e30d939b5062a2f68c5237777` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `bnb:0xdd646ce4f8e8a86e30d939b5062a2f68c5237777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xdd806e436dda5588bf54061c11590c77ddc87777` | archived_age | pool_age_over_24h_identity_preserved |
-| `bnb:0xddea5637f727dfaa610e61db1f7ca929a293ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xddea5637f727dfaa610e61db1f7ca929a293ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xde2e48100c08009c68cd1cd801a244654bb35600` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xde3d9f6a72f629ee2e393728bb6086bf805c4444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xde6caf354ff234bcb826668dba017dae342a54cb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xdea2b88c8ab3afc8f8b6574d720d1b0b59e15186` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xdf2389dad95ca3722968531b01bfc1b7dfd1ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xdf2389dad95ca3722968531b01bfc1b7dfd1ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xdffcaab4d7fff539b8226546e2a34fd0af2ea668` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe11ee96078854d9be92f38aaf1cbfafbb97affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe13eea8ad3b5d4e29a2361ce27929f78eea47777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1064,43 +1064,43 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xe425482d4cc97b26cf6793ac09940f807f1990ff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe4408ac0ea3fbe0780268ebe97c36a7d09b6a571` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe4df93930886bcb82d83928c4790c08682d58888` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xe4ea65d1a45e85166060168e48a8c9e81def9c0a` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0xe4ea65d1a45e85166060168e48a8c9e81def9c0a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe5e729d53bafeae16bfe3522ba67ae487ab9214c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xe5faecf6b704d4df1cd8484e627e9936d62c7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0xe5faecf6b704d4df1cd8484e627e9936d62c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe629f9076fbf94bcb5e73da9cd790a83e6cb9e2b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xe6379a2c67ffc8f8ebc557d801fdaa6035b74444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xe6379a2c67ffc8f8ebc557d801fdaa6035b74444` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xe662f8a217f18db1b867c18c50759b612d177777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe66af35bd0d85e3e198a75d1f6cdf80ed394b305` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe6b9e751fe8be2e0f82172bccbcbf053aedc423b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe82d5844464850049fa8616f850e9eb320f02681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xe8fdd9ea0a40bcc2c3da366e4a15c511013bffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xe9c8f4b2933e76910d99d2f6b9bf362bf0d6bbbb` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
-| `bnb:0xea1e3ee593bbbee280fe41861ebd42c94f3e7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xeaac6bf14474e1b5e607561119b5794f3b97ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xe9c8f4b2933e76910d99d2f6b9bf362bf0d6bbbb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xea1e3ee593bbbee280fe41861ebd42c94f3e7777` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `bnb:0xeaac6bf14474e1b5e607561119b5794f3b97ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xeafbc2bfa78b29ffd513d1b425c4adfc2eb2ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xeb40c4c9760014fe5a2b0465ecd2c94de230daa6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xeb8b42f8fd84ca03adced284894ee62692467777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xeb40c4c9760014fe5a2b0465ecd2c94de230daa6` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
+| `bnb:0xeb8b42f8fd84ca03adced284894ee62692467777` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `bnb:0xeb9644a86e220c4262b8766ad1cc7f6e9de04f8c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xeba2ec4fa43c25922110579e263f7cad0dfaffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xec0dbb71247188ec259e38e803b6a53b36a8ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xec198b0d198bc77f2ccd1aeaaa746963376d4675` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xec80b684fc116d6d9b4ae9f385fc7e0e432f2681` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xec80b684fc116d6d9b4ae9f385fc7e0e432f2681` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0xed34802840203fb0e9bf03ca0d0b35401ddc244e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xed4405f1394c92a638ffbb47a040020c3c8a072e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xed7c10d0f3cd2ed9b4b1bf3b6cb74e1e598d7777` | market_rejected_or_unknown | liquidity, market_cap_usd |
+| `bnb:0xed7c10d0f3cd2ed9b4b1bf3b6cb74e1e598d7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xed9c14a28586f04aa9a25749d7d110616758ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xee18cdc1c13dccc54e05a4269f007a515e9e3e48` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xefbf7cae4f981238b4d1ccc1a9b91e15a8257777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xf0c6fa10916d466b14d6472c6ce423008870ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xf0c6fa10916d466b14d6472c6ce423008870ffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xf0cceca3229f7b47aedcd4839f78a3781365ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf0d513318286fe2361e161e0e0e76f82a4e07777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf0e9a32127eea56da6b7cf061e1ed9838ec24444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf1a728a4d7fd5b88ff6beb15459e592ecc0c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf2f5b072fd3156c282fd1065034c768c82d340d1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf31573f257ba52f72e8aa83a24b5d9fca65bb24e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xf3cbc4f3071aa50065f35291cc4a3babff7fffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xf3cbc4f3071aa50065f35291cc4a3babff7fffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf3e8c8e4d9b932716d549aeb4f3d5385bcc64444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xf40090d1ff1a8ce62dc2f2b178d0c0cbd0ceffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xf40090d1ff1a8ce62dc2f2b178d0c0cbd0ceffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xf4d96054a6217a278e3c7100dd5d6febd14c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf5acf0e96f8cd63142b10f1ea0be98ff3f686481` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf63350226870010962676563e95663643622ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1108,8 +1108,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xf73cf8366a61690572348a301aa5da3559898d31` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf80cf5d040345a4d79dc5088f9822cb6ea8d7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xf96fecded3682b97cd59ab4f74811e991a84bd39` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xf9f4248d7312bc399c0afc305a9e52cfa424ffff` | quote_unknown | no_exact_token_pool_quote |
-| `bnb:0xfa153af2398370f8629cc77bbdf631206681ffff` | quote_unknown | no_exact_token_pool_quote |
+| `bnb:0xf9f4248d7312bc399c0afc305a9e52cfa424ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `bnb:0xfa153af2398370f8629cc77bbdf631206681ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfa5360989cdf4aa8f25134ded3e44e80b9b47372` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfacba3a68dd1735136b621a8275cc5dc59aeffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfb05fccb91c9d4c66e2f40c0989ff2139f6affff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1119,7 +1119,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xfd0d077090d83794fd93b2794c14b98137f25735` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfd73d3643d9cfbbee10158d97e21349a9011ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfd80dd30b9d74c3c88d76639f4899ff5f3a97777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xfd88a659692e6114b8ffcc6ce1dfc96f7e8e2c88` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `bnb:0xfd88a659692e6114b8ffcc6ce1dfc96f7e8e2c88` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfd979c6e5883b675b9880670a87347b983e5ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfe0c01b29866610f0eecca3ba0d056e7e68d7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xfe8529e68cc83aea7c48a4041f560a05b155a5f8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1131,7 +1131,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `ethereum:0x033259bb3ce03e01e4a91a5cc8257565528006ea` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `ethereum:0x060526f95f60f6e7cc117c83bdc918170aa2ae65` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `ethereum:0x0c666485b02f7a87d21add7aeb9f5e64975aa490` | archived_age | pool_age_over_24h_identity_preserved |
-| `ethereum:0x0fa42e54422dcfcbb939df6ef52b6ae060e0bbba` | candle_queue | waiting_closed_candles_and_security |
+| `ethereum:0x0fa42e54422dcfcbb939df6ef52b6ae060e0bbba` | setup_wait_or_reject | selected_pool_history_gap |
 | `ethereum:0x103940df742637cea6a6b3e0bc85c1cb0c1ce781` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `ethereum:0x1167a3db089196ea942216e4b1661c9e666aad68` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `ethereum:0x11d27a1638bb65befcdb6c5a8e8cd426d4699b07` | market_rejected_or_unknown | liquidity_usd, market_cap_usd |
@@ -1161,7 +1161,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `ethereum:0x8b905391b2460879fff7623c1789a1ff9e1a2352` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
 | `ethereum:0x8bb6aa42be6551d9843ce3f4ec5297b6c0d9179c` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0x93025bb139fa2756a6130de833df9d07bbd2e3b1` | market_rejected_or_unknown | market_cap_not_50k_500k |
-| `ethereum:0x964f4dd27a7c1037dbf4c291c5c9223a940caa20` | candle_queue | waiting_closed_candles_and_security |
+| `ethereum:0x964f4dd27a7c1037dbf4c291c5c9223a940caa20` | setup_wait_or_reject | selected_pool_initial_history_unknown |
 | `ethereum:0x9778c275f3be3fa98759d3832a75ae8853d19390` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `ethereum:0x9bf2b2f57a2968a0e81546ed50cbbbb7c9d6e05e` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0xa3c7c3a2126d33de664b7854121c7ac1d9c60308` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
@@ -1179,10 +1179,26 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `ethereum:0xe274df8f2d0b7af808ec97a50c835d6c99245a50` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `ethereum:0xe724a39f08bd33c84c45028a7259f1e4dac6e6ea` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `ethereum:0xfab0f2c417e398d148ce9b5ffd0239aa9599b6ea` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `hyperevm:0x09654de570c10be8ab312814f65fa1d43d07b290` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x0a4e0016bb625fb57fbd82a2c547d16d54cafbb5` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x2c399144c0c0254afb285bb746b741798fbf615b` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x2df943023440e035729f22912e4a01c11b0bf2e9` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x3aaaca259823d9b2cb529f58cffbf8a9d19fd916` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x5ed157b152ef86f96e092299f806fb704c6746dc` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0x63845c5eda459c219039a0c12a02d1ced9b2d21f` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `hyperevm:0x6f7024386805e472489c9ec44c4044944db95ca2` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x6f81cf698c93873ecb4b8afb39e22f752ac4849c` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x807f19c2e81cb9e0828abef704a8cbcdd0c458aa` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x836ef9293eaddbfdf2ca524c76e8276a5caf9c38` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0x8632ee8d876d06a4baec8ec80103c1225ab6b61e` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0xa0c0ad8e70d178e6c900989bc35863f1bcca32a5` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0xa7372c273e7b78752c4a3b8e25736ab8d255e11b` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `hyperevm:0xa8c5574ae7a2b914d7f07ae1c32df1cbdcfc5f37` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0xbf11d2189460261f435db279d7e05b355ffa5812` | archived_age | pool_age_over_24h_identity_preserved |
 | `hyperevm:0xd66db26cb678933449e54de965f8151d06a279a4` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0xdc9b14c0ff33da2dbfd807b7bd9b2cffbe537d0d` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0xdece4394597297e9b6448d69be1d70e46a21d958` | archived_age | pool_age_over_24h_identity_preserved |
+| `hyperevm:0xe5e14b768d2667760e6ccfaeb186a83d3d03577a` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x000de658153f47f23e92973c8eb1e89762703676` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x004b4db001737d0579c808b9da486cb0594db347` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0066f74a7bfb3f5dbc057018aeda4d3054724371` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1194,7 +1210,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x0126658fe5a7f3dd8ab83e01347e20d5205fe8ba` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x01d3b25e08c03ae2be36ca110a1c652d3ec87caa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x01dcc547ffb89394860ba540f48f59d3fcaaedfe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x01f6bcee70d8a82c78ae2239901355b6e8d9612c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x01f6bcee70d8a82c78ae2239901355b6e8d9612c` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `robinhood:0x0224ce58c4ef59ede4e2977583b9a6e3236f9307` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x026a8448a07a21ec4e13614bc6e28e7ff8db912c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x027e69426dad9ad7df4d51c5ac67d03acbaeac59` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1206,6 +1222,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x02e7ba49a3d335faa0686aec7390d4c17281a60e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x02ebf9cec5160ca8dd9c20cdf4fb2e36079a0572` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x034aecf93c7c73b06fb0213a22604e49c226aa82` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x038fac9781e78a2df524c2bdfb447b9624c3219f` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x03adeb208f7f4eb7dbdfb57c9003a5ea37f9b6ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0442104444431ebc90e0c32441dca3f7af397ec4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0467fd9b11a02be8763deab4b229214a8bb4068a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1226,7 +1243,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x072e0c054016dc753e17669241324766b67e063a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x076ea922343e8ad8bf26f23b6656489089f3e2b0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x07abdbd8a4bdd2d86d067f9d21f30efcab5e3d0f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x07ae5ef2356cc71cbfa59537b51353a2b803dda1` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `robinhood:0x07ae5ef2356cc71cbfa59537b51353a2b803dda1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x07b3b5c5321e19b02a5474909e9c56fcd2b9d6b3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x07de7e590c86276ff64d06bcf39117e6c2e1b773` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x07e60b510f02ecd5a64135ef0ac224a4d4cb18aa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1234,21 +1251,21 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x085fd3e17d12810cba46fb69557684cafc2521bf` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x089ad0cbf132b4e2b0c14268d12890a574ac3b7a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x08be018e2e7d45ed161a30eef3c605ce20fc68c9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x0949df65b1ee2d219f3342832031158ea156865d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x0949df65b1ee2d219f3342832031158ea156865d` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x095c90d3cd7c9cd2719de115b3d30fc7b3025ff2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x09cc8aacee7c3448a594b351a21a0e90983811cc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x09d81c1580967b50c6b79dfff0e9d63ecfb83fa2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0a4b64d6bfff256079f47985e9a522134c9f355e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0a4e706bca606d4832634b6808970aa645197777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0ab88835e72e60f20d7ce270eae11f6760f3dfe3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x0adb8ff7d252b9cd694f299b21a645cccf0ed324` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x0adb8ff7d252b9cd694f299b21a645cccf0ed324` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0b290187c824dddf31f20a5d199ff390e4d67d49` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0b32461c863347595944acb734c3b8a24606de6b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0b4a6ada6169e3360119d98c925c543a51c036a4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0b76cd920e5d8e8a7b1af1d24fbf664cf12e247f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0b998a9e2bea2b5dc57b510011d924b3dd3b9621` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0bd0a5c3e5545f6da6357fa078b1cc32d9b14eaa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x0be2227054bee7f82ff2ec894e522e89afc9dab5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x0be2227054bee7f82ff2ec894e522e89afc9dab5` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x0c223a3637fb92a307474c28ccfa559c52dc6956` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0c3730fd33aa6dfa8b2dcfe8bdf6de3c5a66c3e0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0c8e96397cfbe485e699646c73bb3529c80f2726` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1263,10 +1280,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x0e4358cf29dc8b9b759dee754f8f967ca63f39f0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0e59f7c7ec5a0774d4a85687de29a51ef57e0492` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0e62c3f384186289519dd8f8a5d144737718b746` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x0e63a08d33af2ead484045cb818744c8622894fc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x0e63a08d33af2ead484045cb818744c8622894fc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0x0e7a9ea08b14ab65d264f1d40ee254c8db3e2043` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x0eba20e2e3f523d67dae11adfb9ebe2e3d605769` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
-| `robinhood:0x0f0933ded73b132dcf3bb81d187036258d255f8f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x0eba20e2e3f523d67dae11adfb9ebe2e3d605769` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x0f0933ded73b132dcf3bb81d187036258d255f8f` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x0f6df4bd1084fdd361892c4c1696ac2c9661fe6a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0f875d83d6edd2d6c3fe96137ac3bb484d5fded8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x0fbd274ec554848096a48ca7a2dbeb4b50f0c9fe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1278,7 +1295,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x110a28f84d2dd2f06c12bbf204a54566e81c91c3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1138d51aaa0e98676e1489ec44e74edec670f4f7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x113b0d1e277b6da86395cb3b5fabebb44216e8ae` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x115ce2fdfa69044ccffea0eab1721e3a3c097777` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `robinhood:0x115ce2fdfa69044ccffea0eab1721e3a3c097777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x119a7fd946bed14fc347560a4153d89d15530087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x11e2ca3ef8f084355049c203b8e2f4813ea6a812` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x11f3670720f4d312f702e32311eadc3ab2bf5c26` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1288,8 +1305,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x127cdc74e44e3c60422b7e792ebe480c0f873ed5` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x1293ab41efd47d2492055646c1842f17a3de6afc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x12ff05b8be51c3bf4abc203aeed1097de7334d48` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x1346ffbab30bba50d4bc6326ade84b3c64a11e97` | quote_unknown | no_exact_token_pool_quote |
-| `robinhood:0x139ab3395303944a6e8aede565c304b98db50766` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x1346ffbab30bba50d4bc6326ade84b3c64a11e97` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x139ab3395303944a6e8aede565c304b98db50766` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
 | `robinhood:0x13a9d135691374c67428ace3b9cffdf011b9bcd8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x13de6663556ea1fc24b1959799cf51dceb3ee66b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x143f7483fdda89dcb562db7b5e1f047746b0d485` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1318,20 +1335,20 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x17e3746f804976e9f679e75996d564d4e19c7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x18112444819702940f51372f9131aa5fa1c04cc1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1821d56f9d9d4afca882bc4c42c5ab56a5621ee0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x184b3e3b49ba3172552a0c85d82885c93a8bc993` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x184b3e3b49ba3172552a0c85d82885c93a8bc993` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x18667600517766abf4633669c8ae20d5d4d27666` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x18d1a1ba228829a53260c7384af140ab6464251f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x190ac67affa0cf27dea1817b82d3db489fc2af33` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x19179fcc3759ed7da45ed4995a3cda7387e10f15` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x193246cceb2af5b0031fd9dbc475eb951c532eee` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x193246cceb2af5b0031fd9dbc475eb951c532eee` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
 | `robinhood:0x19baf9be55a4075f5122faea1c526dd76d5f1e18` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x19f47f749ea19205bd80db6e16f320fc29ec2937` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1a0e4828e39a54b843bd77c36bbb6512fb38b345` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1a3e2abf4447977eb716c9211969cc7e4b880cba` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x1a67747153ac375f01142c2d5f2be8692910b5fb` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `robinhood:0x1a67747153ac375f01142c2d5f2be8692910b5fb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1b91c94474a9d4fa4f2831d8340c94e40771859b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1b92ab76c63e3b8724c47a0eb663eca9b7a07d2d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x1c01ba8057e2bcc620152cd0590c2d998006bcce` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x1c01ba8057e2bcc620152cd0590c2d998006bcce` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap, liquidity_usd |
 | `robinhood:0x1c78bc2cd729a7a46f6a59358cf203151cd512e7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1cb651ac3cfed1af2f4cf3f73885e274c2368f97` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x1cd86537fa953121edf78e21eecca69ee8565f45` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1356,24 +1373,24 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x217cba7186a9affe83e604b3ef8a82a09eaba3ec` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x223d04c0fb5e2312fbd1be3e0b256cf9afd73326` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2255fa21d1f82c25e666eb462a089ab9fa72c964` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x22649a66197375e93c2a73136208587cb09e2007` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x22649a66197375e93c2a73136208587cb09e2007` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x226a6a6475469730abf737f58573ca118f6bded7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x22b7caff6fba21f4e6fb5e48b6f6e92218be9433` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2309d2a2928c1a98e9d2a1469fe33572fc6e55dc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2316e2cce452652859b5f2af365873561e427a10` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x2321d472519a4cd099a3000f6df8648434979b5c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x2321d472519a4cd099a3000f6df8648434979b5c` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap, liquidity_usd |
 | `robinhood:0x232d838679efa170fff14000a158b4e146f7a26b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x233e2d7fa18950e9f08605dc0545fada413050c4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x233e2d7fa18950e9f08605dc0545fada413050c4` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0x236e68fc2c1621520695b078d96be639047c7062` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2388935f4dc33f47c644db22c3981a1acf251111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x23b5c07c6ae28b09ca3238332864cea029cd1310` | candle_queue | waiting_closed_candles_and_security |
+| `robinhood:0x23b5c07c6ae28b09ca3238332864cea029cd1310` | data_unknown | gecko_request_reserved_for_buy_pressure |
 | `robinhood:0x23e918a5cf6a1dcf3048948c58dff2157f2ee554` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2471b8c35b2e4cfa574b0d08c7520428d85bd65c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x24a6243ce2a0f98ed1014c3b330d210167f4cf5c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x24ac8caba4cb60307e56722530fcdc3c60ad58b8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x24cc4e7b88d74b7b917f24bdc836c993c0be4ee3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x24fc1cf32044795e78a29b07c86e96ba3c1f1004` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x24ff14bcab4937f762f42eedbc915935b37542c4` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x24ff14bcab4937f762f42eedbc915935b37542c4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2529c4fe361c1faa7734e7a96b1c8d50a6791a78` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x25816d884c3e649bf9321703ebae7cc00c1942ac` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x25be88e58fa370bed696fc4ee08726928cddee49` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1399,7 +1416,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x2ac58dffbbc0538bbcc7eebd217ea1cc5e69a048` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2b1fb496f2ee6ae7d84287e87949293c8c8cb9ba` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2b4bb249f129938a36da474609ff1d55da89f112` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x2cd1aa6c700596ecf8dcff32ce785d7b5d6c6793` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x2cd1aa6c700596ecf8dcff32ce785d7b5d6c6793` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2cd5ce84d3d7e7aaae4d1f09617fac1fb4770e77` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2d18a0959dbe471fff30f1f375923ffdcec73e96` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2d1eb84d8bd34f65bfb9b2a9016397fa69afb3cd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1409,7 +1426,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x2e19184a03e074fe86c2fe36d1fb9b47020e57ee` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2e3e69595994a0fee45cfc738b5372180ae74409` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2eb242fb486b051f659d442a4c2a4243892ee46c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x2ebd2b57d36cdf79a6176d45b7a91c13b166808c` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x2ebd2b57d36cdf79a6176d45b7a91c13b166808c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2ed051ea1de78cd3a7db10376c4597484c3da38b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2ee8c572d5e598ff8c1800eff85434d64cabdbf1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x2f175bc54c9e7d3e7c8c7491cfe6abd526f809a2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1417,7 +1434,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x2ff108bd15efbda643ff4fca19682e805c327757` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3077214de7fd2cec03d7088073623b9560dac632` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x30fecf269a793d88b5d1ceb8d4f73600d5bf16ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x311abe2f31ae2a0fb18bca4cff2eb42e53229e55` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x311abe2f31ae2a0fb18bca4cff2eb42e53229e55` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap, liquidity_usd |
 | `robinhood:0x3148da6046887953fd9a0259a940afb397164ebc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3172e6e5bc95b868b33ca18b2bc1a55d4e3d13e6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x32001674c7bdec5be74fa6db779f3c711eb40087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1438,8 +1455,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x36b96305e8c6a1a042ca2574dc86a1424658e389` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x36c2861a1f94c6f277a388338a4f8a686e0d9b30` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x36f825fad6dd4aa627522caced77fa24c79c4f95` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x37286b9304acd32da680715f8dfdb130ec5b309d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x375cec848e106204950c9b46cb5842c7780f8425` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x37286b9304acd32da680715f8dfdb130ec5b309d` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x375cec848e106204950c9b46cb5842c7780f8425` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x37bf20f61928b1f27561ff38621893102f1b38aa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x37cbfa2f78df245dfdaa963903de92e262f7ddaa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x37f75c327cb5a49735801a512ff94609be5a4948` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1459,6 +1476,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x3a7b89dc1780de081f888c729f6d9bb8ab568fe8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3a90db3d896677c18e7ea8e801dad43d77febeb7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3abd615add27a3cfa595c7540c0bebc084ef7169` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x3ad63a08a396d9b24725266f768d6a5c01d56e56` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0x3b143b82590b3b9ec79ecca9867ca6354f803404` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3b2b69d5612fa4526fe79b403a99c9973653461c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3b5edd2a7b42b6103982fd0ec7159966fb8b153d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1472,7 +1490,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x3cfbe032793fa0b5ad5e9f9ce802299ec5cb30b6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3d37e5dacb2b1a9b7761b2f11861120d31c00504` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3d3b275f1b68d00a1564f2d1d5bb00b0697bdcfa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x3d4b4f100bc01a9ec0935e7183350588a5f3e586` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x3d4b4f100bc01a9ec0935e7183350588a5f3e586` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3d5e56d1d4a3ceddfd5156b03dc7bcc68ad51108` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3d837e882a727455f668a976b8eaea69e58d77ff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3dfe677a685bf1adcacb50fff72e9242a1628247` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1480,7 +1498,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x3e56d510adbd72a412e53f91732cf0e26b296c84` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3e9f7a49f4655a4f06a8389a8d18bce241eb87f5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3ebcec805e9908ffd1f2c87f1b617303e42742e5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x3ef82cf2898844fe3b64084c7e345ab77662fe5d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x3ef82cf2898844fe3b64084c7e345ab77662fe5d` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x3f50034f84303a98fe9204eff48e184c27757df2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3f66e464c503cf975d58b7af0dff2c8f89c0e8dd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x3fc8f191cf5607d33e9c56f28894012ce6ba006c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1491,24 +1509,24 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x41b628019081b9fd98f14a163e30833c44eabff2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x42137c2c1d1afa52c254923401d8268d8546b621` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x421d55c7d6b102da50d0b47d4977a1f22bec0c2a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x421fbd0e1f0f4f979329a41b4b2dd98bc716b540` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x423214fad02715afcdcf5e4dca7c12b671a88f6a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x421fbd0e1f0f4f979329a41b4b2dd98bc716b540` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x423214fad02715afcdcf5e4dca7c12b671a88f6a` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0x426247f66428cae3f3fafe184a1eff71bc45f3b1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x4266db7fe70a1d7d363a411216a9d8dbaf9b25c4` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x4266db7fe70a1d7d363a411216a9d8dbaf9b25c4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x42a827585ab47878aa2fe11dd0da019f78d80087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x42d5eb6f965c402d7c7e42a564b7a71611ba3f99` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x43035d878105290897ee3310808f7eeb448471bd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x431e3b6f3470519e9479f8023418dc9fa158dcca` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `robinhood:0x431e3b6f3470519e9479f8023418dc9fa158dcca` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x432e1255164a72a8f5f54e6afce754e3e9ecbce9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x434d91f13324ad998dbcec957c883266f8b9d77e` | quote_unknown | no_exact_token_pool_quote |
-| `robinhood:0x435a196fdceeba4f1d20889caab5dcb2ce66a8a1` | data_unknown | gecko_request_reserved_for_buy_pressure |
+| `robinhood:0x434d91f13324ad998dbcec957c883266f8b9d77e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x435a196fdceeba4f1d20889caab5dcb2ce66a8a1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x437933d75b7a462db0cd9f0c29f806522bf17dd1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4384fbb3c835aa2603243317d0339e4e5ea9c3e7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x43a32cd56b4bdb7985296ec8e499379ff3573dcc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x43a3aefb8592b09545564b3ec50090f27367452f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x43ef920cfd35b04b0f994c4e37f84c1f99ac3829` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x441e82e6d82c90574677863ae3d28ec33dc583bf` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x4423fbeb7889deb2c9b315d91d99ebe9e732e545` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x4423fbeb7889deb2c9b315d91d99ebe9e732e545` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x443766234a3eb25d00aca2c3f53fd4650dbe4cdc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4453f9ee07f67c9c6460bb132c5293c0ff19c28d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4457a9ffd1f7f03f2bf16e3297c2cd887c241ca7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1516,7 +1534,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x44b0caa274a57f36a681116bc1cf62ee70ab75d1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4550d8dcc6decd8952aa185739c2548efefd8e1c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x45620ae8a739c3172a11f38f239592a5ac983eed` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x458c9d622a9c806018065630f32cf23491e3f2af` | market_rejected_or_unknown | liquidity_usd |
+| `robinhood:0x458c9d622a9c806018065630f32cf23491e3f2af` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x459a7a70f14f02cfc32c8da8267af71d894c1130` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x45dbddb5849899261124736e2ac41b1629dc0b10` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x46129a39363d052ac66d16bbb810752d6a6763e0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1537,10 +1555,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x48658de60b30c58191072675237ed9d143211cc6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x48a883551b8e06e0d898d8d6aeb35c02bc8ed8f4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x48d3110b5ca0cc77ccb011ba2741b9ca75f2c076` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x48dad595bcf5c7a834629c4ea222d191c1b30087` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `robinhood:0x48dad595bcf5c7a834629c4ea222d191c1b30087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x48e62113c99fcdfc883a57719c55ef855a67da1e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4922eabb9cbd14b7fb32d5244824593c42c320cc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x493ade3a0b573b65153469332092dd62d16f28b6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x493ade3a0b573b65153469332092dd62d16f28b6` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x494d2772751f206f051434ca39e29e81526199c4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x49824ad9ee07e288da9f01dcac1c11bde474049b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x49949d3d3ad834b4e47bf55fd66752696eec1b4e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1557,13 +1575,13 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x4c81459123dbd2eeb68c229b5bdd1269d5190087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4ca7478bf8e84f015df8f57e0006ee8a8b8a1a58` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4cad4e14d0df1c7dc5245161662d5e782f978834` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x4cedb384c91d54011472cb5f74b6160e0bc7cd94` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap, liquidity_usd |
+| `robinhood:0x4cedb384c91d54011472cb5f74b6160e0bc7cd94` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4d04393dd80bf78e78d01094f37733e1ee0ad061` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4d2fec566a8d047480877289f86f18544d6666b5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4da3244f614db69f44272d806c6c4bfa64bdd07b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4dc8a3f7cd067d34a7b1598ad15224a804c2d967` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4ddb087ec53decf24f9dcee77dd9adae793e6f87` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x4e662c413818e19c59c776fb62f9ab369378603d` | setup_wait_or_reject | selected_pool_history_gap |
+| `robinhood:0x4e662c413818e19c59c776fb62f9ab369378603d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4ee062b7c761adf3cf0ae10e814fbd2cb4c6033c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4efcacc158c8f9910b4a61858af276c5c085bc64` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x4f0a94361c9a97803d73037cf75b556345b72a77` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1588,7 +1606,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x52656479f40339de296d918576fbe902df687777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5289f5e251b49c9d431e3de28589d0867823d689` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x52ad7f7422d2b3349af1dfc3153ce4233989d13a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x52da5cbdc0b7dd2b34ff093489e436e84fb020cc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x52da5cbdc0b7dd2b34ff093489e436e84fb020cc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x531a85a23f710b360d4fa0bf03be1a706a389113` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x537f388d82fed3cd66537816c5e47123e6b7bb0f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5382ae11f61d9f09e965692440adeb976baf0287` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1615,9 +1633,9 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x57a8ebd67a27204535fa53e010405dcf7b0aa880` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x57dd0bc983c1d8c490805eacc7975ee4ced07be9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x57ee883faaf91fde48280789ab64bbacaf143225` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x583b1be58c6f31966b354d8290aa8cf71acd9206` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x583b1be58c6f31966b354d8290aa8cf71acd9206` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0x583caedac45e89ffc825ebd25b07cfaf3388217a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x588a54e21f436b9fdabbb8e3bd2bff4ebd91c279` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x588a54e21f436b9fdabbb8e3bd2bff4ebd91c279` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x59dc724aca2715a6c7bf9468c2012d3016b7f28d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x59f94711136b88ef1041078d7f0720e12a710087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5a67d61bc770e57c6a6d10169a6f321591760772` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1627,7 +1645,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x5b0381de735c0c78de4702a0a1e130de33a45f1c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5b2cc780f1360dd48871cbf30a35277364e4da28` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5b7867418348ef93981959db15c49443ae9066ae` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x5b93515c6d760c051c856f5f3da56eec92653bf7` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x5b93515c6d760c051c856f5f3da56eec92653bf7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5ba64cceedcae7355d217ac3738675d25094be8c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5ba8e4c3f157127cf516694a5fd734d87405dd84` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5be884c184c83f345fbe610cd4b9eb739730da02` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1635,7 +1653,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x5c282acdadb10b32ed08ded75dea2b488c6f2b05` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5c553b04eebc4f03652ef6df16e59b6960df0087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5c56890f380bf504c9a9e209a194a801737efea8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x5c5ae1acf25007ae0eb176616a08d788b08ab25c` | setup_wait_or_reject | no_closed_bar_after_actual_eligibility |
+| `robinhood:0x5c5ae1acf25007ae0eb176616a08d788b08ab25c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5d2ca7a4607449942478c5e92afe40232d0f0f4f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5d60f36b2b620837df1d6bedfa4511dabe19174c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5d89f9d772762f57b224cc01dc4fa1392e942c50` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1645,7 +1663,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x5dfaf1a084b34bf847fad672f4015fa9e08adab1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5e0b653146e0432c8fc9eef3680a7a66e74f6aac` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5e22c782aaf5d375a921027300810804cc2d669e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x5e5257fee6fa48561d8d28cd3b93df2c0a977777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x5e5257fee6fa48561d8d28cd3b93df2c0a977777` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0x5e7c52eefee28c2263278f4ee76fbc6adcfb8840` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x5efec3109208af5fac45f345aba8e3b04a2c2d2b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x60048fe225de5d59e87b9743a96e0c20fd2c12d9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1670,19 +1688,19 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x649c48961bf49d0f2715cbe592834123b58a2a12` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x64c47244b355d4821a7e9c6889327350a307c457` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x64f04215e937d0f38774f73f9d2c4b5cd5783040` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x64f0b8f877f6e86180d7499e78d141d4aba03c0f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x64f0b8f877f6e86180d7499e78d141d4aba03c0f` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0x6505a5f81b580f23cfe70d4ef0c422756198ac1e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6511c233790ec10f7d673c64dc82c3f941d57828` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x65169c28a93d80e049f4a17939f53437beedb675` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6542ccd50fb8d2394d92007eaf13664a6747751a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6647ab4aa24c14a18d50ce2c662a581d82514ed2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x6652f19b99636821ababe88928c7ca15810f7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x6652f19b99636821ababe88928c7ca15810f7777` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `robinhood:0x66585d64b9ae3e768f9d7e47ce01290d616ecfaa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6694a0e7b62a6d0fa941e7c32e04618830ba7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6695a5e2e1aafc8e5b46dcd1974f13dfed7f0627` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x66a5fe375943907e79b75037738fea9cffe21d44` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x66c57ee8b2a5dbd028548426313857a119f40087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x67159428a5d5bb03952af79a8b7eea7ce74fd353` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x67159428a5d5bb03952af79a8b7eea7ce74fd353` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0x676537da84bef35477cb0f4ca5878f46e6ee6800` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x679ae6f8178dddbabc65e8a9ab48c28756f7ab34` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x67af6e33a5fcfe330622927bb2b56542898fa085` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1697,7 +1715,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x68a4ac82e9cefa0e2f55595810e17e3d6e9c4092` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x68b11fa3573781995fc2a90a503185d63618feba` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x68d365dcff41b0c98c01ab3e9610c6ad54d40901` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x68f6d2b0d3d5dc0c60a119ca3339b05237555a66` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x68f6d2b0d3d5dc0c60a119ca3339b05237555a66` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x696676b699995cceff8415d7b7bbe0ec01083b81` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x69b29330005223dc7dd9f98fb431d4ca65741d5d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6ace6db2dd13bdfafa8bdaaa77b555d42a10d0a2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1710,21 +1728,21 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x6c601c449351ad8ce57798539a4593f9f2c9a54c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6caede9d40d3a7ea740dec576afd403b24190087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6cc3c66ca5a3de4cd7b3499a75fec669da377777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x6d457e017b2cd74271d826f5d1c4300fc973ef73` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x6d457e017b2cd74271d826f5d1c4300fc973ef73` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x6de46ba40535bfbc56403bba7a8291d28855f305` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x6e28a8f176b4574bb666fa9f1a280170de8aa0cc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x6e28a8f176b4574bb666fa9f1a280170de8aa0cc` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0x6ea9c48d75541b1a3005e658606c1d3ce6f66b69` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6ef29d08609c4dec5c3e0a249df7548812c2e913` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6f0b96fb776d68d385e7afa40189a820f1d31111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6f0ccd4f1f4929ca0a505ed1bfee66e914b1ffce` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x6f29cac3c80ccedcfc7ab54b2286949ffc92921e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x6f3471ea434ef135d934964e7cffe9a34a8c3f85` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x6f3471ea434ef135d934964e7cffe9a34a8c3f85` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x701499cad5200db75ef3c19a257fe14019b7c883` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x708c2313b986d47cc735280f3ec6346e62ea7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x70aa46c211578f1554e309da0cdb493bc50001ad` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x70f5ad45530cf8b89100923ec216fd2daffc9cff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x71314328dfa36fc46fb2261b5c8be7b9ce381bb9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x71ae3a7e0ff31e45ceab3d90be48bb678bb91111` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x71ae3a7e0ff31e45ceab3d90be48bb678bb91111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x71cfe830a67c25ec40625b96e5fb0df07e2520ee` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x720800690cd81c3319cb0ab9c4f480b659a772d4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x72515c6d607671362c4b4433de7fa50fed9009dd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1732,7 +1750,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x727c8a2f9b794f9e5e0465cb35d29b0c36497347` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x72913ab17dcfd007f39a95ff8b690e98a7de0087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x72ea41930695d76f1949630e142d6e5beb5c5e4b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x73092f1e1b5dee36a1088e289b28563be57d893a` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x73092f1e1b5dee36a1088e289b28563be57d893a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x730df9dc9d67911710fb0dc695bcdb26607de63d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x73139f0ee2feba1674dd6e5f7770999ac97d9427` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x73a035628c5719d4dc1f238a0d47c469a833d96e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1763,16 +1781,16 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x7a0045294c6b18eae0e7acce561d5fd43f37e6ea` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x7a56b3d90f603b23a8c76c1b4a96b8f3e3b00087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7a829feae78a88008a36253a5f47a862e1992512` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x7a8a062118fdf4a7a45a3f69c10a9beb7699951a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x7a8a062118fdf4a7a45a3f69c10a9beb7699951a` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x7ade9f17a0b7e0ccfba0d7aeaf267abda4a70f9c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7af6f546fa9c4debef6f4958a54c091d468c2726` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x7b2d5a60db221b278e7d2b4b214a83a1dbfedc68` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x7b2d5a60db221b278e7d2b4b214a83a1dbfedc68` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7b60e696b57de4c7865b4c300d6e1b17aa58e651` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7b62b798f19df0863e2a249c0b8f853b84942fa7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7b6d9f9c8ca563be9103b677563fb0488bdc5e32` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7c5f97646bcb199212faf98aa00c1a46a45345ec` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7c9388b5e7cfb7abd26a29bbe59bfb5e3b32f0fd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x7cbc43753a207aaaae2424b9b33e2e2d84501f1a` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x7cbc43753a207aaaae2424b9b33e2e2d84501f1a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7d51cfd021c5083b75f8b730495e700440440087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7d5c3d02e4a556067a445a7781213ee85f390188` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x7d6784f49f38f5bb2d7d97a4381b850f9d75ed2a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1797,12 +1815,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x815a12b82764535ed718dfa0460104792db218f5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x81a3e88554668971bbd0506bd459871f23b30e82` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x81b1b37bdcfc7d0a1d3940819a27130dcdd79ecf` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x8290a77be1546e8a4f219fc0cb3f309deabc691c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x8290a77be1546e8a4f219fc0cb3f309deabc691c` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0x82be593cf18cd01a13cb64125c0191f54601d995` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x832115ca179029dfbf93bddfe889f2a73daeb182` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8327a2ad4066afc0eed9e1e41a38f58c7dd7e48b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x8377a9a8645554e8ced2a761cd2522759a1b6436` | quote_unknown | no_exact_token_pool_quote |
-| `robinhood:0x8387a37e2162b704b9dc0457fe0933a26e10f6d7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x8377a9a8645554e8ced2a761cd2522759a1b6436` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x8387a37e2162b704b9dc0457fe0933a26e10f6d7` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `robinhood:0x8391846b55a46acf99a6f5cf0bfe21b292ea7478` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x83affecc1480db62f878f5b9bd51bc277cc7c110` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x83d4c4dc3aa153c8f6550c5d700101e5fb96a060` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1810,7 +1828,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x83e53eb5d7115e43c4b5c29d77f5e8f979f28791` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8402593743d490f7faa27c4bbd0d386d173fdb8f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8435690337c470532021e466e54acb97d8303054` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x843ec7c513f745116fa3e698dcd4ce60f1b30863` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x843ec7c513f745116fa3e698dcd4ce60f1b30863` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8458fbd6ba44b68c85857c9222ff24513f055d75` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8465530a3101dfd23ab6e5cec5c5ec9c9f31847a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x846c2ec200ff1c541088eb01127537de74febeff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1839,7 +1857,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x89976ffc7fa32b552cfd075de35a74eac2dfd05f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x89b27ebc46a320749bd1f64b0980327ef4391e18` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x89b39e477dc4fd0e302622c9a3822b9a7fb21111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x89d54cd67429524dce23db18e32070be894a5f27` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `robinhood:0x89d54cd67429524dce23db18e32070be894a5f27` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8a608e50c708fddb675b664085ff786218da7292` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8a69a63ce6adf464137b969b6d949cafcefc55e2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8a7cacd89bbdd957c88220f72304fa0ea6cd231c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1848,7 +1866,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x8b3246cb012a91301c0163f390b2d8ec9c4d1d0c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8b484a338ddf2a512fd53e58f46316942d0cb420` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8b8096e4f743c8f2c6a0d91e302ce13b01382825` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x8be7a9024c4277695670d62cbcd6bdced1ca70cd` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x8be7a9024c4277695670d62cbcd6bdced1ca70cd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8c30b49ee2fe4f4ac6c7f7764db06101a4efb994` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8c41e2540188efb4d03b86d1f29adadd11823760` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8c4584d7574b4ffd437f88ec8fcf1a5d15c5ce08` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1861,13 +1879,13 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x8cbfb193d66efc0b7778ec010d6cde8cb68244c5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8cea904ba044e08dddc856dcf65d9d4eb0daf8e3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8d6f042d72dbd876a066afec224c669f3769d99c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x8d9a8c9208d15509f7f4f26a18725c018acccbf1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x8d9a8c9208d15509f7f4f26a18725c018acccbf1` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0x8db244f6bf052571f4e0c6065b700e714092d4b6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8dbae6e9bd10777b2dff073addcc63ae49149e4f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8dc17629aec54ed35c48a8b97ab29e3438267777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8dc8d7e0eee3eac2dc235dfe8263722cdb260087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8de847c05e57b106a1066247aacd0b9baccf59a8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x8e105a412bd5083c7ecadbf9e1114c5f47fde8c2` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x8e105a412bd5083c7ecadbf9e1114c5f47fde8c2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8e834fb9ec4f8ef2bd768d4ce56b2954fb20d910` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8e84749ba0e516712e4166ab3cf16edcf32e4e9f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x8ede14cb482684c076cd1850a58eefffcef017b1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1880,7 +1898,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x8fed95e55bdeb479f80100bfc05766e1f7087d24` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x90114526940a51b573ccac464bf5592ec0fe8b89` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x905fabcf4b86c93e81a0f489689ee2d9a619c42b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x906a9fe7120f0e769d27f951aec5304e3d56ec1c` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0x906a9fe7120f0e769d27f951aec5304e3d56ec1c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x90a221a4b02c98992d7ee119b64453d1c8df005c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x90ec611a0c2888e1b244ae7e9ae6ec5b5b2222e4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x91399c2e9e8db935fe6fdef38d81c65ef04dc5b3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1893,24 +1911,24 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x920aff596fabd3e2e0403b24966641d7d247ec2f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9297c98ef7497bffdfd55fc1d648af6bdf8e27a4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x92ab379629e7439b31274e725c444d40df189687` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x92b09e6b884b1ac2eeffe9c965ffbcf53bc0b7fe` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0x92b09e6b884b1ac2eeffe9c965ffbcf53bc0b7fe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x92d20c314a3ab24f51f122288b597d7b88da0c4d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9315174bc8f007f22e8244711054614c04b4a0c9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9315770ede62f15248ff573c19dd7d067ea8cd3e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x93faa6a2304b7aab1713cf0fa671fb3eb70ca321` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x940eef5421c2c105291744e710dc5fcf57542ea4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x942153ac8578a7492ffaee3a7b247b7512116f0c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x945e9631172fbf80b7b0c1b289227b1b59ae6e7f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x945e9631172fbf80b7b0c1b289227b1b59ae6e7f` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0x949570c6ab0a533212325210ad854d0826d20087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x94aecc6ae0a9fbc21120d016bff8836ae895b374` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x94c44822c5f24ed2c89d9a281a592b0634bb0087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x94c44822c5f24ed2c89d9a281a592b0634bb0087` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `robinhood:0x955a2641edd267460d49ece7532cafd8e5790087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9587166424b2dee665050ff21e324f655470a68c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9650a98bf3aec191820d79afd5d22768b585cc25` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x96efd4d1b27fd133ee10bfdbcddf2668b628cc9f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9795dd88d793f25eb1235eca2b3f6aa2db7189e6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x97bc68be23d0b27160a2c1eda9917210c3e0cc9c` | quote_unknown | no_exact_token_pool_quote |
-| `robinhood:0x98012ed94b722788aaab8b560d73b1cb5e7d1066` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x97bc68be23d0b27160a2c1eda9917210c3e0cc9c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x98012ed94b722788aaab8b560d73b1cb5e7d1066` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `robinhood:0x98a586d451a34bc4c44c6aa7703bc8d42342d304` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9935899033f55744c68f391e41a31b27a5f6928b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9976afc9625c1351e13910a1bbd5b40dce6cfe13` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1922,7 +1940,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x9acb17ea10df73ece72cb64581b479e32551eab3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9b3f40bb99b52bbf2d5a6ca2af66574bf1657777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9b50562ad90819a0da4479d5deb2ef1240c5c337` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x9b56572f026a518a9c4f518ebad9afb89ecd4633` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0x9b56572f026a518a9c4f518ebad9afb89ecd4633` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x9b795764c6dcf5553c9c176eb3cfdd2a5da17ab5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9bf7f4b57e9a988078c20ef331774bbb4f1650bc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9c6cd91a9d9403abaecefdd3cd52d9cb3b68ec28` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1966,7 +1984,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xa3986be08ec8392b159493ef44b7fd1bbef70e92` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xa3b9feb7928a2ad3cd3c5a46a7f5856e0ba23df7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xa3e0459b4f4e879b8f8a83d71758bc941d8313af` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xa3fad5c680cdae1645b130bd4036cb4d5bac24b3` | setup_wait_or_reject | no_closed_bar_after_actual_eligibility |
+| `robinhood:0xa3fad5c680cdae1645b130bd4036cb4d5bac24b3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xa488e64719b96e9e51b8d7a2bba1acd5523a8a0a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xa48cd02da86620b17fdad2ce2185be3df172030d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xa4e62d574fbf7ab4aaeb7af068ca48743a07f8db` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2012,7 +2030,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xadd5046db154d63c4f09545f38b9df691844ad55` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xade601f6e24db2f568f02370069ff892db8bb6c7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xaded7e76715b2411d9fdc23a621eda1d13cfe836` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xadf7f762a48663d0c4f2e0ca50d6a59bdc200a9f` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xadf7f762a48663d0c4f2e0ca50d6a59bdc200a9f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xae174a38f56300be1cc0e68c4239003bda1ab20d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xae21ac697969b042da5c9b426408fcceb98b8166` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xae4e2b0e7fa3fd12cfe48924a1873c75edfc0087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2024,7 +2042,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xafccc3eb697c421ccc451a5ce60b14bddff16546` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xafd1b3b38b16086d0dc60a575ce81016de726189` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb0682a385d5b96c52c2e73b035ce4f372e64ebe0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xb0908913e82138341ecc6de983b72366b30546ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xb0908913e82138341ecc6de983b72366b30546ea` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0xb11ed7dc28ecb6a33803fdf014fa31ce50627ec0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb1a4fbf9a1ac8f26477ba6b5c7bb2c1aac8987a7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb1c902dba62402b9977e37046281c57c766a0e82` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2042,7 +2060,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xb430b4a2ae74149038416b2d794c90113a830941` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb44cb3f361fc60d6cf7565865a79fa318a64aa62` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb46bcfcdcb8f9a405fe872e1f6c18b7b73a4fd56` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xb4e4ef439b087037a342188d603150d3fff5d4f1` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xb4e4ef439b087037a342188d603150d3fff5d4f1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb53e90593c9caea4885d958e38751a340f740ed4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb575b7fccf307424cb59dd837e45bfa98daf4cc2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb58e4a9ccef24b73ad859f801fdc6a6b546d41ca` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2052,7 +2070,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xb75e3f7e75c8d535db04b6c5ef0ba0a6438b0087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb76fee12de93994bdd9da213eeea3c0e1a2f813d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb789600c17f7bd31046fb7b225b4e96da22eb1fb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xb79ee6114d13b2a264f2a25ae091fbf5b05cdba3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xb79ee6114d13b2a264f2a25ae091fbf5b05cdba3` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xb7a68abfe1656a50ad8d84b7f4b1f8a01029afbb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb7b804b05f518f2e0da79dff30b9adecd6298460` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb7dfc30a098cd59458d6bc82c2aaee2365194ae0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2063,14 +2081,14 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xb92a19ce1f3152e90a8e76e508ace8ab36f27709` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb949f420c793f70976d35e05bb661e5c81a14a7f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xba424f7f9ad10e2d9fe9050a2766a16ae4ad0ada` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xba82bd4b21fc4f16116c414d66baa0e692ac4fe8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xba82bd4b21fc4f16116c414d66baa0e692ac4fe8` | setup_wait_or_reject | no_closed_bar_after_actual_eligibility |
 | `robinhood:0xbab477eb0704cf2a0108506fd0e596f22998cc1f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbb2fcc7b2625097b58178a8ce276e0c67d54c986` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbb35965e1ef022e05c1b786f8b0d739514c7bc9b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbbb1246c3a590578844bc3bb1680a04467310e06` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbbcb89a141ffbe279470fc742e57f45111ff03ab` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbbd57a021dd2ddb2b7f8b20bd1ba36c41a5c64be` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xbc0ac44956f931421dc9da77a69ae0fe863486d1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xbc0ac44956f931421dc9da77a69ae0fe863486d1` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xbc4ef554a7e523b36b3b6b24c35dc7b33a739c95` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbcb77fcac2f4ba525e3ffbc64004a2d4756bc0e7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbcc90f4324578488ec0c788298d56e111eba7a3c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2083,7 +2101,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xbe29ccb10c317c4e390155157284f67b81260629` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbe346f87a9cb8fa909a46043d59f711a9cc9aaff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbe405cad5fad5936d7992e8ae873d0ba41dac6b8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xbe9e2032bf83f0bdfdd335145bf3fd507d07d0fc` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xbe9e2032bf83f0bdfdd335145bf3fd507d07d0fc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbf474167c6fc99da448e2c95ef1ea2f30b415cab` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbf9c135147d78a4e03ca755e2ec35d9e42b4e37e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xbfc44ecd9736ee8df453e4245730871e36845399` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2094,10 +2112,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xc30626419638f132d91745fc7837775b8df36e11` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc3302edb1eaf0990bfe8b30c48a459ecde6c2769` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc33c19a7e03d15e4576380304febdb3d6ad702f2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc373891d2d9e8f5662ef65565ff83159a91ab080` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xc373891d2d9e8f5662ef65565ff83159a91ab080` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0xc38cde4a73ca878e99bf96e8f45015b472c300fa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc38f709df327e72f043a15ebc39fc8858588b9f6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc3b3586f036ceb2ea9c0ffa7a4c22e7475a47c13` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0xc3b3586f036ceb2ea9c0ffa7a4c22e7475a47c13` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc40eae2983bdb8b0165d57457996ce77d9f96ed2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc4228290ebcb1b1be6f6e3912c05a67b46119616` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc4393ee2f405e783aea1f97dcbaa18f63c7d30d7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2105,20 +2123,20 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xc4c01839fe5cc5fb96320985d7ac7b1beef4cd8b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc528fd425c40ccb54399a351ffa208ba47d2664d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc534e535b09bcd8f26b163348817967d0440460f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc5607979b1c8a590e43204da8d816691ef609525` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc5634a40dbe58d4d257b2840003bd38a13c0ed4b` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap, liquidity_usd |
+| `robinhood:0xc5607979b1c8a590e43204da8d816691ef609525` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `robinhood:0xc5634a40dbe58d4d257b2840003bd38a13c0ed4b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc678797601cff78afc7f7d5fc50621c507f80087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc67f41cabc23680c255a1fe6904b1c39a932cf03` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc693722df4b93e12746dbb5e672834a3be1b0087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc6aba59c2ea25dafc41f0b8d086b6b753ea1501d` | market_rejected_or_unknown | liquidity, market_cap_usd |
-| `robinhood:0xc6b57a0fa7da7c9fb811ac7ec8bb338fa18887e5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xc6aba59c2ea25dafc41f0b8d086b6b753ea1501d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xc6b57a0fa7da7c9fb811ac7ec8bb338fa18887e5` | market_rejected_or_unknown | liquidity_usd |
 | `robinhood:0xc783168916a83a8649dc325221310acf6e905599` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc7b850c907a5f24bb7ed7e9fcbbfae6aed561e18` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xc7b850c907a5f24bb7ed7e9fcbbfae6aed561e18` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0xc80333bf7f4078e14ce5b6e223af607adca44418` | archived_age | pool_age_over_24h_identity_preserved |
-| `robinhood:0xc84a124053dc086ba52ef5f4163beb9b3451b425` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0xc84a124053dc086ba52ef5f4163beb9b3451b425` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc876af9c535e1e1f8a1c26e88dbce8406e440087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc8baea1c5da98a3e371ea3d7a8c8176e55793ec2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc932fb543e0fddcf272b4656803ab9b3fe780087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xc932fb543e0fddcf272b4656803ab9b3fe780087` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `robinhood:0xc963b30fe25fd35beb8d45a720fe1e9455611111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc9c8f02973e5521670796179b5f6a92f3d03c34a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xca1d0839faf31e38b077c7e0b7bbd2e69e9f3b42` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2132,9 +2150,9 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xcb75fe358f0516f7ef3321e029eb7ef126636c7e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcb9b12c9ced2cf0652997e8983a17256d95e1f23` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcbda4cea506ec690f4a65dc8d9ab5214e1653779` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xcc3ea0c000bfdde71687928593f9c46f690b728a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xcc3ea0c000bfdde71687928593f9c46f690b728a` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0xcc50d49389273a2fac6dd9541451a7e0d2b7a198` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xcc57b411fe3f716bee84227c3f4d98a3a6ccb383` | candle_queue | waiting_closed_candles_and_security |
+| `robinhood:0xcc57b411fe3f716bee84227c3f4d98a3a6ccb383` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcc5e00e3669156e90d13e496d982bb45ef28e88b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcc7df3ec76db05e80eef85668e5b0c8737de6668` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcca222c9b358e49c372f9088efe21a8e341e31f4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2147,8 +2165,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xcd1e30775e15c8b727ebda6642cb1e8944ca926c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcdd57250d1217291902fb29e63bfd6a667b8fb3b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcde73ed3159e9641454e8eeaa505f2d8f5520087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xcee8ef5e47c1c725b924d8d39696af6dd3990c2d` | quote_unknown | no_exact_token_pool_quote |
-| `robinhood:0xcef12c429906fb66ba3b21acb4c284135b879fc5` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xcee8ef5e47c1c725b924d8d39696af6dd3990c2d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xcef12c429906fb66ba3b21acb4c284135b879fc5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xcfb2aeda92c5aec5fe258152e08ba767a1b67777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd00f9a2d4fe3820b1e8fe7472584a8e6ddc31aac` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd02d554cb4ca839ded1dd89cde81bfe50fb1e6fb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2167,7 +2185,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xd2980cf694b77c5713fb17eaa4fb050e4289e8a8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd2c8628224d2220ff444cb4b482028b7e25a7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd2cd5136dccd6942111186f9425acd12c80081f1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xd2cdca8cf23f948ad5c2f8a468768d130cf0136a` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xd2cdca8cf23f948ad5c2f8a468768d130cf0136a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd334fac9d17333c758d42f453acec161e6bd73a6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd33abf25a0a85591b5a06091018083c7608ef24a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd354c75f2f8bb403eedecc27f2379466297dcf63` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2177,7 +2195,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xd3cf184c56f98fed1984267407ed508a2ab5b015` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd3d07819771f82884464b9985c1e873ae12ef716` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd44ab55ba71be0431c93602f6e7a5f3dc0224c44` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xd491c725e814e7f913a87e920f46b4af2cfbd222` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xd491c725e814e7f913a87e920f46b4af2cfbd222` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xd51be1fd41b50298408b33a61672c04c38980c05` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd541d05868d1687128ff6d3f655a0112e1aa7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd5591a0b5783c4e52aee03b7a2399f7d55345e81` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2197,8 +2215,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xd7f742c68b025067b95cdbf294957101e7d3d97b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd807e3f59c5fe1f093b30aa758d3db8e889d4592` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd813d32f551e1fde1b0ff11bd4c8b76886e21e18` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xd8204c07b58df6d692e54a36cb3f69bb23e70087` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
-| `robinhood:0xd82e59abea0edd0179cc70acc3c2fbfd79871e18` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xd8204c07b58df6d692e54a36cb3f69bb23e70087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xd82e59abea0edd0179cc70acc3c2fbfd79871e18` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd876b597e6ea3df5e85017e7c7488ae1d7307777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd8b680e51b707a31a4155107640f98a7d40b576a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xd8bda76064bf7d4beed9f15dcd2b6f136b777777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2208,11 +2226,11 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xd9915ca2486efbf2d13ef7dd305ba7461ef0db7e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xda7d2634587c22936df3fc5ba04ad22e1900279b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xda88b13a2834238cc4ab6b90c688a710ed681bae` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xdb2dd1bd17f7df5234596a69ec7ef783b187add2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xdb2dd1bd17f7df5234596a69ec7ef783b187add2` | candle_queue | waiting_closed_candles_and_security |
 | `robinhood:0xdb39306b9f7a3705ad2ee5fa1e8c202e23f375af` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xdb757503570b5600fdf0c9fd1549254283b3c9d2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xdbef067a771fe1786cb03f14428329a32cc47628` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xdc0d0e692f92e9960746fc9d0734d0ef4b735f60` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0xdc0d0e692f92e9960746fc9d0734d0ef4b735f60` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xdc6c395d778b96330e886bc141a269864c240825` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xdcbb27b58841cd834536c53ef8a3cb767fd9f1bc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xdce987af813f82d8aace513b4944e415eee4b495` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2226,15 +2244,15 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xdeec2ebf87f22197a58aad492a134488c989ef0d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xdf71de3de0ea3928ae46dc951767d2ddade57d07` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xdffd0261787c73c02a714cee88c75983288f7a3f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xe07904d44012740205e64090639c06928c7051be` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xe079f2463126ce5240203a61647f97e1817e2566` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xe07904d44012740205e64090639c06928c7051be` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `robinhood:0xe079f2463126ce5240203a61647f97e1817e2566` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe0c56aea77269cdb3da54c445bdf186aaab9f7ca` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe0d238c6b261601672d9444c0aa1f5946ecde7f6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe15cd0f1e9a40a1c1ce103552d9b3fb7e89e533f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe1838f0dff03a9327dea87b2a2285850791297ec` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0xe1f1228fd98d6fa9241925ca8ea965a3c97b3fcd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe274556284c7175de44c3d404b33bdf5e460ed3a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xe282e5871e9b38a6f05695adf39d0336db6fc034` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
+| `robinhood:0xe282e5871e9b38a6f05695adf39d0336db6fc034` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe29417d64057c5ccd7019a687a5b291e38d57c23` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe2b5c81eea3af06091e3359d01083cd942d86033` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe2b94302717a4219480a44a7c109e033375217c0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2249,16 +2267,16 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xe5e2f6bff9b0b1b9dd76dd7a42f650c9ca93b07e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe5e3aa33f60f0f179a338e3989fd8430e1c98317` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe5ef2730a9d8f3c94c8d071f30798b5b427abe20` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xe60250302cd19b6c94cfd23a78457056de007777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xe60250302cd19b6c94cfd23a78457056de007777` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `robinhood:0xe60da2ed212b6bbeac0ee795fd2b8b7d146d9fa7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe63ce5dea39de95feaca51d844519f6aac52524a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xe695eefb47cb71cfc337d41656d2e7141e976956` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0xe695eefb47cb71cfc337d41656d2e7141e976956` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe6b98fb3023514e25019ebca56aa70ad2f957eb3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe7110c50ce912f7f9bdfc6f9e07ab53a70b1b7d1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe733e628ee2dd811cd8fc3e0ace858e48b541fca` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe735bcebc89f860e2ece24a6e4e8779e03040e75` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe75abdf497bf139f5beadb97fd35d54802d448b8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xe793a50542d751daa6ea505c769ac2e266309cde` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xe793a50542d751daa6ea505c769ac2e266309cde` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xe82bc51b4c2fafd5fec475aa35a6a42380531e18` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe867c6b60385ba93a556ba388d7b25df3a50ea1a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xe88b64d4c4df9170fdb504e99859ba5dd06ae343` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2276,20 +2294,20 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xec2bbc8a867f82833a66e0bfea5ce0abf992fde6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xed1d6f75c4188db833782c8ccbd73ddde8f8c2f6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xed78bdc28826449ca048eda360322e5245292931` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xed95fdba32824454dc1c4f187a898120cb0b1f8a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xedb79ae7af1bbe4890bf574bf46b4851927a3508` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
-| `robinhood:0xedc5cdc8fe71ffa81a4a9068c7288330105ff9ae` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
+| `robinhood:0xed95fdba32824454dc1c4f187a898120cb0b1f8a` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `robinhood:0xedb79ae7af1bbe4890bf574bf46b4851927a3508` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xedc5cdc8fe71ffa81a4a9068c7288330105ff9ae` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xee0bb9ba332d95b7cbabd5a4a918c2faf958adcf` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xee33da8c9ae8df1d4c54eded0cfe024bad0888de` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xee33da8c9ae8df1d4c54eded0cfe024bad0888de` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xee602abcbd352368521d503977662edcdd07dea6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xee7bf9f369d0d06b3171df107901edd1b8fab1dc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xef1a7501b69a44e22dc37956c203b15f50d59129` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xef28fdb83c283fb10f240c6c2152dd77751575bd` | quote_unknown | no_exact_token_pool_quote |
-| `robinhood:0xef4d69aee8b7868a39bca6045ae6bfdec50872f6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xef63adad3a5f0e18e8a7eaf1edaf8e28f8e456d9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xef28fdb83c283fb10f240c6c2152dd77751575bd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xef4d69aee8b7868a39bca6045ae6bfdec50872f6` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xef63adad3a5f0e18e8a7eaf1edaf8e28f8e456d9` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xef787704ac1877379c910fb1b19ebe0d2a53c0a5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xefac83c9caf624c52487edbbc32f5a9ddeb90087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xf00c5c561c4a1133f7a26bea83fbc2c300003a38` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xf00c5c561c4a1133f7a26bea83fbc2c300003a38` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xf046f2a4caaab0c7084896dda77de712438a0087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf0557f86a928d13873dd6a41ed7f6f4ab02bea30` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf081f689b410372abe3ffc72b6092e10df357777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2303,13 +2321,13 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xf2354a1b29f0cd6101ab7e5c97bf714415c67e9d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf253161090186253b35b00c16616eafc4fccb50d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf266245511b49995470d69af2174a482f82b83dc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xf2a5f463f4aaf98350ce669b1d69db1e61c96028` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xf2a5f463f4aaf98350ce669b1d69db1e61c96028` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf2b09b5536d590eb60ea76b8a50a67930dc87935` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf2f3b58cdf6ae5492f0578e4fb18ad0bf6072f71` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf39473eeea6ccbc620c776a6c1d20c39a9f07ff2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf3f8775105af8b7260b626deaf9611bf65280087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf4019fdcb87feca110f3846df0164844c3d849f7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xf41c97687c22988c4bddd70c31ceab24d593a599` | quote_unknown | no_exact_token_pool_quote |
+| `robinhood:0xf41c97687c22988c4bddd70c31ceab24d593a599` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf48d8e366b2c792068da627e1e858c6b7719b2f4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf4a939e453e0708aba256b062c9be67885e84ab1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf4d2ef15c1eae52c707f43c6478552eb6c6a2bf7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2322,7 +2340,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xf65ec5d7a685ecaeb210034133214190e7470087` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf672938a7a0d7e890bb241b7b1d1889761ff55ba` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf6c73e5bf0c708d4bd21eca525d84bb9dfcfc4d2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xf6f6c3be4873aa5b5948f088de4fc8255d5a051e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xf6f6c3be4873aa5b5948f088de4fc8255d5a051e` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xf75e4d33a38e33a66b6dc8836bda171dc003b8b3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf76c8bde3ce05d6f9f6443c2959949e1e8b0347a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xf773c541e761afbb6227897435d3a768548dcd25` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2345,12 +2363,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xfb1189d37fbf029ed6586af331dd8a6e3ab45741` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xfc8b5a54f781761b077c3c1125152fce01118a44` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xfcb3cb7eae2fc4255eefb2790326f0c9a4a371e2` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xfce102f9cbf95af6c06cf677e8761056a3b8154d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xfce102f9cbf95af6c06cf677e8761056a3b8154d` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xfd5397c3afa4f097aa3bf72348e41e6a3b942f91` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xfd5704bc64a46bc035e09d6c9bec65b002c68249` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xfd5e5362446df4ae45d7bcffa6fd3c88224bce0d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xfdea7c3c223c4a6923284fd9fb0ee34c363c1111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xfe4d3e05a1ad41028f5f0b4cc585412211ff7360` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xfe4d3e05a1ad41028f5f0b4cc585412211ff7360` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `robinhood:0xfeaf5baa36ef60205aaee7f6f88cabff770cfd3a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xfebd72169f26a52f44324a26568147c591fe3dff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xfec88818d95ce6ded042362699a2b37300084006` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2361,7 +2379,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xff803336b9b2c5b98c0422d2f3bc64fe4d44492f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xff96d57d0e3676dd19e4b33a3cc5a2fb8cacd43f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xffa85f6c1a64959eb15e8eb8ab090bd29ca87777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xffed755f1ab87748771027897800dbbfa0731111` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `robinhood:0xffed755f1ab87748771027897800dbbfa0731111` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `solana:1226TMaWZiZYWdP7CBZBqfJGXoWXaKXJJiKf45e5xfun` | archived_age | pool_age_over_24h_identity_preserved |
 | `solana:12FZCJPQNUjNnHUr9RZxDHYL8x461bDAhtPPENnJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:12RH4YWxiDwHCuJmPVmDyEHnhoqvdd2miEHZ55yUYWPD` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2411,7 +2429,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:25oLQ7dDwyNJhePs96RqyVE4xhuKMwmSdZxbNPkSpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:25tKPBsjZZk8QmDRcU3JjWx9vGpM4bmidvpaaDc7pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:25v9o7dz7d1DWfgpDtkRP2dJxN7BXMTheBQysUJBmsYH` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:25yFPWyLmAhuCPmHx9EPe8uT32k98tDSgmnNRKmWpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:25yFPWyLmAhuCPmHx9EPe8uT32k98tDSgmnNRKmWpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:25yaAVJsBGFjy79ZpUDTHixqHFj9sHs6dkHPM5XSpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:26GMcgH6GghenV1sAjL7248RszUy8wGLdYzshibYpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:26HNvvQgHFUkPu4eC7nr2uqUznzdR3YUeXdE24Etpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2454,7 +2472,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:27UXZuuPwhFJ9fVVVCEzRXsANwaRKUr2MxcPm4Cnpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:27UY3FUQq7Bn1FGd1uJLerihmRdhQRwK4LSnGoCapump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:27UYCSxy6FWpBomar94KncHd412tMMWdBFBP2zWkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:27UZ3nrQeAtzDuv1TEryoHnagnVyhYVhudcxReR6pump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:27UZ3nrQeAtzDuv1TEryoHnagnVyhYVhudcxReR6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:27UZ86gmnhSGq7WWaH26BGyPWWhY6x1u69tzgqX4pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:27UZFTZE9DxLsWBjddXzfGFGT3uKwKn4YEjVc7sepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:27UZhX5nmCbQAriBG5GW49PFer7XTUN9WGBK1Mnbpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2532,12 +2550,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2Ghcb8bLBzp2BdpqWkygtMBDKEc3UNJLnCP9KqYwTost` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2GkmyArNdXu7Y6bWekvb4UocHgS3LzUysv8gXZH52f4a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2HBTkb7K4B4rrsXeF7AiPzoEBoGXKJG3CM8tX74ypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2HDQM8KLN9A2ajQ8Ki61kNQPB1UutqqedG1KSgZNpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:2HDQM8KLN9A2ajQ8Ki61kNQPB1UutqqedG1KSgZNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2HnkPT5WH8tcXDxCG8BdpSJDxUDqPHwJHSs8MMe8pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2Ho27DW38YfP9XdDMoA3zA1nwVDs4kA5Rxexay3bpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2JHTtviKhvtyua71zE2xz8ZrSCZSc3BJ6iPbnLqUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2JWXaWhwWLNDVspXfLWU966RvAKyT36ThjLyu3KeiUuy` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2KBMNXQRF6KtAusXaQc55VQAZv8g1f2uHxJ6uh3Hpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:2KBMNXQRF6KtAusXaQc55VQAZv8g1f2uHxJ6uh3Hpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:2KGKsNicYTsBfTiih4iZTabBTZkAGjBggU4wShrEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2KSogMLL6XKpsUw1WLj4hJ2C1DYpihQNTUWKgny8pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2KVUZsswGuiEv2Eg7CgkaHxjksiSsmpzkTRHeRsSpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2551,6 +2569,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2M3dgSxHuiTUViyQoA5g3tZzR5MTUjBtaY2GubYqpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2MNiYaHxpKSAqHjT9kZTVjhYSszTKRjqrpAHP1hNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2MZ4bhgqt4ArP1v2hwv8PU6QCx8oPXGpwgSD3frypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:2N9gPEoBBKnfcJ4iBoEeVHxZfcZbf9UchFUT62zDpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:2NB8dYbEs5KrzLj9f9kmBPW6AiiKkuM5VAbvbvVkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2NG5Q7M5aVdmHaoSd2WWCKy1qXDHN1L1QjpLn6Gkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2NL4g3WY4YbS4s1rmCDa8n6uVHcxVYX2i9nbdzWZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2614,7 +2633,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2WDmdhF9uV4u6FAWfgARMLwJhiykxP2E2qBVLiiApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2WWtWhFxYi9bxWoXJeyXtk8xz4q7Pzs6HvLnP7Xipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2WaxiVGf1xPmTvFAewy7sowK1iL673kucnj8RT41pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2WgkkAztLJcHtx8wL45ERKxUrU43h3KJR3UjujZmpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:2WgkkAztLJcHtx8wL45ERKxUrU43h3KJR3UjujZmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2WjCtXRbdrBi377E1STRXaMNeYgm7A3TciRRL9dzpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2WmssVQZcZM6uJt2tKqjYsjDRmt9ncBi8JwVMt3apump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2X1MBya29cdcygViJBRhkMTcwnufZKeAmdFmPUisWZCb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2627,7 +2646,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2XfSvcN61YmQByr6hSnekEirpsL7HWy3h6TxxGF7QB59` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2XkF9rFFoPuj8osrsrx1EnP3h7FqDvbArt49NHAxMXcW` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2XnfrN9mvfp31b6y2KnwAfiJNoPzF9qEYw3DQVpr8yiW` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2Y5b7qvL2TTts5e8gjd1PT9Y3SeANEbcy7uRrPrGpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:2Y5b7qvL2TTts5e8gjd1PT9Y3SeANEbcy7uRrPrGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2Y788iu7rpLg5E414WwC6Vro857h81QF4afpT2Agpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2YQqt5Qq2NLFZKmRTseDvyLSqNisSFcvctJwFPt5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2YUu3skEndrvza5EUaRZmcgAfY5ZUVgPWqt85dinpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2653,7 +2672,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2bUh3TKgKe8xD8jH3Uiy6b7PzvSHBmGAZ95tmhe3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2bqXVz2nA7GTozVnJf3WoiodjXeDxxL31kLcaCHCpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2cBf5N8Hogn9N4rsmGfbA372UK5RfN4SCHTQoUG96D7q` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2cBn36jBHvgyhuxCf3He8SCEJvUhLDNnMz2LwKZipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:2cBn36jBHvgyhuxCf3He8SCEJvUhLDNnMz2LwKZipump` | market_rejected_or_unknown | price_usd, liquidity_usd, market_cap_usd |
 | `solana:2cE8nMCs7k36hdM3DKjoyMbbxQdvfziyiTJ2RmqUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2cHs7zynrsycqhbHGe4nAiopfVGgij6HGxVMcpDTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2cRFG6ToPDYEzxBahTzad3fngBVRZw4k9Lj7vT1bpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2701,7 +2720,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2jYcMfDARq5Fq6SWe9DV1kpEzzYkmLuRa3AP7rekpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2js2FtG4NPUuKSx9jAgUzT9PosAkoPqMaG2AouQ3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2k3zH5XTUKdP4P5dAXLjpRQJf3E6g2ksPNkjh11U2SBK` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2kDXxxz471x7vWDrS4jjMviEzRFzjKHQJMinj6xdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:2kDXxxz471x7vWDrS4jjMviEzRFzjKHQJMinj6xdpump` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `solana:2kFCeY7b4RfHXWZtbCdnX7fv4EwdGpPC6qvKtu6TxRSz` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2kL4tLt5ZNa5J4njmDDp6he4ozUAZtYvW9aJMPUPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2kT6hg6QkV3ay88GjMLR6EYLA3hoPhk883EMEnbv18MX` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2765,7 +2784,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2sjC4DsDLPxynUS4SW9kWFxHwEzahwFGpSV5eTtmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2svp7k1EqiSCGF1kmT3emUponJVKENLJgNXZC3v5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2t25qYffbqAK5oW2MbRgB4zqESSw29DkzkoSCEFvpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2t2RFu31zQsxyst2GnSna6FAAj2n6yFBg7cTgooXsoXX` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:2t2RFu31zQsxyst2GnSna6FAAj2n6yFBg7cTgooXsoXX` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2tGjucmqepsTBjcqh2CDotBjpQSNv9fKuPFpqQ1qymkv` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2tKJkdmLCyGA5JCJXtUuXa5QW8fyGAr8tkAZXiZWpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2tLHy8svQT5BnEXR3gLs5RkJRvmX1eJdr5SKv25jUCsT` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2785,7 +2804,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:2wUUtndgW7kdHzfVrEfevf8TMdPpAhkzbrU3p92ge2rc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2waddcTwsbEyUhAZwRuPhNsmb7St7opxMrDzZReppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2wbZHq53tp8T2ybf4cW6SJXaFKVT33xDJzqL2ioEgCrn` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:2weFAShi3AspJK9Pb8KL429UwDTtSW3D659yfwvZpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:2weFAShi3AspJK9Pb8KL429UwDTtSW3D659yfwvZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2wpmogo9piEttBpuQiLd8RoHQQH6DCPFzBuPkb4Eq5ka` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2x7veZ692oPYqUnRsy4T28WZT6fGyoUTLLmLcYSdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:2xBuATm86mdrZeEJ1Fte6mS4jyKFueWMMaQDoJDCpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2881,7 +2900,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:3ENPdnJPNBSag62nwnzVJgJNq8yStfU9G1Sz2FVRpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3ETE9r3KADtEzfYVZuZMK3ATDo7xoazey8D1ydpepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3Ek916FSbBQUAEPCbN1GQ3AKfR2ftVSt8AVQGumxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:3EogmPrM5LUt1d4n4RzenYKqCCwt58JjEtJrLj5cpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:3EogmPrM5LUt1d4n4RzenYKqCCwt58JjEtJrLj5cpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3EpooaHXMmBFpwy7FGCEpycAxXebDCCPS6MNqK7opump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3ExEGhkvk6Ad99naAX96YB3y4YFFjaYr3YKQVnJLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3F4Fowf41ug8mFCxeX5eRzU5arFZAKpdpAaDGDsRqLpN` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2907,7 +2926,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:3HAt4QZmyo2qwS4BA5Mja4Z1dv3ozm1JGnH3PBqEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3HEBtLhF4SRbC1Q3EnymeiKiKz9WcaJDdZMG1FN9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3HfhKDwZedrC8wdBGwiKBe3RxGG4n54agLWfmPsApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:3HmZa4bTxec84Kh8GxoSLNvAibSKLThBzdhuboVupump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:3HmZa4bTxec84Kh8GxoSLNvAibSKLThBzdhuboVupump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:3HpXUjsE6AHSYDNPXHUMSHRQcCaroNPUtgEQ4t7Lpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3HrGYo41EsrZ6tVDRW6GjjFYcdrho6tVTuegAsvjpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3HwyRun3iF1nuEPZNWVMviciNr77U2XxWedJ9fwnpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2941,7 +2960,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:3Py9h5V5zpH7mUuDg2cMSQJR3jSZzU7i8QjqtFVjaG89` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3QJDp9gWRRztgwLiP2tueuTAPUkGaLqqAWgEW21REgFm` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3QLpVzBDe4UReiBXR63GsvNZWQmSeHTJnf6PjEPdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:3QZ4W87UHu7s8zjDHZJusoLuGPbeiXqccH9154qBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:3QZ4W87UHu7s8zjDHZJusoLuGPbeiXqccH9154qBpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:3Qquk1SjSPeZ9VAhPaVK6refBqT8GeRZzpTFhzsuZxUH` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3QxcjXcP2UWtYyhCzSbXHVgxYXaPBZHYHniX4ibMpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3R5LNYRDXPmWHi6yTanxaeMu2415XfkoKzpk1vyxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3004,7 +3023,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:3aS6YcA5y4vka3ei2qTH9B3ogGMeYgp7eu7K8LhRpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3ausEw9Xk5J7V1gxyYHqFJ7fvCu8Wkz687rrEMGGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3az8WFM9pF1qSg3w6iZqRUmwNbdxuA32nAYxnghwpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:3azthsXqUHATUYpQgCyg6wF63CNvZMWN49NAxETTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:3azthsXqUHATUYpQgCyg6wF63CNvZMWN49NAxETTpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:3bJM84iJCPWbTV13xMLoZSfSFJ8zdxymp5VeM4tTrzo5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3bP8R121NXHwDba7wqfkqsmuRHyw5Q1U7PSN3Bo7pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3bbkjqoah97U3CtsxQMYLVggiuy1nXHiUK1Mtiiepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3082,7 +3101,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:3pw191zfvRMD9SR8g73H9aXfXHwxCG8vPWXrC9q7pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3qPumVa5kUcbAsPjUXaCsxbeZDHnpzDWCiyux1AWNnQq` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3qgqVEGrQymDkUggsfmY4DozZJiRuSqSb8RgPcXzpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:3qjp7wH6QZu7GE3ZWpiZMfM4PWDpvq4vVdNQ5b48pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:3qjp7wH6QZu7GE3ZWpiZMfM4PWDpvq4vVdNQ5b48pump` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `solana:3qnRV9jL97sZEp1dcdKVr8ukbwwaGm9gt5Si5ssTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3qvsviVbYg8r3bgUzfrTfJpe9r58SRqSSp7Gfc9Gpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3qvvuGYFqasexpYKKVnZwR4uQXQtWrDj7VCKmV88wpoV` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3102,6 +3121,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:3trLY4pYZY6bEfBrZxn25DPCwYJVeUK4s7p4ZxEyJtho` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3tvweQEzUo1Dgqjm1qSonvHgXYwuBUTZzNxKHsvsMFhJ` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3uCg2fjnaMeZQ9BS792s3GDxqz5aK1RHieteLf5xpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:3ua2wBUPYCYueRrojdLWz2BY5ESeAV9PccVZyvTopump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:3ua91rvzkeL48MQGK6GkJvsJ73N5vNMAVH96Xaxipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3ur7rTqWjePUKBBjw2jXYLiYnRjq7k2xW44X6wMqpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3uydhKfLSAVu4BKy9G5mfdvHeDqhMhZbiYosoqPNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3118,7 +3138,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:3wshGS87kxEoc2TZGvzBB9o8BbJq6Uka2CgXTLBdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3wuourLEbtuyopEWaBcpMURjd7yhGPsiGkeyQfcrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3wwaGt3uSMyygtgQiJgz1jVBnMreqnyY7vEumfaYEk5c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:3x1dJHzTwkcqFBSqBaLvJZ7rAqxfNA1ouuUA2UYDpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:3x1dJHzTwkcqFBSqBaLvJZ7rAqxfNA1ouuUA2UYDpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:3xABAuL6dVzdHk6n78HtrfkL2osjKB81SS5aS9mEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3xM4UtLX2FzchtBjvzwvFf6iAhGVf6pbNkpF5PgMpztq` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:3xMpeusDJ7VQdxzneycm9p7r2QFwC2vR91GpnRxcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3137,11 +3157,11 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:41jsWDhYdA76iwpz5rmsoxHTdppYdAKM9jLmrGMxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:41psKpZ8pTZMuQxL6qSLnNNQDJ2umowCY2fcRSPgLdwe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:41wLvLKUM7XPkYFXwUoBFXMvxfzgN1MJBPvdenaopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:423umTVgkDhZ96NWYqUU2HUzzFHQ538SF9wvVznYs8Bz` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `solana:423umTVgkDhZ96NWYqUU2HUzzFHQ538SF9wvVznYs8Bz` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:424PFYQ7BRCv1iQvMBYKqFbsp6nnCiwqDP4dpAfipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:42MD7suNVwN32E5RAoATad46DmiS5WSZbzh3kEx6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:42XHffseHYG2zUtnevogHDQvQkby5TYHe9NbbzSM4EB4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:42cNkLZAesRYTk9eZMH4A2vL2TixQKYqqoi8zV8opump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:42cNkLZAesRYTk9eZMH4A2vL2TixQKYqqoi8zV8opump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:42pSvvXKHXm1pVSsShnLrRtcgec6Nu6ytKs21YUxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:433tXF9AJipNeCZWLJL3yVZp2SVYGGYho4HQCVc9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:434mH3TsgiXEn5CxeGepAEC86rBDtWE3y7bCVT9fpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3184,7 +3204,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:47SJt2wMHH47928bdFF2sbPvphMPCEjW9jsfuNLRLdiA` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:47VFydh41My8AmPvdFpRe2kzArA9vXpbt4jdCr7Jpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:47gWKUBvXpVjSjrzZiazJtKB4mT3LY5gvf3uQDyWis52` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:47nvwd1niL4ewYq2W6wr4jBhZ7Djv81r7FnRM56gpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:47nvwd1niL4ewYq2W6wr4jBhZ7Djv81r7FnRM56gpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:486t8TrGnVb6YRjPUStSQPSoVmh6br35THcBfK2jpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4887fkMTFYXZn17oauf4kcqqFpgwS4KDERZFJGbnpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:48VNAjnTy5mKZbkA8kBQaSYes7Hj8ebNEgTEXcW2pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3316,7 +3336,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:4X4ivbyHoBbkpzGSo7HRVjAKLyUFFnfhhJ6vUpZpk22m` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4X8SHBcWvTMpr5PmMXTc96VRqo2T5pi33v9e3NtJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4XN1mCVfJsobP3xZBQuzxuSXY1P6LPwCKHxPMFUFpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:4XTFJYKEkzR1nTn17eiJNhnRKZfbkJ4kkAdyXyxrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:4XTFJYKEkzR1nTn17eiJNhnRKZfbkJ4kkAdyXyxrpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:4XkQSfJYjZTeuWJa2LFuTFofGWbBBicTuyo1awRMpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4XzcXHdRDcSHoG2EnjZC8T2i3r4b381M89CAZqthpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4Y2JjVQW4CaQUUaWADCVGWs6TNeXqAvyp8FrHJ2Tpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3375,7 +3395,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:4fgjxxYsu6XT82JxvPDCbJyMfn2vrJN2XAiJYiDtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4fiDEr7d72HAJDhTcQjncvvdfGT4HUDSDkJMwtWzmKwU` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4fmjj5ng6JrhynXYvtfaYN7oxQrkn8pho9N2WSiHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:4fySCsNwo8ZSktT5MheA8GZQFhnAQ79N3bivn4Utpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:4fySCsNwo8ZSktT5MheA8GZQFhnAQ79N3bivn4Utpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4gBqEvdD1XqJe8fUM69eY8VF1wBMxZGAm6smBqwrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4gSdXiWQHUeQDoKhufg8XL1zy86zDDWnp818s9Phpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4gXgDU4Czq8CoGxamxs3zcXKSsvmUJfGE5n7m7Xjpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3386,6 +3406,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:4hJ7AjMwB1Z7sJADwZmaibwYNeFgCv8JsTFb7gExpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4hNcWMu9jHcZmRNTpcqXiVP9WznJ9iGbwTF74WrLjSJh` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4hcUV1qdFoiMgaecm3RxJffC6eBwA7s6GQxZDniUSjew` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:4hyMHcy3xTe4QQEtzGU9wg9bmvPXgzG6GjLbruDBpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:4i2Bj8FpUVEedZD3GrCRCUUKjbhv3JXf5eJ1Y6MLCYyD` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4i38uj61T3Zz66bMdaKNDLZ1hWxULc1dVLCmYQVspump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4i3M9iJ8gBfBLBsAwCtvBg6mL22wroxyCHrBJs66pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3472,7 +3493,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:4uq2zVCoxadNdKyx5iAHCKPPy9wUzpXmCkoGxpDPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4uqMYTRxhuX58YhgmjbMkr72BqoGPorW5qraLouEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4usQ27YRB71113qzSHTcnRc4p1gwNPnBURz8X5pQpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:4uupPgH2B72HstXn8HX5N3yW7Ygf8tyDJPHSP1xCpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:4uupPgH2B72HstXn8HX5N3yW7Ygf8tyDJPHSP1xCpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4vBFAGz3Qa6WHsge2WZnYxMiP56SEE1LCZyHV8TQpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4vWfrZAFVLUiUjqPtkbL42Z33fCgn62mBAgrCe5Kpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:4vmVqWGugpGyeDvwJpLvqQh3GaksXT5mCdHJAoeopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3613,7 +3634,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:5HSQ9PdnWvvwor6tpAHfBW7YawxkxciXKphUxpPFBNik` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5HTn3LVwBQvEkWyPcUemg5S9X1LVX6Uv8jgW17HPjiSv` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5HaPPBVW1Ku9CoXGaaJMEydNYtvP5AADqaPD4aAsafhb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:5HbJXC1kU1fExC9BsmYY4ZEmBE5Y88DLBJ6AexYNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:5HbJXC1kU1fExC9BsmYY4ZEmBE5Y88DLBJ6AexYNpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:5HifphHrsrDmtdkm25r3KS5Co2fEkoit21qPqBtrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5HmYu75279Qq55PB23kwWpAYsyBzKS5JLy1BR4rSbCeV` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5HnV4UKvp3boryyvdsnKcpVLTb6rjNQExho73Dzfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3759,7 +3780,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:5hCXcaRNPwZhAebRXd1yvKhPmCC87bpRarhmuGMypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5hEZdXZEY96V5DUEePzaAxbeVxdTBSpqFxj59qakysKS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5hFh34DAvpudJcnckttAm6ePN1J6KrTXNSFx6VJ5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:5hmptAHKjBBq5FoJremzepJxe4xjPFBYwJ8ceaUKpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:5hmptAHKjBBq5FoJremzepJxe4xjPFBYwJ8ceaUKpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5hoMq9yJLtL6r8EcBaNMp7zgrGgxXbUrxfMchcCFpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5hpG4dzDSfatDNBMdCEZ5MRazCGeE2YyBPSRwezyng8T` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5hpRs9AGTZ8nr81a3ghmWEMbMAy5umUZby5qA1erpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3822,7 +3843,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:5qC66mYy97T6fSbJ7imr9HWj14n9dniYGYa3NxXapump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5qH5pEGSuAicrnzQCEzx9br6XdTTFnDqGPp3sWopdsfR` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5qazyKoTnretdLuW8dGkc8rFJMHsbJcMWZgG7Qdhpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:5qe9NZJQNcrSjCiJ9Axngo2HFSgLNyVu5UoJYofmpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:5qe9NZJQNcrSjCiJ9Axngo2HFSgLNyVu5UoJYofmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5qirZMAVjpFH9F5MqG7mZfaqpFmZpwWCLDMFXcM1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5qisUnQtkC35ebqJdVCsvuPxFVdNFLD7QGc7KaFDW8xM` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5qkHXpfXzbbx3zxEFpVMyr4Tt5bUcheNc371S3xjpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3832,7 +3853,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:5rDjrGSMHiiuvbKfFYxZJfqV3ftQPSs1snEDx1hckJ5K` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5rHTCRkUppd4tJYVXA61vkfQRKDXLLHHLcC2HWdhpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5rNfHFFckKcHgcTWh9Yf8L7CCe9aqeERiKS3yi1KtP2H` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:5roRh8eGmBKoYsk8KWowv4xs6HrDSmM1T3eX25qopump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:5roRh8eGmBKoYsk8KWowv4xs6HrDSmM1T3eX25qopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5rx29wZY3xajbJY6BYyD5GjGCqAZc62WAswdWG5rpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5s1KbwF3FgpUwh9RPhU4EC8mgZ1VtsYoPzLpJayNFfKm` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5s1pzcHSEuzsQnymgfKZ3viaZLRm8rmoododwTQZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3840,8 +3861,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:5s8YQRM7uB7aW27CtDfn4hTT9JDtj2QrLEPzGVj4RkaW` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5sBeSAvkshLHoZNxgg26wVzyCLPt9ajYdtmTSASTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5sCmPxBn1TsmxHEjBwg7zEtu9uNqe2NiCuyamUCfoV2x` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:5sSYycfZ1v7kFAdfcLQ3nSRrUzJPSfUZEyeMiJitpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:5sSsbq6BkDCDiBEAh1wNnpk6j87EvhC1TVrohtqrpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:5sSYycfZ1v7kFAdfcLQ3nSRrUzJPSfUZEyeMiJitpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:5sSsbq6BkDCDiBEAh1wNnpk6j87EvhC1TVrohtqrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5sUKGxMVyhAqPv9UUhNvWsHxM4STJeWTnw3GqSPipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5sfufV9vPnPVoHXGHQynQtkzSDajbRw6wunsFF7Vpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5spPVjt9MDYjLfgnWjo2DubwHKEDfpx5mz2V4VBMpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -3861,7 +3882,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:5untfk7VZHoFtSPSm4jTdy9KJA2pram77SaRCuijgEZ4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5uo1mMxffwCYpdCimWeP16EyW1JGpw2vbtNnem1Hpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5uqoBuFYzeHT4EpLxWsg3BRheeCpeQEhihUv3L2x4QHk` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:5uxxA7dQjziWbjzsR3z7aJ7JvFgNjpqPZskSuMpEpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:5uxxA7dQjziWbjzsR3z7aJ7JvFgNjpqPZskSuMpEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5uyZHcCxw9tZkV4WA6NiB4tho8Ar3UJTmNDNyK4Epump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5v88GR8Gic6BZjf5YSwJFpqcVAXQr5H7YVoxjC5Jpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:5vTcjJbirGLuRMF4uqrxcFTTrEpWb1KuYMECi7MdfGNV` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4091,7 +4112,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:6asiskdR2DNEvBfXwVh1g9aouBkzvz1c9Gq45Gx7Ebk7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6ayVx7ENKC3ivRb9io9EfJA6pPrGftJbZX1sydqTi6Nd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6b4iwzrji1QgH7o6aZfzXPTsFrEP9KJsMk93MoSCGHSG` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:6b8e3nWemEg2tMhLxL5q5XHJZQyxVeJ486TkYRsVpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:6b8e3nWemEg2tMhLxL5q5XHJZQyxVeJ486TkYRsVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6bLAf5YbvP5prHHTEWi4pS87hrQQNG2pTRhG5WdBwh4M` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6bPEk6Li7cLxANSUsCD59Kh6KeqoLhrTF5p6t3D4pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6bRpDhX2CCwZQuo3QSnHn3W6L98P4HscL4mgdNHTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4111,7 +4132,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:6dFV4AP4Y4ofwH5d6oBTd9U3cDCPkeDnTTLq89ytpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6dUpqUfj1MhcgBTnDC7hz7snuNrvSX6dKVvRZxJeAaLo` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6dh2FhfnsGnm786DAUzE7adVBn6x4zVxHb4A2W6K7u2g` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:6dk9Raokh322eqDkqKuoGjCQahq5FvBhHYyYX8xHpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:6dk9Raokh322eqDkqKuoGjCQahq5FvBhHYyYX8xHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6dtw1er1ARfz2Vi4VrknjPbYJgKPvMk75G6sacsspump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6ePz8PSwRpC88txvvon8roz6GqX8c9L8N1a3Qn8vnmTh` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6edteo7os1kXAoGADmjwhkpmi7DQ73PQq4BSZb6apump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4132,7 +4153,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:6fxiH9axMRjmGshAE8Ej7EYUCkrkxJ3MMo2CR8Nnpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6g3Bktz8nbAPW6mjNRnWhT18ABMrWwnqa1uUBkUjpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6g5JhSTh2gSpR4rFLoSNewmpmqJWKmEC3o4bP9G7pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:6gFMX1ChwXVhwExdnWDRqzfMxaQBypuPskUeNkokSiHT` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
+| `solana:6gFMX1ChwXVhwExdnWDRqzfMxaQBypuPskUeNkokSiHT` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6gGtnHMjnuE9zhPsXy4pPGSGhQFpDb1MKjyfa1aDpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6gMZjGwMqywqcp2du2rdwPtHYWT1M2J4LGxMVhgpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:6gaVJ911cCEATwaagHcWaLQHoW3Yps81GDNrjFUhpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4286,10 +4307,10 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:7ADa3X7yKm7aJYbaJphKCqCpo554iWbx57CdB5KDpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7AS87f61SFiiC8x2UDv4dvVKZ8C66S8C1WDMVYchM7ZE` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7BZ5EteVxGTik1SjTSYeZdmhknKw3cKkKDgJe1qdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:7BkrvbVjd2ndvZGcp1dffUeNzcHVvwRUnGdfjusxpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:7BkrvbVjd2ndvZGcp1dffUeNzcHVvwRUnGdfjusxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7BmDPADtQRvHkAWTWrDXTddPiGxT2StHVmzzXHySpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7BrsHypHZMvNKavJ1vBLakbTBWz8Ra1Z6o3JP62Jpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:7C1j8fBCADqMhAz69tB2aJCr3WNt3hoizgitYvckpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:7C1j8fBCADqMhAz69tB2aJCr3WNt3hoizgitYvckpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7CN2kWaCUqDuBFXBRCVBxGfMBpeKirrDARE6FGm5GmoC` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7CVYtNQY7VzqbqDiJgzMmS1cJVgP1p2Bncgitw2Apump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7CgP91fy4FQQjW2QWURosKTmGWnaHE5njmxEJudPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4380,7 +4401,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:7QbgFHk7UnGgrVGTjU3dN6znsCkV9rgEjGF62MAfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7QjkoiNerCXYZEEzK8pfMrCuSDcTVA9TT1EK58Zqpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7QtnmC5GePBZRBbgPPSKKyHQiduGm3uJ7MLbpnKtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:7RDenZHS6LMtas6HLU3WBs6v511GiTF6smACLtEtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:7RDenZHS6LMtas6HLU3WBs6v511GiTF6smACLtEtpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:7RDvkxmNtvXCHokBrx2S41vFowoweFQR3azVbqZA2oBH` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7RM4H3AsK2PRN4VBUFrjhZs3aB3i8qNXwpHiQqxDpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7RPfRXwikAJhk5ALewy6ifiWvKuP2dDtWtWSgpTS26hA` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4418,7 +4439,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:7TffR5gmbbGLWayFfNBMk7Ecuf9F5fhaXA7Bwm2ppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7ThcLQBYjA66oEf1SudtWKQvtFzcJNAUB7ys5F7WWQ5v` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7TitMUdvNx8xduzcZ84ChFXBzCDChGWSHFYDefA5VHJA` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:7TjPKFwLH9tUxnEfrukBWzECt978Tx6GGCAhGi8Lpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:7TjPKFwLH9tUxnEfrukBWzECt978Tx6GGCAhGi8Lpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:7Tkc1oAJJPvvBHX4n9zG3LUrds6by53uFRQZNpBvpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7Tmv9ihMFypsNM84uT1azweLvrTrMMpgj5JgUnCfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7TnkB6TaQoGBBDp6cWtHRLb3WXh9RT5Xe4XZHNNkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4589,12 +4610,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:7c3K9GJLPqTZWXcAQ2sqAXqhKZ3N2nnQ5kWdaxYcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7c7CvQFKc5ekb6sgSfKnEiXpzvubY4ofFTuL4o6Ypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7cCFxjq8vUSXogq6fndcjtkmRFt3Ve6qtrsdk5M8ZXLF` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:7cGaZJUquGHuDwXK3sUKp9L3ZEXJVhMXFiKr1A5rpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:7cGaZJUquGHuDwXK3sUKp9L3ZEXJVhMXFiKr1A5rpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7cGmnr9jdAEbpqpgR3Y6xayn4d1srZujqj8G14oP6Thh` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7cRn3hAihDEhzw4CZv1nXFQLNrfowwvPVYViaNNfMhY5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7cXWJpn2npmJRFJEaRPP7ixUCUnD7nVT2Zqd5a5hpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7cYoykBUEWLwo1k5r8kQPhQH3FuoPWBpHKzZPPKfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:7cbsKptpyeideMLGvDTHiiapEw8wcHVoVgQYtWvNpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:7cbsKptpyeideMLGvDTHiiapEw8wcHVoVgQYtWvNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7cbwnyk1x3X7ALQuCbXZTy3Ft2d2TFgRHAtKEYN4pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7ccFpzfEa9XiCkiFrpNTXUGiDEwZP8ve1xBbT2LQpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7cdHAm2hatDbrUnQVPzBBohnGrS1Sv1Fj8mbu8Ghpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4722,6 +4743,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:7uXXXD1RqoUxKYDoPX5LzCpE8f3miLcN5RHkPSAypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7ubDv9TjFeGkQGYxV3eBazg4LdDVYVs3QmWvKAaApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7uomqM9JzWQZuRtrbPW2wNQNJCK9QSf39wdpMi7kpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:7uzobGe5AD7NzGVw7gSJQStwCcoNEdrqiBxRJs98td4r` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `solana:7v5Kh5fJQtMXpN61zopt6QQ5zTBAXrunjsGAKK2wpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7v6jeYkB7iMLfjJ6eAfgKk68i4cMAarRT8icf3a5Fxvp` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7vPLnYCmC8f74npwSBHEvt6SCABpwrajCSEaqDYWpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4738,6 +4760,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:7xVc39QGfPsZ4FkBs6bqWwowCwvH53g96jaMsti4pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7xWbGLEASRv14Wsej8zCVFoZBLWLKPYoEvfRCyM8pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7xhcX6CSZTQXqQKGX3ws8RDye8t99QeADdMUnJbYycNW` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:7xmDa6iSQW3zqu3VNnZ6ivaKxDoxwVMFo4rktUJupump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:7y61fB9hgzTW1hxjm6GWV1F3BH4vtkpvEB96wk9Dpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7yB3Muw1gFb9Yc5wRfXzK2HzUeNTjynTm7pMJSjmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:7yFa2C92mVpwzmmB4tXXaUfGLT8AMt51UoNWTccu39qn` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4761,8 +4784,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:81WdNTjaNzuPJLM4tBmSNnEQgScEHGXyecQeCWSNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:81Yp8iS52zgPGNFsWaXdtVL9mKfHWqsCwEB4FGKYf1T4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:81fuwPJ5ozsVPqB4wAozasQ1SYTG1HLHWFLs2VVspump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:81rJePRVq6DnSKgFpw8rxzC98EXrtnP683F4ohYdpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
-| `solana:81vFqxLL4Atmhf9UXj7EBUtsb4ahncNn3FXpYGftpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:81rJePRVq6DnSKgFpw8rxzC98EXrtnP683F4ohYdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:81vFqxLL4Atmhf9UXj7EBUtsb4ahncNn3FXpYGftpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:821z1dG2saS4xpT1rAtcXdiSBwKxgEx1w8MeHgvG3c5y` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:82ChHu3KfrDwsvJYiWvrgtAKyGwHJBxNbmJLdKYFpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:82Cyhunc8wtGYvKTsEn2xZppDMizPc1vx7BJyWFUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4794,6 +4817,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:86UJ5Dr8gSDGvdRvJSjs1oiiQ6byz9RCXMrhUni3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:86epfoRCFgRmRrkDBEpQzxJvbnNyWcB7f3CBXzzAQTpT` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:871F1K5Wt7GyE7C6D2NVj41NBHGUfr5TyEo39E5Y83KE` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:87NjHLRukGD5r1BzvwPDFhryBw78XmFfTfPePU2pCaXi` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `solana:87NjzxnDHgAY3m1ewZi44wpGVk9LUDfmLCPc7Jn9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:88KcHyrGZhrmi53cqGpcn5bLyHHEcaLELv2bUYvQpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:88Sxayjzwshe7k7Y4KjZbWp8HbKtKP9RGUud1n79bwVo` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4828,7 +4852,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8DpYeMEsLjxNMGGuanuUp5ohpo92Umqxph33M8cvpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8Duep6jWDkBXWttzEc3njg7uvY94iL4685YBBiEZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8E5MLTevxXYxx3GyLLgkfqhWavtxt8P9rUuoXKWypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8E7ViPSE4TBkCBEPNEsA8aFYfNRQ2epJFDjM1FdApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:8E7ViPSE4TBkCBEPNEsA8aFYfNRQ2epJFDjM1FdApump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:8EE7XQKXYyZ6z3xTKbe9XENEEeDGvM3eApwefC5rpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8EgrZB71anBgjzcmMdvNDsY4P8FB9YgWkpWJ3wnApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8ExP1hJyWECiN1QXQge9WkKW3hVf58jCm8A4q5paAhkJ` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4861,8 +4885,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8JkNYJewh41hhq1NXy42d4RykxMkCusDrU49HVVfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8JpjsBHcR24y5HGgCKBHuw1dGuyDigoXrB4RbEJvi8gS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8KMm6y7fEaEn42CSznUtEZqKYDFKsnSdUqBnAG7Mpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8KVBMvH8d9CYi9LghJZXdVgiuTo8gJdsAPQb1CoETRiX` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8KZpxJoN5yZaMNiwq1rnirmn8qSNbCoTgZwXNNq7Yr1e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:8KVBMvH8d9CYi9LghJZXdVgiuTo8gJdsAPQb1CoETRiX` | quote_unknown | no_exact_token_pool_quote |
+| `solana:8KZpxJoN5yZaMNiwq1rnirmn8qSNbCoTgZwXNNq7Yr1e` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `solana:8KsUJ4iGj46KYPJHHRz34Ht8DvAzjfZdYEsFDsWDWBna` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8KwLDzEDYdp9hP8YNsx29Kjzp3pNHTacQHdYgjibpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8KwgR1sVJJFgm76TmdjRdWY7ZLLypiV2fAsADobzpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4885,7 +4909,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8N23BLCbsQTjjenwoz5CuvfPrabpiLkWCmR9QS8CkC4a` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8N5V9UKoPYHaWnJpSCk7d8M8ujUVuYawMfRfe9UQpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8NFYggxU6NfyEjqtmBCRkkUBDD8ukZ5rRJUwZaSAX7zs` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8NrQLKh1Pqhm4qycMUH1Vs5A3BFXSPXSwtT1ki6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:8NrQLKh1Pqhm4qycMUH1Vs5A3BFXSPXSwtT1ki6pump` | market_rejected_or_unknown | price_usd, liquidity_usd, market_cap_usd |
 | `solana:8NvaYrEH9SR7mjSJ1jmQZZjdb4tE1DKWtVvejmLTzEKS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8NzqYA1zeTsAYsTbq6vb9QwKDxq3JRAicgJ57NCHH9KE` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8P7H8caShnWZBSsrHm7oRjFG6EASVWK7cyFLR7w2QDLq` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4896,7 +4920,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8PPZoHXbJM9N3nNFg753s46WwM7unC3tTmQrkhv3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8PTomQELVNUTsTToGgJjwqCT5z9uRAZmMNCwnuWYpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8PUedXcBxUy78oEyShtJWcUxpHNFNdxgQfGzRYKKpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8PZm2TmUt7CV2hM163cpHh6M7JWXHsiqF9SU6MG8LWx8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:8PZm2TmUt7CV2hM163cpHh6M7JWXHsiqF9SU6MG8LWx8` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:8PhgvLNnVKYNriztCN2jCSt2QZR6Fiq6aJW7YQwzpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8QTYELuioGEu6jZRwu8hGRsx6XaUXruj84oMM69Spump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8QW8X9FU6LGRGWcsE9sAb14QFGaiZCNoGUeE3eh9zafk` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4916,7 +4940,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8RQoDatLKc7db3bBLfAonhUQ54WtctYTxcniKDzRpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8RcDHL6PsQZs6tujjqsCfhfYjP9XmxUMM5A7qNL6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8RhNZ8ptpXJcmJWuouFek1FZbvMr47soncrjUcCqpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8RhRqPxVchisw58BRcN1KJTFu5fjQet8ZXwN52N6pmWc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:8RhRqPxVchisw58BRcN1KJTFu5fjQet8ZXwN52N6pmWc` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:8RridxEtA2J9fCjcL8mNvguzpwX5jGuHx3VvnFJtVsut` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8RsydpqPNfwMVjiwGLHzPSBL1uKKdvkxX9cys28w2S1P` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8Sga3fiZaniDPGeoGEG8P5nVUgq38vTJxtDN2Hbe7fqN` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -4964,7 +4988,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8ZPFSMBHkkVrYnteiQzKKvVisNenCp17BTFFPQgPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8ZTUkaGfLVNXfiEQxgCj2kih8JGCzhgTWqW12vtLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8ZaYwiYDJaegn9QpjYwd7ZRbMKRf86hZs5WkrAjLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8ZgVwsnQ7LZgvgSCK328iFo2gR21AtKppQQJF5hfpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:8ZgVwsnQ7LZgvgSCK328iFo2gR21AtKppQQJF5hfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8Zug2QNRcA9qCssEFD9kA5vy9p5rr97F7V9N79p2pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8ZxVBp6PmfZhTqnwnVbonakK4NyWDkew4CjtQhtEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8a1s7xfyre6LQ4xiZDm8VprmgbfnUmFmgXSxKsQcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5027,6 +5051,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8hpuJgfyggNwWaEkPBsdJxiXymhZwTodDoggwmCCGDei` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8htM3zR7kqFkcavSRgZz687kxj58Ccn69NkkBJyPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8hu3cabUZH4qMXg8kGca1pP4XhxKwEbg1Bo66Lappump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:8hvxZwBoar6L3CW34GhSavzTaueCcBZN8tJSFKfbpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:8i3HPgz3rbvfdFJx5ymvHV9fWTe7gMHpAFSETz4FFHpj` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8i5BD64FBPGr5aNdkcfYhovT2Gue3kVrvgyzxQDREApg` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8iejPMhK7xSRgChVPsMq5F4evQZ8GgGFMMQWk7Kspump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5039,7 +5064,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:8jZDyMJ42Nte1re4MseYPPfwuRSNSSgu8CrnNoDLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8jaKS4BbEzeYg2uJZzdWwnZUHXUA8NKyAY9QiZDnGbRN` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8joi1u9FqaVnvsg4mo5LDRxBeGtR6xovgpoVQuocpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:8js8sqcJkznprvqSn3ZwzMQc1JgYAcwopLoAi41e3vzL` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:8js8sqcJkznprvqSn3ZwzMQc1JgYAcwopLoAi41e3vzL` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:8k97DcK4Q71H5NHxLfC8r7zqVTJrLV2VedVdYMsQpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8kZZKCsW4vX7kg6tnL5hHZVWA9mUiWRMQ6kfyyVdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:8kakRmbctaunRjUEZkzxQRxkYax4hdBVUhw4QUG3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5224,10 +5249,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9EEWzEJfRp7erHaznU4PbVpGDBoeGqaTMupmvd242wtz` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9EGKQofNgxHe43WiDDWxYQbUQ8yn8gBp4z4q7u3ecTzK` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9EHHZPbgDjmm9NiK5fb8S7K2TcvhgFwMZqVvPBoQJNGv` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:9EPV2Sss9WU2RBvpRKdyqMycRBuWxYL3WDQXMMwupump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:9EZkfqj61S4f5zSMCDg6jcsBbRHaocaT6nrdTSvwpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9EduQrtztiLZVNeGz425bH3TGWFnoYhyVu7PEpvVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9EoMw1JyDa2hMkuzfQ81GwE9YVp2C46t5gxCoBf9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9FMZvjXdk1yhitUDnXeRstDQcF7Hu4AcsykAjAx1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:9FT9XK6sKztUXrDLW9iXjrQqBouzRBGDeMDyLdQypump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:9FauPooneyso9hYoPwMecr79hDuJ4U8kdutZ6T6Upump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9Fhu5A7AedwbmR1vKupH8aNr2vMaZMQM9Qyau3g1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9FknXvMEMhevn7hpSf5C8b3f8sCH9CSuG6kSA9oWhh5d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5301,6 +5328,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9QxXzbtbPA9Pg6gFLiXo6QXVSiEWnyj54e48NmGnpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9R5MbfYfCHamdxYeHVJ5mYSonHZWp8Uy7KnW8Wsppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9R6gTjboDKfKhCPSLZQEjpr58qF2V7SMBKh4TXopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:9RNKVKhrCSYceKU6VEdceKGHrm6nccYJAcnW9Ltgpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:9RQGt1jXujGjwbsrLnMBGtD5q85e6d9da6NLkUbFpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9RRYDQ8SUNLbt3qRHg2nVimDV1duudwUmoYfVSPcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9RTAsJFVm1Xy8JwDTXxQaSN6raFQT9JbwFNNK91nHooe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5351,7 +5379,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9ZwfjUnV929xFRh35rqFRRDWJWZZY8PQuKdAuasgmoon` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9ZzPk5vyVFnuRADbnrgucgi4kiSth5wASiA1iaoHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9abvTyesc1rx9TnB5wECh4tDSUPJvsW9PfX5N6zcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:9amUtaBd5Zvj2TxTgopACVe6opUJBepMmy4cZ7gcB4tM` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:9amUtaBd5Zvj2TxTgopACVe6opUJBepMmy4cZ7gcB4tM` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:9axjsJnq4gUyQrJGFLqtkqBLgFm2zbLEUd3BPmitpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9b14R2TQe5sA2F1Ubgcnk3Cy4rGU6nPuuM9uXbxmRt7s` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9b2zbbABBQLtmu6CunYd2foF6ZoGP6Ab4isXRCKxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5412,7 +5440,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9jaAvxrxPe5dpXPCLcEusTB8Pz1DPmTkQ2s6Wbmepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9jfjjxnPqSSFNZKGF9jk8giWHiGZ9d5iEZHasmwypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9jfkzwMddCxQLF7WTA6BXgb1C6sXApaNk3kqYnuopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:9jxdeR24B8LAyafXra6d4WNJgBrRWdYpJ2vaDaQPpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:9jxdeR24B8LAyafXra6d4WNJgBrRWdYpJ2vaDaQPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9k2uFPG9gPgZCP9LZMHo4xE8nateaawrTE6pT2AMpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9k9ovRRcXnij4VppTnDUyoUfwoAUJ6udehBortUXpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9kCW3cTLAQVWrvukBT5uEpNC5TPpk4byezLhrcMtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5430,7 +5458,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9mnCQT5U2RusRjuvgrmjfJGgYziDYRXn8csguxihpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9mq3JGyMpimu1fCaTL6upPWqMT9AzGGTiVnvyZnkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9n4TwRMeSWuKPZf3924kZF9uBjsKTDSjfcRoKViGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:9n5nPHoRjvBPjNCPkk8TcC1zZcYLQPHjBXH9dpnapump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:9n5nPHoRjvBPjNCPkk8TcC1zZcYLQPHjBXH9dpnapump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:9nALDScqsfdEeY1BsC9WvEn62v1a4oYvTiojcGC6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9nGefpjLj2uaFDm7vELNH7UcEjLZPHcKjmz1yRxopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9nccN8s2FWAEoWyqxvLf2YL98GQrR8kYjY8EkxRJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5473,7 +5501,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9s864Q98teGFE3RHeptj5NqMrghq6LAsx3tC9ZJPyoa1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9sKuuyVveViZRTTchNqa7as8DTQixgp1PUtKqbexpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9sUYqvHWrRzvduehiCETsU4FiXvachCXgtNYMHoXVxDM` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:9sbKo1acrtnj77PZphxpRB2dpj6tB1MpcYbEiVmCpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:9sbKo1acrtnj77PZphxpRB2dpj6tB1MpcYbEiVmCpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9syhyxbtyHbeU1fYUzJ2FAUrhyfPVfQL5XBfQFtfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9t53xnJdHsRVhtkun9btoMzjHYNfsTSN9bEHTpTcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9tCvjyuYfGuGTfywVVH7wxZNgh9icGf2XYGrPes2nT2g` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5492,7 +5520,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9v3P31juinCFGwv3yygM3NHoB8x7XBz644n7xJPfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9v78qdHEeUvobWBg4R3F5rKRsKGEZmvaLbBQbxgiBXAY` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9vABSKj2nsF6joawfBD3gSmMNTyp4ppZmwFhMUzUPEbw` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:9vCQTgDigMfcADYf2LESox1pzCbJUrTfvZHdvzHSpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:9vCQTgDigMfcADYf2LESox1pzCbJUrTfvZHdvzHSpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9vPPder5c2nAyFTU9g53CcEaZcGP45MoaxXF2rX9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9vXYmquomTbqWmJgcV7EoYjEP3f5XWnoWEcYbBxsecmB` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9vuBCBTFimVrScsaGY4zgf7Zu3Zu3zyGVjuNRXSpzE1e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5524,6 +5552,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:9zkx3r5aACDxExr65Rit1DyCfZm5FuE75QQCzMTBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9zqyoy9xjAUsWL8LyFE8N9uQV9yXSAbA349oXA9Fpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:9zriqU2PW1Pj9LBqwG8ghon7T2Wx3WB3eLRoDomFpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:A1Ld2759n5opp3wkZHQecHJfYABPr9YqLco1xsfBpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:A1R2PbNoFADg8eSSUNod12jwZ1LxZWNY2JEGSv9kpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:A1TCEpL1i7DhdyJSDXoS7SnUurmsbtELZ2vbC7Q5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:A1fmDLE5ZNQna76Qx4PdcDGTgL6Huz1CPRatEoMGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5567,6 +5596,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:A4wKYkpXxjrNf3KdR6mZiSgF7e665SrfnXdFitaepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:A4ywVgLh1f1ovopw95eKpNyJsdo9TYeyMXQNyvxypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:A54XVA7UmHNgibHFPwfFASnPDwUkGMYinAfLshQJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:A5FYnpTtnyt9RWhqF4Fp7oC9cDHfPnPLrZvWRjm9pump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:A5QvpAkKdzJy1e8tZPHtEypkZTTANa4QTEELnytmuaPu` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:A5nBjcBza7dh6HYycm3oJPLteyYj8V2DwBBj56q3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:A5x9BX58Q2ai8BNMTs1SERYHCsRXrjYp9HYWtk8Npump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5705,7 +5735,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:AQ4vF61ytcs4FrUjRCSkfnEGqaXjGE1YpKnxm4ZWk1Y4` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AQN34uhwc9WqbiG9kDSPJzVWFKkGjutJWuiTEQrJN4Ju` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AQni3kWtChEiJ4tGr4jUgqJdJ5n4JXDZvBHD3E7Tpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:AQsF15SSFWQtPUhcXuscB8Piko61b4W75W2n7rcYU9zw` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:AQsF15SSFWQtPUhcXuscB8Piko61b4W75W2n7rcYU9zw` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:ARB1VTYqCXY1wdxyLXXtyR5sEqQceqkhQ5vrjxRVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ARkwPxnCyj97Vcmjrsx4Egm1euLZYSiRaTHMEa3tFSpc` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ARky3kP8DQZwSJ4ZFjT4f7Q8ektBx6cAnDtRKCkcSjVX` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5743,7 +5773,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:AW8coNkoW4j76bYQDkhphP8r6eFGgsnFgcdpFUaxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AWToWA35gPjggfASsWJibfK3TCoeNs8qz6Y8b1d1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AWWdaGZLoEMMFZeWptqmTfbzzAHNtBBBLgFeZj4qpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:AWXE7Nq9p7W4F9iMyR3Du1AUxu1yEdFUqFwDzGXjpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:AWXE7Nq9p7W4F9iMyR3Du1AUxu1yEdFUqFwDzGXjpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AWZmVTASx7kEQ9ToN42HQCtGh1ZJdX9VsB1iV6eW3TCL` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AWqVJWXvENN3RjWMkFZybHPA7vWT6qjt7kokpNJapump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AWuqWi3jUqc8bzW7Jj9qd2iZgwwC1AhQng4bu8jfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5805,7 +5835,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:AgJg7hBCEmoaA6gX1MtmrxGDAvwfpGZPcfLwDBWApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AgNcYxNQpDSJEhyU7yp8FFdjAZsv3v9tpTqz3nP5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AgTsBPa66k5GQnPabmHhsK13Bp3cLnExkB49ZhgLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:AgZYDd1UwthY8QHWLVfTJVNtZ8hLwgLwoTvsZ1g8pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:AgZYDd1UwthY8QHWLVfTJVNtZ8hLwgLwoTvsZ1g8pump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:AgcXwTsiUNywRJ9N8vcP9gqNLvrxZ2KkX6243bG5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Agdn9ff8Cn7E6tYZkgDsptB5UDxZUKEfqnpR6hqWbqpR` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AgyypLb9tLHiPmLAekT4ugFhpqo6BR3veLAxnVr9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5865,7 +5895,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:AqBoBsRMuBXY69sToiSfUdWUhiw7aMQ41zFzhUnCpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AqCTAFu6fZjjmGvLkwi86yic7wjSSu2fXBKKsg5zpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Ar8RMsbMQsmFRbDr7MYwqjCXeZ9cbwdwcVsamGySpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:ArBNrXrj5u3p79qati1bQmbJajmA2Ppebct7nVFspump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:ArBNrXrj5u3p79qati1bQmbJajmA2Ppebct7nVFspump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:ArLmTDZdpfhE2HH36Tu61tkD6Aw4VbedTanL3Bygpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ArPotsK6XfLa9PtzyNEkjyTCvNPcnuUX7uA4yVyEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ArXD7tDq66iUpRvBSEo2on8dv33QQdiuEXqCVUbopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -5877,12 +5907,12 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:ArvVqWDPRdLDaTdYCaDmwGsJ4urrF2WcALuxdHdaFWZn` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Ary4zekKUJNJkCZQwtcgrU4bphP4kBA3BxGidrYZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:As2trAJPPgckZ2iCDDNd33byoSC6ijpDBRizXontpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:As89QupQfBDSsAtsooHeWw9p6h35zgHBimUuxYrmpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:As89QupQfBDSsAtsooHeWw9p6h35zgHBimUuxYrmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AsbHeZqSMdiMSugS8Zp5i6M1NPWzx8N7bRjF1qGRpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Asbvv5NGrfqrqJnm3PQL18NCLN4M9T4ixafXRCmKoY72` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AsxoPJkEJxoei7U5Bsu8CxhaBGDi5otJ7xLa1aqPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:AtRZpfA19EpfpuhghLx4SBV5TDk7XeKFs2Y9ftWypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:AtRZpfA19EpfpuhghLx4SBV5TDk7XeKFs2Y9ftWypump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:AtVoirmTV75Mp1s3GoeM5B4a5v4uT2xzXs1cEik5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:AtXmmsnfoUFxmMUcdRmQpHg24jgveM1g9bvcMBKcLT5K` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Atnqco6pHyRZLnc6R7XfU6i4bqAWziwvuubYWjSqpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6001,7 +6031,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:BB4jJbqoNjT4wwbeBJPZgtrF5nUUcaDmMhD3sPL5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BBRBaLS9PCuJYiw5SdcPP88VChRJDedDEfVmi3jxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BBZ1cZBRK7hHAMdy2MArMZNxg2FBcadQnXeq8svZby9V` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:BBik4jQ2Amd2hEYG8McA1KLVjJNshGzUyp9tyUoMpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:BBik4jQ2Amd2hEYG8McA1KLVjJNshGzUyp9tyUoMpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BBoG8hpmy3pL3h6FW7wq43SP36jTSETkaCRNPhSvpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BBwuJm2ctmF7ZhKiEaF8mMNQc7N7euYYx8RWGxjjBAGS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BCQTNLhoDrGVrr6VJeigSMs88GzJ4wFFZcbypAYrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6055,7 +6085,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:BJhTYH5vWYMWuPHsTAsAjSbBsLgD6cZwsWLLk3A1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BJjcKeDztVrHshbbyvcHCnfTrArvgcm5ykFkVByDykpQ` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BK7CUo2ozr6Kqjxiv2bcTUdeia5XcUHmsaNLzq2Ppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:BKMN2TULjuGiUuRPLK79nYeD7vKQJm9jQZEN9t82pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:BKMN2TULjuGiUuRPLK79nYeD7vKQJm9jQZEN9t82pump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:BKRHXYmbj1j4rdYB89zUi19nNXphu7FS3HoeSqnBAFWR` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BKoy8uu47Q6Ux5Thnab3JCPbjfX2wVWQc9NkQ2MCpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BKs8trAUYt48ZZJBFRi1UAf7X8RUS1gdNjcE2WABpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6092,7 +6122,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:BPy9qoSb7Rzx7vabGBbUVPwUYVfQxy3aeWz5AnFbRray` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BQPuPae3e83doufBHEzj2pytq7zcxNtmxc9NQArpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BQUo46vP5Pf5Z6iZuP31v81VsZkToHz7QJ8etXvspump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:BRJtnJ9JmKJrwUL2fWmcRNoUaqrWmHA3eyxmkRqngoat` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:BRJtnJ9JmKJrwUL2fWmcRNoUaqrWmHA3eyxmkRqngoat` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:BRatP3UcKWZURyLShG9zhkdwSN8cmaG5aYd6NAjUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BRjswJ41iubR1E9hM6FnPYma1GMgisFPLBjnwfYmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BRqHgNHzKo6kt9JaMbzPkL4oFxpVP2do4PTJs2zHuc4L` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6224,7 +6254,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:BkVLoRdxsipMWnAQimU5mbWpZMsSe99RuUD1iddZ2XAy` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BkZuk25Wr4LeqzHv5U5c4rTaEaGR9Juj9HWyj3FRpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Bkv4Lw4bpJGwyuwsUXduPSAPjZvFiVCET4TN64L71kUq` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:BkzQREWmmxmm6BUtRDWKeD8qMip49z3RFB4C8GxFHGq1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:BkzQREWmmxmm6BUtRDWKeD8qMip49z3RFB4C8GxFHGq1` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:BmAotoT6wP7iGL3B8rUaE5FJvDYNyUk892YNe6GMbwPP` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BmDd3br4T7LgWs9fFseyH8pTFJZb7bgNJfPj2GC7HqJe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BmEQ94qtnnLHxmH5fEPc6oY5bSf5tYEdr98WuRzYpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6253,7 +6283,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:Bpmu9gysa7QJNB2exBKzUrxHhK6Ri1PSaVuL5tNPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BpngVbL5mVBmzQP8QaFntj9HfgHTFK4f6CZTw7jsUEKW` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BpsSnG4YGHFu7un8p1jSnLYiLXY9SNHGF9wVAuaMpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:BpvWUJvjLyEgA89iGAVzM1HsHx9uDQN5WWmBviYVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:BpvWUJvjLyEgA89iGAVzM1HsHx9uDQN5WWmBviYVpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:Bq2pg52xoVcsDkyKV4RKXVnhMbmDdDB9kPEpFi7Kk5v8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Bq6y7HHBR3gmLYKkd7TWNS6M64ZUn9BNswsXBX8Ppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BqAcgeTh247FmL2KPjsSt3Kptrf5RgwHZoPB7sxrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6316,7 +6346,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:ByGjJMJya5wJtMc5uJC4yoXzKwKwFMjorFWe6KSyFiyX` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ByJPc6KrRFiXjf3NRfCLgaFLVoGuVvrc9G9XeRm7pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ByNnfPuRDLyhmPdF2VvA4x2kWK7Huoq4Cry75Q33pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:BycqRx7ztaUJ8eZrZ84GSRX4h7jfnTjpcHAQ2KLkpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:BycqRx7ztaUJ8eZrZ84GSRX4h7jfnTjpcHAQ2KLkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BytRMC9SdMYmujC7UZqmswoGdayEJBjbMM6WRqBqpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BzHRQ3ub52XrBs6Qw9QEkuPXvH9M8K1fCuwNM1VSDmFa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:BzRQih3npFRn3i8zkCjSgcWXT4BxJgfn3uoZP8nTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6381,7 +6411,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:C9C4yGBRWBv5MYUdenURFcr5tiibbrqoQUWvx8fRhWSe` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:C9DoTZLUUcPPkKPdwwWNe32reM2GRWre5MW7mGsypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:C9Lp6BvTF2mtQv6AVcQTFYBjsM1pRG6fx9joBpQinKuK` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:C9SDLWg7gTGq2FEwCtQfrwo5EgCRk8vtJHjQ1J1ppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:C9SDLWg7gTGq2FEwCtQfrwo5EgCRk8vtJHjQ1J1ppump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:C9mjm4ABRx2uzqaWo5UjoCNyF2RB3eMs5purJkrGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CA2Pn9f1jMMa2p3MxoZj8Rs46e8GfFrWQWz3sXwHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CAFButRwwUihPYDNiTz8H75fGac8oKsHA6orZaMTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6429,7 +6459,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:CGk38FmnSB6S36WfygiKt88gLG5CqvjZsNttvc4Kpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CGnKQKY6gsrWXsf6pJN5nQvJZdNkbYv4CL5eMiQkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CGuqZmEUtHcEDfSdiPyPSUQ7frzFhL1hUo5vaygFpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:CGvs2yb3KEJhKDdvRtQtqwTLtKwHvvMbmgSd2Lnzmow3` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:CGvs2yb3KEJhKDdvRtQtqwTLtKwHvvMbmgSd2Lnzmow3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CH7mPWVTaM49Cwc7Fp1JgCxQnSnYEvgMKs8qTTPYpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CHcUFKQmsJtRGfYoArUug8BYRVjUbWUudadigxsTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CHdrnoSkbC2CDy8jzhdWeVCbWnh5TZVoREtN7X7PXdvh` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6451,7 +6481,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:CLa5ZLKdd3PZZwnfJRFpazD3o6q1MgGmvRcQYuqppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CLscJvqRJiZ8sopMWLAnshDRQfrgCUEwGJHcuN492gVj` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CMErFjsnb8GwNTyCzdNTeSpVLkvC4wvMQseSK6xXMaZf` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:CMGSEp7VpQCpcNY8ErwzQzwputAFt6UCdaG8jgCPpump` | market_rejected_or_unknown | market_cap_not_50k_500k |
+| `solana:CMGSEp7VpQCpcNY8ErwzQzwputAFt6UCdaG8jgCPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CMLMpTLSK3t2LvrLxowHgisjTLh7vAggQZkDFQSQpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CN1RmW9auoeZXdmpkQxU6mtLUy9xCMt7Y5ngcdQ8pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CN4ZXZsS6gu7T4Tq2zqFUwX2deTN41QxRf1XusSTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6467,12 +6497,13 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:CPA6uzggVtrKARD2fgpjFqfTTYuZsEavkAoQmQDtbUKM` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CPPaAyFQHYHbG79Rt8JeSCmbAG4gM9YrkyyWJqRLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CPQacYGEqagaWSmVFjBaV8NFcijctpRoWXE5Y1Xtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:CPXnNAZ9wLqVQLgNyDxWWaDrt2WgGXnGeQupyLtApump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:CPXnNAZ9wLqVQLgNyDxWWaDrt2WgGXnGeQupyLtApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CPanUboq7UKdw8PVyToM94HaudSiiZWHYJ9V2ypi5g6f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CPbP1MQ4Dmn2GpcJzQD4h7CDmBSGhJKXfCFr3eF3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CPcBkpRab45SjMYqwsjvkJxUrELRsr5H63J1ZDD1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CPnSoQVEQK9kHJA7Vk9khaoChWUGEnWRvdo25EBxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CPwRbRKcRD8LcuT925ezcuHGycxe4hWBLoGWJBSbpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:CPzNYMMUkKLEf5fsXasqXtahwb7uQtKaUkSx5RuGpump` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `solana:CQ6Y9SNn5s7qhX5dFXCptddQHum3zy3Nnh6VQ1KYpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CQEd6yxn54DhjVHKZDcp1GSJ29QcAApfxocqQbJdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:CQbNuWJ49pmRdfQMAMSVR72yMQD2zf5mHuu9VRihpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6812,6 +6843,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:DNhHF1uhcEoYgovmART7AcDezjataoeBkTv85ZVVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DNoBXfTvLzG99LQ1S88YY4qVedeR3PPy9dDkxtfcZCB8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DNpxdX2LnFVLZkfrZC8TBbo72YP6bKJBM4zx4Vbbpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:DPHaPyxpSkTgMjx2QeZp78vtmzmij452jMzrS8K3A6HR` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:DPRcs1P3tAJR1zrzfUyeWeWqqst7RVHwvfWbRPegDRxy` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DPWP7TXmRN8Hc6Jptvopr89CeLTsJvQKNsC31DPHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DPXP8Ts88V73qoFe2QSr3A7JU7P3JAcMWGRGuhKdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6836,7 +6868,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:DSSScpm1J4nUs7jgbN2qBeoc4ApGdyKLeoYhVy5ppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DSXy7pK6xy1HaCGo4JoaubdLm55rHJxkGSkFdmCopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DShbeRTVcGZUX3CQYgk4DH198hQJM8r6qizfBP2pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:DSrC6WX8Ng4nBVpi9vaWDF1YEsgrVRhFMv1W9fDWpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:DSrC6WX8Ng4nBVpi9vaWDF1YEsgrVRhFMv1W9fDWpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DSyuCjKUFF93M3nw6mNtiPPWfVvHhkYksypFuutZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DT2Cg1YjSHgGqHsoyMqrXJrDwD2PiSi1H9B8umDRc1Nn` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DTFwLLgwqch1UkRTC7yGdbQVgHpd3eLgLPaAX77gpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6915,7 +6947,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:Dg9JwT57bBazhbz4kmRJMU63DGYTFeW9UE7CMPEgpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DgCYgaeinMPV5pB3KQtUhwjev3FUWmSbqPzxndpVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DgbyjMEZLakHLYzpHBuyo7cgaWf2VoyhoTWU7dgTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:DgdBWYsgd7FsyFZ7A3738KxQ51zViXv56HVeB1nmpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:DgdBWYsgd7FsyFZ7A3738KxQ51zViXv56HVeB1nmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Dgno6Rv5bhM6LXXR15bd2TWduzYPcu1qDiuWocE9pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Dh2naMdsP6KpsF8ypXWg4jAAqzF8f43Wt2PJn4Kspump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DhPXG7ZvE4a26MmZcQfPmG6swxbkjQ6LfL4YPBtRDGtS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -6965,6 +6997,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:Dnz7GRDbhL7oUfj9BDj9kDug9QF19hHh5a6PGTdqMUgZ` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Do83ot1ruwdGGQzZjNUP1XXnDGmzQXPv7DRfDFGGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DoJTT6Gu9RTweMoGD3v5kEUaDx4iFPdbBFu4G1BTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:DoT2SwmeMxXsKed9E5X2EkpPTYo6ZXcKKYAqrxVipump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:DoaLYXYxuzYAuYqTdj29LTTxxs4o6oxNDW166gcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DohB4brDbPQ7pedz3P2r4e3VwF3HkHk9YTaPynLmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:DojwgaujEnPZKDtkN2wn7TxRrXHhQM9Uzvb7K7FDLSgd` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7095,6 +7128,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:E9Ewc1G1urfmyhkMe9ga8U42wtSvGXCktDrbGSqfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:E9YTBdUTQVRjN2w1DBzS2gxo5thvVpbnYwg1GeFBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:E9m2oVQB95WhUzMXRodZzD4n2YgxABFY7v1UVjMfNfzx` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:E9vzxDe6wiwcW4sp4LoddbMU8jjQwCi7eK9GjvqYLBZy` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `solana:E9zzsprzpiaLXkAp9W2tbjFUC3JNe6ymg96c3NVjvCAW` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EAkEbgvjsHYgJJV7P6ZkxJYfc8KWDL4t1EpD8Yfppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EAs33vLGmPZw1GRdrMCQ5nXADPGBa7uRAjxWuS2jpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7112,7 +7146,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:ECbtvGZH2sUxZtJ2riheFT6kw4dCuzbP3dB7DuWYpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ECcNCzoMQtVpv7azyQt8BynucVUxBCZB6hYwsMPTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ECgUM3YG1wpyfiYCoWAg9XdzNhCo2r5oEt4sGzuzioXn` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:ECjJVe3N9Q2VV7Kjgfg1hdrhpycV1koP2oQ8fe2dpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:ECjJVe3N9Q2VV7Kjgfg1hdrhpycV1koP2oQ8fe2dpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ECmBPyMzDdNgQXuEnw8PjtrjDibXEX2yjKVWEozkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ECsZBE7ARk91sb8Q1BibiAc4A8GMRcMtPzPTBabJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ECt1C8cMpF9MTeSVcTLkA1E59sepjoMaUjzfgEjVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7123,7 +7157,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:EDvMAm3gSMLRag6kfAmF45AixHcV2pu7qMd3yM3tUtGS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EE5m54UEtaCGHFzvXRTftHe9ttL7bATWSxrNqYwupump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EELpRJgh9K94fss9RtcSjuk5iPQAxvExWBAS9r45pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:EEMn9ZirzJPoL5w7G2o89nx2UAG8dPS3CRzg2rbGpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:EEMn9ZirzJPoL5w7G2o89nx2UAG8dPS3CRzg2rbGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EEejaPbMQL19WXnq8QNeF4PCKGEQ5mXQrwTeLXttpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EEigZEazkietk14qaoALbQNaej9mB57a7yXvNWgXVebF` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EEmhWEhXUJpeLSMN3N3v1yMmFTa21AEQhJKVvh9wDh6b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7237,7 +7271,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:EYhGZG9umUi4EgmoBNZeuCsjFqMdmBvnGvGhXxdrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EYkS1dybTFYRiZh23mbsXLRgQjYDyBrKhtiqs11Epump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EYttR2G7TotVKmunwFuv4vRVvVqtsk8qiVsGw3empump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:EZ2u4SSuaLBXzu74fQXHJkfsaTPEwVy9GwasRKoUpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:EZ2u4SSuaLBXzu74fQXHJkfsaTPEwVy9GwasRKoUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EZ59GPn4aj4JYukLTVKxw2MLzdK4hUhr9DY25psJsMrF` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EZ5Sdn9HBsUBQYD4ZrgxUXHXmeXykkCnBeyFLBx1xDBo` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EZBxfips4nj7jezmoMkCZ2z9xcr7Xi1v9CJS6H9Qpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7271,7 +7305,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:EdWhKhqUafTHDsLrvjCqejbF5PsPjYHiHLvgPNurzBDZ` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EdiZEXLSNcs7t7Kjx99H4Q1XyyLc3EaRefQBGQaupump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EdkmWALSxWmeDaHoEydkPVDbxiJgLLwcmeQr9nx1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:EdqzuRjT9fWxXiqjkEYhQVKMxRHe6Nnqjh2kdE44pump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:EdqzuRjT9fWxXiqjkEYhQVKMxRHe6Nnqjh2kdE44pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EdrZS746AVKeWXogGjR7KVd6YCMzko76herU6kVQVDGa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EeGuLaZRS3ZkCvgC5Aof8fTUj1gvMiUAfre9ZyQxiiog` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:EeidTZhtSy52KpBUwYVJJ8NpdPuV4oqYj1aKJG1wcQz6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7413,7 +7447,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:F1JrhMcV98hA3fVntCiFjr2Uswm2vDpkmmVQuZwepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F1L1hxa9zeCd4BFTXxGeydRShC57ULDspvNgtzmbpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F1Lye7yfdMgLSgXrBfCi1EbChKVmVyeANW64Uyi2pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:F1Uv2p8oE3514UivjCmxi7tg3eRhw95CRuNDCFtrsEmH` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:F1Uv2p8oE3514UivjCmxi7tg3eRhw95CRuNDCFtrsEmH` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:F1b6E3BkShAgPctHEMyhrJWd6DCfSR6URBHUwGTtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F1bBxbZ16Fsn8V1wNJY77xXaigtEMLLcg8LW9MMhYDpk` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F1dBWsanJTDtryCGdquHjpFePgs7NoxXr7PpLSsUsqir` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7435,14 +7469,14 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:F4RxEAajCBHygiXuVNq2vja1oZGCNXZ1CLimYWoVpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4VGb6j8kSk4PwkjPnoLWCezLS1HWTVyuRDNmME7pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4Z6C5KGQDABtC62pH5zmZSCxhoUSu45zXiSkmnGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:F4bFTeNj6KPdbGehEex4SUs1Pz2aqkbgWwuC3jJfpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:F4bFTeNj6KPdbGehEex4SUs1Pz2aqkbgWwuC3jJfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4cuvg5MPCQ39JtM73YYCiguWEG9HPZDHb7ZxBD5xqVo` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4oppd9p5H8PsQXjE7Qyxwjp9fzmmgj4sv4R9xfopump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4pLV1Mf23HGsqGpbBCqEJjueFrd6ak84mvqZP94AKWi` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4q1serQhosi7qju8V492FNnWrULQApD5L8juzaApump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4qMuoz6kyfap1iG2WfSvCLuvTEXcNVoen3MEQWXpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F4s8NCwSPra6WevikdkDrQz8N533xQbWhU8Q7FbD6KZy` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:F5B4eDeqkFPj6Ww1ThxpXRnD9jE46PVezT3dXtv6pump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:F5B4eDeqkFPj6Ww1ThxpXRnD9jE46PVezT3dXtv6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F5KhrigLPTwEsxpPR66BeqdojvX5YzLCFg1t4zXRpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F5KrKYr5hzXFbWRgDcpLfRqkwxkJtq3td1Eq5p5Cpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:F5MHvfrxAYye89uHtnkhTttFdQV4VzNL6qtPmTbXpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7496,7 +7530,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:FBmrkkfvk5KQnxDbbBgbVr3B4VhwZo3u6vV8HTLipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FBvvF7Rzv2j3eSrQMHcm6H6fQrcKLi1H6CGpWx5Zpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FC6DwQyRw2FSdN5f8dXu8ZcTwygbS4iAW9kWzcrHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:FC8WtF9KSiUYQT7puAws1dKjyjBg7EVrCjneUKBmpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:FC8WtF9KSiUYQT7puAws1dKjyjBg7EVrCjneUKBmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FC9ahJvjXEzLfWksZBdmVXp9SqqyqrLP48N8ogZ5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FCDeSzXUqz5UPX1YSTUFkC1jxFfSQKustJr4ohhNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FCWszEbuqqZHqV9PtCKwErgBbmHv4TJfDYM5dZMkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7525,6 +7559,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:FGptQHNWPowaHDxNWm2wqV15wN6zVFFaFAK4e3i5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FH4dLU7Hh8Vhc1irUervLzwdm6xAtLPrzmAdEjtCpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FHCBPhkoM6cgvoghC5TQ3MHWNT1jXdjNccomZsKKpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:FHCy6v4z3iLXZiAiKKFhrRDtbYehHiYLRpDLHKHtpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:FHNRSmzTq3QBHHy34fi2CzmxhfQGJQbZF5GzZBDpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FHbAAb2yEaJzQentzRstD4a35iN63C4c3EQdYghfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FHbF4DjQyctD2mAyjh4VacxZgHcN426MMGQYR8Fbpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7585,14 +7620,14 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:FR6yHe5zjdLyJr5Xb8qRJYRvM58ye22UH3vvPgvfQE6Z` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FR8eBnCU53y5oi19uT9n8gUNeG3zF93NsgZEGo97pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FRBUsJEvWn9oKfSToKWR6Xq65SxBBhyej3oPbF8zpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:FRC2RaAjKhCtQ2171XXpiH2ASK83WUBLf5dYPo5ppump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:FRC2RaAjKhCtQ2171XXpiH2ASK83WUBLf5dYPo5ppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FRKUeJJ3ky4SKS4jqa7QvkvQxryVzaKN7dD1pHFtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FRR8ZmMjfdyf7yVeqV5siX324xu1Hneq2c6irazDpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FRSdDbmtXhHeHz2AHj5tu1S4oEJX5ofEuYo9hDzJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FRWaPM9yRTmr5kJQM4yw1njKxveY9ZMyLLrTwbya1zF5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FRfrKPZ91Y5xVDzp3EouYwjgsoW3D5VPpqJt4fsEpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FRg92EXCULCMRsCRvLF6dx9aMeZZoGnNTXYrkTSdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:FRsG6t1wfnoj6U5MQwvfWVaEm69tPHt8SbEpDtsxpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:FRsG6t1wfnoj6U5MQwvfWVaEm69tPHt8SbEpDtsxpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:FS5XAa2mdn3jk31EBEV866yqMGNqcgjU3GV4geuTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FSopJdfen7Rn8HhyVkEV7oT5nqDkxuvXEdfSusEBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FT71pbWSonv3uA71hLqL8nEamMYUB8oBduB5V1Fypump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7606,6 +7641,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:FU4pBYEkEpRRPwhUkVWvaz81EqXR9TGbjiEqe9UTpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FU8EwuLS9Af69kzz3zE8uU7Mam3UbEXT4FmpF3VXpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FUPPpe85DaE5uYDFUv7rm46V488YRaRHjidYrteWP5h5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:FUSwFxW8nHLggWbzGAoW71GjXdgbg2PKndZSmPCspump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:FUombejuBxWgS9ZTKA5GT6yM1hhF8txDnJACC4zUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FUs5G6ww8CyF76xdb7JeKRNyAQETAKbJa8vLVePcG6in` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FUvoZUa1FJa5bRRn4VYovJEMypYrWzpX4CdUK4DHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7783,6 +7819,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:FxoAvnEutX5KBN59ASvuupmUEQsysWt3pewNJSkPrqBZ` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Fxoqu9J4fQTMkKCLN4CUtDBVyQCcwFEP4eftJyr2pJKv` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Fy4wb3GTKnsktX7bQ9WhezbCoNvyetXGTKFFYaAGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:FyDmvaTYdc4oeciVaEhsc6DqdVZYNFzk49bNEigepump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:FyJsWAf1hn9F8KtasQLfEMM5ko4XxJacVL6G66hqpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FyM4MEcjWDQ52G3Sv77iVxekr5EDqGFqQsrsk7r7mbLh` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:FyWv33S6VkLRdPscwRmbjpuMzisi1BYCk5X5sZNyKbQj` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7870,7 +7907,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:GBivmV8xSXonn6oDef7JkeL75LTWTxXEfJxQZS6Upump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GBq8AFHsiSM2NJ5jU1b4vRXjqKmTKSSW7viy5kBu6ybL` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GBqMRkD7SG5mCyLwbEcLtgae7uhHGK82fkrzdt8Vb39e` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:GBsALbVHs7EfKMckxpmYBfCDj7CPQxZRd1cNYPQgpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:GBsALbVHs7EfKMckxpmYBfCDj7CPQxZRd1cNYPQgpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GC7TqYYmFNr9T6dS8vaEN5NoaAgf4pMpGbUfwvEapump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GCNxbEetDdDirSPX8vx9EevsaeETMim2K2YEkFVipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GCQQUskmSEwGRnr2pcrK5gVKzPHoq5fZSewmA1frpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7888,7 +7925,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:GE3prrYAWKDKXdnnQ6MG6MRX3tjrxSEv29RhJzepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GE7wBhPUb8RVmuZ7mqyCiu4XSxAUYn17uSBrPS4DyZzq` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GE8ZpAnVWqaustcqYNFF3munJJTWg1kh42VdreBbqyCH` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:GEH1sVdQJhdQdLrEB2L5Hu344FUDuqdGYC7VHeRcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:GEH1sVdQJhdQdLrEB2L5Hu344FUDuqdGYC7VHeRcpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:GEjoQTy89mPrmfySnPHGqm2KSSmW7ewGP1iH8JWmpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GEtXHr6L8rSHSjPTmkb1B4BpQVzx9GnV2riDE7Atpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GEzd699eCg7BQqNiyR4YFFu8bxkR5gwmPLR2nkwUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -7932,7 +7969,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:GM4CJJfiDAW26Xbm4fpSA1miear5XMTo1Kyc16ZKpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GM5aukGuXXwqeHpkzEmov337QuLMBEos4BCwtMHtpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GMAXGnTsGE1b4tB6y2nXvMqHzbSzCpCgsMwvmXTcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:GMEx5kUA3EFkHYC4gu3pYUupGwbpXiaaeRbHLXBgpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:GMEx5kUA3EFkHYC4gu3pYUupGwbpXiaaeRbHLXBgpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GMPjYq5U4asjBLBLbrxzh9NmqKzttkMJaX86qRAwoQt` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GMajdeXA62NdnssMzftVDQWpDodXtNYxxMfScfCbtKwq` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GMenem4NSde1VUcSnLUnMagKMLnPPVHCnJmbpSE9hEoG` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8020,7 +8057,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:GYSUMyY5mrnJ6K5vwJsS9vvNV8q38YL25XQeAo9Lpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GYd3CBJH9mdrLggFi2V75zFR8zsoeJ9wbqqCbMogpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GYeKbfFQVv7r7rarPCMdWcyEFPTyZHcUk6kqXR5Ppump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:GYzZXG888cWqL1WtZobM479K1NzKcSCRp2A24315AAsx` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:GYzZXG888cWqL1WtZobM479K1NzKcSCRp2A24315AAsx` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:GZ5z78ZW9TAPeTzTngrboqByYRzPUwx1mM56mhcx4hbX` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GZ666ARSXe4JZDp4Vf4mDS6brQy4Tzdy8VpPr3uGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GZCg3Hqypw77ewFaZdnLdjVCJ7tAfWetCLBWFjkePviN` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8043,7 +8080,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:GcPzf4tAw5cSWWN6cSuKKJotRieQYJns4FRkcx4Rpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Gcb2VcuCXieXzrXSTYor1S4HAjbdQSzyJ4JwEjHLAsNV` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GcbxuRa4v8x2Ftk3bePNTWdWAqBNVMfpcKEVvgy4pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:GdG5FbcvU3ftTAVuw8KRmTYXe1r3EqvZN6WoUi6LZk3L` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_to_cap |
+| `solana:GdG5FbcvU3ftTAVuw8KRmTYXe1r3EqvZN6WoUi6LZk3L` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GdJUeLJXeE34UcgW4pkRY1cqsNbZAzSoF5wAYZmDtFx7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GdZx318ptdBLb1Kh6BLH8rsRfJftYuLWSu9p6h5Cpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GdaPDjRR22dK8qrQycjXZdRGn2EVPH2sf4MipbPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8055,7 +8092,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:Gf8FdYVwdPc8skAKHKZ9GrQtvA3Zs74maE1CmKFBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Gf8svubS639DNqUReRXViusvhdWvRZuQCoatEqcLMPyU` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Gf968FiCT8jX4Ws4ydbdvzdDcjsay8itVGEPudMPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:Gf9atsLmw8qTHmvgCpnuVaWLjHR7jScWMwQcbCchiKgD` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:Gf9atsLmw8qTHmvgCpnuVaWLjHR7jScWMwQcbCchiKgD` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GfL3WraHmB6LBpc3zjfBdMoXbd48pPnf6eqoDbKXpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GfLBM6xTY5VmEf8ynuqB9sFDT4Y9XkqdpvRAhyKUpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GfRZTZ4k86ccqtSWNujeRX282XiKEUhma1vBrb1z2Td3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8142,7 +8179,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:Gsrd75TqV8vZ4HLAhbfhUHAnFRp8TmVCdstq2uFG2WZ6` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Gt7acTwByc9wPyfB9pT7yHgdU1cRoy2dXrtvCpycpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GtAKupq5RnBpqZmsXiYu5sM567hgiEfz8qM4AuawGnxV` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:GtMMAe8L9ZYb1dtWWyejUFtfts5CL6ENiWmaCb3YhUGD` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:GtMMAe8L9ZYb1dtWWyejUFtfts5CL6ENiWmaCb3YhUGD` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:GtjYwCudmcLknFtyTY6bUpHEhdx8bL2uRZtXjaYkNSG9` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GtrJCvf9yxuLWSY2HifFkqvC1k1cNk6Rksfjw5VLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:GtvnBzmrfpAxz81fmTsHT9LrLwD5QjkUwi5R8SEdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8240,7 +8277,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:H99i2ehumTUAa1m63TLRx5dKaKW3Ak5K7wkCwGiGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:H9BxN9eqvkY73YBntqa2MX3sz9wRtFLspqztgN9Vpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:H9FhfYYdhR3zQz3yy74mauPceZJ1GmHrw6VZqLrvpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:H9ZiggMtCXLLdsRPjuWsxjp6AsKG3bXQCqU2Ghgipump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:H9ZiggMtCXLLdsRPjuWsxjp6AsKG3bXQCqU2Ghgipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:H9mGDuRTeJu86N8n5xsGAX5LTTQy8j574jKuT7J4h6fN` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:H9mzmhmBa6KMB7TAfD66Cf4RTuMJh1SoxEthXH9ipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:H9nLrp4aQQKmT1BQC6C6FxAbWdocR1PFzpEtXcmZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8252,7 +8289,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HAqhstCaDRedMz5bS475tNixefLrZFokGKUefBgwArAS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HB9HE1M7PTxZrmEKU1stD72Vh7bqSkaZHe53C7brjWAL` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HBWT3wPZqHLkMjszgKKR73bANvjeYDrqWqBBNDPJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HBcvFxZ7EazFotCA8XAynbgUbEJDvT25saoBvxhbpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:HBcvFxZ7EazFotCA8XAynbgUbEJDvT25saoBvxhbpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:HBgHrRgupU7nyh6uTBngRD3Z7rRewMwSkcY75Wbk665E` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HBwjncSGK6FiymbSX6wvjXgqotPSg7oLV3AhVAi7pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HBynLUtSUA3w3kH5BjzkhZGgZ5T4Uq4FCRQQmEjdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8292,7 +8329,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HH4HHf2ehZcyPtSLgoTuUb4Mw5XfoerCGB9N7QgGpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HH5EPJrnPzrnJYBCaBXxjwGriCk3eAL25hzcjgoLpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HH69Tm8CoLmgMgXniVKMhjmQNR95TrVEHKz2xcrHpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HHA331VdCnBWkfdmzsf83Jt99FPZypmWucMmej2Cpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:HHA331VdCnBWkfdmzsf83Jt99FPZypmWucMmej2Cpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HHBe5s6W4KWKyntfCFPMiEgYvUuYPdCZkAH7m76k5Amy` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HHBhCDaVLLmrsoNrs5j2Kcnohq3eQVZ65ir4gyUZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HHBwJrbDjfC2UvbtSr7it5NGc7tuy7QA8rYy28mrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8348,14 +8385,14 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HSuLU9pFfYzULrucxhrccFh3dAJuVsek9Czn9jSNpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HT27yTok8QHhCfJ2iQxPJony7XpaSvkztUQeufAhcFzi` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HTEacwQHFA1iqkjutKXVc2fHfRmNEFZ5YBxMuaydpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HTKRyEedXL3whHR5kX6pNRu3qaZ7K3jEhMywaYospump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:HTKRyEedXL3whHR5kX6pNRu3qaZ7K3jEhMywaYospump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:HTgJaodVat87BNW5gCzF3EhAR4woi33VE13eVFxBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HTiwiuRhLWEN8A235E9PWqQChsHy7jZEe3evxPi8pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HTkLfmqwk9JB2tkN6r9EjdZx1fqDhf3GNxYevNe7SA1j` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HTpdCmF2kMRa1mvFvQ8NtR7sbqFYseHChuZYoko2pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HTrFsStjdP7hEo7ut5XoginMZWEBLbuDzfCVfd3gf3gS` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HTscpWsnKAcHEoeRdbyHhA7M6MKbkuQX4QWiz2P5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HUD9Vq7NoCuYSDFxL9nJ6bUBvHKH51NZQSS2vm8Xpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:HUD9Vq7NoCuYSDFxL9nJ6bUBvHKH51NZQSS2vm8Xpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HUF8QLZiaaST2CTRyZY3UZ1GvNrcdWZWcBTMNzGkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HULGHoZJzxDE4aZjkJ5ReFzWDmoRURDw6sjxvTD3pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HUXFzvzh2pgW6JDuDQBJhkH7HQSitGcAb2kyj1FajkiX` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8376,7 +8413,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HXLHH9eWFc56G6nG4ZN1FktpPe1zCzVyfvGsXwS1pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HXcufRARWK54BL9KLvaTWCAwWMNPksDitV3Tybwkpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HXr8S2a37PJr14NATiMKrfixnpyWEGUvYEDZ5HMapump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HYJSn2C7PVU9gtu5M2Mw8hehAp3ST1afp2Ed5XzPpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:HYJSn2C7PVU9gtu5M2Mw8hehAp3ST1afp2Ed5XzPpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HYPLaUq8vdjF9vXtr7GtCSgcuhrCTerMgaemQ4kdpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HYPba1mC8EGT3Ne4w4oHnBcdvW2WLddFX5R2Mk6epump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HYxq1JoXrzJDma7jDTuCr2NVX3Eeyzk7dvjMMYB5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8390,7 +8427,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HaMAwupLjdm5PaLuFcXkLk4yf7vWDn5Fu7MLZ9rfpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HaZkdvbtfXHUTZ2wLXR5Ftc9QCmiNXdfPciYkAKFpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HajgiYturC65eiHpxQPUvnhgJ7JVa3SWQQ4esGJrpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HamdCjrcsVxNvVgFMpBBNYfYCJ6d6H9ZhGvNpX9ETnGj` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
+| `solana:HamdCjrcsVxNvVgFMpBBNYfYCJ6d6H9ZhGvNpX9ETnGj` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
 | `solana:Hb3RERiNvCDKAh8zkmi9WEHhGwvQjJST42QCBPD5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HbUXbQyg5VKTpLKgTu8w94LwvHSEnpEVJuUyfPP8pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HbYVvhrZdRmkz77ASym2oycc9eqxsz3obh73Nxerpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8400,7 +8437,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HcNGhm9kDtteMZ81rheFaKjhRKxNHvsSaRwc2ULzpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HckPgvvNVNnFRZsYRNGMbeSs362dLLhZGjzNmqpgf9gk` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HcrCSpeNC6BYfbtXs6bqR1XAAh3wAryFJAaSkRVzfs9h` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:Hcw6ZnrQpynnStt2s4HD3s3N4jtigdDmk4rX2pWjpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:Hcw6ZnrQpynnStt2s4HD3s3N4jtigdDmk4rX2pWjpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HcyAie1RtPRUJrN1oJaT3GRin8Lm4Bs9bEM6Pj3MKdEK` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HcyCecWGozrpEannNuoBjKHXa7Lii38DXp5JLrrJpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Hd7ANN4e5p1kRnBh4eDoaosctFDuWPHsEbMfQkPZpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8436,7 +8473,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HhehtrjhLXTj54crYosjFdLv7VX1poWswiXXJpjkopbW` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HhevU5TciaGrYsp4FN1SpFgrLSDKC9CvHey73Vpcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HhuUgrHxXzKVT9f9R5A8MGhrPGbqzbx7otcBbxUBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HiCahV973r5jZaUQtw1A9MSwXbQtSP8ysCnGRHSKpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:HiCahV973r5jZaUQtw1A9MSwXbQtSP8ysCnGRHSKpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HiFCRvRfY1BhMZXGxxq6Zs859PMhcWS4oZcMZ1dwpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HiKF2P3xKctTeVgpeZz2eW6sUpJAHq1ygkDFXNJWpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HiKacw1y1sxGDddrshnbmSSJk4q2jEnwccTZpDRL6Ana` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8508,7 +8545,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:HtcsTbCUeivk1oJFzxhtbdX2ggaEGjbEsBQbYHX6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:Hu2KkbTS56h5ByKC6FXL4JjErtQ7H4UN95iC5u8c3CQZ` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HuEjaeQvh6iSyoNeEiwrm7LyU47iMSAnkbghh9AF34Qa` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:HuJ6AM97amkkwr9V5wC7T3U6RPhj36PibmtRQ8GTsLqt` | market_rejected_or_unknown | price_usd, liquidity_usd, market_cap_usd |
+| `solana:HuJ6AM97amkkwr9V5wC7T3U6RPhj36PibmtRQ8GTsLqt` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HuYrSzWR8FePSYDH8WFabGC2LxkdVRaeQ8WbmUtc82vr` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HufhpEN4FS4dznJC6wB16VyB3oYgjWrc5KDZet3cpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:HvGbatFBUEoGvqfPVnnFi48uHA5oxDezaNScJPQepump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8612,7 +8649,8 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:JBnf4VU6q4fZA1j7bqC3Wmabw87wXWonnyH53gUipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:JCJXfjvF5PtsxzMSBW5VXSnCB3ATausuSCtoNHhSpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:JCMBDY3r5bLqveLzWchKjLR84SbGrURKUtaUxSHcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:JCYJrQSk7nkqdc9dQamfpKpvkQZBPsxLcFrRSGaXpump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:JCMHzpp3kskWtrVh2ssQyKmGtVLpGBBifsPAhER5pump` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:JCYJrQSk7nkqdc9dQamfpKpvkQZBPsxLcFrRSGaXpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:JCZ7wwLiP4qqPzBjdpiB51v1wnEHbsXiT5HCt3Kpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:JCd1sssxb3wUUdCa6D5qaMzcNLd1pKoEr5x6SQN6pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:JCwCVJUpdYXnbB8NPDT2scb66aAjvaLXWZRoeCmipump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -8744,7 +8782,7 @@ Kimlik defteri: 8543 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `solana:ZpLAz4xUrmRjA5AW2tQCbbsAKp56KwyTYrtimHcpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ZrsWuUKubmWEXu8q84tWVCQJedA7gGGnTj9tVM5pump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:ZuhgWQQB3BCpyjUvDaFpNz2cijTSHRz4Q1GF5Capump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `solana:aCz67YDJLJChoh9xgmKSaRdHBKhqpgtkVRZxGgbGzfE` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
+| `solana:aCz67YDJLJChoh9xgmKSaRdHBKhqpgtkVRZxGgbGzfE` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:aEBHCJcFWeJoNxos8WNjJhHfNMyiTEUjnXZc2NBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:aLNM7qHdruXc2sBZXY9A35JwiZKzQpEuzHT3ZUWpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `solana:aSMYkRx6QHkMhrRyXqNz5gZa2Czfgq1yDqD7prBpump` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
