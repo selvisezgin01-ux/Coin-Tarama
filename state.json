@@ -1235082,7 +1235082,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793623885742,
+      "duration_ms": 33317
     }
   ],
   "radar_admissions": [
@@ -1268966,6 +1268968,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793583286430,
+            "endpoint_ms": 1793583300000,
+            "endpoint_price": 4.321,
+            "return_pct": -3.3441449502292775,
+            "btc_excess_pct_points": -4.375234697326169,
+            "mae_pct": -5.357342579129842,
+            "mfe_pct": 0.5032994072251551,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 13570,
+            "measured_ms": 1793623879849,
+            "cost_scenarios_pct": {
+              "0.2": -3.5441449502292777,
+              "0.5": -3.8441449502292775,
+              "1": -4.3441449502292775
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793496600000,
@@ -1268975,7 +1268999,7 @@
         "observation_lag_ms": 286430,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 10192,
-        "last_measure_attempt_ms": 1793561204789
+        "last_measure_attempt_ms": 1793623879849
       },
       "78a1d9b7eb7e7a35bb98aa6c:radar": {
         "symbol": "TRXUSDT",
@@ -1285038,14 +1285062,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793623649268,
+            "endpoint_ms": 1793623680000,
+            "endpoint_price": 0.23686,
+            "return_pct": 2.167489809562828,
+            "btc_excess_pct_points": 2.0989532529110955,
+            "mae_pct": -0.3472297107856903,
+            "mfe_pct": 2.913710181810325,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 30732,
+            "measured_ms": 1793623879849,
+            "cost_scenarios_pct": {
+              "0.2": 1.9674898095628282,
+              "0.5": 1.667489809562828,
+              "1": 1.167489809562828
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793619900000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "GTCUSDT",
         "observation_lag_ms": 149268,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 9297
+        "notification_lag_ms": 9297,
+        "last_measure_attempt_ms": 1793623879849
       },
       "7533b8ffdfa4b4c597718cc5:radar": {
         "symbol": "BTWUSDT",
@@ -1285212,13 +1285260,13 @@
     "errors": [],
     "queue": {
       "due": 170,
-      "attempted": 1,
-      "observed_ms": 1793623583186,
-      "unique_reads": 2
+      "attempted": 2,
+      "observed_ms": 1793623879849,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 503,
+        "market_event_references": 504,
         "unique_symbol_labels": 269,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
@@ -1285249,8 +1285297,8 @@
             "first_per_symbol": 103,
             "hours": {
               "1": {
-                "known_first_symbols": 101,
-                "median_reference_return_pct": -0.07302468234262616
+                "known_first_symbols": 102,
+                "median_reference_return_pct": -0.07160006046956213
               },
               "4": {
                 "known_first_symbols": 86,
@@ -1285289,7 +1285337,7 @@
             }
           },
           "OKX:PERP:radar": {
-            "event_references": 132,
+            "event_references": 133,
             "first_per_symbol": 117,
             "hours": {
               "1": {
@@ -1311233,8 +1311281,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "061b935152ab6f5e9bbc4903bbe61d6e572df391",
-    "previous_success_ms": 1793623870877,
+    "previous_commit": "d4a941809e9c7e96539121e07698243a326015cc",
+    "previous_success_ms": 1793623879817,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
