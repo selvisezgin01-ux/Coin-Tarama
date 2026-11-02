@@ -1236858,116 +1236858,7 @@
       "source_close_ms": 1793626200000
     }
   },
-  "pending": [
-    {
-      "id": "eb78becaf26bfea6fb41ffd5",
-      "asset_id": "9cda13111ee161bc29cdccdf",
-      "key": "OKX:SPOT:CCUSDT",
-      "symbol": "CCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793626264483,
-      "price": 0.094305,
-      "level": 0.09542,
-      "invalid": 0.0943445122964416,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09542,
-        "base_invalid": 0.0943445122964416,
-        "atr": 0.00036991802372267026,
-        "rvol": 2.4136752201984994,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793616300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5167141200042247,
-        "score": 3.9136752201984994
-      },
-      "context": {
-        "atr": 0.000378325685126058,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.07884119172428816,
-        "btc_hour_pct": -0.12055013999991981,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793616300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aa5285665e6bca58cdb293b4",
-      "asset_id": "a8224fcc9e1b95374dd7cd75",
-      "key": "MEXC:PERP:SOONNETWORKUSDT",
-      "symbol": "SOONNETWORKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793626265836,
-      "price": 0.26025,
-      "level": 0.2615,
-      "invalid": 0.2538261468365366,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2615,
-        "base_invalid": 0.2538261468365366,
-        "atr": 0.002492354423089329,
-        "rvol": 3.954618092066936,
-        "close_position": 0.8000000000000037,
-        "breakout": true,
-        "bar_close_ms": 1793624400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4740108611326797,
-        "score": 5.75461809206694
-      },
-      "context": {
-        "atr": 0.0023141317138625035,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5789414425534165,
-        "btc_hour_pct": -0.10493058142073686,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SOONNETWORKUSDT",
-          "change_pct": 2.228310970585601,
-          "old_ms": 1793622733194,
-          "current_ms": 1793626262241,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793624400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOONNETWORKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1247121,6 +1247012,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793625973442
+    },
+    {
+      "id": "eb78becaf26bfea6fb41ffd5",
+      "asset_id": "9cda13111ee161bc29cdccdf",
+      "key": "OKX:SPOT:CCUSDT",
+      "symbol": "CCUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793626264483,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793626276064
+    },
+    {
+      "id": "aa5285665e6bca58cdb293b4",
+      "asset_id": "a8224fcc9e1b95374dd7cd75",
+      "key": "MEXC:PERP:SOONNETWORKUSDT",
+      "symbol": "SOONNETWORKUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793626265836,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793626276065
     }
   ],
   "runs": [
@@ -1360960,8 +1360873,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3b1d3fb23a5ce57d6aefc63dd9965f7e7572e803",
-    "previous_success_ms": 1793625995164,
+    "previous_commit": "83b86ed8179e8c72325e5ad9954d119c0a507722",
+    "previous_success_ms": 1793626275028,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
