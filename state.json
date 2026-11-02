@@ -1388860,108 +1388860,7 @@
       "source_close_ms": 1793594700000
     }
   },
-  "pending": [
-    {
-      "id": "61c143b9267dd9a44eb5dddb",
-      "asset_id": "e95b386c478f5a2730d16488",
-      "key": "OKX:PERP:HYPEUSDT",
-      "symbol": "HYPEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793594859643,
-      "price": 88.1705,
-      "level": 88.35,
-      "invalid": 87.44009222731583,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 88.35,
-        "base_invalid": 87.44009222731583,
-        "atr": 0.39938515122776824,
-        "rvol": 2.279098519802474,
-        "close_position": 0.8003802281368785,
-        "breakout": true,
-        "bar_close_ms": 1793592000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.912758102010125,
-        "score": 4.079478747939352
-      },
-      "context": {
-        "atr": 0.4238858534007891,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6974887730433865,
-        "btc_hour_pct": 0.21526932896673845,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:HYPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793592000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HYPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6e802e37ce42a33ffcae0c93",
-      "asset_id": "52ad137efa7b3f566b07f13a",
-      "key": "OKX:PERP:TRUSTUSDT",
-      "symbol": "TRUSTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793594859643,
-      "price": 0.05481,
-      "level": 0.05392,
-      "invalid": 0.05062551154315442,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05392,
-        "base_invalid": 0.05062551154315442,
-        "atr": 0.0006965897123038282,
-        "rvol": 29.582217385609056,
-        "close_position": 0.870229007633588,
-        "breakout": true,
-        "bar_close_ms": 1793593800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8681402439024515,
-        "score": 7.870229007633588
-      },
-      "context": {
-        "atr": 0.0008087018837361011,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.9920787264657949,
-        "btc_hour_pct": 0.21526932896673845,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRUSTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793593800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUSTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1397982,6 +1397881,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793594567279
+    },
+    {
+      "id": "61c143b9267dd9a44eb5dddb",
+      "asset_id": "e95b386c478f5a2730d16488",
+      "key": "OKX:PERP:HYPEUSDT",
+      "symbol": "HYPEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793594859643,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793594870176
+    },
+    {
+      "id": "6e802e37ce42a33ffcae0c93",
+      "asset_id": "52ad137efa7b3f566b07f13a",
+      "key": "OKX:PERP:TRUSTUSDT",
+      "symbol": "TRUSTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793594859643,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793594870176
     }
   ],
   "runs": [
@@ -1500838,8 +1500759,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0045caf8068d3bd55af415410415946b9fbc380e",
-    "previous_success_ms": 1793594584871,
+    "previous_commit": "eac44b9831f134a3adeaac9495cdf59e483d0ef4",
+    "previous_success_ms": 1793594869130,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
