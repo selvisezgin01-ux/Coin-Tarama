@@ -1476318,64 +1476318,7 @@
       "source_close_ms": 1793648700000
     }
   },
-  "pending": [
-    {
-      "id": "4d233c7ea019133770039270",
-      "asset_id": "48a11bfd15fad0e2e241f3d8",
-      "key": "MEXC:PERP:AIOTUSDT",
-      "symbol": "AIOTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793651693587,
-      "price": 0.08798,
-      "level": 0.08452,
-      "invalid": 0.07821775198649385,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08452,
-        "base_invalid": 0.07821775198649385,
-        "atr": 0.0018149867567076783,
-        "rvol": 3.4932162475816546,
-        "close_position": 0.7789291882556126,
-        "breakout": true,
-        "bar_close_ms": 1793651400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 9.842668344870976,
-        "score": 5.272145435837267
-      },
-      "context": {
-        "atr": 0.0018149867567076783,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -2.801061237101221,
-        "btc_hour_pct": 0.09143106500308917,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AIOTUSDT",
-          "change_pct": 0.0,
-          "old_ms": 1793647953264,
-          "current_ms": 1793651691229,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793651400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AIOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1487387,6 +1487330,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793651401565
+    },
+    {
+      "id": "4d233c7ea019133770039270",
+      "asset_id": "48a11bfd15fad0e2e241f3d8",
+      "key": "MEXC:PERP:AIOTUSDT",
+      "symbol": "AIOTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793651693587,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793651704443
     }
   ],
   "runs": [
@@ -1584137,7 +1584091,8 @@
         "entry_seq": 0,
         "cohort": "AIOTUSDT",
         "observation_lag_ms": 293587,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10856
       }
     },
     "errors": [],
@@ -1610161,8 +1610116,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6d86e53d4cb8f3b7a1c599050ce3adc10d646bf3",
-    "previous_success_ms": 1793651420857,
+    "previous_commit": "627cd3ca84117f1e985a751b038acf0a00d96259",
+    "previous_success_ms": 1793651702908,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
