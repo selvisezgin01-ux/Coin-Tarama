@@ -1340156,160 +1340156,7 @@
       "source_close_ms": 1793583900000
     }
   },
-  "pending": [
-    {
-      "id": "d4f81ff53b25869013ebd3af",
-      "asset_id": "51cb354233753c5917c917ba",
-      "key": "OKX:SPOT:BNBUSDT",
-      "symbol": "BNBUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793583924617,
-      "price": 714.675,
-      "level": 709.33,
-      "invalid": 704.4460283952462,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 709.33,
-        "base_invalid": 704.4460283952462,
-        "atr": 1.4264773650247744,
-        "rvol": 4.96370955325805,
-        "close_position": 0.9408602150537565,
-        "breakout": true,
-        "bar_close_ms": 1793575800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6860771695064161,
-        "score": 6.904569768311807
-      },
-      "context": {
-        "atr": 1.6733232173824177,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.016242053808557255,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BNBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793575800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BNBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c755543d40e96d1cfa9c5e6d",
-      "asset_id": "4fd5d88b152ebb9e019651fd",
-      "key": "OKX:PERP:TRUMPUSDT",
-      "symbol": "TRUMPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793583927001,
-      "price": 1.7455,
-      "level": 1.733,
-      "invalid": 1.6695872504104488,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.733,
-        "base_invalid": 1.6695872504104488,
-        "atr": 0.02275166393034194,
-        "rvol": 4.178720356053942,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793580300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8086347724620921,
-        "score": 6.178720356053942
-      },
-      "context": {
-        "atr": 0.02352159918238295,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.6226595854107795,
-        "btc_hour_pct": -0.2728943271948059,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d3c5b1d9046ffa906268e02a",
-      "asset_id": "99afbe52ed8ec186f6bfca45",
-      "key": "MEXC:SPOT:TRUMPUSDT",
-      "symbol": "TRUMPUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793583922031,
-      "price": 1.7469999999999999,
-      "level": 1.735,
-      "invalid": 1.6716005074012485,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.735,
-        "base_invalid": 1.6716005074012485,
-        "atr": 0.022663283991676088,
-        "rvol": 2.6468600536439397,
-        "close_position": 0.9827586206896571,
-        "breakout": true,
-        "bar_close_ms": 1793580300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.865889212827998,
-        "score": 4.629618674333597
-      },
-      "context": {
-        "atr": 0.023396947251160642,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.62271506416376,
-        "btc_hour_pct": -0.2753219768761195,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TRUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1348923,6 +1348770,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793583334223
+    },
+    {
+      "id": "c755543d40e96d1cfa9c5e6d",
+      "asset_id": "4fd5d88b152ebb9e019651fd",
+      "key": "OKX:PERP:TRUMPUSDT",
+      "symbol": "TRUMPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793583927001,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793583937005
+    },
+    {
+      "id": "d3c5b1d9046ffa906268e02a",
+      "asset_id": "99afbe52ed8ec186f6bfca45",
+      "key": "MEXC:SPOT:TRUMPUSDT",
+      "symbol": "TRUMPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793583922031,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793583937005
     }
   ],
   "runs": [
@@ -1447725,8 +1447594,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9625259ca5c8f4042a4978d898d842b0ee0da371",
-    "previous_success_ms": 1793583646491,
+    "previous_commit": "109cc7ddbf5177342f0fca939a2992c7c7ab37dd",
+    "previous_success_ms": 1793583935828,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
