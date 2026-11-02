@@ -1496078,60 +1496078,7 @@
       "source_close_ms": 1793655900000
     }
   },
-  "pending": [
-    {
-      "id": "42a755cdeb5f0cc6590fd782",
-      "asset_id": "f19824fe4f437532e7c1ef62",
-      "key": "MEXC:SPOT:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793660261388,
-      "price": 0.019880000000000002,
-      "level": 0.01962,
-      "invalid": 0.0191334737853593,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01962,
-        "base_invalid": 0.0191334737853593,
-        "atr": 0.00017684143093799689,
-        "rvol": 2.7453678921914575,
-        "close_position": 0.7741935483870956,
-        "breakout": true,
-        "bar_close_ms": 1793659500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.596292481977346,
-        "score": 4.519561440578553
-      },
-      "context": {
-        "atr": 0.00017684143093799689,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7578075756917491,
-        "btc_hour_pct": 0.07249859971043549,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793659500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1507385,6 +1507332,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793659679568
+    },
+    {
+      "id": "42a755cdeb5f0cc6590fd782",
+      "asset_id": "f19824fe4f437532e7c1ef62",
+      "key": "MEXC:SPOT:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793660261388,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793660272795
     }
   ],
   "runs": [
@@ -1607257,7 +1607215,8 @@
         "entry_seq": 0,
         "cohort": "IRYSUSDT",
         "observation_lag_ms": 761388,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11407
       }
     },
     "errors": [],
@@ -1633282,8 +1633241,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "eff0b66ee69d98ebee49941543d22c03a3b137bd",
-    "previous_success_ms": 1793659997393,
+    "previous_commit": "fa29e0e6ea6f04cd4793d59eb671565a58760f6b",
+    "previous_success_ms": 1793660271817,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
