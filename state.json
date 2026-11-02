@@ -1344814,60 +1344814,7 @@
       "source_close_ms": 1793630700000
     }
   },
-  "pending": [
-    {
-      "id": "bc72750a41b81fc786dcb553",
-      "asset_id": "21c4a26aace8569c9734a1f3",
-      "key": "MEXC:SPOT:ELSAUSDT",
-      "symbol": "ELSAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793631178679,
-      "price": 0.06478500000000001,
-      "level": 0.0648,
-      "invalid": 0.06229734671763623,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0648,
-        "base_invalid": 0.06229734671763623,
-        "atr": 0.00041768854909177274,
-        "rvol": 6.037105049026286,
-        "close_position": 0.7236842105263173,
-        "breakout": true,
-        "bar_close_ms": 1793630700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6521739130434856,
-        "score": 7.723684210526317
-      },
-      "context": {
-        "atr": 0.00041768854909177274,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.17726935485676,
-        "btc_hour_pct": 0.17415100901174707,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ELSAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793630700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ELSAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1355230,6 +1355177,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793630894383
+    },
+    {
+      "id": "bc72750a41b81fc786dcb553",
+      "asset_id": "21c4a26aace8569c9734a1f3",
+      "key": "MEXC:SPOT:ELSAUSDT",
+      "symbol": "ELSAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793631178679,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793631190190
     }
   ],
   "runs": [
@@ -1444755,7 +1444713,8 @@
         "entry_seq": 0,
         "cohort": "ELSAUSDT",
         "observation_lag_ms": 478679,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11511
       }
     },
     "errors": [],
@@ -1470783,8 +1470742,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3ea4049139da365d4453e39e67d91c9678d72d9a",
-    "previous_success_ms": 1793630912592,
+    "previous_commit": "b8f144f64db7cae0d1c8a1b3ebc654142c6b52ed",
+    "previous_success_ms": 1793631189232,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
