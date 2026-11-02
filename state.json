@@ -1449762,114 +1449762,7 @@
       "source_close_ms": 1793618100000
     }
   },
-  "pending": [
-    {
-      "id": "6aba5fdc452654a9aa76fce4",
-      "asset_id": "74a868ce7a7a1de4b250d547",
-      "key": "MEXC:PERP:EVAAUSDT",
-      "symbol": "EVAAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793619150719,
-      "price": 1.38265,
-      "level": 1.3226,
-      "invalid": 1.2060938395889045,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.3226,
-        "base_invalid": 1.2060938395889045,
-        "atr": 0.026041069407303878,
-        "rvol": 5.686553821939947,
-        "close_position": 0.9804941482444726,
-        "breakout": true,
-        "bar_close_ms": 1793597400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 8.228562217923919,
-        "score": 7.66704797018442
-      },
-      "context": {
-        "atr": 0.03691891039144387,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0562196748657326,
-        "btc_hour_pct": -0.12365152565481097,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:EVAAUSDT",
-          "change_pct": -2.4450431501599756,
-          "old_ms": 1793615428013,
-          "current_ms": 1793619147028,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0143,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793597400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EVAAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e940e47e187c1a31a7f6a84e",
-      "asset_id": "5e4896e36865c93aad18f4ff",
-      "key": "OKX:PERP:SPACEUSDT",
-      "symbol": "SPACEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793619149355,
-      "price": 0.003458,
-      "level": 0.003445,
-      "invalid": 0.003401287546692892,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003445,
-        "base_invalid": 0.003401287546692892,
-        "atr": 1.808302204738452e-05,
-        "rvol": 4.996508604716178,
-        "close_position": 0.8863636363636317,
-        "breakout": true,
-        "bar_close_ms": 1793619000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1137162954278912,
-        "score": 6.882872241079809
-      },
-      "context": {
-        "atr": 1.808302204738452e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.14513178157300466,
-        "btc_hour_pct": -0.1158577768891833,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SPACEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793619000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SPACEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1459737,6 +1459630,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793618260074
+    },
+    {
+      "id": "6aba5fdc452654a9aa76fce4",
+      "asset_id": "74a868ce7a7a1de4b250d547",
+      "key": "MEXC:PERP:EVAAUSDT",
+      "symbol": "EVAAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793619150719,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793619160339
+    },
+    {
+      "id": "e940e47e187c1a31a7f6a84e",
+      "asset_id": "5e4896e36865c93aad18f4ff",
+      "key": "OKX:PERP:SPACEUSDT",
+      "symbol": "SPACEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793619149355,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793619160339
     }
   ],
   "runs": [
@@ -1545011,7 +1544926,8 @@
         "entry_seq": 0,
         "cohort": "SPACEUSDT",
         "observation_lag_ms": 149355,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10984
       }
     },
     "errors": [],
@@ -1571043,8 +1570959,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e00057a4b2a34e80675a3c68c1d9cb6618f1ee81",
-    "previous_success_ms": 1793618872607,
+    "previous_commit": "f4edf6f03ee7f68c71543c19516767616bdaa41f",
+    "previous_success_ms": 1793619158997,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
