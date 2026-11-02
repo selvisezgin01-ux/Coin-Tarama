@@ -3,7 +3,7 @@
 Solana1 veSPSC; yalnız genel veriler. Bildirim gürültüsü filtresi küçük işlemleri gizler; bot tespiti yapıldığı anlamına gelmez.
 Yaklaşık5dk kontrol.1coin V1 kayıtları arşivlenir; eski mesajlar yeni sinyal diye tekrar gönderilmez.
 
-Son gözlem: 02.11.2026 09:13:19 TR · V2 döngüsü 803
+Son gözlem: 02.11.2026 09:17:20 TR · V2 döngüsü 804
 
 ## Bildirim kuralları
 
@@ -15,8 +15,8 @@ CA:
 ```text
 GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk
 ```
-Fiyat $0.0003613; likidite $163658.35; tek swap bildirim eşiği $164.
-V2de sessiz kaydedilen küçük işlem 409, anlamlı tek işlem 72.
+Fiyat $0.0003613; likidite $163654.73; tek swap bildirim eşiği $164.
+V2de sessiz kaydedilen küçük işlem 410, anlamlı tek işlem 72.
 [Solscan](https://solscan.io/token/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) · [DexScreener](https://dexscreener.com/solana/6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk)
 
 ### Sessiz birikim
@@ -26,7 +26,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 02.11.2026 09:12:02 TR
+Son zincir okuması: 02.11.2026 09:17:02 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -64,7 +64,7 @@ Güncel örnekte koşullar sağlanmadı veya yeterli kesintisiz veri yok.
 ### İzlenen holderlar
 
 Bilinen token hesaplarının zincir üzerinde doğrulanmış örneği; bütün holderlar veya güncel en büyük20sıralaması değildir. Eksik hesaplar sıfır bakiye sayılmaz.
-Son zincir okuması: 02.11.2026 09:12:02 TR
+Son zincir okuması: 02.11.2026 09:17:02 TR
 
 | Adres | Gözlenen token bakiyesi | Aynı hesaplardaki son değişim |
 |---|---:|---:|
@@ -98,17 +98,16 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
       "selected": 8,
       "total_tracked": 15,
       "errors": [
-        "APofi4CtfeYD3gPxDRxGBvDDcSpdCoELobkDeiJvodMq: The read operation timed out",
-        "2x6Uhxmaot1cpiRisNwUcaQFPJCryGE4aTdpTYhYLENS: The read operation timed out"
+        "api.mainnet.solana.com: RPC error -32015"
       ],
-      "detail_queue": 12475,
+      "detail_queue": 12500,
       "full_chain_coverage": false,
-      "checked_ms": 1793599999817
+      "checked_ms": 1793600240832
     },
     "holder_cohort": {
       "requested_token_accounts": 43,
       "issues": [],
-      "observed_ms": 1793599922347,
+      "observed_ms": 1793600222383,
       "global_top20_complete": false,
       "all_holders_complete": false
     }
@@ -116,25 +115,27 @@ Henüz yeterli doğrulanmış bağlantı yok. Sağlayıcının insider-network e
   "alerts": {
     "token:4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk": "token:4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk:api.geckoterminal.com: erişim beklemesi sürüyor",
     "token:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk": "token:GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk:api.geckoterminal.com: erişim beklemesi sürüyor",
-    "rpc_wallets": "rpc_wallets:APofi4CtfeYD3gPxDRxGBvDDcSpdCoELobkDeiJvodMq: The read operation timed out"
+    "rpc_wallets": "rpc_wallets:api.mainnet.solana.com: RPC error -32015"
   },
   "provider_backoff": {
     "solana-rpc.publicnode.com:getTokenLargestAccounts": 1793391577434,
     "api.geckoterminal.com": 1793524218218
   },
   "timing": {
-    "intervals": 802,
+    "intervals": 803,
     "p95_minutes": 5.000016666666666,
     "max_minutes": 36.7176,
     "over10_minutes": 1,
     "full_chain_coverage": false
   },
-  "detail_queue": 12475
+  "detail_queue": 12500
 }
 ```
 WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı doğruladığımız iddiası yok. Cüzdan sahip adresi ve bilinen token hesapları birlikte izlenir. Aradaki veri boşlukları gizlenmez.
 
 ## Son anlamlı kayıtlar
+
+02.11.2026 09:17:04 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 02.11.2026 09:13:19 TR · **VERİ ERİŞİMİ** · rpc_wallets: APofi4CtfeYD3gPxDRxGBvDDcSpdCoELobkDeiJvodMq: The read operation timed out
 
@@ -213,6 +214,4 @@ WLFI etiketleri kaynak iddiasıdır; tüm WLFI adreslerini veya ana cüzdanı do
 02.11.2026 06:30:51 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
 02.11.2026 06:25:44 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
-
-02.11.2026 06:20:44 TR · **ERİŞİM DÜZELDİ** · rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.
 
