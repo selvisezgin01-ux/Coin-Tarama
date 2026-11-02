@@ -1412671,170 +1412671,7 @@
       "source_close_ms": 1793607300000
     }
   },
-  "pending": [
-    {
-      "id": "a89601cbf95aa13a6bde6b32",
-      "asset_id": "6cd64faec3832fc7ca0cd210",
-      "key": "MEXC:SPOT:XDCUSDT",
-      "symbol": "XDCUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793607494796,
-      "price": 0.03118,
-      "level": 0.03104,
-      "invalid": 0.030685424548695262,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03104,
-        "base_invalid": 0.030685424548695262,
-        "atr": 0.00016383634203159152,
-        "rvol": 5.629209594743637,
-        "close_position": 0.6976744186046553,
-        "breakout": true,
-        "bar_close_ms": 1793596500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3264315755419087,
-        "score": 7.326884013348292
-      },
-      "context": {
-        "atr": 0.00015999983859959168,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.10669875432560705,
-        "btc_hour_pct": -0.07462691340194283,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XDCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793596500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f78dcb736264883b3760662d",
-      "asset_id": "d28b71679e514ce82707b1a9",
-      "key": "MEXC:PERP:BLESSUSDT",
-      "symbol": "BLESSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793607496136,
-      "price": 0.01001,
-      "level": 0.010169,
-      "invalid": 0.009829817523251728,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.010169,
-        "base_invalid": 0.009829817523251728,
-        "atr": 0.00016121651165515083,
-        "rvol": 2.878822976040076,
-        "close_position": 0.9478527607361923,
-        "breakout": true,
-        "bar_close_ms": 1793605500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.686093765487141,
-        "score": 4.826675736776268
-      },
-      "context": {
-        "atr": 0.0001869312163641763,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4659939383943277,
-        "btc_hour_pct": -0.06565626831784854,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BLESSUSDT",
-          "change_pct": 3.838841781193092,
-          "old_ms": 1793603880109,
-          "current_ms": 1793607493150,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793605500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BLESSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "417721870a47496193e15295",
-      "asset_id": "41ab362d9a3d197d0ef613f6",
-      "key": "MEXC:PERP:GLMUSDT",
-      "symbol": "GLMUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793607496136,
-      "price": 0.109945,
-      "level": 0.10958,
-      "invalid": 0.10832167223821658,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10958,
-        "base_invalid": 0.10832167223821658,
-        "atr": 0.00045551841188943486,
-        "rvol": 36.79461378678083,
-        "close_position": 0.8589743589743608,
-        "breakout": true,
-        "bar_close_ms": 1793607300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.47627770653966284,
-        "score": 7.858974358974361
-      },
-      "context": {
-        "atr": 0.00045551841188943486,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.15735732287998072,
-        "btc_hour_pct": -0.06565626831784854,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GLMUSDT",
-          "change_pct": 4.786173848649677,
-          "old_ms": 1793603880669,
-          "current_ms": 1793607493663,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793607300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1422328,6 +1422165,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793606004497
+    },
+    {
+      "id": "a89601cbf95aa13a6bde6b32",
+      "asset_id": "6cd64faec3832fc7ca0cd210",
+      "key": "MEXC:SPOT:XDCUSDT",
+      "symbol": "XDCUSDT",
+      "phase": "expired",
+      "observed_ms": 1793607494796,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793607507428
+    },
+    {
+      "id": "f78dcb736264883b3760662d",
+      "asset_id": "d28b71679e514ce82707b1a9",
+      "key": "MEXC:PERP:BLESSUSDT",
+      "symbol": "BLESSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793607496136,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793607507429
+    },
+    {
+      "id": "417721870a47496193e15295",
+      "asset_id": "41ab362d9a3d197d0ef613f6",
+      "key": "MEXC:PERP:GLMUSDT",
+      "symbol": "GLMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793607496136,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793607507429
     }
   ],
   "runs": [
@@ -1503416,7 +1503286,8 @@
         "entry_seq": 0,
         "cohort": "GLMUSDT",
         "observation_lag_ms": 196136,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11293
       }
     },
     "errors": [],
@@ -1529439,8 +1529310,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "47163a711d7761d12b9dfbb97781de2689863564",
-    "previous_success_ms": 1793607226276,
+    "previous_commit": "78bcb70f02df883f5b93a125b0d2e70feca43297",
+    "previous_success_ms": 1793607506087,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
