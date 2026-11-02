@@ -322,7 +322,7 @@ Kimlik defteri: 5092 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | MAMESUKE `NoZXGHKtw6aAB7qK1x6GZ6A7FfxRaBb2R53SAW5tVnp` | solana | 02.11.2026 17:23 | 67481.0 | Bekliyor |
+| 🟡 ERKEN RADAR | MAMESUKE `NoZXGHKtw6aAB7qK1x6GZ6A7FfxRaBb2R53SAW5tVnp` | solana | 02.11.2026 17:23 | 67481.0 | [Issue #1500](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1500) |
 | 🟡 ERKEN RADAR | OREX `0x17d19c6744a0c13577684a71b1a3080a55e3f920` | robinhood | 02.11.2026 16:37 | 271901.0 | [Issue #1494](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1494) |
 | 🟡 ERKEN RADAR | WWIII `0xb11ed7dc28ecb6a33803fdf014fa31ce50627ec0` | robinhood | 02.11.2026 16:37 | 52876.0 | [Issue #1495](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1495) |
 | 🟡 ERKEN RADAR | Polarbear `0x00eb6a7ec057012f696ce27ecd6c977123fdae45` | robinhood | 02.11.2026 16:34 | 134283.0 | [Issue #1493](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1493) |
