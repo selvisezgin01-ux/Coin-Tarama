@@ -1230567,62 +1230567,7 @@
       "source_close_ms": 1793624400000
     }
   },
-  "pending": [
-    {
-      "id": "656c68af7ad08b7c5527abb3",
-      "asset_id": "f0742acb562b33501e80f838",
-      "key": "MEXC:PERP:HAEDALUSDT",
-      "symbol": "HAEDALUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793625662657,
-      "price": 0.02691,
-      "level": 0.02685,
-      "invalid": 0.025542978039020992,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02685,
-        "base_invalid": 0.025542978039020992,
-        "atr": 0.0004468130731933889,
-        "rvol": 2.2183020503896156,
-        "close_position": 0.6666666666666666,
-        "breakout": false,
-        "bar_close_ms": 1793625300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.9163468917881907,
-        "score": 3.384968717056282
-      },
-      "context": {
-        "atr": 0.0004468130731933889,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.4064265538027874,
-        "btc_hour_pct": -0.10493058142073686,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HAEDALUSDT",
-          "change_pct": -0.6195340252236892,
-          "old_ms": 1793622134154,
-          "current_ms": 1793625660083,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0327,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793625300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HAEDALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1240754,6 +1240699,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793625377386
+    },
+    {
+      "id": "656c68af7ad08b7c5527abb3",
+      "asset_id": "f0742acb562b33501e80f838",
+      "key": "MEXC:PERP:HAEDALUSDT",
+      "symbol": "HAEDALUSDT",
+      "phase": "radar",
+      "observed_ms": 1793625662657,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793625672495
     }
   ],
   "runs": [
@@ -1328361,7 +1328317,8 @@
         "entry_seq": 0,
         "cohort": "HAEDALUSDT",
         "observation_lag_ms": 362657,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9838
       }
     },
     "errors": [],
@@ -1354384,8 +1354341,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1afffdf0895cd035db95c2792eb418fd652b7ae4",
-    "previous_success_ms": 1793625392976,
+    "previous_commit": "d86aa7f878a739e31e5461c6d15ee375e1118c8c",
+    "previous_success_ms": 1793625670621,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
