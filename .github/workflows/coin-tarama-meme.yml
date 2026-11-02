@@ -46,13 +46,13 @@ jobs:
       - name: Validate first base, buy pressure, cap and V5 archive preservation
         run: python -m unittest test_meme_v6 -q
       - name: Validate V7 identity retention, closed bases, risk gates and idempotent delivery
-        run: python -m unittest test_meme_v7 -q
+        run: python -m unittest test_meme_v7 test_meme_v7_storage -q
       - name: Run bounded V7 session using continuous discovery feed
         env:
           GH_TOKEN: ${{ github.token }}
           COIN_NOTIFY_USER: ${{ vars.COIN_NOTIFY_USER }}
           GH_RUN_CREATED_AT: ${{ github.event.workflow_run.created_at || '' }}
-        run: python -u meme_v7.py worker --minutes "$MEME_SESSION_MINUTES"
+        run: python -u meme_v7_runtime.py worker --minutes "$MEME_SESSION_MINUTES"
       - name: Preserve report and coverage
         if: always()
         uses: actions/upload-artifact@v7

@@ -1,6 +1,7 @@
 """Bounded, idempotent Meme V7 publication; never force-push or reprice data."""
 import hashlib,json,os,re,subprocess,time
 from pathlib import Path
+from meme_v7_storage import prepare, MAX_FILE_BYTES
 
 BRANCH='scanner-state-meme-v7'
 ATTEMPTS=4
@@ -34,6 +35,7 @@ class PublicationError(RuntimeError):
 
 def category(result):
     text=(result.stderr+'\n'+result.stdout).lower()
+    if 'gh001' in text or 'exceeds github' in text:return 'capacity'
     if re.search(r'authentication failed|could not read username|permission denied|permission to .+ denied|http[^\n]*(?:401|403)|protected branch|gh006|gh013|repository not found',text):return 'permission'
     if re.search(r'non-fast-forward|fetch first|\[rejected\]|cannot lock ref|stale info',text):return 'conflict'
     if result.returncode==124 or re.search(r'could not resolve host|failed to connect|connection (?:reset|closed|timed out)|timed out|timeout|tls|ssl|http[^\n]*(?:408|429|500|502|503|504)|remote end hung up|recv failure|send failure|temporarily unavailable|broken pipe',text):return 'transient'
@@ -95,9 +97,12 @@ class SafePublisher:
         self._run(('config','user.name','github-actions[bot]'),deadline)
         self._run(('config','user.email','41898282+github-actions[bot]@users.noreply.github.com'),deadline)
         records=[]
-        for name in ('state.json','report.md'):
-            path=self.out/name
-            if path.exists():records.append('100644 blob '+self._run(('hash-object','-w',str(path)),deadline)+'\t'+name+'\n')
+        try:files=prepare(state,self.out)
+        except (ValueError,TypeError) as exc:raise PublicationError('capacity',str(exc)) from None
+        if (self.out/'report.md').exists():files.append((self.out/'report.md','report.md'))
+        for path,name in files:
+            if path.stat().st_size>MAX_FILE_BYTES:raise PublicationError('capacity','Publication file exceeds 16 MiB budget: '+name)
+            records.append('100644 blob '+self._run(('hash-object','-w',str(path)),deadline)+'\t'+name+'\n')
         tree=self._run(('mktree',),deadline,input=''.join(records))
         args=('commit-tree',tree)+ (('-p',parent) if parent else ())
         commit=self._run(args,deadline,input='Scanner checkpoint '+self.run_id+'\n')
