@@ -1484946,112 +1484946,7 @@
       "source_close_ms": 1793655900000
     }
   },
-  "pending": [
-    {
-      "id": "ea1d7d7624f6a46af5b03269",
-      "asset_id": "222e88510c42615c94d02633",
-      "key": "OKX:PERP:PROVEUSDT",
-      "symbol": "PROVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793656196180,
-      "price": 0.1931,
-      "level": 0.1952,
-      "invalid": 0.18960815045279292,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1952,
-        "base_invalid": 0.18960815045279292,
-        "atr": 0.0012789969813806177,
-        "rvol": 5.000534231024003,
-        "close_position": 0.8333333333333359,
-        "breakout": false,
-        "bar_close_ms": 1793634300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.20736132711249855,
-        "score": 6.333867564357338
-      },
-      "context": {
-        "atr": 0.0009817173650684336,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7526581231787066,
-        "btc_hour_pct": -0.3886435625962692,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PROVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793634300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e0ca8674bbcd9c285d875b58",
-      "asset_id": "76c3ba67719360f662961b84",
-      "key": "MEXC:SPOT:PROPSUSDT",
-      "symbol": "PROPSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793656193493,
-      "price": 0.0055705,
-      "level": 0.005623,
-      "invalid": 0.005513565871849047,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005623,
-        "base_invalid": 0.005513565871849047,
-        "atr": 2.289418767302473e-05,
-        "rvol": 2.1311492132480203,
-        "close_position": 0.6969696969696835,
-        "breakout": false,
-        "bar_close_ms": 1793654100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.504959422903517,
-        "score": 3.328118910217704
-      },
-      "context": {
-        "atr": 2.818097362323861e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1829268504736978,
-        "btc_hour_pct": -0.40478714725256104,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PROPSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793654100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROPSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1496217,6 +1496112,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793655908170
+    },
+    {
+      "id": "ea1d7d7624f6a46af5b03269",
+      "asset_id": "222e88510c42615c94d02633",
+      "key": "OKX:PERP:PROVEUSDT",
+      "symbol": "PROVEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793656196180,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793656207086
+    },
+    {
+      "id": "e0ca8674bbcd9c285d875b58",
+      "asset_id": "76c3ba67719360f662961b84",
+      "key": "MEXC:SPOT:PROPSUSDT",
+      "symbol": "PROPSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793656193493,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793656207087
     }
   ],
   "runs": [
@@ -1620716,8 +1620633,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3706dc080ef1b9c0bd312b0f1c8442fdee46de55",
-    "previous_success_ms": 1793655929381,
+    "previous_commit": "681d8bf61ff30e2770bd4725fc19f803501ae781",
+    "previous_success_ms": 1793656205630,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
