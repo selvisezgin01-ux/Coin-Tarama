@@ -94,7 +94,7 @@ Kimlik defteri: 12229 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | Slingoor `0xb8911085c5c9d10c1662c8477a31f5940a452848` | ethereum | 03.11.2026 01:37 | 61967.0 | Bekliyor |
+| 🟡 ERKEN RADAR | Slingoor `0xb8911085c5c9d10c1662c8477a31f5940a452848` | ethereum | 03.11.2026 01:37 | 61967.0 | [Issue #1589](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1589) |
 | 🟡 ERKEN RADAR | PPC `0x346352ee4a4d40bb9c2aaff2389ec9a72132c958` | robinhood | 03.11.2026 00:59 | 57482.0 | [Issue #1584](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1584) |
 | 🟡 ERKEN RADAR | TOKEN `0x53a68ed622efa3cfabd8b42897df3c1c28945368` | bnb | 03.11.2026 00:55 | 221181.0 | [Issue #1583](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1583) |
 | 🟡 ERKEN RADAR | WORM `0x7cd520534059065fbc103e2dd4c483797904148d` | robinhood | 03.11.2026 00:47 | 85389.0 | [Issue #1581](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1581) |
