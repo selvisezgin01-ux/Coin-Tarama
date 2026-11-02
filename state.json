@@ -1492924,60 +1492924,7 @@
       "source_close_ms": 1793660400000
     }
   },
-  "pending": [
-    {
-      "id": "3bd5cd896caf0a8c8c95c717",
-      "asset_id": "43b7af10c051c4a6f6cee2d5",
-      "key": "OKX:PERP:ACTUSDT",
-      "symbol": "ACTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793661162635,
-      "price": 0.0085545,
-      "level": 0.00847,
-      "invalid": 0.008218244534483958,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00847,
-        "base_invalid": 0.008218244534483958,
-        "atr": 0.00010503643677361332,
-        "rvol": 2.60584681181469,
-        "close_position": 0.8222222222222175,
-        "breakout": true,
-        "bar_close_ms": 1793660400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7600950118764827,
-        "score": 4.428069034036907
-      },
-      "context": {
-        "atr": 0.00010503643677361332,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6399560515796043,
-        "btc_hour_pct": 0.12013896029687832,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ACTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793660400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1504275,6 +1504222,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793660581656
+    },
+    {
+      "id": "3bd5cd896caf0a8c8c95c717",
+      "asset_id": "43b7af10c051c4a6f6cee2d5",
+      "key": "OKX:PERP:ACTUSDT",
+      "symbol": "ACTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793661162635,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793661174831
     }
   ],
   "runs": [
@@ -1604462,7 +1604420,8 @@
         "entry_seq": 0,
         "cohort": "ACTUSDT",
         "observation_lag_ms": 762635,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12196
       }
     },
     "errors": [],
@@ -1630487,8 +1630446,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "94524be6c36bd724c224062a6a305028458f2d82",
-    "previous_success_ms": 1793660896239,
+    "previous_commit": "aef52965d8a39ce1b93ad706b6cb6dac14600808",
+    "previous_success_ms": 1793661173373,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
