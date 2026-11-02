@@ -237,7 +237,7 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 3832 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 3830 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
@@ -1505,7 +1505,6 @@ Kimlik defteri: 3832 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `ethereum:0xba008fe139fcaa2daf34986fa19609fbb5fb7373` | market_rejected_or_unknown | liquidity, market_cap_usd |
 | `ethereum:0xc831e014fe80ca9690f358abdbed413a2faa2237` | market_rejected_or_unknown | market_cap_not_50k_500k |
 | `ethereum:0xcdcb89d84ce980c0c75f7cfd396d56a8a301c0c2` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
-| `ethereum:0xcf31874bae28180dfa2baf0b937b2b12dd2c23a2` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0xcf82b52053105d6d1aa156f764127e61a4fa6164` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
 | `ethereum:0xd0d7c74c1cecd79c55077c9ccea78cba231782e4` | archived_age | pool_age_over_24h_identity_preserved |
 | `ethereum:0xd530443fccdd93b2b24d46c9558e68e05ae50f47` | market_rejected_or_unknown | market_cap_not_50k_500k, liquidity_usd |
@@ -2014,7 +2013,6 @@ Kimlik defteri: 3832 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xaa423ce828b3a0dd528448fb502ae664b3ba0850` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0xaa923fe4af6803fd4224434e07397749d4688a6b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xab126631550f3ea9c1aeea305301375492367ac7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xab3b9c904c64d2883f2bfaf2c2c7b94dd3dd9a3e` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0xabb688b1cc091803c140884c4c28ee3f12053f5f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xabc0bd3322caeb467227bfd2d7772bdb5b5ddda0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xabeca76d48f871e3ce770b0a3c314e50a4f53ee8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
