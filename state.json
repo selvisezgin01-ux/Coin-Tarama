@@ -1479778,60 +1479778,7 @@
       "source_close_ms": 1793655000000
     }
   },
-  "pending": [
-    {
-      "id": "5e6e02c2ca01bd979f25a969",
-      "asset_id": "a7fc98794644f9537f1c4307",
-      "key": "OKX:PERP:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793655888019,
-      "price": 0.044950000000000004,
-      "level": 0.04431,
-      "invalid": 0.043353835870388935,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04431,
-        "base_invalid": 0.043353835870388935,
-        "atr": 0.000507760864073793,
-        "rvol": 5.231716868703888,
-        "close_position": 0.7485714285714271,
-        "breakout": true,
-        "bar_close_ms": 1793655000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5674693321217736,
-        "score": 6.980288297275315
-      },
-      "context": {
-        "atr": 0.000507760864073793,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.42399752092517895,
-        "btc_hour_pct": -0.3886435625962692,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PARTIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793655000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1490986,6 +1490933,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793655303797
+    },
+    {
+      "id": "5e6e02c2ca01bd979f25a969",
+      "asset_id": "a7fc98794644f9537f1c4307",
+      "key": "OKX:PERP:PARTIUSDT",
+      "symbol": "PARTIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793655888019,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793655908170
     }
   ],
   "runs": [
@@ -1589291,7 +1589249,8 @@
         "entry_seq": 0,
         "cohort": "PARTIUSDT",
         "observation_lag_ms": 888019,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 20151
       },
       "0174ae89458773aaad57043a:radar": {
         "symbol": "MEGAUSDT",
@@ -1615364,8 +1615323,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "de651dfdd021def0c9fe4018710ba6fb5fd6ced2",
-    "previous_success_ms": 1793655620456,
+    "previous_commit": "5cb025f632bacb149cfff5f00829b40cf874e3f7",
+    "previous_success_ms": 1793655906503,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
