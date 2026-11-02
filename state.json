@@ -1395126,424 +1395126,7 @@
       "source_close_ms": 1793596500000
     }
   },
-  "pending": [
-    {
-      "id": "1607b68e974103b38ed51edf",
-      "asset_id": "e7d83d2c25bac66c97f24d50",
-      "key": "OKX:SPOT:DASHUSDT",
-      "symbol": "DASHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793596550481,
-      "price": 48.675,
-      "level": 48.53,
-      "invalid": 47.967569776728766,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 48.53,
-        "base_invalid": 47.967569776728766,
-        "atr": 0.21620148847487772,
-        "rvol": 8.44761708883177,
-        "close_position": 0.8461538461538483,
-        "breakout": false,
-        "bar_close_ms": 1793589300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.16556291390728006,
-        "score": 7.3461538461538485
-      },
-      "context": {
-        "atr": 0.20398177234177442,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.553602038941392,
-        "btc_hour_pct": -0.26659916891269564,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DASHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793589300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DASHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bc632ffb10d683ce17dafe85",
-      "asset_id": "5e5a6aa3da12809469e7a9a4",
-      "key": "MEXC:PERP:CASHCATUSDT",
-      "symbol": "CASHCATUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793596550758,
-      "price": 0.09749,
-      "level": 0.0972,
-      "invalid": 0.09386775596410783,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0972,
-        "base_invalid": 0.09386775596410783,
-        "atr": 0.0010816269059477628,
-        "rvol": 2.5175530202790672,
-        "close_position": 0.8603174603174616,
-        "breakout": true,
-        "bar_close_ms": 1793589300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.115251026207779,
-        "score": 4.377870480596529
-      },
-      "context": {
-        "atr": 0.0011397521548270736,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.7636935929490782,
-        "btc_hour_pct": -0.27241473202583855,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CASHCATUSDT",
-          "change_pct": -0.1574602981880724,
-          "old_ms": 1793593044356,
-          "current_ms": 1793596548350,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793589300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CASHCATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1aa277f44886183084b81aec",
-      "asset_id": "bfd533d7c4ca3580618eb193",
-      "key": "MEXC:SPOT:DASHUSDT",
-      "symbol": "DASHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793596551271,
-      "price": 48.595,
-      "level": 48.52,
-      "invalid": 48.05372303680095,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 48.52,
-        "base_invalid": 48.05372303680095,
-        "atr": 0.24184642132699197,
-        "rvol": 9.070907732156979,
-        "close_position": 0.6250000000000022,
-        "breakout": false,
-        "bar_close_ms": 1793590200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.41407867494824835,
-        "score": 7.125000000000002
-      },
-      "context": {
-        "atr": 0.2061368225091235,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.35778903167958953,
-        "btc_hour_pct": -0.27561976298607904,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DASHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793590200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DASHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "40851e7afa1072cc2da6dc2d",
-      "asset_id": "9b2d2ec584f74eab468df9db",
-      "key": "MEXC:SPOT:ZECUSDT",
-      "symbol": "ZECUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793596551271,
-      "price": 1270.725,
-      "level": 1273.56,
-      "invalid": 1248.5121687187536,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1273.56,
-        "base_invalid": 1248.5121687187536,
-        "atr": 8.45220854164294,
-        "rvol": 5.044461454928466,
-        "close_position": 0.8117782909930821,
-        "breakout": true,
-        "bar_close_ms": 1793592000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7575000198992496,
-        "score": 6.856239745921548
-      },
-      "context": {
-        "atr": 8.20926534918953,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2349442363553389,
-        "btc_hour_pct": -0.27561976298607904,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZECUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793592000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZECUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "80d65124d0faa6018cd8f779",
-      "asset_id": "336576c4ae92dea3079a0905",
-      "key": "OKX:PERP:ZECUSDT",
-      "symbol": "ZECUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793596549228,
-      "price": 1271.9450000000002,
-      "level": 1274.19,
-      "invalid": 1247.0701448736756,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1274.19,
-        "base_invalid": 1247.0701448736756,
-        "atr": 9.732367508828984,
-        "rvol": 2.163285955228691,
-        "close_position": 0.6267605633802801,
-        "breakout": true,
-        "bar_close_ms": 1793592000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7103608551008342,
-        "score": 3.790046518608971
-      },
-      "context": {
-        "atr": 9.451460479140808,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4019918451766191,
-        "btc_hour_pct": -0.26583628353493705,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZECUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793592000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZECUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4342fd11a28c294b7095e27b",
-      "asset_id": "c99efce30254e9efcb926d71",
-      "key": "MEXC:PERP:BRUSDT",
-      "symbol": "BRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793596550758,
-      "price": 0.46975,
-      "level": 0.4722,
-      "invalid": 0.46581187195326745,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4722,
-        "base_invalid": 0.46581187195326745,
-        "atr": 0.003254186978216941,
-        "rvol": 3.8545624331477435,
-        "close_position": 0.9027777777777806,
-        "breakout": true,
-        "bar_close_ms": 1793593800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7754010695187006,
-        "score": 5.757340210925524
-      },
-      "context": {
-        "atr": 0.0033398343122924977,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5791842264559985,
-        "btc_hour_pct": -0.27241473202583855,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BRUSDT",
-          "change_pct": -1.8933551520637804,
-          "old_ms": 1793593044128,
-          "current_ms": 1793596548112,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793593800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "97c705b2cd55ac0df0fd1648",
-      "asset_id": "b2b435ace1eef5da329aa77c",
-      "key": "MEXC:SPOT:MAPUSDT",
-      "symbol": "MAPUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793596551271,
-      "price": 0.0036950000000000004,
-      "level": 0.00369,
-      "invalid": 0.0036780169798878537,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00369,
-        "base_invalid": 0.0036780169798878537,
-        "atr": 1.3220134080977268e-05,
-        "rvol": 7.735743608535867,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793596500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.27100271002709064,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 1.3220134080977268e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.27561976298607904,
-        "btc_hour_pct": -0.27561976298607904,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MAPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793596500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4c3e2ab57ff2d8578697d8d8",
-      "asset_id": "6cd64faec3832fc7ca0cd210",
-      "key": "MEXC:SPOT:XDCUSDT",
-      "symbol": "XDCUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793596551271,
-      "price": 0.031415,
-      "level": 0.03104,
-      "invalid": 0.030685424548695262,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03104,
-        "base_invalid": 0.030685424548695262,
-        "atr": 0.00016383634203159152,
-        "rvol": 5.629209594743637,
-        "close_position": 0.6976744186046553,
-        "breakout": true,
-        "bar_close_ms": 1793596500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3264315755419087,
-        "score": 7.326884013348292
-      },
-      "context": {
-        "atr": 0.00016383634203159152,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7613710583228683,
-        "btc_hour_pct": -0.27561976298607904,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XDCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793596500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1404608,6 +1404191,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793595772648
+    },
+    {
+      "id": "1607b68e974103b38ed51edf",
+      "asset_id": "e7d83d2c25bac66c97f24d50",
+      "key": "OKX:SPOT:DASHUSDT",
+      "symbol": "DASHUSDT",
+      "phase": "expired",
+      "observed_ms": 1793596550481,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793596560951
+    },
+    {
+      "id": "40851e7afa1072cc2da6dc2d",
+      "asset_id": "9b2d2ec584f74eab468df9db",
+      "key": "MEXC:SPOT:ZECUSDT",
+      "symbol": "ZECUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793596551271,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793596560951
+    },
+    {
+      "id": "4342fd11a28c294b7095e27b",
+      "asset_id": "c99efce30254e9efcb926d71",
+      "key": "MEXC:PERP:BRUSDT",
+      "symbol": "BRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793596550758,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793596560951
+    },
+    {
+      "id": "97c705b2cd55ac0df0fd1648",
+      "asset_id": "b2b435ace1eef5da329aa77c",
+      "key": "MEXC:SPOT:MAPUSDT",
+      "symbol": "MAPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793596551271,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793596560951
+    },
+    {
+      "id": "4c3e2ab57ff2d8578697d8d8",
+      "asset_id": "6cd64faec3832fc7ca0cd210",
+      "key": "MEXC:SPOT:XDCUSDT",
+      "symbol": "XDCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793596551271,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793596560951
     }
   ],
   "runs": [
@@ -1481897,7 +1481535,8 @@
         "entry_seq": 0,
         "cohort": "MAPUSDT",
         "observation_lag_ms": 51271,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9680
       },
       "6cd64faec3832fc7ca0cd210:radar": {
         "symbol": "XDCUSDT",
@@ -1481919,7 +1481558,8 @@
         "entry_seq": 0,
         "cohort": "XDCUSDT",
         "observation_lag_ms": 51271,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9680
       }
     },
     "errors": [],
@@ -1507950,8 +1507590,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "16086dde25469b10f698bef3841b1c031f1ed0ca",
-    "previous_success_ms": 1793596272294,
+    "previous_commit": "d50bf7a935d71613ef28b8700cdae457f0154144",
+    "previous_success_ms": 1793596559693,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
