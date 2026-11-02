@@ -1530510,7 +1530510,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793654110586,
+      "duration_ms": 30571
     }
   ],
   "radar_admissions": [
@@ -1571502,6 +1571504,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793611465047,
+            "endpoint_ms": 1793611500000,
+            "endpoint_price": 0.07022,
+            "return_pct": -4.7218453188602405,
+            "btc_excess_pct_points": -4.867675223151813,
+            "mae_pct": -9.701492537313438,
+            "mfe_pct": 0.407055630936215,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 34953,
+            "measured_ms": 1793654108721,
+            "cost_scenarios_pct": {
+              "0.2": -4.921845318860241,
+              "0.5": -5.2218453188602405,
+              "1": -5.7218453188602405
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793524500000,
@@ -1571511,7 +1571535,7 @@
         "observation_lag_ms": 565047,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 11704,
-        "last_measure_attempt_ms": 1793593978225
+        "last_measure_attempt_ms": 1793654108721
       },
       "011e509897ed4ca7c4cca9b6:radar": {
         "symbol": "WFIUSDT",
@@ -1586762,14 +1586786,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793654088697,
+            "endpoint_ms": 1793654100000,
+            "endpoint_price": 0.6923,
+            "return_pct": 0.07227522405319764,
+            "btc_excess_pct_points": 0.15643188583591705,
+            "mae_pct": -0.17346053772766545,
+            "mfe_pct": 0.30355594102342565,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 11303,
+            "measured_ms": 1793654108721,
+            "cost_scenarios_pct": {
+              "0.2": -0.12772477594680237,
+              "0.5": -0.42772477594680236,
+              "1": -0.9277247759468024
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793649600000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ASTERUSDT",
         "observation_lag_ms": 888697,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11092
+        "notification_lag_ms": 11092,
+        "last_measure_attempt_ms": 1793654108721
       },
       "7de4fd501ab5558450427ba8:radar": {
         "symbol": "OSMOUSDT",
@@ -1586844,9 +1586892,9 @@
     "errors": [],
     "queue": {
       "due": 157,
-      "attempted": 1,
-      "observed_ms": 1793653809285,
-      "unique_reads": 3
+      "attempted": 2,
+      "observed_ms": 1793654108721,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1586881,8 +1586929,8 @@
             "first_per_symbol": 113,
             "hours": {
               "1": {
-                "known_first_symbols": 110,
-                "median_reference_return_pct": -0.0665717719411596
+                "known_first_symbols": 111,
+                "median_reference_return_pct": -0.06296810528582109
               },
               "4": {
                 "known_first_symbols": 94,
@@ -1612857,8 +1612905,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "53303aa8b53e30514c1d733ef202e665d9060144",
-    "previous_success_ms": 1793654098872,
+    "previous_commit": "8e1825c8e36fe2142c9c8f4a16792f0ad3a8b128",
+    "previous_success_ms": 1793654108678,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
