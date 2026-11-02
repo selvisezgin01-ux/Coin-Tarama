@@ -1600552,8 +1600552,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "78a2501262215e52ced010906e09be34e755c219",
-    "previous_success_ms": 1793647395351,
+    "previous_commit": "4a4dbc77d29ac715ff695490ca30dd2d3387d040",
+    "previous_success_ms": 1793647676314,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
