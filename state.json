@@ -109786,24 +109786,7 @@
       "details": {}
     }
   ],
-  "pending": [
-    {
-      "id": "0ecaff20ffd13480fbc4a2408bcd",
-      "mint": null,
-      "kind": "ERİŞİM DÜZELDİ",
-      "observed_ms": 1793606584295,
-      "text": "rpc_wallets yeniden okunabildi; aradaki boşluk kapanmış sayılmaz.",
-      "details": {}
-    },
-    {
-      "id": "70be93f224e28a5a0f1b7fcb8dc8",
-      "mint": null,
-      "kind": "VERİ ERİŞİMİ",
-      "observed_ms": 1793606652482,
-      "text": "rpc_wallets: DSYwYUg7ZeDd96bAaGb7WMfT3apsnxo38B3YczDaWPmW: The read operation timed out",
-      "details": {}
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "6813eed5336ed14392d047e0aa83",
@@ -114064,6 +114047,18 @@
       "issue": 1421,
       "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1421",
       "delivered_ms": 1793606374255
+    },
+    {
+      "id": "0ecaff20ffd13480fbc4a2408bcd",
+      "issue": 1422,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1422",
+      "delivered_ms": 1793606657142
+    },
+    {
+      "id": "70be93f224e28a5a0f1b7fcb8dc8",
+      "issue": 1422,
+      "url": "https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1422",
+      "delivered_ms": 1793606657142
     }
   ],
   "provider_backoff": {
