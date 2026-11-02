@@ -1455374,218 +1455374,7 @@
       "source_close_ms": 1793619900000
     }
   },
-  "pending": [
-    {
-      "id": "bd341eaa10869a18a2539a48",
-      "asset_id": "28f1a852676a22e25eec0bce",
-      "key": "MEXC:PERP:TOWNSUSDT",
-      "symbol": "TOWNSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793620049205,
-      "price": 0.001326,
-      "level": 0.00136,
-      "invalid": 0.0013285392770478524,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00136,
-        "base_invalid": 0.0013285392770478524,
-        "atr": 9.738153014317738e-06,
-        "rvol": 9.04054550704516,
-        "close_position": 0.7368421052631591,
-        "breakout": false,
-        "bar_close_ms": 1793616300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6721433905900076,
-        "score": 7.236842105263159
-      },
-      "context": {
-        "atr": 1.0223625524937065e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9414953918258195,
-        "btc_hour_pct": -0.12365152565481097,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TOWNSUSDT",
-          "change_pct": 0.0,
-          "old_ms": 1793616432725,
-          "current_ms": 1793620047746,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793616300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TOWNSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a8b15cfb54229fa88c92c39c",
-      "asset_id": "04ff613467f3643157acea75",
-      "key": "OKX:PERP:ZORAUSDT",
-      "symbol": "ZORAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793620049039,
-      "price": 0.0057015,
-      "level": 0.005714,
-      "invalid": 0.005622013082910718,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005714,
-        "base_invalid": 0.005622013082910718,
-        "atr": 3.324611392854742e-05,
-        "rvol": 4.718341822935469,
-        "close_position": 0.8552631578947398,
-        "breakout": true,
-        "bar_close_ms": 1793616300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4474845542806758,
-        "score": 6.573604980830209
-      },
-      "context": {
-        "atr": 3.639935738906487e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.9195713047406304,
-        "btc_hour_pct": -0.1158577768891833,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZORAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793616300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZORAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "744caad2aec72df1aefeb44a",
-      "asset_id": "fec7e12e5b6999e14b1ba96b",
-      "key": "OKX:SPOT:OPUSDT",
-      "symbol": "OPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793620048410,
-      "price": 0.113285,
-      "level": 0.11315,
-      "invalid": 0.1118210082845634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11315,
-        "base_invalid": 0.1118210082845634,
-        "atr": 0.0005266114362439544,
-        "rvol": 3.007446991683645,
-        "close_position": 0.8928571428571358,
-        "breakout": true,
-        "bar_close_ms": 1793618100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6921029281277802,
-        "score": 4.9003041345407805
-      },
-      "context": {
-        "atr": 0.0004949510085610644,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6433312272223213,
-        "btc_hour_pct": -0.11874689362224577,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793618100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "64cd4e547dfdb15818a4f6df",
-      "asset_id": "6c919cafad9348038ff25544",
-      "key": "MEXC:SPOT:GTCUSDT",
-      "symbol": "GTCUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793620049268,
-      "price": 0.231835,
-      "level": 0.2318,
-      "invalid": 0.2249929497386524,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2318,
-        "base_invalid": 0.2249929497386524,
-        "atr": 0.0021803350756506626,
-        "rvol": 2.957053985680105,
-        "close_position": 0.6472868217054285,
-        "breakout": false,
-        "bar_close_ms": 1793619900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.8636543448639742,
-        "score": 4.104340807385533
-      },
-      "context": {
-        "atr": 0.0021803350756506626,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6303478735634083,
-        "btc_hour_pct": -0.10588775897547587,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GTCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793619900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GTCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1465475,6 +1465264,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793619160339
+    },
+    {
+      "id": "bd341eaa10869a18a2539a48",
+      "asset_id": "28f1a852676a22e25eec0bce",
+      "key": "MEXC:PERP:TOWNSUSDT",
+      "symbol": "TOWNSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793620049205,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793620058564
+    },
+    {
+      "id": "a8b15cfb54229fa88c92c39c",
+      "asset_id": "04ff613467f3643157acea75",
+      "key": "OKX:PERP:ZORAUSDT",
+      "symbol": "ZORAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793620049039,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793620058564
+    },
+    {
+      "id": "744caad2aec72df1aefeb44a",
+      "asset_id": "fec7e12e5b6999e14b1ba96b",
+      "key": "OKX:SPOT:OPUSDT",
+      "symbol": "OPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793620048410,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793620058564
+    },
+    {
+      "id": "64cd4e547dfdb15818a4f6df",
+      "asset_id": "6c919cafad9348038ff25544",
+      "key": "MEXC:SPOT:GTCUSDT",
+      "symbol": "GTCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793620049268,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793620058565
     }
   ],
   "runs": [
@@ -1551086,7 +1550919,8 @@
         "entry_seq": 0,
         "cohort": "GTCUSDT",
         "observation_lag_ms": 149268,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9297
       }
     },
     "errors": [],
@@ -1577113,8 +1576947,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "47c46bc190bd95cc0fcfc7d8ed76120e4f0f54db",
-    "previous_success_ms": 1793619772739,
+    "previous_commit": "1d4f2f96d9fbf929063757629b3e4e937628f61e",
+    "previous_success_ms": 1793620057283,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
