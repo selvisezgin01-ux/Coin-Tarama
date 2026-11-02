@@ -1403189,58 +1403189,7 @@
       "source_close_ms": 1793631600000
     }
   },
-  "pending": [
-    {
-      "id": "b4f98d179651b556c70f05fc",
-      "asset_id": "c9f4d9ead65006887bd8dfe2",
-      "key": "OKX:PERP:LAUSDT",
-      "symbol": "LAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793634777564,
-      "price": 0.061075000000000004,
-      "level": 0.06064,
-      "invalid": 0.05876618120642315,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06064,
-        "base_invalid": 0.05876618120642315,
-        "atr": 0.0005587919571790116,
-        "rvol": 3.114796756751698,
-        "close_position": 0.7031250000000074,
-        "breakout": true,
-        "bar_close_ms": 1793634300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.71580876228552,
-        "score": 4.817921756751705
-      },
-      "context": {
-        "atr": 0.0005587919571790116,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.040333554045192,
-        "btc_hour_pct": -0.0820282413350415,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793634300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1413691,6 +1413640,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793634493594
+    },
+    {
+      "id": "b4f98d179651b556c70f05fc",
+      "asset_id": "c9f4d9ead65006887bd8dfe2",
+      "key": "OKX:PERP:LAUSDT",
+      "symbol": "LAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793634777564,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793634790419
     }
   ],
   "runs": [
@@ -1504490,7 +1504450,8 @@
         "entry_seq": 0,
         "cohort": "LAUSDT",
         "observation_lag_ms": 477564,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12855
       }
     },
     "errors": [],
@@ -1530515,8 +1530476,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f7ef0680c3d200c4329388cdd4d41c58b8b1a980",
-    "previous_success_ms": 1793634511336,
+    "previous_commit": "61845b49ff491fb7c993f0073196d245346a989e",
+    "previous_success_ms": 1793634789365,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
