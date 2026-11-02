@@ -1468104,60 +1468104,7 @@
       "source_close_ms": 1793646000000
     }
   },
-  "pending": [
-    {
-      "id": "0f602a654c13ff5a1fcab705",
-      "asset_id": "95db3b1e21942cb83475a803",
-      "key": "OKX:PERP:OUSDT",
-      "symbol": "OUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793648265937,
-      "price": 0.3912,
-      "level": 0.3885,
-      "invalid": 0.3831479690795649,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3885,
-        "base_invalid": 0.3831479690795649,
-        "atr": 0.002346872802900736,
-        "rvol": 3.6871565123312537,
-        "close_position": 0.9000000000000018,
-        "breakout": true,
-        "bar_close_ms": 1793647800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3709260217278807,
-        "score": 5.587156512331256
-      },
-      "context": {
-        "atr": 0.002346872802900736,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.07229955188879922,
-        "btc_hour_pct": -0.1600184656641246,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793647800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1479103,6 +1479050,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793646179999
+    },
+    {
+      "id": "0f602a654c13ff5a1fcab705",
+      "asset_id": "95db3b1e21942cb83475a803",
+      "key": "OKX:PERP:OUSDT",
+      "symbol": "OUSDT",
+      "phase": "radar",
+      "observed_ms": 1793648265937,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793648277947
     }
   ],
   "runs": [
@@ -1574566,7 +1574524,8 @@
         "entry_seq": 0,
         "cohort": "OUSDT",
         "observation_lag_ms": 465937,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12010
       }
     },
     "errors": [],
@@ -1600587,8 +1600546,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8ac65ee7acd582b6b6660ec3567c8d03bb140106",
-    "previous_success_ms": 1793648004312,
+    "previous_commit": "918fc3f5c2408e9ee29f5dcc061d20dbff0e527f",
+    "previous_success_ms": 1793648276802,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
