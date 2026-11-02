@@ -1489513,8 +1489513,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "191e0b3b99ea1aadc03a5a7269191f2e392d69b6",
-    "previous_success_ms": 1793632111617,
+    "previous_commit": "c45d740bc15549050d02a221ef1d6c788c1bd5fe",
+    "previous_success_ms": 1793632389490,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
