@@ -1261976,112 +1261976,7 @@
       "source_close_ms": 1793579400000
     }
   },
-  "pending": [
-    {
-      "id": "16dcdb3384a3dd929a0add38",
-      "asset_id": "18eae3ebbb2c560e1a3f8fa6",
-      "key": "OKX:SPOT:PENGUUSDT",
-      "symbol": "PENGUUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793579540800,
-      "price": 0.0072475000000000005,
-      "level": 0.007248,
-      "invalid": 0.007161922285434539,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007248,
-        "base_invalid": 0.007161922285434539,
-        "atr": 3.3851430436403695e-05,
-        "rvol": 14.098847020787751,
-        "close_position": 0.8399999999999965,
-        "breakout": true,
-        "bar_close_ms": 1793574900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7884908009406555,
-        "score": 7.839999999999996
-      },
-      "context": {
-        "atr": 3.591343865876335e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4699255251056744,
-        "btc_hour_pct": 0.6689633637832149,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PENGUUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PENGUUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "13087be1d420a046eb5600c9",
-      "asset_id": "093b917e1d344f20766f81be",
-      "key": "OKX:PERP:TRUTHUSDT",
-      "symbol": "TRUTHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793579541966,
-      "price": 0.020168,
-      "level": 0.020103,
-      "invalid": 0.019976038819204168,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.020103,
-        "base_invalid": 0.019976038819204168,
-        "atr": 5.9741205305537866e-05,
-        "rvol": 3.9043538196290415,
-        "close_position": 0.7743902439024426,
-        "breakout": true,
-        "bar_close_ms": 1793579400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4487658937920802,
-        "score": 5.678744063531484
-      },
-      "context": {
-        "atr": 5.9741205305537866e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6558227716829457,
-        "btc_hour_pct": 0.6708070382031028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRUTHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793579400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1270530,6 +1270425,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793579246953
+    },
+    {
+      "id": "16dcdb3384a3dd929a0add38",
+      "asset_id": "18eae3ebbb2c560e1a3f8fa6",
+      "key": "OKX:SPOT:PENGUUSDT",
+      "symbol": "PENGUUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793579540800,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793579550098
+    },
+    {
+      "id": "13087be1d420a046eb5600c9",
+      "asset_id": "093b917e1d344f20766f81be",
+      "key": "OKX:PERP:TRUTHUSDT",
+      "symbol": "TRUTHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793579541966,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793579550098
     }
   ],
   "runs": [
@@ -1341744,7 +1341661,8 @@
         "entry_seq": 0,
         "cohort": "TRUTHUSDT",
         "observation_lag_ms": 141966,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8132
       }
     },
     "errors": [],
@@ -1367765,8 +1367683,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e08f61c03e01c602dcf2fa31b7c7578c3efd8278",
-    "previous_success_ms": 1793579259941,
+    "previous_commit": "62eef4c87f2de5dd3a52641a488825ec63367c57",
+    "previous_success_ms": 1793579548962,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
