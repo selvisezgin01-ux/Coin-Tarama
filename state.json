@@ -1439345,110 +1439345,7 @@
       "source_close_ms": 1793637000000
     }
   },
-  "pending": [
-    {
-      "id": "a05ebefc1774c98429c0e369",
-      "asset_id": "fb8af14db8ebe183071db93a",
-      "key": "OKX:SPOT:YGGUSDT",
-      "symbol": "YGGUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793638503025,
-      "price": 0.02409,
-      "level": 0.02394,
-      "invalid": 0.02359002485683431,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02394,
-        "base_invalid": 0.02359002485683431,
-        "atr": 0.00013316762110459623,
-        "rvol": 2.323102219409684,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793637900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8368200836819994,
-        "score": 4.323102219409684
-      },
-      "context": {
-        "atr": 0.00013316762110459623,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.19332376927785333,
-        "btc_hour_pct": -0.4461682699099634,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:YGGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793637900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "YGGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ce1fd9a3191a13823e5803da",
-      "asset_id": "c00eecd695f6142901fc6f26",
-      "key": "OKX:SPOT:MAGICUSDT",
-      "symbol": "MAGICUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793638503025,
-      "price": 0.07968,
-      "level": 0.08022,
-      "invalid": 0.07946338369124913,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08022,
-        "base_invalid": 0.07946338369124913,
-        "atr": 0.00031077539167249907,
-        "rvol": 2.1735279758230917,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793637900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.5111582096995471,
-        "score": 3.6735279758230917
-      },
-      "context": {
-        "atr": 0.00031077539167249907,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4336322287917582,
-        "btc_hour_pct": -0.4461682699099634,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MAGICUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793637900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MAGICUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1450097,6 +1449994,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793638216824
+    },
+    {
+      "id": "a05ebefc1774c98429c0e369",
+      "asset_id": "fb8af14db8ebe183071db93a",
+      "key": "OKX:SPOT:YGGUSDT",
+      "symbol": "YGGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793638503025,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793638513884
+    },
+    {
+      "id": "ce1fd9a3191a13823e5803da",
+      "asset_id": "c00eecd695f6142901fc6f26",
+      "key": "OKX:SPOT:MAGICUSDT",
+      "symbol": "MAGICUSDT",
+      "phase": "radar",
+      "observed_ms": 1793638503025,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793638513884
     }
   ],
   "runs": [
@@ -1542185,7 +1542104,8 @@
         "entry_seq": 0,
         "cohort": "YGGUSDT",
         "observation_lag_ms": 603025,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10859
       },
       "c00eecd695f6142901fc6f26:radar": {
         "symbol": "MAGICUSDT",
@@ -1542207,7 +1542127,8 @@
         "entry_seq": 0,
         "cohort": "MAGICUSDT",
         "observation_lag_ms": 603025,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10859
       }
     },
     "errors": [],
@@ -1568233,8 +1568154,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1ee7e39bba9cdad039edad0f20d72cb27fefdfbd",
-    "previous_success_ms": 1793638233799,
+    "previous_commit": "e86467111c7101c5370b0240027922df57d3b791",
+    "previous_success_ms": 1793638512471,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
