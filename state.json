@@ -1358340,60 +1358340,7 @@
       "source_close_ms": 1793587500000
     }
   },
-  "pending": [
-    {
-      "id": "3e8e17bcdb6449d541b20046",
-      "asset_id": "227d358bd866ef6d1fcd4b4f",
-      "key": "OKX:PERP:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793587522256,
-      "price": 0.04549,
-      "level": 0.04642,
-      "invalid": 0.04343681244786004,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04642,
-        "base_invalid": 0.04343681244786004,
-        "atr": 0.0006212503475997326,
-        "rvol": 22.131445361599937,
-        "close_position": 0.8050314465408777,
-        "breakout": true,
-        "bar_close_ms": 1793585700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.355278093076056,
-        "score": 7.805031446540878
-      },
-      "context": {
-        "atr": 0.0007086111818442231,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 5.194671669693829,
-        "btc_hour_pct": 0.35200717075356547,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PARTIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793585700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1467316,8 +1467263,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "554882f4f7b751cdb0e791477569445021127b78",
-    "previous_success_ms": 1793587245909,
+    "previous_commit": "5eed3a5d7a86600487402fbde0bf616ac00a9e79",
+    "previous_success_ms": 1793587532026,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
