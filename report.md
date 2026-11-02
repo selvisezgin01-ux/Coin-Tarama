@@ -94,7 +94,7 @@ Kimlik defteri: 12440 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | BON `0x2007c4e19dfbd2d5e5a1762d2a1d96f73a65f4e2` | bnb | 03.11.2026 01:55 | 337770.0 | Bekliyor |
+| 🟡 ERKEN RADAR | BON `0x2007c4e19dfbd2d5e5a1762d2a1d96f73a65f4e2` | bnb | 03.11.2026 01:55 | 337770.0 | [Issue #1594](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1594) |
 | 🟡 ERKEN RADAR | STIO `0xbdeca2268ecbb971f7408599e3fb2f5010344dc1` | robinhood | 03.11.2026 01:48 | 209134.0 | [Issue #1593](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1593) |
 | 🟡 ERKEN RADAR | TOKEN `0x806646bbb28f93b1be78f5fd998b0b148a957aa7` | bnb | 03.11.2026 01:48 | 163604.0 | [Issue #1592](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1592) |
 | 🟡 ERKEN RADAR | CAT `0x10141bb1f113482b3359626e70148772ae930a55` | bnb | 03.11.2026 01:41 | 460107.0 | [Issue #1590](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1590) |
