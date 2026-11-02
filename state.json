@@ -1372749,60 +1372749,7 @@
       "source_close_ms": 1793590200000
     }
   },
-  "pending": [
-    {
-      "id": "27ac0eeb5801e3b41996d9bc",
-      "asset_id": "083d0e86f92c34c0879c94a7",
-      "key": "OKX:SPOT:PHAUSDT",
-      "symbol": "PHAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793590655907,
-      "price": 0.041285,
-      "level": 0.0412,
-      "invalid": 0.04056688168563216,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0412,
-        "base_invalid": 0.04056688168563216,
-        "atr": 0.00022078876245222018,
-        "rvol": 3.934359587862535,
-        "close_position": 0.7058823529411885,
-        "breakout": false,
-        "bar_close_ms": 1793590200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.14563106796116054,
-        "score": 5.140241940803723
-      },
-      "context": {
-        "atr": 0.00022078876245222018,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.16452227419960774,
-        "btc_hour_pct": 0.05649933680236252,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PHAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793590200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PHAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1381691,6 +1381638,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793589766750
+    },
+    {
+      "id": "27ac0eeb5801e3b41996d9bc",
+      "asset_id": "083d0e86f92c34c0879c94a7",
+      "key": "OKX:SPOT:PHAUSDT",
+      "symbol": "PHAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793590655907,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793590668144
     }
   ],
   "runs": [
@@ -1456976,7 +1456934,8 @@
         "entry_seq": 0,
         "cohort": "PHAUSDT",
         "observation_lag_ms": 455907,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12237
       }
     },
     "errors": [],
@@ -1483014,8 +1482973,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9e5d51a4c5219cda69be77acb8efaf938accd631",
-    "previous_success_ms": 1793590395294,
+    "previous_commit": "9361d1597f2240a72478de51a808aab63693f4a9",
+    "previous_success_ms": 1793590667026,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
