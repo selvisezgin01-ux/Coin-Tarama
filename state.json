@@ -1478658,7 +1478658,9 @@
           "selected_for_candles": 30,
           "fresh_candidate_quotes": 0
         }
-      }
+      },
+      "finished_ms": 1793612458457,
+      "duration_ms": 28033
     }
   ],
   "radar_admissions": [
@@ -1526220,14 +1526222,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793611996273,
+            "endpoint_ms": 1793612040000,
+            "endpoint_price": 0.5149,
+            "return_pct": -4.070796460176995,
+            "btc_excess_pct_points": -3.9172157132282943,
+            "mae_pct": -4.1453190498370045,
+            "mfe_pct": 1.6860735910572577,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 43727,
+            "measured_ms": 1793612457928,
+            "cost_scenarios_pct": {
+              "0.2": -4.270796460176995,
+              "0.5": -4.570796460176995,
+              "1": -5.070796460176995
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793608200000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "RUNEUSDT",
         "observation_lag_ms": 196273,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 10593
+        "notification_lag_ms": 10593,
+        "last_measure_attempt_ms": 1793612457928
       },
       "0f5891f3cc63e840a70a2bce:radar": {
         "symbol": "RUNEUSDT",
@@ -1526370,9 +1526396,9 @@
     "errors": [],
     "queue": {
       "due": 177,
-      "attempted": 2,
-      "observed_ms": 1793612158591,
-      "unique_reads": 3
+      "attempted": 1,
+      "observed_ms": 1793612457928,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
@@ -1541598,7 +1541624,7 @@
       "queue": {
         "due": 0,
         "attempted": 0,
-        "observed_ms": 1793611561583,
+        "observed_ms": 1793612458456,
         "unique_reads": 0
       },
       "summary": {
@@ -1552381,8 +1552407,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "903a6751a3bdff20a75f830a225059e021318249",
-    "previous_success_ms": 1793612448874,
+    "previous_commit": "9d565019da85ed50eec057a6c09976af75b81620",
+    "previous_success_ms": 1793612457888,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
