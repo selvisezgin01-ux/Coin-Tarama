@@ -212,11 +212,11 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793565512603,
-        "feature_cutoff_ms": 1793563200000,
+        "observed_ms": 1793581274758,
+        "feature_cutoff_ms": 1793577600000,
         "universe_count": 462,
-        "prefilter_count": 117,
-        "analyzed_count": 115,
+        "prefilter_count": 110,
+        "analyzed_count": 109,
         "candidates": []
       }
     },
@@ -404,17 +404,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793565606895,
-        "feature_cutoff_ms": 1793563200000,
+        "observed_ms": 1793581369004,
+        "feature_cutoff_ms": 1793577600000,
         "universe_count": 1225,
-        "prefilter_count": 414,
-        "analyzed_count": 402,
+        "prefilter_count": 407,
+        "analyzed_count": 393,
         "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793565606991,
+  "updated_ms": 1793581369098,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12218,6 +12218,17 @@
             "control_excess_pct_points": 4.462034346043109,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793581129304,
+            "endpoint_ms": 1793581140000,
+            "endpoint_delay_ms": 10696,
+            "endpoint_price": 0.1107,
+            "return_pct": -1.1695384340683845,
+            "btc_excess_pct_points": -1.946922498952952,
+            "control_excess_pct_points": 0.8176214558735406,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12669,7 +12680,19 @@
             "price": 6.998e-05
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793580611768,
+            "endpoint_ms": 1793580660000,
+            "endpoint_delay_ms": 48232,
+            "endpoint_price": 6.801e-05,
+            "return_pct": -2.815090025721645,
+            "btc_excess_pct_points": -3.235027455622408,
+            "control_excess_pct_points": -0.7248094238509584,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:MOVRUSDT": {
         "symbol": "MOVRUSDT",
@@ -12705,6 +12728,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793565606991
+    "asof_ms": 1793581369098
   }
 }

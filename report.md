@@ -2,9 +2,9 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 462, ön eleme 117, incelenen 115, aday 0. Gözlem 01.11.2026 23:38 TR; mum kesimi 01.11.2026 23:00 TR.
+OKX: evren 462, ön eleme 110, incelenen 109, aday 0. Gözlem 02.11.2026 04:01 TR; mum kesimi 02.11.2026 03:00 TR.
 
-MEXC: evren 1225, ön eleme 414, incelenen 402, aday 0. Gözlem 01.11.2026 23:40 TR; mum kesimi 01.11.2026 23:00 TR.
+MEXC: evren 1225, ön eleme 407, incelenen 393, aday 0. Gözlem 02.11.2026 04:02 TR; mum kesimi 02.11.2026 03:00 TR.
 
 ## Bu döngüde yeni gelenler
 
@@ -28,9 +28,9 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | MEXC | 12s | 87/88 | -1.04 | -1.04 | -0.51 | 87 |
 | MEXC | 24s | 86/88 | -2.25 | -1.29 | -1.14 | 86 |
 | MEXC | 48s | 84/88 | -4.83 | -2.08 | -0.89 | 84 |
-| OKX | 12s | 100/101 | -0.28 | -0.23 | 0.19 | 100 |
+| OKX | 12s | 101/101 | -0.35 | -0.24 | 0.13 | 101 |
 | OKX | 24s | 99/101 | -0.77 | -0.51 | 0.04 | 99 |
-| OKX | 48s | 94/101 | -1.45 | -0.39 | 1.24 | 94 |
+| OKX | 48s | 95/101 | -1.42 | -0.51 | 1.24 | 95 |
 
 | Coin | Borsa | İlk grup | Gerçek gözlem TR | Referans fiyat | 12s % | 24s % | 48s % |
 |---|---|---|---|---:|---:|---:|---:|
@@ -146,7 +146,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | FETUSDT | OKX | Yeni kırılım | 28.10.2026 23:44 | 0.18445 | -3.61 | -9.57 | -10.22 |
 | FLOKIUSDT | OKX | Yeni kırılım | 28.10.2026 07:47 | 2.37e-05 | -0.72 | -0.97 | -1.48 |
 | GASUSDT | OKX | Yeni kırılım | 29.10.2026 19:56 | 1.2239 | -8.03 | -5.56 | -0.56 |
-| GLMUSDT | OKX | Yeni kırılım | 31.10.2026 03:58 | 0.11201 | 3.19 | 3.12 | — |
+| GLMUSDT | OKX | Yeni kırılım | 31.10.2026 03:58 | 0.11201 | 3.19 | 3.12 | -1.17 |
 | GRASSUSDT | OKX | Yeni kırılım | 27.10.2026 23:40 | 0.73955 | -1.40 | -6.70 | -17.56 |
 | HYPEUSDT | OKX | Yeni kırılım | 27.10.2026 23:40 | 81.0605 | 0.69 | -0.38 | 13.25 |
 | ILVUSDT | OKX | Yeni kırılım | 31.10.2026 19:39 | 3.1895 | -3.56 | -5.69 | — |
@@ -178,7 +178,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | TRUMPUSDT | OKX | Yeni kırılım | 28.10.2026 23:44 | 1.7275 | -3.50 | -9.18 | -9.52 |
 | UNIUSDT | OKX | Yeni kırılım | 29.10.2026 19:56 | 7.3765 | -7.82 | -5.42 | -4.77 |
 | WETUSDT | OKX | Yeni kırılım | 28.10.2026 23:44 | 0.052755 | 0.45 | -3.90 | -1.77 |
-| WINUSDT | OKX | Yeni kırılım | 01.11.2026 15:50 | 6.998e-05 | — | — | — |
+| WINUSDT | OKX | Yeni kırılım | 01.11.2026 15:50 | 6.998e-05 | -2.82 | — | — |
 | WOOUSDT | OKX | Yeni kırılım | 31.10.2026 11:45 | 0.011425 | 0.92 | 0.92 | — |
 | WUSDT | OKX | Yeni kırılım | 27.10.2026 19:50 | 0.0127675 | 0.63 | -0.64 | -2.28 |
 | XAAOIUSDT | OKX | Yeni kırılım | 27.10.2026 03:45 | 73.855 | -0.35 | 4.03 | 10.46 |
