@@ -1463910,8 +1463910,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9ebe296e74f38ef4f2539e1d4b6a2eab620a2e1a",
-    "previous_success_ms": 1793588451982,
+    "previous_commit": "8c78a2317eb22eb99ed74c7f9214ca87b48379ef",
+    "previous_success_ms": 1793588728272,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
