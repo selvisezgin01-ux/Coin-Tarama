@@ -365,13 +365,13 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 7628 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 7623 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | TOKEN `0x467e49a5cd2f73f463628e2016ab658e4979089d` | bnb | 02.11.2026 19:40 | 60398.0 | Bekliyor |
+| 🟡 ERKEN RADAR | TOKEN `0x467e49a5cd2f73f463628e2016ab658e4979089d` | bnb | 02.11.2026 19:40 | 60398.0 | Bayat/iptal — gönderilmedi |
 | 🟡 ERKEN RADAR | Jesus `0xfab3866ce309107db8858d4e0838741aedba86c0` | robinhood | 02.11.2026 19:38 | 87713.0 | [Issue #1527](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1527) |
 | 🟡 ERKEN RADAR | Amazon `AHvXNgV7iWK6xyN7pQtw8Ky99NL48ntSeCetBTzqpump` | solana | 02.11.2026 19:36 | 167634.0 | [Issue #1526](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1526) |
 | 🟡 ERKEN RADAR | TOKEN `0xe32e24a3b771897b604c91d155b1ebc20f77c453` | bnb | 02.11.2026 19:35 | 72982.0 | [Issue #1525](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1525) |
@@ -785,7 +785,6 @@ Kimlik defteri: 7628 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0x2da56fba7d1c881092675653bf9da67ed1825379` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0x2dcc23d54ad00623f31b67f3c2fdacac7d27ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2dd465d29aa8066662f0771bad7ac9c8031dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0x2e1e82b98dcc31ff516309790ba535f9f45e2c2d` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0x2e2359ee27bf5d7b90abee29d8f50a0ebdc94444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2e4d3f3b611deb672734bd4d147566afe36b6666` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0x2e542dccc55764db179e1e435c2e6bbdbd95a95d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1128,7 +1127,6 @@ Kimlik defteri: 7628 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xac771ad329c47414d02ae315d6020834853777c9` | market_rejected_or_unknown | liquidity, liquidity_usd, market_cap_usd |
 | `bnb:0xacd0bd5c97bf8e874c8d5f1f97848097543a7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xad04b2f2b47252be761c46020d19de92ea4cbbbb` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xad089441fc2a0fe46d92128d39193141ece37777` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0xad094274951f329c68ba9dea8a97b5fbda61f415` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xad0e91e0b4d5a879ea6994fba0527683c66290b8` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xad7003bb8aceeb69a9ce84ee61987608b054ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1171,7 +1169,6 @@ Kimlik defteri: 7628 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xc16d908049b9154f0e943e40978396e1b165ffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc17f546c0849ce6f205437236012f2750ca27777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc19a8091b09d35990684fda3853bf1e20dba7777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xc225ca2f6a0b4d1ce9c833c24cc04b42008d1523` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0xc2473caedb4002e4d21352ab8d5a549a4ea28763` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc2717c4dcffe1dd8bb5822f96773a799d8eca01f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xc28549c65fd741375232cc17414e3cf16d72ffff` | quote_unknown | no_exact_token_pool_quote |
@@ -2070,7 +2067,6 @@ Kimlik defteri: 7628 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x9978d2cabae076f8bc5f07aa2c956e03d4f01c12` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x99bd82a9db5dc28b653c9afe5caca1626be0fd9d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9a2fb0ae1813b746376a28797db6b33239db4f69` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x9a347b71f0408eb5fec2b88e67f3f32073d67aa0` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x9a9f31d9e7255e13296223a7c25ad2b4b6f31871` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9abde40bb54f5a87cc1dde83bfb03060f2718845` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x9acb17ea10df73ece72cb64581b479e32551eab3` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2179,7 +2175,6 @@ Kimlik defteri: 7628 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xb0682a385d5b96c52c2e73b035ce4f372e64ebe0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb084f7666ea8782c9137ec0ca85c8112576a0087` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0xb0908913e82138341ecc6de983b72366b30546ea` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xb10f54fcba1192c5b90b0e47e40077facaeb0a85` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0xb11ed7dc28ecb6a33803fdf014fa31ce50627ec0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb1a4fbf9a1ac8f26477ba6b5c7bb2c1aac8987a7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xb1c902dba62402b9977e37046281c57c766a0e82` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
