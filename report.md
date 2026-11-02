@@ -94,8 +94,8 @@ Kimlik defteri: 8610 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | JIMMY `0x3bcfbbed870329a9a9d93e8e2aa1f170b274402c` | robinhood | 02.11.2026 20:44 | 82270.0 | Bekliyor |
-| 🟡 ERKEN RADAR | Slingoor `7LzPdsBxMoR9FrjgizvxNRvDtjGSP423quJ4M7Jqpump` | solana | 02.11.2026 20:44 | 171485.0 | Bekliyor |
+| 🟡 ERKEN RADAR | JIMMY `0x3bcfbbed870329a9a9d93e8e2aa1f170b274402c` | robinhood | 02.11.2026 20:44 | 82270.0 | [Issue #1540](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1540) |
+| 🟡 ERKEN RADAR | Slingoor `7LzPdsBxMoR9FrjgizvxNRvDtjGSP423quJ4M7Jqpump` | solana | 02.11.2026 20:44 | 171485.0 | [Issue #1539](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1539) |
 | 🟡 ERKEN RADAR | CZ `0x8fef738d4a5c4cdc312cf53f949fb57e8a557777` | bnb | 02.11.2026 20:42 | 81812.0 | [Issue #1538](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1538) |
 | 🟡 ERKEN RADAR | Miltanks `0xdb2dd1bd17f7df5234596a69ec7ef783b187add2` | robinhood | 02.11.2026 20:32 | 56887.0 | [Issue #1536](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1536) |
 | 🟡 ERKEN RADAR | ROBINHOOD `0x6de46ba40535bfbc56403bba7a8291d28855f305` | robinhood | 02.11.2026 20:32 | 90920.0 | [Issue #1537](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1537) |
