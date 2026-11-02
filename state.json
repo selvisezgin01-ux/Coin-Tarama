@@ -1423393,114 +1423393,7 @@
       "source_close_ms": 1793608200000
     }
   },
-  "pending": [
-    {
-      "id": "6b1d4f856c9e18c0d8ac2299",
-      "asset_id": "b78015adb3fce0f8642dcc61",
-      "key": "MEXC:PERP:GPSUSDT",
-      "symbol": "GPSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793609739733,
-      "price": 0.0080765,
-      "level": 0.008067,
-      "invalid": 0.007880825030948573,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.008067,
-        "base_invalid": 0.007880825030948573,
-        "atr": 5.449979367617819e-05,
-        "rvol": 4.06392160563876,
-        "close_position": 0.6422018348623767,
-        "breakout": false,
-        "bar_close_ms": 1793609100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.9883485309017068,
-        "score": 5.206123440501137
-      },
-      "context": {
-        "atr": 5.449979367617819e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4310165717312584,
-        "btc_hour_pct": -0.06565626831784854,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GPSUSDT",
-          "change_pct": 5.009177693451017,
-          "old_ms": 1793606280654,
-          "current_ms": 1793609736720,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793609100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GPSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0c7f108287e7d3d0bd9cf23f",
-      "asset_id": "2ac46697efb03c3e991144b2",
-      "key": "OKX:PERP:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793609739853,
-      "price": 4.8752500000000005e-06,
-      "level": 4.8574e-06,
-      "invalid": 4.757050084723487e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.8574e-06,
-        "base_invalid": 4.757050084723487e-06,
-        "atr": 4.299943517675635e-08,
-        "rvol": 2.8339950130683658,
-        "close_position": 0.7262247838616802,
-        "breakout": true,
-        "bar_close_ms": 1793609100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8106893106893063,
-        "score": 4.5602197969300455
-      },
-      "context": {
-        "atr": 4.299943517675635e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.28715505311941447,
-        "btc_hour_pct": -0.06681625657442014,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793609100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1433093,6 +1432986,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793608406866
+    },
+    {
+      "id": "6b1d4f856c9e18c0d8ac2299",
+      "asset_id": "b78015adb3fce0f8642dcc61",
+      "key": "MEXC:PERP:GPSUSDT",
+      "symbol": "GPSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793609739733,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793609751015
+    },
+    {
+      "id": "0c7f108287e7d3d0bd9cf23f",
+      "asset_id": "2ac46697efb03c3e991144b2",
+      "key": "OKX:PERP:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793609739853,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793609751015
     }
   ],
   "runs": [
@@ -1515054,7 +1514969,8 @@
         "entry_seq": 0,
         "cohort": "GPSUSDT",
         "observation_lag_ms": 639733,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11282
       },
       "2ac46697efb03c3e991144b2:radar": {
         "symbol": "PEPEUSDT",
@@ -1515076,7 +1514992,8 @@
         "entry_seq": 0,
         "cohort": "PEPEUSDT",
         "observation_lag_ms": 639853,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11162
       }
     },
     "errors": [],
@@ -1541099,8 +1541016,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4deeb6bdc9669321bc7dfbb4b9765ca71aaddb66",
-    "previous_success_ms": 1793609730385,
+    "previous_commit": "ec7bfb1e55f8c25e415516ee50d098cd65af88e6",
+    "previous_success_ms": 1793609750114,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
