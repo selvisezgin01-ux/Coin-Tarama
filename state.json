@@ -1290057,210 +1290057,7 @@
       "source_close_ms": 1793579400000
     }
   },
-  "pending": [
-    {
-      "id": "49863747a4fdbc731b1bb927",
-      "asset_id": "d73e9c609aa2eacb89783b91",
-      "key": "MEXC:SPOT:ZBCNUSDT",
-      "symbol": "ZBCNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793581343829,
-      "price": 0.00209,
-      "level": 0.0020842,
-      "invalid": 0.0020566707809459876,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0020842,
-        "base_invalid": 0.0020566707809459876,
-        "atr": 1.8861460360082643e-05,
-        "rvol": 3.7092441963233886,
-        "close_position": 0.8547717842323638,
-        "breakout": true,
-        "bar_close_ms": 1793574900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8717849918119747,
-        "score": 5.5640159805557525
-      },
-      "context": {
-        "atr": 1.6544987543212356e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.03182710936596722,
-        "btc_hour_pct": -0.2753219768761195,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZBCNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZBCNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8de0ac5b0e4a757a4fb73e72",
-      "asset_id": "e2328ecda614836ca659b01c",
-      "key": "OKX:SPOT:FLRUSDT",
-      "symbol": "FLRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793581343283,
-      "price": 0.0060835,
-      "level": 0.006079,
-      "invalid": 0.006040847876453273,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006079,
-        "base_invalid": 0.006040847876453273,
-        "atr": 1.4347490311512462e-05,
-        "rvol": 19.20648028411029,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793576700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9260790474615366,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 1.753317292205988e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.2588672292235805,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793576700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "897cf77b72056bdb1db92a21",
-      "asset_id": "7b4aab3b61676a89746a8de1",
-      "key": "OKX:SPOT:WINUSDT",
-      "symbol": "WINUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793581343283,
-      "price": 6.7935e-05,
-      "level": 6.774e-05,
-      "invalid": 6.68538538242379e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 6.774e-05,
-        "base_invalid": 6.68538538242379e-05,
-        "atr": 3.0764117174729506e-07,
-        "rvol": 11.783116804159775,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793578500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.088252832438874,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 2.7305579747836835e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5155668844097128,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793578500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "41167076e305023b4f57ff61",
-      "asset_id": "9b81ed7c7f53017389822091",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793581343283,
-      "price": 0.08149999999999999,
-      "level": 0.08173,
-      "invalid": 0.08072707866257345,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08173,
-        "base_invalid": 0.08072707866257345,
-        "atr": 0.00028614224951027233,
-        "rvol": 9.206956083783044,
-        "close_position": 0.7358490566037726,
-        "breakout": false,
-        "bar_close_ms": 1793581200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.19634310958400736,
-        "score": 7.235849056603772
-      },
-      "context": {
-        "atr": 0.00028614224951027233,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06826422360041162,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793581200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1298775,6 +1298572,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793580451153
+    },
+    {
+      "id": "8de0ac5b0e4a757a4fb73e72",
+      "asset_id": "e2328ecda614836ca659b01c",
+      "key": "OKX:SPOT:FLRUSDT",
+      "symbol": "FLRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793581343283,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793581352694
+    },
+    {
+      "id": "897cf77b72056bdb1db92a21",
+      "asset_id": "7b4aab3b61676a89746a8de1",
+      "key": "OKX:SPOT:WINUSDT",
+      "symbol": "WINUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793581343283,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793581352695
+    },
+    {
+      "id": "41167076e305023b4f57ff61",
+      "asset_id": "9b81ed7c7f53017389822091",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "radar",
+      "observed_ms": 1793581343283,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793581352695
     }
   ],
   "runs": [
@@ -1370630,7 +1370460,8 @@
         "entry_seq": 0,
         "cohort": "AUSDT",
         "observation_lag_ms": 143283,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9412
       }
     },
     "errors": [],
@@ -1396657,8 +1396488,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "aebf03b9fac891b0995072a28072388426b4fb66",
-    "previous_success_ms": 1793581062293,
+    "previous_commit": "4a6bf914f604b3bb5e2424771f039c5bd64aa47b",
+    "previous_success_ms": 1793581351627,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
