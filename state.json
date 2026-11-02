@@ -1480214,62 +1480214,7 @@
       "source_close_ms": 1793651400000
     }
   },
-  "pending": [
-    {
-      "id": "374ba166e01f984246317bcc",
-      "asset_id": "e3c8ec6406ca71ac7793e68d",
-      "key": "MEXC:PERP:ICNTUSDT",
-      "symbol": "ICNTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793652289417,
-      "price": 0.18525,
-      "level": 0.168,
-      "invalid": 0.16369518065715272,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.168,
-        "base_invalid": 0.16369518065715272,
-        "atr": 0.0013654622856485602,
-        "rvol": 2.227104216426499,
-        "close_position": 0.733333333333326,
-        "breakout": false,
-        "bar_close_ms": 1793629800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.29994001199760145,
-        "score": 3.460437549759825
-      },
-      "context": {
-        "atr": 0.0036037283458640107,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 7.668710028471337,
-        "btc_hour_pct": 0.09143106500308917,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ICNTUSDT",
-          "change_pct": 38.66569677628775,
-          "old_ms": 1793648554383,
-          "current_ms": 1793652287287,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793629800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ICNTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1491292,6 +1491237,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793651704443
+    },
+    {
+      "id": "374ba166e01f984246317bcc",
+      "asset_id": "e3c8ec6406ca71ac7793e68d",
+      "key": "MEXC:PERP:ICNTUSDT",
+      "symbol": "ICNTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793652289417,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793652299977
     }
   ],
   "runs": [
@@ -1614219,8 +1614175,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4f6cb85a686eaf14cc1b09097726ba2c033edbe4",
-    "previous_success_ms": 1793652017162,
+    "previous_commit": "7c476c53092b3b458eedf36a6abb6009091311a3",
+    "previous_success_ms": 1793652298528,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
