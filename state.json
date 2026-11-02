@@ -1223743,112 +1223743,7 @@
       "source_close_ms": 1793624400000
     }
   },
-  "pending": [
-    {
-      "id": "7a9948af381ef7c1fb014865",
-      "asset_id": "1bf7f2c3b53ddca6faed4955",
-      "key": "OKX:PERP:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793625366039,
-      "price": 0.019735000000000003,
-      "level": 0.01951,
-      "invalid": 0.019045519159614815,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01951,
-        "base_invalid": 0.019045519159614815,
-        "atr": 0.00016320560256791075,
-        "rvol": 2.8365576181589223,
-        "close_position": 0.7187500000000013,
-        "breakout": true,
-        "bar_close_ms": 1793623500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7616580310880758,
-        "score": 4.555307618158924
-      },
-      "context": {
-        "atr": 0.0001759241634598538,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5599777012389127,
-        "btc_hour_pct": -0.11444336979852254,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793623500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "39d1f7e382afcd12bde5f18f",
-      "asset_id": "8d0ea9d83c48816af06e71ee",
-      "key": "OKX:PERP:ZKPUSDT",
-      "symbol": "ZKPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793625366039,
-      "price": 0.040325,
-      "level": 0.04049,
-      "invalid": 0.03968743037292646,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04049,
-        "base_invalid": 0.03968743037292646,
-        "atr": 0.0002837975138235857,
-        "rvol": 3.916941896154246,
-        "close_position": 0.9523809523809548,
-        "breakout": false,
-        "bar_close_ms": 1793625300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6733167082294322,
-        "score": 5.369322848535201
-      },
-      "context": {
-        "atr": 0.0002837975138235857,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.18948088855789136,
-        "btc_hour_pct": -0.11444336979852254,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZKPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793625300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZKPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1233958,6 +1233853,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793624771966
+    },
+    {
+      "id": "7a9948af381ef7c1fb014865",
+      "asset_id": "1bf7f2c3b53ddca6faed4955",
+      "key": "OKX:PERP:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793625366039,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793625377386
+    },
+    {
+      "id": "39d1f7e382afcd12bde5f18f",
+      "asset_id": "8d0ea9d83c48816af06e71ee",
+      "key": "OKX:PERP:ZKPUSDT",
+      "symbol": "ZKPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793625366039,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793625377386
     }
   ],
   "runs": [
@@ -1321470,7 +1321387,8 @@
         "entry_seq": 0,
         "cohort": "ZKPUSDT",
         "observation_lag_ms": 66039,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11347
       }
     },
     "errors": [],
@@ -1347500,8 +1347418,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ab16ad71ed99acdf5ff197641c20e3306d6b0d86",
-    "previous_success_ms": 1793625085479,
+    "previous_commit": "0c65e49a588890dad4c27aa036d0aacd6ed356a0",
+    "previous_success_ms": 1793625375732,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
