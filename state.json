@@ -1396326,7 +1396326,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793631503467,
+      "duration_ms": 34962
     }
   ],
   "radar_admissions": [
@@ -1432441,6 +1432443,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793590301886,
+            "endpoint_ms": 1793590320000,
+            "endpoint_price": 0.2425,
+            "return_pct": 0.5806719203649946,
+            "btc_excess_pct_points": -0.5207517834253883,
+            "mae_pct": -2.8618830360846115,
+            "mfe_pct": 2.820406470344272,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 18114,
+            "measured_ms": 1793631497328,
+            "cost_scenarios_pct": {
+              "0.2": 0.3806719203649946,
+              "0.5": 0.0806719203649946,
+              "1": -0.4193280796350054
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793503800000,
@@ -1432449,7 +1432473,7 @@
         "cohort": "PONSUSDT",
         "observation_lag_ms": 101886,
         "interpretation": "early radar reference, not a trade entry",
-        "last_measure_attempt_ms": 1793568546066
+        "last_measure_attempt_ms": 1793631497328
       },
       "39cc34a61a928d801d3e3984:radar": {
         "symbol": "PONSUSDT",
@@ -1447845,14 +1447869,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793631065132,
+            "endpoint_ms": 1793631120000,
+            "endpoint_price": 0.0004233,
+            "return_pct": 6.47717268268142,
+            "btc_excess_pct_points": 6.816318322938264,
+            "mae_pct": -2.854986794113945,
+            "mfe_pct": 7.131178468117216,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 54868,
+            "measured_ms": 1793631497328,
+            "cost_scenarios_pct": {
+              "0.2": 6.27717268268142,
+              "0.5": 5.97717268268142,
+              "1": 5.47717268268142
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793627100000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "HOTUSDT",
         "observation_lag_ms": 365132,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 12543
+        "notification_lag_ms": 12543,
+        "last_measure_attempt_ms": 1793631497328
       },
       "92ee12ed266b0d465aa67b88:radar": {
         "symbol": "LATUSDT",
@@ -1448018,9 +1448066,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 173,
+      "due": 171,
       "attempted": 2,
-      "observed_ms": 1793631198226,
+      "observed_ms": 1793631497328,
       "unique_reads": 4
     },
     "summary": {
@@ -1448046,8 +1448094,8 @@
                 "median_reference_return_pct": -0.4052584758327704
               },
               "24": {
-                "known_first_symbols": 96,
-                "median_reference_return_pct": -0.5335586973690076
+                "known_first_symbols": 97,
+                "median_reference_return_pct": -0.529260547406607
               }
             }
           },
@@ -1474033,8 +1474081,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3f4354ccda9e6b2953e84dae0ef18c43c226588a",
-    "previous_success_ms": 1793631487358,
+    "previous_commit": "37436ab5d577621a3154cb3e2126f73303378f0a",
+    "previous_success_ms": 1793631497290,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
