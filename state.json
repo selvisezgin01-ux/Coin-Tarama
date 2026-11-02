@@ -1340184,112 +1340184,7 @@
       "source_close_ms": 1793584800000
     }
   },
-  "pending": [
-    {
-      "id": "64052473101ccee3d9ceab38",
-      "asset_id": "2668a9543394671f7b69f994",
-      "key": "OKX:PERP:SIGNUSDT",
-      "symbol": "SIGNUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793584824610,
-      "price": 0.0103125,
-      "level": 0.010307,
-      "invalid": 0.010205454154953919,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.010307,
-        "base_invalid": 0.010205454154953919,
-        "atr": 3.0305633640543476e-05,
-        "rvol": 5.087647589042876,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793565900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6943086250733366,
-        "score": 6.587647589042876
-      },
-      "context": {
-        "atr": 4.511284091880486e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09926098624886137,
-        "btc_hour_pct": 0.35200717075356547,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SIGNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793565900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SIGNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ea1742984fbaf49a409c48ee",
-      "asset_id": "34c9393d4fb3860de51a6d3e",
-      "key": "OKX:SPOT:BICOUSDT",
-      "symbol": "BICOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793584823940,
-      "price": 0.015675,
-      "level": 0.01576,
-      "invalid": 0.015590025447039071,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01576,
-        "base_invalid": 0.015590025447039071,
-        "atr": 6.649701973952536e-05,
-        "rvol": 6.085681275565252,
-        "close_position": 0.7142857142857284,
-        "breakout": true,
-        "bar_close_ms": 1793583000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1501597444089517,
-        "score": 7.714285714285729
-      },
-      "context": {
-        "atr": 6.99205820490308e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1636820963321739,
-        "btc_hour_pct": 0.3491384164883371,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BICOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793583000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BICOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1348958,6 +1348853,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793584229999
+    },
+    {
+      "id": "64052473101ccee3d9ceab38",
+      "asset_id": "2668a9543394671f7b69f994",
+      "key": "OKX:PERP:SIGNUSDT",
+      "symbol": "SIGNUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793584824610,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793584834729
+    },
+    {
+      "id": "ea1742984fbaf49a409c48ee",
+      "asset_id": "34c9393d4fb3860de51a6d3e",
+      "key": "OKX:SPOT:BICOUSDT",
+      "symbol": "BICOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793584823940,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793584834729
     }
   ],
   "runs": [
@@ -1448124,8 +1448041,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b3495ab7efea8be7b660cc56534f4d8de605ad6f",
-    "previous_success_ms": 1793584544656,
+    "previous_commit": "a8f0fd2bbc2d294afad79b62d7b7c7ca69e96819",
+    "previous_success_ms": 1793584833652,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
