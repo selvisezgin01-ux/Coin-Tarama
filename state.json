@@ -1330829,64 +1330829,7 @@
       "source_close_ms": 1793583000000
     }
   },
-  "pending": [
-    {
-      "id": "6f893b639eed2c890ad3bd8e",
-      "asset_id": "1c0f7ee5834b1dc4de5b0d5d",
-      "key": "MEXC:PERP:COWUSDT",
-      "symbol": "COWUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793583324341,
-      "price": 0.11335,
-      "level": 0.1147,
-      "invalid": 0.11126001167177037,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1147,
-        "base_invalid": 0.11126001167177037,
-        "atr": 0.0009332555215309019,
-        "rvol": 8.85631431121664,
-        "close_position": 0.7777777777777863,
-        "breakout": false,
-        "bar_close_ms": 1793583000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7123775601068694,
-        "score": 7.277777777777787
-      },
-      "context": {
-        "atr": 0.0009332555215309019,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.4088094427999187,
-        "btc_hour_pct": -0.26815437008622656,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:COWUSDT",
-          "change_pct": 7.533428880039006,
-          "old_ms": 1793579828131,
-          "current_ms": 1793583323214,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.2718,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793583000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1339489,6 +1339432,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793583035634
+    },
+    {
+      "id": "6f893b639eed2c890ad3bd8e",
+      "asset_id": "1c0f7ee5834b1dc4de5b0d5d",
+      "key": "MEXC:PERP:COWUSDT",
+      "symbol": "COWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793583324341,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793583334223
     }
   ],
   "runs": [
@@ -1411989,7 +1411943,8 @@
         "entry_seq": 0,
         "cohort": "COWUSDT",
         "observation_lag_ms": 324341,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9882
       }
     },
     "errors": [],
@@ -1438017,8 +1437972,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b565a12b328e742d164b29d64bc4e9cf6068a309",
-    "previous_success_ms": 1793583051533,
+    "previous_commit": "deafc004b2422dba3fd0bed1c3d6919e82e6986f",
+    "previous_success_ms": 1793583333001,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
