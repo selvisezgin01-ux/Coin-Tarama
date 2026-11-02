@@ -1432057,110 +1432057,7 @@
       "source_close_ms": 1793637000000
     }
   },
-  "pending": [
-    {
-      "id": "79f0c35bdf4da38947cedd7b",
-      "asset_id": "8e78c161cc185b3db4893911",
-      "key": "OKX:SPOT:DOSUSDT",
-      "symbol": "DOSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793637305169,
-      "price": 0.19879999999999998,
-      "level": 0.1995,
-      "invalid": 0.19623947347443493,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1995,
-        "base_invalid": 0.19623947347443493,
-        "atr": 0.0017368435037672498,
-        "rvol": 2.3532157812937915,
-        "close_position": 0.9285714285714265,
-        "breakout": true,
-        "bar_close_ms": 1793620800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0242914979757165,
-        "score": 4.281787209865218
-      },
-      "context": {
-        "atr": 0.0022084474534635095,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.30060786234082926,
-        "btc_hour_pct": -0.4461682699099634,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DOSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793620800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "511302107eaffbfcd0d67fe1",
-      "asset_id": "c9f4d9ead65006887bd8dfe2",
-      "key": "OKX:PERP:LAUSDT",
-      "symbol": "LAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793637305704,
-      "price": 0.060844999999999996,
-      "level": 0.06064,
-      "invalid": 0.05876618120642315,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06064,
-        "base_invalid": 0.05876618120642315,
-        "atr": 0.0005587919571790116,
-        "rvol": 3.114796756751698,
-        "close_position": 0.7031250000000074,
-        "breakout": true,
-        "bar_close_ms": 1793634300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.71580876228552,
-        "score": 4.817921756751705
-      },
-      "context": {
-        "atr": 0.0005665624001260107,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.7817574894113064,
-        "btc_hour_pct": -0.449534342034108,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793634300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1442765,6 +1442662,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793636295568
+    },
+    {
+      "id": "79f0c35bdf4da38947cedd7b",
+      "asset_id": "8e78c161cc185b3db4893911",
+      "key": "OKX:SPOT:DOSUSDT",
+      "symbol": "DOSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793637305169,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793637316827
+    },
+    {
+      "id": "511302107eaffbfcd0d67fe1",
+      "asset_id": "c9f4d9ead65006887bd8dfe2",
+      "key": "OKX:PERP:LAUSDT",
+      "symbol": "LAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793637305704,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793637316827
     }
   ],
   "runs": [
@@ -1560463,8 +1560382,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "29f7509192fd2cc7e8a09010a83d3d3dd6095996",
-    "previous_success_ms": 1793637035215,
+    "previous_commit": "86e352bbd6f293b6856a734acb352c1c0cdf3e76",
+    "previous_success_ms": 1793637315377,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
