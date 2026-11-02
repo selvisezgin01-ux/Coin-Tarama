@@ -1490054,64 +1490054,7 @@
       "source_close_ms": 1793655900000
     }
   },
-  "pending": [
-    {
-      "id": "8f2f618e62cbdd205d3eadba",
-      "asset_id": "68f1f3ec63ec313593555eaf",
-      "key": "MEXC:PERP:BOMEUSDT",
-      "symbol": "BOMEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793657264904,
-      "price": 0.0005904,
-      "level": 0.0005852,
-      "invalid": 0.0005704388276361739,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005852,
-        "base_invalid": 0.0005704388276361739,
-        "atr": 4.407815758839884e-06,
-        "rvol": 3.9737431866244286,
-        "close_position": 0.9189189189189324,
-        "breakout": true,
-        "bar_close_ms": 1793656800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0638224072146993,
-        "score": 5.892662105543361
-      },
-      "context": {
-        "atr": 4.407815758839884e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.9801919600002327,
-        "btc_hour_pct": 0.08363044721446666,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BOMEUSDT",
-          "change_pct": 3.9488992392198607,
-          "old_ms": 1793653779385,
-          "current_ms": 1793657260260,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793656800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BOMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1501299,6 +1501242,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793656207087
+    },
+    {
+      "id": "8f2f618e62cbdd205d3eadba",
+      "asset_id": "68f1f3ec63ec313593555eaf",
+      "key": "MEXC:PERP:BOMEUSDT",
+      "symbol": "BOMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793657264904,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793657275169
     }
   ],
   "runs": [
@@ -1600093,7 +1600047,8 @@
         "entry_seq": 0,
         "cohort": "BOMEUSDT",
         "observation_lag_ms": 464904,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10265
       }
     },
     "errors": [],
@@ -1626119,8 +1626074,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d56a6dffdd2319e6f1c6320d85c9374658da52ce",
-    "previous_success_ms": 1793657005468,
+    "previous_commit": "848d7b7d1176cb7329df2db79c580cde35d0be4b",
+    "previous_success_ms": 1793657274166,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
