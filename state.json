@@ -1233204,64 +1233204,7 @@
       "source_close_ms": 1793624400000
     }
   },
-  "pending": [
-    {
-      "id": "8c97ea1a860104756a537119",
-      "asset_id": "354eddd5ff2ecd3d9e587ff0",
-      "key": "MEXC:PERP:ALTUSDT",
-      "symbol": "ALTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793625964251,
-      "price": 0.0056845,
-      "level": 0.005648,
-      "invalid": 0.005590475224611365,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005648,
-        "base_invalid": 0.005590475224611365,
-        "atr": 3.0165169257564016e-05,
-        "rvol": 3.2644189004345168,
-        "close_position": 0.8928571428571572,
-        "breakout": true,
-        "bar_close_ms": 1793625300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.42575838211815764,
-        "score": 5.157276043291674
-      },
-      "context": {
-        "atr": 3.0165169257564016e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8006137779958289,
-        "btc_hour_pct": -0.10493058142073686,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ALTUSDT",
-          "change_pct": 2.2366545364580714,
-          "old_ms": 1793622432372,
-          "current_ms": 1793625959425,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0088,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793625300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1243404,6 +1243347,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793625672495
+    },
+    {
+      "id": "8c97ea1a860104756a537119",
+      "asset_id": "354eddd5ff2ecd3d9e587ff0",
+      "key": "MEXC:PERP:ALTUSDT",
+      "symbol": "ALTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793625964251,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793625973442
     }
   ],
   "runs": [
@@ -1331130,7 +1331084,8 @@
         "entry_seq": 0,
         "cohort": "ALTUSDT",
         "observation_lag_ms": 664251,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9191
       }
     },
     "errors": [],
@@ -1357157,8 +1357112,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "78933ce372a8d7e5c1b816f3d44af37ff9f99fe5",
-    "previous_success_ms": 1793625688157,
+    "previous_commit": "e1f0425a88b053cedaf6335d28df4b5a64d91338",
+    "previous_success_ms": 1793625972241,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
