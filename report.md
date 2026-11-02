@@ -365,7 +365,7 @@ MCAP 50–500bin USD; FDV yerine geçmez. İlk gerçek V7 uygunluk gözleminden 
 }
 
 Sürekli keşif toplayıcısı ayrı yerel süreçtir; bilgisayar uyursa/kapanırsa kesilir. Bayat/yok feed halinde sınırlı GitHub keşfi açıkça fallback sayılır. Tam zincir kapsamı veya kesintisiz1dk sözü yoktur.
-Kimlik defteri: 8066 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
+Kimlik defteri: 8062 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota nedeniyle bekleyen kimlikler sessizce silinmez.
 
 ## Bildirim evreleri
 
@@ -1132,7 +1132,6 @@ Kimlik defteri: 8066 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xa81868c90cf88a8e555fbbef6aabb70ba67a721c` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa8595ee760a4019c87b6e6caeea6123b88abffff` | quote_unknown | no_exact_token_pool_quote |
 | `bnb:0xa8f9d959504b70957658a8d7d7f7a2542604b21f` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xa8f9e03adf6f452415253a1ad8675c493c8c9008` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0xa974572bd5ebdb179d13fa8e865acb43366c2772` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa987ecd07f96728fb4af456372ca3ed9b1787777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xa9a940bf0d41da5441b66a9fc8491c11facfa825` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -1240,7 +1239,6 @@ Kimlik defteri: 8066 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `bnb:0xd03a8f471758712461757c79f0afec2d6d8dffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd06ef4bc420e804cc450767917569ca264c499f5` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k, liquidity_to_cap |
 | `bnb:0xd0bae2d23aaac5e93ba4f02568f4c4232a823199` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `bnb:0xd14a0e4ef68af734e83ecac8d7273e7e6c837777` | archived_age | pool_age_over_24h_identity_preserved |
 | `bnb:0xd1fd8853edc001dc49ae1b8665bf79dc32544444` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd2272a9f9585483c732b742d80e7999c69757777` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `bnb:0xd2a61d3558b9d021252f018fd333f3198fccffff` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2058,7 +2056,6 @@ Kimlik defteri: 8066 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0x915ff3855ef826a3b0c98d6b83ba915da9d635c5` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x917bfc54008c7bf50571d60579bee88bff57244e` | quote_unknown | no_exact_token_pool_quote |
 | `robinhood:0x91aecec661262f5347c69dc7b087c85ede9577d0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0x91d8e508a28ed7cc8ca002db720a43ca9aaa38b4` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0x91e4d82d9db491b92624ab6ef8a54028e2dd72f0` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x91ecaa7928ec333757abc055a2555022838124f1` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0x91f7176d04057be8479e737cd975ed7cde94ffac` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
@@ -2267,7 +2264,6 @@ Kimlik defteri: 8066 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kota
 | `robinhood:0xc4393ee2f405e783aea1f97dcbaa18f63c7d30d7` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc4b8d4bdcd81db4536fc89ea1b7621175dbaa254` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc4c01839fe5cc5fb96320985d7ac7b1beef4cd8b` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
-| `robinhood:0xc510d76b355b62850ce1b4d29d1a79469ee4a54a` | archived_age | pool_age_over_24h_identity_preserved |
 | `robinhood:0xc528fd425c40ccb54399a351ffa208ba47d2664d` | quote_budget_waiting | explicit_quote_queue_no_identity_eviction |
 | `robinhood:0xc534e535b09bcd8f26b163348817967d0440460f` | market_rejected_or_unknown | liquidity, market_cap_not_50k_500k |
 | `robinhood:0xc55bebeaca5516fa9a59a1378ac28a0be7284ad0` | archived_age | pool_age_over_24h_identity_preserved |
