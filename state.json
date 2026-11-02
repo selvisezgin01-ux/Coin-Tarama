@@ -1467170,58 +1467170,7 @@
       "source_close_ms": 1793648700000
     }
   },
-  "pending": [
-    {
-      "id": "4d771309539c8941a8840f88",
-      "asset_id": "06136a4461c3fec3d1b5f882",
-      "key": "MEXC:SPOT:BEATUSDT",
-      "symbol": "BEATUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793648868065,
-      "price": 0.10084,
-      "level": 0.10154,
-      "invalid": 0.09907493499740473,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10154,
-        "base_invalid": 0.09907493499740473,
-        "atr": 0.001167100017301829,
-        "rvol": 3.730266134132703,
-        "close_position": 0.9718875502008029,
-        "breakout": true,
-        "bar_close_ms": 1793643300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8315326130452076,
-        "score": 5.702153684333506
-      },
-      "context": {
-        "atr": 0.0012118526128172724,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.051917255373146176,
-        "btc_hour_pct": -0.17459446414626045,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BEATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793643300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BEATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1478178,6 +1478127,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793648277947
+    },
+    {
+      "id": "4d771309539c8941a8840f88",
+      "asset_id": "06136a4461c3fec3d1b5f882",
+      "key": "MEXC:SPOT:BEATUSDT",
+      "symbol": "BEATUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793648868065,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793648880930
     }
   ],
   "runs": [
@@ -1599865,8 +1599825,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e9eaca9e2949bb96f494201adf82b4f84b7027dd",
-    "previous_success_ms": 1793648600394,
+    "previous_commit": "cd0859114e19ad590d5793db5f9d2161711b9136",
+    "previous_success_ms": 1793648878824,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
