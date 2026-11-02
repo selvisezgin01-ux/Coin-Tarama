@@ -1408524,114 +1408524,7 @@
       "source_close_ms": 1793605500000
     }
   },
-  "pending": [
-    {
-      "id": "f0d1cc7a9299972b4e3e4fa6",
-      "asset_id": "5ba27818707731c70e6a7c04",
-      "key": "OKX:PERP:SOPHUSDT",
-      "symbol": "SOPHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793605992600,
-      "price": 0.001718,
-      "level": 0.001584,
-      "invalid": 0.0014873389459576132,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001584,
-        "base_invalid": 0.0014873389459576132,
-        "atr": 3.107369361591294e-05,
-        "rvol": 4.62448106250286,
-        "close_position": 0.9333333333333317,
-        "breakout": true,
-        "bar_close_ms": 1793583900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.3781291172595465,
-        "score": 6.557814395836192
-      },
-      "context": {
-        "atr": 6.0937599180764544e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.8085015436952503,
-        "btc_hour_pct": -0.27597334214950475,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SOPHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793583900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOPHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f63037dff8fe6e15a189b14d",
-      "asset_id": "3ce21365a99162d364cf07b9",
-      "key": "MEXC:PERP:PARTIUSDT",
-      "symbol": "PARTIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793605992282,
-      "price": 0.045145000000000005,
-      "level": 0.04478,
-      "invalid": 0.04370114430822693,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04478,
-        "base_invalid": 0.04370114430822693,
-        "atr": 0.000459037945153836,
-        "rvol": 2.561384544865416,
-        "close_position": 0.9476744186046513,
-        "breakout": true,
-        "bar_close_ms": 1793583900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3524089572494855,
-        "score": 4.509058963470067
-      },
-      "context": {
-        "atr": 0.0005511228221133307,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.040132611078547153,
-        "btc_hour_pct": -0.26270104671942685,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PARTIUSDT",
-          "change_pct": 2.852913989531536,
-          "old_ms": 1793602534104,
-          "current_ms": 1793605990167,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793583900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PARTIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1418103,6 +1417996,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793605707132
+    },
+    {
+      "id": "f0d1cc7a9299972b4e3e4fa6",
+      "asset_id": "5ba27818707731c70e6a7c04",
+      "key": "OKX:PERP:SOPHUSDT",
+      "symbol": "SOPHUSDT",
+      "phase": "expired",
+      "observed_ms": 1793605992600,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793606004496
+    },
+    {
+      "id": "f63037dff8fe6e15a189b14d",
+      "asset_id": "3ce21365a99162d364cf07b9",
+      "key": "MEXC:PERP:PARTIUSDT",
+      "symbol": "PARTIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793605992282,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793606004497
     }
   ],
   "runs": [
@@ -1524701,8 +1524616,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d2cbc49c06cb5d7e9c6372a7d4137ed8a31def04",
-    "previous_success_ms": 1793605729436,
+    "previous_commit": "69ed6ac341eda3964fc38eb25d09f29dcece9de8",
+    "previous_success_ms": 1793606003230,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
