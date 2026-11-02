@@ -1311700,110 +1311700,7 @@
       "source_close_ms": 1793579400000
     }
   },
-  "pending": [
-    {
-      "id": "61d0399ade7f5c9d61e25802",
-      "asset_id": "4c18113dcd92f3e1f5630627",
-      "key": "OKX:SPOT:ZBCNUSDT",
-      "symbol": "ZBCNUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793582245558,
-      "price": 0.00209365,
-      "level": 0.0020886,
-      "invalid": 0.002052595091250792,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0020886,
-        "base_invalid": 0.002052595091250792,
-        "atr": 2.4032724994720016e-05,
-        "rvol": 4.979761954728283,
-        "close_position": 0.7095435684647275,
-        "breakout": true,
-        "bar_close_ms": 1793574900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.48049202383240175,
-        "score": 6.689305523193011
-      },
-      "context": {
-        "atr": 2.048518066401734e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.17864744779759745,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZBCNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793574900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZBCNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1f865d7364f42c77f3bfdb66",
-      "asset_id": "5c52bfc99ee032eae19edd9e",
-      "key": "OKX:SPOT:OKSOLUSDT",
-      "symbol": "OKSOLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793582245558,
-      "price": 94.965,
-      "level": 94.82,
-      "invalid": 93.68908132868474,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 94.82,
-        "base_invalid": 93.68908132868474,
-        "atr": 0.33945780876837567,
-        "rvol": 7.144207518739522,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793582100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8803563852354701,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.33945780876837567,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.11594234969084516,
-        "btc_hour_pct": -0.264607333184419,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OKSOLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793582100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OKSOLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1320351,6 +1320248,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793581352695
+    },
+    {
+      "id": "61d0399ade7f5c9d61e25802",
+      "asset_id": "4c18113dcd92f3e1f5630627",
+      "key": "OKX:SPOT:ZBCNUSDT",
+      "symbol": "ZBCNUSDT",
+      "phase": "expired",
+      "observed_ms": 1793582245558,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793582256070
+    },
+    {
+      "id": "1f865d7364f42c77f3bfdb66",
+      "asset_id": "5c52bfc99ee032eae19edd9e",
+      "key": "OKX:SPOT:OKSOLUSDT",
+      "symbol": "OKSOLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793582245558,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793582256070
     }
   ],
   "runs": [
@@ -1392507,7 +1392426,8 @@
         "entry_seq": 0,
         "cohort": "OKSOLUSDT",
         "observation_lag_ms": 145558,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10512
       }
     },
     "errors": [],
@@ -1418558,8 +1418478,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b205fd010f90bfebf9bb8279fee5863255c1af54",
-    "previous_success_ms": 1793581963630,
+    "previous_commit": "610f80cdcfb8451cadf748b2f9a0b2d24d551ed7",
+    "previous_success_ms": 1793582254918,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
