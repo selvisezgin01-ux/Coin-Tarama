@@ -1491940,7 +1491940,9 @@
           "selected_for_candles": 30,
           "fresh_candidate_quotes": 1
         }
-      }
+      },
+      "finished_ms": 1793618268859,
+      "duration_ms": 33001
     }
   ],
   "radar_admissions": [
@@ -1540690,14 +1540692,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793618142218,
+            "endpoint_ms": 1793618160000,
+            "endpoint_price": 0.4969,
+            "return_pct": 0.8831590701451564,
+            "btc_excess_pct_points": 0.9232486398654038,
+            "mae_pct": -0.7816465333468581,
+            "mfe_pct": 2.0607044970053945,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 17782,
+            "measured_ms": 1793618267730,
+            "cost_scenarios_pct": {
+              "0.2": 0.6831590701451564,
+              "0.5": 0.3831590701451564,
+              "1": -0.11684092985484362
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793614500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "PROSUSDT",
         "observation_lag_ms": 42218,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13138
+        "notification_lag_ms": 13138,
+        "last_measure_attempt_ms": 1793618267730
       },
       "2089bb03f462e705da7f2d6b:radar": {
         "symbol": "PROSUSDT",
@@ -1540713,14 +1540739,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793618142544,
+            "endpoint_ms": 1793618160000,
+            "endpoint_price": 0.4988,
+            "return_pct": 1.1251900658895142,
+            "btc_excess_pct_points": 1.1680800425212023,
+            "mae_pct": -0.7602635580334582,
+            "mfe_pct": 2.1186011150532202,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 17456,
+            "measured_ms": 1793618267730,
+            "cost_scenarios_pct": {
+              "0.2": 0.9251900658895142,
+              "0.5": 0.6251900658895142,
+              "1": 0.1251900658895142
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793614500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "PROSUSDT",
         "observation_lag_ms": 42544,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 12812
+        "notification_lag_ms": 12812,
+        "last_measure_attempt_ms": 1793618267730
       },
       "57867bb3b0edf7aa54962455:radar": {
         "symbol": "PHAROSUSDT",
@@ -1540886,20 +1540936,20 @@
     },
     "errors": [],
     "queue": {
-      "due": 168,
-      "attempted": 1,
-      "observed_ms": 1793617961948,
-      "unique_reads": 3
+      "due": 173,
+      "attempted": 2,
+      "observed_ms": 1793618267730,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 493,
-        "unique_symbol_labels": 266,
+        "market_event_references": 495,
+        "unique_symbol_labels": 267,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 143,
-            "first_per_symbol": 127,
+            "event_references": 144,
+            "first_per_symbol": 128,
             "hours": {
               "1": {
                 "known_first_symbols": 126,
@@ -1540942,7 +1540992,7 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 108,
+            "event_references": 109,
             "first_per_symbol": 99,
             "hours": {
               "1": {
@@ -1566904,8 +1566954,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "16f48290c07f5c117530bc6b071c9510e4950536",
-    "previous_success_ms": 1793618258825,
+    "previous_commit": "41611464ab9ef475f46e06aca8763116e0339965",
+    "previous_success_ms": 1793618267703,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
