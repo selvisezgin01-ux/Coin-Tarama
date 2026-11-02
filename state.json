@@ -1322089,220 +1322089,7 @@
       "source_close_ms": 1793629800000
     }
   },
-  "pending": [
-    {
-      "id": "b43f609049a8c1aa4034a43c",
-      "asset_id": "bcca7f52345069706dcfeeb3",
-      "key": "MEXC:SPOT:ERAUSDT",
-      "symbol": "ERAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793629981111,
-      "price": 0.064605,
-      "level": 0.06394,
-      "invalid": 0.06212659537299674,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06394,
-        "base_invalid": 0.06212659537299674,
-        "atr": 0.0004893641800217335,
-        "rvol": 2.087771044178227,
-        "close_position": 0.6874999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793622600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8326787117046486,
-        "score": 3.7752710441782247
-      },
-      "context": {
-        "atr": 0.0005327617724291196,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.6892030282553483,
-        "btc_hour_pct": 0.17415100901174707,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ERAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793622600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ERAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "eebdbcb274c5c046059bd740",
-      "asset_id": "2babebe17cc98c29f917ee43",
-      "key": "MEXC:SPOT:DOSUSDT",
-      "symbol": "DOSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793629981111,
-      "price": 0.20554,
-      "level": 0.20312,
-      "invalid": 0.19645400051238718,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.20312,
-        "base_invalid": 0.19645400051238718,
-        "atr": 0.0015066632507520152,
-        "rvol": 2.287282797805356,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793624400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.245904894271832,
-        "score": 4.287282797805355
-      },
-      "context": {
-        "atr": 0.0015681819452150845,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2427240216299928,
-        "btc_hour_pct": 0.17415100901174707,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:DOSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793624400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3042a6a51ad8f5e67de6ac8f",
-      "asset_id": "8d0ea9d83c48816af06e71ee",
-      "key": "OKX:PERP:ZKPUSDT",
-      "symbol": "ZKPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793629981117,
-      "price": 0.040745,
-      "level": 0.04049,
-      "invalid": 0.03968743037292646,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04049,
-        "base_invalid": 0.03968743037292646,
-        "atr": 0.0002837975138235857,
-        "rvol": 3.916941896154246,
-        "close_position": 0.9523809523809548,
-        "breakout": false,
-        "bar_close_ms": 1793625300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6733167082294322,
-        "score": 5.369322848535201
-      },
-      "context": {
-        "atr": 0.00031517948081603863,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.9021695724385612,
-        "btc_hour_pct": 0.17231180721652972,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZKPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793625300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZKPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1ac83586b98bc793ab286206",
-      "asset_id": "64fa364074a039d1ea2b0d64",
-      "key": "MEXC:PERP:AGTUSDT",
-      "symbol": "AGTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793629982677,
-      "price": 0.03276,
-      "level": 0.03508,
-      "invalid": 0.02927473759480465,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03508,
-        "base_invalid": 0.02927473759480465,
-        "atr": 0.0010350827013023566,
-        "rvol": 8.2276879348882,
-        "close_position": 0.8482758620689669,
-        "breakout": false,
-        "bar_close_ms": 1793629800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -4.333630157316703,
-        "score": 7.3482758620689665
-      },
-      "context": {
-        "atr": 0.0010350827013023566,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2874791535816601,
-        "btc_hour_pct": 0.16109684710456929,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AGTUSDT",
-          "change_pct": 10.579131196394043,
-          "old_ms": 1793626250241,
-          "current_ms": 1793629980949,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0151,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793629800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AGTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1332566,6 +1332353,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793628978439
+    },
+    {
+      "id": "b43f609049a8c1aa4034a43c",
+      "asset_id": "bcca7f52345069706dcfeeb3",
+      "key": "MEXC:SPOT:ERAUSDT",
+      "symbol": "ERAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793629981111,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793629992192
+    },
+    {
+      "id": "3042a6a51ad8f5e67de6ac8f",
+      "asset_id": "8d0ea9d83c48816af06e71ee",
+      "key": "OKX:PERP:ZKPUSDT",
+      "symbol": "ZKPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793629981117,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793629992192
+    },
+    {
+      "id": "1ac83586b98bc793ab286206",
+      "asset_id": "64fa364074a039d1ea2b0d64",
+      "key": "MEXC:PERP:AGTUSDT",
+      "symbol": "AGTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793629982677,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793629992192
     }
   ],
   "runs": [
@@ -1421648,7 +1421468,8 @@
         "entry_seq": 0,
         "cohort": "AGTUSDT",
         "observation_lag_ms": 182677,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9515
       }
     },
     "errors": [],
@@ -1447671,8 +1447492,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5222be85366f0b8e50667383689bd8087b0647da",
-    "previous_success_ms": 1793629968470,
+    "previous_commit": "85db31de818e6f4a9925151c87f729c6f1133c03",
+    "previous_success_ms": 1793629991105,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
