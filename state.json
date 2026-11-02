@@ -1503609,58 +1503609,7 @@
       "source_close_ms": 1793661300000
     }
   },
-  "pending": [
-    {
-      "id": "e54af183f3c9c94b94a0a9b5",
-      "asset_id": "e06c801a67b20f8476644ad0",
-      "key": "MEXC:SPOT:GLMRUSDT",
-      "symbol": "GLMRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793662366842,
-      "price": 0.008262499999999999,
-      "level": 0.008195,
-      "invalid": 0.008077511937179543,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.008195,
-        "base_invalid": 0.008077511937179543,
-        "atr": 7.658708546972215e-05,
-        "rvol": 2.844625366898864,
-        "close_position": 0.7260273972602856,
-        "breakout": true,
-        "bar_close_ms": 1793662200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0189049840412467,
-        "score": 4.570652764159149
-      },
-      "context": {
-        "atr": 7.658708546972215e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.14966853022410076,
-        "btc_hour_pct": 0.12513768268331837,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GLMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793662200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1515002,6 +1514951,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793661776731
+    },
+    {
+      "id": "e54af183f3c9c94b94a0a9b5",
+      "asset_id": "e06c801a67b20f8476644ad0",
+      "key": "MEXC:SPOT:GLMRUSDT",
+      "symbol": "GLMRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793662366842,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793662379808
     }
   ],
   "runs": [
@@ -1615649,7 +1615609,8 @@
         "entry_seq": 0,
         "cohort": "GLMRUSDT",
         "observation_lag_ms": 166842,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12966
       }
     },
     "errors": [],
@@ -1641673,8 +1641634,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e9393a71f542537dca6ad87539bc0ca58f57cc29",
-    "previous_success_ms": 1793662091499,
+    "previous_commit": "4ba88f2823cbf7ef03421a3dbbe92be7db91455a",
+    "previous_success_ms": 1793662378880,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
