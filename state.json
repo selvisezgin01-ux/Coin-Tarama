@@ -1278698,216 +1278698,7 @@
       "source_close_ms": 1793579400000
     }
   },
-  "pending": [
-    {
-      "id": "98cccf35c41e9bd265acce05",
-      "asset_id": "8cecbfc80d32ccd8f4f9ad14",
-      "key": "OKX:PERP:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793580443062,
-      "price": 0.12725,
-      "level": 0.1275,
-      "invalid": 0.1216872813749453,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1275,
-        "base_invalid": 0.1216872813749453,
-        "atr": 0.0020847908336979566,
-        "rvol": 5.844101640496306,
-        "close_position": 0.7090909090909103,
-        "breakout": false,
-        "bar_close_ms": 1793580300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8702531645569556,
-        "score": 7.053192549587216
-      },
-      "context": {
-        "atr": 0.0020847908336979566,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.2522698848738356,
-        "btc_hour_pct": 0.6708070382031028,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AXISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e1b5206a00ac5cd5e56c963a",
-      "asset_id": "4fd5d88b152ebb9e019651fd",
-      "key": "OKX:PERP:TRUMPUSDT",
-      "symbol": "TRUMPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793580443062,
-      "price": 1.7365,
-      "level": 1.733,
-      "invalid": 1.6695872504104488,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.733,
-        "base_invalid": 1.6695872504104488,
-        "atr": 0.02275166393034194,
-        "rvol": 4.178720356053942,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793580300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8086347724620921,
-        "score": 6.178720356053942
-      },
-      "context": {
-        "atr": 0.02275166393034194,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.6708070382031028,
-        "btc_hour_pct": 0.6708070382031028,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c30e88b658ac6453fdf1c557",
-      "asset_id": "b4d55356650d2535158981ee",
-      "key": "MEXC:PERP:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793580440698,
-      "price": 0.1274,
-      "level": 0.1277,
-      "invalid": 0.12250964477877634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1277,
-        "base_invalid": 0.12250964477877634,
-        "atr": 0.001935701474824455,
-        "rvol": 4.158608502817075,
-        "close_position": 0.6800000000000023,
-        "breakout": false,
-        "bar_close_ms": 1793580300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6304176516942483,
-        "score": 5.3386085028170776
-      },
-      "context": {
-        "atr": 0.001935701474824455,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1673268867166797,
-        "btc_hour_pct": 0.669733816158713,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AXISUSDT",
-          "change_pct": 11.585438113911062,
-          "old_ms": 1793576827299,
-          "current_ms": 1793580437079,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.033100000000000004,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e0a69609ee5bef8d0c7f25ed",
-      "asset_id": "99afbe52ed8ec186f6bfca45",
-      "key": "MEXC:SPOT:TRUMPUSDT",
-      "symbol": "TRUMPUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793580441724,
-      "price": 1.7425000000000002,
-      "level": 1.735,
-      "invalid": 1.6716005074012485,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.735,
-        "base_invalid": 1.6716005074012485,
-        "atr": 0.022663283991676088,
-        "rvol": 2.6468600536439397,
-        "close_position": 0.9827586206896571,
-        "breakout": true,
-        "bar_close_ms": 1793580300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.865889212827998,
-        "score": 4.629618674333597
-      },
-      "context": {
-        "atr": 0.022663283991676088,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5683072705653602,
-        "btc_hour_pct": 0.6856093233512883,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TRUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793580300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1287378,6 +1287169,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793579550098
+    },
+    {
+      "id": "98cccf35c41e9bd265acce05",
+      "asset_id": "8cecbfc80d32ccd8f4f9ad14",
+      "key": "OKX:PERP:AXISUSDT",
+      "symbol": "AXISUSDT",
+      "phase": "radar",
+      "observed_ms": 1793580443062,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793580451153
+    },
+    {
+      "id": "e1b5206a00ac5cd5e56c963a",
+      "asset_id": "4fd5d88b152ebb9e019651fd",
+      "key": "OKX:PERP:TRUMPUSDT",
+      "symbol": "TRUMPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793580443062,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793580451153
+    },
+    {
+      "id": "c30e88b658ac6453fdf1c557",
+      "asset_id": "b4d55356650d2535158981ee",
+      "key": "MEXC:PERP:AXISUSDT",
+      "symbol": "AXISUSDT",
+      "phase": "radar",
+      "observed_ms": 1793580440698,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793580451153
+    },
+    {
+      "id": "e0a69609ee5bef8d0c7f25ed",
+      "asset_id": "99afbe52ed8ec186f6bfca45",
+      "key": "MEXC:SPOT:TRUMPUSDT",
+      "symbol": "TRUMPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793580441724,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793580451153
     }
   ],
   "runs": [
@@ -1358873,7 +1358708,8 @@
         "entry_seq": 0,
         "cohort": "AXISUSDT",
         "observation_lag_ms": 143062,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8091
       },
       "4fd5d88b152ebb9e019651fd:radar": {
         "symbol": "TRUMPUSDT",
@@ -1358895,7 +1358731,8 @@
         "entry_seq": 0,
         "cohort": "TRUMPUSDT",
         "observation_lag_ms": 143062,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8091
       },
       "b4d55356650d2535158981ee:radar": {
         "symbol": "AXISUSDT",
@@ -1358917,7 +1358754,8 @@
         "entry_seq": 0,
         "cohort": "AXISUSDT",
         "observation_lag_ms": 140698,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10455
       },
       "99afbe52ed8ec186f6bfca45:radar": {
         "symbol": "TRUMPUSDT",
@@ -1358939,7 +1358777,8 @@
         "entry_seq": 0,
         "cohort": "TRUMPUSDT",
         "observation_lag_ms": 141724,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9429
       }
     },
     "errors": [],
@@ -1384972,8 +1384811,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "98985640cb0cb460156972af1005c6b856029e0d",
-    "previous_success_ms": 1793580160059,
+    "previous_commit": "3e11bc5bf0bc93fae6ceae2f91cf1740000cfcc3",
+    "previous_success_ms": 1793580449698,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
