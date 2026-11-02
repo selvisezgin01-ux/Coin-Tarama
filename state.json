@@ -1501540,60 +1501540,7 @@
       "source_close_ms": 1793663100000
     }
   },
-  "pending": [
-    {
-      "id": "a35cf89d8bcd735a8310589f",
-      "asset_id": "14ed46151708e1683996d500",
-      "key": "MEXC:SPOT:MEGAUSDT",
-      "symbol": "MEGAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793663265836,
-      "price": 0.0453,
-      "level": 0.04422,
-      "invalid": 0.04337399816371692,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04422,
-        "base_invalid": 0.04337399816371692,
-        "atr": 0.0005733455752205383,
-        "rvol": 4.180270343318375,
-        "close_position": 0.8000000000000029,
-        "breakout": true,
-        "bar_close_ms": 1793655000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.364877161055511,
-        "score": 5.980270343318377
-      },
-      "context": {
-        "atr": 0.00048433287921704744,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.38597342842778826,
-        "btc_hour_pct": 0.12513768268331837,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MEGAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793655000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEGAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1639926,8 +1639873,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d37701acb8ebdcdecab90a3aa8d921b7cc9f6f4d",
-    "previous_success_ms": 1793662995141,
+    "previous_commit": "38f6167f205a994bda2b8acd57b8df52a71235e3",
+    "previous_success_ms": 1793663278245,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
