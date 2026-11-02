@@ -1495561,116 +1495561,7 @@
       "source_close_ms": 1793661300000
     }
   },
-  "pending": [
-    {
-      "id": "dee4a822f3a2e74978da300d",
-      "asset_id": "32c8dfe6b670710b013e0ec3",
-      "key": "MEXC:SPOT:ASTERUSDT",
-      "symbol": "ASTERUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793661467202,
-      "price": 0.6979,
-      "level": 0.6929,
-      "invalid": 0.6869754640567489,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6929,
-        "base_invalid": 0.6869754640567489,
-        "atr": 0.002830239621673733,
-        "rvol": 2.576529170249262,
-        "close_position": 0.9111111111111221,
-        "breakout": false,
-        "bar_close_ms": 1793649600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3625290023201888,
-        "score": 3.987640281360384
-      },
-      "context": {
-        "atr": 0.0022151823432671877,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.14785082306381092,
-        "btc_hour_pct": 0.12513768268331837,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ASTERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793649600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ASTERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d7adfe5c8fc600d8ffbe0dfb",
-      "asset_id": "0f2e1af68c889ebc813a604d",
-      "key": "MEXC:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793661466989,
-      "price": 0.67255,
-      "level": 0.6721,
-      "invalid": 0.6629558711364129,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6721,
-        "base_invalid": 0.6629558711364129,
-        "atr": 0.0042941924239140805,
-        "rvol": 3.508765356686581,
-        "close_position": 0.9482758620689523,
-        "breakout": true,
-        "bar_close_ms": 1793659500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8370702541105945,
-        "score": 5.457041218755533
-      },
-      "context": {
-        "atr": 0.004066481056571907,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6053166872446614,
-        "btc_hour_pct": 0.11206487007113797,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DGAIUSDT",
-          "change_pct": 0.0,
-          "old_ms": 1793657851651,
-          "current_ms": 1793661463707,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.019,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793659500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1506979,6 +1506870,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793661174831
+    },
+    {
+      "id": "dee4a822f3a2e74978da300d",
+      "asset_id": "32c8dfe6b670710b013e0ec3",
+      "key": "MEXC:SPOT:ASTERUSDT",
+      "symbol": "ASTERUSDT",
+      "phase": "expired",
+      "observed_ms": 1793661467202,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793661480198
+    },
+    {
+      "id": "d7adfe5c8fc600d8ffbe0dfb",
+      "asset_id": "0f2e1af68c889ebc813a604d",
+      "key": "MEXC:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793661466989,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793661480199
     }
   ],
   "runs": [
@@ -1633288,8 +1633201,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e606bb8009ba342ccb07785255786e20cd75952a",
-    "previous_success_ms": 1793661198526,
+    "previous_commit": "da5c312f4257bcb662f2e02403692e72a359fcc4",
+    "previous_success_ms": 1793661479017,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
