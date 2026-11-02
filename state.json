@@ -1501941,8 +1501941,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7febcfc3bce28c9e7fe41404030a14f53d66985a",
-    "previous_success_ms": 1793595191775,
+    "previous_commit": "5171b8c9e279f637ccbc3d25a453377b35a2ed60",
+    "previous_success_ms": 1793595463755,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
