@@ -1555450,7 +1555450,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793663293952,
+      "duration_ms": 39882
     }
   ],
   "radar_admissions": [
@@ -1598129,6 +1598131,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793620585820,
+            "endpoint_ms": 1793620620000,
+            "endpoint_price": 0.03778,
+            "return_pct": -9.029617144233082,
+            "btc_excess_pct_points": -8.958707128081,
+            "mae_pct": -10.52251384541295,
+            "mfe_pct": 12.159884420900568,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 34180,
+            "measured_ms": 1793663288074,
+            "cost_scenarios_pct": {
+              "0.2": -9.229617144233082,
+              "0.5": -9.529617144233082,
+              "1": -10.029617144233082
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793533500000,
@@ -1598138,7 +1598162,7 @@
         "observation_lag_ms": 685820,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 12123,
-        "last_measure_attempt_ms": 1793603608570
+        "last_measure_attempt_ms": 1793663288074
       },
       "77be1cbceee61e1dc3dd0914:radar": {
         "symbol": "FLOCKUSDT",
@@ -1613705,14 +1613729,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793663268194,
+            "endpoint_ms": 1793663280000,
+            "endpoint_price": 0.6731,
+            "return_pct": -0.24453501296775038,
+            "btc_excess_pct_points": -0.12507592786696886,
+            "mae_pct": -0.3927380511300371,
+            "mfe_pct": 0.22971470915154057,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 11806,
+            "measured_ms": 1793663288074,
+            "cost_scenarios_pct": {
+              "0.2": -0.4445350129677504,
+              "0.5": -0.7445350129677504,
+              "1": -1.2445350129677504
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793659500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "DGAIUSDT",
         "observation_lag_ms": 168194,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11374
+        "notification_lag_ms": 11374,
+        "last_measure_attempt_ms": 1793663288074
       },
       "f19824fe4f437532e7c1ef62:radar": {
         "symbol": "IRYSUSDT",
@@ -1613855,9 +1613903,9 @@
     "errors": [],
     "queue": {
       "due": 148,
-      "attempted": 1,
-      "observed_ms": 1793662984941,
-      "unique_reads": 2
+      "attempted": 2,
+      "observed_ms": 1793663288074,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1613948,8 +1613996,8 @@
                 "median_reference_return_pct": -0.7268170426065312
               },
               "24": {
-                "known_first_symbols": 77,
-                "median_reference_return_pct": -0.6202517708371769
+                "known_first_symbols": 78,
+                "median_reference_return_pct": -0.7077929055670507
               }
             }
           }
@@ -1639873,8 +1639921,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "38f6167f205a994bda2b8acd57b8df52a71235e3",
-    "previous_success_ms": 1793663278245,
+    "previous_commit": "1f7b7446bf8653657a19a3ca81698bacce8a2f31",
+    "previous_success_ms": 1793663288019,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
