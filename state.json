@@ -1495121,112 +1495121,7 @@
       "source_close_ms": 1793655900000
     }
   },
-  "pending": [
-    {
-      "id": "522c12b4adc1c66c2e16c483",
-      "asset_id": "42565f373cc1e91c30260d89",
-      "key": "MEXC:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793659065290,
-      "price": 0.1881,
-      "level": 0.185,
-      "invalid": 0.180614480481273,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.185,
-        "base_invalid": 0.180614480481273,
-        "atr": 0.0019034634581800555,
-        "rvol": 4.938893000754114,
-        "close_position": 0.8571428571428571,
-        "breakout": true,
-        "bar_close_ms": 1793658600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.74122807017545,
-        "score": 6.796035857896971
-      },
-      "context": {
-        "atr": 0.0019034634581800555,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3496661349244432,
-        "btc_hour_pct": 0.08363044721446666,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DNAUSDT",
-          "change_pct": 3.1340016877423826,
-          "old_ms": 1793655579222,
-          "current_ms": 1793659061315,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793658600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2abbe50766001968aee4f424",
-      "asset_id": "727101bccf3e45eef22384de",
-      "key": "OKX:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793659062890,
-      "price": 0.1881,
-      "level": 0.1849,
-      "invalid": 0.18060602156991865,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1849,
-        "base_invalid": 0.18060602156991865,
-        "atr": 0.001959856200542489,
-        "rvol": 3.268716379150068,
-        "close_position": 0.8529411764705888,
-        "breakout": true,
-        "bar_close_ms": 1793658600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7397260273972712,
-        "score": 5.121657555620657
-      },
-      "context": {
-        "atr": 0.001959856200542489,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1834537537980028,
-        "btc_hour_pct": 0.08376387705599786,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DNAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793658600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1506447,6 +1506342,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793658778017
+    },
+    {
+      "id": "522c12b4adc1c66c2e16c483",
+      "asset_id": "42565f373cc1e91c30260d89",
+      "key": "MEXC:PERP:DNAUSDT",
+      "symbol": "DNAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793659065290,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793659076821
+    },
+    {
+      "id": "2abbe50766001968aee4f424",
+      "asset_id": "727101bccf3e45eef22384de",
+      "key": "OKX:PERP:DNAUSDT",
+      "symbol": "DNAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793659062890,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793659076822
     }
   ],
   "runs": [
@@ -1605882,7 +1605799,8 @@
         "entry_seq": 0,
         "cohort": "DNAUSDT",
         "observation_lag_ms": 465290,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11531
       },
       "727101bccf3e45eef22384de:radar": {
         "symbol": "DNAUSDT",
@@ -1605904,7 +1605822,8 @@
         "entry_seq": 0,
         "cohort": "DNAUSDT",
         "observation_lag_ms": 462890,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13932
       }
     },
     "errors": [],
@@ -1631930,8 +1631849,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a43710ba3db727656689e97300ae3d797f2057cb",
-    "previous_success_ms": 1793658799030,
+    "previous_commit": "ba4fc93d26c9e731a27015ade04031f467a35f60",
+    "previous_success_ms": 1793659075803,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
