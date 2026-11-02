@@ -1385287,7 +1385287,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793585742405,
+      "duration_ms": 32568
     }
   ],
   "radar_admissions": [
@@ -1411409,6 +1411411,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793549837970,
+            "endpoint_ms": 1793549880000,
+            "endpoint_price": 0.06877,
+            "return_pct": 2.0477815699658564,
+            "btc_excess_pct_points": 1.4352344973821207,
+            "mae_pct": -0.4896868971657642,
+            "mfe_pct": 10.75827274076271,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 42030,
+            "measured_ms": 1793585741241,
+            "cost_scenarios_pct": {
+              "0.2": 1.8477815699658564,
+              "0.5": 1.5477815699658564,
+              "1": 1.0477815699658564
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793463300000,
@@ -1411417,7 +1411441,7 @@
         "cohort": "ZAMAUSDT",
         "observation_lag_ms": 137970,
         "interpretation": "early radar reference, not a trade entry",
-        "last_measure_attempt_ms": 1793522989690
+        "last_measure_attempt_ms": 1793585741241
       },
       "cc74dbc9894dcabf1909dd94:radar": {
         "symbol": "ORDERUSDT",
@@ -1427408,14 +1427432,14 @@
     },
     "errors": [],
     "queue": {
-      "due": 164,
-      "attempted": 2,
-      "observed_ms": 1793585435128,
-      "unique_reads": 3
+      "due": 162,
+      "attempted": 1,
+      "observed_ms": 1793585741241,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "market_event_references": 437,
+        "market_event_references": 438,
         "unique_symbol_labels": 244,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
@@ -1427486,8 +1427510,8 @@
             }
           },
           "OKX:PERP:radar": {
-            "event_references": 111,
-            "first_per_symbol": 101,
+            "event_references": 112,
+            "first_per_symbol": 102,
             "hours": {
               "1": {
                 "known_first_symbols": 100,
@@ -1442637,7 +1442661,7 @@
       "queue": {
         "due": 0,
         "attempted": 0,
-        "observed_ms": 1793584843400,
+        "observed_ms": 1793585742405,
         "unique_reads": 0
       },
       "summary": {
@@ -1453431,8 +1453455,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0fc14c9746f0054c9246cc8baad2ee08466bd0f4",
-    "previous_success_ms": 1793585731978,
+    "previous_commit": "8b31146ff061bb1f8059c6f0b6e30e5ee48a8427",
+    "previous_success_ms": 1793585741203,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
