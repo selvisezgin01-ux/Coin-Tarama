@@ -1438285,220 +1438285,7 @@
       "source_close_ms": 1793614500000
     }
   },
-  "pending": [
-    {
-      "id": "8387f7b69f64d8e9d9490fe2",
-      "asset_id": "f60592ee519035693b80bbcf",
-      "key": "OKX:PERP:ATUSDT",
-      "symbol": "ATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793614542218,
-      "price": 0.12405,
-      "level": 0.1246,
-      "invalid": 0.12148430235977611,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1246,
-        "base_invalid": 0.12148430235977611,
-        "atr": 0.0007713176014925808,
-        "rvol": 6.837278493880105,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793612700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.9704433497536922,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.0008273536161416598,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4266714973107941,
-        "btc_hour_pct": -0.2101264851453566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793612700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c7cbc228d71f5e89dfe9c9ad",
-      "asset_id": "81ab1b611f6f7e6cc3957b2b",
-      "key": "OKX:PERP:PROSUSDT",
-      "symbol": "PROSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793614542218,
-      "price": 0.49255,
-      "level": 0.4865,
-      "invalid": 0.47960842187774,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4865,
-        "base_invalid": 0.47960842187774,
-        "atr": 0.003943854148400198,
-        "rvol": 13.316027956418575,
-        "close_position": 0.8490566037735843,
-        "breakout": true,
-        "bar_close_ms": 1793614500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.9863438857852245,
-        "score": 7.849056603773584
-      },
-      "context": {
-        "atr": 0.003943854148400198,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.12079388714005823,
-        "btc_hour_pct": -0.2101264851453566,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PROSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793614500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "da7535a84ab3bd3c2c93e145",
-      "asset_id": "2089bb03f462e705da7f2d6b",
-      "key": "OKX:SPOT:PROSUSDT",
-      "symbol": "PROSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793614542544,
-      "price": 0.49325,
-      "level": 0.4867,
-      "invalid": 0.48005938309543694,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4867,
-        "base_invalid": 0.48005938309543694,
-        "atr": 0.0036041126970872963,
-        "rvol": 13.480944500475086,
-        "close_position": 0.8039215686274506,
-        "breakout": true,
-        "bar_close_ms": 1793614500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.070822116380211,
-        "score": 7.803921568627451
-      },
-      "context": {
-        "atr": 0.0036041126970872963,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.14057879763317294,
-        "btc_hour_pct": -0.21066087178831516,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PROSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793614500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "82d4147ad73f98a01fe1b2e5",
-      "asset_id": "57867bb3b0edf7aa54962455",
-      "key": "MEXC:PERP:PHAROSUSDT",
-      "symbol": "PHAROSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793614545030,
-      "price": 0.49424999999999997,
-      "level": 0.4874,
-      "invalid": 0.48134592297353856,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4874,
-        "base_invalid": 0.48134592297353856,
-        "atr": 0.0036938468430762557,
-        "rvol": 2.614826994253966,
-        "close_position": 0.8129032258064538,
-        "breakout": true,
-        "bar_close_ms": 1793614500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8774499690530133,
-        "score": 4.42773022006042
-      },
-      "context": {
-        "atr": 0.0036938468430762557,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09759779140390279,
-        "btc_hour_pct": -0.21161680352498324,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PHAROSUSDT",
-          "change_pct": -0.4582324790746606,
-          "old_ms": 1793610928951,
-          "current_ms": 1793614540849,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793614500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PHAROSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1448256,6 +1448043,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793613952443
+    },
+    {
+      "id": "8387f7b69f64d8e9d9490fe2",
+      "asset_id": "f60592ee519035693b80bbcf",
+      "key": "OKX:PERP:ATUSDT",
+      "symbol": "ATUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793614542218,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793614555356
+    },
+    {
+      "id": "c7cbc228d71f5e89dfe9c9ad",
+      "asset_id": "81ab1b611f6f7e6cc3957b2b",
+      "key": "OKX:PERP:PROSUSDT",
+      "symbol": "PROSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793614542218,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793614555356
+    },
+    {
+      "id": "da7535a84ab3bd3c2c93e145",
+      "asset_id": "2089bb03f462e705da7f2d6b",
+      "key": "OKX:SPOT:PROSUSDT",
+      "symbol": "PROSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793614542544,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793614555356
+    },
+    {
+      "id": "82d4147ad73f98a01fe1b2e5",
+      "asset_id": "57867bb3b0edf7aa54962455",
+      "key": "MEXC:PERP:PHAROSUSDT",
+      "symbol": "PHAROSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793614545030,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793614555356
     }
   ],
   "runs": [
@@ -1531851,7 +1531682,8 @@
         "entry_seq": 0,
         "cohort": "PROSUSDT",
         "observation_lag_ms": 42218,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13138
       },
       "2089bb03f462e705da7f2d6b:radar": {
         "symbol": "PROSUSDT",
@@ -1531873,7 +1531705,8 @@
         "entry_seq": 0,
         "cohort": "PROSUSDT",
         "observation_lag_ms": 42544,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12812
       },
       "57867bb3b0edf7aa54962455:radar": {
         "symbol": "PHAROSUSDT",
@@ -1531895,7 +1531728,8 @@
         "entry_seq": 0,
         "cohort": "PHAROSUSDT",
         "observation_lag_ms": 45030,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10326
       }
     },
     "errors": [],
@@ -1557923,8 +1557757,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e8aef4e85d54bed37e9bd2a8a96937aa6ec23ed8",
-    "previous_success_ms": 1793614272056,
+    "previous_commit": "d3f204fe93120e2f7b6e580e76abe2f62b8b5729",
+    "previous_success_ms": 1793614554243,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
