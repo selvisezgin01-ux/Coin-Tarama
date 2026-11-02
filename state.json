@@ -1402241,60 +1402241,7 @@
       "source_close_ms": 1793600100000
     }
   },
-  "pending": [
-    {
-      "id": "5d726d3c382c8d12169ca23a",
-      "asset_id": "d05517e01d1a914c6f1c73be",
-      "key": "OKX:PERP:KATUSDT",
-      "symbol": "KATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793600445474,
-      "price": 0.003933,
-      "level": 0.004005,
-      "invalid": 0.003936025981815544,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004005,
-        "base_invalid": 0.003936025981815544,
-        "atr": 2.6493454563037305e-05,
-        "rvol": 6.980753570055552,
-        "close_position": 0.7741935483870963,
-        "breakout": false,
-        "bar_close_ms": 1793598300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.15026296018030294,
-        "score": 7.274193548387096
-      },
-      "context": {
-        "atr": 2.7444461627449913e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.10929961131812549,
-        "btc_hour_pct": -0.041340609620887925,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793598300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1411623,6 +1411570,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793600164387
+    },
+    {
+      "id": "5d726d3c382c8d12169ca23a",
+      "asset_id": "d05517e01d1a914c6f1c73be",
+      "key": "OKX:PERP:KATUSDT",
+      "symbol": "KATUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793600445474,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793600455226
     }
   ],
   "runs": [
@@ -1516318,8 +1516276,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "dd3a4c0d580222603e15a0ced255686f48ca2f99",
-    "previous_success_ms": 1793600180110,
+    "previous_commit": "77ca483fe9911c6063866943f5f9ae3c462bff90",
+    "previous_success_ms": 1793600453954,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
