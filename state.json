@@ -1432654,60 +1432654,7 @@
       "source_close_ms": 1793610900000
     }
   },
-  "pending": [
-    {
-      "id": "3670ac89ac3b453b4b28ba10",
-      "asset_id": "98779b0d384e0a90016ba5d5",
-      "key": "MEXC:SPOT:HGPTUSDT",
-      "symbol": "HGPTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793611537591,
-      "price": 0.00139185,
-      "level": 0.0014186,
-      "invalid": 0.0013761728578458171,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0014186,
-        "base_invalid": 0.0013761728578458171,
-        "atr": 2.4847614361220034e-05,
-        "rvol": 6.290622400633153,
-        "close_position": 0.730434782608694,
-        "breakout": false,
-        "bar_close_ms": 1793589300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.886094040302976,
-        "score": 7.230434782608694
-      },
-      "context": {
-        "atr": 2.5215206721681804e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.298950366532158,
-        "btc_hour_pct": 0.16168012144825994,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HGPTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793589300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HGPTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1442333,6 +1442280,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793611249651
+    },
+    {
+      "id": "3670ac89ac3b453b4b28ba10",
+      "asset_id": "98779b0d384e0a90016ba5d5",
+      "key": "MEXC:SPOT:HGPTUSDT",
+      "symbol": "HGPTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793611537591,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793611549655
     }
   ],
   "runs": [
@@ -1550923,8 +1550881,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ed840fa07e0a4631caddf5e03da7e3b977ac7c8e",
-    "previous_success_ms": 1793611270177,
+    "previous_commit": "a3fdb7ca38b3bddd461eff33ee9db100d3c3bcf6",
+    "previous_success_ms": 1793611548510,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
