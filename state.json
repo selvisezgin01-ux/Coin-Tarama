@@ -1409786,110 +1409786,7 @@
       "source_close_ms": 1793601900000
     }
   },
-  "pending": [
-    {
-      "id": "ea25e1bafcbcc0f1b9715f01",
-      "asset_id": "ae8e29e16c191cbf9bfb60fa",
-      "key": "MEXC:SPOT:SOLVUSDT",
-      "symbol": "SOLVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793604795676,
-      "price": 0.005299,
-      "level": 0.00526,
-      "invalid": 0.005022846054298222,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00526,
-        "base_invalid": 0.005022846054298222,
-        "atr": 5.4359638011851256e-05,
-        "rvol": 2.302133217514187,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793604600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.421978881501775,
-        "score": 4.3021332175141875
-      },
-      "context": {
-        "atr": 5.4359638011851256e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.2619292294150393,
-        "btc_hour_pct": -0.2613408787580651,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SOLVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793604600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOLVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8687b7911cfe148833e212a0",
-      "asset_id": "47012a261c0f377fc10a6787",
-      "key": "OKX:PERP:INJUSDT",
-      "symbol": "INJUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793604795661,
-      "price": 7.234500000000001,
-      "level": 7.227,
-      "invalid": 7.114463882527094,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.227,
-        "base_invalid": 7.114463882527094,
-        "atr": 0.043574116486045415,
-        "rvol": 2.002695910615515,
-        "close_position": 0.9090909090909066,
-        "breakout": false,
-        "bar_close_ms": 1793604600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7815771109560332,
-        "score": 3.4117868197064216
-      },
-      "context": {
-        "atr": 0.043574116486045415,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.04400439852939586,
-        "btc_hour_pct": -0.27597334214950475,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:INJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793604600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1419273,6 +1419170,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793601958694
+    },
+    {
+      "id": "ea25e1bafcbcc0f1b9715f01",
+      "asset_id": "ae8e29e16c191cbf9bfb60fa",
+      "key": "MEXC:SPOT:SOLVUSDT",
+      "symbol": "SOLVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793604795676,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793604806143
+    },
+    {
+      "id": "8687b7911cfe148833e212a0",
+      "asset_id": "47012a261c0f377fc10a6787",
+      "key": "OKX:PERP:INJUSDT",
+      "symbol": "INJUSDT",
+      "phase": "radar",
+      "observed_ms": 1793604795661,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793604806143
     }
   ],
   "runs": [
@@ -1499387,7 +1499306,8 @@
         "entry_seq": 0,
         "cohort": "SOLVUSDT",
         "observation_lag_ms": 195676,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10467
       },
       "47012a261c0f377fc10a6787:radar": {
         "symbol": "INJUSDT",
@@ -1499409,7 +1499329,8 @@
         "entry_seq": 0,
         "cohort": "INJUSDT",
         "observation_lag_ms": 195661,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10482
       }
     },
     "errors": [],
@@ -1525437,8 +1525358,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ae7bf73e4ff38b028c44e6297a7ee7d94eea91f6",
-    "previous_success_ms": 1793604519770,
+    "previous_commit": "beb3978060b45854d6d445ad0e01b2ec494455e4",
+    "previous_success_ms": 1793604804970,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
