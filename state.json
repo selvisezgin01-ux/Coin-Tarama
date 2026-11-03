@@ -1642479,64 +1642479,7 @@
       "source_close_ms": 1793736000000
     }
   },
-  "pending": [
-    {
-      "id": "551cc43288d8a4d26ec2fbaf",
-      "asset_id": "15f941e3b35ea802dcd4c88a",
-      "key": "MEXC:PERP:STRKUSDT",
-      "symbol": "STRKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793736773004,
-      "price": 0.042335,
-      "level": 0.04355,
-      "invalid": 0.04234074557180441,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04355,
-        "base_invalid": 0.04234074557180441,
-        "atr": 0.00046169618797064143,
-        "rvol": 2.36566851509813,
-        "close_position": 0.8039215686274467,
-        "breakout": false,
-        "bar_close_ms": 1793731500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.5783274440518191,
-        "score": 3.6695900837255766
-      },
-      "context": {
-        "atr": 0.0003998170491906716,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.3017096505769987,
-        "btc_hour_pct": 0.022044690130296196,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:STRKUSDT",
-          "change_pct": -3.9331772325569836,
-          "old_ms": 1793733162147,
-          "current_ms": 1793736771071,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793731500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STRKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656683,6 +1656626,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793736215835
+    },
+    {
+      "id": "551cc43288d8a4d26ec2fbaf",
+      "asset_id": "15f941e3b35ea802dcd4c88a",
+      "key": "MEXC:PERP:STRKUSDT",
+      "symbol": "STRKUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793736773004,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793736806626
     }
   ],
   "runs": [
@@ -1802741,8 +1802695,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "bc5e189f9fc885382cd45448be8c886746e24a90",
-    "previous_success_ms": 1793736580305,
+    "previous_commit": "f24a03debf3a17055bfd673553328fe8153cd6ef",
+    "previous_success_ms": 1793736805037,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
