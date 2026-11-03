@@ -1527235,62 +1527235,7 @@
       "source_close_ms": 1793672100000
     }
   },
-  "pending": [
-    {
-      "id": "f86e6e0817903ce9ae8242cf",
-      "asset_id": "ea011c61f6c2495b440d94e5",
-      "key": "MEXC:PERP:GMXUSDT",
-      "symbol": "GMXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793673138886,
-      "price": 8.2625,
-      "level": 8.236,
-      "invalid": 8.120998774393165,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.236,
-        "base_invalid": 8.120998774393165,
-        "atr": 0.04667483737889712,
-        "rvol": 4.042831155713752,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793673000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4621184482548779,
-        "score": 6.042831155713752
-      },
-      "context": {
-        "atr": 0.04667483737889712,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2660747275973985,
-        "btc_hour_pct": -0.00972707134742068,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GMXUSDT",
-          "change_pct": 1.3700194551735656,
-          "old_ms": 1793669422759,
-          "current_ms": 1793673134641,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793673000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1539061,6 +1539006,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793672546453
+    },
+    {
+      "id": "f86e6e0817903ce9ae8242cf",
+      "asset_id": "ea011c61f6c2495b440d94e5",
+      "key": "MEXC:PERP:GMXUSDT",
+      "symbol": "GMXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793673138886,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793673149100
     }
   ],
   "runs": [
@@ -1643428,7 +1643384,8 @@
         "entry_seq": 0,
         "cohort": "GMXUSDT",
         "observation_lag_ms": 138886,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10214
       }
     },
     "errors": [],
@@ -1669459,8 +1669416,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c13a52afa3ce1e2f51f9e3d4048abf62171746e8",
-    "previous_success_ms": 1793672863109,
+    "previous_commit": "53c0b8f222e9a5350b0ddb1b046a94fd836b3c31",
+    "previous_success_ms": 1793673147904,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
