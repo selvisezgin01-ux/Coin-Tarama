@@ -214,11 +214,11 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793667595795,
-        "feature_cutoff_ms": 1793664000000,
-        "universe_count": 462,
-        "prefilter_count": 49,
-        "analyzed_count": 42,
+        "observed_ms": 1793681724764,
+        "feature_cutoff_ms": 1793678400000,
+        "universe_count": 461,
+        "prefilter_count": 44,
+        "analyzed_count": 36,
         "candidates": []
       }
     },
@@ -418,17 +418,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793667648575,
-        "feature_cutoff_ms": 1793664000000,
-        "universe_count": 1228,
-        "prefilter_count": 210,
-        "analyzed_count": 204,
+        "observed_ms": 1793681772901,
+        "feature_cutoff_ms": 1793678400000,
+        "universe_count": 1229,
+        "prefilter_count": 196,
+        "analyzed_count": 187,
         "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793667648697,
+  "updated_ms": 1793681772986,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12694,6 +12694,17 @@
             "control_excess_pct_points": -2.4097485797419105,
             "complete": true,
             "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793667846775,
+            "endpoint_ms": 1793667900000,
+            "endpoint_delay_ms": 53225,
+            "endpoint_price": 1.7316,
+            "return_pct": -6.202264232706778,
+            "btc_excess_pct_points": -5.616914770773795,
+            "control_excess_pct_points": -5.119254740447099,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12747,6 +12758,17 @@
             "return_pct": -6.141056583534466,
             "btc_excess_pct_points": -7.003001622352468,
             "control_excess_pct_points": -6.673679752642315,
+            "complete": true,
+            "controls_count": 3
+          },
+          "48": {
+            "target_ms": 1793681688856,
+            "endpoint_ms": 1793681700000,
+            "endpoint_delay_ms": 11144,
+            "endpoint_price": 0.001738,
+            "return_pct": -6.784660766961659,
+            "btc_excess_pct_points": -5.740608961448702,
+            "control_excess_pct_points": -3.5857734234289733,
             "complete": true,
             "controls_count": 3
           }
@@ -13156,10 +13178,22 @@
             "price": 0.00011385
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793668015154,
+            "endpoint_ms": 1793668020000,
+            "endpoint_delay_ms": 4846,
+            "endpoint_price": 0.0002373,
+            "return_pct": 108.43214756258233,
+            "btc_excess_pct_points": 109.17491985097425,
+            "control_excess_pct_points": 111.43127354585117,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793667648697
+    "asof_ms": 1793681772986
   }
 }
