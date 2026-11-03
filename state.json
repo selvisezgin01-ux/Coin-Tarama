@@ -1600351,7 +1600351,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793687581931,
+      "duration_ms": 36492
     }
   ],
   "radar_admissions": [
@@ -1664171,14 +1664173,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793687558186,
+            "endpoint_ms": 1793687580000,
+            "endpoint_price": null,
+            "return_pct": null,
+            "btc_excess_pct_points": null,
+            "mae_pct": null,
+            "mfe_pct": null,
+            "path_complete": false,
+            "complete": false,
+            "minute_bars": 59,
+            "ignored_entry_fragment_ms": 21814,
+            "measured_ms": 1793687580975,
+            "cost_scenarios_pct": {
+              "0.2": null,
+              "0.5": null,
+              "1": null
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793683800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ATOMUSDT",
         "observation_lag_ms": 158186,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13505
+        "notification_lag_ms": 13505,
+        "last_measure_attempt_ms": 1793687580975
       },
       "cf00ba2c2cc88db94f632da8:radar": {
         "symbol": "XMRUSDT",
@@ -1664194,14 +1664220,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793687560081,
+            "endpoint_ms": 1793687580000,
+            "endpoint_price": 610.22,
+            "return_pct": 0.38329302998898473,
+            "btc_excess_pct_points": 0.19773351551135576,
+            "mae_pct": -0.2977512378884217,
+            "mfe_pct": 0.5099606836763249,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 19919,
+            "measured_ms": 1793687580975,
+            "cost_scenarios_pct": {
+              "0.2": 0.18329302998898472,
+              "0.5": -0.11670697001101527,
+              "1": -0.6167069700110153
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793683800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "XMRUSDT",
         "observation_lag_ms": 160081,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11610
+        "notification_lag_ms": 11610,
+        "last_measure_attempt_ms": 1793687580975
       },
       "fa6edb1aea679863127271af:radar": {
         "symbol": "LABUSDT",
@@ -1664274,10 +1664324,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 143,
+      "due": 145,
       "attempted": 2,
-      "observed_ms": 1793687273952,
-      "unique_reads": 6
+      "observed_ms": 1793687580975,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1664334,8 +1664384,8 @@
             "first_per_symbol": 125,
             "hours": {
               "1": {
-                "known_first_symbols": 124,
-                "median_reference_return_pct": -0.15683753616845264
+                "known_first_symbols": 125,
+                "median_reference_return_pct": -0.14968687948678783
               },
               "4": {
                 "known_first_symbols": 104,
@@ -1690292,8 +1690342,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "599804960aa5babe98ebefd298c535e55508f270",
-    "previous_success_ms": 1793687569502,
+    "previous_commit": "0cc8d914fde416d2ea160506087d8ba8ac27b3e9",
+    "previous_success_ms": 1793687580929,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
