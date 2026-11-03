@@ -1509752,216 +1509752,7 @@
       "source_close_ms": 1793664900000
     }
   },
-  "pending": [
-    {
-      "id": "2318785a74ca2cc8764d8d21",
-      "asset_id": "bae9197b5e6bbb6b7f5160b5",
-      "key": "OKX:PERP:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793664938222,
-      "price": 0.022425,
-      "level": 0.02322,
-      "invalid": 0.021786002167161103,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02322,
-        "base_invalid": 0.021786002167161103,
-        "atr": 0.0003599855522592975,
-        "rvol": 6.08825805380112,
-        "close_position": 0.8593749999999999,
-        "breakout": true,
-        "bar_close_ms": 1793663100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.3459119496855445,
-        "score": 7.859375
-      },
-      "context": {
-        "atr": 0.0005257934103076902,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 8.252042150651539,
-        "btc_hour_pct": -0.1618564742589701,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793663100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bdbeb662f7e47c075a0deaa4",
-      "asset_id": "85d7df5b278c2a1875bc2c37",
-      "key": "MEXC:SPOT:AVAXUSDT",
-      "symbol": "AVAXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793664938826,
-      "price": 8.432,
-      "level": 8.414,
-      "invalid": 8.357703458629187,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.414,
-        "base_invalid": 8.357703458629187,
-        "atr": 0.03531027580541267,
-        "rvol": 9.138265169601663,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.22621740683415048,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.03531027580541267,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.012097707915692535,
-        "btc_hour_pct": -0.15483590227753918,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AVAXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVAXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "71ba39a7c30573a1de7eac09",
-      "asset_id": "a1edf02841851d1749bb2878",
-      "key": "OKX:SPOT:AVAXUSDT",
-      "symbol": "AVAXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793664939056,
-      "price": 8.4315,
-      "level": 8.415,
-      "invalid": 8.355341190355603,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.415,
-        "base_invalid": 8.355341190355603,
-        "atr": 0.037725397629325856,
-        "rvol": 5.372599924306082,
-        "close_position": 0.8928571428571406,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.23809523809523725,
-        "score": 7.265457067163222
-      },
-      "context": {
-        "atr": 0.037725397629325856,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06442992295471184,
-        "btc_hour_pct": -0.1715600265138173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AVAXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVAXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b6f056307bf47a0ece012762",
-      "asset_id": "e95ccdb9c02c348b0d0994fb",
-      "key": "OKX:PERP:AVAXUSDT",
-      "symbol": "AVAXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793664938222,
-      "price": 8.4265,
-      "level": 8.41,
-      "invalid": 8.35110064751058,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.41,
-        "base_invalid": 8.35110064751058,
-        "atr": 0.03932901659612957,
-        "rvol": 4.419399390147678,
-        "close_position": 0.9824561403508865,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.2858504049547239,
-        "score": 6.4018555304985645
-      },
-      "context": {
-        "atr": 0.03932901659612957,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.030857307890019836,
-        "btc_hour_pct": -0.1618564742589701,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AVAXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVAXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1521347,6 +1521138,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793664050295
+    },
+    {
+      "id": "2318785a74ca2cc8764d8d21",
+      "asset_id": "bae9197b5e6bbb6b7f5160b5",
+      "key": "OKX:PERP:HUMAUSDT",
+      "symbol": "HUMAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793664938222,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793664948554
+    },
+    {
+      "id": "bdbeb662f7e47c075a0deaa4",
+      "asset_id": "85d7df5b278c2a1875bc2c37",
+      "key": "MEXC:SPOT:AVAXUSDT",
+      "symbol": "AVAXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793664938826,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793664948554
+    },
+    {
+      "id": "71ba39a7c30573a1de7eac09",
+      "asset_id": "a1edf02841851d1749bb2878",
+      "key": "OKX:SPOT:AVAXUSDT",
+      "symbol": "AVAXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793664939056,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793664948554
+    },
+    {
+      "id": "b6f056307bf47a0ece012762",
+      "asset_id": "e95ccdb9c02c348b0d0994fb",
+      "key": "OKX:PERP:AVAXUSDT",
+      "symbol": "AVAXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793664938222,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793664948554
     }
   ],
   "runs": [
@@ -1622860,7 +1622695,8 @@
         "entry_seq": 0,
         "cohort": "AVAXUSDT",
         "observation_lag_ms": 38826,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9728
       },
       "a1edf02841851d1749bb2878:radar": {
         "symbol": "AVAXUSDT",
@@ -1622882,7 +1622718,8 @@
         "entry_seq": 0,
         "cohort": "AVAXUSDT",
         "observation_lag_ms": 39056,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9498
       },
       "e95ccdb9c02c348b0d0994fb:radar": {
         "symbol": "AVAXUSDT",
@@ -1622904,7 +1622741,8 @@
         "entry_seq": 0,
         "cohort": "AVAXUSDT",
         "observation_lag_ms": 38222,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10332
       }
     },
     "errors": [],
@@ -1648945,8 +1648783,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "34707a248ab4b4b7933027b050e867fa4ae2f93e",
-    "previous_success_ms": 1793664662273,
+    "previous_commit": "a78b8ea5d294076ecf024ce81cc4867a1e0e66c0",
+    "previous_success_ms": 1793664947170,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
