@@ -1566087,164 +1566087,7 @@
       "source_close_ms": 1793697300000
     }
   },
-  "pending": [
-    {
-      "id": "e38d804ae34d68bce54f0a31",
-      "asset_id": "51961faab4ae1ee26a148cb4",
-      "key": "OKX:SPOT:BARDUSDT",
-      "symbol": "BARDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793700695475,
-      "price": 0.11105000000000001,
-      "level": 0.111,
-      "invalid": 0.10809668402013241,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.111,
-        "base_invalid": 0.10809668402013241,
-        "atr": 0.0006887731991172735,
-        "rvol": 4.144936722906746,
-        "close_position": 0.750000000000026,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8166969147005432,
-        "score": 5.894936722906772
-      },
-      "context": {
-        "atr": 0.0006887731991172735,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.254818523661382,
-        "btc_hour_pct": 0.5618783910391612,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BARDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BARDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "471884563738f8239f7c7ec9",
-      "asset_id": "c5ac5a4cb90870c6fb8da17b",
-      "key": "OKX:SPOT:CPUSDT",
-      "symbol": "CPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793700695475,
-      "price": 0.0075934999999999996,
-      "level": 0.007599,
-      "invalid": 0.007466198298502834,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007599,
-        "base_invalid": 0.007466198298502834,
-        "atr": 3.867800998111152e-05,
-        "rvol": 2.709813086458909,
-        "close_position": 0.8571428571428394,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8755638100291785,
-        "score": 4.566955943601748
-      },
-      "context": {
-        "atr": 3.867800998111152e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.31368541899001734,
-        "btc_hour_pct": 0.5618783910391612,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2e9333d2cbd707c762e5e67e",
-      "asset_id": "89b3651b8c7448d42c0e3685",
-      "key": "OKX:SPOT:MMTUSDT",
-      "symbol": "MMTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793700695475,
-      "price": 0.11710000000000001,
-      "level": 0.117,
-      "invalid": 0.11531290372444715,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.117,
-        "base_invalid": 0.11531290372444715,
-        "atr": 0.000580641837019043,
-        "rvol": 2.269748582365306,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7745266781411297,
-        "score": 4.269748582365306
-      },
-      "context": {
-        "atr": 0.000580641837019043,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2126482871019686,
-        "btc_hour_pct": 0.5618783910391612,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MMTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1578928,6 +1578771,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793700406006
+    },
+    {
+      "id": "e38d804ae34d68bce54f0a31",
+      "asset_id": "51961faab4ae1ee26a148cb4",
+      "key": "OKX:SPOT:BARDUSDT",
+      "symbol": "BARDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793700695475,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793700706493
+    },
+    {
+      "id": "471884563738f8239f7c7ec9",
+      "asset_id": "c5ac5a4cb90870c6fb8da17b",
+      "key": "OKX:SPOT:CPUSDT",
+      "symbol": "CPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793700695475,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793700706494
+    },
+    {
+      "id": "2e9333d2cbd707c762e5e67e",
+      "asset_id": "89b3651b8c7448d42c0e3685",
+      "key": "OKX:SPOT:MMTUSDT",
+      "symbol": "MMTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793700695475,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793700706494
     }
   ],
   "runs": [
@@ -1690117,7 +1689993,8 @@
         "entry_seq": 0,
         "cohort": "BARDUSDT",
         "observation_lag_ms": 695475,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11018
       },
       "c5ac5a4cb90870c6fb8da17b:radar": {
         "symbol": "CPUSDT",
@@ -1690139,7 +1690016,8 @@
         "entry_seq": 0,
         "cohort": "CPUSDT",
         "observation_lag_ms": 695475,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11019
       },
       "89b3651b8c7448d42c0e3685:radar": {
         "symbol": "MMTUSDT",
@@ -1690161,7 +1690039,8 @@
         "entry_seq": 0,
         "cohort": "MMTUSDT",
         "observation_lag_ms": 695475,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11019
       }
     },
     "errors": [],
@@ -1716193,8 +1716072,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "015dc232a9b1aa6fe2487d059ee2369e742f618f",
-    "previous_success_ms": 1793700423989,
+    "previous_commit": "2138b951cb9245685b1e321132d0bdd2325709bc",
+    "previous_success_ms": 1793700705424,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
