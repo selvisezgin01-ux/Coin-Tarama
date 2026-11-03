@@ -1544021,112 +1544021,7 @@
       "source_close_ms": 1793690100000
     }
   },
-  "pending": [
-    {
-      "id": "d6a8d16809137b234c00e009",
-      "asset_id": "dcf827dba0605c7cca618204",
-      "key": "OKX:PERP:2ZUSDT",
-      "symbol": "2ZUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793691253049,
-      "price": 0.02277,
-      "level": 0.02266,
-      "invalid": 0.022153551078658545,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02266,
-        "base_invalid": 0.022153551078658545,
-        "atr": 0.00017632614227634983,
-        "rvol": 2.8547271258818854,
-        "close_position": 0.9393939393939315,
-        "breakout": true,
-        "bar_close_ms": 1793691000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.024498886414249,
-        "score": 4.794121065275817
-      },
-      "context": {
-        "atr": 0.00017632614227634983,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.1067717113184439,
-        "btc_hour_pct": -0.0905675348012891,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:2ZUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793691000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "2ZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "681b2e3dbd2f99024ee338fe",
-      "asset_id": "c58e2e789f7e27ef6de71562",
-      "key": "MEXC:SPOT:BCHUSDT",
-      "symbol": "BCHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793691252661,
-      "price": 276.25,
-      "level": 276.0,
-      "invalid": 273.83604894671,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 276.0,
-        "base_invalid": 273.83604894671,
-        "atr": 1.0930070219335506,
-        "rvol": 2.7139715680103325,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793691000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.18155410312272746,
-        "score": 4.213971568010333
-      },
-      "context": {
-        "atr": 1.0930070219335506,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.02334597304569641,
-        "btc_hour_pct": -0.09607324577296517,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793691000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BCHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1556480,6 +1556375,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793690958925
+    },
+    {
+      "id": "d6a8d16809137b234c00e009",
+      "asset_id": "dcf827dba0605c7cca618204",
+      "key": "OKX:PERP:2ZUSDT",
+      "symbol": "2ZUSDT",
+      "phase": "radar",
+      "observed_ms": 1793691253049,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793691265981
+    },
+    {
+      "id": "681b2e3dbd2f99024ee338fe",
+      "asset_id": "c58e2e789f7e27ef6de71562",
+      "key": "MEXC:SPOT:BCHUSDT",
+      "symbol": "BCHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793691252661,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793691265981
     }
   ],
   "runs": [
@@ -1665446,7 +1665363,8 @@
         "entry_seq": 0,
         "cohort": "2ZUSDT",
         "observation_lag_ms": 253049,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12932
       },
       "c58e2e789f7e27ef6de71562:radar": {
         "symbol": "BCHUSDT",
@@ -1665468,7 +1665386,8 @@
         "entry_seq": 0,
         "cohort": "BCHUSDT",
         "observation_lag_ms": 252661,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13320
       }
     },
     "errors": [],
@@ -1691503,8 +1691422,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "390a9eb8e28d3fc83a8816af0f6a06764c6e9495",
-    "previous_success_ms": 1793690982447,
+    "previous_commit": "116614710599ec4c6383252655e933a70e53d950",
+    "previous_success_ms": 1793691264967,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
