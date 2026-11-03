@@ -1543391,60 +1543391,7 @@
       "source_close_ms": 1793689200000
     }
   },
-  "pending": [
-    {
-      "id": "4b8e55da19bacc4075b88b1d",
-      "asset_id": "fa6edb1aea679863127271af",
-      "key": "MEXC:SPOT:LABUSDT",
-      "symbol": "LABUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793689358699,
-      "price": 0.045905,
-      "level": 0.0452,
-      "invalid": 0.04394907528188354,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0452,
-        "base_invalid": 0.04394907528188354,
-        "atr": 0.00033949812077639017,
-        "rvol": 3.4944382031918204,
-        "close_position": 0.8448275862068961,
-        "breakout": true,
-        "bar_close_ms": 1793683800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1827182718271887,
-        "score": 5.339265789398716
-      },
-      "context": {
-        "atr": 0.0003862242065930469,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.09607324577296517,
-        "btc_hour_pct": -0.09607324577296517,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LABUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793683800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LABUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1690357,8 +1690304,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5cb3ea9b2d143b8cbcb1e57293f320b9256147d2",
-    "previous_success_ms": 1793689095626,
+    "previous_commit": "2b14d93897b0f51f45a8519867fffbaf2f6e4b42",
+    "previous_success_ms": 1793689373995,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
