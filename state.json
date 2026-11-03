@@ -507,50 +507,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "f3862874b5cbb5509e52b0f8",
-      "created_ms": 1793710893765,
-      "candidates": [
-        {
-          "exchange": "OKX",
-          "symbol": "XPOPMARTUSDT",
-          "observed_ms": 1793710808314,
-          "feature_cutoff_ms": 1793707200000,
-          "mid_price": 17.759999999999998,
-          "spread_pct": 0.22522522522524044,
-          "return24_pct": 2.5936599423631135,
-          "relative24_pct_points": 3.6080014291995144,
-          "quote_volume24": 90246.228728,
-          "liquidity_band": "thin",
-          "breakout_level": 17.62,
-          "breakout_open_ms": 1793664000000.0,
-          "breakout_volume_ratio": 24.270150268055335,
-          "strength_score": 80,
-          "breakout_age_bars": 2.0,
-          "invalidation_level": 17.066134240810584,
-          "atr": 0.21546303675766312,
-          "close": 17.8,
-          "paper_controls": [
-            {
-              "symbol": "XBOTUSDT",
-              "entry_price": 22.060000000000002
-            },
-            {
-              "symbol": "ENJUSDT",
-              "entry_price": 0.02402
-            },
-            {
-              "symbol": "XTZUSDT",
-              "entry_price": 0.25
-            }
-          ],
-          "paper_btc_price": 77413.35,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793710893765,
   "paper": {
     "version": "github-paper-v1",
