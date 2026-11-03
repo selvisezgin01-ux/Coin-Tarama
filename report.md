@@ -94,7 +94,7 @@ Kimlik defteri: 18446 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | GTA6 `0xefef08074e954907288230349fd65ab5b40e663f` | bnb | 03.11.2026 11:15 | 269326.0 | Bekliyor |
+| 🟡 ERKEN RADAR | GTA6 `0xefef08074e954907288230349fd65ab5b40e663f` | bnb | 03.11.2026 11:15 | 269326.0 | [Issue #1711](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1711) |
 | 🟡 ERKEN RADAR | WBSC `0x650e328aa829c6d287ef67df2fc51b221daee684` | bnb | 03.11.2026 11:04 | 175802.0 | [Issue #1710](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1710) |
 | 🟡 ERKEN RADAR | GOOGL `0xe82452248e3a603d2325b5b10715f7631295a4bb` | robinhood | 03.11.2026 11:03 | 73152.0 | [Issue #1708](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1708) |
 | 🟡 ERKEN RADAR | VITOGGOTH `0xfedc0801fee84c6690d70cced9f7824ec397748c` | robinhood | 03.11.2026 10:50 | 88141.0 | [Issue #1706](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1706) |
