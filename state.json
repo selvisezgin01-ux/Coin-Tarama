@@ -1643505,270 +1643505,7 @@
       "source_close_ms": 1793736900000
     }
   },
-  "pending": [
-    {
-      "id": "746262cc7cd9b80f88a59c8f",
-      "asset_id": "d6e445140107710062d7502f",
-      "key": "OKX:SPOT:PYTHUSDT",
-      "symbol": "PYTHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793737078575,
-      "price": 0.065485,
-      "level": 0.06554,
-      "invalid": 0.06325011091377383,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06554,
-        "base_invalid": 0.06325011091377383,
-        "atr": 0.0005325939081744022,
-        "rvol": 3.0401349596353273,
-        "close_position": 0.880000000000005,
-        "breakout": false,
-        "bar_close_ms": 1793717100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.204253988113857,
-        "score": 4.420134959635332
-      },
-      "context": {
-        "atr": 0.0006187847182700224,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.0070685249400468,
-        "btc_hour_pct": 0.029771877819317893,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PYTHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793717100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PYTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2eb849fe55a8b292dc430c36",
-      "asset_id": "0e811c9fbae0dc33b20a01de",
-      "key": "MEXC:PERP:PYTHUSDT",
-      "symbol": "PYTHUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793737078195,
-      "price": 0.065385,
-      "level": 0.06548,
-      "invalid": 0.06381128449488506,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06548,
-        "base_invalid": 0.06381128449488506,
-        "atr": 0.0005914367007663031,
-        "rvol": 4.0852287905734235,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.693550869632144,
-        "score": 6.0852287905734235
-      },
-      "context": {
-        "atr": 0.0006021802753214723,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.9856098813377678,
-        "btc_hour_pct": 0.022044690130296196,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PYTHUSDT",
-          "change_pct": -2.7949928312192895,
-          "old_ms": 1793733459221,
-          "current_ms": 1793737077224,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PYTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e678adac1b3f2bd395a78a37",
-      "asset_id": "98b10b47f795a1fa2abfa296",
-      "key": "OKX:PERP:PYTHUSDT",
-      "symbol": "PYTHUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793737076680,
-      "price": 0.06542,
-      "level": 0.06555,
-      "invalid": 0.06383721675851509,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06555,
-        "base_invalid": 0.06383721675851509,
-        "atr": 0.0006185549432327708,
-        "rvol": 2.607563596303847,
-        "close_position": 0.9733333333333252,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7085257002154473,
-        "score": 4.580896929637172
-      },
-      "context": {
-        "atr": 0.0006284893270387929,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.029886015714132,
-        "btc_hour_pct": 0.03635899478984239,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PYTHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PYTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4391927419fd1f3fef903d91",
-      "asset_id": "ce857a4ee4b22fd0d5a0af8e",
-      "key": "MEXC:PERP:MORPHOUSDT",
-      "symbol": "MORPHOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793737078195,
-      "price": 2.16455,
-      "level": 2.175,
-      "invalid": 2.1075147531848053,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.175,
-        "base_invalid": 2.1075147531848053,
-        "atr": 0.01656831210129702,
-        "rvol": 4.441186805753587,
-        "close_position": 0.897777777777779,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2077182916107487,
-        "score": 6.338964583531365
-      },
-      "context": {
-        "atr": 0.017198544647088754,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.017609899651506,
-        "btc_hour_pct": 0.022044690130296196,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MORPHOUSDT",
-          "change_pct": 1.6279542171575345,
-          "old_ms": 1793733459355,
-          "current_ms": 1793737077367,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MORPHOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "51aef3d8ef6a7cc58a9664d7",
-      "asset_id": "a3a949d22b2dd44272a04641",
-      "key": "MEXC:SPOT:TRUTHUSDT",
-      "symbol": "TRUTHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793737077775,
-      "price": 0.0165695,
-      "level": 0.016373,
-      "invalid": 0.015995755374254066,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.016373,
-        "base_invalid": 0.015995755374254066,
-        "atr": 0.00020163083830621343,
-        "rvol": 2.110728248272754,
-        "close_position": 0.7862068965517246,
-        "breakout": true,
-        "bar_close_ms": 1793729700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.737943020296684,
-        "score": 3.8969351448244787
-      },
-      "context": {
-        "atr": 0.00016617623300737409,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.07128815446892922,
-        "btc_hour_pct": 0.03199252596848279,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TRUTHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793729700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1657926,6 +1657663,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793736806626
+    },
+    {
+      "id": "746262cc7cd9b80f88a59c8f",
+      "asset_id": "d6e445140107710062d7502f",
+      "key": "OKX:SPOT:PYTHUSDT",
+      "symbol": "PYTHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793737078575,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793737110767
+    },
+    {
+      "id": "2eb849fe55a8b292dc430c36",
+      "asset_id": "0e811c9fbae0dc33b20a01de",
+      "key": "MEXC:PERP:PYTHUSDT",
+      "symbol": "PYTHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793737078195,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793737110767
+    },
+    {
+      "id": "e678adac1b3f2bd395a78a37",
+      "asset_id": "98b10b47f795a1fa2abfa296",
+      "key": "OKX:PERP:PYTHUSDT",
+      "symbol": "PYTHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793737076680,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793737110767
+    },
+    {
+      "id": "4391927419fd1f3fef903d91",
+      "asset_id": "ce857a4ee4b22fd0d5a0af8e",
+      "key": "MEXC:PERP:MORPHOUSDT",
+      "symbol": "MORPHOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793737078195,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793737110768
+    },
+    {
+      "id": "51aef3d8ef6a7cc58a9664d7",
+      "asset_id": "a3a949d22b2dd44272a04641",
+      "key": "MEXC:SPOT:TRUTHUSDT",
+      "symbol": "TRUTHUSDT",
+      "phase": "expired",
+      "observed_ms": 1793737077775,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793737110768
     }
   ],
   "runs": [
@@ -1804049,8 +1803841,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5b25679495b7c045b3b8764a47b6913cb7055bd1",
-    "previous_success_ms": 1793736872617,
+    "previous_commit": "f518330c6da2ef9beb79269a2f2d211e732dc09d",
+    "previous_success_ms": 1793737109310,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
