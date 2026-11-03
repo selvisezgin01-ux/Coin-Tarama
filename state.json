@@ -1576977,116 +1576977,7 @@
       "source_close_ms": 1793702700000
     }
   },
-  "pending": [
-    {
-      "id": "41aa5c5fcb39254c61635fc9",
-      "asset_id": "12a5110b3fbee579f8c478e2",
-      "key": "OKX:SPOT:BOMEUSDT",
-      "symbol": "BOMEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793704167327,
-      "price": 0.00060395,
-      "level": 0.0005964,
-      "invalid": 0.000585966821802296,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005964,
-        "base_invalid": 0.000585966821802296,
-        "atr": 2.8878546513607126e-06,
-        "rvol": 4.90565822458984,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793703600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4319407008086316,
-        "score": 6.90565822458984
-      },
-      "context": {
-        "atr": 2.8878546513607126e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3505822878037366,
-        "btc_hour_pct": 0.08135841300489499,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BOMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793703600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BOMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d8e9521cb7097b3835cb9155",
-      "asset_id": "23210dd81476fb59625016a3",
-      "key": "MEXC:PERP:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793704172308,
-      "price": 0.079765,
-      "level": 0.07939,
-      "invalid": 0.07841162647527618,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07939,
-        "base_invalid": 0.07841162647527618,
-        "atr": 0.0003891568314921736,
-        "rvol": 2.7871044230779476,
-        "close_position": 0.7647058823529556,
-        "breakout": false,
-        "bar_close_ms": 1793703600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4174573055028663,
-        "score": 4.051810305430903
-      },
-      "context": {
-        "atr": 0.0003891568314921736,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3343829305726409,
-        "btc_hour_pct": 0.0830743749302254,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AUSDT",
-          "change_pct": 0.18051775775063117,
-          "old_ms": 1793700684777,
-          "current_ms": 1793704169656,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793703600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1589880,6 +1589771,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793702811889
+    },
+    {
+      "id": "41aa5c5fcb39254c61635fc9",
+      "asset_id": "12a5110b3fbee579f8c478e2",
+      "key": "OKX:SPOT:BOMEUSDT",
+      "symbol": "BOMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793704167327,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793704184008
+    },
+    {
+      "id": "d8e9521cb7097b3835cb9155",
+      "asset_id": "23210dd81476fb59625016a3",
+      "key": "MEXC:PERP:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "radar",
+      "observed_ms": 1793704172308,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793704184009
     }
   ],
   "runs": [
@@ -1701774,7 +1701687,8 @@
         "entry_seq": 0,
         "cohort": "BOMEUSDT",
         "observation_lag_ms": 567327,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 16681
       },
       "23210dd81476fb59625016a3:radar": {
         "symbol": "AUSDT",
@@ -1701796,7 +1701710,8 @@
         "entry_seq": 0,
         "cohort": "AUSDT",
         "observation_lag_ms": 572308,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11701
       }
     },
     "errors": [],
@@ -1727819,8 +1727734,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0ed589c28bedc1397edf4517abf556ed9e5df6e7",
-    "previous_success_ms": 1793704159201,
+    "previous_commit": "938640bc8c53f5e389d5a6d4bc292ccf58ac32f2",
+    "previous_success_ms": 1793704182603,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
