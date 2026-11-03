@@ -1651977,60 +1651977,7 @@
       "source_close_ms": 1793740500000
     }
   },
-  "pending": [
-    {
-      "id": "4d7bc1bb6c0c979a13b8955f",
-      "asset_id": "0001838e0ee4519c471a74bf",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793741518716,
-      "price": 0.080635,
-      "level": 0.08041,
-      "invalid": 0.07991879693845304,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08041,
-        "base_invalid": 0.07991879693845304,
-        "atr": 0.0002746870769797702,
-        "rvol": 5.546924600097754,
-        "close_position": 0.7647058823529556,
-        "breakout": true,
-        "bar_close_ms": 1793741400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4615768463073877,
-        "score": 7.31163048245071
-      },
-      "context": {
-        "atr": 0.0002746870769797702,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3004854965090953,
-        "btc_hour_pct": 0.3254605214841222,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793741400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1666430,6 +1666377,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793740628604
+    },
+    {
+      "id": "4d7bc1bb6c0c979a13b8955f",
+      "asset_id": "0001838e0ee4519c471a74bf",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "radar",
+      "observed_ms": 1793741518716,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793741544407
     }
   ],
   "runs": [
@@ -1787618,7 +1787576,8 @@
         "entry_seq": 0,
         "cohort": "AUSDT",
         "observation_lag_ms": 118716,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 25691
       }
     },
     "errors": [],
@@ -1813654,8 +1813613,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e6ffb405897d1edcf3aae3d83a35e4d2360f9b1b",
-    "previous_success_ms": 1793741275483,
+    "previous_commit": "98ba7eb3b201bd39a9e6bf0636f2fc75ba60e3cd",
+    "previous_success_ms": 1793741543046,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
