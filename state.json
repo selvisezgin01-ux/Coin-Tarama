@@ -1513932,116 +1513932,7 @@
       "source_close_ms": 1793669400000
     }
   },
-  "pending": [
-    {
-      "id": "c6fd15f6b6bf3340b0cffa42",
-      "asset_id": "f19824fe4f437532e7c1ef62",
-      "key": "MEXC:SPOT:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793669435992,
-      "price": 0.01972,
-      "level": 0.01962,
-      "invalid": 0.0191334737853593,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01962,
-        "base_invalid": 0.0191334737853593,
-        "atr": 0.00017684143093799689,
-        "rvol": 2.7453678921914575,
-        "close_position": 0.7741935483870956,
-        "breakout": true,
-        "bar_close_ms": 1793659500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.596292481977346,
-        "score": 4.519561440578553
-      },
-      "context": {
-        "atr": 0.00021727826420103925,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.9990342329725177,
-        "btc_hour_pct": 0.39933408304748674,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793659500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e7c51d83148c08ce1b54d5d3",
-      "asset_id": "2e62ceae180b4d59964916ae",
-      "key": "MEXC:PERP:NIULAIUSDT",
-      "symbol": "NIULAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793669438945,
-      "price": 0.0648,
-      "level": 0.06466,
-      "invalid": 0.061005919518086406,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06466,
-        "base_invalid": 0.061005919518086406,
-        "atr": 0.0010272032127572864,
-        "rvol": 3.2240857723150484,
-        "close_position": 0.9733333333333252,
-        "breakout": true,
-        "bar_close_ms": 1793667600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0920436817472678,
-        "score": 5.197419105648374
-      },
-      "context": {
-        "atr": 0.0009926842148736217,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.684315202088781,
-        "btc_hour_pct": 0.4077284796584868,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NIULAIUSDT",
-          "change_pct": -2.1613958560523394,
-          "old_ms": 1793665822217,
-          "current_ms": 1793669434202,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793667600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIULAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1525647,6 +1525538,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793669142099
+    },
+    {
+      "id": "c6fd15f6b6bf3340b0cffa42",
+      "asset_id": "f19824fe4f437532e7c1ef62",
+      "key": "MEXC:SPOT:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793669435992,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793669448197
+    },
+    {
+      "id": "e7c51d83148c08ce1b54d5d3",
+      "asset_id": "2e62ceae180b4d59964916ae",
+      "key": "MEXC:PERP:NIULAIUSDT",
+      "symbol": "NIULAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793669438945,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793669448197
     }
   ],
   "runs": [
@@ -1654759,8 +1654672,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4a55546030d8e079d0338e9b9ad78d4f533a8cba",
-    "previous_success_ms": 1793669157746,
+    "previous_commit": "a2ae5615f2803fe0820226be8f28f546c53827d1",
+    "previous_success_ms": 1793669446997,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
