@@ -1553094,116 +1553094,7 @@
       "source_close_ms": 1793694600000
     }
   },
-  "pending": [
-    {
-      "id": "1f049b1efdd127fe0eafcabf",
-      "asset_id": "e5a80acabd7b210af0464b80",
-      "key": "OKX:PERP:BOMEUSDT",
-      "symbol": "BOMEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793694850694,
-      "price": 0.0005847000000000001,
-      "level": 0.0005897,
-      "invalid": 0.0005795904972745446,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005897,
-        "base_invalid": 0.0005795904972745446,
-        "atr": 4.063351503036153e-06,
-        "rvol": 2.3903537181562284,
-        "close_position": 0.7538461538461477,
-        "breakout": false,
-        "bar_close_ms": 1793686500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.1189533482527159,
-        "score": 3.644199872002376
-      },
-      "context": {
-        "atr": 3.902751053783318e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.593872262573103,
-        "btc_hour_pct": 0.3108733844053857,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BOMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793686500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BOMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "00113c99cb769225f9904d10",
-      "asset_id": "3410bed1080b3ff0500a121d",
-      "key": "MEXC:PERP:TUTUSDT",
-      "symbol": "TUTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793694852516,
-      "price": 0.016905,
-      "level": 0.01693,
-      "invalid": 0.016745779846597482,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01693,
-        "base_invalid": 0.016745779846597482,
-        "atr": 9.480102268346539e-05,
-        "rvol": 3.437407462576184,
-        "close_position": 0.6666666666666795,
-        "breakout": false,
-        "bar_close_ms": 1793687400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.604074129242863
-      },
-      "context": {
-        "atr": 0.0001248025295935375,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.984451043411938,
-        "btc_hour_pct": 0.31963905735867826,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TUTUSDT",
-          "change_pct": -6.000183491849908,
-          "old_ms": 1793691236473,
-          "current_ms": 1793694849419,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793687400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TUTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1565689,6 +1565580,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793693964868
+    },
+    {
+      "id": "1f049b1efdd127fe0eafcabf",
+      "asset_id": "e5a80acabd7b210af0464b80",
+      "key": "OKX:PERP:BOMEUSDT",
+      "symbol": "BOMEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793694850694,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793694862936
+    },
+    {
+      "id": "00113c99cb769225f9904d10",
+      "asset_id": "3410bed1080b3ff0500a121d",
+      "key": "MEXC:PERP:TUTUSDT",
+      "symbol": "TUTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793694852516,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793694862936
     }
   ],
   "runs": [
@@ -1701528,8 +1701441,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a178962bfd508953879a98dd899de69e8c3b7160",
-    "previous_success_ms": 1793694584178,
+    "previous_commit": "3d1a2c9a1a58c62f8ac5e2d6c7996848e82d9af8",
+    "previous_success_ms": 1793694861569,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
