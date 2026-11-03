@@ -1556562,164 +1556562,7 @@
       "source_close_ms": 1793693700000
     }
   },
-  "pending": [
-    {
-      "id": "b6d49412cf025421079f85ae",
-      "asset_id": "69c7e153ec7a09f628532718",
-      "key": "OKX:SPOT:RSRUSDT",
-      "symbol": "RSRUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793693952048,
-      "price": 0.001447,
-      "level": 0.001424,
-      "invalid": 0.0014007855692205428,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001424,
-        "base_invalid": 0.0014007855692205428,
-        "atr": 8.09620519638141e-06,
-        "rvol": 2.1001106151628903,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793688300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.272084805653706,
-        "score": 4.10011061516289
-      },
-      "context": {
-        "atr": 9.147794017383679e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5193503930067678,
-        "btc_hour_pct": 0.31572267588677594,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:RSRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793688300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RSRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8dac077ff83c29d434a166a0",
-      "asset_id": "dcf827dba0605c7cca618204",
-      "key": "OKX:PERP:2ZUSDT",
-      "symbol": "2ZUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793693954099,
-      "price": 0.022609999999999998,
-      "level": 0.02266,
-      "invalid": 0.022153551078658545,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02266,
-        "base_invalid": 0.022153551078658545,
-        "atr": 0.00017632614227634983,
-        "rvol": 2.8547271258818854,
-        "close_position": 0.9393939393939315,
-        "breakout": true,
-        "bar_close_ms": 1793691000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.024498886414249,
-        "score": 4.794121065275817
-      },
-      "context": {
-        "atr": 0.00018411381973247793,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5293420554509662,
-        "btc_hour_pct": 0.3108733844053857,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:2ZUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793691000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "2ZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5e193e0ba142ab2afceea98d",
-      "asset_id": "6a23535e96179deea9306cb7",
-      "key": "OKX:SPOT:2ZUSDT",
-      "symbol": "2ZUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793693952048,
-      "price": 0.022655,
-      "level": 0.02277,
-      "invalid": 0.02221359738317701,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02277,
-        "base_invalid": 0.02221359738317701,
-        "atr": 0.00017601744548660796,
-        "rvol": 2.148546291802768,
-        "close_position": 0.6666666666666666,
-        "breakout": true,
-        "bar_close_ms": 1793691900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.094474153297665,
-        "score": 3.8152129584694343
-      },
-      "context": {
-        "atr": 0.0001808163582875134,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4284633706248329,
-        "btc_hour_pct": 0.31572267588677594,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:2ZUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793691900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "2ZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1569183,6 +1569026,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793693071092
+    },
+    {
+      "id": "b6d49412cf025421079f85ae",
+      "asset_id": "69c7e153ec7a09f628532718",
+      "key": "OKX:SPOT:RSRUSDT",
+      "symbol": "RSRUSDT",
+      "phase": "expired",
+      "observed_ms": 1793693952048,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793693964867
+    },
+    {
+      "id": "8dac077ff83c29d434a166a0",
+      "asset_id": "dcf827dba0605c7cca618204",
+      "key": "OKX:PERP:2ZUSDT",
+      "symbol": "2ZUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793693954099,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793693964868
     }
   ],
   "runs": [
@@ -1704875,8 +1704740,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6accc9cccedb727fdbccb820097d0f71d47a74f2",
-    "previous_success_ms": 1793693679219,
+    "previous_commit": "a93a805d9b5006620505ed452daff3fedb830e8b",
+    "previous_success_ms": 1793693963777,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
