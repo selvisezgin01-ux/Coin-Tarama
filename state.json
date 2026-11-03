@@ -1545515,62 +1545515,7 @@
       "source_close_ms": 1793689200000
     }
   },
-  "pending": [
-    {
-      "id": "826cb59abaa5890bd6101cf6",
-      "asset_id": "4e763dc3869385ba1d3b0523",
-      "key": "MEXC:PERP:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793690259864,
-      "price": 0.021644999999999998,
-      "level": 0.02149,
-      "invalid": 0.020606627173706888,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02149,
-        "base_invalid": 0.020606627173706888,
-        "atr": 0.000555818841954089,
-        "rvol": 2.3455647857501525,
-        "close_position": 0.9537037037037024,
-        "breakout": true,
-        "bar_close_ms": 1793687400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3463162834350015,
-        "score": 4.299268489453855
-      },
-      "context": {
-        "atr": 0.0005538872825146782,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.2170364253395247,
-        "btc_hour_pct": -0.09539568983740754,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LYNUSDT",
-          "change_pct": -0.34394751569125637,
-          "old_ms": 1793686641048,
-          "current_ms": 1793690255127,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0214,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793687400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1557902,6 +1557847,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793689067486
+    },
+    {
+      "id": "826cb59abaa5890bd6101cf6",
+      "asset_id": "4e763dc3869385ba1d3b0523",
+      "key": "MEXC:PERP:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793690259864,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793690271801
     }
   ],
   "runs": [
@@ -1692723,8 +1692679,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b453ae700b07e5954fc7b80723879f8d7edfec37",
-    "previous_success_ms": 1793689991529,
+    "previous_commit": "86088e4e8d6af4d5a86441d53d302f8509ad8a98",
+    "previous_success_ms": 1793690270037,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
