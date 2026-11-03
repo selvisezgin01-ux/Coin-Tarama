@@ -1512753,114 +1512753,7 @@
       "source_close_ms": 1793668500000
     }
   },
-  "pending": [
-    {
-      "id": "6e46c87073db3392deb6a50d",
-      "asset_id": "4f42ee5bcbb701c208a923e6",
-      "key": "MEXC:PERP:BTRUSDT",
-      "symbol": "BTRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793668538605,
-      "price": 0.046185000000000004,
-      "level": 0.04683,
-      "invalid": 0.045928466245379856,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04683,
-        "base_invalid": 0.045928466245379856,
-        "atr": 0.0006102250308009618,
-        "rvol": 3.962308983840532,
-        "close_position": 0.9473684210526162,
-        "breakout": false,
-        "bar_close_ms": 1793657700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2791496671677107,
-        "score": 5.409677404893148
-      },
-      "context": {
-        "atr": 0.0004511976911897091,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.7954312977626619,
-        "btc_hour_pct": 0.4077284796584868,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BTRUSDT",
-          "change_pct": -0.5453604381901456,
-          "old_ms": 1793664920142,
-          "current_ms": 1793668536207,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0145,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793657700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9d35efe65443c3490b927813",
-      "asset_id": "809fb39170e4c37ca39487d8",
-      "key": "OKX:SPOT:DASHUSDT",
-      "symbol": "DASHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793668536598,
-      "price": 46.595,
-      "level": 46.56,
-      "invalid": 46.12054572380286,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 46.56,
-        "base_invalid": 46.12054572380286,
-        "atr": 0.196361841314235,
-        "rvol": 124.80513337609656,
-        "close_position": 0.9285714285714177,
-        "breakout": true,
-        "bar_close_ms": 1793668500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6260794473229581,
-        "score": 7.928571428571418
-      },
-      "context": {
-        "atr": 0.196361841314235,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.03868553240928829,
-        "btc_hour_pct": 0.4063325912328164,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DASHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793668500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DASHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1524422,6 +1524315,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793667649194
+    },
+    {
+      "id": "6e46c87073db3392deb6a50d",
+      "asset_id": "4f42ee5bcbb701c208a923e6",
+      "key": "MEXC:PERP:BTRUSDT",
+      "symbol": "BTRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793668538605,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793668547550
+    },
+    {
+      "id": "9d35efe65443c3490b927813",
+      "asset_id": "809fb39170e4c37ca39487d8",
+      "key": "OKX:SPOT:DASHUSDT",
+      "symbol": "DASHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793668536598,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793668547551
     }
   ],
   "runs": [
@@ -1627165,7 +1627080,8 @@
         "entry_seq": 0,
         "cohort": "DASHUSDT",
         "observation_lag_ms": 36598,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10953
       }
     },
     "errors": [],
@@ -1653196,8 +1653112,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0153243ddf8740328acce88adf3ad52497b4664a",
-    "previous_success_ms": 1793668259074,
+    "previous_commit": "945155756d85fd8d191191244157ff24101701d8",
+    "previous_success_ms": 1793668546334,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
