@@ -1599191,7 +1599191,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 1
         }
-      }
+      },
+      "finished_ms": 1793682662604,
+      "duration_ms": 34459
     }
   ],
   "radar_admissions": [
@@ -1657031,6 +1657033,50 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793635944443,
+            "endpoint_ms": 1793635980000,
+            "endpoint_price": 0.2022,
+            "return_pct": 0.0,
+            "btc_excess_pct_points": 0.802685655893931,
+            "mae_pct": -0.4451038575667532,
+            "mfe_pct": 2.720079129574682,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 35557,
+            "measured_ms": 1793682658433,
+            "cost_scenarios_pct": {
+              "0.2": -0.2,
+              "0.5": -0.5,
+              "1": -1.0
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          },
+          "12": {
+            "target_ms": 1793664744443,
+            "endpoint_ms": 1793664780000,
+            "endpoint_price": 0.1927,
+            "return_pct": -4.698318496538068,
+            "btc_excess_pct_points": -3.170787640645423,
+            "mae_pct": -5.440158259149353,
+            "mfe_pct": 2.720079129574682,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 720,
+            "ignored_entry_fragment_ms": 35557,
+            "measured_ms": 1793682658433,
+            "cost_scenarios_pct": {
+              "0.2": -4.898318496538068,
+              "0.5": -5.198318496538068,
+              "1": -5.698318496538068
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793620800000,
@@ -1657040,7 +1657086,7 @@
         "observation_lag_ms": 744443,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 11999,
-        "last_measure_attempt_ms": 1793625384959
+        "last_measure_attempt_ms": 1793682658433
       },
       "8ba851fed4726df70f107d00:radar": {
         "symbol": "NEOUSDT",
@@ -1661679,14 +1661725,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793682337613,
+            "endpoint_ms": 1793682360000,
+            "endpoint_price": 0.06601,
+            "return_pct": 0.20493358633777436,
+            "btc_excess_pct_points": 0.26294951955759815,
+            "mae_pct": -0.3111954459202759,
+            "mfe_pct": 1.1309297912713623,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 22387,
+            "measured_ms": 1793682658433,
+            "cost_scenarios_pct": {
+              "0.2": 0.004933586337774354,
+              "0.5": -0.29506641366222564,
+              "1": -0.7950664136622256
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793678400000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "NILUSDT",
         "observation_lag_ms": 337613,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11172
+        "notification_lag_ms": 11172,
+        "last_measure_attempt_ms": 1793682658433
       },
       "adc8cc10ab5e91361dfad45b:radar": {
         "symbol": "GRVTUSDT",
@@ -1661873,14 +1661943,14 @@
     },
     "errors": [],
     "queue": {
-      "due": 148,
+      "due": 147,
       "attempted": 2,
-      "observed_ms": 1793682358548,
+      "observed_ms": 1793682658433,
       "unique_reads": 5
     },
     "summary": {
       "radar": {
-        "market_event_references": 603,
+        "market_event_references": 604,
         "unique_symbol_labels": 306,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
@@ -1661893,12 +1661963,12 @@
                 "median_reference_return_pct": -0.0680735194009574
               },
               "4": {
-                "known_first_symbols": 128,
-                "median_reference_return_pct": -0.2770549252281318
+                "known_first_symbols": 129,
+                "median_reference_return_pct": -0.2564102564102555
               },
               "12": {
-                "known_first_symbols": 128,
-                "median_reference_return_pct": -0.7054247883017728
+                "known_first_symbols": 129,
+                "median_reference_return_pct": -0.7620660457239525
               },
               "24": {
                 "known_first_symbols": 109,
@@ -1661933,8 +1662003,8 @@
             "first_per_symbol": 123,
             "hours": {
               "1": {
-                "known_first_symbols": 120,
-                "median_reference_return_pct": -0.17947947361847127
+                "known_first_symbols": 121,
+                "median_reference_return_pct": -0.16398819285011745
               },
               "4": {
                 "known_first_symbols": 99,
@@ -1661951,8 +1662021,8 @@
             }
           },
           "OKX:PERP:radar": {
-            "event_references": 158,
-            "first_per_symbol": 135,
+            "event_references": 159,
+            "first_per_symbol": 136,
             "hours": {
               "1": {
                 "known_first_symbols": 133,
@@ -1687891,8 +1687961,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a8fa9d952996bfff2cd146570008ea6728562685",
-    "previous_success_ms": 1793682647899,
+    "previous_commit": "03c043bd295b6d2629106ac74b2da5f412636d22",
+    "previous_success_ms": 1793682658393,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
