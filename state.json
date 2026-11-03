@@ -1570630,120 +1570630,7 @@
       "source_close_ms": 1793702700000
     }
   },
-  "pending": [
-    {
-      "id": "78e587a875a1464df6898434",
-      "asset_id": "deceb28d4f0220a6c88298a8",
-      "key": "OKX:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793702797591,
-      "price": 0.19565,
-      "level": 0.1906,
-      "invalid": 0.1912383808639853,
-      "target": 0.20740798827202933,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1906,
-        "base_invalid": 0.18583838086398533,
-        "atr": 0.002410794240097907,
-        "rvol": 3.422271081642062,
-        "close_position": 0.7209302325581444,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.336696760488599,
-        "score": 5.143201314200207
-      },
-      "context": {
-        "atr": 0.002670929550014315,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.7650727556743906,
-        "btc_hour_pct": 0.5716240048142085,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DNAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.1912383808639853,
-        "target": 0.20740798827202933,
-        "risk_pct": 2.2548526123254167,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.2115,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.1951,
-        "entry_zone_high": 0.19643546477500715
-      },
-      "reason": null,
-      "source_close_ms": 1793702700000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4c970e30a5b2e7f39eefc5ee",
-      "asset_id": "51961faab4ae1ee26a148cb4",
-      "key": "OKX:SPOT:BARDUSDT",
-      "symbol": "BARDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793702801352,
-      "price": 0.11055000000000001,
-      "level": 0.111,
-      "invalid": 0.10809668402013241,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.111,
-        "base_invalid": 0.10809668402013241,
-        "atr": 0.0006887731991172735,
-        "rvol": 4.144936722906746,
-        "close_position": 0.750000000000026,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8166969147005432,
-        "score": 5.894936722906772
-      },
-      "context": {
-        "atr": 0.000625967237937611,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.254818523661382,
-        "btc_hour_pct": 0.5618783910391612,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BARDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BARDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1583515,6 +1583402,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793701013096
+    },
+    {
+      "id": "78e587a875a1464df6898434",
+      "asset_id": "deceb28d4f0220a6c88298a8",
+      "key": "OKX:PERP:DNAUSDT",
+      "symbol": "DNAUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793702797591,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793702811888
+    },
+    {
+      "id": "4c970e30a5b2e7f39eefc5ee",
+      "asset_id": "51961faab4ae1ee26a148cb4",
+      "key": "OKX:SPOT:BARDUSDT",
+      "symbol": "BARDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793702801352,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793702811889
     }
   ],
   "runs": [
@@ -1695136,7 +1695045,8 @@
         "entry_seq": 1,
         "cohort": "DNAUSDT",
         "observation_lag_ms": 97591,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 14297
       }
     },
     "errors": [],
@@ -1721166,8 +1721076,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "bf650fb1ecd3c64bf8dac4f6ea0dcf08f3d19c05",
-    "previous_success_ms": 1793702534855,
+    "previous_commit": "6274d5a2e82fdeaa1c686e600ce5c55ccd907684",
+    "previous_success_ms": 1793702810834,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
