@@ -1653487,184 +1653487,7 @@
       "source_close_ms": 1793743200000
     }
   },
-  "pending": [
-    {
-      "id": "f3d3986a445c61cf4363be12",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_weakening",
-      "observed_ms": 1793743316376,
-      "price": 0.0002401,
-      "level": 0.000235,
-      "invalid": 0.00023516173503133312,
-      "target": 0.0002463420299373338,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.391338052826375e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5455169747405342,
-        "btc_hour_pct": 0.04800453692959117,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.00023516173503133312,
-        "target": 0.0002463420299373338,
-        "risk_pct": 1.0678439077269202,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.000256,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.0002371,
-        "entry_zone_high": 0.00023789606935336162
-      },
-      "reason": null,
-      "source_close_ms": 1793743200000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "OMIUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793743200000,
-        "closed_price": 0.00024,
-        "ema20_1h": 0.0002386612010880269,
-        "atr14_1h": 3.167443127341357e-06,
-        "structure_floor": 0.000238,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "37d558ff0cc08f1c533a00d0",
-      "asset_id": "96924079c9abb1c9bf9a7353",
-      "key": "MEXC:PERP:RIVERUSDT",
-      "symbol": "RIVERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793743318673,
-      "price": 0.8995,
-      "level": 0.902,
-      "invalid": 0.8880701468574246,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.902,
-        "base_invalid": 0.8880701468574246,
-        "atr": 0.006199020950502845,
-        "rvol": 3.22702308829687,
-        "close_position": 0.9,
-        "breakout": false,
-        "bar_close_ms": 1793729700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4474272930648837,
-        "score": 4.62702308829687
-      },
-      "context": {
-        "atr": 0.0058010112949878605,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7364655052764624,
-        "btc_hour_pct": 0.047409074790727423,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RIVERUSDT",
-          "change_pct": -2.577033720732169,
-          "old_ms": 1793739699295,
-          "current_ms": 1793743315375,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793729700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RIVERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1fc10f8ee5ca0291cce028ac",
-      "asset_id": "2a5ba8922e6def80915153c8",
-      "key": "OKX:SPOT:SEIUSDT",
-      "symbol": "SEIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793743319011,
-      "price": 0.047945,
-      "level": 0.04807,
-      "invalid": 0.0475251125741101,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04807,
-        "base_invalid": 0.0475251125741101,
-        "atr": 0.00023258283926597855,
-        "rvol": 29.409039273673162,
-        "close_position": 0.9600000000000155,
-        "breakout": false,
-        "bar_close_ms": 1793734200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2507312996238964,
-        "score": 7.460000000000015
-      },
-      "context": {
-        "atr": 0.00020416634826713088,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.08231431301164438,
-        "btc_hour_pct": 0.0428943681235916,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SEIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SEIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1668163,6 +1667986,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793743022893
+    },
+    {
+      "id": "f3d3986a445c61cf4363be12",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793743316376,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793743329986
+    },
+    {
+      "id": "37d558ff0cc08f1c533a00d0",
+      "asset_id": "96924079c9abb1c9bf9a7353",
+      "key": "MEXC:PERP:RIVERUSDT",
+      "symbol": "RIVERUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793743318673,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793743329987
+    },
+    {
+      "id": "1fc10f8ee5ca0291cce028ac",
+      "asset_id": "2a5ba8922e6def80915153c8",
+      "key": "OKX:SPOT:SEIUSDT",
+      "symbol": "SEIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793743319011,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793743329987
     }
   ],
   "runs": [
@@ -1815883,8 +1815739,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4bd8bf02c8811fecef1e55a02f1dada555cc28a0",
-    "previous_success_ms": 1793743041290,
+    "previous_commit": "a300044f20d03bd0ab86f88f5828181874f72c7a",
+    "previous_success_ms": 1793743328740,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
