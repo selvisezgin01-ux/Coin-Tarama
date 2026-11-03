@@ -1644081,128 +1644081,7 @@
       "source_close_ms": 1793734200000
     }
   },
-  "pending": [
-    {
-      "id": "a1f406890d85a826eb16ae99",
-      "asset_id": "fc05985ba31a457e4f4905f4",
-      "key": "OKX:PERP:0GUSDT",
-      "symbol": "0GUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_continuing",
-      "observed_ms": 1793736181649,
-      "price": 0.15685,
-      "level": 0.1542,
-      "invalid": 0.1541026701223045,
-      "target": 0.16107940975539106,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1542,
-        "base_invalid": 0.1501026701223045,
-        "atr": 0.001315532517969892,
-        "rvol": 3.051911397554896,
-        "close_position": 0.9166666666666647,
-        "breakout": true,
-        "bar_close_ms": 1793726100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.106411103767348,
-        "score": 4.9685780642215605
-      },
-      "context": {
-        "atr": 0.0012281951595867,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.056185992356684,
-        "btc_hour_pct": 0.03635899478984239,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:0GUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.1541026701223045,
-        "target": 0.16107940975539106,
-        "risk_pct": 0.9941084983588265,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.1641,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.1551,
-        "entry_zone_high": 0.15579280824809935
-      },
-      "reason": null,
-      "source_close_ms": 1793736000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "0GUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793736000000,
-        "closed_price": 0.1573,
-        "ema20_1h": 0.15528514611430103,
-        "atr14_1h": 0.0021978324740860545,
-        "structure_floor": 0.1545,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "7a7a4c0c782f4667fbdd144d",
-      "asset_id": "2f658831685b3b4fb1c430a7",
-      "key": "MEXC:SPOT:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793736180625,
-      "price": 629.8800000000001,
-      "level": 631.99,
-      "invalid": 624.3430946775742,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 631.99,
-        "base_invalid": 624.3430946775742,
-        "atr": 3.979368816172797,
-        "rvol": 4.758718981426337,
-        "close_position": 0.9603624009059993,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.682266834627577,
-        "score": 6.719081382332336
-      },
-      "context": {
-        "atr": 4.100138565480245,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6973068370888402,
-        "btc_hour_pct": 0.03199252596848279,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1658327,6 +1658206,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793735901060
+    },
+    {
+      "id": "a1f406890d85a826eb16ae99",
+      "asset_id": "fc05985ba31a457e4f4905f4",
+      "key": "OKX:PERP:0GUSDT",
+      "symbol": "0GUSDT",
+      "phase": "trend_continuing",
+      "observed_ms": 1793736181649,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793736215834
+    },
+    {
+      "id": "7a7a4c0c782f4667fbdd144d",
+      "asset_id": "2f658831685b3b4fb1c430a7",
+      "key": "MEXC:SPOT:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793736180625,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793736215835
     }
   ],
   "runs": [
@@ -1804271,8 +1804172,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cff8f84c3424330c97f5948000393ee4566b8c7d",
-    "previous_success_ms": 1793735962306,
+    "previous_commit": "5d7477d9dc7ee46ae30c734231b8b485d6e45bcc",
+    "previous_success_ms": 1793736214312,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
