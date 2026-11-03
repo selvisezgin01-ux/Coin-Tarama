@@ -1548285,60 +1548285,7 @@
       "source_close_ms": 1793690100000
     }
   },
-  "pending": [
-    {
-      "id": "bd9dc36de7b45a576a2d842f",
-      "asset_id": "e974c455b0f35bd324a8fa96",
-      "key": "OKX:SPOT:SSVUSDT",
-      "symbol": "SSVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793691549016,
-      "price": 2.268,
-      "level": 2.278,
-      "invalid": 2.2443554469517477,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.278,
-        "base_invalid": 2.2443554469517477,
-        "atr": 0.010963686988348766,
-        "rvol": 76.89094404847015,
-        "close_position": 0.6666666666666666,
-        "breakout": false,
-        "bar_close_ms": 1793691000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.22094564737074052,
-        "score": 7.166666666666667
-      },
-      "context": {
-        "atr": 0.010963686988348766,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4407541847165741,
-        "btc_hour_pct": -0.08857973676555941,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SSVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793691000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SSVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1560714,6 +1560661,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793691265981
+    },
+    {
+      "id": "bd9dc36de7b45a576a2d842f",
+      "asset_id": "e974c455b0f35bd324a8fa96",
+      "key": "OKX:SPOT:SSVUSDT",
+      "symbol": "SSVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793691549016,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793691559860
     }
   ],
   "runs": [
@@ -1669796,7 +1669754,8 @@
         "entry_seq": 0,
         "cohort": "SSVUSDT",
         "observation_lag_ms": 549016,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10844
       }
     },
     "errors": [],
@@ -1695827,8 +1695786,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9135e0315771c827d1499f6e5235050d44bae06d",
-    "previous_success_ms": 1793691287565,
+    "previous_commit": "88a133b471a1228ecf74510aac80de8da25269db",
+    "previous_success_ms": 1793691558791,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
