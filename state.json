@@ -1631010,158 +1631010,7 @@
       "source_close_ms": 1793713500000
     }
   },
-  "pending": [
-    {
-      "id": "3a2a119876b700c65dd73bdc",
-      "asset_id": "4581f39f21faefe4999cf665",
-      "key": "OKX:PERP:WLFIUSDT",
-      "symbol": "WLFIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793713612178,
-      "price": 0.050975,
-      "level": 0.05131,
-      "invalid": 0.04965099425030187,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05131,
-        "base_invalid": 0.04965099425030187,
-        "atr": 0.0003267049979875128,
-        "rvol": 6.851422432089446,
-        "close_position": 0.7368421052631584,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8263943440691266,
-        "score": 7.736842105263158
-      },
-      "context": {
-        "atr": 0.00035966969398435036,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6229557933472796,
-        "btc_hour_pct": 0.41687155607395,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WLFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4e470067199356f4d7fa5108",
-      "asset_id": "8a602ea24ada450c5b0907aa",
-      "key": "OKX:SPOT:WLFIUSDT",
-      "symbol": "WLFIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793713614567,
-      "price": 0.051000000000000004,
-      "level": 0.05136,
-      "invalid": 0.049703031976924966,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05136,
-        "base_invalid": 0.049703031976924966,
-        "atr": 0.00031312015383359686,
-        "rvol": 9.947156054427902,
-        "close_position": 0.7183098591549322,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7653981953707376,
-        "score": 7.718309859154932
-      },
-      "context": {
-        "atr": 0.0003489897061404014,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6396947252228058,
-        "btc_hour_pct": 0.4189212324325453,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WLFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9781054661a604fe5dab03ba",
-      "asset_id": "aba914f7eeb6bfe0bbb79214",
-      "key": "MEXC:SPOT:WLFIUSDT",
-      "symbol": "WLFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793713612595,
-      "price": 0.050934999999999994,
-      "level": 0.05132,
-      "invalid": 0.049715040203395115,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05132,
-        "base_invalid": 0.049715040203395115,
-        "atr": 0.0002997319773659091,
-        "rvol": 7.893403123140739,
-        "close_position": 0.6363636363636331,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7481830681594923,
-        "score": 7.636363636363633
-      },
-      "context": {
-        "atr": 0.00033404292592379315,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9608953755631866,
-        "btc_hour_pct": 0.41408007130383506,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WLFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1644395,6 +1644244,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793713319150
+    },
+    {
+      "id": "3a2a119876b700c65dd73bdc",
+      "asset_id": "4581f39f21faefe4999cf665",
+      "key": "OKX:PERP:WLFIUSDT",
+      "symbol": "WLFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793713612178,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713626948
+    },
+    {
+      "id": "4e470067199356f4d7fa5108",
+      "asset_id": "8a602ea24ada450c5b0907aa",
+      "key": "OKX:SPOT:WLFIUSDT",
+      "symbol": "WLFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793713614567,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713626949
+    },
+    {
+      "id": "9781054661a604fe5dab03ba",
+      "asset_id": "aba914f7eeb6bfe0bbb79214",
+      "key": "MEXC:SPOT:WLFIUSDT",
+      "symbol": "WLFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793713612595,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713626949
     }
   ],
   "runs": [
@@ -1784928,8 +1784810,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b6ba9c2892087e3701d4778144d1da913c7c5b4f",
-    "previous_success_ms": 1793713340070,
+    "previous_commit": "9ee74c3677163a783deacc09f48325ee7bb8fc68",
+    "previous_success_ms": 1793713625513,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
