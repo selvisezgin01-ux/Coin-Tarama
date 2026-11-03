@@ -1509155,112 +1509155,7 @@
       "source_close_ms": 1793664900000
     }
   },
-  "pending": [
-    {
-      "id": "917686dfb0e21b7a2811e69f",
-      "asset_id": "302a5a7f073a528ef85b26cd",
-      "key": "OKX:SPOT:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793666132649,
-      "price": 21.72,
-      "level": 21.42,
-      "invalid": 21.200028983336363,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 21.42,
-        "base_invalid": 21.200028983336363,
-        "atr": 0.133140111090898,
-        "rvol": 3.7553567169780653,
-        "close_position": 0.9000000000000018,
-        "breakout": true,
-        "bar_close_ms": 1793665800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5984955336154183,
-        "score": 5.655356716978067
-      },
-      "context": {
-        "atr": 0.133140111090898,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3120752489962353,
-        "btc_hour_pct": -0.1715600265138173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793665800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "38c3493d6975a67f1397667e",
-      "asset_id": "7a9f18701326aa6263f0a90d",
-      "key": "OKX:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793666134151,
-      "price": 21.713,
-      "level": 21.423,
-      "invalid": 21.19167496932116,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 21.423,
-        "base_invalid": 21.19167496932116,
-        "atr": 0.14883353785893533,
-        "rvol": 3.8551149029324985,
-        "close_position": 0.7596899224806286,
-        "breakout": true,
-        "bar_close_ms": 1793665800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3087531663382945,
-        "score": 5.6148048254131275
-      },
-      "context": {
-        "atr": 0.14883353785893533,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.14780166048524723,
-        "btc_hour_pct": -0.1618564742589701,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793665800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1520734,6 +1520629,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793665847977
+    },
+    {
+      "id": "917686dfb0e21b7a2811e69f",
+      "asset_id": "302a5a7f073a528ef85b26cd",
+      "key": "OKX:SPOT:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793666132649,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793666143313
+    },
+    {
+      "id": "38c3493d6975a67f1397667e",
+      "asset_id": "7a9f18701326aa6263f0a90d",
+      "key": "OKX:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793666134151,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793666143313
     }
   ],
   "runs": [
@@ -1622661,7 +1622578,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 332649,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10664
       },
       "7a9f18701326aa6263f0a90d:radar": {
         "symbol": "VVVUSDT",
@@ -1622683,7 +1622601,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 334151,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9162
       }
     },
     "errors": [],
@@ -1648711,8 +1648630,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fba1ae722042e7b8db349d161f9a48b4f96433ab",
-    "previous_success_ms": 1793665868206,
+    "previous_commit": "286ad597aeceb8a3dd065d1dbd85272bf029b17f",
+    "previous_success_ms": 1793666141983,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
