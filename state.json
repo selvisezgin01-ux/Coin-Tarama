@@ -1522461,110 +1522461,7 @@
       "source_close_ms": 1793678400000
     }
   },
-  "pending": [
-    {
-      "id": "d267d1d703d2ce74b4806abd",
-      "asset_id": "fe2a41ac66b9dd14407769a9",
-      "key": "MEXC:SPOT:CGNUSDT",
-      "symbol": "CGNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793678444449,
-      "price": 0.0020595,
-      "level": 0.002063,
-      "invalid": 0.002029652609052601,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002063,
-        "base_invalid": 0.002029652609052601,
-        "atr": 8.98260631599051e-06,
-        "rvol": 3.4918126137268914,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793658600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5386875612145126,
-        "score": 4.991812613726891
-      },
-      "context": {
-        "atr": 1.3769631522285974e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2439761470962365,
-        "btc_hour_pct": 0.2941843225710894,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CGNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793658600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CGNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c0225fb5122557b92fc617be",
-      "asset_id": "6880a974d5b91268df352bd8",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793678444970,
-      "price": 0.079795,
-      "level": 0.07959,
-      "invalid": 0.07856885094887701,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07959,
-        "base_invalid": 0.07856885094887701,
-        "atr": 0.00040766034081993966,
-        "rvol": 7.113011963241219,
-        "close_position": 0.6271186440678002,
-        "breakout": true,
-        "bar_close_ms": 1793678400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4100609756097615,
-        "score": 7.6271186440678
-      },
-      "context": {
-        "atr": 0.00040766034081993966,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1225993853018368,
-        "btc_hour_pct": 0.28746159030792473,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793678400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1534533,6 +1534430,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793677552772
+    },
+    {
+      "id": "d267d1d703d2ce74b4806abd",
+      "asset_id": "fe2a41ac66b9dd14407769a9",
+      "key": "MEXC:SPOT:CGNUSDT",
+      "symbol": "CGNUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793678444449,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793678456754
+    },
+    {
+      "id": "c0225fb5122557b92fc617be",
+      "asset_id": "6880a974d5b91268df352bd8",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "radar",
+      "observed_ms": 1793678444970,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793678456754
     }
   ],
   "runs": [
@@ -1640282,7 +1640201,8 @@
         "entry_seq": 0,
         "cohort": "AUSDT",
         "observation_lag_ms": 44970,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11784
       }
     },
     "errors": [],
@@ -1666315,8 +1666235,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a699343323e9e850fa65eb2a04258954f970e21f",
-    "previous_success_ms": 1793678169450,
+    "previous_commit": "7c6c5874895411e66530a6ad9108dae5ec9b3cd8",
+    "previous_success_ms": 1793678455686,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
