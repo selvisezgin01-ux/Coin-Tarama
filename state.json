@@ -1647356,112 +1647356,7 @@
       "source_close_ms": 1793726100000
     }
   },
-  "pending": [
-    {
-      "id": "339657403d47477cf32f098f",
-      "asset_id": "7077aae868640f498c700456",
-      "key": "MEXC:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793726916857,
-      "price": 22.3285,
-      "level": 20.936,
-      "invalid": 20.451828814154638,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 20.936,
-        "base_invalid": 20.451828814154638,
-        "atr": 0.21447457230242595,
-        "rvol": 7.973635667677065,
-        "close_position": 0.8505942275042425,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.6570515922950344,
-        "score": 7.850594227504242
-      },
-      "context": {
-        "atr": 0.2189977820291446,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.4346602977740366,
-        "btc_hour_pct": 0.06347832916797636,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:VVVUSDT",
-          "change_pct": 0.3661182038772415,
-          "old_ms": 1793723371078,
-          "current_ms": 1793726915241,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cba7d74927316c2996d3957e",
-      "asset_id": "55ca749f6336e1cfba853500",
-      "key": "OKX:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793726917381,
-      "price": 22.3305,
-      "level": 20.958,
-      "invalid": 20.45456364565172,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 20.958,
-        "base_invalid": 20.45456364565172,
-        "atr": 0.2295756956552047,
-        "rvol": 8.162670617608883,
-        "close_position": 0.818181818181815,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.710158253883743,
-        "score": 7.818181818181815
-      },
-      "context": {
-        "atr": 0.2339119995237627,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.26696845258943336,
-        "btc_hour_pct": 0.0655450606195096,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1661267,6 +1661162,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793726040773
+    },
+    {
+      "id": "339657403d47477cf32f098f",
+      "asset_id": "7077aae868640f498c700456",
+      "key": "MEXC:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "expired",
+      "observed_ms": 1793726916857,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793726931974
+    },
+    {
+      "id": "cba7d74927316c2996d3957e",
+      "asset_id": "55ca749f6336e1cfba853500",
+      "key": "OKX:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "expired",
+      "observed_ms": 1793726917381,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793726931974
     }
   ],
   "runs": [
@@ -1805109,8 +1805026,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "043072d6d7be7bead73f61bb7485d758f9a25852",
-    "previous_success_ms": 1793726666533,
+    "previous_commit": "3d15d1f01f314255452c0fd36e9d33c2ad1eb854",
+    "previous_success_ms": 1793726930875,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
