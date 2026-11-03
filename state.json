@@ -1520404,64 +1520404,7 @@
       "source_close_ms": 1793671200000
     }
   },
-  "pending": [
-    {
-      "id": "9d51c7fc63628c1a39ee7877",
-      "asset_id": "eee8339a0179fd01ebf96310",
-      "key": "MEXC:PERP:USELESSUSDT",
-      "symbol": "USELESSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793671632914,
-      "price": 0.120755,
-      "level": 0.12318,
-      "invalid": 0.11866773325088238,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12318,
-        "base_invalid": 0.11866773325088238,
-        "atr": 0.0018817783274507436,
-        "rvol": 2.357061630721528,
-        "close_position": 0.9789029535864945,
-        "breakout": false,
-        "bar_close_ms": 1793649600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.27653517690118257,
-        "score": 3.8359645843080226
-      },
-      "context": {
-        "atr": 0.0011479653556959093,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.19924585842719944,
-        "btc_hour_pct": -0.00972707134742068,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:USELESSUSDT",
-          "change_pct": 0.020532271130502266,
-          "old_ms": 1793667921133,
-          "current_ms": 1793671629449,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793649600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "USELESSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1532133,6 +1532076,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793671351704
+    },
+    {
+      "id": "9d51c7fc63628c1a39ee7877",
+      "asset_id": "eee8339a0179fd01ebf96310",
+      "key": "MEXC:PERP:USELESSUSDT",
+      "symbol": "USELESSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793671632914,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793671644145
     }
   ],
   "runs": [
@@ -1661912,8 +1661866,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5547486c5bef5895a3f9781dc0ae52ba4b8697e1",
-    "previous_success_ms": 1793671369087,
+    "previous_commit": "6c7106b5d4e7c316256dcfa14715580f47a6f7f9",
+    "previous_success_ms": 1793671642973,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
