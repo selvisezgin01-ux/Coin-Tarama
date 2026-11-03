@@ -1792093,8 +1792093,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c9a482cdc6a423b0f2ec9e27179dc3b4ff18f09f",
-    "previous_success_ms": 1793718621771,
+    "previous_commit": "5b7464f16414cb5d154567ede5ac2beca04082c6",
+    "previous_success_ms": 1793718891200,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
