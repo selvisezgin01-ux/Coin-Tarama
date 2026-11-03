@@ -1639599,164 +1639599,7 @@
       "source_close_ms": 1793719800000
     }
   },
-  "pending": [
-    {
-      "id": "b015e81dffb19fc0b7191b90",
-      "asset_id": "f42dbef50f79016887e9aa0a",
-      "key": "OKX:SPOT:BERAUSDT",
-      "symbol": "BERAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793720085464,
-      "price": 0.13090000000000002,
-      "level": 0.1308,
-      "invalid": 0.12920486140934165,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1308,
-        "base_invalid": 0.12920486140934165,
-        "atr": 0.0006342572710555764,
-        "rvol": 5.323831503946028,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793700900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.30674846625766694,
-        "score": 6.823831503946028
-      },
-      "context": {
-        "atr": 0.0007572162346109764,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.08161702082244426,
-        "btc_hour_pct": 0.006202239525321396,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BERAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793700900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BERAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e6c2f04c63b2c1fc7033d9e7",
-      "asset_id": "5b99a6e39e07c6a2937f47d7",
-      "key": "MEXC:SPOT:ONDOUSDT",
-      "symbol": "ONDOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793720084079,
-      "price": 0.38663000000000003,
-      "level": 0.39239,
-      "invalid": 0.385377034288628,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.39239,
-        "base_invalid": 0.385377034288628,
-        "atr": 0.002019771409146596,
-        "rvol": 13.61811603824932,
-        "close_position": 0.9400921658986217,
-        "breakout": false,
-        "bar_close_ms": 1793717100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3555623768961125,
-        "score": 7.440092165898622
-      },
-      "context": {
-        "atr": 0.0022562946166708475,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.28315061657493423,
-        "btc_hour_pct": 0.009367088444056648,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ONDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793717100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8d6ff09732256f54eefd330f",
-      "asset_id": "8e016583e525ca51e24f02bd",
-      "key": "MEXC:SPOT:MONUSDT",
-      "symbol": "MONUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793720084079,
-      "price": 0.01734,
-      "level": 0.01758,
-      "invalid": 0.017058640575453702,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01758,
-        "base_invalid": 0.017058640575453702,
-        "atr": 0.00014239616364199284,
-        "rvol": 10.041288879412807,
-        "close_position": 0.954545454545456,
-        "breakout": false,
-        "bar_close_ms": 1793719800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.1702750146284302,
-        "score": 7.454545454545456
-      },
-      "context": {
-        "atr": 0.00014239616364199284,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5867342939867792,
-        "btc_hour_pct": 0.009367088444056648,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793719800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1653287,6 +1653130,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793719497852
+    },
+    {
+      "id": "b015e81dffb19fc0b7191b90",
+      "asset_id": "f42dbef50f79016887e9aa0a",
+      "key": "OKX:SPOT:BERAUSDT",
+      "symbol": "BERAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793720085464,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793720099320
+    },
+    {
+      "id": "e6c2f04c63b2c1fc7033d9e7",
+      "asset_id": "5b99a6e39e07c6a2937f47d7",
+      "key": "MEXC:SPOT:ONDOUSDT",
+      "symbol": "ONDOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793720084079,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793720099320
+    },
+    {
+      "id": "8d6ff09732256f54eefd330f",
+      "asset_id": "8e016583e525ca51e24f02bd",
+      "key": "MEXC:SPOT:MONUSDT",
+      "symbol": "MONUSDT",
+      "phase": "radar",
+      "observed_ms": 1793720084079,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793720099320
     }
   ],
   "runs": [
@@ -1769360,7 +1769236,8 @@
         "entry_seq": 0,
         "cohort": "MONUSDT",
         "observation_lag_ms": 284079,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15241
       }
     },
     "errors": [],
@@ -1795384,8 +1795261,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a37e56af4ae520993dacf2e20cffcfa40ded3bc4",
-    "previous_success_ms": 1793719816481,
+    "previous_commit": "0f4c5cdabaeea0561b1fa6da96c4d24ac66a5d65",
+    "previous_success_ms": 1793720097957,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
