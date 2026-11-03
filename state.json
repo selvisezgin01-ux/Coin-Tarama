@@ -1578220,230 +1578220,7 @@
       "source_close_ms": 1793704500000
     }
   },
-  "pending": [
-    {
-      "id": "0b674f41c71b1833321f4106",
-      "asset_id": "cd7ae82f044f31372b284b8f",
-      "key": "MEXC:PERP:LABUSDT",
-      "symbol": "LABUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793705070608,
-      "price": 0.047305,
-      "level": 0.04482,
-      "invalid": 0.04402441735519675,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04482,
-        "base_invalid": 0.04402441735519675,
-        "atr": 0.0003705509653550246,
-        "rvol": 2.496816258408308,
-        "close_position": 0.662337662337658,
-        "breakout": true,
-        "bar_close_ms": 1793682900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1498076487893147,
-        "score": 4.1591539207459665
-      },
-      "context": {
-        "atr": 0.0004851429652085382,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.3012125593140125,
-        "btc_hour_pct": 0.0830743749302254,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LABUSDT",
-          "change_pct": 0.41600422464789233,
-          "old_ms": 1793701583381,
-          "current_ms": 1793705065215,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0102,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793682900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LABUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6d77b0a81eccf96c1fa0dbb8",
-      "asset_id": "deceb28d4f0220a6c88298a8",
-      "key": "OKX:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793705071296,
-      "price": 0.18864999999999998,
-      "level": 0.1906,
-      "invalid": 0.1912383808639853,
-      "target": 0.20740798827202933,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1906,
-        "base_invalid": 0.18583838086398533,
-        "atr": 0.002410794240097907,
-        "rvol": 3.422271081642062,
-        "close_position": 0.7209302325581444,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.336696760488599,
-        "score": 5.143201314200207
-      },
-      "context": {
-        "atr": 0.0027296449755118144,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.02227662017209031,
-        "btc_hour_pct": 0.08151165175316333,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DNAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.1912383808639853,
-        "target": 0.20740798827202933,
-        "risk_pct": 2.2548526123254167,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.2115,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.1951,
-        "entry_zone_high": 0.19643546477500715
-      },
-      "reason": "giriş geçersizliği kaybedildi",
-      "source_close_ms": 1793702700000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": true
-    },
-    {
-      "id": "d74e1b27ddf3aca036a7f9dc",
-      "asset_id": "7077aae868640f498c700456",
-      "key": "MEXC:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793705070608,
-      "price": 21.3175,
-      "level": 20.936,
-      "invalid": 20.451828814154638,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 20.936,
-        "base_invalid": 20.451828814154638,
-        "atr": 0.21447457230242595,
-        "rvol": 7.973635667677065,
-        "close_position": 0.8505942275042425,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.6570515922950344,
-        "score": 7.850594227504242
-      },
-      "context": {
-        "atr": 0.21447457230242595,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3810749264283819,
-        "btc_hour_pct": 0.0830743749302254,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:VVVUSDT",
-          "change_pct": 4.093958754784532,
-          "old_ms": 1793701583355,
-          "current_ms": 1793705069166,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0104,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "da39600224de6affe9651ef5",
-      "asset_id": "55ca749f6336e1cfba853500",
-      "key": "OKX:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793705071296,
-      "price": 21.323999999999998,
-      "level": 20.958,
-      "invalid": 20.45456364565172,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 20.958,
-        "base_invalid": 20.45456364565172,
-        "atr": 0.2295756956552047,
-        "rvol": 8.162670617608883,
-        "close_position": 0.818181818181815,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.710158253883743,
-        "score": 7.818181818181815
-      },
-      "context": {
-        "atr": 0.2295756956552047,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.32438349200136773,
-        "btc_hour_pct": 0.08151165175316333,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1591292,6 +1591069,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793704788761
+    },
+    {
+      "id": "0b674f41c71b1833321f4106",
+      "asset_id": "cd7ae82f044f31372b284b8f",
+      "key": "MEXC:PERP:LABUSDT",
+      "symbol": "LABUSDT",
+      "phase": "expired",
+      "observed_ms": 1793705070608,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705083289
+    },
+    {
+      "id": "6d77b0a81eccf96c1fa0dbb8",
+      "asset_id": "deceb28d4f0220a6c88298a8",
+      "key": "OKX:PERP:DNAUSDT",
+      "symbol": "DNAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793705071296,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793705083289
+    },
+    {
+      "id": "d74e1b27ddf3aca036a7f9dc",
+      "asset_id": "7077aae868640f498c700456",
+      "key": "MEXC:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793705070608,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705083289
+    },
+    {
+      "id": "da39600224de6affe9651ef5",
+      "asset_id": "55ca749f6336e1cfba853500",
+      "key": "OKX:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793705071296,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705083290
     }
   ],
   "runs": [
@@ -1703461,7 +1703282,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 570608,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12681
       },
       "55ca749f6336e1cfba853500:radar": {
         "symbol": "VVVUSDT",
@@ -1703483,7 +1703305,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 571296,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11994
       }
     },
     "errors": [],
@@ -1729521,8 +1729344,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "bdf04d78ede04fec8513520cb2d6e53d3873944c",
-    "previous_success_ms": 1793704808650,
+    "previous_commit": "e2ff5612a15720fdde44a074bf2e3b2f88a45de6",
+    "previous_success_ms": 1793705082099,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
