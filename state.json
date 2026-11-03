@@ -1633397,166 +1633397,7 @@
       "source_close_ms": 1793745000000
     }
   },
-  "pending": [
-    {
-      "id": "e3f76c824cd1cdfe3eb61da9",
-      "asset_id": "d82081808f35f7959b5aea16",
-      "key": "MEXC:PERP:2ZUSDT",
-      "symbol": "2ZUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793746067029,
-      "price": 0.023855,
-      "level": 0.02391,
-      "invalid": 0.022713520601235278,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02391,
-        "base_invalid": 0.022713520601235278,
-        "atr": 0.00024319599176480573,
-        "rvol": 4.63170657273892,
-        "close_position": 0.8846153846153775,
-        "breakout": false,
-        "bar_close_ms": 1793745900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.08421052631577552,
-        "score": 6.016321957354297
-      },
-      "context": {
-        "atr": 0.00024319599176480573,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.4928007154190643,
-        "btc_hour_pct": 0.047409074790727423,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:2ZUSDT",
-          "change_pct": -4.57354497819038,
-          "old_ms": 1793742401564,
-          "current_ms": 1793746063524,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793745900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "2ZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "21b3331936a4026486e60b3b",
-      "asset_id": "584e0e4ca9bd4c13150f4dcd",
-      "key": "OKX:PERP:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793746065556,
-      "price": 0.1397,
-      "level": 0.1374,
-      "invalid": 0.1331680266486186,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1374,
-        "base_invalid": 0.1331680266486186,
-        "atr": 0.0015464890092093356,
-        "rvol": 2.9437433835881883,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793745900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6176470588235237,
-        "score": 4.943743383588188
-      },
-      "context": {
-        "atr": 0.0015464890092093356,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.8189989403057938,
-        "btc_hour_pct": 0.049461448333976143,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AXISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793745900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "76d39962ca8fd1b5354f6563",
-      "asset_id": "5d6aa9ea2e6f0b94345cc109",
-      "key": "MEXC:SPOT:ELUSDT",
-      "symbol": "ELUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793746066133,
-      "price": 0.0014420000000000001,
-      "level": 0.001447,
-      "invalid": 0.0013849042160913884,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001447,
-        "base_invalid": 0.0013849042160913884,
-        "atr": 7.305226057410733e-06,
-        "rvol": 3.3207958043965733,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793745900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.557103064066844,
-        "score": 4.820795804396573
-      },
-      "context": {
-        "atr": 7.305226057410733e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.648859574568661,
-        "btc_hour_pct": 0.04800453692959117,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ELUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793745900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ELUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1648187,6 +1648028,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793745180549
+    },
+    {
+      "id": "e3f76c824cd1cdfe3eb61da9",
+      "asset_id": "d82081808f35f7959b5aea16",
+      "key": "MEXC:PERP:2ZUSDT",
+      "symbol": "2ZUSDT",
+      "phase": "radar",
+      "observed_ms": 1793746067029,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793746078498
+    },
+    {
+      "id": "21b3331936a4026486e60b3b",
+      "asset_id": "584e0e4ca9bd4c13150f4dcd",
+      "key": "OKX:PERP:AXISUSDT",
+      "symbol": "AXISUSDT",
+      "phase": "radar",
+      "observed_ms": 1793746065556,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793746078498
+    },
+    {
+      "id": "76d39962ca8fd1b5354f6563",
+      "asset_id": "5d6aa9ea2e6f0b94345cc109",
+      "key": "MEXC:SPOT:ELUSDT",
+      "symbol": "ELUSDT",
+      "phase": "radar",
+      "observed_ms": 1793746066133,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793746078498
     }
   ],
   "runs": [
@@ -1770391,7 +1770265,8 @@
         "entry_seq": 0,
         "cohort": "2ZUSDT",
         "observation_lag_ms": 167029,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11469
       },
       "584e0e4ca9bd4c13150f4dcd:radar": {
         "symbol": "AXISUSDT",
@@ -1770413,7 +1770288,8 @@
         "entry_seq": 0,
         "cohort": "AXISUSDT",
         "observation_lag_ms": 165556,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12942
       },
       "5d6aa9ea2e6f0b94345cc109:radar": {
         "symbol": "ELUSDT",
@@ -1770435,7 +1770311,8 @@
         "entry_seq": 0,
         "cohort": "ELUSDT",
         "observation_lag_ms": 166133,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12365
       }
     },
     "errors": [],
@@ -1796463,8 +1796340,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "655ba0c8172c064f3660cbabf87bdf312e7af7ac",
-    "previous_success_ms": 1793745792449,
+    "previous_commit": "abf7a3e38447856e21a32b3bee3da476c2854299",
+    "previous_success_ms": 1793746077195,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
