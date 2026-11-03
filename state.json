@@ -214,11 +214,11 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793652352833,
-        "feature_cutoff_ms": 1793649600000,
+        "observed_ms": 1793667595795,
+        "feature_cutoff_ms": 1793664000000,
         "universe_count": 462,
-        "prefilter_count": 43,
-        "analyzed_count": 37,
+        "prefilter_count": 49,
+        "analyzed_count": 42,
         "candidates": []
       }
     },
@@ -418,17 +418,17 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793652402425,
-        "feature_cutoff_ms": 1793649600000,
+        "observed_ms": 1793667648575,
+        "feature_cutoff_ms": 1793664000000,
         "universe_count": 1228,
-        "prefilter_count": 196,
-        "analyzed_count": 186,
+        "prefilter_count": 210,
+        "analyzed_count": 204,
         "candidates": []
       }
     }
   },
   "pending": [],
-  "updated_ms": 1793652402499,
+  "updated_ms": 1793667648697,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12980,7 +12980,19 @@
             "price": 0.065115
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793653412072,
+            "endpoint_ms": 1793653440000,
+            "endpoint_delay_ms": 27928,
+            "endpoint_price": 0.06649,
+            "return_pct": 2.1116486216693264,
+            "btc_excess_pct_points": 4.051174625947029,
+            "control_excess_pct_points": 7.353613099989598,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:HOOKRUSDT": {
         "symbol": "HOOKRUSDT",
@@ -13012,7 +13024,19 @@
             "price": 0.019815
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793653487613,
+            "endpoint_ms": 1793653500000,
+            "endpoint_delay_ms": 12387,
+            "endpoint_price": 0.01581,
+            "return_pct": -20.211960635881898,
+            "btc_excess_pct_points": -18.329269511077307,
+            "control_excess_pct_points": -13.768617617594414,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:XPUSDT": {
         "symbol": "XPUSDT",
@@ -13044,7 +13068,19 @@
             "price": 0.0081685
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793653487613,
+            "endpoint_ms": 1793653500000,
+            "endpoint_delay_ms": 12387,
+            "endpoint_price": 0.007871,
+            "return_pct": -3.642039542143616,
+            "btc_excess_pct_points": -1.759348417339024,
+            "control_excess_pct_points": -1.3451052085324156,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:OGNUSDT": {
         "symbol": "OGNUSDT",
@@ -13076,7 +13112,19 @@
             "price": 0.025974999999999998
           }
         ],
-        "outcomes": {}
+        "outcomes": {
+          "12": {
+            "target_ms": 1793653487613,
+            "endpoint_ms": 1793653500000,
+            "endpoint_delay_ms": 12387,
+            "endpoint_price": 0.02583,
+            "return_pct": -0.5582290664100098,
+            "btc_excess_pct_points": 1.324462058394582,
+            "control_excess_pct_points": 6.015324903530783,
+            "complete": true,
+            "controls_count": 3
+          }
+        }
       },
       "MEXC:DEFIUSDT": {
         "symbol": "DEFIUSDT",
@@ -13112,6 +13160,6 @@
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793652402499
+    "asof_ms": 1793667648697
   }
 }
