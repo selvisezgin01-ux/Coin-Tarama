@@ -1546364,60 +1546364,7 @@
       "source_close_ms": 1793680200000
     }
   },
-  "pending": [
-    {
-      "id": "07a99d3ba0dccd8fbbab702b",
-      "asset_id": "b9fdb2ab756c064ae66a571b",
-      "key": "OKX:PERP:ETHWUSDT",
-      "symbol": "ETHWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793681140887,
-      "price": 0.217,
-      "level": 0.2159,
-      "invalid": 0.21161651238775248,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2159,
-        "base_invalid": 0.21161651238775248,
-        "atr": 0.0012232507483167638,
-        "rvol": 7.527508968030239,
-        "close_position": 0.6874999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793681100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7840375586854362,
-        "score": 7.687499999999998
-      },
-      "context": {
-        "atr": 0.0012232507483167638,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3808282773994254,
-        "btc_hour_pct": 0.2770664594426764,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ETHWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793681100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1558474,6 +1558421,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793680255444
+    },
+    {
+      "id": "07a99d3ba0dccd8fbbab702b",
+      "asset_id": "b9fdb2ab756c064ae66a571b",
+      "key": "OKX:PERP:ETHWUSDT",
+      "symbol": "ETHWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793681140887,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793681153937
     }
   ],
   "runs": [
@@ -1664936,7 +1664894,8 @@
         "entry_seq": 0,
         "cohort": "ETHWUSDT",
         "observation_lag_ms": 40887,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13050
       }
     },
     "errors": [],
@@ -1690963,8 +1690922,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "89a01977bdc0775a3a7a35eea0c6f049cc064f9b",
-    "previous_success_ms": 1793680871712,
+    "previous_commit": "57529d4550b8c572a51c6dc4756027431a1f555f",
+    "previous_success_ms": 1793681152412,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
