@@ -1546417,60 +1546417,7 @@
       "source_close_ms": 1793685600000
     }
   },
-  "pending": [
-    {
-      "id": "90948d29da18e8903280b9d0",
-      "asset_id": "f8ee50eb7937ccc56930ca4e",
-      "key": "OKX:PERP:ATOMUSDT",
-      "symbol": "ATOMUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793685758861,
-      "price": 1.4195,
-      "level": 1.432,
-      "invalid": 1.4151080075667997,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.432,
-        "base_invalid": 1.4151080075667997,
-        "atr": 0.0059466162213343875,
-        "rvol": 4.42615301353382,
-        "close_position": 0.6666666666666748,
-        "breakout": true,
-        "bar_close_ms": 1793683800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4901960784313708,
-        "score": 6.092819680200495
-      },
-      "context": {
-        "atr": 0.007724825481171932,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4641394887006767,
-        "btc_hour_pct": -0.3744349347794107,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATOMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793683800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATOMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1558703,6 +1558650,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793684872023
+    },
+    {
+      "id": "90948d29da18e8903280b9d0",
+      "asset_id": "f8ee50eb7937ccc56930ca4e",
+      "key": "OKX:PERP:ATOMUSDT",
+      "symbol": "ATOMUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793685758861,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793685774255
     }
   ],
   "runs": [
@@ -1692278,8 +1692236,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "74e27d29789829e92d5ae5a38e3fcff596247f0d",
-    "previous_success_ms": 1793685488988,
+    "previous_commit": "6e7ef7153e5a5e88613cdfc63cda2e3bb691e3b9",
+    "previous_success_ms": 1793685773140,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
