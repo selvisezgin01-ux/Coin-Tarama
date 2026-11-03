@@ -1642036,168 +1642036,7 @@
       "source_close_ms": 1793728800000
     }
   },
-  "pending": [
-    {
-      "id": "8f0ec28bb6acafcb40f352e7",
-      "asset_id": "79ac66f5ed6673d45414184d",
-      "key": "OKX:SPOT:WUSDT",
-      "symbol": "WUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793729921789,
-      "price": 0.0110245,
-      "level": 0.01091,
-      "invalid": 0.010791445512952798,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01091,
-        "base_invalid": 0.010791445512952798,
-        "atr": 5.036324698133851e-05,
-        "rvol": 6.171779084725131,
-        "close_position": 0.8545454545454497,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2814603116068746,
-        "score": 7.85454545454545
-      },
-      "context": {
-        "atr": 5.872659633124695e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7109402585351532,
-        "btc_hour_pct": -0.11911653095615371,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793707200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "37eb6ddedfd9f3b249936f94",
-      "asset_id": "96924079c9abb1c9bf9a7353",
-      "key": "MEXC:PERP:RIVERUSDT",
-      "symbol": "RIVERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793729925591,
-      "price": 0.8985000000000001,
-      "level": 0.902,
-      "invalid": 0.8880701468574246,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.902,
-        "base_invalid": 0.8880701468574246,
-        "atr": 0.006199020950502845,
-        "rvol": 3.22702308829687,
-        "close_position": 0.9,
-        "breakout": false,
-        "bar_close_ms": 1793729700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4474272930648837,
-        "score": 4.62702308829687
-      },
-      "context": {
-        "atr": 0.006199020950502845,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5583128666449055,
-        "btc_hour_pct": -0.11207819480760772,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RIVERUSDT",
-          "change_pct": 6.054939594364983,
-          "old_ms": 1793726307187,
-          "current_ms": 1793729922281,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793729700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RIVERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aa2ac92cc1ee223d33db228c",
-      "asset_id": "a3a949d22b2dd44272a04641",
-      "key": "MEXC:SPOT:TRUTHUSDT",
-      "symbol": "TRUTHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793729923083,
-      "price": 0.016466500000000002,
-      "level": 0.016373,
-      "invalid": 0.015995755374254066,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.016373,
-        "base_invalid": 0.015995755374254066,
-        "atr": 0.00020163083830621343,
-        "rvol": 2.110728248272754,
-        "close_position": 0.7862068965517246,
-        "breakout": true,
-        "bar_close_ms": 1793729700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.737943020296684,
-        "score": 3.8969351448244787
-      },
-      "context": {
-        "atr": 0.00020163083830621343,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3352050080435487,
-        "btc_hour_pct": -0.12444378810801959,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TRUTHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793729700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656069,6 +1655908,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793729341982
+    },
+    {
+      "id": "8f0ec28bb6acafcb40f352e7",
+      "asset_id": "79ac66f5ed6673d45414184d",
+      "key": "OKX:SPOT:WUSDT",
+      "symbol": "WUSDT",
+      "phase": "expired",
+      "observed_ms": 1793729921789,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793729955768
+    },
+    {
+      "id": "37eb6ddedfd9f3b249936f94",
+      "asset_id": "96924079c9abb1c9bf9a7353",
+      "key": "MEXC:PERP:RIVERUSDT",
+      "symbol": "RIVERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793729925591,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793729955768
+    },
+    {
+      "id": "aa2ac92cc1ee223d33db228c",
+      "asset_id": "a3a949d22b2dd44272a04641",
+      "key": "MEXC:SPOT:TRUTHUSDT",
+      "symbol": "TRUTHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793729923083,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793729955768
     }
   ],
   "runs": [
@@ -1774553,7 +1774425,8 @@
         "entry_seq": 0,
         "cohort": "RIVERUSDT",
         "observation_lag_ms": 225591,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 30177
       },
       "a3a949d22b2dd44272a04641:radar": {
         "symbol": "TRUTHUSDT",
@@ -1774575,7 +1774448,8 @@
         "entry_seq": 0,
         "cohort": "TRUTHUSDT",
         "observation_lag_ms": 223083,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 32685
       }
     },
     "errors": [],
@@ -1800602,8 +1800476,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f6c95eb312de78aa44c967372032a36e921a5158",
-    "previous_success_ms": 1793729689700,
+    "previous_commit": "d9120ad032fd602347b7c76f43919a810e65aae0",
+    "previous_success_ms": 1793729954750,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
