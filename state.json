@@ -1522516,116 +1522516,7 @@
       "source_close_ms": 1793669400000
     }
   },
-  "pending": [
-    {
-      "id": "5ccc12ca93edd2bdc06869ce",
-      "asset_id": "809fb39170e4c37ca39487d8",
-      "key": "OKX:SPOT:DASHUSDT",
-      "symbol": "DASHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793671339079,
-      "price": 46.085,
-      "level": 46.56,
-      "invalid": 46.12054572380286,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 46.56,
-        "base_invalid": 46.12054572380286,
-        "atr": 0.196361841314235,
-        "rvol": 124.80513337609656,
-        "close_position": 0.9285714285714177,
-        "breakout": true,
-        "bar_close_ms": 1793668500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6260794473229581,
-        "score": 7.928571428571418
-      },
-      "context": {
-        "atr": 0.20377619759597496,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5747691951902056,
-        "btc_hour_pct": -0.0070019748162453155,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DASHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793668500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DASHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a9354aa74197bc5358e9a14c",
-      "asset_id": "019d6a6b37115ee1158e76e0",
-      "key": "MEXC:PERP:XDPUSDT",
-      "symbol": "XDPUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793671340897,
-      "price": 0.018295,
-      "level": 0.01789,
-      "invalid": 0.017129485539296774,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01789,
-        "base_invalid": 0.017129485539296774,
-        "atr": 0.00020342973802152655,
-        "rvol": 11.046114967853052,
-        "close_position": 0.9743589743589752,
-        "breakout": true,
-        "bar_close_ms": 1793671200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8724373576309867,
-        "score": 7.974358974358975
-      },
-      "context": {
-        "atr": 0.00020342973802152655,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.8821644289784074,
-        "btc_hour_pct": -0.00972707134742068,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XDPUSDT",
-          "change_pct": 0.26466586881281895,
-          "old_ms": 1793667621886,
-          "current_ms": 1793671339754,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793671200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1534275,6 +1534166,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793671047120
+    },
+    {
+      "id": "5ccc12ca93edd2bdc06869ce",
+      "asset_id": "809fb39170e4c37ca39487d8",
+      "key": "OKX:SPOT:DASHUSDT",
+      "symbol": "DASHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793671339079,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793671351703
+    },
+    {
+      "id": "a9354aa74197bc5358e9a14c",
+      "asset_id": "019d6a6b37115ee1158e76e0",
+      "key": "MEXC:PERP:XDPUSDT",
+      "symbol": "XDPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793671340897,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793671351704
     }
   ],
   "runs": [
@@ -1637959,7 +1637872,8 @@
         "entry_seq": 0,
         "cohort": "XDPUSDT",
         "observation_lag_ms": 140897,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10807
       }
     },
     "errors": [],
@@ -1663988,8 +1663902,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "41e673932402be31bdd55201dc4af6f6aac0c982",
-    "previous_success_ms": 1793671070657,
+    "previous_commit": "9f32a23a0cf9d34ab30dd605cec69b484ad508f3",
+    "previous_success_ms": 1793671350410,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
