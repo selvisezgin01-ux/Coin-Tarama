@@ -1645816,58 +1645816,7 @@
       "source_close_ms": 1793722500000
     }
   },
-  "pending": [
-    {
-      "id": "6cea81349c65c9f42d9291dc",
-      "asset_id": "e1e4a70c54acb9104df503cf",
-      "key": "OKX:PERP:KMNOUSDT",
-      "symbol": "KMNOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793722785342,
-      "price": 0.033519999999999994,
-      "level": 0.03343,
-      "invalid": 0.031013107395466324,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03343,
-        "base_invalid": 0.031013107395466324,
-        "atr": 0.0004459506968911781,
-        "rvol": 8.02220439845232,
-        "close_position": 0.7526881720430098,
-        "breakout": true,
-        "bar_close_ms": 1793720700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.5120147874306618,
-        "score": 7.75268817204301
-      },
-      "context": {
-        "atr": 0.00043331539142966774,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.2505662395856385,
-        "btc_hour_pct": 0.38262420744437087,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KMNOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793720700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KMNOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1659497,6 +1659446,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793722194765
+    },
+    {
+      "id": "6cea81349c65c9f42d9291dc",
+      "asset_id": "e1e4a70c54acb9104df503cf",
+      "key": "OKX:PERP:KMNOUSDT",
+      "symbol": "KMNOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793722785342,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793722797749
     }
   ],
   "runs": [
@@ -1802276,8 +1802236,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ec10c130d0503e3210f2bfd0abc45ded77efe2c0",
-    "previous_success_ms": 1793722521246,
+    "previous_commit": "e048f9b9c6e93a4cdadfdad1fcd1be742577b954",
+    "previous_success_ms": 1793722796429,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
