@@ -1552566,114 +1552566,7 @@
       "source_close_ms": 1793691900000
     }
   },
-  "pending": [
-    {
-      "id": "2f74294f3b8f9c7dcb62598e",
-      "asset_id": "64be1cf07fea6d1f70dc5c02",
-      "key": "MEXC:PERP:ERAUSDT",
-      "symbol": "ERAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793692747998,
-      "price": 0.065085,
-      "level": 0.06344,
-      "invalid": 0.06155568215834589,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06344,
-        "base_invalid": 0.06155568215834589,
-        "atr": 0.0006287856110274263,
-        "rvol": 2.3949350287470796,
-        "close_position": 0.7730496453900717,
-        "breakout": true,
-        "bar_close_ms": 1793670300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.5148165945859446,
-        "score": 4.167984674137151
-      },
-      "context": {
-        "atr": 0.000821523350010801,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5376711206746876,
-        "btc_hour_pct": -0.09539568983740754,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ERAUSDT",
-          "change_pct": 17.5730970223412,
-          "old_ms": 1793689045364,
-          "current_ms": 1793692746218,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.4092,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793670300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ERAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f43d8e9206bed7005bb9b6a2",
-      "asset_id": "ce658a073cdf7005e44efc2f",
-      "key": "OKX:SPOT:ZBCNUSDT",
-      "symbol": "ZBCNUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793692745571,
-      "price": 0.0019568,
-      "level": 0.001936,
-      "invalid": 0.0019153365710010987,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001936,
-        "base_invalid": 0.0019153365710010987,
-        "atr": 1.3756193326008829e-05,
-        "rvol": 2.3368042882671403,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793691900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3676630575558235,
-        "score": 4.336804288267141
-      },
-      "context": {
-        "atr": 1.3756193326008829e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.1499228815784015,
-        "btc_hour_pct": -0.08857973676555941,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZBCNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793691900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZBCNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1565082,6 +1564975,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793692165435
+    },
+    {
+      "id": "2f74294f3b8f9c7dcb62598e",
+      "asset_id": "64be1cf07fea6d1f70dc5c02",
+      "key": "MEXC:PERP:ERAUSDT",
+      "symbol": "ERAUSDT",
+      "phase": "expired",
+      "observed_ms": 1793692747998,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793692758666
+    },
+    {
+      "id": "f43d8e9206bed7005bb9b6a2",
+      "asset_id": "ce658a073cdf7005e44efc2f",
+      "key": "OKX:SPOT:ZBCNUSDT",
+      "symbol": "ZBCNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793692745571,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793692758666
     }
   ],
   "runs": [
@@ -1674565,7 +1674480,8 @@
         "entry_seq": 0,
         "cohort": "ZBCNUSDT",
         "observation_lag_ms": 845571,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13095
       }
     },
     "errors": [],
@@ -1700593,8 +1700509,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "502fe13268ccf982a6a5ec432935e6dbc5d524a2",
-    "previous_success_ms": 1793692478154,
+    "previous_commit": "54dc5f92c92e15167c50878e1fdc8d264202fc45",
+    "previous_success_ms": 1793692757624,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
