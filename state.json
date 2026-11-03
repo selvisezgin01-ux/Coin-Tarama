@@ -1646313,58 +1646313,7 @@
       "source_close_ms": 1793719800000
     }
   },
-  "pending": [
-    {
-      "id": "c370c3c5611e8a4508f712f0",
-      "asset_id": "e6f9be22ae5ad24b973a3044",
-      "key": "OKX:SPOT:LITUSDT",
-      "symbol": "LITUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793722178772,
-      "price": 3.4002,
-      "level": 3.3733,
-      "invalid": 3.180923762450436,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.3733,
-        "base_invalid": 3.180923762450436,
-        "atr": 0.056508250330427154,
-        "rvol": 4.283337892814446,
-        "close_position": 0.7247838616714686,
-        "breakout": true,
-        "bar_close_ms": 1793721600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.524748540157142,
-        "score": 6.008121754485915
-      },
-      "context": {
-        "atr": 0.056508250330427154,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.134031683257189,
-        "btc_hour_pct": 0.39071685689995306,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793721600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1659983,6 +1659932,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793721594924
+    },
+    {
+      "id": "c370c3c5611e8a4508f712f0",
+      "asset_id": "e6f9be22ae5ad24b973a3044",
+      "key": "OKX:SPOT:LITUSDT",
+      "symbol": "LITUSDT",
+      "phase": "radar",
+      "observed_ms": 1793722178772,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793722194765
     }
   ],
   "runs": [
@@ -1776571,7 +1776531,8 @@
         "entry_seq": 0,
         "cohort": "LITUSDT",
         "observation_lag_ms": 578772,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15993
       }
     },
     "errors": [],
@@ -1802601,8 +1802562,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d742363866bff209cafc62a8c138f65d04097528",
-    "previous_success_ms": 1793721932404,
+    "previous_commit": "58e02dc8b771ba016cbe80e8c0e309df8ad89c41",
+    "previous_success_ms": 1793722193443,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
