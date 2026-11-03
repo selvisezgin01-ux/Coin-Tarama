@@ -1563948,7 +1563948,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793664955919,
+      "duration_ms": 33219
     }
   ],
   "radar_admissions": [
@@ -1622529,14 +1622531,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793664762635,
+            "endpoint_ms": 1793664780000,
+            "endpoint_price": 0.008502,
+            "return_pct": -0.6137120813606955,
+            "btc_excess_pct_points": -0.6254915872331956,
+            "mae_pct": -0.8475071599742812,
+            "mfe_pct": 1.2449587936174122,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 17365,
+            "measured_ms": 1793664955382,
+            "cost_scenarios_pct": {
+              "0.2": -0.8137120813606955,
+              "0.5": -1.1137120813606955,
+              "1": -1.6137120813606955
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793660400000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ACTUSDT",
         "observation_lag_ms": 762635,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 12196
+        "notification_lag_ms": 12196,
+        "last_measure_attempt_ms": 1793664955382
       },
       "4b67fbc2d00e1ffac3e2c379:radar": {
         "symbol": "ACTUSDT",
@@ -1622748,19 +1622774,19 @@
     "errors": [],
     "queue": {
       "due": 145,
-      "attempted": 2,
-      "observed_ms": 1793664648426,
-      "unique_reads": 5
+      "attempted": 1,
+      "observed_ms": 1793664955382,
+      "unique_reads": 2
     },
     "summary": {
       "radar": {
-        "market_event_references": 568,
-        "unique_symbol_labels": 296,
+        "market_event_references": 571,
+        "unique_symbol_labels": 297,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 155,
-            "first_per_symbol": 135,
+            "event_references": 156,
+            "first_per_symbol": 136,
             "hours": {
               "1": {
                 "known_first_symbols": 133,
@@ -1622781,8 +1622807,8 @@
             }
           },
           "MEXC:SPOT:radar": {
-            "event_references": 132,
-            "first_per_symbol": 117,
+            "event_references": 133,
+            "first_per_symbol": 118,
             "hours": {
               "1": {
                 "known_first_symbols": 117,
@@ -1622825,12 +1622851,12 @@
             }
           },
           "OKX:PERP:radar": {
-            "event_references": 149,
-            "first_per_symbol": 128,
+            "event_references": 150,
+            "first_per_symbol": 129,
             "hours": {
               "1": {
-                "known_first_symbols": 126,
-                "median_reference_return_pct": -0.23499780299545692
+                "known_first_symbols": 127,
+                "median_reference_return_pct": -0.23628248884222103
               },
               "4": {
                 "known_first_symbols": 109,
@@ -1637976,7 +1638002,7 @@
       "queue": {
         "due": 0,
         "attempted": 0,
-        "observed_ms": 1793664058126,
+        "observed_ms": 1793664955918,
         "unique_reads": 0
       },
       "summary": {
@@ -1648783,8 +1648809,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a78b8ea5d294076ecf024ce81cc4867a1e0e66c0",
-    "previous_success_ms": 1793664947170,
+    "previous_commit": "42440f01356dd100b3631f62bc3251197aee5ff4",
+    "previous_success_ms": 1793664955351,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
