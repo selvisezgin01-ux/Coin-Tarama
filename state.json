@@ -1506053,64 +1506053,7 @@
       "source_close_ms": 1793664900000
     }
   },
-  "pending": [
-    {
-      "id": "dd15b3e5d36d9858ec02fb50",
-      "asset_id": "1bcc2af1d3223521d923f09b",
-      "key": "MEXC:PERP:RLCUSDT",
-      "symbol": "RLCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793665530656,
-      "price": 0.45425,
-      "level": 0.4475,
-      "invalid": 0.4420998926392856,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4475,
-        "base_invalid": 0.4420998926392856,
-        "atr": 0.002667382404762717,
-        "rvol": 2.442768458795022,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6143497757847403,
-        "score": 4.4427684587950225
-      },
-      "context": {
-        "atr": 0.002667382404762717,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.29743286447500017,
-        "btc_hour_pct": -0.16290371649293478,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RLCUSDT",
-          "change_pct": -1.8481875227010613,
-          "old_ms": 1793662051543,
-          "current_ms": 1793665527523,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1517540,6 +1517483,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793664948554
+    },
+    {
+      "id": "dd15b3e5d36d9858ec02fb50",
+      "asset_id": "1bcc2af1d3223521d923f09b",
+      "key": "MEXC:PERP:RLCUSDT",
+      "symbol": "RLCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793665530656,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793665541824
     }
   ],
   "runs": [
@@ -1619284,7 +1619238,8 @@
         "entry_seq": 0,
         "cohort": "RLCUSDT",
         "observation_lag_ms": 630656,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11168
       }
     },
     "errors": [],
@@ -1645312,8 +1645267,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "09b1bb030733574978127188c541e30526540211",
-    "previous_success_ms": 1793665260170,
+    "previous_commit": "fd1176938577be8c6c2d1038e9a930eeeb15c340",
+    "previous_success_ms": 1793665540566,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
