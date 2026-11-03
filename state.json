@@ -1545924,114 +1545924,7 @@
       "source_close_ms": 1793682900000
     }
   },
-  "pending": [
-    {
-      "id": "a788cfa1451c87812475ea4d",
-      "asset_id": "c0ded878417cbf725bc922c1",
-      "key": "OKX:SPOT:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793683236831,
-      "price": 0.1264,
-      "level": 0.1276,
-      "invalid": 0.12647911090378283,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1276,
-        "base_invalid": 0.12647911090378283,
-        "atr": 0.0008059273081143201,
-        "rvol": 62.68948917939696,
-        "close_position": 0.7073170731707363,
-        "breakout": true,
-        "bar_close_ms": 1793674800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.206461780929869,
-        "score": 7.707317073170737
-      },
-      "context": {
-        "atr": 0.0009098997841015385,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.902851954324535,
-        "btc_hour_pct": 0.02378897231640753,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793674800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NESUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "348148c2cfa3d45fef102d56",
-      "asset_id": "cd7ae82f044f31372b284b8f",
-      "key": "MEXC:PERP:LABUSDT",
-      "symbol": "LABUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793683239988,
-      "price": 0.045445,
-      "level": 0.04482,
-      "invalid": 0.04402441735519675,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04482,
-        "base_invalid": 0.04402441735519675,
-        "atr": 0.0003705509653550246,
-        "rvol": 2.496816258408308,
-        "close_position": 0.662337662337658,
-        "breakout": true,
-        "bar_close_ms": 1793682900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1498076487893147,
-        "score": 4.1591539207459665
-      },
-      "context": {
-        "atr": 0.0003705509653550246,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0889215853983503,
-        "btc_hour_pct": 0.01742296190352377,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LABUSDT",
-          "change_pct": 0.5219132936399529,
-          "old_ms": 1793679624148,
-          "current_ms": 1793683238216,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0107,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793682900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LABUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1558154,6 +1558047,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793682954624
+    },
+    {
+      "id": "a788cfa1451c87812475ea4d",
+      "asset_id": "c0ded878417cbf725bc922c1",
+      "key": "OKX:SPOT:NESUSDT",
+      "symbol": "NESUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793683236831,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793683251217
+    },
+    {
+      "id": "348148c2cfa3d45fef102d56",
+      "asset_id": "cd7ae82f044f31372b284b8f",
+      "key": "MEXC:PERP:LABUSDT",
+      "symbol": "LABUSDT",
+      "phase": "radar",
+      "observed_ms": 1793683239988,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793683251218
     }
   ],
   "runs": [
@@ -1665123,7 +1665038,8 @@
         "entry_seq": 0,
         "cohort": "LABUSDT",
         "observation_lag_ms": 339988,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11230
       }
     },
     "errors": [],
@@ -1691148,8 +1691064,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "bff66c43eddcc0e63140a65ca082b2df119b86f0",
-    "previous_success_ms": 1793682978273,
+    "previous_commit": "acf012351938450718cc8139e71686b80b189fee",
+    "previous_success_ms": 1793683250229,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
