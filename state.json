@@ -467,50 +467,7 @@
       }
     }
   },
-  "pending": [
-    {
-      "id": "b2ba28a7d889faf5fc753968",
-      "created_ms": 1793696256092,
-      "candidates": [
-        {
-          "exchange": "MEXC",
-          "symbol": "XMRUSDT",
-          "observed_ms": 1793696256024,
-          "feature_cutoff_ms": 1793692800000,
-          "mid_price": 622.2950000000001,
-          "spread_pct": 0.05945733132999695,
-          "return24_pct": 3.4790792906443047,
-          "relative24_pct_points": 5.130674374493315,
-          "quote_volume24": 1987496.6800000002,
-          "liquidity_band": "main",
-          "breakout_level": 616.42,
-          "breakout_open_ms": 1793678400000.0,
-          "breakout_volume_ratio": 1.3385947095820148,
-          "strength_score": 80,
-          "breakout_age_bars": 0.0,
-          "invalidation_level": 601.5026777402586,
-          "atr": 12.269289038965933,
-          "close": 626.69,
-          "paper_controls": [
-            {
-              "symbol": "GRVTUSDT",
-              "entry_price": 0.22205
-            },
-            {
-              "symbol": "TRXUSDT",
-              "entry_price": 0.3217
-            },
-            {
-              "symbol": "LYNUSDT",
-              "entry_price": 0.02137
-            }
-          ],
-          "paper_btc_price": 76638.66500000001,
-          "arrival": "new"
-        }
-      ]
-    }
-  ],
+  "pending": [],
   "updated_ms": 1793696256092,
   "paper": {
     "version": "github-paper-v1",
