@@ -1512411,160 +1512411,7 @@
       "source_close_ms": 1793666700000
     }
   },
-  "pending": [
-    {
-      "id": "3f4960267ddbb778e39b2548",
-      "asset_id": "43b7af10c051c4a6f6cee2d5",
-      "key": "OKX:PERP:ACTUSDT",
-      "symbol": "ACTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793666736535,
-      "price": 0.0084455,
-      "level": 0.00847,
-      "invalid": 0.008218244534483958,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00847,
-        "base_invalid": 0.008218244534483958,
-        "atr": 0.00010503643677361332,
-        "rvol": 2.60584681181469,
-        "close_position": 0.8222222222222175,
-        "breakout": true,
-        "bar_close_ms": 1793660400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7600950118764827,
-        "score": 4.428069034036907
-      },
-      "context": {
-        "atr": 0.00010992056485773854,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1637423771349686,
-        "btc_hour_pct": -0.1618564742589701,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ACTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793660400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ddd0f15d0f136697c81084b3",
-      "asset_id": "4b67fbc2d00e1ffac3e2c379",
-      "key": "OKX:SPOT:ACTUSDT",
-      "symbol": "ACTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793666737886,
-      "price": 0.0084535,
-      "level": 0.0085,
-      "invalid": 0.00822976943368303,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0085,
-        "base_invalid": 0.00822976943368303,
-        "atr": 9.487044211312834e-05,
-        "rvol": 2.39462132841834,
-        "close_position": 0.7642276422764265,
-        "breakout": true,
-        "bar_close_ms": 1793661300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.762324362943568,
-        "score": 4.158848970694766
-      },
-      "context": {
-        "atr": 9.551516922500271e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1971405994243511,
-        "btc_hour_pct": -0.1715600265138173,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ACTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793661300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1b08f3397aeb25e5b3456aaf",
-      "asset_id": "acb99deea512c8769189b7c9",
-      "key": "OKX:SPOT:ZKJUSDT",
-      "symbol": "ZKJUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793666737886,
-      "price": 0.005072,
-      "level": 0.005076,
-      "invalid": 0.0050295876519520395,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005076,
-        "base_invalid": 0.0050295876519520395,
-        "atr": 2.274898698640218e-05,
-        "rvol": 20.19368548531567,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793666700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3168316831683171,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 2.274898698640218e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.013394743793371244,
-        "btc_hour_pct": -0.1715600265138173,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZKJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793666700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZKJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1524060,6 +1523907,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793666143313
+    },
+    {
+      "id": "3f4960267ddbb778e39b2548",
+      "asset_id": "43b7af10c051c4a6f6cee2d5",
+      "key": "OKX:PERP:ACTUSDT",
+      "symbol": "ACTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793666736535,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793666747423
+    },
+    {
+      "id": "1b08f3397aeb25e5b3456aaf",
+      "asset_id": "acb99deea512c8769189b7c9",
+      "key": "OKX:SPOT:ZKJUSDT",
+      "symbol": "ZKJUSDT",
+      "phase": "radar",
+      "observed_ms": 1793666737886,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793666747424
     }
   ],
   "runs": [
@@ -1626215,7 +1626084,8 @@
         "entry_seq": 0,
         "cohort": "ZKJUSDT",
         "observation_lag_ms": 37886,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9538
       }
     },
     "errors": [],
@@ -1652246,8 +1652116,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9dd7450b2f801160031830877bfc5a243a9c8558",
-    "previous_success_ms": 1793666463949,
+    "previous_commit": "7262a5d6d84a4daf5eec40d54547fd872862c580",
+    "previous_success_ms": 1793666745980,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
