@@ -1512964,60 +1512964,7 @@
       "source_close_ms": 1793668500000
     }
   },
-  "pending": [
-    {
-      "id": "50d9d6296cac5af937755cdc",
-      "asset_id": "c9a65a90178c9c1978791d21",
-      "key": "OKX:PERP:AIUSDT",
-      "symbol": "AIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793668832782,
-      "price": 0.015934999999999998,
-      "level": 0.01594,
-      "invalid": 0.01580854060669952,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01594,
-        "base_invalid": 0.01580854060669952,
-        "atr": 7.6395955336548e-05,
-        "rvol": 2.5478437078302454,
-        "close_position": 0.8888888888888932,
-        "breakout": false,
-        "bar_close_ms": 1793668500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2520478890989386,
-        "score": 3.9367325967191387
-      },
-      "context": {
-        "atr": 7.6395955336548e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.40041408676290136,
-        "btc_hour_pct": 0.40041408676290136,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793668500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1524601,6 +1524548,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793668547551
+    },
+    {
+      "id": "50d9d6296cac5af937755cdc",
+      "asset_id": "c9a65a90178c9c1978791d21",
+      "key": "OKX:PERP:AIUSDT",
+      "symbol": "AIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793668832782,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793668844089
     }
   ],
   "runs": [
@@ -1627459,7 +1627417,8 @@
         "entry_seq": 0,
         "cohort": "AIUSDT",
         "observation_lag_ms": 332782,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11307
       }
     },
     "errors": [],
@@ -1653484,8 +1653443,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "eed810de3e11708da641f0cd000317c424311cb7",
-    "previous_success_ms": 1793668565516,
+    "previous_commit": "f5e534cd8d598a3f77aea0e926bd546b83fd42e7",
+    "previous_success_ms": 1793668842883,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
