@@ -1643427,58 +1643427,7 @@
       "source_close_ms": 1793722500000
     }
   },
-  "pending": [
-    {
-      "id": "afc055599effcdc9c16fcd61",
-      "asset_id": "e6f9be22ae5ad24b973a3044",
-      "key": "OKX:SPOT:LITUSDT",
-      "symbol": "LITUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793723684099,
-      "price": 3.3722000000000003,
-      "level": 3.3733,
-      "invalid": 3.180923762450436,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.3733,
-        "base_invalid": 3.180923762450436,
-        "atr": 0.056508250330427154,
-        "rvol": 4.283337892814446,
-        "close_position": 0.7247838616714686,
-        "breakout": true,
-        "bar_close_ms": 1793721600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.524748540157142,
-        "score": 6.008121754485915
-      },
-      "context": {
-        "atr": 0.05600462942250314,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.134031683257189,
-        "btc_hour_pct": 0.39071685689995306,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793721600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1657119,6 +1657068,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793722797749
+    },
+    {
+      "id": "afc055599effcdc9c16fcd61",
+      "asset_id": "e6f9be22ae5ad24b973a3044",
+      "key": "OKX:SPOT:LITUSDT",
+      "symbol": "LITUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793723684099,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793723701398
     }
   ],
   "runs": [
@@ -1800090,8 +1800050,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "86adca594e5b704011954c3d9c55f6a73baaaeaf",
-    "previous_success_ms": 1793723417543,
+    "previous_commit": "c3b9bc993801fee3b9b76b9b393dcb1718803cd2",
+    "previous_success_ms": 1793723700079,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
