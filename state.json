@@ -1626564,58 +1626564,7 @@
       "source_close_ms": 1793712600000
     }
   },
-  "pending": [
-    {
-      "id": "336f01ef75f21ca1b4e83a8f",
-      "asset_id": "bb1498af2afbd230324467c3",
-      "key": "OKX:SPOT:BARDUSDT",
-      "symbol": "BARDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793713306064,
-      "price": 0.11165,
-      "level": 0.1114,
-      "invalid": 0.11002036205581135,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1114,
-        "base_invalid": 0.11002036205581135,
-        "atr": 0.0005309196279243505,
-        "rvol": 5.745676382422337,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3593890386343279,
-        "score": 7.745676382422337
-      },
-      "context": {
-        "atr": 0.0005309196279243505,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2151367385819558,
-        "btc_hour_pct": 0.4189212324325453,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BARDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BARDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1639838,6 +1639787,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793713021694
+    },
+    {
+      "id": "336f01ef75f21ca1b4e83a8f",
+      "asset_id": "bb1498af2afbd230324467c3",
+      "key": "OKX:SPOT:BARDUSDT",
+      "symbol": "BARDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793713306064,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713319150
     }
   ],
   "runs": [
@@ -1754284,7 +1754244,8 @@
         "entry_seq": 0,
         "cohort": "BARDUSDT",
         "observation_lag_ms": 706064,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13086
       }
     },
     "errors": [],
@@ -1780321,8 +1780282,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4591f9f56025b7b139cb94b7f693653797df3213",
-    "previous_success_ms": 1793713043376,
+    "previous_commit": "19afd9bda1ed226ccab2f0bdf694914d3e0a0104",
+    "previous_success_ms": 1793713317843,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
