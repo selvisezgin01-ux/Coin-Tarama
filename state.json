@@ -1650999,424 +1650999,7 @@
       "source_close_ms": 1793749500000
     }
   },
-  "pending": [
-    {
-      "id": "6d828ce5d611c0814181d396",
-      "asset_id": "0001838e0ee4519c471a74bf",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793749664902,
-      "price": 0.08103,
-      "level": 0.08041,
-      "invalid": 0.07991879693845304,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08041,
-        "base_invalid": 0.07991879693845304,
-        "atr": 0.0002746870769797702,
-        "rvol": 5.546924600097754,
-        "close_position": 0.7647058823529556,
-        "breakout": true,
-        "bar_close_ms": 1793741400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4615768463073877,
-        "score": 7.31163048245071
-      },
-      "context": {
-        "atr": 0.00029350209149789575,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.12434600821790154,
-        "btc_hour_pct": -0.024518896880720842,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793741400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "62e68e137ad5a3b34c72a5c8",
-      "asset_id": "9e98e290e4874fdbab6f5cb9",
-      "key": "OKX:SPOT:ICPUSDT",
-      "symbol": "ICPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793749664902,
-      "price": 2.505,
-      "level": 2.507,
-      "invalid": 2.4818969574099348,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.507,
-        "base_invalid": 2.4818969574099348,
-        "atr": 0.00735361726710292,
-        "rvol": 2.857181378370786,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793745900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.1994415636218716,
-        "score": 4.357181378370786
-      },
-      "context": {
-        "atr": 0.007622914645067437,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.024518896880720842,
-        "btc_hour_pct": -0.024518896880720842,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ICPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793745900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ICPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d284dfff7c0ebadce982c1d1",
-      "asset_id": "efc8c237b8559451d54becdc",
-      "key": "OKX:PERP:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793749665561,
-      "price": 0.022359999999999998,
-      "level": 0.02227,
-      "invalid": 0.021587471282136634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02227,
-        "base_invalid": 0.021587471282136634,
-        "atr": 0.00041685811908910873,
-        "rvol": 2.2977192322660644,
-        "close_position": 0.7333333333333341,
-        "breakout": true,
-        "bar_close_ms": 1793746800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.134816159782126,
-        "score": 4.031052565599398
-      },
-      "context": {
-        "atr": 0.00041088971713132806,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1522796181375417,
-        "btc_hour_pct": -0.01746345835541563,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793746800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2e7f170b8c8a5cf2912b15ab",
-      "asset_id": "a6897fa2262088978f3a4def",
-      "key": "OKX:SPOT:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793749664902,
-      "price": 0.022375,
-      "level": 0.02243,
-      "invalid": 0.021641948896191383,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02243,
-        "base_invalid": 0.021641948896191383,
-        "atr": 0.0003870073587241197,
-        "rvol": 2.5439975710891134,
-        "close_position": 0.8958333333333306,
-        "breakout": true,
-        "bar_close_ms": 1793747700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.579185520361982,
-        "score": 4.439830904422444
-      },
-      "context": {
-        "atr": 0.0003828859714387706,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3832145490546455,
-        "btc_hour_pct": -0.024518896880720842,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793747700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f003f5dd5a9c23ab69b43f47",
-      "asset_id": "2f558c497ce789c7b9ef89ac",
-      "key": "MEXC:SPOT:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793749666258,
-      "price": 0.02238,
-      "level": 0.02242,
-      "invalid": 0.021613606540236273,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02242,
-        "base_invalid": 0.021613606540236273,
-        "atr": 0.0003759563984248384,
-        "rvol": 2.02231775711867,
-        "close_position": 0.8679245283018854,
-        "breakout": true,
-        "bar_close_ms": 1793747700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.396021699819162,
-        "score": 3.8902422854205554
-      },
-      "context": {
-        "atr": 0.00036903945449062205,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0305833451540125,
-        "btc_hour_pct": -0.034657586892350434,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793747700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ca9c36f5c0e37305f5f26c2d",
-      "asset_id": "64f54588a167220ed2200e3f",
-      "key": "OKX:SPOT:SUSDT",
-      "symbol": "SUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793749664902,
-      "price": 0.038505,
-      "level": 0.03869,
-      "invalid": 0.038155719804319824,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03869,
-        "base_invalid": 0.038155719804319824,
-        "atr": 0.00016186797120116295,
-        "rvol": 3.880713149825419,
-        "close_position": 0.6875000000000352,
-        "breakout": false,
-        "bar_close_ms": 1793749500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.548302872062667,
-        "score": 5.068213149825454
-      },
-      "context": {
-        "atr": 0.00016186797120116295,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3393064669446444,
-        "btc_hour_pct": -0.024518896880720842,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793749500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cc12ee0822bfe67f22ed3764",
-      "asset_id": "01ef2e0d42f3c72a0953c918",
-      "key": "OKX:PERP:SUSDT",
-      "symbol": "SUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793749665561,
-      "price": 0.038435,
-      "level": 0.0386,
-      "invalid": 0.038114287695862475,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0386,
-        "base_invalid": 0.038114287695862475,
-        "atr": 0.0001714153609168438,
-        "rvol": 2.494843895881542,
-        "close_position": 0.6842105263157953,
-        "breakout": false,
-        "bar_close_ms": 1793749500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5490196078431486,
-        "score": 3.6790544221973374
-      },
-      "context": {
-        "atr": 0.0001714153609168438,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4507987684916226,
-        "btc_hour_pct": -0.01746345835541563,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793749500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0ebc2ccc58577f6414cb7dee",
-      "asset_id": "62c5357d3018ec3b0b6aac8c",
-      "key": "OKX:PERP:BERAUSDT",
-      "symbol": "BERAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793749665561,
-      "price": 0.13015,
-      "level": 0.1302,
-      "invalid": 0.128589322094205,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1302,
-        "base_invalid": 0.128589322094205,
-        "atr": 0.0007378527052999311,
-        "rvol": 2.3300362755367208,
-        "close_position": 0.8000000000000222,
-        "breakout": false,
-        "bar_close_ms": 1793749500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.0085337470907785,
-        "score": 3.6300362755367432
-      },
-      "context": {
-        "atr": 0.0007378527052999311,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.059816294349368526,
-        "btc_hour_pct": -0.01746345835541563,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BERAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793749500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BERAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1666135,6 +1665718,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793748778802
+    },
+    {
+      "id": "6d828ce5d611c0814181d396",
+      "asset_id": "0001838e0ee4519c471a74bf",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "expired",
+      "observed_ms": 1793749664902,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793749678067
+    },
+    {
+      "id": "62e68e137ad5a3b34c72a5c8",
+      "asset_id": "9e98e290e4874fdbab6f5cb9",
+      "key": "OKX:SPOT:ICPUSDT",
+      "symbol": "ICPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793749664902,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793749678067
+    },
+    {
+      "id": "d284dfff7c0ebadce982c1d1",
+      "asset_id": "efc8c237b8559451d54becdc",
+      "key": "OKX:PERP:HUMAUSDT",
+      "symbol": "HUMAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793749665561,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793749678067
+    },
+    {
+      "id": "ca9c36f5c0e37305f5f26c2d",
+      "asset_id": "64f54588a167220ed2200e3f",
+      "key": "OKX:SPOT:SUSDT",
+      "symbol": "SUSDT",
+      "phase": "radar",
+      "observed_ms": 1793749664902,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793749678067
+    },
+    {
+      "id": "cc12ee0822bfe67f22ed3764",
+      "asset_id": "01ef2e0d42f3c72a0953c918",
+      "key": "OKX:PERP:SUSDT",
+      "symbol": "SUSDT",
+      "phase": "radar",
+      "observed_ms": 1793749665561,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793749678067
+    },
+    {
+      "id": "0ebc2ccc58577f6414cb7dee",
+      "asset_id": "62c5357d3018ec3b0b6aac8c",
+      "key": "OKX:PERP:BERAUSDT",
+      "symbol": "BERAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793749665561,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793749678067
     }
   ],
   "runs": [
@@ -1789322,7 +1788971,8 @@
         "entry_seq": 0,
         "cohort": "SUSDT",
         "observation_lag_ms": 164902,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13165
       },
       "01ef2e0d42f3c72a0953c918:radar": {
         "symbol": "SUSDT",
@@ -1789344,7 +1788994,8 @@
         "entry_seq": 0,
         "cohort": "SUSDT",
         "observation_lag_ms": 165561,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12506
       },
       "62c5357d3018ec3b0b6aac8c:radar": {
         "symbol": "BERAUSDT",
@@ -1789366,7 +1789017,8 @@
         "entry_seq": 0,
         "cohort": "BERAUSDT",
         "observation_lag_ms": 165561,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12506
       }
     },
     "errors": [],
@@ -1815393,8 +1815045,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f64f3e32388fa9e1d623e4e83f1fc3e886eb3759",
-    "previous_success_ms": 1793749397839,
+    "previous_commit": "156529ef189dc5618d582f81caa1ac0c008cb4f2",
+    "previous_success_ms": 1793749676869,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
