@@ -1545456,60 +1545456,7 @@
       "source_close_ms": 1793685600000
     }
   },
-  "pending": [
-    {
-      "id": "aca7e4e7b2e47614a1289d2a",
-      "asset_id": "b4e206d5c51b7bf5b3d63fef",
-      "key": "OKX:SPOT:KAIAUSDT",
-      "symbol": "KAIAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793686054798,
-      "price": 0.031845,
-      "level": 0.0324,
-      "invalid": 0.0319098047718455,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0324,
-        "base_invalid": 0.0319098047718455,
-        "atr": 0.00013463485436335552,
-        "rvol": 4.462534424573503,
-        "close_position": 0.925925925925905,
-        "breakout": false,
-        "bar_close_ms": 1793673900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3733665214685544,
-        "score": 5.888460350499408
-      },
-      "context": {
-        "atr": 0.00011847544183267018,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.09791008083342989,
-        "btc_hour_pct": -0.3776738358847176,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KAIAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793673900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KAIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1557753,6 +1557700,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793685774255
+    },
+    {
+      "id": "aca7e4e7b2e47614a1289d2a",
+      "asset_id": "b4e206d5c51b7bf5b3d63fef",
+      "key": "OKX:SPOT:KAIAUSDT",
+      "symbol": "KAIAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793686054798,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793686066401
     }
   ],
   "runs": [
@@ -1691415,8 +1691373,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e8586a82180e953588efa22deed9713f013ce61e",
-    "previous_success_ms": 1793685797913,
+    "previous_commit": "1a1929aa595ba3d35f944e846349898fe2380ff1",
+    "previous_success_ms": 1793686064767,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
