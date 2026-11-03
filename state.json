@@ -1634882,320 +1634882,7 @@
       "source_close_ms": 1793745000000
     }
   },
-  "pending": [
-    {
-      "id": "3087a0ab9543cb7a51e0c628",
-      "asset_id": "09ec1c2e292600395a7ab7cf",
-      "key": "MEXC:SPOT:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793745166190,
-      "price": 0.120255,
-      "level": 0.11765,
-      "invalid": 0.1133969265737897,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11765,
-        "base_invalid": 0.1133969265737897,
-        "atr": 0.0009538228414019534,
-        "rvol": 2.5804861230719554,
-        "close_position": 0.986842105263163,
-        "breakout": true,
-        "bar_close_ms": 1793722500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.4021339863564926,
-        "score": 4.567328228335118
-      },
-      "context": {
-        "atr": 0.0007503579034175339,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.11816362525054469,
-        "btc_hour_pct": 0.04800453692959117,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793722500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "15d8d0c086f797fcd2ec5f2b",
-      "asset_id": "51499f5800fc96d45708a0bc",
-      "key": "OKX:SPOT:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793745165763,
-      "price": 0.040955000000000005,
-      "level": 0.04104,
-      "invalid": 0.040109113415858516,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04104,
-        "base_invalid": 0.040109113415858516,
-        "atr": 0.00033924389427659026,
-        "rvol": 13.075503606041014,
-        "close_position": 0.9393939393939419,
-        "breakout": true,
-        "bar_close_ms": 1793738700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.2111801242236107,
-        "score": 7.939393939393942
-      },
-      "context": {
-        "atr": 0.00033199427289589014,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1522751854260651,
-        "btc_hour_pct": 0.0428943681235916,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e8f97df0c8261f1f286b2e34",
-      "asset_id": "061e9423a90bdfa8f19ae0f8",
-      "key": "OKX:PERP:ONTUSDT",
-      "symbol": "ONTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793745164742,
-      "price": 0.044935,
-      "level": 0.04498,
-      "invalid": 0.044707973437356614,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04498,
-        "base_invalid": 0.044707973437356614,
-        "atr": 0.00014684375095590278,
-        "rvol": 4.934616441768033,
-        "close_position": 0.8750000000000054,
-        "breakout": false,
-        "bar_close_ms": 1793738700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.46906410542775223,
-        "score": 6.309616441768038
-      },
-      "context": {
-        "atr": 0.00013779670150397934,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2841684449044424,
-        "btc_hour_pct": 0.049461448333976143,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ONTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "83eed8d3a1e2875627e54a93",
-      "asset_id": "73259847c546f8fa7af50bc4",
-      "key": "MEXC:SPOT:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793745166190,
-      "price": 0.3284,
-      "level": 0.3277,
-      "invalid": 0.3227138787234978,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3277,
-        "base_invalid": 0.3227138787234978,
-        "atr": 0.00190747517668135,
-        "rvol": 3.895808322591655,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793739600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7987711213517601,
-        "score": 5.895808322591655
-      },
-      "context": {
-        "atr": 0.0016531444154835547,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.25678058955622696,
-        "btc_hour_pct": 0.04800453692959117,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793739600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "016683ba51f70810d031bab1",
-      "asset_id": "8033a5446ee120cc8bb13cf1",
-      "key": "MEXC:PERP:CRVUSDT",
-      "symbol": "CRVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793745166420,
-      "price": 0.26205,
-      "level": 0.2623,
-      "invalid": 0.2571316347153716,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2623,
-        "base_invalid": 0.2571316347153716,
-        "atr": 0.0017891018975229145,
-        "rvol": 6.050485493594386,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.050290135396504,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.001786446321799119,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.8838385111497935,
-        "btc_hour_pct": 0.047409074790727423,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CRVUSDT",
-          "change_pct": 4.102214059879272,
-          "old_ms": 1793741498325,
-          "current_ms": 1793745162229,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0058,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CRVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "10ba97050f807a72ab208953",
-      "asset_id": "5a3926348dd5952ac2f25499",
-      "key": "OKX:SPOT:CRVUSDT",
-      "symbol": "CRVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793745165763,
-      "price": 0.2625,
-      "level": 0.2626,
-      "invalid": 0.25725940509836337,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2626,
-        "base_invalid": 0.25725940509836337,
-        "atr": 0.0016039660109109914,
-        "rvol": 4.204326009843878,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1243723445345752,
-        "score": 6.204326009843878
-      },
-      "context": {
-        "atr": 0.0015988494105606962,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.925457619525961,
-        "btc_hour_pct": 0.0428943681235916,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CRVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CRVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1649771,6 +1649458,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793744227517
+    },
+    {
+      "id": "15d8d0c086f797fcd2ec5f2b",
+      "asset_id": "51499f5800fc96d45708a0bc",
+      "key": "OKX:SPOT:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793745165763,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793745180549
+    },
+    {
+      "id": "e8f97df0c8261f1f286b2e34",
+      "asset_id": "061e9423a90bdfa8f19ae0f8",
+      "key": "OKX:PERP:ONTUSDT",
+      "symbol": "ONTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793745164742,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793745180549
+    },
+    {
+      "id": "83eed8d3a1e2875627e54a93",
+      "asset_id": "73259847c546f8fa7af50bc4",
+      "key": "MEXC:SPOT:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793745166190,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793745180549
+    },
+    {
+      "id": "016683ba51f70810d031bab1",
+      "asset_id": "8033a5446ee120cc8bb13cf1",
+      "key": "MEXC:PERP:CRVUSDT",
+      "symbol": "CRVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793745166420,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793745180549
+    },
+    {
+      "id": "10ba97050f807a72ab208953",
+      "asset_id": "5a3926348dd5952ac2f25499",
+      "key": "OKX:SPOT:CRVUSDT",
+      "symbol": "CRVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793745165763,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793745180549
     }
   ],
   "runs": [
@@ -1797802,8 +1797544,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "798a6a1d1c3b6b9f197afcbafff2a55aded146b8",
-    "previous_success_ms": 1793745152713,
+    "previous_commit": "b0bba097f1c89df9927f120f3262d2a22de2e7cc",
+    "previous_success_ms": 1793745179242,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
