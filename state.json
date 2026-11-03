@@ -1599292,7 +1599292,9 @@
           "selected_for_candles": 31,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793686980804,
+      "duration_ms": 35365
     }
   ],
   "radar_admissions": [
@@ -1658474,6 +1658476,50 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793641578716,
+            "endpoint_ms": 1793641620000,
+            "endpoint_price": 0.6041,
+            "return_pct": -3.7750876075183237,
+            "btc_excess_pct_points": -2.065623017125129,
+            "mae_pct": -3.9184453647658546,
+            "mfe_pct": 0.03185727938834759,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 41284,
+            "measured_ms": 1793686977120,
+            "cost_scenarios_pct": {
+              "0.2": -3.975087607518324,
+              "0.5": -4.275087607518324,
+              "1": -4.775087607518324
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          },
+          "12": {
+            "target_ms": 1793670378716,
+            "endpoint_ms": 1793670420000,
+            "endpoint_price": 0.6015,
+            "return_pct": -4.189232239566742,
+            "btc_excess_pct_points": -2.9048147184663193,
+            "mae_pct": -5.192736540299469,
+            "mfe_pct": 0.03185727938834759,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 720,
+            "ignored_entry_fragment_ms": 41284,
+            "measured_ms": 1793686977120,
+            "cost_scenarios_pct": {
+              "0.2": -4.389232239566742,
+              "0.5": -4.689232239566742,
+              "1": -5.189232239566742
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793627100000,
@@ -1658483,7 +1658529,7 @@
         "observation_lag_ms": 78716,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 9342,
-        "last_measure_attempt_ms": 1793631198226
+        "last_measure_attempt_ms": 1793686977120
       },
       "c2d1d4612f2b82f511cb39f2:radar": {
         "symbol": "HOTUSDT",
@@ -1662933,14 +1662979,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793686839988,
+            "endpoint_ms": 1793686860000,
+            "endpoint_price": 0.04564,
+            "return_pct": 0.42909010892286936,
+            "btc_excess_pct_points": 0.7950380090355647,
+            "mae_pct": -0.4730993508636816,
+            "mfe_pct": 1.6613488832654788,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 20012,
+            "measured_ms": 1793686977120,
+            "cost_scenarios_pct": {
+              "0.2": 0.22909010892286935,
+              "0.5": -0.07090989107713064,
+              "1": -0.5709098910771306
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793682900000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "LABUSDT",
         "observation_lag_ms": 339988,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11230
+        "notification_lag_ms": 11230,
+        "last_measure_attempt_ms": 1793686977120
       },
       "f8ee50eb7937ccc56930ca4e:radar": {
         "symbol": "ATOMUSDT",
@@ -1663061,8 +1663131,8 @@
     "queue": {
       "due": 144,
       "attempted": 2,
-      "observed_ms": 1793686679180,
-      "unique_reads": 6
+      "observed_ms": 1793686977120,
+      "unique_reads": 5
     },
     "summary": {
       "radar": {
@@ -1663119,8 +1663189,8 @@
             "first_per_symbol": 125,
             "hours": {
               "1": {
-                "known_first_symbols": 123,
-                "median_reference_return_pct": -0.16398819285011745
+                "known_first_symbols": 124,
+                "median_reference_return_pct": -0.15683753616845264
               },
               "4": {
                 "known_first_symbols": 104,
@@ -1663145,12 +1663215,12 @@
                 "median_reference_return_pct": -0.2533339012554703
               },
               "4": {
-                "known_first_symbols": 118,
-                "median_reference_return_pct": -0.583040100249782
+                "known_first_symbols": 119,
+                "median_reference_return_pct": -0.5834829443447154
               },
               "12": {
-                "known_first_symbols": 118,
-                "median_reference_return_pct": -1.0028374846721588
+                "known_first_symbols": 119,
+                "median_reference_return_pct": -1.0331941085953034
               },
               "24": {
                 "known_first_symbols": 90,
@@ -1689074,8 +1689144,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1276640751876fd81e031bffc8019f6ded8108aa",
-    "previous_success_ms": 1793686967317,
+    "previous_commit": "caed0f1e614edf707fa3b006684a966bd392a060",
+    "previous_success_ms": 1793686977069,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
