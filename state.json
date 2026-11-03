@@ -1636994,58 +1636994,7 @@
       "source_close_ms": 1793727900000
     }
   },
-  "pending": [
-    {
-      "id": "2405bcb63a6e8e1ddb4ae549",
-      "asset_id": "a5a1bcaad63197b0c3c36a77",
-      "key": "OKX:PERP:RAVEUSDT",
-      "symbol": "RAVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793729316702,
-      "price": 0.1405,
-      "level": 0.138,
-      "invalid": 0.13533460723934898,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.138,
-        "base_invalid": 0.13533460723934898,
-        "atr": 0.0011026184043401988,
-        "rvol": 4.271062947751561,
-        "close_position": 0.8461538461538413,
-        "breakout": true,
-        "bar_close_ms": 1793728800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.645113886847894,
-        "score": 6.117216793905403
-      },
-      "context": {
-        "atr": 0.0011026184043401988,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.7590026541982393,
-        "btc_hour_pct": -0.11388876735034525,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RAVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793728800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1650906,6 +1650855,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793729048411
+    },
+    {
+      "id": "2405bcb63a6e8e1ddb4ae549",
+      "asset_id": "a5a1bcaad63197b0c3c36a77",
+      "key": "OKX:PERP:RAVEUSDT",
+      "symbol": "RAVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793729316702,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793729341982
     }
   ],
   "runs": [
@@ -1769263,7 +1769223,8 @@
         "entry_seq": 0,
         "cohort": "RAVEUSDT",
         "observation_lag_ms": 516702,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 25280
       }
     },
     "errors": [],
@@ -1795287,8 +1795248,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a2be31b976818eb2c8dfd59797661730c6298f87",
-    "previous_success_ms": 1793729089201,
+    "previous_commit": "30d1f98f7bb7b9e1c17bcfd5b3a18e6770105c63",
+    "previous_success_ms": 1793729341034,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
