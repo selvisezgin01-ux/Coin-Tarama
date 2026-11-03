@@ -1641622,7 +1641622,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793708690884,
+      "duration_ms": 31640
     }
   ],
   "radar_admissions": [
@@ -1710374,14 +1710376,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793708373826,
+            "endpoint_ms": 1793708400000,
+            "endpoint_price": 4.613e-06,
+            "return_pct": 0.39173014145810203,
+            "btc_excess_pct_points": 0.33206991651102413,
+            "mae_pct": -0.28291621327529715,
+            "mfe_pct": 0.39173014145810203,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 26174,
+            "measured_ms": 1793708689874,
+            "cost_scenarios_pct": {
+              "0.2": 0.19173014145810202,
+              "0.5": -0.10826985854189797,
+              "1": -0.608269858541898
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793704500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "SHIBUSDT",
         "observation_lag_ms": 273826,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 14934
+        "notification_lag_ms": 14934,
+        "last_measure_attempt_ms": 1793708689874
       },
       "e17c5a756c768446f1860a60:radar": {
         "symbol": "CARDSUSDT",
@@ -1710397,14 +1710423,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793708377087,
+            "endpoint_ms": 1793708400000,
+            "endpoint_price": 0.242,
+            "return_pct": -0.041305245766209975,
+            "btc_excess_pct_points": -0.11287997399275218,
+            "mae_pct": -0.4543577034283319,
+            "mfe_pct": 0.991325898389106,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 22913,
+            "measured_ms": 1793708689874,
+            "cost_scenarios_pct": {
+              "0.2": -0.24130524576620999,
+              "0.5": -0.54130524576621,
+              "1": -1.04130524576621
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793704500000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "CARDSUSDT",
         "observation_lag_ms": 277087,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11673
+        "notification_lag_ms": 11673,
+        "last_measure_attempt_ms": 1793708689874
       },
       "756268907198549d1da6cf3b:radar": {
         "symbol": "FOGOUSDT",
@@ -1710546,10 +1710596,10 @@
     },
     "errors": [],
     "queue": {
-      "due": 114,
+      "due": 115,
       "attempted": 2,
-      "observed_ms": 1793708397408,
-      "unique_reads": 6
+      "observed_ms": 1793708689874,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1710584,8 +1710634,8 @@
             "first_per_symbol": 124,
             "hours": {
               "1": {
-                "known_first_symbols": 121,
-                "median_reference_return_pct": -0.045418885998604885
+                "known_first_symbols": 122,
+                "median_reference_return_pct": -0.02872267210332624
               },
               "4": {
                 "known_first_symbols": 114,
@@ -1736561,8 +1736611,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "43a8b4d2e8ea8c5dce67c5aa1c58fac73b994359",
-    "previous_success_ms": 1793708680030,
+    "previous_commit": "9cce8a89e426f90aee014ef6bd67512ffb697fba",
+    "previous_success_ms": 1793708689831,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
