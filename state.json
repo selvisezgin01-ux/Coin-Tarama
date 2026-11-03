@@ -1655529,218 +1655529,7 @@
       "source_close_ms": 1793744100000
     }
   },
-  "pending": [
-    {
-      "id": "23939874fb9f2ae7e04c208e",
-      "asset_id": "0abae29ba0159ef27660d9f3",
-      "key": "MEXC:PERP:KASUSDT",
-      "symbol": "KASUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793744216588,
-      "price": 0.031085,
-      "level": 0.03121,
-      "invalid": 0.030572298551862664,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03121,
-        "base_invalid": 0.030572298551862664,
-        "atr": 0.00025134298758223387,
-        "rvol": 2.5498953288780646,
-        "close_position": 0.75,
-        "breakout": false,
-        "bar_close_ms": 1793725200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.7390745501285267,
-        "score": 3.7998953288780646
-      },
-      "context": {
-        "atr": 0.00018800605844904977,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.46822096065883834,
-        "btc_hour_pct": 0.047409074790727423,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:KASUSDT",
-          "change_pct": -0.22952919824916762,
-          "old_ms": 1793740600045,
-          "current_ms": 1793744214169,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KASUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6864ce7e643347d1131d0e7a",
-      "asset_id": "b2c12ba2df68343ea001bb58",
-      "key": "OKX:PERP:ENJUSDT",
-      "symbol": "ENJUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793744214820,
-      "price": 0.02403,
-      "level": 0.02396,
-      "invalid": 0.02373610157055105,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02396,
-        "base_invalid": 0.02373610157055105,
-        "atr": 9.265619632634711e-05,
-        "rvol": 4.881854264372895,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793738700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9239815203695878,
-        "score": 6.881854264372895
-      },
-      "context": {
-        "atr": 0.00010251096006992802,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2837330539567473,
-        "btc_hour_pct": 0.049461448333976143,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ENJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ENJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5b51e65984c477726ec548c5",
-      "asset_id": "f8250ad5e8532b38458436bf",
-      "key": "OKX:SPOT:ACHUSDT",
-      "symbol": "ACHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793744214826,
-      "price": 0.0046045,
-      "level": 0.004618,
-      "invalid": 0.004574288058396738,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004618,
-        "base_invalid": 0.004574288058396738,
-        "atr": 1.1412944021749498e-05,
-        "rvol": 12.062478334241083,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.32559149120903186,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 1.1394813806588217e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5882264153366901,
-        "btc_hour_pct": 0.0428943681235916,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ACHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "22864bb3932866bcf40ace5e",
-      "asset_id": "28c1cecfbed559473b1b5ab1",
-      "key": "MEXC:PERP:CATEUSDT",
-      "symbol": "CATEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793744216588,
-      "price": 0.0393155,
-      "level": 0.037911,
-      "invalid": 0.03495073041897176,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.037911,
-        "base_invalid": 0.03495073041897176,
-        "atr": 0.0009084638735216107,
-        "rvol": 3.576566438541526,
-        "close_position": 0.7627805486284276,
-        "breakout": true,
-        "bar_close_ms": 1793744100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.149484817096429,
-        "score": 5.339346987169954
-      },
-      "context": {
-        "atr": 0.0009084638735216107,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.775149384631548,
-        "btc_hour_pct": 0.047409074790727423,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:CATEUSDT"
-        },
-        "funding_raw_pct": 0.02,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793744100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CATEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1670272,6 +1670061,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793743329987
+    },
+    {
+      "id": "23939874fb9f2ae7e04c208e",
+      "asset_id": "0abae29ba0159ef27660d9f3",
+      "key": "MEXC:PERP:KASUSDT",
+      "symbol": "KASUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793744216588,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793744227517
+    },
+    {
+      "id": "6864ce7e643347d1131d0e7a",
+      "asset_id": "b2c12ba2df68343ea001bb58",
+      "key": "OKX:PERP:ENJUSDT",
+      "symbol": "ENJUSDT",
+      "phase": "expired",
+      "observed_ms": 1793744214820,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793744227517
+    },
+    {
+      "id": "5b51e65984c477726ec548c5",
+      "asset_id": "f8250ad5e8532b38458436bf",
+      "key": "OKX:SPOT:ACHUSDT",
+      "symbol": "ACHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793744214826,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793744227517
+    },
+    {
+      "id": "22864bb3932866bcf40ace5e",
+      "asset_id": "28c1cecfbed559473b1b5ab1",
+      "key": "MEXC:PERP:CATEUSDT",
+      "symbol": "CATEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793744216588,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793744227517
     }
   ],
   "runs": [
@@ -1792195,7 +1792028,8 @@
         "entry_seq": 0,
         "cohort": "CATEUSDT",
         "observation_lag_ms": 116588,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10929
       }
     },
     "errors": [],
@@ -1818220,8 +1818054,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8226e31b359baf3a7329aa87c2d4594a0bf9a9fe",
-    "previous_success_ms": 1793743944790,
+    "previous_commit": "1e59410ef06a11bf3601a0fdc05c48c27ec3be08",
+    "previous_success_ms": 1793744226232,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
