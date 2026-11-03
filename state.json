@@ -1512901,60 +1512901,7 @@
       "source_close_ms": 1793669400000
     }
   },
-  "pending": [
-    {
-      "id": "a9815d21604fe84b72a236e4",
-      "asset_id": "124ed853a48369b0fb0d85a0",
-      "key": "OKX:PERP:DOODUSDT",
-      "symbol": "DOODUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793670032097,
-      "price": 0.0018555,
-      "level": 0.001848,
-      "invalid": 0.0018185263835727402,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001848,
-        "base_invalid": 0.0018185263835727402,
-        "atr": 1.649077618173169e-05,
-        "rvol": 2.195693887773598,
-        "close_position": 0.6818181818181872,
-        "breakout": true,
-        "bar_close_ms": 1793669400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.255458515283836,
-        "score": 3.877512069591785
-      },
-      "context": {
-        "atr": 1.649077618173169e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2364796605333952,
-        "btc_hour_pct": 0.40041408676290136,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:DOODUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793669400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOODUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1524582,6 +1524529,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793669448197
+    },
+    {
+      "id": "a9815d21604fe84b72a236e4",
+      "asset_id": "124ed853a48369b0fb0d85a0",
+      "key": "OKX:PERP:DOODUSDT",
+      "symbol": "DOODUSDT",
+      "phase": "radar",
+      "observed_ms": 1793670032097,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793670040913
     }
   ],
   "runs": [
@@ -1627854,7 +1627812,8 @@
         "entry_seq": 0,
         "cohort": "DOODUSDT",
         "observation_lag_ms": 632097,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 8816
       }
     },
     "errors": [],
@@ -1653875,8 +1653834,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b280082e8ccc62f6f97d2114e7aa7a5207a024f1",
-    "previous_success_ms": 1793669755747,
+    "previous_commit": "37b34e96315c31066c165dd1228ada6c165cbff8",
+    "previous_success_ms": 1793670039634,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
