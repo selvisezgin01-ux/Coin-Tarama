@@ -1642943,64 +1642943,7 @@
       "source_close_ms": 1793727900000
     }
   },
-  "pending": [
-    {
-      "id": "e36c1b3615a2c9d3b55b89a8",
-      "asset_id": "8bd4d7e4ff2e41749aa71391",
-      "key": "MEXC:PERP:PROMUSDT",
-      "symbol": "PROMUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793728124181,
-      "price": 5.297499999999999,
-      "level": 5.332,
-      "invalid": 5.157297614682194,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 5.332,
-        "base_invalid": 5.157297614682194,
-        "atr": 0.03801590211870858,
-        "rvol": 4.584758894401392,
-        "close_position": 0.9636363636363674,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8792710706150295,
-        "score": 6.548395258037759
-      },
-      "context": {
-        "atr": 0.04944218737645899,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.8157927414470532,
-        "btc_hour_pct": 0.06347832916797636,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PROMUSDT",
-          "change_pct": 3.1952662721893565,
-          "old_ms": 1793724506669,
-          "current_ms": 1793728120532,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656839,6 +1656782,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793727239798
+    },
+    {
+      "id": "e36c1b3615a2c9d3b55b89a8",
+      "asset_id": "8bd4d7e4ff2e41749aa71391",
+      "key": "MEXC:PERP:PROMUSDT",
+      "symbol": "PROMUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793728124181,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793728139746
     }
   ],
   "runs": [
@@ -1800920,8 +1800874,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0bed2870a784510e6baf5bdcced1daee96a9915b",
-    "previous_success_ms": 1793727867511,
+    "previous_commit": "2f664080a0735e2c27d7531efcb4e0e8b8fa3b04",
+    "previous_success_ms": 1793728138582,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
