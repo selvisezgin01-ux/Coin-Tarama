@@ -94,7 +94,7 @@ Kimlik defteri: 17121 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | NVIDIA `0x896138de0ce839639ce51d1058dde291f05cf116` | robinhood | 03.11.2026 09:14 | 52510.0 | Bekliyor |
+| 🟡 ERKEN RADAR | NVIDIA `0x896138de0ce839639ce51d1058dde291f05cf116` | robinhood | 03.11.2026 09:14 | 52510.0 | [Issue #1687](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1687) |
 | 🟡 ERKEN RADAR | TOKEN `0x50865425c3ac1b50352b2fb1629ff7867cb48362` | bnb | 03.11.2026 09:12 | 459076.0 | [Issue #1686](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1686) |
 | 🟡 ERKEN RADAR | CATC `0x5ce1a8d19c8665024cc9540f8c772b88a9d91638` | bnb | 03.11.2026 09:02 | 158780.0 | [Issue #1684](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1684) |
 | 🟡 ERKEN RADAR | WORKER `0x4bf4e409b1503277a1650af74e846111262b4161` | robinhood | 03.11.2026 09:00 | 184390.0 | [Issue #1682](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1682) |
