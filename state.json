@@ -1619602,112 +1619602,7 @@
       "source_close_ms": 1793710800000
     }
   },
-  "pending": [
-    {
-      "id": "a526ceb7fdcf3982247dd061",
-      "asset_id": "2ed447dfd0e1fb8300440a5b",
-      "key": "OKX:SPOT:XTZUSDT",
-      "symbol": "XTZUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793711810476,
-      "price": 0.25005,
-      "level": 0.2499,
-      "invalid": 0.2470948062711525,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2499,
-        "base_invalid": 0.2470948062711525,
-        "atr": 0.0007012915256500846,
-        "rvol": 16.62772743290681,
-        "close_position": 0.8333333333333526,
-        "breakout": true,
-        "bar_close_ms": 1793711700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.008878127522217,
-        "score": 7.833333333333353
-      },
-      "context": {
-        "atr": 0.0007012915256500846,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6328587028425314,
-        "btc_hour_pct": 0.4189212324325453,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:XTZUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793711700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XTZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "49feb616497563670ce2eea6",
-      "asset_id": "a5222948f03911fac4e49071",
-      "key": "MEXC:SPOT:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793711809502,
-      "price": 0.02095,
-      "level": 0.02086,
-      "invalid": 0.0184008370814964,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02086,
-        "base_invalid": 0.0184008370814964,
-        "atr": 0.00046108612335733724,
-        "rvol": 11.473309999379467,
-        "close_position": 0.7499999999999984,
-        "breakout": true,
-        "bar_close_ms": 1793711700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.404040404040389,
-        "score": 7.749999999999998
-      },
-      "context": {
-        "atr": 0.00046108612335733724,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.0254748098291984,
-        "btc_hour_pct": 0.41408007130383506,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793711700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1632842,6 +1632737,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793710928500
+    },
+    {
+      "id": "a526ceb7fdcf3982247dd061",
+      "asset_id": "2ed447dfd0e1fb8300440a5b",
+      "key": "OKX:SPOT:XTZUSDT",
+      "symbol": "XTZUSDT",
+      "phase": "radar",
+      "observed_ms": 1793711810476,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793711823309
+    },
+    {
+      "id": "49feb616497563670ce2eea6",
+      "asset_id": "a5222948f03911fac4e49071",
+      "key": "MEXC:SPOT:HUMAUSDT",
+      "symbol": "HUMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793711809502,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793711823309
     }
   ],
   "runs": [
@@ -1746757,7 +1746674,8 @@
         "entry_seq": 0,
         "cohort": "XTZUSDT",
         "observation_lag_ms": 110476,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12833
       },
       "a5222948f03911fac4e49071:radar": {
         "symbol": "HUMAUSDT",
@@ -1746779,7 +1746697,8 @@
         "entry_seq": 0,
         "cohort": "HUMAUSDT",
         "observation_lag_ms": 109502,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13807
       }
     },
     "errors": [],
@@ -1772807,8 +1772726,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c9817e710836c45e0233a418d012a6b2b75b7e95",
-    "previous_success_ms": 1793711539302,
+    "previous_commit": "677bace2b4da078ca682b8ef5e27823a8032af8d",
+    "previous_success_ms": 1793711821808,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
