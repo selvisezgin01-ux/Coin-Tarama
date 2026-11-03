@@ -1542298,110 +1542298,7 @@
       "source_close_ms": 1793685600000
     }
   },
-  "pending": [
-    {
-      "id": "1a84b02d3849b0976f43e41f",
-      "asset_id": "e60ffc3ac77af3c6eb5dc827",
-      "key": "OKX:PERP:PIEVERSEUSDT",
-      "symbol": "PIEVERSEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793686658193,
-      "price": 1.19795,
-      "level": 1.1934,
-      "invalid": 1.1428165345546601,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.1934,
-        "base_invalid": 1.1428165345546601,
-        "atr": 0.023889769635600317,
-        "rvol": 2.4033826406563787,
-        "close_position": 0.6700564971751426,
-        "breakout": true,
-        "bar_close_ms": 1793684700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0753546852434033,
-        "score": 4.073439137831521
-      },
-      "context": {
-        "atr": 0.023279954228763135,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.5286305291910014,
-        "btc_hour_pct": -0.3744349347794107,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PIEVERSEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793684700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PIEVERSEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5fbe055e3b7a4a3515bae12b",
-      "asset_id": "e5a80acabd7b210af0464b80",
-      "key": "OKX:PERP:BOMEUSDT",
-      "symbol": "BOMEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793686658193,
-      "price": 0.0005876,
-      "level": 0.0005897,
-      "invalid": 0.0005795904972745446,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005897,
-        "base_invalid": 0.0005795904972745446,
-        "atr": 4.063351503036153e-06,
-        "rvol": 2.3903537181562284,
-        "close_position": 0.7538461538461477,
-        "breakout": false,
-        "bar_close_ms": 1793686500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.1189533482527159,
-        "score": 3.644199872002376
-      },
-      "context": {
-        "atr": 4.063351503036153e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.16923657636627176,
-        "btc_hour_pct": -0.3744349347794107,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BOMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793686500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BOMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1554656,6 +1554553,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793686066401
+    },
+    {
+      "id": "1a84b02d3849b0976f43e41f",
+      "asset_id": "e60ffc3ac77af3c6eb5dc827",
+      "key": "OKX:PERP:PIEVERSEUSDT",
+      "symbol": "PIEVERSEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793686658193,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793686669953
+    },
+    {
+      "id": "5fbe055e3b7a4a3515bae12b",
+      "asset_id": "e5a80acabd7b210af0464b80",
+      "key": "OKX:PERP:BOMEUSDT",
+      "symbol": "BOMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793686658193,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793686669954
     }
   ],
   "runs": [
@@ -1662457,7 +1662376,8 @@
         "entry_seq": 0,
         "cohort": "BOMEUSDT",
         "observation_lag_ms": 158193,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11761
       }
     },
     "errors": [],
@@ -1688480,8 +1688400,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f91e5a20ee20042f6e0a9f9a84e7fce75c6bc812",
-    "previous_success_ms": 1793686384958,
+    "previous_commit": "75b27fea522e374acb3d6101c232c0a377224cdf",
+    "previous_success_ms": 1793686668851,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
