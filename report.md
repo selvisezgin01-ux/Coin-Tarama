@@ -94,7 +94,7 @@ Kimlik defteri: 14489 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | TikTok `HkEQsGq6TS82LrehyqfN546yRk4Ms5w1tQid2tS6pump` | solana | 03.11.2026 05:05 | 128145.0 | Bekliyor |
+| 🟡 ERKEN RADAR | TikTok `HkEQsGq6TS82LrehyqfN546yRk4Ms5w1tQid2tS6pump` | solana | 03.11.2026 05:05 | 128145.0 | [Issue #1635](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1635) |
 | 🟡 ERKEN RADAR | PB `0x2b917a1fd346e70ce225051b08da0eea2cdaedc5` | bnb | 03.11.2026 04:58 | 228020.0 | [Issue #1633](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1633) |
 | 🟡 ERKEN RADAR | DINU `0x299bab7aafcaa8cc7b26d9a696a411f300837872` | robinhood | 03.11.2026 04:56 | 62505.0 | [Issue #1631](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1631) |
 | 🟡 ERKEN RADAR | MUSKX `ARbeQnTRYCsvBeRWxaCSW516JWcS7say3vEhLS8pump` | solana | 03.11.2026 04:54 | 121745.0 | [Issue #1630](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1630) |
