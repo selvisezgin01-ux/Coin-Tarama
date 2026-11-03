@@ -1721888,8 +1721888,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "688882f0591c1ecc738e95310df6e6e45c5d1d56",
-    "previous_success_ms": 1793701630815,
+    "previous_commit": "6d28c53b3d59b6a8346c7ec0c73c16f42e24e3e7",
+    "previous_success_ms": 1793701909983,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
