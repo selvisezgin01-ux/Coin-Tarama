@@ -1553488,168 +1553488,7 @@
       "source_close_ms": 1793691900000
     }
   },
-  "pending": [
-    {
-      "id": "18001add5f3f8ccbc843faf4",
-      "asset_id": "019d6a6b37115ee1158e76e0",
-      "key": "MEXC:PERP:XDPUSDT",
-      "symbol": "XDPUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793693060991,
-      "price": 0.018185,
-      "level": 0.01789,
-      "invalid": 0.017129485539296774,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01789,
-        "base_invalid": 0.017129485539296774,
-        "atr": 0.00020342973802152655,
-        "rvol": 11.046114967853052,
-        "close_position": 0.9743589743589752,
-        "breakout": true,
-        "bar_close_ms": 1793671200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8724373576309867,
-        "score": 7.974358974358975
-      },
-      "context": {
-        "atr": 0.00014864581860069467,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.15444081947320054,
-        "btc_hour_pct": 0.31963905735867826,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XDPUSDT",
-          "change_pct": 1.0672425492835647,
-          "old_ms": 1793689340738,
-          "current_ms": 1793693057613,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793671200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XDPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4df8f6140b9c1511f8355ad9",
-      "asset_id": "f696004e9f134568488cf40e",
-      "key": "MEXC:PERP:NILUSDT",
-      "symbol": "NILUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793693060991,
-      "price": 0.063665,
-      "level": 0.06498,
-      "invalid": 0.06389707220347247,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06498,
-        "base_invalid": 0.06389707220347247,
-        "atr": 0.00048618531018353335,
-        "rvol": 10.040727759322131,
-        "close_position": 0.7603305785123984,
-        "breakout": true,
-        "bar_close_ms": 1793678400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.35532678209327,
-        "score": 7.760330578512399
-      },
-      "context": {
-        "atr": 0.0007261716482587893,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -3.1240895984347428,
-        "btc_hour_pct": 0.31963905735867826,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NILUSDT",
-          "change_pct": -4.970761130936541,
-          "old_ms": 1793689344247,
-          "current_ms": 1793693057146,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.025599999999999998,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793678400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NILUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b5bfd63bdbac84d6de0e643b",
-      "asset_id": "0d3be38c11c64deff14277dc",
-      "key": "OKX:SPOT:WINUSDT",
-      "symbol": "WINUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793693057964,
-      "price": 6.8355e-05,
-      "level": 6.838e-05,
-      "invalid": 6.7407097470564e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 6.838e-05,
-        "base_invalid": 6.7407097470564e-05,
-        "atr": 2.193501962400932e-07,
-        "rvol": 2.718371997951406,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793691900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8091805208179981,
-        "score": 4.718371997951406
-      },
-      "context": {
-        "atr": 2.2989561054830867e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.47689483705894986,
-        "btc_hour_pct": 0.31572267588677594,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793691900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1566080,6 +1565919,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793692758666
+    },
+    {
+      "id": "18001add5f3f8ccbc843faf4",
+      "asset_id": "019d6a6b37115ee1158e76e0",
+      "key": "MEXC:PERP:XDPUSDT",
+      "symbol": "XDPUSDT",
+      "phase": "expired",
+      "observed_ms": 1793693060991,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793693071091
+    },
+    {
+      "id": "4df8f6140b9c1511f8355ad9",
+      "asset_id": "f696004e9f134568488cf40e",
+      "key": "MEXC:PERP:NILUSDT",
+      "symbol": "NILUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793693060991,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793693071092
+    },
+    {
+      "id": "b5bfd63bdbac84d6de0e643b",
+      "asset_id": "0d3be38c11c64deff14277dc",
+      "key": "OKX:SPOT:WINUSDT",
+      "symbol": "WINUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793693057964,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793693071092
     }
   ],
   "runs": [
@@ -1701635,8 +1701507,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fad7f3d238fdfd43a9bb6714b7d220529c83ed84",
-    "previous_success_ms": 1793692777155,
+    "previous_commit": "d34acf0f0add7173bd4eda8967d5ba0ef195297c",
+    "previous_success_ms": 1793693070164,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
