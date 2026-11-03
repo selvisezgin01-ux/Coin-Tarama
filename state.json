@@ -1532145,60 +1532145,7 @@
       "source_close_ms": 1793678400000
     }
   },
-  "pending": [
-    {
-      "id": "a9b4afc42ee8b81fd338b919",
-      "asset_id": "7cb0243020def9a5fa4f64e3",
-      "key": "OKX:PERP:ONEUSDT",
-      "symbol": "ONEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793679935770,
-      "price": 0.0010999999999999998,
-      "level": 0.0010975,
-      "invalid": 0.0010789047471037303,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0010975,
-        "base_invalid": 0.0010789047471037303,
-        "atr": 7.30168597513169e-06,
-        "rvol": 3.3719602250327236,
-        "close_position": 0.7373737373737411,
-        "breakout": false,
-        "bar_close_ms": 1793679300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6348330113165934,
-        "score": 4.609333962406465
-      },
-      "context": {
-        "atr": 7.30168597513169e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3881834712604615,
-        "btc_hour_pct": 0.2770664594426764,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ONEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793679300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1544222,6 +1544169,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793679355327
+    },
+    {
+      "id": "a9b4afc42ee8b81fd338b919",
+      "asset_id": "7cb0243020def9a5fa4f64e3",
+      "key": "OKX:PERP:ONEUSDT",
+      "symbol": "ONEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793679935770,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793679952326
     }
   ],
   "runs": [
@@ -1650342,7 +1650300,8 @@
         "entry_seq": 0,
         "cohort": "ONEUSDT",
         "observation_lag_ms": 635770,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 16556
       }
     },
     "errors": [],
@@ -1676367,8 +1676326,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "94b3d90610b23e90c452e19e964f1e2dfbd0abaf",
-    "previous_success_ms": 1793679671455,
+    "previous_commit": "7affe040d0b086fbff2679ac606bdcfa96d0fdef",
+    "previous_success_ms": 1793679951194,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
