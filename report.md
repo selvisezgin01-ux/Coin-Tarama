@@ -94,7 +94,7 @@ Kimlik defteri: 17634 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | Godzroar `AJyrEbJzsQiG2aVYZ3gxbVrqv37ULFrn6yXpXS4Xbonk` | solana | 03.11.2026 10:01 | 64108.0 | Bekliyor |
+| 🟡 ERKEN RADAR | Godzroar `AJyrEbJzsQiG2aVYZ3gxbVrqv37ULFrn6yXpXS4Xbonk` | solana | 03.11.2026 10:01 | 64108.0 | [Issue #1695](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1695) |
 | 🟡 ERKEN RADAR | TOKEN `0x4a0dc9e5ea9072007e622bb69017560010b7b200` | bnb | 03.11.2026 09:49 | 151934.0 | [Issue #1693](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1693) |
 | 🟡 ERKEN RADAR | MAMESUKE `0x158c9abd9d104c60cabf9870fbe92f3b30a0c45f` | ethereum | 03.11.2026 09:48 | 53120.0 | [Issue #1692](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1692) |
 | 🟡 ERKEN RADAR | NVIDIA `0x896138de0ce839639ce51d1058dde291f05cf116` | robinhood | 03.11.2026 09:14 | 52510.0 | [Issue #1687](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1687) |
