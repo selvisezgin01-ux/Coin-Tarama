@@ -1546443,216 +1546443,7 @@
       "source_close_ms": 1793683800000
     }
   },
-  "pending": [
-    {
-      "id": "dde540f1bf2d91cf21c2f6dd",
-      "asset_id": "af5ae38110d85f5cc0ac7778",
-      "key": "OKX:SPOT:MOODENGUSDT",
-      "symbol": "MOODENGUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793683957177,
-      "price": 0.034065,
-      "level": 0.03424,
-      "invalid": 0.033857028474460954,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03424,
-        "base_invalid": 0.033857028474460954,
-        "atr": 0.0001531435035936203,
-        "rvol": 11.49612110385798,
-        "close_position": 0.9687500000000122,
-        "breakout": true,
-        "bar_close_ms": 1793680200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5602001766264362,
-        "score": 7.968750000000012
-      },
-      "context": {
-        "atr": 0.00015898159732663885,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5900666254620157,
-        "btc_hour_pct": 0.02378897231640753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MOODENGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793680200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOODENGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2159de4bb3a77b7f055e8111",
-      "asset_id": "c80d365dec0c69ba4cb67cb3",
-      "key": "OKX:PERP:ARKMUSDT",
-      "symbol": "ARKMUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793683958186,
-      "price": 0.11427000000000001,
-      "level": 0.11523,
-      "invalid": 0.1130962115125018,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11523,
-        "base_invalid": 0.1130962115125018,
-        "atr": 0.0008252565833213349,
-        "rvol": 3.932921440530703,
-        "close_position": 0.6578947368421046,
-        "breakout": true,
-        "bar_close_ms": 1793682000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1023622047244164,
-        "score": 5.590816177372807
-      },
-      "context": {
-        "atr": 0.0008635555918981912,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.093260527285267,
-        "btc_hour_pct": 0.00910167743914947,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ARKMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793682000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARKMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1647efe53ab9b972eea9ae07",
-      "asset_id": "f8ee50eb7937ccc56930ca4e",
-      "key": "OKX:PERP:ATOMUSDT",
-      "symbol": "ATOMUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793683958186,
-      "price": 1.4365,
-      "level": 1.432,
-      "invalid": 1.4151080075667997,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.432,
-        "base_invalid": 1.4151080075667997,
-        "atr": 0.0059466162213343875,
-        "rvol": 4.42615301353382,
-        "close_position": 0.6666666666666748,
-        "breakout": true,
-        "bar_close_ms": 1793683800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4901960784313708,
-        "score": 6.092819680200495
-      },
-      "context": {
-        "atr": 0.0059466162213343875,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.41195095413979477,
-        "btc_hour_pct": 0.00910167743914947,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ATOMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793683800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATOMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5fba11e80642ab4a53e14326",
-      "asset_id": "cf00ba2c2cc88db94f632da8",
-      "key": "MEXC:PERP:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793683960081,
-      "price": 607.89,
-      "level": 611.22,
-      "invalid": 604.1756620798938,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 611.22,
-        "base_invalid": 604.1756620798938,
-        "atr": 2.0955861340418345,
-        "rvol": 3.145043688573068,
-        "close_position": 0.7830188679245077,
-        "breakout": false,
-        "bar_close_ms": 1793683800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.03953415586339659,
-        "score": 4.428062556497576
-      },
-      "context": {
-        "atr": 2.0955861340418345,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.6270991124214031,
-        "btc_hour_pct": 0.01742296190352377,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XMRUSDT",
-          "change_pct": -0.11285603910027309,
-          "old_ms": 1793680225035,
-          "current_ms": 1793683956290,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793683800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1558808,6 +1558599,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793683547054
+    },
+    {
+      "id": "dde540f1bf2d91cf21c2f6dd",
+      "asset_id": "af5ae38110d85f5cc0ac7778",
+      "key": "OKX:SPOT:MOODENGUSDT",
+      "symbol": "MOODENGUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793683957177,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793683971690
+    },
+    {
+      "id": "2159de4bb3a77b7f055e8111",
+      "asset_id": "c80d365dec0c69ba4cb67cb3",
+      "key": "OKX:PERP:ARKMUSDT",
+      "symbol": "ARKMUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793683958186,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793683971691
+    },
+    {
+      "id": "1647efe53ab9b972eea9ae07",
+      "asset_id": "f8ee50eb7937ccc56930ca4e",
+      "key": "OKX:PERP:ATOMUSDT",
+      "symbol": "ATOMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793683958186,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793683971691
+    },
+    {
+      "id": "5fba11e80642ab4a53e14326",
+      "asset_id": "cf00ba2c2cc88db94f632da8",
+      "key": "MEXC:PERP:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793683960081,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793683971691
     }
   ],
   "runs": [
@@ -1665938,7 +1665773,8 @@
         "entry_seq": 0,
         "cohort": "ATOMUSDT",
         "observation_lag_ms": 158186,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13505
       },
       "cf00ba2c2cc88db94f632da8:radar": {
         "symbol": "XMRUSDT",
@@ -1665960,7 +1665796,8 @@
         "entry_seq": 0,
         "cohort": "XMRUSDT",
         "observation_lag_ms": 160081,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11610
       }
     },
     "errors": [],
@@ -1691990,8 +1691827,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1b0a606f04d9113a0f90d087db3c51d3506ba50b",
-    "previous_success_ms": 1793683945393,
+    "previous_commit": "ecdc2e462c4cde4c988005365bdfca1add65765b",
+    "previous_success_ms": 1793683970333,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
