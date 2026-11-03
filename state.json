@@ -1630913,60 +1630913,7 @@
       "source_close_ms": 1793746800000
     }
   },
-  "pending": [
-    {
-      "id": "743194b1c9020adfeda563ec",
-      "asset_id": "efc8c237b8559451d54becdc",
-      "key": "OKX:PERP:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793747263592,
-      "price": 0.022495,
-      "level": 0.02227,
-      "invalid": 0.021587471282136634,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02227,
-        "base_invalid": 0.021587471282136634,
-        "atr": 0.00041685811908910873,
-        "rvol": 2.2977192322660644,
-        "close_position": 0.7333333333333341,
-        "breakout": true,
-        "bar_close_ms": 1793746800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.134816159782126,
-        "score": 4.031052565599398
-      },
-      "context": {
-        "atr": 0.00041685811908910873,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1522796181375417,
-        "btc_hour_pct": -0.01746345835541563,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:HUMAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793746800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1645641,6 +1645588,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793746675225
+    },
+    {
+      "id": "743194b1c9020adfeda563ec",
+      "asset_id": "efc8c237b8559451d54becdc",
+      "key": "OKX:PERP:HUMAUSDT",
+      "symbol": "HUMAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793747263592,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793747274651
     }
   ],
   "runs": [
@@ -1768179,7 +1768137,8 @@
         "entry_seq": 0,
         "cohort": "HUMAUSDT",
         "observation_lag_ms": 463592,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11059
       }
     },
     "errors": [],
@@ -1794206,8 +1794165,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f1ffca59c8a7ac97d80389369cd2e2eade22f6c5",
-    "previous_success_ms": 1793747002329,
+    "previous_commit": "47ef0e57a90e7d02951960684a2b6112fa25e455",
+    "previous_success_ms": 1793747273407,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
