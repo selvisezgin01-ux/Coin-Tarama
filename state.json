@@ -1556985,164 +1556985,7 @@
       "source_close_ms": 1793695500000
     }
   },
-  "pending": [
-    {
-      "id": "b92a66f37a33ff4f785aac46",
-      "asset_id": "0b19400f1382c77ff147f84a",
-      "key": "OKX:SPOT:BIGTIMEUSDT",
-      "symbol": "BIGTIMEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793696949039,
-      "price": 0.0066095,
-      "level": 0.006572,
-      "invalid": 0.006489633453103015,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006572,
-        "base_invalid": 0.006489633453103015,
-        "atr": 3.577697931323529e-05,
-        "rvol": 7.251295638061458,
-        "close_position": 0.6938775510204002,
-        "breakout": true,
-        "bar_close_ms": 1793696400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4270896888346476,
-        "score": 7.6938775510204005
-      },
-      "context": {
-        "atr": 3.577697931323529e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6772588979771399,
-        "btc_hour_pct": -0.2501692091424923,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BIGTIMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIGTIMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6a0eb7013bcef92efec6fc04",
-      "asset_id": "91c43434135e166bbac74db3",
-      "key": "OKX:PERP:SOONUSDT",
-      "symbol": "SOONUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793696949666,
-      "price": 0.24509999999999998,
-      "level": 0.2385,
-      "invalid": 0.23154170794231116,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2385,
-        "base_invalid": 0.23154170794231116,
-        "atr": 0.0030552803845923203,
-        "rvol": 2.4074594499207853,
-        "close_position": 0.8823529411764713,
-        "breakout": true,
-        "bar_close_ms": 1793696400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0892932712653476,
-        "score": 4.289812391097257
-      },
-      "context": {
-        "atr": 0.0030552803845923203,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.3369608081973645,
-        "btc_hour_pct": -0.24766753693201693,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SOONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SOONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0b45cce6ff8be542224c3c30",
-      "asset_id": "ef6a7829f2b49f37fd67e83d",
-      "key": "OKX:SPOT:UNIUSDT",
-      "symbol": "UNIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793696949039,
-      "price": 7.076499999999999,
-      "level": 7.108,
-      "invalid": 6.962203257169329,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.108,
-        "base_invalid": 6.962203257169329,
-        "atr": 0.05197828553780459,
-        "rvol": 2.1239425728265893,
-        "close_position": 0.6,
-        "breakout": false,
-        "bar_close_ms": 1793696400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6823997725334152,
-        "score": 3.2239425728265894
-      },
-      "context": {
-        "atr": 0.05197828553780459,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9325689816759075,
-        "btc_hour_pct": -0.2501692091424923,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:UNIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UNIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1569694,6 +1569537,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793696667321
+    },
+    {
+      "id": "b92a66f37a33ff4f785aac46",
+      "asset_id": "0b19400f1382c77ff147f84a",
+      "key": "OKX:SPOT:BIGTIMEUSDT",
+      "symbol": "BIGTIMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793696949039,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793696962365
+    },
+    {
+      "id": "6a0eb7013bcef92efec6fc04",
+      "asset_id": "91c43434135e166bbac74db3",
+      "key": "OKX:PERP:SOONUSDT",
+      "symbol": "SOONUSDT",
+      "phase": "radar",
+      "observed_ms": 1793696949666,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793696962365
+    },
+    {
+      "id": "0b45cce6ff8be542224c3c30",
+      "asset_id": "ef6a7829f2b49f37fd67e83d",
+      "key": "OKX:SPOT:UNIUSDT",
+      "symbol": "UNIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793696949039,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793696962365
     }
   ],
   "runs": [
@@ -1680063,7 +1679939,8 @@
         "entry_seq": 0,
         "cohort": "BIGTIMEUSDT",
         "observation_lag_ms": 549039,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13326
       },
       "91c43434135e166bbac74db3:radar": {
         "symbol": "SOONUSDT",
@@ -1680085,7 +1679962,8 @@
         "entry_seq": 0,
         "cohort": "SOONUSDT",
         "observation_lag_ms": 549666,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12699
       },
       "ef6a7829f2b49f37fd67e83d:radar": {
         "symbol": "UNIUSDT",
@@ -1680107,7 +1679985,8 @@
         "entry_seq": 0,
         "cohort": "UNIUSDT",
         "observation_lag_ms": 549039,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13326
       }
     },
     "errors": [],
@@ -1706137,8 +1706016,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9cf9bae335d1dd42d269702667f6b90b1866314f",
-    "previous_success_ms": 1793696691009,
+    "previous_commit": "e199ac1793803b04baf78ae483824ed139f8f470",
+    "previous_success_ms": 1793696961119,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
