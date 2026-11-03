@@ -1642987,58 +1642987,7 @@
       "source_close_ms": 1793722500000
     }
   },
-  "pending": [
-    {
-      "id": "77ec104037890e2c58b94ab2",
-      "asset_id": "296d8de7a4362b7312f3e79e",
-      "key": "OKX:SPOT:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793723979084,
-      "price": 0.1255,
-      "level": 0.1251,
-      "invalid": 0.12347458616587027,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1251,
-        "base_invalid": 0.12347458616587027,
-        "atr": 0.0008360922275314922,
-        "rvol": 5.200195377852456,
-        "close_position": 0.733333333333326,
-        "breakout": true,
-        "bar_close_ms": 1793723400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8025682182985383,
-        "score": 6.933528711185782
-      },
-      "context": {
-        "atr": 0.0008360922275314922,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7109730618639176,
-        "btc_hour_pct": 0.39071685689995306,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793723400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NESUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656690,6 +1656639,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793723701398
+    },
+    {
+      "id": "77ec104037890e2c58b94ab2",
+      "asset_id": "296d8de7a4362b7312f3e79e",
+      "key": "OKX:SPOT:NESUSDT",
+      "symbol": "NESUSDT",
+      "phase": "radar",
+      "observed_ms": 1793723979084,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793723994675
     }
   ],
   "runs": [
@@ -1773723,7 +1773683,8 @@
         "entry_seq": 0,
         "cohort": "NESUSDT",
         "observation_lag_ms": 579084,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15591
       }
     },
     "errors": [],
@@ -1799746,8 +1799707,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5575f30b3b8c6d7b0408a220e2bf348e9d5e11d1",
-    "previous_success_ms": 1793723725457,
+    "previous_commit": "495874b6ff72c0d76b81dc25f28ef445addbf033",
+    "previous_success_ms": 1793723992966,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
