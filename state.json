@@ -1547666,118 +1547666,7 @@
       "source_close_ms": 1793685600000
     }
   },
-  "pending": [
-    {
-      "id": "384f682fd3fc8df26302f612",
-      "asset_id": "3410bed1080b3ff0500a121d",
-      "key": "MEXC:PERP:TUTUSDT",
-      "symbol": "TUTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793688156170,
-      "price": 0.016925000000000003,
-      "level": 0.01693,
-      "invalid": 0.016745779846597482,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01693,
-        "base_invalid": 0.016745779846597482,
-        "atr": 9.480102268346539e-05,
-        "rvol": 3.437407462576184,
-        "close_position": 0.6666666666666795,
-        "breakout": false,
-        "bar_close_ms": 1793687400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 4.604074129242863
-      },
-      "context": {
-        "atr": 9.480102268346539e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.027463851397657724,
-        "btc_hour_pct": -0.38375838821476105,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TUTUSDT",
-          "change_pct": 1.1560514489384888,
-          "old_ms": 1793684543382,
-          "current_ms": 1793688154405,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793687400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TUTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "31214784d6f7d7fe1da4e3e3",
-      "asset_id": "4e763dc3869385ba1d3b0523",
-      "key": "MEXC:PERP:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793688156170,
-      "price": 0.021745,
-      "level": 0.02149,
-      "invalid": 0.020606627173706888,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02149,
-        "base_invalid": 0.020606627173706888,
-        "atr": 0.000555818841954089,
-        "rvol": 2.3455647857501525,
-        "close_position": 0.9537037037037024,
-        "breakout": true,
-        "bar_close_ms": 1793687400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3463162834350015,
-        "score": 4.299268489453855
-      },
-      "context": {
-        "atr": 0.000555818841954089,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.03877682305284402,
-        "btc_hour_pct": -0.38375838821476105,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LYNUSDT",
-          "change_pct": -1.580821960466805,
-          "old_ms": 1793684542998,
-          "current_ms": 1793688154016,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0151,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793687400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1560065,6 +1559954,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793687867961
+    },
+    {
+      "id": "384f682fd3fc8df26302f612",
+      "asset_id": "3410bed1080b3ff0500a121d",
+      "key": "MEXC:PERP:TUTUSDT",
+      "symbol": "TUTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793688156170,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793688167714
+    },
+    {
+      "id": "31214784d6f7d7fe1da4e3e3",
+      "asset_id": "4e763dc3869385ba1d3b0523",
+      "key": "MEXC:PERP:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793688156170,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793688167715
     }
   ],
   "runs": [
@@ -1668260,7 +1668171,8 @@
         "entry_seq": 0,
         "cohort": "TUTUSDT",
         "observation_lag_ms": 756170,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11544
       },
       "4e763dc3869385ba1d3b0523:radar": {
         "symbol": "LYNUSDT",
@@ -1668282,7 +1668194,8 @@
         "entry_seq": 0,
         "cohort": "LYNUSDT",
         "observation_lag_ms": 756170,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11545
       }
     },
     "errors": [],
@@ -1694309,8 +1694222,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4574357c61eb5c7ee830ed19ff39f4b9450b14b0",
-    "previous_success_ms": 1793687897332,
+    "previous_commit": "583d99c8fea250c871ce803bd496a5736ceb386b",
+    "previous_success_ms": 1793688166400,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
