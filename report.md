@@ -94,8 +94,8 @@ Kimlik defteri: 20340 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | SAM `0xb2e2c945e83e2cfb7079c2b7799b05c3d18ee104` | bnb | 03.11.2026 14:08 | 248065.0 | Bekliyor |
-| 🟡 ERKEN RADAR | YouTube `9VR8bkWNeJQ7688rmaexD8ZEC21CPLSNUv9BPzvpump` | solana | 03.11.2026 14:08 | 140454.0 | Bekliyor |
+| 🟡 ERKEN RADAR | SAM `0xb2e2c945e83e2cfb7079c2b7799b05c3d18ee104` | bnb | 03.11.2026 14:08 | 248065.0 | [Issue #1739](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1739) |
+| 🟡 ERKEN RADAR | YouTube `9VR8bkWNeJQ7688rmaexD8ZEC21CPLSNUv9BPzvpump` | solana | 03.11.2026 14:08 | 140454.0 | [Issue #1738](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1738) |
 | 🟡 ERKEN RADAR | MV `0xf333dd0e7234c29d9fd8a56df15e9e271757aeda` | bnb | 03.11.2026 13:54 | 356000.0 | [Issue #1737](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1737) |
 | 🟡 ERKEN RADAR | OpenAI `6cNhxnRaJ1AzeLsojWthyP2UQtWxDSH7SvdXGRoEpump` | solana | 03.11.2026 13:54 | 118030.0 | [Issue #1736](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1736) |
 | 🟡 ERKEN RADAR | TOKEN `0x6aad3de8b7c0ca6345fa198a8d13bd5f78fb5c8a` | bnb | 03.11.2026 13:27 | 169860.0 | [Issue #1734](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1734) |
