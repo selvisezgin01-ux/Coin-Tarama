@@ -1638018,162 +1638018,7 @@
       "source_close_ms": 1793718000000
     }
   },
-  "pending": [
-    {
-      "id": "2631f53b3f186c7c800432b4",
-      "asset_id": "b4e7b8e952f8b24bb6c2474c",
-      "key": "OKX:PERP:KATUSDT",
-      "symbol": "KATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793718287869,
-      "price": 0.0038364999999999996,
-      "level": 0.003767,
-      "invalid": 0.0037071554650701735,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003767,
-        "base_invalid": 0.0037071554650701735,
-        "atr": 2.5630232865507764e-05,
-        "rvol": 2.0515285968338133,
-        "close_position": 0.8529411764705931,
-        "breakout": true,
-        "bar_close_ms": 1793696400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0962566844919808,
-        "score": 3.9044697733044065
-      },
-      "context": {
-        "atr": 2.204859449134258e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3491601577461756,
-        "btc_hour_pct": -0.009823170014522375,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "aa42e7331aa8d248e0c4db1b",
-      "asset_id": "7cd7845a5f679a2451709c5e",
-      "key": "OKX:SPOT:PUMPUSDT",
-      "symbol": "PUMPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793718289797,
-      "price": 0.004233499999999999,
-      "level": 0.003965,
-      "invalid": 0.0039020292406785444,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003965,
-        "base_invalid": 0.0039020292406785444,
-        "atr": 2.6471728809706115e-05,
-        "rvol": 2.5370503646214613,
-        "close_position": 0.8666666666666679,
-        "breakout": false,
-        "bar_close_ms": 1793696400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4826009652019181,
-        "score": 3.9037170312881293
-      },
-      "context": {
-        "atr": 3.9701168538666426e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1593543732244305,
-        "btc_hour_pct": 0.006202239525321396,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f4cb8e49096765965c2c9810",
-      "asset_id": "2658071a5f9f2c007b340511",
-      "key": "OKX:SPOT:ONDOUSDT",
-      "symbol": "ONDOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793718289797,
-      "price": 0.39115,
-      "level": 0.3928,
-      "invalid": 0.3854479299026356,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3928,
-        "base_invalid": 0.3854479299026356,
-        "atr": 0.002347133982429053,
-        "rvol": 4.004514827025796,
-        "close_position": 0.9166666666666753,
-        "breakout": true,
-        "bar_close_ms": 1793717100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4088934321492488,
-        "score": 5.921181493692471
-      },
-      "context": {
-        "atr": 0.0024350435999600205,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3014900681669763,
-        "btc_hour_pct": 0.006202239525321396,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ONDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793717100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1651616,6 +1651461,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793717225862
+    },
+    {
+      "id": "2631f53b3f186c7c800432b4",
+      "asset_id": "b4e7b8e952f8b24bb6c2474c",
+      "key": "OKX:PERP:KATUSDT",
+      "symbol": "KATUSDT",
+      "phase": "expired",
+      "observed_ms": 1793718287869,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793718308112
+    },
+    {
+      "id": "aa42e7331aa8d248e0c4db1b",
+      "asset_id": "7cd7845a5f679a2451709c5e",
+      "key": "OKX:SPOT:PUMPUSDT",
+      "symbol": "PUMPUSDT",
+      "phase": "expired",
+      "observed_ms": 1793718289797,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793718308113
+    },
+    {
+      "id": "f4cb8e49096765965c2c9810",
+      "asset_id": "2658071a5f9f2c007b340511",
+      "key": "OKX:SPOT:ONDOUSDT",
+      "symbol": "ONDOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793718289797,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793718308113
     }
   ],
   "runs": [
@@ -1793282,8 +1793160,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3a2e04d217a21af47cbff8c30eaea48dec42eaa0",
-    "previous_success_ms": 1793718018690,
+    "previous_commit": "2ee2c1a48d87da0bd6282dbf57a6683f472f7ad1",
+    "previous_success_ms": 1793718306768,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
