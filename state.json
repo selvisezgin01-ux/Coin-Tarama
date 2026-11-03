@@ -1546591,58 +1546591,7 @@
       "source_close_ms": 1793690100000
     }
   },
-  "pending": [
-    {
-      "id": "4264ae5d233d7a41e843c629",
-      "asset_id": "7ddcb729cd52f372d9f9fb32",
-      "key": "OKX:PERP:GMXUSDT",
-      "symbol": "GMXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793690945597,
-      "price": 8.266,
-      "level": 8.248,
-      "invalid": 8.111019796600152,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.248,
-        "base_invalid": 8.111019796600152,
-        "atr": 0.053201355998990514,
-        "rvol": 3.33890947857787,
-        "close_position": 0.9245283018867995,
-        "breakout": false,
-        "bar_close_ms": 1793668500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.34175515684120583,
-        "score": 4.7634377804646695
-      },
-      "context": {
-        "atr": 0.04691705009218366,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.17651999706711496,
-        "btc_hour_pct": -0.0905675348012891,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793668500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1558985,6 +1558934,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793690271801
+    },
+    {
+      "id": "4264ae5d233d7a41e843c629",
+      "asset_id": "7ddcb729cd52f372d9f9fb32",
+      "key": "OKX:PERP:GMXUSDT",
+      "symbol": "GMXUSDT",
+      "phase": "expired",
+      "observed_ms": 1793690945597,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793690958925
     }
   ],
   "runs": [
@@ -1693894,8 +1693854,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5086a81c6bab91e4cef641c819c94b7d8ec1f860",
-    "previous_success_ms": 1793690686446,
+    "previous_commit": "9c573bb9289f977e32f31265a64d84c0aef76353",
+    "previous_success_ms": 1793690957946,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
