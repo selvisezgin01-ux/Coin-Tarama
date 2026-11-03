@@ -1609123,7 +1609123,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 4
         }
-      }
+      },
+      "finished_ms": 1793692768337,
+      "duration_ms": 29429
     }
   ],
   "radar_admissions": [
@@ -1674248,13 +1674250,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793692652746,
+            "endpoint_ms": 1793692680000,
+            "endpoint_price": 0.04618,
+            "return_pct": 0.021659085986569515,
+            "btc_excess_pct_points": -0.30574252861998996,
+            "mae_pct": -0.649772579597141,
+            "mfe_pct": 2.9889538661468373,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 27254,
+            "measured_ms": 1793692767207,
+            "cost_scenarios_pct": {
+              "0.2": -0.1783409140134305,
+              "0.5": -0.4783409140134305,
+              "1": -0.9783409140134305
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793688300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "MEGAUSDT",
         "observation_lag_ms": 752746,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793692767207
       },
       "b6b1f6ae68f23634bf88e6c5:radar": {
         "symbol": "MEGAUSDT",
@@ -1674315,13 +1674341,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793692653592,
+            "endpoint_ms": 1793692680000,
+            "endpoint_price": 0.04615,
+            "return_pct": -0.2270024862177089,
+            "btc_excess_pct_points": -0.5570124377590413,
+            "mae_pct": -0.918819587071662,
+            "mfe_pct": 3.0591287428386016,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 26408,
+            "measured_ms": 1793692767207,
+            "cost_scenarios_pct": {
+              "0.2": -0.4270024862177089,
+              "0.5": -0.7270024862177089,
+              "1": -1.227002486217709
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793688300000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "MEGAUSDT",
         "observation_lag_ms": 753592,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793692767207
       },
       "dcf827dba0605c7cca618204:radar": {
         "symbol": "2ZUSDT",
@@ -1674486,19 +1674536,19 @@
     },
     "errors": [],
     "queue": {
-      "due": 135,
+      "due": 137,
       "attempted": 2,
-      "observed_ms": 1793692467735,
-      "unique_reads": 6
+      "observed_ms": 1793692767207,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 623,
+        "market_event_references": 624,
         "unique_symbol_labels": 309,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 172,
+            "event_references": 173,
             "first_per_symbol": 143,
             "hours": {
               "1": {
@@ -1700509,8 +1700559,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "54dc5f92c92e15167c50878e1fdc8d264202fc45",
-    "previous_success_ms": 1793692757624,
+    "previous_commit": "00fbe0970a6ba5682262295eb48498d4cec83a0a",
+    "previous_success_ms": 1793692767155,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
