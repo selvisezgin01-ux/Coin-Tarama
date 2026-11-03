@@ -1582202,164 +1582202,7 @@
       "source_close_ms": 1793702700000
     }
   },
-  "pending": [
-    {
-      "id": "0705bf6d22edb49ba09aa517",
-      "asset_id": "727f32b782c9616d3c6c7610",
-      "key": "MEXC:SPOT:SHIBUSDT",
-      "symbol": "SHIBUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793704773826,
-      "price": 4.595e-06,
-      "level": 4.582e-06,
-      "invalid": 4.552873760837795e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.582e-06,
-        "base_invalid": 4.552873760837795e-06,
-        "atr": 1.417492774802851e-08,
-        "rvol": 5.232545010479335,
-        "close_position": 0.8888888888888784,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6574621959237303,
-        "score": 7.121433899368213
-      },
-      "context": {
-        "atr": 1.417492774802851e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.21384738301462036,
-        "btc_hour_pct": 0.07080337240470413,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SHIBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SHIBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1649749f073ab4db1718c3ff",
-      "asset_id": "e17c5a756c768446f1860a60",
-      "key": "OKX:SPOT:CARDSUSDT",
-      "symbol": "CARDSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793704777087,
-      "price": 0.24209999999999998,
-      "level": 0.2405,
-      "invalid": 0.23561390897696594,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2405,
-        "base_invalid": 0.23561390897696594,
-        "atr": 0.0019072734868936826,
-        "rvol": 4.829997221633819,
-        "close_position": 0.6097560975609705,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9201171058134561,
-        "score": 6.43975331919479
-      },
-      "context": {
-        "atr": 0.0019072734868936826,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.0023586234120243077,
-        "btc_hour_pct": 0.08135841300489499,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CARDSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CARDSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "334a61b85fa36de7784fb9e2",
-      "asset_id": "756268907198549d1da6cf3b",
-      "key": "OKX:SPOT:FOGOUSDT",
-      "symbol": "FOGOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793704777087,
-      "price": 0.0023755,
-      "level": 0.002359,
-      "invalid": 0.002324155111823147,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002359,
-        "base_invalid": 0.002324155111823147,
-        "atr": 1.896592117901895e-05,
-        "rvol": 4.430312587157392,
-        "close_position": 0.7631578947368439,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.060085836909864,
-        "score": 6.193470481894236
-      },
-      "context": {
-        "atr": 1.896592117901895e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6044538458892301,
-        "btc_hour_pct": 0.08135841300489499,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FOGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FOGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1595175,6 +1595018,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793704184009
+    },
+    {
+      "id": "0705bf6d22edb49ba09aa517",
+      "asset_id": "727f32b782c9616d3c6c7610",
+      "key": "MEXC:SPOT:SHIBUSDT",
+      "symbol": "SHIBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793704773826,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793704788760
+    },
+    {
+      "id": "1649749f073ab4db1718c3ff",
+      "asset_id": "e17c5a756c768446f1860a60",
+      "key": "OKX:SPOT:CARDSUSDT",
+      "symbol": "CARDSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793704777087,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793704788760
+    },
+    {
+      "id": "334a61b85fa36de7784fb9e2",
+      "asset_id": "756268907198549d1da6cf3b",
+      "key": "OKX:SPOT:FOGOUSDT",
+      "symbol": "FOGOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793704777087,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793704788761
     }
   ],
   "runs": [
@@ -1707223,7 +1707099,8 @@
         "entry_seq": 0,
         "cohort": "SHIBUSDT",
         "observation_lag_ms": 273826,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14934
       },
       "e17c5a756c768446f1860a60:radar": {
         "symbol": "CARDSUSDT",
@@ -1707245,7 +1707122,8 @@
         "entry_seq": 0,
         "cohort": "CARDSUSDT",
         "observation_lag_ms": 277087,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11673
       },
       "756268907198549d1da6cf3b:radar": {
         "symbol": "FOGOUSDT",
@@ -1707267,7 +1707145,8 @@
         "entry_seq": 0,
         "cohort": "FOGOUSDT",
         "observation_lag_ms": 277087,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11674
       }
     },
     "errors": [],
@@ -1733311,8 +1733190,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "263c1a02906daec182182a26af9459ddce74ac63",
-    "previous_success_ms": 1793704499950,
+    "previous_commit": "c1a0aa6723eab9d49793d3b6bfdb07dfa4ba0a9a",
+    "previous_success_ms": 1793704787584,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
