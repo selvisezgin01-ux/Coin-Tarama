@@ -1645373,322 +1645373,7 @@
       "source_close_ms": 1793737800000
     }
   },
-  "pending": [
-    {
-      "id": "a77a1c12da669bedf33f8be1",
-      "asset_id": "343221463c6f78d4c67779e8",
-      "key": "OKX:PERP:FARTCOINUSDT",
-      "symbol": "FARTCOINUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793738817748,
-      "price": 0.11865,
-      "level": 0.1197,
-      "invalid": 0.11727983118531314,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1197,
-        "base_invalid": 0.11727983118531314,
-        "atr": 0.0008011254312457527,
-        "rvol": 3.280440320310794,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793717100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.420521446593769,
-        "score": 4.7804403203107935
-      },
-      "context": {
-        "atr": 0.0006632346717297459,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.28973737316823067,
-        "btc_hour_pct": 0.03635899478984239,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FARTCOINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793717100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FARTCOINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "892c6e1584feae9611e52278",
-      "asset_id": "0c062f493cb2b5816c704453",
-      "key": "MEXC:PERP:FARTCOINUSDT",
-      "symbol": "FARTCOINUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793738816170,
-      "price": 0.118675,
-      "level": 0.11986,
-      "invalid": 0.11741572675174927,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11986,
-        "base_invalid": 0.11741572675174927,
-        "atr": 0.0008284883216715328,
-        "rvol": 2.2823449186009017,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793717100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5042016806722671,
-        "score": 3.7823449186009017
-      },
-      "context": {
-        "atr": 0.0006646265582451058,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3256372015150166,
-        "btc_hour_pct": 0.022044690130296196,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FARTCOINUSDT",
-          "change_pct": -1.0001353493947929,
-          "old_ms": 1793735260053,
-          "current_ms": 1793738812119,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793717100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FARTCOINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8669be78a0fcb9dc800aeb4c",
-      "asset_id": "51499f5800fc96d45708a0bc",
-      "key": "OKX:SPOT:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793738815951,
-      "price": 0.041179999999999994,
-      "level": 0.04104,
-      "invalid": 0.040109113415858516,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04104,
-        "base_invalid": 0.040109113415858516,
-        "atr": 0.00033924389427659026,
-        "rvol": 13.075503606041014,
-        "close_position": 0.9393939393939419,
-        "breakout": true,
-        "bar_close_ms": 1793738700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.2111801242236107,
-        "score": 7.939393939393942
-      },
-      "context": {
-        "atr": 0.00033924389427659026,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3992300058981324,
-        "btc_hour_pct": 0.029771877819317893,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e56efa35878168fd70c3d208",
-      "asset_id": "b2c12ba2df68343ea001bb58",
-      "key": "OKX:PERP:ENJUSDT",
-      "symbol": "ENJUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793738817748,
-      "price": 0.024065000000000003,
-      "level": 0.02396,
-      "invalid": 0.02373610157055105,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02396,
-        "base_invalid": 0.02373610157055105,
-        "atr": 9.265619632634711e-05,
-        "rvol": 4.881854264372895,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793738700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9239815203695878,
-        "score": 6.881854264372895
-      },
-      "context": {
-        "atr": 9.265619632634711e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.17372503882360224,
-        "btc_hour_pct": 0.03635899478984239,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ENJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ENJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a3536c6f629f0a8d9ff5496c",
-      "asset_id": "061e9423a90bdfa8f19ae0f8",
-      "key": "OKX:PERP:ONTUSDT",
-      "symbol": "ONTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793738817748,
-      "price": 0.044985,
-      "level": 0.04498,
-      "invalid": 0.044707973437356614,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04498,
-        "base_invalid": 0.044707973437356614,
-        "atr": 0.00014684375095590278,
-        "rvol": 4.934616441768033,
-        "close_position": 0.8750000000000054,
-        "breakout": false,
-        "bar_close_ms": 1793738700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.46906410542775223,
-        "score": 6.309616441768038
-      },
-      "context": {
-        "atr": 0.00014684375095590278,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.05298654910117495,
-        "btc_hour_pct": 0.03635899478984239,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ONTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0c1bd5dcc741a9221b0079a1",
-      "asset_id": "7487d240b14604f3412eb4d1",
-      "key": "OKX:PERP:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793738817748,
-      "price": 0.04117,
-      "level": 0.04104,
-      "invalid": 0.04007388638404288,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04104,
-        "base_invalid": 0.04007388638404288,
-        "atr": 0.00037409077304747124,
-        "rvol": 2.1704990649165685,
-        "close_position": 0.953125000000007,
-        "breakout": true,
-        "bar_close_ms": 1793738700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1631029338637475,
-        "score": 4.123624064916576
-      },
-      "context": {
-        "atr": 0.00037409077304747124,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.3322169829555244,
-        "btc_hour_pct": 0.03635899478984239,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1659923,6 +1659608,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793738531649
+    },
+    {
+      "id": "a77a1c12da669bedf33f8be1",
+      "asset_id": "343221463c6f78d4c67779e8",
+      "key": "OKX:PERP:FARTCOINUSDT",
+      "symbol": "FARTCOINUSDT",
+      "phase": "expired",
+      "observed_ms": 1793738817748,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793738828325
+    },
+    {
+      "id": "892c6e1584feae9611e52278",
+      "asset_id": "0c062f493cb2b5816c704453",
+      "key": "MEXC:PERP:FARTCOINUSDT",
+      "symbol": "FARTCOINUSDT",
+      "phase": "expired",
+      "observed_ms": 1793738816170,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793738828326
+    },
+    {
+      "id": "8669be78a0fcb9dc800aeb4c",
+      "asset_id": "51499f5800fc96d45708a0bc",
+      "key": "OKX:SPOT:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793738815951,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793738828326
+    },
+    {
+      "id": "e56efa35878168fd70c3d208",
+      "asset_id": "b2c12ba2df68343ea001bb58",
+      "key": "OKX:PERP:ENJUSDT",
+      "symbol": "ENJUSDT",
+      "phase": "radar",
+      "observed_ms": 1793738817748,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793738828326
+    },
+    {
+      "id": "a3536c6f629f0a8d9ff5496c",
+      "asset_id": "061e9423a90bdfa8f19ae0f8",
+      "key": "OKX:PERP:ONTUSDT",
+      "symbol": "ONTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793738817748,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793738828326
+    },
+    {
+      "id": "0c1bd5dcc741a9221b0079a1",
+      "asset_id": "7487d240b14604f3412eb4d1",
+      "key": "OKX:PERP:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793738817748,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793738828326
     }
   ],
   "runs": [
@@ -1780361,7 +1780112,8 @@
         "entry_seq": 0,
         "cohort": "CHIPUSDT",
         "observation_lag_ms": 115951,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12375
       },
       "b2c12ba2df68343ea001bb58:radar": {
         "symbol": "ENJUSDT",
@@ -1780383,7 +1780135,8 @@
         "entry_seq": 0,
         "cohort": "ENJUSDT",
         "observation_lag_ms": 117748,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10578
       },
       "061e9423a90bdfa8f19ae0f8:radar": {
         "symbol": "ONTUSDT",
@@ -1780405,7 +1780158,8 @@
         "entry_seq": 0,
         "cohort": "ONTUSDT",
         "observation_lag_ms": 117748,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10578
       },
       "7487d240b14604f3412eb4d1:radar": {
         "symbol": "CHIPUSDT",
@@ -1780427,7 +1780181,8 @@
         "entry_seq": 0,
         "cohort": "CHIPUSDT",
         "observation_lag_ms": 117748,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10578
       }
     },
     "errors": [],
@@ -1806462,8 +1806217,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5d21a2fc6250f924b4c1c136d09606c37c5032ff",
-    "previous_success_ms": 1793738571900,
+    "previous_commit": "7ba6164630c36ca36bd49aa88b6a43efb1645a0f",
+    "previous_success_ms": 1793738826836,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
