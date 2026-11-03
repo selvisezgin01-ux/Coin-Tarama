@@ -1548078,64 +1548078,7 @@
       "source_close_ms": 1793688300000
     }
   },
-  "pending": [
-    {
-      "id": "082e7477c3ac5705ee1b4079",
-      "asset_id": "4468885f11c3595ccd3e60e8",
-      "key": "MEXC:PERP:BMTUSDT",
-      "symbol": "BMTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793688460209,
-      "price": 0.023274999999999997,
-      "level": 0.02332,
-      "invalid": 0.0213804209178073,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02332,
-        "base_invalid": 0.0213804209178073,
-        "atr": 0.00039719388128467507,
-        "rvol": 4.391114308762424,
-        "close_position": 0.6593406593406583,
-        "breakout": true,
-        "bar_close_ms": 1793682000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.8025134649910095,
-        "score": 6.050454968103082
-      },
-      "context": {
-        "atr": 0.0005870821815047499,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.353779801491007,
-        "btc_hour_pct": -0.38375838821476105,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BMTUSDT",
-          "change_pct": 19.035444746691766,
-          "old_ms": 1793684843266,
-          "current_ms": 1793688456279,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -1.3496,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793682000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1560445,6 +1560388,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793688167715
+    },
+    {
+      "id": "082e7477c3ac5705ee1b4079",
+      "asset_id": "4468885f11c3595ccd3e60e8",
+      "key": "MEXC:PERP:BMTUSDT",
+      "symbol": "BMTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793688460209,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793688471809
     }
   ],
   "runs": [
@@ -1694729,8 +1694683,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7a5e46de187bb12a847dc884973c6216dfee524a",
-    "previous_success_ms": 1793688197519,
+    "previous_commit": "650d8dbde35ef7a97d647f39b91c18ce5100593e",
+    "previous_success_ms": 1793688470637,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
