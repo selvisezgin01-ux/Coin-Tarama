@@ -1528705,116 +1528705,7 @@
       "source_close_ms": 1793675700000
     }
   },
-  "pending": [
-    {
-      "id": "5182d2805b1b474676e75530",
-      "asset_id": "3061a31295674a75a4b61d28",
-      "key": "OKX:SPOT:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793676434268,
-      "price": 0.040493,
-      "level": 0.040221,
-      "invalid": 0.03953822658652765,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.040221,
-        "base_invalid": 0.03953822658652765,
-        "atr": 0.000278489423149009,
-        "rvol": 3.1073439809053998,
-        "close_position": 0.8638297872340387,
-        "breakout": false,
-        "bar_close_ms": 1793654100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5153478598053596,
-        "score": 4.471173768139439
-      },
-      "context": {
-        "atr": 0.0002851832530930003,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.770049296008779,
-        "btc_hour_pct": -0.5314092979769369,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793654100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a586cce66b0259177f4a23ea",
-      "asset_id": "b1984f3c197e412b6fe84265",
-      "key": "MEXC:PERP:FLOWUSDT",
-      "symbol": "FLOWUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793676434664,
-      "price": 0.02211,
-      "level": 0.02221,
-      "invalid": 0.021933201763064576,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02221,
-        "base_invalid": 0.021933201763064576,
-        "atr": 0.00011198824623615976,
-        "rvol": 4.273150684410195,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793675700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7276034561164213,
-        "score": 5.773150684410195
-      },
-      "context": {
-        "atr": 0.00011198824623615976,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.710255915325464,
-        "btc_hour_pct": -0.5286853297603256,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FLOWUSDT",
-          "change_pct": -3.161533495806945,
-          "old_ms": 1793672819628,
-          "current_ms": 1793676433622,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793675700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1540750,6 +1540641,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793676146458
+    },
+    {
+      "id": "5182d2805b1b474676e75530",
+      "asset_id": "3061a31295674a75a4b61d28",
+      "key": "OKX:SPOT:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793676434268,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793676444836
+    },
+    {
+      "id": "a586cce66b0259177f4a23ea",
+      "asset_id": "b1984f3c197e412b6fe84265",
+      "key": "MEXC:PERP:FLOWUSDT",
+      "symbol": "FLOWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793676434664,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793676444837
     }
   ],
   "runs": [
@@ -1646079,7 +1645992,8 @@
         "entry_seq": 0,
         "cohort": "FLOWUSDT",
         "observation_lag_ms": 734664,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10173
       }
     },
     "errors": [],
@@ -1672107,8 +1672021,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0d1aef20b3970c5ce9f8000709256d6eb3ef1e0e",
-    "previous_success_ms": 1793676165248,
+    "previous_commit": "bd4650c92e1760be97c801abd8a1d856d1db9a71",
+    "previous_success_ms": 1793676443614,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
