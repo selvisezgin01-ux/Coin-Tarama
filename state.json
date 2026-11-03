@@ -1659545,218 +1659545,7 @@
       "source_close_ms": 1793740500000
     }
   },
-  "pending": [
-    {
-      "id": "72aea2c9c03b1da011087811",
-      "asset_id": "8033a5446ee120cc8bb13cf1",
-      "key": "MEXC:PERP:CRVUSDT",
-      "symbol": "CRVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793742417645,
-      "price": 0.26355,
-      "level": 0.2623,
-      "invalid": 0.2571316347153716,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2623,
-        "base_invalid": 0.2571316347153716,
-        "atr": 0.0017891018975229145,
-        "rvol": 6.050485493594386,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.050290135396504,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0017891018975229145,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.425295608099264,
-        "btc_hour_pct": 0.3175797945011105,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CRVUSDT",
-          "change_pct": 0.7141626649136201,
-          "old_ms": 1793738800209,
-          "current_ms": 1793742413236,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CRVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "683931693f752307a0de0c1b",
-      "asset_id": "f8250ad5e8532b38458436bf",
-      "key": "OKX:SPOT:ACHUSDT",
-      "symbol": "ACHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793742418977,
-      "price": 0.004618000000000001,
-      "level": 0.004618,
-      "invalid": 0.004574288058396738,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.004618,
-        "base_invalid": 0.004574288058396738,
-        "atr": 1.1412944021749498e-05,
-        "rvol": 12.062478334241083,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.32559149120903186,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 1.1412944021749498e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.0458806755451624,
-        "btc_hour_pct": 0.3254605214841222,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ACHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ACHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1f16afe64a709e7be332baf3",
-      "asset_id": "64f61e67cf41b57ceccd0a15",
-      "key": "OKX:SPOT:CARDSUSDT",
-      "symbol": "CARDSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793742418977,
-      "price": 0.2477,
-      "level": 0.2433,
-      "invalid": 0.24001740207429886,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2433,
-        "base_invalid": 0.24001740207429886,
-        "atr": 0.001883986171340994,
-        "rvol": 25.363624080522275,
-        "close_position": 0.8095238095238084,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.571547075902103,
-        "score": 7.809523809523808
-      },
-      "context": {
-        "atr": 0.001883986171340994,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.1594165198236963,
-        "btc_hour_pct": 0.3254605214841222,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CARDSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CARDSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5355c6c57e0ddbe67288b13e",
-      "asset_id": "5a3926348dd5952ac2f25499",
-      "key": "OKX:SPOT:CRVUSDT",
-      "symbol": "CRVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793742418977,
-      "price": 0.2639,
-      "level": 0.2626,
-      "invalid": 0.25725940509836337,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2626,
-        "base_invalid": 0.25725940509836337,
-        "atr": 0.0016039660109109914,
-        "rvol": 4.204326009843878,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1243723445345752,
-        "score": 6.204326009843878
-      },
-      "context": {
-        "atr": 0.0016039660109109914,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.3945708689449998,
-        "btc_hour_pct": 0.3254605214841222,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CRVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CRVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1674167,6 +1673956,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793741544407
+    },
+    {
+      "id": "72aea2c9c03b1da011087811",
+      "asset_id": "8033a5446ee120cc8bb13cf1",
+      "key": "MEXC:PERP:CRVUSDT",
+      "symbol": "CRVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793742417645,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793742429961
+    },
+    {
+      "id": "683931693f752307a0de0c1b",
+      "asset_id": "f8250ad5e8532b38458436bf",
+      "key": "OKX:SPOT:ACHUSDT",
+      "symbol": "ACHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793742418977,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793742429961
+    },
+    {
+      "id": "1f16afe64a709e7be332baf3",
+      "asset_id": "64f61e67cf41b57ceccd0a15",
+      "key": "OKX:SPOT:CARDSUSDT",
+      "symbol": "CARDSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793742418977,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793742429961
+    },
+    {
+      "id": "5355c6c57e0ddbe67288b13e",
+      "asset_id": "5a3926348dd5952ac2f25499",
+      "key": "OKX:SPOT:CRVUSDT",
+      "symbol": "CRVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793742418977,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793742429961
     }
   ],
   "runs": [
@@ -1795598,7 +1795431,8 @@
         "entry_seq": 0,
         "cohort": "CRVUSDT",
         "observation_lag_ms": 117645,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12316
       },
       "f8250ad5e8532b38458436bf:radar": {
         "symbol": "ACHUSDT",
@@ -1795620,7 +1795454,8 @@
         "entry_seq": 0,
         "cohort": "ACHUSDT",
         "observation_lag_ms": 118977,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10984
       },
       "64f61e67cf41b57ceccd0a15:radar": {
         "symbol": "CARDSUSDT",
@@ -1795642,7 +1795477,8 @@
         "entry_seq": 0,
         "cohort": "CARDSUSDT",
         "observation_lag_ms": 118977,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10984
       },
       "5a3926348dd5952ac2f25499:radar": {
         "symbol": "CRVUSDT",
@@ -1795664,7 +1795500,8 @@
         "entry_seq": 0,
         "cohort": "CRVUSDT",
         "observation_lag_ms": 118977,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10984
       }
     },
     "errors": [],
@@ -1821715,8 +1821552,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "026a2620146e628f1fe4c9c7129938913a41018e",
-    "previous_success_ms": 1793742181132,
+    "previous_commit": "597c648f7e5c128492f2960cd591e0ef55732abe",
+    "previous_success_ms": 1793742428555,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
