@@ -1645521,170 +1645521,7 @@
       "source_close_ms": 1793725200000
     }
   },
-  "pending": [
-    {
-      "id": "df98be99bf600bf7d2c92bf7",
-      "asset_id": "12a5110b3fbee579f8c478e2",
-      "key": "OKX:SPOT:BOMEUSDT",
-      "symbol": "BOMEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793726016769,
-      "price": 0.0006315,
-      "level": 0.0005964,
-      "invalid": 0.000585966821802296,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005964,
-        "base_invalid": 0.000585966821802296,
-        "atr": 2.8878546513607126e-06,
-        "rvol": 4.90565822458984,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793703600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4319407008086316,
-        "score": 6.90565822458984
-      },
-      "context": {
-        "atr": 7.077072307832458e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.06005799696129355,
-        "btc_hour_pct": 0.0519957888559075,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BOMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793703600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BOMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "94d2b6a82d3df9f189706de4",
-      "asset_id": "23210dd81476fb59625016a3",
-      "key": "MEXC:PERP:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793726018253,
-      "price": 0.080755,
-      "level": 0.07939,
-      "invalid": 0.07841162647527618,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07939,
-        "base_invalid": 0.07841162647527618,
-        "atr": 0.0003891568314921736,
-        "rvol": 2.7871044230779476,
-        "close_position": 0.7647058823529556,
-        "breakout": false,
-        "bar_close_ms": 1793703600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4174573055028663,
-        "score": 4.051810305430903
-      },
-      "context": {
-        "atr": 0.0004231331724033111,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1602353173644655,
-        "btc_hour_pct": 0.06347832916797636,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AUSDT",
-          "change_pct": -0.1665282348508268,
-          "old_ms": 1793722470646,
-          "current_ms": 1793726016677,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793703600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0887e40c72dacb2d99900a57",
-      "asset_id": "0abae29ba0159ef27660d9f3",
-      "key": "MEXC:PERP:KASUSDT",
-      "symbol": "KASUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793726018253,
-      "price": 0.03088,
-      "level": 0.03121,
-      "invalid": 0.030572298551862664,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03121,
-        "base_invalid": 0.030572298551862664,
-        "atr": 0.00025134298758223387,
-        "rvol": 2.5498953288780646,
-        "close_position": 0.75,
-        "breakout": false,
-        "bar_close_ms": 1793725200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.7390745501285267,
-        "score": 3.7998953288780646
-      },
-      "context": {
-        "atr": 0.00025134298758223387,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8025528792965031,
-        "btc_hour_pct": 0.06347832916797636,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:KASUSDT",
-          "change_pct": 0.8681352302279288,
-          "old_ms": 1793722470087,
-          "current_ms": 1793726016177,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KASUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1659457,6 +1659294,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793725731939
+    },
+    {
+      "id": "df98be99bf600bf7d2c92bf7",
+      "asset_id": "12a5110b3fbee579f8c478e2",
+      "key": "OKX:SPOT:BOMEUSDT",
+      "symbol": "BOMEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793726016769,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793726040773
+    },
+    {
+      "id": "94d2b6a82d3df9f189706de4",
+      "asset_id": "23210dd81476fb59625016a3",
+      "key": "MEXC:PERP:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "expired",
+      "observed_ms": 1793726018253,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793726040773
+    },
+    {
+      "id": "0887e40c72dacb2d99900a57",
+      "asset_id": "0abae29ba0159ef27660d9f3",
+      "key": "MEXC:PERP:KASUSDT",
+      "symbol": "KASUSDT",
+      "phase": "radar",
+      "observed_ms": 1793726018253,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793726040773
     }
   ],
   "runs": [
@@ -1777058,7 +1776928,8 @@
         "entry_seq": 0,
         "cohort": "KASUSDT",
         "observation_lag_ms": 818253,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 22520
       }
     },
     "errors": [],
@@ -1803088,8 +1802959,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8662f2590f174bfc3de03fef77542671da672420",
-    "previous_success_ms": 1793725758031,
+    "previous_commit": "be3f58ea4b577f6086317f265584b3198a6cbca8",
+    "previous_success_ms": 1793726039567,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
