@@ -1624529,272 +1624529,7 @@
       "source_close_ms": 1793712600000
     }
   },
-  "pending": [
-    {
-      "id": "83901d6d668d007d1005ccc9",
-      "asset_id": "06ce63e05084cecb1ba8c74e",
-      "key": "OKX:SPOT:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793713008785,
-      "price": 4.951e-06,
-      "level": 4.8962e-06,
-      "invalid": 4.763170687401536e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.8962e-06,
-        "base_invalid": 4.763170687401536e-06,
-        "atr": 3.95287506564275e-08,
-        "rvol": 4.423606140611289,
-        "close_position": 0.90212765957447,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7458216117822278,
-        "score": 6.325733800185759
-      },
-      "context": {
-        "atr": 3.95287506564275e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.721534423590998,
-        "btc_hour_pct": 0.4189212324325453,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d73ed384de2002c35d087097",
-      "asset_id": "f91df8fd8dbfaf8a761f7ce9",
-      "key": "OKX:PERP:KGENUSDT",
-      "symbol": "KGENUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793713007427,
-      "price": 0.069425,
-      "level": 0.07005,
-      "invalid": 0.0685981599651378,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07005,
-        "base_invalid": 0.0685981599651378,
-        "atr": 0.00047893356574799144,
-        "rvol": 4.561356375321002,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793712600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.41583022655578006,
-        "score": 6.061356375321002
-      },
-      "context": {
-        "atr": 0.00047893356574799144,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.06869224372809679,
-        "btc_hour_pct": 0.41687155607395,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KGENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KGENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9be65ed8cfd01fa0869bcebe",
-      "asset_id": "23d5a5bbe0a972a18f855488",
-      "key": "OKX:SPOT:API3USDT",
-      "symbol": "API3USDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793713008785,
-      "price": 0.23775000000000002,
-      "level": 0.237,
-      "invalid": 0.23223461368625217,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.237,
-        "base_invalid": 0.23223461368625217,
-        "atr": 0.0011025754249854136,
-        "rvol": 4.343905464830445,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793712600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4666949512091678,
-        "score": 5.843905464830445
-      },
-      "context": {
-        "atr": 0.0011025754249854136,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.167019616260112,
-        "btc_hour_pct": 0.4189212324325453,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:API3USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "API3USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e92e40bfa1016eef1211a641",
-      "asset_id": "fd4b058dc173f11af74e8f24",
-      "key": "MEXC:SPOT:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793713006927,
-      "price": 4.9504999999999994e-06,
-      "level": 4.9e-06,
-      "invalid": 4.763273602194134e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.9e-06,
-        "base_invalid": 4.763273602194134e-06,
-        "atr": 3.8175985372439794e-08,
-        "rvol": 3.2605388123047625,
-        "close_position": 0.9417475728155299,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8196856906534276,
-        "score": 5.202286385120292
-      },
-      "context": {
-        "atr": 3.8175985372439794e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7598329721744133,
-        "btc_hour_pct": 0.41408007130383506,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3d1688fa8c459dbf575504f5",
-      "asset_id": "2db363ea8ea8f2f680f71f47",
-      "key": "MEXC:PERP:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793713007982,
-      "price": 4.9551499999999995e-06,
-      "level": 4.9011e-06,
-      "invalid": 4.768368025797833e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.9011e-06,
-        "base_invalid": 4.768368025797833e-06,
-        "atr": 3.8879828014443447e-08,
-        "rvol": 2.2288856124856635,
-        "close_position": 0.8411122144985065,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.796271032287411,
-        "score": 4.06999782698417
-      },
-      "context": {
-        "atr": 3.8879828014443447e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.6498279566801166,
-        "btc_hour_pct": 0.4074675135141481,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PEPEUSDT",
-          "change_pct": -3.788294200694242,
-          "old_ms": 1793709255952,
-          "current_ms": 1793713002947,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1637962,6 +1637697,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793712725110
+    },
+    {
+      "id": "83901d6d668d007d1005ccc9",
+      "asset_id": "06ce63e05084cecb1ba8c74e",
+      "key": "OKX:SPOT:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793713008785,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713021693
+    },
+    {
+      "id": "d73ed384de2002c35d087097",
+      "asset_id": "f91df8fd8dbfaf8a761f7ce9",
+      "key": "OKX:PERP:KGENUSDT",
+      "symbol": "KGENUSDT",
+      "phase": "radar",
+      "observed_ms": 1793713007427,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713021693
+    },
+    {
+      "id": "9be65ed8cfd01fa0869bcebe",
+      "asset_id": "23d5a5bbe0a972a18f855488",
+      "key": "OKX:SPOT:API3USDT",
+      "symbol": "API3USDT",
+      "phase": "radar",
+      "observed_ms": 1793713008785,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713021693
+    },
+    {
+      "id": "e92e40bfa1016eef1211a641",
+      "asset_id": "fd4b058dc173f11af74e8f24",
+      "key": "MEXC:SPOT:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793713006927,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713021693
+    },
+    {
+      "id": "3d1688fa8c459dbf575504f5",
+      "asset_id": "2db363ea8ea8f2f680f71f47",
+      "key": "MEXC:PERP:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793713007982,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793713021694
     }
   ],
   "runs": [
@@ -1752233,7 +1752023,8 @@
         "entry_seq": 0,
         "cohort": "PEPEUSDT",
         "observation_lag_ms": 408785,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12908
       },
       "f91df8fd8dbfaf8a761f7ce9:radar": {
         "symbol": "KGENUSDT",
@@ -1752255,7 +1752046,8 @@
         "entry_seq": 0,
         "cohort": "KGENUSDT",
         "observation_lag_ms": 407427,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14266
       },
       "23d5a5bbe0a972a18f855488:radar": {
         "symbol": "API3USDT",
@@ -1752277,7 +1752069,8 @@
         "entry_seq": 0,
         "cohort": "API3USDT",
         "observation_lag_ms": 408785,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12908
       },
       "fd4b058dc173f11af74e8f24:radar": {
         "symbol": "PEPEUSDT",
@@ -1752299,7 +1752092,8 @@
         "entry_seq": 0,
         "cohort": "PEPEUSDT",
         "observation_lag_ms": 406927,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14766
       },
       "2db363ea8ea8f2f680f71f47:radar": {
         "symbol": "PEPEUSDT",
@@ -1752321,7 +1752115,8 @@
         "entry_seq": 0,
         "cohort": "PEPEUSDT",
         "observation_lag_ms": 407982,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13712
       }
     },
     "errors": [],
@@ -1778363,8 +1778158,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b80ce9495ae3d40a640b02ac59dc1af2a7bea403",
-    "previous_success_ms": 1793712753137,
+    "previous_commit": "2d1c86c1c5bfc43aaaf9e4a0a2f65570d01b4d6b",
+    "previous_success_ms": 1793713020157,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
