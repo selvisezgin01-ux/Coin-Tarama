@@ -1642166,266 +1642166,7 @@
       "source_close_ms": 1793734200000
     }
   },
-  "pending": [
-    {
-      "id": "da57f73e4b399b29166ad87f",
-      "asset_id": "a5a1bcaad63197b0c3c36a77",
-      "key": "OKX:PERP:RAVEUSDT",
-      "symbol": "RAVEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793734376809,
-      "price": 0.13965,
-      "level": 0.138,
-      "invalid": 0.13533460723934898,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.138,
-        "base_invalid": 0.13533460723934898,
-        "atr": 0.0011026184043401988,
-        "rvol": 4.271062947751561,
-        "close_position": 0.8461538461538413,
-        "breakout": true,
-        "bar_close_ms": 1793728800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.645113886847894,
-        "score": 6.117216793905403
-      },
-      "context": {
-        "atr": 0.0017187037259773531,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.223471254874354,
-        "btc_hour_pct": -0.0760124145021357,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RAVEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793728800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RAVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0902e3a1b69ab92250f60c90",
-      "asset_id": "887afdb204645240c9481d84",
-      "key": "OKX:SPOT:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793734376777,
-      "price": 22.695,
-      "level": 22.53,
-      "invalid": 21.921829828366665,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 22.53,
-        "base_invalid": 21.921829828366665,
-        "atr": 0.18780114422222574,
-        "rvol": 5.065888713245767,
-        "close_position": 0.8823529411764742,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5246636771300448,
-        "score": 6.948241654422241
-      },
-      "context": {
-        "atr": 0.18780114422222574,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.88259173108134,
-        "btc_hour_pct": -0.07263697995012475,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "43c0fe563f9884057903a08f",
-      "asset_id": "2f658831685b3b4fb1c430a7",
-      "key": "MEXC:SPOT:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793734376454,
-      "price": 637.445,
-      "level": 631.99,
-      "invalid": 624.3430946775742,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 631.99,
-        "base_invalid": 624.3430946775742,
-        "atr": 3.979368816172797,
-        "rvol": 4.758718981426337,
-        "close_position": 0.9603624009059993,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.682266834627577,
-        "score": 6.719081382332336
-      },
-      "context": {
-        "atr": 3.979368816172797,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.3485300141199854,
-        "btc_hour_pct": -0.07798697520916553,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "49ff2d0af318633edf6c5a04",
-      "asset_id": "abe91ac1742c60a1731e037c",
-      "key": "MEXC:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793734377916,
-      "price": 22.667,
-      "level": 22.474,
-      "invalid": 21.92312820546799,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 22.474,
-        "base_invalid": 21.92312820546799,
-        "atr": 0.18581196354674304,
-        "rvol": 3.2874594226575744,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5803888115655695,
-        "score": 5.287459422657575
-      },
-      "context": {
-        "atr": 0.18581196354674304,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.7484402902380736,
-        "btc_hour_pct": -0.07317088880730571,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:VVVUSDT",
-          "change_pct": 1.2456048477594184,
-          "old_ms": 1793730808117,
-          "current_ms": 1793734374340,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cffa6723f98cddcd0cfc95c2",
-      "asset_id": "a3a81d2db2c846b7444e4de0",
-      "key": "MEXC:PERP:HAEDALUSDT",
-      "symbol": "HAEDALUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793734377916,
-      "price": 0.027465,
-      "level": 0.0271,
-      "invalid": 0.02631022730098235,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0271,
-        "base_invalid": 0.02631022730098235,
-        "atr": 0.0002651513267843415,
-        "rvol": 2.3715826207007944,
-        "close_position": 0.6666666666666666,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6778523489932917,
-        "score": 4.038249287367461
-      },
-      "context": {
-        "atr": 0.0002651513267843415,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.7273062271531914,
-        "btc_hour_pct": -0.07317088880730571,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HAEDALUSDT",
-          "change_pct": 0.6234511747545302,
-          "old_ms": 1793730808129,
-          "current_ms": 1793734374358,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HAEDALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656451,6 +1656192,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793733493716
+    },
+    {
+      "id": "da57f73e4b399b29166ad87f",
+      "asset_id": "a5a1bcaad63197b0c3c36a77",
+      "key": "OKX:PERP:RAVEUSDT",
+      "symbol": "RAVEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793734376809,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793734414567
+    },
+    {
+      "id": "0902e3a1b69ab92250f60c90",
+      "asset_id": "887afdb204645240c9481d84",
+      "key": "OKX:SPOT:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793734376777,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793734414567
+    },
+    {
+      "id": "43c0fe563f9884057903a08f",
+      "asset_id": "2f658831685b3b4fb1c430a7",
+      "key": "MEXC:SPOT:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793734376454,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793734414567
+    },
+    {
+      "id": "49ff2d0af318633edf6c5a04",
+      "asset_id": "abe91ac1742c60a1731e037c",
+      "key": "MEXC:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793734377916,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793734414567
+    },
+    {
+      "id": "cffa6723f98cddcd0cfc95c2",
+      "asset_id": "a3a81d2db2c846b7444e4de0",
+      "key": "MEXC:PERP:HAEDALUSDT",
+      "symbol": "HAEDALUSDT",
+      "phase": "radar",
+      "observed_ms": 1793734377916,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793734414568
     }
   ],
   "runs": [
@@ -1775886,7 +1775682,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 176777,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 37790
       },
       "2f658831685b3b4fb1c430a7:radar": {
         "symbol": "XMRUSDT",
@@ -1775908,7 +1775705,8 @@
         "entry_seq": 0,
         "cohort": "XMRUSDT",
         "observation_lag_ms": 176454,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 38113
       },
       "abe91ac1742c60a1731e037c:radar": {
         "symbol": "VVVUSDT",
@@ -1775930,7 +1775728,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 177916,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 36651
       },
       "a3a81d2db2c846b7444e4de0:radar": {
         "symbol": "HAEDALUSDT",
@@ -1775952,7 +1775751,8 @@
         "entry_seq": 0,
         "cohort": "HAEDALUSDT",
         "observation_lag_ms": 177916,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 36652
       }
     },
     "errors": [],
@@ -1801982,8 +1801782,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2374852784805166b495b2286f2d668b98ba14fe",
-    "previous_success_ms": 1793734175947,
+    "previous_commit": "a24d9b6cb242ad709e9815c4778fbdf08cc4dceb",
+    "previous_success_ms": 1793734412846,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
