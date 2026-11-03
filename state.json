@@ -1543889,220 +1543889,7 @@
       "source_close_ms": 1793682900000
     }
   },
-  "pending": [
-    {
-      "id": "ea259b39562b4ad054488588",
-      "asset_id": "adc8cc10ab5e91361dfad45b",
-      "key": "OKX:SPOT:GRVTUSDT",
-      "symbol": "GRVTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793682940541,
-      "price": 0.220475,
-      "level": 0.22138,
-      "invalid": 0.21783998649734052,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.22138,
-        "base_invalid": 0.21783998649734052,
-        "atr": 0.0025334233510632556,
-        "rvol": 6.270001489779994,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793679300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6640072942785578,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0021751954462967443,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6682210436180336,
-        "btc_hour_pct": 0.02378897231640753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GRVTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793679300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRVTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "660fca22e3952a934d39115f",
-      "asset_id": "7cb0243020def9a5fa4f64e3",
-      "key": "OKX:PERP:ONEUSDT",
-      "symbol": "ONEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793682941561,
-      "price": 0.0010942500000000002,
-      "level": 0.0010975,
-      "invalid": 0.0010789047471037303,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0010975,
-        "base_invalid": 0.0010789047471037303,
-        "atr": 7.30168597513169e-06,
-        "rvol": 3.3719602250327236,
-        "close_position": 0.7373737373737411,
-        "breakout": false,
-        "bar_close_ms": 1793679300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6348330113165934,
-        "score": 4.609333962406465
-      },
-      "context": {
-        "atr": 7.292935254031821e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9546431596420879,
-        "btc_hour_pct": 0.00910167743914947,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ONEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793679300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8031826f0672c615024b742f",
-      "asset_id": "fcf95aa907ddebad998356df",
-      "key": "MEXC:PERP:ONEUSDT",
-      "symbol": "ONEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793682942973,
-      "price": 0.0010899500000000001,
-      "level": 0.0010941,
-      "invalid": 0.0010748216625937855,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0010941,
-        "base_invalid": 0.0010748216625937855,
-        "atr": 7.188916041430885e-06,
-        "rvol": 4.325178136509922,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793680200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8904642757853862,
-        "score": 6.325178136509922
-      },
-      "context": {
-        "atr": 6.956363506834947e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9767775351967378,
-        "btc_hour_pct": 0.01742296190352377,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ONEUSDT",
-          "change_pct": -0.028934332049834754,
-          "old_ms": 1793679327389,
-          "current_ms": 1793682941325,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793680200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ede7f5d6803a52f05283f375",
-      "asset_id": "9587fa9bd000afe5fb6e5516",
-      "key": "OKX:SPOT:ONEUSDT",
-      "symbol": "ONEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793682940541,
-      "price": 0.001093,
-      "level": 0.001098,
-      "invalid": 0.001078963911626223,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001098,
-        "base_invalid": 0.001078963911626223,
-        "atr": 6.9072558251808975e-06,
-        "rvol": 2.6213183091897236,
-        "close_position": 0.8750000000000102,
-        "breakout": true,
-        "bar_close_ms": 1793680200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7527675276752808,
-        "score": 4.496318309189734
-      },
-      "context": {
-        "atr": 6.617283727824576e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7094832549979779,
-        "btc_hour_pct": 0.02378897231640753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ONEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793680200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ONEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1556203,6 +1555990,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793682648995
+    },
+    {
+      "id": "ea259b39562b4ad054488588",
+      "asset_id": "adc8cc10ab5e91361dfad45b",
+      "key": "OKX:SPOT:GRVTUSDT",
+      "symbol": "GRVTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793682940541,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793682954623
+    },
+    {
+      "id": "660fca22e3952a934d39115f",
+      "asset_id": "7cb0243020def9a5fa4f64e3",
+      "key": "OKX:PERP:ONEUSDT",
+      "symbol": "ONEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793682941561,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793682954624
     }
   ],
   "runs": [
@@ -1689108,8 +1688917,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8db4c2c7d8618f20a4d4340b3355693e8413abe2",
-    "previous_success_ms": 1793682672248,
+    "previous_commit": "daac0a3727af40adfaa2ce668451767efc63cfd1",
+    "previous_success_ms": 1793682953603,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
