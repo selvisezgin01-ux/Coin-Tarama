@@ -1598142,328 +1598142,7 @@
       "source_close_ms": 1793708100000
     }
   },
-  "pending": [
-    {
-      "id": "85d7e76c351ffdc28028d4ad",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "triggered",
-      "observed_ms": 1793709275589,
-      "price": 0.0002377,
-      "level": 0.000235,
-      "invalid": 0.00023516173503133312,
-      "target": 0.0002463420299373338,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.5921387067232833e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1897139950100555,
-        "btc_hour_pct": -0.03389207720184695,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.00023516173503133312,
-        "target": 0.0002463420299373338,
-        "risk_pct": 1.0678439077269202,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.000256,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.0002371,
-        "entry_zone_high": 0.00023789606935336162
-      },
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "OMIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "55e1e1b4f7993bd38654a442",
-      "asset_id": "4dc9278fdb518393ad29fb35",
-      "key": "OKX:SPOT:DOGEUSDT",
-      "symbol": "DOGEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793709279279,
-      "price": 0.075215,
-      "level": 0.0748,
-      "invalid": 0.07405348894436473,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0748,
-        "base_invalid": 0.07405348894436473,
-        "atr": 0.00024340703756854879,
-        "rvol": 6.19518079717055,
-        "close_position": 0.891891891891897,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8580238637887039,
-        "score": 7.8918918918918965
-      },
-      "context": {
-        "atr": 0.00024340703756854879,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.14156777615570437,
-        "btc_hour_pct": -0.0340986735227089,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:DOGEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e16fade4276a0922f24ab31a",
-      "asset_id": "768fe869c8fa87a65dfb1801",
-      "key": "MEXC:PERP:HIVEUSDT",
-      "symbol": "HIVEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793709273784,
-      "price": 0.045200000000000004,
-      "level": 0.04494,
-      "invalid": 0.04451310885530331,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04494,
-        "base_invalid": 0.04451310885530331,
-        "atr": 0.00017927429797797147,
-        "rvol": 6.485591940083869,
-        "close_position": 0.8461538461538352,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6460236132769026,
-        "score": 7.846153846153835
-      },
-      "context": {
-        "atr": 0.00017927429797797147,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.022696794175092183,
-        "btc_hour_pct": -0.022696794175092183,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HIVEUSDT",
-          "change_pct": 0.03527813486035036,
-          "old_ms": 1793705655148,
-          "current_ms": 1793709269129,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HIVEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c89de0f7cf58fd5ab4f9e066",
-      "asset_id": "4581f39f21faefe4999cf665",
-      "key": "OKX:PERP:WLFIUSDT",
-      "symbol": "WLFIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793709280148,
-      "price": 0.052015,
-      "level": 0.05131,
-      "invalid": 0.04965099425030187,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05131,
-        "base_invalid": 0.04965099425030187,
-        "atr": 0.0003267049979875128,
-        "rvol": 6.851422432089446,
-        "close_position": 0.7368421052631584,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8263943440691266,
-        "score": 7.736842105263158
-      },
-      "context": {
-        "atr": 0.0003267049979875128,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3344008902377413,
-        "btc_hour_pct": -0.042667980857757914,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WLFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d7e8a411efd45aa7902a6c11",
-      "asset_id": "8a602ea24ada450c5b0907aa",
-      "key": "OKX:SPOT:WLFIUSDT",
-      "symbol": "WLFIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793709279279,
-      "price": 0.052059999999999995,
-      "level": 0.05136,
-      "invalid": 0.049703031976924966,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05136,
-        "base_invalid": 0.049703031976924966,
-        "atr": 0.00031312015383359686,
-        "rvol": 9.947156054427902,
-        "close_position": 0.7183098591549322,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7653981953707376,
-        "score": 7.718309859154932
-      },
-      "context": {
-        "atr": 0.00031312015383359686,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3248055837689288,
-        "btc_hour_pct": -0.0340986735227089,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WLFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c3cfd99ff59c9c4392a73bc0",
-      "asset_id": "aba914f7eeb6bfe0bbb79214",
-      "key": "MEXC:SPOT:WLFIUSDT",
-      "symbol": "WLFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793709275589,
-      "price": 0.052015000000000006,
-      "level": 0.05132,
-      "invalid": 0.049715040203395115,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05132,
-        "base_invalid": 0.049715040203395115,
-        "atr": 0.0002997319773659091,
-        "rvol": 7.893403123140739,
-        "close_position": 0.6363636363636331,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7481830681594923,
-        "score": 7.636363636363633
-      },
-      "context": {
-        "atr": 0.0002997319773659091,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.2466157352535423,
-        "btc_hour_pct": -0.03389207720184695,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WLFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1611455,6 +1611134,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793708387543
+    },
+    {
+      "id": "85d7e76c351ffdc28028d4ad",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793709275589,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793709292752
+    },
+    {
+      "id": "55e1e1b4f7993bd38654a442",
+      "asset_id": "4dc9278fdb518393ad29fb35",
+      "key": "OKX:SPOT:DOGEUSDT",
+      "symbol": "DOGEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709279279,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709292752
+    },
+    {
+      "id": "e16fade4276a0922f24ab31a",
+      "asset_id": "768fe869c8fa87a65dfb1801",
+      "key": "MEXC:PERP:HIVEUSDT",
+      "symbol": "HIVEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709273784,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709292753
+    },
+    {
+      "id": "c89de0f7cf58fd5ab4f9e066",
+      "asset_id": "4581f39f21faefe4999cf665",
+      "key": "OKX:PERP:WLFIUSDT",
+      "symbol": "WLFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709280148,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709292753
+    },
+    {
+      "id": "d7e8a411efd45aa7902a6c11",
+      "asset_id": "8a602ea24ada450c5b0907aa",
+      "key": "OKX:SPOT:WLFIUSDT",
+      "symbol": "WLFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709279279,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709292753
+    },
+    {
+      "id": "c3cfd99ff59c9c4392a73bc0",
+      "asset_id": "aba914f7eeb6bfe0bbb79214",
+      "key": "MEXC:SPOT:WLFIUSDT",
+      "symbol": "WLFIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709275589,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709292753
     }
   ],
   "runs": [
@@ -1724622,7 +1724367,8 @@
         "entry_seq": 1,
         "cohort": "OMIUSDT",
         "observation_lag_ms": 275589,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 17163
       },
       "4dc9278fdb518393ad29fb35:radar": {
         "symbol": "DOGEUSDT",
@@ -1724644,7 +1724390,8 @@
         "entry_seq": 0,
         "cohort": "DOGEUSDT",
         "observation_lag_ms": 279279,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13473
       },
       "768fe869c8fa87a65dfb1801:radar": {
         "symbol": "HIVEUSDT",
@@ -1724666,7 +1724413,8 @@
         "entry_seq": 0,
         "cohort": "HIVEUSDT",
         "observation_lag_ms": 273784,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 18969
       },
       "4581f39f21faefe4999cf665:radar": {
         "symbol": "WLFIUSDT",
@@ -1724688,7 +1724436,8 @@
         "entry_seq": 0,
         "cohort": "WLFIUSDT",
         "observation_lag_ms": 280148,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12605
       },
       "8a602ea24ada450c5b0907aa:radar": {
         "symbol": "WLFIUSDT",
@@ -1724710,7 +1724459,8 @@
         "entry_seq": 0,
         "cohort": "WLFIUSDT",
         "observation_lag_ms": 279279,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13474
       },
       "aba914f7eeb6bfe0bbb79214:radar": {
         "symbol": "WLFIUSDT",
@@ -1724732,7 +1724482,8 @@
         "entry_seq": 0,
         "cohort": "WLFIUSDT",
         "observation_lag_ms": 275589,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 17164
       }
     },
     "errors": [],
@@ -1750785,8 +1750536,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c6ecef5d98afdaa7ab179d43d7501fdf96e86c0f",
-    "previous_success_ms": 1793709006693,
+    "previous_commit": "3a9c175067c47614e78de474cdb0fd77d6936eee",
+    "previous_success_ms": 1793709291545,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
