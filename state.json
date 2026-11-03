@@ -1642437,128 +1642437,7 @@
       "source_close_ms": 1793737800000
     }
   },
-  "pending": [
-    {
-      "id": "7bacf03dcc9073845c505b46",
-      "asset_id": "fc05985ba31a457e4f4905f4",
-      "key": "OKX:PERP:0GUSDT",
-      "symbol": "0GUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_weakening",
-      "observed_ms": 1793739717966,
-      "price": 0.15485,
-      "level": 0.1542,
-      "invalid": 0.1541026701223045,
-      "target": 0.16107940975539106,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1542,
-        "base_invalid": 0.1501026701223045,
-        "atr": 0.001315532517969892,
-        "rvol": 3.051911397554896,
-        "close_position": 0.9166666666666647,
-        "breakout": true,
-        "bar_close_ms": 1793726100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.106411103767348,
-        "score": 4.9685780642215605
-      },
-      "context": {
-        "atr": 0.001229174938868594,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.721202416025458,
-        "btc_hour_pct": 0.32260101742405123,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:0GUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.1541026701223045,
-        "target": 0.16107940975539106,
-        "risk_pct": 0.9941084983588265,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.1641,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.1551,
-        "entry_zone_high": 0.15579280824809935
-      },
-      "reason": null,
-      "source_close_ms": 1793739600000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "0GUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793739600000,
-        "closed_price": 0.1551,
-        "ema20_1h": 0.15526916585701234,
-        "atr14_1h": 0.002226761394180066,
-        "structure_floor": 0.1545,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "7259def77e90f1c750abf621",
-      "asset_id": "73259847c546f8fa7af50bc4",
-      "key": "MEXC:SPOT:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793739717750,
-      "price": 0.32865,
-      "level": 0.3277,
-      "invalid": 0.3227138787234978,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3277,
-        "base_invalid": 0.3227138787234978,
-        "atr": 0.00190747517668135,
-        "rvol": 3.895808322591655,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793739600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7987711213517601,
-        "score": 5.895808322591655
-      },
-      "context": {
-        "atr": 0.00190747517668135,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.46090820864874704,
-        "btc_hour_pct": 0.33786291270301305,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793739600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656870,6 +1656749,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793739429117
+    },
+    {
+      "id": "7bacf03dcc9073845c505b46",
+      "asset_id": "fc05985ba31a457e4f4905f4",
+      "key": "OKX:PERP:0GUSDT",
+      "symbol": "0GUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793739717966,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793739730800
+    },
+    {
+      "id": "7259def77e90f1c750abf621",
+      "asset_id": "73259847c546f8fa7af50bc4",
+      "key": "MEXC:SPOT:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793739717750,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793739730800
     }
   ],
   "runs": [
@@ -1777653,7 +1777554,8 @@
         "entry_seq": 0,
         "cohort": "STXUSDT",
         "observation_lag_ms": 117750,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13050
       }
     },
     "errors": [],
@@ -1803680,8 +1803582,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "afc31151a2277013b79839f09ab82db22bc9ee17",
-    "previous_success_ms": 1793739457688,
+    "previous_commit": "5644669349399117309ad7ade34fcb5ad3e0ed00",
+    "previous_success_ms": 1793739729502,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
