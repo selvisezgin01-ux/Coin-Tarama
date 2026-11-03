@@ -1531029,116 +1531029,7 @@
       "source_close_ms": 1793680200000
     }
   },
-  "pending": [
-    {
-      "id": "fbc0f8b731cef2208793728e",
-      "asset_id": "1bcc2af1d3223521d923f09b",
-      "key": "MEXC:PERP:RLCUSDT",
-      "symbol": "RLCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793680242051,
-      "price": 0.451,
-      "level": 0.4475,
-      "invalid": 0.4420998926392856,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4475,
-        "base_invalid": 0.4420998926392856,
-        "atr": 0.002667382404762717,
-        "rvol": 2.442768458795022,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6143497757847403,
-        "score": 4.4427684587950225
-      },
-      "context": {
-        "atr": 0.0030159204230157345,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.09167967951757561,
-        "btc_hour_pct": 0.2877846061966949,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:RLCUSDT",
-          "change_pct": -1.6180428420074167,
-          "old_ms": 1793676721135,
-          "current_ms": 1793680240346,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RLCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0eb2b873f6b95907ef043799",
-      "asset_id": "af5ae38110d85f5cc0ac7778",
-      "key": "OKX:SPOT:MOODENGUSDT",
-      "symbol": "MOODENGUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793680244369,
-      "price": 0.034515000000000004,
-      "level": 0.03424,
-      "invalid": 0.033857028474460954,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03424,
-        "base_invalid": 0.033857028474460954,
-        "atr": 0.0001531435035936203,
-        "rvol": 11.49612110385798,
-        "close_position": 0.9687500000000122,
-        "breakout": true,
-        "bar_close_ms": 1793680200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5602001766264362,
-        "score": 7.968750000000012
-      },
-      "context": {
-        "atr": 0.0001531435035936203,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.33018546851559805,
-        "btc_hour_pct": 0.28746159030792473,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MOODENGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793680200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MOODENGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1543173,6 +1543064,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793679952326
+    },
+    {
+      "id": "fbc0f8b731cef2208793728e",
+      "asset_id": "1bcc2af1d3223521d923f09b",
+      "key": "MEXC:PERP:RLCUSDT",
+      "symbol": "RLCUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793680242051,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793680255444
+    },
+    {
+      "id": "0eb2b873f6b95907ef043799",
+      "asset_id": "af5ae38110d85f5cc0ac7778",
+      "key": "OKX:SPOT:MOODENGUSDT",
+      "symbol": "MOODENGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793680244369,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793680255444
     }
   ],
   "runs": [
@@ -1649368,7 +1649281,8 @@
         "entry_seq": 0,
         "cohort": "MOODENGUSDT",
         "observation_lag_ms": 44369,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11075
       }
     },
     "errors": [],
@@ -1675406,8 +1675320,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "64b944dd1f2cb1c4f8fbbb359e37b3c76c54502a",
-    "previous_success_ms": 1793679971681,
+    "previous_commit": "fbf6832aadea849ba388a58df904ac7219bbb339",
+    "previous_success_ms": 1793680254344,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
