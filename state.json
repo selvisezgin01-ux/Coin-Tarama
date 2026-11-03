@@ -1659225,108 +1659225,7 @@
       "source_close_ms": 1793740500000
     }
   },
-  "pending": [
-    {
-      "id": "427c60ecb61ab5749f7b6658",
-      "asset_id": "f050250e820e5e15f71119a7",
-      "key": "OKX:SPOT:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793742712181,
-      "price": 0.12049,
-      "level": 0.11641,
-      "invalid": 0.1132492616141786,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11641,
-        "base_invalid": 0.1132492616141786,
-        "atr": 0.001071589238809302,
-        "rvol": 7.746950453504954,
-        "close_position": 0.7247191011235936,
-        "breakout": true,
-        "bar_close_ms": 1793720700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3905788284373388,
-        "score": 7.724719101123593
-      },
-      "context": {
-        "atr": 0.00089392986240454,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.468787451093422,
-        "btc_hour_pct": 0.3254605214841222,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793720700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "59a6de693653b1a127920d9b",
-      "asset_id": "8e9b86b4601691c41ffe8455",
-      "key": "OKX:PERP:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793742711532,
-      "price": 0.12049499999999999,
-      "level": 0.11622,
-      "invalid": 0.11320612501129906,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11622,
-        "base_invalid": 0.11320612501129906,
-        "atr": 0.0010924999246729446,
-        "rvol": 3.02232643734208,
-        "close_position": 0.8860759493670887,
-        "breakout": true,
-        "bar_close_ms": 1793720700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.460742544126603,
-        "score": 4.908402386709168
-      },
-      "context": {
-        "atr": 0.0009741160871224713,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4816211489494071,
-        "btc_hour_pct": 0.32260101742405123,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793720700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1673781,6 +1673680,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793742429961
+    },
+    {
+      "id": "427c60ecb61ab5749f7b6658",
+      "asset_id": "f050250e820e5e15f71119a7",
+      "key": "OKX:SPOT:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793742712181,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793742724620
+    },
+    {
+      "id": "59a6de693653b1a127920d9b",
+      "asset_id": "8e9b86b4601691c41ffe8455",
+      "key": "OKX:PERP:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793742711532,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793742724620
     }
   ],
   "runs": [
@@ -1821353,8 +1821274,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "201e625d4a42363e96cb7f355b09a8199e1e1deb",
-    "previous_success_ms": 1793742448009,
+    "previous_commit": "e96a57054e8f3bd8d623443e156e0315e86681f0",
+    "previous_success_ms": 1793742723216,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
