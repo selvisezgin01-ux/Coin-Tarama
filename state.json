@@ -1640213,212 +1640213,7 @@
       "source_close_ms": 1793730600000
     }
   },
-  "pending": [
-    {
-      "id": "12ee5f508922d8db1830ae12",
-      "asset_id": "5aaf277b486e7b6f81631416",
-      "key": "MEXC:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793731373399,
-      "price": 1.8799000000000001,
-      "level": 1.7844,
-      "invalid": 1.7422017369968552,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7844,
-        "base_invalid": 1.7422017369968552,
-        "atr": 0.016655086687631295,
-        "rvol": 13.039575567792529,
-        "close_position": 0.9386363636363654,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4274316754371084,
-        "score": 7.938636363636365
-      },
-      "context": {
-        "atr": 0.0212082696567281,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.8954815575625497,
-        "btc_hour_pct": -0.12444378810801959,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "35f1e344a4528e480ce72ebf",
-      "asset_id": "b6213ba865f57b01a73bd479",
-      "key": "MEXC:PERP:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793731374221,
-      "price": 1.87995,
-      "level": 1.7837,
-      "invalid": 1.7429358497770315,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7837,
-        "base_invalid": 1.7429358497770315,
-        "atr": 0.016427668153123146,
-        "rvol": 3.657569817917277,
-        "close_position": 0.9449541284403681,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3234778676013423,
-        "score": 5.602523946357645
-      },
-      "context": {
-        "atr": 0.020927359135880685,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.8980759589252374,
-        "btc_hour_pct": -0.11207819480760772,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZROUSDT",
-          "change_pct": 2.998566260884883,
-          "old_ms": 1793727808028,
-          "current_ms": 1793731372081,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ca7ec137245a2038af7bbc20",
-      "asset_id": "d721888c3628ab82a1d5610b",
-      "key": "OKX:PERP:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793731372791,
-      "price": 1.8794499999999998,
-      "level": 1.7828,
-      "invalid": 1.7417694342641679,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7828,
-        "base_invalid": 1.7417694342641679,
-        "atr": 0.016870438238881395,
-        "rvol": 2.8620389097411434,
-        "close_position": 0.9566210045662147,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3878232331805638,
-        "score": 4.818659914307358
-      },
-      "context": {
-        "atr": 0.021583347096990956,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.886479789486383,
-        "btc_hour_pct": -0.11388876735034525,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "48d45a6c9a11b34a9e558c90",
-      "asset_id": "ed27b3e10a7e15b0a78c05f9",
-      "key": "OKX:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793731372907,
-      "price": 1.8805,
-      "level": 1.7839,
-      "invalid": 1.7433005315038888,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7839,
-        "base_invalid": 1.7433005315038888,
-        "atr": 0.016663123307408316,
-        "rvol": 2.0069185376921896,
-        "close_position": 0.9599999999999992,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.259631680036156,
-        "score": 3.9669185376921887
-      },
-      "context": {
-        "atr": 0.02155955799170043,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.8331141087744909,
-        "btc_hour_pct": -0.11911653095615371,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1654356,6 +1654151,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793730837287
+    },
+    {
+      "id": "12ee5f508922d8db1830ae12",
+      "asset_id": "5aaf277b486e7b6f81631416",
+      "key": "MEXC:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "expired",
+      "observed_ms": 1793731373399,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793731405839
+    },
+    {
+      "id": "35f1e344a4528e480ce72ebf",
+      "asset_id": "b6213ba865f57b01a73bd479",
+      "key": "MEXC:PERP:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "expired",
+      "observed_ms": 1793731374221,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793731405839
+    },
+    {
+      "id": "ca7ec137245a2038af7bbc20",
+      "asset_id": "d721888c3628ab82a1d5610b",
+      "key": "OKX:PERP:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "expired",
+      "observed_ms": 1793731372791,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793731405839
+    },
+    {
+      "id": "48d45a6c9a11b34a9e558c90",
+      "asset_id": "ed27b3e10a7e15b0a78c05f9",
+      "key": "OKX:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "expired",
+      "observed_ms": 1793731372907,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793731405839
     }
   ],
   "runs": [
@@ -1799133,8 +1798972,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "525ecc4c30dab9bca1c5720a68a70181f34b7744",
-    "previous_success_ms": 1793731363095,
+    "previous_commit": "6fc565ab7d5ef7e0d86ae74a78ef3e25b0540371",
+    "previous_success_ms": 1793731404364,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
