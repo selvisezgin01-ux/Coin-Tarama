@@ -1644280,162 +1644280,7 @@
       "source_close_ms": 1793727000000
     }
   },
-  "pending": [
-    {
-      "id": "2f8c3050679328fd6c1ffc15",
-      "asset_id": "8422f7a08b782fca939d5f0a",
-      "key": "MEXC:SPOT:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793727223242,
-      "price": 22.29025,
-      "level": 20.9176,
-      "invalid": 20.474110518604142,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 20.9176,
-        "base_invalid": 20.474110518604142,
-        "atr": 0.17259654263904986,
-        "rvol": 4.541359501365373,
-        "close_position": 0.9296890090786163,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0265392266265456,
-        "score": 6.471048510443989
-      },
-      "context": {
-        "atr": 0.19991920374421615,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.35055939388256574,
-        "btc_hour_pct": 0.05951732019662259,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "28bc6158e6a2388fe8b5c1ca",
-      "asset_id": "8e016583e525ca51e24f02bd",
-      "key": "MEXC:SPOT:MONUSDT",
-      "symbol": "MONUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793727223242,
-      "price": 0.017645,
-      "level": 0.01758,
-      "invalid": 0.017058640575453702,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01758,
-        "base_invalid": 0.017058640575453702,
-        "atr": 0.00014239616364199284,
-        "rvol": 10.041288879412807,
-        "close_position": 0.954545454545456,
-        "breakout": false,
-        "bar_close_ms": 1793719800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.1702750146284302,
-        "score": 7.454545454545456
-      },
-      "context": {
-        "atr": 0.00015589550345601602,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5060935395318822,
-        "btc_hour_pct": 0.05951732019662259,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793719800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "031a3f8d24d461d68a1ecf09",
-      "asset_id": "daaa2c1817e67fc8381fb70c",
-      "key": "OKX:PERP:MONUSDT",
-      "symbol": "MONUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793727223189,
-      "price": 0.017615,
-      "level": 0.01756,
-      "invalid": 0.017018083841509157,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01756,
-        "base_invalid": 0.017018083841509157,
-        "atr": 0.00014610772327228907,
-        "rvol": 5.101802769400512,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793719800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.0532475131656005,
-        "score": 6.601802769400512
-      },
-      "context": {
-        "atr": 0.00016534030489642483,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5013483634167759,
-        "btc_hour_pct": 0.0655450606195096,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MONUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793719800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MONUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1658263,6 +1658108,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793726931974
+    },
+    {
+      "id": "28bc6158e6a2388fe8b5c1ca",
+      "asset_id": "8e016583e525ca51e24f02bd",
+      "key": "MEXC:SPOT:MONUSDT",
+      "symbol": "MONUSDT",
+      "phase": "expired",
+      "observed_ms": 1793727223242,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793727239798
     }
   ],
   "runs": [
@@ -1802189,8 +1802045,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "808c047653d1f318e7d76bdb37b2ae1ab9695abd",
-    "previous_success_ms": 1793726958992,
+    "previous_commit": "1380b2619ca7bb6db87b55162753e48c9e7e35e3",
+    "previous_success_ms": 1793727238751,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
