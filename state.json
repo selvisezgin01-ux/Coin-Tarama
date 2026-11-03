@@ -1586035,112 +1586035,7 @@
       "source_close_ms": 1793708100000
     }
   },
-  "pending": [
-    {
-      "id": "2cd17ea5a5bea58e16936597",
-      "asset_id": "e974c455b0f35bd324a8fa96",
-      "key": "OKX:SPOT:SSVUSDT",
-      "symbol": "SSVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793708375476,
-      "price": 2.2965,
-      "level": 2.278,
-      "invalid": 2.2443554469517477,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.278,
-        "base_invalid": 2.2443554469517477,
-        "atr": 0.010963686988348766,
-        "rvol": 76.89094404847015,
-        "close_position": 0.6666666666666666,
-        "breakout": false,
-        "bar_close_ms": 1793691000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.22094564737074052,
-        "score": 7.166666666666667
-      },
-      "context": {
-        "atr": 0.007484457930409769,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7846505499023992,
-        "btc_hour_pct": -0.0340986735227089,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SSVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793691000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SSVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ec56ad1e232361829d4688af",
-      "asset_id": "756268907198549d1da6cf3b",
-      "key": "OKX:SPOT:FOGOUSDT",
-      "symbol": "FOGOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793708375476,
-      "price": 0.0023404999999999997,
-      "level": 0.002359,
-      "invalid": 0.002324155111823147,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002359,
-        "base_invalid": 0.002324155111823147,
-        "atr": 1.896592117901895e-05,
-        "rvol": 4.430312587157392,
-        "close_position": 0.7631578947368439,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.060085836909864,
-        "score": 6.193470481894236
-      },
-      "context": {
-        "atr": 1.8219341483717256e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6300969706704462,
-        "btc_hour_pct": -0.0340986735227089,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FOGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FOGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1599110,6 +1599005,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793708080062
+    },
+    {
+      "id": "2cd17ea5a5bea58e16936597",
+      "asset_id": "e974c455b0f35bd324a8fa96",
+      "key": "OKX:SPOT:SSVUSDT",
+      "symbol": "SSVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793708375476,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793708387543
+    },
+    {
+      "id": "ec56ad1e232361829d4688af",
+      "asset_id": "756268907198549d1da6cf3b",
+      "key": "OKX:SPOT:FOGOUSDT",
+      "symbol": "FOGOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793708375476,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793708387543
     }
   ],
   "runs": [
@@ -1738080,8 +1737997,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0ec8670f78c0d2cdc34992fdd51b4ac4793bef90",
-    "previous_success_ms": 1793708100767,
+    "previous_commit": "20f411b547a13affc947aa802f57e8259e842dd4",
+    "previous_success_ms": 1793708385855,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
