@@ -1561930,168 +1561930,7 @@
       "source_close_ms": 1793695500000
     }
   },
-  "pending": [
-    {
-      "id": "f28115766b7917ffefa4e903",
-      "asset_id": "38e971308c4cfca2a6c0e6f6",
-      "key": "OKX:PERP:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793697991858,
-      "price": 0.022065,
-      "level": 0.02003,
-      "invalid": 0.01950939279139883,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02003,
-        "base_invalid": 0.01950939279139883,
-        "atr": 0.00027071472400780924,
-        "rvol": 6.713732993757761,
-        "close_position": 0.8543689320388341,
-        "breakout": true,
-        "bar_close_ms": 1793675700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.6554832248372415,
-        "score": 7.854368932038835
-      },
-      "context": {
-        "atr": 0.0004846911295124127,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.5937478428593517,
-        "btc_hour_pct": -0.24766753693201693,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793675700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9bf89fa7961e59a89fe91b11",
-      "asset_id": "21060a79ffa390d75cead660",
-      "key": "MEXC:PERP:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793697995745,
-      "price": 0.022095,
-      "level": 0.02003,
-      "invalid": 0.019531416839093978,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02003,
-        "base_invalid": 0.019531416839093978,
-        "atr": 0.00025722107270682095,
-        "rvol": 3.6570622421485903,
-        "close_position": 0.9292929292929287,
-        "breakout": true,
-        "bar_close_ms": 1793675700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.9058587881822593,
-        "score": 5.586355171441519
-      },
-      "context": {
-        "atr": 0.00044759894313925463,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.4960610483055876,
-        "btc_hour_pct": -0.24713606025016377,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:IRYSUSDT",
-          "change_pct": -3.519425746022853,
-          "old_ms": 1793694538131,
-          "current_ms": 1793697992041,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0874,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793675700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5ed86b9ec1b5c3a83fc05fdb",
-      "asset_id": "454b9a6d2358910020a5a679",
-      "key": "OKX:SPOT:IRYSUSDT",
-      "symbol": "IRYSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793697992792,
-      "price": 0.02217,
-      "level": 0.02004,
-      "invalid": 0.019527615906207087,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02004,
-        "base_invalid": 0.019527615906207087,
-        "atr": 0.00028256062528608333,
-        "rvol": 2.1809472815212336,
-        "close_position": 0.9038461538461544,
-        "breakout": true,
-        "bar_close_ms": 1793675700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.9019509754877335,
-        "score": 4.084793435367388
-      },
-      "context": {
-        "atr": 0.00048826951684815585,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.9185827393949824,
-        "btc_hour_pct": -0.2501692091424923,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:IRYSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793675700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "IRYSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1574676,6 +1574515,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793696962365
+    },
+    {
+      "id": "f28115766b7917ffefa4e903",
+      "asset_id": "38e971308c4cfca2a6c0e6f6",
+      "key": "OKX:PERP:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793697991858,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793698006411
+    },
+    {
+      "id": "9bf89fa7961e59a89fe91b11",
+      "asset_id": "21060a79ffa390d75cead660",
+      "key": "MEXC:PERP:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793697995745,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793698006412
+    },
+    {
+      "id": "5ed86b9ec1b5c3a83fc05fdb",
+      "asset_id": "454b9a6d2358910020a5a679",
+      "key": "OKX:SPOT:IRYSUSDT",
+      "symbol": "IRYSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793697992792,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793698006412
     }
   ],
   "runs": [
@@ -1711247,8 +1711119,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "eb160d88bb0beda7c8ac6fd74a8f6f5e3c866a97",
-    "previous_success_ms": 1793697736509,
+    "previous_commit": "c22c74e053c404005c55a1ddc206101a51155f7f",
+    "previous_success_ms": 1793698005212,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
