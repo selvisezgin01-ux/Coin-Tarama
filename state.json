@@ -1527201,60 +1527201,7 @@
       "source_close_ms": 1793675700000
     }
   },
-  "pending": [
-    {
-      "id": "85a41c865334b3eac1651098",
-      "asset_id": "954894425dd65da700753c2f",
-      "key": "OKX:SPOT:LQTYUSDT",
-      "symbol": "LQTYUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793675838238,
-      "price": 0.18835,
-      "level": 0.1889,
-      "invalid": 0.18522771509764016,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1889,
-        "base_invalid": 0.18522771509764016,
-        "atr": 0.0011485660157323561,
-        "rvol": 6.871112743752696,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793672100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.286863270777494,
-        "score": 7.5
-      },
-      "context": {
-        "atr": 0.0010841192887714288,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.171409297976933,
-        "btc_hour_pct": -0.5314092979769369,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LQTYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793672100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LQTYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1539135,6 +1539082,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793675244986
+    },
+    {
+      "id": "85a41c865334b3eac1651098",
+      "asset_id": "954894425dd65da700753c2f",
+      "key": "OKX:SPOT:LQTYUSDT",
+      "symbol": "LQTYUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793675838238,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793675848790
     }
   ],
   "runs": [
@@ -1670299,8 +1670257,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5a30a8faceebdfe3da49f4275b5c40eb89da90df",
-    "previous_success_ms": 1793675569918,
+    "previous_commit": "6952847edd22cf1a23f8afbb86e67b350ab61a89",
+    "previous_success_ms": 1793675847586,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
