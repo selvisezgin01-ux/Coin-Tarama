@@ -94,7 +94,7 @@ Kimlik defteri: 21733 token; ayrıntılı fiyat/mum okumaları bütçelidir. Kot
 
 | Evre | Token | Ağ | Gözlem TR | MCAP USD | Bildirim |
 |---|---|---|---|---:|---|
-| 🟡 ERKEN RADAR | WASTED `0x216794f8e491adb65d98a622be14330dd52483d0` | ethereum | 03.11.2026 16:06 | 306400.0 | Bekliyor |
+| 🟡 ERKEN RADAR | WASTED `0x216794f8e491adb65d98a622be14330dd52483d0` | ethereum | 03.11.2026 16:06 | 306400.0 | [Issue #1759](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1759) |
 | 🟡 ERKEN RADAR | STAR `0x9d241885dc3efbdebb4be991389c36d524883a5b` | bnb | 03.11.2026 16:00 | 184545.0 | [Issue #1757](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1757) |
 | 🟡 ERKEN RADAR | MOGMAS `0xcf1547499a706f5e341321ce8efe47cb8e79f936` | robinhood | 03.11.2026 15:37 | 68806.0 | [Issue #1754](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1754) |
 | 🟡 ERKEN RADAR | FLO `0x83b720139ffd3f96c4bb5ad4bdc9a176f49336e6` | bnb | 03.11.2026 15:30 | 187153.0 | [Issue #1752](https://github.com/selvisezgin01-ux/Coin-Tarama/issues/1752) |
