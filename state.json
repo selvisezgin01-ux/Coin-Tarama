@@ -1617215,58 +1617215,7 @@
       "source_close_ms": 1793708100000
     }
   },
-  "pending": [
-    {
-      "id": "ff8148e878cebf9ee6b4b816",
-      "asset_id": "e17c5a756c768446f1860a60",
-      "key": "OKX:SPOT:CARDSUSDT",
-      "symbol": "CARDSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793710172677,
-      "price": 0.24209999999999998,
-      "level": 0.2405,
-      "invalid": 0.23561390897696594,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2405,
-        "base_invalid": 0.23561390897696594,
-        "atr": 0.0019072734868936826,
-        "rvol": 4.829997221633819,
-        "close_position": 0.6097560975609705,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.9201171058134561,
-        "score": 6.43975331919479
-      },
-      "context": {
-        "atr": 0.001854749627527507,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.9998033995787479,
-        "btc_hour_pct": -0.0340986735227089,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CARDSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CARDSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1630368,6 +1630317,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793709592358
+    },
+    {
+      "id": "ff8148e878cebf9ee6b4b816",
+      "asset_id": "e17c5a756c768446f1860a60",
+      "key": "OKX:SPOT:CARDSUSDT",
+      "symbol": "CARDSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793710172677,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793710186646
     }
   ],
   "runs": [
@@ -1769958,8 +1769918,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b3d787c9486555220312f58e955be17d277dd7d0",
-    "previous_success_ms": 1793709909619,
+    "previous_commit": "47417b08f9f2ebc0204a573fa0630a4e11f8b752",
+    "previous_success_ms": 1793710185472,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
