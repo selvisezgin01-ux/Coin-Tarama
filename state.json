@@ -1646542,214 +1646542,7 @@
       "source_close_ms": 1793719800000
     }
   },
-  "pending": [
-    {
-      "id": "dc701c06acb46f26cd44d04d",
-      "asset_id": "04a8165215eddc269a46b8db",
-      "key": "OKX:SPOT:LATUSDT",
-      "symbol": "LATUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793720986536,
-      "price": 0.00052925,
-      "level": 0.0005116,
-      "invalid": 0.0004989977133759519,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005116,
-        "base_invalid": 0.0004989977133759519,
-        "atr": 6.681910826987448e-06,
-        "rvol": 15.69684604175641,
-        "close_position": 0.8272727272727189,
-        "breakout": true,
-        "bar_close_ms": 1793715300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.90944881889763,
-        "score": 7.827272727272719
-      },
-      "context": {
-        "atr": 7.225223723201071e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.6625575720916395,
-        "btc_hour_pct": 0.006202239525321396,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793715300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "dc0ad626608796080c5b23df",
-      "asset_id": "e1e4a70c54acb9104df503cf",
-      "key": "OKX:PERP:KMNOUSDT",
-      "symbol": "KMNOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793720984479,
-      "price": 0.033645,
-      "level": 0.03343,
-      "invalid": 0.031013107395466324,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03343,
-        "base_invalid": 0.031013107395466324,
-        "atr": 0.0004459506968911781,
-        "rvol": 8.02220439845232,
-        "close_position": 0.7526881720430098,
-        "breakout": true,
-        "bar_close_ms": 1793720700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.5120147874306618,
-        "score": 7.75268817204301
-      },
-      "context": {
-        "atr": 0.0004459506968911781,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.321544664744659,
-        "btc_hour_pct": -0.009823170014522375,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KMNOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793720700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KMNOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9758c82b490123d7ab92a4bf",
-      "asset_id": "f050250e820e5e15f71119a7",
-      "key": "OKX:SPOT:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793720986536,
-      "price": 0.11753,
-      "level": 0.11641,
-      "invalid": 0.1132492616141786,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11641,
-        "base_invalid": 0.1132492616141786,
-        "atr": 0.001071589238809302,
-        "rvol": 7.746950453504954,
-        "close_position": 0.7247191011235936,
-        "breakout": true,
-        "bar_close_ms": 1793720700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3905788284373388,
-        "score": 7.724719101123593
-      },
-      "context": {
-        "atr": 0.001071589238809302,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5108880321661902,
-        "btc_hour_pct": 0.006202239525321396,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793720700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a5cb3ba5f2c4dcfed724eb13",
-      "asset_id": "8e9b86b4601691c41ffe8455",
-      "key": "OKX:PERP:KITEUSDT",
-      "symbol": "KITEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793720984479,
-      "price": 0.11739,
-      "level": 0.11622,
-      "invalid": 0.11320612501129906,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11622,
-        "base_invalid": 0.11320612501129906,
-        "atr": 0.0010924999246729446,
-        "rvol": 3.02232643734208,
-        "close_position": 0.8860759493670887,
-        "breakout": true,
-        "bar_close_ms": 1793720700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.460742544126603,
-        "score": 4.908402386709168
-      },
-      "context": {
-        "atr": 0.0010924999246729446,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.623966002090337,
-        "btc_hour_pct": -0.009823170014522375,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KITEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793720700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KITEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1660313,6 +1660106,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793720099320
+    },
+    {
+      "id": "dc701c06acb46f26cd44d04d",
+      "asset_id": "04a8165215eddc269a46b8db",
+      "key": "OKX:SPOT:LATUSDT",
+      "symbol": "LATUSDT",
+      "phase": "expired",
+      "observed_ms": 1793720986536,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793720999936
+    },
+    {
+      "id": "dc0ad626608796080c5b23df",
+      "asset_id": "e1e4a70c54acb9104df503cf",
+      "key": "OKX:PERP:KMNOUSDT",
+      "symbol": "KMNOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793720984479,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793720999936
+    },
+    {
+      "id": "9758c82b490123d7ab92a4bf",
+      "asset_id": "f050250e820e5e15f71119a7",
+      "key": "OKX:SPOT:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793720986536,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793720999936
+    },
+    {
+      "id": "a5cb3ba5f2c4dcfed724eb13",
+      "asset_id": "8e9b86b4601691c41ffe8455",
+      "key": "OKX:PERP:KITEUSDT",
+      "symbol": "KITEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793720984479,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793720999936
     }
   ],
   "runs": [
@@ -1776593,7 +1776430,8 @@
         "entry_seq": 0,
         "cohort": "KMNOUSDT",
         "observation_lag_ms": 284479,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15457
       },
       "f050250e820e5e15f71119a7:radar": {
         "symbol": "KITEUSDT",
@@ -1776615,7 +1776453,8 @@
         "entry_seq": 0,
         "cohort": "KITEUSDT",
         "observation_lag_ms": 286536,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13400
       },
       "8e9b86b4601691c41ffe8455:radar": {
         "symbol": "KITEUSDT",
@@ -1776637,7 +1776476,8 @@
         "entry_seq": 0,
         "cohort": "KITEUSDT",
         "observation_lag_ms": 284479,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15457
       }
     },
     "errors": [],
@@ -1802670,8 +1802510,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "77ace842f8ad331357fd1dc8860f7de17fcf7f8a",
-    "previous_success_ms": 1793720719275,
+    "previous_commit": "a8fe1e776155dfa3d092a390c5892088bc08dd29",
+    "previous_success_ms": 1793720998479,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
