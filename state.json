@@ -1567782,278 +1567782,7 @@
       "source_close_ms": 1793700900000
     }
   },
-  "pending": [
-    {
-      "id": "121709ca2f3b06441b5a6a95",
-      "asset_id": "e3902312433d49301546937f",
-      "key": "MEXC:PERP:MEGAUSDT",
-      "symbol": "MEGAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793701000078,
-      "price": 0.04435,
-      "level": 0.04511,
-      "invalid": 0.043552366216901325,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04511,
-        "base_invalid": 0.043552366216901325,
-        "atr": 0.0004508918873244752,
-        "rvol": 2.2618711761165184,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793687400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0514541387024678,
-        "score": 4.261871176116518
-      },
-      "context": {
-        "atr": 0.0005964416194887628,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.5155696142601482,
-        "btc_hour_pct": 0.5605012400469844,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MEGAUSDT",
-          "change_pct": -1.8192122958693546,
-          "old_ms": 1793697381237,
-          "current_ms": 1793700995228,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793687400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEGAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9966393633d24b87168b04d8",
-      "asset_id": "1d22a8935504fec75c9c1ed6",
-      "key": "MEXC:PERP:BLENDUSDT",
-      "symbol": "BLENDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793701000078,
-      "price": 0.047935000000000005,
-      "level": 0.04813,
-      "invalid": 0.04735226890054608,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04813,
-        "base_invalid": 0.04735226890054608,
-        "atr": 0.0003182073296928112,
-        "rvol": 2.742247360747425,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793691000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0575267688431653,
-        "score": 4.742247360747426
-      },
-      "context": {
-        "atr": 0.00031957976578320433,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.199413028999985,
-        "btc_hour_pct": 0.5605012400469844,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BLENDUSDT",
-          "change_pct": 0.0,
-          "old_ms": 1793697382124,
-          "current_ms": 1793700996098,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793691000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BLENDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d313a3d545ecdf5ce0eb9999",
-      "asset_id": "a50fe167cb349a15f6369a33",
-      "key": "MEXC:PERP:ORDIUSDT",
-      "symbol": "ORDIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793701000078,
-      "price": 3.3884999999999996,
-      "level": 3.388,
-      "invalid": 3.3506863266363833,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.388,
-        "base_invalid": 3.3506863266363833,
-        "atr": 0.015424489090780003,
-        "rvol": 2.8793398186908923,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793696400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.11823825007389877,
-        "score": 4.379339818690893
-      },
-      "context": {
-        "atr": 0.0136329675553136,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.294150248629399,
-        "btc_hour_pct": 0.5605012400469844,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ORDIUSDT",
-          "change_pct": 0.447178781308355,
-          "old_ms": 1793697381353,
-          "current_ms": 1793700995332,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ORDIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c00c5f500be0bbb2720bf2dc",
-      "asset_id": "c5ac5a4cb90870c6fb8da17b",
-      "key": "OKX:SPOT:CPUSDT",
-      "symbol": "CPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793701001725,
-      "price": 0.007579000000000001,
-      "level": 0.007599,
-      "invalid": 0.007466198298502834,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007599,
-        "base_invalid": 0.007466198298502834,
-        "atr": 3.867800998111152e-05,
-        "rvol": 2.709813086458909,
-        "close_position": 0.8571428571428394,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8755638100291785,
-        "score": 4.566955943601748
-      },
-      "context": {
-        "atr": 3.826856534918044e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.31368541899001734,
-        "btc_hour_pct": 0.5618783910391612,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0e407801356dc83e0fc74181",
-      "asset_id": "f42dbef50f79016887e9aa0a",
-      "key": "OKX:SPOT:BERAUSDT",
-      "symbol": "BERAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793701001725,
-      "price": 0.1306,
-      "level": 0.1308,
-      "invalid": 0.12920486140934165,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1308,
-        "base_invalid": 0.12920486140934165,
-        "atr": 0.0006342572710555764,
-        "rvol": 5.323831503946028,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793700900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.30674846625766694,
-        "score": 6.823831503946028
-      },
-      "context": {
-        "atr": 0.0006342572710555764,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.10033992950071458,
-        "btc_hour_pct": 0.5618783910391612,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BERAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793700900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BERAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1580770,6 +1580499,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793700706494
+    },
+    {
+      "id": "121709ca2f3b06441b5a6a95",
+      "asset_id": "e3902312433d49301546937f",
+      "key": "MEXC:PERP:MEGAUSDT",
+      "symbol": "MEGAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793701000078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793701013096
+    },
+    {
+      "id": "9966393633d24b87168b04d8",
+      "asset_id": "1d22a8935504fec75c9c1ed6",
+      "key": "MEXC:PERP:BLENDUSDT",
+      "symbol": "BLENDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793701000078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793701013096
+    },
+    {
+      "id": "d313a3d545ecdf5ce0eb9999",
+      "asset_id": "a50fe167cb349a15f6369a33",
+      "key": "MEXC:PERP:ORDIUSDT",
+      "symbol": "ORDIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793701000078,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793701013096
+    },
+    {
+      "id": "c00c5f500be0bbb2720bf2dc",
+      "asset_id": "c5ac5a4cb90870c6fb8da17b",
+      "key": "OKX:SPOT:CPUSDT",
+      "symbol": "CPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793701001725,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793701013096
+    },
+    {
+      "id": "0e407801356dc83e0fc74181",
+      "asset_id": "f42dbef50f79016887e9aa0a",
+      "key": "OKX:SPOT:BERAUSDT",
+      "symbol": "BERAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793701001725,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793701013096
     }
   ],
   "runs": [
@@ -1692080,7 +1691864,8 @@
         "entry_seq": 0,
         "cohort": "BERAUSDT",
         "observation_lag_ms": 101725,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11371
       }
     },
     "errors": [],
@@ -1718113,8 +1717898,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9df337f596cafb0979b8ec3ba293b11bb4cd2ed3",
-    "previous_success_ms": 1793700726419,
+    "previous_commit": "062a2d7b4dd53fe15a41de48c197492adefe1ef0",
+    "previous_success_ms": 1793701012015,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
