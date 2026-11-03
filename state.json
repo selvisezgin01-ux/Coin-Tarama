@@ -1644152,64 +1644152,7 @@
       "source_close_ms": 1793725200000
     }
   },
-  "pending": [
-    {
-      "id": "16466b8e4b6de7a86a9492ce",
-      "asset_id": "ce857a4ee4b22fd0d5a0af8e",
-      "key": "MEXC:PERP:MORPHOUSDT",
-      "symbol": "MORPHOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793725719037,
-      "price": 2.18805,
-      "level": 2.175,
-      "invalid": 2.1075147531848053,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.175,
-        "base_invalid": 2.1075147531848053,
-        "atr": 0.01656831210129702,
-        "rvol": 4.441186805753587,
-        "close_position": 0.897777777777779,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2077182916107487,
-        "score": 6.338964583531365
-      },
-      "context": {
-        "atr": 0.01656831210129702,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1442399624427724,
-        "btc_hour_pct": 0.06347832916797636,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MORPHOUSDT",
-          "change_pct": -0.21735904167645703,
-          "old_ms": 1793722169335,
-          "current_ms": 1793725715214,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MORPHOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1657971,6 +1657914,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793725439992
+    },
+    {
+      "id": "16466b8e4b6de7a86a9492ce",
+      "asset_id": "ce857a4ee4b22fd0d5a0af8e",
+      "key": "MEXC:PERP:MORPHOUSDT",
+      "symbol": "MORPHOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793725719037,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793725731939
     }
   ],
   "runs": [
@@ -1775455,7 +1775409,8 @@
         "entry_seq": 0,
         "cohort": "MORPHOUSDT",
         "observation_lag_ms": 519037,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12902
       }
     },
     "errors": [],
@@ -1801481,8 +1801436,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f687bb862a12b6c61fd7c625df519b5ed4c032ec",
-    "previous_success_ms": 1793725462066,
+    "previous_commit": "d13f3a01be11907da1432b8fc24d5a988134ff56",
+    "previous_success_ms": 1793725730583,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
