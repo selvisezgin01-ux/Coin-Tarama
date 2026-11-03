@@ -1633340,60 +1633340,7 @@
       "source_close_ms": 1793715300000
     }
   },
-  "pending": [
-    {
-      "id": "e38eb8191b059500f78ecd3d",
-      "asset_id": "a1f43c0c9377018ff1934983",
-      "key": "OKX:SPOT:STETHUSDT",
-      "symbol": "STETHUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793716904708,
-      "price": 2289.7250000000004,
-      "level": 2307.12,
-      "invalid": 2273.5948729766037,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2307.12,
-        "base_invalid": 2273.5948729766037,
-        "atr": 6.234180155975279,
-        "rvol": 28.347052838044743,
-        "close_position": 0.9729729729729613,
-        "breakout": false,
-        "bar_close_ms": 1793716200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.15088876096778225,
-        "score": 7.472972972972961
-      },
-      "context": {
-        "atr": 6.234180155975279,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2730370997824694,
-        "btc_hour_pct": -0.044429634566267584,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:STETHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793716200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STETHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1646759,6 +1646706,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793716324839
+    },
+    {
+      "id": "e38eb8191b059500f78ecd3d",
+      "asset_id": "a1f43c0c9377018ff1934983",
+      "key": "OKX:SPOT:STETHUSDT",
+      "symbol": "STETHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793716904708,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793716919426
     }
   ],
   "runs": [
@@ -1762019,7 +1761977,8 @@
         "entry_seq": 0,
         "cohort": "STETHUSDT",
         "observation_lag_ms": 704708,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14718
       }
     },
     "errors": [],
@@ -1788045,8 +1788004,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "70d2804961ef86b87946e3efe025f908a9a4adef",
-    "previous_success_ms": 1793716666248,
+    "previous_commit": "cbdd9344d6c4bca06540a6cb42cdb21c632d7687",
+    "previous_success_ms": 1793716917920,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
