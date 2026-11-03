@@ -1650615,64 +1650615,7 @@
       "source_close_ms": 1793719800000
     }
   },
-  "pending": [
-    {
-      "id": "4586436c868220ab97311e25",
-      "asset_id": "2fb800614f04331ebd4ee4f6",
-      "key": "MEXC:PERP:CGPTUSDT",
-      "symbol": "CGPTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793721581888,
-      "price": 0.01839,
-      "level": 0.01846,
-      "invalid": 0.018214087127878625,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01846,
-        "base_invalid": 0.018214087127878625,
-        "atr": 0.00010608581414249689,
-        "rvol": 2.491489165589398,
-        "close_position": 0.8125000000000081,
-        "breakout": false,
-        "bar_close_ms": 1793720700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.0,
-        "score": 3.803989165589406
-      },
-      "context": {
-        "atr": 0.00010608581414249689,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.1681809946745383,
-        "btc_hour_pct": -0.004782301864081351,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CGPTUSDT",
-          "change_pct": 4.004173731576888,
-          "old_ms": 1793717967202,
-          "current_ms": 1793721577351,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793720700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CGPTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1664280,6 +1664223,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793720999936
+    },
+    {
+      "id": "4586436c868220ab97311e25",
+      "asset_id": "2fb800614f04331ebd4ee4f6",
+      "key": "MEXC:PERP:CGPTUSDT",
+      "symbol": "CGPTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793721581888,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793721594924
     }
   ],
   "runs": [
@@ -1780729,7 +1780683,8 @@
         "entry_seq": 0,
         "cohort": "CGPTUSDT",
         "observation_lag_ms": 881888,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13036
       }
     },
     "errors": [],
@@ -1806761,8 +1806716,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a043a3d50afd473a1bf9ddd16c9454ebcffa06c3",
-    "previous_success_ms": 1793721313870,
+    "previous_commit": "9cfca021addcf69d972e3b79ae280c1950daecc8",
+    "previous_success_ms": 1793721593448,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
