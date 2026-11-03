@@ -1568998,116 +1568998,7 @@
       "source_close_ms": 1793697300000
     }
   },
-  "pending": [
-    {
-      "id": "59057f62b8cf35b2bd7a296d",
-      "asset_id": "b1984f3c197e412b6fe84265",
-      "key": "MEXC:PERP:FLOWUSDT",
-      "symbol": "FLOWUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793698300134,
-      "price": 0.02214,
-      "level": 0.02221,
-      "invalid": 0.021933201763064576,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02221,
-        "base_invalid": 0.021933201763064576,
-        "atr": 0.00011198824623615976,
-        "rvol": 4.273150684410195,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793675700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7276034561164213,
-        "score": 5.773150684410195
-      },
-      "context": {
-        "atr": 0.00010578977295559365,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.24858273199860337,
-        "btc_hour_pct": -0.24713606025016377,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FLOWUSDT",
-          "change_pct": -0.006523124458013285,
-          "old_ms": 1793694837755,
-          "current_ms": 1793698298867,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793675700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLOWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "39c96624b5981be2b5aceea7",
-      "asset_id": "0b19400f1382c77ff147f84a",
-      "key": "OKX:SPOT:BIGTIMEUSDT",
-      "symbol": "BIGTIMEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793698301435,
-      "price": 0.0065825,
-      "level": 0.006572,
-      "invalid": 0.006489633453103015,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006572,
-        "base_invalid": 0.006489633453103015,
-        "atr": 3.577697931323529e-05,
-        "rvol": 7.251295638061458,
-        "close_position": 0.6938775510204002,
-        "breakout": true,
-        "bar_close_ms": 1793696400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4270896888346476,
-        "score": 7.6938775510204005
-      },
-      "context": {
-        "atr": 3.533492338260902e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6772588979771399,
-        "btc_hour_pct": -0.2501692091424923,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BIGTIMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BIGTIMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1581725,6 +1581616,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793698006412
+    },
+    {
+      "id": "59057f62b8cf35b2bd7a296d",
+      "asset_id": "b1984f3c197e412b6fe84265",
+      "key": "MEXC:PERP:FLOWUSDT",
+      "symbol": "FLOWUSDT",
+      "phase": "expired",
+      "observed_ms": 1793698300134,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793698312114
+    },
+    {
+      "id": "39c96624b5981be2b5aceea7",
+      "asset_id": "0b19400f1382c77ff147f84a",
+      "key": "OKX:SPOT:BIGTIMEUSDT",
+      "symbol": "BIGTIMEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793698301435,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793698312115
     }
   ],
   "runs": [
@@ -1718355,8 +1718268,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f91c634910f6fa0f2d2a99bec6ed0dedeafe7dd8",
-    "previous_success_ms": 1793698033960,
+    "previous_commit": "2dda861510605341910522d3e8ed4351ee6a3e09",
+    "previous_success_ms": 1793698311072,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
