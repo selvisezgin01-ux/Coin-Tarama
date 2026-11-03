@@ -1631324,60 +1631324,7 @@
       "source_close_ms": 1793746800000
     }
   },
-  "pending": [
-    {
-      "id": "c2cf37ea142467b9b31ba229",
-      "asset_id": "5969b1eec0bb07286aca89b7",
-      "key": "OKX:PERP:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793746966574,
-      "price": 0.08074500000000001,
-      "level": 0.0804,
-      "invalid": 0.07983042343385728,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0804,
-        "base_invalid": 0.07983042343385728,
-        "atr": 0.00033051044095150584,
-        "rvol": 3.721113896256331,
-        "close_position": 0.731707317073169,
-        "breakout": true,
-        "bar_close_ms": 1793741400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.38701622971284433,
-        "score": 5.4528212133295
-      },
-      "context": {
-        "atr": 0.00034056098445905774,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.43961394258683617,
-        "btc_hour_pct": -0.01746345835541563,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793741400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1794508,8 +1794455,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e52f8a5b16b42487e59fdc70ae0197d68399a9c2",
-    "previous_success_ms": 1793746694101,
+    "previous_commit": "0b04e92427fcd2e3f541092f6232bf6faa9f374a",
+    "previous_success_ms": 1793746980722,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
