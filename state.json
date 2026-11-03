@@ -1609856,212 +1609856,7 @@
       "source_close_ms": 1793708100000
     }
   },
-  "pending": [
-    {
-      "id": "02c0ac248e2bc5f5cf4e39a7",
-      "asset_id": "5aaf277b486e7b6f81631416",
-      "key": "MEXC:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793709573722,
-      "price": 1.8235000000000001,
-      "level": 1.7844,
-      "invalid": 1.7422017369968552,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7844,
-        "base_invalid": 1.7422017369968552,
-        "atr": 0.016655086687631295,
-        "rvol": 13.039575567792529,
-        "close_position": 0.9386363636363654,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4274316754371084,
-        "score": 7.938636363636365
-      },
-      "context": {
-        "atr": 0.016655086687631295,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5127934647425234,
-        "btc_hour_pct": -0.03389207720184695,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d20561db7662132b613dc20e",
-      "asset_id": "b6213ba865f57b01a73bd479",
-      "key": "MEXC:PERP:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793709571520,
-      "price": 1.8229,
-      "level": 1.7837,
-      "invalid": 1.7429358497770315,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7837,
-        "base_invalid": 1.7429358497770315,
-        "atr": 0.016427668153123146,
-        "rvol": 3.657569817917277,
-        "close_position": 0.9449541284403681,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3234778676013423,
-        "score": 5.602523946357645
-      },
-      "context": {
-        "atr": 0.016427668153123146,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.415072963999331,
-        "btc_hour_pct": -0.022696794175092183,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZROUSDT",
-          "change_pct": 0.16775544439886492,
-          "old_ms": 1793705958122,
-          "current_ms": 1793709568199,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8a234b66b7bfed20becfbda3",
-      "asset_id": "d721888c3628ab82a1d5610b",
-      "key": "OKX:PERP:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793709576740,
-      "price": 1.82155,
-      "level": 1.7828,
-      "invalid": 1.7417694342641679,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7828,
-        "base_invalid": 1.7417694342641679,
-        "atr": 0.016870438238881395,
-        "rvol": 2.8620389097411434,
-        "close_position": 0.9566210045662147,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3878232331805638,
-        "score": 4.818659914307358
-      },
-      "context": {
-        "atr": 0.016870438238881395,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4013481201510136,
-        "btc_hour_pct": -0.042667980857757914,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cd2cd60c9fd4f034794fccd8",
-      "asset_id": "ed27b3e10a7e15b0a78c05f9",
-      "key": "OKX:SPOT:ZROUSDT",
-      "symbol": "ZROUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793709578873,
-      "price": 1.82355,
-      "level": 1.7839,
-      "invalid": 1.7433005315038888,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7839,
-        "base_invalid": 1.7433005315038888,
-        "atr": 0.016663123307408316,
-        "rvol": 2.0069185376921896,
-        "close_position": 0.9599999999999992,
-        "breakout": true,
-        "bar_close_ms": 1793709000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.259631680036156,
-        "score": 3.9669185376921887
-      },
-      "context": {
-        "atr": 0.016663123307408316,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4204519368727686,
-        "btc_hour_pct": -0.0340986735227089,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZROUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793709000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZROUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1623119,6 +1622914,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793709292753
+    },
+    {
+      "id": "02c0ac248e2bc5f5cf4e39a7",
+      "asset_id": "5aaf277b486e7b6f81631416",
+      "key": "MEXC:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709573722,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709592357
+    },
+    {
+      "id": "d20561db7662132b613dc20e",
+      "asset_id": "b6213ba865f57b01a73bd479",
+      "key": "MEXC:PERP:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709571520,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709592357
+    },
+    {
+      "id": "8a234b66b7bfed20becfbda3",
+      "asset_id": "d721888c3628ab82a1d5610b",
+      "key": "OKX:PERP:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709576740,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709592357
+    },
+    {
+      "id": "cd2cd60c9fd4f034794fccd8",
+      "asset_id": "ed27b3e10a7e15b0a78c05f9",
+      "key": "OKX:SPOT:ZROUSDT",
+      "symbol": "ZROUSDT",
+      "phase": "radar",
+      "observed_ms": 1793709578873,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793709592358
     }
   ],
   "runs": [
@@ -1736476,7 +1736315,8 @@
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 573722,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 18635
       },
       "b6213ba865f57b01a73bd479:radar": {
         "symbol": "ZROUSDT",
@@ -1736498,7 +1736338,8 @@
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 571520,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 20837
       },
       "d721888c3628ab82a1d5610b:radar": {
         "symbol": "ZROUSDT",
@@ -1736520,7 +1736361,8 @@
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 576740,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15617
       },
       "ed27b3e10a7e15b0a78c05f9:radar": {
         "symbol": "ZROUSDT",
@@ -1736542,7 +1736384,8 @@
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 578873,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13485
       }
     },
     "errors": [],
@@ -1762605,8 +1762448,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "03257b069910ad87a40ce88e8deadfec6c0fcdcc",
-    "previous_success_ms": 1793709314912,
+    "previous_commit": "b33f461a2e588fb0c03451e700b080d60785cc09",
+    "previous_success_ms": 1793709591060,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
