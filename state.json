@@ -214,16 +214,18 @@
       ],
       "latest": {
         "exchange": "OKX",
-        "observed_ms": 1793681724764,
-        "feature_cutoff_ms": 1793678400000,
+        "observed_ms": 1793696214846,
+        "feature_cutoff_ms": 1793692800000,
         "universe_count": 461,
-        "prefilter_count": 44,
+        "prefilter_count": 46,
         "analyzed_count": 36,
         "candidates": []
       }
     },
     "MEXC": {
-      "active": [],
+      "active": [
+        "XMRUSDT"
+      ],
       "last_alert": {
         "GRASSUSDT": 1793133773397,
         "GBCKUSDT": 1792959544552,
@@ -318,7 +320,8 @@
         "HOOKRUSDT": 1793610287685,
         "XPUSDT": 1793610287685,
         "OGNUSDT": 1793610287685,
-        "DEFIUSDT": 1793624815257
+        "DEFIUSDT": 1793624815257,
+        "XMRUSDT": 1793696256092
       },
       "ever_seen": [
         "4USDT",
@@ -407,6 +410,7 @@
         "UNIUSDT",
         "WUSDT",
         "XDCUSDT",
+        "XMRUSDT",
         "XPLUSDT",
         "XPRUSDT",
         "XPUSDT",
@@ -418,17 +422,96 @@
       ],
       "latest": {
         "exchange": "MEXC",
-        "observed_ms": 1793681772901,
-        "feature_cutoff_ms": 1793678400000,
+        "observed_ms": 1793696256024,
+        "feature_cutoff_ms": 1793692800000,
         "universe_count": 1229,
-        "prefilter_count": 196,
-        "analyzed_count": 187,
-        "candidates": []
+        "prefilter_count": 178,
+        "analyzed_count": 169,
+        "candidates": [
+          {
+            "exchange": "MEXC",
+            "symbol": "XMRUSDT",
+            "observed_ms": 1793696256024,
+            "feature_cutoff_ms": 1793692800000,
+            "mid_price": 622.2950000000001,
+            "spread_pct": 0.05945733132999695,
+            "return24_pct": 3.4790792906443047,
+            "relative24_pct_points": 5.130674374493315,
+            "quote_volume24": 1987496.6800000002,
+            "liquidity_band": "main",
+            "breakout_level": 616.42,
+            "breakout_open_ms": 1793678400000.0,
+            "breakout_volume_ratio": 1.3385947095820148,
+            "strength_score": 80,
+            "breakout_age_bars": 0.0,
+            "invalidation_level": 601.5026777402586,
+            "atr": 12.269289038965933,
+            "close": 626.69,
+            "paper_controls": [
+              {
+                "symbol": "GRVTUSDT",
+                "entry_price": 0.22205
+              },
+              {
+                "symbol": "TRXUSDT",
+                "entry_price": 0.3217
+              },
+              {
+                "symbol": "LYNUSDT",
+                "entry_price": 0.02137
+              }
+            ],
+            "paper_btc_price": 76638.66500000001
+          }
+        ]
       }
     }
   },
-  "pending": [],
-  "updated_ms": 1793681772986,
+  "pending": [
+    {
+      "id": "b2ba28a7d889faf5fc753968",
+      "created_ms": 1793696256092,
+      "candidates": [
+        {
+          "exchange": "MEXC",
+          "symbol": "XMRUSDT",
+          "observed_ms": 1793696256024,
+          "feature_cutoff_ms": 1793692800000,
+          "mid_price": 622.2950000000001,
+          "spread_pct": 0.05945733132999695,
+          "return24_pct": 3.4790792906443047,
+          "relative24_pct_points": 5.130674374493315,
+          "quote_volume24": 1987496.6800000002,
+          "liquidity_band": "main",
+          "breakout_level": 616.42,
+          "breakout_open_ms": 1793678400000.0,
+          "breakout_volume_ratio": 1.3385947095820148,
+          "strength_score": 80,
+          "breakout_age_bars": 0.0,
+          "invalidation_level": 601.5026777402586,
+          "atr": 12.269289038965933,
+          "close": 626.69,
+          "paper_controls": [
+            {
+              "symbol": "GRVTUSDT",
+              "entry_price": 0.22205
+            },
+            {
+              "symbol": "TRXUSDT",
+              "entry_price": 0.3217
+            },
+            {
+              "symbol": "LYNUSDT",
+              "entry_price": 0.02137
+            }
+          ],
+          "paper_btc_price": 76638.66500000001,
+          "arrival": "new"
+        }
+      ]
+    }
+  ],
+  "updated_ms": 1793696256092,
   "paper": {
     "version": "github-paper-v1",
     "entries": {
@@ -12925,6 +13008,17 @@
             "control_excess_pct_points": -1.109725785399207,
             "complete": true,
             "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793682152242,
+            "endpoint_ms": 1793682180000,
+            "endpoint_delay_ms": 27758,
+            "endpoint_price": 0.026937,
+            "return_pct": -1.5010512843952828,
+            "btc_excess_pct_points": 0.44474278129712497,
+            "control_excess_pct_points": 0.08347287230736633,
+            "complete": true,
+            "controls_count": 3
           }
         }
       },
@@ -12967,6 +13061,17 @@
             "return_pct": 1.4058577405857697,
             "btc_excess_pct_points": 2.6070633255029674,
             "control_excess_pct_points": 2.864599303834192,
+            "complete": true,
+            "controls_count": 3
+          },
+          "24": {
+            "target_ms": 1793682152242,
+            "endpoint_ms": 1793682180000,
+            "endpoint_delay_ms": 27758,
+            "endpoint_price": 0.06037,
+            "return_pct": 1.0376569037656935,
+            "btc_excess_pct_points": 2.9834509694581013,
+            "control_excess_pct_points": 2.5288335658741667,
             "complete": true,
             "controls_count": 3
           }
@@ -13191,9 +13296,41 @@
             "controls_count": 3
           }
         }
+      },
+      "MEXC:XMRUSDT": {
+        "symbol": "XMRUSDT",
+        "exchange": "MEXC",
+        "observed_ms": 1793696256024,
+        "entry_price": 622.2950000000001,
+        "btc_entry_price": 76638.66500000001,
+        "controls": [
+          {
+            "symbol": "GRVTUSDT",
+            "entry_price": 0.22205
+          },
+          {
+            "symbol": "TRXUSDT",
+            "entry_price": 0.3217
+          },
+          {
+            "symbol": "LYNUSDT",
+            "entry_price": 0.02137
+          }
+        ],
+        "pu_at_entry": false,
+        "rsi14_at_entry": null,
+        "initial_stage": "new_breakout",
+        "stages": [
+          {
+            "stage": "new_breakout",
+            "observed_ms": 1793696256024,
+            "price": 622.2950000000001
+          }
+        ],
+        "outcomes": {}
       }
     },
     "measurement_errors": [],
-    "asof_ms": 1793681772986
+    "asof_ms": 1793696256092
   }
 }

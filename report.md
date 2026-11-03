@@ -2,18 +2,21 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 461, ön eleme 44, incelenen 36, aday 0. Gözlem 03.11.2026 07:55 TR; mum kesimi 03.11.2026 07:00 TR.
+OKX: evren 461, ön eleme 46, incelenen 36, aday 0. Gözlem 03.11.2026 11:56 TR; mum kesimi 03.11.2026 11:00 TR.
 
-MEXC: evren 1229, ön eleme 196, incelenen 187, aday 0. Gözlem 03.11.2026 07:56 TR; mum kesimi 03.11.2026 07:00 TR.
+MEXC: evren 1229, ön eleme 178, incelenen 169, aday 1. Gözlem 03.11.2026 11:57 TR; mum kesimi 03.11.2026 11:00 TR.
 
 ## Bu döngüde yeni gelenler
 
-Yeni aday yok.
+XMRUSDT · MEXC  
+Fiyat 622.295 | 24s %3.48 | hacim 1.34x | makas %0.06  
+ilk kırılım kapanışı; sonraki mum teyidi yok
 
 ## Güncel aday listesi
 
 | Coin | Borsa | 24s % | Hacim USDT | Hacim katı | Makas % |
 |---|---|---:|---:|---:|---:|
+| XMRUSDT | MEXC | 3.48 | 1987497 | 1.34 | 0.059 |
 
 Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada görünürse borsa etiketi korunur. Bildirimler önceki başarılı taramaya göre yeni girişlerde oluşur; tekrar girişler için 48 saat bildirim beklemesi vardır. Sürekli listede kalan coin her dört saatte tekrar bildirilmez. Bu döngüdeki yokluk yalnız başarılı bir taramadan sonra değerlendirilir.
 
@@ -21,13 +24,13 @@ Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada gö
 
 Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedilir. Aynı coin grup değiştirse de yeni bağımsız örnek sayılmaz. Hedef saatten sonraki ilk dakika kapanışı kullanılır; gecikme 60 saniyeden küçüktür. Ücret/kayma dahil net kâr değildir. Henüz oluşmamış veya eksik ölçümler boş kalır.
 
-196 borsa kaydı, 161 farklı sembol. Ortak semboller iki bağımsız başarı gibi toplanmaz.
+197 borsa kaydı, 162 farklı sembol. Ortak semboller iki bağımsız başarı gibi toplanmaz.
 
 | Borsa | Süre | Ölçülen | Medyan % | BTC üstü puan | Kontrol üstü puan | Kontrol ölçülen |
 |---|---:|---:|---:|---:|---:|---:|
-| MEXC | 12s | 94/94 | -1.04 | -1.00 | -0.58 | 94 |
-| MEXC | 24s | 88/94 | -2.53 | -1.70 | -1.15 | 88 |
-| MEXC | 48s | 87/94 | -4.95 | -2.09 | -0.99 | 87 |
+| MEXC | 12s | 94/95 | -1.04 | -1.00 | -0.58 | 94 |
+| MEXC | 24s | 90/95 | -2.25 | -1.29 | -1.14 | 90 |
+| MEXC | 48s | 87/95 | -4.95 | -2.09 | -0.99 | 87 |
 | OKX | 12s | 102/102 | -0.28 | -0.23 | 0.19 | 102 |
 | OKX | 24s | 101/102 | -0.97 | -0.58 | 0.04 | 101 |
 | OKX | 48s | 100/102 | -1.53 | -0.88 | 1.06 | 100 |
@@ -77,7 +80,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | IOUSDT | MEXC | Yeni kırılım | 28.10.2026 15:57 | 0.15135 | -0.69 | -1.69 | -11.19 |
 | KASUSDT | MEXC | Yeni kırılım | 28.10.2026 23:46 | 0.036533 | -2.83 | -5.38 | -10.53 |
 | LABUSDT | MEXC | Yeni kırılım | 27.10.2026 19:52 | 0.04406 | 7.83 | 4.22 | 10.19 |
-| LAUSDT | MEXC | Yeni kırılım | 02.11.2026 08:02 | 0.05975 | 1.41 | — | — |
+| LAUSDT | MEXC | Yeni kırılım | 02.11.2026 08:02 | 0.05975 | 1.41 | 1.04 | — |
 | LUMIAUSDT | MEXC | Yeni kırılım | 27.10.2026 23:42 | 0.085575 | -0.57 | -1.92 | -1.03 |
 | LWOLFUSDT | MEXC | Yeni kırılım | 29.10.2026 19:58 | 8.6555e-06 | -5.77 | -8.60 | -7.80 |
 | LYNUSDT | MEXC | Yeni kırılım | 27.10.2026 23:42 | 0.014845 | 1.79 | 5.76 | -11.01 |
@@ -108,7 +111,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | SHIBUSDT | MEXC | Yeni kırılım | 28.10.2026 15:57 | 4.959e-06 | 0.02 | -0.91 | -2.64 |
 | SN51USDT | MEXC | Yeni kırılım | 27.10.2026 19:52 | 30.86 | 1.56 | -0.32 | 3.50 |
 | SPXUSDT | MEXC | Yeni kırılım | 26.10.2026 19:49 | 0.37525 | 1.03 | 0.79 | 0.65 |
-| STABLEUSDT | MEXC | Yeni kırılım | 02.11.2026 08:02 | 0.0273475 | -1.88 | — | — |
+| STABLEUSDT | MEXC | Yeni kırılım | 02.11.2026 08:02 | 0.0273475 | -1.88 | -1.50 | — |
 | STARUSDT | MEXC | Yeni kırılım | 29.10.2026 03:57 | 0.036 | -0.83 | -5.83 | -6.94 |
 | SYMMUSDT | MEXC | Yeni kırılım | 26.10.2026 23:38 | 0.0307 | 17.26 | 9.12 | 20.85 |
 | TACUSDT | MEXC | Yeni kırılım | 27.10.2026 23:42 | 0.001202 | -1.00 | 1.00 | -6.99 |
@@ -120,6 +123,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | UNIUSDT | MEXC | Yeni kırılım | 29.10.2026 19:58 | 7.375 | -7.81 | -5.42 | -4.72 |
 | WUSDT | MEXC | Yeni kırılım | 27.10.2026 19:52 | 0.012781 | 0.71 | -0.70 | -2.52 |
 | XDCUSDT | MEXC | Yeni kırılım | 27.10.2026 15:47 | 0.035375 | -4.42 | -5.10 | -6.15 |
+| XMRUSDT | MEXC | Yeni kırılım | 03.11.2026 11:57 | 622.295 | — | — | — |
 | XPLUSDT | MEXC | Yeni kırılım | 28.10.2026 15:57 | 0.0754 | 1.55 | 2.02 | 2.52 |
 | XPRUSDT | MEXC | Yeni kırılım | 28.10.2026 11:57 | 0.00189055 | -0.09 | -0.81 | -3.73 |
 | XPUSDT | MEXC | Yeni kırılım | 02.11.2026 12:04 | 0.0081685 | -3.64 | — | — |
