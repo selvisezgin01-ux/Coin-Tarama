@@ -1650239,110 +1650239,7 @@
       "source_close_ms": 1793746800000
     }
   },
-  "pending": [
-    {
-      "id": "b0aa46ab0fc2df11b9b9e0ff",
-      "asset_id": "584e0e4ca9bd4c13150f4dcd",
-      "key": "OKX:PERP:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793748764864,
-      "price": 0.13679999999999998,
-      "level": 0.1374,
-      "invalid": 0.1331680266486186,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1374,
-        "base_invalid": 0.1331680266486186,
-        "atr": 0.0015464890092093356,
-        "rvol": 2.9437433835881883,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793745900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6176470588235237,
-        "score": 4.943743383588188
-      },
-      "context": {
-        "atr": 0.0016768007847615997,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.0717554612901146,
-        "btc_hour_pct": -0.01746345835541563,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AXISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793745900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4a2051f05dc6ff21cd38f998",
-      "asset_id": "b433374f4a2d44be243a9470",
-      "key": "MEXC:SPOT:AXISUSDT",
-      "symbol": "AXISUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793748766096,
-      "price": 0.1367,
-      "level": 0.1381,
-      "invalid": 0.1335852335723002,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1381,
-        "base_invalid": 0.1335852335723002,
-        "atr": 0.0014317761846652493,
-        "rvol": 6.510475287476884,
-        "close_position": 0.8421052631578986,
-        "breakout": true,
-        "bar_close_ms": 1793746800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1229868228404225,
-        "score": 7.842105263157898
-      },
-      "context": {
-        "atr": 0.001543493171253764,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.157644409732773,
-        "btc_hour_pct": -0.034657586892350434,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AXISUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793746800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AXISUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1665050,6 +1664947,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793747880108
+    },
+    {
+      "id": "b0aa46ab0fc2df11b9b9e0ff",
+      "asset_id": "584e0e4ca9bd4c13150f4dcd",
+      "key": "OKX:PERP:AXISUSDT",
+      "symbol": "AXISUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793748764864,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793748778802
     }
   ],
   "runs": [
@@ -1814102,8 +1814010,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "70e74cbfcfc8583d04356e0080eecbde7fa8ec22",
-    "previous_success_ms": 1793748501541,
+    "previous_commit": "4b1dcc905a114b454c4e8dfcb9deb7513daed14f",
+    "previous_success_ms": 1793748777492,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
