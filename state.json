@@ -1643987,64 +1643987,7 @@
       "source_close_ms": 1793737800000
     }
   },
-  "pending": [
-    {
-      "id": "1b55761f9d209101a781cfc7",
-      "asset_id": "08a01ac7866bd63a78869c0b",
-      "key": "MEXC:PERP:1000000BABYDOGEUSDT",
-      "symbol": "1000000BABYDOGEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793739411239,
-      "price": 0.00031515000000000004,
-      "level": 0.0003158,
-      "invalid": 0.00031311523226135656,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0003158,
-        "base_invalid": 0.00031311523226135656,
-        "atr": 1.2317849242895755e-06,
-        "rvol": 9.526897547071671,
-        "close_position": 0.7333333333333333,
-        "breakout": false,
-        "bar_close_ms": 1793738700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3503184713375962,
-        "score": 7.233333333333333
-      },
-      "context": {
-        "atr": 1.2317849242895755e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2128843847867934,
-        "btc_hour_pct": 0.022044690130296196,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:1000000BABYDOGEUSDT",
-          "change_pct": 6.176653146065791,
-          "old_ms": 1793735859714,
-          "current_ms": 1793739409692,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "1000000BABYDOGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1658345,6 +1658288,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793738828326
+    },
+    {
+      "id": "1b55761f9d209101a781cfc7",
+      "asset_id": "08a01ac7866bd63a78869c0b",
+      "key": "MEXC:PERP:1000000BABYDOGEUSDT",
+      "symbol": "1000000BABYDOGEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793739411239,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793739429117
     }
   ],
   "runs": [
@@ -1779013,7 +1778967,8 @@
         "entry_seq": 0,
         "cohort": "1000000BABYDOGEUSDT",
         "observation_lag_ms": 711239,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 17878
       }
     },
     "errors": [],
@@ -1805041,8 +1804996,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c484fffca8f51e23a4862c35f0e389ef2bf5dfbb",
-    "previous_success_ms": 1793739180112,
+    "previous_commit": "38cd80c0b01f692d589e34edb496ded3ebff331e",
+    "previous_success_ms": 1793739427841,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
