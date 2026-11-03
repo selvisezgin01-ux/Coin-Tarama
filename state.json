@@ -1628529,58 +1628529,7 @@
       "source_close_ms": 1793715300000
     }
   },
-  "pending": [
-    {
-      "id": "9dc7668d2a7d43bc6f122389",
-      "asset_id": "04a8165215eddc269a46b8db",
-      "key": "OKX:SPOT:LATUSDT",
-      "symbol": "LATUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793715706591,
-      "price": 0.0005225,
-      "level": 0.0005116,
-      "invalid": 0.0004989977133759519,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005116,
-        "base_invalid": 0.0004989977133759519,
-        "atr": 6.681910826987448e-06,
-        "rvol": 15.69684604175641,
-        "close_position": 0.8272727272727189,
-        "breakout": true,
-        "bar_close_ms": 1793715300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.90944881889763,
-        "score": 7.827272727272719
-      },
-      "context": {
-        "atr": 6.681910826987448e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.3001841102695857,
-        "btc_hour_pct": -0.044429634566267584,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793715300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1641913,6 +1641862,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793715422326
+    },
+    {
+      "id": "9dc7668d2a7d43bc6f122389",
+      "asset_id": "04a8165215eddc269a46b8db",
+      "key": "OKX:SPOT:LATUSDT",
+      "symbol": "LATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793715706591,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793715719291
     }
   ],
   "runs": [
@@ -1756848,7 +1756808,8 @@
         "entry_seq": 0,
         "cohort": "LATUSDT",
         "observation_lag_ms": 406591,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12700
       }
     },
     "errors": [],
@@ -1782873,8 +1782834,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1fd11a411aba2cadb2383cfb9725dd224ce11fd0",
-    "previous_success_ms": 1793715443490,
+    "previous_commit": "87005fd222048c022229375877c419313e920df4",
+    "previous_success_ms": 1793715718060,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
