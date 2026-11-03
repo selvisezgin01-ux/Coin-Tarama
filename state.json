@@ -1556356,220 +1556356,7 @@
       "source_close_ms": 1793695500000
     }
   },
-  "pending": [
-    {
-      "id": "1168a97913a3ec51b64700a3",
-      "asset_id": "9f32a2ea4fb77b4a8cc9cf93",
-      "key": "MEXC:SPOT:COREUSDT",
-      "symbol": "COREUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793696651739,
-      "price": 0.01235,
-      "level": 0.0123,
-      "invalid": 0.012058174964955103,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0123,
-        "base_invalid": 0.012058174964955103,
-        "atr": 0.00014550023363264962,
-        "rvol": 2.643707415653789,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793674800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5751848808545512,
-        "score": 4.14370741565379
-      },
-      "context": {
-        "atr": 0.00010645285073937703,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7240763674948525,
-        "btc_hour_pct": -0.23547701896065032,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:COREUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793674800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COREUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "672e78bea3f194bab8d19482",
-      "asset_id": "a50fe167cb349a15f6369a33",
-      "key": "MEXC:PERP:ORDIUSDT",
-      "symbol": "ORDIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793696656071,
-      "price": 3.3845,
-      "level": 3.388,
-      "invalid": 3.3506863266363833,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 3.388,
-        "base_invalid": 3.3506863266363833,
-        "atr": 0.015424489090780003,
-        "rvol": 2.8793398186908923,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793696400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.11823825007389877,
-        "score": 4.379339818690893
-      },
-      "context": {
-        "atr": 0.015424489090780003,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.128897810176265,
-        "btc_hour_pct": -0.24713606025016377,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ORDIUSDT",
-          "change_pct": -1.2198422092465577,
-          "old_ms": 1793693037501,
-          "current_ms": 1793696654320,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ORDIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "261f2609e5110777985c236d",
-      "asset_id": "b4e7b8e952f8b24bb6c2474c",
-      "key": "OKX:PERP:KATUSDT",
-      "symbol": "KATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793696653440,
-      "price": 0.0037795,
-      "level": 0.003767,
-      "invalid": 0.0037071554650701735,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003767,
-        "base_invalid": 0.0037071554650701735,
-        "atr": 2.5630232865507764e-05,
-        "rvol": 2.0515285968338133,
-        "close_position": 0.8529411764705931,
-        "breakout": true,
-        "bar_close_ms": 1793696400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0962566844919808,
-        "score": 3.9044697733044065
-      },
-      "context": {
-        "atr": 2.5630232865507764e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3439242214239977,
-        "btc_hour_pct": -0.24766753693201693,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5ea4f2ff9faa42d421104829",
-      "asset_id": "7cd7845a5f679a2451709c5e",
-      "key": "OKX:SPOT:PUMPUSDT",
-      "symbol": "PUMPUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793696656986,
-      "price": 0.003978,
-      "level": 0.003965,
-      "invalid": 0.0039020292406785444,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003965,
-        "base_invalid": 0.0039020292406785444,
-        "atr": 2.6471728809706115e-05,
-        "rvol": 2.5370503646214613,
-        "close_position": 0.8666666666666679,
-        "breakout": false,
-        "bar_close_ms": 1793696400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4826009652019181,
-        "score": 3.9037170312881293
-      },
-      "context": {
-        "atr": 2.6471728809706115e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.7327701743444104,
-        "btc_hour_pct": -0.2501692091424923,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PUMPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PUMPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1569077,6 +1568864,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793694862936
+    },
+    {
+      "id": "1168a97913a3ec51b64700a3",
+      "asset_id": "9f32a2ea4fb77b4a8cc9cf93",
+      "key": "MEXC:SPOT:COREUSDT",
+      "symbol": "COREUSDT",
+      "phase": "expired",
+      "observed_ms": 1793696651739,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793696667320
+    },
+    {
+      "id": "672e78bea3f194bab8d19482",
+      "asset_id": "a50fe167cb349a15f6369a33",
+      "key": "MEXC:PERP:ORDIUSDT",
+      "symbol": "ORDIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793696656071,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793696667320
+    },
+    {
+      "id": "261f2609e5110777985c236d",
+      "asset_id": "b4e7b8e952f8b24bb6c2474c",
+      "key": "OKX:PERP:KATUSDT",
+      "symbol": "KATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793696653440,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793696667321
+    },
+    {
+      "id": "5ea4f2ff9faa42d421104829",
+      "asset_id": "7cd7845a5f679a2451709c5e",
+      "key": "OKX:SPOT:PUMPUSDT",
+      "symbol": "PUMPUSDT",
+      "phase": "radar",
+      "observed_ms": 1793696656986,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793696667321
     }
   ],
   "runs": [
@@ -1679319,7 +1679150,8 @@
         "entry_seq": 0,
         "cohort": "ORDIUSDT",
         "observation_lag_ms": 256071,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11249
       },
       "b4e7b8e952f8b24bb6c2474c:radar": {
         "symbol": "KATUSDT",
@@ -1679341,7 +1679173,8 @@
         "entry_seq": 0,
         "cohort": "KATUSDT",
         "observation_lag_ms": 253440,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13881
       },
       "7cd7845a5f679a2451709c5e:radar": {
         "symbol": "PUMPUSDT",
@@ -1679363,7 +1679196,8 @@
         "entry_seq": 0,
         "cohort": "PUMPUSDT",
         "observation_lag_ms": 256986,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10335
       }
     },
     "errors": [],
@@ -1705394,8 +1705228,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e8e5407740a69e871ef1b23c20fe407e519376de",
-    "previous_success_ms": 1793696378176,
+    "previous_commit": "cf646b08ceef7a5cee59fac1ab9dbfcc8ed6ae6d",
+    "previous_success_ms": 1793696665891,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
