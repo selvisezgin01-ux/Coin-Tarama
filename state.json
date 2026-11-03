@@ -1543861,58 +1543861,7 @@
       "source_close_ms": 1793682900000
     }
   },
-  "pending": [
-    {
-      "id": "558e2e4acb8f784b0354ade6",
-      "asset_id": "e74e63e4d8f43a7f6b3befb3",
-      "key": "OKX:PERP:NESUSDT",
-      "symbol": "NESUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793683535448,
-      "price": 0.12355,
-      "level": 0.1274,
-      "invalid": 0.12596290879770447,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1274,
-        "base_invalid": 0.12596290879770447,
-        "atr": 0.0009139413486368826,
-        "rvol": 11.221740272538883,
-        "close_position": 0.6666666666666641,
-        "breakout": true,
-        "bar_close_ms": 1793674800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1327014218009532,
-        "score": 7.666666666666664
-      },
-      "context": {
-        "atr": 0.001002211864297521,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.2331343474055734,
-        "btc_hour_pct": 0.00910167743914947,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:NESUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793674800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NESUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1556057,6 +1556006,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793683251218
+    },
+    {
+      "id": "558e2e4acb8f784b0354ade6",
+      "asset_id": "e74e63e4d8f43a7f6b3befb3",
+      "key": "OKX:PERP:NESUSDT",
+      "symbol": "NESUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793683535448,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793683547054
     }
   ],
   "runs": [
@@ -1689136,8 +1689096,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5d06ddb3ac40d12b1416887e233cb5df0918e9cc",
-    "previous_success_ms": 1793683270995,
+    "previous_commit": "30d4bf47c314ac63e2a7306d382f375c559ba2d5",
+    "previous_success_ms": 1793683546001,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
