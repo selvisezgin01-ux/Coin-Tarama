@@ -1543217,60 +1543217,7 @@
       "source_close_ms": 1793680200000
     }
   },
-  "pending": [
-    {
-      "id": "ea693bb83b9a96eba5ae3815",
-      "asset_id": "6880a974d5b91268df352bd8",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793682044971,
-      "price": 0.079595,
-      "level": 0.07959,
-      "invalid": 0.07856885094887701,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07959,
-        "base_invalid": 0.07856885094887701,
-        "atr": 0.00040766034081993966,
-        "rvol": 7.113011963241219,
-        "close_position": 0.6271186440678002,
-        "breakout": true,
-        "bar_close_ms": 1793678400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4100609756097615,
-        "score": 7.6271186440678
-      },
-      "context": {
-        "atr": 0.00038349517340912606,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.4246407824128662,
-        "btc_hour_pct": 0.02378897231640753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793678400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1555338,6 +1555285,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793681153937
+    },
+    {
+      "id": "ea693bb83b9a96eba5ae3815",
+      "asset_id": "6880a974d5b91268df352bd8",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793682044971,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793682056275
     }
   ],
   "runs": [
@@ -1688003,8 +1687961,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cd93f6f9a7a8dc2b8919419588bca3ce4e2472c8",
-    "previous_success_ms": 1793681770162,
+    "previous_commit": "426762f8e402e8258556511cc54885984a8cf8ac",
+    "previous_success_ms": 1793682055072,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
