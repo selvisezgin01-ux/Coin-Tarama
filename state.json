@@ -1644310,266 +1644310,7 @@
       "source_close_ms": 1793740500000
     }
   },
-  "pending": [
-    {
-      "id": "44613d5961a317a6ad7caf41",
-      "asset_id": "b18817bace39f1af820103b5",
-      "key": "MEXC:SPOT:PYTHUSDT",
-      "symbol": "PYTHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793740617600,
-      "price": 0.06509999999999999,
-      "level": 0.06538,
-      "invalid": 0.06390147846111552,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06538,
-        "base_invalid": 0.06390147846111552,
-        "atr": 0.0005901435925632488,
-        "rvol": 2.1568823573144114,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.814951545916,
-        "score": 4.156882357314411
-      },
-      "context": {
-        "atr": 0.0005514677858195658,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.0223776677988572,
-        "btc_hour_pct": 0.33786291270301305,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PYTHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PYTHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "75c79dbcc8bd10eb19b87229",
-      "asset_id": "887afdb204645240c9481d84",
-      "key": "OKX:SPOT:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793740617505,
-      "price": 22.79,
-      "level": 22.53,
-      "invalid": 21.921829828366665,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 22.53,
-        "base_invalid": 21.921829828366665,
-        "atr": 0.18780114422222574,
-        "rvol": 5.065888713245767,
-        "close_position": 0.8823529411764742,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5246636771300448,
-        "score": 6.948241654422241
-      },
-      "context": {
-        "atr": 0.17996917639530358,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.28136881072573505,
-        "btc_hour_pct": 0.3254605214841222,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "194bd53982cec3f693845461",
-      "asset_id": "abe91ac1742c60a1731e037c",
-      "key": "MEXC:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793740617232,
-      "price": 22.786,
-      "level": 22.474,
-      "invalid": 21.92312820546799,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 22.474,
-        "base_invalid": 21.92312820546799,
-        "atr": 0.18581196354674304,
-        "rvol": 3.2874594226575744,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5803888115655695,
-        "score": 5.287459422657575
-      },
-      "context": {
-        "atr": 0.18171458563114593,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.005314756100438522,
-        "btc_hour_pct": 0.3175797945011105,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:VVVUSDT",
-          "change_pct": -5.5632534294028035,
-          "old_ms": 1793737061211,
-          "current_ms": 1793740615123,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.002,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d72d52547184880d59404d92",
-      "asset_id": "ca6e48df09a6e745008b2a48",
-      "key": "OKX:PERP:SHELLUSDT",
-      "symbol": "SHELLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793740616517,
-      "price": 0.023465,
-      "level": 0.02324,
-      "invalid": 0.022939862664168663,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02324,
-        "base_invalid": 0.022939862664168663,
-        "atr": 0.00013424890554224834,
-        "rvol": 2.3595954613563754,
-        "close_position": 0.9166666666666703,
-        "breakout": true,
-        "bar_close_ms": 1793735100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1668107173725017,
-        "score": 4.2762621280230455
-      },
-      "context": {
-        "atr": 0.00012679254025575994,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.1514414110911355,
-        "btc_hour_pct": 0.32260101742405123,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SHELLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793735100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SHELLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "89796e05949d98d9e593533a",
-      "asset_id": "7487d240b14604f3412eb4d1",
-      "key": "OKX:PERP:CHIPUSDT",
-      "symbol": "CHIPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793740616517,
-      "price": 0.041055,
-      "level": 0.04104,
-      "invalid": 0.04007388638404288,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04104,
-        "base_invalid": 0.04007388638404288,
-        "atr": 0.00037409077304747124,
-        "rvol": 2.1704990649165685,
-        "close_position": 0.953125000000007,
-        "breakout": true,
-        "bar_close_ms": 1793738700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.1631029338637475,
-        "score": 4.123624064916576
-      },
-      "context": {
-        "atr": 0.0003634832417808817,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9137985869280829,
-        "btc_hour_pct": 0.32260101742405123,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CHIPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CHIPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1658914,6 +1658655,61 @@
       "entry_seq": 1,
       "entry_route": "retest",
       "delivered_ms": 1793740322783
+    },
+    {
+      "id": "44613d5961a317a6ad7caf41",
+      "asset_id": "b18817bace39f1af820103b5",
+      "key": "MEXC:SPOT:PYTHUSDT",
+      "symbol": "PYTHUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793740617600,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793740628604
+    },
+    {
+      "id": "75c79dbcc8bd10eb19b87229",
+      "asset_id": "887afdb204645240c9481d84",
+      "key": "OKX:SPOT:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "expired",
+      "observed_ms": 1793740617505,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793740628604
+    },
+    {
+      "id": "194bd53982cec3f693845461",
+      "asset_id": "abe91ac1742c60a1731e037c",
+      "key": "MEXC:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "expired",
+      "observed_ms": 1793740617232,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793740628604
+    },
+    {
+      "id": "d72d52547184880d59404d92",
+      "asset_id": "ca6e48df09a6e745008b2a48",
+      "key": "OKX:PERP:SHELLUSDT",
+      "symbol": "SHELLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793740616517,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793740628604
+    },
+    {
+      "id": "89796e05949d98d9e593533a",
+      "asset_id": "7487d240b14604f3412eb4d1",
+      "key": "OKX:PERP:CHIPUSDT",
+      "symbol": "CHIPUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793740616517,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793740628604
     }
   ],
   "runs": [
@@ -1805908,8 +1805704,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b399b846edba887a7da241389525bda1dbb0676f",
-    "previous_success_ms": 1793740345089,
+    "previous_commit": "75d7268d096e71a6f73096461f65564b40211976",
+    "previous_success_ms": 1793740627459,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
