@@ -1690371,7 +1690371,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793713930265,
+      "duration_ms": 33199
     }
   ],
   "radar_admissions": [
@@ -1760518,14 +1760520,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793713173722,
+            "endpoint_ms": 1793713200000,
+            "endpoint_price": 1.8749,
+            "return_pct": 2.8187551412119483,
+            "btc_excess_pct_points": 2.533656760065739,
+            "mae_pct": -0.5867836578009378,
+            "mfe_pct": 3.2355360570331726,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 26278,
+            "measured_ms": 1793713929260,
+            "cost_scenarios_pct": {
+              "0.2": 2.618755141211948,
+              "0.5": 2.3187551412119483,
+              "1": 1.8187551412119483
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793709000000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 573722,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 18635
+        "notification_lag_ms": 18635,
+        "last_measure_attempt_ms": 1793713929260
       },
       "b6213ba865f57b01a73bd479:radar": {
         "symbol": "ZROUSDT",
@@ -1760541,14 +1760567,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793713171520,
+            "endpoint_ms": 1793713200000,
+            "endpoint_price": 1.875,
+            "return_pct": 2.8580832739042217,
+            "btc_excess_pct_points": 2.626356749931169,
+            "mae_pct": -0.5046903285972792,
+            "mfe_pct": 3.4066597180317126,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 28480,
+            "measured_ms": 1793713929260,
+            "cost_scenarios_pct": {
+              "0.2": 2.6580832739042215,
+              "0.5": 2.3580832739042217,
+              "1": 1.8580832739042217
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793709000000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "ZROUSDT",
         "observation_lag_ms": 571520,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 20837
+        "notification_lag_ms": 20837,
+        "last_measure_attempt_ms": 1793713929260
       },
       "d721888c3628ab82a1d5610b:radar": {
         "symbol": "ZROUSDT",
@@ -1760805,9 +1760855,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 114,
+      "due": 113,
       "attempted": 2,
-      "observed_ms": 1793713638514,
+      "observed_ms": 1793713929260,
       "unique_reads": 4
     },
     "summary": {
@@ -1786827,8 +1786877,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ce794e04ab3d31b47e8b4a47871536046584344d",
-    "previous_success_ms": 1793713917901,
+    "previous_commit": "2594ecbc18d5564c838d1ffd2cf8dcdc6731f4f4",
+    "previous_success_ms": 1793713929214,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
