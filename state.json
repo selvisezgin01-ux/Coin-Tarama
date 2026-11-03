@@ -1644010,168 +1644010,7 @@
       "source_close_ms": 1793730600000
     }
   },
-  "pending": [
-    {
-      "id": "711d174f3909cebcf1d0d81a",
-      "asset_id": "e2cafe177a334c51a23f40c8",
-      "key": "MEXC:SPOT:0GUSDT",
-      "symbol": "0GUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793730822737,
-      "price": 0.15565,
-      "level": 0.1535,
-      "invalid": 0.15001840743929867,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1535,
-        "base_invalid": 0.15001840743929867,
-        "atr": 0.001210617071342199,
-        "rvol": 12.417632268225292,
-        "close_position": 0.9375000000000066,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1162179908076109,
-        "score": 7.937500000000006
-      },
-      "context": {
-        "atr": 0.0012538186392353078,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.44911911278334715,
-        "btc_hour_pct": -0.12444378810801959,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:0GUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "0GUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d48c5f7d960288f323ff1b3f",
-      "asset_id": "4c2322a0cf885613d9639df9",
-      "key": "MEXC:PERP:0GUSDT",
-      "symbol": "0GUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793730824081,
-      "price": 0.15575,
-      "level": 0.1536,
-      "invalid": 0.15012089701222195,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1536,
-        "base_invalid": 0.15012089701222195,
-        "atr": 0.0011940199185202472,
-        "rvol": 8.174021848426767,
-        "close_position": 0.7857142857142871,
-        "breakout": true,
-        "bar_close_ms": 1793725200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1184210526315796,
-        "score": 7.785714285714287
-      },
-      "context": {
-        "atr": 0.001277291710120804,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6976344732721351,
-        "btc_hour_pct": -0.11207819480760772,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:0GUSDT",
-          "change_pct": -0.04267916615270373,
-          "old_ms": 1793727205583,
-          "current_ms": 1793730820642,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793725200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "0GUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "fde57c6a7a424bc65f9ffbb0",
-      "asset_id": "093c6d39a26777cd7b7e4ae4",
-      "key": "MEXC:SPOT:MEYUSDT",
-      "symbol": "MEYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793730822737,
-      "price": 0.0403,
-      "level": 0.04049,
-      "invalid": 0.03998052253564077,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04049,
-        "base_invalid": 0.03998052253564077,
-        "atr": 0.0003298497623948914,
-        "rvol": 5.63145023353217,
-        "close_position": 0.8985507246376797,
-        "breakout": true,
-        "bar_close_ms": 1793728800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3372956909361022,
-        "score": 7.5300009581698495
-      },
-      "context": {
-        "atr": 0.00039672463313041956,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4617394790441218,
-        "btc_hour_pct": -0.12444378810801959,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MEYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793728800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1658076,6 +1657915,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793729955768
+    },
+    {
+      "id": "711d174f3909cebcf1d0d81a",
+      "asset_id": "e2cafe177a334c51a23f40c8",
+      "key": "MEXC:SPOT:0GUSDT",
+      "symbol": "0GUSDT",
+      "phase": "expired",
+      "observed_ms": 1793730822737,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793730837287
+    },
+    {
+      "id": "d48c5f7d960288f323ff1b3f",
+      "asset_id": "4c2322a0cf885613d9639df9",
+      "key": "MEXC:PERP:0GUSDT",
+      "symbol": "0GUSDT",
+      "phase": "expired",
+      "observed_ms": 1793730824081,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793730837287
+    },
+    {
+      "id": "fde57c6a7a424bc65f9ffbb0",
+      "asset_id": "093c6d39a26777cd7b7e4ae4",
+      "key": "MEXC:SPOT:MEYUSDT",
+      "symbol": "MEYUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793730822737,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793730837287
     }
   ],
   "runs": [
@@ -1802768,8 +1802640,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "09239e37cd1b3257a2a6c20822bd2c518f4cfc5f",
-    "previous_success_ms": 1793730617398,
+    "previous_commit": "5efe1aaa78493775a2210cfbdbc482e4c55272d2",
+    "previous_success_ms": 1793730836000,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
