@@ -1555610,58 +1555610,7 @@
       "source_close_ms": 1793690100000
     }
   },
-  "pending": [
-    {
-      "id": "9063d2acd21528df6851c6eb",
-      "asset_id": "0d3be38c11c64deff14277dc",
-      "key": "OKX:SPOT:WINUSDT",
-      "symbol": "WINUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793692152066,
-      "price": 6.8425e-05,
-      "level": 6.838e-05,
-      "invalid": 6.7407097470564e-05,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 6.838e-05,
-        "base_invalid": 6.7407097470564e-05,
-        "atr": 2.193501962400932e-07,
-        "rvol": 2.718371997951406,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793691900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8091805208179981,
-        "score": 4.718371997951406
-      },
-      "context": {
-        "atr": 2.193501962400932e-07,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.7226109959811322,
-        "btc_hour_pct": -0.08857973676555941,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WINUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793691900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WINUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1568059,6 +1568008,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793691858321
+    },
+    {
+      "id": "9063d2acd21528df6851c6eb",
+      "asset_id": "0d3be38c11c64deff14277dc",
+      "key": "OKX:SPOT:WINUSDT",
+      "symbol": "WINUSDT",
+      "phase": "radar",
+      "observed_ms": 1793692152066,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793692165435
     }
   ],
   "runs": [
@@ -1677311,7 +1677271,8 @@
         "entry_seq": 0,
         "cohort": "WINUSDT",
         "observation_lag_ms": 252066,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13369
       }
     },
     "errors": [],
@@ -1703335,8 +1703296,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b980369214dabfa81fa62d225e46b66dce9ed4cc",
-    "previous_success_ms": 1793691877772,
+    "previous_commit": "48fc54fc78e910eefcb83e0f527e84be38a7ae8e",
+    "previous_success_ms": 1793692164457,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
