@@ -1632583,344 +1632583,7 @@
       "source_close_ms": 1793714400000
     }
   },
-  "pending": [
-    {
-      "id": "d1bacf610fe6bb928673afe3",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_continuing",
-      "observed_ms": 1793714512192,
-      "price": 0.00024,
-      "level": 0.000235,
-      "invalid": 0.00023516173503133312,
-      "target": 0.0002463420299373338,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.4816528940094732e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6993739056220472,
-        "btc_hour_pct": -0.027951329037900763,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.00023516173503133312,
-        "target": 0.0002463420299373338,
-        "risk_pct": 1.0678439077269202,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.000256,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.0002371,
-        "entry_zone_high": 0.00023789606935336162
-      },
-      "reason": null,
-      "source_close_ms": 1793714400000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "OMIUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793714400000,
-        "closed_price": 0.0002399,
-        "ema20_1h": 0.0002363830308172221,
-        "atr14_1h": 3.17854114717406e-06,
-        "structure_floor": 0.00023516173503133312,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "4703c0438e39154350c582d5",
-      "asset_id": "ec3c52b5c5fd9a0373cb2e49",
-      "key": "MEXC:PERP:HUMAUSDT",
-      "symbol": "HUMAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793714514431,
-      "price": 0.02146,
-      "level": 0.021,
-      "invalid": 0.018660442623125186,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.021,
-        "base_invalid": 0.018660442623125186,
-        "atr": 0.00046371584583210045,
-        "rvol": 2.0121542864778448,
-        "close_position": 0.9166666666666698,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.039408866995076,
-        "score": 3.9288209531445144
-      },
-      "context": {
-        "atr": 0.00047783326364228947,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 5.252453521725931,
-        "btc_hour_pct": -0.040568475452185115,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HUMAUSDT",
-          "change_pct": -4.789038429437575,
-          "old_ms": 1793710896154,
-          "current_ms": 1793714511223,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HUMAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6ddb9df18855d3f5e47080b1",
-      "asset_id": "06ce63e05084cecb1ba8c74e",
-      "key": "OKX:SPOT:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793714516368,
-      "price": 4.82495e-06,
-      "level": 4.8962e-06,
-      "invalid": 4.763170687401536e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.8962e-06,
-        "base_invalid": 4.763170687401536e-06,
-        "atr": 3.95287506564275e-08,
-        "rvol": 4.423606140611289,
-        "close_position": 0.90212765957447,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7458216117822278,
-        "score": 6.325733800185759
-      },
-      "context": {
-        "atr": 4.9203108854168983e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8081218865328532,
-        "btc_hour_pct": -0.044429634566267584,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "acddd0c9001b0e4dfafc07a2",
-      "asset_id": "fd4b058dc173f11af74e8f24",
-      "key": "MEXC:SPOT:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793714512192,
-      "price": 4.825e-06,
-      "level": 4.9e-06,
-      "invalid": 4.763273602194134e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.9e-06,
-        "base_invalid": 4.763273602194134e-06,
-        "atr": 3.8175985372439794e-08,
-        "rvol": 3.2605388123047625,
-        "close_position": 0.9417475728155299,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.8196856906534276,
-        "score": 5.202286385120292
-      },
-      "context": {
-        "atr": 4.8917315567540693e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6676296856920505,
-        "btc_hour_pct": -0.027951329037900763,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:PEPEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ac363bf2d4c7433ee9f0cf96",
-      "asset_id": "2db363ea8ea8f2f680f71f47",
-      "key": "MEXC:PERP:PEPEUSDT",
-      "symbol": "PEPEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793714514431,
-      "price": 4.8275e-06,
-      "level": 4.9011e-06,
-      "invalid": 4.768368025797833e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.9011e-06,
-        "base_invalid": 4.768368025797833e-06,
-        "atr": 3.8879828014443447e-08,
-        "rvol": 2.2288856124856635,
-        "close_position": 0.8411122144985065,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.796271032287411,
-        "score": 4.06999782698417
-      },
-      "context": {
-        "atr": 4.845272532130946e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8078767231657791,
-        "btc_hour_pct": -0.040568475452185115,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:PEPEUSDT",
-          "change_pct": -3.432606959614437,
-          "old_ms": 1793710896020,
-          "current_ms": 1793714511078,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEPEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d3a6c52cdea01e2dcee3e1fe",
-      "asset_id": "bb1498af2afbd230324467c3",
-      "key": "OKX:SPOT:BARDUSDT",
-      "symbol": "BARDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793714516368,
-      "price": 0.11145,
-      "level": 0.1114,
-      "invalid": 0.11002036205581135,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1114,
-        "base_invalid": 0.11002036205581135,
-        "atr": 0.0005309196279243505,
-        "rvol": 5.745676382422337,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793712600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.3593890386343279,
-        "score": 7.745676382422337
-      },
-      "context": {
-        "atr": 0.0005321161922493429,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.40446563816661785,
-        "btc_hour_pct": -0.044429634566267584,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BARDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BARDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1646187,6 +1645850,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793713626949
+    },
+    {
+      "id": "d1bacf610fe6bb928673afe3",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "trend_continuing",
+      "observed_ms": 1793714512192,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793714529429
+    },
+    {
+      "id": "6ddb9df18855d3f5e47080b1",
+      "asset_id": "06ce63e05084cecb1ba8c74e",
+      "key": "OKX:SPOT:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793714516368,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793714529429
+    },
+    {
+      "id": "acddd0c9001b0e4dfafc07a2",
+      "asset_id": "fd4b058dc173f11af74e8f24",
+      "key": "MEXC:SPOT:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793714512192,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793714529429
+    },
+    {
+      "id": "ac363bf2d4c7433ee9f0cf96",
+      "asset_id": "2db363ea8ea8f2f680f71f47",
+      "key": "MEXC:PERP:PEPEUSDT",
+      "symbol": "PEPEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793714514431,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793714529429
+    },
+    {
+      "id": "d3a6c52cdea01e2dcee3e1fe",
+      "asset_id": "bb1498af2afbd230324467c3",
+      "key": "OKX:SPOT:BARDUSDT",
+      "symbol": "BARDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793714516368,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793714529430
     }
   ],
   "runs": [
@@ -1786850,8 +1786568,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f1d4781f862517647b3221284f0bfb2a3f668ed7",
-    "previous_success_ms": 1793714239396,
+    "previous_commit": "5fac49c8e01101c33f6e1fb06d1a0c9d428271c4",
+    "previous_success_ms": 1793714527864,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
