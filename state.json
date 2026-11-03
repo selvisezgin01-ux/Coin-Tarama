@@ -1621987,112 +1621987,7 @@
       "source_close_ms": 1793710800000
     }
   },
-  "pending": [
-    {
-      "id": "bcf253613776279b5ff7b8e8",
-      "asset_id": "c58e2e789f7e27ef6de71562",
-      "key": "MEXC:SPOT:BCHUSDT",
-      "symbol": "BCHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793710915820,
-      "price": 276.95,
-      "level": 276.0,
-      "invalid": 273.83604894671,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 276.0,
-        "base_invalid": 273.83604894671,
-        "atr": 1.0930070219335506,
-        "rvol": 2.7139715680103325,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793691000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.18155410312272746,
-        "score": 4.213971568010333
-      },
-      "context": {
-        "atr": 1.0390566033844277,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.12453971661690044,
-        "btc_hour_pct": 0.41408007130383506,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BCHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793691000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BCHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "af6275dc317dd2f16ddad3db",
-      "asset_id": "727f32b782c9616d3c6c7610",
-      "key": "MEXC:SPOT:SHIBUSDT",
-      "symbol": "SHIBUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793710915820,
-      "price": 4.6244999999999995e-06,
-      "level": 4.582e-06,
-      "invalid": 4.552873760837795e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.582e-06,
-        "base_invalid": 4.552873760837795e-06,
-        "atr": 1.417492774802851e-08,
-        "rvol": 5.232545010479335,
-        "close_position": 0.8888888888888784,
-        "breakout": true,
-        "bar_close_ms": 1793704500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6574621959237303,
-        "score": 7.121433899368213
-      },
-      "context": {
-        "atr": 1.4751194162149722e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.43577828563670096,
-        "btc_hour_pct": 0.41408007130383506,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:SHIBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793704500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SHIBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1635205,6 +1635100,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793710186646
+    },
+    {
+      "id": "bcf253613776279b5ff7b8e8",
+      "asset_id": "c58e2e789f7e27ef6de71562",
+      "key": "MEXC:SPOT:BCHUSDT",
+      "symbol": "BCHUSDT",
+      "phase": "expired",
+      "observed_ms": 1793710915820,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793710928500
+    },
+    {
+      "id": "af6275dc317dd2f16ddad3db",
+      "asset_id": "727f32b782c9616d3c6c7610",
+      "key": "MEXC:SPOT:SHIBUSDT",
+      "symbol": "SHIBUSDT",
+      "phase": "expired",
+      "observed_ms": 1793710915820,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793710928500
     }
   ],
   "runs": [
@@ -1774902,8 +1774819,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "38aa4cd932d8944425874fddadfec69994fe1cca",
-    "previous_success_ms": 1793710897020,
+    "previous_commit": "f30dfcd841b33c464ec551d8e0f0cdd91e643d25",
+    "previous_success_ms": 1793710927096,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
