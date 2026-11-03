@@ -1528131,274 +1528131,7 @@
       "source_close_ms": 1793674800000
     }
   },
-  "pending": [
-    {
-      "id": "fbb564b1ee2f5b77f0bd0f4d",
-      "asset_id": "302a5a7f073a528ef85b26cd",
-      "key": "OKX:SPOT:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793674939054,
-      "price": 21.439999999999998,
-      "level": 21.42,
-      "invalid": 21.200028983336363,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 21.42,
-        "base_invalid": 21.200028983336363,
-        "atr": 0.133140111090898,
-        "rvol": 3.7553567169780653,
-        "close_position": 0.9000000000000018,
-        "breakout": true,
-        "bar_close_ms": 1793665800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5984955336154183,
-        "score": 5.655356716978067
-      },
-      "context": {
-        "atr": 0.1361860184253519,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6706249137660047,
-        "btc_hour_pct": -0.5314092979769369,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793665800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5251025d2dc6b23595beecf8",
-      "asset_id": "7a9f18701326aa6263f0a90d",
-      "key": "OKX:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793674937331,
-      "price": 21.4225,
-      "level": 21.423,
-      "invalid": 21.19167496932116,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 21.423,
-        "base_invalid": 21.19167496932116,
-        "atr": 0.14883353785893533,
-        "rvol": 3.8551149029324985,
-        "close_position": 0.7596899224806286,
-        "breakout": true,
-        "bar_close_ms": 1793665800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3087531663382945,
-        "score": 5.6148048254131275
-      },
-      "context": {
-        "atr": 0.1567810470597594,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6654454602755044,
-        "btc_hour_pct": -0.5183148282660643,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793665800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3827bba46ed4f2f6f3aa16fa",
-      "asset_id": "f62a26242156ee5b3eddbb92",
-      "key": "MEXC:PERP:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793674941485,
-      "price": 0.040665,
-      "level": 0.04093,
-      "invalid": 0.040363519838290375,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04093,
-        "base_invalid": 0.040363519838290375,
-        "atr": 0.00024320107806413924,
-        "rvol": 2.33136280958418,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793672100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.814211695040723,
-        "score": 3.83136280958418
-      },
-      "context": {
-        "atr": 0.0002762990346659416,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8245433179260186,
-        "btc_hour_pct": -0.5286853297603256,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NIGHTUSDT",
-          "change_pct": -4.189721390443957,
-          "old_ms": 1793671323319,
-          "current_ms": 1793674938206,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0068,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793672100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f7247811077c1729b6c00696",
-      "asset_id": "ea011c61f6c2495b440d94e5",
-      "key": "MEXC:PERP:GMXUSDT",
-      "symbol": "GMXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793674941485,
-      "price": 8.231,
-      "level": 8.236,
-      "invalid": 8.120998774393165,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.236,
-        "base_invalid": 8.120998774393165,
-        "atr": 0.04667483737889712,
-        "rvol": 4.042831155713752,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793673000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4621184482548779,
-        "score": 6.042831155713752
-      },
-      "context": {
-        "atr": 0.046819731491328086,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8209049815319225,
-        "btc_hour_pct": -0.5286853297603256,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GMXUSDT",
-          "change_pct": 1.3675722635299037,
-          "old_ms": 1793671323678,
-          "current_ms": 1793674938576,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793673000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7d8060289618388e0854f041",
-      "asset_id": "9f32a2ea4fb77b4a8cc9cf93",
-      "key": "MEXC:SPOT:COREUSDT",
-      "symbol": "COREUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793674937817,
-      "price": 0.01219,
-      "level": 0.0123,
-      "invalid": 0.012058174964955103,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0123,
-        "base_invalid": 0.012058174964955103,
-        "atr": 0.00014550023363264962,
-        "rvol": 2.643707415653789,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793674800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5751848808545512,
-        "score": 4.14370741565379
-      },
-      "context": {
-        "atr": 0.00014550023363264962,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1056989373439796,
-        "btc_hour_pct": -0.5305140564894284,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:COREUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793674800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COREUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1540202,6 +1539935,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793674049648
+    },
+    {
+      "id": "fbb564b1ee2f5b77f0bd0f4d",
+      "asset_id": "302a5a7f073a528ef85b26cd",
+      "key": "OKX:SPOT:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793674939054,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793674951998
+    },
+    {
+      "id": "5251025d2dc6b23595beecf8",
+      "asset_id": "7a9f18701326aa6263f0a90d",
+      "key": "OKX:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793674937331,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793674951999
+    },
+    {
+      "id": "3827bba46ed4f2f6f3aa16fa",
+      "asset_id": "f62a26242156ee5b3eddbb92",
+      "key": "MEXC:PERP:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793674941485,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793674951999
+    },
+    {
+      "id": "f7247811077c1729b6c00696",
+      "asset_id": "ea011c61f6c2495b440d94e5",
+      "key": "MEXC:PERP:GMXUSDT",
+      "symbol": "GMXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793674941485,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793674951999
+    },
+    {
+      "id": "7d8060289618388e0854f041",
+      "asset_id": "9f32a2ea4fb77b4a8cc9cf93",
+      "key": "MEXC:SPOT:COREUSDT",
+      "symbol": "COREUSDT",
+      "phase": "radar",
+      "observed_ms": 1793674937817,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793674951999
     }
   ],
   "runs": [
@@ -1645089,7 +1644877,8 @@
         "entry_seq": 0,
         "cohort": "COREUSDT",
         "observation_lag_ms": 137817,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14182
       }
     },
     "errors": [],
@@ -1671112,8 +1670901,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "007977581bd2c69603a240da973b6620127e5928",
-    "previous_success_ms": 1793674663438,
+    "previous_commit": "ea3d0e378635b3c8ba7fdaf988321c913b974713",
+    "previous_success_ms": 1793674950703,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
