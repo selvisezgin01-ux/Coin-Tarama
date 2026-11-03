@@ -1632647,116 +1632647,7 @@
       "source_close_ms": 1793715300000
     }
   },
-  "pending": [
-    {
-      "id": "c7d22f0e382a2f29335e8ae2",
-      "asset_id": "9e541dd6d495092ab6a8fb1c",
-      "key": "OKX:PERP:MEMEUSDT",
-      "symbol": "MEMEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793716311514,
-      "price": 0.0004346,
-      "level": 0.0004349,
-      "invalid": 0.00042685625719233306,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0004349,
-        "base_invalid": 0.00042685625719233306,
-        "atr": 2.291618717779387e-06,
-        "rvol": 8.795476775485671,
-        "close_position": 0.9333333333333309,
-        "breakout": false,
-        "bar_close_ms": 1793716200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.48633626679017716,
-        "score": 7.433333333333331
-      },
-      "context": {
-        "atr": 2.291618717779387e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.057383523505971645,
-        "btc_hour_pct": -0.03527341418222418,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MEMEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793716200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "63d850877dc4f754123699f5",
-      "asset_id": "9f2080f683c3e058b0b8c13e",
-      "key": "MEXC:PERP:MEMEUSDT",
-      "symbol": "MEMEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793716310431,
-      "price": 0.00043455,
-      "level": 0.0004348,
-      "invalid": 0.0004268610892376338,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0004348,
-        "base_invalid": 0.0004268610892376338,
-        "atr": 2.259405082441234e-06,
-        "rvol": 2.2299532415057186,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793716200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5092592592592649,
-        "score": 3.7299532415057186
-      },
-      "context": {
-        "atr": 2.259405082441234e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.144616709732992,
-        "btc_hour_pct": -0.040568475452185115,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MEMEUSDT",
-          "change_pct": -1.2037810292375717,
-          "old_ms": 1793712692493,
-          "current_ms": 1793716309466,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793716200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEMEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1646100,6 +1645991,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793715719291
+    },
+    {
+      "id": "c7d22f0e382a2f29335e8ae2",
+      "asset_id": "9e541dd6d495092ab6a8fb1c",
+      "key": "OKX:PERP:MEMEUSDT",
+      "symbol": "MEMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793716311514,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793716324839
+    },
+    {
+      "id": "63d850877dc4f754123699f5",
+      "asset_id": "9f2080f683c3e058b0b8c13e",
+      "key": "MEXC:PERP:MEMEUSDT",
+      "symbol": "MEMEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793716310431,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793716324839
     }
   ],
   "runs": [
@@ -1761194,7 +1761107,8 @@
         "entry_seq": 0,
         "cohort": "MEMEUSDT",
         "observation_lag_ms": 111514,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13325
       },
       "9f2080f683c3e058b0b8c13e:radar": {
         "symbol": "MEMEUSDT",
@@ -1761216,7 +1761130,8 @@
         "entry_seq": 0,
         "cohort": "MEMEUSDT",
         "observation_lag_ms": 110431,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14408
       }
     },
     "errors": [],
@@ -1787247,8 +1787162,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e171f780eae18003f745c15e6b5cd816c3a0c0e3",
-    "previous_success_ms": 1793716039918,
+    "previous_commit": "567b8f599457f36653a9d6d02132874eaf69679d",
+    "previous_success_ms": 1793716323473,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
