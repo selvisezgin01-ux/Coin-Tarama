@@ -1581761,112 +1581761,7 @@
       "source_close_ms": 1793705400000
     }
   },
-  "pending": [
-    {
-      "id": "5ea8951cd9a6f9e50df7377f",
-      "asset_id": "79ac66f5ed6673d45414184d",
-      "key": "OKX:SPOT:WUSDT",
-      "symbol": "WUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793708068237,
-      "price": 0.010998500000000001,
-      "level": 0.01091,
-      "invalid": 0.010791445512952798,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01091,
-        "base_invalid": 0.010791445512952798,
-        "atr": 5.036324698133851e-05,
-        "rvol": 6.171779084725131,
-        "close_position": 0.8545454545454497,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2814603116068746,
-        "score": 7.85454545454545
-      },
-      "context": {
-        "atr": 5.036324698133851e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.3155589851295835,
-        "btc_hour_pct": -0.0340986735227089,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793707200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0a3bcc42da4cfacc4b39c110",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793708065196,
-      "price": 0.0002367,
-      "level": 0.000235,
-      "invalid": 0.0002312617350313331,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.588433124445957e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1897139950100555,
-        "btc_hour_pct": -0.03389207720184695,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793707200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OMIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1594814,6 +1594709,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793705686210
+    },
+    {
+      "id": "5ea8951cd9a6f9e50df7377f",
+      "asset_id": "79ac66f5ed6673d45414184d",
+      "key": "OKX:SPOT:WUSDT",
+      "symbol": "WUSDT",
+      "phase": "radar",
+      "observed_ms": 1793708068237,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793708080061
+    },
+    {
+      "id": "0a3bcc42da4cfacc4b39c110",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793708065196,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793708080062
     }
   ],
   "runs": [
@@ -1707693,7 +1707610,8 @@
         "entry_seq": 0,
         "cohort": "WUSDT",
         "observation_lag_ms": 868237,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11824
       },
       "0a498704b677c59ba627ce39:radar": {
         "symbol": "OMIUSDT",
@@ -1707715,7 +1707633,8 @@
         "entry_seq": 0,
         "cohort": "OMIUSDT",
         "observation_lag_ms": 865196,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14866
       }
     },
     "errors": [],
@@ -1733745,8 +1733664,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e6b990463423077b1ea2aac3acfd954d60ee3222",
-    "previous_success_ms": 1793707806260,
+    "previous_commit": "9bbfc6c7d2dd22592b1c940070a0f6c2ca5fe5b6",
+    "previous_success_ms": 1793708078561,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
