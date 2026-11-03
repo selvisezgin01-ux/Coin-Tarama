@@ -1643312,58 +1643312,7 @@
       "source_close_ms": 1793734200000
     }
   },
-  "pending": [
-    {
-      "id": "1648148ca674287eb1e2cc10",
-      "asset_id": "2a5ba8922e6def80915153c8",
-      "key": "OKX:SPOT:SEIUSDT",
-      "symbol": "SEIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793734971251,
-      "price": 0.047955,
-      "level": 0.04807,
-      "invalid": 0.0475251125741101,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04807,
-        "base_invalid": 0.0475251125741101,
-        "atr": 0.00023258283926597855,
-        "rvol": 29.409039273673162,
-        "close_position": 0.9600000000000155,
-        "breakout": false,
-        "bar_close_ms": 1793734200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.2507312996238964,
-        "score": 7.460000000000015
-      },
-      "context": {
-        "atr": 0.00023258283926597855,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5980678332498268,
-        "btc_hour_pct": -0.07263697995012475,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SEIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SEIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1657455,6 +1657404,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793734708832
+    },
+    {
+      "id": "1648148ca674287eb1e2cc10",
+      "asset_id": "2a5ba8922e6def80915153c8",
+      "key": "OKX:SPOT:SEIUSDT",
+      "symbol": "SEIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793734971251,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793735004791
     }
   ],
   "runs": [
@@ -1777142,7 +1777102,8 @@
         "entry_seq": 0,
         "cohort": "SEIUSDT",
         "observation_lag_ms": 771251,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 33540
       }
     },
     "errors": [],
@@ -1803171,8 +1803132,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "34a8d05198408e949e80bba18a22386a16f82800",
-    "previous_success_ms": 1793734776255,
+    "previous_commit": "4886a1b8bc526c2def1970144ec332320b0933c3",
+    "previous_success_ms": 1793735003377,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
