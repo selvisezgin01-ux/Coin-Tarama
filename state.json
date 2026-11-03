@@ -1544949,162 +1544949,7 @@
       "source_close_ms": 1793684700000
     }
   },
-  "pending": [
-    {
-      "id": "badf57749b42f23227ab3bdd",
-      "asset_id": "fa455f417fc680ce58f702e9",
-      "key": "OKX:SPOT:CARDSUSDT",
-      "symbol": "CARDSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793684859254,
-      "price": 0.23345,
-      "level": 0.2209,
-      "invalid": 0.2148259612994995,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2209,
-        "base_invalid": 0.2148259612994995,
-        "atr": 0.002493591336670163,
-        "rvol": 7.292001229919239,
-        "close_position": 0.7428571428571427,
-        "breakout": false,
-        "bar_close_ms": 1793662200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7305936073059405,
-        "score": 7.242857142857143
-      },
-      "context": {
-        "atr": 0.0025052368775863696,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.02378897231640753,
-        "btc_hour_pct": 0.02378897231640753,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CARDSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793662200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CARDSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0368f02273c23c04d6148ddd",
-      "asset_id": "b9fdb2ab756c064ae66a571b",
-      "key": "OKX:PERP:ETHWUSDT",
-      "symbol": "ETHWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793684858535,
-      "price": 0.21739999999999998,
-      "level": 0.2159,
-      "invalid": 0.21161651238775248,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2159,
-        "base_invalid": 0.21161651238775248,
-        "atr": 0.0012232507483167638,
-        "rvol": 7.527508968030239,
-        "close_position": 0.6874999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793681100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7840375586854362,
-        "score": 7.687499999999998
-      },
-      "context": {
-        "atr": 0.0012996135295679652,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5315145690594445,
-        "btc_hour_pct": 0.00910167743914947,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ETHWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793681100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ETHWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6eb971c26431c0abe95ec4f0",
-      "asset_id": "e60ffc3ac77af3c6eb5dc827",
-      "key": "OKX:PERP:PIEVERSEUSDT",
-      "symbol": "PIEVERSEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793684858535,
-      "price": 1.2056,
-      "level": 1.1934,
-      "invalid": 1.1428165345546601,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.1934,
-        "base_invalid": 1.1428165345546601,
-        "atr": 0.023889769635600317,
-        "rvol": 2.4033826406563787,
-        "close_position": 0.6700564971751426,
-        "breakout": true,
-        "bar_close_ms": 1793684700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0753546852434033,
-        "score": 4.073439137831521
-      },
-      "context": {
-        "atr": 0.023889769635600317,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.2283041158440255,
-        "btc_hour_pct": 0.00910167743914947,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PIEVERSEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793684700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PIEVERSEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1557304,6 +1557149,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793683971691
+    },
+    {
+      "id": "badf57749b42f23227ab3bdd",
+      "asset_id": "fa455f417fc680ce58f702e9",
+      "key": "OKX:SPOT:CARDSUSDT",
+      "symbol": "CARDSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793684859254,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793684872022
+    },
+    {
+      "id": "0368f02273c23c04d6148ddd",
+      "asset_id": "b9fdb2ab756c064ae66a571b",
+      "key": "OKX:PERP:ETHWUSDT",
+      "symbol": "ETHWUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793684858535,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793684872023
+    },
+    {
+      "id": "6eb971c26431c0abe95ec4f0",
+      "asset_id": "e60ffc3ac77af3c6eb5dc827",
+      "key": "OKX:PERP:PIEVERSEUSDT",
+      "symbol": "PIEVERSEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793684858535,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793684872023
     }
   ],
   "runs": [
@@ -1664654,7 +1664532,8 @@
         "entry_seq": 0,
         "cohort": "PIEVERSEUSDT",
         "observation_lag_ms": 158535,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13488
       }
     },
     "errors": [],
@@ -1690684,8 +1690563,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0ad8458c11a6199300b85b40f83a5f862d0837c3",
-    "previous_success_ms": 1793684585165,
+    "previous_commit": "185aaa179f191641c80c04d64db65dd98b675d37",
+    "previous_success_ms": 1793684870719,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
