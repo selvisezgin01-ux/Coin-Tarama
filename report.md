@@ -2,46 +2,19 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 461, ön eleme 180, incelenen 174, aday 4. Gözlem 03.11.2026 19:57 TR; mum kesimi 03.11.2026 19:00 TR.
+OKX: evren 461, ön eleme 270, incelenen 264, aday 1. Gözlem 03.11.2026 23:49 TR; mum kesimi 03.11.2026 23:00 TR.
 
-MEXC: evren 1227, ön eleme 468, incelenen 459, aday 2. Gözlem 03.11.2026 19:59 TR; mum kesimi 03.11.2026 19:00 TR.
+MEXC: evren 1227, ön eleme 671, incelenen 657, aday 0. Gözlem 03.11.2026 23:51 TR; mum kesimi 03.11.2026 23:00 TR.
 
 ## Bu döngüde yeni gelenler
 
-FLUIDUSDT · OKX  
-Fiyat 1.9851 | 24s %8.29 | hacim 3.67x | makas %0.15  
-ilk kırılım kapanışı; sonraki mum teyidi yok
-
-GMXUSDT · OKX  
-Fiyat 8.686 | 24s %6.30 | hacim 4.56x | makas %0.16  
-düşük hacim; ilk kırılım kapanışı; sonraki mum teyidi yok
-
-XBEUSDT · OKX  
-Fiyat 213.455 | 24s %4.80 | hacim 12.27x | makas %0.09  
-ilk kırılım kapanışı; sonraki mum teyidi yok
-
-XRPUSDT · OKX  
-Fiyat 1.27885 | 24s %2.53 | hacim 4.87x | makas %0.01  
-ilk kırılım kapanışı; sonraki mum teyidi yok
-
-XRPUSDT · MEXC  
-Fiyat 1.27985 | 24s %2.54 | hacim 4.20x | makas %0.01  
-ilk kırılım kapanışı; sonraki mum teyidi yok
-
-GMXUSDT · MEXC  
-Fiyat 8.6855 | 24s %6.29 | hacim 1.60x | makas %0.13  
-düşük hacim; ilk kırılım kapanışı; sonraki mum teyidi yok
+Yeni aday yok.
 
 ## Güncel aday listesi
 
 | Coin | Borsa | 24s % | Hacim USDT | Hacim katı | Makas % |
 |---|---|---:|---:|---:|---:|
-| FLUIDUSDT | OKX | 8.29 | 178255 | 3.67 | 0.151 |
-| GMXUSDT | OKX | 6.30 | 77430 | 4.56 | 0.161 |
-| XBEUSDT | OKX | 4.80 | 195611 | 12.27 | 0.089 |
-| XRPUSDT | OKX | 2.53 | 40607368 | 4.87 | 0.008 |
-| XRPUSDT | MEXC | 2.54 | 25076389 | 4.20 | 0.008 |
-| GMXUSDT | MEXC | 6.29 | 64387 | 1.60 | 0.127 |
+| FLUIDUSDT | OKX | 9.97 | 182725 | 3.67 | 0.164 |
 
 Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada görünürse borsa etiketi korunur. Bildirimler önceki başarılı taramaya göre yeni girişlerde oluşur; tekrar girişler için 48 saat bildirim beklemesi vardır. Sürekli listede kalan coin her dört saatte tekrar bildirilmez. Bu döngüdeki yokluk yalnız başarılı bir taramadan sonra değerlendirilir.
 
