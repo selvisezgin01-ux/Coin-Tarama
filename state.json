@@ -1642321,60 +1642321,7 @@
       "source_close_ms": 1793734200000
     }
   },
-  "pending": [
-    {
-      "id": "10025eed0f35f54329a58471",
-      "asset_id": "f91df8fd8dbfaf8a761f7ce9",
-      "key": "OKX:PERP:KGENUSDT",
-      "symbol": "KGENUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793734672209,
-      "price": 0.070215,
-      "level": 0.07005,
-      "invalid": 0.0685981599651378,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07005,
-        "base_invalid": 0.0685981599651378,
-        "atr": 0.00047893356574799144,
-        "rvol": 4.561356375321002,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793712600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.41583022655578006,
-        "score": 6.061356375321002
-      },
-      "context": {
-        "atr": 0.0004022041015190225,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5862392411270179,
-        "btc_hour_pct": -0.0760124145021357,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:KGENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793712600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "KGENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656455,6 +1656402,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793734414568
+    },
+    {
+      "id": "10025eed0f35f54329a58471",
+      "asset_id": "f91df8fd8dbfaf8a761f7ce9",
+      "key": "OKX:PERP:KGENUSDT",
+      "symbol": "KGENUSDT",
+      "phase": "expired",
+      "observed_ms": 1793734672209,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793734708832
     }
   ],
   "runs": [
@@ -1802048,8 +1802006,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5243df268a82b872bb679c4b64a2497c267b2bdd",
-    "previous_success_ms": 1793734485138,
+    "previous_commit": "ae3483d629e8fb6fedca5703aa9ecce54a1d004a",
+    "previous_success_ms": 1793734707151,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
