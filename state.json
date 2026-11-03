@@ -1580705,272 +1580705,7 @@
       "source_close_ms": 1793705400000
     }
   },
-  "pending": [
-    {
-      "id": "7e575758d3af88d50becbb57",
-      "asset_id": "cf00ba2c2cc88db94f632da8",
-      "key": "MEXC:PERP:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793705672940,
-      "price": 626.905,
-      "level": 611.22,
-      "invalid": 604.1756620798938,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 611.22,
-        "base_invalid": 604.1756620798938,
-        "atr": 2.0955861340418345,
-        "rvol": 3.145043688573068,
-        "close_position": 0.7830188679245077,
-        "breakout": false,
-        "bar_close_ms": 1793683800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.03953415586339659,
-        "score": 4.428062556497576
-      },
-      "context": {
-        "atr": 3.944658778058423,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.13099922875943193,
-        "btc_hour_pct": 0.0830743749302254,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XMRUSDT",
-          "change_pct": 1.9432640404272394,
-          "old_ms": 1793702184061,
-          "current_ms": 1793705670138,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793683800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b74d7789c3748bf6b14f39f4",
-      "asset_id": "ef6a7829f2b49f37fd67e83d",
-      "key": "OKX:SPOT:UNIUSDT",
-      "symbol": "UNIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793705674698,
-      "price": 7.204000000000001,
-      "level": 7.108,
-      "invalid": 6.962203257169329,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.108,
-        "base_invalid": 6.962203257169329,
-        "atr": 0.05197828553780459,
-        "rvol": 2.1239425728265893,
-        "close_position": 0.6,
-        "breakout": false,
-        "bar_close_ms": 1793696400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6823997725334152,
-        "score": 3.2239425728265894
-      },
-      "context": {
-        "atr": 0.04857140785758469,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.030498410261325937,
-        "btc_hour_pct": 0.08135841300489499,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:UNIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793696400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UNIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "38b5d703e125f97496e6da4d",
-      "asset_id": "cf88a92ea5542097399b51ae",
-      "key": "MEXC:PERP:DNAUSDT",
-      "symbol": "DNAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793705672940,
-      "price": 0.18914999999999998,
-      "level": 0.1902,
-      "invalid": 0.18586912036189743,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1902,
-        "base_invalid": 0.18586912036189743,
-        "atr": 0.0022058642540172552,
-        "rvol": 3.3293208034287423,
-        "close_position": 0.7368421052631575,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.2292993630573132,
-        "score": 5.0661629086919
-      },
-      "context": {
-        "atr": 0.0025584581034023826,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.12460994490364197,
-        "btc_hour_pct": 0.0830743749302254,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DNAUSDT",
-          "change_pct": -0.04052505770225645,
-          "old_ms": 1793702184232,
-          "current_ms": 1793705670306,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DNAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "7a0329cc7844c29d2c2e3d0c",
-      "asset_id": "f9e0bff74da6ce0c6d171607",
-      "key": "OKX:PERP:USELESSUSDT",
-      "symbol": "USELESSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793705671630,
-      "price": 0.123795,
-      "level": 0.12339,
-      "invalid": 0.11862237944455349,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12339,
-        "base_invalid": 0.11862237944455349,
-        "atr": 0.001250803702976697,
-        "rvol": 2.271715157228764,
-        "close_position": 0.7364864864864846,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9460580912862966,
-        "score": 4.008201643715249
-      },
-      "context": {
-        "atr": 0.0011478972344724585,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.04120532365965435,
-        "btc_hour_pct": 0.08151165175316333,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:USELESSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "USELESSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "62ea4ec02309ff4354320984",
-      "asset_id": "89b3651b8c7448d42c0e3685",
-      "key": "OKX:SPOT:MMTUSDT",
-      "symbol": "MMTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793705674698,
-      "price": 0.11785,
-      "level": 0.117,
-      "invalid": 0.11531290372444715,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.117,
-        "base_invalid": 0.11531290372444715,
-        "atr": 0.000580641837019043,
-        "rvol": 2.269748582365306,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793700000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7745266781411297,
-        "score": 4.269748582365306
-      },
-      "context": {
-        "atr": 0.0004684358502834864,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4310241659874148,
-        "btc_hour_pct": 0.08135841300489499,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MMTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793700000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1593863,6 +1593598,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793705083290
+    },
+    {
+      "id": "7e575758d3af88d50becbb57",
+      "asset_id": "cf00ba2c2cc88db94f632da8",
+      "key": "MEXC:PERP:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "expired",
+      "observed_ms": 1793705672940,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705686209
+    },
+    {
+      "id": "b74d7789c3748bf6b14f39f4",
+      "asset_id": "ef6a7829f2b49f37fd67e83d",
+      "key": "OKX:SPOT:UNIUSDT",
+      "symbol": "UNIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793705674698,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705686209
+    },
+    {
+      "id": "38b5d703e125f97496e6da4d",
+      "asset_id": "cf88a92ea5542097399b51ae",
+      "key": "MEXC:PERP:DNAUSDT",
+      "symbol": "DNAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793705672940,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705686209
+    },
+    {
+      "id": "7a0329cc7844c29d2c2e3d0c",
+      "asset_id": "f9e0bff74da6ce0c6d171607",
+      "key": "OKX:PERP:USELESSUSDT",
+      "symbol": "USELESSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793705671630,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705686209
+    },
+    {
+      "id": "62ea4ec02309ff4354320984",
+      "asset_id": "89b3651b8c7448d42c0e3685",
+      "key": "OKX:SPOT:MMTUSDT",
+      "symbol": "MMTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793705674698,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793705686210
     }
   ],
   "runs": [
@@ -1732226,8 +1732016,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fc3d63de3d2708f05583bf392996e82b4929b5c0",
-    "previous_success_ms": 1793705406489,
+    "previous_commit": "eec676e89dff636356df57e8750d23798d86ca64",
+    "previous_success_ms": 1793705685035,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
