@@ -1524043,64 +1524043,7 @@
       "source_close_ms": 1793672100000
     }
   },
-  "pending": [
-    {
-      "id": "ed9c173ecdbbeac8186172f9",
-      "asset_id": "f62a26242156ee5b3eddbb92",
-      "key": "MEXC:PERP:NIGHTUSDT",
-      "symbol": "NIGHTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793672535837,
-      "price": 0.04092,
-      "level": 0.04093,
-      "invalid": 0.040363519838290375,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04093,
-        "base_invalid": 0.040363519838290375,
-        "atr": 0.00024320107806413924,
-        "rvol": 2.33136280958418,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793672100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.814211695040723,
-        "score": 3.83136280958418
-      },
-      "context": {
-        "atr": 0.00024320107806413924,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.16255941646946548,
-        "btc_hour_pct": -0.00972707134742068,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NIGHTUSDT",
-          "change_pct": -2.104156133077162,
-          "old_ms": 1793668823256,
-          "current_ms": 1793672532452,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0077,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793672100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1535860,6 +1535803,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793672249699
+    },
+    {
+      "id": "ed9c173ecdbbeac8186172f9",
+      "asset_id": "f62a26242156ee5b3eddbb92",
+      "key": "MEXC:PERP:NIGHTUSDT",
+      "symbol": "NIGHTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793672535837,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793672546453
     }
   ],
   "runs": [
@@ -1639976,7 +1639930,8 @@
         "entry_seq": 0,
         "cohort": "NIGHTUSDT",
         "observation_lag_ms": 435837,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 10616
       }
     },
     "errors": [],
@@ -1666001,8 +1665956,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c1e59ba6ccfb4f8413f216a4831125e1ef1aa554",
-    "previous_success_ms": 1793672267703,
+    "previous_commit": "ba94706453411e74372eb0019608d181e2337415",
+    "previous_success_ms": 1793672545113,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
