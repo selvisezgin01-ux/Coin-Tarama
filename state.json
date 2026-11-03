@@ -1512384,220 +1512384,7 @@
       "source_close_ms": 1793667600000
     }
   },
-  "pending": [
-    {
-      "id": "7ff676fa070c2e402034603a",
-      "asset_id": "85d7df5b278c2a1875bc2c37",
-      "key": "MEXC:SPOT:AVAXUSDT",
-      "symbol": "AVAXUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793667639866,
-      "price": 8.3965,
-      "level": 8.414,
-      "invalid": 8.357703458629187,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.414,
-        "base_invalid": 8.357703458629187,
-        "atr": 0.03531027580541267,
-        "rvol": 9.138265169601663,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.22621740683415048,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0341420146445885,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.32786296928930536,
-        "btc_hour_pct": 0.39933408304748674,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:AVAXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVAXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3f15881284b93b45d473dca7",
-      "asset_id": "a1edf02841851d1749bb2878",
-      "key": "OKX:SPOT:AVAXUSDT",
-      "symbol": "AVAXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793667638244,
-      "price": 8.3965,
-      "level": 8.415,
-      "invalid": 8.355341190355603,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.415,
-        "base_invalid": 8.355341190355603,
-        "atr": 0.037725397629325856,
-        "rvol": 5.372599924306082,
-        "close_position": 0.8928571428571406,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.23809523809523725,
-        "score": 7.265457067163222
-      },
-      "context": {
-        "atr": 0.036345067862484544,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.31100370658074805,
-        "btc_hour_pct": 0.4063325912328164,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AVAXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVAXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5d6fc2f3b9db0dc68e9132d6",
-      "asset_id": "e95ccdb9c02c348b0d0994fb",
-      "key": "OKX:PERP:AVAXUSDT",
-      "symbol": "AVAXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793667638570,
-      "price": 8.3915,
-      "level": 8.41,
-      "invalid": 8.35110064751058,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.41,
-        "base_invalid": 8.35110064751058,
-        "atr": 0.03932901659612957,
-        "rvol": 4.419399390147678,
-        "close_position": 0.9824561403508865,
-        "breakout": true,
-        "bar_close_ms": 1793664900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.2858504049547239,
-        "score": 6.4018555304985645
-      },
-      "context": {
-        "atr": 0.03745003541683361,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.29309236007555306,
-        "btc_hour_pct": 0.40041408676290136,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AVAXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793664900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AVAXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cc80017f9105224e9695cd52",
-      "asset_id": "2e62ceae180b4d59964916ae",
-      "key": "MEXC:PERP:NIULAIUSDT",
-      "symbol": "NIULAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793667639414,
-      "price": 0.064825,
-      "level": 0.06466,
-      "invalid": 0.061005919518086406,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06466,
-        "base_invalid": 0.061005919518086406,
-        "atr": 0.0010272032127572864,
-        "rvol": 3.2240857723150484,
-        "close_position": 0.9733333333333252,
-        "breakout": true,
-        "bar_close_ms": 1793667600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0920436817472678,
-        "score": 5.197419105648374
-      },
-      "context": {
-        "atr": 0.0010272032127572864,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.684315202088781,
-        "btc_hour_pct": 0.4077284796584868,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NIULAIUSDT",
-          "change_pct": 4.4431055710024925,
-          "old_ms": 1793664019240,
-          "current_ms": 1793667637132,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793667600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NIULAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1524115,6 +1523902,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793666747424
+    },
+    {
+      "id": "7ff676fa070c2e402034603a",
+      "asset_id": "85d7df5b278c2a1875bc2c37",
+      "key": "MEXC:SPOT:AVAXUSDT",
+      "symbol": "AVAXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793667639866,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793667649193
+    },
+    {
+      "id": "3f15881284b93b45d473dca7",
+      "asset_id": "a1edf02841851d1749bb2878",
+      "key": "OKX:SPOT:AVAXUSDT",
+      "symbol": "AVAXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793667638244,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793667649193
+    },
+    {
+      "id": "5d6fc2f3b9db0dc68e9132d6",
+      "asset_id": "e95ccdb9c02c348b0d0994fb",
+      "key": "OKX:PERP:AVAXUSDT",
+      "symbol": "AVAXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793667638570,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793667649194
+    },
+    {
+      "id": "cc80017f9105224e9695cd52",
+      "asset_id": "2e62ceae180b4d59964916ae",
+      "key": "MEXC:PERP:NIULAIUSDT",
+      "symbol": "NIULAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793667639414,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793667649194
     }
   ],
   "runs": [
@@ -1626563,7 +1626394,8 @@
         "entry_seq": 0,
         "cohort": "NIULAIUSDT",
         "observation_lag_ms": 39414,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 9780
       }
     },
     "errors": [],
@@ -1652592,8 +1652424,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "27f9b04cd4ee1952d9c0030e675ab318f2df33f1",
-    "previous_success_ms": 1793667363669,
+    "previous_commit": "563af8d7df0fa6a00bdb1fc4aa0aeee0c58208a1",
+    "previous_success_ms": 1793667647953,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
