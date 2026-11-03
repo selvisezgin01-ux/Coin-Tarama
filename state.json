@@ -1658102,112 +1658102,7 @@
       "source_close_ms": 1793740500000
     }
   },
-  "pending": [
-    {
-      "id": "cc147030e879c2ec4209937c",
-      "asset_id": "be2629d314bdf82efd156137",
-      "key": "MEXC:SPOT:CLANKERUSDT",
-      "symbol": "CLANKERUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793743010763,
-      "price": 14.0,
-      "level": 14.43,
-      "invalid": 12.067782415149484,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 14.43,
-        "base_invalid": 12.067782415149484,
-        "atr": 0.3481172323367679,
-        "rvol": 7.86076304995224,
-        "close_position": 0.9843750000000003,
-        "breakout": false,
-        "bar_close_ms": 1793742300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 4.376854599406532,
-        "score": 7.484375
-      },
-      "context": {
-        "atr": 0.3481172323367679,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 5.8349765934698095,
-        "btc_hour_pct": 0.33786291270301305,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CLANKERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CLANKERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9c5d31d07e6ea1048698a204",
-      "asset_id": "66aab1d4e4d27ba76fcc513d",
-      "key": "MEXC:PERP:CLANKERUSDT",
-      "symbol": "CLANKERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793743010693,
-      "price": 14.035,
-      "level": 14.47,
-      "invalid": 12.10618842271732,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 14.47,
-        "base_invalid": 12.10618842271732,
-        "atr": 0.358743848551204,
-        "rvol": 8.65198335462176,
-        "close_position": 0.9523809523809533,
-        "breakout": false,
-        "bar_close_ms": 1793742300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 4.299481097108959,
-        "score": 7.452380952380953
-      },
-      "context": {
-        "atr": 0.358743848551204,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 6.318222674634688,
-        "btc_hour_pct": 0.3175797945011105,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CLANKERUSDT",
-          "change_pct": 10.943062347278998,
-          "old_ms": 1793739401330,
-          "current_ms": 1793743009154,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CLANKERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1672684,6 +1672579,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793742724620
+    },
+    {
+      "id": "cc147030e879c2ec4209937c",
+      "asset_id": "be2629d314bdf82efd156137",
+      "key": "MEXC:SPOT:CLANKERUSDT",
+      "symbol": "CLANKERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793743010763,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793743022893
+    },
+    {
+      "id": "9c5d31d07e6ea1048698a204",
+      "asset_id": "66aab1d4e4d27ba76fcc513d",
+      "key": "MEXC:PERP:CLANKERUSDT",
+      "symbol": "CLANKERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793743010693,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793743022893
     }
   ],
   "runs": [
@@ -1794307,7 +1794224,8 @@
         "entry_seq": 0,
         "cohort": "CLANKERUSDT",
         "observation_lag_ms": 710763,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12130
       },
       "66aab1d4e4d27ba76fcc513d:radar": {
         "symbol": "CLANKERUSDT",
@@ -1794329,7 +1794247,8 @@
         "entry_seq": 0,
         "cohort": "CLANKERUSDT",
         "observation_lag_ms": 710693,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12200
       }
     },
     "errors": [],
@@ -1820371,8 +1820290,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "da923d2284655719036e28d93f64e5328f8e417a",
-    "previous_success_ms": 1793742748626,
+    "previous_commit": "0cc732fe3cfcd563aae9c93f81f27e4eed189f3c",
+    "previous_success_ms": 1793743021632,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
