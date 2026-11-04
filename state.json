@@ -1693754,112 +1693754,7 @@
       "source_close_ms": 1793776500000
     }
   },
-  "pending": [
-    {
-      "id": "3c37f64d5110c55cc8bf8864",
-      "asset_id": "0bf4bab51c545918fd666d68",
-      "key": "MEXC:SPOT:TIAUSDT",
-      "symbol": "TIAUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793776798736,
-      "price": 0.45265,
-      "level": 0.4454,
-      "invalid": 0.42462401633382146,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4454,
-        "base_invalid": 0.42462401633382146,
-        "atr": 0.0045065577745237876,
-        "rvol": 11.689847161968043,
-        "close_position": 0.9230769230769241,
-        "breakout": true,
-        "bar_close_ms": 1793772900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.734439834024905,
-        "score": 7.923076923076924
-      },
-      "context": {
-        "atr": 0.004783234803566692,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8444352974819047,
-        "btc_hour_pct": 0.32990977930218435,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TIAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793772900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4fa364a66697ba905b0129f9",
-      "asset_id": "dc92e68b011cc479d960ec8b",
-      "key": "OKX:PERP:TIAUSDT",
-      "symbol": "TIAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793776797970,
-      "price": 0.45255,
-      "level": 0.4451,
-      "invalid": 0.42382274059118297,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4451,
-        "base_invalid": 0.42382274059118297,
-        "atr": 0.004515062725446972,
-        "rvol": 4.4899178423943935,
-        "close_position": 0.8734177215189867,
-        "breakout": true,
-        "bar_close_ms": 1793772900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.884393063583813,
-        "score": 6.36333556391338
-      },
-      "context": {
-        "atr": 0.0048136595427344,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8783880151484125,
-        "btc_hour_pct": 0.3196228347611685,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TIAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793772900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1709392,6 +1709287,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793776209137
+    },
+    {
+      "id": "3c37f64d5110c55cc8bf8864",
+      "asset_id": "0bf4bab51c545918fd666d68",
+      "key": "MEXC:SPOT:TIAUSDT",
+      "symbol": "TIAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793776798736,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793776814909
+    },
+    {
+      "id": "4fa364a66697ba905b0129f9",
+      "asset_id": "dc92e68b011cc479d960ec8b",
+      "key": "OKX:PERP:TIAUSDT",
+      "symbol": "TIAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793776797970,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793776814909
     }
   ],
   "runs": [
@@ -1864670,8 +1864587,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "69b4997e2022d4643570bc8937ea981ca7ceb4bd",
-    "previous_success_ms": 1793776535045,
+    "previous_commit": "bfe136a371ae02669bcef814ba1c2b7181348a61",
+    "previous_success_ms": 1793776813792,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
