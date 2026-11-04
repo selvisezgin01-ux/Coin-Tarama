@@ -1764224,64 +1764224,7 @@
       "source_close_ms": 1793812500000
     }
   },
-  "pending": [
-    {
-      "id": "118ab221beb94d946361dac4",
-      "asset_id": "05417bf458321ff439b00f3f",
-      "key": "MEXC:PERP:TAGUSDT",
-      "symbol": "TAGUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793813330599,
-      "price": 0.00078465,
-      "level": 0.0007589,
-      "invalid": 0.0007357218976728295,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0007589,
-        "base_invalid": 0.0007357218976728295,
-        "atr": 1.1854015514469887e-05,
-        "rvol": 35.0655583082969,
-        "close_position": 0.6104815864022667,
-        "breakout": true,
-        "bar_close_ms": 1793812500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.295595784923003,
-        "score": 7.610481586402266
-      },
-      "context": {
-        "atr": 1.1854015514469887e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.0988698759806006,
-        "btc_hour_pct": 0.2733196881115729,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TAGUSDT",
-          "change_pct": 0.1276284648650039,
-          "old_ms": 1793809719453,
-          "current_ms": 1793813328498,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793812500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TAGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1780870,6 +1780813,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793812748704
+    },
+    {
+      "id": "118ab221beb94d946361dac4",
+      "asset_id": "05417bf458321ff439b00f3f",
+      "key": "MEXC:PERP:TAGUSDT",
+      "symbol": "TAGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793813330599,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793813343058
     }
   ],
   "runs": [
@@ -1915967,7 +1915921,8 @@
         "entry_seq": 0,
         "cohort": "TAGUSDT",
         "observation_lag_ms": 830599,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12459
       }
     },
     "errors": [],
@@ -1941988,8 +1941943,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "41c5de1057a2ee853cf1055ff7eab406ba1c2225",
-    "previous_success_ms": 1793813071747,
+    "previous_commit": "7ff827597eb41290c63a4cfe137a242c9a89ad60",
+    "previous_success_ms": 1793813341785,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
