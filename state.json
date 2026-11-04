@@ -1662623,324 +1662623,7 @@
       "source_close_ms": 1793763900000
     }
   },
-  "pending": [
-    {
-      "id": "f1f3ffdee896dbf181ea6273",
-      "asset_id": "be2629d314bdf82efd156137",
-      "key": "MEXC:SPOT:CLANKERUSDT",
-      "symbol": "CLANKERUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793764914386,
-      "price": 15.795,
-      "level": 14.43,
-      "invalid": 12.067782415149484,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 14.43,
-        "base_invalid": 12.067782415149484,
-        "atr": 0.3481172323367679,
-        "rvol": 7.86076304995224,
-        "close_position": 0.9843750000000003,
-        "breakout": false,
-        "bar_close_ms": 1793742300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 4.376854599406532,
-        "score": 7.484375
-      },
-      "context": {
-        "atr": 0.6242494149467663,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.5955478470640947,
-        "btc_hour_pct": 0.4135029592835515,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CLANKERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CLANKERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2126fa4f7c8558ab6db284fc",
-      "asset_id": "66aab1d4e4d27ba76fcc513d",
-      "key": "MEXC:PERP:CLANKERUSDT",
-      "symbol": "CLANKERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793764913526,
-      "price": 15.805,
-      "level": 14.47,
-      "invalid": 12.10618842271732,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 14.47,
-        "base_invalid": 12.10618842271732,
-        "atr": 0.358743848551204,
-        "rvol": 8.65198335462176,
-        "close_position": 0.9523809523809533,
-        "breakout": false,
-        "bar_close_ms": 1793742300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 4.299481097108959,
-        "score": 7.452380952380953
-      },
-      "context": {
-        "atr": 0.6518299960767797,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.381673607439083,
-        "btc_hour_pct": 0.44779962116334726,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CLANKERUSDT",
-          "change_pct": 23.021855734151806,
-          "old_ms": 1793761255986,
-          "current_ms": 1793764912003,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0385,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CLANKERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d89cb793b8a21a8fbbe21d6e",
-      "asset_id": "1620630208436f2173bbeb8d",
-      "key": "MEXC:SPOT:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793764914386,
-      "price": 0.9638195,
-      "level": 0.978299,
-      "invalid": 0.9520459654424707,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.978299,
-        "base_invalid": 0.9520459654424707,
-        "atr": 0.013526897050195334,
-        "rvol": 6.053344911150624,
-        "close_position": 0.739839525553812,
-        "breakout": true,
-        "bar_close_ms": 1793755800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7961904880071433,
-        "score": 7.739839525553812
-      },
-      "context": {
-        "atr": 0.01802693194830823,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.7595351731749531,
-        "btc_hour_pct": 0.4135029592835515,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793755800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f1a7035406a599d4ea2d2fac",
-      "asset_id": "28cade49e0443c7eaeb5af75",
-      "key": "MEXC:SPOT:MEYUSDT",
-      "symbol": "MEYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793764914386,
-      "price": 0.04012,
-      "level": 0.04025,
-      "invalid": 0.03957243355364217,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04025,
-        "base_invalid": 0.03957243355364217,
-        "atr": 0.00025044297571887297,
-        "rvol": 2.9434251935488347,
-        "close_position": 0.857142857142876,
-        "breakout": true,
-        "bar_close_ms": 1793763000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0250000000000092,
-        "score": 4.8005680506917106
-      },
-      "context": {
-        "atr": 0.0002484119419160166,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6125079344079243,
-        "btc_hour_pct": 0.4135029592835515,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MEYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793763000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d3d411ff15122bf76bef0682",
-      "asset_id": "ad7a5dc2fdc6ff827499cad5",
-      "key": "MEXC:PERP:AIOUSDT",
-      "symbol": "AIOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793764913526,
-      "price": 0.035919999999999994,
-      "level": 0.03566,
-      "invalid": 0.03312783817804445,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03566,
-        "base_invalid": 0.03312783817804445,
-        "atr": 0.000947745479703683,
-        "rvol": 2.1483623346588914,
-        "close_position": 0.8791946308724834,
-        "breakout": true,
-        "bar_close_ms": 1793764800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.089269878805781,
-        "score": 4.0275569655313745
-      },
-      "context": {
-        "atr": 0.000947745479703683,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 5.641470257642434,
-        "btc_hour_pct": 0.44779962116334726,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AIOUSDT",
-          "change_pct": 13.251435273782342,
-          "old_ms": 1793761256059,
-          "current_ms": 1793764912080,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793764800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AIOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "68376435f62a1b3a8ef946c4",
-      "asset_id": "96b160cd2303efb874b33c96",
-      "key": "MEXC:PERP:SXTUSDT",
-      "symbol": "SXTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793764913526,
-      "price": 0.0083745,
-      "level": 0.008404,
-      "invalid": 0.00821728066831511,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.008404,
-        "base_invalid": 0.00821728066831511,
-        "atr": 5.1462211232593174e-05,
-        "rvol": 2.3040514686068785,
-        "close_position": 0.8400000000000027,
-        "breakout": false,
-        "bar_close_ms": 1793764800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.6142358183789165,
-        "score": 3.6440514686068814
-      },
-      "context": {
-        "atr": 5.1462211232593174e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.16643619721556924,
-        "btc_hour_pct": 0.44779962116334726,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SXTUSDT",
-          "change_pct": -0.5030845840571563,
-          "old_ms": 1793761252822,
-          "current_ms": 1793764912755,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793764800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SXTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1677989,6 +1677672,72 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793764278937
+    },
+    {
+      "id": "f1f3ffdee896dbf181ea6273",
+      "asset_id": "be2629d314bdf82efd156137",
+      "key": "MEXC:SPOT:CLANKERUSDT",
+      "symbol": "CLANKERUSDT",
+      "phase": "expired",
+      "observed_ms": 1793764914386,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793764926463
+    },
+    {
+      "id": "2126fa4f7c8558ab6db284fc",
+      "asset_id": "66aab1d4e4d27ba76fcc513d",
+      "key": "MEXC:PERP:CLANKERUSDT",
+      "symbol": "CLANKERUSDT",
+      "phase": "expired",
+      "observed_ms": 1793764913526,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793764926463
+    },
+    {
+      "id": "d89cb793b8a21a8fbbe21d6e",
+      "asset_id": "1620630208436f2173bbeb8d",
+      "key": "MEXC:SPOT:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793764914386,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793764926463
+    },
+    {
+      "id": "f1a7035406a599d4ea2d2fac",
+      "asset_id": "28cade49e0443c7eaeb5af75",
+      "key": "MEXC:SPOT:MEYUSDT",
+      "symbol": "MEYUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793764914386,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793764926463
+    },
+    {
+      "id": "d3d411ff15122bf76bef0682",
+      "asset_id": "ad7a5dc2fdc6ff827499cad5",
+      "key": "MEXC:PERP:AIOUSDT",
+      "symbol": "AIOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793764913526,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793764926463
+    },
+    {
+      "id": "68376435f62a1b3a8ef946c4",
+      "asset_id": "96b160cd2303efb874b33c96",
+      "key": "MEXC:PERP:SXTUSDT",
+      "symbol": "SXTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793764913526,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793764926464
     }
   ],
   "runs": [
@@ -1804619,7 +1804368,8 @@
         "entry_seq": 0,
         "cohort": "AIOUSDT",
         "observation_lag_ms": 113526,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12937
       },
       "96b160cd2303efb874b33c96:radar": {
         "symbol": "SXTUSDT",
@@ -1804641,7 +1804391,8 @@
         "entry_seq": 0,
         "cohort": "SXTUSDT",
         "observation_lag_ms": 113526,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12938
       }
     },
     "errors": [],
@@ -1830667,8 +1830418,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fafda023c61e27f90682a7e494ef82d3cbae7938",
-    "previous_success_ms": 1793764898785,
+    "previous_commit": "75729ed5d4d32c9154fcd38ebeb3c92504f76122",
+    "previous_success_ms": 1793764924871,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
