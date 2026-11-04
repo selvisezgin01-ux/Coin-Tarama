@@ -1656938,60 +1656938,7 @@
       "source_close_ms": 1793761200000
     }
   },
-  "pending": [
-    {
-      "id": "7c5adb0b76e63955b070cac0",
-      "asset_id": "17e49515b47601d475da7ef4",
-      "key": "OKX:PERP:UBUSDT",
-      "symbol": "UBUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793762168591,
-      "price": 0.10611000000000001,
-      "level": 0.10561,
-      "invalid": 0.10366908152668737,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10561,
-        "base_invalid": 0.10366908152668737,
-        "atr": 0.0008727898220842224,
-        "rvol": 3.6954111805923433,
-        "close_position": 0.89528795811518,
-        "breakout": false,
-        "bar_close_ms": 1793762100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.21863117870721815,
-        "score": 5.0906991387075236
-      },
-      "context": {
-        "atr": 0.0008727898220842224,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.227966565804628,
-        "btc_hour_pct": -1.141916274189747,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:UBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793762100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1671996,6 +1671943,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793761878618
+    },
+    {
+      "id": "7c5adb0b76e63955b070cac0",
+      "asset_id": "17e49515b47601d475da7ef4",
+      "key": "OKX:PERP:UBUSDT",
+      "symbol": "UBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793762168591,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793762180733
     }
   ],
   "runs": [
@@ -1797923,7 +1797881,8 @@
         "entry_seq": 0,
         "cohort": "UBUSDT",
         "observation_lag_ms": 68591,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12142
       }
     },
     "errors": [],
@@ -1823944,8 +1823903,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "76037f4a7f1a0bf470d74db247e906b3c2cb0af4",
-    "previous_success_ms": 1793761905212,
+    "previous_commit": "32d04e7a159ec3670ec814b1579104be5fc5debf",
+    "previous_success_ms": 1793762179695,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
