@@ -1783648,160 +1783648,7 @@
       "source_close_ms": 1793826900000
     }
   },
-  "pending": [
-    {
-      "id": "2ed1b48608d025ec6cbc6bf6",
-      "asset_id": "11080c4820f687043898ebbd",
-      "key": "OKX:SPOT:BRL1USDT",
-      "symbol": "BRL1USDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793827065774,
-      "price": 0.18305,
-      "level": 0.1824,
-      "invalid": 0.18145897194117436,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1824,
-        "base_invalid": 0.18145897194117436,
-        "atr": 0.0002735203921708731,
-        "rvol": 2.2328382167726923,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793813400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.1097694840834329,
-        "score": 3.7328382167726923
-      },
-      "context": {
-        "atr": 0.0003078792787274105,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.13637169838651708,
-        "btc_hour_pct": 0.19203552657243161,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BRL1USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793813400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRL1USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e9220a15eab9c106bdf53479",
-      "asset_id": "c1810f85c7e870403684fc97",
-      "key": "OKX:PERP:MMTUSDT",
-      "symbol": "MMTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793827065196,
-      "price": 0.12605,
-      "level": 0.1263,
-      "invalid": 0.12242171985812489,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1263,
-        "base_invalid": 0.12242171985812489,
-        "atr": 0.001188534279167455,
-        "rvol": 11.878053530122857,
-        "close_position": 0.6666666666666689,
-        "breakout": false,
-        "bar_close_ms": 1793815200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.7987220447284393,
-        "score": 7.166666666666669
-      },
-      "context": {
-        "atr": 0.0011596721579926938,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1627155943290113,
-        "btc_hour_pct": 0.19186607897776486,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MMTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793815200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "80d46192d4fa20d584bad4d8",
-      "asset_id": "006c4c59d6a00336f0b3ba6d",
-      "key": "OKX:PERP:FOGOUSDT",
-      "symbol": "FOGOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793827065196,
-      "price": 0.002328,
-      "level": 0.002301,
-      "invalid": 0.0022176621349292514,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.002301,
-        "base_invalid": 0.0022176621349292514,
-        "atr": 2.8919100471658346e-05,
-        "rvol": 2.073653317039937,
-        "close_position": 0.8518518518518489,
-        "breakout": true,
-        "bar_close_ms": 1793826900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.614695340501784,
-        "score": 3.925505168891786
-      },
-      "context": {
-        "atr": 2.8919100471658346e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.086954296357346,
-        "btc_hour_pct": 0.19186607897776486,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:FOGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793826900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FOGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1800874,6 +1800721,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793826474902
+    },
+    {
+      "id": "2ed1b48608d025ec6cbc6bf6",
+      "asset_id": "11080c4820f687043898ebbd",
+      "key": "OKX:SPOT:BRL1USDT",
+      "symbol": "BRL1USDT",
+      "phase": "expired",
+      "observed_ms": 1793827065774,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793827079890
+    },
+    {
+      "id": "e9220a15eab9c106bdf53479",
+      "asset_id": "c1810f85c7e870403684fc97",
+      "key": "OKX:PERP:MMTUSDT",
+      "symbol": "MMTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793827065196,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793827079890
+    },
+    {
+      "id": "80d46192d4fa20d584bad4d8",
+      "asset_id": "006c4c59d6a00336f0b3ba6d",
+      "key": "OKX:PERP:FOGOUSDT",
+      "symbol": "FOGOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793827065196,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793827079891
     }
   ],
   "runs": [
@@ -1939357,7 +1939237,8 @@
         "entry_seq": 0,
         "cohort": "FOGOUSDT",
         "observation_lag_ms": 165196,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14695
       }
     },
     "errors": [],
@@ -1965386,8 +1965267,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0c1687bc195889fca47ee7bf27e2645dbaa219c2",
-    "previous_success_ms": 1793826799228,
+    "previous_commit": "a2bce02f76e7411250941caa479dc9d4f3d99f3c",
+    "previous_success_ms": 1793827078701,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
