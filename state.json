@@ -1708126,64 +1708126,7 @@
       "source_close_ms": 1793804400000
     }
   },
-  "pending": [
-    {
-      "id": "c3eb0610d442be1652428b6a",
-      "asset_id": "d1a92b48b2a4c2bb16f30900",
-      "key": "MEXC:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793805104114,
-      "price": 0.31981499999999996,
-      "level": 0.31942,
-      "invalid": 0.3185650141071182,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.31942,
-        "base_invalid": 0.3185650141071182,
-        "atr": 0.00043323928587897016,
-        "rvol": 2.435453167352257,
-        "close_position": 0.9743589743589488,
-        "breakout": true,
-        "bar_close_ms": 1793804400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.15048437157101358,
-        "score": 4.409812141711205
-      },
-      "context": {
-        "atr": 0.00043323928587897016,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.1006277919556329,
-        "btc_hour_pct": 1.2511121635266464,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TRXUSDT",
-          "change_pct": 3.134657067994473,
-          "old_ms": 1793801489179,
-          "current_ms": 1793805103081,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0196,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793804400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1724530,6 +1724473,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793804523946
+    },
+    {
+      "id": "c3eb0610d442be1652428b6a",
+      "asset_id": "d1a92b48b2a4c2bb16f30900",
+      "key": "MEXC:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793805104114,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793805126138
     }
   ],
   "runs": [
@@ -1857867,7 +1857821,8 @@
         "entry_seq": 0,
         "cohort": "TRXUSDT",
         "observation_lag_ms": 704114,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 22024
       }
     },
     "errors": [],
@@ -1883888,8 +1883843,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "916118dcfcded0a81a2c0554ab1dfea3bcccdc0b",
-    "previous_success_ms": 1793804842612,
+    "previous_commit": "e35c6a6fac9bae8833a9f007874145509ef9212d",
+    "previous_success_ms": 1793805124871,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
