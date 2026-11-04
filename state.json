@@ -1770497,214 +1770497,7 @@
       "source_close_ms": 1793823300000
     }
   },
-  "pending": [
-    {
-      "id": "d7aa471887b864a4a17f883e",
-      "asset_id": "8c6341a7f795ef4bac90071e",
-      "key": "MEXC:PERP:METUSDT",
-      "symbol": "METUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793823465579,
-      "price": 0.29115,
-      "level": 0.2986,
-      "invalid": 0.2901270308782405,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2986,
-        "base_invalid": 0.2901270308782405,
-        "atr": 0.003153127478397015,
-        "rvol": 2.1197497294907284,
-        "close_position": 0.9642857142857185,
-        "breakout": false,
-        "bar_close_ms": 1793815200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.1344086021505264,
-        "score": 3.584035443776447
-      },
-      "context": {
-        "atr": 0.003111483632996239,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.0312385260268795,
-        "btc_hour_pct": -0.44450587009222664,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:METUSDT",
-          "change_pct": -11.560913585615562,
-          "old_ms": 1793819765492,
-          "current_ms": 1793823463426,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0036,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793815200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "METUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "272de9c72ff23d91f1cd6c2b",
-      "asset_id": "798db927980d1f570d947404",
-      "key": "OKX:PERP:OFCUSDT",
-      "symbol": "OFCUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793823464174,
-      "price": 0.0062355,
-      "level": 0.006201,
-      "invalid": 0.006086865508730182,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006201,
-        "base_invalid": 0.006086865508730182,
-        "atr": 6.756327513211997e-05,
-        "rvol": 50.746745452922816,
-        "close_position": 0.8397790055248643,
-        "breakout": true,
-        "bar_close_ms": 1793822400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.85816062176165,
-        "score": 7.839779005524864
-      },
-      "context": {
-        "atr": 7.628177880969871e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3160823691850454,
-        "btc_hour_pct": -0.4579217474233954,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OFCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793822400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OFCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1e4cb613ac27291679bf2c3c",
-      "asset_id": "b00103969d46f5f67f8feff2",
-      "key": "OKX:SPOT:OFCUSDT",
-      "symbol": "OFCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793823464193,
-      "price": 0.0062525,
-      "level": 0.006215,
-      "invalid": 0.006113461011774997,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006215,
-        "base_invalid": 0.006113461011774997,
-        "atr": 5.692658816668321e-05,
-        "rvol": 18.139041778353178,
-        "close_position": 0.8306010928961761,
-        "breakout": true,
-        "bar_close_ms": 1793822400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8718114304165248,
-        "score": 7.830601092896176
-      },
-      "context": {
-        "atr": 6.625983626148667e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3309043702914192,
-        "btc_hour_pct": -0.4590929398748944,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OFCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793822400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OFCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "bfd6d1dc06638e3d7e09505a",
-      "asset_id": "14af80538bb407236873eb25",
-      "key": "OKX:PERP:LIGHTUSDT",
-      "symbol": "LIGHTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793823464174,
-      "price": 0.2394,
-      "level": 0.2332,
-      "invalid": 0.22046080655481878,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2332,
-        "base_invalid": 0.22046080655481878,
-        "atr": 0.0029279563012081958,
-        "rvol": 2.882957724520904,
-        "close_position": 0.950000000000001,
-        "breakout": true,
-        "bar_close_ms": 1793823300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.102040816326525,
-        "score": 4.832957724520905
-      },
-      "context": {
-        "atr": 0.0029279563012081958,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.7644454292821927,
-        "btc_hour_pct": -0.4579217474233954,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LIGHTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793823300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LIGHTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1787667,6 +1787460,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793822874836
+    },
+    {
+      "id": "272de9c72ff23d91f1cd6c2b",
+      "asset_id": "798db927980d1f570d947404",
+      "key": "OKX:PERP:OFCUSDT",
+      "symbol": "OFCUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793823464174,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793823477673
+    },
+    {
+      "id": "1e4cb613ac27291679bf2c3c",
+      "asset_id": "b00103969d46f5f67f8feff2",
+      "key": "OKX:SPOT:OFCUSDT",
+      "symbol": "OFCUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793823464193,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793823477673
+    },
+    {
+      "id": "bfd6d1dc06638e3d7e09505a",
+      "asset_id": "14af80538bb407236873eb25",
+      "key": "OKX:PERP:LIGHTUSDT",
+      "symbol": "LIGHTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793823464174,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793823477673
     }
   ],
   "runs": [
@@ -1925298,7 +1925124,8 @@
         "entry_seq": 0,
         "cohort": "LIGHTUSDT",
         "observation_lag_ms": 164174,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13499
       }
     },
     "errors": [],
@@ -1951323,8 +1951150,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "4d6d005c12ef175a1aa48e49b724b2bf97d0e876",
-    "previous_success_ms": 1793823195524,
+    "previous_commit": "35f5fc42133357521e7d9581ba7348340bd98bdb",
+    "previous_success_ms": 1793823476697,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
