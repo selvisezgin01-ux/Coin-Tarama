@@ -1612211,114 +1612211,7 @@
       "source_close_ms": 1793798100000
     }
   },
-  "pending": [
-    {
-      "id": "016158b22577301f6795ae69",
-      "asset_id": "2dbc0521e8dc22576debae8d",
-      "key": "MEXC:SPOT:CRVUSDT",
-      "symbol": "CRVUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793800091923,
-      "price": 0.27205,
-      "level": 0.2715,
-      "invalid": 0.26679836730285417,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2715,
-        "base_invalid": 0.26679836730285417,
-        "atr": 0.0020108846476390293,
-        "rvol": 4.073677475455163,
-        "close_position": 0.6923076923077038,
-        "breakout": true,
-        "bar_close_ms": 1793799900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.2954209748892156,
-        "score": 5.765985167762867
-      },
-      "context": {
-        "atr": 0.0020108846476390293,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09963755675679309,
-        "btc_hour_pct": -0.2341903364182829,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CRVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793799900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CRVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f08734e7e72040e0586016d4",
-      "asset_id": "80f0d69e07824fdfc7ed6ae3",
-      "key": "MEXC:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793800091152,
-      "price": 0.7639,
-      "level": 0.745,
-      "invalid": 0.723989534858818,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.745,
-        "base_invalid": 0.723989534858818,
-        "atr": 0.011403100941213315,
-        "rvol": 2.228821976500095,
-        "close_position": 0.9323308270676688,
-        "breakout": true,
-        "bar_close_ms": 1793799900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.8696365127083956,
-        "score": 4.161152803567764
-      },
-      "context": {
-        "atr": 0.011403100941213315,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5580303174970491,
-        "btc_hour_pct": -0.23096572223949563,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DGAIUSDT",
-          "change_pct": 14.41107492729734,
-          "old_ms": 1793796476127,
-          "current_ms": 1793800090366,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.007899999999999999,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793799900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1628511,6 +1628404,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793799203334
+    },
+    {
+      "id": "016158b22577301f6795ae69",
+      "asset_id": "2dbc0521e8dc22576debae8d",
+      "key": "MEXC:SPOT:CRVUSDT",
+      "symbol": "CRVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793800091923,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793800103691
+    },
+    {
+      "id": "f08734e7e72040e0586016d4",
+      "asset_id": "80f0d69e07824fdfc7ed6ae3",
+      "key": "MEXC:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793800091152,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793800103692
     }
   ],
   "runs": [
@@ -1760718,7 +1760633,8 @@
         "entry_seq": 0,
         "cohort": "CRVUSDT",
         "observation_lag_ms": 191923,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11768
       },
       "80f0d69e07824fdfc7ed6ae3:radar": {
         "symbol": "DGAIUSDT",
@@ -1760740,7 +1760656,8 @@
         "entry_seq": 0,
         "cohort": "DGAIUSDT",
         "observation_lag_ms": 191152,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12540
       }
     },
     "errors": [],
@@ -1786768,8 +1786685,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8f89a8ae306731ce4967d6941291a9392dfc6587",
-    "previous_success_ms": 1793799825473,
+    "previous_commit": "614c201198b670be68c1fb7100bc983ec703fe04",
+    "previous_success_ms": 1793800102035,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
