@@ -1703123,112 +1703123,7 @@
       "source_close_ms": 1793782800000
     }
   },
-  "pending": [
-    {
-      "id": "d2ec8d3b8b5842a612d1af74",
-      "asset_id": "d86db2cdb12aff6659ba3784",
-      "key": "MEXC:SPOT:ASTERUSDT",
-      "symbol": "ASTERUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793783550147,
-      "price": 0.7073,
-      "level": 0.7059,
-      "invalid": 0.7021770875999301,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.7059,
-        "base_invalid": 0.7021770875999301,
-        "atr": 0.0021527493337991587,
-        "rvol": 4.992094270967488,
-        "close_position": 0.8421052631578547,
-        "breakout": true,
-        "bar_close_ms": 1793782800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5117998294000392,
-        "score": 6.834199534125343
-      },
-      "context": {
-        "atr": 0.0021527493337991587,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.06004627695983533,
-        "btc_hour_pct": 0.4517535524402039,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ASTERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793782800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ASTERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cd2041c297e7f8dac02652cb",
-      "asset_id": "6f5770a6f18605741082eb4a",
-      "key": "MEXC:PERP:ASTERUSDT",
-      "symbol": "ASTERUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793783552929,
-      "price": 0.70705,
-      "level": 0.7057,
-      "invalid": 0.7020821789472478,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.7057,
-        "base_invalid": 0.7020821789472478,
-        "atr": 0.002118807018348442,
-        "rvol": 2.557366641341845,
-        "close_position": 0.9411764705882392,
-        "breakout": true,
-        "bar_close_ms": 1793782800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.5119453924914641,
-        "score": 4.4985431119300845
-      },
-      "context": {
-        "atr": 0.002118807018348442,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.05557924474659526,
-        "btc_hour_pct": 0.45636614774486883,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ASTERUSDT",
-          "change_pct": 0.01094424637768654,
-          "old_ms": 1793779939245,
-          "current_ms": 1793783550144,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793782800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ASTERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1718981,6 +1718876,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793782970478
+    },
+    {
+      "id": "d2ec8d3b8b5842a612d1af74",
+      "asset_id": "d86db2cdb12aff6659ba3784",
+      "key": "MEXC:SPOT:ASTERUSDT",
+      "symbol": "ASTERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793783550147,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793783565809
+    },
+    {
+      "id": "cd2041c297e7f8dac02652cb",
+      "asset_id": "6f5770a6f18605741082eb4a",
+      "key": "MEXC:PERP:ASTERUSDT",
+      "symbol": "ASTERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793783552929,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793783565809
     }
   ],
   "runs": [
@@ -1849555,7 +1849472,8 @@
         "entry_seq": 0,
         "cohort": "ASTERUSDT",
         "observation_lag_ms": 750147,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15662
       },
       "6f5770a6f18605741082eb4a:radar": {
         "symbol": "ASTERUSDT",
@@ -1849577,7 +1849495,8 @@
         "entry_seq": 0,
         "cohort": "ASTERUSDT",
         "observation_lag_ms": 752929,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12880
       }
     },
     "errors": [],
@@ -1875605,8 +1875524,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3f809694366fe6d7e663fb74cf565cd57ae14ab3",
-    "previous_success_ms": 1793783291210,
+    "previous_commit": "83f540e14d1122346c7a56f6ef941ea675898ce1",
+    "previous_success_ms": 1793783564472,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
