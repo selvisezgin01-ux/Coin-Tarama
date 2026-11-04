@@ -1734686,60 +1734686,7 @@
       "source_close_ms": 1793804400000
     }
   },
-  "pending": [
-    {
-      "id": "b2b6deeeb3690d913bd30145",
-      "asset_id": "5c6abd666d83dc42479cc75a",
-      "key": "MEXC:SPOT:GOMININGUSDT",
-      "symbol": "GOMININGUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793806597692,
-      "price": 0.39815,
-      "level": 0.3967,
-      "invalid": 0.3888018731448552,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3967,
-        "base_invalid": 0.3888018731448552,
-        "atr": 0.001987512367632051,
-        "rvol": 2.8347846196430195,
-        "close_position": 0.8793103448275893,
-        "breakout": true,
-        "bar_close_ms": 1793806200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0041109969167525,
-        "score": 4.714094964470609
-      },
-      "context": {
-        "atr": 0.001987512367632051,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.1495277041848384,
-        "btc_hour_pct": 1.2520655150025872,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:GOMININGUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793806200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GOMININGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1751108,6 +1751055,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793805425129
+    },
+    {
+      "id": "b2b6deeeb3690d913bd30145",
+      "asset_id": "5c6abd666d83dc42479cc75a",
+      "key": "MEXC:SPOT:GOMININGUSDT",
+      "symbol": "GOMININGUSDT",
+      "phase": "radar",
+      "observed_ms": 1793806597692,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793806612924
     }
   ],
   "runs": [
@@ -1884733,7 +1884691,8 @@
         "entry_seq": 0,
         "cohort": "GOMININGUSDT",
         "observation_lag_ms": 397692,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15232
       }
     },
     "errors": [],
@@ -1910759,8 +1910718,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7265999d2419041cbef2141e24bf4e841cd6f85b",
-    "previous_success_ms": 1793806340838,
+    "previous_commit": "5a98e4d09abb9accbcd58a8cf89457205928011f",
+    "previous_success_ms": 1793806611803,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
