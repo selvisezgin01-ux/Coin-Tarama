@@ -1642954,58 +1642954,7 @@
       "source_close_ms": 1793798100000
     }
   },
-  "pending": [
-    {
-      "id": "c117390a1b91199814e1eff5",
-      "asset_id": "74534dd166773f651887b096",
-      "key": "OKX:SPOT:GMXUSDT",
-      "symbol": "GMXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793802999421,
-      "price": 8.886,
-      "level": 8.85,
-      "invalid": 8.74346863418832,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.85,
-        "base_invalid": 8.74346863418832,
-        "atr": 0.03687577207787713,
-        "rvol": 18.932132402620848,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793802600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.05649717514124575,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.03687577207787713,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.05435190751914565,
-        "btc_hour_pct": 0.08838480598767351,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793802600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1659286,6 +1659235,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793802715795
+    },
+    {
+      "id": "c117390a1b91199814e1eff5",
+      "asset_id": "74534dd166773f651887b096",
+      "key": "OKX:SPOT:GMXUSDT",
+      "symbol": "GMXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793802999421,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793803011960
     }
   ],
   "runs": [
@@ -1792136,7 +1792096,8 @@
         "entry_seq": 0,
         "cohort": "GMXUSDT",
         "observation_lag_ms": 399421,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12539
       }
     },
     "errors": [],
@@ -1818165,8 +1818126,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "941b03caaaf8dfd8d02a4fdad68504f92a5f98fc",
-    "previous_success_ms": 1793802742075,
+    "previous_commit": "87ae89d22e1b8e1fa9af822c6371965bcb93b6f2",
+    "previous_success_ms": 1793803010836,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
