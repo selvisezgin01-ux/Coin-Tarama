@@ -1701252,112 +1701252,7 @@
       "source_close_ms": 1793781900000
     }
   },
-  "pending": [
-    {
-      "id": "2c8dc555898a9d987e0dbf9b",
-      "asset_id": "8971df059097b3b85f69e19c",
-      "key": "MEXC:PERP:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793782650613,
-      "price": 0.09423000000000001,
-      "level": 0.09383,
-      "invalid": 0.09248283651222522,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09383,
-        "base_invalid": 0.09248283651222522,
-        "atr": 0.0005144232518319146,
-        "rvol": 5.827452226560503,
-        "close_position": 0.9512195121951401,
-        "breakout": true,
-        "bar_close_ms": 1793781900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6431557508843389,
-        "score": 7.7786717387556426
-      },
-      "context": {
-        "atr": 0.0005144232518319146,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.11302490591105219,
-        "btc_hour_pct": 0.18814832295332984,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:POLUSDT",
-          "change_pct": 0.9410908972032894,
-          "old_ms": 1793779040384,
-          "current_ms": 1793782649181,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793781900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f91bd0b98de479ed0af34c3e",
-      "asset_id": "46ccbe7fd6934affe2c0fa8c",
-      "key": "OKX:PERP:SUSDT",
-      "symbol": "SUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793782651786,
-      "price": 0.039764999999999995,
-      "level": 0.03949,
-      "invalid": 0.03869686243011419,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03949,
-        "base_invalid": 0.03869686243011419,
-        "atr": 0.00028758379923870197,
-        "rvol": 2.444936035952615,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793781900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4507508271824898,
-        "score": 4.444936035952615
-      },
-      "context": {
-        "atr": 0.00028758379923870197,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.46074453561364415,
-        "btc_hour_pct": 0.17995254280767092,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793781900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1717077,6 +1716972,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793782069728
+    },
+    {
+      "id": "2c8dc555898a9d987e0dbf9b",
+      "asset_id": "8971df059097b3b85f69e19c",
+      "key": "MEXC:PERP:POLUSDT",
+      "symbol": "POLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793782650613,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793782664212
+    },
+    {
+      "id": "f91bd0b98de479ed0af34c3e",
+      "asset_id": "46ccbe7fd6934affe2c0fa8c",
+      "key": "OKX:PERP:SUSDT",
+      "symbol": "SUSDT",
+      "phase": "radar",
+      "observed_ms": 1793782651786,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793782664212
     }
   ],
   "runs": [
@@ -1847435,7 +1847352,8 @@
         "entry_seq": 0,
         "cohort": "POLUSDT",
         "observation_lag_ms": 750613,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13599
       },
       "46ccbe7fd6934affe2c0fa8c:radar": {
         "symbol": "SUSDT",
@@ -1847457,7 +1847375,8 @@
         "entry_seq": 0,
         "cohort": "SUSDT",
         "observation_lag_ms": 751786,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12426
       }
     },
     "errors": [],
@@ -1873484,8 +1873403,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e47d284d606cfcb4e344c862f745966b4ebca0d4",
-    "previous_success_ms": 1793782386798,
+    "previous_commit": "83701e0bc5a04c4f8684172453accf66a7ceb8be",
+    "previous_success_ms": 1793782662777,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
