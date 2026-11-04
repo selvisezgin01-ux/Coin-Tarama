@@ -1693936,116 +1693936,7 @@
       "source_close_ms": 1793776500000
     }
   },
-  "pending": [
-    {
-      "id": "6361fc6fcde79ca5212b6975",
-      "asset_id": "698e2cd62aa1160b4d5e80e8",
-      "key": "OKX:SPOT:OKSOLUSDT",
-      "symbol": "OKSOLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793777702056,
-      "price": 93.21000000000001,
-      "level": 92.5,
-      "invalid": 90.64161707287752,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 92.5,
-        "base_invalid": 90.64161707287752,
-        "atr": 0.5225528474831818,
-        "rvol": 8.212224969068103,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793771100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3846489315307409,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.4496766458537728,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.05464725868342679,
-        "btc_hour_pct": 0.33340922509366155,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OKSOLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793771100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OKSOLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3f9294bfe4575b49f67d246a",
-      "asset_id": "89a43ef44ab1e0e63d2cd87b",
-      "key": "MEXC:PERP:ZKSYNCUSDT",
-      "symbol": "ZKSYNCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793777699238,
-      "price": 0.0103525,
-      "level": 0.01033,
-      "invalid": 0.010099179298963668,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01033,
-        "base_invalid": 0.010099179298963668,
-        "atr": 7.880467357554667e-05,
-        "rvol": 117.37900937377765,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793777400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6508645813095182,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 7.880467357554667e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.21617904003146116,
-        "btc_hour_pct": 0.3199878540999457,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZKSYNCUSDT",
-          "change_pct": 3.412702621261321,
-          "old_ms": 1793774083428,
-          "current_ms": 1793777696507,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793777400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZKSYNCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1709611,6 +1709502,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793777411092
+    },
+    {
+      "id": "6361fc6fcde79ca5212b6975",
+      "asset_id": "698e2cd62aa1160b4d5e80e8",
+      "key": "OKX:SPOT:OKSOLUSDT",
+      "symbol": "OKSOLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793777702056,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793777714791
+    },
+    {
+      "id": "3f9294bfe4575b49f67d246a",
+      "asset_id": "89a43ef44ab1e0e63d2cd87b",
+      "key": "MEXC:PERP:ZKSYNCUSDT",
+      "symbol": "ZKSYNCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793777699238,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793777714791
     }
   ],
   "runs": [
@@ -1839054,7 +1838967,8 @@
         "entry_seq": 0,
         "cohort": "ZKSYNCUSDT",
         "observation_lag_ms": 299238,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15553
       }
     },
     "errors": [],
@@ -1865086,8 +1865000,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "08607393c66938a28eb2c9f9ab5254a9030514ee",
-    "previous_success_ms": 1793777434144,
+    "previous_commit": "b86f17891824e2e29f844eccd932fe47fef050c4",
+    "previous_success_ms": 1793777713415,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
