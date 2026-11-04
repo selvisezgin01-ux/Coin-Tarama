@@ -1769330,58 +1769330,7 @@
       "source_close_ms": 1793812500000
     }
   },
-  "pending": [
-    {
-      "id": "1971a276fd7c67a4aca2c002",
-      "asset_id": "c1810f85c7e870403684fc97",
-      "key": "OKX:PERP:MMTUSDT",
-      "symbol": "MMTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793815576958,
-      "price": 0.1249,
-      "level": 0.1263,
-      "invalid": 0.12242171985812489,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1263,
-        "base_invalid": 0.12242171985812489,
-        "atr": 0.001188534279167455,
-        "rvol": 11.878053530122857,
-        "close_position": 0.6666666666666689,
-        "breakout": false,
-        "bar_close_ms": 1793815200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.7987220447284393,
-        "score": 7.166666666666669
-      },
-      "context": {
-        "atr": 0.001188534279167455,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.676596893159076,
-        "btc_hour_pct": -0.12212515156936332,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MMTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793815200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1786025,6 +1785974,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793815296840
+    },
+    {
+      "id": "1971a276fd7c67a4aca2c002",
+      "asset_id": "c1810f85c7e870403684fc97",
+      "key": "OKX:PERP:MMTUSDT",
+      "symbol": "MMTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793815576958,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793815590359
     }
   ],
   "runs": [
@@ -1921715,7 +1921675,8 @@
         "entry_seq": 0,
         "cohort": "MMTUSDT",
         "observation_lag_ms": 376958,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13401
       }
     },
     "errors": [],
@@ -1947744,8 +1947705,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2a7f71fd8b99c4c2bd29716a1389c5f274d7adb0",
-    "previous_success_ms": 1793815321803,
+    "previous_commit": "986074acad3443aef72c0f35cfa5fd4069308915",
+    "previous_success_ms": 1793815589112,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
