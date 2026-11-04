@@ -1752802,7 +1752802,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 8
         }
-      }
+      },
+      "finished_ms": 1793774720016,
+      "duration_ms": 33765
     }
   ],
   "radar_admissions": [
@@ -1826535,6 +1826537,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793774556170,
+            "endpoint_ms": 1793774580000,
+            "endpoint_price": 0.01729,
+            "return_pct": 2.1565731166912627,
+            "btc_excess_pct_points": 0.6109263721718383,
+            "mae_pct": -1.8020679468242484,
+            "mfe_pct": 3.220088626292439,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 23830,
+            "measured_ms": 1793774719124,
+            "cost_scenarios_pct": {
+              "0.2": 1.9565731166912628,
+              "0.5": 1.6565731166912627,
+              "1": 1.1565731166912627
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793687400000,
@@ -1826544,7 +1826568,7 @@
         "observation_lag_ms": 756170,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 11544,
-        "last_measure_attempt_ms": 1793737142890
+        "last_measure_attempt_ms": 1793774719124
       },
       "4e763dc3869385ba1d3b0523:radar": {
         "symbol": "LYNUSDT",
@@ -1826626,6 +1826650,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793774556170,
+            "endpoint_ms": 1793774580000,
+            "endpoint_price": 0.01725,
+            "return_pct": -20.67141871694642,
+            "btc_excess_pct_points": -22.217065461465843,
+            "mae_pct": -23.01678546792365,
+            "mfe_pct": 7.381007128075412,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 23830,
+            "measured_ms": 1793774719124,
+            "cost_scenarios_pct": {
+              "0.2": -20.87141871694642,
+              "0.5": -21.17141871694642,
+              "1": -21.67141871694642
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793687400000,
@@ -1826635,7 +1826681,7 @@
         "observation_lag_ms": 756170,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 11545,
-        "last_measure_attempt_ms": 1793737429859
+        "last_measure_attempt_ms": 1793774719124
       },
       "151e82b66a02a095083a75ed:radar": {
         "symbol": "MEGAUSDT",
@@ -1837435,8 +1837481,8 @@
     "queue": {
       "due": 51,
       "attempted": 2,
-      "observed_ms": 1793774421847,
-      "unique_reads": 4
+      "observed_ms": 1793774719124,
+      "unique_reads": 3
     },
     "summary": {
       "radar": {
@@ -1837505,8 +1837551,8 @@
                 "median_reference_return_pct": -1.1474861612550125
               },
               "24": {
-                "known_first_symbols": 126,
-                "median_reference_return_pct": -1.1616634493916478
+                "known_first_symbols": 127,
+                "median_reference_return_pct": -1.1516992863703779
               }
             }
           },
@@ -1863460,8 +1863506,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "78e25eca67e183d6b3a79de1573e2450883a42e8",
-    "previous_success_ms": 1793774708214,
+    "previous_commit": "c7be9bfd42d0dbb2e2d4b585face5fd863efdb65",
+    "previous_success_ms": 1793774719075,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
