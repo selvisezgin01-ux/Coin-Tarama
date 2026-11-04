@@ -1775789,58 +1775789,7 @@
       "source_close_ms": 1793823300000
     }
   },
-  "pending": [
-    {
-      "id": "23faf57668874c4d78b74233",
-      "asset_id": "be200ada8970338dc9a3101a",
-      "key": "OKX:PERP:TRUSTUSDT",
-      "symbol": "TRUSTUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793824960441,
-      "price": 0.060385,
-      "level": 0.05962,
-      "invalid": 0.058297759975532215,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05962,
-        "base_invalid": 0.058297759975532215,
-        "atr": 0.0004816001631185543,
-        "rvol": 2.006059211868416,
-        "close_position": 0.7045454545454505,
-        "breakout": true,
-        "bar_close_ms": 1793824200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1306108673641457,
-        "score": 3.7106046664138668
-      },
-      "context": {
-        "atr": 0.0004816001631185543,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.13703000616348548,
-        "btc_hour_pct": -0.4579217474233954,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:TRUSTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793824200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRUSTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1792880,6 +1792829,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793824674619
+    },
+    {
+      "id": "23faf57668874c4d78b74233",
+      "asset_id": "be200ada8970338dc9a3101a",
+      "key": "OKX:PERP:TRUSTUSDT",
+      "symbol": "TRUSTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793824960441,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793824973587
     }
   ],
   "runs": [
@@ -1930857,7 +1930817,8 @@
         "entry_seq": 0,
         "cohort": "TRUSTUSDT",
         "observation_lag_ms": 760441,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13146
       }
     },
     "errors": [],
@@ -1956886,8 +1956847,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1ef53d538920d1c668e547e0fbec826f2b20e80b",
-    "previous_success_ms": 1793824695597,
+    "previous_commit": "e3119b99ed220e3bdf4658ffc881d062ae5cce67",
+    "previous_success_ms": 1793824972486,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
