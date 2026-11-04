@@ -1689100,64 +1689100,7 @@
       "source_close_ms": 1793779200000
     }
   },
-  "pending": [
-    {
-      "id": "b46aa7d058fe026402b000bf",
-      "asset_id": "e7e58cf3efea343738915ed8",
-      "key": "MEXC:PERP:JTOUSDT",
-      "symbol": "JTOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793779650606,
-      "price": 0.35805,
-      "level": 0.355,
-      "invalid": 0.3474577696179642,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.355,
-        "base_invalid": 0.3474577696179642,
-        "atr": 0.0029482025469053028,
-        "rvol": 2.566671318973128,
-        "close_position": 0.6874999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793779200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8219954648526206,
-        "score": 4.254171318973126
-      },
-      "context": {
-        "atr": 0.0029482025469053028,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6338471418992908,
-        "btc_hour_pct": 0.18814832295332984,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:JTOUSDT",
-          "change_pct": 2.187189959401792,
-          "old_ms": 1793776184228,
-          "current_ms": 1793779646257,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793779200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JTOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1704800,6 +1704743,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793779372685
+    },
+    {
+      "id": "b46aa7d058fe026402b000bf",
+      "asset_id": "e7e58cf3efea343738915ed8",
+      "key": "MEXC:PERP:JTOUSDT",
+      "symbol": "JTOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793779650606,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793779663279
     }
   ],
   "runs": [
@@ -1834596,7 +1834550,8 @@
         "entry_seq": 0,
         "cohort": "JTOUSDT",
         "observation_lag_ms": 450606,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12673
       }
     },
     "errors": [],
@@ -1860619,8 +1860574,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "618c2ece695f140c1ac5a5a345e64c6cbe9bde71",
-    "previous_success_ms": 1793779404437,
+    "previous_commit": "5ec3a503fb2aa74139e3660b3eb8909d50a28c4d",
+    "previous_success_ms": 1793779662027,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
