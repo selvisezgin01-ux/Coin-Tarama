@@ -1800117,64 +1800117,7 @@
       "source_close_ms": 1793835900000
     }
   },
-  "pending": [
-    {
-      "id": "8b8efb2015983833603b7af9",
-      "asset_id": "72bc85c3db3e8fe384bbf1be",
-      "key": "MEXC:PERP:UBUSDT",
-      "symbol": "UBUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793836658813,
-      "price": 0.11128,
-      "level": 0.11106,
-      "invalid": 0.10784275488182958,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11106,
-        "base_invalid": 0.10784275488182958,
-        "atr": 0.0007816341211361337,
-        "rvol": 2.5667285253769014,
-        "close_position": 0.8255813953488402,
-        "breakout": true,
-        "bar_close_ms": 1793835900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2287248566487774,
-        "score": 4.392309920725742
-      },
-      "context": {
-        "atr": 0.0007816341211361337,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5053049440295609,
-        "btc_hour_pct": 0.6027536640290432,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:UBUSDT",
-          "change_pct": 5.648535564853563,
-          "old_ms": 1793832988661,
-          "current_ms": 1793836656732,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793835900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1817621,6 +1817564,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793836374269
+    },
+    {
+      "id": "8b8efb2015983833603b7af9",
+      "asset_id": "72bc85c3db3e8fe384bbf1be",
+      "key": "MEXC:PERP:UBUSDT",
+      "symbol": "UBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793836658813,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793836672921
     }
   ],
   "runs": [
@@ -1958115,7 +1958069,8 @@
         "entry_seq": 0,
         "cohort": "UBUSDT",
         "observation_lag_ms": 758813,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14108
       }
     },
     "errors": [],
@@ -1984145,8 +1984100,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f0aafbc516860448500b77c5bf37a46aa98ff21f",
-    "previous_success_ms": 1793836401399,
+    "previous_commit": "3636a81e3619c0bcffa1c23d90451c69e6ca7703",
+    "previous_success_ms": 1793836671410,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
