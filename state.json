@@ -1689823,180 +1689823,7 @@
       "source_close_ms": 1793804400000
     }
   },
-  "pending": [
-    {
-      "id": "7b93c7d6f8d45f81b961e606",
-      "asset_id": "a656d12c78ba4a909f68affa",
-      "key": "MEXC:SPOT:RITUALUSDT",
-      "symbol": "RITUALUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793804509528,
-      "price": 0.025294999999999998,
-      "level": 0.02544,
-      "invalid": 0.021901209805860796,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02544,
-        "base_invalid": 0.021901209805860796,
-        "atr": 0.000858601294261377,
-        "rvol": 2.956357164310697,
-        "close_position": 0.9342105263157899,
-        "breakout": true,
-        "bar_close_ms": 1793794500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.290849673202636,
-        "score": 4.8905676906264866
-      },
-      "context": {
-        "atr": 0.0014025545224681986,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -9.711935363158776,
-        "btc_hour_pct": 1.2520655150025872,
-        "trend4h_support": null,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RITUALUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793794500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RITUALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6e5ba79678ce9d62494933fa",
-      "asset_id": "c514f4e2ac8dfc920c05690d",
-      "key": "OKX:PERP:ALGOUSDT",
-      "symbol": "ALGOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_continuing",
-      "observed_ms": 1793804509881,
-      "price": 0.1006,
-      "level": 0.09742,
-      "invalid": 0.09718881190757278,
-      "target": 0.10306720118485442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09742,
-        "base_invalid": 0.09513881190757278,
-        "atr": 0.0008079206161813864,
-        "rvol": 2.201676096614145,
-        "close_position": 0.9254658385093198,
-        "breakout": true,
-        "bar_close_ms": 1793799000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6011644832605532,
-        "score": 4.127141935123465
-      },
-      "context": {
-        "atr": 0.0009839116680220475,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6417868131684656,
-        "btc_hour_pct": 1.229272776011947,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ALGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.09718881190757278,
-        "target": 0.10306720118485442,
-        "risk_pct": 1.4861771754368374,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.10366,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.09839,
-        "entry_zone_high": 0.09882574169827445
-      },
-      "reason": null,
-      "source_close_ms": 1793804400000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "ALGOUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793804400000,
-        "closed_price": 0.10018,
-        "ema20_1h": 0.09482393710982637,
-        "atr14_1h": 0.0014249563643865982,
-        "structure_floor": 0.09718881190757278,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "03b919fd77d290442dc966a1",
-      "asset_id": "80f0d69e07824fdfc7ed6ae3",
-      "key": "MEXC:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793804511157,
-      "price": 0.7513000000000001,
-      "level": 0.745,
-      "invalid": 0.723989534858818,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.745,
-        "base_invalid": 0.723989534858818,
-        "atr": 0.011403100941213315,
-        "rvol": 2.228821976500095,
-        "close_position": 0.9323308270676688,
-        "breakout": true,
-        "bar_close_ms": 1793799900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.8696365127083956,
-        "score": 4.161152803567764
-      },
-      "context": {
-        "atr": 0.010766741676734234,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.0176995280521637,
-        "btc_hour_pct": 1.2511121635266464,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DGAIUSDT",
-          "change_pct": -6.141814422267345,
-          "old_ms": 1793800676247,
-          "current_ms": 1793804509126,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0012000000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793799900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1706310,6 +1706137,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793803925266
+    },
+    {
+      "id": "7b93c7d6f8d45f81b961e606",
+      "asset_id": "a656d12c78ba4a909f68affa",
+      "key": "MEXC:SPOT:RITUALUSDT",
+      "symbol": "RITUALUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793804509528,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793804523945
+    },
+    {
+      "id": "6e5ba79678ce9d62494933fa",
+      "asset_id": "c514f4e2ac8dfc920c05690d",
+      "key": "OKX:PERP:ALGOUSDT",
+      "symbol": "ALGOUSDT",
+      "phase": "trend_continuing",
+      "observed_ms": 1793804509881,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793804523945
+    },
+    {
+      "id": "03b919fd77d290442dc966a1",
+      "asset_id": "80f0d69e07824fdfc7ed6ae3",
+      "key": "MEXC:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793804511157,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793804523946
     }
   ],
   "runs": [
@@ -1865582,8 +1865442,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "46ee534c4b87b9b6d12f27a604c8aa9edfe8d927",
-    "previous_success_ms": 1793804244688,
+    "previous_commit": "6a1a2b97dcc6bc97030ca54011f71a43aa1fd3f9",
+    "previous_success_ms": 1793804522776,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
