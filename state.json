@@ -1751503,7 +1751503,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 7
         }
-      }
+      },
+      "finished_ms": 1793772619855,
+      "duration_ms": 33604
     }
   ],
   "radar_admissions": [
@@ -1835522,14 +1835524,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793772116215,
+            "endpoint_ms": 1793772120000,
+            "endpoint_price": 0.119433,
+            "return_pct": 1.3011136650862065,
+            "btc_excess_pct_points": 0.6132931238653105,
+            "mae_pct": -0.025445508443666665,
+            "mfe_pct": 2.3435313276618075,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 3785,
+            "measured_ms": 1793772618681,
+            "cost_scenarios_pct": {
+              "0.2": 1.1011136650862066,
+              "0.5": 0.8011136650862065,
+              "1": 0.3011136650862065
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793768400000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "STONKUSDT",
         "observation_lag_ms": 116215,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11803
+        "notification_lag_ms": 11803,
+        "last_measure_attempt_ms": 1793772618681
       },
       "2007da508e74e77f58dd9fa4:radar": {
         "symbol": "XMRUSDT",
@@ -1835545,14 +1835571,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793772409330,
+            "endpoint_ms": 1793772420000,
+            "endpoint_price": 633.22,
+            "return_pct": -0.9525895105660709,
+            "btc_excess_pct_points": -1.6370741462204519,
+            "mae_pct": -0.9541536969545183,
+            "mfe_pct": 0.10480048802616881,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 10670,
+            "measured_ms": 1793772618681,
+            "cost_scenarios_pct": {
+              "0.2": -1.1525895105660708,
+              "0.5": -1.4525895105660709,
+              "1": -1.9525895105660709
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793768400000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "XMRUSDT",
         "observation_lag_ms": 409330,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 14897
+        "notification_lag_ms": 14897,
+        "last_measure_attempt_ms": 1793772618681
       },
       "cc36183077178af36218bb4b:radar": {
         "symbol": "XMRUSDT",
@@ -1835741,9 +1835791,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 56,
+      "due": 57,
       "attempted": 2,
-      "observed_ms": 1793772326086,
+      "observed_ms": 1793772618681,
       "unique_reads": 4
     },
     "summary": {
@@ -1835779,8 +1835829,8 @@
             "first_per_symbol": 140,
             "hours": {
               "1": {
-                "known_first_symbols": 138,
-                "median_reference_return_pct": 0.004679457182976687
+                "known_first_symbols": 139,
+                "median_reference_return_pct": 0.00935891436593117
               },
               "4": {
                 "known_first_symbols": 133,
@@ -1861758,8 +1861808,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1ee50b86688fd930fb8d532d7b63cc2c0891efba",
-    "previous_success_ms": 1793772608175,
+    "previous_commit": "412750c06755ae867aac0062b3f0f86a8e78aeeb",
+    "previous_success_ms": 1793772618632,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
