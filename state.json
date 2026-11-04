@@ -1691702,58 +1691702,7 @@
       "source_close_ms": 1793779200000
     }
   },
-  "pending": [
-    {
-      "id": "2fcbd60e5cf4a5ddf3b70ee3",
-      "asset_id": "0c5ae0dee0b6066c0c04c132",
-      "key": "OKX:SPOT:GMXUSDT",
-      "symbol": "GMXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793779359684,
-      "price": 8.592500000000001,
-      "level": 8.717,
-      "invalid": 8.438028870583977,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.717,
-        "base_invalid": 8.438028870583977,
-        "atr": 0.046474196106821415,
-        "rvol": 3.809896271196985,
-        "close_position": 0.7464788732394511,
-        "breakout": true,
-        "bar_close_ms": 1793774700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7835906890988564,
-        "score": 5.556375144436436
-      },
-      "context": {
-        "atr": 0.042896337614690756,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.0422207695023666,
-        "btc_hour_pct": 0.16422761100749472,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793774700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1707385,6 +1707334,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793779064629
+    },
+    {
+      "id": "2fcbd60e5cf4a5ddf3b70ee3",
+      "asset_id": "0c5ae0dee0b6066c0c04c132",
+      "key": "OKX:SPOT:GMXUSDT",
+      "symbol": "GMXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793779359684,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793779372685
     }
   ],
   "runs": [
@@ -1863128,8 +1863088,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "df3f4951f4717244b1f12e55782f257f3d5fd6bd",
-    "previous_success_ms": 1793779090972,
+    "previous_commit": "27238dc6827da7ad98ba4d0999be8b1a204aba42",
+    "previous_success_ms": 1793779371188,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
