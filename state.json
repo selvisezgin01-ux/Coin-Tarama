@@ -1641161,60 +1641161,7 @@
       "source_close_ms": 1793751300000
     }
   },
-  "pending": [
-    {
-      "id": "f280efb14ab2305b6a751309",
-      "asset_id": "62c5357d3018ec3b0b6aac8c",
-      "key": "OKX:PERP:BERAUSDT",
-      "symbol": "BERAUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793752089179,
-      "price": 0.1281,
-      "level": 0.1302,
-      "invalid": 0.128589322094205,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1302,
-        "base_invalid": 0.128589322094205,
-        "atr": 0.0007378527052999311,
-        "rvol": 2.3300362755367208,
-        "close_position": 0.8000000000000222,
-        "breakout": false,
-        "bar_close_ms": 1793749500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 1.0085337470907785,
-        "score": 3.6300362755367432
-      },
-      "context": {
-        "atr": 0.0007448223839717841,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9311132642821796,
-        "btc_hour_pct": -0.544415661807307,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BERAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793749500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BERAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1656087,6 +1656034,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793751804570
+    },
+    {
+      "id": "f280efb14ab2305b6a751309",
+      "asset_id": "62c5357d3018ec3b0b6aac8c",
+      "key": "OKX:PERP:BERAUSDT",
+      "symbol": "BERAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793752089179,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793752101853
     }
   ],
   "runs": [
@@ -1805766,8 +1805724,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2d063c920bbf0e7fcd4c9b9882be9563c3210ef7",
-    "previous_success_ms": 1793751825995,
+    "previous_commit": "49ce79cb972ffca20cd573f907371cece81da8ed",
+    "previous_success_ms": 1793752100890,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
