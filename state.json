@@ -1800887,162 +1800887,7 @@
       "source_close_ms": 1793835000000
     }
   },
-  "pending": [
-    {
-      "id": "104f34e4d980ed1f9302589c",
-      "asset_id": "73d846708d934b0fa67a2c6b",
-      "key": "OKX:SPOT:ZETAUSDT",
-      "symbol": "ZETAUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793836063764,
-      "price": 0.037325,
-      "level": 0.03733,
-      "invalid": 0.03659936978400676,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03733,
-        "base_invalid": 0.03659936978400676,
-        "atr": 0.00020420143995495167,
-        "rvol": 6.712153099349869,
-        "close_position": 0.7931034482758695,
-        "breakout": false,
-        "bar_close_ms": 1793835900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.18791946308724938,
-        "score": 7.293103448275869
-      },
-      "context": {
-        "atr": 0.00020420143995495167,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.06948172648597595,
-        "btc_hour_pct": 0.6095843459836825,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ZETAUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793835900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZETAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e7584b20a71b13084561ef15",
-      "asset_id": "d2a66d1decb7e356c56bd70c",
-      "key": "MEXC:SPOT:EDELUSDT",
-      "symbol": "EDELUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793836062036,
-      "price": 0.025265,
-      "level": 0.02509,
-      "invalid": 0.024724835531823766,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02509,
-        "base_invalid": 0.024724835531823766,
-        "atr": 0.00023442978784156857,
-        "rvol": 2.1248143338359293,
-        "close_position": 0.9166666666666698,
-        "breakout": true,
-        "bar_close_ms": 1793835900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8403361344537785,
-        "score": 4.041481000502599
-      },
-      "context": {
-        "atr": 0.00023442978784156857,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.20489365614397848,
-        "btc_hour_pct": 0.6069845286811759,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:EDELUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793835900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "EDELUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4d02a035da59ea17cc4f74c3",
-      "asset_id": "a94770a8cfb4a25848ad628e",
-      "key": "OKX:SPOT:LTCUSDT",
-      "symbol": "LTCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793836063764,
-      "price": 56.394999999999996,
-      "level": 56.74,
-      "invalid": 55.934366708273956,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 56.74,
-        "base_invalid": 55.934366708273956,
-        "atr": 0.23755527817362196,
-        "rvol": 2.3813152479090864,
-        "close_position": 0.9444444444444554,
-        "breakout": false,
-        "bar_close_ms": 1793835900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.6349206349206327,
-        "score": 3.8257596923535417
-      },
-      "context": {
-        "atr": 0.23755527817362196,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.12021273482800687,
-        "btc_hour_pct": 0.6095843459836825,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LTCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793835900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LTCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1818445,6 +1818290,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793835176592
+    },
+    {
+      "id": "104f34e4d980ed1f9302589c",
+      "asset_id": "73d846708d934b0fa67a2c6b",
+      "key": "OKX:SPOT:ZETAUSDT",
+      "symbol": "ZETAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793836063764,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793836076936
+    },
+    {
+      "id": "e7584b20a71b13084561ef15",
+      "asset_id": "d2a66d1decb7e356c56bd70c",
+      "key": "MEXC:SPOT:EDELUSDT",
+      "symbol": "EDELUSDT",
+      "phase": "radar",
+      "observed_ms": 1793836062036,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793836076937
+    },
+    {
+      "id": "4d02a035da59ea17cc4f74c3",
+      "asset_id": "a94770a8cfb4a25848ad628e",
+      "key": "OKX:SPOT:LTCUSDT",
+      "symbol": "LTCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793836063764,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793836076937
     }
   ],
   "runs": [
@@ -1958772,7 +1958650,8 @@
         "entry_seq": 0,
         "cohort": "ZETAUSDT",
         "observation_lag_ms": 163764,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13172
       },
       "d2a66d1decb7e356c56bd70c:radar": {
         "symbol": "EDELUSDT",
@@ -1958794,7 +1958673,8 @@
         "entry_seq": 0,
         "cohort": "EDELUSDT",
         "observation_lag_ms": 162036,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14901
       },
       "a94770a8cfb4a25848ad628e:radar": {
         "symbol": "LTCUSDT",
@@ -1958816,7 +1958696,8 @@
         "entry_seq": 0,
         "cohort": "LTCUSDT",
         "observation_lag_ms": 163764,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13173
       }
     },
     "errors": [],
@@ -1984850,8 +1984731,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ec69a1027d8bea69df53a9cba7ad46d0a149ebcb",
-    "previous_success_ms": 1793835793942,
+    "previous_commit": "d81bc9134c50f47e955524e67ca1a28d5f5421f5",
+    "previous_success_ms": 1793836074829,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
