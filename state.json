@@ -1654226,78 +1654226,7 @@
       "source_close_ms": 1793754000000
     }
   },
-  "pending": [
-    {
-      "id": "c5da71fff6896717d417de28",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_broken",
-      "observed_ms": 1793757796219,
-      "price": 0.00023725,
-      "level": 0.000235,
-      "invalid": 0.00023516173503133312,
-      "target": 0.0002463420299373338,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.0453022049250618e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.06078746199240648,
-        "btc_hour_pct": -0.2712251724301229,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.00023516173503133312,
-        "target": 0.0002463420299373338,
-        "risk_pct": 1.0678439077269202,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.000256,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.0002371,
-        "entry_zone_high": 0.00023789606935336162
-      },
-      "reason": null,
-      "source_close_ms": 1793757600000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "OMIUSDT",
-      "trend_detail": {
-        "status": "broken",
-        "source_close_ms": 1793757600000,
-        "closed_price": 0.0002371,
-        "ema20_1h": 0.00023842555763008982,
-        "atr14_1h": 2.714386156452861e-06,
-        "structure_floor": 0.000238,
-        "new_entry": false
-      },
-      "was_triggered": true
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1669247,6 +1669176,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793756006631
+    },
+    {
+      "id": "c5da71fff6896717d417de28",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "trend_broken",
+      "observed_ms": 1793757796219,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793757807775
     }
   ],
   "runs": [
@@ -1820238,8 +1820178,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "87753efe3b9977e7a4fb243e083d48a76850d4f4",
-    "previous_success_ms": 1793757531869,
+    "previous_commit": "3334f632adb8c5a4d34f51be4efeb07918a664c1",
+    "previous_success_ms": 1793757806676,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
