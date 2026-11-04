@@ -1748906,7 +1748906,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793779974092,
+      "duration_ms": 32716
     }
   ],
   "radar_admissions": [
@@ -1831604,6 +1831606,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793753217748,
+            "endpoint_ms": 1793753220000,
+            "endpoint_price": 0.04432,
+            "return_pct": -1.47827053462265,
+            "btc_excess_pct_points": -0.32985116139888637,
+            "mae_pct": -2.1007002334111236,
+            "mfe_pct": 0.5223963543403487,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 2252,
+            "measured_ms": 1793779972197,
+            "cost_scenarios_pct": {
+              "0.2": -1.6782705346226499,
+              "0.5": -1.97827053462265,
+              "1": -2.47827053462265
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793738700000,
@@ -1831613,7 +1831637,7 @@
         "observation_lag_ms": 117748,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 10578,
-        "last_measure_attempt_ms": 1793742735819
+        "last_measure_attempt_ms": 1793779972197
       },
       "7487d240b14604f3412eb4d1:radar": {
         "symbol": "CHIPUSDT",
@@ -1834490,14 +1834514,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793779795952,
+            "endpoint_ms": 1793779800000,
+            "endpoint_price": 0.5921,
+            "return_pct": 0.09297607979037448,
+            "btc_excess_pct_points": -0.4267441113230186,
+            "mae_pct": -0.9889273941340537,
+            "mfe_pct": 2.239878285859187,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 4048,
+            "measured_ms": 1793779972197,
+            "cost_scenarios_pct": {
+              "0.2": -0.10702392020962553,
+              "0.5": -0.4070239202096255,
+              "1": -0.9070239202096255
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793775600000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "GRASSUSDT",
         "observation_lag_ms": 595952,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13185
+        "notification_lag_ms": 13185,
+        "last_measure_attempt_ms": 1793779972197
       },
       "ce2cc7116ff47511402ee6dc:radar": {
         "symbol": "ZENUSDT",
@@ -1834617,9 +1834665,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 59,
+      "due": 58,
       "attempted": 2,
-      "observed_ms": 1793779673547,
+      "observed_ms": 1793779972197,
       "unique_reads": 4
     },
     "summary": {
@@ -1834699,12 +1834747,12 @@
             "first_per_symbol": 159,
             "hours": {
               "1": {
-                "known_first_symbols": 158,
-                "median_reference_return_pct": -0.2599107361326458
+                "known_first_symbols": 159,
+                "median_reference_return_pct": -0.25207057976232017
               },
               "4": {
-                "known_first_symbols": 151,
-                "median_reference_return_pct": -0.7148837508855754
+                "known_first_symbols": 152,
+                "median_reference_return_pct": -0.7241721086832187
               },
               "12": {
                 "known_first_symbols": 147,
@@ -1860632,8 +1860680,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "311d3f738126d82569ae01987901212c5d906676",
-    "previous_success_ms": 1793779962372,
+    "previous_commit": "fac083de9d2f05eab2961ddcc5ac6bdbe86d9dd0",
+    "previous_success_ms": 1793779972150,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
