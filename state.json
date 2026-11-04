@@ -1695914,64 +1695914,7 @@
       "source_close_ms": 1793776500000
     }
   },
-  "pending": [
-    {
-      "id": "c818aefa404d4c06c5e5676a",
-      "asset_id": "c0196a7f1da0a0bbb1b8fb1b",
-      "key": "MEXC:PERP:AKTUSDT",
-      "symbol": "AKTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793779051559,
-      "price": 0.61865,
-      "level": 0.6141,
-      "invalid": 0.5940919071578338,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6141,
-        "base_invalid": 0.5940919071578338,
-        "atr": 0.004720618947774595,
-        "rvol": 6.137254391939298,
-        "close_position": 0.6728971962616851,
-        "breakout": true,
-        "bar_close_ms": 1793778300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4966931216931165,
-        "score": 7.672897196261685
-      },
-      "context": {
-        "atr": 0.004720618947774595,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4094551167223459,
-        "btc_hour_pct": 0.3199878540999457,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AKTUSDT",
-          "change_pct": 0.4299362892159042,
-          "old_ms": 1793775583624,
-          "current_ms": 1793779048678,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793778300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AKTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1711592,6 +1711535,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793778765300
+    },
+    {
+      "id": "c818aefa404d4c06c5e5676a",
+      "asset_id": "c0196a7f1da0a0bbb1b8fb1b",
+      "key": "MEXC:PERP:AKTUSDT",
+      "symbol": "AKTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793779051559,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793779064629
     }
   ],
   "runs": [
@@ -1841271,7 +1841225,8 @@
         "entry_seq": 0,
         "cohort": "AKTUSDT",
         "observation_lag_ms": 751559,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13070
       }
     },
     "errors": [],
@@ -1867305,8 +1867260,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "45bb1afc04d589167306b47b8053b070442c2706",
-    "previous_success_ms": 1793778786314,
+    "previous_commit": "9a9e3a2f20146064ca798642107da16f4459c5d7",
+    "previous_success_ms": 1793779063278,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
