@@ -1707440,7 +1707440,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 3
         }
-      }
+      },
+      "finished_ms": 1793750884706,
+      "duration_ms": 31950
     }
   ],
   "radar_admissions": [
@@ -1786574,13 +1786576,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793750862669,
+            "endpoint_ms": 1793750880000,
+            "endpoint_price": 0.1384,
+            "return_pct": -0.7529580494801125,
+            "btc_excess_pct_points": -0.34440126192418763,
+            "mae_pct": -2.4022947292936636,
+            "mfe_pct": 0.39440659734670813,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 17331,
+            "measured_ms": 1793750883526,
+            "cost_scenarios_pct": {
+              "0.2": -0.9529580494801124,
+              "0.5": -1.2529580494801125,
+              "1": -1.7529580494801125
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793746800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "AXISUSDT",
         "observation_lag_ms": 462669,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793750883526
       },
       "efc8c237b8559451d54becdc:radar": {
         "symbol": "HUMAUSDT",
@@ -1786596,14 +1786622,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793750863592,
+            "endpoint_ms": 1793750880000,
+            "endpoint_price": 0.02158,
+            "return_pct": -4.0675705712380665,
+            "btc_excess_pct_points": -3.653367752602344,
+            "mae_pct": -5.267837297177158,
+            "mfe_pct": 1.1780395643476327,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 16408,
+            "measured_ms": 1793750883526,
+            "cost_scenarios_pct": {
+              "0.2": -4.267570571238067,
+              "0.5": -4.5675705712380665,
+              "1": -5.0675705712380665
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793746800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "HUMAUSDT",
         "observation_lag_ms": 463592,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 11059
+        "notification_lag_ms": 11059,
+        "last_measure_attempt_ms": 1793750883526
       },
       "fbce7074493b65948a42d52d:radar": {
         "symbol": "XDPUSDT",
@@ -1786769,8 +1786819,8 @@
     "queue": {
       "due": 85,
       "attempted": 2,
-      "observed_ms": 1793750592300,
-      "unique_reads": 5
+      "observed_ms": 1793750883526,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
@@ -1812781,8 +1812831,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "fcdf52ce6646f5f8217fb4f9e85ba4fa8a9ab959",
-    "previous_success_ms": 1793750874446,
+    "previous_commit": "5d6ba0c2e1272f23d9734f77d59a7c9fa3f252e3",
+    "previous_success_ms": 1793750883486,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
