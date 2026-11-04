@@ -1638815,122 +1638815,7 @@
       "source_close_ms": 1793798100000
     }
   },
-  "pending": [
-    {
-      "id": "0ef98723de6a74a9267dd9d1",
-      "asset_id": "c514f4e2ac8dfc920c05690d",
-      "key": "OKX:PERP:ALGOUSDT",
-      "symbol": "ALGOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "triggered",
-      "observed_ms": 1793802701697,
-      "price": 0.09865499999999999,
-      "level": 0.09742,
-      "invalid": 0.09718881190757278,
-      "target": 0.10306720118485442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09742,
-        "base_invalid": 0.09513881190757278,
-        "atr": 0.0008079206161813864,
-        "rvol": 2.201676096614145,
-        "close_position": 0.9254658385093198,
-        "breakout": true,
-        "bar_close_ms": 1793799000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6011644832605532,
-        "score": 4.127141935123465
-      },
-      "context": {
-        "atr": 0.0008714833965488804,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.6703324096354564,
-        "btc_hour_pct": 0.09902698006043487,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ALGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.09718881190757278,
-        "target": 0.10306720118485442,
-        "risk_pct": 1.4861771754368374,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.10366,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.09839,
-        "entry_zone_high": 0.09882574169827445
-      },
-      "reason": null,
-      "source_close_ms": 1793802600000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "ALGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "93627f2b763fba6246955db5",
-      "asset_id": "99c37334c5ebe7ade1a8c6b9",
-      "key": "MEXC:PERP:TURTLEUSDT",
-      "symbol": "TURTLEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793802704008,
-      "price": 0.036809999999999996,
-      "level": 0.03645,
-      "invalid": 0.03600899361526425,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03645,
-        "base_invalid": 0.03600899361526425,
-        "atr": 0.000206709231571658,
-        "rvol": 2.4920928392993806,
-        "close_position": 0.9705882352941291,
-        "breakout": true,
-        "bar_close_ms": 1793802600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5486725663717005,
-        "score": 4.46268107459351
-      },
-      "context": {
-        "atr": 0.000206709231571658,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.8029514134997084,
-        "btc_hour_pct": 0.08470461978740129,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TURTLEUSDT",
-          "change_pct": -0.16505947502661877,
-          "old_ms": 1793799177669,
-          "current_ms": 1793802702418,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793802600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TURTLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1655189,6 +1655074,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793801816698
+    },
+    {
+      "id": "0ef98723de6a74a9267dd9d1",
+      "asset_id": "c514f4e2ac8dfc920c05690d",
+      "key": "OKX:PERP:ALGOUSDT",
+      "symbol": "ALGOUSDT",
+      "phase": "triggered",
+      "observed_ms": 1793802701697,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793802715795
+    },
+    {
+      "id": "93627f2b763fba6246955db5",
+      "asset_id": "99c37334c5ebe7ade1a8c6b9",
+      "key": "MEXC:PERP:TURTLEUSDT",
+      "symbol": "TURTLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793802704008,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793802715795
     }
   ],
   "runs": [
@@ -1787943,7 +1787850,8 @@
         "entry_seq": 1,
         "cohort": "ALGOUSDT",
         "observation_lag_ms": 101697,
-        "interpretation": "hypothetical confirmed entry, not an order fill"
+        "interpretation": "hypothetical confirmed entry, not an order fill",
+        "notification_lag_ms": 14098
       },
       "99c37334c5ebe7ade1a8c6b9:radar": {
         "symbol": "TURTLEUSDT",
@@ -1787965,7 +1787873,8 @@
         "entry_seq": 0,
         "cohort": "TURTLEUSDT",
         "observation_lag_ms": 104008,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11787
       }
     },
     "errors": [],
@@ -1813995,8 +1813904,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a825535ceee7ccb44ad4280488df99dd11453475",
-    "previous_success_ms": 1793802431217,
+    "previous_commit": "febf5ad6e94a22e854ca1f865a2518e23437d06e",
+    "previous_success_ms": 1793802714679,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
