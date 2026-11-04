@@ -1653460,64 +1653460,7 @@
       "source_close_ms": 1793754000000
     }
   },
-  "pending": [
-    {
-      "id": "13755275bfa0e54d3004c66b",
-      "asset_id": "e270ca5d625b548df4913b71",
-      "key": "MEXC:PERP:NILUSDT",
-      "symbol": "NILUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793754791508,
-      "price": 0.063255,
-      "level": 0.06403,
-      "invalid": 0.06326684583724157,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.06403,
-        "base_invalid": 0.06326684583724157,
-        "atr": 0.0004876944183895259,
-        "rvol": 33.601743149983506,
-        "close_position": 0.8533333333333348,
-        "breakout": true,
-        "bar_close_ms": 1793751300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.19282793331237,
-        "score": 7.853333333333335
-      },
-      "context": {
-        "atr": 0.0006182292618434563,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 4.59496630917875,
-        "btc_hour_pct": -0.2785324683374446,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:NILUSDT",
-          "change_pct": -5.0012113957991655,
-          "old_ms": 1793751480221,
-          "current_ms": 1793754788254,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.1266,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793751300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NILUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1668423,6 +1668366,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793754208661
+    },
+    {
+      "id": "13755275bfa0e54d3004c66b",
+      "asset_id": "e270ca5d625b548df4913b71",
+      "key": "MEXC:PERP:NILUSDT",
+      "symbol": "NILUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793754791508,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793754803452
     }
   ],
   "runs": [
@@ -1818676,8 +1818630,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6be5dd79b7b01087d74a7fb4d340cbcf231b0139",
-    "previous_success_ms": 1793754526072,
+    "previous_commit": "00029edc95349e58f8adec419bce316d231fb48d",
+    "previous_success_ms": 1793754802212,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
