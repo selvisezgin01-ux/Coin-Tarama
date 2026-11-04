@@ -1713325,7 +1713325,9 @@
           "selected_for_candles": 33,
           "fresh_candidate_quotes": 6
         }
-      }
+      },
+      "finished_ms": 1793757823579,
+      "duration_ms": 41796
     }
   ],
   "radar_admissions": [
@@ -1782009,6 +1782011,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793750438562,
+            "endpoint_ms": 1793750460000,
+            "endpoint_price": 0.05529,
+            "return_pct": 3.297524521251738,
+            "btc_excess_pct_points": 2.446733003257129,
+            "mae_pct": -2.550210182157875,
+            "mfe_pct": 4.511910322279289,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 21438,
+            "measured_ms": 1793757817721,
+            "cost_scenarios_pct": {
+              "0.2": 3.0975245212517377,
+              "0.5": 2.797524521251738,
+              "1": 2.297524521251738
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793664000000,
@@ -1782018,7 +1782042,7 @@
         "observation_lag_ms": 38562,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 11733,
-        "last_measure_attempt_ms": 1793715127076
+        "last_measure_attempt_ms": 1793757817721
       },
       "85d7df5b278c2a1875bc2c37:radar": {
         "symbol": "AVAXUSDT",
@@ -1794101,13 +1794125,37 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793757489395,
+            "endpoint_ms": 1793757540000,
+            "endpoint_price": 0.03042,
+            "return_pct": 4.554047087128366,
+            "btc_excess_pct_points": 4.849965071816076,
+            "mae_pct": -0.7045884172538264,
+            "mfe_pct": 7.784842756487365,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 50605,
+            "measured_ms": 1793757817721,
+            "cost_scenarios_pct": {
+              "0.2": 4.354047087128365,
+              "0.5": 4.054047087128366,
+              "1": 3.5540470871283656
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793753100000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "BMTUSDT",
         "observation_lag_ms": 789395,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "last_measure_attempt_ms": 1793757817721
       },
       "1620630208436f2173bbeb8d:radar": {
         "symbol": "BTWUSDT",
@@ -1794160,7 +1794208,7 @@
     "queue": {
       "due": 81,
       "attempted": 2,
-      "observed_ms": 1793757511402,
+      "observed_ms": 1793757817721,
       "unique_reads": 4
     },
     "summary": {
@@ -1794196,8 +1794244,8 @@
             "first_per_symbol": 137,
             "hours": {
               "1": {
-                "known_first_symbols": 136,
-                "median_reference_return_pct": 1.1102230246251565e-14
+                "known_first_symbols": 137,
+                "median_reference_return_pct": 2.220446049250313e-14
               },
               "4": {
                 "known_first_symbols": 125,
@@ -1820178,8 +1820226,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3334f632adb8c5a4d34f51be4efeb07918a664c1",
-    "previous_success_ms": 1793757806676,
+    "previous_commit": "eab831b7aa11d774cb2f5c382e6500f490c036cc",
+    "previous_success_ms": 1793757817677,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
