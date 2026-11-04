@@ -1777619,60 +1777619,7 @@
       "source_close_ms": 1793819700000
     }
   },
-  "pending": [
-    {
-      "id": "61fdd874ea5f1a4d87e9d6cb",
-      "asset_id": "965545a41c7aa04ec54ee050",
-      "key": "OKX:SPOT:BASEDUSDT",
-      "symbol": "BASEDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793820680359,
-      "price": 0.0506,
-      "level": 0.05079,
-      "invalid": 0.04892186075594474,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05079,
-        "base_invalid": 0.04892186075594474,
-        "atr": 0.0005209282937017192,
-        "rvol": 2.0934000165921782,
-        "close_position": 0.9777777777777786,
-        "breakout": true,
-        "bar_close_ms": 1793819700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5721393034825892,
-        "score": 4.071177794369957
-      },
-      "context": {
-        "atr": 0.0005205606868874548,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.32592922008986003,
-        "btc_hour_pct": -0.08679012084714666,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BASEDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BASEDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1794503,6 +1794450,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793820092724
+    },
+    {
+      "id": "61fdd874ea5f1a4d87e9d6cb",
+      "asset_id": "965545a41c7aa04ec54ee050",
+      "key": "OKX:SPOT:BASEDUSDT",
+      "symbol": "BASEDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793820680359,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793820695408
     }
   ],
   "runs": [
@@ -1957582,8 +1957540,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "87e527de8ff8dd318961e8325e8e7bba158516f8",
-    "previous_success_ms": 1793820415344,
+    "previous_commit": "bb7544632cd540e075ad641c898b1081351aa386",
+    "previous_success_ms": 1793820694207,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
