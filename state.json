@@ -1766587,108 +1766587,7 @@
       "source_close_ms": 1793812500000
     }
   },
-  "pending": [
-    {
-      "id": "73bb5333ee647e33456d00c1",
-      "asset_id": "534e0f7bd026cc5510eecfaf",
-      "key": "MEXC:SPOT:METUSDT",
-      "symbol": "METUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793814683263,
-      "price": 0.29685,
-      "level": 0.2986,
-      "invalid": 0.2904381907265218,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2986,
-        "base_invalid": 0.2904381907265218,
-        "atr": 0.0030787284898545473,
-        "rvol": 3.4208782735728347,
-        "close_position": 0.8181818181818113,
-        "breakout": false,
-        "bar_close_ms": 1793814300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.4388926401080462,
-        "score": 4.739060091754646
-      },
-      "context": {
-        "atr": 0.0030787284898545473,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5009704922861689,
-        "btc_hour_pct": 0.30975721526420585,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:METUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793814300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "METUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "91775e2e8f0e9e4c9aa2b031",
-      "asset_id": "1cfd608bf37a60dbacb755af",
-      "key": "MEXC:SPOT:RAYUSDT",
-      "symbol": "RAYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793814683263,
-      "price": 1.744,
-      "level": 1.7639,
-      "invalid": 1.7126040290736195,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7639,
-        "base_invalid": 1.7126040290736195,
-        "atr": 0.01997313950920268,
-        "rvol": 2.5732053972379054,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793814300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.4818171389239345,
-        "score": 4.073205397237905
-      },
-      "context": {
-        "atr": 0.01997313950920268,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5647334122826484,
-        "btc_hour_pct": 0.30975721526420585,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RAYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793814300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RAYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1783299,6 +1783198,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793813648553
+    },
+    {
+      "id": "73bb5333ee647e33456d00c1",
+      "asset_id": "534e0f7bd026cc5510eecfaf",
+      "key": "MEXC:SPOT:METUSDT",
+      "symbol": "METUSDT",
+      "phase": "radar",
+      "observed_ms": 1793814683263,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793814696173
+    },
+    {
+      "id": "91775e2e8f0e9e4c9aa2b031",
+      "asset_id": "1cfd608bf37a60dbacb755af",
+      "key": "MEXC:SPOT:RAYUSDT",
+      "symbol": "RAYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793814683263,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793814696174
     }
   ],
   "runs": [
@@ -1918664,7 +1918585,8 @@
         "entry_seq": 0,
         "cohort": "METUSDT",
         "observation_lag_ms": 383263,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12910
       },
       "1cfd608bf37a60dbacb755af:radar": {
         "symbol": "RAYUSDT",
@@ -1918686,7 +1918608,8 @@
         "entry_seq": 0,
         "cohort": "RAYUSDT",
         "observation_lag_ms": 383263,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12911
       }
     },
     "errors": [],
@@ -1944711,8 +1944634,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f04c73b42946a0ec1d43bd3e8e89b216301a7a6b",
-    "previous_success_ms": 1793814667419,
+    "previous_commit": "23032201353ab8d86e76b613769597919e6dd076",
+    "previous_success_ms": 1793814695054,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
