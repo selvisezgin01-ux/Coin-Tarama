@@ -1675964,112 +1675964,7 @@
       "source_close_ms": 1793767500000
     }
   },
-  "pending": [
-    {
-      "id": "325c7a9f785a84f42b6f7492",
-      "asset_id": "2007da508e74e77f58dd9fa4",
-      "key": "MEXC:SPOT:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793768809330,
-      "price": 639.31,
-      "level": 633.57,
-      "invalid": 623.7057622337325,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 633.57,
-        "base_invalid": 623.7057622337325,
-        "atr": 4.228251775116936,
-        "rvol": 16.95872130530078,
-        "close_position": 0.967857142857145,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6104343389246711,
-        "score": 7.967857142857145
-      },
-      "context": {
-        "atr": 4.228251775116936,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4466933535480555,
-        "btc_hour_pct": 1.1637409853766156,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "9174d920cd0ed6f8bf5dd0b7",
-      "asset_id": "cc36183077178af36218bb4b",
-      "key": "MEXC:PERP:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793768812022,
-      "price": 639.51,
-      "level": 632.75,
-      "invalid": 623.4713708377951,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 632.75,
-        "base_invalid": 623.4713708377951,
-        "atr": 4.190861081366191,
-        "rvol": 3.701644395778014,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5835337974542396,
-        "score": 5.701644395778014
-      },
-      "context": {
-        "atr": 4.190861081366191,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.420705084529871,
-        "btc_hour_pct": 1.1628287129243686,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XMRUSDT",
-          "change_pct": 0.8594794786039417,
-          "old_ms": 1793765198310,
-          "current_ms": 1793768810059,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1691327,6 +1691222,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793768528018
+    },
+    {
+      "id": "325c7a9f785a84f42b6f7492",
+      "asset_id": "2007da508e74e77f58dd9fa4",
+      "key": "MEXC:SPOT:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793768809330,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793768824227
+    },
+    {
+      "id": "9174d920cd0ed6f8bf5dd0b7",
+      "asset_id": "cc36183077178af36218bb4b",
+      "key": "MEXC:PERP:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "radar",
+      "observed_ms": 1793768812022,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793768824228
     }
   ],
   "runs": [
@@ -1818883,7 +1818800,8 @@
         "entry_seq": 0,
         "cohort": "XMRUSDT",
         "observation_lag_ms": 409330,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14897
       },
       "cc36183077178af36218bb4b:radar": {
         "symbol": "XMRUSDT",
@@ -1818905,7 +1818823,8 @@
         "entry_seq": 0,
         "cohort": "XMRUSDT",
         "observation_lag_ms": 412022,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12206
       }
     },
     "errors": [],
@@ -1844944,8 +1844863,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e2494a4d1c8e8d47b0bf853b87cae0a754102f30",
-    "previous_success_ms": 1793768547369,
+    "previous_commit": "826bf29ccce998ca039fa939dc212d5c7639681c",
+    "previous_success_ms": 1793768822769,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
