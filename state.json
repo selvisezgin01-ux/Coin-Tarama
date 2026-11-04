@@ -1764639,218 +1764639,7 @@
       "source_close_ms": 1793809800000
     }
   },
-  "pending": [
-    {
-      "id": "bbd6a460c94a665a8b07629d",
-      "asset_id": "322d7bd300717a598f354375",
-      "key": "MEXC:PERP:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793810333496,
-      "price": 0.02816,
-      "level": 0.02755,
-      "invalid": 0.026251213146141966,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02755,
-        "base_invalid": 0.026251213146141966,
-        "atr": 0.0003252456923868893,
-        "rvol": 4.466023628808267,
-        "close_position": 0.9245283018867894,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3809523809523725,
-        "score": 6.390551930695056
-      },
-      "context": {
-        "atr": 0.0003252456923868893,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1490024064378934,
-        "btc_hour_pct": 1.202621333763676,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MERLUSDT",
-          "change_pct": -0.6028314227807252,
-          "old_ms": 1793806588570,
-          "current_ms": 1793810329603,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0bf7df75e9f2d136cfeb5469",
-      "asset_id": "f5d179bc70ab60199d19507f",
-      "key": "MEXC:SPOT:CAKEUSDT",
-      "symbol": "CAKEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793810331330,
-      "price": 2.0244999999999997,
-      "level": 2.013,
-      "invalid": 1.9135838557501954,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.013,
-        "base_invalid": 1.9135838557501954,
-        "atr": 0.0161076283320297,
-        "rvol": 2.702730155797469,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.509813789632597,
-        "score": 4.702730155797469
-      },
-      "context": {
-        "atr": 0.0161076283320297,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4298365070411156,
-        "btc_hour_pct": 1.1963220923409734,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CAKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CAKEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0cd78c80f2e5811d0ab97747",
-      "asset_id": "4bd3e72d50ddf3d293ee188d",
-      "key": "OKX:SPOT:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793810332267,
-      "price": 0.028185,
-      "level": 0.02755,
-      "invalid": 0.026268518045211214,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02755,
-        "base_invalid": 0.026268518045211214,
-        "atr": 0.00034321303192524357,
-        "rvol": 2.4424298832763895,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.5265470523617717,
-        "score": 4.4424298832763895
-      },
-      "context": {
-        "atr": 0.00034321303192524357,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.9991619821114517,
-        "btc_hour_pct": 1.2023305552019803,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "560c92f5985aff881554e6f4",
-      "asset_id": "c81c1291d2ad1492bc269f6f",
-      "key": "OKX:PERP:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793810332942,
-      "price": 0.02813,
-      "level": 0.02754,
-      "invalid": 0.026186078313351773,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02754,
-        "base_invalid": 0.026186078313351773,
-        "atr": 0.0003594779109881791,
-        "rvol": 2.0047926991822775,
-        "close_position": 0.8793103448275853,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.421129860601612,
-        "score": 3.884103044009863
-      },
-      "context": {
-        "atr": 0.0003594779109881791,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0918272012999664,
-        "btc_hour_pct": 1.2250636806133475,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1781329,6 +1781118,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793810048042
+    },
+    {
+      "id": "bbd6a460c94a665a8b07629d",
+      "asset_id": "322d7bd300717a598f354375",
+      "key": "MEXC:PERP:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793810333496,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793810347242
+    },
+    {
+      "id": "0bf7df75e9f2d136cfeb5469",
+      "asset_id": "f5d179bc70ab60199d19507f",
+      "key": "MEXC:SPOT:CAKEUSDT",
+      "symbol": "CAKEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793810331330,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793810347242
+    },
+    {
+      "id": "0cd78c80f2e5811d0ab97747",
+      "asset_id": "4bd3e72d50ddf3d293ee188d",
+      "key": "OKX:SPOT:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793810332267,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793810347242
+    },
+    {
+      "id": "560c92f5985aff881554e6f4",
+      "asset_id": "c81c1291d2ad1492bc269f6f",
+      "key": "OKX:PERP:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793810332942,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793810347242
     }
   ],
   "runs": [
@@ -1915742,7 +1915575,8 @@
         "entry_seq": 0,
         "cohort": "MERLUSDT",
         "observation_lag_ms": 533496,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13746
       },
       "f5d179bc70ab60199d19507f:radar": {
         "symbol": "CAKEUSDT",
@@ -1915764,7 +1915598,8 @@
         "entry_seq": 0,
         "cohort": "CAKEUSDT",
         "observation_lag_ms": 531330,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15912
       },
       "4bd3e72d50ddf3d293ee188d:radar": {
         "symbol": "MERLUSDT",
@@ -1915786,7 +1915621,8 @@
         "entry_seq": 0,
         "cohort": "MERLUSDT",
         "observation_lag_ms": 532267,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14975
       },
       "c81c1291d2ad1492bc269f6f:radar": {
         "symbol": "MERLUSDT",
@@ -1915808,7 +1915644,8 @@
         "entry_seq": 0,
         "cohort": "MERLUSDT",
         "observation_lag_ms": 532942,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14300
       }
     },
     "errors": [],
@@ -1941840,8 +1941677,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3313389833c01d61e033ee316359b8812b34c5d3",
-    "previous_success_ms": 1793810074563,
+    "previous_commit": "9468ca08c7a78c44c462ce73fe8c2332ebeac0c7",
+    "previous_success_ms": 1793810345794,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
