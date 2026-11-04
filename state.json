@@ -1796785,60 +1796785,7 @@
       "source_close_ms": 1793834100000
     }
   },
-  "pending": [
-    {
-      "id": "2888db43ef95ce6a9cdb853b",
-      "asset_id": "58257baa379d6cf8b69db74e",
-      "key": "OKX:PERP:XTZUSDT",
-      "symbol": "XTZUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793834855594,
-      "price": 0.25595,
-      "level": 0.2554,
-      "invalid": 0.2511203400992663,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2554,
-        "base_invalid": 0.2511203400992663,
-        "atr": 0.0011977326715579119,
-        "rvol": 6.59755360150388,
-        "close_position": 0.8947368421052755,
-        "breakout": false,
-        "bar_close_ms": 1793834100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.4325599685410797,
-        "score": 7.394736842105275
-      },
-      "context": {
-        "atr": 0.0011977326715579119,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09489955191652744,
-        "btc_hour_pct": 0.6077200647370384,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:XTZUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793834100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XTZUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1814197,6 +1814144,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793834218596
+    },
+    {
+      "id": "2888db43ef95ce6a9cdb853b",
+      "asset_id": "58257baa379d6cf8b69db74e",
+      "key": "OKX:PERP:XTZUSDT",
+      "symbol": "XTZUSDT",
+      "phase": "radar",
+      "observed_ms": 1793834855594,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793834873785
     }
   ],
   "runs": [
@@ -1954311,7 +1954269,8 @@
         "entry_seq": 0,
         "cohort": "XTZUSDT",
         "observation_lag_ms": 755594,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 18191
       }
     },
     "errors": [],
@@ -1980334,8 +1980293,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "088b6e5a09c8ec67d905ab3ae4f1158e79e49e42",
-    "previous_success_ms": 1793834848897,
+    "previous_commit": "7baba3df96153edcd147b572d6a8e10860fea6a0",
+    "previous_success_ms": 1793834872227,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
