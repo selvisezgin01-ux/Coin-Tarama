@@ -1779186,60 +1779186,7 @@
       "source_close_ms": 1793829600000
     }
   },
-  "pending": [
-    {
-      "id": "1099ddb50ab9df9d12b678b1",
-      "asset_id": "c81c1291d2ad1492bc269f6f",
-      "key": "OKX:PERP:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793829709552,
-      "price": 0.028565,
-      "level": 0.02754,
-      "invalid": 0.026186078313351773,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02754,
-        "base_invalid": 0.026186078313351773,
-        "atr": 0.0003594779109881791,
-        "rvol": 2.0047926991822775,
-        "close_position": 0.8793103448275853,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.421129860601612,
-        "score": 3.884103044009863
-      },
-      "context": {
-        "atr": 0.0003729213096019497,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.0271167893142428,
-        "btc_hour_pct": 0.12034205105797557,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1796400,6 +1796347,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793829115834
+    },
+    {
+      "id": "1099ddb50ab9df9d12b678b1",
+      "asset_id": "c81c1291d2ad1492bc269f6f",
+      "key": "OKX:PERP:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793829709552,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793829721898
     }
   ],
   "runs": [
@@ -1961568,8 +1961526,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "01821e38db192c0115195219af432432000f1302",
-    "previous_success_ms": 1793829435462,
+    "previous_commit": "dcb3d2ca4db209bf9170200e1fd85c0f8750654d",
+    "previous_success_ms": 1793829720685,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
