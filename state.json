@@ -1778740,58 +1778740,7 @@
       "source_close_ms": 1793819700000
     }
   },
-  "pending": [
-    {
-      "id": "13d0eb3de300a813ba41a205",
-      "asset_id": "d3c865d9c0b96ed9600b7e98",
-      "key": "OKX:SPOT:VELOUSDT",
-      "symbol": "VELOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793820976896,
-      "price": 0.0036115,
-      "level": 0.003691,
-      "invalid": 0.003593672781415512,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003691,
-        "base_invalid": 0.003593672781415512,
-        "atr": 3.551479056325285e-05,
-        "rvol": 4.066018048324777,
-        "close_position": 0.9615384615384565,
-        "breakout": false,
-        "bar_close_ms": 1793820600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.16551724137932045,
-        "score": 5.527556509863233
-      },
-      "context": {
-        "atr": 3.551479056325285e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7622923223191136,
-        "btc_hour_pct": -0.08679012084714666,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VELOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793820600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VELOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1795633,6 +1795582,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793820695408
+    },
+    {
+      "id": "13d0eb3de300a813ba41a205",
+      "asset_id": "d3c865d9c0b96ed9600b7e98",
+      "key": "OKX:SPOT:VELOUSDT",
+      "symbol": "VELOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793820976896,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793820990755
     }
   ],
   "runs": [
@@ -1932785,7 +1932745,8 @@
         "entry_seq": 0,
         "cohort": "VELOUSDT",
         "observation_lag_ms": 376896,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13859
       }
     },
     "errors": [],
@@ -1958809,8 +1958770,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "58c1dd56402e4ca9f13358409551dbd1aea997f8",
-    "previous_success_ms": 1793820723431,
+    "previous_commit": "2e82bff3221ea435ae13a7ed09737a4d7057f544",
+    "previous_success_ms": 1793820989686,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
