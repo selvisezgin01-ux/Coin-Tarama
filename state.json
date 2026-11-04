@@ -1767187,58 +1767187,7 @@
       "source_close_ms": 1793812500000
     }
   },
-  "pending": [
-    {
-      "id": "bce847ebefdf1d716c4a2d5f",
-      "asset_id": "fbe5cb39924fd50363a73adb",
-      "key": "MEXC:SPOT:FOLKSUSDT",
-      "symbol": "FOLKSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793815283093,
-      "price": 2.5319,
-      "level": 2.5236,
-      "invalid": 2.3961260338520654,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.5236,
-        "base_invalid": 2.3961260338520654,
-        "atr": 0.044493107652899135,
-        "rvol": 2.710399297944258,
-        "close_position": 0.987234042553191,
-        "breakout": true,
-        "bar_close_ms": 1793815200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0552402270365357,
-        "score": 4.697633340497449
-      },
-      "context": {
-        "atr": 0.044493107652899135,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1970367123860792,
-        "btc_hour_pct": -0.14179648534954348,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FOLKSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793815200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FOLKSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1783871,6 +1783820,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793814696174
+    },
+    {
+      "id": "bce847ebefdf1d716c4a2d5f",
+      "asset_id": "fbe5cb39924fd50363a73adb",
+      "key": "MEXC:SPOT:FOLKSUSDT",
+      "symbol": "FOLKSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793815283093,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793815296840
     }
   ],
   "runs": [
@@ -1919464,7 +1919424,8 @@
         "entry_seq": 0,
         "cohort": "FOLKSUSDT",
         "observation_lag_ms": 83093,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13747
       }
     },
     "errors": [],
@@ -1945494,8 +1945455,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a59e0e212b3e9c04b27853b1390fbddbdcc62b21",
-    "previous_success_ms": 1793815015268,
+    "previous_commit": "af4504145aaaf2bf3741e447d02581a06384273c",
+    "previous_success_ms": 1793815295763,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
