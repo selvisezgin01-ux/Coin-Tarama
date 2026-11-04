@@ -1706443,112 +1706443,7 @@
       "source_close_ms": 1793784600000
     }
   },
-  "pending": [
-    {
-      "id": "50db794cf731d62b44beb879",
-      "asset_id": "a990098ce42e9d1784615e02",
-      "key": "MEXC:PERP:WOOUSDT",
-      "symbol": "WOOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793784754399,
-      "price": 0.012155,
-      "level": 0.01216,
-      "invalid": 0.01171249166752452,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01216,
-        "base_invalid": 0.01171249166752452,
-        "atr": 0.00011672221650319827,
-        "rvol": 2.5066190318280825,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793764800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.023608768971319,
-        "score": 4.006619031828082
-      },
-      "context": {
-        "atr": 9.039567113892162e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5380654941500973,
-        "btc_hour_pct": 0.45636614774486883,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:WOOUSDT",
-          "change_pct": -0.2479109816034053,
-          "old_ms": 1793781139501,
-          "current_ms": 1793784753434,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793764800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WOOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "50a1bc35b8e1df237b1d99b1",
-      "asset_id": "c27c5c140d47589edff9b848",
-      "key": "OKX:PERP:ZRXUSDT",
-      "symbol": "ZRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793784754197,
-      "price": 0.09813,
-      "level": 0.09802,
-      "invalid": 0.09648092118506656,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09802,
-        "base_invalid": 0.09648092118506656,
-        "atr": 0.0005938587662229531,
-        "rvol": 5.801331666406114,
-        "close_position": 0.664122137404574,
-        "breakout": true,
-        "bar_close_ms": 1793781000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4476386036960998,
-        "score": 7.4654538038106875
-      },
-      "context": {
-        "atr": 0.000565175069607104,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6718734754219025,
-        "btc_hour_pct": 0.4565631269580761,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793781000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZRXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1722367,6 +1722262,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793784166691
+    },
+    {
+      "id": "50db794cf731d62b44beb879",
+      "asset_id": "a990098ce42e9d1784615e02",
+      "key": "MEXC:PERP:WOOUSDT",
+      "symbol": "WOOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793784754399,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793784767536
+    },
+    {
+      "id": "50a1bc35b8e1df237b1d99b1",
+      "asset_id": "c27c5c140d47589edff9b848",
+      "key": "OKX:PERP:ZRXUSDT",
+      "symbol": "ZRXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793784754197,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793784767537
     }
   ],
   "runs": [
@@ -1879214,8 +1879131,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e22de2637d683205ea2f8622c0d03e17208934ff",
-    "previous_success_ms": 1793784488041,
+    "previous_commit": "4819320dafcf8e51c6e3c87999bc704d8b8b73c6",
+    "previous_success_ms": 1793784766119,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
