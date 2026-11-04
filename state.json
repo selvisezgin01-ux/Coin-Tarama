@@ -1778178,112 +1778178,7 @@
       "source_close_ms": 1793817000000
     }
   },
-  "pending": [
-    {
-      "id": "67026955a14cbdd6d0faac0e",
-      "asset_id": "ecc3c6c734698e6beeecae5a",
-      "key": "MEXC:PERP:FLUIDUSDT",
-      "symbol": "FLUIDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793817375530,
-      "price": 2.3565,
-      "level": 2.315,
-      "invalid": 2.217138978789438,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.315,
-        "base_invalid": 2.217138978789438,
-        "atr": 0.032406808070412456,
-        "rvol": 2.626689049713217,
-        "close_position": 0.6470588235294081,
-        "breakout": true,
-        "bar_close_ms": 1793817000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4923480542194953,
-        "score": 4.273747873242625
-      },
-      "context": {
-        "atr": 0.032406808070412456,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4579725352428574,
-        "btc_hour_pct": -0.12995128690286295,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FLUIDUSDT",
-          "change_pct": -1.3155852536820833,
-          "old_ms": 1793813919136,
-          "current_ms": 1793817372259,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.029599999999999998,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793817000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLUIDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "879315f019932fc90a54e78c",
-      "asset_id": "dfac7a31852dd37d07afb828",
-      "key": "OKX:SPOT:FLUIDUSDT",
-      "symbol": "FLUIDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793817377219,
-      "price": 2.3539,
-      "level": 2.3163,
-      "invalid": 2.2109421973604215,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.3163,
-        "base_invalid": 2.2109421973604215,
-        "atr": 0.03371868426385753,
-        "rvol": 2.2600557052444468,
-        "close_position": 0.7780082987551882,
-        "breakout": true,
-        "bar_close_ms": 1793817000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.5281634791721297,
-        "score": 4.038064003999635
-      },
-      "context": {
-        "atr": 0.03371868426385753,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.561621600218599,
-        "btc_hour_pct": -0.13324028451084935,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:FLUIDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793817000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLUIDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1794982,6 +1794877,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793817094718
+    },
+    {
+      "id": "67026955a14cbdd6d0faac0e",
+      "asset_id": "ecc3c6c734698e6beeecae5a",
+      "key": "MEXC:PERP:FLUIDUSDT",
+      "symbol": "FLUIDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793817375530,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793817389549
+    },
+    {
+      "id": "879315f019932fc90a54e78c",
+      "asset_id": "dfac7a31852dd37d07afb828",
+      "key": "OKX:SPOT:FLUIDUSDT",
+      "symbol": "FLUIDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793817377219,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793817389549
     }
   ],
   "runs": [
@@ -1931105,7 +1931022,8 @@
         "entry_seq": 0,
         "cohort": "FLUIDUSDT",
         "observation_lag_ms": 375530,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14019
       },
       "dfac7a31852dd37d07afb828:radar": {
         "symbol": "FLUIDUSDT",
@@ -1931127,7 +1931045,8 @@
         "entry_seq": 0,
         "cohort": "FLUIDUSDT",
         "observation_lag_ms": 377219,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12330
       }
     },
     "errors": [],
@@ -1957152,8 +1957071,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a0a080b0406b03deee6995ffc5ae29a82db2adc8",
-    "previous_success_ms": 1793817120908,
+    "previous_commit": "080626b0a210bc04f7ab93a7af9dbe2bd0be8763",
+    "previous_success_ms": 1793817388464,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
