@@ -1758966,58 +1758966,7 @@
       "source_close_ms": 1793807100000
     }
   },
-  "pending": [
-    {
-      "id": "86ac6341ec003db7ce5a8463",
-      "asset_id": "317f268da943bc799a72cd1d",
-      "key": "MEXC:SPOT:TAOUSDT",
-      "symbol": "TAOUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793809133439,
-      "price": 237.27499999999998,
-      "level": 240.41,
-      "invalid": 227.10699184842764,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 240.41,
-        "base_invalid": 227.10699184842764,
-        "atr": 2.1533876771490186,
-        "rvol": 3.027116685126963,
-        "close_position": 0.7700729927007324,
-        "breakout": false,
-        "bar_close_ms": 1793808900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -1.0176419068273712,
-        "score": 4.297189677827696
-      },
-      "context": {
-        "atr": 2.1533876771490186,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7452390675314113,
-        "btc_hour_pct": 1.1963220923409734,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:TAOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793808900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TAOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1775463,6 +1775412,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793808251718
+    },
+    {
+      "id": "86ac6341ec003db7ce5a8463",
+      "asset_id": "317f268da943bc799a72cd1d",
+      "key": "MEXC:SPOT:TAOUSDT",
+      "symbol": "TAOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793809133439,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793809147742
     }
   ],
   "runs": [
@@ -1909574,7 +1909534,8 @@
         "entry_seq": 0,
         "cohort": "TAOUSDT",
         "observation_lag_ms": 233439,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14303
       }
     },
     "errors": [],
@@ -1935599,8 +1935560,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9e240a7fc6498dc89c5eba5e91b0154136d1387d",
-    "previous_success_ms": 1793808870270,
+    "previous_commit": "e09163ddd8ff0e23b8e6292211e016265694a017",
+    "previous_success_ms": 1793809146436,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
