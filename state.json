@@ -1715381,60 +1715381,7 @@
       "source_close_ms": 1793804400000
     }
   },
-  "pending": [
-    {
-      "id": "8645e04bfe3b836b0eae57e8",
-      "asset_id": "e08c84ee53af05eac90ff6e7",
-      "key": "OKX:PERP:COAIUSDT",
-      "symbol": "COAIUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793805410578,
-      "price": 0.2442,
-      "level": 0.2416,
-      "invalid": 0.23401483466440712,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2416,
-        "base_invalid": 0.23401483466440712,
-        "atr": 0.0019011022372858683,
-        "rvol": 9.720319990691085,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793805300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.7288135593220417,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0019011022372858683,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.4685200932579958,
-        "btc_hour_pct": 1.229272776011947,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:COAIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793805300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "COAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1731792,6 +1731739,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793805126138
+    },
+    {
+      "id": "8645e04bfe3b836b0eae57e8",
+      "asset_id": "e08c84ee53af05eac90ff6e7",
+      "key": "OKX:PERP:COAIUSDT",
+      "symbol": "COAIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793805410578,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793805425129
     }
   ],
   "runs": [
@@ -1865202,7 +1865160,8 @@
         "entry_seq": 0,
         "cohort": "COAIUSDT",
         "observation_lag_ms": 110578,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14551
       }
     },
     "errors": [],
@@ -1891263,8 +1891222,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8a0c19e002d2a73a9a5655aec934eca20ce54726",
-    "previous_success_ms": 1793805155444,
+    "previous_commit": "7117b9b48da68a696aa6100757d946978a18f2cf",
+    "previous_success_ms": 1793805423793,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
