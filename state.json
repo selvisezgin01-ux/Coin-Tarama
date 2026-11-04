@@ -1663091,114 +1663091,7 @@
       "source_close_ms": 1793759400000
     }
   },
-  "pending": [
-    {
-      "id": "130985548f3684747466010f",
-      "asset_id": "41b6c24c85ac4a288bb18806",
-      "key": "MEXC:SPOT:BMTUSDT",
-      "symbol": "BMTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793759469725,
-      "price": 0.030995,
-      "level": 0.029,
-      "invalid": 0.025981688874633823,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.029,
-        "base_invalid": 0.025981688874633823,
-        "atr": 0.0007887408357745324,
-        "rvol": 11.060698818991552,
-        "close_position": 0.7074468085106372,
-        "breakout": true,
-        "bar_close_ms": 1793753100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 9.41619585687381,
-        "score": 7.707446808510637
-      },
-      "context": {
-        "atr": 0.0009325067079788274,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.25337415972844,
-        "btc_hour_pct": -0.2712251724301229,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BMTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793753100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e90d0eae86cb3937f34a681f",
-      "asset_id": "2a2db53ee0abd22937afcfc8",
-      "key": "MEXC:PERP:BLURUSDT",
-      "symbol": "BLURUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793759468602,
-      "price": 0.007663,
-      "level": 0.007735,
-      "invalid": 0.0075689840770638605,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.007735,
-        "base_invalid": 0.0075689840770638605,
-        "atr": 6.677281957426123e-05,
-        "rvol": 3.079213049337911,
-        "close_position": 0.8285714285714307,
-        "breakout": true,
-        "bar_close_ms": 1793758500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.693357836702547,
-        "score": 4.907784477909342
-      },
-      "context": {
-        "atr": 6.89500089200949e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.03993879169409409,
-        "btc_hour_pct": -0.27413082916482034,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BLURUSDT",
-          "change_pct": -1.4076333073626657,
-          "old_ms": 1793755979381,
-          "current_ms": 1793759465411,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.12440000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793758500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BLURUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1678170,6 +1678063,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793758584644
+    },
+    {
+      "id": "e90d0eae86cb3937f34a681f",
+      "asset_id": "2a2db53ee0abd22937afcfc8",
+      "key": "MEXC:PERP:BLURUSDT",
+      "symbol": "BLURUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793759468602,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793759481279
     }
   ],
   "runs": [
@@ -1829516,8 +1829420,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "62a6bafb90bece2e29f52b87846096c5950ef84e",
-    "previous_success_ms": 1793759200208,
+    "previous_commit": "333db01910363b9f864794a7580adaf2c110bbac",
+    "previous_success_ms": 1793759480344,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
