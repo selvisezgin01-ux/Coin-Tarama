@@ -1773254,62 +1773254,7 @@
       "source_close_ms": 1793817000000
     }
   },
-  "pending": [
-    {
-      "id": "fb005880c2aa760601e9e871",
-      "asset_id": "31ef427fec57e73ca68e4cb6",
-      "key": "MEXC:PERP:USUSDT",
-      "symbol": "USUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793817982601,
-      "price": 0.005125,
-      "level": 0.005113,
-      "invalid": 0.0047879082554878735,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005113,
-        "base_invalid": 0.0047879082554878735,
-        "atr": 7.394496341417885e-05,
-        "rvol": 7.244182399241078,
-        "close_position": 0.9532710280373848,
-        "breakout": true,
-        "bar_close_ms": 1793817900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8158691701998704,
-        "score": 7.953271028037385
-      },
-      "context": {
-        "atr": 7.394496341417885e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.97770503066327,
-        "btc_hour_pct": -0.12995128690286295,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:USUSDT",
-          "change_pct": 0.8604637857074993,
-          "old_ms": 1793814217552,
-          "current_ms": 1793817979289,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0134,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793817900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "USUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1790030,6 +1789975,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793817389549
+    },
+    {
+      "id": "fb005880c2aa760601e9e871",
+      "asset_id": "31ef427fec57e73ca68e4cb6",
+      "key": "MEXC:PERP:USUSDT",
+      "symbol": "USUSDT",
+      "phase": "radar",
+      "observed_ms": 1793817982601,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793817994594
     }
   ],
   "runs": [
@@ -1926345,7 +1926301,8 @@
         "entry_seq": 0,
         "cohort": "USUSDT",
         "observation_lag_ms": 82601,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11993
       }
     },
     "errors": [],
@@ -1952371,8 +1952328,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5d8adcf6e6c7269a5a651bda008a8a915e733bf1",
-    "previous_success_ms": 1793817712150,
+    "previous_commit": "053f9706139519b8b60fc34943d7d992f579885c",
+    "previous_success_ms": 1793817993455,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
