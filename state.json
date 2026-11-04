@@ -1686151,182 +1686151,7 @@
       "source_close_ms": 1793771100000
     }
   },
-  "pending": [
-    {
-      "id": "e74728124e3400c8e6136da5",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_continuing",
-      "observed_ms": 1793772302744,
-      "price": 0.00023945,
-      "level": 0.000235,
-      "invalid": 0.00023516173503133312,
-      "target": 0.0002463420299373338,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.0947730422626646e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.29068751694030226,
-        "btc_hour_pct": 0.46593291181127316,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.00023516173503133312,
-        "target": 0.0002463420299373338,
-        "risk_pct": 1.0678439077269202,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.000256,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.0002371,
-        "entry_zone_high": 0.00023789606935336162
-      },
-      "reason": null,
-      "source_close_ms": 1793772000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "OMIUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793772000000,
-        "closed_price": 0.0002397,
-        "ema20_1h": 0.00023823876054138442,
-        "atr14_1h": 2.5807582680800473e-06,
-        "structure_floor": 0.000238,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "f118353b1b0b48ed18e11f9b",
-      "asset_id": "442361778f1a111ebc5e89d5",
-      "key": "OKX:SPOT:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793772301476,
-      "price": 22.814999999999998,
-      "level": 22.4,
-      "invalid": 21.36494240368427,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 22.4,
-        "base_invalid": 21.36494240368427,
-        "atr": 0.23371730877150793,
-        "rvol": 11.362135976564948,
-        "close_position": 0.933333333333323,
-        "breakout": true,
-        "bar_close_ms": 1793772000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.981089599279584,
-        "score": 7.933333333333323
-      },
-      "context": {
-        "atr": 0.23371730877150793,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5140492831292152,
-        "btc_hour_pct": 0.4670403161503689,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793772000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "461b0daec8c20025bb0d4a27",
-      "asset_id": "b6da86c0720dc042cd7af89c",
-      "key": "MEXC:SPOT:NPCUSDT",
-      "symbol": "NPCUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793772302744,
-      "price": 0.0156385,
-      "level": 0.015249,
-      "invalid": 0.014857472432878572,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.015249,
-        "base_invalid": 0.014857472432878572,
-        "atr": 0.00013685044747619555,
-        "rvol": 10.948384908846842,
-        "close_position": 0.8355855855855853,
-        "breakout": true,
-        "bar_close_ms": 1793772000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.0349113991007703,
-        "score": 7.835585585585585
-      },
-      "context": {
-        "atr": 0.00013685044747619555,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.568978487289497,
-        "btc_hour_pct": 0.46593291181127316,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:NPCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793772000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NPCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1701672,6 +1701497,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793771226715
+    },
+    {
+      "id": "e74728124e3400c8e6136da5",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "trend_continuing",
+      "observed_ms": 1793772302744,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793772315899
+    },
+    {
+      "id": "f118353b1b0b48ed18e11f9b",
+      "asset_id": "442361778f1a111ebc5e89d5",
+      "key": "OKX:SPOT:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793772301476,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793772315899
+    },
+    {
+      "id": "461b0daec8c20025bb0d4a27",
+      "asset_id": "b6da86c0720dc042cd7af89c",
+      "key": "MEXC:SPOT:NPCUSDT",
+      "symbol": "NPCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793772302744,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793772315899
     }
   ],
   "runs": [
@@ -1829974,7 +1829832,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 301476,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14423
       },
       "b6da86c0720dc042cd7af89c:radar": {
         "symbol": "NPCUSDT",
@@ -1829996,7 +1829855,8 @@
         "entry_seq": 0,
         "cohort": "NPCUSDT",
         "observation_lag_ms": 302744,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13155
       }
     },
     "errors": [],
@@ -1856027,8 +1855887,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f162942b07a6ef89e6424a42b8112d5f8e0e3a0c",
-    "previous_success_ms": 1793772037178,
+    "previous_commit": "aed07acac6e44df51e4f92bc76ca3ad35f037a73",
+    "previous_success_ms": 1793772314571,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
