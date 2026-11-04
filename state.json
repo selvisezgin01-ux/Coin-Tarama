@@ -1692156,216 +1692156,7 @@
       "source_close_ms": 1793773800000
     }
   },
-  "pending": [
-    {
-      "id": "4f764a289f6ead75fdae6857",
-      "asset_id": "4cea882a0a688ded55a2255a",
-      "key": "MEXC:SPOT:HOTUSDT",
-      "symbol": "HOTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793774099309,
-      "price": 0.0005137,
-      "level": 0.0005003,
-      "invalid": 0.0004598927271041934,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005003,
-        "base_invalid": 0.0004598927271041934,
-        "atr": 1.538181930537731e-05,
-        "rvol": 3.4659541191109358,
-        "close_position": 0.7455830388692559,
-        "breakout": true,
-        "bar_close_ms": 1793766600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.249466950959471,
-        "score": 5.2115371579801915
-      },
-      "context": {
-        "atr": 1.585719734255496e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 4.2463189430112624,
-        "btc_hour_pct": 0.46593291181127316,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HOTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793766600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c4e470d70c26e34c932893a9",
-      "asset_id": "a2f44b6937d011777f3ba83e",
-      "key": "MEXC:PERP:STONKUSDT",
-      "symbol": "STONKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793774099531,
-      "price": 0.12257000000000001,
-      "level": 0.11702,
-      "invalid": 0.1122058999530947,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11702,
-        "base_invalid": 0.1122058999530947,
-        "atr": 0.001960666979368709,
-        "rvol": 7.15871891269005,
-        "close_position": 0.9647058823529417,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.493392070484581,
-        "score": 7.964705882352941
-      },
-      "context": {
-        "atr": 0.0018631337122424236,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5668178551184733,
-        "btc_hour_pct": 0.47028163897935293,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:STONKUSDT",
-          "change_pct": 0.7006575401530712,
-          "old_ms": 1793770594335,
-          "current_ms": 1793774095273,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STONKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "95e5b499e8ca40b15e4166f4",
-      "asset_id": "2007da508e74e77f58dd9fa4",
-      "key": "MEXC:SPOT:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793774099309,
-      "price": 640.3050000000001,
-      "level": 633.57,
-      "invalid": 623.7057622337325,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 633.57,
-        "base_invalid": 623.7057622337325,
-        "atr": 4.228251775116936,
-        "rvol": 16.95872130530078,
-        "close_position": 0.967857142857145,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6104343389246711,
-        "score": 7.967857142857145
-      },
-      "context": {
-        "atr": 4.430056119016792,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.8974679210696612,
-        "btc_hour_pct": 0.46593291181127316,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:XMRUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0a585e93af7b80071d13773a",
-      "asset_id": "1f7eb56034c15144d3985cbb",
-      "key": "OKX:SPOT:BONKUSDT",
-      "symbol": "BONKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793774099685,
-      "price": 2.9905e-06,
-      "level": 2.973e-06,
-      "invalid": 2.8067795207295205e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.973e-06,
-        "base_invalid": 2.8067795207295205e-06,
-        "atr": 2.813652846986236e-08,
-        "rvol": 2.1884368000988426,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793773800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4021962937542884,
-        "score": 4.188436800098843
-      },
-      "context": {
-        "atr": 2.813652846986236e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.4673292866130394,
-        "btc_hour_pct": 0.4670403161503689,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BONKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793773800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BONKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1707788,6 +1707579,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793773510650
+    },
+    {
+      "id": "4f764a289f6ead75fdae6857",
+      "asset_id": "4cea882a0a688ded55a2255a",
+      "key": "MEXC:SPOT:HOTUSDT",
+      "symbol": "HOTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793774099309,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793774112327
+    },
+    {
+      "id": "c4e470d70c26e34c932893a9",
+      "asset_id": "a2f44b6937d011777f3ba83e",
+      "key": "MEXC:PERP:STONKUSDT",
+      "symbol": "STONKUSDT",
+      "phase": "expired",
+      "observed_ms": 1793774099531,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793774112327
+    },
+    {
+      "id": "95e5b499e8ca40b15e4166f4",
+      "asset_id": "2007da508e74e77f58dd9fa4",
+      "key": "MEXC:SPOT:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "expired",
+      "observed_ms": 1793774099309,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793774112328
+    },
+    {
+      "id": "0a585e93af7b80071d13773a",
+      "asset_id": "1f7eb56034c15144d3985cbb",
+      "key": "OKX:SPOT:BONKUSDT",
+      "symbol": "BONKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793774099685,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793774112328
     }
   ],
   "runs": [
@@ -1836466,7 +1836301,8 @@
         "entry_seq": 0,
         "cohort": "BONKUSDT",
         "observation_lag_ms": 299685,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12643
       }
     },
     "errors": [],
@@ -1862498,8 +1862334,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3b15a334f9903440cd5cc9792af52354b1b7f03c",
-    "previous_success_ms": 1793773838382,
+    "previous_commit": "28dec75042c08172c1fb5b00d384b1c1a8d81664",
+    "previous_success_ms": 1793774110914,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
