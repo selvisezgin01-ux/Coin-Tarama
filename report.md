@@ -2,32 +2,19 @@
 
 Bağımsız canlı izleme; yerel 50 coinlik araştırma pilotundan ayrıdır. Yalnız ön elemeden geçen spot/USDT pariteleri incelenir. Puan başarı olasılığı değildir.
 
-OKX: evren 461, ön eleme 222, incelenen 214, aday 3. Gözlem 04.11.2026 04:01 TR; mum kesimi 04.11.2026 03:00 TR.
+OKX: evren 461, ön eleme 211, incelenen 204, aday 0. Gözlem 04.11.2026 07:58 TR; mum kesimi 04.11.2026 07:00 TR.
 
-MEXC: evren 1227, ön eleme 546, incelenen 529, aday 1. Gözlem 04.11.2026 04:03 TR; mum kesimi 04.11.2026 03:00 TR.
+MEXC: evren 1228, ön eleme 568, incelenen 554, aday 1. Gözlem 04.11.2026 08:00 TR; mum kesimi 04.11.2026 07:00 TR.
 
 ## Bu döngüde yeni gelenler
 
-XVRTUSDT · OKX  
-Fiyat 235.87 | 24s %7.32 | hacim 13.07x | makas %0.98  
-düşük hacim; makas teyidi gerekli; güncel fiyat kırılan seviyenin altında; ilk kırılım kapanışı; sonraki mum teyidi yok
-
-XSMCIUSDT · OKX  
-Fiyat 33.775 | 24s %10.11 | hacim 36.62x | makas %0.38  
-güncel fiyat kırılan seviyenin altında; ilk kırılım kapanışı; sonraki mum teyidi yok
-
-MYSTUSDT · MEXC  
-Fiyat 0.102695 | 24s %3.86 | hacim 1.42x | makas %0.93  
-düşük hacim; makas teyidi gerekli; ilk kırılım kapanışı; sonraki mum teyidi yok
+Yeni aday yok.
 
 ## Güncel aday listesi
 
 | Coin | Borsa | 24s % | Hacim USDT | Hacim katı | Makas % |
 |---|---|---:|---:|---:|---:|
-| XVRTUSDT | OKX | 7.32 | 33864 | 13.07 | 0.975 |
-| XSMCIUSDT | OKX | 10.11 | 114195 | 36.62 | 0.385 |
-| XBEUSDT | OKX | 7.77 | 163078 | 12.27 | 0.134 |
-| MYSTUSDT | MEXC | 3.86 | 18181 | 1.42 | 0.925 |
+| MYSTUSDT | MEXC | 3.69 | 21059 | 1.42 | 0.668 |
 
 Her borsa kendi fiyatı ve hacmiyle değerlendirilir. Aynı coin iki borsada görünürse borsa etiketi korunur. Bildirimler önceki başarılı taramaya göre yeni girişlerde oluşur; tekrar girişler için 48 saat bildirim beklemesi vardır. Sürekli listede kalan coin her dört saatte tekrar bildirilmez. Bu döngüdeki yokluk yalnız başarılı bir taramadan sonra değerlendirilir.
 
@@ -39,10 +26,10 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 
 | Borsa | Süre | Ölçülen | Medyan % | BTC üstü puan | Kontrol üstü puan | Kontrol ölçülen |
 |---|---:|---:|---:|---:|---:|---:|
-| MEXC | 12s | 95/97 | -1.03 | -0.97 | -0.64 | 95 |
+| MEXC | 12s | 96/97 | -1.04 | -1.00 | -0.69 | 96 |
 | MEXC | 24s | 94/97 | -2.53 | -1.45 | -1.14 | 94 |
 | MEXC | 48s | 88/97 | -4.83 | -2.12 | -0.97 | 88 |
-| OKX | 12s | 103/106 | -0.22 | -0.23 | 0.26 | 103 |
+| OKX | 12s | 105/106 | -0.22 | -0.23 | 0.26 | 105 |
 | OKX | 24s | 102/106 | -0.87 | -0.55 | 0.10 | 102 |
 | OKX | 48s | 101/106 | -1.58 | -0.90 | 1.04 | 101 |
 
@@ -81,7 +68,7 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | FLUXUSDT | MEXC | Yeni kırılım | 28.10.2026 19:54 | 0.06795 | -0.54 | 0.35 | -12.24 |
 | GBCKUSDT | MEXC | Yeni kırılım | 26.10.2026 00:20 | 0.0048565 | -0.65 | -1.31 | -0.94 |
 | GIGGLEUSDT | MEXC | Yeni kırılım | 28.10.2026 07:50 | 31.47 | -1.27 | -0.73 | -9.28 |
-| GMXUSDT | MEXC | Yeni kırılım | 03.11.2026 19:59 | 8.6855 | — | — | — |
+| GMXUSDT | MEXC | Yeni kırılım | 03.11.2026 19:59 | 8.6855 | -1.62 | — | — |
 | GRASSUSDT | MEXC | Yeni kırılım | 26.10.2026 00:20 | 0.7102 | -0.79 | -5.17 | 4.11 |
 | HANAUSDT | MEXC | Yeni kırılım | 29.10.2026 03:57 | 0.0155475 | -5.05 | -17.47 | -8.56 |
 | HOOKRUSDT | MEXC | Yeni kırılım | 02.11.2026 12:04 | 0.019815 | -20.21 | -19.86 | — |
@@ -168,10 +155,10 @@ Her sürüm ve borsanın ilk gerçek alış/satış orta fiyatı ayrı kaydedili
 | ETHFIUSDT | OKX | Yeni kırılım | 29.10.2026 03:55 | 0.6831 | -2.85 | -13.44 | -8.01 |
 | FETUSDT | OKX | Yeni kırılım | 28.10.2026 23:44 | 0.18445 | -3.61 | -9.57 | -10.22 |
 | FLOKIUSDT | OKX | Yeni kırılım | 28.10.2026 07:47 | 2.37e-05 | -0.72 | -0.97 | -1.48 |
-| FLUIDUSDT | OKX | Yeni kırılım | 03.11.2026 19:57 | 1.9851 | — | — | — |
+| FLUIDUSDT | OKX | Yeni kırılım | 03.11.2026 19:57 | 1.9851 | 6.70 | — | — |
 | GASUSDT | OKX | Yeni kırılım | 29.10.2026 19:56 | 1.2239 | -8.03 | -5.56 | -0.56 |
 | GLMUSDT | OKX | Yeni kırılım | 31.10.2026 03:58 | 0.11201 | 3.19 | 3.12 | -1.17 |
-| GMXUSDT | OKX | Yeni kırılım | 03.11.2026 19:57 | 8.686 | — | — | — |
+| GMXUSDT | OKX | Yeni kırılım | 03.11.2026 19:57 | 8.686 | -1.75 | — | — |
 | GRASSUSDT | OKX | Yeni kırılım | 27.10.2026 23:40 | 0.73955 | -1.40 | -6.70 | -17.56 |
 | HYPEUSDT | OKX | Yeni kırılım | 27.10.2026 23:40 | 81.0605 | 0.69 | -0.38 | 13.25 |
 | ILVUSDT | OKX | Yeni kırılım | 31.10.2026 19:39 | 3.1895 | -3.56 | -5.69 | -8.86 |
