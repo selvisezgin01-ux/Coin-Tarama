@@ -1669028,58 +1669028,7 @@
       "source_close_ms": 1793766600000
     }
   },
-  "pending": [
-    {
-      "id": "6dcd498415bc61f009472ae1",
-      "asset_id": "4cea882a0a688ded55a2255a",
-      "key": "MEXC:SPOT:HOTUSDT",
-      "symbol": "HOTUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793767306854,
-      "price": 0.0005032999999999999,
-      "level": 0.0005003,
-      "invalid": 0.0004598927271041934,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0005003,
-        "base_invalid": 0.0004598927271041934,
-        "atr": 1.538181930537731e-05,
-        "rvol": 3.4659541191109358,
-        "close_position": 0.7455830388692559,
-        "breakout": true,
-        "bar_close_ms": 1793766600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 7.249466950959471,
-        "score": 5.2115371579801915
-      },
-      "context": {
-        "atr": 1.538181930537731e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -3.356495344548005,
-        "btc_hour_pct": 0.4135029592835515,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:HOTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793766600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HOTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1684249,6 +1684198,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793766721967
+    },
+    {
+      "id": "6dcd498415bc61f009472ae1",
+      "asset_id": "4cea882a0a688ded55a2255a",
+      "key": "MEXC:SPOT:HOTUSDT",
+      "symbol": "HOTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793767306854,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793767319114
     }
   ],
   "runs": [
@@ -1811450,7 +1811410,8 @@
         "entry_seq": 0,
         "cohort": "HOTUSDT",
         "observation_lag_ms": 706854,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12260
       }
     },
     "errors": [],
@@ -1837473,8 +1837434,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "78f21fa65d2fbef2f016a964675651a073495e65",
-    "previous_success_ms": 1793767040118,
+    "previous_commit": "4cf3e965171d740411e941d8c3af17faa429b004",
+    "previous_success_ms": 1793767317701,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
