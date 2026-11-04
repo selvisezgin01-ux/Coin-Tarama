@@ -1671114,112 +1671114,7 @@
       "source_close_ms": 1793766600000
     }
   },
-  "pending": [
-    {
-      "id": "e40ad3e416500190d30121c0",
-      "asset_id": "fc76147cef2a3fa79d697589",
-      "key": "MEXC:SPOT:WLDUSDT",
-      "symbol": "WLDUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793766710720,
-      "price": 0.37085,
-      "level": 0.3737,
-      "invalid": 0.3618938682364972,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3737,
-        "base_invalid": 0.3618938682364972,
-        "atr": 0.00337421175668511,
-        "rvol": 11.854751911644634,
-        "close_position": 0.9420289855072443,
-        "breakout": true,
-        "bar_close_ms": 1793765700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.770159078442136,
-        "score": 7.942028985507244
-      },
-      "context": {
-        "atr": 0.0033707079086766315,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.250282067009322,
-        "btc_hour_pct": 0.4135029592835515,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793765700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "999416ab529b06e98ba61498",
-      "asset_id": "f1f3b1754f958c9448bf2420",
-      "key": "OKX:PERP:WLDUSDT",
-      "symbol": "WLDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793766710951,
-      "price": 0.37015,
-      "level": 0.3732,
-      "invalid": 0.36071553654412064,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3732,
-        "base_invalid": 0.36071553654412064,
-        "atr": 0.0038964230391957113,
-        "rvol": 2.250155953801537,
-        "close_position": 0.9189189189189131,
-        "breakout": true,
-        "bar_close_ms": 1793765700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.7175404886082832,
-        "score": 4.169074872720451
-      },
-      "context": {
-        "atr": 0.003927519849289228,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.036834312100619826,
-        "btc_hour_pct": 0.41861778633023317,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793765700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1686367,6 +1686262,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793765827033
+    },
+    {
+      "id": "e40ad3e416500190d30121c0",
+      "asset_id": "fc76147cef2a3fa79d697589",
+      "key": "MEXC:SPOT:WLDUSDT",
+      "symbol": "WLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793766710720,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793766721966
+    },
+    {
+      "id": "999416ab529b06e98ba61498",
+      "asset_id": "f1f3b1754f958c9448bf2420",
+      "key": "OKX:PERP:WLDUSDT",
+      "symbol": "WLDUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793766710951,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793766721967
     }
   ],
   "runs": [
@@ -1839470,8 +1839387,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7033a37e5889643cc4db53ca40ff847827d6ad9e",
-    "previous_success_ms": 1793766442387,
+    "previous_commit": "c9c6ebe25ec17f711c395f0b38d409b5b8fbc743",
+    "previous_success_ms": 1793766720470,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
