@@ -1780630,110 +1780630,7 @@
       "source_close_ms": 1793826900000
     }
   },
-  "pending": [
-    {
-      "id": "563cef7d54f8b937fd6ddd12",
-      "asset_id": "d9a3592cc8b7c7b8b7c6378b",
-      "key": "OKX:PERP:GLMUSDT",
-      "symbol": "GLMUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793828805466,
-      "price": 0.11222499999999999,
-      "level": 0.11199,
-      "invalid": 0.11040968913322309,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11199,
-        "base_invalid": 0.11040968913322309,
-        "atr": 0.0005354057785127958,
-        "rvol": 3.133085279286959,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793828700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4842615012106588,
-        "score": 5.133085279286959
-      },
-      "context": {
-        "atr": 0.0005354057785127958,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5847978783960261,
-        "btc_hour_pct": 0.19186607897776486,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GLMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793828700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8d2463fdec48aea77b21f904",
-      "asset_id": "f072641f96a44de5a46f6a8f",
-      "key": "OKX:SPOT:JTOUSDT",
-      "symbol": "JTOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793828804114,
-      "price": 0.3638,
-      "level": 0.3649,
-      "invalid": 0.35669549364100295,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3649,
-        "base_invalid": 0.35669549364100295,
-        "atr": 0.0033633757266472034,
-        "rvol": 2.256131656354199,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793828700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.9164121077478438,
-        "score": 3.756131656354199
-      },
-      "context": {
-        "atr": 0.0033633757266472034,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.3912978067609041,
-        "btc_hour_pct": 0.19203552657243161,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:JTOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793828700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JTOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1797861,6 +1797758,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793828218672
+    },
+    {
+      "id": "563cef7d54f8b937fd6ddd12",
+      "asset_id": "d9a3592cc8b7c7b8b7c6378b",
+      "key": "OKX:PERP:GLMUSDT",
+      "symbol": "GLMUSDT",
+      "phase": "radar",
+      "observed_ms": 1793828805466,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793828818425
+    },
+    {
+      "id": "8d2463fdec48aea77b21f904",
+      "asset_id": "f072641f96a44de5a46f6a8f",
+      "key": "OKX:SPOT:JTOUSDT",
+      "symbol": "JTOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793828804114,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793828818425
     }
   ],
   "runs": [
@@ -1936787,7 +1936706,8 @@
         "entry_seq": 0,
         "cohort": "GLMUSDT",
         "observation_lag_ms": 105466,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12959
       },
       "f072641f96a44de5a46f6a8f:radar": {
         "symbol": "JTOUSDT",
@@ -1936809,7 +1936729,8 @@
         "entry_seq": 0,
         "cohort": "JTOUSDT",
         "observation_lag_ms": 104114,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14311
       }
     },
     "errors": [],
@@ -1962834,8 +1962755,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "464b21e3e69f87efe66006366bc4780761e018e0",
-    "previous_success_ms": 1793828537293,
+    "previous_commit": "81d2d947626e94552cb92de0f4a1133619789763",
+    "previous_success_ms": 1793828817174,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
