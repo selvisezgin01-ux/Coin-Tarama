@@ -1702855,112 +1702855,7 @@
       "source_close_ms": 1793781900000
     }
   },
-  "pending": [
-    {
-      "id": "15e1aba6acefd5596dc23bd1",
-      "asset_id": "ce2cc7116ff47511402ee6dc",
-      "key": "MEXC:SPOT:ZENUSDT",
-      "symbol": "ZENUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793782055883,
-      "price": 5.343999999999999,
-      "level": 5.296,
-      "invalid": 5.174747260603017,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 5.296,
-        "base_invalid": 5.174747260603017,
-        "atr": 0.03501826264654962,
-        "rvol": 2.892124380009315,
-        "close_position": 0.7600000000000213,
-        "breakout": true,
-        "bar_close_ms": 1793776500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.912721049629206,
-        "score": 4.652124380009337
-      },
-      "context": {
-        "atr": 0.03152186124826745,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.32196984097097037,
-        "btc_hour_pct": 0.1690594319279981,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793776500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "579aa70d84d0d5bf399938a4",
-      "asset_id": "c0196a7f1da0a0bbb1b8fb1b",
-      "key": "MEXC:PERP:AKTUSDT",
-      "symbol": "AKTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793782056540,
-      "price": 0.6174,
-      "level": 0.6141,
-      "invalid": 0.5940919071578338,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6141,
-        "base_invalid": 0.5940919071578338,
-        "atr": 0.004720618947774595,
-        "rvol": 6.137254391939298,
-        "close_position": 0.6728971962616851,
-        "breakout": true,
-        "bar_close_ms": 1793778300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4966931216931165,
-        "score": 7.672897196261685
-      },
-      "context": {
-        "atr": 0.0044564311457986555,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3424639219446144,
-        "btc_hour_pct": 0.18814832295332984,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AKTUSDT",
-          "change_pct": -0.03114750148853762,
-          "old_ms": 1793778437483,
-          "current_ms": 1793782051530,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793778300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AKTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1718658,6 +1718553,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793781466705
+    },
+    {
+      "id": "15e1aba6acefd5596dc23bd1",
+      "asset_id": "ce2cc7116ff47511402ee6dc",
+      "key": "MEXC:SPOT:ZENUSDT",
+      "symbol": "ZENUSDT",
+      "phase": "expired",
+      "observed_ms": 1793782055883,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793782069727
+    },
+    {
+      "id": "579aa70d84d0d5bf399938a4",
+      "asset_id": "c0196a7f1da0a0bbb1b8fb1b",
+      "key": "MEXC:PERP:AKTUSDT",
+      "symbol": "AKTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793782056540,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793782069728
     }
   ],
   "runs": [
@@ -1874926,8 +1874843,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cfd1958c79f7b6de0edf525956223aab04e77208",
-    "previous_success_ms": 1793781783092,
+    "previous_commit": "66182d098e5ae92c4f105b642ae9f1e92b371fce",
+    "previous_success_ms": 1793782068351,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
