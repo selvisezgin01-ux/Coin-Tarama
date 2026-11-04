@@ -1774607,58 +1774607,7 @@
       "source_close_ms": 1793821500000
     }
   },
-  "pending": [
-    {
-      "id": "d32f92bcddfa379d5ff67008",
-      "asset_id": "d3c865d9c0b96ed9600b7e98",
-      "key": "OKX:SPOT:VELOUSDT",
-      "symbol": "VELOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793822260458,
-      "price": 0.0035925,
-      "level": 0.003691,
-      "invalid": 0.003593672781415512,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.003691,
-        "base_invalid": 0.003593672781415512,
-        "atr": 3.551479056325285e-05,
-        "rvol": 4.066018048324777,
-        "close_position": 0.9615384615384565,
-        "breakout": false,
-        "bar_close_ms": 1793820600000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.16551724137932045,
-        "score": 5.527556509863233
-      },
-      "context": {
-        "atr": 3.461182443673719e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7622923223191136,
-        "btc_hour_pct": -0.08679012084714666,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:VELOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793820600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VELOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1791544,6 +1791493,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793821678335
+    },
+    {
+      "id": "d32f92bcddfa379d5ff67008",
+      "asset_id": "d3c865d9c0b96ed9600b7e98",
+      "key": "OKX:SPOT:VELOUSDT",
+      "symbol": "VELOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793822260458,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793822274723
     }
   ],
   "runs": [
@@ -1954899,8 +1954859,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1194491a0ff5d66c676fa0188819a3f76f982a13",
-    "previous_success_ms": 1793821999265,
+    "previous_commit": "37a5f19fad8ea4c75e5cf65feaf5848adba7ac04",
+    "previous_success_ms": 1793822273449,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
