@@ -1776178,368 +1776178,7 @@
       "source_close_ms": 1793819700000
     }
   },
-  "pending": [
-    {
-      "id": "7f94bec4dca485b01743627b",
-      "asset_id": "534e0f7bd026cc5510eecfaf",
-      "key": "MEXC:SPOT:METUSDT",
-      "symbol": "METUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793819780900,
-      "price": 0.29675,
-      "level": 0.2986,
-      "invalid": 0.2904381907265218,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2986,
-        "base_invalid": 0.2904381907265218,
-        "atr": 0.0030787284898545473,
-        "rvol": 3.4208782735728347,
-        "close_position": 0.8181818181818113,
-        "breakout": false,
-        "bar_close_ms": 1793814300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.4388926401080462,
-        "score": 4.739060091754646
-      },
-      "context": {
-        "atr": 0.0033065238157539015,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.656735810726583,
-        "btc_hour_pct": -0.0856911348784184,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:METUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793814300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "METUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "15d8eccbcbf5fabed4917e7f",
-      "asset_id": "31ef427fec57e73ca68e4cb6",
-      "key": "MEXC:PERP:USUSDT",
-      "symbol": "USUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793819781967,
-      "price": 0.0050775,
-      "level": 0.005113,
-      "invalid": 0.0047879082554878735,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005113,
-        "base_invalid": 0.0047879082554878735,
-        "atr": 7.394496341417885e-05,
-        "rvol": 7.244182399241078,
-        "close_position": 0.9532710280373848,
-        "breakout": true,
-        "bar_close_ms": 1793817900000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8158691701998704,
-        "score": 7.953271028037385
-      },
-      "context": {
-        "atr": 7.944105951890494e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 3.3356017456971254,
-        "btc_hour_pct": -0.09105938639409894,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:USUSDT",
-          "change_pct": 5.030100666196957,
-          "old_ms": 1793816165294,
-          "current_ms": 1793819777425,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0144,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793817900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "USUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6657e7422a1ebb492ce99175",
-      "asset_id": "61d2be639a519f8484898cfc",
-      "key": "MEXC:PERP:APEUSDT",
-      "symbol": "APEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793819781967,
-      "price": 0.11645,
-      "level": 0.1166,
-      "invalid": 0.11374365373412611,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1166,
-        "base_invalid": 0.11374365373412611,
-        "atr": 0.0010423084391592992,
-        "rvol": 20.724183120115583,
-        "close_position": 0.6470588235294112,
-        "breakout": false,
-        "bar_close_ms": 1793819700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5181347150259086,
-        "score": 7.147058823529411
-      },
-      "context": {
-        "atr": 0.0010423084391592992,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.4382816086163088,
-        "btc_hour_pct": -0.09105938639409894,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:APEUSDT",
-          "change_pct": 27.722603658259825,
-          "old_ms": 1793816165303,
-          "current_ms": 1793819777494,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "715660d387e757504a5dff39",
-      "asset_id": "b29eeee583a56d46025f3b2b",
-      "key": "OKX:SPOT:INJUSDT",
-      "symbol": "INJUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793819782485,
-      "price": 7.8835,
-      "level": 7.897,
-      "invalid": 7.700763883216924,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.897,
-        "base_invalid": 7.700763883216924,
-        "atr": 0.07490744522050576,
-        "rvol": 2.6771523276076423,
-        "close_position": 0.8461538461538461,
-        "breakout": true,
-        "bar_close_ms": 1793819700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.48346055979642255,
-        "score": 4.523306173761489
-      },
-      "context": {
-        "atr": 0.07490744522050576,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.1041710503813742,
-        "btc_hour_pct": -0.08679012084714666,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:INJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a41be16ed68ccc2bc54f1949",
-      "asset_id": "641a2060257ee6beaa7553ea",
-      "key": "MEXC:SPOT:APEUSDT",
-      "symbol": "APEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793819780900,
-      "price": 0.11649999999999999,
-      "level": 0.1163,
-      "invalid": 0.11364274653083123,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1163,
-        "base_invalid": 0.11364274653083123,
-        "atr": 0.0010483564611251503,
-        "rvol": 2.7906637147948237,
-        "close_position": 0.6666666666666666,
-        "breakout": true,
-        "bar_close_ms": 1793819700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4314063848144922,
-        "score": 4.457330381461491
-      },
-      "context": {
-        "atr": 0.0010483564611251503,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.3458819414699166,
-        "btc_hour_pct": -0.0856911348784184,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:APEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5363b7b4f53ffc1080c207a9",
-      "asset_id": "965545a41c7aa04ec54ee050",
-      "key": "OKX:SPOT:BASEDUSDT",
-      "symbol": "BASEDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793819782485,
-      "price": 0.050949999999999995,
-      "level": 0.05079,
-      "invalid": 0.04892186075594474,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.05079,
-        "base_invalid": 0.04892186075594474,
-        "atr": 0.0005209282937017192,
-        "rvol": 2.0934000165921782,
-        "close_position": 0.9777777777777786,
-        "breakout": true,
-        "bar_close_ms": 1793819700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5721393034825892,
-        "score": 4.071177794369957
-      },
-      "context": {
-        "atr": 0.0005209282937017192,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.32592922008986003,
-        "btc_hour_pct": -0.08679012084714666,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BASEDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BASEDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "3d1d57f488e392ce46e243bc",
-      "asset_id": "5589a243baae943a2a108c13",
-      "key": "OKX:SPOT:APEUSDT",
-      "symbol": "APEUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793819782485,
-      "price": 0.116595,
-      "level": 0.11675,
-      "invalid": 0.11383207879955387,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11675,
-        "base_invalid": 0.11383207879955387,
-        "atr": 0.0010528080029741373,
-        "rvol": 2.6704576130092854,
-        "close_position": 0.6799999999999975,
-        "breakout": false,
-        "bar_close_ms": 1793819700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.552438498057839,
-        "score": 3.850457613009283
-      },
-      "context": {
-        "atr": 0.0010528080029741373,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5462214662008136,
-        "btc_hour_pct": -0.08679012084714666,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:APEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1793282,6 +1792921,83 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793818898460
+    },
+    {
+      "id": "7f94bec4dca485b01743627b",
+      "asset_id": "534e0f7bd026cc5510eecfaf",
+      "key": "MEXC:SPOT:METUSDT",
+      "symbol": "METUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793819780900,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793819796195
+    },
+    {
+      "id": "15d8eccbcbf5fabed4917e7f",
+      "asset_id": "31ef427fec57e73ca68e4cb6",
+      "key": "MEXC:PERP:USUSDT",
+      "symbol": "USUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793819781967,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793819796196
+    },
+    {
+      "id": "6657e7422a1ebb492ce99175",
+      "asset_id": "61d2be639a519f8484898cfc",
+      "key": "MEXC:PERP:APEUSDT",
+      "symbol": "APEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793819781967,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793819796196
+    },
+    {
+      "id": "715660d387e757504a5dff39",
+      "asset_id": "b29eeee583a56d46025f3b2b",
+      "key": "OKX:SPOT:INJUSDT",
+      "symbol": "INJUSDT",
+      "phase": "radar",
+      "observed_ms": 1793819782485,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793819796196
+    },
+    {
+      "id": "a41be16ed68ccc2bc54f1949",
+      "asset_id": "641a2060257ee6beaa7553ea",
+      "key": "MEXC:SPOT:APEUSDT",
+      "symbol": "APEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793819780900,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793819796197
+    },
+    {
+      "id": "5363b7b4f53ffc1080c207a9",
+      "asset_id": "965545a41c7aa04ec54ee050",
+      "key": "OKX:SPOT:BASEDUSDT",
+      "symbol": "BASEDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793819782485,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793819796197
+    },
+    {
+      "id": "3d1d57f488e392ce46e243bc",
+      "asset_id": "5589a243baae943a2a108c13",
+      "key": "OKX:SPOT:APEUSDT",
+      "symbol": "APEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793819782485,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793819796197
     }
   ],
   "runs": [
@@ -1929978,7 +1929694,8 @@
         "entry_seq": 0,
         "cohort": "APEUSDT",
         "observation_lag_ms": 81967,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14229
       },
       "b29eeee583a56d46025f3b2b:radar": {
         "symbol": "INJUSDT",
@@ -1930000,7 +1929717,8 @@
         "entry_seq": 0,
         "cohort": "INJUSDT",
         "observation_lag_ms": 82485,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13711
       },
       "641a2060257ee6beaa7553ea:radar": {
         "symbol": "APEUSDT",
@@ -1930022,7 +1929740,8 @@
         "entry_seq": 0,
         "cohort": "APEUSDT",
         "observation_lag_ms": 80900,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15297
       },
       "965545a41c7aa04ec54ee050:radar": {
         "symbol": "BASEDUSDT",
@@ -1930044,7 +1929763,8 @@
         "entry_seq": 0,
         "cohort": "BASEDUSDT",
         "observation_lag_ms": 82485,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13712
       },
       "5589a243baae943a2a108c13:radar": {
         "symbol": "APEUSDT",
@@ -1930066,7 +1929786,8 @@
         "entry_seq": 0,
         "cohort": "APEUSDT",
         "observation_lag_ms": 82485,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13712
       }
     },
     "errors": [],
@@ -1956099,8 +1955820,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6ccd351cb46a519e8d8270493f885bb79eb4e03b",
-    "previous_success_ms": 1793819513468,
+    "previous_commit": "45839e69cfb87bfbcd3e7f65cb1efd998ebcc49c",
+    "previous_success_ms": 1793819795040,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
