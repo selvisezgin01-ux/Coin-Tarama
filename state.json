@@ -1797840,214 +1797840,7 @@
       "source_close_ms": 1793834100000
     }
   },
-  "pending": [
-    {
-      "id": "39b71839f566b595fe78a1aa",
-      "asset_id": "d9a3592cc8b7c7b8b7c6378b",
-      "key": "OKX:PERP:GLMUSDT",
-      "symbol": "GLMUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793834206193,
-      "price": 0.112655,
-      "level": 0.11199,
-      "invalid": 0.11040968913322309,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11199,
-        "base_invalid": 0.11040968913322309,
-        "atr": 0.0005354057785127958,
-        "rvol": 3.133085279286959,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793828700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4842615012106588,
-        "score": 5.133085279286959
-      },
-      "context": {
-        "atr": 0.0004892354116000396,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.2165046295098616,
-        "btc_hour_pct": 0.6077200647370384,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GLMUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793828700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GLMUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b46a02c0cb3cc733acee48d8",
-      "asset_id": "fd72e0673f19f0070a87582a",
-      "key": "OKX:PERP:RENDERUSDT",
-      "symbol": "RENDERUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793834206193,
-      "price": 1.6015000000000001,
-      "level": 1.611,
-      "invalid": 1.5559168842938729,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.611,
-        "base_invalid": 1.5559168842938729,
-        "atr": 0.013887438040847801,
-        "rvol": 3.7058437544918057,
-        "close_position": 0.7999999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793832300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9765674477517434,
-        "score": 5.505843754491804
-      },
-      "context": {
-        "atr": 0.015491004001309065,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.2826391035049234,
-        "btc_hour_pct": 0.6077200647370384,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RENDERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793832300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RENDERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "5a0b750b93d943b17d8ea88a",
-      "asset_id": "563cdc578d2b989a9064a838",
-      "key": "OKX:SPOT:SUSHIUSDT",
-      "symbol": "SUSHIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793834203444,
-      "price": 0.19385000000000002,
-      "level": 0.1946,
-      "invalid": 0.19166439170443827,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1946,
-        "base_invalid": 0.19166439170443827,
-        "atr": 0.0009040553037448525,
-        "rvol": 6.305568113723264,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793832300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6112266112266127,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0008816353922099611,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.2698776302191064,
-        "btc_hour_pct": 0.6095843459836825,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SUSHIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793832300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUSHIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f822ba49938ba9576392059d",
-      "asset_id": "af509b751c5471e217ce4a0e",
-      "key": "MEXC:SPOT:LYNUSDT",
-      "symbol": "LYNUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793834204926,
-      "price": 0.017815,
-      "level": 0.01742,
-      "invalid": 0.01693450872549852,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01742,
-        "base_invalid": 0.01693450872549852,
-        "atr": 0.0003032751633431933,
-        "rvol": 5.911097785241604,
-        "close_position": 0.7934782608695662,
-        "breakout": true,
-        "bar_close_ms": 1793834100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.3450704225352235,
-        "score": 7.70457604611117
-      },
-      "context": {
-        "atr": 0.0003032751633431933,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.996677638119515,
-        "btc_hour_pct": 0.6069845286811759,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:LYNUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793834100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LYNUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1815362,6 +1815155,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793832716326
+    },
+    {
+      "id": "39b71839f566b595fe78a1aa",
+      "asset_id": "d9a3592cc8b7c7b8b7c6378b",
+      "key": "OKX:PERP:GLMUSDT",
+      "symbol": "GLMUSDT",
+      "phase": "expired",
+      "observed_ms": 1793834206193,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793834218595
+    },
+    {
+      "id": "b46a02c0cb3cc733acee48d8",
+      "asset_id": "fd72e0673f19f0070a87582a",
+      "key": "OKX:PERP:RENDERUSDT",
+      "symbol": "RENDERUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793834206193,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793834218595
+    },
+    {
+      "id": "5a0b750b93d943b17d8ea88a",
+      "asset_id": "563cdc578d2b989a9064a838",
+      "key": "OKX:SPOT:SUSHIUSDT",
+      "symbol": "SUSHIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793834203444,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793834218596
+    },
+    {
+      "id": "f822ba49938ba9576392059d",
+      "asset_id": "af509b751c5471e217ce4a0e",
+      "key": "MEXC:SPOT:LYNUSDT",
+      "symbol": "LYNUSDT",
+      "phase": "radar",
+      "observed_ms": 1793834204926,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793834218596
     }
   ],
   "runs": [
@@ -1955357,7 +1955194,8 @@
         "entry_seq": 0,
         "cohort": "LYNUSDT",
         "observation_lag_ms": 104926,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13670
       }
     },
     "errors": [],
@@ -1981383,8 +1981221,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f2c8facb575e78734122eedb504a93553a971c11",
-    "previous_success_ms": 1793833932996,
+    "previous_commit": "6a389a5aa4f8104e9c0e9cab9e5fa6c030840e3a",
+    "previous_success_ms": 1793834217351,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
