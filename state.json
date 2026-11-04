@@ -1808610,8 +1808610,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1dba3c23d68b1dd8f5db0071fe1a5422f90df1ab",
-    "previous_success_ms": 1793752727427,
+    "previous_commit": "96ba1aec98cbbbb778458f04caf8da7de17c5930",
+    "previous_success_ms": 1793753002004,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
