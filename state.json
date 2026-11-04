@@ -1745671,7 +1745671,9 @@
           "selected_for_candles": 34,
           "fresh_candidate_quotes": 8
         }
-      }
+      },
+      "finished_ms": 1793772327047,
+      "duration_ms": 40797
     }
   ],
   "radar_admissions": [
@@ -1829596,14 +1829598,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793772114994,
+            "endpoint_ms": 1793772120000,
+            "endpoint_price": 0.11925,
+            "return_pct": 0.9652019304038584,
+            "btc_excess_pct_points": 0.25882081847961036,
+            "mae_pct": -0.13546693760053685,
+            "mfe_pct": 2.548471763610194,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 5006,
+            "measured_ms": 1793772326086,
+            "cost_scenarios_pct": {
+              "0.2": 0.7652019304038584,
+              "0.5": 0.4652019304038584,
+              "1": -0.03479806959614162
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793768400000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "STONKUSDT",
         "observation_lag_ms": 114994,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 13024
+        "notification_lag_ms": 13024,
+        "last_measure_attempt_ms": 1793772326086
       },
       "7b427ddb8747234375e073ae:radar": {
         "symbol": "NAVXUSDT",
@@ -1829619,14 +1829645,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793772115026,
+            "endpoint_ms": 1793772120000,
+            "endpoint_price": 0.009133,
+            "return_pct": 2.0617980667150926,
+            "btc_excess_pct_points": 1.3661727768712328,
+            "mae_pct": 0,
+            "mfe_pct": 2.195898753981118,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 4974,
+            "measured_ms": 1793772326086,
+            "cost_scenarios_pct": {
+              "0.2": 1.8617980667150926,
+              "0.5": 1.5617980667150926,
+              "1": 1.0617980667150926
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793768400000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "NAVXUSDT",
         "observation_lag_ms": 115026,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 12992
+        "notification_lag_ms": 12992,
+        "last_measure_attempt_ms": 1793772326086
       },
       "c839ca1dd9070a1f817bdfaf:radar": {
         "symbol": "STONKUSDT",
@@ -1829861,24 +1829911,24 @@
     },
     "errors": [],
     "queue": {
-      "due": 54,
+      "due": 56,
       "attempted": 2,
-      "observed_ms": 1793772020451,
+      "observed_ms": 1793772326086,
       "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 760,
-        "unique_symbol_labels": 344,
+        "market_event_references": 762,
+        "unique_symbol_labels": 345,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
           "OKX:SPOT:radar": {
-            "event_references": 212,
+            "event_references": 213,
             "first_per_symbol": 166,
             "hours": {
               "1": {
-                "known_first_symbols": 163,
-                "median_reference_return_pct": -0.08467400508044287
+                "known_first_symbols": 164,
+                "median_reference_return_pct": -0.08293240172831395
               },
               "4": {
                 "known_first_symbols": 158,
@@ -1829895,8 +1829945,8 @@
             }
           },
           "MEXC:SPOT:radar": {
-            "event_references": 166,
-            "first_per_symbol": 139,
+            "event_references": 167,
+            "first_per_symbol": 140,
             "hours": {
               "1": {
                 "known_first_symbols": 138,
@@ -1829921,8 +1829971,8 @@
             "first_per_symbol": 154,
             "hours": {
               "1": {
-                "known_first_symbols": 152,
-                "median_reference_return_pct": -0.10188061647322666
+                "known_first_symbols": 153,
+                "median_reference_return_pct": -0.05446293494705268
               },
               "4": {
                 "known_first_symbols": 142,
@@ -1855887,8 +1855937,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "aed07acac6e44df51e4f92bc76ca3ad35f037a73",
-    "previous_success_ms": 1793772314571,
+    "previous_commit": "e414cba143a46f0e8b479da5724e1e1e7e53e6f0",
+    "previous_success_ms": 1793772326039,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
