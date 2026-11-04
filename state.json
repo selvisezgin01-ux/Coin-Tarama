@@ -1663635,58 +1663635,7 @@
       "source_close_ms": 1793761200000
     }
   },
-  "pending": [
-    {
-      "id": "f37341297f8dd9fe822ca8c3",
-      "asset_id": "64f61e67cf41b57ceccd0a15",
-      "key": "OKX:SPOT:CARDSUSDT",
-      "symbol": "CARDSUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793764266206,
-      "price": 0.24655,
-      "level": 0.2433,
-      "invalid": 0.24001740207429886,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2433,
-        "base_invalid": 0.24001740207429886,
-        "atr": 0.001883986171340994,
-        "rvol": 25.363624080522275,
-        "close_position": 0.8095238095238084,
-        "breakout": true,
-        "bar_close_ms": 1793742300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.571547075902103,
-        "score": 7.809523809523808
-      },
-      "context": {
-        "atr": 0.00392474217802564,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.686910683637488,
-        "btc_hour_pct": -1.1275818782040314,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:CARDSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793742300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CARDSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1678724,6 +1678673,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793763081705
+    },
+    {
+      "id": "f37341297f8dd9fe822ca8c3",
+      "asset_id": "64f61e67cf41b57ceccd0a15",
+      "key": "OKX:SPOT:CARDSUSDT",
+      "symbol": "CARDSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793764266206,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793764278937
     }
   ],
   "runs": [
@@ -1831187,8 +1831147,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "464dc6b16be4bcfcec6ad79df6f43c4bf6fdd0c9",
-    "previous_success_ms": 1793764003297,
+    "previous_commit": "325b15e8ae503a2b8927971d9628ba89e3043c31",
+    "previous_success_ms": 1793764277708,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
