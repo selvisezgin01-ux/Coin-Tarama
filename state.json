@@ -1662008,112 +1662008,7 @@
       "source_close_ms": 1793761200000
     }
   },
-  "pending": [
-    {
-      "id": "b4f3395ff6cfbe9bcec4e2bc",
-      "asset_id": "03a4d0f6c30cdec757d241f5",
-      "key": "OKX:PERP:INITUSDT",
-      "symbol": "INITUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793763069588,
-      "price": 0.128345,
-      "level": 0.12691,
-      "invalid": 0.12195349776411513,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12691,
-        "base_invalid": 0.12195349776411513,
-        "atr": 0.0019766815725657623,
-        "rvol": 3.105540865249913,
-        "close_position": 0.9507042253521155,
-        "breakout": true,
-        "bar_close_ms": 1793763000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.672316384180796,
-        "score": 5.056245090602029
-      },
-      "context": {
-        "atr": 0.0019766815725657623,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.4003892791589534,
-        "btc_hour_pct": -1.141916274189747,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:INITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793763000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "27d063bda293d3366a3b6984",
-      "asset_id": "28cade49e0443c7eaeb5af75",
-      "key": "MEXC:SPOT:MEYUSDT",
-      "symbol": "MEYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793763069222,
-      "price": 0.04037,
-      "level": 0.04025,
-      "invalid": 0.03957243355364217,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.04025,
-        "base_invalid": 0.03957243355364217,
-        "atr": 0.00025044297571887297,
-        "rvol": 2.9434251935488347,
-        "close_position": 0.857142857142876,
-        "breakout": true,
-        "bar_close_ms": 1793763000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0250000000000092,
-        "score": 4.8005680506917106
-      },
-      "context": {
-        "atr": 0.00025044297571887297,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5790365042256282,
-        "btc_hour_pct": -1.1041552245455333,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:MEYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793763000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MEYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1677129,6 +1677024,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793762180733
+    },
+    {
+      "id": "b4f3395ff6cfbe9bcec4e2bc",
+      "asset_id": "03a4d0f6c30cdec757d241f5",
+      "key": "OKX:PERP:INITUSDT",
+      "symbol": "INITUSDT",
+      "phase": "radar",
+      "observed_ms": 1793763069588,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793763081705
+    },
+    {
+      "id": "27d063bda293d3366a3b6984",
+      "asset_id": "28cade49e0443c7eaeb5af75",
+      "key": "MEXC:SPOT:MEYUSDT",
+      "symbol": "MEYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793763069222,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793763081705
     }
   ],
   "runs": [
@@ -1803309,7 +1803226,8 @@
         "entry_seq": 0,
         "cohort": "INITUSDT",
         "observation_lag_ms": 69588,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12117
       },
       "28cade49e0443c7eaeb5af75:radar": {
         "symbol": "MEYUSDT",
@@ -1803331,7 +1803249,8 @@
         "entry_seq": 0,
         "cohort": "MEYUSDT",
         "observation_lag_ms": 69222,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12483
       }
     },
     "errors": [],
@@ -1829356,8 +1829275,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1f09d10851d8849e0f70dd4efdd1ddb31e001510",
-    "previous_success_ms": 1793762804320,
+    "previous_commit": "dda119cbf609ff5fb50c61db6a197b1e6658dff0",
+    "previous_success_ms": 1793763080712,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
