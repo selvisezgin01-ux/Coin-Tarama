@@ -1624436,7 +1624436,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793795614345,
+      "duration_ms": 35057
     }
   ],
   "radar_admissions": [
@@ -1711349,14 +1711351,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793787750602,
+            "endpoint_ms": 1793787780000,
+            "endpoint_price": 0.043175,
+            "return_pct": -1.5393386545039967,
+            "btc_excess_pct_points": -1.8607087780013076,
+            "mae_pct": -1.954389965792469,
+            "mfe_pct": 0,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 29398,
+            "measured_ms": 1793795613352,
+            "cost_scenarios_pct": {
+              "0.2": -1.7393386545039966,
+              "0.5": -2.0393386545039967,
+              "1": -2.5393386545039967
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793783700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "NIGHTUSDT",
         "observation_lag_ms": 450602,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 16089
+        "notification_lag_ms": 16089,
+        "last_measure_attempt_ms": 1793795613352
       },
       "33f439b97116a003f0b71d35:radar": {
         "symbol": "NIGHTUSDT",
@@ -1711372,14 +1711398,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793787751121,
+            "endpoint_ms": 1793787780000,
+            "endpoint_price": 0.043149,
+            "return_pct": -1.5200273878808623,
+            "btc_excess_pct_points": -1.8501911153578021,
+            "mae_pct": -1.9719274221157046,
+            "mfe_pct": 0,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 28879,
+            "measured_ms": 1793795613352,
+            "cost_scenarios_pct": {
+              "0.2": -1.7200273878808623,
+              "0.5": -2.0200273878808623,
+              "1": -2.5200273878808623
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793783700000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "NIGHTUSDT",
         "observation_lag_ms": 451121,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 15570
+        "notification_lag_ms": 15570,
+        "last_measure_attempt_ms": 1793795613352
       },
       "e48cda271f7d01257f3ce252:radar": {
         "symbol": "CAPUSDT",
@@ -1711476,9 +1711526,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 112,
+      "due": 111,
       "attempted": 2,
-      "observed_ms": 1793795309471,
+      "observed_ms": 1793795613352,
       "unique_reads": 4
     },
     "summary": {
@@ -1737490,8 +1737540,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6fd68a20e3f6a1d7c79de13a9a1c0322d665f397",
-    "previous_success_ms": 1793795602077,
+    "previous_commit": "1b16999b53ae248da6061f602d240f2a8957401a",
+    "previous_success_ms": 1793795613301,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
