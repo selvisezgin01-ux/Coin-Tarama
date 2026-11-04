@@ -1692413,164 +1692413,7 @@
       "source_close_ms": 1793774700000
     }
   },
-  "pending": [
-    {
-      "id": "10df0a30e7ff816be1178aad",
-      "asset_id": "64a7f3b7cae710a983d08884",
-      "key": "MEXC:PERP:FLUIDUSDT",
-      "symbol": "FLUIDUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793774999086,
-      "price": 2.2305,
-      "level": 2.129,
-      "invalid": 2.0023766522588717,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.129,
-        "base_invalid": 2.0023766522588717,
-        "atr": 0.03082231827418942,
-        "rvol": 3.460490557750242,
-        "close_position": 0.8800000000000039,
-        "breakout": true,
-        "bar_close_ms": 1793769300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.8017324350337,
-        "score": 5.340490557750246
-      },
-      "context": {
-        "atr": 0.030090158703135944,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.0829098503823307,
-        "btc_hour_pct": 0.47028163897935293,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:FLUIDUSDT",
-          "change_pct": 2.4066138596719133,
-          "old_ms": 1793771195174,
-          "current_ms": 1793774998325,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.011000000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793769300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FLUIDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d43e9f7429f82f3f7613bddc",
-      "asset_id": "9b9edbc746708fef49f878b8",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793774999845,
-      "price": 0.08204,
-      "level": 0.0811,
-      "invalid": 0.07874635392684852,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0811,
-        "base_invalid": 0.07874635392684852,
-        "atr": 0.0005576404876765181,
-        "rvol": 17.800108342736507,
-        "close_position": 0.7040816326530652,
-        "breakout": true,
-        "bar_close_ms": 1793774700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1262376237623828,
-        "score": 7.7040816326530654
-      },
-      "context": {
-        "atr": 0.0005576404876765181,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.6074224524653227,
-        "btc_hour_pct": 0.4670403161503689,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793774700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "05a2e5be695ed683203cb0f5",
-      "asset_id": "0c5ae0dee0b6066c0c04c132",
-      "key": "OKX:SPOT:GMXUSDT",
-      "symbol": "GMXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793774999845,
-      "price": 8.7715,
-      "level": 8.717,
-      "invalid": 8.438028870583977,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.717,
-        "base_invalid": 8.438028870583977,
-        "atr": 0.046474196106821415,
-        "rvol": 3.809896271196985,
-        "close_position": 0.7464788732394511,
-        "breakout": true,
-        "bar_close_ms": 1793774700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.7835906890988564,
-        "score": 5.556375144436436
-      },
-      "context": {
-        "atr": 0.046474196106821415,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.6773234054338726,
-        "btc_hour_pct": 0.4670403161503689,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793774700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1708037,6 +1707880,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793774112328
+    },
+    {
+      "id": "10df0a30e7ff816be1178aad",
+      "asset_id": "64a7f3b7cae710a983d08884",
+      "key": "MEXC:PERP:FLUIDUSDT",
+      "symbol": "FLUIDUSDT",
+      "phase": "expired",
+      "observed_ms": 1793774999086,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793775013183
+    },
+    {
+      "id": "d43e9f7429f82f3f7613bddc",
+      "asset_id": "9b9edbc746708fef49f878b8",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "radar",
+      "observed_ms": 1793774999845,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793775013184
+    },
+    {
+      "id": "05a2e5be695ed683203cb0f5",
+      "asset_id": "0c5ae0dee0b6066c0c04c132",
+      "key": "OKX:SPOT:GMXUSDT",
+      "symbol": "GMXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793774999845,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793775013184
     }
   ],
   "runs": [
@@ -1836878,7 +1836754,8 @@
         "entry_seq": 0,
         "cohort": "AUSDT",
         "observation_lag_ms": 299845,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13339
       },
       "0c5ae0dee0b6066c0c04c132:radar": {
         "symbol": "GMXUSDT",
@@ -1836900,7 +1836777,8 @@
         "entry_seq": 0,
         "cohort": "GMXUSDT",
         "observation_lag_ms": 299845,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13339
       }
     },
     "errors": [],
@@ -1862936,8 +1862814,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2229b8afaee4b498b6d34b80dcd36d5e96471a68",
-    "previous_success_ms": 1793774730454,
+    "previous_commit": "e9069b44bd92dc3122a3968df72459c7baf0c03b",
+    "previous_success_ms": 1793775012045,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
