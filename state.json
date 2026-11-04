@@ -1787261,164 +1787261,7 @@
       "source_close_ms": 1793831400000
     }
   },
-  "pending": [
-    {
-      "id": "fc99cf602a8782255acfe35c",
-      "asset_id": "322d7bd300717a598f354375",
-      "key": "MEXC:PERP:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793832100559,
-      "price": 0.028935000000000002,
-      "level": 0.02755,
-      "invalid": 0.026251213146141966,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02755,
-        "base_invalid": 0.026251213146141966,
-        "atr": 0.0003252456923868893,
-        "rvol": 4.466023628808267,
-        "close_position": 0.9245283018867894,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3809523809523725,
-        "score": 6.390551930695056
-      },
-      "context": {
-        "atr": 0.0003299420720280673,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.017761011099184,
-        "btc_hour_pct": 0.1250961317579513,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:MERLUSDT",
-          "change_pct": 0.42143569829400374,
-          "old_ms": 1793828489516,
-          "current_ms": 1793832097419,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "88d390bc993f3579939f433c",
-      "asset_id": "4bd3e72d50ddf3d293ee188d",
-      "key": "OKX:SPOT:MERLUSDT",
-      "symbol": "MERLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793832099811,
-      "price": 0.028935000000000002,
-      "level": 0.02755,
-      "invalid": 0.026268518045211214,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02755,
-        "base_invalid": 0.026268518045211214,
-        "atr": 0.00034321303192524357,
-        "rvol": 2.4424298832763895,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.5265470523617717,
-        "score": 4.4424298832763895
-      },
-      "context": {
-        "atr": 0.0003574201212908243,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 2.099793574939457,
-        "btc_hour_pct": 0.12004172760260445,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:MERLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "MERLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e067e93eadd5ae9e66b08af6",
-      "asset_id": "e29de5e56083f10655ad47e6",
-      "key": "MEXC:SPOT:ATHUSDT",
-      "symbol": "ATHUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793832100451,
-      "price": 0.0054465,
-      "level": 0.005362,
-      "invalid": 0.005200601454860609,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005362,
-        "base_invalid": 0.005200601454860609,
-        "atr": 4.9323634262603784e-05,
-        "rvol": 3.1869891629803697,
-        "close_position": 0.6288659793814415,
-        "breakout": true,
-        "bar_close_ms": 1793831400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.3814023814023866,
-        "score": 4.815855142361811
-      },
-      "context": {
-        "atr": 4.9323634262603784e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.613770806395264,
-        "btc_hour_pct": 0.12514544976236497,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ATHUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793831400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ATHUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1804656,6 +1804499,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793831519464
+    },
+    {
+      "id": "fc99cf602a8782255acfe35c",
+      "asset_id": "322d7bd300717a598f354375",
+      "key": "MEXC:PERP:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793832100559,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793832113544
+    },
+    {
+      "id": "88d390bc993f3579939f433c",
+      "asset_id": "4bd3e72d50ddf3d293ee188d",
+      "key": "OKX:SPOT:MERLUSDT",
+      "symbol": "MERLUSDT",
+      "phase": "expired",
+      "observed_ms": 1793832099811,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793832113544
+    },
+    {
+      "id": "e067e93eadd5ae9e66b08af6",
+      "asset_id": "e29de5e56083f10655ad47e6",
+      "key": "MEXC:SPOT:ATHUSDT",
+      "symbol": "ATHUSDT",
+      "phase": "radar",
+      "observed_ms": 1793832100451,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793832113544
     }
   ],
   "runs": [
@@ -1944229,7 +1944105,8 @@
         "entry_seq": 0,
         "cohort": "ATHUSDT",
         "observation_lag_ms": 700451,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13093
       }
     },
     "errors": [],
@@ -1970253,8 +1970130,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "aaf452038f1d0bcec14a4d1c28fc1baed4f89ba8",
-    "previous_success_ms": 1793831837323,
+    "previous_commit": "79e32d4ba506ef5c21a60353ffb968120fed7edb",
+    "previous_success_ms": 1793832112011,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
