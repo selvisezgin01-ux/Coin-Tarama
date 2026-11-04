@@ -1556559,58 +1556559,7 @@
       "source_close_ms": 1793794500000
     }
   },
-  "pending": [
-    {
-      "id": "b79b3944a5aa5e2d96f1dd80",
-      "asset_id": "2cb0ecc528ce82ef8a2ae865",
-      "key": "MEXC:PERP:BMTUSDT",
-      "symbol": "BMTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793795288336,
-      "price": 0.030275,
-      "level": 0.03039,
-      "invalid": 0.02894938342450355,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03039,
-        "base_invalid": 0.02894938342450355,
-        "atr": 0.0006707771699763392,
-        "rvol": 5.125767488484187,
-        "close_position": 0.7395833333333328,
-        "breakout": true,
-        "bar_close_ms": 1793794500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.942397856664435,
-        "score": 6.86535082181752
-      },
-      "context": {
-        "atr": 0.0006707771699763392,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6447557455160458,
-        "btc_hour_pct": -0.1749570877979223,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "warming",
-          "market": "MEXC:PERP:BMTUSDT"
-        },
-        "funding_raw_pct": -0.997,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793794500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1572671,6 +1572620,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793794704742
+    },
+    {
+      "id": "b79b3944a5aa5e2d96f1dd80",
+      "asset_id": "2cb0ecc528ce82ef8a2ae865",
+      "key": "MEXC:PERP:BMTUSDT",
+      "symbol": "BMTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793795288336,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793795299861
     }
   ],
   "runs": [
@@ -1703796,7 +1703756,8 @@
         "entry_seq": 0,
         "cohort": "BMTUSDT",
         "observation_lag_ms": 788336,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11525
       }
     },
     "errors": [],
@@ -1729819,8 +1729780,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c6bde5d0eba62e12ebba4af1657ffcd723cbc09f",
-    "previous_success_ms": 1793795018246,
+    "previous_commit": "cf1abba07469a6c09008a08b1a4a1835bef37c47",
+    "previous_success_ms": 1793795298137,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
