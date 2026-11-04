@@ -1606961,110 +1606961,7 @@
       "source_close_ms": 1793798100000
     }
   },
-  "pending": [
-    {
-      "id": "5951750c78d3f70485f78896",
-      "asset_id": "3f0c2890d5f3f7323341d941",
-      "key": "OKX:PERP:CVXUSDT",
-      "symbol": "CVXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793798293067,
-      "price": 1.9144999999999999,
-      "level": 1.927,
-      "invalid": 1.8947158328330187,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.927,
-        "base_invalid": 1.8947158328330187,
-        "atr": 0.015227781113209453,
-        "rvol": 4.730864610414195,
-        "close_position": 0.7142857142857143,
-        "breakout": true,
-        "bar_close_ms": 1793796300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8835758835758822,
-        "score": 6.44515032469991
-      },
-      "context": {
-        "atr": 0.015931901271104634,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.5880310793894181,
-        "btc_hour_pct": -0.2281984434061468,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CVXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793796300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CVXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ea980c640396ec41ee95b8e6",
-      "asset_id": "79bed6adcc6bf312b998e389",
-      "key": "MEXC:SPOT:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793798291712,
-      "price": 0.0290605,
-      "level": 0.02911,
-      "invalid": 0.028737688699958915,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02911,
-        "base_invalid": 0.028737688699958915,
-        "atr": 0.00016874200027389732,
-        "rvol": 2.1661137031330546,
-        "close_position": 0.7950819672131212,
-        "breakout": false,
-        "bar_close_ms": 1793798100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.46685340802987696,
-        "score": 3.461195670346176
-      },
-      "context": {
-        "atr": 0.00016874200027389732,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.2314392983211344,
-        "btc_hour_pct": -0.2341903364182829,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793798100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STABLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1623224,6 +1623121,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793797405053
+    },
+    {
+      "id": "5951750c78d3f70485f78896",
+      "asset_id": "3f0c2890d5f3f7323341d941",
+      "key": "OKX:PERP:CVXUSDT",
+      "symbol": "CVXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793798293067,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793798305321
+    },
+    {
+      "id": "ea980c640396ec41ee95b8e6",
+      "asset_id": "79bed6adcc6bf312b998e389",
+      "key": "MEXC:SPOT:STABLEUSDT",
+      "symbol": "STABLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793798291712,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793798305322
     }
   ],
   "runs": [
@@ -1754971,7 +1754890,8 @@
         "entry_seq": 0,
         "cohort": "STABLEUSDT",
         "observation_lag_ms": 191712,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13610
       }
     },
     "errors": [],
@@ -1781001,8 +1780921,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "5bf16b16665757dabf2098a25a446e9d845b1084",
-    "previous_success_ms": 1793798022462,
+    "previous_commit": "ffa09266d5953583196abe4a294f678675ce9a2c",
+    "previous_success_ms": 1793798303652,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
