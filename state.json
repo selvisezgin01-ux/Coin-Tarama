@@ -1692321,60 +1692321,7 @@
       "source_close_ms": 1793776500000
     }
   },
-  "pending": [
-    {
-      "id": "961d04c5a0d91f376ba95bd3",
-      "asset_id": "ce2cc7116ff47511402ee6dc",
-      "key": "MEXC:SPOT:ZENUSDT",
-      "symbol": "ZENUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793777396184,
-      "price": 5.329000000000001,
-      "level": 5.296,
-      "invalid": 5.174747260603017,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 5.296,
-        "base_invalid": 5.174747260603017,
-        "atr": 0.03501826264654962,
-        "rvol": 2.892124380009315,
-        "close_position": 0.7600000000000213,
-        "breakout": true,
-        "bar_close_ms": 1793776500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.912721049629206,
-        "score": 4.652124380009337
-      },
-      "context": {
-        "atr": 0.03501826264654962,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.3354894602415337,
-        "btc_hour_pct": 0.32990977930218435,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:ZENUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793776500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZENUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1707929,6 +1707876,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793776814909
+    },
+    {
+      "id": "961d04c5a0d91f376ba95bd3",
+      "asset_id": "ce2cc7116ff47511402ee6dc",
+      "key": "MEXC:SPOT:ZENUSDT",
+      "symbol": "ZENUSDT",
+      "phase": "radar",
+      "observed_ms": 1793777396184,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793777411092
     }
   ],
   "runs": [
@@ -1837301,7 +1837259,8 @@
         "entry_seq": 0,
         "cohort": "ZENUSDT",
         "observation_lag_ms": 896184,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14908
       }
     },
     "errors": [],
@@ -1863331,8 +1863290,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b944a1b7b7459d741b33c702066cff1c7b7ab9ea",
-    "previous_success_ms": 1793777129749,
+    "previous_commit": "af66d8adc486a8652364a2df56ef7b3ac9c25f97",
+    "previous_success_ms": 1793777409895,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
