@@ -1692714,116 +1692714,7 @@
       "source_close_ms": 1793776500000
     }
   },
-  "pending": [
-    {
-      "id": "9591c22fa955810517a4d3b8",
-      "asset_id": "59b61e4a7a44051d78aeb9d3",
-      "key": "MEXC:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793778456977,
-      "price": 0.33885,
-      "level": 0.3363,
-      "invalid": 0.3246458231616766,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3363,
-        "base_invalid": 0.3246458231616766,
-        "atr": 0.0030278455888226434,
-        "rvol": 9.370159091664236,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793775600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4360902255639028,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0034449222989747026,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.116102371463957,
-        "btc_hour_pct": 0.3199878540999457,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:STXUSDT",
-          "change_pct": 9.116647296813142,
-          "old_ms": 1793774982270,
-          "current_ms": 1793778453183,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793775600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b9245386495b7220399869e2",
-      "asset_id": "41f8a360e18e96aa286a9614",
-      "key": "OKX:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793778455216,
-      "price": 0.33875,
-      "level": 0.3363,
-      "invalid": 0.3246229743045196,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3363,
-        "base_invalid": 0.3246229743045196,
-        "atr": 0.0031801713032028503,
-        "rvol": 2.9756751172719014,
-        "close_position": 0.9726027397260303,
-        "breakout": true,
-        "bar_close_ms": 1793775600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.559470039144829,
-        "score": 4.948277856997931
-      },
-      "context": {
-        "atr": 0.0036183411133880843,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.2398472043836604,
-        "btc_hour_pct": 0.3196228347611685,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793775600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1708411,6 +1708302,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793777714791
+    },
+    {
+      "id": "9591c22fa955810517a4d3b8",
+      "asset_id": "59b61e4a7a44051d78aeb9d3",
+      "key": "MEXC:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793778456977,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793778469766
+    },
+    {
+      "id": "b9245386495b7220399869e2",
+      "asset_id": "41f8a360e18e96aa286a9614",
+      "key": "OKX:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793778455216,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793778469766
     }
   ],
   "runs": [
@@ -1863982,8 +1863895,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "21f20647acd1e24cfbdbed8706308bb9c017074a",
-    "previous_success_ms": 1793778441332,
+    "previous_commit": "375571efb885da5b779492e682f05a1a47149dcd",
+    "previous_success_ms": 1793778468339,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
