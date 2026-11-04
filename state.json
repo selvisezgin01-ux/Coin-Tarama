@@ -1692253,116 +1692253,7 @@
       "source_close_ms": 1793774700000
     }
   },
-  "pending": [
-    {
-      "id": "604fb8d50fd10ffb9550319b",
-      "asset_id": "59b61e4a7a44051d78aeb9d3",
-      "key": "MEXC:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793775900372,
-      "price": 0.34355,
-      "level": 0.3363,
-      "invalid": 0.3246458231616766,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3363,
-        "base_invalid": 0.3246458231616766,
-        "atr": 0.0030278455888226434,
-        "rvol": 9.370159091664236,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793775600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4360902255639028,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0030278455888226434,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.116102371463957,
-        "btc_hour_pct": 0.3199878540999457,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:STXUSDT",
-          "change_pct": 3.272815137603202,
-          "old_ms": 1793772283274,
-          "current_ms": 1793775896206,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0006000000000000001,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793775600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "edfc7c2e8e791e6b332f8104",
-      "asset_id": "41f8a360e18e96aa286a9614",
-      "key": "OKX:PERP:STXUSDT",
-      "symbol": "STXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793775900690,
-      "price": 0.34345000000000003,
-      "level": 0.3363,
-      "invalid": 0.3246229743045196,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3363,
-        "base_invalid": 0.3246229743045196,
-        "atr": 0.0031801713032028503,
-        "rvol": 2.9756751172719014,
-        "close_position": 0.9726027397260303,
-        "breakout": true,
-        "bar_close_ms": 1793775600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.559470039144829,
-        "score": 4.948277856997931
-      },
-      "context": {
-        "atr": 0.0031801713032028503,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 2.2398472043836604,
-        "btc_hour_pct": 0.3196228347611685,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:STXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793775600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1707862,6 +1707753,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793775013184
+    },
+    {
+      "id": "604fb8d50fd10ffb9550319b",
+      "asset_id": "59b61e4a7a44051d78aeb9d3",
+      "key": "MEXC:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793775900372,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793775917983
+    },
+    {
+      "id": "edfc7c2e8e791e6b332f8104",
+      "asset_id": "41f8a360e18e96aa286a9614",
+      "key": "OKX:PERP:STXUSDT",
+      "symbol": "STXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793775900690,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793775917984
     }
   ],
   "runs": [
@@ -1836931,7 +1836844,8 @@
         "entry_seq": 0,
         "cohort": "STXUSDT",
         "observation_lag_ms": 300372,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 17611
       },
       "41f8a360e18e96aa286a9614:radar": {
         "symbol": "STXUSDT",
@@ -1836953,7 +1836867,8 @@
         "entry_seq": 0,
         "cohort": "STXUSDT",
         "observation_lag_ms": 300690,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 17294
       }
     },
     "errors": [],
@@ -1862980,8 +1862895,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "57c1f5e4b40558956d40d0c3c7514494a6653afd",
-    "previous_success_ms": 1793775630329,
+    "previous_commit": "cd69d56481b77201e44c07e2a9a19c68ed9f0cac",
+    "previous_success_ms": 1793775916205,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
