@@ -1773647,58 +1773647,7 @@
       "source_close_ms": 1793816100000
     }
   },
-  "pending": [
-    {
-      "id": "88ec83eca3dfdafe162318b3",
-      "asset_id": "fbe5cb39924fd50363a73adb",
-      "key": "MEXC:SPOT:FOLKSUSDT",
-      "symbol": "FOLKSUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793816181829,
-      "price": 2.4932,
-      "level": 2.5236,
-      "invalid": 2.3961260338520654,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.5236,
-        "base_invalid": 2.3961260338520654,
-        "atr": 0.044493107652899135,
-        "rvol": 2.710399297944258,
-        "close_position": 0.987234042553191,
-        "breakout": true,
-        "bar_close_ms": 1793815200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.0552402270365357,
-        "score": 4.697633340497449
-      },
-      "context": {
-        "atr": 0.045817487576183535,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.1970367123860792,
-        "btc_hour_pct": -0.14179648534954348,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FOLKSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793815200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FOLKSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1790353,6 +1790302,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793815590359
+    },
+    {
+      "id": "88ec83eca3dfdafe162318b3",
+      "asset_id": "fbe5cb39924fd50363a73adb",
+      "key": "MEXC:SPOT:FOLKSUSDT",
+      "symbol": "FOLKSUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793816181829,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793816194800
     }
   ],
   "runs": [
@@ -1952208,8 +1952168,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e68a1f23b29f3f52ef102d1ab2ccdae22abd6ef8",
-    "previous_success_ms": 1793815915559,
+    "previous_commit": "cbf0aa2a0cfedae0da33149309c7d96973f0b98d",
+    "previous_success_ms": 1793816193804,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
