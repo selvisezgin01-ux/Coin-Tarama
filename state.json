@@ -1771128,112 +1771128,7 @@
       "source_close_ms": 1793816100000
     }
   },
-  "pending": [
-    {
-      "id": "a0694022ff550b44dcceb804",
-      "asset_id": "e48cda271f7d01257f3ce252",
-      "key": "OKX:PERP:CAPUSDT",
-      "symbol": "CAPUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793816475223,
-      "price": 0.09039,
-      "level": 0.07798,
-      "invalid": 0.07374227182868999,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07798,
-        "base_invalid": 0.07374227182868999,
-        "atr": 0.0010515211420666598,
-        "rvol": 6.270160362713767,
-        "close_position": 0.9137254901960791,
-        "breakout": true,
-        "bar_close_ms": 1793794500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.821907013396375,
-        "score": 7.913725490196079
-      },
-      "context": {
-        "atr": 0.0025641030028369484,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -4.2473858535265965,
-        "btc_hour_pct": -0.12212515156936332,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CAPUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793794500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CAPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2e6eac8496a973dc04e8a17f",
-      "asset_id": "9462b7615d15d4e7cc6f4678",
-      "key": "MEXC:PERP:CAPUSDT",
-      "symbol": "CAPUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793816475569,
-      "price": 0.09051999999999999,
-      "level": 0.07791,
-      "invalid": 0.07380539942184498,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.07791,
-        "base_invalid": 0.07380539942184498,
-        "atr": 0.000964003854366818,
-        "rvol": 3.317518996232353,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793794500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.09372120573912,
-        "score": 5.317518996232353
-      },
-      "context": {
-        "atr": 0.002379166444506073,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -4.368206094410821,
-        "btc_hour_pct": -0.12995128690286295,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CAPUSDT",
-          "change_pct": -9.213185356965381,
-          "old_ms": 1793813017028,
-          "current_ms": 1793816471145,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.054299999999999994,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793794500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CAPUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1787899,6 +1787794,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793816194800
+    },
+    {
+      "id": "a0694022ff550b44dcceb804",
+      "asset_id": "e48cda271f7d01257f3ce252",
+      "key": "OKX:PERP:CAPUSDT",
+      "symbol": "CAPUSDT",
+      "phase": "expired",
+      "observed_ms": 1793816475223,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793816489530
+    },
+    {
+      "id": "2e6eac8496a973dc04e8a17f",
+      "asset_id": "9462b7615d15d4e7cc6f4678",
+      "key": "MEXC:PERP:CAPUSDT",
+      "symbol": "CAPUSDT",
+      "phase": "expired",
+      "observed_ms": 1793816475569,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793816489531
     }
   ],
   "runs": [
@@ -1949818,8 +1949735,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "17f9d0b56b7175d30198ed3639c77fe434994820",
-    "previous_success_ms": 1793816219672,
+    "previous_commit": "b76d61bd0bce898d1696388be8718c1a49a1bdff",
+    "previous_success_ms": 1793816488375,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
