@@ -1777495,108 +1777495,7 @@
       "source_close_ms": 1793826900000
     }
   },
-  "pending": [
-    {
-      "id": "569c0521c1c0d687475c666a",
-      "asset_id": "d63608dd89b9f58956feb9c7",
-      "key": "OKX:PERP:BATUSDT",
-      "symbol": "BATUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793828204452,
-      "price": 0.14001,
-      "level": 0.13828,
-      "invalid": 0.1345411069851424,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13828,
-        "base_invalid": 0.1345411069851424,
-        "atr": 0.0011926200990506465,
-        "rvol": 3.83588641444153,
-        "close_position": 0.831730769230761,
-        "breakout": true,
-        "bar_close_ms": 1793827800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.110044691918822,
-        "score": 5.667617183672291
-      },
-      "context": {
-        "atr": 0.0011926200990506465,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0546304544342355,
-        "btc_hour_pct": 0.19186607897776486,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793827800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c90a46a5ac2667b7d7670257",
-      "asset_id": "3a27d6eb250f308d48a4e8bc",
-      "key": "OKX:SPOT:BATUSDT",
-      "symbol": "BATUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793828204944,
-      "price": 0.14007,
-      "level": 0.13833,
-      "invalid": 0.13474140355427225,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.13833,
-        "base_invalid": 0.13474140355427225,
-        "atr": 0.0010573096381849179,
-        "rvol": 2.0874591622647567,
-        "close_position": 0.9297297297297201,
-        "breakout": true,
-        "bar_close_ms": 1793827800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.114118507681062,
-        "score": 4.017188891994477
-      },
-      "context": {
-        "atr": 0.0010573096381849179,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.0082590242375788,
-        "btc_hour_pct": 0.19203552657243161,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BATUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793827800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BATUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1794702,6 +1794601,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793827079891
+    },
+    {
+      "id": "569c0521c1c0d687475c666a",
+      "asset_id": "d63608dd89b9f58956feb9c7",
+      "key": "OKX:PERP:BATUSDT",
+      "symbol": "BATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793828204452,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793828218672
+    },
+    {
+      "id": "c90a46a5ac2667b7d7670257",
+      "asset_id": "3a27d6eb250f308d48a4e8bc",
+      "key": "OKX:SPOT:BATUSDT",
+      "symbol": "BATUSDT",
+      "phase": "radar",
+      "observed_ms": 1793828204944,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793828218672
     }
   ],
   "runs": [
@@ -1933456,7 +1933377,8 @@
         "entry_seq": 0,
         "cohort": "BATUSDT",
         "observation_lag_ms": 404452,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14220
       },
       "3a27d6eb250f308d48a4e8bc:radar": {
         "symbol": "BATUSDT",
@@ -1933478,7 +1933400,8 @@
         "entry_seq": 0,
         "cohort": "BATUSDT",
         "observation_lag_ms": 404944,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13728
       }
     },
     "errors": [],
@@ -1959504,8 +1959427,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ddf4d49f63c62567752cec9901ea6b3ca279a228",
-    "previous_success_ms": 1793828191291,
+    "previous_commit": "9e1b8a90a6d374c5064ccb89cf29446f794db554",
+    "previous_success_ms": 1793828217536,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
