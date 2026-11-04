@@ -1792003,60 +1792003,7 @@
       "source_close_ms": 1793831400000
     }
   },
-  "pending": [
-    {
-      "id": "074fd0be8c26c0f4e033a7df",
-      "asset_id": "563cdc578d2b989a9064a838",
-      "key": "OKX:SPOT:SUSHIUSDT",
-      "symbol": "SUSHIUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793832703441,
-      "price": 0.1953,
-      "level": 0.1946,
-      "invalid": 0.19166439170443827,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1946,
-        "base_invalid": 0.19166439170443827,
-        "atr": 0.0009040553037448525,
-        "rvol": 6.305568113723264,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793832300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6112266112266127,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0009040553037448525,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5570416057307348,
-        "btc_hour_pct": 0.12004172760260445,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SUSHIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793832300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUSHIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1809360,6 +1809307,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793832418878
+    },
+    {
+      "id": "074fd0be8c26c0f4e033a7df",
+      "asset_id": "563cdc578d2b989a9064a838",
+      "key": "OKX:SPOT:SUSHIUSDT",
+      "symbol": "SUSHIUSDT",
+      "phase": "radar",
+      "observed_ms": 1793832703441,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793832716326
     }
   ],
   "runs": [
@@ -1949106,7 +1949064,8 @@
         "entry_seq": 0,
         "cohort": "SUSHIUSDT",
         "observation_lag_ms": 403441,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12885
       }
     },
     "errors": [],
@@ -1975139,8 +1975098,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b1c0303525ae11b3737d6b78b85a17209000006a",
-    "previous_success_ms": 1793832441954,
+    "previous_commit": "cb12ce4418f085fe60dfb1ece21be9d93965879a",
+    "previous_success_ms": 1793832715198,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
