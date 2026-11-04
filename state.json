@@ -1598705,162 +1598705,7 @@
       "source_close_ms": 1793795400000
     }
   },
-  "pending": [
-    {
-      "id": "7e030efd5bbb09611d8e26af",
-      "asset_id": "3793d2029d21c806421c72d0",
-      "key": "OKX:PERP:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793797087289,
-      "price": 0.08180000000000001,
-      "level": 0.08098,
-      "invalid": 0.07858104265357183,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.08098,
-        "base_invalid": 0.07858104265357183,
-        "atr": 0.0006597156428544916,
-        "rvol": 2.7638676655799608,
-        "close_position": 0.830357142857146,
-        "breakout": true,
-        "bar_close_ms": 1793774700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3017604760724222,
-        "score": 4.594224808437106
-      },
-      "context": {
-        "atr": 0.00048601973421095795,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.09007836309458117,
-        "btc_hour_pct": -0.16431291491875166,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793774700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "8ea81fc5a65b0123cdc4cd53",
-      "asset_id": "3f0c2890d5f3f7323341d941",
-      "key": "OKX:PERP:CVXUSDT",
-      "symbol": "CVXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793797087289,
-      "price": 1.9369999999999998,
-      "level": 1.927,
-      "invalid": 1.8947158328330187,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.927,
-        "base_invalid": 1.8947158328330187,
-        "atr": 0.015227781113209453,
-        "rvol": 4.730864610414195,
-        "close_position": 0.7142857142857143,
-        "breakout": true,
-        "bar_close_ms": 1793796300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8835758835758822,
-        "score": 6.44515032469991
-      },
-      "context": {
-        "atr": 0.015227781113209453,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.20046040451846547,
-        "btc_hour_pct": -0.16431291491875166,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:CVXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793796300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CVXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "788fd08ef5a3f9df92955109",
-      "asset_id": "1708215443cf4eda72a553c8",
-      "key": "OKX:PERP:PEOPLEUSDT",
-      "symbol": "PEOPLEUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793797087289,
-      "price": 0.0065935,
-      "level": 0.006623,
-      "invalid": 0.00651059591823217,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006623,
-        "base_invalid": 0.00651059591823217,
-        "atr": 4.269387845220029e-05,
-        "rvol": 2.266728428618359,
-        "close_position": 0.7640449438202315,
-        "breakout": false,
-        "bar_close_ms": 1793796300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.166868932038855,
-        "score": 3.5307733724385906
-      },
-      "context": {
-        "atr": 4.269387845220029e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.05797841696948414,
-        "btc_hour_pct": -0.16431291491875166,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:PEOPLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793796300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PEOPLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1614987,6 +1614832,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793796800227
+    },
+    {
+      "id": "8ea81fc5a65b0123cdc4cd53",
+      "asset_id": "3f0c2890d5f3f7323341d941",
+      "key": "OKX:PERP:CVXUSDT",
+      "symbol": "CVXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793797087289,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793797101431
+    },
+    {
+      "id": "788fd08ef5a3f9df92955109",
+      "asset_id": "1708215443cf4eda72a553c8",
+      "key": "OKX:PERP:PEOPLEUSDT",
+      "symbol": "PEOPLEUSDT",
+      "phase": "radar",
+      "observed_ms": 1793797087289,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793797101431
     }
   ],
   "runs": [
@@ -1746456,7 +1746323,8 @@
         "entry_seq": 0,
         "cohort": "CVXUSDT",
         "observation_lag_ms": 787289,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14142
       },
       "1708215443cf4eda72a553c8:radar": {
         "symbol": "PEOPLEUSDT",
@@ -1746478,7 +1746346,8 @@
         "entry_seq": 0,
         "cohort": "PEOPLEUSDT",
         "observation_lag_ms": 787289,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14142
       }
     },
     "errors": [],
@@ -1772503,8 +1772372,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2a87b8b70e739519e76128888c2f8b64cc2b2277",
-    "previous_success_ms": 1793796829772,
+    "previous_commit": "a35d566ebfa47cd7926125dbbc64563dae400a32",
+    "previous_success_ms": 1793797099821,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
