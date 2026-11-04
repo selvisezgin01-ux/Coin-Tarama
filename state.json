@@ -1788230,164 +1788230,7 @@
       "source_close_ms": 1793831400000
     }
   },
-  "pending": [
-    {
-      "id": "5b7cb09e3841a7340de58183",
-      "asset_id": "7ff393ca0520e612d7fba1df",
-      "key": "MEXC:PERP:BRUSDT",
-      "symbol": "BRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793832404961,
-      "price": 0.47925,
-      "level": 0.4807,
-      "invalid": 0.4666357537285298,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.4807,
-        "base_invalid": 0.4666357537285298,
-        "atr": 0.0037616418098015835,
-        "rvol": 5.617281863117315,
-        "close_position": 0.6078431372549011,
-        "breakout": true,
-        "bar_close_ms": 1793828700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.108786610878676,
-        "score": 7.225125000372216
-      },
-      "context": {
-        "atr": 0.004011910186581098,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.8422542240394524,
-        "btc_hour_pct": 0.1250961317579513,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BRUSDT",
-          "change_pct": -1.1028195948180386,
-          "old_ms": 1793828790162,
-          "current_ms": 1793832401128,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793828700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "0be5807ff1907a7e3277e89b",
-      "asset_id": "6c8fbac08706b18f649d2ea9",
-      "key": "OKX:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793832406500,
-      "price": 22.389,
-      "level": 21.989,
-      "invalid": 21.618319361215583,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 21.989,
-        "base_invalid": 21.618319361215583,
-        "atr": 0.2645375918961269,
-        "rvol": 6.472944682713855,
-        "close_position": 0.8595194085027718,
-        "breakout": true,
-        "bar_close_ms": 1793832300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.8686831596823836,
-        "score": 7.859519408502772
-      },
-      "context": {
-        "atr": 0.2645375918961269,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6012213732471183,
-        "btc_hour_pct": 0.12034205105797557,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793832300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "79e9732eb222cedaf6bc0b38",
-      "asset_id": "fd72e0673f19f0070a87582a",
-      "key": "OKX:PERP:RENDERUSDT",
-      "symbol": "RENDERUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793832406500,
-      "price": 1.6284999999999998,
-      "level": 1.611,
-      "invalid": 1.5559168842938729,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.611,
-        "base_invalid": 1.5559168842938729,
-        "atr": 0.013887438040847801,
-        "rvol": 3.7058437544918057,
-        "close_position": 0.7999999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793832300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.9765674477517434,
-        "score": 5.505843754491804
-      },
-      "context": {
-        "atr": 0.013887438040847801,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4801701128344558,
-        "btc_hour_pct": 0.12034205105797557,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:RENDERUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793832300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RENDERUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1805658,6 +1805501,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793832113544
+    },
+    {
+      "id": "5b7cb09e3841a7340de58183",
+      "asset_id": "7ff393ca0520e612d7fba1df",
+      "key": "MEXC:PERP:BRUSDT",
+      "symbol": "BRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793832404961,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793832418878
+    },
+    {
+      "id": "0be5807ff1907a7e3277e89b",
+      "asset_id": "6c8fbac08706b18f649d2ea9",
+      "key": "OKX:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "radar",
+      "observed_ms": 1793832406500,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793832418878
+    },
+    {
+      "id": "79e9732eb222cedaf6bc0b38",
+      "asset_id": "fd72e0673f19f0070a87582a",
+      "key": "OKX:PERP:RENDERUSDT",
+      "symbol": "RENDERUSDT",
+      "phase": "radar",
+      "observed_ms": 1793832406500,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793832418878
     }
   ],
   "runs": [
@@ -1945306,7 +1945182,8 @@
         "entry_seq": 0,
         "cohort": "VVVUSDT",
         "observation_lag_ms": 106500,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12378
       },
       "fd72e0673f19f0070a87582a:radar": {
         "symbol": "RENDERUSDT",
@@ -1945328,7 +1945205,8 @@
         "entry_seq": 0,
         "cohort": "RENDERUSDT",
         "observation_lag_ms": 106500,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12378
       }
     },
     "errors": [],
@@ -1971363,8 +1971241,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f98839ecea85e223b6b2c7677baa63107dda6a6f",
-    "previous_success_ms": 1793832138468,
+    "previous_commit": "f515a790d806ffe94d799c1ee1313409b1770ef9",
+    "previous_success_ms": 1793832417647,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
