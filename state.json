@@ -1797328,166 +1797328,7 @@
       "source_close_ms": 1793835000000
     }
   },
-  "pending": [
-    {
-      "id": "6d06a621172f4b0ab5d5f217",
-      "asset_id": "7fe575bef0e64ecead4222d9",
-      "key": "MEXC:PERP:LONGXIAUSDT",
-      "symbol": "LONGXIAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793835162506,
-      "price": 0.017314999999999997,
-      "level": 0.01758,
-      "invalid": 0.01707661222305834,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01758,
-        "base_invalid": 0.01707661222305834,
-        "atr": 0.00022258517961106368,
-        "rvol": 3.1743841534139365,
-        "close_position": 0.7083333333333418,
-        "breakout": false,
-        "bar_close_ms": 1793824200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.057636887608070175,
-        "score": 4.3827174867472785
-      },
-      "context": {
-        "atr": 0.00021190239562446207,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.09197046312099388,
-        "btc_hour_pct": 0.6027536640290432,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LONGXIAUSDT",
-          "change_pct": 10.149206095906816,
-          "old_ms": 1793831490444,
-          "current_ms": 1793835159292,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793824200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LONGXIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d214507d18924a598a085268",
-      "asset_id": "c81e7e32bdb1438fc415bb2c",
-      "key": "MEXC:SPOT:INJUSDT",
-      "symbol": "INJUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793835161698,
-      "price": 7.9485,
-      "level": 7.971,
-      "invalid": 7.757018919775496,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.971,
-        "base_invalid": 7.757018919775496,
-        "atr": 0.07320720149669088,
-        "rvol": 3.770433162049522,
-        "close_position": 0.8333333333333383,
-        "breakout": true,
-        "bar_close_ms": 1793830500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4528871556170655,
-        "score": 5.60376649538286
-      },
-      "context": {
-        "atr": 0.07265185877894287,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2113460768834674,
-        "btc_hour_pct": 0.6069845286811759,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:INJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793830500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "deacd425d53ad7fa7874af1a",
-      "asset_id": "6c8fbac08706b18f649d2ea9",
-      "key": "OKX:PERP:VVVUSDT",
-      "symbol": "VVVUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793835163753,
-      "price": 21.7485,
-      "level": 21.989,
-      "invalid": 21.618319361215583,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 21.989,
-        "base_invalid": 21.618319361215583,
-        "atr": 0.2645375918961269,
-        "rvol": 6.472944682713855,
-        "close_position": 0.8595194085027718,
-        "breakout": true,
-        "bar_close_ms": 1793832300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.8686831596823836,
-        "score": 7.859519408502772
-      },
-      "context": {
-        "atr": 0.26765531869349973,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.7760811317655056,
-        "btc_hour_pct": 0.6077200647370384,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:VVVUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793832300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "VVVUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1814857,6 +1814698,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793834873785
+    },
+    {
+      "id": "6d06a621172f4b0ab5d5f217",
+      "asset_id": "7fe575bef0e64ecead4222d9",
+      "key": "MEXC:PERP:LONGXIAUSDT",
+      "symbol": "LONGXIAUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793835162506,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793835176592
+    },
+    {
+      "id": "d214507d18924a598a085268",
+      "asset_id": "c81e7e32bdb1438fc415bb2c",
+      "key": "MEXC:SPOT:INJUSDT",
+      "symbol": "INJUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793835161698,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793835176592
+    },
+    {
+      "id": "deacd425d53ad7fa7874af1a",
+      "asset_id": "6c8fbac08706b18f649d2ea9",
+      "key": "OKX:PERP:VVVUSDT",
+      "symbol": "VVVUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793835163753,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793835176592
     }
   ],
   "runs": [
@@ -1981041,8 +1980915,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "b5588451d4b69fd2689b254d81d5bcd82156e6de",
-    "previous_success_ms": 1793834898245,
+    "previous_commit": "b1b7d56ae9880e91fb9ace38a3ed96241713ed3a",
+    "previous_success_ms": 1793835175166,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
