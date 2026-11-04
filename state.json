@@ -1701943,62 +1701943,7 @@
       "source_close_ms": 1793782800000
     }
   },
-  "pending": [
-    {
-      "id": "e9df8ee1f9477a8dcaeb4c80",
-      "asset_id": "89a43ef44ab1e0e63d2cd87b",
-      "key": "MEXC:PERP:ZKSYNCUSDT",
-      "symbol": "ZKSYNCUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793782958087,
-      "price": 0.010402,
-      "level": 0.01033,
-      "invalid": 0.010099179298963668,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01033,
-        "base_invalid": 0.010099179298963668,
-        "atr": 7.880467357554667e-05,
-        "rvol": 117.37900937377765,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793777400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6508645813095182,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 7.796488074613827e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.34517899952697384,
-        "btc_hour_pct": 0.45636614774486883,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ZKSYNCUSDT",
-          "change_pct": -0.09927200192080265,
-          "old_ms": 1793779338495,
-          "current_ms": 1793782954352,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793777400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZKSYNCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1717740,6 +1717685,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793782664212
+    },
+    {
+      "id": "e9df8ee1f9477a8dcaeb4c80",
+      "asset_id": "89a43ef44ab1e0e63d2cd87b",
+      "key": "MEXC:PERP:ZKSYNCUSDT",
+      "symbol": "ZKSYNCUSDT",
+      "phase": "expired",
+      "observed_ms": 1793782958087,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793782970478
     }
   ],
   "runs": [
@@ -1874222,8 +1874178,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "54d2f448900b45dfc0820806d2cfdf5e2c8b7b61",
-    "previous_success_ms": 1793782685563,
+    "previous_commit": "91c8dab34a06a85722a63fe8c284e8e40721819e",
+    "previous_success_ms": 1793782969099,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
