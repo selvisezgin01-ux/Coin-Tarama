@@ -1573416,128 +1573416,7 @@
       "source_close_ms": 1793795400000
     }
   },
-  "pending": [
-    {
-      "id": "63985d504282c23ad723dd68",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793795887719,
-      "price": 0.00023885,
-      "level": 0.000235,
-      "invalid": 0.00023516173503133312,
-      "target": 0.0002463420299373338,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.171725436305019e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.21255075120942823,
-        "btc_hour_pct": -0.15950381679388226,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.00023516173503133312,
-        "target": 0.0002463420299373338,
-        "risk_pct": 1.0678439077269202,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.000256,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.0002371,
-        "entry_zone_high": 0.00023789606935336162
-      },
-      "reason": "giriş takip süresi doldu",
-      "source_close_ms": 1793709000000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "OMIUSDT",
-      "trend_detail": {
-        "status": "continuing",
-        "source_close_ms": 1793772000000,
-        "closed_price": 0.0002397,
-        "ema20_1h": 0.00023823876054138442,
-        "atr14_1h": 2.5807582680800473e-06,
-        "structure_floor": 0.000238,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "aeb0873f7cfc2c6d22fa183c",
-      "asset_id": "1f7eb56034c15144d3985cbb",
-      "key": "OKX:SPOT:BONKUSDT",
-      "symbol": "BONKUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793795890704,
-      "price": 3.0105000000000002e-06,
-      "level": 2.973e-06,
-      "invalid": 2.8067795207295205e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.973e-06,
-        "base_invalid": 2.8067795207295205e-06,
-        "atr": 2.813652846986236e-08,
-        "rvol": 2.1884368000988426,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793773800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.4021962937542884,
-        "score": 4.188436800098843
-      },
-      "context": {
-        "atr": 2.414865174993887e-08,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.2486474673620953,
-        "btc_hour_pct": -0.17452961597124172,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BONKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793773800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BONKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1589620,6 +1589499,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793795603775
+    },
+    {
+      "id": "63985d504282c23ad723dd68",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "expired",
+      "observed_ms": 1793795887719,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793795902460
+    },
+    {
+      "id": "aeb0873f7cfc2c6d22fa183c",
+      "asset_id": "1f7eb56034c15144d3985cbb",
+      "key": "OKX:SPOT:BONKUSDT",
+      "symbol": "BONKUSDT",
+      "phase": "expired",
+      "observed_ms": 1793795890704,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793795902460
     }
   ],
   "runs": [
@@ -1746862,8 +1746763,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "72d7e02f4933dc7070a2631310b30aa08dbaed5e",
-    "previous_success_ms": 1793795623939,
+    "previous_commit": "19eae24ba745da5ba0202f475c236521c482477a",
+    "previous_success_ms": 1793795900796,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
