@@ -1840627,7 +1840627,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793829128027,
+      "duration_ms": 36699
     }
   ],
   "radar_admissions": [
@@ -1932614,6 +1932616,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793809092042,
+            "endpoint_ms": 1793809140000,
+            "endpoint_price": 0.09481,
+            "return_pct": 19.137974365418465,
+            "btc_excess_pct_points": 15.988712200781443,
+            "mae_pct": 0,
+            "mfe_pct": 20.583061070620758,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 47958,
+            "measured_ms": 1793829126248,
+            "cost_scenarios_pct": {
+              "0.2": 18.937974365418466,
+              "0.5": 18.637974365418465,
+              "1": 18.137974365418465
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793794500000,
@@ -1932623,7 +1932647,7 @@
         "observation_lag_ms": 192042,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 12700,
-        "last_measure_attempt_ms": 1793798608245
+        "last_measure_attempt_ms": 1793829126248
       },
       "9462b7615d15d4e7cc6f4678:radar": {
         "symbol": "CAPUSDT",
@@ -1932661,6 +1932685,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "4": {
+            "target_ms": 1793809091054,
+            "endpoint_ms": 1793809140000,
+            "endpoint_price": 0.09482,
+            "return_pct": 19.195474544311743,
+            "btc_excess_pct_points": 16.062722722263658,
+            "mae_pct": 0,
+            "mfe_pct": 20.36455059710873,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 240,
+            "ignored_entry_fragment_ms": 48946,
+            "measured_ms": 1793829126248,
+            "cost_scenarios_pct": {
+              "0.2": 18.995474544311744,
+              "0.5": 18.695474544311743,
+              "1": 18.195474544311743
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793794500000,
@@ -1932670,7 +1932716,7 @@
         "observation_lag_ms": 191054,
         "interpretation": "early radar reference, not a trade entry",
         "notification_lag_ms": 13688,
-        "last_measure_attempt_ms": 1793798608245
+        "last_measure_attempt_ms": 1793829126248
       },
       "a656d12c78ba4a909f68affa:radar": {
         "symbol": "RITUALUSDT",
@@ -1935458,12 +1935504,12 @@
     "queue": {
       "due": 68,
       "attempted": 2,
-      "observed_ms": 1793828828804,
-      "unique_reads": 5
+      "observed_ms": 1793829126248,
+      "unique_reads": 4
     },
     "summary": {
       "radar": {
-        "market_event_references": 848,
+        "market_event_references": 849,
         "unique_symbol_labels": 367,
         "note": "Markets, routes and repeated entries of one symbol are correlated; never summed as independent wins. Early radar is not entry.",
         "groups": {
@@ -1935512,7 +1935558,7 @@
             }
           },
           "MEXC:PERP:radar": {
-            "event_references": 213,
+            "event_references": 214,
             "first_per_symbol": 172,
             "hours": {
               "1": {
@@ -1961477,8 +1961523,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0deb58ef38399f5c199e89968d0d762f7b0f91f2",
-    "previous_success_ms": 1793829114520,
+    "previous_commit": "04da2a365e08b49c03320f0819b700e570770cb0",
+    "previous_success_ms": 1793829126210,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
