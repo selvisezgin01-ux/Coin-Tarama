@@ -1785514,62 +1785514,7 @@
       "source_close_ms": 1793829600000
     }
   },
-  "pending": [
-    {
-      "id": "7b76d06fc93685ac56906e49",
-      "asset_id": "05417bf458321ff439b00f3f",
-      "key": "MEXC:PERP:TAGUSDT",
-      "symbol": "TAGUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793830608018,
-      "price": 0.0007615499999999999,
-      "level": 0.0007589,
-      "invalid": 0.0007357218976728295,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0007589,
-        "base_invalid": 0.0007357218976728295,
-        "atr": 1.1854015514469887e-05,
-        "rvol": 35.0655583082969,
-        "close_position": 0.6104815864022667,
-        "breakout": true,
-        "bar_close_ms": 1793812500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.295595784923003,
-        "score": 7.610481586402266
-      },
-      "context": {
-        "atr": 8.447728947565728e-06,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.08408153852574873,
-        "btc_hour_pct": 0.1250961317579513,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TAGUSDT",
-          "change_pct": -0.025982381470845972,
-          "old_ms": 1793827049434,
-          "current_ms": 1793830606309,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793812500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TAGUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1802763,6 +1802708,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793830311832
+    },
+    {
+      "id": "7b76d06fc93685ac56906e49",
+      "asset_id": "05417bf458321ff439b00f3f",
+      "key": "MEXC:PERP:TAGUSDT",
+      "symbol": "TAGUSDT",
+      "phase": "expired",
+      "observed_ms": 1793830608018,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793830620310
     }
   ],
   "runs": [
@@ -1968093,8 +1968049,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "e6f52b9ae03fdb0a6641a5ba07efaf0042f14c93",
-    "previous_success_ms": 1793830335356,
+    "previous_commit": "9885f49d7cfc94a0667cd1d529048847848e8fd4",
+    "previous_success_ms": 1793830619086,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
