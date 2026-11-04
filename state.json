@@ -1764625,214 +1764625,7 @@
       "source_close_ms": 1793812500000
     }
   },
-  "pending": [
-    {
-      "id": "32f8bed487b983dc31f2d303",
-      "asset_id": "d1a92b48b2a4c2bb16f30900",
-      "key": "MEXC:PERP:TRXUSDT",
-      "symbol": "TRXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793812735661,
-      "price": 0.320575,
-      "level": 0.31942,
-      "invalid": 0.3185650141071182,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.31942,
-        "base_invalid": 0.3185650141071182,
-        "atr": 0.00043323928587897016,
-        "rvol": 2.435453167352257,
-        "close_position": 0.9743589743589488,
-        "breakout": true,
-        "bar_close_ms": 1793804400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.15048437157101358,
-        "score": 4.409812141711205
-      },
-      "context": {
-        "atr": 0.0004508020303395695,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.054350719142615134,
-        "btc_hour_pct": 0.2733196881115729,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TRXUSDT",
-          "change_pct": 1.2498506911641671,
-          "old_ms": 1793809118219,
-          "current_ms": 1793812734033,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0056,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793804400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TRXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4d8063a900a0cf3ff93dd71a",
-      "asset_id": "0bc3d719a29a07a3336e3a88",
-      "key": "OKX:SPOT:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793812733317,
-      "price": 0.096215,
-      "level": 0.09593,
-      "invalid": 0.0936574007995567,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09593,
-        "base_invalid": 0.0936574007995567,
-        "atr": 0.0009506613362886717,
-        "rvol": 5.9897596479700415,
-        "close_position": 0.6927083333333354,
-        "breakout": true,
-        "bar_close_ms": 1793808000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1795681937861957,
-        "score": 7.682467981303377
-      },
-      "context": {
-        "atr": 0.0009702991352873482,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.14913603143382748,
-        "btc_hour_pct": 0.28804519059177913,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793808000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "08013df3627abbde245007a1",
-      "asset_id": "b4492c8f97547ce9033783c9",
-      "key": "OKX:PERP:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793812734631,
-      "price": 0.09616,
-      "level": 0.09586,
-      "invalid": 0.09356623086571049,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09586,
-        "base_invalid": 0.09356623086571049,
-        "atr": 0.0009584608952633756,
-        "rvol": 2.541273198490032,
-        "close_position": 0.7005649717514122,
-        "breakout": true,
-        "bar_close_ms": 1793808000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1493040911008112,
-        "score": 4.241838170241444
-      },
-      "context": {
-        "atr": 0.0010075671688960382,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.2500155423833528,
-        "btc_hour_pct": 0.27119784237636946,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793808000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "b02ea0e107a4a2316b3ffda0",
-      "asset_id": "f5d179bc70ab60199d19507f",
-      "key": "MEXC:SPOT:CAKEUSDT",
-      "symbol": "CAKEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793812733244,
-      "price": 2.0060000000000002,
-      "level": 2.013,
-      "invalid": 1.9135838557501954,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.013,
-        "base_invalid": 1.9135838557501954,
-        "atr": 0.0161076283320297,
-        "rvol": 2.702730155797469,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793809800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.509813789632597,
-        "score": 4.702730155797469
-      },
-      "context": {
-        "atr": 0.016682714867544416,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3962136828792993,
-        "btc_hour_pct": 0.30975721526420585,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:CAKEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793809800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CAKEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1781377,6 +1781170,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793811850622
+    },
+    {
+      "id": "32f8bed487b983dc31f2d303",
+      "asset_id": "d1a92b48b2a4c2bb16f30900",
+      "key": "MEXC:PERP:TRXUSDT",
+      "symbol": "TRXUSDT",
+      "phase": "expired",
+      "observed_ms": 1793812735661,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793812748703
+    },
+    {
+      "id": "4d8063a900a0cf3ff93dd71a",
+      "asset_id": "0bc3d719a29a07a3336e3a88",
+      "key": "OKX:SPOT:POLUSDT",
+      "symbol": "POLUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793812733317,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793812748703
+    },
+    {
+      "id": "08013df3627abbde245007a1",
+      "asset_id": "b4492c8f97547ce9033783c9",
+      "key": "OKX:PERP:POLUSDT",
+      "symbol": "POLUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793812734631,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793812748703
+    },
+    {
+      "id": "b02ea0e107a4a2316b3ffda0",
+      "asset_id": "f5d179bc70ab60199d19507f",
+      "key": "MEXC:SPOT:CAKEUSDT",
+      "symbol": "CAKEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793812733244,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793812748704
     }
   ],
   "runs": [
@@ -1942357,8 +1942194,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "800f100f3d621afc1dd31cc4074cdaaba4d278c6",
-    "previous_success_ms": 1793812469571,
+    "previous_commit": "717c61f452f9c538f02a471f32433ad9107bd7ba",
+    "previous_success_ms": 1793812747417,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
