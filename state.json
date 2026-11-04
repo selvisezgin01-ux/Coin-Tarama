@@ -1771534,226 +1771534,7 @@
       "source_close_ms": 1793821500000
     }
   },
-  "pending": [
-    {
-      "id": "d1bb3761b43472803533c8ca",
-      "asset_id": "c514f4e2ac8dfc920c05690d",
-      "key": "OKX:PERP:ALGOUSDT",
-      "symbol": "ALGOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "trend_weakening",
-      "observed_ms": 1793822568281,
-      "price": 0.099235,
-      "level": 0.09742,
-      "invalid": 0.09718881190757278,
-      "target": 0.10306720118485442,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09742,
-        "base_invalid": 0.09513881190757278,
-        "atr": 0.0008079206161813864,
-        "rvol": 2.201676096614145,
-        "close_position": 0.9254658385093198,
-        "breakout": true,
-        "bar_close_ms": 1793799000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6011644832605532,
-        "score": 4.127141935123465
-      },
-      "context": {
-        "atr": 0.0008548161698056241,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.7585504831080669,
-        "btc_hour_pct": -0.4579217474233954,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ALGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.09718881190757278,
-        "target": 0.10306720118485442,
-        "risk_pct": 1.4861771754368374,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.10366,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.09839,
-        "entry_zone_high": 0.09882574169827445
-      },
-      "reason": null,
-      "source_close_ms": 1793822400000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "ALGOUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793822400000,
-        "closed_price": 0.09907,
-        "ema20_1h": 0.09671774232089461,
-        "atr14_1h": 0.001492553768394524,
-        "structure_floor": 0.09718881190757278,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "c90ec73cc58a441070654bae",
-      "asset_id": "b29eeee583a56d46025f3b2b",
-      "key": "OKX:SPOT:INJUSDT",
-      "symbol": "INJUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793822568428,
-      "price": 7.822,
-      "level": 7.897,
-      "invalid": 7.700763883216924,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 7.897,
-        "base_invalid": 7.700763883216924,
-        "atr": 0.07490744522050576,
-        "rvol": 2.6771523276076423,
-        "close_position": 0.8461538461538461,
-        "breakout": true,
-        "bar_close_ms": 1793819700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.48346055979642255,
-        "score": 4.523306173761489
-      },
-      "context": {
-        "atr": 0.0697250840074932,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5483786541606195,
-        "btc_hour_pct": -0.4590929398748944,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:INJUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INJUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c9a9de73d618fa63df480fa8",
-      "asset_id": "798db927980d1f570d947404",
-      "key": "OKX:PERP:OFCUSDT",
-      "symbol": "OFCUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793822568281,
-      "price": 0.006203500000000001,
-      "level": 0.006201,
-      "invalid": 0.006086865508730182,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006201,
-        "base_invalid": 0.006086865508730182,
-        "atr": 6.756327513211997e-05,
-        "rvol": 50.746745452922816,
-        "close_position": 0.8397790055248643,
-        "breakout": true,
-        "bar_close_ms": 1793822400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.85816062176165,
-        "score": 7.839779005524864
-      },
-      "context": {
-        "atr": 6.756327513211997e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3160823691850454,
-        "btc_hour_pct": -0.4579217474233954,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:OFCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793822400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OFCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "676e3b6227182bda3c5fc341",
-      "asset_id": "b00103969d46f5f67f8feff2",
-      "key": "OKX:SPOT:OFCUSDT",
-      "symbol": "OFCUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793822568428,
-      "price": 0.006224,
-      "level": 0.006215,
-      "invalid": 0.006113461011774997,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.006215,
-        "base_invalid": 0.006113461011774997,
-        "atr": 5.692658816668321e-05,
-        "rvol": 18.139041778353178,
-        "close_position": 0.8306010928961761,
-        "breakout": true,
-        "bar_close_ms": 1793822400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8718114304165248,
-        "score": 7.830601092896176
-      },
-      "context": {
-        "atr": 5.692658816668321e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.3309043702914192,
-        "btc_hour_pct": -0.4590929398748944,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OFCUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793822400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OFCUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1788650,6 +1788431,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793822274723
+    },
+    {
+      "id": "d1bb3761b43472803533c8ca",
+      "asset_id": "c514f4e2ac8dfc920c05690d",
+      "key": "OKX:PERP:ALGOUSDT",
+      "symbol": "ALGOUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793822568281,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793822584897
+    },
+    {
+      "id": "c90ec73cc58a441070654bae",
+      "asset_id": "b29eeee583a56d46025f3b2b",
+      "key": "OKX:SPOT:INJUSDT",
+      "symbol": "INJUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793822568428,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793822584898
+    },
+    {
+      "id": "c9a9de73d618fa63df480fa8",
+      "asset_id": "798db927980d1f570d947404",
+      "key": "OKX:PERP:OFCUSDT",
+      "symbol": "OFCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793822568281,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793822584898
+    },
+    {
+      "id": "676e3b6227182bda3c5fc341",
+      "asset_id": "b00103969d46f5f67f8feff2",
+      "key": "OKX:SPOT:OFCUSDT",
+      "symbol": "OFCUSDT",
+      "phase": "radar",
+      "observed_ms": 1793822568428,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793822584898
     }
   ],
   "runs": [
@@ -1926055,7 +1925880,8 @@
         "entry_seq": 0,
         "cohort": "OFCUSDT",
         "observation_lag_ms": 168281,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 16617
       },
       "b00103969d46f5f67f8feff2:radar": {
         "symbol": "OFCUSDT",
@@ -1926077,7 +1925903,8 @@
         "entry_seq": 0,
         "cohort": "OFCUSDT",
         "observation_lag_ms": 168428,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 16470
       }
     },
     "errors": [],
@@ -1952103,8 +1951930,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a22d90233ad4f40dc570b80615a51c2e6eaf20f5",
-    "previous_success_ms": 1793822298983,
+    "previous_commit": "6f6057f4864bd5d281e01357db81107f2fb569cf",
+    "previous_success_ms": 1793822583690,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
