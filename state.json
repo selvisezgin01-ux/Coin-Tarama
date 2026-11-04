@@ -1775410,64 +1775410,7 @@
       "source_close_ms": 1793823300000
     }
   },
-  "pending": [
-    {
-      "id": "0a626cc84fad553e580981cf",
-      "asset_id": "d425dae5ce48cbaf345c12b2",
-      "key": "MEXC:PERP:SENTUSDT",
-      "symbol": "SENTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793826172390,
-      "price": 0.01874,
-      "level": 0.01858,
-      "invalid": 0.018176803703233272,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01858,
-        "base_invalid": 0.018176803703233272,
-        "atr": 0.00015464197844485531,
-        "rvol": 4.574949469733622,
-        "close_position": 0.9333333333333365,
-        "breakout": true,
-        "bar_close_ms": 1793824200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8653326122228355,
-        "score": 6.508282803066958
-      },
-      "context": {
-        "atr": 0.000151758429028166,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.1252542909771401,
-        "btc_hour_pct": 0.17697034277217583,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SENTUSDT",
-          "change_pct": -9.972847995777157,
-          "old_ms": 1793822549790,
-          "current_ms": 1793826170858,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793824200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SENTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1792518,6 +1792461,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793824973587
+    },
+    {
+      "id": "0a626cc84fad553e580981cf",
+      "asset_id": "d425dae5ce48cbaf345c12b2",
+      "key": "MEXC:PERP:SENTUSDT",
+      "symbol": "SENTUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793826172390,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793826185148
     }
   ],
   "runs": [
@@ -1956787,8 +1956741,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "6ac9ae6dca6b5c555897f83e344489eff63c9c1f",
-    "previous_success_ms": 1793825894527,
+    "previous_commit": "e5db598f6b932d4ea1befc7b3c680b591e8fd657",
+    "previous_success_ms": 1793826183982,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
