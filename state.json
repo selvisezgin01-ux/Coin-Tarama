@@ -1742335,110 +1742335,7 @@
       "source_close_ms": 1793807100000
     }
   },
-  "pending": [
-    {
-      "id": "383d332760e8ac82f49901a1",
-      "asset_id": "79bed6adcc6bf312b998e389",
-      "key": "MEXC:SPOT:STABLEUSDT",
-      "symbol": "STABLEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793807201377,
-      "price": 0.029198,
-      "level": 0.02911,
-      "invalid": 0.028737688699958915,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02911,
-        "base_invalid": 0.028737688699958915,
-        "atr": 0.00016874200027389732,
-        "rvol": 2.1661137031330546,
-        "close_position": 0.7950819672131212,
-        "breakout": false,
-        "bar_close_ms": 1793798100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.46685340802987696,
-        "score": 3.461195670346176
-      },
-      "context": {
-        "atr": 0.00024287993060260237,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.6895819642922296,
-        "btc_hour_pct": 1.2520655150025872,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STABLEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793798100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STABLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6eecf387ef27706532e6a109",
-      "asset_id": "baebddd6eaaab5e8eef16da1",
-      "key": "MEXC:SPOT:WFIUSDT",
-      "symbol": "WFIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793807201377,
-      "price": 2.0227500000000003,
-      "level": 2.0238,
-      "invalid": 2.0143148631373524,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 2.0238,
-        "base_invalid": 2.0143148631373524,
-        "atr": 0.0039009124176498677,
-        "rvol": 8.358184339898411,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793803500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.41650138833795314,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.004735819428008618,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.8800601581254286,
-        "btc_hour_pct": 1.2520655150025872,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WFIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793803500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WFIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1758818,6 +1758715,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793806612924
+    },
+    {
+      "id": "383d332760e8ac82f49901a1",
+      "asset_id": "79bed6adcc6bf312b998e389",
+      "key": "MEXC:SPOT:STABLEUSDT",
+      "symbol": "STABLEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793807201377,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793807218751
+    },
+    {
+      "id": "6eecf387ef27706532e6a109",
+      "asset_id": "baebddd6eaaab5e8eef16da1",
+      "key": "MEXC:SPOT:WFIUSDT",
+      "symbol": "WFIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793807201377,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793807218752
     }
   ],
   "runs": [
@@ -1918575,8 +1918494,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "82a9c01ba6eab609b5b2441971b6df8f556cb408",
-    "previous_success_ms": 1793806946434,
+    "previous_commit": "e839186fb336452f8d26de5eb4dd284a3f3a1a4d",
+    "previous_success_ms": 1793807217603,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
