@@ -1803221,58 +1803221,7 @@
       "source_close_ms": 1793835900000
     }
   },
-  "pending": [
-    {
-      "id": "9ce7709f58e5ce42d5101d56",
-      "asset_id": "1cfd608bf37a60dbacb755af",
-      "key": "MEXC:SPOT:RAYUSDT",
-      "symbol": "RAYUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793836357616,
-      "price": 1.7337,
-      "level": 1.7639,
-      "invalid": 1.7126040290736195,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 1.7639,
-        "base_invalid": 1.7126040290736195,
-        "atr": 0.01997313950920268,
-        "rvol": 2.5732053972379054,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793814300000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.4818171389239345,
-        "score": 4.073205397237905
-      },
-      "context": {
-        "atr": 0.012348620809014815,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.9685911624367494,
-        "btc_hour_pct": 0.6069845286811759,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:RAYUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793814300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "RAYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1820708,6 +1820657,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793836076937
+    },
+    {
+      "id": "9ce7709f58e5ce42d5101d56",
+      "asset_id": "1cfd608bf37a60dbacb755af",
+      "key": "MEXC:SPOT:RAYUSDT",
+      "symbol": "RAYUSDT",
+      "phase": "expired",
+      "observed_ms": 1793836357616,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793836374269
     }
   ],
   "runs": [
@@ -1987154,8 +1987114,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "1b313399708140f119ad113267dcfd9e33536a58",
-    "previous_success_ms": 1793836101497,
+    "previous_commit": "f2a889b7e8e9d564fa1a62bddb72145e720dd988",
+    "previous_success_ms": 1793836372749,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
