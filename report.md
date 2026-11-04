@@ -2,7 +2,7 @@
 
 Geniş spot/vadeli keşif → erken fiyat/hacim radarı → geri test veya yukarıda yeni taban giriş teyidi. Erken radar alım teyidi değildir. Emir gönderilmez.
 
-Son gözlem: 05.11.2026 00:17 TR.
+Son gözlem: 05.11.2026 00:22 TR.
 
 Bütün uygun aktif USDT paritelerinin toplu ticker ön elemesi; aynı borsada spot+perpetual kesişim zorunluluğu ve statik ilk60 sınırı yok. Ayrıntılı kapalı mumlar dinamik öncelik+rotasyonla bütçeli okunur; her coin her5dk ayrıntılı incelenmiş sayılmaz.
 
@@ -12,37 +12,37 @@ Hedef5dk, gerçek başlangıç aralıkları: {"all_starts": {"intervals": 999, "
 
 | Coin | Borsa/pazar | Evre | İlk gerçek gözlem TR | Son fiyat | Seviye | Geçersizlik |
 |---|---|---|---|---:|---:|---:|
-| ALGOUSDT | OKX PERP | 🟢🎯 GİRİŞ TEYİDİ | 04.11.2026 16:43 | 0.09914 | 0.09742 | 0.097188812 |
-| DOODUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:03 | 0.0017905 | 0.001785 | 0.0016949449 |
-| TAOUSDT | MEXC SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:18 | 233.71 | 240.41 | 227.10699 |
-| BNBUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:28 | 718.55 | 724.6 | 699.34728 |
-| MERLUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:38 | 0.0281 | 0.02755 | 0.026251213 |
-| MERLUSDT | OKX SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:38 | 0.0281 | 0.02755 | 0.026268518 |
+| ALGOUSDT | OKX PERP | 🟢🎯 GİRİŞ TEYİDİ | 04.11.2026 16:43 | 0.099045 | 0.09742 | 0.097188812 |
+| DOODUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:03 | 0.0017985 | 0.001785 | 0.0016949449 |
+| TAOUSDT | MEXC SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:18 | 233.69 | 240.41 | 227.10699 |
+| BNBUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:28 | 718.25 | 724.6 | 699.34728 |
+| MERLUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:38 | 0.028075 | 0.02755 | 0.026251213 |
+| MERLUSDT | OKX SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:38 | 0.02809 | 0.02755 | 0.026268518 |
 | MERLUSDT | OKX PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 19:38 | 0.02805 | 0.02754 | 0.026186078 |
-| TAGUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 20:28 | 0.000764 | 0.0007589 | 0.0007357219 |
-| RAYUSDT | MEXC SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 20:51 | 1.74265 | 1.7639 | 1.712604 |
-| FLUIDUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 21:36 | 2.4535 | 2.315 | 2.217139 |
-| FLUIDUSDT | OKX SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 21:36 | 2.454 | 2.3163 | 2.2109422 |
+| TAGUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 20:28 | 0.00076415 | 0.0007589 | 0.0007357219 |
+| RAYUSDT | MEXC SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 20:51 | 1.7396 | 1.7639 | 1.712604 |
+| FLUIDUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 21:36 | 2.4695 | 2.315 | 2.217139 |
+| FLUIDUSDT | OKX SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 21:36 | 2.4675 | 2.3163 | 2.2109422 |
 | APEUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 22:16 | 0.11485 | 0.1166 | 0.11374365 |
-| APEUSDT | OKX SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 22:16 | 0.114945 | 0.11675 | 0.11383208 |
-| LIGHTUSDT | OKX PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:17 | 0.2392 | 0.2332 | 0.22046081 |
-| BANANAS31USDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:32 | 0.005929 | 0.005955 | 0.0058627103 |
-| LONGXIAUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:32 | 0.017425 | 0.01758 | 0.017076612 |
-| TRUSTUSDT | OKX PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:42 | 0.061365 | 0.05962 | 0.05829776 |
+| APEUSDT | OKX SPOT | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 22:16 | 0.114915 | 0.11675 | 0.11383208 |
+| LIGHTUSDT | OKX PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:17 | 0.239 | 0.2332 | 0.22046081 |
+| BANANAS31USDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:32 | 0.005925 | 0.005955 | 0.0058627103 |
+| LONGXIAUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:32 | 0.017515 | 0.01758 | 0.017076612 |
+| TRUSTUSDT | OKX PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 04.11.2026 23:42 | 0.0619 | 0.05962 | 0.05829776 |
 | BABYUSDT | MEXC PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 05.11.2026 00:07 | 0.012085 | 0.01203 | 0.011745743 |
-| FOGOUSDT | OKX PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 05.11.2026 00:17 | 0.002328 | 0.002301 | 0.0022176621 |
+| FOGOUSDT | OKX PERP | ERKEN RADAR — GİRİŞ TEYİDİ DEĞİL | 05.11.2026 00:17 | 0.002317 | 0.002301 | 0.0022176621 |
 
 ## Kapsam ve eleme
 
-{"observed_ms": 1793827067523, "new_radars": ["OKX:PERP:FOGOUSDT"], "liquid_tickers": 1250, "candles_evaluated": 135, "errors": {"OKX:PERP": [], "OKX:SPOT": [], "MEXC:SPOT": [], "MEXC:PERP": ["KORUSDT: Missing/stale closed history"]}, "failed_groups": []}
+{"observed_ms": 1793827362470, "new_radars": [], "liquid_tickers": 1247, "candles_evaluated": 134, "errors": {"OKX:PERP": [], "OKX:SPOT": [], "MEXC:PERP": [], "MEXC:SPOT": []}, "failed_groups": []}
 
-OKX:PERP: {"active_catalog": 288, "instrument_categories": {"1": 304, "3": 227, "4": 9}, "valid_liquid_tickers": 287, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827052274, "selected_for_candles": 33, "candles_evaluated": 33, "fresh_candidate_quotes": 7, "funnel": {"candles_evaluated": 33, "volume_not_accelerating": 30, "close_not_strong": 19, "price_structure_not_ready": 18}, "calls": 40, "errors": []}
+OKX:PERP: {"active_catalog": 288, "instrument_categories": {"1": 304, "3": 227, "4": 9}, "valid_liquid_tickers": 287, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827352290, "selected_for_candles": 34, "candles_evaluated": 34, "fresh_candidate_quotes": 6, "funnel": {"candles_evaluated": 34, "volume_not_accelerating": 31, "close_not_strong": 16, "price_structure_not_ready": 18}, "calls": 25, "errors": []}
 
-OKX:SPOT: {"active_catalog": 293, "instrument_categories": {"1": 1012, "4": 4, "3": 194}, "valid_liquid_tickers": 200, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827052323, "selected_for_candles": 32, "candles_evaluated": 32, "fresh_candidate_quotes": 7, "funnel": {"candles_evaluated": 32, "volume_not_accelerating": 27, "close_not_strong": 13, "price_structure_not_ready": 10}, "calls": 41, "errors": []}
+OKX:SPOT: {"active_catalog": 293, "instrument_categories": {"1": 1012, "4": 4, "3": 194}, "valid_liquid_tickers": 200, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827352366, "selected_for_candles": 32, "candles_evaluated": 32, "fresh_candidate_quotes": 4, "funnel": {"candles_evaluated": 32, "volume_not_accelerating": 30, "close_not_strong": 15, "price_structure_not_ready": 18}, "calls": 28, "errors": []}
 
-MEXC:PERP: {"active_catalog": 558, "instrument_categories": {}, "valid_liquid_tickers": 542, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827053087, "selected_for_candles": 39, "candles_evaluated": 38, "fresh_candidate_quotes": 9, "funnel": {"candles_evaluated": 38, "volume_not_accelerating": 33, "price_structure_not_ready": 14, "close_not_strong": 17}, "calls": 42, "errors": ["KORUSDT: Missing/stale closed history"]}
+MEXC:PERP: {"active_catalog": 558, "instrument_categories": {}, "valid_liquid_tickers": 541, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827352437, "selected_for_candles": 36, "candles_evaluated": 36, "fresh_candidate_quotes": 9, "funnel": {"candles_evaluated": 36, "volume_not_accelerating": 33, "price_structure_not_ready": 19, "close_not_strong": 21, "already_extended": 1}, "calls": 28, "errors": []}
 
-MEXC:SPOT: {"active_catalog": 1229, "instrument_categories": {}, "valid_liquid_tickers": 221, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827052206, "selected_for_candles": 32, "candles_evaluated": 32, "fresh_candidate_quotes": 6, "funnel": {"candles_evaluated": 32, "volume_not_accelerating": 27, "already_extended": 1, "close_not_strong": 10, "price_structure_not_ready": 10}, "calls": 43, "errors": []}
+MEXC:SPOT: {"active_catalog": 1229, "instrument_categories": {}, "valid_liquid_tickers": 219, "active_quotes_retained_outside_discovery": 0, "observed_ms": 1793827352238, "selected_for_candles": 32, "candles_evaluated": 32, "fresh_candidate_quotes": 6, "funnel": {"candles_evaluated": 32, "volume_not_accelerating": 26, "close_not_strong": 13, "price_structure_not_ready": 18}, "calls": 32, "errors": []}
 
 Ayrıntılı evren/ret nedenleri ve seçilen kimlikler state içinde saklanır. Rolling24s hacim farkı yalnız sıralama vekilidir,5dk alım hacmi değildir. Hacim sinyali yalnız kapalı15dk gerçek quote hacmiyle ölçülür.4s trend/OI erken radarı engellemez.3yeni sembol/döngü,6yeni sembol/saat,20aktif sembol/80pazar sınırı vardır. Aynı sembol her borsada kendi fiyatıyla izlenir; yalnız tekrar eden erken bildirimler bastırılır; kota dışı fırsatlar kaçabilir.
 
