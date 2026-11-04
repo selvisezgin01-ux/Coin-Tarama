@@ -1775590,62 +1775590,7 @@
       "source_close_ms": 1793817000000
     }
   },
-  "pending": [
-    {
-      "id": "f3b9b7ccab5a5827a7d406cb",
-      "asset_id": "f2ab5c4992bf5317f988b530",
-      "key": "MEXC:PERP:ARXUSDT",
-      "symbol": "ARXUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793817081511,
-      "price": 0.24380000000000002,
-      "level": 0.2449,
-      "invalid": 0.23403151157402885,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.2449,
-        "base_invalid": 0.23403151157402885,
-        "atr": 0.0031232561731408645,
-        "rvol": 4.379401103565331,
-        "close_position": 0.702702702702704,
-        "breakout": true,
-        "bar_close_ms": 1793800800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.9645719105862565,
-        "score": 6.0821038062680355
-      },
-      "context": {
-        "atr": 0.006314868836887846,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -8.314001515457026,
-        "btc_hour_pct": -0.12995128690286295,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:ARXUSDT",
-          "change_pct": -6.115150687706716,
-          "old_ms": 1793813620157,
-          "current_ms": 1793817079057,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793800800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ARXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1792333,6 +1792278,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793816489531
+    },
+    {
+      "id": "f3b9b7ccab5a5827a7d406cb",
+      "asset_id": "f2ab5c4992bf5317f988b530",
+      "key": "MEXC:PERP:ARXUSDT",
+      "symbol": "ARXUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793817081511,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793817094718
     }
   ],
   "runs": [
@@ -1954405,8 +1954361,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "7488a8f3f1cace2dfd10cb6b3adb994d7bd195de",
-    "previous_success_ms": 1793816813444,
+    "previous_commit": "1ca8f11f8d50e5f0d23703a2d1bf9c5096d2c6f1",
+    "previous_success_ms": 1793817093730,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
