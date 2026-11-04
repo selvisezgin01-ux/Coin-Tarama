@@ -1690641,270 +1690641,7 @@
       "source_close_ms": 1793771100000
     }
   },
-  "pending": [
-    {
-      "id": "12a46e8841c37501572bb9d8",
-      "asset_id": "ad7a5dc2fdc6ff827499cad5",
-      "key": "MEXC:PERP:AIOUSDT",
-      "symbol": "AIOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793771213883,
-      "price": 0.03834,
-      "level": 0.03566,
-      "invalid": 0.03312783817804445,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03566,
-        "base_invalid": 0.03312783817804445,
-        "atr": 0.000947745479703683,
-        "rvol": 2.1483623346588914,
-        "close_position": 0.8791946308724834,
-        "breakout": true,
-        "bar_close_ms": 1793764800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.089269878805781,
-        "score": 4.0275569655313745
-      },
-      "context": {
-        "atr": 0.0008847265873981627,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.9020918777694185,
-        "btc_hour_pct": 1.1628287129243686,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:AIOUSDT",
-          "change_pct": -1.608706387343073,
-          "old_ms": 1793767598141,
-          "current_ms": 1793771211162,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793764800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AIOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "2dd46d5f6409303351bd243a",
-      "asset_id": "cc9c3fbcfca758ff5813fb8d",
-      "key": "MEXC:SPOT:WLDUSDT",
-      "symbol": "WLDUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793771214080,
-      "price": 0.3863,
-      "level": 0.3769,
-      "invalid": 0.3635138443578851,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3769,
-        "base_invalid": 0.3635138443578851,
-        "atr": 0.0039077042807657775,
-        "rvol": 6.942812656838538,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793771100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.406652360515028,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.0039077042807657775,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 1.0633095306472828,
-        "btc_hour_pct": 1.1637409853766156,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:WLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793771100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a041aa475c7a173dd6a9e395",
-      "asset_id": "698e2cd62aa1160b4d5e80e8",
-      "key": "OKX:SPOT:OKSOLUSDT",
-      "symbol": "OKSOLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793771215361,
-      "price": 93.025,
-      "level": 92.5,
-      "invalid": 90.64161707287752,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 92.5,
-        "base_invalid": 90.64161707287752,
-        "atr": 0.5225528474831818,
-        "rvol": 8.212224969068103,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793771100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.3846489315307409,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.5225528474831818,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.38583733065546966,
-        "btc_hour_pct": 1.1620823092610921,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:OKSOLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793771100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "OKSOLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "28156f105fb58847e781b5fa",
-      "asset_id": "c016e2b4b845b33ee2f4bed7",
-      "key": "OKX:PERP:WLDUSDT",
-      "symbol": "WLDUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793771214654,
-      "price": 0.38565,
-      "level": 0.3768,
-      "invalid": 0.36293846172176725,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3768,
-        "base_invalid": 0.36293846172176725,
-        "atr": 0.004410255188218315,
-        "rvol": 3.9384171387971274,
-        "close_position": 0.9576271186440679,
-        "breakout": true,
-        "bar_close_ms": 1793771100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.1626909675690262,
-        "score": 5.896044257441195
-      },
-      "context": {
-        "atr": 0.004410255188218315,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.8661390508786448,
-        "btc_hour_pct": 1.1713507616722962,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:WLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793771100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "c097b5d17525d056dad3e853",
-      "asset_id": "aaa364bee0476a5e7c14b0ae",
-      "key": "OKX:SPOT:WLDUSDT",
-      "symbol": "WLDUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793771215361,
-      "price": 0.38595,
-      "level": 0.3769,
-      "invalid": 0.36346255893019813,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3769,
-        "base_invalid": 0.36346255893019813,
-        "atr": 0.004249607132012329,
-        "rvol": 3.758022253602643,
-        "close_position": 0.9499999999999963,
-        "breakout": true,
-        "bar_close_ms": 1793771100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.186930905195484,
-        "score": 5.708022253602639
-      },
-      "context": {
-        "atr": 0.004249607132012329,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.873748309631428,
-        "btc_hour_pct": 1.1620823092610921,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:WLDUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793771100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WLDUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1706195,6 +1705932,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793769719652
+    },
+    {
+      "id": "12a46e8841c37501572bb9d8",
+      "asset_id": "ad7a5dc2fdc6ff827499cad5",
+      "key": "MEXC:PERP:AIOUSDT",
+      "symbol": "AIOUSDT",
+      "phase": "expired",
+      "observed_ms": 1793771213883,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793771226714
+    },
+    {
+      "id": "2dd46d5f6409303351bd243a",
+      "asset_id": "cc9c3fbcfca758ff5813fb8d",
+      "key": "MEXC:SPOT:WLDUSDT",
+      "symbol": "WLDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793771214080,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793771226714
+    },
+    {
+      "id": "a041aa475c7a173dd6a9e395",
+      "asset_id": "698e2cd62aa1160b4d5e80e8",
+      "key": "OKX:SPOT:OKSOLUSDT",
+      "symbol": "OKSOLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793771215361,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793771226715
+    },
+    {
+      "id": "28156f105fb58847e781b5fa",
+      "asset_id": "c016e2b4b845b33ee2f4bed7",
+      "key": "OKX:PERP:WLDUSDT",
+      "symbol": "WLDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793771214654,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793771226715
+    },
+    {
+      "id": "c097b5d17525d056dad3e853",
+      "asset_id": "aaa364bee0476a5e7c14b0ae",
+      "key": "OKX:SPOT:WLDUSDT",
+      "symbol": "WLDUSDT",
+      "phase": "radar",
+      "observed_ms": 1793771215361,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793771226715
     }
   ],
   "runs": [
@@ -1834263,7 +1834055,8 @@
         "entry_seq": 0,
         "cohort": "WLDUSDT",
         "observation_lag_ms": 114080,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12634
       },
       "698e2cd62aa1160b4d5e80e8:radar": {
         "symbol": "OKSOLUSDT",
@@ -1834285,7 +1834078,8 @@
         "entry_seq": 0,
         "cohort": "OKSOLUSDT",
         "observation_lag_ms": 115361,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11354
       },
       "c016e2b4b845b33ee2f4bed7:radar": {
         "symbol": "WLDUSDT",
@@ -1834307,7 +1834101,8 @@
         "entry_seq": 0,
         "cohort": "WLDUSDT",
         "observation_lag_ms": 114654,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12061
       },
       "aaa364bee0476a5e7c14b0ae:radar": {
         "symbol": "WLDUSDT",
@@ -1834329,7 +1834124,8 @@
         "entry_seq": 0,
         "cohort": "WLDUSDT",
         "observation_lag_ms": 115361,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11354
       }
     },
     "errors": [],
@@ -1860386,8 +1860182,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a680401e646a24fe683860468af363f8675c9e52",
-    "previous_success_ms": 1793770946648,
+    "previous_commit": "0b1fbb4075ee562615533b8b303f62753440525f",
+    "previous_success_ms": 1793771225155,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
