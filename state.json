@@ -1772941,214 +1772941,7 @@
       "source_close_ms": 1793821500000
     }
   },
-  "pending": [
-    {
-      "id": "d06b2425c0ac69f9f916daf2",
-      "asset_id": "92d291325922faa05c1b9ee8",
-      "key": "OKX:PERP:LDOUSDT",
-      "symbol": "LDOUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793821663497,
-      "price": 0.3387,
-      "level": 0.3397,
-      "invalid": 0.3338205156642281,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3397,
-        "base_invalid": 0.3338205156642281,
-        "atr": 0.0025298955718125286,
-        "rvol": 6.455779056594336,
-        "close_position": 0.9247311827956955,
-        "breakout": true,
-        "bar_close_ms": 1793803500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.0771513353115667,
-        "score": 7.924731182795695
-      },
-      "context": {
-        "atr": 0.0032274796398959493,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.4599379160386996,
-        "btc_hour_pct": -0.09142598413541814,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:LDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793803500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a51169e21574ceab484bb88c",
-      "asset_id": "bf6b995065edb5e28f519e88",
-      "key": "OKX:SPOT:LDOUSDT",
-      "symbol": "LDOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793821664193,
-      "price": 0.33895,
-      "level": 0.3401,
-      "invalid": 0.3340498619283944,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.3401,
-        "base_invalid": 0.3340498619283944,
-        "atr": 0.0023342538107035244,
-        "rvol": 4.22242740691885,
-        "close_position": 0.8817204301075277,
-        "breakout": true,
-        "bar_close_ms": 1793803500000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 2.045050385299363,
-        "score": 6.104147837026378
-      },
-      "context": {
-        "atr": 0.0030412449853518407,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.46377493276050785,
-        "btc_hour_pct": -0.08679012084714666,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:LDOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793803500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LDOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "1c474279a90e6b32f0de2ec5",
-      "asset_id": "641a2060257ee6beaa7553ea",
-      "key": "MEXC:SPOT:APEUSDT",
-      "symbol": "APEUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793821664065,
-      "price": 0.1154,
-      "level": 0.1163,
-      "invalid": 0.11364274653083123,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1163,
-        "base_invalid": 0.11364274653083123,
-        "atr": 0.0010483564611251503,
-        "rvol": 2.7906637147948237,
-        "close_position": 0.6666666666666666,
-        "breakout": true,
-        "bar_close_ms": 1793819700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.4314063848144922,
-        "score": 4.457330381461491
-      },
-      "context": {
-        "atr": 0.0010432585370870517,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.3458819414699166,
-        "btc_hour_pct": -0.0856911348784184,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:APEUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "APEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "ee7a71b200c61dc69d187c56",
-      "asset_id": "96641888b882d76763bf6c5a",
-      "key": "MEXC:PERP:INITUSDT",
-      "symbol": "INITUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793821665750,
-      "price": 0.144435,
-      "level": 0.14522,
-      "invalid": 0.14015585012987056,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.14522,
-        "base_invalid": 0.14015585012987056,
-        "atr": 0.0026943324675295075,
-        "rvol": 2.3215683005190173,
-        "close_position": 0.6536697247706462,
-        "breakout": true,
-        "bar_close_ms": 1793819700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.2126537785588827,
-        "score": 3.9752380252896637
-      },
-      "context": {
-        "atr": 0.0026517455267844603,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.10253806918220087,
-        "btc_hour_pct": -0.09105938639409894,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:INITUSDT",
-          "change_pct": 4.0953639656030605,
-          "old_ms": 1793817967235,
-          "current_ms": 1793821663171,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793819700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1790001,6 +1789794,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793820990755
+    },
+    {
+      "id": "d06b2425c0ac69f9f916daf2",
+      "asset_id": "92d291325922faa05c1b9ee8",
+      "key": "OKX:PERP:LDOUSDT",
+      "symbol": "LDOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793821663497,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793821678335
+    },
+    {
+      "id": "1c474279a90e6b32f0de2ec5",
+      "asset_id": "641a2060257ee6beaa7553ea",
+      "key": "MEXC:SPOT:APEUSDT",
+      "symbol": "APEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793821664065,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793821678335
+    },
+    {
+      "id": "ee7a71b200c61dc69d187c56",
+      "asset_id": "96641888b882d76763bf6c5a",
+      "key": "MEXC:PERP:INITUSDT",
+      "symbol": "INITUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793821665750,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793821678335
     }
   ],
   "runs": [
@@ -1953266,8 +1953092,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "3001586e35e1c88f7712df97cefff4c1a901bcc5",
-    "previous_success_ms": 1793821393749,
+    "previous_commit": "1a0521ce7d6e269483b50a781eba5b9a885b178a",
+    "previous_success_ms": 1793821677091,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
