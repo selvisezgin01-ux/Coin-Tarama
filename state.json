@@ -1766728,60 +1766728,7 @@
       "source_close_ms": 1793812500000
     }
   },
-  "pending": [
-    {
-      "id": "f8ef3e90d6a8fcfa27cdc2b1",
-      "asset_id": "11080c4820f687043898ebbd",
-      "key": "OKX:SPOT:BRL1USDT",
-      "symbol": "BRL1USDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793813634301,
-      "price": 0.18259999999999998,
-      "level": 0.1824,
-      "invalid": 0.18145897194117436,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1824,
-        "base_invalid": 0.18145897194117436,
-        "atr": 0.0002735203921708731,
-        "rvol": 2.2328382167726923,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793813400000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.1097694840834329,
-        "score": 3.7328382167726923
-      },
-      "context": {
-        "atr": 0.0002735203921708731,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.17815508070166963,
-        "btc_hour_pct": 0.28804519059177913,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:BRL1USDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793813400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BRL1USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1783381,6 +1783328,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793813343058
+    },
+    {
+      "id": "f8ef3e90d6a8fcfa27cdc2b1",
+      "asset_id": "11080c4820f687043898ebbd",
+      "key": "OKX:SPOT:BRL1USDT",
+      "symbol": "BRL1USDT",
+      "phase": "radar",
+      "observed_ms": 1793813634301,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793813648553
     }
   ],
   "runs": [
@@ -1918573,7 +1918531,8 @@
         "entry_seq": 0,
         "cohort": "BRL1USDT",
         "observation_lag_ms": 234301,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14252
       }
     },
     "errors": [],
@@ -1944598,8 +1944557,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "020563740db03ab65fee5802b1d1df8025ebeef7",
-    "previous_success_ms": 1793813368051,
+    "previous_commit": "365d76042c96a787c45ffc5b05392741be41c725",
+    "previous_success_ms": 1793813647322,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
