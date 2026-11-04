@@ -1752776,214 +1752776,7 @@
       "source_close_ms": 1793807100000
     }
   },
-  "pending": [
-    {
-      "id": "0eaa1721add2363e6f810f88",
-      "asset_id": "74534dd166773f651887b096",
-      "key": "OKX:SPOT:GMXUSDT",
-      "symbol": "GMXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793808236003,
-      "price": 9.2335,
-      "level": 8.85,
-      "invalid": 8.74346863418832,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 8.85,
-        "base_invalid": 8.74346863418832,
-        "atr": 0.03687577207787713,
-        "rvol": 18.932132402620848,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793802600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.05649717514124575,
-        "score": 8.0
-      },
-      "context": {
-        "atr": 0.06133116097139706,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.4389265494452852,
-        "btc_hour_pct": 1.2023305552019803,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:GMXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793802600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GMXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "e11bdcc251bff7bece50f14f",
-      "asset_id": "0bc3d719a29a07a3336e3a88",
-      "key": "OKX:SPOT:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793808236003,
-      "price": 0.09700500000000001,
-      "level": 0.09593,
-      "invalid": 0.0936574007995567,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09593,
-        "base_invalid": 0.0936574007995567,
-        "atr": 0.0009506613362886717,
-        "rvol": 5.9897596479700415,
-        "close_position": 0.6927083333333354,
-        "breakout": true,
-        "bar_close_ms": 1793808000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1795681937861957,
-        "score": 7.682467981303377
-      },
-      "context": {
-        "atr": 0.0009506613362886717,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.022762361415784582,
-        "btc_hour_pct": 1.2023305552019803,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793808000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "21310621482d14b3ab6ec884",
-      "asset_id": "b4492c8f97547ce9033783c9",
-      "key": "OKX:PERP:POLUSDT",
-      "symbol": "POLUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793808237680,
-      "price": 0.09686,
-      "level": 0.09586,
-      "invalid": 0.09356623086571049,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09586,
-        "base_invalid": 0.09356623086571049,
-        "atr": 0.0009584608952633756,
-        "rvol": 2.541273198490032,
-        "close_position": 0.7005649717514122,
-        "breakout": true,
-        "bar_close_ms": 1793808000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1493040911008112,
-        "score": 4.241838170241444
-      },
-      "context": {
-        "atr": 0.0009584608952633756,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.07575958951253625,
-        "btc_hour_pct": 1.2250636806133475,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:POLUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793808000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "POLUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "00c2a816641e5bec812bf2b0",
-      "asset_id": "fe352c3f3d6f0bdc58e2cc29",
-      "key": "MEXC:PERP:DOODUSDT",
-      "symbol": "DOODUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793808237992,
-      "price": 0.0017615,
-      "level": 0.001785,
-      "invalid": 0.0016949449357391204,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.001785,
-        "base_invalid": 0.0016949449357391204,
-        "atr": 2.0367095072530964e-05,
-        "rvol": 2.1568171195578736,
-        "close_position": 0.9600000000000035,
-        "breakout": false,
-        "bar_close_ms": 1793808000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5154639175257714,
-        "score": 3.616817119557877
-      },
-      "context": {
-        "atr": 2.0367095072530964e-05,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.6871574162379046,
-        "btc_hour_pct": 1.202621333763676,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DOODUSDT",
-          "change_pct": -3.669699720813391,
-          "old_ms": 1793804486223,
-          "current_ms": 1793808234299,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793808000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DOODUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1769385,6 +1769178,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793807218752
+    },
+    {
+      "id": "0eaa1721add2363e6f810f88",
+      "asset_id": "74534dd166773f651887b096",
+      "key": "OKX:SPOT:GMXUSDT",
+      "symbol": "GMXUSDT",
+      "phase": "expired",
+      "observed_ms": 1793808236003,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793808251717
+    },
+    {
+      "id": "e11bdcc251bff7bece50f14f",
+      "asset_id": "0bc3d719a29a07a3336e3a88",
+      "key": "OKX:SPOT:POLUSDT",
+      "symbol": "POLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793808236003,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793808251717
+    },
+    {
+      "id": "21310621482d14b3ab6ec884",
+      "asset_id": "b4492c8f97547ce9033783c9",
+      "key": "OKX:PERP:POLUSDT",
+      "symbol": "POLUSDT",
+      "phase": "radar",
+      "observed_ms": 1793808237680,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793808251718
+    },
+    {
+      "id": "00c2a816641e5bec812bf2b0",
+      "asset_id": "fe352c3f3d6f0bdc58e2cc29",
+      "key": "MEXC:PERP:DOODUSDT",
+      "symbol": "DOODUSDT",
+      "phase": "radar",
+      "observed_ms": 1793808237992,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793808251718
     }
   ],
   "runs": [
@@ -1903289,7 +1903126,8 @@
         "entry_seq": 0,
         "cohort": "POLUSDT",
         "observation_lag_ms": 236003,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15714
       },
       "b4492c8f97547ce9033783c9:radar": {
         "symbol": "POLUSDT",
@@ -1903311,7 +1903149,8 @@
         "entry_seq": 0,
         "cohort": "POLUSDT",
         "observation_lag_ms": 237680,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14038
       },
       "fe352c3f3d6f0bdc58e2cc29:radar": {
         "symbol": "DOODUSDT",
@@ -1903333,7 +1903172,8 @@
         "entry_seq": 0,
         "cohort": "DOODUSDT",
         "observation_lag_ms": 237992,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13726
       }
     },
     "errors": [],
@@ -1929360,8 +1929200,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "55c93c064948f34b37ebba39c29f58282b6a41d2",
-    "previous_success_ms": 1793807969162,
+    "previous_commit": "d6d8f0152ae05f1e83c3de875e1aceb398bc7830",
+    "previous_success_ms": 1793808250391,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
