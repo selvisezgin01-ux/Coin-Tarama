@@ -1703661,118 +1703661,7 @@
       "source_close_ms": 1793783700000
     }
   },
-  "pending": [
-    {
-      "id": "580ba7f5e2d3e0fa002b8c99",
-      "asset_id": "75316589d62b7a31e508e78f",
-      "key": "MEXC:PERP:SHIBUSDT",
-      "symbol": "SHIBUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793783856607,
-      "price": 4.674e-06,
-      "level": 4.67e-06,
-      "invalid": 4.588432528455854e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.67e-06,
-        "base_invalid": 4.588432528455854e-06,
-        "atr": 2.378314362764001e-08,
-        "rvol": 3.4982168752419045,
-        "close_position": 0.7647058823529236,
-        "breakout": true,
-        "bar_close_ms": 1793778300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6678155967255517,
-        "score": 5.262922757594828
-      },
-      "context": {
-        "atr": 2.103642293872882e-08,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.17805315266885557,
-        "btc_hour_pct": 0.45636614774486883,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SHIBUSDT",
-          "change_pct": -1.157802226510296,
-          "old_ms": 1793780241149,
-          "current_ms": 1793783854154,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0095,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793778300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SHIBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cb506082cdf9fee2d9e05999",
-      "asset_id": "e7e58cf3efea343738915ed8",
-      "key": "MEXC:PERP:JTOUSDT",
-      "symbol": "JTOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793783856607,
-      "price": 0.35545,
-      "level": 0.355,
-      "invalid": 0.3474577696179642,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.355,
-        "base_invalid": 0.3474577696179642,
-        "atr": 0.0029482025469053028,
-        "rvol": 2.566671318973128,
-        "close_position": 0.6874999999999978,
-        "breakout": true,
-        "bar_close_ms": 1793779200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.8219954648526206,
-        "score": 4.254171318973126
-      },
-      "context": {
-        "atr": 0.002745022128240877,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.03466246486603097,
-        "btc_hour_pct": 0.45636614774486883,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:JTOUSDT",
-          "change_pct": 0.8700446906883208,
-          "old_ms": 1793780241203,
-          "current_ms": 1793783854213,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793779200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "JTOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1719547,6 +1719436,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793783565809
+    },
+    {
+      "id": "580ba7f5e2d3e0fa002b8c99",
+      "asset_id": "75316589d62b7a31e508e78f",
+      "key": "MEXC:PERP:SHIBUSDT",
+      "symbol": "SHIBUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793783856607,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793783869595
+    },
+    {
+      "id": "cb506082cdf9fee2d9e05999",
+      "asset_id": "e7e58cf3efea343738915ed8",
+      "key": "MEXC:PERP:JTOUSDT",
+      "symbol": "JTOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793783856607,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793783869595
     }
   ],
   "runs": [
@@ -1876215,8 +1876126,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0786f98b9070cced8ebb4c8fe294f7ea141a1a61",
-    "previous_success_ms": 1793783592099,
+    "previous_commit": "9d0af5fa02c901fb0656965ca5df9e3c94766735",
+    "previous_success_ms": 1793783868232,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
