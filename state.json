@@ -1780673,62 +1780673,7 @@
       "source_close_ms": 1793823300000
     }
   },
-  "pending": [
-    {
-      "id": "aba49907e383eb097eeb72f9",
-      "asset_id": "fa3f5abe1821d67c4473952a",
-      "key": "MEXC:PERP:BABYUSDT",
-      "symbol": "BABYUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793826461774,
-      "price": 0.012025000000000001,
-      "level": 0.01203,
-      "invalid": 0.011745742671011077,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01203,
-        "base_invalid": 0.011745742671011077,
-        "atr": 9.504885992615679e-05,
-        "rvol": 3.7448321370617945,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793826000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.7550335570469802,
-        "score": 5.2448321370617945
-      },
-      "context": {
-        "atr": 9.504885992615679e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.5780632142748043,
-        "btc_hour_pct": 0.17697034277217583,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BABYUSDT",
-          "change_pct": -1.4284239722173186,
-          "old_ms": 1793822849888,
-          "current_ms": 1793826458894,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793826000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BABYUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1797790,6 +1797735,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793826185148
+    },
+    {
+      "id": "aba49907e383eb097eeb72f9",
+      "asset_id": "fa3f5abe1821d67c4473952a",
+      "key": "MEXC:PERP:BABYUSDT",
+      "symbol": "BABYUSDT",
+      "phase": "radar",
+      "observed_ms": 1793826461774,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793826474902
     }
   ],
   "runs": [
@@ -1936110,7 +1936066,8 @@
         "entry_seq": 0,
         "cohort": "BABYUSDT",
         "observation_lag_ms": 461774,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13128
       }
     },
     "errors": [],
@@ -1962133,8 +1962090,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "dbc189607c496c134a711574c7fe8710093a7164",
-    "previous_success_ms": 1793826207364,
+    "previous_commit": "fe63527b67b78f572238a675b016b36e361e5e9e",
+    "previous_success_ms": 1793826473786,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
