@@ -1673732,290 +1673732,7 @@
       "source_close_ms": 1793767500000
     }
   },
-  "pending": [
-    {
-      "id": "80371f563fac71d95f32fd5f",
-      "asset_id": "0a498704b677c59ba627ce39",
-      "key": "MEXC:SPOT:OMIUSDT",
-      "symbol": "OMIUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "trend_weakening",
-      "observed_ms": 1793768516215,
-      "price": 0.00023755,
-      "level": 0.000235,
-      "invalid": 0.00023516173503133312,
-      "target": 0.0002463420299373338,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.000235,
-        "base_invalid": 0.0002312617350313331,
-        "atr": 1.588433124445957e-06,
-        "rvol": 39.28582763005392,
-        "close_position": 0.6806722689075626,
-        "breakout": true,
-        "bar_close_ms": 1793707200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1558219178082085,
-        "score": 7.680672268907562
-      },
-      "context": {
-        "atr": 1.1211569865638796e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.35865623961388593,
-        "btc_hour_pct": 1.1637409853766156,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:OMIUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": {
-        "reasons": [],
-        "stop": 0.00023516173503133312,
-        "target": 0.0002463420299373338,
-        "risk_pct": 1.0678439077269202,
-        "planning_cost_pct": 0.5,
-        "resistance": 0.000256,
-        "target_kind": "known_overhead_room",
-        "entry_zone_low": 0.0002371,
-        "entry_zone_high": 0.00023789606935336162
-      },
-      "reason": null,
-      "source_close_ms": 1793768400000,
-      "entry_route": "retest",
-      "entry_seq": 1,
-      "cohort": "OMIUSDT",
-      "trend_detail": {
-        "status": "weakening",
-        "source_close_ms": 1793768400000,
-        "closed_price": 0.0002379,
-        "ema20_1h": 0.00023808622453405003,
-        "atr14_1h": 2.5924510680803632e-06,
-        "structure_floor": 0.000238,
-        "new_entry": false
-      },
-      "was_triggered": true
-    },
-    {
-      "id": "409f83abbaaca2b2b0e5892b",
-      "asset_id": "03a4d0f6c30cdec757d241f5",
-      "key": "OKX:PERP:INITUSDT",
-      "symbol": "INITUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793768511934,
-      "price": 0.13214,
-      "level": 0.12691,
-      "invalid": 0.12195349776411513,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.12691,
-        "base_invalid": 0.12195349776411513,
-        "atr": 0.0019766815725657623,
-        "rvol": 3.105540865249913,
-        "close_position": 0.9507042253521155,
-        "breakout": true,
-        "bar_close_ms": 1793763000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.672316384180796,
-        "score": 5.056245090602029
-      },
-      "context": {
-        "atr": 0.0022079483231777076,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.21047224417056754,
-        "btc_hour_pct": 1.1713507616722962,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:INITUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793763000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "INITUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "6a64d9f8a51a410706e1734a",
-      "asset_id": "a2f44b6937d011777f3ba83e",
-      "key": "MEXC:PERP:STONKUSDT",
-      "symbol": "STONKUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793768514994,
-      "price": 0.11810999999999999,
-      "level": 0.11702,
-      "invalid": 0.1122058999530947,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.11702,
-        "base_invalid": 0.1122058999530947,
-        "atr": 0.001960666979368709,
-        "rvol": 7.15871891269005,
-        "close_position": 0.9647058823529417,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.493392070484581,
-        "score": 7.964705882352941
-      },
-      "context": {
-        "atr": 0.001960666979368709,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.3305633575602123,
-        "btc_hour_pct": 1.1628287129243686,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:STONKUSDT",
-          "change_pct": 4.480468310255548,
-          "old_ms": 1793764896320,
-          "current_ms": 1793768510316,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STONKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cdf55a290efc0126a15b3433",
-      "asset_id": "7b427ddb8747234375e073ae",
-      "key": "OKX:SPOT:NAVXUSDT",
-      "symbol": "NAVXUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793768515026,
-      "price": 0.0089485,
-      "level": 0.00859,
-      "invalid": 0.008289312273174698,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.00859,
-        "base_invalid": 0.008289312273174698,
-        "atr": 0.00013125151216867624,
-        "rvol": 19.30964596232415,
-        "close_position": 0.8891454965357979,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.8387096774193505,
-        "score": 7.889145496535798
-      },
-      "context": {
-        "atr": 0.00013125151216867624,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.6766273681582584,
-        "btc_hour_pct": 1.1620823092610921,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:NAVXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "NAVXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "961012092c9f5b92240a6841",
-      "asset_id": "c839ca1dd9070a1f817bdfaf",
-      "key": "MEXC:SPOT:STONKUSDT",
-      "symbol": "STONKUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793768516215,
-      "price": 0.117899,
-      "level": 0.116385,
-      "invalid": 0.11189697198660568,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.116385,
-        "base_invalid": 0.11189697198660568,
-        "atr": 0.0018135200892954815,
-        "rvol": 4.320882816125874,
-        "close_position": 0.9959220661531513,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 4.523244697801232,
-        "score": 6.316804882279025
-      },
-      "context": {
-        "atr": 0.0018135200892954815,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.3595037124246163,
-        "btc_hour_pct": 1.1637409853766156,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:STONKUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "STONKUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1689218,6 +1688935,61 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793767624791
+    },
+    {
+      "id": "80371f563fac71d95f32fd5f",
+      "asset_id": "0a498704b677c59ba627ce39",
+      "key": "MEXC:SPOT:OMIUSDT",
+      "symbol": "OMIUSDT",
+      "phase": "trend_weakening",
+      "observed_ms": 1793768516215,
+      "entry_seq": 1,
+      "entry_route": "retest",
+      "delivered_ms": 1793768528017
+    },
+    {
+      "id": "409f83abbaaca2b2b0e5892b",
+      "asset_id": "03a4d0f6c30cdec757d241f5",
+      "key": "OKX:PERP:INITUSDT",
+      "symbol": "INITUSDT",
+      "phase": "expired",
+      "observed_ms": 1793768511934,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793768528017
+    },
+    {
+      "id": "6a64d9f8a51a410706e1734a",
+      "asset_id": "a2f44b6937d011777f3ba83e",
+      "key": "MEXC:PERP:STONKUSDT",
+      "symbol": "STONKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793768514994,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793768528018
+    },
+    {
+      "id": "cdf55a290efc0126a15b3433",
+      "asset_id": "7b427ddb8747234375e073ae",
+      "key": "OKX:SPOT:NAVXUSDT",
+      "symbol": "NAVXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793768515026,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793768528018
+    },
+    {
+      "id": "961012092c9f5b92240a6841",
+      "asset_id": "c839ca1dd9070a1f817bdfaf",
+      "key": "MEXC:SPOT:STONKUSDT",
+      "symbol": "STONKUSDT",
+      "phase": "radar",
+      "observed_ms": 1793768516215,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793768528018
     }
   ],
   "runs": [
@@ -1816653,7 +1816425,8 @@
         "entry_seq": 0,
         "cohort": "STONKUSDT",
         "observation_lag_ms": 114994,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13024
       },
       "7b427ddb8747234375e073ae:radar": {
         "symbol": "NAVXUSDT",
@@ -1816675,7 +1816448,8 @@
         "entry_seq": 0,
         "cohort": "NAVXUSDT",
         "observation_lag_ms": 115026,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12992
       },
       "c839ca1dd9070a1f817bdfaf:radar": {
         "symbol": "STONKUSDT",
@@ -1816697,7 +1816471,8 @@
         "entry_seq": 0,
         "cohort": "STONKUSDT",
         "observation_lag_ms": 116215,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11803
       }
     },
     "errors": [],
@@ -1842737,8 +1842512,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "32fb253d212cfb8e0b3b956fc32cd36c9d89f817",
-    "previous_success_ms": 1793768239408,
+    "previous_commit": "6b2c1a9b7807f830d191c1990a9cbd6dbce4b5b9",
+    "previous_success_ms": 1793768526429,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
