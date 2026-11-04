@@ -1584553,58 +1584553,7 @@
       "source_close_ms": 1793795400000
     }
   },
-  "pending": [
-    {
-      "id": "4fa59791267ce98cefc1e7cb",
-      "asset_id": "e9b753291488dab0d54868cc",
-      "key": "OKX:SPOT:ALGOUSDT",
-      "symbol": "ALGOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793796491407,
-      "price": 0.09731500000000001,
-      "level": 0.09695,
-      "invalid": 0.09532242588365684,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09695,
-        "base_invalid": 0.09532242588365684,
-        "atr": 0.0005838274422876797,
-        "rvol": 4.762962303536791,
-        "close_position": 0.7730496453900717,
-        "breakout": true,
-        "bar_close_ms": 1793796300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6105764255407209,
-        "score": 6.536011948926863
-      },
-      "context": {
-        "atr": 0.0005838274422876797,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.42390617457472857,
-        "btc_hour_pct": -0.17452961597124172,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ALGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793796300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1600709,6 +1600658,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793795902460
+    },
+    {
+      "id": "4fa59791267ce98cefc1e7cb",
+      "asset_id": "e9b753291488dab0d54868cc",
+      "key": "OKX:SPOT:ALGOUSDT",
+      "symbol": "ALGOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793796491407,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793796503624
     }
   ],
   "runs": [
@@ -1732055,7 +1732015,8 @@
         "entry_seq": 0,
         "cohort": "ALGOUSDT",
         "observation_lag_ms": 191407,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12217
       }
     },
     "errors": [],
@@ -1758082,8 +1758043,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "ed919341f2fbfcabc7f734574eeaa69ea93c353a",
-    "previous_success_ms": 1793796222962,
+    "previous_commit": "dc3937027bae8434cf959996625a03e848cd50da",
+    "previous_success_ms": 1793796501877,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
