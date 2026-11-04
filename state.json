@@ -1655300,62 +1655300,7 @@
       "source_close_ms": 1793763900000
     }
   },
-  "pending": [
-    {
-      "id": "1bc35c38f24c4cb1c4cc9754",
-      "asset_id": "a990098ce42e9d1784615e02",
-      "key": "MEXC:PERP:WOOUSDT",
-      "symbol": "WOOUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793765209274,
-      "price": 0.0121,
-      "level": 0.01216,
-      "invalid": 0.01171249166752452,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01216,
-        "base_invalid": 0.01171249166752452,
-        "atr": 0.00011672221650319827,
-        "rvol": 2.5066190318280825,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793764800000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.023608768971319,
-        "score": 4.006619031828082
-      },
-      "context": {
-        "atr": 0.00011672221650319827,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.5758091478079717,
-        "btc_hour_pct": 0.44779962116334726,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:WOOUSDT",
-          "change_pct": 1.0668817608627146,
-          "old_ms": 1793761555318,
-          "current_ms": 1793765206312,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0011,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793764800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "WOOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1670470,6 +1670415,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793764926464
+    },
+    {
+      "id": "1bc35c38f24c4cb1c4cc9754",
+      "asset_id": "a990098ce42e9d1784615e02",
+      "key": "MEXC:PERP:WOOUSDT",
+      "symbol": "WOOUSDT",
+      "phase": "radar",
+      "observed_ms": 1793765209274,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793765221068
     }
   ],
   "runs": [
@@ -1797216,7 +1797172,8 @@
         "entry_seq": 0,
         "cohort": "WOOUSDT",
         "observation_lag_ms": 409274,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11794
       }
     },
     "errors": [],
@@ -1823240,8 +1823197,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0f5cd06ba6ecef60c4b737762101a2959d24b3bf",
-    "previous_success_ms": 1793764949490,
+    "previous_commit": "14fcfc6e3fb0d5d6fc6dfce4225de8ccb69ceb7d",
+    "previous_success_ms": 1793765219666,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
