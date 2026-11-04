@@ -1824080,7 +1824080,9 @@
           "selected_for_candles": 32,
           "fresh_candidate_quotes": 2
         }
-      }
+      },
+      "finished_ms": 1793813957476,
+      "duration_ms": 36647
     }
   ],
   "radar_admissions": [
@@ -1915019,14 +1915021,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793813931330,
+            "endpoint_ms": 1793813940000,
+            "endpoint_price": 2.004,
+            "return_pct": -1.0125957026426158,
+            "btc_excess_pct_points": -0.47430750410920597,
+            "mae_pct": -1.4571499135588861,
+            "mfe_pct": 0.22227710545814627,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 8670,
+            "measured_ms": 1793813956130,
+            "cost_scenarios_pct": {
+              "0.2": -1.2125957026426157,
+              "0.5": -1.5125957026426158,
+              "1": -2.012595702642616
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793809800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "CAKEUSDT",
         "observation_lag_ms": 531330,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 15912
+        "notification_lag_ms": 15912,
+        "last_measure_attempt_ms": 1793813956130
       },
       "4bd3e72d50ddf3d293ee188d:radar": {
         "symbol": "MERLUSDT",
@@ -1915042,14 +1915068,38 @@
         "stop": null,
         "target": null,
         "risk_pct": null,
-        "outcomes": {},
+        "outcomes": {
+          "1": {
+            "target_ms": 1793813932267,
+            "endpoint_ms": 1793813940000,
+            "endpoint_price": 0.02863,
+            "return_pct": 1.578854000354779,
+            "btc_excess_pct_points": 2.1279358173254437,
+            "mae_pct": -1.3304949441192093,
+            "mfe_pct": 1.9336526521199104,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 60,
+            "ignored_entry_fragment_ms": 7733,
+            "measured_ms": 1793813956130,
+            "cost_scenarios_pct": {
+              "0.2": 1.3788540003547791,
+              "0.5": 1.078854000354779,
+              "1": 0.5788540003547791
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
+          }
+        },
         "source_close_ms": 1793809800000,
         "entry_route": null,
         "entry_seq": 0,
         "cohort": "MERLUSDT",
         "observation_lag_ms": 532267,
         "interpretation": "early radar reference, not a trade entry",
-        "notification_lag_ms": 14975
+        "notification_lag_ms": 14975,
+        "last_measure_attempt_ms": 1793813956130
       },
       "c81c1291d2ad1492bc269f6f:radar": {
         "symbol": "MERLUSDT",
@@ -1915123,9 +1915173,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 86,
+      "due": 88,
       "attempted": 2,
-      "observed_ms": 1793813659058,
+      "observed_ms": 1793813956130,
       "unique_reads": 4
     },
     "summary": {
@@ -1915161,8 +1915211,8 @@
             "first_per_symbol": 148,
             "hours": {
               "1": {
-                "known_first_symbols": 147,
-                "median_reference_return_pct": 2.220446049250313e-14
+                "known_first_symbols": 148,
+                "median_reference_return_pct": 1.1102230246251565e-14
               },
               "4": {
                 "known_first_symbols": 138,
@@ -1941140,8 +1941190,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "93e6098d3fb34400e3d2a8456627eee73a6b919d",
-    "previous_success_ms": 1793813944978,
+    "previous_commit": "a797c9d34d8835e86553baf72f0cb023f19be895",
+    "previous_success_ms": 1793813956080,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
