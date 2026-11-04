@@ -1657164,166 +1657164,7 @@
       "source_close_ms": 1793754000000
     }
   },
-  "pending": [
-    {
-      "id": "bafc296cfc497f65a270c5e2",
-      "asset_id": "a3a81d2db2c846b7444e4de0",
-      "key": "MEXC:PERP:HAEDALUSDT",
-      "symbol": "HAEDALUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793755993759,
-      "price": 0.027970000000000002,
-      "level": 0.0271,
-      "invalid": 0.02631022730098235,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0271,
-        "base_invalid": 0.02631022730098235,
-        "atr": 0.0002651513267843415,
-        "rvol": 2.3715826207007944,
-        "close_position": 0.6666666666666666,
-        "breakout": true,
-        "bar_close_ms": 1793734200000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.6778523489932917,
-        "score": 4.038249287367461
-      },
-      "context": {
-        "atr": 0.0002874029238805519,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.2552753608440539,
-        "btc_hour_pct": -0.2785324683374446,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:HAEDALUSDT",
-          "change_pct": -2.585185761592268,
-          "old_ms": 1793752382180,
-          "current_ms": 1793755990162,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793734200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "HAEDALUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "339e89a6940c22248228d722",
-      "asset_id": "1620630208436f2173bbeb8d",
-      "key": "MEXC:SPOT:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793755995018,
-      "price": 0.9794799999999999,
-      "level": 0.978299,
-      "invalid": 0.9520459654424707,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.978299,
-        "base_invalid": 0.9520459654424707,
-        "atr": 0.013526897050195334,
-        "rvol": 6.053344911150624,
-        "close_position": 0.739839525553812,
-        "breakout": true,
-        "bar_close_ms": 1793755800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.7961904880071433,
-        "score": 7.739839525553812
-      },
-      "context": {
-        "atr": 0.013526897050195334,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.41401687107952556,
-        "btc_hour_pct": -0.2750364645369041,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793755800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "d82f44427270534a8bf79d74",
-      "asset_id": "c0785c7125dd10e083904433",
-      "key": "OKX:PERP:BTWUSDT",
-      "symbol": "BTWUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793755993968,
-      "price": 0.9781,
-      "level": 0.9788,
-      "invalid": 0.9535405552722502,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.9788,
-        "base_invalid": 0.9535405552722502,
-        "atr": 0.015062964851664678,
-        "rvol": 4.491147064858997,
-        "close_position": 0.7075000000000011,
-        "breakout": true,
-        "bar_close_ms": 1793755800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.989018957836941,
-        "score": 6.198647064858998
-      },
-      "context": {
-        "atr": 0.015062964851664678,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.36885087032912933,
-        "btc_hour_pct": -0.28163957881903734,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:BTWUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793755800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BTWUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1672240,6 +1672081,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793754803452
+    },
+    {
+      "id": "bafc296cfc497f65a270c5e2",
+      "asset_id": "a3a81d2db2c846b7444e4de0",
+      "key": "MEXC:PERP:HAEDALUSDT",
+      "symbol": "HAEDALUSDT",
+      "phase": "expired",
+      "observed_ms": 1793755993759,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793756006631
+    },
+    {
+      "id": "339e89a6940c22248228d722",
+      "asset_id": "1620630208436f2173bbeb8d",
+      "key": "MEXC:SPOT:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793755995018,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793756006631
+    },
+    {
+      "id": "d82f44427270534a8bf79d74",
+      "asset_id": "c0785c7125dd10e083904433",
+      "key": "OKX:PERP:BTWUSDT",
+      "symbol": "BTWUSDT",
+      "phase": "radar",
+      "observed_ms": 1793755993968,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793756006631
     }
   ],
   "runs": [
@@ -1796722,7 +1796596,8 @@
         "entry_seq": 0,
         "cohort": "BTWUSDT",
         "observation_lag_ms": 195018,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11613
       },
       "c0785c7125dd10e083904433:radar": {
         "symbol": "BTWUSDT",
@@ -1796744,7 +1796619,8 @@
         "entry_seq": 0,
         "cohort": "BTWUSDT",
         "observation_lag_ms": 193968,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12663
       }
     },
     "errors": [],
@@ -1822773,8 +1822649,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "cdae0ecdb2961de543dc99351bba39209096bd8a",
-    "previous_success_ms": 1793755728241,
+    "previous_commit": "ee225a703050bfebb18ddea858df396288a71215",
+    "previous_success_ms": 1793756005706,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
