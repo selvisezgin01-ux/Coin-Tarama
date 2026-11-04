@@ -1636760,222 +1636760,7 @@
       "source_close_ms": 1793750400000
     }
   },
-  "pending": [
-    {
-      "id": "5d36628aa3df26a3c7e3cea1",
-      "asset_id": "08a01ac7866bd63a78869c0b",
-      "key": "MEXC:PERP:1000000BABYDOGEUSDT",
-      "symbol": "1000000BABYDOGEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793751495507,
-      "price": 0.0003126,
-      "level": 0.0003158,
-      "invalid": 0.00031311523226135656,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0003158,
-        "base_invalid": 0.00031311523226135656,
-        "atr": 1.2317849242895755e-06,
-        "rvol": 9.526897547071671,
-        "close_position": 0.7333333333333333,
-        "breakout": false,
-        "bar_close_ms": 1793738700000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.3503184713375962,
-        "score": 7.233333333333333
-      },
-      "context": {
-        "atr": 1.394699942694843e-06,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.28306100301749293,
-        "btc_hour_pct": -0.5363528009535101,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:1000000BABYDOGEUSDT",
-          "change_pct": -0.7616401268212725,
-          "old_ms": 1793747851778,
-          "current_ms": 1793751490766,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.005399999999999999,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793738700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "1000000BABYDOGEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "53d77c394cb30a1f847c6a31",
-      "asset_id": "64f54588a167220ed2200e3f",
-      "key": "OKX:SPOT:SUSDT",
-      "symbol": "SUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793751493924,
-      "price": 0.03807,
-      "level": 0.03869,
-      "invalid": 0.038155719804319824,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03869,
-        "base_invalid": 0.038155719804319824,
-        "atr": 0.00016186797120116295,
-        "rvol": 3.880713149825419,
-        "close_position": 0.6875000000000352,
-        "breakout": false,
-        "bar_close_ms": 1793749500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.548302872062667,
-        "score": 5.068213149825454
-      },
-      "context": {
-        "atr": 0.00016690602438177248,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5206561517137054,
-        "btc_hour_pct": -0.5467385721623086,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:SUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793749500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "057be2f103ac7d72001995cc",
-      "asset_id": "01ef2e0d42f3c72a0953c918",
-      "key": "OKX:PERP:SUSDT",
-      "symbol": "SUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793751494284,
-      "price": 0.03801,
-      "level": 0.0386,
-      "invalid": 0.038114287695862475,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0386,
-        "base_invalid": 0.038114287695862475,
-        "atr": 0.0001714153609168438,
-        "rvol": 2.494843895881542,
-        "close_position": 0.6842105263157953,
-        "breakout": false,
-        "bar_close_ms": 1793749500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.5490196078431486,
-        "score": 3.6790544221973374
-      },
-      "context": {
-        "atr": 0.00017802176755636005,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.5705526194654253,
-        "btc_hour_pct": -0.544415661807307,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:SUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "destek kaybedildi",
-      "source_close_ms": 1793749500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "61095bbb61cb7e98b1c1be8c",
-      "asset_id": "610dcf83ba88788ebd2d9c59",
-      "key": "MEXC:PERP:BMTUSDT",
-      "symbol": "BMTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793751495507,
-      "price": 0.027135,
-      "level": 0.02633,
-      "invalid": 0.02558259243507327,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02633,
-        "base_invalid": 0.02558259243507327,
-        "atr": 0.0005160504328448493,
-        "rvol": 6.945687076019864,
-        "close_position": 0.894472361809046,
-        "breakout": true,
-        "bar_close_ms": 1793751300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.469953775038516,
-        "score": 7.894472361809046
-      },
-      "context": {
-        "atr": 0.0005160504328448493,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.613543074978995,
-        "btc_hour_pct": -0.5363528009535101,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BMTUSDT",
-          "change_pct": -16.44774414620217,
-          "old_ms": 1793747851180,
-          "current_ms": 1793751494054,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.9306,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793751300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1651793,6 +1651578,50 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793750582954
+    },
+    {
+      "id": "5d36628aa3df26a3c7e3cea1",
+      "asset_id": "08a01ac7866bd63a78869c0b",
+      "key": "MEXC:PERP:1000000BABYDOGEUSDT",
+      "symbol": "1000000BABYDOGEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793751495507,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793751509103
+    },
+    {
+      "id": "53d77c394cb30a1f847c6a31",
+      "asset_id": "64f54588a167220ed2200e3f",
+      "key": "OKX:SPOT:SUSDT",
+      "symbol": "SUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793751493924,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793751509104
+    },
+    {
+      "id": "057be2f103ac7d72001995cc",
+      "asset_id": "01ef2e0d42f3c72a0953c918",
+      "key": "OKX:PERP:SUSDT",
+      "symbol": "SUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793751494284,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793751509104
+    },
+    {
+      "id": "61095bbb61cb7e98b1c1be8c",
+      "asset_id": "610dcf83ba88788ebd2d9c59",
+      "key": "MEXC:PERP:BMTUSDT",
+      "symbol": "BMTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793751495507,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793751509104
     }
   ],
   "runs": [
@@ -1775329,7 +1775158,8 @@
         "entry_seq": 0,
         "cohort": "BMTUSDT",
         "observation_lag_ms": 195507,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13597
       }
     },
     "errors": [],
@@ -1801353,8 +1801183,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "0239af722683105920cc764e59afc3e60e43822f",
-    "previous_success_ms": 1793751481727,
+    "previous_commit": "0e8c60c7d53ace0b86e42a28d894ff9ae1cbdbf7",
+    "previous_success_ms": 1793751508036,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
