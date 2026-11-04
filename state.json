@@ -1781238,58 +1781238,7 @@
       "source_close_ms": 1793829600000
     }
   },
-  "pending": [
-    {
-      "id": "7926abfbe517fcfd32c0bcfb",
-      "asset_id": "c7fe8ff3cc36f03a2b799af5",
-      "key": "MEXC:SPOT:FETUSDT",
-      "symbol": "FETUSDT",
-      "exchange": "MEXC",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793830297053,
-      "price": 0.16244999999999998,
-      "level": 0.1611,
-      "invalid": 0.15891019791980143,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.1611,
-        "base_invalid": 0.15891019791980143,
-        "atr": 0.0012653472013237777,
-        "rvol": 5.275566106250355,
-        "close_position": 0.9230769230769313,
-        "breakout": true,
-        "bar_close_ms": 1793829600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.811485642946308,
-        "score": 7.198643029327286
-      },
-      "context": {
-        "atr": 0.0012653472013237777,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.686340193183943,
-        "btc_hour_pct": 0.12514544976236497,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "MEXC:SPOT:FETUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793829600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "FETUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1798472,6 +1798421,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793830015209
+    },
+    {
+      "id": "7926abfbe517fcfd32c0bcfb",
+      "asset_id": "c7fe8ff3cc36f03a2b799af5",
+      "key": "MEXC:SPOT:FETUSDT",
+      "symbol": "FETUSDT",
+      "phase": "radar",
+      "observed_ms": 1793830297053,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793830311832
     }
   ],
   "runs": [
@@ -1937723,7 +1937683,8 @@
         "entry_seq": 0,
         "cohort": "FETUSDT",
         "observation_lag_ms": 697053,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14779
       }
     },
     "errors": [],
@@ -1963756,8 +1963717,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "a75b47d2b4799d18ec5a891967468a74ddb62709",
-    "previous_success_ms": 1793830037419,
+    "previous_commit": "c65ddf4eb6f572d13c4919378a43853ae438c279",
+    "previous_success_ms": 1793830310538,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
