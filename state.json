@@ -1692663,116 +1692663,7 @@
       "source_close_ms": 1793771100000
     }
   },
-  "pending": [
-    {
-      "id": "6c355dc38969182d40303c38",
-      "asset_id": "610dcf83ba88788ebd2d9c59",
-      "key": "MEXC:PERP:BMTUSDT",
-      "symbol": "BMTUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793773199891,
-      "price": 0.031705,
-      "level": 0.02633,
-      "invalid": 0.02558259243507327,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.02633,
-        "base_invalid": 0.02558259243507327,
-        "atr": 0.0005160504328448493,
-        "rvol": 6.945687076019864,
-        "close_position": 0.894472361809046,
-        "breakout": true,
-        "bar_close_ms": 1793751300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 5.469953775038516,
-        "score": 7.894472361809046
-      },
-      "context": {
-        "atr": 0.0007620855392286404,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 1.9881671144832636,
-        "btc_hour_pct": 0.47028163897935293,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BMTUSDT",
-          "change_pct": -5.3339912291743286,
-          "old_ms": 1793769695026,
-          "current_ms": 1793773195091,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.8593999999999999,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793751300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BMTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "73f8664e79269067c253b972",
-      "asset_id": "cc36183077178af36218bb4b",
-      "key": "MEXC:PERP:XMRUSDT",
-      "symbol": "XMRUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793773199891,
-      "price": 634.64,
-      "level": 632.75,
-      "invalid": 623.4713708377951,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 632.75,
-        "base_invalid": 623.4713708377951,
-        "atr": 4.190861081366191,
-        "rvol": 3.701644395778014,
-        "close_position": 1.0,
-        "breakout": true,
-        "bar_close_ms": 1793768400000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5835337974542396,
-        "score": 5.701644395778014
-      },
-      "context": {
-        "atr": 4.304750086057875,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.8858701279623293,
-        "btc_hour_pct": 0.47028163897935293,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:XMRUSDT",
-          "change_pct": -0.9557521324273566,
-          "old_ms": 1793769695065,
-          "current_ms": 1793773195124,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.01,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793768400000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "XMRUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1708151,6 +1708042,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793772315899
+    },
+    {
+      "id": "6c355dc38969182d40303c38",
+      "asset_id": "610dcf83ba88788ebd2d9c59",
+      "key": "MEXC:PERP:BMTUSDT",
+      "symbol": "BMTUSDT",
+      "phase": "expired",
+      "observed_ms": 1793773199891,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793773212596
+    },
+    {
+      "id": "73f8664e79269067c253b972",
+      "asset_id": "cc36183077178af36218bb4b",
+      "key": "MEXC:PERP:XMRUSDT",
+      "symbol": "XMRUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793773199891,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793773212596
     }
   ],
   "runs": [
@@ -1862639,8 +1862552,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c7bea9b0578d548da45511655028c7dde21e600c",
-    "previous_success_ms": 1793772941056,
+    "previous_commit": "9994c6825cb559024c672dd68813ca327c7e078a",
+    "previous_success_ms": 1793773211114,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
