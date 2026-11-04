@@ -1603515,58 +1603515,7 @@
       "source_close_ms": 1793798100000
     }
   },
-  "pending": [
-    {
-      "id": "9ec2d27b9ff9b7a8665d1341",
-      "asset_id": "815841d4d4056bb7dba917a6",
-      "key": "OKX:SPOT:PROMPTUSDT",
-      "symbol": "PROMPTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793799191056,
-      "price": 0.016295,
-      "level": 0.0163,
-      "invalid": 0.01612426322503974,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0163,
-        "base_invalid": 0.01612426322503974,
-        "atr": 0.00010491183306841758,
-        "rvol": 2.2614448425632077,
-        "close_position": 1.0,
-        "breakout": false,
-        "bar_close_ms": 1793799000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.8039579468150704,
-        "score": 3.7614448425632077
-      },
-      "context": {
-        "atr": 0.00010491183306841758,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.04465958924139146,
-        "btc_hour_pct": -0.22950247279038827,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PROMPTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793799000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PROMPTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1619748,6 +1619697,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793798305322
+    },
+    {
+      "id": "9ec2d27b9ff9b7a8665d1341",
+      "asset_id": "815841d4d4056bb7dba917a6",
+      "key": "OKX:SPOT:PROMPTUSDT",
+      "symbol": "PROMPTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793799191056,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793799203334
     }
   ],
   "runs": [
@@ -1751688,7 +1751648,8 @@
         "entry_seq": 0,
         "cohort": "PROMPTUSDT",
         "observation_lag_ms": 191056,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12278
       }
     },
     "errors": [],
@@ -1777713,8 +1777674,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "d9f43d46420270d5f9daa65457b2be1cd8d30af2",
-    "previous_success_ms": 1793798922190,
+    "previous_commit": "11bf0f02b9a6272d9a03f908a8530a4e1e9baaab",
+    "previous_success_ms": 1793799201741,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
