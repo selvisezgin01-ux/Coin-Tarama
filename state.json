@@ -1690349,60 +1690349,7 @@
       "source_close_ms": 1793774700000
     }
   },
-  "pending": [
-    {
-      "id": "6afa5ef5d91cde7eedcc06ca",
-      "asset_id": "20654e4e8d99cb07b7a88bbb",
-      "key": "OKX:PERP:GRASSUSDT",
-      "symbol": "GRASSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793776195952,
-      "price": 0.59155,
-      "level": 0.5876,
-      "invalid": 0.5463550910662566,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5876,
-        "base_invalid": 0.5463550910662566,
-        "atr": 0.008299392891623023,
-        "rvol": 6.248840831459905,
-        "close_position": 0.6219512195121955,
-        "breakout": true,
-        "bar_close_ms": 1793775600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.988803358992299,
-        "score": 7.621951219512195
-      },
-      "context": {
-        "atr": 0.008299392891623023,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 3.6691805242311304,
-        "btc_hour_pct": 0.3196228347611685,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GRASSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793775600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRASSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1705924,6 +1705871,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793775917984
+    },
+    {
+      "id": "6afa5ef5d91cde7eedcc06ca",
+      "asset_id": "20654e4e8d99cb07b7a88bbb",
+      "key": "OKX:PERP:GRASSUSDT",
+      "symbol": "GRASSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793776195952,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793776209137
     }
   ],
   "runs": [
@@ -1835087,7 +1835045,8 @@
         "entry_seq": 0,
         "cohort": "GRASSUSDT",
         "observation_lag_ms": 595952,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 13185
       }
     },
     "errors": [],
@@ -1861118,8 +1861077,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "9ceac10c188704930c4642264eec50759be541dd",
-    "previous_success_ms": 1793775945475,
+    "previous_commit": "1810ca71c7caeb707486241b08f121e7a9e1eb16",
+    "previous_success_ms": 1793776207626,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
