@@ -1667923,112 +1667923,7 @@
       "source_close_ms": 1793767500000
     }
   },
-  "pending": [
-    {
-      "id": "765efea533fc5d1585e7ad34",
-      "asset_id": "17e49515b47601d475da7ef4",
-      "key": "OKX:PERP:UBUSDT",
-      "symbol": "UBUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793767610580,
-      "price": 0.10439499999999999,
-      "level": 0.10561,
-      "invalid": 0.10366908152668737,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.10561,
-        "base_invalid": 0.10366908152668737,
-        "atr": 0.0008727898220842224,
-        "rvol": 3.6954111805923433,
-        "close_position": 0.89528795811518,
-        "breakout": false,
-        "bar_close_ms": 1793762100000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.21863117870721815,
-        "score": 5.0906991387075236
-      },
-      "context": {
-        "atr": 0.0008898822225038665,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.5045940950807015,
-        "btc_hour_pct": 0.41861778633023317,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:UBUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "sonraki kapalı mum desteğe dokundu",
-      "source_close_ms": 1793762100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "UBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "4c63da54f429b593814d92e6",
-      "asset_id": "1cee586886e1ed0557bc741e",
-      "key": "OKX:SPOT:PNUTUSDT",
-      "symbol": "PNUTUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "radar",
-      "observed_ms": 1793767609917,
-      "price": 0.038685,
-      "level": 0.03873,
-      "invalid": 0.03754441560434132,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03873,
-        "base_invalid": 0.03754441560434132,
-        "atr": 0.0003038959710578735,
-        "rvol": 2.6606971004457205,
-        "close_position": 0.9642857142857036,
-        "breakout": false,
-        "bar_close_ms": 1793767500000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 2.0327349524815297,
-        "score": 4.124982814731425
-      },
-      "context": {
-        "atr": 0.0003038959710578735,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -0.010477818824305984,
-        "btc_hour_pct": 0.431308960328769,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:PNUTUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793767500000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "PNUTUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1683209,6 +1683104,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793767319114
+    },
+    {
+      "id": "765efea533fc5d1585e7ad34",
+      "asset_id": "17e49515b47601d475da7ef4",
+      "key": "OKX:PERP:UBUSDT",
+      "symbol": "UBUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793767610580,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793767624790
+    },
+    {
+      "id": "4c63da54f429b593814d92e6",
+      "asset_id": "1cee586886e1ed0557bc741e",
+      "key": "OKX:SPOT:PNUTUSDT",
+      "symbol": "PNUTUSDT",
+      "phase": "radar",
+      "observed_ms": 1793767609917,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793767624791
     }
   ],
   "runs": [
@@ -1810481,7 +1810398,8 @@
         "entry_seq": 0,
         "cohort": "PNUTUSDT",
         "observation_lag_ms": 109917,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14874
       }
     },
     "errors": [],
@@ -1836511,8 +1836429,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "904a7e72c328b83fd7e10415ab9feac85d24b97d",
-    "previous_success_ms": 1793767343152,
+    "previous_commit": "706391e0ba519a74752493b1bd2a3f6b8f15e837",
+    "previous_success_ms": 1793767623306,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
