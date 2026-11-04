@@ -1694276,64 +1694276,7 @@
       "source_close_ms": 1793776500000
     }
   },
-  "pending": [
-    {
-      "id": "1774ce2e7ec8f165c69ca97d",
-      "asset_id": "75316589d62b7a31e508e78f",
-      "key": "MEXC:PERP:SHIBUSDT",
-      "symbol": "SHIBUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793778752516,
-      "price": 4.6745e-06,
-      "level": 4.67e-06,
-      "invalid": 4.588432528455854e-06,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 4.67e-06,
-        "base_invalid": 4.588432528455854e-06,
-        "atr": 2.378314362764001e-08,
-        "rvol": 3.4982168752419045,
-        "close_position": 0.7647058823529236,
-        "breakout": true,
-        "bar_close_ms": 1793778300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6678155967255517,
-        "score": 5.262922757594828
-      },
-      "context": {
-        "atr": 2.378314362764001e-08,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": 0.11207090589140378,
-        "btc_hour_pct": 0.3199878540999457,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:SHIBUSDT",
-          "change_pct": -4.3545298028517365,
-          "old_ms": 1793775284126,
-          "current_ms": 1793778751175,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0056,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793778300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "SHIBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1709943,6 +1709886,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793778469766
+    },
+    {
+      "id": "1774ce2e7ec8f165c69ca97d",
+      "asset_id": "75316589d62b7a31e508e78f",
+      "key": "MEXC:PERP:SHIBUSDT",
+      "symbol": "SHIBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793778752516,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793778765300
     }
   ],
   "runs": [
@@ -1839547,7 +1839501,8 @@
         "entry_seq": 0,
         "cohort": "SHIBUSDT",
         "observation_lag_ms": 452516,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12784
       }
     },
     "errors": [],
@@ -1865579,8 +1865534,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "f28e652c494baae8e0cdffcdb73819c74f8e74d7",
-    "previous_success_ms": 1793778491596,
+    "previous_commit": "ede8c2f670a1d391ac94badf555a04039181dbb5",
+    "previous_success_ms": 1793778763884,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
