@@ -1646466,118 +1646466,7 @@
       "source_close_ms": 1793754000000
     }
   },
-  "pending": [
-    {
-      "id": "7111c255a5fe25a663d99258",
-      "asset_id": "7016acdf7eb012d78d20c0d5",
-      "key": "MEXC:PERP:DGAIUSDT",
-      "symbol": "DGAIUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793754197381,
-      "price": 0.65185,
-      "level": 0.6519,
-      "invalid": 0.6444206005530477,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6519,
-        "base_invalid": 0.6444206005530477,
-        "atr": 0.0038626629796818727,
-        "rvol": 5.061843302361721,
-        "close_position": 0.9382716049382783,
-        "breakout": true,
-        "bar_close_ms": 1793737800000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.2172573189522362,
-        "score": 7.0001149072999995
-      },
-      "context": {
-        "atr": 0.004544142406827105,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.1063839850721569,
-        "btc_hour_pct": -0.2785324683374446,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:DGAIUSDT",
-          "change_pct": -2.8116318584330613,
-          "old_ms": 1793750551705,
-          "current_ms": 1793754193639,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": -0.0048000000000000004,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793737800000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "DGAIUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "f26d37c5369acfc30ef147a8",
-      "asset_id": "28c1cecfbed559473b1b5ab1",
-      "key": "MEXC:PERP:CATEUSDT",
-      "symbol": "CATEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "cancelled",
-      "observed_ms": 1793754197381,
-      "price": 0.038183,
-      "level": 0.037911,
-      "invalid": 0.03495073041897176,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.037911,
-        "base_invalid": 0.03495073041897176,
-        "atr": 0.0009084638735216107,
-        "rvol": 3.576566438541526,
-        "close_position": 0.7627805486284276,
-        "breakout": true,
-        "bar_close_ms": 1793744100000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 6.149484817096429,
-        "score": 5.339346987169954
-      },
-      "context": {
-        "atr": 0.001196868548458045,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.5223130699382645,
-        "btc_hour_pct": -0.2785324683374446,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:CATEUSDT",
-          "change_pct": -0.48567870485678455,
-          "old_ms": 1793750551149,
-          "current_ms": 1793754193036,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.02,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test dibi kaybedildi",
-      "source_close_ms": 1793744100000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "CATEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1661461,6 +1661350,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793752101853
+    },
+    {
+      "id": "7111c255a5fe25a663d99258",
+      "asset_id": "7016acdf7eb012d78d20c0d5",
+      "key": "MEXC:PERP:DGAIUSDT",
+      "symbol": "DGAIUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793754197381,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793754208660
+    },
+    {
+      "id": "f26d37c5369acfc30ef147a8",
+      "asset_id": "28c1cecfbed559473b1b5ab1",
+      "key": "MEXC:PERP:CATEUSDT",
+      "symbol": "CATEUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793754197381,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793754208661
     }
   ],
   "runs": [
@@ -1811627,8 +1811538,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "73190ebb7547506f2e36e7ae6593810900aafd48",
-    "previous_success_ms": 1793753922100,
+    "previous_commit": "ae40136d2914f9c9501f008dda1221c2e3100889",
+    "previous_success_ms": 1793754207732,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
