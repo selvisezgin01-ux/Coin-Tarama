@@ -1772957,172 +1772957,7 @@
       "source_close_ms": 1793823300000
     }
   },
-  "pending": [
-    {
-      "id": "8fc3e9e8bd8c07141f474345",
-      "asset_id": "99c37334c5ebe7ade1a8c6b9",
-      "key": "MEXC:PERP:TURTLEUSDT",
-      "symbol": "TURTLEUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793824366547,
-      "price": 0.03676,
-      "level": 0.03645,
-      "invalid": 0.03600899361526425,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.03645,
-        "base_invalid": 0.03600899361526425,
-        "atr": 0.000206709231571658,
-        "rvol": 2.4920928392993806,
-        "close_position": 0.9705882352941291,
-        "breakout": true,
-        "bar_close_ms": 1793802600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.5486725663717005,
-        "score": 4.46268107459351
-      },
-      "context": {
-        "atr": 0.0002789123179929207,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.1718734402526132,
-        "btc_hour_pct": -0.44450587009222664,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:TURTLEUSDT",
-          "change_pct": -1.4625531007400383,
-          "old_ms": 1793820666612,
-          "current_ms": 1793824361689,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793802600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "TURTLEUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "cfc001986e67f86038c538e0",
-      "asset_id": "5b31296db501de4058d34161",
-      "key": "MEXC:PERP:BANANAS31USDT",
-      "symbol": "BANANAS31USDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793824366547,
-      "price": 0.005934999999999999,
-      "level": 0.005955,
-      "invalid": 0.005862710313959379,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.005955,
-        "base_invalid": 0.005862710313959379,
-        "atr": 3.526457360414478e-05,
-        "rvol": 5.359319446890494,
-        "close_position": 0.9487179487179419,
-        "breakout": false,
-        "bar_close_ms": 1793824200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.202908353060538,
-        "score": 6.8080373956084355
-      },
-      "context": {
-        "atr": 3.526457360414478e-05,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.17331942941426481,
-        "btc_hour_pct": -0.44450587009222664,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BANANAS31USDT",
-          "change_pct": -0.04440462125236966,
-          "old_ms": 1793820667093,
-          "current_ms": 1793824362221,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793824200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BANANAS31USDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "a9f8d07fc33f77f2adb18f65",
-      "asset_id": "7fe575bef0e64ecead4222d9",
-      "key": "MEXC:PERP:LONGXIAUSDT",
-      "symbol": "LONGXIAUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793824366547,
-      "price": 0.017415,
-      "level": 0.01758,
-      "invalid": 0.01707661222305834,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.01758,
-        "base_invalid": 0.01707661222305834,
-        "atr": 0.00022258517961106368,
-        "rvol": 3.1743841534139365,
-        "close_position": 0.7083333333333418,
-        "breakout": false,
-        "bar_close_ms": 1793824200000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.057636887608070175,
-        "score": 4.3827174867472785
-      },
-      "context": {
-        "atr": 0.00022258517961106368,
-        "reasons": [],
-        "support_warnings": [
-          "4s trend henüz teyitsiz"
-        ],
-        "relative1h_pp": -1.104547486190044,
-        "btc_hour_pct": -0.44450587009222664,
-        "trend4h_support": false,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:LONGXIAUSDT",
-          "change_pct": -1.858399949869749,
-          "old_ms": 1793820666306,
-          "current_ms": 1793824365337,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793824200000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "LONGXIAUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1790118,6 +1789953,39 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793823477673
+    },
+    {
+      "id": "8fc3e9e8bd8c07141f474345",
+      "asset_id": "99c37334c5ebe7ade1a8c6b9",
+      "key": "MEXC:PERP:TURTLEUSDT",
+      "symbol": "TURTLEUSDT",
+      "phase": "expired",
+      "observed_ms": 1793824366547,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793824377976
+    },
+    {
+      "id": "cfc001986e67f86038c538e0",
+      "asset_id": "5b31296db501de4058d34161",
+      "key": "MEXC:PERP:BANANAS31USDT",
+      "symbol": "BANANAS31USDT",
+      "phase": "radar",
+      "observed_ms": 1793824366547,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793824377976
+    },
+    {
+      "id": "a9f8d07fc33f77f2adb18f65",
+      "asset_id": "7fe575bef0e64ecead4222d9",
+      "key": "MEXC:PERP:LONGXIAUSDT",
+      "symbol": "LONGXIAUSDT",
+      "phase": "radar",
+      "observed_ms": 1793824366547,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793824377976
     }
   ],
   "runs": [
@@ -1927924,7 +1927792,8 @@
         "entry_seq": 0,
         "cohort": "BANANAS31USDT",
         "observation_lag_ms": 166547,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11429
       },
       "7fe575bef0e64ecead4222d9:radar": {
         "symbol": "LONGXIAUSDT",
@@ -1927946,7 +1927815,8 @@
         "entry_seq": 0,
         "cohort": "LONGXIAUSDT",
         "observation_lag_ms": 166547,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 11429
       }
     },
     "errors": [],
@@ -1953972,8 +1953842,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "621045914cbd5172bd42c5037369a488fa2422cc",
-    "previous_success_ms": 1793824093194,
+    "previous_commit": "b16653e947b07d9dc67387cee571c284420a807f",
+    "previous_success_ms": 1793824377049,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
