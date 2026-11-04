@@ -1750502,7 +1750502,9 @@
           "selected_for_candles": 35,
           "fresh_candidate_quotes": 5
         }
-      }
+      },
+      "finished_ms": 1793776524534,
+      "duration_ms": 38282
     }
   ],
   "radar_admissions": [
@@ -1824597,6 +1824599,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793775454110,
+            "endpoint_ms": 1793775480000,
+            "endpoint_price": 0.04673,
+            "return_pct": 1.114356810559336,
+            "btc_excess_pct_points": -0.7421047685787441,
+            "mae_pct": -5.3770420859028505,
+            "mfe_pct": 3.105052472141079,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 25890,
+            "measured_ms": 1793776518079,
+            "cost_scenarios_pct": {
+              "0.2": 0.914356810559336,
+              "0.5": 0.614356810559336,
+              "1": 0.114356810559336
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793688300000,
@@ -1824605,7 +1824629,7 @@
         "cohort": "MEGAUSDT",
         "observation_lag_ms": 754110,
         "interpretation": "early radar reference, not a trade entry",
-        "last_measure_attempt_ms": 1793739439448
+        "last_measure_attempt_ms": 1793776518079
       },
       "69c7e153ec7a09f628532718:radar": {
         "symbol": "RSRUSDT",
@@ -1824778,6 +1824802,28 @@
             "barriers": {
               "status": "not_a_trade_entry"
             }
+          },
+          "24": {
+            "target_ms": 1793775453592,
+            "endpoint_ms": 1793775480000,
+            "endpoint_price": 0.04674,
+            "return_pct": 1.0485352934817893,
+            "btc_excess_pct_points": -0.8093055190653287,
+            "mae_pct": -5.523727164630843,
+            "mfe_pct": 3.0591287428386016,
+            "path_complete": true,
+            "complete": true,
+            "minute_bars": 1440,
+            "ignored_entry_fragment_ms": 26408,
+            "measured_ms": 1793776518079,
+            "cost_scenarios_pct": {
+              "0.2": 0.8485352934817894,
+              "0.5": 0.5485352934817893,
+              "1": 0.04853529348178931
+            },
+            "barriers": {
+              "status": "not_a_trade_entry"
+            }
           }
         },
         "source_close_ms": 1793688300000,
@@ -1824786,7 +1824832,7 @@
         "cohort": "MEGAUSDT",
         "observation_lag_ms": 753592,
         "interpretation": "early radar reference, not a trade entry",
-        "last_measure_attempt_ms": 1793739155016
+        "last_measure_attempt_ms": 1793776518079
       },
       "dcf827dba0605c7cca618204:radar": {
         "symbol": "2ZUSDT",
@@ -1835578,9 +1835624,9 @@
     },
     "errors": [],
     "queue": {
-      "due": 53,
+      "due": 51,
       "attempted": 2,
-      "observed_ms": 1793776219847,
+      "observed_ms": 1793776518079,
       "unique_reads": 4
     },
     "summary": {
@@ -1861598,8 +1861644,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "24c0e299c88c3e54d0673dac39e76b7c49e1f944",
-    "previous_success_ms": 1793776507842,
+    "previous_commit": "5a78a53db069e1f6e2288803d7f01340376979dc",
+    "previous_success_ms": 1793776518030,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
