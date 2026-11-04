@@ -1591294,58 +1591294,7 @@
       "source_close_ms": 1793795400000
     }
   },
-  "pending": [
-    {
-      "id": "5db71dcb8d0fd9807e3024b3",
-      "asset_id": "9b9edbc746708fef49f878b8",
-      "key": "OKX:SPOT:AUSDT",
-      "symbol": "AUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "expired",
-      "observed_ms": 1793796787979,
-      "price": 0.08183,
-      "level": 0.0811,
-      "invalid": 0.07874635392684852,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.0811,
-        "base_invalid": 0.07874635392684852,
-        "atr": 0.0005576404876765181,
-        "rvol": 17.800108342736507,
-        "close_position": 0.7040816326530652,
-        "breakout": true,
-        "bar_close_ms": 1793774700000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.1262376237623828,
-        "score": 7.7040816326530654
-      },
-      "context": {
-        "atr": 0.0003756208675231355,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.06739611283000935,
-        "btc_hour_pct": -0.17452961597124172,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:AUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "izleme süresi doldu",
-      "source_close_ms": 1793774700000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "AUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1607461,6 +1607410,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793796503624
+    },
+    {
+      "id": "5db71dcb8d0fd9807e3024b3",
+      "asset_id": "9b9edbc746708fef49f878b8",
+      "key": "OKX:SPOT:AUSDT",
+      "symbol": "AUSDT",
+      "phase": "expired",
+      "observed_ms": 1793796787979,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793796800227
     }
   ],
   "runs": [
@@ -1764877,8 +1764837,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "084ae20453bc49ab383baa8d1efc1401f55031f5",
-    "previous_success_ms": 1793796532929,
+    "previous_commit": "797ac0daf342fef9b4a444c47800fb47e7f5f767",
+    "previous_success_ms": 1793796798624,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
