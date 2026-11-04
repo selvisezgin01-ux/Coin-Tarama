@@ -1601132,58 +1601132,7 @@
       "source_close_ms": 1793797200000
     }
   },
-  "pending": [
-    {
-      "id": "0374a60646a52b65bd391f0b",
-      "asset_id": "e9b753291488dab0d54868cc",
-      "key": "OKX:SPOT:ALGOUSDT",
-      "symbol": "ALGOUSDT",
-      "exchange": "OKX",
-      "kind": "SPOT",
-      "phase": "cancelled",
-      "observed_ms": 1793797391849,
-      "price": 0.09628500000000001,
-      "level": 0.09695,
-      "invalid": 0.09532242588365684,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09695,
-        "base_invalid": 0.09532242588365684,
-        "atr": 0.0005838274422876797,
-        "rvol": 4.762962303536791,
-        "close_position": 0.7730496453900717,
-        "breakout": true,
-        "bar_close_ms": 1793796300000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 0.6105764255407209,
-        "score": 6.536011948926863
-      },
-      "context": {
-        "atr": 0.0006940521598079129,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.5167661839260318,
-        "btc_hour_pct": -0.22950247279038827,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:SPOT:ALGOUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "kırılım tutunamadı",
-      "source_close_ms": 1793796300000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ALGOUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1617332,6 +1617281,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793797101431
+    },
+    {
+      "id": "0374a60646a52b65bd391f0b",
+      "asset_id": "e9b753291488dab0d54868cc",
+      "key": "OKX:SPOT:ALGOUSDT",
+      "symbol": "ALGOUSDT",
+      "phase": "cancelled",
+      "observed_ms": 1793797391849,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793797405053
     }
   ],
   "runs": [
@@ -1774892,8 +1774852,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "db3a93a13ddc7d6c72942da35fec7786180c7648",
-    "previous_success_ms": 1793797126196,
+    "previous_commit": "489a276333f9254cc8354311400bb44fa2c7837e",
+    "previous_success_ms": 1793797403405,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
