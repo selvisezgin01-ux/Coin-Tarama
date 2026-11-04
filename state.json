@@ -1761685,62 +1761685,7 @@
       "source_close_ms": 1793807100000
     }
   },
-  "pending": [
-    {
-      "id": "f1988739a0eeefb39dccec67",
-      "asset_id": "7d18e1aeab25b5662244d328",
-      "key": "MEXC:PERP:BNBUSDT",
-      "symbol": "BNBUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793809728560,
-      "price": 718.6,
-      "level": 724.6,
-      "invalid": 699.3472765743243,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 724.6,
-        "base_invalid": 699.3472765743243,
-        "atr": 3.6848228378384213,
-        "rvol": 3.851292712433739,
-        "close_position": 0.6052631578947322,
-        "breakout": false,
-        "bar_close_ms": 1793808900000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": -0.2632672855757412,
-        "score": 4.956555870328471
-      },
-      "context": {
-        "atr": 3.6848228378384213,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -0.10511183608534758,
-        "btc_hour_pct": 1.202621333763676,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:BNBUSDT",
-          "change_pct": 1.7376402790415524,
-          "old_ms": 1793805987097,
-          "current_ms": 1793809727046,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.0143,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793808900000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "BNBUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1778197,6 +1778142,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793809147742
+    },
+    {
+      "id": "f1988739a0eeefb39dccec67",
+      "asset_id": "7d18e1aeab25b5662244d328",
+      "key": "MEXC:PERP:BNBUSDT",
+      "symbol": "BNBUSDT",
+      "phase": "radar",
+      "observed_ms": 1793809728560,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793809742573
     }
   ],
   "runs": [
@@ -1912469,7 +1912425,8 @@
         "entry_seq": 0,
         "cohort": "BNBUSDT",
         "observation_lag_ms": 828560,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 14013
       }
     },
     "errors": [],
@@ -1938495,8 +1938452,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "8d181ac34674aa2a96b67cae8df8dd8ffc53e8ee",
-    "previous_success_ms": 1793809465833,
+    "previous_commit": "0d45f91012688a80da95a8d1ca86348b7cf01873",
+    "previous_success_ms": 1793809741264,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
