@@ -1701852,62 +1701852,7 @@
       "source_close_ms": 1793781000000
     }
   },
-  "pending": [
-    {
-      "id": "57a326cbdd21bd3efa009619",
-      "asset_id": "46ebfeaca0cd519b8f3f2317",
-      "key": "MEXC:PERP:GRASSUSDT",
-      "symbol": "GRASSUSDT",
-      "exchange": "MEXC",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793781453948,
-      "price": 0.60295,
-      "level": 0.6031,
-      "invalid": 0.577344052281789,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.6031,
-        "base_invalid": 0.577344052281789,
-        "atr": 0.008372984788073828,
-        "rvol": 3.3930161189699026,
-        "close_position": 0.7286821705426316,
-        "breakout": false,
-        "bar_close_ms": 1793781000000,
-        "kind": "erken dönüş / hacimlenme",
-        "recent_hour_pct": 0.38487282463186556,
-        "score": 4.621698289512534
-      },
-      "context": {
-        "atr": 0.008372984788073828,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -2.1577694212674525,
-        "btc_hour_pct": 0.18814832295332984,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "observed",
-          "market": "MEXC:PERP:GRASSUSDT",
-          "change_pct": -3.5667807540740837,
-          "old_ms": 1793777984279,
-          "current_ms": 1793781451150,
-          "new_short_opening_proven": false
-        },
-        "funding_raw_pct": 0.005,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793781000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRASSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1717594,6 +1717539,17 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793781170024
+    },
+    {
+      "id": "57a326cbdd21bd3efa009619",
+      "asset_id": "46ebfeaca0cd519b8f3f2317",
+      "key": "MEXC:PERP:GRASSUSDT",
+      "symbol": "GRASSUSDT",
+      "phase": "radar",
+      "observed_ms": 1793781453948,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793781466705
     }
   ],
   "runs": [
@@ -1847743,7 +1847699,8 @@
         "entry_seq": 0,
         "cohort": "GRASSUSDT",
         "observation_lag_ms": 453948,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 12757
       }
     },
     "errors": [],
@@ -1873774,8 +1873731,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "c5b9f60427358291cbb8574d7c1550f39ff9e754",
-    "previous_success_ms": 1793781191312,
+    "previous_commit": "fe0ab5a0f6e5c8ac2cc26fa497c81bb9707fa8fc",
+    "previous_success_ms": 1793781465438,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
