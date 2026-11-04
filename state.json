@@ -1704311,108 +1704311,7 @@
       "source_close_ms": 1793781000000
     }
   },
-  "pending": [
-    {
-      "id": "390ebffa2c9bb64c7780d2ed",
-      "asset_id": "20654e4e8d99cb07b7a88bbb",
-      "key": "OKX:PERP:GRASSUSDT",
-      "symbol": "GRASSUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "expired",
-      "observed_ms": 1793781154232,
-      "price": 0.5968,
-      "level": 0.5876,
-      "invalid": 0.5463550910662566,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.5876,
-        "base_invalid": 0.5463550910662566,
-        "atr": 0.008299392891623023,
-        "rvol": 6.248840831459905,
-        "close_position": 0.6219512195121955,
-        "breakout": true,
-        "bar_close_ms": 1793775600000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 3.988803358992299,
-        "score": 7.621951219512195
-      },
-      "context": {
-        "atr": 0.008798622687805398,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": -1.4417291242343255,
-        "btc_hour_pct": 0.17995254280767092,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:GRASSUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": "geri test teyidi gecikti",
-      "source_close_ms": 1793775600000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "GRASSUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    },
-    {
-      "id": "62a9eb9a8870a1995a76f994",
-      "asset_id": "c27c5c140d47589edff9b848",
-      "key": "OKX:PERP:ZRXUSDT",
-      "symbol": "ZRXUSDT",
-      "exchange": "OKX",
-      "kind": "PERP",
-      "phase": "radar",
-      "observed_ms": 1793781154232,
-      "price": 0.098855,
-      "level": 0.09802,
-      "invalid": 0.09648092118506656,
-      "target": null,
-      "radar": {
-        "valid": true,
-        "reasons": [],
-        "level": 0.09802,
-        "base_invalid": 0.09648092118506656,
-        "atr": 0.0005938587662229531,
-        "rvol": 5.801331666406114,
-        "close_position": 0.664122137404574,
-        "breakout": true,
-        "bar_close_ms": 1793781000000,
-        "kind": "hacimli kırılım",
-        "recent_hour_pct": 1.4476386036960998,
-        "score": 7.4654538038106875
-      },
-      "context": {
-        "atr": 0.0005938587662229531,
-        "reasons": [],
-        "support_warnings": [],
-        "relative1h_pp": 0.34598331364277257,
-        "btc_hour_pct": 0.17995254280767092,
-        "trend4h_support": true,
-        "oi_support": {
-          "status": "unknown_or_not_applicable",
-          "market": "OKX:PERP:ZRXUSDT"
-        },
-        "funding_raw_pct": null,
-        "funding_note": "raw indicative rate; interval/scaling unknown, not a paid funding amount"
-      },
-      "entry_plan": null,
-      "reason": null,
-      "source_close_ms": 1793781000000,
-      "entry_route": null,
-      "entry_seq": 0,
-      "cohort": "ZRXUSDT",
-      "trend_detail": null,
-      "was_triggered": false
-    }
-  ],
+  "pending": [],
   "delivery": [
     {
       "id": "fa7abed1d1eb62d5b9d2bdc6",
@@ -1720077,6 +1719976,28 @@
       "entry_seq": 0,
       "entry_route": null,
       "delivered_ms": 1793780271725
+    },
+    {
+      "id": "390ebffa2c9bb64c7780d2ed",
+      "asset_id": "20654e4e8d99cb07b7a88bbb",
+      "key": "OKX:PERP:GRASSUSDT",
+      "symbol": "GRASSUSDT",
+      "phase": "expired",
+      "observed_ms": 1793781154232,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793781170024
+    },
+    {
+      "id": "62a9eb9a8870a1995a76f994",
+      "asset_id": "c27c5c140d47589edff9b848",
+      "key": "OKX:PERP:ZRXUSDT",
+      "symbol": "ZRXUSDT",
+      "phase": "radar",
+      "observed_ms": 1793781154232,
+      "entry_seq": 0,
+      "entry_route": null,
+      "delivered_ms": 1793781170024
     }
   ],
   "runs": [
@@ -1850153,7 +1850074,8 @@
         "entry_seq": 0,
         "cohort": "ZRXUSDT",
         "observation_lag_ms": 154232,
-        "interpretation": "early radar reference, not a trade entry"
+        "interpretation": "early radar reference, not a trade entry",
+        "notification_lag_ms": 15792
       }
     },
     "errors": [],
@@ -1876186,8 +1876108,8 @@
     "original_session_deadline_preserved": true
   },
   "operational_publication": {
-    "previous_commit": "2e0fe1d01c27308b50ae41a54cf130b49dac043c",
-    "previous_success_ms": 1793780891626,
+    "previous_commit": "ff982005b3ae0647c3f3bd51b7f1aab589c50aea",
+    "previous_success_ms": 1793781168584,
     "attempts": 1,
     "verified_prior_acceptance": false
   }
